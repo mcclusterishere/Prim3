@@ -5,6 +5,7 @@ role: Protagonist / future Agent Prime Negative One
 civilian_name: UNSET
 season_one_age: 33
 succession_age: approximately 40
+height: 6 ft 0 in
 ---
 
 # Prime Negative One — Before Prime
@@ -57,14 +58,22 @@ He does not know:
 
 ## Later visual canon
 
-His eventual helmet uses:
+Prime Negative One is exactly six feet tall. His approved full-body Prime form uses:
 
+- Tall, athletic adult proportions
 - The exact M as face architecture
-- Matte black shell
-- Warm ivory/chrome M edging
+- Matte-black segmented composite armor over a flexible technical under-suit
+- Warm ivory/chrome helmet and upper-torso M structure
 - Smoked visor
 - Red `//` Dual Sight bars
 - Visible forehead camera
 - Rear Jetson-class Mission Core
+- Modular forearm interfaces
+- Restrained red system illumination
+- Rugged serviceable joints, gloves and boots
 
-Season One should not place him in the completed Prime helmet except during the future cold open.
+Official visual reference:
+
+`assets/canon/characters/prime-negative-one/PRIME-N1-character-sheet.png`
+
+Season One should not place him in the completed Prime armor except during the future cold open.
