@@ -53,9 +53,9 @@ Physical swatches control production. Screen values are starting points.
 - Avoid generic logo merchandise, random tactical camouflage, unrelated flower motifs, streetwear/drop language, and decorative filler.
 - Do not imitate or remix another real fashion house's protected monogram.
 - Negative space is part of the brand. The default office garment contains zero to three identity events total.
-- Season One office trousers and tailored shorts remain visually solid black. They do not use visible all-over monogram.
+- Season One office trousers and tailored shorts remain visually quiet in an approved Corporate Fits Identity substrate: authority black or bone herringbone. They do not use visible all-over monogram.
 - Trouser branding is limited to near-invisible black-on-black embroidery and one tiny red `//` bartack at a pocket or belt loop.
-- Office shirts use one small exact chest M, an optional tonal-black exact Dual Sight on a sleeve or cuff, and a tiny exact red `//` accent.
+- Office shirts use one small colorway-correct exact chest M, an optional exact Dual Sight on a sleeve or cuff, and a tiny exact red `//` accent.
 - Full monogram repeat belongs on controlled statement outerwear, linings, accessories, and special pieces—not across an entire matching shirt-and-trouser uniform.
 - A complete employee outfit must never read as pajamas, a tracksuit, a costume, a clown suit, or public promotional merch.
 - The exact first-season onboarding package remains to be designed one item at a time.

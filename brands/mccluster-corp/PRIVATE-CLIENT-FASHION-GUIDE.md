@@ -78,33 +78,41 @@ From three meters away, the core office wardrobe should look almost unbranded. F
 | Role | Standard | Behavior |
 |---|---|---|
 | Authority black | `#080A0C` | Dominant substrate; matte to low luster |
+| Bone | `#D8CEBC` | Approved warm herringbone substrate; never optic white |
 | House ivory | `#ECE6D8` | Restricted linework or a very small house mark |
 | State red | `#BC1B2A` | Micro accent only in the office core |
 | Tonal black | Physical thread/finish match | May shift by texture and gloss, never by obvious contrast |
 
 Avoid optic white, bright scarlet, glossy polyester shine, obvious gold plating, rhinestones, loud contrast piping, and decorative hardware with no function.
 
+### Approved Corporate Fits Identity colorways
+
+- **CFI-01 Authority Black:** authority-black substrate, ivory structural M, tonal-black Dual Sight, red Two States.
+- **CFI-02 Bone Herringbone:** warm bone herringbone substrate, black structural M, black Dual Sight, red Two States. The mannequin, buttons, shoes, topstitching, and dark hardware stay black.
+
+A colorway changes controlled color and substrate only. Fit, construction, symbol geometry, placement ceiling, and garment lineup remain locked.
+
 ## 6. Season One office core
 
 ### Button-up shirts
 
-- Solid authority black.
+- Use one approved Corporate Fits Identity substrate: solid authority black or warm bone luxury herringbone.
 - One exact M emblem may appear at the left chest, small enough to remain a signature rather than a billboard.
-- One exact Dual Sight may appear black-on-black at a sleeve hem, cuff, back yoke, or under-collar position.
+- One exact Dual Sight may appear tonal black-on-black or controlled black-on-bone at a sleeve hem, cuff, back yoke, or under-collar position.
 - One exact Two States glyph may appear as a tiny red cuff, placket, collar-tip, or side-seam code.
 - Exterior repeat is prohibited. Repeat may appear inside a collar stand, under a cuff, inside the back yoke, or in another private reveal.
 
 ### Trousers
 
-- The visual field is 95–99% plain black.
+- The visual field is 95–99% uninterrupted approved substrate: authority black or bone herringbone.
 - Use a precise professional rise, pressed crease, clean waistband, controlled break, and excellent pocket construction.
-- Optional identity: one tiny tonal M near a pocket or inside the waistband, plus one red Two States bartack at a belt loop or pocket edge.
+- Optional identity: one tiny colorway-correct M near a pocket or inside the waistband, plus one red Two States bartack at a belt loop or pocket edge.
 - No exterior all-over pattern, large M, bright Dual Sight, stripe system, cargo clutter, or matching-shirt monogram.
 
 ### Tailored shorts
 
 - Treat as abbreviated trousers, not street shorts.
-- Plain black with one optional tonal Dual Sight near the lower hem and one micro Two States bartack.
+- Plain approved substrate with one optional colorway-correct Dual Sight near the lower hem and one micro Two States bartack.
 - No repeat, athletic trim, oversized pockets, drawstrings, or visible tactical webbing in the office core.
 
 ### Outerwear, linings, and accessories
