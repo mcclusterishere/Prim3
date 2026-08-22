@@ -10,7 +10,7 @@ version: 1.0
 
 ## EI-01 — Executive Authority
 
-![McCluster Corp Executive Skin](../../assets/canon/brands/mccluster-corp/executive-identity/MCC-EI-01-modern-executive-horizontal-two-stripe-clip-v01.jpg)
+![McCluster Corp Executive Skin](../../assets/canon/brands/mccluster-corp/executive-identity/MCC-EI-01-modern-executive-horizontal-two-stripe-clip-v01.webp)
 
 ## Role distinction
 

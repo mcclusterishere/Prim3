@@ -12,9 +12,9 @@ This directory controls the highest-level McCluster Corp executive skin. The exe
 
 ## EI-01 — Executive Authority
 
-![McCluster Corp Executive Skin — Executive Authority](MCC-EI-01-modern-executive-horizontal-two-stripe-clip-v01.jpg)
+![McCluster Corp Executive Skin — Executive Authority](MCC-EI-01-modern-executive-horizontal-two-stripe-clip-v01.webp)
 
-SHA-256: `55cf3784b9b9320493659da5a14cf9dfc43e9c233f6a5b3ece8f0825807aa3de`
+SHA-256: `2fc214312a8d25a273b27cc8b9d9792e94441adc7366f4c5640f6b02525a5755`
 
 ## Locked exterior system
 
@@ -34,4 +34,4 @@ No double-breasted jacket, peak-lapel ceremony styling, loud monogram surface, p
 
 ## Production warning
 
-This render controls silhouette, hierarchy, palette, and placement logic. It is not production artwork. Manufacture all marks and hardware from the locked masters in `../marks/`; never trace or regenerate a mark from this JPG.
+This render controls silhouette, hierarchy, palette, and placement logic. It is not production artwork. Manufacture all marks and hardware from the locked masters in `../marks/`; never trace or regenerate a mark from this WebP.
