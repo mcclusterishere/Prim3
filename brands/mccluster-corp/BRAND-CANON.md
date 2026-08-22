@@ -2,7 +2,7 @@
 status: CANON
 brand: McCluster Corp
 system: Dual Sight
-version: 1.0
+version: 1.1
 ---
 
 # McCluster Corp brand canon
@@ -48,6 +48,11 @@ Physical swatches control production. Screen values are starting points.
 - Avoid generic logo-print merchandise, random tactical camouflage and unrelated flower motifs.
 - Do not imitate or remix another real fashion house's protected monogram.
 - Dense monogram should be balanced by black negative space.
+- Season One office trousers and tailored shorts remain visually solid black. They do not use visible all-over monogram.
+- Trouser branding is limited to near-invisible black-on-black embroidery and one tiny red `//` bartack at a pocket or belt loop.
+- Office shirts use one small chest M, an optional tonal-black Dual Sight on a sleeve or cuff, and a tiny red `//` accent.
+- Full monogram repeat belongs on controlled statement outerwear, linings, accessories and special pieces—not across an entire matching shirt-and-trouser uniform.
+- A complete employee outfit must never read as pajamas, a tracksuit, a costume or a clown suit. Luxury is carried primarily by tailoring, fabric and construction.
 - The exact first-season onboarding package remains to be designed one item at a time.
 - Apex Tactical Corp branding is not interchangeable with McCluster Corp branding.
 
