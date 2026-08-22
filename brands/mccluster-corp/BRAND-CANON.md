@@ -13,7 +13,7 @@ McCluster Corp must look like an original global luxury house fused with an elit
 
 **North star: wealth, not riches.** McCluster is the private-client collection the public never sees. The reference to Gucci-type presence describes cultural confidence, construction quality, and house-level consistency—not permission to copy another fashion house.
 
-The controlling clothing document is [`PRIVATE-CLIENT-FASHION-GUIDE.md`](PRIVATE-CLIENT-FASHION-GUIDE.md). The active Season One visual direction is [`CORPORATE-WEAR-STYLE-SHEET.md`](CORPORATE-WEAR-STYLE-SHEET.md).
+The controlling clothing document is [`PRIVATE-CLIENT-FASHION-GUIDE.md`](PRIVATE-CLIENT-FASHION-GUIDE.md). The active Season One visual direction is [`CORPORATE-WEAR-STYLE-SHEET.md`](CORPORATE-WEAR-STYLE-SHEET.md). Corporate security equipment is controlled separately by [`SECURITY-OFFICER-STYLE-SHEET.md`](SECURITY-OFFICER-STYLE-SHEET.md).
 
 ## Locked symbol system
 
