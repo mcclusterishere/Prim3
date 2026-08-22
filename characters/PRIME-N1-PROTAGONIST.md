@@ -57,7 +57,9 @@ He does not know:
 
 ## Later visual canon
 
-His eventual helmet uses:
+**Official suit locked.** See `characters/PRIME-OFFICIAL-SUIT.md` and the accompanying multi-view character sheet.
+
+His eventual helmet and full suit use:
 
 - The exact M as face architecture
 - Matte black shell
