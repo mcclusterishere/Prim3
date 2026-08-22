@@ -10,7 +10,7 @@ episode_count: UNSET
 
 ## Season promise
 
-A grounded adult college drama gradually reveals that the protagonist's technology internship is an entrance examination for a hidden global organization.
+A grounded adult college drama gradually reveals that the protagonist's McCluster Corp technology internship is an entrance examination for Apex Tactical Corp, the hidden global organization controlling it.
 
 The season must work before the audience understands the full Prime mythology.
 
@@ -36,12 +36,15 @@ The truth is that his unusual combination of experience, deprivation and persist
 - Financial and housing instability remain immediate
 - Younger classmates initially mistake age for authority or failure
 - Coursework exposes the difference between practical knowledge and formal theory
-- A corporate internship appears to offer legitimacy
+- A McCluster Corp internship appears to offer legitimacy
 
 ### 2. The internship
 
-- The corporation presents as serious but ordinary
+- McCluster Corp presents as prestigious, serious and legitimate
 - Work begins with believable IT and infrastructure responsibilities
+- The protagonist receives a high-end McCluster Corp swag package during onboarding
+- Every employee wears some form of branded corporate clothing or accessory
+- For a protagonist entering from poverty and homelessness, the clothing initially feels like dignity, access and proof that he belongs
 - The protagonist notices permissions, facilities and reporting paths that do not match the stated business
 - Members of the same intake display unusually diverse technical and operational ability
 
@@ -67,6 +70,15 @@ The truth is that his unusual combination of experience, deprivation and persist
 - The corporation frames the loss in sterile procedural language
 - The protagonist recognizes that management anticipated the fatality
 - He chooses to remain
+
+## Season One wardrobe and brand presence
+
+- McCluster Corp has the visual discipline of an original luxury house, not ordinary promotional merchandise.
+- The approved Dual Sight monogram appears on employee outerwear, knitwear, shirts, accessories, bags and interior surfaces as appropriate; the exact initial item list remains a wardrobe-design decision.
+- The black, ivory and signal-red pattern should appear repeatedly enough that the audience associates it with aspiration before associating it with control.
+- All wardrobe generations must use the supplied seamless master. Do not imitate Gucci, Louis Vuitton or another real house's protected pattern.
+- The protagonist's relationship to the swag should evolve: first it is evidence that he has finally arrived; later it becomes the uniform of an architecture he cannot easily leave.
+- Apex Tactical Corp branding remains separate and largely hidden. Do not place an unapproved Apex logo on McCluster clothing.
 
 ## Season-ending revelation
 

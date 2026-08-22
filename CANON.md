@@ -1,7 +1,7 @@
 # PRIM3 Canon Register
 
 **Status:** Foundation canon  
-**Continuity version:** 0.1.0  
+**Continuity version:** 0.3.0  
 **Authority:** Matthew McCluster  
 **Rule:** If material conflicts with this register, this register wins until deliberately revised.
 
@@ -71,6 +71,33 @@ Prime Negative One is a survivor who takes seven years and cannot be permanently
 
 The final succession is genius versus tenacity, speed versus endurance, and immediate mastery versus relentless growth.
 
+## Corporate architecture
+
+### McCluster Corp
+
+- McCluster Corp is the public-facing corporation that hires the protagonist in Season One.
+- It appears to be a prestigious technology employer with a sophisticated design culture.
+- It is a front owned and controlled by Apex Tactical Corp.
+- It provides recruitment, employment, contracts and institutional cover for personnel who may later enter Apex operations.
+- Many McCluster Corp employees do not know the complete structure above them.
+- McCluster Corp issues luxury-house-grade corporate clothing and accessories. Everyone inside the corporation wears visible corporate swag.
+- The protagonist receives McCluster Corp swag during Season One.
+- The exact McCluster Dual Sight monogram system is the wardrobe and environmental brand source of truth.
+
+### Apex Tactical Corp
+
+- Apex Tactical Corp is the de facto parent organization controlling McCluster Corp and several other front corporations.
+- It supports black-site operations and deals with governments throughout the world.
+- Its ownership, legal reach and operational boundaries are intentionally obscured.
+- Front corporations separate public activity, recruitment and legitimate contracts from classified Apex operations.
+- Prime is Apex's highest operational authority; the exact legal relationship between the Prime office and Apex corporate ownership remains deliberately opaque.
+
+### Public brand / hidden system
+
+The McCluster Corp brand is not camouflage because it looks cheap or forgettable. It hides Apex by appearing desirable, legitimate and culturally powerful. Its monogrammed wardrobe creates belonging, status and visual discipline before recruits understand what they have joined.
+
+The approved brand palette is black `#080A0C`, ivory `#ECE6D8` and red `#BC1B2A`. The locked system uses the exact M emblem, Dual Sight glyph and red Two States `//` glyph. No invented flowers, generic luxury symbols or substituted monograms are permitted.
+
 ## Site 0
 
 Site 0 is the end-state of the journey—not the opening status quo. It eventually becomes Prime Negative One's command environment, responsibility and prison.
@@ -112,7 +139,6 @@ Locked for the later Prime identity:
 Do not invent these without an owner decision:
 
 - Civilian names
-- Corporation name
 - College and geographic location
 - Exact future dates
 - Names and biographies of cohort members
