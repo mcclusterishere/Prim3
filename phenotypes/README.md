@@ -1,7 +1,7 @@
 ---
 status: DRAFT / SYSTEM FOUNDATION
 system: Phenotypes
-version: 0.1.0
+version: 0.2.0
 ---
 
 # PRIM3 Phenotype System
@@ -32,7 +32,8 @@ A phenotype answers:
 | ID | Name | Status | Primary Use |
 |----|------|--------|-------------|
 | PRIME-N1 | Prime Negative One / Full Operator | APPROVED-REFERENCE | End-state Prime identity & high-tier operators |
-| CO-01 | Cohort Operator (Standard) | PROPOSED | Active cohort members on mission |
+| FO-01 | Field Operator | PROPOSED | External deployment / real-world operations |
+| CO-01 | Cohort Operator (Standard) | PROPOSED | Active cohort members on institutional mission |
 | CO-02 | Cohort Operator (Light / Training) | PROPOSED | Early training & low-visibility work |
 
 ### Civilian / Entry
@@ -61,6 +62,7 @@ phenotypes/
 │   └── security-officer/
 ├── operators/
 │   ├── prime-negative-one/
+│   ├── field-operator/            ← FO-01
 │   ├── cohort-standard/
 │   └── cohort-light/
 ├── civilian/
