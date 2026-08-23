@@ -1,14 +1,14 @@
 ---
 status: PRODUCTION BRIEF
 hybrid_name: Field-T Technical Operator
-system: 3D asset pipeline — TreePo + suit assembly
-version: 1.0.0
+system: 3D asset pipeline — Tripo AI + suit assembly
+version: 1.0.1
 ---
 
 # Field-T — 3D asset brief (item-by-item)
 
 Each row is **one exportable 3D asset**.  
-Built for **TreePo AI** (generate each object alone) then a **suit-assembly AI** (snap objects to named sockets on the body).
+Built for **Tripo AI** (generate each object alone) then a **suit-assembly AI** (snap objects to named sockets on the body).
 
 ## Pipeline rules
 1. **One file = one object.** No combined “kit” meshes.
@@ -194,7 +194,7 @@ Built for **TreePo AI** (generate each object alone) then a **suit-assembly AI**
 | **object** | Same bounding box as Standard |
 | **diff from Standard** | Deeper port covers (lids closed by default); thicker edge gasket; no bright status strip; darker shell |
 | **socket** | same as Standard |
-| **TreePo tip** | Generate as variant of Standard with “shielded sealed ports, darker RF shell, no LED strip” |
+| **Tripo tip** | Generate as variant of Standard with “shielded sealed ports, darker RF shell, no LED strip” |
 
 ### D3 — Deck Lite
 | Field | Value |
@@ -270,7 +270,7 @@ Built for **TreePo AI** (generate each object alone) then a **suit-assembly AI**
 | **filename** | `MCC_FT_isolation_sleeve` |
 | **object** | Flat Faraday pouch + separate small filter puck |
 | **size** | Pouch ~18 × 12 cm flat; puck ~6 × 4 × 2 cm |
-| **export** | Prefer **two assets**: `isolation_pouch`, `isolation_puck` if TreePo splits cleanly |
+| **export** | Prefer **two assets**: `isolation_pouch`, `isolation_puck` if Tripo splits cleanly |
 | **socket** | `sock_module_belt_r` or thigh |
 
 ---
@@ -337,7 +337,7 @@ Swap deck → `deck_hardened`; add `integrity_dongle`; optional `isolation_sleev
 
 ---
 
-## TreePo prompt skeleton (per item)
+## Tripo AI prompt skeleton (per item)
 
 Use this pattern for each asset_id:
 
