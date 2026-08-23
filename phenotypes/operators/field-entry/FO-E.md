@@ -3,7 +3,7 @@ status: PROPOSED
 id: FO-E
 name: Entry Field Operator
 system: Operators / Field
-version: 0.2.0
+version: 0.3.0
 parent: FO-01
 ---
 
@@ -74,6 +74,100 @@ Bulk that slows movement through doors, stairs, or confined plant rooms is rejec
 - Long-duration observation / sniper-style optics packages (FO-R domain)
 - Clean Corporate Fits garments
 - Non-McCluster marks or generic special-forces patches
+
+---
+
+## Gear Loadouts by Mission Profile
+
+FO-E does not wear one fixed kit. The base identity stays constant; modules change with the phase of the operation. Below are the four primary loadout configurations.
+
+### 1. Approach & Entry (FO-E-AE)
+**Use when:** Moving to the objective and making the initial breach or technical entry.
+
+| Category | Load |
+|----------|------|
+| Armor | Soft-to-mid torso; optional thin plates |
+| Entry tools | Full mechanical set + limited energetic if authorized |
+| Kinetic | Sidearm + mission-selected primary |
+| Comms | Full secure team link |
+| Recording | Continuous from final approach |
+| Identification | Strong Dual Sight / `//` visibility |
+| Mobility | Balanced — must carry entry tools without becoming slow in corridors |
+
+**Design note:** This is FO-E at its most tool-heavy. The job is to open the space. Once inside and the door is controlled, excess entry tools can be staged or dropped if they interfere with holding.
+
+---
+
+### 2. Hold & Protect (FO-E-HP)
+**Use when:** FO-T is on the target node and FO-E is pure close security — doors, angles, and immediate space.
+
+| Category | Load |
+|----------|------|
+| Armor | Soft-to-mid; prioritize coverage over tool bulk |
+| Entry tools | Minimal — only what is still needed for interior obstacles |
+| Kinetic | Sidearm + primary ready; emphasis on control, not volume of fire |
+| Comms | Full link to FO-T and FO-R |
+| Recording | Continuous |
+| Identification | High visibility for rapid team recognition in confined space |
+| Mobility | High within the held space; must be able to shift rooms or collapse fast |
+
+**Design note:** Stripped of pure entry bulk. The product is controlled space and time. Every extra pouch that slows a room-to-room shift is a liability.
+
+---
+
+### 3. Contact / Collapse (FO-E-CC)
+**Use when:** The space is compromised, contact has occurred, or FO-R has called an external threat that forces movement.
+
+| Category | Load |
+|----------|------|
+| Armor | Maximum authorized soft-to-mid for FO-E |
+| Entry tools | Only what is required for the exit path |
+| Kinetic | Sidearm + primary; readiness for short, decisive action |
+| Comms | High-tempo team link |
+| Recording | Continuous through the break-contact |
+| Identification | High visibility — team must find each other under stress |
+| Mobility | Highest priority — lead the move, keep FO-T moving, break contact |
+
+**Design note:** This is FO-E in emergency mode. Entry tools become secondary. The job is no longer “hold for the technical window”; it is “get the protected asset and the team off the objective alive.”
+
+---
+
+### 4. Technical Escort (FO-E-TE)
+**Use when:** Moving FO-T between nodes inside a larger facility, or escorting the technical element during a multi-stage objective where entry is already complete but the space is still hostile.
+
+| Category | Load |
+|----------|------|
+| Armor | Soft-to-mid, balanced for movement with FO-T |
+| Entry tools | Light interior set (doors, cabinets, secondary barriers) |
+| Kinetic | Sidearm + compact primary preferred |
+| Comms | Tight link to FO-T; FO-R picture still active |
+| Recording | Continuous |
+| Identification | Readable Dual Sight |
+| Mobility | Matched to FO-T’s pace — never so light that protection is sacrificed, never so heavy that FO-T is delayed |
+
+**Design note:** Hybrid of Hold and movement. FO-E stays glued to the technical element without turning the pair into a slow, over-armored target.
+
+---
+
+### Loadout Selection Logic
+
+| Situation | Preferred Loadout |
+|-----------|-------------------|
+| Final approach and initial breach | Approach & Entry (FO-E-AE) |
+| FO-T working, space still tenable | Hold & Protect (FO-E-HP) |
+| Contact, FO-R abort call, or space lost | Contact / Collapse (FO-E-CC) |
+| Moving FO-T between interior nodes | Technical Escort (FO-E-TE) |
+
+An operator will typically sequence through these in a single mission: Approach & Entry → Hold & Protect → (optional Technical Escort) → Contact/Collapse or controlled exit.
+
+### Cross-loadout rules
+1. Sidearm never comes off.
+2. Dual Sight stays readable unless a specific low-signature phase is ordered (rare for FO-E).
+3. No loadout may become a full technical exploitation kit or a pure long-range observation package.
+4. If the operator cannot move through a standard door or stairwell under control, the loadout is wrong for FO-E.
+5. When FO-T is exposed and working, FO-E’s kit must not create noise, snag, or delay that endangers the technical window.
+
+---
 
 ## Core Responsibilities
 - Route selection and physical approach
