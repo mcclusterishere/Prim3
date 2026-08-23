@@ -1,7 +1,7 @@
 ---
 status: DRAFT / SYSTEM FOUNDATION
 system: Phenotypes
-version: 0.4.0
+version: 0.5.0
 ---
 
 # PRIM3 Phenotype System
@@ -9,6 +9,8 @@ version: 0.4.0
 **Phenotypes** are locked visual + functional identity systems for classes of people in the PRIM3 universe.  
 They are **not** individual characters.  
 They are reusable skins, loadouts, and social signals that any character can inhabit based on role, rank, season, and mission context.
+
+Built for the trifecta: **video game · seasonal storyline · real institutional design**.
 
 ---
 
@@ -38,6 +40,7 @@ They are reusable skins, loadouts, and social signals that any character can inh
 | FO-R | Recon / Overwatch Field Operator | PROPOSED | Surveillance, perimeter, early warning |
 | CO-01 | Cohort Operator (Standard) | PROPOSED | Active cohort institutional mission |
 | CO-02 | Cohort Operator (Light / Training) | PROPOSED | Early training & low-visibility work |
+| CO-03 | Cohort Lead | PROPOSED | Runs the element; accountable for team outcome |
 
 ### Civilian / Entry
 | ID | Name | Status | Primary Use |
@@ -61,8 +64,6 @@ They are reusable skins, loadouts, and social signals that any character can inh
 | **SOI-02** Access Control | Who enters and exits |
 | **SOI-03** Technical Facility | High-value technical zones and cyber-physical defense |
 
-These are **not** field operators. They protect McCluster-controlled space.
-
 ---
 
 ## Basic Field Team Triad
@@ -72,6 +73,18 @@ These are **not** field operators. They protect McCluster-controlled space.
 | **FO-T** Technical | Systems access, extraction, analysis |
 | **FO-E** Entry | Physical access + close security |
 | **FO-R** Recon | External picture + early warning |
+
+---
+
+## Cohort Progression Triad
+
+| Phenotype | Primary Job |
+|-----------|-------------|
+| **CO-02** Light / Training | Early exposure, low-visibility work |
+| **CO-01** Standard | Active mission-capable cohort member |
+| **CO-03** Lead | Runs the element; accountable for the team’s outcome |
+
+Path: CO-02 → CO-01 → CO-03 → (succession) → PRIME-N1
 
 ---
 
