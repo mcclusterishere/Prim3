@@ -1,75 +1,115 @@
 ---
-status: DRAFT / SYSTEM FOUNDATION
+status: CANON INDEX
 system: Phenotypes
-version: 0.6.0
+version: 1.0.0
 ---
 
-# PRIM3 Phenotype System
+# PRIM3 Phenotypes — clear index
 
-**Phenotypes** are locked visual + functional identity systems for classes of people (and platforms) in the PRIM3 universe.  
-Built for the trifecta: **video game · seasonal storyline · real institutional design**.
+**Phenotype = role** (job / place in the system)  
+**Wear = clothes** (what they look like)
 
----
+Read [NAMING.md](./NAMING.md) for the full hybrid naming rules.
 
-## Current Active Phenotypes
-
-### Institutional Authority (Suit Triad)
-| ID | Name | Status | Primary Use |
-|----|------|--------|-------------|
-| EI-01 | Executive Authority | CANON | Strategic control, final institutional weight |
-| EI-02 | Program / Operations Director | PROPOSED | Programs, resources, operational tempo |
-| EI-03 | Mission Sponsor / Accountable Officer | PROPOSED | Owns a specific line of effort |
-
-### Building Defense
-| ID | Name | Status | Primary Use |
-|----|------|--------|-------------|
-| SOI-01 | Security Officer — Standard | CANON | General facility protection & response |
-| SOI-02 | Access Control Officer | PROPOSED | Gates, lobbies, identity verification |
-| SOI-03 | Technical Facility Security | PROPOSED | Server rooms, labs, cyber-physical defense |
-
-### Building Systems (Non-Human)
-| ID | Name | Status | Primary Use |
-|----|------|--------|-------------|
-| BS-01 | Building Systems Platform | PROPOSED | Robot / autonomous facility infrastructure |
-
-### Field Operators
-| ID | Name | Status | Primary Use |
-|----|------|--------|-------------|
-| FO-01 | Field Operator (base) | PROPOSED | External deployment parent identity |
-| FO-T | Technical Field Operator | PROPOSED | Data, network, extraction |
-| FO-E | Entry Field Operator | PROPOSED | Physical access & close security |
-| FO-R | Recon / Overwatch | PROPOSED | External picture & early warning |
-
-### Cohort / Succession
-| ID | Name | Status | Primary Use |
-|----|------|--------|-------------|
-| CO-02 | Cohort Light / Training | PROPOSED | Early exposure |
-| CO-01 | Cohort Standard | PROPOSED | Active mission-capable member |
-| CO-03 | Cohort Lead | PROPOSED | Runs the element |
-| PRIME-N1 | Prime Negative One | APPROVED-REFERENCE | Succession end-state |
-
-### Corporate / Entry / Adversarial
-| ID | Name | Status |
-|----|------|--------|
-| CFI-01 / CFI-02 | Corporate Fits | CANON |
-| RS-01 | Recruit Student | PROPOSED |
-| AC-01 | Academic / Campus | PROPOSED |
-| ADV-01 / ADV-02 | Adversarial | PROPOSED |
+Built for: **video game · seasonal story · real institutional design**
 
 ---
 
-## Core Triads
+## The 13 internal roles (+ 1 robot)
 
-**Institutional Authority:** EI-01 → EI-02 → EI-03  
-**Building Defense:** SOI-01 / SOI-02 / SOI-03  
-**Field:** FO-T / FO-E / FO-R  
-**Cohort:** CO-02 → CO-01 → CO-03 → PRIME-N1  
+### Authority — the suits
+| Hybrid name | Job |
+|-------------|-----|
+| **Authority-01 Executive** | Top power. Decides if the institution continues. |
+| **Authority-02 Director** | Runs programs and resources. Decides what work is allowed. |
+| **Authority-03 Mission Sponsor** | Name on one mission line. The suit the team actually feels. |
 
-**Building Systems:** BS-01 (robot — runs the building)
+### Defense — human building guards
+| Hybrid name | Job |
+|-------------|-----|
+| **Defense-01 Building Guard** | General facility protection and response. |
+| **Defense-02 Access Officer** | Gates, lobbies, who gets in and out. |
+| **Defense-03 Tech-Zone Guard** | Server rooms, labs, technical zones. |
+
+### Field — external ops team (always a set of three)
+| Hybrid name | Job |
+|-------------|-----|
+| **Field-T Technical Operator** | Hands on the target systems (data / extract). |
+| **Field-E Entry Operator** | Opens and holds the physical space. |
+| **Field-R Overwatch Operator** | Watches outside; early warning. |
+
+### Cohort — progression path toward Prime
+| Hybrid name | Job |
+|-------------|-----|
+| **Cohort-02 Trainee** | Early cohort. Training. Not full field ops. |
+| **Cohort-01 Operator** | Active mission-capable cohort member. |
+| **Cohort-03 Lead** | Runs the small team. |
+| **Prime-N1 Prime** | End-state operator identity. |
+
+### System — non-human
+| Hybrid name | Job |
+|-------------|-----|
+| **System-01 Building Platform** | Robot / automation that runs the building. |
 
 ---
 
-## Core Principle
+## Clothes (not roles)
 
-Phenotypes are the visual grammar of power, access, and belonging in PRIM3.  
-They must feel like a complete, living institution — not random costumes.
+| Hybrid name | What it is | Who wears it |
+|-------------|------------|--------------|
+| **Wear-01 Company Black** | Black company wardrobe | Cohort-02 Trainee default; also off-kit cohort and employees |
+| **Wear-02 Company Bone** | Bone herringbone company wardrobe | Alternate company wardrobe |
+
+**Important:**  
+Cohort-02 Trainee is a **role**.  
+Wear-01 Company Black is **clothing**.  
+A trainee’s normal clothes are Company Wear. That does not make “Company Wear” a job.
+
+---
+
+## How the pieces connect (plain language)
+
+```
+Authority-01 Executive
+  └── Authority-02 Director
+        └── Authority-03 Mission Sponsor
+              └── Cohort-03 Lead
+                    ├── Field-T Technical Operator
+                    ├── Field-E Entry Operator
+                    └── Field-R Overwatch Operator
+
+Defense-01 / Defense-02 / Defense-03  → protect the building (humans)
+System-01 Building Platform           → runs the building (robot)
+
+Cohort path:
+  Cohort-02 Trainee  →  Cohort-01 Operator  →  Cohort-03 Lead  →  Prime-N1 Prime
+  (mostly Company Wear)   (ops kit when working)    (leads team)     (end-state)
+```
+
+---
+
+## Skins we already have vs still need
+
+| Hybrid name | Visual skin in repo? |
+|-------------|----------------------|
+| Authority-01 Executive | Yes |
+| Authority-02 Director | No |
+| Authority-03 Mission Sponsor | No |
+| Defense-01 Building Guard | Yes |
+| Defense-02 Access Officer | No |
+| Defense-03 Tech-Zone Guard | No |
+| Field-T / Field-E / Field-R | No |
+| Cohort-02 Trainee | Uses Wear-01 / Wear-02 (yes) |
+| Cohort-01 Operator | No dedicated ops skin yet |
+| Cohort-03 Lead | No |
+| Prime-N1 Prime | Yes |
+| System-01 Building Platform | No |
+| Wear-01 / Wear-02 | Yes (these are the clothes) |
+
+---
+
+## Old codes (background only)
+
+File folders may still say `CO-02`, `FO-T`, `SOI-01`, `CFI-01`.  
+Those are storage labels.  
+**When reading or designing, use the hybrid names above.**
