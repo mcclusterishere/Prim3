@@ -3,7 +3,7 @@ status: PROPOSED
 id: FO-R
 name: Recon / Overwatch Field Operator
 system: Operators / Field
-version: 0.2.0
+version: 0.3.0
 parent: FO-01
 ---
 
@@ -76,6 +76,103 @@ Every item must justify itself against the cost of being detected.
 - High-visibility Dual Sight configurations when the mission requires low signature
 - Clean Corporate Fits garments
 - Non-McCluster marks
+
+---
+
+## Gear Loadouts by Mission Profile
+
+FO-R does not wear one fixed kit. The base identity stays constant; modules change with the job. Below are the four primary loadout configurations.
+
+### 1. Static Overwatch (FO-R-SO)
+**Use when:** The team is fixed on an objective for a defined technical window and FO-R holds a prepared observation position covering the main approaches.
+
+| Category | Load |
+|----------|------|
+| Armor | Lightest soft vest only |
+| Optics | Full day/night observation package, stable mounting if available |
+| Sensors | Extended-duration motion/acoustic if authorized |
+| Kinetic | Sidearm + optional longer weapon for the overwatch lane |
+| Comms | Full secure link + possible relay role |
+| Recording | Continuous observation recording |
+| Signature | Dual Sight subdued or covered; minimal reflective surfaces |
+| Mobility | Optimized for long static holds and one rapid displacement |
+
+**Design note:** This is the heaviest FO-R gets on optics and the lightest on movement gear. Patience gear, not assault gear.
+
+---
+
+### 2. Mobile Perimeter (FO-R-MP)
+**Use when:** FO-R must move between multiple vantage points or actively patrol a perimeter while the team is inside.
+
+| Category | Load |
+|----------|------|
+| Armor | Light soft vest |
+| Optics | Compact, fast-acquisition observation tools |
+| Sensors | Minimal; prioritizes eyes and movement |
+| Kinetic | Sidearm primary; longer weapon only if the route requires it |
+| Comms | Standard secure team link |
+| Recording | On-demand + key-event capture |
+| Signature | Low; Dual Sight controllable |
+| Mobility | Highest priority — quiet movement, rapid shifts between positions |
+
+**Design note:** Stripped for movement. Sees less far than Static Overwatch but covers more ground and is harder to fix.
+
+---
+
+### 3. Low-Signature Surveillance (FO-R-LS)
+**Use when:** Pre-mission pattern-of-life work, long-duration covert observation, or any phase where detection is more dangerous than delayed warning.
+
+| Category | Load |
+|----------|------|
+| Armor | Minimal soft protection or concealment-priority layering |
+| Optics | Compact, non-reflective, night-capable |
+| Sensors | Passive or highly selective; avoid active emitters |
+| Kinetic | Sidearm only |
+| Comms | Lowest-power secure link; burst or scheduled if required |
+| Recording | Selective, high-value capture only |
+| Signature | Maximum suppression — Dual Sight fully muted/covered, no visible red |
+| Mobility | Slow, deliberate, concealment-first movement |
+
+**Design note:** This is FO-R at its quietest. The operator accepts reduced immediate kinetic capability in exchange for not existing on the adversary’s picture.
+
+---
+
+### 4. Exfil Screen (FO-R-ES)
+**Use when:** The technical window is closing or has closed and the team is moving to extraction. FO-R shifts from pure observation to active screening of the route out.
+
+| Category | Load |
+|----------|------|
+| Armor | Light soft vest (may accept slight increase for the movement phase) |
+| Optics | Compact, rapid-use |
+| Sensors | Minimal |
+| Kinetic | Sidearm + readiness for short defensive action |
+| Comms | Full team link, higher tempo |
+| Recording | Continuous through the movement |
+| Signature | Controllable; may raise Dual Sight visibility for team ID during movement |
+| Mobility | High — must stay ahead of or parallel to the main body |
+
+**Design note:** Transition loadout. Still lighter than FO-E, but no longer optimized purely for static invisibility. The job is now “keep the route clear and the picture live until everyone is out.”
+
+---
+
+### Loadout Selection Logic
+
+| Situation | Preferred Loadout |
+|-----------|-------------------|
+| Long technical window, known approaches | Static Overwatch (FO-R-SO) |
+| Multiple angles, active perimeter | Mobile Perimeter (FO-R-MP) |
+| Pre-mission or deep covert phase | Low-Signature Surveillance (FO-R-LS) |
+| Team moving to extract | Exfil Screen (FO-R-ES) |
+
+An operator may shift between these during a single mission (e.g., Low-Signature → Static Overwatch → Exfil Screen). The base FO-R identity does not change; only the module set does.
+
+### Cross-loadout rules
+1. Sidearm never comes off.
+2. Dual Sight visibility is a deliberate choice, not a default.
+3. No loadout may cross into FO-E entry bulk or FO-T technical exploitation primary kits.
+4. If the operator cannot move quietly and displace quickly, the loadout is wrong for FO-R.
+
+---
 
 ## Core Responsibilities
 - Pre-mission surveillance of approaches and patterns of life
