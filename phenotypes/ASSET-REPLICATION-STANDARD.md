@@ -1,7 +1,7 @@
 ---
 status: CANON PRODUCTION RULE
 system: Asset pipeline
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Asset replication standard (do not break)
@@ -14,7 +14,7 @@ Every asset in this world must be described clearly enough that **any model read
 2. **Four orthographic views**: Front · Back · Side A · Side B
 3. Same materials, proportions, mount points, and institutional style
 
-No vague “tactical brick.” No “ roughly phone-sized.” If ChatGPT cannot draw the same prop four times from the repo text alone, the description is incomplete.
+No vague “tactical brick.” No “roughly phone-sized.” If ChatGPT cannot draw the same prop four times from the repo text alone, the description is incomplete.
 
 ---
 
@@ -22,9 +22,9 @@ No vague “tactical brick.” No “ roughly phone-sized.” If ChatGPT cannot 
 
 ```
 1. Write / read ASSET CARD in repo (this standard)
-2. ChatGPT → four views of that exact asset (Front, Back, Side A, Side B)
-3. Tripo AI → GLB from those views (image-to-model or multiview-to-model)
-4. Store GLB + cards in repo under assets/
+2. ChatGPT → four SEPARATE photos (one Front, one Back, one Side A, one Side B)
+3. Tripo AI → GLB from those four files (multiview-to-model preferred)
+4. Store GLB + cards + view PNGs in repo under assets/
 5. Assemble kits later (sockets + phenotype skins)
 ```
 
@@ -63,34 +63,61 @@ Every single object gets its own card. Filename pattern:
 | **phenotype / skin** | Which role and loadouts use it |
 | **real-world dimensions** | L × W × H in **cm** (and mass class if useful) |
 | **form summary** | One tight paragraph: shape, silhouette, what it is |
-| **materials** | Exact matte/ gloss / textile / polymer language |
+| **materials** | Exact matte / gloss / textile / polymer language |
 | **Front** | What you see looking at the primary face |
 | **Back** | Opposite face |
-| **Side A** | Usually operator-left or port side — say which |
+| **Side A** | Defined once (e.g. left when object faces camera) |
 | **Side B** | Opposite side |
 | **mount / socket** | `sock_…` id and how it attaches |
 | **mark_zone** | Where decals go; geometry must not invent logos |
-| **do not** | Explicit anti-features (no MOLLE garden, no bright LEDs, etc.) |
-| **ChatGPT image prompt block** | Copy-paste block that forces four consistent views |
-| **Tripo note** | image-to-model vs multiview; face_limit if game mesh |
+| **do not** | Explicit anti-features |
+| **ChatGPT prompts** | **Four separate prompt blocks** — one per view |
+| **Tripo note** | Multiview from four files; face_limit if game mesh |
 | **output filename** | `MCC_FT_<asset_id>.glb` |
 
 ### Dimension rule
 
 - Always **centimeters**
 - Bounding box is mandatory
-- If the object is worn (boot, glove, suit), give **human scale** (e.g. fits 175–185 cm mannequin) **and** key panel sizes
-- Thickness matters (armor depth, deck closed height)
+- Worn items: mannequin height range **and** key panel sizes
+- Thickness matters
 
-### View rule (Front / Back / Side A / Side B)
+### View rule
 
-Each view section answers:
+Each view section describes only that camera. Side A / Side B defined once per object.
 
-- Silhouette
-- Visible ports, latches, lenses, straps
-- What must align across views (e.g. hinge always rear on deck)
+---
 
-Side A / Side B must be defined once per object (e.g. Side A = left when object faces you).
+## HARD RULE: One photo per view — never a contact sheet
+
+**ChatGPT must generate four individual image files.**
+
+| File | Content |
+|------|--------|
+| `front.png` | **Only** the Front view |
+| `back.png` | **Only** the Back view |
+| `side_a.png` | **Only** Side A |
+| `side_b.png` | **Only** Side B |
+
+### Forbidden
+- One image that shows front + back + sides together
+- “Reference sheet,” “turnaround sheet,” “character sheet,” “ortho sheet,” or “model sheet” layouts
+- 2×2 grids, film strips, or labeled multi-panel cards
+- Any second object in the frame
+
+### Why
+Tripo multiview expects **separate** view images. A multi-photo card confuses the model and breaks replication.
+
+### How to prompt ChatGPT
+- Run **four separate generations** (or four explicit single-view requests)
+- Each prompt says: **single object, single camera angle, full frame, no other views in the image**
+- Each prompt names exactly one view: Front **or** Back **or** Side A **or** Side B
+- Do **not** ask for “front back left right in one image”
+
+### Prompt line to include every time
+```
+ONE image only. ONE camera angle only. Do not show other sides. No contact sheet, no grid, no multi-view turnaround board, no labels for other angles.
+```
 
 ---
 
@@ -100,7 +127,7 @@ Each skin/loadout gets a kit card:
 
 `assets/canon/kits/field-t/LIVE/KIT-CARD.md` (example)
 
-### Kit card must include
+Same four-file rule for full-body kit turnarounds: **four separate photos**, not one sheet.
 
 | Section | Required content |
 |---------|------------------|
@@ -108,68 +135,54 @@ Each skin/loadout gets a kit card:
 | **phenotype** | Field-T Technical Operator |
 | **skin name** | LIVE Exploitation |
 | **mannequin** | Height range, stance |
-| **layer order** | Base suit → armor → belts → modules → hand/held |
-| **object list** | Every asset_id in the kit |
-| **socket map** | asset_id → sock_id + placement notes in cm from landmarks |
-| **total bulk notes** | What must stay free (e.g. forearms for device work) |
-| **ChatGPT full-body prompt block** | Assembled human + kit, four views |
-| **replicable checklist** | Same kit every time if this card is followed |
+| **layer order** | Base → armor → modules → hand/held |
+| **object list** | Every asset_id |
+| **socket map** | asset_id → sock_id + cm placement |
+| **ChatGPT prompts** | Four separate full-body prompts (F/B/A/B) |
+| **replicable checklist** | Same kit every time from this card |
 
 ---
 
-## ChatGPT multiview contract
+## ChatGPT contract (summary)
 
-When generating pictures from a card:
-
-1. One asset per generation set (never multiple props in one frame for Tripo source)
-2. Neutral studio, clean background, no hands unless the card says worn-on-body
-3. Same scale reference implied by cm in the card
-4. Output **Front, Back, Side A, Side B** as four matched images
-5. No invented logos — blank `mark_zone` only
-
-Those four images feed **Tripo AI** (multiview-to-model preferred when all four exist).
+1. One asset per generation  
+2. **One view per image file**  
+3. Four files total per asset: front, back, side_a, side_b  
+4. Neutral studio, clean background  
+5. No invented logos  
+6. No multi-panel cards — ever  
 
 ---
 
 ## Tripo contract
 
-1. One GLB per asset_id  
-2. Prefer multiview from the four ChatGPT views  
-3. Download immediately (URLs expire)  
-4. Store as `MCC_FT_<asset_id>.glb` next to the asset card  
-5. Do not merge objects into one GLB until **assembly** stage  
+1. Feed **four separate** view files into multiview-to-model when possible  
+2. One GLB per asset_id  
+3. Download immediately  
+4. Store `MCC_FT_<asset_id>.glb` beside the card and `views/` folder  
 
 ---
 
 ## Repo layout (target)
 
 ```
-assets/canon/
-  props/
-    field-t/
-      MCC_FT_deck_standard/
-        ASSET-CARD.md
-        views/  (front.png back.png side_a.png side_b.png)
-        MCC_FT_deck_standard.glb
-  kits/
-    field-t/
-      LIVE/
-        KIT-CARD.md
-      FORENSIC/
-        KIT-CARD.md
+assets/canon/props/field-t/MCC_FT_deck_standard/
+  ASSET-CARD.md
+  views/
+    front.png      ← single view only
+    back.png       ← single view only
+    side_a.png     ← single view only
+    side_b.png     ← single view only
+  MCC_FT_deck_standard.glb
 ```
-
-Phenotype docs point here; they do not replace asset cards.
 
 ---
 
 ## Non-negotiables
 
-1. **Replicable every time** — repo text is the source of truth  
-2. **Real-world dimensions in cm**  
-3. **Four views per object** before trusting a GLB  
-4. **Objects first, assembly second**  
-5. **Skins are lists of objects + sockets**, not vibes  
-6. **Marks from masters only** — never AI-invented M or Dual Sight geometry  
-
-If a description cannot drive identical Front/Back/Side A/Side B generations, expand the card until it can.
+1. Replicable every time from repo text  
+2. Real-world dimensions in cm  
+3. **Four separate photos per object — never one multi-view card**  
+4. Objects first, assembly second  
+5. Skins = objects + sockets  
+6. Marks from masters only  
