@@ -1,90 +1,71 @@
 ---
 status: DRAFT / SYSTEM FOUNDATION
 system: Phenotypes
-version: 0.5.0
+version: 0.6.0
 ---
 
 # PRIM3 Phenotype System
 
-**Phenotypes** are locked visual + functional identity systems for classes of people in the PRIM3 universe.  
-They are **not** individual characters.  
-They are reusable skins, loadouts, and social signals that any character can inhabit based on role, rank, season, and mission context.
-
+**Phenotypes** are locked visual + functional identity systems for classes of people (and platforms) in the PRIM3 universe.  
 Built for the trifecta: **video game · seasonal storyline · real institutional design**.
 
 ---
 
 ## Current Active Phenotypes
 
-### McCluster Corp Institutional
+### Institutional Authority (Suit Triad)
 | ID | Name | Status | Primary Use |
 |----|------|--------|-------------|
-| EI-01 | Executive Authority | CANON | Highest-level corporate executives |
-| CFI-01 | Corporate Fits — Authority Black | CANON | Standard elite employee / candidate wardrobe |
-| CFI-02 | Corporate Fits — Bone Herringbone | CANON | Alternate elite employee colorway |
+| EI-01 | Executive Authority | CANON | Strategic control, final institutional weight |
+| EI-02 | Program / Operations Director | PROPOSED | Programs, resources, operational tempo |
+| EI-03 | Mission Sponsor / Accountable Officer | PROPOSED | Owns a specific line of effort |
 
 ### Building Defense
 | ID | Name | Status | Primary Use |
 |----|------|--------|-------------|
-| SOI-01 | Security Officer — Standard | CANON | General facility protection & incident response |
+| SOI-01 | Security Officer — Standard | CANON | General facility protection & response |
 | SOI-02 | Access Control Officer | PROPOSED | Gates, lobbies, identity verification |
 | SOI-03 | Technical Facility Security | PROPOSED | Server rooms, labs, cyber-physical defense |
 
-### Operator / Succession Path
+### Building Systems (Non-Human)
 | ID | Name | Status | Primary Use |
 |----|------|--------|-------------|
-| PRIME-N1 | Prime Negative One / Full Operator | APPROVED-REFERENCE | End-state Prime identity |
+| BS-01 | Building Systems Platform | PROPOSED | Robot / autonomous facility infrastructure |
+
+### Field Operators
+| ID | Name | Status | Primary Use |
+|----|------|--------|-------------|
 | FO-01 | Field Operator (base) | PROPOSED | External deployment parent identity |
-| FO-T | Technical Field Operator | PROPOSED | Data, network, extraction specialist |
+| FO-T | Technical Field Operator | PROPOSED | Data, network, extraction |
 | FO-E | Entry Field Operator | PROPOSED | Physical access & close security |
-| FO-R | Recon / Overwatch Field Operator | PROPOSED | Surveillance, perimeter, early warning |
-| CO-01 | Cohort Operator (Standard) | PROPOSED | Active cohort institutional mission |
-| CO-02 | Cohort Operator (Light / Training) | PROPOSED | Early training & low-visibility work |
-| CO-03 | Cohort Lead | PROPOSED | Runs the element; accountable for team outcome |
+| FO-R | Recon / Overwatch | PROPOSED | External picture & early warning |
 
-### Civilian / Entry
+### Cohort / Succession
 | ID | Name | Status | Primary Use |
 |----|------|--------|-------------|
-| RS-01 | Recruit Student | PROPOSED | Season 1 entry before full issue |
-| AC-01 | Academic / Campus | PROPOSED | College environment |
+| CO-02 | Cohort Light / Training | PROPOSED | Early exposure |
+| CO-01 | Cohort Standard | PROPOSED | Active mission-capable member |
+| CO-03 | Cohort Lead | PROPOSED | Runs the element |
+| PRIME-N1 | Prime Negative One | APPROVED-REFERENCE | Succession end-state |
 
-### Adversarial / External
-| ID | Name | Status | Primary Use |
-|----|------|--------|-------------|
-| ADV-01 | State Actor Operator | PROPOSED | Hostile government / intelligence |
-| ADV-02 | Corporate Rival Executive | PROPOSED | Competing private power |
-
----
-
-## Building Defense Triad
-
-| Phenotype | Primary Job |
-|-----------|-------------|
-| **SOI-01** Standard | General facility protection, patrol, incident response |
-| **SOI-02** Access Control | Who enters and exits |
-| **SOI-03** Technical Facility | High-value technical zones and cyber-physical defense |
+### Corporate / Entry / Adversarial
+| ID | Name | Status |
+|----|------|--------|
+| CFI-01 / CFI-02 | Corporate Fits | CANON |
+| RS-01 | Recruit Student | PROPOSED |
+| AC-01 | Academic / Campus | PROPOSED |
+| ADV-01 / ADV-02 | Adversarial | PROPOSED |
 
 ---
 
-## Basic Field Team Triad
+## Core Triads
 
-| Phenotype | Primary Job |
-|-----------|-------------|
-| **FO-T** Technical | Systems access, extraction, analysis |
-| **FO-E** Entry | Physical access + close security |
-| **FO-R** Recon | External picture + early warning |
+**Institutional Authority:** EI-01 → EI-02 → EI-03  
+**Building Defense:** SOI-01 / SOI-02 / SOI-03  
+**Field:** FO-T / FO-E / FO-R  
+**Cohort:** CO-02 → CO-01 → CO-03 → PRIME-N1  
 
----
-
-## Cohort Progression Triad
-
-| Phenotype | Primary Job |
-|-----------|-------------|
-| **CO-02** Light / Training | Early exposure, low-visibility work |
-| **CO-01** Standard | Active mission-capable cohort member |
-| **CO-03** Lead | Runs the element; accountable for the team’s outcome |
-
-Path: CO-02 → CO-01 → CO-03 → (succession) → PRIME-N1
+**Building Systems:** BS-01 (robot — runs the building)
 
 ---
 
