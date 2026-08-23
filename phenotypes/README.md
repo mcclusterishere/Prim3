@@ -1,7 +1,7 @@
 ---
 status: DRAFT / SYSTEM FOUNDATION
 system: Phenotypes
-version: 0.2.0
+version: 0.3.0
 ---
 
 # PRIM3 Phenotype System
@@ -32,7 +32,10 @@ A phenotype answers:
 | ID | Name | Status | Primary Use |
 |----|------|--------|-------------|
 | PRIME-N1 | Prime Negative One / Full Operator | APPROVED-REFERENCE | End-state Prime identity & high-tier operators |
-| FO-01 | Field Operator | PROPOSED | External deployment / real-world operations |
+| FO-01 | Field Operator (base) | PROPOSED | External deployment parent identity |
+| FO-T | Technical Field Operator | PROPOSED | Data, network, extraction specialist |
+| FO-E | Entry Field Operator | PROPOSED | Physical access & close security |
+| FO-R | Recon / Overwatch Field Operator | PROPOSED | Surveillance, perimeter, early warning |
 | CO-01 | Cohort Operator (Standard) | PROPOSED | Active cohort members on institutional mission |
 | CO-02 | Cohort Operator (Light / Training) | PROPOSED | Early training & low-visibility work |
 
@@ -50,30 +53,38 @@ A phenotype answers:
 
 ---
 
+## Basic Field Team Triad
+
+The three core field phenotypes form a complete basic external team:
+
+| Phenotype | Primary Job | Protects / Enables |
+|-----------|-------------|--------------------|
+| **FO-T** Technical | Systems access, extraction, analysis | The reason the team is there |
+| **FO-E** Entry | Physical access + close security | Protects FO-T on the objective |
+| **FO-R** Recon | External picture + early warning | Protects the whole team from outside |
+
+FO-01 remains the parent / general field identity. FO-T, FO-E, and FO-R are the specialized configurations used when a full field element is deployed.
+
+---
+
 ## Directory Map (Target)
 
 ```
 phenotypes/
-├── README.md                      ← this file
-├── PHENOTYPE-SYSTEM.md            ← rules & creation gate
-├── mccluster-corp/
-│   ├── executive/
-│   ├── corporate-fits/
-│   └── security-officer/
+├── README.md
+├── PHENOTYPE-SYSTEM.md
 ├── operators/
-│   ├── prime-negative-one/
-│   ├── field-operator/            ← FO-01
+│   ├── field-operator/          ← FO-01 base
+│   ├── field-technical/         ← FO-T
+│   ├── field-entry/             ← FO-E
+│   ├── field-recon/             ← FO-R
 │   ├── cohort-standard/
 │   └── cohort-light/
 ├── civilian/
-│   ├── recruit-student/
-│   └── academic/
 └── adversarial/
-    ├── state-actor/
-    └── corporate-rival/
 ```
 
-Visual source assets remain under `assets/canon/` and are linked from each phenotype folder.  
+Visual source assets remain under `assets/canon/`.  
 Brand rules remain under `brands/mccluster-corp/`.
 
 ---
