@@ -1,7 +1,7 @@
 ---
 status: CANON PRODUCTION RULE / TRACE DETAILS PROPOSED UNTIL EACH EPISODE IS WRITTEN
 system: Prime background-presence continuity
-version: 1.1.0
+version: 1.2.0
 branch: main
 ---
 
@@ -67,7 +67,7 @@ Never use the same trick so often that the audience starts hunting him as a game
 | 05 | S2E2 — Red Blue Purple White Team | TBD | TBD | TO DEFINE |
 | 04 | S2E1 — Anti Social Engineering | TBD | TBD | TO DEFINE |
 | 03 | S1E3 — OSINT | Prime is the unnamed senior reviewer who requests Jordan remain in the recruitment path | Normal executive review | TO LOCK DURING EPISODE DRAFT |
-| 02 | S1E2 — White Grey Black Hat | TBD | TBD | TO DEFINE |
+| 02 | S1E2 — White Grey Black Hat | During Jordan's access hold, the checkpoint camera tightens; an unseen executive review marks `CONTINUE ACCESS / PRESERVE INCIDENT`; Jordan's badge turns green and he assumes normal security cleared him | Ordinary access escalation after an onboarding-kit mismatch | **LOCKED — S01E02 draft** |
 | 01 | S1E1 — High Alert | Presiding Prime performs from the middle of Jordan's RAID; after the seven-year rewind, Prime's earlier-era trace must still appear in the episode's past-tense story | Future RAID spectacle plus ordinary surveillance/security texture | TO LOCK DURING EPISODE DRAFT |
 
 ## S7E3 payoff
