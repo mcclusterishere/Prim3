@@ -1,178 +1,166 @@
 ---
 status: CANON-DRAFT
 system: Long-form narrative
-version: 1.0.0
-note: Living novel-spine from repo canon; episodes remain ~6 min on screen
+version: 2.0.0
 ---
 
 # PRIM3 — Long Form
 
-*How the world happened. Who loved whom. What they built and broke.*
+---
+
+## Cast
+
+| Name | Who |
+|------|-----|
+| **Prime** | Tank sovereign; dual board; High Alert voice |
+| **Jordan Vale** | Prim3 protagonist |
+| **Aya Shinoda** | Japanese; Field-T; Jordan’s love; decks / integrity; human half of *Patch Work* |
+| **Benji** | Hitman protagonist |
+| **Maren Quill** | McCluster marketing surface |
+| **“Sly”** | Diversion face / Evil Twin method |
+
+**Aya Shinoda** is Japanese. Controlled, precise, unmistakably magnetic without performing for the room—technical operator first, love interest because Jordan cannot look away from competence that sharp.
 
 ---
 
-## I. The man in the tank
+# ACT 0 — THE PAUSE
 
-Prime did not sleep the way other men slept.
+## The tank
 
-Under the main compound—behind outer sites that were supposed to make this room a myth—his body hung in a suspension tank the color of old stormwater. Cables took more than data. They took *him*. While the flesh floated, his attention walked the building as cameras, door motors, quiet drones, cohort routing tables. Dreams wrote to actuators. A shift, not a rest.
+Prime’s body hung in suspension the color of stormwater under glass. The main compound sat behind outer sites the way a throat sits behind teeth. While he floated, he was not dreaming *about* the building. He was the building: aperture on a corridor camera, servo patience in a door, a drone’s hover three floors up. McCluster paid for the land and the smile upstairs. Prim3 was the name the work used when the smile was insufficient.
 
-He only surfaced for emergencies that the dream could not absorb.
+He had staffed two mountains. Prim3—intellect, authorization, curriculum. Hitman—street multinational, kill as religion. Sometimes he pointed them at the same objective so the weak died and the cover stayed expensive. He called it the greater good. He had signed names that were now funding knives.
 
-McCluster Corp paid for the glass above him. On paper it was a marketing company. In truth it held the land, the building, and messy equity in everything that moved through the stack. People shared coffee with coworkers who lived on different subsidiaries’ books. The mark on the letterhead was a white geometric **M** and two red Dual Sight bars: two reads, never one honest org chart.
+## 2:47
 
-Prim3 was the name the work used when the smile was not enough.
+**HIGH ALERT** did not request permission.
 
-Prime had built two mountains on purpose.
+Outer tiles went wrong in a cascade. Main site contact. Two feeds.
 
-One was intellect: systems, authorization, the slow knife of information. The other was Hitman—street multinational, kill as religion, deniable weather. Sometimes he pointed them at the same bone so the weak died and the cover stayed loud. He told himself it was for the greater good. He staffed both sides with people who thought they were choosing him.
+**Jordan Vale**—Prim3-raised—moving like someone who had decided the teacher was the target.
 
-He did not expect the main site to go red.
+**Benji**—Connecticut, Hitman—hitting the same address with religion and kinetic certainty.
 
----
+Prime’s first thought was recognition. He knew the hire chain. Some of those names were his.
 
-## II. High Alert (2:47)
+For **two minutes and forty-seven seconds** he talked. The song was not the episode; it was the pause. Double meanings: nerves as neurons; fire-first as robots on his clock; tech packs and merch as McCluster’s surface and a diss at Hitman’s street promote; dial-first as governments calling him for unbadgeable work; fry circuits as EMP. Every line planted a season. The raiders climbed as if they could hear him.
 
-The song is two minutes and forty-seven seconds.
+## After the song (~3:13)
 
-That is not the whole episode. That is **Prime’s pause**—the time it takes for the tank to give him back to his body and for his mouth to run while the raid is already inside the myth.
+Prime hit the deck wet and the house answered. He did not end the raid in the pilot. He bought a wing—collapsed a corridor that only existed because outer sites were supposed to stay green, starved one feed, let Benji feel weather and Jordan feel a mirror. A kit fried and stayed dead. Dual feeds still live. **M** in the glass.
 
-**HIGH ALERT** cuts through the fluid. Outer compounds are already wrong. On the glass: two feeds.
-
-**Jordan Vale**—the Prim3-side operator, the one the curriculum raised—moving like someone who learned every lesson in the catalog and then decided the teacher was the target.
-
-**Benji**—Hitman, Connecticut, young enough to still look like a dropout and dangerous enough to have taken a street corp by outthinking the pure killers—hitting the same address with religion and lead.
-
-Prime knows the hire chain. Some of those names are his. Contracts. Equity. Dual-board pieces that grew teeth.
-
-For two minutes and forty-seven seconds he talks shit at them—double meanings stacked like Dual Sight. *Nerves* are neurons. *Fire first* is robots on his clock before a human trigger. *Tech packs and merch* is McCluster’s real surface, a diss at Hitman’s street techs-and-packs promote. *Dial first* is the quiet truth that governments and police call *him* for work they cannot put on a badge. *Fry circuits* is not metaphor: an EMP kiss kills a kit mid-push.
-
-Every line plants a memory the seasons will pay for. The raiders climb corridors as if they can hear him.
-
-Then the song ends.
-
-The rest of the pilot—about three minutes—is not music. It is **consequence**: the first counters after the pause, the wing he buys, the fact that the raid does not end in the open. The show has started at the moment that was never supposed to exist. After that, it backs up and teaches how the house learned to burn.
+They reached the main site. The show started too late on purpose.
 
 ---
 
-## III. Characters
+# ACT 1 — ENTERING THE SCOPE
 
-### Prime
-Sovereign of the tank. Author of the dual board. Voice of High Alert. Capable of love only as structure—until structure fails and something human leaks through the confession.
+## Chapter 1 — The smile floor
 
-### Jordan Vale (protagonist, Prim3 path)
-Not a pure zero. Hired into the stack when the “scope of the work” was still a door and a smile. Learns hats, boxes, OSINT, patch, apps, cloud, per diem. Believes in paid-in-full cohort. Falls for the work, then for a person inside it, then for the idea that Prime is the villain. Leads the intellect half of the main-site raid. Chooses, at the end, spare or kill.
+Jordan Vale’s first day smelled like coffee and new polymer on McCluster’s marketing floor.
 
-### Benji (Hitman path)
-Connecticut. Brilliant, brutal, not the pure street type—sold through college, got initiated, outran the old heads, took the corp in a short season of blood and nerve. Hitshake is baptism. Crimewave is method. He is the kinetic half of the dual raid. He does not want Prime’s curriculum. He wants the mountain.
+**Maren Quill** walked him past campaign boards—tech-pack lines, merch drops, clean type under the white **M**. Public language: brand systems, audience, government-adjacent partnerships that never said influence. Jordan felt the second floor under the first and did not name it yet.
 
-### Aya Okonkwo (cohort / Field-T)
-Jordan’s closest working bond and first real love interest on the Prim3 side. Technical operator: decks, write-blocks, integrity seals. *Patch Work* is partly their song—trust, validation, the fear that love is a trojan. She stays longer in the faith than Jordan does. When circuits fry in High Alert’s flash, one of the kits that dies might be someone standing near her philosophy.
+“You’ll meet the people who actually ship,” Maren said. “Different subsidiaries. Same parent. Don’t get precious about whose logo is on the badge.”
 
-### Maren Quill (McCluster surface / marketing)
-Lives on the smile floor—tech packs, merch, runway-adjacent campaigns that also, quietly, surface governments. Jordan meets the company through people like Maren. She is not soft; she is the holding company’s public language. A second gravity well: attraction mixed with the unease that every campaign is cover.
+He wanted in.
 
-### “Sly” (asset / Evil Twin thread)
-Not always one body. The human face of diversion—dame, dime, jewelry on a wrist, the social chain Prime used to own both boards. Jordan will meet the method before the name. Benji will recognize the street version of the same trick.
+## Chapter 2 — Aya Shinoda
 
-### Cohort (paid in full)
-Cross-subsidiary family: Field-E who open doors, Field-R who hold lanes, building defense who think the outer sites will always be green. They are the trial version’s opposite. Some will die on the approach to the main site. High Alert already showed their absence on the map.
+**Aya Shinoda** was in a low bay that did not pretend to be marketing.
 
-### The hire chain
-Sponsors and middle names Prime moved. They fund knives. In High Alert he addresses them directly. In Evil Twin he explains why.
+Japanese. Hair tight. Hands steady on a matte deck like a slab of night. Write-block inline. Stores A/B. She did not look up until Jordan’s shadow crossed the integrity LED.
 
----
+“You’re the new seat,” she said. English precise. “Don’t touch the store without the block armed. If you image dirty once, I will not trust you with a cable again.”
 
-## IV. Love and double meanings
+It should have been hostility. It landed like a standard.
 
-Not every song is war.
+He watched her work: Survey, Live Pull, FORENSIC religion—hash, seal, no drama. When she glanced at him full, the room narrowed. Heat under discipline. Not soft. Not asking.
 
-**Patch Work** carries a relationship under the firmware language: trust, code signing, static and dynamic analysis as the way two people check if the other is still safe to run. Jordan and Aya live inside that metaphor—love as validation, breakups as failed integrity checks.
+That night he did not text Maren back. He replayed Aya’s hands.
 
-**Anti Social / Evil Twin** energy carries the other kind of intimacy: operational, transactional, the dame as payload. Jordan has to learn the difference between Aya’s trust and Sly’s diversion or become the mark.
+## Chapter 3 — Authorization
 
-**Per Diem** is grind-love—the bond of people who share the rate and the hours, not always romance, sometimes deeper.
+Jordan failed a search protocol on purpose. The bay denied him. Aya did not laugh.
 
-**Ghost** will ask whether uploading a man is a kind of keeping him.
+“Hats are not costumes. White is permission. Black is war. You do not get cute about grey until someone signs the grey.”
 
----
+He ran it clean. The door opened. Years later, in a raid, Prime would say *I may not let you in if you decline searches* and Jordan would remember this bay.
 
-## V. Plot — progressive
+## Chapter 4 — Scope
 
-### Act 0 — The pause (pilot)
-High Alert 2:47 + ~3:13 aftermath. Dual raid. Prime’s threat. Robots. EMP. Seeds planted. Raid not finished.
+Open sources. Maps. Dumps. Aya shoulder-close, not touching, correcting his queries like breath.
 
-### Act 1 — Entrance into scope
-Jordan’s hire. McCluster smile. First real view of the work (OSINT seed). Authorization culture (White Grey Black). First social hazard (Anti Social). Technology on screen: access control, open-source intel tools, phishing/smish reality without cartoon hacks—**people using the tools of the lesson**.
+“Scope is not curiosity. Scope is a package. When you enter view of someone’s work, you are already in the room with them.”
 
-Character: Jordan still wants to be paid in full. Attraction to Aya begins as respect. Maren is the face of the building.
+Jordan thought of Maren’s smile floor and understood he had been scoped on day one.
 
-### Act 2 — Tools become identity
-Patch Work (relationship strain + real patch/validation work on decks). App Attacks (Jordan’s team lives in soft targets and privilege). Dive In / IoT (physical + device surface; the house’s sensors feel personal because for Prime they *are*).  
-**Tech each episode:** write-blockers and imaging, app-layer testing, RTL-class RF sense, consumer IoT defaults exploited in-fiction as soft doors.
+## Chapter 5 — Human layer
 
-Character: Jordan’s trust in Aya is tested by operational secrecy. Benji’s lane, in parallel or intercut, gets bloodier and smarter.
+Staged social approach in a public wing. Jordan bit harder than he should have. Afterward Aya’s jaw was tight.
 
-### Act 3 — The board shows its seams
-Team colors (Red Blue Purple White) as lived roles. Installations and cloud and CapEx language as how McCluster actually buys control. Per Diem as the human cost. Jordan starts seeing dual-board fingerprints—missions that only make sense if someone is playing both sides.
+“You liked being chosen. That is how diversion works. Prime’s people have used prettier versions for real boards. If you cannot feel the hook in your own mouth, you will not see it in the field.”
 
-Character: Moral break begins. Love with Aya either deepens into complicity or cracks into opposing integrity checks. Maren’s campaigns look more like statecraft.
+He hated that she was right. He loved that she said *Prime’s people* like weather.
 
-### Act 4 — RAID
-Hot site doctrine made flesh. Outer compounds. The approach High Alert already spoiled. Jordan and Benji on the main glass for real, not only in Prime’s pause. Playable or watchable assault. Prime can be beaten.
+## Chapter 6 — First trust
 
-### Act 5 — Evil Twin
-Confession. Greater good. Dual board. Social chains. Hire chain named. The serpent and the diversion seeds cash out. Jordan hears why the knives were staffed.
+Sanctioned image. Aya armed the write-block. Jordan handled the store. Seal held. One millimeter of smile.
 
-### Act 6 — Choice
-**Spare:** Ghost in the Wires. Prime becomes the system. Mentor forever. Jordan rules with a ghost who was always the wire.  
-**Kill:** Dimension, alternate self, Whip Equipped—Bridgeport lot, car as home, colder country.
+“Paid in full,” she said, almost to herself.
+
+They kissed first in a stairwell that belonged to a subsidiary whose name he still mixed up. Aya’s mouth was certain. Her hands careful, as if he were evidence.
+
+“Do not install me dirty,” she whispered—joke and not joke.
+
+*Patch Work* was not a track yet. It was how they checked each other: trust as validation, the fear that affection was a trojan.
 
 ---
 
-## VI. Technology as character
+# ACT 2 — TOOLS BECOME IDENTITY
 
-Rule: **each episode shows people using a real class of tool**, not a magic UI.
+## Patch Work
 
-| Arc beat | Tech in the room |
-|----------|------------------|
-| Authorization | Access control, search/consent theater |
-| OSINT | Open sources, maps, dumps |
-| Patch / integrity | Imaging, write-block, hash/seal |
-| App layer | Soft targets, priv, injection as plot device |
-| Dive / RF | SDR-class sense, physical OSINT |
-| IoT | Defaults, cameras, “smart” as soft door |
-| Cloud / CapEx | Contracts, spend, elasticity as power |
-| RAID | Multi-site failover language made geography |
-| Tank / Ghost | Dream-AI, upload, the wire as body |
+On paper: trust, signing, validation. On the floor: Jordan and Aya *are* the lesson. A bad seal on a real op becomes a fight about whether he is still safe to run beside her. Reconciliation is a clean image and a night neither logs. **Tech on camera:** write-block, dual store, seal, integrity language.
 
-Open-source anchors (Pi decks, Sleuth Kit/Autopsy identity, RTL-SDR, ArduPilot-class air) stay available for prop truth.
+## App Attacks
 
----
+Soft targets, privilege, Jordan’s team living in the app layer. Aya hates sloppy escalations the way she hates dirty cables. Benji’s intercut world solves with bodies. Jordan starts smelling dual-board missions. **Tech:** app-layer tools, labs, soft doors.
 
-## VII. How it feels as a book
+## Dive In / IoT
 
-You meet the king already drowning in alarm.  
-You learn the company that smiles while it owns the land.  
-You follow Jordan into love and curriculum until the curriculum points at the tank.  
-You feel Benji’s mountain shake the same glass.  
-You watch Prime’s jokes turn into operating manuals.  
-You arrive at RAID already knowing the red map.  
-You hear the confession.  
-You decide whether the wire gets a ghost or the world gets a colder parking lot.
+SDR brick, physical OSINT, house sensors. Jordan realizes the compound is an IoT thesis with a man in a tank at the center. Aya already knew. **Tech:** RF sense, defaults, cameras as soft doors.
+
+## Cloud / CapEx / Per Diem
+
+Money becomes power. Maren’s campaigns look like statecraft. Cohort grind binds Jordan to Aya and traps him—leaving her means leaving the rate and the only people who feel paid in full.
 
 ---
 
-## VIII. Episode time (screen)
+# ACT 3 — SEAMS
 
-| Block | Duration |
-|-------|----------|
-| High Alert song (Prime POV pause) | **2:47** |
-| Pilot aftermath (non-song story) | ~**3:13** toward ~6:00 |
-| Later episodes | ~6:00 each; song + lived story; tech on camera; character change |
+Fingerprints: diversion chains that are not training; Hitman weather on Prim3 objectives; contract boards that dial Prime. Aya goes quiet, then precise.
+
+“If you go after him, you are going after the wire you have been sleeping under.”
+
+“Then I wake up,” Jordan says.
+
+Love becomes a fork: she walks the raid with him or holds the bay against him.
 
 ---
 
-## IX. One paragraph spine
+# ACT 4–6
 
-Prime dreams as the building until a dual raid—Jordan Vale of Prim3 and Benji of Hitman—reaches the main site he staffed into existence; for two minutes and forty-seven seconds he threatens the hire chain and plants every chapter of the war in the raiders’ path; the seasons then walk Jordan through love, tools, and moral break, Benji through street coronation, and McCluster through its smile, until RAID finishes the emergency, Evil Twin names the dual board, and Jordan either uploads the man who was the wire or kills him and wakes in a country that already lost its Prime, with only a car left to live in.
+**RAID** — outer sites, main glass, Jordan and Benji, Prime beaten.  
+**Evil Twin** — confession; dual board; hire chain; serpent named; Aya hears what *Prime’s people* meant.  
+**Spare → Ghost** / **Kill → Whip Equipped**.
+
+---
+
+# Spine
+
+Jordan enters through a smile, falls for **Aya Shinoda**’s standard, learns tools as identity, recognizes the dual board, raids the main site, and either keeps Prime as ghost or kills him and inherits a thinner world.
+
+Prime’s 2:47 is the future speaking in the present. Everything after the pilot is the past earning that alarm.
+
+*Act 2+ expands scene-by-scene in the same density as Act 1 on request.*
