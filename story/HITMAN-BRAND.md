@@ -1,40 +1,29 @@
 ---
 status: CANON
 system: Hitman visual identity
-version: 1.0.0
+version: 1.1.0
 ---
 
-# Hitman Corporation — brand mark
+# Hitman — brand mark
 
 ## Source
-Official logo provided by project owner (asset: Hitman HM + haloed AMMC round).
+Owner mark + external brand presence (@hitman.halo).
 
-## Lockup description
-- **Field:** Solid black
-- **Letters:** Large ivory/white serif **H** and **M** (Hitman)
-- **Center device:** Vertical rifle cartridge standing between H and M
-  - Case marked **AMMC** (vertical type on the shell)
-  - Silver/chrome metallic treatment
-- **Halo:** Thin white ring floating above the bullet tip (angel/sanction irony)
+## Lockup
+- Black field
+- Ivory **H M**
+- Center vertical **AMMC** cartridge (chrome)
+- Thin **halo** above the tip
 
-## Read in-world
-- **H M** = corporate face (Hitman)
-- **Round + halo** = sanctioned violence / “holy” ammunition — power that pretends clean
-- Visual opposite of Prim3 **M / Dual Sight** language: Hitman is explicit kinetic + corporate; Prim3 is institutional stealth and dual bars
+## Read
+Sanctioned murder as product. Street stencil or glass-tower full lockup. Not Dual Sight. Not technical monogram culture.
 
-## Usage rules
+## Usage
 | Context | Treatment |
 |---------|------------|
-| Enemy UI / rival NODEs | Full HM + round lockup on black |
-| Documents / sponsor glass | HM monogram; round optional |
-| Field tags / graffiti | Simplified HM or round-only stencil |
-| Never | Do not place Dual Sight bars on Hitman assets |
+| Hitman show / music | Primary identity |
+| Enemy of Prim3 ops | Full or round-only |
+| Field / gang sets | Round stencil, HM tags |
+| Never | Prim3 Dual Sight bars on Hitman assets |
 
-## Story binding
-- Public opponent of Prime’s stated objectives
-- Org tree: see `HITMAN-ORG.md` (mirror of Prim3)
-- Evil Twin origin: Prime’s first deep embed into this mark’s house
-- Protagonist reads the halo as hypocrisy; final myth complicates that read
-
-## Asset note
-Master still lives with owner image upload. Repo holds rules; binary logo file should be added under `assets/brand/hitman/` when binary upload path is used.
+See `HITMAN-LORE.md` v2 for culture (brute force religion, not IT).

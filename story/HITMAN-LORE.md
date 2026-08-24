@@ -1,104 +1,103 @@
 ---
 status: CANON
 system: Hitman Corporation lore
-version: 1.0.0
+version: 2.0.0
 ---
 
-# Hitman Corporation — brand lore
+# Hitman — brand lore (v2)
 
-Related: `HITMAN-BRAND.md` (mark), `HITMAN-ORG.md` (tree), `missions/EVIL-TWIN.md` (Prime’s embed).
+**External brand:** Hitman / @hitman.halo (owner-held). Own music, own show path.  
+**In the Prim3 multiverse:** the brute-force religion climbing toward the same apex.
+
+Related: `HITMAN-BRAND.md`, `HITMAN-ORG.md`, `DUAL-PATH.md`, `missions/EVIL-TWIN.md`.
 
 ---
 
 ## One line
-**Hitman sells certainty.** Contracts, security, influence, outcomes — priced, delivered, denied in public.
+**Hitman does not hack the world. Hitman ends people in it.** Killing is doctrine. Denial is policy. The halo on the round is the joke and the prayer.
 
 ---
 
-## Public face
-Hitman is a **multinational** that speaks the language of protection and results:
-- Corporate security and “risk environments”
-- Political access packaged as consulting
-- Logistics and quiet problem-solving for clients who don’t want their name on the tool
+## What they are
+Not a cyber firm. Not a think tank.
 
-To the outside world it is legitimate enough to sit in glass towers and sponsor rooms. To operators it is a **board that greenlights harm** with better stationery.
+- **Absolute brute force** — savagery as culture
+- **Killing as religion** — ritual, identity, promotion path
+- **Street-first** — gang formation, hood logistics, block energy scaled to multinational contracts
+- **Psychopath-grade** — the ones Wagner-type groups fear, because Hitman answers to **no flag**
+- **Deniable black ops** — dropped into war zones with no backup; if it goes wrong, **they never existed**
+- **Global** — worse than any single PMC brand in reach; more power than old mafia maps
+- **Not high IQ temple priests** — they **consume** intelligence produced elsewhere; they do not worship the terminal
 
-The logo tells the truth the press release won’t: **H M**, a round between them, a **halo** on the tip. Violence with a blessing. Ammunition that calls itself clean.
-
----
-
-## The mark (meaning in-world)
-| Element | Lore read |
-|---------|-----------|
-| **H M** | Hitman — name as product |
-| **Cartridge** | The real inventory; everything else is packaging |
-| **AMMC on the case** | House ammo / house doctrine — proprietary force |
-| **Halo** | Sanction. Plausible deniability. “Necessary.” The lie that the shot was holy |
-
-Prim3’s **M / Dual Sight** is institutional split-vision. Hitman’s mark is **one vision**: the target goes down and the paperwork smiles.
+They will use a dossier from a technical house to choose who dies. They will not write the dossier.
 
 ---
 
-## Structure (mirror, not copycat cosplay)
-Same skeleton as Prim3 so the two machines can interlock and betray each other:
-- Director / board principals
-- **Mission Sponsor** layer (politics + funds) — the high door
-- Floor leads, operators, trainees
-- Technical / Entry / Overwatch field triad
-- Site security
-- Grid / automation under the floor
+## The mark
+**H M** + **AMMC** cartridge + **halo** on black.
 
-Hitman does not need alien org charts. It needs **familiar power with different loyalties**.
+- The round is the product
+- The halo is the lie of sanction — “holy” murder for clients who need the body gone and the story clean
+- Street crews stencil the round; glass floors keep the full lockup
 
 ---
 
-## What Hitman wants
-- Continuity of clients who pay for outcomes
-- Control of narratives that threaten those clients
-- Operators who don’t ask why the halo is there
-- Rival institutions weakened or absorbed
-
-Public “opposition” to Prime is useful theater when both boards need a villain for the minutes.
-
----
-
-## Prime’s relationship (the long con)
-Prime does not merely fight Hitman. He **wears it**.
-
-Through the **Evil Twin** origin chain — low exec → SIM swap → sponsor-level leverage — he seats himself inside their tree. Missions run **against** Hitman and **through** Hitman. The protagonist reads hypocrisy. The truth is worse and better: dual control as a way to steer both knives away from the people who never enter the glass.
-
-Hitman remains real. Its Sponsors still fund politicians. Its rounds still fly. Prime’s embed does not purify the house; it **compromises the steering**.
+## Culture
+| Trait | Expression |
+|-------|------------|
+| Religion of the shot | Promotion through successful deniable kills |
+| Gang mitosis | New sets spun up per region / contract |
+| Anti-government | No honest chain to a capital; clients only |
+| Fear brand | Other kinetic groups flinch at the halo |
+| High body count | Acceptable; expected; doctrinal |
+| Low terminal worship | Tech is a tool stolen or bought, not an identity |
 
 ---
 
-## How it feels on screen / in play
-- Briefing rooms with better coffee and worse souls
-- HM on glass, on cufflinks, on the corner of a PDF
-- Halo motif in enemy UI, challenge coins, sponsor decks
-- Field tags: stencil HM or round-only
-- When an op is “Hitman-facing,” Detection and Compliance taste like **money watching**
+## How they get intel
+Hitman is not the IT church. **Prim3-side machines, compromised nets, bought analysts, Evil Twin–style embeds** feed them targets. Prime’s dual board means some of that feed is **steered**.
+
+Brute force without a name on a list is just noise. Hitman brings the noise to the name.
+
+---
+
+## Relationship to Prime
+Both organizations climb toward **Prime** — different mountains, same weather.
+
+- **Prim3 path:** intellect, systems, XCOM-style precision, patch and picture
+- **Hitman path:** kinetic religion, FPS/CoD-style slaughter, phone-playable chaos
+
+They **fight each other** when Prime needs:
+- Appearance of opposition (minutes, clients, governments)
+- A cull — only the most ruthless **minds** and the most ruthless **bodies** stay on the board
+- Controlled blood to hide a quieter objective
+
+Needless deaths are real. The theory (Prime’s, not advertised) is selection pressure across both species of operator.
+
+Evil Twin remains the story of how Prime got a hand on Hitman’s house. It does not make Hitman “secretly soft.”
+
+---
+
+## Own show / own music
+Hitman is not only an enemy faction in Prim3 episodes.
+
+- Separate narrative lane possible (Hitman-facing series)
+- Tracks in motion include **Hitshake**, **Crimewave**, others TBD
+- Tone: street, violent, religious about the work — not CompTIA-in-a-hook
+
+Prim3 songs teach systems. Hitman songs preach the round.
+
+---
+
+## Play fantasy
+| Side | Feel |
+|------|------|
+| Prim3 | XCOM-like TB, clocks, integrity, cohort support |
+| Hitman | CoD-like / phone FPS, high death rate, deniable drops, no backup romance |
+
+Same war calendar. Different hands on the controller. Sometimes the mission is **both at once** — intel board and kill board steered into each other.
 
 ---
 
 ## Moral engine
-| Reader | Hitman is… |
-|--------|------------|
-| Early protagonist | The enemy corp Prime claims to oppose |
-| Mid protagonist | Proof Prime is dirty |
-| Audience (ahead) | Half of Prime’s double board |
-| End (Ghost) | One of the systems still running under a mind that can no longer walk away |
-
----
-
-## Do not
-- Turn Hitman into cartoon Satan with no internal logic
-- Give them Prim3’s Dual Sight marks
-- Resolve them as fully destroyed before the Ghost ending — the system *remains*; who drives it changes
-
----
-
-## Canon links
-- Brand lockup → `HITMAN-BRAND.md`
-- Org mirror → `HITMAN-ORG.md`
-- Origin embed → `missions/EVIL-TWIN.md`
-- Series spine → `SERIES-ARC.md`
+Hitman is **not** redeemed by Prime’s greater good. They are the blade. Prime’s crime is using the blade and the keyboard as dual selection. The protagonist’s horror at the body count is correct. The final Ghost move does not wash the blood off the halo.

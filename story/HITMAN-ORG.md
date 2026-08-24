@@ -1,37 +1,25 @@
 ---
 status: CANON
-system: Opposing institution (mirror tree)
-version: 1.1.0
+system: Hitman structure
+version: 2.0.0
 ---
 
-# Hitman Corporation — org mirror
+# Hitman — structure
 
-Publicly: multinational operating **against** Prime’s stated objectives.  
-Structurally: **clone of Prim3 tree** so missions and phenotypes can mirror. Names can be skinned later; functions stay.
+Not an IT org with different stickers. **Kinetic religion with ranks.**
 
-| Prim3 | Hitman mirror | Function |
-|-------|---------------|----------|
-| Prime / N1 | Director (public apex) | Top face; real control disputed |
-| Authority-01 Executive | Board Principal | Institutional power |
-| Authority-02 | Principal deputy / sibling seat | Internal politics |
-| Authority-03 Mission Sponsor | **Mission Sponsor** | Greenlights ops; **political funds**; Evil Twin Stage-2 target |
-| Cohort-03 Lead | Floor Lead | Runs teams for Sponsor |
-| Cohort-01 Operator | Operator | Standard body |
-| Cohort-02 Trainee | Trainee / Probation | Low seat |
-| Field-T Technical | Technical | Data, access, kits |
-| Field-E Entry | Entry | Doors, hold, kinetic edge |
-| Field-R Overwatch | Overwatch | Picture, OSINT, warn |
-| Building Defense ×3 | Site Security ×3 | Facility |
-| BS-01 system/robot | Grid / automation | Non-human continuity |
+| Layer | Hitman seat | Function |
+|-------|-------------|----------|
+| Apex | Director / halo authority | Public denial, private contracts |
+| Money / politics | Sponsor-class | Pays for drops; political cover |
+| Crew leads | Set bosses / floor killers | Run packs on contract |
+| Shooters | Operators | The product |
+| Probation | New blood | High die-off expected |
+| Muscle specialties | Entry / chase / cleanup | Doors, pursuit, erase |
+| Watchers | Overwatch (human, not cyber-priest) | Eyes for the shot, not the packet |
+| Tech (borrowed) | Stolen or bought terminals | Use intel; do not identity as hackers |
+| Grid | Logistics / deniable transport | War-zone inserts, no backup doctrine |
 
-## Evil Twin targeting
-- Stage 1 → Hitman low exec / operator-tier
-- Stage 2 → Hitman Mission Sponsor
+Mirror to Prim3 exists only so **Prime can plug boards together** — not because Hitman thinks like Prim3.
 
-## Story rule
-Prime’s hand on this tree is **intentional**. Protagonist reads it as betrayal until upload/Ghost.
-
-## Logo
-**Locked.** See `story/HITMAN-BRAND.md`.
-
-Mark: ivory **H M** on black, center **AMMC** cartridge with halo over the tip — sanctioned-violence corporate face vs Prim3 M / Dual Sight.
+Evil Twin Stage 1–2 still targets low door → Sponsor-class for **Prime’s embed**, not because Hitman is a software company.
