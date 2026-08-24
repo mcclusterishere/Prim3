@@ -1,7 +1,7 @@
 ---
 status: PROPOSED
 system: Relationship continuity
-version: 1.0.0
+version: 1.1.0
 branch: main
 ---
 
@@ -126,16 +126,19 @@ Scale language is qualitative on purpose: **very low / low / guarded / medium / 
 - **Power imbalance:** Helen formally outranks Chioma; Chioma may command more voluntary loyalty.
 - **Failure trigger:** Helen blocks a Chioma decision to protect continuity, or Chioma publicly refuses Helen's authority.
 
-## Benji ↔ “Uncle” Royce
+## Benji ↔ Royce
 
-- **Trust:** high history, declining future.
-- **Professional dependence:** Benji initially high; decreases as his network grows.
-- **Affection:** real familial loyalty.
-- **Resentment:** high and rising around permission, ownership and dependence.
-- **Shared secret:** Royce has protected Benji from consequences Benji does not fully know about.
-- **Unresolved debt:** Benji owes opportunity and survival; Royce believes that debt implies permanent loyalty.
-- **Power imbalance:** extreme early, narrowing over the arc.
-- **Failure trigger:** Royce uses a relationship or resource to remind Benji that everything he has can be withdrawn.
+- **Trust:** none before Evil Twin; guarded professional recognition after their first conversation.
+- **Personal history:** none. They do not know one another socially, professionally or through mentorship before S7E2.
+- **Prior contact:** repeated battlefield near-misses and brief visual recognition across dangerous operations. They have seen one another through smoke, doorways, optics, vehicles and crossing routes but have never spoken.
+- **Professional dependence:** none knowingly before Evil Twin. Later evidence shows Prime repeatedly placed their objectives near one another, sometimes making one operator's movement indirectly useful to the other's survival.
+- **Affection:** none.
+- **Resentment:** high situational irritation because each previously interpreted the other as an opposing battlefield problem.
+- **Shared secret:** none before Evil Twin. Their first shared revelation is that `P-00` shaped several of their convergences and separations.
+- **Information asymmetry:** Prime knows both men's place on the board; Benji and Royce know only fragments of the other's field pattern.
+- **Power imbalance:** neither begins with personal authority over the other.
+- **First conversation:** S7E2 — Evil Twin.
+- **Failure trigger:** either man later pretending the new knowledge creates loyalty or debt that was never actually earned.
 
 ## Benji ↔ Sable Quinn
 
@@ -155,7 +158,7 @@ Scale language is qualitative on purpose: **very low / low / guarded / medium / 
 - **Resentment:** Dez sometimes feels Benji sees him as a younger version of himself rather than a separate person.
 - **Shared secret:** Dez has seen Benji doubt himself when the rest of the crew has not.
 - **Power imbalance:** grows as Benji rises.
-- **Failure trigger:** Benji reproduces Royce's dependency model with Dez.
+- **Failure trigger:** Benji reproduces a dependency model with Dez instead of allowing him separate agency.
 
 ## Rae “Twin” Colton ↔ Jules “Kiosk” Mendez
 
@@ -182,7 +185,7 @@ Scale language is qualitative on purpose: **very low / low / guarded / medium / 
 - **Trust:** Prime's trust is evaluative; Jordan does not know the relationship exists early.
 - **Professional dependence:** hidden — Prime shapes the path Jordan thinks he chose himself.
 - **Affection:** Prime develops a form of respect/hope he cannot openly express without corrupting the test.
-- **Resentment:** Jordan's eventual resentment will center on stolen agency; Prime's resentment may center on Jordan taking seven years to become what Prime became in months.
+- **Resentment:** Jordan's eventual resentment centers on stolen agency; Prime's resentment may center on Jordan taking seven years to become what Prime became in months.
 - **Shared secret:** none initially; the relationship is built on information asymmetry.
 - **Power imbalance:** maximal early, narrows until the succession confrontation.
 - **Failure trigger:** Jordan learns how much of his opportunity, danger and evaluation was architected before he consented.
@@ -192,10 +195,10 @@ Scale language is qualitative on purpose: **very low / low / guarded / medium / 
 - **Trust:** observational, not personal early.
 - **Professional dependence:** hidden parallel to Jordan's path.
 - **Affection:** Prime respects systems-builders who emerge from conditions the institution would normally dismiss.
-- **Resentment:** Benji will hate discovering his “independent” takeover existed inside a larger design.
+- **Resentment:** Benji hates discovering his “independent” rise existed inside a larger design.
 - **Information asymmetry:** maximal.
 - **Power imbalance:** maximal until Benji understands the dual board.
-- **Failure trigger:** Benji learns Hitman was never as independent as its own leadership believed.
+- **Failure trigger:** Benji learns Hitman was never as independent as its own field actors believed.
 
 # Change-event protocol
 
