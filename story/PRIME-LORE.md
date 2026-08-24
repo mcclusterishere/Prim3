@@ -1,7 +1,7 @@
 ---
 status: CANON
 system: Prime capability doctrine
-version: 2.1.0
+version: 2.2.0
 ---
 
 # Prime — what he actually is
@@ -49,15 +49,74 @@ High Alert begins at the **property perimeter**, not the main lobby.
 
 Prime has already been watching the approach in sleep through cameras, sentries, roads and remote feeds. The body wakes only when the perimeter event requires physical action that the distributed command layer cannot resolve alone.
 
-## RAID and the succession window
+The opening shows Jordan's assault from one visible perspective. A separate Benji-led assault element is also moving through the larger Site 0 battle from another route, though the audience does not understand the relationship yet.
 
-During the final RAID, Jordan's team breaches Site 0 and damages Presiding Prime's body badly enough that it can no longer function as the same autonomous physical commander.
+## RAID and the survivor state
 
-That does **not** mean Prime is gone.
+During the final RAID, two separate assault elements breach Site 0:
 
-The dangerous moment is the opposite: Prime's distributed intelligence and command architecture still exist, while his injured living body remains the system's strongest biometric trust anchor.
+- Jordan's element;
+- Benji's element.
 
-The succession operation therefore requires the team to use the still-living Prime-00 identity during a narrow in-facility control window to:
+Prime genuinely resists both.
+
+He does not sacrifice people merely to create a lesson and he does not surrender because a candidate finally arrived.
+
+The breach becomes catastrophic.
+
+Every other member of both assault elements dies.
+
+Jordan and Benji become the only survivors of their respective teams.
+
+They encounter one another inside Site 0 after years of battlefield near-misses and incomplete visual contact.
+
+They nearly kill each other.
+
+Instead, they recognize Prime as the common target and form a temporary alliance.
+
+**Jordan and Benji physically defeat Prime together.**
+
+Prime's body is damaged badly enough that it can no longer continue as the same autonomous physical commander.
+
+He is returned to the suspension system, which now functions as life support as well as the familiar neural command interface.
+
+That still does **not** mean Prime is gone.
+
+## Evil Twin — confession as survival
+
+Evil Twin begins only after Prime is already beaten.
+
+Jordan and Benji are standing over him with every reason to execute him.
+
+Prime's last available weapon is information.
+
+He reveals the dual-board architecture because he is trying to survive long enough to explain one critical fact:
+
+**his still-living biological identity remains the deepest trust root of the Prime system.**
+
+The confession reinterprets years of near-misses, mirrored missions, separated teams and different information streams.
+
+Prime is not merely saying “I watched both sides.”
+
+He is admitting:
+
+- he knew where Jordan and Benji were when they saw only fragments of one another;
+- he routed separate teams through the same larger events;
+- he allowed different operators to believe different stories about shared objectives;
+- he used compartmentalization as an operating method;
+- his real advantage was possession of the complete board.
+
+Jordan and Benji keep him alive after the confession because they verify that killing the biological root immediately would leave the succession architecture unresolved.
+
+That is utility, not mercy.
+
+## The succession window
+
+After Evil Twin, the dangerous moment is clear:
+
+Prime's distributed intelligence and command architecture still exist, while his injured living body remains the system's strongest biometric trust anchor.
+
+The succession operation therefore requires the surviving attackers to use the still-living Prime-00 identity during a narrow in-facility control window to:
 
 1. recognize Jordan as the new Prime authority;
 2. transfer the sovereign command role away from Prime-00;
@@ -101,4 +160,10 @@ Prime-00 becomes the most knowledgeable advisor in the world and, for the first 
 
 This is not a facility manager with good CCTV.
 
-This is a man who could steer wars, markets and missions from a dream using two house systems and global feeds. The final victory is therefore not killing or uploading him. It is **taking the right to act away from a mind that still knows how to control everything.**
+This is a man who could steer wars, markets and missions from a dream using two house systems and global feeds.
+
+The final victory therefore has three stages:
+
+1. Jordan and Benji survive long enough to defeat his body;
+2. Evil Twin forces him to explain the board because they are about to kill him;
+3. Ghost In The Wires takes the right to act away from a mind that still knows how to control everything.
