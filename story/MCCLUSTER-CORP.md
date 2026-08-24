@@ -1,38 +1,55 @@
 ---
 status: CANON
-system: Front corporation
-version: 1.0.0
+system: Holding company / marketing face
+version: 1.1.0
 ---
 
 # McCluster Corp
 
 ## One line
-**McCluster Corp is the legal face.** Prim3 is the work. The **M emblem** (white geometric M + red Dual Sight bars) is the mark both wear in public and on institutional kit.
+**McCluster Corp looks like a marketing company.** It is a **holding company** that owns a stack of other companies. People work “together” while legally sitting in different subsidiaries. The **M emblem** is the parent mark.
 
 ## What it is
-A **front corporation** — real enough for contracts, payroll, marketing, and glass-tower legitimacy. Behind it: operators, cohorts, field kits, dual-board games with Hitman, and the curriculum in the songs.
+| Layer | Reality |
+|-------|---------|
+| **Public face** | Marketing company — campaigns, image, runway, brand systems |
+| **Structure** | Owns / holds **many companies** (ops, logistics, tech, security, media, etc.) |
+| **Day-to-day** | You and your coworkers often work out of **different owned entities** under the same parent |
+| **Operator culture** | Prim3 — the work doctrine, phenotypes, missions |
+| **Mark** | White geometric **M** + red Dual Sight bars on parent kit and letterhead |
+
+It is intentionally **complex**. Org charts do not fit on one slide. That complexity is the point: cover, compartmentation, and a cohort that feels like mixed corporate tribes under one logo.
+
+## Cohort vibe
+The cohort is not one uniform office floor.
+
+- Badge says McCluster (or a sub-brand)
+- Desk / contract / insurance may sit in **Company A** while the person next to them is on **Company B’s** books
+- Same mission, same M, different legal boxes
+- Socially: coworkers; structurally: multi-entity
+
+That friction — shared work, split employers — is part of the institutional texture.
+
+## Marketing department
+Still real, still dual:
+- Surfaces **normal people** (lifestyle, product, public image)
+- Surfaces **governments** (narrative, access, influence)
+
+Marketing is the **smile of the holding company**, not the whole machine. Full marketing arc deferred.
 
 ## Brand
 | Element | Role |
 |---------|------|
-| **M emblem** | Corporate + institutional mark — see `assets/brand/prim3/M-EMBLEM.md` |
-| Dual Sight bars | Doctrine in the logo: two states, two reads, never one story |
-| Public name | McCluster Corp |
-| Operator culture | Prim3 (systems, phenotypes, missions) |
+| **M emblem** | Parent identity — `assets/brand/prim3/M-EMBLEM.md` |
+| Dual Sight bars | Two reads, two states, never one honest org chart |
+| Sub-company names | Can exist in fiction; parent mark still wins on institutional gear |
 
-## Marketing department
-Exists in-world as a real function:
-- Surfaces **normal people** (campaigns, lifestyle, product, runway/public image)
-- Also surfaces **entire governments** (influence, narrative, access — the quiet product)
-
-Full **Marketing arc** is deferred (owner will expand; ties to album material including anti-social engineering / public-image tracks). Do not invent the full arc until that pass.
-
-## Relationship to other marks
+## vs other marks
 | Entity | Mark |
 |--------|------|
-| McCluster / Prim3 | White M + red Dual Sight bars |
-| Hitman | HM + AMMC round + halo |
-| Whip Equipped | Wrench-key, orange→red |
+| McCluster parent / Prim3 work | M + Dual Sight |
+| Hitman | HM + round + halo |
+| Whip Equipped | Wrench-key |
 
 ## Story rule
-When characters “work for the company,” they work for **McCluster Corp** on paper. Prim3 is how the work actually runs. Gear carries the **M**. Governments that buy the smile may not see the Dual Sight.
+“I work at McCluster” is true and incomplete. You work inside a **web of companies McCluster holds**. Prim3 is how the serious work is organized. Gear carries the **M** so the parent is never invisible even when the W-2 is.
