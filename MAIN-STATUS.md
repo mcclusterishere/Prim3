@@ -17,8 +17,14 @@ Main now includes a populated character architecture rather than placeholder tab
 
 - `story/CHARACTERS.md` — master cast index
 - `story/CAST-NATIONS.md` — 24 Prim3/McCluster mains + 48 attached secondary backstories
+- `story/PRIM3-CHARACTER-DOSSIERS.md` — full dossiers for all 24 Prim3 mains
+- `story/SECONDARY-CHARACTER-DOSSIERS.md` — individualized compact dossiers for all 48 attached secondaries
 - `story/PHENOTYPE-IDENTITIES.md` — named identities across Prim3 and Hitman role trees
 - `story/HITMAN-CAST.md` — personalized Hitman core cast
+- `story/HITMAN-CHARACTER-DOSSIERS.md` — full Hitman core dossiers
+- `story/CHARACTER-RELATIONSHIP-STATE.md` — persistent trust, resentment, debt, secrets and power-imbalance state
+
+The personalization pass follows `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-TEMPLATE.md`: ordinary life, money, family, voice, private wounds, desires, fears, contradictions, moral boundaries, stress habits, secrets, relationship pressure and failure modes are now part of development.
 
 Character expansion is marked **PROPOSED** where it develops names/backstories beyond locked root canon. `CANON.md` remains the continuity authority until those details are deliberately promoted.
 
