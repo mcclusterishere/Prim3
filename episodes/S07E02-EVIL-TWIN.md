@@ -12,391 +12,723 @@ branch: main
 
 # S7E2 — EVIL TWIN
 
-## Critical relationship correction
+## Owner-locked chronology
 
-Benji and Royce **do not have a mentor, family, debt, friendship or prior conversation history**.
+**Evil Twin begins only after RAID has already been won.**
 
-Before this episode they have only encountered one another indirectly on battlefields and operations:
+The RAID itself establishes the survivor state:
 
-- distant visual contact;
-- near-miss gunfire;
-- opposing movement through the same combat space;
-- one vehicle disappearing as the other arrives;
-- brief sightlines through smoke, glass, optics or doorways;
-- repeated recognition that the same dangerous stranger keeps appearing around impossible jobs.
+- Jordan enters Site 0 with his own assault element.
+- Benji enters Site 0 with a separate assault element pursuing the same hidden apex from the other side of Prime's architecture.
+- Prime genuinely resists both teams.
+- Both assault elements are destroyed during the breach.
+- **Jordan is the only survivor of his team.**
+- **Benji is the only survivor of his team.**
+- Jordan and Benji encounter one another inside Site 0 before reaching Prime.
+- They recognize one another from years of battlefield near-misses, close calls, weapons danger and brief visual contact, but they have never had a real conversation.
+- Their first instinct is to kill one another.
+- They realize that fighting each other only helps Prime.
+- They make a temporary alliance and finish the RAID together.
+- Together they physically defeat Presiding Prime.
+- Prime's body is critically damaged and is placed back into the suspension system, which now functions as life support as well as the familiar command interface.
 
-They know each other's **face/body language as a battlefield problem**, not each other's name, motives or life.
+**Then Evil Twin starts.**
 
-**Evil Twin is the first time Benji and Royce speak.**
+Prime has lost the building, lost the fight and lost his physical freedom.
 
-That first conversation must feel stranger than reunion: both men immediately recognize the person they have nearly killed before and only now discover that Prime kept placing them inside the same hidden architecture.
+Jordan and Benji are standing over him with every reason to execute him.
+
+Prime's last remaining weapon is information.
+
+The song is his confession.
+
+He is trying to stop them from killing him long enough to explain what they just defeated — and why killing his body immediately would not actually remove his authority from the machine.
 
 ---
 
 # Episode job
 
-RAID has physically defeated Presiding Prime, but sovereign authority has not yet been transferred.
+This episode has four jobs:
 
-Prime's damaged body is in the suspension tank as life support. His biometrics remain the highest-trust root identity long enough for Jordan's team to take the job away from him.
+1. reveal that Prim3 and Hitman were sibling instruments under one hidden Prime;
+2. reveal that Jordan and Benji's repeated battlefield encounters were not coincidence;
+3. reinterpret several High Alert memories and earlier missions from the opposite side;
+4. convince Jordan and Benji to keep Prime alive long enough for Ghost In The Wires to strip his authority correctly.
 
-Before Jordan uses that authority, he wants to know what the role actually owns.
+The central dramatic question is not:
 
-Prime answers with the Evil Twin reveal:
+> Is Prime telling the truth?
 
-- Prim3 and Hitman are sibling instruments under one hidden apex;
-- Jordan and Benji were parallel ascents through different cultures;
-- Rae and Sora were parallel social-entry assets who never knew one another;
-- Benji and Royce repeatedly crossed the same battlefields without knowing why;
-- several “separate” missions were paired halves of one design;
-- Prime supplied different facts, routes and priorities to different people;
-- Prime's confession is itself curated.
+It is:
 
-The mission is therefore not “listen to Prime explain lore.”
+> **How much truth does a defeated man have to reveal before the two people holding guns on him decide he is more useful alive than dead?**
 
-The mission is:
+Prime is not confessing because he suddenly became honest.
 
-**prove which parts of his confession are true using independent records before his biometric authority collapses.**
+He is confessing because he has been defeated and wants to survive.
+
+That makes every revelation simultaneously:
+
+- evidence;
+- manipulation;
+- explanation;
+- self-defense;
+- and, occasionally, genuine remorse.
+
+---
+
+# Technical concept from the song
+
+The Evil Twin concept is treated as an identity-and-trust problem rather than an exploit tutorial.
+
+The episode dramatizes:
+
+- two systems that look independent but share one hidden authority;
+- duplicated or mirrored identities;
+- legitimate-looking interfaces with different provenance;
+- social trust as an access surface;
+- identity relays and impersonation at a high conceptual level;
+- information asymmetry;
+- why appearance is not proof of origin;
+- why two independent viewpoints can expose a hidden common source.
+
+The lesson is:
+
+> **The most dangerous twin is the one that looks legitimate enough that nobody asks who controls both versions.**
+
+No real-world exploit procedures, commands, payloads, credential steps or attack recipes are shown.
+
+---
+
+# CONTINUITY IN — THE END OF RAID
+
+RAID ends with Site 0 breached.
+
+Emergency systems are running. Some sectors are dark. Others are burning, flooding, venting smoke or running on isolated backup power.
+
+Jordan's assault element is gone.
+
+Benji's assault element is gone.
+
+Their equipment, blood, abandoned comms and dead-channel identifiers remain throughout the building.
+
+The two surviving men reached the inner command environment only because, after nearly killing one another, they stopped treating each other as the primary threat.
+
+Together they defeated Prime.
+
+Prime is alive, barely.
+
+He has been sealed into the suspension tank.
+
+Before the RAID, that tank extended his command presence while he slept.
+
+Now it is keeping his body alive.
+
+Jordan and Benji do not yet understand that his living biometrics are also still the deepest root of trust in the Prime architecture.
+
+Both men believe they can simply kill him and finish the job.
+
+Prime knows that is not true.
 
 ---
 
 # 0:00–3:00 — MUSIC FILM
 
-## Visual thesis — YOU HAVE BEEN LOOKING AT THE OTHER HALF
+## Visual thesis — CONFESSION UNDER GUNPOINT
 
-Prime performs from inside the damaged tank. His body barely moves. The vocal travels through Site 0's speakers, displays and radios.
+The music film never pretends Prime still controls the room.
 
-Every image has a twin:
+He is defeated.
 
-- Jordan / Benji;
-- Aya / Jules;
+Jordan and Benji remain physically dominant for the entire song.
+
+Prime performs from inside the damaged tank because speech, memory and networked imagery are the only tools he has left.
+
+The song becomes a confession built from mirrored flashbacks.
+
+Every major visual has two versions:
+
+- Jordan's battlefield / Benji's battlefield;
+- Prim3 brief / Hitman brief;
+- McCluster badge / deniable field key;
+- polished lobby / service entrance;
+- corporate ledger / street ledger;
 - Rae / Sora;
-- Prim3 case / Hitman case;
-- polished lobby / service alley;
-- boardroom approval / handwritten field note;
-- legitimate badge / deniable key;
-- one battlefield angle / the same battlefield from the opposite side;
-- Prime's body / Prime's distributed control presence.
+- one objective / its hidden companion objective;
+- Prime as biological commander / Prime as distributed presence.
 
-## 0:00–0:25 — THE SECOND DOOR
+The audience should feel the world widening while the physical room gets smaller.
 
-Jordan, Aya, Chioma and Jonas enter the succession chamber after RAID.
+Prime has nowhere left to go.
 
-A sealed door on the opposite wall opens.
+So he opens the board.
 
-Benji enters with Sable, Rae and Jules.
+## 0:00–0:18 — THREE MEN LEFT IN THE ROOM
 
-A second smaller access corridor opens behind them.
+Black.
 
-Royce steps in alone, injured, weapon lowered but not holstered.
+We hear only:
 
-Benji and Royce freeze.
+- damaged ventilation;
+- the pump rhythm of the suspension tank;
+- one distant fire alarm;
+- Jordan breathing;
+- Benji breathing.
 
-Not because they know each other.
+Image fades in.
 
-Because they recognize each other.
+Jordan is seated against a damaged command console, bleeding through one sleeve.
 
-Rapid silent flashes:
+Benji stands on the other side of the room with a weapon still trained toward the tank.
 
-- Royce crossing an elevated catwalk while rounds strike concrete near Benji;
-- Benji's silhouette disappearing behind a vehicle as Royce fires toward the position;
-- both men seeing one another through different scopes for half a second before smoke blocks the shot;
-- a door slamming between them during an earlier extraction;
-- two weapons pointed through opposite ends of the same hallway, neither getting a clean line.
+Both men are filthy, exhausted and covered in residue from the breach.
 
-Present day.
+Between them is Prime.
 
-**BENJI**
-You.
+Inside the glass.
 
-Royce studies him.
+Broken.
 
-**ROYCE**
-Yeah.
+Alive.
 
-That is their first conversation.
+A status display reads:
 
-Prime's vocal comes in.
+`FACILITY BREACH: CONFIRMED`
 
-## 0:25–1:05 — “I GOT A LITTLE HAND IN THIS…”
+`PRIME-00 PHYSICAL RESPONSE: DEFEATED`
 
-The song's opening imagery becomes Prime admitting that he had hands in systems the characters believed were unrelated.
+`ASSAULT ELEMENTS ACTIVE: 2`
 
-The music video cuts between:
+Then the final value updates:
 
-- a McCluster event entrance and a Hitman access lane;
-- Rae and Sora crossing the same lobby years earlier;
-- Jordan receiving a corporate badge while Benji receives an unmarked field key;
-- Royce getting one objective while Benji receives another objective in the same geographic operation;
-- Prime asleep while both mission maps rotate around him.
+`ACTIVE PERSONNEL: JORDAN VALE / BENJI`
 
-Neither Benji nor Royce is framed as the other's boss or student.
+No one else from either assault team answers comms.
 
-They are **two operators Prime repeatedly allowed to collide without giving either the complete board**.
+Benji raises his weapon toward the tank.
 
-## 1:05–1:48 — SOCIAL EVIL TWINS
+Jordan does not stop him yet.
 
-Rae and Sora are shown in their old parallel entry operations.
+Prime's eyes open.
 
-The song's social-engineering imagery is treated as story memory, not an instructional sequence.
+Beat begins.
 
-Rae works street/social proximity.
+## 0:18–0:48 — “A LITTLE HAND IN THIS / A LITTLE HAND IN THAT”
 
-Sora works elite/donor/political proximity.
+Prime's first confession is visual.
 
-Same event.
+The room splits down the center.
+
+Left side: Jordan's world.
+
+Right side: Benji's.
+
+Jordan receives institutional access, training, missions, corporate equipment and legitimate briefings.
+
+Benji receives cash movement, deniable logistics, street access, favors, field routes and equipment whose origin is never fully explained.
+
+The two timelines rise like separate pyramids.
+
+At the top of both:
+
+`P-00`
+
+Prime's tank remains visible behind the imagery.
+
+He is not bragging from a throne.
+
+He is admitting authorship because two men are deciding whether he gets another minute alive.
+
+## 0:48–1:18 — THE MEN WHO KEPT ALMOST SHOOTING EACH OTHER
+
+The song cuts into the battlefield relationship that RAID finally resolved.
+
+Flashback one:
+
+A damaged industrial structure years earlier.
+
+Jordan crosses one side of an upper level.
+
+Benji appears through smoke on the lower level.
+
+Each sees only a fragment of the other.
+
+Weapons rise.
+
+A structural collapse interrupts the line of sight.
+
+Flashback two:
+
+A convoy extraction.
+
+Jordan's vehicle exits frame as Benji's vehicle enters from the opposite direction.
+
+Both men turn to look back.
+
+Neither knows why the same stranger keeps appearing around unrelated operations.
+
+Flashback three:
+
+A dark hallway.
+
+Two silhouettes at opposite ends.
+
+A muzzle flash from somewhere else forces both to cover before either gets a clean shot.
+
+Now the same scenes replay from above.
+
+Prime's sleep-state command view shows both positions simultaneously.
+
+Different handlers.
+
+Different objectives.
 
 Same hidden apex.
 
-Different stories about why they are there.
+For the first time the audience understands:
 
-For one frame, Prime's face appears in the revolving-door reflection between them.
+Prime had been seeing both men every time they saw each other.
 
-## 1:48–2:25 — BATTLEFIELD NEAR MISSES
+## 1:18–1:53 — RAE / SORA — THE SOCIAL TWIN
 
-The video gives Benji/Royce their real history.
+The older lobby memory returns.
 
-A montage of old combat spaces shows how close they came:
+Rae “Twin” Colton moves through a street-facing access lane.
 
-- Benji pulls one of his people behind cover a second before Royce's team crosses the opposite side;
-- Royce pauses beside fresh shell impacts and sees Benji's vehicle leaving in the distance;
-- an overhead feed shows both teams separated by one floor of a damaged structure;
-- each receives a different extraction route from different handlers;
-- both routes were approved by `P-00`.
+Sora “Gymnast” Okada moves through an elite donor/political lane.
 
-The audience realizes Prime was not protecting a mentor relationship.
+Same building.
 
-He was **engineering convergences and separations**.
+Same time.
 
-## 2:25–3:00 — THE TWO CASES
+Neither knows the other exists.
 
-The old High Alert / Trappin memory returns.
+Their assignments appear separately.
 
-Two equipment cases leave one hidden logistics family.
+Then the hidden sponsor layer folds together above them.
 
-One reaches Prim3.
+`P-00`
 
-One reaches Hitman.
+The song's social-engineering and impersonation imagery becomes a story about duplicate trust:
 
-Then a third record appears:
+one woman fits one room;
 
-`FIELD CONFLICT / ROYCE CELL`
+one woman fits another room;
 
-The same `P-00` signature sits above all three.
+both are legitimate to the people who see only their half.
 
-The music stops.
+Prime's voice rides over both images.
 
-Benji looks from Royce to Prime's tank.
+Jordan and Benji watch the flashbacks projected across the damaged tank glass.
 
-**BENJI**
-Who the fuck is he?
+## 1:53–2:24 — “SCHEMING AT THE TOP OF EVERY PYRAMID”
 
-Royce answers without taking his eyes off Benji.
+Prime's multiple identities and client relationships appear as masks without turning into technical instructions.
 
-**ROYCE**
-I was about to ask you the same thing.
+Military contact.
 
-Cut to human story.
+Corporate client.
+
+Political intermediary.
+
+Humanitarian channel.
+
+Criminal sponsor.
+
+Institutional partner.
+
+Each believes they are dealing with a separate relationship.
+
+The camera keeps pulling upward until the lines converge on one sleeping man.
+
+Prime.
+
+Then we see earlier High Alert receipts:
+
+- `P-00` approving Jordan's intake;
+- the temporary App Attacks exception;
+- paired Trappin logistics cases;
+- a route change that kept Jordan and Benji from meeting too early;
+- a mission map where Prim3 and Hitman each received half the relevant picture.
+
+## 2:24–2:48 — THE RAID FROM BOTH SIDES
+
+Now the song shows what happened minutes earlier.
+
+Jordan, last member of his assault element, enters a damaged Site 0 corridor.
+
+Benji, last member of his assault element, enters from the opposite side.
+
+They recognize each other immediately.
+
+Weapons up.
+
+One beat from firing.
+
+Then the facility itself reacts around them.
+
+Doors cycle.
+
+Fire-control shutters move.
+
+A Prime defense route begins closing both of them into separate kill zones.
+
+Jordan looks at the moving architecture.
+
+Benji looks at Jordan.
+
+The choice becomes obvious.
+
+They turn their guns away from each other.
+
+Not friendship.
+
+Not trust.
+
+Prioritization.
+
+They fight toward Prime together.
+
+The audience sees only fragments because the full RAID episode owns the complete action.
+
+## 2:48–3:00 — PRIME'S LAST WEAPON
+
+Back in the present.
+
+Benji's weapon is still pointed at the tank.
+
+Jordan is now standing.
+
+Prime's voice stops rapping.
+
+No music for one second.
+
+**PRIME**
+You can kill me.
+
+Benji steps closer.
+
+Prime continues:
+
+**PRIME**
+But if you do it before you take my name out of the machine, you haven't won.
+
+Jordan's eyes narrow.
+
+Beat cuts.
 
 ---
 
 # 3:00–6:00 — HUMAN STORY
 
-## Scene — “FIRST NAMES”
+## Scene — “EVERYBODY ELSE IS DEAD”
 
-Weapons are down but nobody is relaxed.
+**Location:** Site 0 inner command / suspension chamber.
 
-Jordan is exhausted from RAID. Benji is angry because he has been brought into a room full of people who clearly know more than he does. Royce is angry because the man he has nearly encountered several times is suddenly standing beside the same command system.
+Present:
 
-### 3:00–3:35
+- Jordan Vale;
+- Benji;
+- Presiding Prime / Prime-00;
+- damaged Site 0 systems.
 
-**BENJI**
-Benji.
+No other member of either RAID assault element is alive in the room or answering comms.
 
-Royce gives him a look.
+### 3:00–3:30 — THE COST
 
-**ROYCE**
-Royce.
+Benji keeps the weapon on Prime.
 
-**BENJI**
-That's it?
+Jordan checks one final comm channel.
 
-**ROYCE**
-We ain't friends.
+Static.
 
-**BENJI**
-Never said we were.
+He says one teammate's call sign.
 
-A beat.
+Nothing.
 
-**ROYCE**
-You shot through a door at me in Newark.
+Benji notices.
 
 **BENJI**
-You shot first.
+Don't.
 
-**ROYCE**
-Didn't hit you.
+Jordan looks at him.
 
 **BENJI**
-Neither did I.
+I already ran mine twice.
 
-**ROYCE**
-That's why we're talking.
+Jordan understands.
 
-Jordan looks at Prime.
+Benji's people are gone too.
+
+Jordan looks toward the tank.
 
 **JORDAN**
-How many times did you put them on the same board?
-
-Prime's voice comes through the tank.
-
-**PRIME**
-Enough that each became useful to the other's survival without knowing it.
-
-Benji laughs once, without humor.
-
-**BENJI**
-Nah. Run that back.
-
-### 3:35–4:20
-
-Prime displays paired maps from several old operations.
-
-One map is Benji's.
-
-One is Royce's.
-
-They overlap but do not match.
-
-**ROYCE**
-That wasn't my objective.
-
-**BENJI**
-Wasn't mine either.
-
-Prime overlays both.
-
-A complete objective emerges only when the two are combined.
-
-**PRIME**
-Correct.
-
-**BENJI**
-So every time I thought this dude was fucking up my move—
-
-**ROYCE**
-You were fucking up mine.
-
-**PRIME**
-Sometimes.
-
-Jordan cuts in.
-
-**JORDAN**
-And sometimes you needed both of them to believe the other was the problem.
-
-Prime does not answer immediately.
-
-That pause is an answer.
-
-### 4:20–5:00 — JORDAN / BENJI
-
-Jordan and Benji finally look at one another long enough to see the parallel.
-
-**BENJI**
-You work for him?
-
-**JORDAN**
-Apparently longer than I knew.
+Everybody I came in with is dead.
 
 **BENJI**
 Same.
 
-Jordan points toward Prime.
+Prime says nothing.
 
-**JORDAN**
-Difference is I came here to take his job.
-
-Benji looks around at the destroyed facility.
+Benji moves toward the glass.
 
 **BENJI**
-You hiring?
+So whatever this speech is, make it short.
 
-Aya almost laughs. Jordan does not.
-
-Prime says:
+### 3:30–4:05 — PRIME DOES NOT CLAIM THE DEATHS WERE A TEST
 
 **PRIME**
-You are both still misunderstanding the position.
+I did not kill them to teach you something.
 
-Benji turns toward the tank.
-
-**BENJI**
-You keep saying shit like you still got one.
-
-### 5:00–5:38 — THE CONFESSION IS TOO CLEAN
-
-Prime begins presenting proof:
-
-- paired logistics;
-- shared sponsor chains;
-- mirrored operation timestamps;
-- Rae/Sora social entry;
-- Benji/Royce battlefield overlaps;
-- Jordan's `P-00` approvals.
-
-Jonas watches the metadata instead of the presentation.
-
-**JONAS**
-Jordan.
-
-A label appears:
-
-`ET-00 / SUCCESSION DISCLOSURE / CURATED`
-
-Timestamp: before RAID.
-
-Aya understands first.
-
-**AYA**
-He built this before we got here.
-
-Benji stares at Prime.
+Benji immediately:
 
 **BENJI**
-You had the “I secretly ran everybody” slideshow ready before they kicked your ass?
-
-Prime gives the smallest smile.
-
-Jordan shuts the presentation off.
-
-**JORDAN**
-No more evidence you picked.
+You killed them because we came for you.
 
 **PRIME**
-Then verify it.
+Yes.
+
+No excuse.
+
+No philosophy.
+
+That direct answer lands harder than justification would.
 
 Jordan:
 
 **JORDAN**
-That's the first useful thing you've said.
+You knew we would.
 
-### 5:38–6:00
+**PRIME**
+I knew eventually somebody would.
 
-The succession system warns:
+Jordan:
 
-`BIOLOGICAL ROOT AUTHORITY: DEGRADING`
+**JORDAN**
+Both of us?
 
-`TRANSFER WINDOW: LIMITED`
+Prime looks from Jordan to Benji through the tank glass.
+
+**PRIME**
+I knew your paths were converging.
+
+Benji:
+
+**BENJI**
+You mean you kept putting us in each other's fucking way.
+
+**PRIME**
+Sometimes I put you near one another.
+
+**BENJI**
+That's the same sentence with better insurance.
+
+### 4:05–4:42 — THE EVIL TWIN CONFESSION
+
+Prime brings up two incomplete organizational maps.
+
+Prim3.
+
+Hitman.
+
+Jordan recognizes one.
+
+Benji recognizes the other.
+
+Prime overlays them.
+
+They share the same hidden apex.
+
+**PRIME**
+You believed they were separate because separation was part of the design.
+
+**JORDAN**
+You were running both.
+
+**PRIME**
+Yes.
+
+Benji:
+
+**BENJI**
+Against each other?
+
+Prime:
+
+**PRIME**
+Sometimes adjacent. Sometimes opposed. Sometimes completing the same objective from different realities.
+
+Jordan:
+
+**JORDAN**
+Different realities you wrote.
+
+**PRIME**
+Different information.
+
+Jordan:
+
+**JORDAN**
+Same fucking difference when you're the only one with the whole picture.
+
+Prime does not argue.
+
+### 4:42–5:15 — WHY JORDAN AND BENJI KEPT SEEING EACH OTHER
+
+Prime displays three old operations.
+
+On each one, Jordan and Benji's positions appear within the same larger event.
+
+Jordan finally recognizes a silhouette from years earlier.
+
+**JORDAN**
+That was you at the freight terminal.
+
+Benji looks at him.
+
+**BENJI**
+You were on the roof.
+
+Jordan:
+
+**JORDAN**
+You fired at me.
+
+Benji:
+
+**BENJI**
+You had a rifle pointed at my people.
+
+Jordan:
+
+**JORDAN**
+I didn't know who your people were.
+
+Benji gestures toward Prime.
+
+**BENJI**
+Exactly.
+
+Prime:
+
+**PRIME**
+Neither did the other side.
+
+Jordan turns on him.
+
+**JORDAN**
+And you did.
+
+Prime:
+
+**PRIME**
+Yes.
+
+That's the confession.
+
+Not that Prime controlled every bullet.
+
+That he controlled context.
+
+### 5:15–5:38 — THE FINAL RAID TEST WAS NOT “WHO SURVIVES”
+
+Benji:
+
+**BENJI**
+So what was tonight? You wanted to see which one of us lived?
+
+Prime:
+
+**PRIME**
+No.
+
+Jordan watches him carefully.
+
+Prime:
+
+**PRIME**
+I was trying to survive.
+
+Beat.
+
+**PRIME**
+You came to take the position. The position means nothing if I can hand it to you because I'm tired.
+
+Benji:
+
+**BENJI**
+You ain't hand us shit.
+
+Prime:
+
+**PRIME**
+Correct.
+
+Jordan realizes the last test was not that their teams died.
+
+The deaths were consequence.
+
+The meaningful choice was the moment Jordan and Benji met and did **not** finish each other before reaching Prime.
+
+Prime:
+
+**PRIME**
+What I did not know was whether two men I had kept inside different realities would recognize the same enemy before they killed one another.
+
+Benji:
+
+**BENJI**
+Don't make our decision sound like your accomplishment.
+
+Prime:
+
+**PRIME**
+It isn't.
+
+That is one of the few clean admissions Prime makes.
+
+### 5:38–6:00 — WHY PRIME IS STILL ALIVE
+
+Benji raises the weapon again.
+
+**BENJI**
+Cool story.
+
+Jordan does not stop him.
+
+Prime:
+
+**PRIME**
+Shoot me and the distributed authority still knows my name.
+
+Jordan:
+
+**JORDAN**
+Explain.
+
+Prime:
+
+**PRIME**
+My body is still the root identity. Your RAID defeated my ability to command physically. It did not revoke my authority digitally.
+
+Benji:
+
+**BENJI**
+So you telling us not to kill you because your fingerprints still work.
+
+Prime:
+
+**PRIME**
+I'm telling you that if you kill the root before you transfer it, the system becomes a succession problem neither of you has mapped.
 
 Jordan looks at Benji.
 
-Then Royce.
+Neither trusts Prime.
 
-Then Aya.
+Jordan:
 
 **JORDAN**
-We prove the board before we inherit it.
+Then we verify it.
 
 Mission title:
 
@@ -410,193 +742,310 @@ WATCH / PLAY
 
 ## Mission fantasy
 
-**Corroborate Prime's dual-board confession from records he did not curate.**
+**Use mirrored memories and independent records to determine whether Prime's confession is real before deciding whether he stays alive long enough to complete succession.**
 
-No exploit procedures are shown. The gameplay is provenance, cross-checking, timeline reconstruction and perspective switching.
+The mission is not about breaking into a real system.
+
+It is about perspective, provenance and identity.
+
+The player repeatedly sees the same event twice and has to identify the hidden common authority.
 
 ## Playable perspectives
 
-- Jordan — Prim3/McCluster records;
-- Benji — his own field/logistics history;
-- Royce — independent battlefield records and route memories;
-- Aya/Jonas — system provenance and timestamp validation;
-- Rae/Sora — social-event corroboration.
+Primary:
+
+- Jordan;
+- Benji.
+
+Support:
+
+- Prime's confession track, which can be muted but not trusted automatically;
+- surviving local Site 0 evidence systems.
+
+No other member of either assault team participates. They are dead.
 
 ## Core loop
 
-1. **PRIME CLAIM** — Prime asserts a relationship.
-2. **FIND INDEPENDENT SOURCE A.**
-3. **FIND INDEPENDENT SOURCE B.**
-4. **COMPARE TIME / PLACE / PROVENANCE.**
-5. Mark: `CONFIRMED`, `CONTRADICTED`, or `INCOMPLETE`.
+1. **REPLAY JORDAN VIEW.**
+2. **REPLAY BENJI VIEW.**
+3. **COMPARE WHAT EACH SIDE WAS TOLD.**
+4. **IDENTIFY SHARED FACT / SHARED AUTHORITY.**
+5. Mark Prime's claim `CONFIRMED`, `CONTRADICTED` or `INCOMPLETE`.
 
-### Phase A — TWO CASES
+The player never gets the entire truth from one screen.
 
-Jordan validates Prim3's old case manifest.
+That is the mechanic.
 
-Benji validates his own field receipt.
+---
 
-The visible job names and recipients differ.
+## PHASE A — NEAR MISS: THE FREIGHT TERMINAL
 
-The hidden manufacturing batch and funding family match.
+**Time target:** 6:00–6:45.
 
-`CONFIRMED — PAIRED LOGISTICS`
+### Jordan view
+
+The player briefly controls Jordan during an earlier operation.
+
+His objective is to observe and protect a legitimate logistics transfer.
+
+He sees an unknown armed group entering from the service side.
+
+One figure — Benji — appears through an elevated opening.
+
+Jordan tracks him.
+
+Before he can decide whether Benji is part of the threat, Jordan receives a route change from his command layer.
+
+He moves.
+
+### Benji view
+
+The timeline rewinds.
+
+Now the player controls Benji.
+
+His objective is different: move a person/equipment package through the same location before another hostile group closes the route.
+
+He sees Jordan on the roof.
+
+From Benji's incomplete brief, Jordan looks like overwatch for the opposing force.
+
+Benji raises his weapon.
+
+Before he has a clean opportunity, his handler sends a route change.
+
+He moves.
+
+### Overlay
+
+The two views merge.
+
+Both route changes resolve upward to the same hidden authority family:
+
+`P-00`
+
+Result:
+
+`CLAIM: DELIBERATE CONTROLLED SEPARATION`
+
+`STATUS: CONFIRMED`
+
+Benji in present day:
 
 **BENJI**
-I got mine Thursday.
+You could've just told us we weren't the target.
+
+Prime:
+
+**PRIME**
+Then neither mission would have remained compartmentalized.
+
+Jordan:
 
 **JORDAN**
-So did we.
+That's the problem, not the defense.
 
-Royce checks one of his own records.
+---
 
-**ROYCE**
-I got a route change Thursday.
+## PHASE B — THE SOCIAL TWIN
 
-All three records resolve to `P-00`.
+**Time target:** 6:45–7:25.
 
-### Phase B — THE NEAR MISS
+The player reconstructs the old Rae/Sora lobby event from two independent timelines.
 
-The player reconstructs one battlefield from three independent views.
+One timeline shows the street/social lane.
 
-Benji's camera shows Royce crossing a far doorway.
+The other shows the donor/political lane.
 
-Royce's after-action notes describe an unidentified opposing operator matching Benji's movement.
+Different assignments.
 
-A neutral building sensor log proves both teams were inside the structure at the same time.
+Different social identities.
 
-Prime had routed them toward separate exits seconds before direct contact.
+Different immediate objectives.
 
-`CONFIRMED — DELIBERATE CONVERGENCE / CONTROLLED SEPARATION`
+Same event.
 
-Benji looks at Royce.
+Same hidden sponsor chain.
 
-**BENJI**
-So you really was there.
+The player identifies the common apex.
 
-**ROYCE**
-I told you.
+`CLAIM: PARALLEL SOCIAL-ENTRY ASSETS`
 
-**BENJI**
-You ain't told me shit. We just met.
+`STATUS: CONFIRMED`
 
-Royce almost smiles.
+The educational beat is explicit:
 
-**ROYCE**
-Fair.
+Two things can both be authentic to the people using them and still be controlled by the same hidden source.
 
-This is their relationship tone going forward: battlefield recognition, no fake history.
+The “evil twin” is not always a cheap fake.
 
-### Phase C — RAE / SORA
+Sometimes both twins are real.
 
-Rae's personal timeline and Sora's McCluster scheduling record prove they were in the same public event serving separate access objectives.
+The deception is who owns them.
 
-Neither record mentions the other.
+---
 
-Both ultimately resolve to the same hidden sponsor chain.
+## PHASE C — TWO CASES
 
-`CONFIRMED — DUAL SOCIAL ENTRY`
+**Time target:** 7:25–8:00.
 
-### Phase D — JORDAN'S RECEIPTS
+The old Trappin memory returns.
 
-Jordan verifies three earlier High Alert memory anchors:
+Jordan verifies the Prim3 equipment case.
 
-- `P-00` approved his intake continuation;
-- `P-00` opened the temporary App Attacks exception;
-- `P-00` kept Jordan/Aya inside the same operational region after their relationship became known.
+Benji verifies the case his side received.
 
-Aya is visibly disturbed by the third one even though Prime did not create their relationship.
+Different visible paperwork.
 
-`CONFIRMED — CANDIDATE SHAPING`
+Different recipients.
 
-### Phase E — THE REAL EVIL TWIN
+Different stated purpose.
 
-Two Prime identities appear in the succession architecture:
+The manufacturing batch, funding family and timing match.
+
+At the highest hidden level:
+
+`P-00`
+
+Result:
+
+`CLAIM: SHARED LOGISTICS APEX`
+
+`STATUS: CONFIRMED`
+
+Jordan looks through the tank glass.
+
+**JORDAN**
+You didn't just know both sides.
+
+Prime:
+
+**PRIME**
+No.
+
+Jordan:
+
+**JORDAN**
+You supplied both sides.
+
+Prime:
+
+**PRIME**
+Yes.
+
+---
+
+## PHASE D — THE REAL EVIL TWIN: PRIME / PRIME
+
+**Time target:** 8:00–8:42.
+
+The final mirrored identity is not Jordan and Benji.
+
+It is Prime himself.
+
+Two authentic authority representations appear:
 
 `PRIME-00 / BIOLOGICAL ROOT`
 
 `PRIME-00 / DISTRIBUTED CONTINUITY`
 
-Both are authentic representations of the same presiding Prime.
+Both are genuinely Prime.
 
-Only one is currently sufficient to authorize sovereign succession: the still-living biometric root.
+Both have historically participated in command.
 
-The distributed identity is powerful, pervasive and real—but must not be allowed to self-certify its own continued authority after the body loses the role.
+The difference is provenance and current authority.
 
-The player marks:
+The injured living body remains the deepest biometric trust anchor.
 
-`SOURCE OF SOVEREIGN TRANSFER: BIOLOGICAL ROOT`
+The distributed Prime is the networked intelligence that could continue observing and attempting to operate if nobody formally removes its privileges.
 
-`DISTRIBUTED PRIME: CONTINUITY / NOT ROOT AUTHORITY`
+The player must determine which identity can lawfully authorize succession.
 
-Aya:
+Correct result:
 
-**AYA**
-That's why we need him alive.
+`SOVEREIGN TRANSFER SOURCE: BIOLOGICAL PRIME-00`
+
+`DISTRIBUTED PRIME-00: CONTINUITY PRESENCE / NOT SELF-SUFFICIENT SUCCESSION AUTHORITY`
+
+This does not transfer the role yet.
+
+That is Ghost In The Wires.
+
+This mission only proves Prime was telling the truth about why they cannot simply shoot him **yet**.
 
 Benji:
 
 **BENJI**
-Long enough to fire himself.
+So we need the body.
 
 Jordan:
 
 **JORDAN**
-Long enough for us to fire him.
+We need the authority attached to it.
+
+Prime:
+
+**PRIME**
+For the moment, those are the same problem.
 
 ---
 
-# WATCH CANON RESULT
+## 8:42–9:00 — WATCH CANON ENDING
 
 The evidence board resolves:
 
 `PRIM3 / HITMAN SHARED APEX: CONFIRMED`
 
-`PAIRED OPERATIONS: CONFIRMED`
+`JORDAN / BENJI REPEATED CROSS-BOARD CONTACT: CONFIRMED`
 
-`BENJI / ROYCE PRIOR PERSONAL RELATIONSHIP: NONE`
+`PRIME-00 BIOLOGICAL ROOT REQUIRED FOR CLEAN SUCCESSION: CONFIRMED`
 
-`BENJI / ROYCE REPEATED BATTLEFIELD CONTACT: CONFIRMED`
+`PRIME CONFESSION COMPLETENESS: UNKNOWN`
 
-`PRIME DISCLOSURE COMPLETENESS: UNKNOWN`
+That last line stays.
 
-That last line matters most.
+They have proven Prime told them something true.
 
-Prime told the truth.
+They have not proven he told them everything.
 
-There is no proof he told all of it.
+Benji lowers the weapon by inches, not trust.
 
-The system alarms:
+**BENJI**
+You got until we take your name out the machine.
 
-`BIOMETRIC ROOT DECAY ACCELERATING`
+Prime closes his eyes.
 
-Jonas:
+**PRIME**
+That's longer than I had five minutes ago.
 
-**JONAS**
-Now.
-
-Jordan looks at Prime's body.
-
-**JORDAN**
-Keep him alive.
-
-Royce looks at Jordan for the first time instead of Benji.
-
-**ROYCE**
-After what he did?
+Jordan steps to the tank.
 
 **JORDAN**
-Because of what he can still authorize.
+Don't confuse this with mercy.
+
+Prime opens one eye.
+
+**PRIME**
+I don't.
+
+Jordan looks toward the authority display.
+
+**JORDAN**
+We take the job first.
 
 Benji:
 
 **BENJI**
-And after that?
+Then what?
 
-Jordan looks at the distributed Prime indicator.
+Jordan looks at Prime.
 
 **JORDAN**
-After that, he can talk.
+Then he gets to find out what it's like to know everything and control nothing.
+
+The display changes:
+
+`SUCCESSION WINDOW: OPEN`
 
 Cut to black.
 
@@ -604,18 +1053,68 @@ Cut to black.
 
 ---
 
+# WATCH / PLAY divergence
+
+The authored/watch series preserves Prime for the succession procedure.
+
+The playable version may eventually support a kill branch as an alternate product route, but that branch must be treated as a major end-state divergence rather than a casual mission-grade variation.
+
+For the Ghost continuity, the canonical action here is:
+
+**DO NOT EXECUTE PRIME YET.**
+
+Reason:
+
+They need his living biometric root to remove his own authority cleanly.
+
+---
+
 # Continuity out
 
-## Benji ↔ Royce
+## Jordan ↔ Benji
 
-- They have now spoken for the first time.
-- Recognition comes from repeated battlefield near misses, not personal history.
-- Neither owes the other loyalty, mentorship, gratitude or debt.
-- Their first shared emotion is irritation mixed with professional respect: each realizes the other was more competent than the incomplete mission picture allowed them to understand.
-- Future tension comes from discovering how many times Prime positioned them around the same objectives without either knowing the true relationship.
+- First real alliance formed during RAID, not before.
+- They recognized each other from repeated battlefield near-misses.
+- They nearly killed each other inside Site 0.
+- They chose Prime as the common target.
+- They are the only survivors of their respective assault elements.
+- They defeated Prime together.
+- They are not friends after Evil Twin.
+- They now share something heavier than friendship: they are the only two people alive who understand what it cost to reach the room.
+- Mutual respect exists because each watched the other continue after everyone else was gone.
+
+## Prime ↔ Jordan / Benji
+
+Prime has lost physical control but still possesses information and a still-valid biometric root identity.
+
+His confession is therefore a survival act.
+
+He is trying to convert knowledge into time.
+
+Jordan and Benji keep him alive because the evidence proves they need his authority, not because they forgive him.
 
 ## Prime lurking rule for Evil Twin
 
-Prime is openly visible, so the “lurking” mechanic changes form.
+Prime is no longer hidden physically.
 
-His hidden presence is **editorial**: he prepared the confession package before RAID and attempted to control the order and framing of the truth even after losing the physical fight.
+His final “lurking” payoff is revealed retrospectively through the flashbacks: every time Jordan and Benji thought they were independently encountering the same mysterious battlefield problem, Prime had already been above both views.
+
+The hidden presence is now fully exposed.
+
+---
+
+# Backward-writing obligations created by this episode
+
+Earlier episodes involving Jordan/Benji cross-board operations must plant brief visual near-misses that can later be replayed here from both perspectives.
+
+Required recurring pattern:
+
+1. Jordan sees an unidentified dangerous operator or team.
+2. Benji sees Jordan or the Prim3 side through a similarly incomplete frame.
+3. Neither gets enough information to understand the other.
+4. Prime has the complete picture.
+5. Their direct collision is delayed until RAID.
+
+Evil Twin is where the audience finally learns that the repeated stranger was not random continuity texture.
+
+It was the other half of Prime's board.
