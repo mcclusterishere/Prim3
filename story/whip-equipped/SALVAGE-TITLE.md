@@ -1,0 +1,40 @@
+---
+status: CANON
+track: Salvage Title
+artist_credit: McCluster
+version: 1.0.0
+---
+
+# Salvage Title
+
+## Full lyric text (owner source)
+
+Hook:  
+You came with a salvage title. I tried to rebuild you.  
+Then I saw nothing I do can ever fulfill you.  
+Could ever fulfill you…  
+So I gotta be real.  
+
+You came with a salvage title. I tried to rebuild you.  
+Then I saw nothing I do could ever fulfill you.  
+So i gotta be real…  
+You gotta be real too.
+
+Verse 1:  
+So I gave you back to the streets where you came  
+Yeah that was me and you speeding in the lane  
+But there came a day…  
+Where I had nothing to spend and you had nothing to give  
+So I see the truth is I gotta keep it moving;  
+On to the next, new flip.  
+Sorry but I’m not sorry.  
+You for the streets, I garage things.
+
+Hook: (repeat)  
+
+Outro:  
+Hey, and you gotta be real too..  
+Be real too…
+
+## Narrative binding
+See `SONG-CATALOG.md` and `../WHIP-EQUIPPED-BRIDGE.md`.

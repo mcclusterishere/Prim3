@@ -1,33 +1,29 @@
 ---
 status: CANON
 system: Whip Equipped entry bridge
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Whip Equipped — bridge from kill-Prime path
 
-Full game/app bible = later. This file locks continuity only.
+Full game/app bible = later. Continuity + brand + first song locked here / in `whip-equipped/`.
 
 ## Geographic lock
-- **Bridgeport, Connecticut** — real geography for the racing / gig map
-- Not a generic city skin
+- **Bridgeport, Connecticut** — real geography for racing / gig map
 
 ## The parking lot
-In the Whip Equipped life, he **sleeps in the same parking lot** where he used to **sell** in his prior life (pre-come-up / Hitman-Benji-era street work).
+He **sleeps in the same parking lot** where he used to **sell** in the prior life. Same asphalt. Economy broken (that world’s Prime killed years earlier). Car is home through winter.
 
-Same asphalt. Same spaces. Different universe pressure:
-- Economy already broken (that world’s Prime killed years earlier)
-- Gig delivery driver living in the car through winter
-- The lot is memory and prison at once — before the climb to dealership / racing ladder
-
-## Product stack (reminder)
+## Product stack
 | Layer | Role |
 |-------|------|
 | Mobile car game | Racing, shady climb, NFS energy |
-| Story / movie lane | Gig worker → dealership |
-| Real app | Whip Equipped delivery + rental platform |
+| Story / movie | Gig worker → dealership |
+| Real app | Delivery + rental platform **Whip Equipped** |
+| Mark | Wrench-key icon, orange→red — see `whip-equipped/BRAND.md` |
+| First anthem | **Salvage Title** — see `whip-equipped/SALVAGE-TITLE.md` |
 
 ## Entry condition
-Player chose **kill Prime** (either Prim3 or Hitman play side) → dimension → kill alt-self → wake into this Bridgeport lot.
+Kill Prime (either play side) → dimension → kill alt-self → Bridgeport lot.
 
-See `ENDING-BRANCHES.md`.
+See `ENDING-BRANCHES.md` and root `ARCHITECT.md`.
