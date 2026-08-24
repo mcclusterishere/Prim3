@@ -1,15 +1,17 @@
 ---
 status: CANON
 system: Progressive episode order from song texts
-version: 1.1.0
+version: 1.2.0
 branch: main
 ---
 
-# Episode progression — every song is an episode
+# Episode progression — song-driven story
 
 **Source lyrics:** `source-material/<slug>/LYRICS.md` on **main**.
 
 **Format:** Song = mission end. Remaining ~3 min = context that led to that mission.
+
+## Locked progression
 
 | # | Song slug | Story beat |
 |---|-----------|------------|
@@ -33,4 +35,16 @@ branch: main
 
 Kill path → Whip Equipped.
 
-Deeper notes also on branch `foundation/season-one-canon` if a file is thin on main during sync.
+## Archived owner tracks not yet inserted into the locked order
+
+These tracks are now fully represented in the source catalog but their exact episode numbers have **not** been silently invented:
+
+| Track | Slug | Natural story/technical lane |
+|---|---|---|
+| **Data Breach** | `data-breach` | Incident recognition, compromise indicators, attack categories and response. |
+| **Got Wifi** | `got-wifi` | Blue Team wireless defense and OSI layers 1–2. |
+| **Virus Types** | `virus-types` | Malware families, authentication, biometrics and credential risk. |
+
+Recommended placements are recorded in `SONG-CATALOG.md` as proposals only. An owner decision should promote them into the numbered sequence.
+
+Deeper historical notes remain on branch `foundation/season-one-canon`, but **main is authoritative going forward**.
