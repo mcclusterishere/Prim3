@@ -1,7 +1,7 @@
 ---
 status: PROPOSED INDEX
 system: Master character roster
-version: 2.0.0
+version: 2.1.0
 branch: main
 ---
 
@@ -27,7 +27,7 @@ Root canon still outranks proposed names and details.
 ## Prim3 / McCluster — 24 mains
 
 | # | Character | Nation | Primary lane | Personal engine |
-|---|---|---|---|---|
+|---|---|---|---|
 | 1 | **Jordan Vale** | United States | Cohort path | Institutional recognition vs fear of losing his humanity to survival logic. |
 | 2 | **Aya Shinoda** | Japan | Field-T | Precision engineer who fears becoming indispensable to a machine that can spend her life. |
 | 3 | **Arjun Mehta** | India | Field-E | Safety/entry operator who carries every mistake longer than anyone sees. |
@@ -66,9 +66,9 @@ Root canon still outranks proposed names and details.
 
 | Character | Role | Personal engine |
 |---|---|---|
-| **Benji** | Initiate → sovereign | Hates control, but may become gifted at designing it. |
-| **“Uncle” Royce** | Old sovereign | Protects people by keeping them dependent; fears irrelevance. |
-| **Sable Quinn** | Operations / money | Wants discipline stronger than ego; must decide when Benji becomes the safer bet. |
+| **Benji** | Rising field operator / systems-builder | Hates control, but may become gifted at designing it. |
+| **Royce** | Senior sovereign / battlefield operator | Experienced field authority who repeatedly crosses Benji's path without knowing him personally until Evil Twin. |
+| **Sable Quinn** | Operations / money | Wants discipline stronger than ego; recognizes Benji's systems-building potential independently of Royce. |
 | **Grant Voss** | Sponsor / respectable money | Wants influence without visible liability and mistakes distance for innocence. |
 | **Tone Rivera** | Block control | Looks like escalation; often quietly prevents it. |
 | **Kira “Keys” Moon** | Access / social gate | Knows everybody, trusts almost nobody. |
@@ -91,7 +91,7 @@ Root canon still outranks proposed names and details.
 | Li ↔ Leila | Governance and security skepticism sharpening one another. |
 | Amira ↔ Marc | Ethical restraint versus quantified risk. |
 | Emre ↔ Jonas ↔ Pylon | Human procedure versus automation versus emergent institutional intelligence. |
-| Benji ↔ Royce | Gratitude turning into succession. |
+| Benji ↔ Royce | Repeated battlefield near-misses without personal history; first conversation occurs in Evil Twin. |
 | Rae ↔ Sora | Unknown operational twins serving the same apex from opposite social worlds. |
 | Benji ↔ Jordan | Parallel ascents through different halves of Prime's hidden architecture. |
 
