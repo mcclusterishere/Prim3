@@ -1,39 +1,47 @@
 ---
 status: CANON
 system: Episode theme tracks
-version: 1.0.0
+version: 1.1.0
 ---
 
-# Song catalog (16 in hand)
+# Song catalog
 
-Each track is a candidate **episode theme** (intro + curriculum).  
-1 song ≈ 1 episode unless marked multi-use.
+1 song ≈ 1 episode (~6 min). Micro-series: **3 episodes per season**.
 
-| # | Track | Curriculum / world job | Placement notes |
-|---|--------|-------------------------|-----------------|
-| 1 | Patch Work | Trust, trojans, UEFI/BIOS, validation, code signing, XSS, static/dynamic analysis | Early Field-T literacy |
-| 2 | White Grey Black Hat | Hat types + box types; permission vs war | Authorization / Brief |
-| 3 | App Attacks | Priv esc, RBAC, XSS, CSP, injections, SQLMap | Hard NODE / tech traps |
-| 4 | Cap Ex vs Op Ex | Capital vs operational spend | Strategy economy language |
-| 5 | Anti Social Engineering | Phishing, smishing, shoulder surf, spoof | Approach hazards |
-| 6 | Per Diem | Hardware identity, hybrid, grind vs seasonal | Operator culture |
-| 7 | Ghost In The Wires | Infrastructure, cabling, fiber, connectors | **END myth** — upload / mentor forever |
-| 8 | Evil Twin | SIM swap, evil twin, social eng chain, dual corporate control | **Season-end confession** — origin of Hitman leverage |
-| 9 | OSINT | Open-source intel, vulndb, sharing centers | Field-R |
-| 10 | Installation Types | Multiboot, in-place, upgrade metaphors + real install theory | Mid support cycle |
-| 11 | Trappin From The Cloud | Cloud services, agility, scale, elasticity | Strategy / cloud ops |
-| 12 | IaaS, SaaS, PaaS | Service models | Institutional doctrine |
-| 13 | Dive In | Dumpster dive, drone, physical + RF | Physical OSINT / Dive |
-| 14 | IOT | Defaults, smart devices, soft targets | Soft NODE targets |
-| 15 | RAID (Hot Site) | RAID levels, hot/warm/cold sites | **Final mission structure** — protagonist vs Prime |
-| 16 | Red Blue Purple White Team | Team colors + build/break | Role triad teaching |
+## Tracks in hand
 
-## Hard locks
-- **RAID** → final confrontation mission (protagonist attacks Prime)
-- **Ghost in the Wires** → series close (Prime as system ghost)
-- **Evil Twin** → **end of a season** (not cold open of the series); confession of dual-board method
+| # | Track | Job |
+|---|--------|-----|
+| 1 | **High Alert** | Series open — nerves, dial-first operator, tech packs / merch, wire-nervous, higher purpose |
+| 2 | White Grey Black Hat | Hats + boxes; authorization |
+| 3 | Anti Social Engineering | Human approach hazards |
+| 4 | OSINT | Picture / intel |
+| 5 | Patch Work | Trust, code, validation |
+| 6 | App Attacks | NODE / injection / priv |
+| 7 | Dive In | Physical + RF OSINT |
+| 8 | IoT | Soft targets |
+| 9 | Red Blue Purple White Team | Role colors |
+| 10 | Installation Types | Install / upgrade doctrine |
+| 11 | IaaS, SaaS, PaaS | Service models |
+| 12 | Cap Ex vs Op Ex | Strategy economy |
+| 13 | Trappin From The Cloud | Cloud ops |
+| 14 | Per Diem | Operator culture / grind |
+| 15 | **RAID (Hot Site)** | **Defeat Prime** — final assault structure |
+| 16 | **Evil Twin** | **Confession** after he’s beaten — dual-board origin |
+| 17 | **Ghost In The Wires** | **If you spare him** after confession — upload / forever mentor |
 
-## Count math
-- 16 songs in hand
-- Micro-series does not require 21 episodes if tracks don’t exist yet
-- Prefer **quality fit** over padding to 7 seasons
+High Alert: owner notes **three levels** of the track exist; episode can use primary cut or tiered intro intensity.
+
+## Finale order (locked)
+1. **RAID** — you are in the building; Prime is **defeated**
+2. **Evil Twin** — his confession (greater-good dual board, Hitman embed)
+3. **Ghost in the Wires** — **only if** the player/story keeps him alive after that confession
+
+Kill-Prime path (no spare) still routes to **Whip Equipped** per `ENDING-BRANCHES.md` — does not play Ghost the same way.
+
+## Season math
+- **17 tracks** in hand (including High Alert)
+- **3 episodes per season** → **5 full seasons** (15 eps) + **1 short season** (2 eps), **or** 6 seasons with one double-track / spare slot
+- Practical call: **Season 1–5** use 15; **Season 6** = RAID + Evil Twin (+ Ghost as ending branch, not always a separate “episode count” if it’s the close)
+
+Recommended: treat **Ghost** as ending mode attached to the post-RAID choice, and **Evil Twin** as the confession episode immediately after RAID. Then **16 playable episode slots + ending branch** ≈ **5 seasons + finale cluster**.

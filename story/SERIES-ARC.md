@@ -1,34 +1,35 @@
 ---
 status: CANON
 system: Micro-series structure
-version: 2.1.0
+version: 2.2.0
 ---
 
 # PRIM3 Series Arc
 
 ## Format
-- Episode ~6 minutes | 3 episodes per season when using Prim3 song calendar
-- Song ≈ episode theme for **Prim3 lane**
-- Season count follows available Prim3 tracks (not forced to 7)
+- ~**6 minutes** per episode
+- **3 episodes per season**
+- Song ≈ episode theme
 
-## Two brands, one apex
-| Brand | Nature | Play | Music |
-|-------|--------|------|-------|
-| **Prim3** | IT / systems / institutional | XCOM-style TB | Patch Work, Hats, OSINT, RAID, Ghost, … |
-| **Hitman** | Brute kill-religion / street multinational | CoD-like mobile FPS | Hitshake, Crimewave, … (own show allowed) |
+## Season count (current inventory)
+**17 tracks** including High Alert → about **5 seasons + finale cluster** (see `SONG-CATALOG.md`).
 
-Both climb toward **Prime**. They fight when Prime needs cover, cull, or mask. See `DUAL-PATH.md`, `HITMAN-LORE.md`.
+## Season 1 (default)
+| Ep | Track |
+|----|--------|
+| E1 | **High Alert** |
+| E2 | White Grey Black Hat *(or Anti Social — owner preference)* |
+| E3 | Anti Social Engineering / OSINT |
 
-## Prim3 episode shape
-Opening op (Prime early / protagonist late) → cohort support → progression tick + sting.
+## Finale cluster (locked order)
+1. **RAID** — defeat Prime (in the building)
+2. **Evil Twin** — confession after defeat
+3. **Ghost in the Wires** — if he is **kept alive** after confession (greater good accepted)
 
-## Hard locks
-- **Evil Twin** — season-end confession (Prime’s embed into Hitman)
-- **RAID** — protagonist attacks Prime
-- **Ghost in the Wires** — upload; forever mentor; shared system rule
+If he is not spared → kill/dimension path → Whip Equipped (`ENDING-BRANCHES.md`).
 
-## Progression (Prim3 protagonist)
-Seat / clearance / role cycle / agency — slow; all 13 phenotypes across the run without job-swap every episode.
+## Dual board
+Prim3 (McCluster, M mark) vs Hitman (brute). Benji 6-ep Hitman lane separate.
 
-## Hitman lane
-Separate story/show permitted. Same world calendar. Higher body count. Deniable drops. No technical church identity.
+## Priority
+Episode cards and S1 write > further corp lore.
