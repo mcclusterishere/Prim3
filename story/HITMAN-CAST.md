@@ -1,7 +1,7 @@
 ---
 status: PROPOSED
 system: Hitman core cast personalization
-version: 1.0.0
+version: 1.1.0
 branch: main
 ---
 
@@ -13,21 +13,21 @@ Root `CANON.md` and `story/PRIME-LORE.md` still win. These identities are propos
 
 ## Benji — initiate → sovereign
 
-**Background:** Benji grows up understanding that institutions usually arrive after the important decision has already been made. He learns people, cars, favors, debt and neighborhood reputation before he learns corporate language. Hitman initially looks to him like the first machine that rewards the instincts he already has.
+**Background:** Benji grows up understanding that institutions usually arrive after the important decision has already been made. He learns people, cars, favors, debt and neighborhood reputation before he learns corporate language. Hitman-side work initially looks to him like the first machine that rewards the instincts he already has.
 
 **Wants:** enough ownership that nobody can casually remove him from his own life.  
-**Fears:** becoming the exact old head he swore he would outgrow.  
+**Fears:** becoming the kind of operator who confuses control with security.  
 **Contradiction:** hates being controlled but is naturally gifted at building systems that control other people.  
-**Arc:** starts as somebody being tested by Hitman and ends as somebody capable of displacing its visible sovereign, without realizing Prime has been watching both his rise and Jordan's.
+**Arc:** rises through his own field relationships and operations without personal access to Royce. He repeatedly sees the same dangerous stranger—Royce—on distant battlefields and near-miss operations but never speaks to him until `Evil Twin`. Prime understands both men's trajectories long before either understands the other's place on the board.
 
-## “Uncle” Royce — old sovereign
+## Royce — senior Hitman-side sovereign / battlefield operator
 
-**Background:** Royce is not Benji's literal uncle; the title reflects how long he has been the person younger operators go through before they can reach money, work or protection. He built Hitman by converting neighborhood trust into an organization with rules, but over time he began confusing survival of the institution with his personal right to own it.
+**Background:** Royce is an experienced visible sovereign in the Hitman-side world, but **he is not Benji's mentor, uncle, sponsor or old head**. Benji and Royce do not know each other personally before `Evil Twin`. Their only history is repeated battlefield recognition: brief sightlines, weapons danger, near misses, vehicles crossing routes, one team entering as the other exits, and the recurring feeling that the same unknown operator keeps appearing around impossible jobs.
 
-**Wants:** continuity on his terms.  
-**Fears:** becoming irrelevant before he dies.  
-**Contradiction:** genuinely protects people while making sure they remain dependent on him.  
-**Relationship:** he sees Benji's potential early and makes the fatal mistake of assuming gratitude will be stronger than ambition.
+**Wants:** to preserve control of the system he understands without becoming someone else's disposable field piece.  
+**Fears:** learning that the conflicts he thought he chose were arranged above him.  
+**Contradiction:** projects certainty in combat while knowing how often survival depends on information he cannot see.  
+**Relationship to Benji:** none before S7E2 beyond battlefield recognition. `Evil Twin` is their first conversation and the first time either learns Prime deliberately shaped several of their convergences and separations.
 
 ## Sable Quinn — operations and money
 
@@ -36,7 +36,7 @@ Root `CANON.md` and `story/PRIME-LORE.md` still win. These identities are propos
 **Wants:** an organization too disciplined to be destroyed by ego.  
 **Fears:** betting on the wrong sovereign and losing everything she built behind the throne.  
 **Contradiction:** outwardly transactional, privately more loyal than she wants anyone to know.  
-**Relationship:** she becomes the first senior Hitman figure to take Benji seriously as a future owner rather than a talented recruit.
+**Relationship:** she becomes one of the first senior Hitman-side figures to take Benji seriously as a systems-builder rather than merely a useful field operator.
 
 ## Grant Voss — sponsor / money-board mark
 
@@ -54,7 +54,7 @@ Root `CANON.md` and `story/PRIME-LORE.md` still win. These identities are propos
 **Wants:** respect that does not require constant performance.  
 **Fears:** losing status and discovering people only feared him.  
 **Contradiction:** looks like the quickest person to escalate and is often the person quietly preventing escalation.  
-**Relationship:** he becomes a skeptical mentor to Dez and one of the last people emotionally loyal to Royce.
+**Relationship:** he becomes a skeptical mentor to Dez and one of the operators most resistant to opaque orders from above.
 
 ## Kira “Keys” Moon — access / social gate
 
@@ -117,7 +117,7 @@ Root `CANON.md` and `story/PRIME-LORE.md` still win. These identities are propos
 **Wants:** to lead without becoming worshipped.  
 **Fears:** surviving enough missions that she starts believing survival proves she was right.  
 **Contradiction:** projects certainty while constantly revisiting decisions afterward.  
-**Relationship:** she recognizes Benji's command instinct before Royce does and becomes one of the people whose allegiance matters during the takeover.
+**Relationship:** she recognizes Benji's command instinct through his work, independently of Royce, and becomes one of the people whose allegiance matters as Benji rises.
 
 ## Sora “Gymnast” Okada — elite social-entry asset
 
@@ -139,13 +139,13 @@ Root `CANON.md` and `story/PRIME-LORE.md` still win. These identities are propos
 
 # Hitman relationship pressure map
 
-- **Benji ↔ Royce:** gratitude becomes succession pressure.
+- **Benji ↔ Royce:** repeated battlefield recognition without personal history; first conversation in `Evil Twin`; neither owes the other loyalty, mentorship, gratitude or debt.
 - **Benji ↔ Sable:** ambition only becomes power once Sable believes the numbers can survive it.
-- **Benji ↔ Mina:** she can legitimize him with the crews Royce thinks he owns.
+- **Benji ↔ Mina:** she can legitimize him with crews through what she has observed directly, not through Royce.
 - **Rae ↔ Jules:** social access plus technical access, held together by genuine friendship rather than hierarchy.
 - **Rae ↔ Sora:** the “evil twins” who do not know one another; same apex, different social worlds.
 - **Grant ↔ Prime:** Grant thinks money gives him client status; Prime knows money merely gives him a place on the board.
-- **Dez ↔ Benji:** the first relationship that tests whether Benji will reproduce Royce's dependency model or build something less possessive.
+- **Dez ↔ Benji:** tests whether Benji can build loyalty without turning it into ownership.
 
 # Writing rule
 
