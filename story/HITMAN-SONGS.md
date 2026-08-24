@@ -1,18 +1,26 @@
 ---
 status: CANON
 system: Hitman music (light)
-version: 1.0.0
-note: Establish only — finish Prim3 lane before deep Hitman production
+version: 1.1.0
 ---
 
 # Hitman song stubs
 
-| Track | Role |
+## Benji 6-ep lock (see HITMAN-BENJI.md)
+| Ep | Track |
+|----|--------|
+| 1 | Headed to the Top |
+| 2 | Crimewave |
+| 3 | Hitshake |
+| 4 | Hit-Mode |
+| 5 | Mr. Rogers |
+| 6 | Up for Days |
+
+## Additional
+| Track | Note |
 |-------|------|
-| **Hitshake** | Gang identity / set anthem — “do the Hitshake” |
-| **Crimewave** | Recruitment beat — street kids pulled into deniable city hits; Mexico → Texas money/hit path in the bars’ story note |
-| **Headed to the Top** | Climb from bottom — parking-lot grind to capital; Hitman ascent energy |
+| **Parking Lot** | Bridgeport / CT origin texture — parking-lot nights, God + Glock, charges dropped, God’s army; supports Benji hometown lore (Bridgeport). Not required as 7th episode unless expanded later. |
 
-Prim3 IT team-color track remains on Prim3 side: **Red Blue Purple White Team** (not Hitman).
+Prim3 IT team-color track: **Red Blue Purple White Team** (Prim3 lane, not Hitman).
 
-Full Hitman show bible deferred until Prim3 episode arc is finished.
+Deep Hitman show bible deferred; Prim3 finish takes priority.
