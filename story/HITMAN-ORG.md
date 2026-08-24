@@ -1,7 +1,7 @@
 ---
 status: CANON
 system: Opposing institution (mirror tree)
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Hitman Corporation — org mirror
@@ -32,4 +32,6 @@ Structurally: **clone of Prim3 tree** so missions and phenotypes can mirror. Nam
 Prime’s hand on this tree is **intentional**. Protagonist reads it as betrayal until upload/Ghost.
 
 ## Logo
-User will supply Hitman mark; bind as visual counterweight to M / Dual Sight when provided.
+**Locked.** See `story/HITMAN-BRAND.md`.
+
+Mark: ivory **H M** on black, center **AMMC** cartridge with halo over the tip — sanctioned-violence corporate face vs Prim3 M / Dual Sight.
