@@ -5,125 +5,100 @@ title: High Alert
 track: High Alert (Prime POV)
 runtime_target: ~6 minutes
 format: watch-first; optional play
-version: 3.0.0
+version: 3.1.0
 ---
 
 # S1E1 — High Alert
 
 **POV: Prime.**  
-**Song is his.**  
-**This is the tip of RAID** — the part that almost never happens — and we **start the entire show here.**
+**Song is his — and it’s aimed at people he knows.**  
+**Tip of RAID.** Series starts here.
 
 ---
 
 ## Logline
-Prime does not “sleep.” He **ties dreams into the machine**: suspension tank → attached systems → AI steered from inside the dream. He only surfaces for a true emergency. His main site sits behind **several compounds**. Tonight the impossible stack falls — **protagonist and Benji** are on the main glass. **High Alert.** He wakes.
+Prime surfaces from the **suspension tank** (dreams wired into the house AI; he only wakes for real emergencies). Main site is under dual raid — **protagonist + Benji**. He knows who put them on this path. He knows the hire chain. **Some of those names are his.** High Alert is him clocking that betrayal and **talking shit straight at them** while the building burns red.
 
 ---
 
-## Why this is crazy (and the open)
-- Hot-site / multi-site doctrine (`RAID`) is not abstract homework — it is **why nobody reaches him**  
-- To touch the main compound you burn through outer sites first  
-- So if he is waking, the raid is already in its **last phase**  
-- The series opens **in the middle of the endgame**, then the seasons teach how the world got this loud  
+## The edge of the song
+This is not generic tough-guy VO.
+
+- He recognizes the shape of the assault  
+- He knows **who hired** the pressure  
+- He knows he **put some of those people in play** — equity, contracts, dual-board pieces, “for the greater good” tools that grew teeth  
+- So the bars are a **threat** to the people on the other end of his own decisions: *I’m on High Alert. Quit while you’re ahead. I don’t need a 9.*  
+
+First reaction is still real: **shit.** Main site. Impossible stack failed. Then the mouth opens and it’s war talk at his own ghosts.
 
 ---
 
-## Cold open — inside the dream-machine
-Not a hospital tube. A **suspension tank** hard-linked into the house AI.
+## Cold open
+Suspension tank. He is the machines in the dream. Outer compounds are supposed to make this alarm mythical.
 
-While the body floats, **you are the machines**: cameras, doors, drones, cohort routing, the quiet mind that runs McCluster’s real floor. Dreams write to actuators. Sleep is a shift, not time off.
+**HIGH ALERT.**  
+Main site contact. Outer map already wrong.
 
-Then something the dream cannot absorb.
-
-Strip lights go red without permission.
-
-**HIGH ALERT.**
-
-Because the main site is under contact — and that means the outer compounds have already failed or been bypassed. That does not happen.
+He knows before the face-ID finishes: this isn’t random. This is **his** board folding inward.
 
 ---
 
 ## Hook — I’m on High Alert
-Tank dumps / seals crack / Prime’s eyes.  
-Nerves that work. No performance panic.
+Tank releases. Eyes. Nerves that work.
 
-Feeds slam open on two languages of war:
+Feeds:
+- **Protagonist** — Prim3 doctrine pointed home  
+- **Benji** — Hitman kinetic  
 
-| Feed | Who | Language |
-|------|-----|----------|
-| A | **Protagonist** | Prim3 — systems, precision, his own doctrine turned inward |
-| B | **Hitman Benji** | Brute religion — the other mountain, at his door |
-
-Same night. Same main site. Dual board finally on one floorplan.
+And under the feeds, the quieter read: **who paid for the road that led them here.** Names he signed. Names he moved. Names that should have stayed tools.
 
 ---
 
-## Verse — scope of the work (from the man who was the network)
-He is already moving while the bars run:
+## Verse — talking shit at the hire chain
+While he routes defense, the song is for **them**:
 
-- Sleep on him and you rest until you enter **view of the scope of his work** — and the scope is the whole stacked site map  
-- Nerves don’t get played; quit before **they** fire first  
-- No 9; **1 twice over**; the building’s first call  
-- Tech packs and surface merch were always the smile; the tank was the job  
-- Higher purpose under alarm  
-- Wire-nervous for a reason: the wire was **him**  
-- Paid-in-full system vs trial-version intruders  
+- Sleep on me → rest until you enter the scope of my work (you’re in it now)  
+- Don’t work my nerves; quit before you get fired on  
+- No 9; I’m the 1 they dial — including the ones I installed  
+- Tech packs / merch / surface was always cover; the tank was the job  
+- Higher purpose doesn’t mean I won’t check a chin  
+- Wire-nervous for a reason; some of that wire is **you**  
+- Paid-in-full house vs trial-version knives I sharpened  
 
-Picture: suspension bay → vertical spine of the main compound → ghost overlays of **outer compounds already burned** → live dual breach. **M** in every UI. Dual Sight splitting the two raids.
-
----
-
-## Hook 2
-High Alert is not a status icon. It is what the house becomes when the man who **is** the AI has to wear a body again.
+Picture: wet from the tank, already countering, mouth running at people who thought he only dreamed.
 
 ---
 
-## Middle — the emergency only he wakes for
-He does not explain the multi-site theory. He **uses** it:
-- Collapse a corridor that only exists because outer sites were supposed to still be green  
-- Treat Benji as kinetic weather; treat the protagonist as a mirror  
-- One insane image: still half-wet from suspension, already routing a counter that only someone who dreamed the floorplan could know  
+## Hook 2 / Middle
+High Alert = body back online + **recognition**.  
+He treats Benji as weather, protagonist as mirror, and the **sponsors/hires** as the real address of the threat talk.
 
-Optional play: defend the **main** hot node; choose which feed to starve first; grades, no pilot binary wipe.
+Optional play: defend main hot node; starve a feed; grades stay graded.
 
-Watch mode: he buys a wing; the raid does not end — because this episode is the **tip**, not the credits of RAID.
+Watch: he buys a wing. Raid doesn’t end. Episode is the tip.
 
 ---
 
 ## Outro
 “I don’t even need the 9…”  
-Prime, body back online, two feeds still live, outer map bleeding red.  
-**M.**  
+Aimed at the glass and at whoever’s listening on the other side of his own staffing.  
+**M.** Outer sites red. Main site live.  
 
-Sting text / voice cold:  
-**They reached the main site.**  
-
-The show has started at the moment that was never supposed to exist.
+**They reached the main site. He knows how.**
 
 ---
 
-## Series structure note (do not soft-lock wrong)
+## Structure
 | Piece | Role |
 |-------|------|
-| **S1E1 High Alert** | In-medias-res **last phase of RAID** — Prime wakes |
-| Seasons between | How the world, cohort, dual board, and both raiders got here |
-| **RAID episode** (catalog) | Full hot-site structure / teaching + the assault as playable arc |
-| **Evil Twin** | Confession after he is beaten |
-| **Ghost** | If spared after confession |
-
-Opening on the emergency makes the curriculum seasons feel like memory and buildup under a ticking house.
-
----
+| S1E1 High Alert | RAID tip + wake + threat to the hire chain |
+| Middle seasons | How board, hires, dual path built this night |
+| RAID episode | Full hot-site assault arc |
+| Evil Twin | Confession after defeat |
+| Ghost | If spared |
 
 ## Cast
-| Who | Role |
-|-----|------|
-| **Prime** | Tank-AI sleep; emergency wake; POV |
-| **Protagonist** | Prim3 vector on main site |
-| **Benji** | Hitman vector on main site |
-| Outer compounds | Already compromised (felt, not fully shown) |
-| House AI / machines | What he was while dreaming |
+Prime (POV) · Protagonist · Benji · house AI · **implied hire/sponsor names** (not fully shown yet — felt in his address)
 
 ## Brand
-**M** on tank glass, feeds, and his side of the war. No Hitman mark on his UI.
+**M** on his side. Song is personal and institutional at once.
