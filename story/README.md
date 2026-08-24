@@ -1,27 +1,25 @@
 ---
 status: CANON
 system: Story index
-version: 2.0.0
+version: 2.1.0
 ---
 
 # Story canon index
 
-**Start here for full multi-game context:** `/ARCHITECT.md` (repo root).
+**Architect entry:** `/ARCHITECT.md`  
+**Front corp + M brand:** `MCCLUSTER-CORP.md` · `assets/brand/prim3/M-EMBLEM.md`
 
 | File | Contents |
 |------|----------|
-| `SERIES-ARC.md` | Micro-series format, dual brand, RAID/Ghost/Evil Twin |
+| `MCCLUSTER-CORP.md` | Front corporation, marketing dept (deferred arc), M mark |
+| `SERIES-ARC.md` | Micro-series, dual brand, RAID/Ghost/Evil Twin |
 | `SONG-CATALOG.md` | 16 Prim3 tracks |
-| `PROGRESSION.md` | Seat / clearance / role cycle / agency |
-| `missions/EVIL-TWIN.md` | Season-end dual-board confession |
-| `DUAL-PATH.md` | Prim3 vs Hitman climbs |
-| `HITMAN-LORE.md` | Brute kill-religion |
-| `HITMAN-BRAND.md` | Logo rules |
-| `HITMAN-ORG.md` | Kinetic structure |
-| `HITMAN-BENJI.md` | 6-episode takeover (complete) |
-| `HITMAN-SONGS.md` | Hitman tracks + Parking Lot |
-| `ENDING-BRANCHES.md` | Ghost vs kill Prime |
-| `WHIP-EQUIPPED-BRIDGE.md` | Bridgeport lot → car game/app |
+| `PROGRESSION.md` | Advancement |
+| `missions/EVIL-TWIN.md` | Season-end confession |
+| `DUAL-PATH.md` | Prim3 vs Hitman |
+| `HITMAN-*.md` | Brute lane, Benji, brand, songs |
+| `ENDING-BRANCHES.md` | Ghost vs kill |
+| `WHIP-EQUIPPED-BRIDGE.md` | Kill path → Bridgeport |
+| `whip-equipped/` | Whip brand + Salvage Title |
 
-Phenotypes/assets: `phenotypes/` (resume character work next).  
-Prim3 TB mechanics: `game/`.
+Operators wear **McCluster Corp** on paper and the **M emblem** on kit.

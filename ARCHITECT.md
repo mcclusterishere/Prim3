@@ -1,93 +1,70 @@
 # PRIM3 MULTIVERSE — GAME ARCHITECT BIBLE
 
 **Branch:** `foundation/season-one-canon`  
-**Purpose:** Single entry point for narrative + systems + multi-game development.  
-**Status:** Living canon index — read this first, then follow links.
+**Read this first.**
 
 ---
 
-## 0. What we are building
+## 0. Corporate face
 
-Three playable products in one continuity, plus watchable micro-series lanes.
+**McCluster Corp** = front corporation (legal name, marketing, glass).  
+**Prim3** = how the work actually runs (phenotypes, missions, curriculum).  
+**Mark:** white geometric **M** + red **Dual Sight** bars — on kit, badges, public surfaces.  
+See `story/MCCLUSTER-CORP.md` · `assets/brand/prim3/M-EMBLEM.md` · `phenotypes/operators/asset-modeling/BRANDING.md`.
 
-| Product | Fantasy | Default play | Music / show |
-|---------|---------|--------------|--------------|
-| **Prim3** | Institutional IT / systems operators | XCOM-style turn-based tactical | Prim3 catalog (Patch Work, Hats, OSINT, RAID, Ghost, …) |
-| **Hitman** | Brute-force kill-religion, street multinational | CoD-like / **mobile FPS**, high death | Hitshake, Crimewave, Hit-Mode, … (@hitman.halo) |
-| **Whip Equipped** | Gig driver → dealership; car as home | **Mobile racing / car progression** | **Salvage Title** + more; Bridgeport-set |
-
-**Watch mode:** Prim3 (and optionally Hitman) as ~6-minute episodes; play optional.  
-**Real-world layer:** Whip Equipped = delivery + rental app brand; Prim3 = educational cyber culture + game + series.
+Marketing department is real in-world (normal publics **and** government-facing narrative). Full marketing arc = later.
 
 ---
 
-## 1. Narrative spine
+## 1. Three products
 
-### Prim3
-Micro-series ~6 min / 3 eps per season. Opening op → cohort support → progression tick. Prime opens early; protagonist later. 13 phenotypes slow. Evil Twin season-end confession. RAID = attack on Prime. **Ghost** = upload default close.
-
-### Hitman (Benji)
-CT/Bridgeport, 21, dropout, nerd+savage. **6 episodes locked** → takes over Hitman. Kill-religion, not IT.
-
-### Endings
-| Choice | Result |
-|--------|--------|
-| Don’t kill Prime | Ghost in the Wires |
-| Kill Prime | Alt-self → **Whip Equipped** (same Bridgeport sell-lot, now sleep-lot) |
-
-### Whip Equipped
-Broken economy; live in car; wrench-key brand; **Salvage Title** as rebuild/flip honesty anthem. Full systems design later.
+| Product | Fantasy | Play | Mark |
+|---------|---------|------|------|
+| **Prim3** (McCluster) | Institutional systems ops | XCOM-style TB | M + Dual Sight |
+| **Hitman** | Kill-religion, street multinational | Mobile FPS | HM + AMMC + halo |
+| **Whip Equipped** | Gig → dealership; car as home | Racing / car prog | Wrench-key |
 
 ---
 
-## 2. Document map
+## 2. Narrative spine
+
+Prim3 micro-series (~6 min). Evil Twin season-end. RAID attacks Prime. Ghost = upload default. Kill Prime → Whip Equipped (Bridgeport same lot).  
+Hitman Benji: 6 episodes, takeover complete spine.  
+Detail: `story/` folder.
+
+---
+
+## 3. Document map
 
 ### Story
-| Path | Contents |
-|------|----------|
-| `story/SERIES-ARC.md` | Format, dual brand, hard locks |
-| `story/SONG-CATALOG.md` | 16 Prim3 tracks |
-| `story/PROGRESSION.md` | Advancement |
-| `story/missions/EVIL-TWIN.md` | Confession mission |
-| `story/DUAL-PATH.md` | Prim3 vs Hitman |
-| `story/HITMAN-*.md` | Lore, brand, org, Benji, songs |
-| `story/ENDING-BRANCHES.md` | Ghost vs kill |
-| `story/WHIP-EQUIPPED-BRIDGE.md` | Entry continuity |
-| `story/whip-equipped/` | **Brand, Salvage Title, song catalog** |
+`story/MCCLUSTER-CORP.md`, `SERIES-ARC.md`, `SONG-CATALOG.md`, `PROGRESSION.md`, `missions/EVIL-TWIN.md`, `DUAL-PATH.md`, `HITMAN-*.md`, `ENDING-BRANCHES.md`, `WHIP-EQUIPPED-BRIDGE.md`, `whip-equipped/`
 
-### Game systems (Prim3 TB)
-`game/TACTICAL-XCOM-MECHANICS.md`, `GAME-MECHANICS-COMPLETE.md`, `MECHANICS-GAPS-FILLED.md`, vision + audit docs.
+### Field assets (ChatGPT / Tripo)
+`phenotypes/operators/asset-modeling/` — README → BRANDING (M on everything) → SPECS  
+`FIELD-KITS.md` · `OPEN-SOURCE-REFERENCES.md`
 
-### Phenotypes / assets — INCOMPLETE
-Resume character skins/kits next. Pipeline: four separate view photos, cm dims, Tripo GLB.
+### Game systems
+`game/` — XCOM TB pack, graded outcomes, vision docs
 
 ---
 
-## 3. Mechanics by product
-- **Prim3:** XCOM TB, clocks, T/E/R, graded outcomes  
-- **Hitman:** Mobile FPS, high death, contract/fear rank  
-- **Whip Equipped:** Car/gig/race/dealership systems (separate pass)  
-
-Do not paste TB clocks onto racing.
+## 4. Mechanics by product
+Prim3 TB · Hitman FPS · Whip car systems — do not cross-wire.
 
 ---
 
-## 4. Build priority
-1. This bible authoritative  
-2. **Resume Prim3 character/phenotype assets**  
+## 5. Build priority
+1. This bible + McCluster/M brand consistency  
+2. Character/phenotype assets (M-branded)  
 3. Prim3 episode playlist  
-4. One 6-min Prim3 vertical slice  
-5. Hitman FPS after  
-6. Whip Equipped systems post–branch  
+4. Vertical slice  
+5. Hitman / Whip later  
 
 ---
 
-## 5. Non-negotiables
-- Prim3: no false binary fail when work landed  
-- Hitman ≠ second IT firm  
+## 6. Non-negotiables
+- McCluster Corp is the front; M mark is universal on Prim3-side gear  
+- Graded Prim3 outcomes (no false binary fail)  
+- Hitman ≠ IT firm  
 - Ghost ≠ kill path  
-- Bridgeport parking lot continuity  
-- Salvage Title honesty in Whip progression  
-- Flavor from owner songs is identity  
-
-*Updated: 2026-08-24 — Whip Equipped songs/brand folder added.*
+- Bridgeport lot continuity on Whip entry  
