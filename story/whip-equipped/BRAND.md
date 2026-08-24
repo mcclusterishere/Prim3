@@ -1,30 +1,35 @@
 ---
 status: CANON
 system: Whip Equipped visual identity
-version: 1.0.0
+version: 1.2.0
 ---
 
 # Whip Equipped — brand mark
 
-## Lockup (owner asset)
-Abstract icon on white/light field:
-- Form reads as **wrench + key** fused (service + ignition / access)
-- Gradient **orange → red** (hot metal, hazard, hustle)
-- Flat geometric silhouette; app-icon friendly (provided 512×512 source)
+## Asset files (in repo)
+| File | Use |
+|------|-----|
+| `assets/brand/whip-equipped/we-icon-1.svg` | Icon, **gradient** `#EBAC67` → `#E94B42` (primary app icon) |
+| `assets/brand/whip-equipped/we-icon-1-1.svg` | Icon, **white** fill (on dark UI) |
+| `assets/brand/whip-equipped/we-logo-1.svg` | Wordmark **WHIP EQUIPPED** black + gradient icon |
+| `assets/brand/whip-equipped/we-logo-1-1.svg` | Wordmark white + gradient icon (on dark) |
+
+## Lockup
+- Icon: fused **wrench + key** silhouette
+- Gradient: gold/amber `#EBAC67` → red `#E94B42`
+- Wordmark: **WHIP EQUIPPED**
 
 ## Read
 | Element | Meaning |
 |---------|--------|
-| Wrench | Fix, salvage, garage work |
-| Key | Own the whip, start the climb, access |
-| Heat gradient | Street pressure, speed, no soft pastel brand |
+| Wrench | Fix, salvage, garage |
+| Key | Own the whip, start, access |
+| Heat gradient | Street pressure, speed |
 
-Opposite of Hitman halo-on-ammo and Prim3 Dual Sight — this is **tools and keys**, not institutions or sanctioned rounds.
+Opposite of Hitman halo-ammo and Prim3 Dual Sight.
 
 ## Usage
-- App icon / racing UI / dealership signage in-fiction
-- Gig worker → owner fantasy
-- Never HM halo lockup; never Prim3 M bars on Whip assets
-
-## Binary file
-Master PNG lives with owner (`512x512.png`). Place under `assets/brand/whip-equipped/icon-512.png` when binary upload path is used. This doc is the rule sheet.
+- App icon → gradient icon
+- Dark UI → white icon / white logo
+- Light UI → black wordmark + gradient icon
+- Never HM or Dual Sight on Whip assets
