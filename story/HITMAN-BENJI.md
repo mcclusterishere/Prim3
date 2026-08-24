@@ -1,7 +1,7 @@
 ---
 status: CANON
 system: Hitman protagonist
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Hitman Benji
@@ -12,39 +12,36 @@ version: 1.0.0
 | Name | **Hitman Benji** |
 | Origin | **Connecticut** |
 | Age at recruit | **21** |
-| School | College dropout — left to work Hitman Corp |
-| Side hustle | Sold drugs through school; never really the “college type” |
+| School | College dropout — left for Hitman Corp |
+| Side hustle | Sold drugs through school; not the college type |
 | Mind | Brilliant — **nerd of the crew** |
-| Hands | Super brutal savage when the work is kinetic |
-| Arc length | **2 seasons / 6 episodes** ≈ one college semester of story time |
-| End state | Outsmarts the pure street side of Hitman and **takes the corporation over** |
+| Hands | Super brutal savage on kinetic work |
+| Arc | **2 seasons / 6 episodes** ≈ one semester |
+| End | Outsmarts street side; **takes over Hitman** |
 
 ## Character engine
-Street enough to belong. Smart enough to boardroom-kill the people who only understand the block. Not a cyber-priest (that’s Prim3 lane). Benji uses **brains on a brute religion** — routes, money, initiation, leverage — until the halo answers to him.
+Street enough to belong. Smart enough to boardroom-kill people who only understand the block. Not a cyber-priest (Prim3 lane). Brains on a kill religion until the halo answers to him.
 
-## Six-episode spine (fast)
+## Full episode lock
 
 ### Season 1 — Door
-| Ep | Track (locked / TBD) | Beat |
-|----|----------------------|------|
-| 1 | **Headed to the Top** | Intro — CT grind, paper chase, lowest point, bros, decision vector toward the corp |
-| 2 | **Crimewave** | First real crime mission — recruit pitch, cash, Mexico→Texas hit road energy; he says yes |
-| 3 | **Hitshake** | **Initiation** — set membership; “do the Hitshake”; he’s in the gang for real |
+| Ep | Track | Beat |
+|----|--------|------|
+| **1** | **Headed to the Top** | Intro — CT grind, bottom, paper chase, decision vector toward the corp |
+| **2** | **Crimewave** | First real crime mission — cash pitch, Mexico→Texas hit road; he says yes |
+| **3** | **Hitshake** | **Initiation** — set membership; Hitshake; he’s in |
 
 ### Season 2 — Takeover
 | Ep | Track | Beat |
 |----|--------|------|
-| 4 | TBD | First time he outthinks a street boss on a contract |
-| 5 | TBD | Blood + leverage — corp starts answering to his plans |
-| 6 | TBD | **Takes Hitman** — brilliance over pure savagery; halo on his terms |
+| **4** | **Hit-Mode** | Operational identity — hit/lick/flip modes; old hitters turn bitter; coast-to-coast; he runs the tempo |
+| **5** | **Mr. Rogers** | Power posture — shoes off at the crib; politics/congress heat; street scholarship; calling shots |
+| **6** | **Up for Days** | **Takeover close** — nonstop plays, zero-to-bank, kill competition, mind-your-business rise; halo on Benji’s terms |
 
-Songs for eps 4–6 still open (more Hitman tracks when ready).
+## Arc logic
+Hunger → first blood → initiation → mode/control → institutional leverage → **he owns Hitman**.
 
 ## Rules
-- Keep arc **fast** — 6 episodes, semester-scale, not a 7-year rise
-- Benji stays **nerd + savage**, not Prim3 Field-T cosplay
-- Hitman remains kill-religion; he climbs it by being smarter and just as willing
-- Prim3 lane stays separate until dual-board stories need him
-
-## Placement vs Prim3
-Finish/parallel as needed; do not stall Prim3 episode order for Benji deep lore beyond this spine.
+- Fast only — 6 episodes, semester-scale
+- Nerd + savage, not Prim3 Field-T
+- Prim3 lane stays primary unless dual-board needs him
