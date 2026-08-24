@@ -1,7 +1,7 @@
 # PRIM3 Canon Register
 
 **Status:** Foundation canon (merged to main)  
-**Continuity version:** 0.4.2  
+**Continuity version:** 0.4.3  
 **Authority:** Matthew McCluster  
 **Rule:** If material conflicts with this register, this register wins until deliberately revised.
 
@@ -56,9 +56,31 @@ See `story/HIGH-ALERT-MEMORY-ANCHORS.md`.
 - Prime cannot simply resign; succession requires a worthy operator to reach and defeat the presiding Prime while Prime genuinely resists.
 - **Prime is already functionally Ghost in the Wires before RAID.** His sleeping biological body is the highest-trust command anchor for a distributed human-machine control architecture.
 - During RAID, his body is critically damaged but remains biometrically authoritative long enough to create a succession window.
-- Jordan's team uses that still-valid Prime-00 identity inside Site 0 to recognize Jordan as the new Prime, transfer sovereign authority, and revoke Prime-00's independent write / actuator / personnel-command permissions.
+- Jordan and Benji use that still-valid Prime-00 identity inside Site 0 to support the succession transition that recognizes Jordan as the new Prime and revokes Prime-00's independent write / actuator / personnel-command permissions.
 - Prime-00 then persists in the cloud as **Ghost Prime** with read / observe / analyze / advice capability only by default.
 - Ghost In The Wires is therefore an **authority-transfer and privilege-reduction finale**, not the creation of Prime's first networked existence.
+
+## Final RAID / Evil Twin survivor state
+
+This chronology is owner-locked.
+
+- Jordan enters Site 0 with a Prim3-side assault element.
+- Benji enters Site 0 with a separate assault element from the other side of Prime's architecture.
+- Prime genuinely resists both teams.
+- **Every other member of both assault elements dies during the breach.**
+- Jordan is the only survivor of his team.
+- Benji is the only survivor of his team.
+- Jordan and Benji recognize one another inside the facility from repeated battlefield near-misses and close calls across earlier operations.
+- They have never previously formed a relationship or held a real conversation.
+- Their first instinct inside Site 0 is to treat each other as the remaining enemy.
+- They nearly kill one another.
+- They recognize Prime as the common target and choose a temporary alliance.
+- Jordan and Benji defeat Presiding Prime **together**.
+- Prime's body is critically damaged and returned to the suspension system, now acting as life support.
+- **Evil Twin begins after that victory.** Prime is already beaten, the facility is already breached, and Jordan/Benji are already the only surviving members of their raid elements.
+- Evil Twin is Prime's confession under threat of execution. He reveals the dual-board architecture and the hidden relationship among prior operations because information is the only weapon he has left.
+- Prime is specifically trying to stop Jordan and Benji from killing him before they understand that his still-living biometric identity is required to remove his authority from the distributed system cleanly.
+- Ghost In The Wires follows from that decision: keep Prime alive long enough to take the job away from him, then preserve him only as an advisor without autonomous write/command rights.
 
 ## Corporate architecture
 
