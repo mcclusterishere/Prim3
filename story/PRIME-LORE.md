@@ -1,46 +1,39 @@
 ---
 status: CANON
 system: Prime capability doctrine
-version: 1.0.0
+version: 2.0.0
 ---
 
 # Prime — what he actually is
 
 Do not underestimate this.
 
-## Sleep is not absence
+## Sleep is command
 
-In the suspension tank, Prime is not “offline.”
+Suspension tank + **AI hard-linked to his brain** while he sleeps.
 
-He is continuous with:
-- Every camera on his compounds  
-- Every sentry and road feed  
-- Building automation (**Pylon** and the stack)  
-- **Satellite data**  
-- Global signal enough that, in practice, **he knows what is going on everywhere that matters, all the time**  
+The system has the data too: cameras, sentries, roads, compounds, **satellites**, global feeds. It does not only record. It **feeds suggestions and information straight into his brain** in sleep.
 
-Dreams write to actuators. Sleep is a **shift**, not a blackout. He only **surfaces into a body** for emergencies that the distributed watch cannot absorb alone.
+So in dreams he is not fantasizing. He is **operating**.
+
+He can shape outcomes worldwide because he can:
+- See both sides of a conflict in real time  
+- Hand **different information to each side**  
+- Act as a **double agent for both militaries at once**  
+- Decide which objective is allowed to succeed tonight  
+
+Prim3 cells and Hitman crews are not random contractors. They are **his personal army at small-unit scale** — intellect knife and kinetic weather — while the real board is states, networks, and whoever thinks they hired him.
 
 ## Why missions feel blessed
 
-When Prim3 and Hitman run jobs — even **against each other** — the invisible layer is often him:
+Support quality depends on **who needs to win what**. Crews feel luck or doctrine. They are standing inside a sleep-run machine.
 
-- Routing  
-- Timing  
-- Which side gets the cleaner window  
-- Which objective is allowed to “win” tonight  
+## High Alert trigger
 
-Support quality depends on **who needs to win what** for the dual board. Crews feel luck, doctrine, or “the building.” They rarely feel the man in the tank. That is the point.
+**Perimeter of the property** — not main lobby.  
+He has been watching the approach in sleep. Body wakes when perimeter violation demands flesh.
 
-## High Alert trigger (locked)
+## Implications (story)
 
-**High Alert starts when hostiles touch the edge of the property perimeter — not when they are already in the main building.**
-
-Perimeter = roads, fence line, outer sensors, sat confirmation of approach.  
-Main glass is later. If he is waking for body-work, the perimeter has already been violated in a way the sleep-watch escalates to flesh.
-
-## Story consequence
-
-- Jordan and Benji do not “sneak up to the bedroom.” They trip a **world-class perimeter** that a sleeping mind is already starring in.  
-- Outer compounds and multi-site doctrine still matter — but the god-view is **global**, not only campus.  
-- Evil Twin / dual board / hire chain sit under a man who can see both mountains move in real time.  
+This is not a facility manager with good CCTV.  
+This is a man who can **steer wars and markets from a dream** using two house armies and every feed the AI can reach. Evil Twin, dual board, hire chain, and “greater good” all sit on top of that fact.
