@@ -1,7 +1,7 @@
 # PRIM3 Canon Register
 
 **Status:** Foundation canon (merged to main)  
-**Continuity version:** 0.4.0  
+**Continuity version:** 0.4.1  
 **Authority:** Matthew McCluster  
 **Rule:** If material conflicts with this register, this register wins until deliberately revised.
 
@@ -32,7 +32,7 @@ The currently known song/mission order is recorded in `story/EPISODE-PROGRESSION
 - Enters from severe material instability with practical IT/infrastructure experience that exceeds his formal credentials.
 - His defining advantage is persistence rather than instant mastery.
 - Love interest: **Aya Shinoda** (Japan, Field-T).
-- Ultimately faces succession / RAID / Evil Twin / Ghost or Whip.
+- Ultimately faces succession / RAID / Evil Twin / Ghost.
 
 ## Presiding Prime
 
@@ -40,7 +40,11 @@ The currently known song/mission order is recorded in `story/EPISODE-PROGRESSION
 - Double-agent capability across opposing forces.
 - Recruited at 33 and seized Prime in less than nine months.
 - Prime cannot simply resign; succession requires a worthy operator to reach and defeat the presiding Prime while Prime genuinely resists.
-- Ghost path preserves/uploads him as a cloud assistant / Civ-scale endgame; kill path connects toward Whip Equipped.
+- **Prime is already functionally Ghost in the Wires before RAID.** His sleeping biological body is the highest-trust command anchor for a distributed human-machine control architecture.
+- During RAID, his body is critically damaged but remains biometrically authoritative long enough to create a succession window.
+- Jordan's team uses that still-valid Prime-00 identity inside Site 0 to recognize Jordan as the new Prime, transfer sovereign authority, and revoke Prime-00's independent write / actuator / personnel-command permissions.
+- Prime-00 then persists in the cloud as **Ghost Prime** with read / observe / analyze / advice capability only by default.
+- Ghost In The Wires is therefore an **authority-transfer and privilege-reduction finale**, not the creation of Prime's first networked existence.
 
 ## Corporate architecture
 
@@ -73,6 +77,10 @@ Nine-level Site 0 stack and Prime visual anchors remain locked as previously est
 
 Relationships do not reset between episodes. Consequential lies, rescues, promotions, humiliation, attraction, grief, debt, injury, secrets and command decisions must leave residue. See `story/HUMAN-STORY-ENGINE.md` and `story/CHARACTER-RELATIONSHIP-STATE.md`.
 
+## Prime background-presence rule
+
+Presiding Prime must be detectably present in the background of every episode before `Ghost In The Wires`, even when Jordan and the audience do not yet understand what counts as Prime's presence. See `story/PRIME-LURK-LEDGER.md`.
+
 ## Explicitly open
 
 - College location
@@ -80,4 +88,3 @@ Relationships do not reset between episodes. Consequential lies, rescues, promot
 - Song #21 title/lyrics/technical concept
 - Full cohort biography details beyond current proposed cast files
 - Full meaning of “Negative One” if still used alongside Jordan naming
-- Which final Ghost/kill branch is canonical for the passive watch-series ending, if one must be selected
