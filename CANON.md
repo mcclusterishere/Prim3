@@ -1,7 +1,7 @@
 # PRIM3 Canon Register
 
 **Status:** Foundation canon (merged to main)  
-**Continuity version:** 0.4.1  
+**Continuity version:** 0.4.2  
 **Authority:** Matthew McCluster  
 **Rule:** If material conflicts with this register, this register wins until deliberately revised.
 
@@ -23,6 +23,20 @@ PRIM3 is a **seven-season adult techno-thriller / infotainment series** followin
 Jordan spends the academic year inside the PRIM3/McCluster story. **Between academic years he repeatedly leaves for a summer policy fellowship.** Those summers influence who he is when he returns, but they do not add episodes to PRIM3's 21-episode count. They may later support a separate Equity Uprise series/game/show.
 
 The currently known song/mission order is recorded in `story/EPISODE-PROGRESSION.md` and `story/EPISODE-MISSION-BIBLE.md`. Song #21 / Episode 18 remains deliberately open until the owner supplies the final track.
+
+## Opening chronology — High Alert
+
+**High Alert is shown as the S1E1 music film but occurs chronologically in the middle of S7E1 — RAID (HOT SITE).**
+
+- The performer is **Presiding Prime / Prime-00**, not future Jordan.
+- Jordan and his raid team are already inside Site 0 trying to reach and replace him.
+- Prime performs High Alert as a diss record / psychological domination scene aimed at the people attacking him.
+- Seventeen selected bars trigger compressed memories from global Episodes **02–18**.
+- Those memories are intentionally incomprehensible on first viewing and become legible as the corresponding episodes are later watched.
+- Several memories gain a third meaning during Evil Twin when the audience learns Prime had been coordinating both Prim3 and Hitman.
+- S7E1 returns to the exact High Alert moment from the RAID side once the seven-year story has caught up.
+
+See `story/HIGH-ALERT-MEMORY-ANCHORS.md`.
 
 ## Protagonist
 
