@@ -1,7 +1,7 @@
 ---
 status: CANON PRODUCTION RULE / TRACE DETAILS PROPOSED UNTIL EACH EPISODE IS WRITTEN
 system: Prime background-presence continuity
-version: 1.0.0
+version: 1.1.0
 branch: main
 ---
 
@@ -49,7 +49,7 @@ Never use the same trick so often that the audience starts hunting him as a game
 
 | Global ep | Episode / song | Prime trace | First-watch explanation | Ghost payoff status |
 |---:|---|---|---|---|
-| 20 | S7E2 — Evil Twin | Prime openly present; hidden layer is no longer his identity but how much of the confession he has pre-arranged | Prime is finally explaining the board | TO DEFINE IN EPISODE DRAFT |
+| 20 | S7E2 — Evil Twin | Prime's entire confession is indexed as `ET-00 / SUCCESSION DISCLOSURE / CURATED` and timestamped before RAID began; even after physical defeat he is controlling sequence, framing and emotional timing | Prime is finally telling the truth because he has nothing left to hide | **LOCKED — S07E02 draft** |
 | 19 | S7E1 — RAID (HOT SITE) | Prime watches the approach through the sleep/tank/global-feed system before physical contact | Expected defensive awareness | TO DEFINE |
 | 18 | S6E3 — Song #21 | OPEN | OPEN | WAIT FOR SONG |
 | 17 | S6E2 — Patch Work | TBD | TBD | TO DEFINE |
@@ -68,7 +68,7 @@ Never use the same trick so often that the audience starts hunting him as a game
 | 04 | S2E1 — Anti Social Engineering | TBD | TBD | TO DEFINE |
 | 03 | S1E3 — OSINT | Prime is the unnamed senior reviewer who requests Jordan remain in the recruitment path | Normal executive review | TO LOCK DURING EPISODE DRAFT |
 | 02 | S1E2 — White Grey Black Hat | TBD | TBD | TO DEFINE |
-| 01 | S1E1 — High Alert | Future Prime/Jordan is foregrounded in cold open; Presiding Prime's earlier-era trace must appear after the seven-year rewind | Ordinary surveillance/security texture | TO LOCK DURING EPISODE DRAFT |
+| 01 | S1E1 — High Alert | Presiding Prime performs from the middle of Jordan's RAID; after the seven-year rewind, Prime's earlier-era trace must still appear in the episode's past-tense story | Future RAID spectacle plus ordinary surveillance/security texture | TO LOCK DURING EPISODE DRAFT |
 
 ## S7E3 payoff
 
