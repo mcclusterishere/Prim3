@@ -3,56 +3,56 @@ status: CANON
 episode: S1E1
 title: High Alert
 track: High Alert (Prime POV)
-runtime_target: ~6 minutes
-format: watch-first; optional play
-version: 4.0.0
+runtime_song: 2:47
+version: 5.0.0
 ---
 
 # S1E1 — High Alert
 
-**POV: Prime.** Song is his. Aimed at the hire chain he helped build.  
-**Tip of RAID** — main site, dual raid (protagonist + Benji). Series opens here.
-
-**Full visual / double-entendre pack for animation & image AIs:**  
-`story/episodes/S1E1-VISUAL-DIRECTION.md` ← **read that for generation**
+**Song = mission peak (perimeter emergency).**  
+**Second half = how the two crews reached the line.**  
+Full Prime capability: `story/PRIME-LORE.md`.
 
 ---
 
 ## Logline
-Suspension tank: dreams wired into house AI; Prime only wakes for true emergencies. Outer compounds should make main-site contact mythical. Tonight they fail. He wakes on **High Alert**, sees **both** raiders, knows who hired the road — **including names he put in play** — and talks shit at them while his **neurons fire robots** before flesh can fire first.
+
+Prime is in the tank — not blind. Cameras, sentries, roads, **satellites**, global watch. He only takes a body when the watch is not enough. **High Alert begins when Jordan and Benji’s forces touch the edge of the property perimeter.** He wakes talking shit at a hire chain that includes his own names, while the house and the robots answer his neurons. The main building is still downstream. The perimeter is already on fire.
 
 ---
 
-## Story spine (short)
-1. Dream-machine sleep (he *is* the systems)  
-2. HIGH ALERT — main site  
-3. Tank release — eyes — nerves that work  
-4. Dual feeds: Prim3 protagonist + Hitman Benji  
-5. Recognition: hire chain / his own pieces  
-6. Threat bars + robot fire from neuron priority  
-7. Buys a wing; raid not over; **M**; sting  
+## Block A — Song (2:47) — the end of the quiet
+
+1. Tank. Sleep = god-view (sat, road, sentry, world).  
+2. **Perimeter contact.** Not main lobby — the edge of the property.  
+3. HIGH ALERT. Body forced online.  
+4. Feeds: Prim3 vector (**Jordan**) + Hitman vector (**Benji**).  
+5. Recognition: who hired the road; some names are his.  
+6. Threat bars + robots/sentries fire on his clock.  
+7. Diss plants for the season. Raiders still outside the heart — but the myth of “untouchable” is broken at the fence line.  
 
 ---
 
-## Double entendre (core)
-| Line energy | Surface | Under |
-|-------------|---------|--------|
-| Nerves / don’t work ’em | Emotional nerves | **Neurons** — literal brain fire |
-| Before they fire first | Don’t shoot first, you lose | **His neuron fires first** — outthink + **robots fire** on his priority before a human trigger |
-| Dial first / no 9 | Status operator | Building + AI still call **him** |
-| Sleep on me | Underestimate | He was **asleep in the tank** and still dangerous |
-| Scope of my work | Career flex | The multi-compound map + dream-AI job |
-| Paid in full vs trial | Money flex | House systems vs intruders |
+## Block B — Context (~3 min) — path to the perimeter
 
-Every major bar should support **at least two pictures**: street-meaning and machine-meaning.
+Plain story:
+
+- Two papers, one property: Prim3 “mission” and Hitman “score.”  
+- Prime’s sleep already knows both moves; support has been tilting objectives for months (why crews feel covered).  
+- Tonight the tilt is not enough to keep them off the **edge**.  
+- Jordan leaves Aya’s bay. Benji leaves his crew.  
+- They reach the perimeter. That is the tripwire for the song you already watched.  
 
 ---
 
-## Cast
-Prime · Protagonist · Benji · house AI / robots · implied hire chain
+## Do not write
 
-## Brand
-**M** on tank, UI, his side. Dual Sight splits the two raid feeds.
+- Prime surprised in the bedroom with no prior awareness  
+- Raiders already in the main building when High Alert *starts*  
+- Sleep as helpless coma  
 
-## Structure link
-S1E1 = RAID tip open → seasons = how we got here → RAID full arc → Evil Twin confession → Ghost if spared.
+## Write
+
+- Perimeter first  
+- Global watch always on  
+- Dual support even when sides fight  
