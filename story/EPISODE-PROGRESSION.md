@@ -1,50 +1,68 @@
 ---
 status: CANON
-system: Progressive episode order from song texts
-version: 1.2.0
+system: Seven-season episode progression
+version: 2.0.0
 branch: main
 ---
 
-# Episode progression — song-driven story
+# Episode progression — 7 years / 21 episodes
 
-**Source lyrics:** `source-material/<slug>/LYRICS.md` on **main**.
+## Locked format
 
-**Format:** Song = mission end. Remaining ~3 min = context that led to that mission.
+PRIM3 follows **seven academic years**.
 
-## Locked progression
+- **7 seasons**
+- **3 episodes per season**
+- **21 episodes total**
+- **1 song = 1 episode = 1 mission**
+- Target runtime: **~9 minutes per episode**
+  - ~3 min music film
+  - ~3 min human/character story
+  - ~3 min mission/action
+- Mission segment can be **WATCHED** as authored action or **PLAYED** as the gamified version of the same story event.
 
-| # | Song slug | Story beat |
-|---|-----------|------------|
-| E01 | high-alert | Perimeter High Alert; Prime wake; dual approach (2:47 song) |
-| E02 | white-grey-black-hat | Authorization / hats |
-| E03 | osint | Enter view of the work |
-| E04 | anti-social-engineering | Human layer |
-| E05 | red-blue-purple-white-team | Crew / team colors |
-| E06 | patch-work | Jordan × Aya relationship + integrity |
-| E07 | app-attacks | Harder ops |
-| E08 | installation-types | Path commitment |
-| E09 | dive-in | Physical / RF |
-| E10 | iot | Soft targets |
-| E11 | iaas-saas-paas | Service layers |
-| E12 | cap-ex-vs-op-ex | Own vs rent (Aya CapEx) |
-| E13 | trappin-from-the-cloud | Scale |
-| E14 | per-diem | Grind |
-| E15 | raid-hot-site | Full assault; Prime beaten |
-| E16 | evil-twin | Confession |
-| End | ghost-in-the-wires | If spared |
+Jordan's recurring summer policy fellowships happen **between seasons** and are not added to the 21 PRIM3 episodes. They may later form a separate Equity Uprise series/experience.
 
-Kill path → Whip Equipped.
+See `EPISODE-MISSION-BIBLE.md` for the full mission and story design.
 
-## Archived owner tracks not yet inserted into the locked order
+## Seven-year order
 
-These tracks are now fully represented in the source catalog but their exact episode numbers have **not** been silently invented:
+| Global # | Season | Episode | Song | Mission |
+|---:|---:|---:|---|---|
+| 01 | 1 | 1 | **High Alert** | **The Blip** |
+| 02 | 1 | 2 | **White Grey Black Hat** | **Permission Slip** |
+| 03 | 1 | 3 | **OSINT** | **Open Book** |
+| 04 | 2 | 1 | **Anti Social Engineering** | **The Human Layer** |
+| 05 | 2 | 2 | **Red Blue Purple White Team** | **Four Colors** |
+| 06 | 2 | 3 | **Got Wifi** | **Dead Air** |
+| 07 | 3 | 1 | **Data Breach** | **Exposure** |
+| 08 | 3 | 2 | **App Attacks** | **Bad Input** |
+| 09 | 3 | 3 | **Virus Types** | **Patient Zero** |
+| 10 | 4 | 1 | **Installation Types** | **Clean Install** |
+| 11 | 4 | 2 | **Dive In** | **Dumpster Signal** |
+| 12 | 4 | 3 | **IoT** | **House of Eyes** |
+| 13 | 5 | 1 | **IaaS, SaaS, PaaS** | **Shared Responsibility** |
+| 14 | 5 | 2 | **Cap Ex Vs. Op Ex** | **Own the Exit** |
+| 15 | 5 | 3 | **Trappin From The Cloud** | **Elastic** |
+| 16 | 6 | 1 | **Per Diem** | **Road Kit** |
+| 17 | 6 | 2 | **Patch Work** | **Trust Boundary** |
+| 18 | 6 | 3 | **SONG #21 — OPEN** | **Mission #18 — OPEN** |
+| 19 | 7 | 1 | **RAID (HOT SITE)** | **Hot Site** |
+| 20 | 7 | 2 | **Evil Twin** | **Mirror Room** |
+| 21 | 7 | 3 | **Ghost In The Wires** | **Last Process** |
 
-| Track | Slug | Natural story/technical lane |
-|---|---|---|
-| **Data Breach** | `data-breach` | Incident recognition, compromise indicators, attack categories and response. |
-| **Got Wifi** | `got-wifi` | Blue Team wireless defense and OSI layers 1–2. |
-| **Virus Types** | `virus-types` | Malware families, authentication, biometrics and credential risk. |
+## Season emotional progression
 
-Recommended placements are recorded in `SONG-CATALOG.md` as proposals only. An owner decision should promote them into the numbered sequence.
+1. **Recognition** — Jordan is finally seen.
+2. **Belonging** — the cohort becomes family and loss becomes real.
+3. **Trust** — privacy, blame and institutional secrecy damage the group.
+4. **Commitment** — Jordan chooses deeper attachment to Aya and the work while discovering the hidden architecture.
+5. **Scale** — Prim3 becomes visible as part of a global machine.
+6. **Disillusionment** — Jordan learns how much of his path Prime shaped and decides the architecture must change.
+7. **Prime** — RAID defeats the man; Evil Twin reveals the board; Ghost asks what Jordan will become.
 
-Deeper historical notes remain on branch `foundation/season-one-canon`, but **main is authoritative going forward**.
+## Open Episode 18
+
+Do not invent Song #21. The owner will supply it later.
+
+Its required dramatic function is already known: it must bridge `Patch Work` and `RAID` by taking Jordan from **investigating Prime** to **choosing to reach Prime and trigger succession**. Its technical concept and mission should be designed from the actual song once supplied.
