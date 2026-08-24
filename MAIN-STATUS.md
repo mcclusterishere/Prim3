@@ -1,18 +1,35 @@
 # Main branch status
 
-## What landed on main this fix
+## Source material
 
-### source-material/ (lyrics)
-All Prim3 song lyric packages extracted from owner docx (see `source-material/README.md`).  
-**data-breach** remains the only full audio+subtitle package.
+All **20 owner-supplied Prim3 song documents** currently available in this project are represented under `source-material/` on **main**.
 
-**Still missing owner drops:** Virus Types, Got Wifi; RAID PDF binary; MP3/SRT/TTML per other songs.
+- `got-wifi/` added from `Prim3 - Got Wifi_.docx`
+- `virus-types/` added from `Prim3 - Virus Types.docx`
+- `data-breach/` remains the only full audio + timed-lyrics/distribution package currently stored in the repo
+- other tracks currently preserve lyric source material; MP3/SRT/TTML/DistroKid metadata/artwork/original binaries can be added as supplied
 
-### story/ + ARCHITECT
-Core canon copied onto main so ChatGPT/agents reading **main** see the bible.
+See `source-material/README.md` and `story/SONG-CATALOG.md`.
 
-### foundation/season-one-canon
-Still exists with deeper history. **main is authoritative going forward.** PR #4 had conflicts; resolved by direct push of canon onto main rather than a blind merge that would drop lyrics.
+## Story / character system
+
+Main now includes a populated character architecture rather than placeholder tables:
+
+- `story/CHARACTERS.md` — master cast index
+- `story/CAST-NATIONS.md` — 24 Prim3/McCluster mains + 48 attached secondary backstories
+- `story/PHENOTYPE-IDENTITIES.md` — named identities across Prim3 and Hitman role trees
+- `story/HITMAN-CAST.md` — personalized Hitman core cast
+
+Character expansion is marked **PROPOSED** where it develops names/backstories beyond locked root canon. `CANON.md` remains the continuity authority until those details are deliberately promoted.
+
+## Song progression
+
+The previously locked song progression remains intact. `Data Breach`, `Got Wifi`, and `Virus Types` are now archived and cataloged but remain **unplaced** rather than being assigned episode numbers without an owner decision.
+
+## Branch authority
+
+`foundation/season-one-canon` still exists with deeper history, but **main is authoritative going forward**.
 
 ## Rule
-Every file and instruction the owner sends is to be committed to **main** (or a PR into main the same day). No silent side-branch-only work.
+
+Every file and instruction the owner sends belongs on **main** (or in a PR intended for main). No silent side-branch-only canon work.
