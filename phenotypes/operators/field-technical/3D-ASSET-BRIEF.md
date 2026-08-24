@@ -1,22 +1,45 @@
 ---
 status: PRODUCTION BRIEF
 hybrid_name: Field-T Technical Operator
-system: 3D asset pipeline — Tripo AI + suit assembly
-version: 1.0.1
+system: 3D asset pipeline — ChatGPT views + Tripo AI + suit assembly
+version: 1.1.0
 ---
 
 # Field-T — 3D asset brief (item-by-item)
 
-Each row is **one exportable 3D asset**.  
-Built for **Tripo AI** (generate each object alone) then a **suit-assembly AI** (snap objects to named sockets on the body).
+**Authority:** Follow `phenotypes/ASSET-REPLICATION-STANDARD.md` first.  
+This file lists objects and sockets. It does **not** override the photo rule.
+
+## Photo rule (non-negotiable)
+
+ChatGPT must produce **four separate image files** per object:
+
+| File | Content |
+|------|--------|
+| `views/front.png` | Front only |
+| `views/back.png` | Back only |
+| `views/side_a.png` | Side A only |
+| `views/side_b.png` | Side B only |
+
+**Forbidden:** contact sheets, turnaround boards, 2×2 grids, multi-panel cards, front+back+sides in one image.
+
+Each ChatGPT prompt includes:
+```
+ONE image only. ONE camera angle only. Do not show other sides. No contact sheet, no grid, no multi-view turnaround board, no labels for other angles.
+```
+
+Then **Tripo AI** builds one GLB from those four files (multiview preferred).
+
+---
 
 ## Pipeline rules
-1. **One file = one object.** No combined “kit” meshes.
-2. Every object has a **socket name** where it attaches on the suit.
-3. Use exact **asset_id** strings below in filenames: `MCC_FT_<asset_id>`.
-4. Units: **centimeters**. Origin: object resting pose, contact face down or back-to-body.
-5. Style: matte institutional charcoal/black, minimal gloss, McCluster — not toy, not CoD cartoon, not consumer gadget rainbow.
-6. Marks: leave a **flat decal region** (named UV island `mark_zone`) where M / Dual Sight can be applied later from masters — do not sculpt wrong logos into geometry.
+1. **One file = one object mesh.** No combined “kit” meshes until assembly.
+2. Every object has a **socket name** on the suit.
+3. Filenames: `MCC_FT_<asset_id>`
+4. Units: **centimeters**
+5. Style: matte institutional charcoal/black, McCluster — not toy, not CoD cartoon
+6. Marks: flat `mark_zone` only — no sculpted logos
+7. **Four separate view photos before GLB**
 
 ### Suit socket map (assembly AI)
 | Socket id | Body location |
@@ -41,318 +64,93 @@ Built for **Tripo AI** (generate each object alone) then a **suit-assembly AI** 
 
 ---
 
-## A. Worn body assets
+## Object list (asset_ids)
 
-### A1 — Base suit
-| Field | Value |
-|-------|--------|
-| **asset_id** | `base_suit_charcoal` |
-| **filename** | `MCC_FT_base_suit_charcoal` |
-| **object** | Full-body technical field suit (shirt + trousers as one wearable or split upper/lower if tool requires) |
-| **size** | Human adult male/female fit; design on neutral mannequin 175–185 cm |
-| **materials** | Matte charcoal technical textile; subtle panel seams; no fashion drape |
-| **details** | Flat pockets; cable pass loops at waist; no MOLLE garden |
-| **socket** | Skin / body root (worn, not held) |
-| **assembly** | First layer under all modules |
+Each of these needs its own **ASSET-CARD.md** + four view PNGs + one GLB.  
+Do not generate a “kit sheet” image for any of them.
 
-### A2 — Soft torso plate
-| Field | Value |
-|-------|--------|
-| **asset_id** | `armor_soft_torso_thin` |
-| **filename** | `MCC_FT_armor_soft_torso_thin` |
-| **object** | Thin soft armor carrier, torso only |
-| **size** | ~35 cm wide × 40 cm tall × 2–3 cm thick at plates; low bulk at shoulders |
-| **materials** | Matte black textile + thin rigid insert read |
-| **details** | One small `mark_zone` on upper left chest; two module strap points front |
-| **socket** | `sock_torso_armor` |
-| **assembly** | Snaps over base suit chest |
+### Worn
+- `base_suit_charcoal` — full technical suit; mannequin 175–185 cm
+- `armor_soft_torso_thin` — ~35 × 40 × 2–3 cm
+- `gloves_tactile_device`
+- `boots_field_quiet`
+- `headset_low_profile` (optional)
+- `pad_knee_single` (optional) — ~12 × 14 × 3 cm
 
-### A3 — Tactile gloves
-| Field | Value |
-|-------|--------|
-| **asset_id** | `gloves_tactile_device` |
-| **filename** | `MCC_FT_gloves_tactile_device` |
-| **object** | Pair of device-work gloves (export pair or L/R) |
-| **size** | Standard adult hand |
-| **materials** | Matte dark elastomer palm, textile back |
-| **details** | Thin fingertips; no hard knuckles |
-| **socket** | `sock_glove_l` / `sock_glove_r` |
+### Weapon
+- `pistol_service_compact` — ~18 cm overall
+- `holster_retention`
 
-### A4 — Quiet-sole boots
-| Field | Value |
-|-------|--------|
-| **asset_id** | `boots_field_quiet` |
-| **filename** | `MCC_FT_boots_field_quiet` |
-| **object** | Pair field boots |
-| **size** | Adult; ankle height |
-| **materials** | Matte black; rubber sole with shallow tread |
-| **details** | Low profile; not paratrooper bulk |
-| **socket** | `sock_boot_l` / `sock_boot_r` |
+### Always-on electronics
+- `recorder_body_chest` — ~7 × 5 × 2.5 cm
+- `radio_team_body` — ~12 × 7 × 3.5 cm
+- `radio_inear`
 
-### A5 — Low-profile headset (optional)
-| Field | Value |
-|-------|--------|
-| **asset_id** | `headset_low_profile` |
-| **filename** | `MCC_FT_headset_low_profile` |
-| **object** | Slim comms headset, no full helmet |
-| **size** | Head-worn; mic boom short |
-| **materials** | Matte black polymer + fabric pads |
-| **socket** | Head bone / `sock_ear_comm` related |
-| **note** | Never model as Prime M-helmet |
+### Decks
+- `deck_standard` — ~32 × 22 × 3.5 cm closed
+- `deck_hardened` — same box, sealed ports
+- `deck_lite` — ~24 × 16 × 2.2 cm
 
-### A6 — Single knee pad (optional)
-| Field | Value |
-|-------|--------|
-| **asset_id** | `pad_knee_single` |
-| **filename** | `MCC_FT_pad_knee_single` |
-| **object** | One knee pad |
-| **size** | ~12 × 14 × 3 cm |
-| **socket** | `sock_knee_r` (default right) |
+### Modules
+- `iface_primary_case` — ~22 × 14 × 6 cm
+- `iface_primary_tips` — scene prop only
+- `writeblock_bridge` — ~11 × 6 × 3 cm
+- `imaging_stack` — ~14 × 8 × 2.5 cm
+- `integrity_dongle` — ~5 × 2 × 1 cm
+- `isolation_pouch` / `isolation_puck` — split preferred
+
+### Stores / sling
+- `store_standard` — ~10 × 7 × 1.5 cm
+- `store_pocket` — ~8 × 5 × 0.9 cm
+- `store_dual_yoke` — holds two standards
+- `sling_deck`
 
 ---
 
-## B. Weapon + carry
+## Loadout recipes (assembly only — not photo sheets)
 
-### B1 — Service pistol compact
-| Field | Value |
-|-------|--------|
-| **asset_id** | `pistol_service_compact` |
-| **filename** | `MCC_FT_pistol_service_compact` |
-| **object** | Compact service sidearm only |
-| **size** | ~18 cm overall length class |
-| **materials** | Matte dark polymer + subdued metal |
-| **details** | Clean institutional; no race gun optics party |
-| **socket** | Nested in holster; or `sock_hip_holster_r` when holstered |
-
-### B2 — Retention holster
-| Field | Value |
-|-------|--------|
-| **asset_id** | `holster_retention` |
-| **filename** | `MCC_FT_holster_retention` |
-| **object** | Low-profile retention holster |
-| **size** | Fits compact pistol |
-| **materials** | Matte polymer / composite |
-| **socket** | `sock_hip_holster_r` |
-| **assembly** | Holster on hip; pistol parented inside holster |
-
----
-
-## C. Always-on electronics
-
-### C1 — Body recorder
-| Field | Value |
-|-------|--------|
-| **asset_id** | `recorder_body_chest` |
-| **filename** | `MCC_FT_recorder_body_chest` |
-| **object** | Flat rectangular body camera / recorder |
-| **size** | ~7 × 5 × 2.5 cm |
-| **materials** | Matte black polymer; one lens glass |
-| **details** | Small `mark_zone` on face; lens may suggest Dual Sight geometry without copying mark masters |
-| **socket** | `sock_chest_recorder` |
-
-### C2 — Team radio body unit
-| Field | Value |
-|-------|--------|
-| **asset_id** | `radio_team_body` |
-| **filename** | `MCC_FT_radio_team_body` |
-| **object** | Compact torso radio brick |
-| **size** | ~12 × 7 × 3.5 cm |
-| **materials** | Matte charcoal polymer, short stub antenna |
-| **socket** | `sock_radio_support` |
-
-### C3 — In-ear / bone element
-| Field | Value |
-|-------|--------|
-| **asset_id** | `radio_inear` |
-| **filename** | `MCC_FT_radio_inear` |
-| **object** | Single in-ear piece + thin wire or wireless bud |
-| **size** | Ear scale |
-| **socket** | `sock_ear_comm` |
-
----
-
-## D. Cyberdecks (three variants — same family)
-
-### D1 — Deck Standard
-| Field | Value |
-|-------|--------|
-| **asset_id** | `deck_standard` |
-| **filename** | `MCC_FT_deck_standard` |
-| **object** | Rugged clamshell / slab laptop-class field deck |
-| **size** | ~32 × 22 × 3.5 cm closed |
-| **materials** | Matte charcoal hard shell; rubberized corners |
-| **details** | Lid exterior `mark_zone` for small M; front edge status strip (geometry only); hinge rear; visible port door on right side |
-| **ports (modeled)** | 2× rectangular data shutters, 1× round power, 1× cartridge bay mouth on front or side |
-| **socket carried** | `sock_deck_sling` |
-| **socket deployed** | `sock_deck_hand` or flat on prop surface |
-
-### D2 — Deck Hardened
-| Field | Value |
-|-------|--------|
-| **asset_id** | `deck_hardened` |
-| **filename** | `MCC_FT_deck_hardened` |
-| **object** | Same bounding box as Standard |
-| **diff from Standard** | Deeper port covers (lids closed by default); thicker edge gasket; no bright status strip; darker shell |
-| **socket** | same as Standard |
-| **Tripo tip** | Generate as variant of Standard with “shielded sealed ports, darker RF shell, no LED strip” |
-
-### D3 — Deck Lite
-| Field | Value |
-|-------|--------|
-| **asset_id** | `deck_lite` |
-| **filename** | `MCC_FT_deck_lite` |
-| **object** | Thick tablet / half-slab |
-| **size** | ~24 × 16 × 2.2 cm |
-| **details** | One data port shutter; one power; small bay for Pocket Store; hand straps optional as separate asset if needed |
-| **socket** | `sock_deck_hand` or flat chest clip `sock_module_chest_a` |
-
----
-
-## E. Interface + integrity modules
-
-### E1 — Interface Kit Primary (closed case)
-| Field | Value |
-|-------|--------|
-| **asset_id** | `iface_primary_case` |
-| **filename** | `MCC_FT_iface_primary_case` |
-| **object** | Hard rectangular case, latch front |
-| **size** | ~22 × 14 × 6 cm |
-| **materials** | Matte grey-black hard case |
-| **details** | Latch, hinge, subtle M `mark_zone`; interior not required for v1 if lid stays closed on suit |
-| **socket** | `sock_module_belt_f` or `sock_thigh_l` |
-
-### E2 — Interface tips tray (optional open-state prop)
-| Field | Value |
-|-------|--------|
-| **asset_id** | `iface_primary_tips` |
-| **filename** | `MCC_FT_iface_primary_tips` |
-| **object** | Small tray with 4–5 distinct connector tips + coiled trunk cable |
-| **size** | Fits inside case footprint |
-| **use** | Only for detail shots / deployed desk scenes |
-| **socket** | None on body; scene prop |
-
-### E3 — Write-Block Bridge
-| Field | Value |
-|-------|--------|
-| **asset_id** | `writeblock_bridge` |
-| **filename** | `MCC_FT_writeblock_bridge` |
-| **object** | Inline brick with two distinct faces |
-| **size** | ~11 × 6 × 3 cm |
-| **details** | One recessed LED lens (green when active); HOST label emboss side A; TARGET side B; short pigtail stubs or port mouths both ends |
-| **socket** | `sock_module_chest_b` or clipped to deck when in use |
-| **assembly** | On suit as stowed brick; can move to deck port in deployed pose |
-
-### E4 — Imaging Stack
-| Field | Value |
-|-------|--------|
-| **asset_id** | `imaging_stack` |
-| **filename** | `MCC_FT_imaging_stack` |
-| **object** | Thin sled / second brick that docks to deck edge |
-| **size** | ~14 × 8 × 2.5 cm |
-| **details** | Alignment rails; one status window; docks visually to deck front edge |
-| **socket stowed** | `sock_module_belt_r` |
-| **socket deployed** | Child of `deck_standard` dock empty |
-
-### E5 — Integrity Dongle
-| Field | Value |
-|-------|--------|
-| **asset_id** | `integrity_dongle` |
-| **filename** | `MCC_FT_integrity_dongle` |
-| **object** | Thumb-size token |
-| **size** | ~5 × 2 × 1 cm |
-| **details** | Cap + body; tiny `mark_zone` |
-| **socket** | `sock_forearm_l` lanyard point or deck port park |
-
-### E6 — Isolation Sleeve set
-| Field | Value |
-|-------|--------|
-| **asset_id** | `isolation_sleeve` |
-| **filename** | `MCC_FT_isolation_sleeve` |
-| **object** | Flat Faraday pouch + separate small filter puck |
-| **size** | Pouch ~18 × 12 cm flat; puck ~6 × 4 × 2 cm |
-| **export** | Prefer **two assets**: `isolation_pouch`, `isolation_puck` if Tripo splits cleanly |
-| **socket** | `sock_module_belt_r` or thigh |
-
----
-
-## F. Offline stores (same family, three sizes)
-
-### F1 — Store Standard
-| Field | Value |
-|-------|--------|
-| **asset_id** | `store_standard` |
-| **filename** | `MCC_FT_store_standard` |
-| **object** | Thick SSD / cartridge brick |
-| **size** | ~10 × 7 × 1.5 cm |
-| **details** | Insertion bevel; wipe tab geometry; small M zone |
-| **socket stowed** | `sock_module_chest_a` or belt |
-| **socket seated** | Child of deck cartridge bay |
-
-### F2 — Store Pocket
-| Field | Value |
-|-------|--------|
-| **asset_id** | `store_pocket` |
-| **filename** | `MCC_FT_store_pocket` |
-| **object** | Slimmer cartridge |
-| **size** | ~8 × 5 × 0.9 cm |
-| **socket** | Chest pocket / Lite deck bay |
-
-### F3 — Store Dual yoke
-| Field | Value |
-|-------|--------|
-| **asset_id** | `store_dual_yoke` |
-| **filename** | `MCC_FT_store_dual_yoke` |
-| **object** | Frame holding **two** Standard cartridges |
-| **size** | ~12 × 10 × 2.5 cm with cartridges installed |
-| **assembly** | Yoke is one asset; instance `store_standard` ×2 into yoke sockets `bay_a` `bay_b` |
-| **socket on body** | `sock_module_belt_f` |
-
----
-
-## G. Sling / mounting hardware
-
-### G1 — Deck sling
-| Field | Value |
-|-------|--------|
-| **asset_id** | `sling_deck` |
-| **filename** | `MCC_FT_sling_deck` |
-| **object** | Short diagonal sling with deck clip plate |
-| **socket** | Torso; deck clicks to clip plate (`sock_deck_sling`) |
-
----
-
-## Loadout → asset checklist (assembly recipes)
+These are **lists of asset_ids** for later assembly.  
+They are **not** instructions to draw a multi-item turnaround in one image.
 
 ### LIVE
 `base_suit_charcoal` + `armor_soft_torso_thin` + `gloves_tactile_device` + `boots_field_quiet` + `holster_retention` + `pistol_service_compact` + `recorder_body_chest` + `radio_team_body` + `radio_inear` + `deck_standard` + `sling_deck` + `iface_primary_case` + `writeblock_bridge` + `store_standard`
 
 ### FORENSIC
-LIVE swap: add `imaging_stack` + `integrity_dongle` + `store_dual_yoke` (+ 2× `store_standard`); optional `pad_knee_single`; keep writeblock mandatory
+LIVE + `imaging_stack` + `integrity_dongle` + `store_dual_yoke` (+ 2× `store_standard`); optional `pad_knee_single`
 
 ### RAPID
-Swap deck → `deck_lite`; store → `store_pocket`; keep iface + pistol + recorder + radio; writeblock optional; no dual, no imaging stack
+Swap to `deck_lite` + `store_pocket`; writeblock optional; no dual/imaging
 
 ### DENIED
-Swap deck → `deck_hardened`; add `integrity_dongle`; optional `isolation_sleeve`; Dual Sight marks muted (material/decal state, not new mesh)
+Swap to `deck_hardened` + `integrity_dongle`; optional isolation; marks muted
+
+**Full-body kit photos (when needed):** still **four separate files** (front/back/side_a/side_b of the dressed mannequin). Never one contact sheet of the whole kit.
 
 ---
 
-## Tripo AI prompt skeleton (per item)
-
-Use this pattern for each asset_id:
+## ChatGPT prompt skeleton (one view per run)
 
 ```
-Single object, studio product shot style model reference, matte institutional charcoal/black materials,
-McCluster field equipment, no logos sculpted in, clean hard-surface, real-world scale,
-[OBJECT DESCRIPTION FROM TABLE], isolated object, no hands, no torso, no environment,
-game-ready prop, sharp edges controlled, minimal bevels
+Single object only. Studio product photo. Clean neutral background.
+Matte institutional charcoal/black hard-surface prop. Real-world scale.
+[PASTE form + dimensions from ASSET-CARD].
+Camera: [FRONT | BACK | SIDE A | SIDE B] only.
+ONE image only. ONE camera angle only. Do not show other sides.
+No contact sheet, no grid, no multi-view turnaround board, no labels for other angles.
+No logos sculpted in. No hands. No second object.
 ```
 
-Then assemble in the second AI using **socket ids** and the loadout recipes above.
+Run **four times** per asset_id. Save as `front.png` / `back.png` / `side_a.png` / `side_b.png`.
 
 ---
 
-## Priority build order (fewest assets → playable Field-T LIVE)
+## Tripo
+
+Feed the **four separate** view files. One GLB: `MCC_FT_<asset_id>.glb`. Download immediately.
+
+---
+
+## Priority build order (LIVE)
 
 1. `base_suit_charcoal`  
 2. `armor_soft_torso_thin`  
@@ -366,5 +164,3 @@ Then assemble in the second AI using **socket ids** and the loadout recipes abov
 10. `radio_team_body` + `radio_inear`  
 11. `gloves_tactile_device`  
 12. `boots_field_quiet`  
-
-That set alone builds **LIVE**. Variants unlock FORENSIC / RAPID / DENIED.
