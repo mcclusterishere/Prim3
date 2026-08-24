@@ -1,7 +1,7 @@
 ---
 status: CANON PRODUCTION RULE / TRACE DETAILS PROPOSED UNTIL EACH EPISODE IS WRITTEN
 system: Prime background-presence continuity
-version: 1.2.0
+version: 1.3.0
 branch: main
 ---
 
@@ -49,8 +49,8 @@ Never use the same trick so often that the audience starts hunting him as a game
 
 | Global ep | Episode / song | Prime trace | First-watch explanation | Ghost payoff status |
 |---:|---|---|---|---|
-| 20 | S7E2 — Evil Twin | Prime's entire confession is indexed as `ET-00 / SUCCESSION DISCLOSURE / CURATED` and timestamped before RAID began; even after physical defeat he is controlling sequence, framing and emotional timing | Prime is finally telling the truth because he has nothing left to hide | **LOCKED — S07E02 draft** |
-| 19 | S7E1 — RAID (HOT SITE) | Prime watches the approach through the sleep/tank/global-feed system before physical contact | Expected defensive awareness | TO DEFINE |
+| 20 | S7E2 — Evil Twin | Prime is openly defeated; the “lurking” payoff is retrospective. His confession and mirrored flashbacks reveal that every time Jordan and Benji glimpsed one another on prior battlefields, Prime already occupied the unseen third perspective above both of them. He confesses because Jordan and Benji are about to execute him and information is his only remaining weapon. | Earlier cross-board strangers and near-misses looked like ordinary battlefield coincidence | **LOCKED — S07E02 rewrite** |
+| 19 | S7E1 — RAID (HOT SITE) | Prime watches both assault elements through the sleep/tank/global-feed system before physical contact. Jordan and Benji independently lose their teams, nearly kill one another after finally meeting, then ally against Prime. | Expected defensive awareness plus two apparently unrelated attack lanes | TO LOCK IN RAID DRAFT |
 | 18 | S6E3 — Song #21 | OPEN | OPEN | WAIT FOR SONG |
 | 17 | S6E2 — Patch Work | TBD | TBD | TO DEFINE |
 | 16 | S6E1 — Per Diem | TBD | TBD | TO DEFINE |
