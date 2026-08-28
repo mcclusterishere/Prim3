@@ -5,8 +5,9 @@
 | File | Contents |
 |------|----------|
 | `PRIME-LORE.md` | Tank, satellite/global-feed dream-AI, perimeter High Alert |
-| `EPISODE-PROGRESSION.md` | Locked song-driven story order + archived unplaced tracks |
-| `SONG-CATALOG.md` | Complete 20-track owner lyric catalog and placement status |
+| `EPISODE-PROGRESSION.md` | Locked 21-slot song/episode/mission order |
+| `SONG-CATALOG.md` | Complete 20-track owner lyric catalog and locked placement status |
+| `../episodes/README.md` | One merge-ready chapter file per episode/playable level, including the protected open slot |
 | `THE-STORY.md` | How the tale is told |
 | `HUMAN-STORY-ENGINE.md` | Required human depth and scene rules |
 | `CHARACTER-PERSONALIZATION-TEMPLATE.md` | Personality, voice, relationships and story-pressure standard |

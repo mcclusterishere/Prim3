@@ -3,7 +3,7 @@ status: PROPOSED
 season: 1
 academic_year: freshman
 working_title: Recruitment
-episode_count: UNSET
+episode_count: 3
 ---
 
 # Season One — Recruitment
@@ -16,9 +16,13 @@ The season must work before the audience understands the full Prime mythology.
 
 ## Cold open
 
-In the future, Agent Prime Negative One seals the completed helmet inside Site 0 while a recruit he selected raids the facility.
+In the future, Jordan and Benji's separate assault elements have penetrated
+Site 0. Presiding Prime / Prime-00 performs **High Alert** as a diss record and
+psychological weapon against the people who have come to replace him.
 
-He understands the attack because he once made the same journey.
+Seventeen compressed memory flashes point toward global Episodes 02-18. The
+opening cuts away before the RAID outcome, the survivor state or the identity
+of the second assault element is explained.
 
 Cut to seven years earlier: a 33-year-old first-year college student arrives on campus with no money, no stable life and years of knowledge nobody has formally recognized.
 

@@ -1,11 +1,18 @@
 ---
 status: PROPOSED
 system: 21-episode triptych + mission bible
-version: 0.1.0
+version: 0.2.0
 branch: main
 ---
 
 # PRIM3 — Episode & Mission Bible
+
+## Local chapter files
+
+This bible owns the cross-season spine. Expandable local chapter files for all
+21 episode/playable-level slots are indexed in [`episodes/README.md`](../episodes/README.md).
+Add local scenes, mechanics, technical gates, assets and merge hooks to the
+episode file first; update this bible only when the shared season spine changes.
 
 ## Locked production grammar
 
@@ -55,7 +62,10 @@ Jordan enters college at 33 believing legitimacy will finally stabilize his life
 ## S1E1 — HIGH ALERT
 
 ### Music film
-Future Jordan as Prime Negative One wakes from suspension when Site 0's property perimeter enters High Alert. Cameras, sentries, roads and distant feeds collapse into a single threat picture. Cut before the confrontation.
+In the middle of the future RAID, Presiding Prime / Prime-00 performs High
+Alert against Jordan and Benji's incoming assault elements. Seventeen bars
+trigger compressed memories from global Episodes 02-18. Cut before the RAID's
+survivor state, alliance or outcome is revealed.
 
 ### Human story
 **SEVEN YEARS EARLIER.** Jordan arrives at college broke, older than his classmates and determined not to disappear again. A supposedly insignificant security anomaly places him on Presiding Prime's screen.
@@ -504,7 +514,10 @@ Jordan's team enters Site 0 while Prime genuinely resists. Every layer has redun
 
 **Teaches:** RAID/redundancy concepts, hot/warm/cold continuity thinking, failover, resilience, recovery priorities, mission assurance.
 
-**Story advance:** Jordan defeats Presiding Prime. The victory triggers the succession question instead of ending it.
+**Story advance:** After both assault elements are reduced to Jordan and Benji,
+the two men nearly kill one another, recognize Prime as the common target and
+defeat Presiding Prime together. The victory triggers the succession question
+instead of ending it.
 
 **WATCH action:** Earlier episode lessons visually recur as Jordan solves problems he once would not have understood.
 
@@ -552,7 +565,11 @@ The defeated Prime's neural/AI integration is entangled with Site 0 services. As
 
 **Teaches:** identity vs service, continuity, distributed state, recovery, auditability, human-in-the-loop authority, graceful shutdown/migration.
 
-**Story advance:** The series resolves what kind of Prime Jordan will become. Current canon still preserves a Ghost/spare path and a kill/Whip path; the watch-series canonical ending can be locked later.
+**Story advance:** The still-living Prime-00 identity supports a clean authority
+transfer to Jordan. Prime-00 loses independent write, actuator and personnel-
+command privileges and persists as Ghost Prime with read, observe, analyze and
+advice capability only by default. The series resolves what kind of Prime
+Jordan will become after taking control of the machine.
 
 **WATCH action:** The last action sequence is about responsibility, not winning a gunfight.
 

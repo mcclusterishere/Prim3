@@ -3,6 +3,7 @@ status: PROPOSED EPISODE DRAFT
 season: 7
 episode: 3
 global_episode: 21
+level_id: LVL-21
 song: Ghost In The Wires
 mission: Last Process
 runtime_target: 9 minutes
@@ -16,11 +17,21 @@ branch: main
 
 This is the final PRIM3 episode.
 
-RAID proved Jordan could reach and defeat Presiding Prime. Evil Twin proved that defeating the man did not automatically explain the system. Ghost In The Wires asks the final question: **what kind of authority will Jordan become now that he has the capability to replace him?**
+RAID proved Jordan and Benji could reach and defeat Presiding Prime together.
+Evil Twin proved that defeating the man did not automatically explain or revoke
+the system. Ghost In The Wires asks the final question: **what kind of authority
+will Jordan become now that he has the capability to replace him?**
 
-The passive/watch-series path uses the Ghost outcome: Presiding Prime survives as a distributed cloud intelligence/advisor rather than remaining the physical commander. This episode does not treat the upload as a clean victory. Jordan inherits a damaged Site 0, a frightened organization, a divided command structure, and an intelligence that knows every layer better than he does.
+The watch-series outcome is authority transfer and privilege reduction, not an
+upload. Prime was already functionally distributed before RAID; his critically
+damaged biological body remains the living biometric trust root long enough to
+transfer sovereign authority to Jordan and revoke Prime-00's independent write,
+actuator and personnel-command permissions. Jordan inherits a damaged Site 0, a
+frightened organization, a divided command structure and an intelligence that
+knows every layer better than he does.
 
-Prime is not gone. He is now harder to locate.
+Prime is not gone. He persists as Ghost Prime with read, observe, analyze and
+advice capability only by default—and without autonomous command rights.
 
 ## Technical spine from the song
 

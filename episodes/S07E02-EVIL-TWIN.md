@@ -3,6 +3,7 @@ status: PROPOSED EPISODE DRAFT
 season: 7
 episode: 2
 global_episode: 20
+level_id: LVL-20
 song: Evil Twin
 mission: Mirror Room
 runtime_target: 9 minutes

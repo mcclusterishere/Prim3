@@ -1,7 +1,7 @@
 ---
 status: CANON STORY RULE / MEMORY DETAILS PROPOSED UNTIL EPISODE DRAFTS LOCK
 system: High Alert reverse-memory architecture
-version: 1.0.0
+version: 1.0.1
 branch: main
 ---
 
@@ -13,7 +13,12 @@ The **High Alert music film is shown in S1E1, but it happens chronologically in 
 
 Presiding Prime is the performer.
 
-Jordan and the surviving raid team have entered Site 0. Prime has already watched their approach through the sleep-linked command system. The song is not a generic flex track and it is not future Jordan performing at a later succession.
+Jordan and his assault element have entered Site 0. Benji's separate assault
+element is entering the larger fight through the other side of Prime's hidden
+architecture, although S1E1 does not explain that second lane. Prime has
+already watched both approaches through the sleep-linked command system. The
+song is not a generic flex track and it is not future Jordan performing at a
+later succession.
 
 It is Presiding Prime talking directly to the people who have come to take his job.
 

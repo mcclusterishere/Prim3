@@ -1,33 +1,59 @@
 ---
-status: PROPOSED
+status: PROPOSED EPISODE DRAFT
 series: PRIM3
 season: 1
 episode: 1
+global_episode: 1
+level_id: LVL-01
+song: High Alert
+mission: The Blip
 working_title: The Blip
-continuity_version: 0.2.0
+runtime_target: 9 minutes
+format: Music Film -> Human Story -> Watch/Play Mission
+continuity_version: 0.4.3
 ---
 
 # S01E01 — The Blip
 
 ## Episode purpose
 
-Introduce Prime as a position before the audience understands it is a position.
+Introduce Presiding Prime as the hidden authority at the end of Jordan's path,
+then introduce Jordan as a person whom ordinary systems have misclassified.
 
-The episode begins at the end of the seven-season journey, then rewinds seven years to the moment the presiding Prime first notices the 33-year-old future Prime Negative One.
+The **High Alert** music film begins in the middle of S7E1's final RAID, then
+rewinds seven years to the ordinary anomaly that first places 33-year-old
+Jordan on Presiding Prime's screen.
 
-The protagonist is not discovered through an elite competition or conventional application. He is discovered because a supposedly trivial removal contract fails.
+The locked mission spine is **The Blip**: Jordan safely interprets a pattern of
+low-level alerts before anyone else agrees it matters. The removal-contract
+material below is a proposed human-story explanation for that blip, not a
+replacement for the mission and not foundation canon until owner approval.
 
-## Cold open — the end
+## 0:00-3:00 — High Alert / the future
 
-Inside Site 0, Agent Prime Negative One receives an intrusion alert.
+Inside Site 0, Presiding Prime / Prime-00 receives confirmation that two
+separate assault elements have entered the larger fight around his facility.
+Jordan is approaching through the Prim3 side of the architecture. Benji is
+approaching from the Hitman side, although the opening does not explain that
+second lane.
 
-A recruit he personally selected is raiding his facility. The recruit's objective is to reach and execute Prime, inherit the position and end Prime Negative One's tenure.
+Prime performs **High Alert** as a diss record, threat assessment and memory
+weapon aimed at the people who have come to reach, defeat and replace him.
+Seventeen selected bars trigger 1-4 second memory fragments from global
+Episodes 02-18. The fragments are deliberately illegible on first viewing and
+become complete scenes when those episodes arrive.
 
-Prime understands exactly what is happening because he once approached the position the same way.
+Do not show which raiders survive, Jordan and Benji's near-fight, their alliance
+or Prime's defeat. S7E1 returns to this exact moment after the chronology catches
+up. Use the locked bar-to-scene map in
+[`story/HIGH-ALERT-MEMORY-ANCHORS.md`](../story/HIGH-ALERT-MEMORY-ANCHORS.md).
 
-He seals the M-architecture helmet. The forehead camera activates. The red `//` bars illuminate.
+Prime's physical-defense state activates: the M-architecture helmet, visible
+forehead camera, smoked visor and red `//` bars belong to **Presiding Prime in
+this opening**, not future Jordan.
 
-Prime prepares to resist with everything he has, even though some part of him wants the recruit to succeed.
+Prime genuinely resists both assault elements even though succession requires a
+worthy replacement to survive that resistance.
 
 Cut before the confrontation.
 
@@ -35,13 +61,115 @@ Cut before the confrontation.
 
 **SUPER: SEVEN YEARS EARLIER**
 
-## The audience misdirection
+## First-watch information limit
 
-Seven years earlier, another man is already called Prime.
+The audience may not yet understand Prime's succession law, Benji's identity or
+why Prime knows the seventeen memories. It must not be falsely implied that the
+performer is future Jordan. Later episodes reinterpret the opening by revealing
+the dual board and the exact events behind each memory.
 
-Do not immediately explain that this is a different operator. Let the audience initially assume the series has simply returned to an earlier period in the helmeted man's life.
+## 3:00-6:00 — Human story / the blip
 
-Differences in voice, physical behavior, environment and visual design should gradually make that assumption unstable.
+Seven years earlier, Jordan arrives at college broke, recently homeless and
+older than most of his classmates. At a campus/corporate recruiting event, a
+sequence of low-level alerts is dismissed as ordinary noise. Jordan notices a
+pattern, protects someone else before himself and preserves the detail that
+makes Presiding Prime request his intake.
+
+The West Haven thread below can supply the private reason Prime's systems were
+already watching Jordan, but it remains a **proposed source thread requiring
+owner review**. It must not turn Jordan into a finished action hero before his
+seven-year development begins.
+
+## 6:00-9:00 — Watch/play mission / The Blip
+
+**Objective:** clear civilians from the uncertain hazard, distinguish useful
+alerts from noise, preserve evidence and communicate uncertainty without
+causing panic.
+
+**Player verbs:** observe, compare, route, preserve, report, request help.
+
+**Stable story checkpoint:** Jordan preserves the anomaly that causes Prime to
+reclassify him as worth watching. Grades may change exposure, evidence quality,
+civilian trust, injury and debrief tone; they do not erase his recruitment.
+
+**Five graded outcomes:** Objective, Team, Exposure, Integrity and Time.
+
+**Technical boundary:** teach alert triage, provenance, incomplete logs, chain
+of custody and human judgment. Do not turn the scene into an intrusion recipe.
+
+### Playable level contract
+
+- **Player role:** Jordan before formal McCluster recruitment.
+- **Environment:** campus/corporate recruiting event, public approach routes,
+  event floor and a small security coordination point.
+- **Entry state:** several individually ordinary alerts are being dismissed.
+- **Primary loop:** observe -> compare -> route -> preserve -> report.
+- **Primary objective:** protect people and preserve the anomaly that explains
+  why the alerts belong to one event.
+- **Optional objectives:** reduce panic, keep an accessible exit open and record
+  uncertainty instead of overstating a theory.
+- **Complication:** acting too aggressively creates panic; waiting for certainty
+  leaves people in the affected area and allows volatile evidence to disappear.
+- **Exit state:** the event stabilizes and Prime requests Jordan's intake.
+
+### Persistent state written by the level
+
+Write Jordan's first evidence-quality, civilian-trust and exposure grades. Set
+`prime_watch_candidate = true`. Preserve whether Aya or another future cohort
+member witnesses Jordan protect someone else before himself.
+
+### Prime background trace
+
+- **Visible trace:** after Jordan preserves the decisive alert, an otherwise
+  hidden supervisor pane opens for one beat with the red `//` approval glyph
+  and `REQUEST INTAKE`; Presiding Prime says, “Bring me the intake.”
+- **First-watch meaning:** a senior corporate/security reviewer noticed an
+  unusual civilian response.
+- **Ghost payoff:** Prime personally watched Jordan's first useful decision and
+  initiated the recruitment path seven years before the RAID.
+
+### Technology accuracy gate
+
+- **Sensor / input:** ordinary access alarms, staff reports, timestamps,
+  environmental indicators and Jordan's direct observations.
+- **Compute / reasoning:** human correlation of low-confidence alerts; no system
+  presents a magically certain answer.
+- **Energy / infrastructure:** event power, communications, access-control and
+  emergency-egress systems.
+- **Access / authorization:** Jordan has civilian access only and must request
+  security or emergency actions from the responsible operator.
+- **Human decision owner:** event safety lead / incident commander.
+- **Failure mode:** panic, blocked egress, ignored hazard, destroyed evidence or
+  false certainty.
+- **Real concept taught:** weak signals can become meaningful when their timing,
+  provenance and shared context are compared.
+- **Fictional extrapolation:** Prime's hidden global review layer.
+
+### Production and game assets
+
+- High Alert track and seventeen-memory edit map - `EXISTS`
+- Site 0 RAID opening environment - `PARTIAL`; reuse the current geometry proof
+  only after a production art/LOD pass
+- recruiting-event environment and civilian route graph - `NEEDED`
+- alert/evidence comparison UI - `NEEDED`
+- Jordan, Prime-00, background raiders and civilians - `NEEDED`
+- watch/play transition, score card, voice, SFX and cinematic assembly - `NEEDED`
+
+### Merge hooks
+
+- **Reads from:** `CANON.md`, the High Alert memory map and Jordan's locked age,
+  material-instability and practical-experience anchors.
+- **Writes to:** Jordan's candidate flag, the S1E2 intake path and all seventeen
+  future memory payoffs.
+- **Reusable systems:** alert correlation, civilian routing, evidence custody,
+  five-channel grade card and future-memory cinematic cuts.
+- **Owner decisions:** whether the West Haven source thread remains in S1E1,
+  what caused the campus alerts and who first witnesses Jordan's choice.
+
+---
+
+## Proposed human-story source thread — West Haven
 
 ## Act I — ordinary power
 
@@ -230,4 +358,5 @@ Do not publish private addresses, medical information, unredacted records or nam
 - What corporation cover department receives him?
 - How much does the recruitment team know about Prime's true reason for selecting him?
 - Which real-world records can be safely adapted, redacted or fictionalized?
-- At what point does the audience learn that the two Primes are different men?
+- Does the West Haven removal-contract thread remain in this episode, move to a
+  later chapter or become a separate fictionalized story line?

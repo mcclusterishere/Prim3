@@ -3,6 +3,7 @@ status: PROPOSED EPISODE DRAFT
 season: 1
 episode: 2
 global_episode: 2
+level_id: LVL-02
 song: White Grey Black Hat
 mission: Permission Slip
 runtime_target: 9 minutes
