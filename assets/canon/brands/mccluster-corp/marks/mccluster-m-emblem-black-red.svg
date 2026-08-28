@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <title>McCluster Corp locked M emblem — black/red colorway</title>
+  <metadata>Authoritative Bone Herringbone colorway. Geometry is identical to the primary M master.</metadata>
+  <path d="M 8,5 L 9,91 L 127,209 L 187,152 L 187,171 L 175,184 L 176,250 L 247,179 L 247,5 L 128,123 Z"
+        fill="#080A0C" fill-rule="evenodd"/>
+  <path d="M 52,152 L 52,218 L 84,250 L 84,183 Z M 8,108 L 8,174 L 40,206 L 40,139 Z"
+        fill="#BC1B2A" fill-rule="evenodd"/>
+</svg>
