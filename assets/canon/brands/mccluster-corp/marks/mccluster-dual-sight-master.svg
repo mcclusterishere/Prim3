@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <title>McCluster Corp locked Dual Sight glyph</title>
+  <metadata>Authoritative geometry. Peace/camera and wartime/optic dual reading. Do not redraw.</metadata>
+  <defs>
+    <pattern id="ivoryHatch" patternUnits="userSpaceOnUse" width="18" height="18" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="18" stroke="#ECE6D8" stroke-width="3.2"/>
+    </pattern>
+  </defs>
+  <polygon points="52,236 52,108 108,52 236,52 236,112 140,112 112,140 112,236" fill="url(#ivoryHatch)" stroke="#ECE6D8" stroke-width="8" stroke-linejoin="miter"/>
+  <polygon points="548,236 548,108 492,52 364,52 364,112 460,112 488,140 488,236" fill="url(#ivoryHatch)" stroke="#ECE6D8" stroke-width="8" stroke-linejoin="miter"/>
+  <polygon points="52,364 52,492 108,548 236,548 236,488 140,488 112,460 112,364" fill="url(#ivoryHatch)" stroke="#ECE6D8" stroke-width="8" stroke-linejoin="miter"/>
+  <polygon points="548,364 548,492 492,548 364,548 364,488 460,488 488,460 488,364" fill="url(#ivoryHatch)" stroke="#ECE6D8" stroke-width="8" stroke-linejoin="miter"/>
+  <circle cx="300" cy="300" r="112" fill="#ECE6D8"/>
+  <circle cx="300" cy="300" r="86" fill="#080A0C"/>
+  <path d="M288 134h24v54h-24zM288 412h24v54h-24zM134 288h54v24h-54zM412 288h54v24h-54z" fill="#ECE6D8"/>
+  <circle cx="300" cy="300" r="39" fill="none" stroke="#ECE6D8" stroke-width="14"/>
+  <circle cx="300" cy="300" r="30" fill="#BC1B2A"/>
+</svg>

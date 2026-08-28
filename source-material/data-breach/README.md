@@ -22,4 +22,7 @@ The uploaded source bytes are unchanged. Only repository filenames were normaliz
 
 ## Canon note
 
-These files are stored as source material. Their presence does not automatically assign the track to a specific episode, scene or season. That placement requires a canon decision.
+These files remain preserved source material. The authoritative progression now
+places **Data Breach** at Global Episode 07 / S3E1 with the mission **Exposure**;
+see `../../story/EPISODE-PROGRESSION.md`. Scene adaptation still belongs in the
+episode chapter and must not rewrite these source files.

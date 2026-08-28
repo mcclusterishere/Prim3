@@ -1,12 +1,19 @@
 ---
-status: PROPOSED
+status: CANON SUPPORT
 system: Music-to-story integration
-version: 0.1.0
+version: 1.0.0
 ---
 
 # Song Story Functions
 
-PRIM3 currently has 20 owner-supplied songs/source tracks. The songs are not forced into a one-song-equals-one-episode formula. Each track can supply technical subject matter, emotional thesis, scene energy, mission framing, recurring imagery, or end-credit identity.
+PRIM3 currently has 20 owner-supplied songs/source tracks. The locked production law is:
+
+**one song = one episode = one playable mission level.**
+
+The series has 21 total slots. The 20 existing songs fill 20 slots; Global
+Episode 18 remains protected for owner-supplied Song #21. Each track supplies
+technical subject matter, emotional thesis, scene energy, mission framing and
+recurring imagery to its own episode/level.
 
 ## Current 20-track inventory
 
@@ -41,6 +48,9 @@ For every track used in narrative development, define four separate fields:
 - **Character ownership:** whose perspective or arc makes the song emotionally meaningful.
 
 A track should never be assigned only because its technical topic matches a lesson.
+
+The authoritative order is `EPISODE-PROGRESSION.md`. Individual expandable
+chapters are indexed in `../episodes/README.md`.
 
 ## Examples of useful dramatic translation
 

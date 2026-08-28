@@ -2,11 +2,11 @@
 
 Song packages for Prim3. Convention matches `data-breach/`.
 
-## In repo (lyrics extracted from owner docx)
+## Owner song packages represented in repo
 - `anti-social-engineering/`
 - `app-attacks/`
 - `cap-ex-vs-op-ex/`
-- `data-breach/` (full package: mp3, srt, ttml, distrokid)
+- `data-breach/` (full package: MP3, SRT, TTML and DistroKid lyric data)
 - `dive-in/`
 - `evil-twin/`
 - `ghost-in-the-wires/`
@@ -18,7 +18,7 @@ Song packages for Prim3. Convention matches `data-breach/`.
 - `osint/`
 - `patch-work/`
 - `per-diem/`
-- `raid-hot-site/` (lyrics/README; additional source binary still to add if supplied)
+- `raid-hot-site/` (lyrics extracted from the owner DOCX; original DOCX and additional media still to add if supplied)
 - `red-blue-purple-white-team/`
 - `trappin-from-the-cloud/`
 - `virus-types/`

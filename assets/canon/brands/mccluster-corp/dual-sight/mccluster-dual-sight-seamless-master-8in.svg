@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="8in" height="8in" viewBox="0 0 1024 1024">
+  <title>McCluster Dual Sight seamless manufacturing tile</title>
+  <metadata>Locked M emblem, Dual Sight, and Two States glyph. 8 inch seamless repeat.</metadata>
+  <defs>
+    <pattern id="ivoryHatch" patternUnits="userSpaceOnUse" width="18" height="18" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="18" stroke="#ECE6D8" stroke-width="3.2"/>
+    </pattern>
+    <g id="logoGlyph"><path d="M 8,5 L 9,91 L 127,209 L 187,152 L 187,171 L 175,184 L 176,250 L 247,179 L 247,5 L 128,123 Z" fill="url(#ivoryHatch)" stroke="#ECE6D8" stroke-width="3" stroke-linejoin="miter" fill-rule="evenodd"/><path d="M 52,152 L 52,218 L 84,250 L 84,183 Z M 8,108 L 8,174 L 40,206 L 40,139 Z" fill="none" stroke="#ECE6D8" stroke-width="3" stroke-linejoin="miter" fill-rule="evenodd"/><path d="M 52,152 L 52,218 L 84,250 L 84,183 Z M 8,108 L 8,174 L 40,206 L 40,139 Z" fill="#BC1B2A" stroke="#ECE6D8" stroke-width="3" stroke-linejoin="miter" fill-rule="evenodd"/></g>
+    <g id="dualGlyph"><polygon points="52,236 52,108 108,52 236,52 236,112 140,112 112,140 112,236" fill="url(#ivoryHatch)" stroke="#ECE6D8" stroke-width="8" stroke-linejoin="miter"/><polygon points="548,236 548,108 492,52 364,52 364,112 460,112 488,140 488,236" fill="url(#ivoryHatch)" stroke="#ECE6D8" stroke-width="8" stroke-linejoin="miter"/><polygon points="52,364 52,492 108,548 236,548 236,488 140,488 112,460 112,364" fill="url(#ivoryHatch)" stroke="#ECE6D8" stroke-width="8" stroke-linejoin="miter"/><polygon points="548,364 548,492 492,548 364,548 364,488 460,488 488,460 488,364" fill="url(#ivoryHatch)" stroke="#ECE6D8" stroke-width="8" stroke-linejoin="miter"/><circle cx="300" cy="300" r="112" fill="#ECE6D8"/><circle cx="300" cy="300" r="86" fill="black"/><polygon points="288,134 312,134 312,188 288,188" fill="#ECE6D8"/><polygon points="288,412 312,412 312,466 288,466" fill="#ECE6D8"/><polygon points="134,288 188,288 188,312 134,312" fill="#ECE6D8"/><polygon points="412,288 466,288 466,312 412,312" fill="#ECE6D8"/><circle cx="300" cy="300" r="39" fill="none" stroke="#ECE6D8" stroke-width="14"/><circle cx="300" cy="300" r="30" fill="#BC1B2A"/></g>
+    <g id="twoStates"><polygon points="206,110 278,110 226,390 154,390" fill="none" stroke="#ECE6D8" stroke-width="9" stroke-linejoin="miter"/><polygon points="326,110 398,110 346,390 274,390" fill="none" stroke="#ECE6D8" stroke-width="9" stroke-linejoin="miter"/><polygon points="206,110 278,110 226,390 154,390" fill="#BC1B2A"/><polygon points="326,110 398,110 346,390 274,390" fill="#BC1B2A"/></g>
+  </defs>
+  <g id="BACKGROUND"><rect width="1024" height="1024" fill="#080A0C"/></g>
+  <g id="LOCKED_M_EMBLEM"><use href="#logoGlyph" xlink:href="#logoGlyph" transform="translate(337 337) scale(1.367187500)"/><use href="#logoGlyph" xlink:href="#logoGlyph" transform="translate(-175 -175) scale(1.367187500)"/><use href="#logoGlyph" xlink:href="#logoGlyph" transform="translate(849 -175) scale(1.367187500)"/><use href="#logoGlyph" xlink:href="#logoGlyph" transform="translate(-175 849) scale(1.367187500)"/><use href="#logoGlyph" xlink:href="#logoGlyph" transform="translate(849 849) scale(1.367187500)"/></g>
+  <g id="DUAL_SIGHT"><use href="#dualGlyph" xlink:href="#dualGlyph" transform="translate(175 175) scale(0.25)"/><use href="#dualGlyph" xlink:href="#dualGlyph" transform="translate(699 699) scale(0.25)"/></g>
+  <g id="TWO_STATES"><use href="#twoStates" xlink:href="#twoStates" transform="translate(728 204) scale(0.184000000)"/><use href="#twoStates" xlink:href="#twoStates" transform="translate(204 728) scale(0.184000000)"/></g>
+</svg>

@@ -2,10 +2,11 @@
 
 ## Source material
 
-All **20 owner-supplied Prim3 song documents** currently available in this project are represented under `source-material/` on **main**.
+All **20 owner-supplied Prim3 songs** currently available in this project are represented under `source-material/` on **main**.
 
 - `got-wifi/` added from `Prim3 - Got Wifi_.docx`
 - `virus-types/` added from `Prim3 - Virus Types.docx`
+- `raid-hot-site/LYRICS.md` is now extracted from the owner-supplied DOCX; the original DOCX and any audio/timed-lyrics package can be added later
 - `data-breach/` remains the only full audio + timed-lyrics/distribution package currently stored in the repo
 - other tracks currently preserve lyric source material; MP3/SRT/TTML/DistroKid metadata/artwork/original binaries can be added as supplied
 
@@ -28,9 +29,17 @@ The personalization pass follows `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONAL
 
 Character expansion is marked **PROPOSED** where it develops names/backstories beyond locked root canon. `CANON.md` remains the continuity authority until those details are deliberately promoted.
 
-## Song progression
+## Episode / playable-level coverage
 
-The previously locked song progression remains intact. `Data Breach`, `Got Wifi`, and `Virus Types` are now archived and cataloged but remain **unplaced** rather than being assigned episode numbers without an owner decision.
+The locked format is now represented as a complete file set:
+
+- **20 existing songs = 20 song-based episodes = 20 playable mission levels**
+- **1 protected open slot** for Song #21 / Mission #18
+- **21 total episode/level files** indexed in `episodes/README.md`
+- five longer proposed episode drafts already existed (`S1E1-S1E3`, `S7E2-S7E3`)
+- fifteen merge-ready song chapter blueprints and one protected open-slot chapter now fill the missing file coverage
+
+`Data Breach`, `Got Wifi`, and `Virus Types` are placed at Global Episodes 07, 06, and 09 respectively under the authoritative `story/EPISODE-PROGRESSION.md`. Older “unplaced” labels were stale and have been removed.
 
 ## Branch authority
 

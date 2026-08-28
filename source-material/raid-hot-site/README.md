@@ -1,11 +1,11 @@
 # raid-hot-site
 
-Source: `Prim3 - RAID (HOT SITE).pdf`
+Source: `Prim3 - RAID (HOT SITE).docx`
 
 ## Present
-- README only — PDF binary must be uploaded separately (owner attachment)
+- `LYRICS.md` extracted from the owner-supplied DOCX
 
 ## Drop later
-- PDF copy
+- Original DOCX copy
 - MP3 / SRT / TTML if audio cut exists
 - DistroKid / artwork

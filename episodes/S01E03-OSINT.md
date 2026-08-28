@@ -3,6 +3,7 @@ status: PROPOSED EPISODE DRAFT
 season: 1
 episode: 3
 global_episode: 3
+level_id: LVL-03
 song: OSINT
 mission: Open Book
 runtime_target: 9 minutes
