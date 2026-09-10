@@ -1,3 +1,6 @@
+import './branding/hitmansHalo.css';
+import { initHitmansHaloBrand } from './branding/hitmansHalo.js';
+import { bootHitmansHaloRuntime } from './platform/hitmansHaloRuntime.js';
 import * as Cesium from 'cesium';
 import { StyleManager } from './ui.js';
 import { flyToAustin } from './camera.js';
@@ -35,6 +38,12 @@ import { initFirstRunExperience } from './firstRunExperience.js';
 import { initKeySetup } from './keySetup.js';
 import { loadPhotorealisticTileset } from './mapStartup.js';
 
+initHitmansHaloBrand();
+void bootHitmansHaloRuntime()
+  .then((snapshot) => { globalThis.__HITMANS_HALO_RUNTIME__ = snapshot; })
+  .catch((error) => {
+    globalThis.__HITMANS_HALO_RUNTIME__ = { product: 'HITMANS_HALO', errors: [{ message: error?.message || String(error) }] };
+  });
 initLogoGaze();
 
 /**
