@@ -2,7 +2,7 @@
 status: CANON
 system: PRIM3 omniscient command / data-fusion tactical interface
 version: 1.0.0
-source_inspiration: Seek-First God's Eye View data-layer philosophy + PRIM3 XCOM mechanics
+source_inspiration: Hitman's Halo data-layer philosophy + PRIM3 XCOM mechanics
 ---
 
 # PRIM3 Omniscient Command Interface
@@ -226,7 +226,7 @@ This makes the interface itself part of the moral conflict: the question is not 
 
 ## Real-world bridge principle
 
-PRIM3's fictional command interface and the separately hosted real-world `Seek-First / God's Eye View` capability may share visual and conceptual language, but the game must not rely on live public-world feeds to function.
+PRIM3's fictional command interface and the separately hosted real-world `Hitman's Halo` capability may share visual and conceptual language, but the game must not rely on live public-world feeds to function.
 
 The campaign uses authored/simulated mission data. Real-world public-data access is a post-game/product entitlement, not a hidden dependency in the educational missions.
 

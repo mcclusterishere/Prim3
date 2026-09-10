@@ -206,9 +206,9 @@ Supporting authorities:
 
 `game/PRIME-ASCENSION-REAL-WORLD-UNLOCK.md` governs the post-game real-world companion entitlement.
 
-- The separately hosted `Seek-First / God's Eye View` public-data system may become a real-world post-game companion.
+- The separately hosted `Hitman's Halo` public-data system may become a real-world post-game companion.
 - **Owner/admin access exists independently for private development/operational use.** The owner does not need to beat the game to administer the product.
-- Consumer/player real-world access is earned through the succession arc: complete the required PRIM3 progression/mastery condition -> server writes an authenticated **PRIME / ASCENDED** entitlement -> protected GEV session becomes available.
+- Consumer/player real-world access is earned through the succession arc: complete the required PRIM3 progression/mastery condition -> server writes an authenticated **PRIME / ASCENDED** entitlement -> protected HALO session becomes available.
 - A client-side save/localStorage flag/hidden URL is never sufficient authorization.
 - The unlock grants application capability, not raw shared provider credentials.
 - Server-side provider keys remain behind an authenticated gateway with rate limits, quotas and auditability.

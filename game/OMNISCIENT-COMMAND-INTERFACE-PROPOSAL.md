@@ -2,7 +2,7 @@
 status: PROPOSED
 system: PRIM3 omniscient command / data-fusion tactical interface
 version: 0.1.0
-source_inspiration: Seek-First God's Eye View data-layer philosophy + PRIM3 XCOM mechanics
+source_inspiration: Hitman's Halo data-layer philosophy + PRIM3 XCOM mechanics
 ---
 
 # PRIM3 Omniscient Command Interface

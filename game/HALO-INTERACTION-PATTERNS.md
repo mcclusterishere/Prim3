@@ -1,19 +1,19 @@
 ---
 status: CANON
-system: Verified Seek-First / God's Eye View interaction patterns adopted into PRIM3
+system: Verified Hitman's Halo interaction patterns adopted into PRIM3
 version: 1.0.0
-source_basis: mcclusterishere/Seek-First README and implementation architecture
+source_basis: mcclusterishere/hitmans-halo README and implementation architecture
 ---
 
-# GEV Interaction Patterns Adopted into PRIM3
+# HALO Interaction Patterns Adopted into PRIM3
 
-This document translates interaction patterns verified in the connected `Seek-First / God's Eye View` repository into the fictional PRIM3 tactical command interface.
+This document translates interaction patterns verified in the connected `Hitman's Halo` repository into the fictional PRIM3 tactical command interface.
 
 It does **not** make the campaign dependent on live-world data. PRIM3 missions remain authored/simulated.
 
 ## 1. Contact roster -> Tactical Contacts
 
-GEV can maintain a nearby-contact roster and let the operator jump among tracked entities.
+HALO can maintain a nearby-contact roster and let the operator jump among tracked entities.
 
 PRIM3 adopts this as a contextual **TACTICAL CONTACTS** rail containing only entities the team has actually Detected/Corroborated/Verified:
 - squad members;
@@ -40,7 +40,7 @@ Tracking does not create new information; it makes already-earned updates easier
 
 ## 3. Detection overlay -> Confidence overlay
 
-GEV's visual detection treatment becomes a PRIM3 **confidence-aware detection overlay**.
+HALO's visual detection treatment becomes a PRIM3 **confidence-aware detection overlay**.
 
 Visual language must distinguish:
 - Detected;
@@ -121,7 +121,7 @@ The readout must include uncertainty when uncertainty matters.
 
 ## 9. Share links / serialized view -> Debrief State Links
 
-GEV can preserve view/layer/target state in a shareable handoff. PRIM3 adopts this primarily for replay/debrief:
+HALO can preserve view/layer/target state in a shareable handoff. PRIM3 adopts this primarily for replay/debrief:
 
 A debrief link/bookmark may encode:
 - mission + round/event timestamp;
@@ -148,7 +148,7 @@ This creates cinematic payoff from the player's actual decisions rather than rep
 
 ## 11. Modular layers -> Mission-specific layer manifests
 
-GEV treats data sources/layers as modules. PRIM3 adopts the same modular architecture.
+HALO treats data sources/layers as modules. PRIM3 adopts the same modular architecture.
 
 Each mission YAML should declare:
 - available layer modules;

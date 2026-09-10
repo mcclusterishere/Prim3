@@ -1,6 +1,6 @@
 ---
 status: CANON
-system: Post-game Prime entitlement / real-world GEV companion
+system: Post-game Prime entitlement / real-world HALO companion
 version: 1.0.0
 review_date: 2026-09-10
 ---
@@ -9,7 +9,7 @@ review_date: 2026-09-10
 
 ## Product law
 
-Completing PRIM3's succession arc may unlock an authenticated real-world companion built from the separately hosted `Seek-First / God's Eye View` system.
+Completing PRIM3's succession arc may unlock an authenticated real-world companion built from the separately hosted `Hitman's Halo` system.
 
 The narrative/product fantasy is:
 
@@ -26,7 +26,7 @@ prime_status = ASCENDED
 gev_access = true
 ```
 
-The entitlement is associated with an authenticated account and verified by the backend on every protected GEV session.
+The entitlement is associated with an authenticated account and verified by the backend on every protected HALO session.
 
 Do not treat a client-side completion flag, localStorage value, hidden URL or game save file as sufficient authorization.
 
@@ -36,7 +36,7 @@ Do not treat a client-side completion flag, localStorage value, hidden URL or ga
 May receive private access before the public game launches for development, testing and real-world operational use consistent with public-source/provider terms.
 
 ### PRIME / ASCENDED PLAYER
-Receives the consumer real-world GEV workspace only after the required completion/mastery condition is satisfied.
+Receives the consumer real-world HALO workspace only after the required completion/mastery condition is satisfied.
 
 ### NON-PRIME PLAYER
 May see locked previews, fictional/simulated mission layers and explanation of what Prime access means, but does not receive the protected real-world workspace.
@@ -80,17 +80,17 @@ PRIM3 ACCOUNT
   -> succession completion event
   -> entitlement service
   -> PRIME_ACCESS claim
-  -> authenticated GEV gateway
-  -> hosted GEV UI
+  -> authenticated HALO gateway
+  -> hosted HALO UI
   -> server-side provider/proxy services
 ```
 
-The GEV application should verify a short-lived server-issued session/entitlement token rather than querying game save state directly.
+The HALO application should verify a short-lived server-issued session/entitlement token rather than querying game save state directly.
 
 ## Release sequence
 
-1. Owner/admin private hosted GEV.
+1. Owner/admin private hosted HALO.
 2. PRIM3 game uses authored earned-omniscience interface.
 3. Shared identity/entitlement backend connects campaign completion to access.
-4. Prime-only GEV beta.
+4. Prime-only HALO beta.
 5. Broader post-game release with quotas, observability, abuse controls and provider-term review.
