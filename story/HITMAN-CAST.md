@@ -1,152 +1,203 @@
 ---
-status: PROPOSED
+status: CANON
 system: Hitman core cast personalization
-version: 1.1.0
+version: 2.0.0
 branch: main
 ---
 
 # Hitman — core cast
 
-Hitman is the street/corporate sibling system operating under Prime's hidden dual architecture. These characters should never read like “Prim3 employees wearing different clothes.” Their expertise is social reach, deniable logistics, money, access, reputation, mobility and coercive pressure rather than institutional IT doctrine.
+Hitman is the street/corporate sibling system operating beneath the hidden authority of **PRIM2** during the immediate PRIM3 chronology.
 
-Root `CANON.md` and `story/PRIME-LORE.md` still win. These identities are proposed characterization.
+These characters should never read like PRIM/McCluster employees wearing different clothes. Their expertise is social reach, deniable logistics, money, access, reputation, mobility, coercive pressure and street/corporate relationship systems rather than formal institutional IT doctrine.
 
-## Benji — initiate → sovereign
+## Continuity correction — Benji
 
-**Background:** Benji grows up understanding that institutions usually arrive after the important decision has already been made. He learns people, cars, favors, debt and neighborhood reputation before he learns corporate language. Hitman-side work initially looks to him like the first machine that rewards the instincts he already has.
+**Benji is Jordan Vale.**
 
-**Wants:** enough ownership that nobody can casually remove him from his own life.  
-**Fears:** becoming the kind of operator who confuses control with security.  
-**Contradiction:** hates being controlled but is naturally gifted at building systems that control other people.  
-**Arc:** rises through his own field relationships and operations without personal access to Royce. He repeatedly sees the same dangerous stranger—Royce—on distant battlefields and near-miss operations but never speaks to him until `Evil Twin`. Prime understands both men's trajectories long before either understands the other's place on the board.
+Benji is Jordan's age-19-to-26 Hitman identity from the prequel chronology. There is no separate contemporary Benji rising through Hitman during PRIM3.
 
-## Royce — senior Hitman-side sovereign / battlefield operator
+At approximately age 26:
+- Bigga Lex the Jet retires;
+- Lex offers succession to Benji/Jordan;
+- Jordan refuses;
+- Jordan passes the opportunity toward rival **Royce**;
+- Royce becomes the post-Benji Hitman-side successor/sovereign.
 
-**Background:** Royce is an experienced visible sovereign in the Hitman-side world, but **he is not Benji's mentor, uncle, sponsor or old head**. Benji and Royce do not know each other personally before `Evil Twin`. Their only history is repeated battlefield recognition: brief sightlines, weapons danger, near misses, vehicles crossing routes, one team entering as the other exits, and the recurring feeling that the same unknown operator keeps appearing around impossible jobs.
+Therefore any older Hitman material describing `Benji` as a separate present-day operator, claiming Jordan and Royce lack personal history, or claiming their first conversation occurs in `Evil Twin` is superseded.
 
-**Wants:** to preserve control of the system he understands without becoming someone else's disposable field piece.  
-**Fears:** learning that the conflicts he thought he chose were arranged above him.  
-**Contradiction:** projects certainty in combat while knowing how often survival depends on information he cannot see.  
-**Relationship to Benji:** none before S7E2 beyond battlefield recognition. `Evil Twin` is their first conversation and the first time either learns Prime deliberately shaped several of their convergences and separations.
+---
+
+## Royce — Hitman successor / sovereign
+
+**Background:** Royce is seven years younger than Jordan. When Jordan/Benji is approximately 26 and walking away from Hitman, Royce is approximately 19: young, dangerous, ambitious and willing to take a chair Jordan does not want.
+
+Jordan already knows Royce well enough to believe Royce might kill him for power. Jordan nevertheless refuses the succession and allows the opportunity to move toward Royce partly because Jordan's deeper loyalty is to Bigga Lex rather than the organization itself.
+
+That choice becomes one of Jordan's moral debts.
+
+**Wants:** authority he can feel and exercise directly; recognition that he took seriously what older men were willing to abandon.  
+**Fears:** being treated forever as the kid who received somebody else's discarded crown.  
+**Contradiction:** wants to prove he earned the chair while building much of his identity around possessing it.  
+**Relationship to Jordan:** old rival, inherited-successor relationship, unresolved mutual contempt/respect. Royce is a living counterfactual of the path Jordan refused.  
+**PRIM3 endpoint:** survives the Hitman-side RAID element, nearly kills Jordan, temporarily allies with him against PRIM2, and helps defeat the presiding Mantle holder.
+
+Royce must have enough independent story that he can own Hitman-side episodes without Jordan appearing.
+
+---
 
 ## Sable Quinn — operations and money
 
-**Background:** Sable learned finance through businesses where the books never matched the story being told publicly. She is less interested in street mythology than cash movement, obligations, staffing and who can actually deliver. Her office is where swagger becomes numbers.
+**Background:** Sable learned finance in businesses where public stories and actual books rarely matched. She is less interested in street mythology than staffing, obligations, cash pressure, contracts, ownership and whether an organization can survive its leader's ego.
 
-**Wants:** an organization too disciplined to be destroyed by ego.  
-**Fears:** betting on the wrong sovereign and losing everything she built behind the throne.  
+**Wants:** a system disciplined enough not to be destroyed by whoever sits in the chair.  
+**Fears:** betting her life's work on a sovereign who mistakes fear for loyalty.  
 **Contradiction:** outwardly transactional, privately more loyal than she wants anyone to know.  
-**Relationship:** she becomes one of the first senior Hitman-side figures to take Benji seriously as a systems-builder rather than merely a useful field operator.
+**Relationship to Royce:** indispensable but never worshipful. She understands that Royce's appetite for authority can make him both decisive and financially irrational.  
+**Historical Jordan layer:** Sable knows the chair did not originate with Royce and possesses fragments of the old Benji-era financial history, but she is not automatically a full keeper of Jordan's secrets.
 
-## Grant Voss — sponsor / money-board mark
+---
 
-**Background:** Grant lives in the respectable world where risky work gets translated into “problems,” “exposure,” “reputation” and “special handling.” He believes distance from the act makes him different from the people who perform it. Evil Twin is designed to destroy that illusion.
+## Grant Voss — sponsor / respectable-money board
+
+**Background:** Grant lives in the respectable world where risky work becomes “exposure,” “special handling,” “reputation” and “strategic need.” He believes distance from an act creates moral distance from its consequences.
 
 **Wants:** influence without visible liability.  
-**Fears:** being personally traceable to the machinery he funds.  
-**Contradiction:** demands loyalty from people he considers disposable.  
-**Relationship:** he thinks he is a client. Prime treats him as an instrument and eventually a lesson.
+**Fears:** becoming personally traceable to the machinery he funds.  
+**Contradiction:** demands loyalty from people he quietly regards as disposable.  
+**Relationship:** believes money makes him a client; PRIM2 treats money as another instrument on the board.
 
-## Tone Rivera — block control
+---
 
-**Background:** Tone became valuable because people listen when he tells a room to settle down. He is physically capable, but his real skill is preventing conflicts from becoming chaotic before the crew is ready. The organization calls that muscle; Tone understands it as crowd management.
+## Tone Rivera — block/control operator
+
+**Background:** Tone became valuable because people listen when he tells a room to settle down. He is physically capable, but his deeper skill is preventing conflict from becoming uncontrolled before the organization is ready.
 
 **Wants:** respect that does not require constant performance.  
-**Fears:** losing status and discovering people only feared him.  
+**Fears:** discovering people only obeyed because they feared him.  
 **Contradiction:** looks like the quickest person to escalate and is often the person quietly preventing escalation.  
-**Relationship:** he becomes a skeptical mentor to Dez and one of the operators most resistant to opaque orders from above.
+**Relationship:** skeptical mentor to Dez; resistant to opaque orders that ask him to absorb consequences without context.
+
+---
 
 ## Kira “Keys” Moon — access / social gate
 
-**Background:** Kira learned early that the person with the guest list, spare key, ride, introduction or phone number often has more practical power than the loudest person in the room. She collects social access the way other people collect hardware.
+**Background:** Kira learned that the person with the introduction, ride, key, guest list, spare phone number or social invitation can hold more practical power than the loudest person in the room.
 
-**Wants:** to never again wait outside a room where her future is being decided.  
-**Fears:** being valuable only because of who she can reach.  
+**Wants:** never again to wait outside a room where her future is being decided.  
+**Fears:** being valued only for who she can reach.  
 **Contradiction:** knows everybody, trusts almost nobody.  
-**Relationship:** she spots Rae's talent for social entry before Rae sees it as a discipline.
+**Relationship:** recognizes Rae's social-entry talent before Rae understands it as an operational discipline.
 
-## Omar “Rack” Dillon — gear / stash / logistics
+---
 
-**Background:** Rack's genius is boring reliability. He remembers who has what, what is missing, what was promised and which shortage will become tomorrow's crisis. He looks like a background operator until an entire crew realizes nothing moves without him.
+## Omar “Rack” Dillon — gear / logistics
 
-**Wants:** ownership in the infrastructure he built for other people.  
-**Fears:** being blamed for a failure created by somebody else's bad decision.  
-**Contradiction:** complains constantly while being the person most likely to stay late and fix the problem.  
-**Relationship:** Sable values him because he is one of the few people whose numbers she rarely has to verify twice.
+**Background:** Rack's genius is boring reliability. He remembers what exists, what is missing, who has it, what was promised and which small shortage becomes tomorrow's emergency.
 
-## Jules “Kiosk” Mendez — deniable tech
+**Wants:** ownership in infrastructure he built for everybody else.  
+**Fears:** being blamed for a failure created by someone else's decision.  
+**Contradiction:** complains constantly while being the person most likely to stay and finish the work.  
+**Relationship:** Sable values him because his numbers and physical inventory usually agree.
 
-**Background:** Jules spent years being underestimated because his work happened in repair counters, back rooms and ordinary storefronts rather than prestigious labs. He learns that people hand enormous trust to whoever appears to be “just fixing the phone.” Hitman sees the social position before Jules fully understands its strategic value.
+---
 
-**Wants:** to be paid like the systems expert he actually is.  
-**Fears:** becoming known enough that deniability disappears.  
-**Contradiction:** craves recognition while building a career around appearing forgettable.  
-**Relationship:** Rae trusts him because he never acts impressed by her; Benji trusts him because Jules can explain technology without pretending it is magic.
+## Jules “Kiosk” Mendez — deniable technology
+
+**Background:** Jules spent years being underestimated because his technology work happened in repair counters, storefronts and back rooms rather than prestigious labs.
+
+**Wants:** to be paid and respected like the systems expert he is.  
+**Fears:** becoming visible enough that the low-profile life enabling his usefulness disappears.  
+**Contradiction:** craves recognition while benefiting from appearing ordinary.  
+**Relationship:** Rae trusts him because he rarely performs awe; Hitman values him because he can translate technology into human terms.
+
+---
 
 ## Rae “Twin” Colton — street social-entry asset
 
-**Background:** Rae learned social engineering before anybody used the phrase around her. She understands attention, attraction, embarrassment, vanity and the tiny decisions people make because they want to appear normal. Prime's dual architecture turns that intuitive talent into something more organized than she realizes.
+**Background:** Rae learned social engineering before anybody around her used the term. She understands attention, attraction, embarrassment, vanity and the tiny decisions people make because they want to appear normal.
 
-**Wants:** autonomy over an ability other people keep trying to monetize.  
-**Fears:** that nobody in her life likes her without being influenced by her.  
+**Wants:** autonomy over an ability everybody wants to monetize.  
+**Fears:** that nobody likes her without being influenced by her.  
 **Contradiction:** excellent at manufacturing trust, starving for trust she did not manufacture.  
-**Relationship:** Evil Twin makes her the unseen sibling of Sora's elite-access operation even though neither woman knows the other is serving the same design.
+**Relationship:** becomes the unknown street-side twin of Sora's elite-access work under PRIM2's dual architecture.
 
-## Chris “Perch” Alvarez — overwatch
+---
 
-**Background:** Chris earned the nickname because he is happiest where he can see the whole environment without being the center of it. He grew up watching how quickly street situations change when one unfamiliar car, face or silence enters the scene. His talent is context.
+## Chris “Perch” Alvarez — overwatch / context
 
-**Wants:** to keep the crew alive without becoming famous for doing it.  
-**Fears:** one day recognizing the warning sign only after somebody is gone.  
+**Background:** Chris is happiest where he can see the environment without being its center. He reads small changes—an unfamiliar vehicle, missing routine, new face, silence where noise belongs.
+
+**Wants:** to keep people alive without becoming famous for it.  
+**Fears:** recognizing the warning only after someone is gone.  
 **Contradiction:** avoids attention but hates being ignored when he speaks.  
-**Relationship:** Tone is the person who most often acts on his warnings without demanding a performance first.
+**Relationship:** Tone is one of the few people who acts on his warnings without demanding a performance first.
 
-## Dez “Switch” Calhoun — active crew
+---
 
-**Background:** Dez adapts fast. He can move between roles, people and environments without looking lost, which makes older operators call him talented and makes Benji see a future lieutenant. His weakness is that adaptation can become lack of identity.
+## Dez “Switch” Calhoun — adaptive younger operator
 
-**Wants:** to become necessary enough that no one can replace him.  
+**Background:** Dez adapts fast across roles, people and environments. Older operators call that talent; the danger is that adaptation can become lack of identity.
+
+**Wants:** to become necessary enough that nobody can replace him.  
 **Fears:** discovering he has spent years becoming whatever the room required and no longer knows what he wanted.  
-**Contradiction:** flexible in tactics, stubborn in personal loyalty.  
-**Relationship:** Benji sees him as proof that a new generation of Hitman can be built differently; Sable sees him as a risk because his loyalty is to people before structure.
+**Contradiction:** tactically flexible, personally stubborn in loyalty.  
+**Relationship to Royce:** admires decisive leadership but becomes increasingly uncomfortable when loyalty is treated as ownership.  
+**Historical Benji echo:** older Hitman stories about Benji/Jordan can become mythology Dez hears without knowing the entire person behind them.
+
+---
 
 ## Mina “Halo” Brooks — cell lead
 
-**Background:** Mina runs a small Hitman cell with a reputation for bringing people home. The halo nickname began as a joke and became uncomfortable when younger operators started treating her like protection itself. She knows leadership is mostly the art of making frightened people believe the next decision is still possible.
+**Background:** Mina leads a small cell with a reputation for bringing people home. The nickname began as a joke and becomes uncomfortable when younger operators start treating her like protection itself.
 
 **Wants:** to lead without becoming worshipped.  
 **Fears:** surviving enough missions that she starts believing survival proves she was right.  
-**Contradiction:** projects certainty while constantly revisiting decisions afterward.  
-**Relationship:** she recognizes Benji's command instinct through his work, independently of Royce, and becomes one of the people whose allegiance matters as Benji rises.
+**Contradiction:** projects certainty while privately re-litigating decisions afterward.  
+**Relationship to Royce:** respects decisiveness but is more loyal to the survival of her people than to a sovereign's ego.
+
+---
 
 ## Sora “Gymnast” Okada — elite social-entry asset
 
-**Background:** Sora's public life is polished: elite education, athletic discipline, excellent manners, the ability to exist comfortably in donor rooms, political lunches and expensive spaces. McCluster can place her where Rae could never enter without attracting the wrong kind of attention. Sora believes she is supporting a legitimate high-level McCluster objective and has no idea a street-side sibling operation is running in parallel.
+**Background:** Sora's public life is polished: elite education, athletic discipline, excellent manners and comfort in donor, political and high-status environments. She can enter rooms where a street-facing operator would attract the wrong attention.
 
-**Wants:** to use access rather than be used as decoration inside powerful rooms.  
-**Fears:** discovering every achievement she is proud of was simply useful camouflage to someone above her.  
+**Wants:** to use elite access rather than be used as decoration.  
+**Fears:** discovering achievements she is proud of were only useful camouflage to somebody above her.  
 **Contradiction:** looks effortless because she trains obsessively.  
-**Relationship:** Priya Srisawat treats her as a high-value public-facing contractor; Rae is her unknown operational twin under Prime.
+**Relationship:** Priya treats her as a high-value public-facing contractor; Rae is her unknown operational twin beneath PRIM2's separated architecture.
 
-## Maren Quill — McCluster smile floor
+---
 
-**Background:** Maren is the person who can make an intimidating institution feel reasonable in a meeting, on a stage or in a recruiting room. She is not naïve; she simply believes public narrative is a necessary operational layer. Over time she becomes increasingly troubled by how often she is asked to make something feel ordinary before she is allowed to know what actually happened.
+## Maren Quill — McCluster public surface
 
-**Wants:** to be the person who keeps McCluster answerable to the public world.  
-**Fears:** realizing her real job is not communication but emotional containment.  
+Maren is primarily a McCluster/PRIM-side recurring character rather than a Hitman operator, but appears here because her public-communications work intersects respectable Hitman-side money and the dual architecture.
+
+**Wants:** communication to keep McCluster answerable to the public world.  
+**Fears:** realizing her real job is emotional containment.  
 **Contradiction:** professionally optimistic, privately suspicious.  
-**Relationship:** Priya is her creative partner; Grant Voss is the kind of respectable power she gradually learns to distrust.
+**Relationship:** Priya is her creative partner; Grant Voss is the kind of respectable power she increasingly distrusts.
 
-# Hitman relationship pressure map
+---
 
-- **Benji ↔ Royce:** repeated battlefield recognition without personal history; first conversation in `Evil Twin`; neither owes the other loyalty, mentorship, gratitude or debt.
-- **Benji ↔ Sable:** ambition only becomes power once Sable believes the numbers can survive it.
-- **Benji ↔ Mina:** she can legitimize him with crews through what she has observed directly, not through Royce.
-- **Rae ↔ Jules:** social access plus technical access, held together by genuine friendship rather than hierarchy.
-- **Rae ↔ Sora:** the “evil twins” who do not know one another; same apex, different social worlds.
-- **Grant ↔ Prime:** Grant thinks money gives him client status; Prime knows money merely gives him a place on the board.
-- **Dez ↔ Benji:** tests whether Benji can build loyalty without turning it into ownership.
+# Relationship pressure map
+
+- **Jordan/Benji ↔ Royce:** real pre-PRIM3 rivalry and succession history; Jordan refuses the chair Royce takes; they later converge again at Site 0.
+- **Royce ↔ Sable:** authority versus organizational reality; Sable can tell Royce what his mythology cannot afford.
+- **Royce ↔ Mina:** sovereign authority versus cell-level responsibility to living people.
+- **Royce ↔ Dez:** tests whether loyalty can remain voluntary under a leader hungry for control.
+- **Rae ↔ Jules:** social access plus technical access held together by genuine friendship rather than hierarchy.
+- **Rae ↔ Sora:** unknown operational twins; same hidden apex, different social worlds.
+- **Grant ↔ PRIM2:** Grant thinks money gives him client status; PRIM2 knows it only gives him a position on the board.
+
+# Episode-ownership rule
+
+Hitman characters can own full PRIM3 episodes or substantial sections without Jordan appearing.
+
+Royce especially must become understandable as a person before the audience reaches RAID. His history with Jordan should arrive in controlled fragments so the later Hitman/Benji prequel still retains major revelations.
 
 # Writing rule
 
-Hitman characters should have ordinary desires outside operations: money for a parent, a car they are rebuilding, custody schedules, a storefront, an art habit, a partner who hates the work, a neighborhood they refuse to leave. Criminal mythology alone is not characterization.
+Hitman characters need ordinary desires beyond operations: money for family, custody schedules, a storefront, rebuilding a car, art, partners who hate the work, neighborhoods they refuse to leave, ambitions that have nothing to do with violence.
+
+Criminal mythology alone is not characterization.
