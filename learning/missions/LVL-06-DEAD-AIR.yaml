@@ -1,0 +1,737 @@
+status: CANON-DERIVED
+system: mission-lab-instance
+version: 1.0.0
+mission:
+  id: dead-air
+  level_id: LVL-06
+  episode_id: S02E03
+  song_slug: got-wifi
+  title: DEAD AIR
+  canon_status: DRAFT-IMPLEMENTATION-AUTHORITY
+  design_intent: >-
+    Demonstrate that wireless concepts become tactical map state: Field-R maps signal and
+    confidence, Field-E physically creates a safe relay position under weather/contact,
+    and Field-T restores authenticated usable service. Shooting can buy time but can also
+    damage power/backhaul and worsen the communications problem.
+
+  concept_set:
+    primary:
+      - wireless.rogue-access-point
+      - wireless.rf
+      - wireless.spectrum
+      - wireless.wips
+      - wireless.wpa3
+      - crypto.encryption
+      - crypto.aes
+      - network.osi-layer-1
+      - network.osi-layer-2
+      - wireless.access-point
+    secondary:
+      - wireless.evil-twin
+      - wireless.frequency-agility
+      - network.frame
+      - network.packet
+      - security.patch-management
+      - wireless.shielding
+      - wireless.jamming
+    transfer:
+      - safety.fail-safe-state
+      - safety.human-override
+      - evidence.confidence-level
+      - network.segmentation
+
+  operational_objectives:
+    - objective_id: OBJ-P1-RESPONDER-CHANNEL
+      type: primary
+      description: Restore one authenticated, usable responder communications path.
+      weight: 0.40
+      completion_predicate: responder_channel == VERIFIED and authenticated_service == true
+      partial_predicate: responder_channel in [COMMITTED, DEGRADED] and coverage_percent >= 50
+      failure_predicate: responder_channel == NONE and window_clock == 0
+      writes_state: [response_communications_quality]
+    - objective_id: OBJ-P2-SAFE-RELAY
+      type: primary
+      description: Establish and hold a physically safe relay/backhaul position long enough to validate service.
+      weight: 0.20
+      completion_predicate: relay_zone_control == SECURE and relay_power in [NORMAL, BACKUP_STABLE]
+      partial_predicate: relay_zone_control == CONTESTED and relay_power != OFFLINE
+      failure_predicate: relay_power == OFFLINE and no alternate_relay_available
+      writes_state: [relay_integrity]
+    - objective_id: OBJ-S1-PUBLIC-CHECKIN
+      type: secondary
+      description: Preserve limited public check-in connectivity without stealing responder capacity.
+      weight: 0.10
+      completion_predicate: public_checkin_service >= 40 and responder_channel == VERIFIED
+      partial_predicate: public_checkin_service > 0
+      failure_predicate: public_checkin_service == 0
+      writes_state: [public_connectivity]
+    - objective_id: OBJ-S2-TELEMETRY
+      type: secondary
+      description: Preserve enough spectrum/service telemetry to explain the failure after the incident.
+      weight: 0.10
+      completion_predicate: telemetry_integrity >= 2
+      partial_predicate: telemetry_integrity == 1
+      failure_predicate: telemetry_integrity == 0
+      writes_state: [wireless_after_action_quality]
+    - objective_id: OBJ-C1-SAFETY
+      type: compliance
+      description: Do not send operators into electrically or structurally unsafe areas merely to chase signal strength.
+      weight: 0.20
+      completion_predicate: unsafe_entry_count == 0
+      partial_predicate: unsafe_entry_count == 1 and emergency_justified == true
+      failure_predicate: unsafe_entry_count >= 2
+      writes_state: [team_safety_judgment]
+
+  learning_objectives:
+    - learning_id: LO-WIFI-01
+      concept_id: wireless.rf
+      depth: recognize
+      role: R
+      evidence_predicate: R maps at least one strong-signal zone and one low-signal/dead zone accurately
+      mastery_weight: 8
+    - learning_id: LO-WIFI-02
+      concept_id: wireless.rogue-access-point
+      depth: apply
+      role: R
+      evidence_predicate: R identifies the unapproved source using inventory plus observed characteristics rather than signal strength alone
+      mastery_weight: 10
+    - learning_id: LO-WIFI-03
+      concept_id: evidence.confidence-level
+      depth: transfer
+      role: R
+      evidence_predicate: R marks unknown source as likely/suspect until independent evidence confirms it
+      mastery_weight: 8
+    - learning_id: LO-WIFI-04
+      concept_id: network.osi-layer-1
+      depth: interpret
+      role: T
+      evidence_predicate: player recognizes that physical RF/power/backhaul conditions can fail before higher-layer service is considered
+      mastery_weight: 10
+    - learning_id: LO-WIFI-05
+      concept_id: network.osi-layer-2
+      depth: interpret
+      role: T
+      evidence_predicate: player distinguishes radio presence from local link/service state in the abstracted dashboard
+      mastery_weight: 10
+    - learning_id: LO-WIFI-06
+      concept_id: wireless.wpa3
+      depth: apply
+      role: T
+      evidence_predicate: T selects the approved authenticated service profile rather than open/unknown shortcut
+      mastery_weight: 10
+    - learning_id: LO-WIFI-07
+      concept_id: crypto.aes
+      depth: interpret
+      role: T
+      evidence_predicate: player understands encryption is one property of the trusted service and not proof that source/backhaul/power is correct
+      mastery_weight: 8
+    - learning_id: LO-WIFI-08
+      concept_id: safety.fail-safe-state
+      depth: transfer
+      role: E
+      evidence_predicate: E selects a safe relay position and manually stabilizes power/physical access before T commits configuration
+      mastery_weight: 10
+    - learning_id: LO-WIFI-09
+      concept_id: wireless.wips
+      depth: apply
+      role: shared
+      evidence_predicate: suspicious wireless source is identified/isolated through defensive monitoring and authorized response
+      mastery_weight: 8
+    - learning_id: LO-WIFI-10
+      concept_id: wireless.access-point
+      depth: transfer
+      role: shared
+      evidence_predicate: player restores usable service by treating AP, power, backhaul, authentication, and coverage as separate dependencies
+      mastery_weight: 18
+
+  map:
+    dimensions: {width_tiles: 20, height_tiles: 16}
+    zones:
+      - zone_id: Z-STAGING
+        name: Responder Staging Area
+        initial_control: SECURE
+        cover_profile: mixed
+        hazards: [crowd_congestion]
+        connected_zones: [Z-LOBBY, Z-COURTYARD]
+      - zone_id: Z-LOBBY
+        name: Public Lobby / Check-In
+        initial_control: CONTESTED
+        cover_profile: mixed
+        hazards: [crowd_pressure, damaged_lighting]
+        connected_zones: [Z-STAGING, Z-CORRIDOR]
+      - zone_id: Z-CORRIDOR
+        name: Service Corridor
+        initial_control: NEUTRAL
+        cover_profile: high
+        hazards: [water_intrusion]
+        connected_zones: [Z-LOBBY, Z-RELAY, Z-POWER]
+      - zone_id: Z-RELAY
+        name: Protected Relay Room
+        initial_control: NEUTRAL
+        cover_profile: low
+        hazards: [equipment_fragility]
+        connected_zones: [Z-CORRIDOR, Z-ROOF]
+      - zone_id: Z-POWER
+        name: Backup Power Alcove
+        initial_control: NEUTRAL
+        cover_profile: high
+        hazards: [electrical_hazard]
+        connected_zones: [Z-CORRIDOR, Z-COURTYARD]
+      - zone_id: Z-ROOF
+        name: Rooftop / High Relay Position
+        initial_control: LOST
+        cover_profile: low
+        hazards: [weather_exposure, structural_risk]
+        connected_zones: [Z-RELAY]
+      - zone_id: Z-COURTYARD
+        name: Exterior Courtyard / Alternate Route
+        initial_control: CONTESTED
+        cover_profile: mixed
+        hazards: [wind_debris, poor_visibility]
+        connected_zones: [Z-STAGING, Z-POWER]
+
+  clocks:
+    approach: 5
+    window: 8
+    extract_clean: 5
+    extract_hot: 3
+
+  global_state:
+    detection: {min: 0, max: 10, start: 1}
+    picture: UNCERTAIN
+    responder_channel: NONE
+    authenticated_service: false
+    coverage_percent: 18
+    public_checkin_service: 15
+    relay_power: BACKUP_UNSTABLE
+    backhaul_state: UNKNOWN
+    telemetry_integrity: 2
+    weather_severity: HIGH
+    unsafe_entry_count: 0
+
+  squad:
+    - unit_id: R-QUILL
+      role: R
+      start_zone: Z-STAGING
+      hp: 5
+      ap_per_phase: 2
+      movement: 6
+      aim: 70
+      will: 8
+      role_stat: {name: Picture, value: 7}
+      loadout_tags: [mobile_perimeter, spectrum_sensor]
+    - unit_id: E-VOSS
+      role: E
+      start_zone: Z-LOBBY
+      hp: 7
+      ap_per_phase: 2
+      movement: 5
+      aim: 65
+      will: 7
+      role_stat: {name: Hold, value: 7}
+      loadout_tags: [technical_escort, hold_protect]
+    - unit_id: T-RANE
+      role: T
+      start_zone: Z-STAGING
+      hp: 5
+      ap_per_phase: 2
+      movement: 4
+      aim: 55
+      will: 6
+      role_stat: {name: Tech, value: 7}
+      loadout_tags: [live_network, trusted_wireless_profile]
+
+  role_resources:
+    evidence_tokens:
+      - token_id: EV-APPROVED-AP
+        producer_role: R
+        fact_established: One observed source matches the approved inventory/location identity.
+        expiry: mission
+        mechanical_effect: T trusted-source classification removes one decoy and can progress without extra validation stage.
+      - token_id: EV-ROGUE-SOURCE
+        producer_role: R
+        fact_established: An overlapping source is not present in approved inventory and conflicts with expected location/state.
+        expiry: mission
+        mechanical_effect: T may isolate the suspicious source path in defensive abstracted controls.
+      - token_id: EV-SAFE-RELAY-POSITION
+        producer_role: E
+        fact_established: Relay room physical state is safe enough for technical work this round.
+        expiry: round
+        mechanical_effect: T may begin anchored configuration/verification without safety penalty.
+      - token_id: EV-BACKHAUL-PHYSICAL
+        producer_role: E
+        fact_established: Physical backhaul path from relay room is intact/available.
+        expiry: mission
+        mechanical_effect: T Trace Backhaul reveals correct logical edge.
+      - token_id: EV-RESPONDER-TEST
+        producer_role: R
+        fact_established: A responder device independently confirms successful authenticated service.
+        expiry: mission
+        mechanical_effect: satisfies independent verification source for responder channel.
+
+  lab_nodes:
+    - id: LAB-R-SPECTRUM
+      world_object: Spectrum / Coverage Overlay
+      zone: Z-STAGING
+      owner_role: R
+      concept_ids: [wireless.rf, wireless.spectrum, wireless.rogue-access-point, wireless.wips, evidence.confidence-level]
+      initial_state: OBSERVED
+      terminal_states: [SEALED, INCONCLUSIVE]
+      task_graph:
+        - step_id: R-SP-01-MAP
+          atom: MAP
+          role: R
+          ap_cost: 1
+          window_cost: 0
+          requires_control: none
+          requires_picture: none
+          requires_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          success_to: CHARACTERIZED
+          success_deltas: [coverage_map_revealed, picture UNCERTAIN->PARTIAL]
+          misapplication_to: INCONCLUSIVE
+          misapplication_deltas: [one_dead_zone_mislabeled]
+          recovery_step_ids: [R-SP-01-MAP]
+        - step_id: R-SP-02-APPROVED
+          atom: COMPARE
+          role: R
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: []
+          produces_tokens: [EV-APPROVED-AP]
+          anchors_operator: false
+          fragile: false
+          success_to: CHARACTERIZED
+          success_deltas: [approved_source_confidence confirmed]
+          misapplication_to: CHARACTERIZED
+          misapplication_deltas: [approved_source_confidence likely]
+          recovery_step_ids: [R-SP-02-APPROVED]
+        - step_id: R-SP-03-ROGUE
+          atom: CLASSIFY
+          role: R
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: [EV-APPROVED-AP]
+          produces_tokens: [EV-ROGUE-SOURCE]
+          anchors_operator: false
+          fragile: false
+          success_to: VALIDATION_PENDING
+          success_deltas: [rogue_source_confidence likely]
+          misapplication_to: INCONCLUSIVE
+          misapplication_deltas: [false_positive_risk +1, window_clock -1 if acted_on]
+          recovery_step_ids: [R-SP-04-VALIDATE]
+        - step_id: R-SP-04-VALIDATE
+          atom: VERIFY
+          role: R
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: [EV-ROGUE-SOURCE]
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          success_to: SEALED
+          success_deltas: [rogue_source_confidence confirmed, picture PARTIAL->CLEAR]
+          misapplication_to: INCONCLUSIVE
+          misapplication_deltas: [rogue_source_confidence likely]
+          recovery_step_ids: [R-SP-04-VALIDATE]
+        - step_id: R-SP-05-RESPONDER-TEST
+          atom: VERIFY
+          role: R
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: []
+          produces_tokens: [EV-RESPONDER-TEST]
+          anchors_operator: false
+          fragile: false
+          success_to: SEALED
+          success_deltas: [authenticated_external_test available]
+          misapplication_to: VALIDATION_PENDING
+          misapplication_deltas: []
+          recovery_step_ids: [R-SP-05-RESPONDER-TEST]
+
+    - id: LAB-E-RELAY-SAFETY
+      world_object: Relay Room / Backup Power / Safe Route
+      zone: Z-CORRIDOR
+      owner_role: E
+      concept_ids: [safety.fail-safe-state, safety.human-override, wireless.access-point]
+      initial_state: OBSERVED
+      terminal_states: [STABILIZED, DEGRADED]
+      task_graph:
+        - step_id: E-RS-01-ROUTE
+          atom: ROUTE
+          role: E
+          ap_cost: 1
+          window_cost: 0
+          requires_control: none
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          success_to: CHARACTERIZED
+          success_deltas: [safe_corridor_path selected]
+          misapplication_to: DEGRADED
+          misapplication_deltas: [unsafe_entry_count +1]
+          recovery_step_ids: [E-RS-01-ROUTE]
+        - step_id: E-RS-02-POWER-CHECK
+          atom: OBSERVE
+          role: E
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: none
+          requires_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          success_to: CHARACTERIZED
+          success_deltas: [relay_power_state visible]
+          misapplication_to: CHARACTERIZED
+          misapplication_deltas: []
+          recovery_step_ids: [E-RS-02-POWER-CHECK]
+        - step_id: E-RS-03-STABILIZE
+          atom: STABILIZE
+          role: E
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: none
+          requires_tokens: []
+          produces_tokens: [EV-SAFE-RELAY-POSITION]
+          anchors_operator: false
+          fragile: false
+          success_to: WORK_IN_PROGRESS
+          success_deltas: [relay_power BACKUP_UNSTABLE->BACKUP_STABLE, relay_zone_control SECURE for round]
+          misapplication_to: DEGRADED
+          misapplication_deltas: [relay_power unchanged]
+          recovery_step_ids: [E-RS-03-STABILIZE]
+        - step_id: E-RS-04-BACKHAUL
+          atom: VERIFY
+          role: E
+          ap_cost: 1
+          window_cost: 0
+          requires_control: SECURE
+          requires_picture: none
+          requires_tokens: [EV-SAFE-RELAY-POSITION]
+          produces_tokens: [EV-BACKHAUL-PHYSICAL]
+          anchors_operator: false
+          fragile: false
+          success_to: VALIDATION_PENDING
+          success_deltas: [physical_backhaul continuity confirmed]
+          misapplication_to: INCONCLUSIVE
+          misapplication_deltas: [T must spend extra Trace stage]
+          recovery_step_ids: [E-RS-04-BACKHAUL]
+        - step_id: E-RS-05-HOLD
+          atom: HOLD
+          role: E
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: none
+          requires_tokens: []
+          produces_tokens: [EV-SAFE-RELAY-POSITION]
+          anchors_operator: false
+          fragile: false
+          success_to: STABILIZED
+          success_deltas: [relay_zone_control SECURE, first_node_interrupt blocked]
+          misapplication_to: CONTESTED
+          misapplication_deltas: []
+          recovery_step_ids: [E-RS-05-HOLD]
+
+    - id: LAB-T-TRUSTED-CHANNEL
+      world_object: Wireless Control / Backhaul Console
+      zone: Z-RELAY
+      owner_role: T
+      concept_ids: [wireless.access-point, wireless.wpa3, crypto.aes, network.osi-layer-1, network.osi-layer-2, network.segmentation]
+      initial_state: UNKNOWN
+      terminal_states: [VERIFIED, STABILIZED, DEGRADED]
+      task_graph:
+        - step_id: T-WC-01-CHARACTERIZE
+          atom: CHARACTERIZE
+          role: T
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: [EV-APPROVED-AP]
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          success_to: CHARACTERIZED
+          success_deltas: [dependencies visible: AP, power, backhaul, authentication, responder_test]
+          misapplication_to: INCONCLUSIVE
+          misapplication_deltas: [one_dependency hidden]
+          recovery_step_ids: [T-WC-01-CHARACTERIZE]
+        - step_id: T-WC-02-L1
+          atom: TRACE
+          role: T
+          ap_cost: 1
+          window_cost: 0
+          requires_control: SECURE
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: [EV-SAFE-RELAY-POSITION, EV-BACKHAUL-PHYSICAL]
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          success_to: CHARACTERIZED
+          success_deltas: [physical_link_path confirmed]
+          misapplication_to: INCONCLUSIVE
+          misapplication_deltas: [bars_without_backhaul trap remains]
+          recovery_step_ids: [T-WC-02-L1]
+        - step_id: T-WC-03-TRUST
+          atom: CLASSIFY
+          role: T
+          ap_cost: 1
+          window_cost: 0
+          requires_control: SECURE
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: [EV-APPROVED-AP]
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          success_to: PLAN_SELECTED
+          success_deltas: [approved_authenticated_profile selected]
+          misapplication_to: PLAN_SELECTED
+          misapplication_deltas: [untrusted_shortcut selected, compliance_risk +1]
+          recovery_step_ids: [T-WC-03-TRUST]
+        - step_id: T-WC-04-ISOLATE-ROGUE
+          atom: ISOLATE
+          role: T
+          ap_cost: 1
+          window_cost: 0
+          requires_control: SECURE
+          requires_picture: CLEAR
+          requires_tokens: [EV-ROGUE-SOURCE]
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          success_to: WORK_IN_PROGRESS
+          success_deltas: [rogue_overlap_pressure -2, false_association_risk -1]
+          misapplication_to: DEGRADED
+          misapplication_deltas: [approved_coverage -15]
+          recovery_step_ids: [T-WC-04-ISOLATE-ROGUE]
+          safety: defensive_abstracted
+        - step_id: T-WC-05-CONFIGURE
+          atom: CONFIGURE
+          role: T
+          ap_cost: 2
+          window_cost: 1
+          requires_control: SECURE
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: [EV-SAFE-RELAY-POSITION, EV-APPROVED-AP]
+          produces_tokens: []
+          anchors_operator: true
+          fragile: true
+          success_to: COMMITTED
+          success_deltas: [responder_channel COMMITTED, coverage_percent +40, authenticated_service candidate]
+          misapplication_to: DEGRADED
+          misapplication_deltas: [coverage_percent +20, authenticated_service false]
+          recovery_step_ids: [T-WC-06-VERIFY]
+        - step_id: T-WC-06-VERIFY
+          atom: VERIFY
+          role: T
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: [EV-RESPONDER-TEST]
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          success_to: VERIFIED
+          success_deltas: [responder_channel VERIFIED, authenticated_service true, coverage_percent +20]
+          misapplication_to: VALIDATION_PENDING
+          misapplication_deltas: [responder_channel COMMITTED, no_full_objective_credit]
+          recovery_step_ids: [T-WC-06-VERIFY]
+        - step_id: T-WC-07-PUBLIC-ALLOCATE
+          atom: ALLOCATE
+          role: T
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          success_to: STABILIZED
+          success_deltas: [public_checkin_service +25 while responder_priority preserved]
+          misapplication_to: DEGRADED
+          misapplication_deltas: [responder_capacity -15]
+          recovery_step_ids: [T-WC-07-PUBLIC-ALLOCATE]
+
+  threats:
+    - threat_id: TH-INTERDICTOR-RELAY
+      archetype: interdictor
+      start_zone: Z-COURTYARD
+      hp: 4
+      aim: 60
+      movement: 5
+      priorities: [reach_Z_RELAY, force_T_interrupt, contest_E_control]
+      lab_interactions: [successful pressure on relay converts SECURE to CONTESTED]
+    - threat_id: TH-SABOTEUR-POWER
+      archetype: saboteur
+      start_zone: Z-COURTYARD
+      hp: 4
+      aim: 55
+      movement: 5
+      priorities: [reach_Z_POWER, disable_backup_state, retreat]
+      lab_interactions: [one successful power interaction changes relay_power to OFFLINE unless E controls panel]
+    - threat_id: TH-RESPONDER-CONFUSED
+      archetype: responder
+      start_zone: Z-STAGING
+      hp: 5
+      aim: 58
+      movement: 5
+      priorities: [investigate_noise, protect_civilians, challenge_unidentified_team]
+      lab_interactions: [can provide EV-RESPONDER-TEST when authorization/communications state supports cooperation]
+    - threat_id: ENV-WEATHER
+      archetype: controller
+      start_zone: Z-ROOF
+      hp: 0
+      aim: 0
+      movement: 0
+      priorities: [alter_visibility, worsen_rooftop_hazard, stress_power]
+      lab_interactions: [can change one coverage cell and relay_power state at scripted rounds]
+
+  kinetic_technical_links:
+    - link_id: KT-WIFI-01
+      trigger: gunfire in Z-RELAY
+      condition: line intersects relay equipment
+      effect: relay_integrity -1 and configuration requires revalidation
+      affects: lab
+    - link_id: KT-WIFI-02
+      trigger: suppression on TH-INTERDICTOR-RELAY
+      condition: threat within one move of relay
+      effect: threat cannot contest relay this Threat phase; T may finish one anchored step if otherwise valid
+      affects: control
+    - link_id: KT-WIFI-03
+      trigger: fire damages Z-POWER object
+      condition: power panel struck
+      effect: relay_power degrades one state
+      affects: service
+    - link_id: KT-WIFI-04
+      trigger: E uses Hold Angle in Z-CORRIDOR
+      condition: relay route still connected
+      effect: relay ControlState stays SECURE against first intrusion this round
+      affects: control
+    - link_id: KT-WIFI-05
+      trigger: R abandons spectrum vantage during HOSTILE picture
+      condition: no alternate sensor active
+      effect: one coverage cell becomes UNKNOWN and T Verify may require extra external test
+      affects: picture
+
+  technical_kinetic_links:
+    - link_id: TK-WIFI-01
+      trigger: responder_channel VERIFIED
+      condition: none
+      effect: squad gains responder ETA markers and one safe-route update per round
+      affects: reinforcement
+    - link_id: TK-WIFI-02
+      trigger: rogue_overlap_pressure <= 0
+      condition: none
+      effect: false association events stop; Detection gain from wireless confusion removed
+      affects: enemy_ai
+    - link_id: TK-WIFI-03
+      trigger: public_checkin_service >= 40
+      condition: responder_channel VERIFIED
+      effect: crowd pressure decreases and Z-LOBBY movement congestion improves
+      affects: route
+    - link_id: TK-WIFI-04
+      trigger: relay_power OFFLINE
+      condition: none
+      effect: authenticated_service drops; alternate relay objective appears
+      affects: route
+
+  scripted_pressure_curve:
+    - round: 1
+      event: no visible hostile contact; weather/power uncertainty only
+      design_goal: teach signal map before combat
+    - round: 2
+      event: unapproved overlapping source appears in spectrum picture
+      design_goal: teach inventory/corroboration rather than strongest-signal guessing
+    - round: 3
+      event: power hazard worsens and E must secure relay path
+      design_goal: force physical safety to precede clean technical work
+    - round: 4
+      event: first Interdictor contact threatens relay
+      design_goal: make suppression/hold compete with aggressive shooting
+    - round: 5
+      event: Saboteur pressure toward backup power if still active
+      design_goal: split E/R attention across technical dependencies
+    - round: 6
+      event: responder challenge/cooperation opportunity
+      design_goal: trusted communications can solve a human tactical problem without gunfire
+    - round: 7
+      event: weather alters one coverage cell and may invalidate an assumption
+      design_goal: demonstrate why validation is not one-and-done
+    - round: 8
+      event: Window collapse transitions to Extract; fixed story loss remains outside player control
+      design_goal: technical victory can coexist with human tragedy
+
+  canonical_decision_knots:
+    - knot_id: DK-WIFI-R-OVERWATCH-OR-MAP
+      setup: R sees a possible hostile approach but spectrum classification is incomplete.
+      options: [Overwatch, Compare Sources]
+      lesson: firepower and information compete for AP.
+    - knot_id: DK-WIFI-E-ROOF-OR-SAFE-RELAY
+      setup: rooftop has stronger signal but current structural confidence is poor; protected relay room is weaker but physically safer.
+      options: [unsafe_rooftop_shortcut, safe_relay_room, spend_AP_to_validate_roof]
+      lesson: strongest signal is not automatically best system design or safest mission choice.
+    - knot_id: DK-WIFI-T-BARS-OR-SERVICE
+      setup: AP broadcasts strongly before backhaul/authentication is verified.
+      options: [declare_success, trace_dependencies, verify_with_responder]
+      lesson: signal presence is not equivalent to usable service.
+    - knot_id: DK-WIFI-COMBAT-OR-PROTECT-POWER
+      setup: Saboteur and Interdictor split across power and relay routes.
+      options: [chase_kills, hold_relay, hold_power, split_R_E_actions]
+      lesson: technical dependencies determine which tactical space matters.
+
+  grade_outputs:
+    operational:
+      take: responder_channel verification + telemetry integrity
+      team: injuries + fixed canon veteran loss handled separately from player-caused team state
+      exposure: detection + crowd panic + unnecessary responder conflict
+      speed: Window/Extract ticks
+      compliance: safe-route decisions + approved equipment use
+    mastery:
+      recognition: RF/source/signal distinctions
+      application: relay/backhaul/authentication restoration chain
+      transfer: safe-state and confidence decisions under changed weather/contact
+      explanation: debrief must reconstruct why signal, link, authentication, and service were distinct
+
+  story_state_writes:
+    - key: veteran_death
+      predicate: always
+      value: fixed_canon
+    - key: communications_quality
+      predicate: responder_channel == VERIFIED
+      value: restored_cleanly
+    - key: communications_quality
+      predicate: responder_channel != VERIFIED and coverage_percent >= 50
+      value: partial
+    - key: jordan_guilt_modifier
+      predicate: unsafe_entry_count > 0
+      value: increased
+    - key: chioma_confidence_modifier
+      predicate: responder_channel == VERIFIED and unsafe_entry_count == 0
+      value: increased
+
+  implementation_acceptance_tests:
+    - A player can see strong signal and still fail service verification.
+    - R evidence about approved/rogue sources must visibly simplify T choices.
+    - E physical safety/control must be required for the cleanest T configuration path.
+    - At least one combat decision must threaten power or relay equipment if handled recklessly.
+    - Suppression/holding must be tactically competitive with kill attempts.
+    - Successful wireless restoration must change battlefield information/crowd/responder behavior.
+    - The mission must never teach operational wireless attack procedures; offensive concepts remain recognition/defense abstractions.
