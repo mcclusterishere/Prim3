@@ -1,7 +1,7 @@
 ---
 status: CANON
 system: tactical intervention / rescue escalation / rival incursion authority
-version: 1.0.0
+version: 1.1.0
 branch: main
 owner: Matthew McCluster
 authority: Subordinate only to CANON.md; governs all Jordan Wildcard, PRIM2 intervention, and Royce incursion mechanics
@@ -11,11 +11,11 @@ authority: Subordinate only to CANON.md; governs all Jordan Wildcard, PRIM2 inte
 
 ## Core fantasy
 
-Most playable PRIM operations do **not** deploy Jordan Vale.
+**Ordinary PLAY does not deploy Jordan Vale from the normal selectable roster.**
 
 The normal game belongs to the ensemble: Aya, Chioma, Arjun, Rafael, Sari, Oksana, Minh, Jonas, Valeria, Thandiwe and the rest of the qualified roster should carry missions, make mistakes, get hurt, save one another and earn their own legends.
 
-Jordan is mechanically exceptional because he is **not the default answer**.
+Jordan is mechanically exceptional because he is deliberately withheld.
 
 He is the call you make when the answer you brought is failing.
 
@@ -53,11 +53,17 @@ Canonical shorthand:
 
 During ordinary PLAY missions, Jordan is **not selectable in the normal pre-mission roster** unless that specific authored story mission explicitly assigns him.
 
-This rule exists for three reasons:
+This is a hard gameplay law, not merely a balance preference.
+
+The rest of the cast must carry the majority of player turns across the campaign.
+
+This rule exists because:
 
 1. the ensemble must remain mechanically important rather than becoming Jordan's backup cast;
 2. Jordan's reputation as the Wildcard must be experienced as a gameplay fact, not only stated in dialogue;
-3. calling him should feel like escalation.
+3. calling him should feel like escalation;
+4. the player must develop attachments to people who are not Jordan;
+5. a rescue decision only matters if the player had something meaningful to lose before Jordan arrived.
 
 Allowed Jordan states in PLAY:
 
@@ -117,9 +123,50 @@ Intervention preserves consequence. It does not erase it.
 
 ---
 
-# 3. Executive Call-Up — Jordan Vale / Wildcard
+# 3. PRIM2 oversight is not the same as PRIM2 intervention
 
-## 3.1 Request flow
+PRIM2 maintains privileged standing oversight of PRIM operations through the distributed command architecture.
+
+In story language, **PRIM2 is always watching the missions** to the extent that the architecture, permissions, sensors and communications make mission telemetry available to him.
+
+That does **not** mean magical omniscience.
+
+He can still face:
+- missing sensors;
+- stale data;
+- compartmentalized human context;
+- unreported facts;
+- compromised telemetry;
+- deliberate deception;
+- communications loss;
+- and private meaning he cannot infer from raw data.
+
+This distinction is mandatory:
+
+```text
+PRIM2 OBSERVING
+≠
+PRIM2 ACTIVELY CONTROLLING THE MISSION
+```
+
+The executive escalation channel exists because normal mission command owns normal decisions. PRIM2 does not automatically seize control whenever a team struggles.
+
+His restraint matters to the fiction and to the game.
+
+The player therefore experiences a hierarchy:
+
+```text
+PRIM2 may already see the crisis.
+The team still has to decide whether to ask for extraordinary intervention.
+```
+
+Early in the story, the player may not know the human being behind the executive channel.
+
+---
+
+# 4. Executive Call-Up — Jordan Vale / Wildcard
+
+## 4.1 Request flow
 
 When an eligible mission reaches CRITICAL and Jordan is off-board, the command interface exposes:
 
@@ -141,7 +188,9 @@ Each eligible mission authors a plausible:
 
 Default gameplay arrival is **1–3 rounds after approval**, modified by mission geography and story.
 
-## 3.2 Wildcard Authorizations
+That delay is important: after requesting Jordan, the existing team still has to survive long enough for help to matter.
+
+## 4.2 Wildcard Authorizations
 
 Default campaign balance:
 
@@ -150,9 +199,13 @@ Default campaign balance:
 - an authored reward may grant **1 bonus Wildcard Authorization** for exceptional Standing or a specific story achievement;
 - a scripted mission that begins with Jordan assigned does **not** spend this resource.
 
-These numbers are canonical v1 balance defaults. They may be tuned for difficulty modes without changing the fiction that Jordan call-ups are scarce executive resources.
+These numbers are canonical Standard balance defaults. Difficulty modes may tune the pool without changing the fiction that Jordan call-ups are scarce executive resources.
 
-## 3.3 What Jordan mechanically is
+The resource is intentionally limited so the player sometimes has to ask:
+
+> **Do I burn one now to save these people, or trust them to finish this themselves?**
+
+## 4.3 What Jordan mechanically is
 
 Jordan is the **Wildcard**, not a fourth permanent phenotype.
 
@@ -184,7 +237,7 @@ It is not a free attack generator.
 ### FAILOVER INSTINCT — passive
 When the current primary plan becomes invalid, Jordan suffers no AP surcharge for the first legal switch to a verified alternate route that round.
 
-## 3.4 Calling Jordan has a cost
+## 4.4 Calling Jordan has a cost
 
 A Jordan rescue is still a legitimate success, but it is not the same as completing the mission independently.
 
@@ -200,9 +253,9 @@ The player may still earn a strong mission grade. The intervention primarily cos
 
 ---
 
-# 4. Apex Request — PRIM2
+# 5. Apex Request — PRIM2
 
-## 4.1 Eligibility
+## 5.1 Eligibility
 
 PRIM2 is not a second ordinary rescue button.
 
@@ -218,7 +271,7 @@ This produces the escalation fantasy:
 
 > **If the Wildcard is already on the board and the board is still dying, call the person who owns the board.**
 
-## 4.2 Scarcity
+## 5.2 Scarcity
 
 Default campaign balance:
 
@@ -226,11 +279,11 @@ Default campaign balance:
 - they do **not** refresh each season;
 - they cannot be replenished through ordinary Budget spending;
 - scripted PRIM2 appearances do not consume them;
-- difficulty modes may reduce or increase the pool, but the canonical standard campaign pool is three.
+- difficulty modes may reduce or increase the pool, but the canonical Standard campaign pool is three.
 
 Three is intentionally small enough that the player remembers every time they asked for PRIM2.
 
-## 4.3 Early-game spoiler handling
+## 5.3 Early-game spoiler handling
 
 Before the story has openly identified PRIM2, the player-facing control may read:
 
@@ -248,7 +301,7 @@ The underlying system still records the intervention as PRIM2.
 
 After the Mantle reveal, the UI may name him directly.
 
-## 4.4 PRIM2 tactical identity
+## 5.4 PRIM2 tactical identity
 
 PRIM2 should feel qualitatively different from Jordan.
 
@@ -288,7 +341,7 @@ Authority can change permission. It cannot change reality.
 ### ROOT PRESENCE — passive
 Certain Site 0/Pylon/PRIM-authority objects may respond differently while the living Mantle holder is present. Episode-specific behavior must be authored and may never become a universal magic-door key.
 
-## 4.5 Apex consequence
+## 5.5 Apex consequence
 
 Aftermath records:
 
@@ -305,7 +358,21 @@ Apex intervention is designed to save a campaign from a brutal loss without maki
 
 ---
 
-# 5. Intervention cannot erase death or bad decisions retroactively
+# 6. Intervention as anti-frustration without consequence erasure
+
+The intervention ladder is an intentional campaign safety valve.
+
+It reduces the chance that one ugly tactical turn destroys a favorite character, collapses the entire campaign, or makes the player reload instead of living with consequences.
+
+The desired hierarchy is:
+
+```text
+perfect execution -> no intervention needed
+messy execution -> ordinary roster can still recover
+critical execution -> spend Jordan if the people/objective are worth it
+catastrophic high-value execution -> spend PRIM2 if even Jordan cannot stabilize it
+terminal state -> save what can still be saved and live with the damage
+```
 
 A call-up acts on the **current** battlefield state.
 
@@ -315,7 +382,7 @@ It may:
 - preserve remaining evidence;
 - restore a recoverable service;
 - expose a different route;
-- change authorization;
+- change present authorization;
 - stop the mission from becoming worse.
 
 It may not:
@@ -331,9 +398,9 @@ The mechanic is mercy through escalation, not save-scumming disguised as canon.
 
 ---
 
-# 6. Royce Incursion — Hitman's Wildcard
+# 7. Royce Incursion — Hitman's Wildcard
 
-## 6.1 Core role
+## 7.1 Core role
 
 Royce is the opposing-side answer to the player's rescue hierarchy.
 
@@ -341,11 +408,13 @@ He is not a random elite guard and not a reskinned Jordan.
 
 Royce is the current Hitman-side apex operator/successor figure: aggressive, power-hungry, physically dangerous, experienced with the organization Jordan left behind and personally entangled with Jordan's old Benji history.
 
+In practical Hitman terms, he occupies the position closest to **their Prime-level field threat** even though he is not a PRIM Mantle holder and does not share PRIM2's information architecture.
+
 Gameplay purpose:
 
 > **Just when the player believes the mission is under control, the other board is allowed to escalate too.**
 
-## 6.2 Incursion eligibility
+## 7.2 Incursion eligibility
 
 Royce may enter an eligible mission when one or more campaign conditions are high enough:
 
@@ -359,9 +428,17 @@ Royce may enter an eligible mission when one or more campaign conditions are hig
 
 His appearance may be telegraphed, partially telegraphed or surprising depending on earned intelligence.
 
-## 6.3 Frequency cap
+The game should sometimes create the exact emotional reversal:
 
-Default standard-campaign cap:
+```text
+PLAYER: We finally stabilized this.
+SYSTEM: HOSTILE ELITE SIGNATURE DETECTED.
+PLAYER: Oh, fuck. Royce.
+```
+
+## 7.3 Frequency cap
+
+Default Standard campaign cap:
 
 - maximum **2 non-scripted Royce Incursions per season**;
 - maximum **1 Royce Incursion per mission**;
@@ -371,7 +448,7 @@ Default standard-campaign cap:
 
 This keeps him frightening without making him exhausting.
 
-## 6.4 Royce mechanical identity
+## 7.4 Royce mechanical identity
 
 Royce's fantasy is **violent disruption and pressure**, not technical omniscience.
 
@@ -400,7 +477,7 @@ Once per round, one Hitman unit may reposition or take a bounded support action 
 ### OLD BUSINESS
 If Jordan is present, both characters gain unique contextual dialogue and selected rivalry modifiers. This must create risk for **both** sides rather than simply buffing Royce.
 
-## 6.5 Royce is persistent
+## 7.5 Royce is persistent
 
 A non-finale Royce encounter normally ends through:
 - player extraction;
@@ -413,7 +490,7 @@ Do not allow a random side mission to permanently kill Royce before the locked e
 
 ---
 
-# 7. Player-facing escalation rail
+# 8. Player-facing escalation rail
 
 The command UI should show intervention state without cluttering ordinary play.
 
@@ -422,7 +499,7 @@ Suggested rail:
 ```text
 MISSION STATE      STABLE / DEGRADED / CRITICAL / TERMINAL
 WILDCARD           2 / 2
-APEX                3 / 3 CAMPAIGN
+APEX               3 / 3 CAMPAIGN
 HOSTILE ESCALATION UNKNOWN / POSSIBLE / LIKELY / ACTIVE
 ```
 
@@ -446,7 +523,7 @@ Royce Incursion warnings depend on Picture/Intel quality. Strong reconnaissance 
 
 ---
 
-# 8. Strategy-layer resources
+# 9. Strategy-layer resources
 
 Add to campaign state:
 
@@ -471,7 +548,7 @@ Important distinction:
 
 ---
 
-# 9. Difficulty behavior
+# 10. Difficulty behavior
 
 Difficulty may tune numbers without changing character identity.
 
@@ -490,7 +567,7 @@ Story-scripted deployments are separate from these pools.
 
 ---
 
-# 10. Grade and mastery interaction
+# 11. Grade and mastery interaction
 
 Interventions should make the player **glad they used them**, not ashamed to touch the mechanic.
 
@@ -518,7 +595,7 @@ This separates **mission outcome** from **how much institutional help the player
 
 ---
 
-# 11. Narrative integration
+# 12. Narrative integration
 
 The intervention system must deepen the story rather than sit outside it.
 
@@ -546,7 +623,7 @@ An intervention must therefore write to the relationship/psychology continuity l
 
 ---
 
-# 12. Episode-authoring fields
+# 13. Episode-authoring fields
 
 Every PLAY mission now records:
 
@@ -571,7 +648,7 @@ No episode implementation is complete until these are deliberately answered.
 
 ---
 
-# 13. Anti-protagonist-collapse rule
+# 14. Anti-protagonist-collapse rule
 
 The mechanic must never become:
 
@@ -595,16 +672,17 @@ That turns character attachment into strategy.
 
 ---
 
-# 14. Governing rules
+# 15. Governing rules
 
-1. **Most missions launch without Jordan.**
+1. **Ordinary PLAY launches without Jordan unless the mission is a specific scripted Jordan mission.**
 2. **Jordan is a scarce rescue/escalation unit, not the default protagonist pawn.**
-3. **PRIM2 is an even scarcer second-stage intervention available only on genuinely critical high-value missions after Jordan is already involved.**
-4. **Royce gives the opposing board its own elite escalation threat.**
-5. **Interventions operate on current state; they do not rewind consequences.**
-6. **Named characters remain mechanically valuable before, during and after a Wildcard intervention.**
-7. **The player should sometimes spend a scarce intervention to save a person rather than maximize the objective. That is a feature.**
-8. **Every intervention creates campaign and relationship residue.**
+3. **PRIM2 has privileged oversight of missions, but observation is not automatic intervention or perfect knowledge.**
+4. **PRIM2 is an even scarcer second-stage intervention available only on genuinely critical high-value missions after Jordan is already involved.**
+5. **Royce gives the opposing board its own elite escalation threat.**
+6. **Interventions operate on current state; they do not rewind consequences.**
+7. **Named characters remain mechanically valuable before, during and after a Wildcard intervention.**
+8. **The player should sometimes spend a scarce intervention to save a person rather than maximize the objective. That is a feature.**
+9. **Every intervention creates campaign and relationship residue.**
 
 Final shorthand:
 
