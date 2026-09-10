@@ -1,153 +1,172 @@
-# Owner-hosted GEV quickstart
+# Owner Seek First / GEV quickstart
 
-This is the shortest path from a fresh Ubuntu VM to a private, authenticated God's Eye View instance.
+**Current architecture:** rich hosted viewer over the existing canonical McCluster Worker/Supabase backend.
+
+> This file supersedes the earlier VM-first quickstart. A DigitalOcean/other VM is optional specialized compute, not the default owner backend.
 
 ## Target topology
 
 ```text
 YOU
- -> Cloudflare Access login
- -> prime.mcluster.org (recommended hostname)
- -> Cloudflare Tunnel
- -> 127.0.0.1:4173 on the VM
- -> Seek First / GEV preview runtime
- -> public + configured provider APIs
+ -> Cloudflare Access / McCluster owner login
+ -> hosted Seek First viewer
+ -> https://api.mccluster.org/v1/seek-first/*
+ -> canonical McCluster Worker
+ -> entitlement/licensing firewall
+ -> Supabase spatial/history plane
+ -> approved provider APIs
 ```
 
-Port 4173 must remain closed to the public internet.
+## 1. Keep one backend
 
-## 1. Create the VM
+The canonical backend is `mcclusterishere/mccluster`, Worker `mccluster`, API origin `https://api.mccluster.org`.
 
-Recommended starting size: 4 GiB RAM / 2 vCPU / about 80 GiB SSD.
+Do not deploy the upstream GEV Vite credential broker as a second production authority.
 
-Ubuntu LTS is the expected host OS for the included bootstrap script.
+The Vite middleware remains useful for local development and as a reference while its capabilities are migrated into the canonical Worker.
 
-## 2. Clone and bootstrap
+## 2. Activate the canonical spatial schema
 
-SSH into the VM and run:
+The current Worker already contains `/v1/seek-first/*` routes for sources, entitlements, provider brokering, AIS, entity queries, nearby/bbox queries, timeline and history.
 
-```bash
-git clone https://github.com/mcclusterishere/Seek-First.git
-cd Seek-First
-sudo bash deploy/bootstrap-ubuntu.sh
-```
-
-The script:
-- installs required base packages;
-- installs Node 24.14.0 unless overridden;
-- creates the non-login `gev` service account;
-- installs the canonical checkout at `/opt/seek-first`;
-- creates `/etc/seek-first/gev.env` from the safe template if it does not already exist;
-- runs `npm ci` and `npm run build`;
-- installs/enables the hardened `seek-first.service` systemd unit;
-- verifies that GEV answers only on `127.0.0.1:4173`.
-
-## 3. Add provider keys
-
-Edit:
-
-```bash
-sudo nano /etc/seek-first/gev.env
-```
-
-For immediate keyless operation, leave optional providers blank.
-
-For the fuller owner experience, prioritize:
-
-1. `GOOGLE_MAPS_API_KEY` — direct photorealistic 3D + place context; browser-visible by design, so restrict it to the final hostname and only the required Google APIs.
-2. `OPENAI_API_KEY` — voice/HUD; server-only.
-3. `OPENSKY_CLIENT_ID` + `OPENSKY_CLIENT_SECRET` — higher authenticated aviation credit allowance; server-only. Set `OPENSKY_AUTH_MODE=oauth` after adding them.
-4. `AISSTREAM_API_KEY` — live vessel WebSocket; server-only.
-5. `FIRMS_MAP_KEY` — active fires; server-only.
-6. `TOMTOM_API_KEY` — live traffic; server-only.
-7. `LL2_API_TOKEN` — optional higher launch-data allowance.
-8. `CESIUM_ION_TOKEN` — optional; not required for the initial direct-Google/fallback owner deployment.
-
-Then:
-
-```bash
-sudo systemctl restart seek-first
-sudo systemctl status seek-first --no-pager
-```
-
-## 4. Create the Cloudflare Tunnel
-
-Cloudflare currently recommends remotely managed tunnels for most deployments.
-
-In Cloudflare Dashboard:
-
-1. Networking -> Tunnels.
-2. Create a tunnel named `seek-first-owner`.
-3. Select Linux and run the generated `cloudflared` install/service command on the GEV VM.
-4. Add a Published application route:
-   - hostname: `prime.mcluster.org` (recommended)
-   - service: `http://127.0.0.1:4173`
-5. If origin Host validation becomes an issue, use the repository's `deploy/cloudflared-config.example.yml` pattern so the origin receives `Host: localhost` rather than weakening Vite's host checks.
-
-Do not open TCP/4173 in the cloud firewall.
-
-## 5. Protect it with Cloudflare Access
-
-Before treating the hostname as usable, create a Cloudflare Access self-hosted application for the GEV hostname and allow only the owner's identity.
-
-For owner V1, Cloudflare Access is the login gate. The game-completion Prime entitlement is intentionally separate and comes later for player accounts.
-
-Acceptance test:
+Those persistence/history routes require the committed Supabase migrations in `mccluster`:
 
 ```text
-not authenticated -> GEV denied
-owner authenticated -> GEV loads
-browser -> never receives OpenAI/OpenSky/AISStream private credentials
-VM public network -> port 4173 closed
+supabase/migrations/20260909034000_spatial_intelligence.sql
+supabase/migrations/20260909034100_spatial_observation_idempotency.sql
+supabase/migrations/20260909040000_spatial_entity_history.sql
 ```
 
-## 6. Budget controls
+Apply them through the repository's canonical Supabase migration workflow so local/remote migration history remains synchronized.
 
-At provider level:
+## 3. Finish Access configuration
 
-- OpenAI: start with a low monthly project/organization usage limit and increase only after measuring real use.
-- Google Cloud: create a billing budget, restrict the browser API key by hostname/API, and cap relevant APIs where available.
-- Keep `GEV_RATELIMIT_OPENAI_PER_MIN` and `GEV_RATELIMIT_GOOGLE_PER_MIN` enabled as application-side guards.
-- Keep `TOMTOM_DAILY_TILE_BUDGET` below the provider allowance until real usage is observed.
+`/internal/seek-first` is intended to sit behind Cloudflare Access plus the McCluster owner check.
 
-Application-side limits are not hard billing caps; provider-side controls are.
-
-## 7. Update later
-
-On the VM:
-
-```bash
-sudo bash /opt/seek-first/deploy/update-hosted.sh
-```
-
-That updater:
-- fast-forwards `main`;
-- installs exact dependencies;
-- runs the test suite;
-- builds;
-- restarts GEV;
-- requires a successful loopback health check.
-
-A manual GitHub Actions workflow is also included at `.github/workflows/deploy-hosted.yml`. It expects repository secrets:
-
-- `GEV_HOST`
-- `GEV_SSH_USER`
-- `GEV_SSH_KEY`
-- `GEV_KNOWN_HOSTS`
-
-The SSH user should have narrowly scoped passwordless sudo permission only for the hosted update command rather than unrestricted root access.
-
-## 8. Owner access vs player Prime access
-
-Owner/admin access exists immediately for development and real-world use.
-
-Future player flow remains:
+The Worker expects:
 
 ```text
-PRIM3 completion
- -> server records ASCENDED status
- -> entitlement service grants GEV access
- -> authenticated GEV gateway accepts the player
+SEEK_FIRST_ACCESS_TEAM_DOMAIN
+SEEK_FIRST_ACCESS_AUD
 ```
 
-The owner account is not required to complete the campaign. It receives an administrative entitlement independently of gameplay.
+Use a durable deployment-safe configuration method. If the team domain is safe to commit as a non-secret Worker var, place it in `wrangler.toml`; otherwise provision it as a secret. Do not rely on an untracked dashboard plaintext variable that a deployment can overwrite.
+
+The AUD should remain treated as deployment configuration/secret according to the existing environment policy.
+
+## 4. Viewer transport
+
+`src/platform/mcclusterApi.js` is the canonical viewer transport layer.
+
+Default API base:
+
+```text
+https://api.mccluster.org/v1/seek-first
+```
+
+It provides explicit calls for:
+- health/readiness;
+- source catalog;
+- entitlements;
+- viewer config/capabilities;
+- provider fetch/ingest;
+- live AIS;
+- nearby/bbox/timeline;
+- entities/history;
+- projects/layers/ingestion runs.
+
+It also keeps authentication, entitlement, rate-limit, provider-not-configured and schema-not-ready failures distinct.
+
+## 5. Provider activation
+
+Prioritize open/public sources first, then activate paid/restricted providers only when their added capability justifies the cost.
+
+Useful source classes already exist in the backend:
+
+```text
+PUBLIC_OPEN
+ACADEMIC
+NONPROFIT
+COMMERCIAL
+INTERNAL
+RESTRICTED
+```
+
+The owner interface may show legitimately acquired sources from multiple lanes. A player/commercial consumer may only receive sources whose provider terms allow that lane.
+
+## 6. Host the viewer
+
+The final viewer is a static/CDN web application plus browser rendering. It may be delivered from an existing McCluster web surface, Cloudflare Pages/Workers Assets or an equivalent static host.
+
+The viewer should never receive server-side provider secrets.
+
+Browser-visible tokens may exist only where a provider technically requires them and must use strict origin/API/asset restrictions.
+
+## 7. Owner access vs Prime/player access
+
+Owner flow:
+
+```text
+OWNER LOGIN
+ -> owner authorization
+ -> Seek First viewer
+ -> INTERNAL source lane
+```
+
+Owner access is immediate and independent of PRIM3 completion.
+
+Future player flow:
+
+```text
+PRIM3 completion/mastery
+ -> ASCENDED entitlement
+ -> authenticated GEV session
+ -> player-allowed source set
+```
+
+A client-side save flag never authorizes real-world access.
+
+## 8. Budget target
+
+If the existing Worker and Supabase included quotas are sufficient, the prototype can have nearly zero incremental fixed hosting cost.
+
+If dedicated paid tiers are needed, budget approximately:
+
+```text
+Cloudflare Workers Paid   ~$5/month minimum
+Supabase Pro              ~$25/month
+------------------------------------------
+reliable platform floor   ~$30/month
+```
+
+Then separately cap Google/AI/commercial provider usage. See `docs/HOSTING-COST-MODEL-2026-09.md` and the canonical cost/eligibility ledger in `mccluster`.
+
+## 9. Optional compute node
+
+Provision a VM/container only when telemetry proves a workload belongs there, such as:
+- bulk raster/geospatial processing;
+- sustained CPU-heavy ETL;
+- dedicated model inference;
+- media transforms;
+- specialized long-running ingestion that is unsuitable for Worker/Durable Objects.
+
+A compute node authenticates to the canonical control plane and returns normalized results. It does not own end-user identity, entitlements or the master credential store.
+
+## 10. Owner-V1 acceptance test
+
+```text
+Cloudflare Access/owner auth works
+canonical Worker health/readiness is green
+Seek First viewer uses /v1/seek-first/*
+private provider secrets never reach browser
+source/entitlement state is visible
+spatial migrations are applied
+nearby/bbox/history/timeline answer from Supabase
+provider failure degrades one layer, not whole app
+owner bypasses PRIM3 campaign gate
+```
+
+See also:
+- `docs/HOSTED-DEPLOYMENT.md`
+- `docs/FORK-SUPERSET-AUDIT-2026-09.md`
+- `docs/SEEK-FIRST-SUPERSET-ROADMAP.md`
