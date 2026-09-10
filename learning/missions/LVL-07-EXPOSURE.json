@@ -1,0 +1,241 @@
+{
+  "mission_id": "LVL-07",
+  "song": "Data Breach",
+  "concept_ids": [
+    "incident.data-breach",
+    "incident.breach-indicator",
+    "incident.abnormal-data-transfer",
+    "observability.access-log",
+    "incident.unauthorized-access",
+    "asset.compromised-asset",
+    "identity.mfa",
+    "incident.supply-chain-attack",
+    "vendor.third-party-risk",
+    "incident.containment",
+    "forensics.evidence-preservation",
+    "crypto.hash"
+  ],
+  "map": {
+    "width": 18,
+    "height": 24,
+    "zones": [
+      "Z-A Public Hall",
+      "Z-B Operations Center",
+      "Z-C Identity Room",
+      "Z-D Personnel Service Room",
+      "Z-E Evidence Room",
+      "Z-F Vendor Closet",
+      "Z-G Loading Corridor",
+      "Z-H Extraction Stair"
+    ],
+    "lab_node_ids": ["LAB-A-TIMELINE", "LAB-B-IDENTITY", "LAB-C-SERVICE", "LAB-D-EVIDENCE", "LAB-E-VENDOR", "LAB-F-PHYSICAL"],
+    "threat_entries": ["Z-G Loading Corridor", "Z-A Public Hall east entry"],
+    "safe_zones": ["Z-H Extraction Stair"]
+  },
+  "clocks": {
+    "approach": 4,
+    "window": 10,
+    "extract": 6
+  },
+  "roles": {
+    "Field-R": {
+      "required_actions": ["correlate at least two independent indicators", "maintain external picture", "warn before one critical-room threat entry"],
+      "concept_ids": ["incident.breach-indicator", "incident.abnormal-data-transfer", "observability.access-log", "vendor.third-party-risk"],
+      "produced_state": ["PICTURE", "Evidence Tokens", "SCOPE_CONFIDENCE"],
+      "minimum_contribution": "Create two evidence tokens from independent sources and correctly distinguish an indicator from proof."
+    },
+    "Field-E": {
+      "required_actions": ["secure one technical room", "maintain need-to-know evidence boundary", "protect one fragile technical action"],
+      "concept_ids": ["forensics.evidence-preservation", "incident.unauthorized-access", "incident.containment"],
+      "produced_state": ["CONTROL", "TEAM_STATE", "EVIDENCE_INTEGRITY"],
+      "minimum_contribution": "Keep one critical LAB_NODE in SECURE control while preventing unauthorized physical access during technical work."
+    },
+    "Field-T": {
+      "required_actions": ["build scope hypothesis", "commit containment", "preserve evidence", "validate trusted restoration"],
+      "concept_ids": ["incident.containment", "forensics.evidence-preservation", "identity.mfa", "asset.compromised-asset", "crypto.hash"],
+      "produced_state": ["SERVICE_HEALTH", "EVIDENCE_INTEGRITY", "SCOPE_CONFIDENCE", "IDENTITY_CONFIDENCE", "OBJECTIVE_TOKEN"],
+      "minimum_contribution": "Contain credible affected scope, preserve at least one usable evidence set, and separately validate one restored critical function."
+    }
+  },
+  "objective_graph": {
+    "nodes": [
+      {"id": "GATE-PICTURE", "type": "GATE", "description": "Build an initial incident picture from independent evidence."},
+      {"id": "P-SCOPE", "type": "PRIMARY", "description": "Establish a defensible compromise scope."},
+      {"id": "P-CONTAIN", "type": "PRIMARY", "description": "Contain high-risk affected services without unnecessary outage."},
+      {"id": "L-EVIDENCE", "type": "LEARNING", "description": "Preserve evidence before destructive recovery."},
+      {"id": "P-RESTORE", "type": "PRIMARY", "description": "Restore and validate one trusted critical function."},
+      {"id": "S-JORDAN", "type": "STORY", "description": "Lawfully preserve Jordan's pre-recruitment record."},
+      {"id": "X-EXTRACT", "type": "EXTRACT", "description": "Extract the team with stabilized or sealed mission state."}
+    ],
+    "edges": [
+      {"from": "GATE-PICTURE", "relation": "improves", "to": "P-SCOPE"},
+      {"from": "P-SCOPE", "relation": "improves", "to": "P-CONTAIN"},
+      {"from": "L-EVIDENCE", "relation": "requires", "to": "P-RESTORE"},
+      {"from": "P-CONTAIN", "relation": "unlocks", "to": "P-RESTORE"},
+      {"from": "L-EVIDENCE", "relation": "unlocks", "to": "S-JORDAN"},
+      {"from": "P-RESTORE", "relation": "unlocks", "to": "X-EXTRACT"}
+    ]
+  },
+  "lab_nodes": [
+    {
+      "id": "LAB-A-TIMELINE",
+      "location": "Z-B Operations Center",
+      "concept_ids": ["incident.breach-indicator", "incident.abnormal-data-transfer", "observability.access-log", "incident.unauthorized-access"],
+      "primary_roles": ["Field-R", "Field-T"],
+      "initial_state": "OBSERVED",
+      "stages": [
+        {"id": "A1", "task_atom": "COMPARE", "ap_cost": 1, "window_cost": 0, "anchored": false, "fragile": false, "state_from": "OBSERVED", "state_to": "CHARACTERIZED", "player_reasoning": "Compare time, source quality, and independence of multiple incident indicators rather than treating every alert as proof."},
+        {"id": "A2", "task_atom": "CLASSIFY", "ap_cost": 1, "window_cost": 0, "anchored": false, "fragile": false, "state_from": "CHARACTERIZED", "state_to": "PLAN_SELECTED", "player_reasoning": "Group assets into likely affected, possibly affected, and currently unsupported-by-evidence categories."},
+        {"id": "A3", "task_atom": "VERIFY", "ap_cost": 1, "window_cost": 0, "anchored": false, "fragile": false, "state_from": "PLAN_SELECTED", "state_to": "VERIFIED", "player_reasoning": "Revise the hypothesis after new evidence and confirm whether the scope remains supported."}
+      ],
+      "dependencies": ["Field-R may spend AP to create evidence tokens that remove unsupported interpretations"],
+      "wrong_path_consequences": ["Overscoping reduces SERVICE_HEALTH through unnecessary isolation", "Underscoping leaves a hidden affected asset active", "Treating rumor as proof caps SCOPE_CONFIDENCE until corrected"],
+      "validation": "A second independent evidence source or later system behavior must support the selected incident-scope hypothesis.",
+      "battlefield_effect": "Higher scope confidence reveals the correct primary service target and prevents a later hidden degradation event."
+    },
+    {
+      "id": "LAB-B-IDENTITY",
+      "location": "Z-C Identity Room",
+      "concept_ids": ["identity.mfa", "incident.unauthorized-access"],
+      "primary_roles": ["Field-T", "Field-E"],
+      "initial_state": "UNSEEN",
+      "stages": [
+        {"id": "B1", "task_atom": "CLASSIFY", "ap_cost": 1, "window_cost": 0, "anchored": false, "fragile": false, "state_from": "UNSEEN", "state_to": "CHARACTERIZED", "player_reasoning": "Classify fictional account states using evidence rather than assuming password-only equals compromised or MFA equals invulnerable."},
+        {"id": "B2", "task_atom": "ISOLATE", "ap_cost": 1, "window_cost": 0, "anchored": false, "fragile": false, "state_from": "CHARACTERIZED", "state_to": "COMMITTED", "player_reasoning": "Remove high-confidence suspect access while preserving a trusted administrative path required for response continuity."},
+        {"id": "B3", "task_atom": "VERIFY", "ap_cost": 1, "window_cost": 0, "anchored": false, "fragile": true, "state_from": "COMMITTED", "state_to": "VERIFIED", "player_reasoning": "Confirm legitimate critical staff can still authenticate and suspect session paths are no longer active."}
+      ],
+      "dependencies": ["Field-E CONTROL of Z-C prevents interruption during identity validation"],
+      "wrong_path_consequences": ["Disabling every identity path lowers SERVICE_HEALTH", "Leaving a high-confidence suspect path active can re-degrade restored service"],
+      "validation": "Trusted critical access must work after suspect access is removed; both conditions are required.",
+      "battlefield_effect": "Successful identity validation prevents confused building security from escalating against the squad and unlocks safer service restoration."
+    },
+    {
+      "id": "LAB-C-SERVICE",
+      "location": "Z-D Personnel Service Room",
+      "concept_ids": ["incident.containment", "asset.compromised-asset", "incident.supply-chain-attack"],
+      "primary_roles": ["Field-T", "Field-E", "Field-R"],
+      "initial_state": "UNSEEN",
+      "stages": [
+        {"id": "C1", "task_atom": "TRACE", "ap_cost": 1, "window_cost": 0, "anchored": false, "fragile": false, "state_from": "UNSEEN", "state_to": "CHARACTERIZED", "player_reasoning": "Trace the fictional service dependency graph and distinguish critical, suspect, and currently trusted paths."},
+        {"id": "C2", "task_atom": "ISOLATE", "ap_cost": 1, "window_cost": 1, "anchored": false, "fragile": false, "state_from": "CHARACTERIZED", "state_to": "PLAN_SELECTED", "player_reasoning": "Select containment scope that limits credible spread while preserving clean critical dependencies where evidence supports doing so."},
+        {"id": "C3", "task_atom": "CONFIGURE", "ap_cost": 2, "window_cost": 1, "anchored": true, "fragile": true, "state_from": "PLAN_SELECTED", "state_to": "COMMITTED", "player_reasoning": "Commit the chosen containment plan while accepting the tactical cost of anchoring Field-T at the node."},
+        {"id": "C4", "task_atom": "VERIFY", "ap_cost": 1, "window_cost": 0, "anchored": false, "fragile": false, "state_from": "COMMITTED", "state_to": "VERIFIED", "player_reasoning": "Confirm suspicious behavior stopped and required unaffected service paths remain usable."}
+      ],
+      "dependencies": ["Field-R evidence tokens improve path characterization", "Field-E Protected Window protects the anchored commit stage"],
+      "wrong_path_consequences": ["Too-broad containment unnecessarily lowers SERVICE_HEALTH", "Too-narrow containment leaves a residual path", "Skipping validation permits delayed re-degradation"],
+      "validation": "Both containment effect and preserved critical-service behavior must be observed after commit.",
+      "battlefield_effect": "Verified containment disables one hostile door-control behavior and reduces later reinforcement timing by one round."
+    },
+    {
+      "id": "LAB-D-EVIDENCE",
+      "location": "Z-E Evidence Room",
+      "concept_ids": ["forensics.evidence-preservation", "crypto.hash"],
+      "primary_roles": ["Field-T", "Field-E"],
+      "initial_state": "UNSEEN",
+      "stages": [
+        {"id": "D1", "task_atom": "PRIORITIZE", "ap_cost": 1, "window_cost": 0, "anchored": false, "fragile": false, "state_from": "UNSEEN", "state_to": "PLAN_SELECTED", "player_reasoning": "Choose the evidence set that best supports incident scope under limited time and storage without collecting unrelated private bulk data."},
+        {"id": "D2", "task_atom": "PRESERVE", "ap_cost": 2, "window_cost": 1, "anchored": true, "fragile": true, "state_from": "PLAN_SELECTED", "state_to": "COMMITTED", "player_reasoning": "Preserve the chosen fictional evidence set while accepting a full-turn technical commitment."},
+        {"id": "D3", "task_atom": "VERIFY", "ap_cost": 1, "window_cost": 0, "anchored": false, "fragile": false, "state_from": "COMMITTED", "state_to": "SEALED", "player_reasoning": "Verify the preserved set matches the recorded source state using abstract integrity values and documented provenance."}
+      ],
+      "dependencies": ["Field-E SECURE control permits maximum EVIDENCE_INTEGRITY", "CONTESTED control caps evidence integrity below maximum"],
+      "wrong_path_consequences": ["Over-collection consumes WINDOW and raises privacy EXPOSURE", "Casual handling lowers EVIDENCE_INTEGRITY", "Skipping verification yields weaker debrief confidence"],
+      "validation": "Preserved artifact verification values and provenance record must agree with the captured source state.",
+      "battlefield_effect": "Sealed evidence enables the strongest scope findings, preserves Jordan's story evidence option, and improves debrief authority."
+    },
+    {
+      "id": "LAB-E-VENDOR",
+      "location": "Z-F Vendor Closet",
+      "concept_ids": ["incident.supply-chain-attack", "vendor.third-party-risk"],
+      "primary_roles": ["Field-R", "Field-T"],
+      "initial_state": "UNSEEN",
+      "stages": [
+        {"id": "E1", "task_atom": "OBSERVE", "ap_cost": 1, "window_cost": 0, "anchored": false, "fragile": false, "state_from": "UNSEEN", "state_to": "OBSERVED", "player_reasoning": "Inspect fictional vendor inventory and maintenance context without assuming third-party involvement proves causation."},
+        {"id": "E2", "task_atom": "COMPARE", "ap_cost": 1, "window_cost": 0, "anchored": false, "fragile": false, "state_from": "OBSERVED", "state_to": "VERIFIED", "player_reasoning": "Compare vendor-linked state against independent incident evidence before promoting it into the compromise scope."}
+      ],
+      "dependencies": ["Timeline evidence determines whether vendor context increases scope confidence"],
+      "wrong_path_consequences": ["Assuming vendor equals attacker produces an attribution-bias debrief flag and unnecessary isolation risk"],
+      "validation": "Vendor relevance counts only when at least one independent mission evidence source supports the relationship.",
+      "battlefield_effect": "Correctly correlated vendor context reveals one hidden dependency edge at the primary service node."
+    },
+    {
+      "id": "LAB-F-PHYSICAL",
+      "location": "Z-G Loading Corridor",
+      "concept_ids": ["physical.usb-risk", "rfid.rfid", "forensics.evidence-preservation"],
+      "primary_roles": ["Field-R", "Field-E"],
+      "initial_state": "UNSEEN",
+      "stages": [
+        {"id": "F1", "task_atom": "OBSERVE", "ap_cost": 1, "window_cost": 0, "anchored": false, "fragile": false, "state_from": "UNSEEN", "state_to": "OBSERVED", "player_reasoning": "Identify a physical access artifact as a relevant clue while keeping its meaning provisional."},
+        {"id": "F2", "task_atom": "PRESERVE", "ap_cost": 1, "window_cost": 0, "anchored": false, "fragile": true, "state_from": "OBSERVED", "state_to": "SEALED", "player_reasoning": "Secure and document the fictional physical clue after Field-E controls the tile, preserving provenance under tactical pressure."}
+      ],
+      "dependencies": ["Field-E must make the clue tile SECURE for maximum integrity"],
+      "wrong_path_consequences": ["Casual pickup during contact lowers evidence integrity but does not erase the clue"],
+      "validation": "The physical artifact becomes evidentiary only when its time/location/provenance is documented and correlated with other incident evidence.",
+      "battlefield_effect": "Preserved physical evidence improves incident chronology and may reveal a threat approach earlier."
+    }
+  ],
+  "threat_schedule": [
+    {"trigger": "Round 1", "event": "Crowd movement and incomplete staff reports", "lab_or_board_effect": "Pathing pressure without guaranteed combat; timeline contains low-confidence noise."},
+    {"trigger": "Round 2 or Detection >= 3", "event": "Suspicious movement appears in Loading Corridor", "lab_or_board_effect": "Field-R must choose between evidence work and overwatch/pursuit."},
+    {"trigger": "Containment work begun before evidence sealed", "event": "Opportunistic intruder advances toward evidence/service areas", "lab_or_board_effect": "Field-E must protect a technical room or accept interruption risk."},
+    {"trigger": "Any gunfire before identity validation", "event": "Confused armed security approaches noise", "lab_or_board_effect": "Can become hostile if authorization state remains unclear."},
+    {"trigger": "Round 5 with underscoped containment", "event": "Hidden affected service degrades", "lab_or_board_effect": "SERVICE_HEALTH drops and T receives an additional recovery task."},
+    {"trigger": "Vendor clue discovered and Evidence Room unsecured", "event": "Evidence-destruction actor moves toward Z-E", "lab_or_board_effect": "R warning can buy E one repositioning round."}
+  ],
+  "kinetic_coupling": [
+    {"kinetic_action_or_state": "Gunfire through marked rack lanes in Z-D", "technical_effect": "Raises Detection and risks visible equipment-state degradation that adds a recovery/validation step.", "technical_success_back_effect": "Verified containment can disable one hostile door-control behavior and reduce reinforcement timing."},
+    {"kinetic_action_or_state": "Field-E suppression or Hold in a technical room", "technical_effect": "Can preserve CONTROL and protect a fragile or anchored Field-T stage without requiring threat elimination.", "technical_success_back_effect": "Restored trusted identity state can prevent armed security from escalating against the squad."},
+    {"kinetic_action_or_state": "Field-R spends both AP on Overwatch/repositioning", "technical_effect": "External lane is protected but no evidence token is produced that round, potentially increasing T lab cost.", "technical_success_back_effect": "Improved incident telemetry can reveal an approach marker and strengthen R Picture."}
+  ],
+  "learning_mastery": {
+    "weighted_concepts": [
+      {"concept_id": "incident.breach-indicator", "weight": 15},
+      {"concept_id": "incident.abnormal-data-transfer", "weight": 10},
+      {"concept_id": "observability.access-log", "weight": 10},
+      {"concept_id": "incident.containment", "weight": 20},
+      {"concept_id": "forensics.evidence-preservation", "weight": 20},
+      {"concept_id": "identity.mfa", "weight": 10},
+      {"concept_id": "vendor.third-party-risk", "weight": 5},
+      {"concept_id": "crypto.hash", "weight": 10}
+    ],
+    "telemetry_required": [
+      "first lab interpretation",
+      "final committed interpretation",
+      "AP spent per lab",
+      "Evidence Tokens consumed",
+      "Control state during fragile work",
+      "Picture state during decision",
+      "validation performed or skipped",
+      "wrong-path consequence triggered",
+      "combat actions that altered lab state",
+      "technical actions that altered battlefield state"
+    ]
+  },
+  "operational_scoring": {
+    "objective": "Score containment quality, defensible scope, trusted restoration, and optional protected notification/story evidence.",
+    "team": "Score operator/civilian safety, injuries, downs, and extraction state.",
+    "exposure": "Score Detection peak, public-hall gunfire, unauthorized evidence-room access, and response-driven privacy disclosure.",
+    "integrity": "Score evidence integrity, authorization boundaries, preservation before destructive recovery, and completed validation.",
+    "time": "Score remaining Window/Extract time while preserving the anti-binary partial-success rules."
+  },
+  "debrief_links": [
+    {"concept_id": "incident.breach-indicator", "lyric_cue_ref": "Data-Breach timed lyric cue: breach-symptom hook", "reason_shown": "Shown when the player treated a symptom as proof or correctly maintained uncertainty."},
+    {"concept_id": "identity.mfa", "lyric_cue_ref": "Data-Breach timed lyric cue: multi-factor security", "reason_shown": "Shown after identity-console choices to reinforce authentication reasoning."},
+    {"concept_id": "incident.supply-chain-attack", "lyric_cue_ref": "Data-Breach timed lyric cue: supply-chain attacks", "reason_shown": "Shown when vendor evidence was over-attributed or correctly corroborated."},
+    {"concept_id": "observability.access-log", "lyric_cue_ref": "Data-Breach timed lyric cue: review access logs", "reason_shown": "Shown after scope validation or skipped log correlation."},
+    {"concept_id": "forensics.evidence-preservation", "lyric_cue_ref": "Data-Breach mission-linked evidence review cue", "reason_shown": "Shown when preservation integrity affected debrief confidence."}
+  ],
+  "acceptance_tests": [
+    "Player uses cover/shooting/overwatch/suppression in the same mission as substantive incident-response labs.",
+    "At least one shooting decision changes technical risk or state.",
+    "At least one technical success changes tactical board state.",
+    "Field-R information materially changes a Field-T lab decision or AP cost.",
+    "Field-E Control materially protects a Field-T fragile or anchored stage.",
+    "Field-T must reason about evidence and dependencies rather than press a generic hack button.",
+    "A wrong technical choice creates an observable causal consequence and remains recoverable in normal play.",
+    "Validation is a distinct action from configuration/containment.",
+    "Window expiration transitions to extract with partial work rather than a binary fail banner.",
+    "Debrief can identify specific mastered/missed concepts and link back to lyric cues.",
+    "No live target, real credential, or actionable external intrusion procedure is required.",
+    "Mission remains entertaining if optional full lesson pages are never opened."
+  ]
+}
