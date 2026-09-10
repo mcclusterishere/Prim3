@@ -1,527 +1,363 @@
 ---
 status: CANON STORY RULE / MEMORY DETAILS PROPOSED UNTIL EPISODE DRAFTS LOCK
 system: High Alert reverse-memory architecture
-version: 1.0.1
+version: 2.0.0
 branch: main
 ---
 
-# HIGH ALERT — PRIME'S DISS RECORD / 17 MEMORY ANCHORS
+# HIGH ALERT — PRIM2'S DISS RECORD / 17 MEMORY ANCHORS
 
 ## Core chronology
 
-The **High Alert music film is shown in S1E1, but it happens chronologically in the middle of S7E1 — RAID (HOT SITE).**
+The **High Alert music film is shown in S1E1 but occurs chronologically in the middle of S7E1 — RAID (HOT SITE).**
 
-Presiding Prime is the performer.
+**PRIM2** is the performer.
 
-Jordan and his assault element have entered Site 0. Benji's separate assault
-element is entering the larger fight through the other side of Prime's hidden
-architecture, although S1E1 does not explain that second lane. Prime has
-already watched both approaches through the sleep-linked command system. The
-song is not a generic flex track and it is not future Jordan performing at a
-later succession.
+Jordan Vale's PRIM-side assault element and **Royce's Hitman-side assault element** are attacking Site 0 from different sides of PRIM2's hidden architecture. They are old rivals with pre-PRIM3 history, not strangers and not Jordan/Benji as two separate men.
 
-It is Presiding Prime talking directly to the people who have come to take his job.
+High Alert belongs primarily to the endgame triangle:
+- **PRIM2** — defending the Mantle;
+- **Jordan** — eventual PRIM3 challenger;
+- **Royce** — surviving Hitman-side sovereign/challenger.
 
-The song functions simultaneously as:
+It is deliberately unlike most Episodes 02–18, whose emotional ownership may belong primarily to other ensemble characters.
 
-1. **a diss record** — Prime puts the raiders in their place using facts only he should know;
-2. **a memory weapon** — selected bars trigger compressed images from the seven-year path;
-3. **a mystery trailer** — on first viewing none of those memories have context;
-4. **a season map** — Episodes 2–18 later reveal what each flash actually meant;
-5. **an Evil Twin setup** — several memories contain details whose full meaning is still withheld until Prime explains the dual board;
-6. **a RAID loop** — when S7E1 catches up to this exact scene, every image from the opening song is finally legible.
+The song functions as:
+1. a diss record;
+2. a memory weapon;
+3. a mystery trailer;
+4. a season map;
+5. a dual-board setup;
+6. a succession-title setup;
+7. a RAID loop.
 
-There are exactly **17 core memory anchors** because the episodes whose events occur chronologically before the High Alert RAID moment are global Episodes **02 through 18**.
+There are exactly **17 core memory anchors** because the chronologically prior story slots are global Episodes 02–18.
 
-RAID itself is the present tense of the song. Evil Twin and Ghost have not happened yet.
+The anchors do **not** imply Jordan owns all seventeen episodes. They are flashes selected by PRIM2 because they are useful against the people currently attacking him. The complete episode may reveal that another character actually owned the event.
 
-## Memory-cut rule
+> **The memory belongs to PRIM2's argument. The episode belongs to whoever changed because of it.**
 
-Inside the High Alert music film, each memory gets only **1–4 seconds**.
+---
 
-A memory should never explain itself in S1E1. It should feel like trauma, surveillance residue or a boastful visual cut.
+# Memory-cut rule
 
-When its actual episode arrives, the audience sees the complete scene and thinks:
+Each High Alert memory receives roughly 1–4 seconds.
 
-> That was the thing Prime flashed during High Alert.
+The first viewing should not explain itself. Later episodes reveal the full human story and may change the apparent owner of what was initially perceived as a Jordan memory.
 
-When Evil Twin arrives, some of those same scenes gain a **third meaning** because the audience finally understands Prime had been coordinating both Prim3 and Hitman.
+The strongest anchors can acquire three meanings:
+
+```text
+S1E1 IMAGE
+-> EPISODE HUMAN TRUTH
+-> LATE PRIM2 / DUAL-MEANING TRUTH
+```
 
 ---
 
 # THE 17 MEMORY ANCHORS
 
-## MEMORY 01 — S1E2 / WHITE GREY BLACK HAT
+## MEMORY 01 — S1E2 / WHITE GREY BLACK HAT — Permission
 
-**High Alert line:**  
-“So I may not let you in if you decline searches.”
+**Flash:** Jordan's bag at a McCluster access checkpoint; Nusrat holds an unregistered onboarding device; Jordan leaves his hands visible and declares it. A distant approval field resolves above the local access office.
 
-**Flash in High Alert:**  
-Jordan's first McCluster access checkpoint. His bag is open on a steel table. Nusrat Rahman holds up a small unregistered device from Jordan's onboarding kit. Jordan does not touch it. Behind the access glass, a camera iris tightens.
+**First-watch:** corporate-security imagery.
 
-**First-watch assumption:**  
-Random corporate-security imagery matching a bar about searches.
+**Full-episode freedom:** the episode can belong primarily to **Nusrat/Miguel/Amira** as a story about consistent rules and institutional pressure, with Jordan as the case that forces the question.
 
-**Episode reveal:**  
-The device was placed in a mixed onboarding kit by mistake or design; Jordan has enough technical confidence to use it but declares it instead. Aya notices. Prime quietly marks the incident as evidence that Jordan can distinguish capability from authorization.
+**Hidden layer:** Jordan's access ultimately survives an escalation above the visible local tree. Do not label that authority `P-00`; use a cryptic root-class approval or no readable identifier until later.
 
-**Hidden Prime layer:**  
-Jordan believes the badge turned green because he passed ordinary onboarding. The later record shows the final approval came from an unnamed authority above the access office.
-
-**Prime's diss meaning during RAID:**  
-*You are inside my building now, but the first time you entered my world, you entered because I allowed it.*
+**Diss meaning:** *You thought you entered because you passed the checkpoint. Someone above the checkpoint chose not to end your path there.*
 
 ---
 
-## MEMORY 02 — S1E3 / OSINT
+## MEMORY 02 — S1E3 / OSINT — Open Book
 
-**High Alert line:**  
-“I see my haters checking in they be online hurting; / I’m online working and on the grind in person.”
+**Flash:** Oksana/Rafael-style evidence fragments, public records, shipping/business/map data, and Jordan or another operator refusing an overclaim. An unnamed senior review later sees the same chain.
 
-**Flash in High Alert:**  
-Jordan sits at a public terminal with shipping records, business filings and map fragments spread across screens. For two frames, Prime is physically visible in the deep background walking past the glass outside.
+**First-watch:** research montage.
 
-**First-watch assumption:**  
-Stylized internet-research imagery.
+**Full-episode freedom:** the episode may be owned by **Oksana, Rafael, Aya, or another investigator**, with Jordan supporting or merely contributing one inference.
 
-**Episode reveal:**  
-Jordan reconstructs a missing equipment chain without touching a protected system. His work is forwarded anonymously to a senior reviewer. Jordan never notices the man outside.
+**Hidden layer:** PRIM2 can receive downstream work without physically walking behind Jordan in a library. The old mandatory physical-campus cameo is superseded.
 
-**Hidden Prime layer:**  
-Prime did not need a secret database to discover Jordan's method. He watched Jordan use public information correctly and later reviewed the same evidence chain himself.
-
-**Prime's diss meaning:**  
-*You thought you were learning to see people online. I was learning you in person.*
+**Diss meaning:** *You were learning what public information can reveal. I was learning what your team chooses not to claim without proof.*
 
 ---
 
-## MEMORY 03 — S2E1 / ANTI SOCIAL ENGINEERING
+## MEMORY 03 — S2E1 / ANTI SOCIAL ENGINEERING — Human Layer
 
-**High Alert line:**  
-“Another dame, another dime, another diversion.”
+**Flash:** Rae “Twin” Colton and Sora “Gymnast” Okada cross the same public-event ecosystem through radically different social lanes and never realize they are sibling assets under one hidden apex.
 
-**Flash in High Alert:**  
-At a polished McCluster public event, two women pass in opposite directions through the same lobby: Rae “Twin” Colton dressed for the street-facing side of the event, and Sora “Gymnast” Okada moving through the donor/VIP side. Neither looks at the other. Prime's reflection sits perfectly between them in the revolving-door glass.
+**First-watch:** two unrelated social characters.
 
-**First-watch assumption:**  
-Two unrelated attractive social characters used as music-video texture.
+**Episode owner candidate:** **Rae / Sora / Kira / Priya**. Jordan may be absent.
 
-**Episode reveal:**  
-The episode focuses on a social-engineering incident and only one side of the lobby operation is understandable to Jordan. The second woman appears incidental.
+**Late payoff:** PRIM2 does not need a literal reflection between them. Their unknowingly coordinated existence is enough.
 
-**Evil Twin payoff:**  
-Rae and Sora were unknowingly operating two social-entry lanes tied to Prime's sibling organizations. They did not know the other existed.
-
-**Prime's diss meaning:**  
-*While you were learning that people can be diversions, I was running two diversions through the same room without either one seeing the board.*
+**Diss meaning:** *You learned people can be interfaces. I had two interfaces touching the same room without either seeing the other side.*
 
 ---
 
-## MEMORY 04 — S2E2 / RED BLUE PURPLE WHITE TEAM
+## MEMORY 04 — S2E2 / RED BLUE PURPLE WHITE TEAM — Four Colors
 
-**High Alert line:**  
-“Never screwing over gang; rather die a virgin.”
+**Flash:** a messy multinational team image after the exercise; Chioma, Aya, Arjun, Rafael, Sari, Yonas and others are laughing instead of posing correctly.
 
-**Flash in High Alert:**  
-A messy cohort group photo after the four-color exercise. Jordan, Aya, Chioma, Arjun, Rafael, Sari and the others are laughing instead of posing correctly. Freeze for one beat on Prime watching the image remotely rather than appearing in it.
+**First-watch:** team/family visual.
 
-**First-watch assumption:**  
-A generic “my team” flex.
+**Episode owner candidate:** **Chioma / Thandiwe / ensemble**, not necessarily Jordan.
 
-**Episode reveal:**  
-The formal red/blue/purple/white exercise becomes the first day the cohort genuinely behaves like a unit. Prime receives a recommendation to split several of them into stronger individual assignments and rejects it.
+**Hidden layer:** a staffing recommendation to separate high-value people is rejected from above. PRIM2 understands that real loyalties make later authority tests meaningful.
 
-**Hidden Prime layer:**  
-Prime believes candidates must develop real loyalties before the succession path can test what those loyalties cost.
-
-**Prime's diss meaning:**  
-*I let you become a family. Now you brought that family into my house to kill me.*
+**Diss meaning:** *You became people to one another before you became pieces on my board.*
 
 ---
 
-## MEMORY 05 — S2E3 / GOT WIFI
+## MEMORY 05 — S2E3 / GOT WIFI — Dead Air
 
-**High Alert line:**  
-“FBI lurkin’; got me wire nervous.”
+**Flash:** emergency radio/spectrum state, responder demand and one isolated operator competing for scarce reliable communications.
 
-**Flash in High Alert:**  
-A spectrum display collapses into emergency radio traffic. One responder channel and one trapped-operator channel fight for limited usable coverage. Prime's finger hovers over neither; the system makes both visible to him. Cut to the older operator's radio hitting the floor.
+**First-watch:** wireless crisis.
 
-**First-watch assumption:**  
-Wireless paranoia matching the lyric.
+**Episode owner candidate:** **Rafael / Hassan / Aya / Minh / affected veteran or family relationship**.
 
-**Episode reveal:**  
-During the severe-weather communications failure, the team has insufficient reliable wireless capacity for every demand at once. A senior operator is isolated while responder communications are restored. The operator dies during the physical emergency.
+**Hidden layer:** a senior authority accepts a decision prioritizing larger civilian response over one operator channel. PRIM2 did not cause the weather or the failure; he accepted a human cost.
 
-**Hidden Prime layer:**  
-Prime knew about the competing communications priorities before the cohort did and backed the decision that protected the larger civilian response rather than the single operator channel. He did not cause the disaster, but he accepted the human cost.
-
-**Prime's diss meaning:**  
-*You still carry that death like nobody made the choice. Somebody did.*
+**Diss meaning:** *Somebody made the choice you still talk about as if the system chose by itself.*
 
 ---
 
-## MEMORY 06 — S3E1 / DATA BREACH
+## MEMORY 06 — S3E1 / DATA BREACH — Exposure
 
-**High Alert line:**  
-“If my name ain’t on the sign it’s not the right merchant.”
+**Flash:** leaked personnel material reveals that McCluster held pre-recruitment data about multiple people earlier than expected. One legacy/root authorization field cannot be explained by the visible org chart.
 
-**Flash in High Alert:**  
-Jordan's leaked pre-recruitment dossier scrolls past. In a metadata pane is a tiny authorization mark: `P-00`. Jordan's face is reflected over it but his eyes are focused somewhere else.
+**First-watch:** classified-file visual.
 
-**First-watch assumption:**  
-A cool classified-file visual.
+**Episode owner candidate:** **Grace / Leila / Oksana / Hassan**, with Jordan's dossier one of several emotionally loaded exposures.
 
-**Episode reveal:**  
-The personnel breach exposes that McCluster held information about Jordan before his formal recruitment. He sees the `P-00` approval but does not yet know what the code means.
+**Hidden layer:** the old literal `P-00` code is deprecated. The important fact is that a hidden root authority exists, not that a convenient label spoils it.
 
-**Evil Twin payoff:**  
-P-00 is Presiding Prime's sovereign approval. Prime personally signed Jordan into the candidate architecture.
-
-**Prime's diss meaning:**  
-*My signature was on your story before you knew my name.*
+**Diss meaning:** *You learned your organization had files before it had relationships with you. You still did not know who was reading above the readers.*
 
 ---
 
-## MEMORY 07 — S3E2 / APP ATTACKS
+## MEMORY 07 — S3E2 / APP ATTACKS — Bad Input
 
-**High Alert line:**  
-“Feeling like an aupair, who saying we soft, where? (Software).”
+**Flash:** Chioma issues an order; a technical operator sees another path; an exception or permissive state appears from outside the visible approval chain.
 
-**Flash in High Alert:**  
-Chioma is shouting an order at Jordan during the application incident. Jordan commits to his unauthorized workaround. On a hidden authorization layer the state changes from `BLOCK` to `TEMPORARY EXCEPTION — P-00` one second before Jordan's action succeeds.
+**First-watch:** application/action graphics.
 
-**First-watch assumption:**  
-Fast software/action graphics.
+**Episode owner candidate:** **Chioma / Aya / Minh / Leila**. Jordan may be the operator who challenges the order, but the emotional episode can belong to Chioma's command problem.
 
-**Episode reveal:**  
-Jordan disobeys Chioma and saves the operation. The institution praises the result, deepening the conflict between Jordan's improvisation and Chioma's command discipline.
+**Hidden layer:** if Jordan improvises successfully, do not make the success entirely PRIM2's gift. PRIM2 may shape an authorization boundary, but Jordan still has to perceive/execute the path and Chioma still owns the command consequence.
 
-**Later reveal:**  
-Jordan's “rebellion” only worked because Prime silently permitted the exception. Chioma was never told.
-
-**Prime's diss meaning:**  
-*Even the day you proved you would disobey authority, you did it inside an authority boundary I opened for you.*
+**Diss meaning:** *You call the result proof you were right. The deeper question is who was allowed to take the risk and who paid if it failed.*
 
 ---
 
-## MEMORY 08 — S3E3 / VIRUS TYPES
+## MEMORY 08 — S3E3 / VIRUS TYPES — Patient Zero
 
-**High Alert line:**  
-“I’m potent. The contact high is perfect.”
+**Flash:** compromised identity/credential propagation; one person suppresses a warning because of shame; another character refuses to accuse without evidence.
 
-**Flash in High Alert:**  
-A compromised credential propagates across a visualization of the cohort. One character quietly closes a warning instead of reporting it. Prime sees the anomaly from another screen and does nothing for three seconds.
+**First-watch:** infection metaphor.
 
-**First-watch assumption:**  
-A malware/infection metaphor.
+**Episode owner candidate:** **Aya / Minh / Leila / Sora or another compromised character**.
 
-**Episode reveal:**  
-The team wastes time blaming the wrong people because one cohort member hides the original mistake. The crisis improves only after the truth is admitted.
+**Hidden layer:** a senior observer may suspect the origin before the team and wait briefly for self-correction. This is an evaluation of truth under shame, not proof PRIM2 created the incident.
 
-**Hidden Prime layer:**  
-Prime knew the likely origin early. He deliberately gave the team a limited window to self-correct before intervention because he was evaluating whether shame would destroy their trust faster than the compromise itself.
-
-**Prime's diss meaning:**  
-*I knew who was sick before you started accusing one another. I was watching to see whether you could tell the truth without me.*
+**Diss meaning:** *I did not need to infect you to learn what embarrassment does to your trust.*
 
 ---
 
-## MEMORY 09 — S4E1 / INSTALLATION TYPES
+## MEMORY 09 — S4E1 / INSTALLATION TYPES — Clean Install
 
-**High Alert line:**  
-“It’s a higher purchase but the price is worth it.”
+**Flash:** Jordan and Aya's personal worlds become visibly entangled while separate placement/assignment systems begin treating them as an operational pair.
 
-**Flash in High Alert:**  
-Jordan and Aya carry one small box into a shared private space after choosing each other. Smash-cut to two separate McCluster personnel-placement screens being collapsed into one operational region by an unseen approver.
+**First-watch:** relationship/career montage.
 
-**First-watch assumption:**  
-Romantic visual shorthand beside a lyric about cost.
+**Episode owner candidate:** **Aya** as easily as Jordan.
 
-**Episode reveal:**  
-Jordan and Aya make their relationship explicit while both are offered deeper institutional paths. Staying geographically/operationally aligned costs each of them something professionally.
+**Hidden layer:** PRIM2 does not manufacture their relationship. Once it exists, the institution models it and can make decisions around it.
 
-**Hidden Prime layer:**  
-Prime does not create their relationship, but once it exists he recognizes the pair as operationally stronger together and approves a placement structure that keeps them close.
-
-**Patch Work payoff:**  
-They later learn their intimacy was also being modeled as an institutional dependency.
-
-**Prime's diss meaning:**  
-*You call it love. I watched you decide what you were willing to pay for it.*
+**Diss meaning:** *You made the relationship. The system learned to treat it as infrastructure.*
 
 ---
 
-## MEMORY 10 — S4E2 / DIVE IN
+## MEMORY 10 — S4E2 / DIVE IN — Dumpster Signal
 
-**High Alert line:**  
-“I’m just glad I found a path, brothers die searching.”
+**Flash:** a corroded former-candidate artifact, physical traces, and infrastructure that should not exist according to public paperwork.
 
-**Flash in High Alert:**  
-Inside the decommissioned facility, Jordan pulls a corroded plate from behind a cable tray. Scratched into the back is an old candidate mark and a name the audience cannot read before the cut.
+**First-watch:** dead-operator relic.
 
-**First-watch assumption:**  
-A dead-operator relic.
+**Episode owner candidate:** **Rafael / Oksana / Aya / Jordan**, depending final episode design.
 
-**Episode reveal:**  
-Jordan follows physical traces into infrastructure that should not exist according to McCluster's public paperwork. The plate belonged to a former operator who investigated the same hidden architecture years before.
+**Later layer:** an earlier candidate/operator also approached hidden succession architecture and failed.
 
-**Later reveal:**  
-The dead operator was one of Prime's earlier succession candidates. They literally died searching for the path Jordan is now following.
-
-**Prime's diss meaning:**  
-*You think finding me makes you special. I have buried people who got almost this far.*
+**Diss meaning:** *Finding a path does not mean you are the first person who found it.*
 
 ---
 
-## MEMORY 11 — S4E3 / IOT
+## MEMORY 11 — S4E3 / IoT — House of Eyes
 
-**High Alert line:**  
-“I don’t even need a 9. I'm the 1 twice over, I’m who they dial first.”
+**Flash:** Pylon exposes contradictory priorities; a door/camera responds before the local operator issues the expected command; Jonas notices before anybody can explain it.
 
-**Flash in High Alert:**  
-Pylon shows two identical priority indicators: `1 / 1`. A door opens before Jonas issues the command. A camera tracks Jordan before he enters the room. Prime is asleep elsewhere.
+**First-watch:** smart-building autonomy/failover.
 
-**First-watch assumption:**  
-A slick “number one” visual inside the smart-building sequence.
+**Episode owner candidate:** **Jonas / Pylon / Hassan / Minh**. Jordan can be supporting or absent.
 
-**Episode reveal:**  
-The building responds to an authority the team cannot initially identify. After the crisis Jordan finally meets Presiding Prime physically.
+**Hidden layer:** the building has access to higher-context authority originating through PRIM2's root layer. If this is the first physical meeting with PRIM2, the irony is that the characters have already interacted with his authority indirectly.
 
-**Ghost payoff:**  
-Prime did not arrive after the IoT crisis. He had already been operating through the building while asleep.
-
-**Prime's diss meaning:**  
-*The first time you thought you met me, you had already been standing inside me all day.*
+**Diss meaning:** *You thought meeting the man was the first time you met the system.*
 
 ---
 
-## MEMORY 12 — S5E1 / IAAS, SAAS, PAAS
+## MEMORY 12 — S5E1 / IaaS, SaaS, PaaS — Shared Responsibility
 
-**High Alert line:**  
-“Sleep on me, then rest you may (resume) when you enter view (interview) of the scope of my work.”
+**Flash:** layered dependency maps match-cut against PRIM2's sleep-linked command representation.
 
-**Flash in High Alert:**  
-Jordan studies a layered service dependency map. Match cut to Prime asleep in the suspension system while the exact same dependency map exists around him as dream-space geography.
+**First-watch:** stylized cloud/shared-responsibility imagery.
 
-**First-watch assumption:**  
-Surreal sleep imagery attached to the hook.
+**Episode owner candidate:** **Li / Yonas / Helen**.
 
-**Episode reveal:**  
-Jordan learns that infrastructure, platform and application responsibility sit across layers no single team fully owns. Somewhere above them, an unnamed authority resolves a cross-layer dependency without appearing in the room.
+**Hidden layer:** the visible program teaches distributed responsibility while the secret Mantle concentrates final authority.
 
-**Later reveal:**  
-Prime was actively working the architecture while asleep.
-
-**Prime's diss meaning:**  
-*You spent years trying to understand the scope of my work while I was doing it with my eyes closed.*
+**Diss meaning:** *You spent years learning that responsibility is shared while living under a system whose final permission was not.*
 
 ---
 
-## MEMORY 13 — S5E2 / CAP EX VS. OP EX
+## MEMORY 13 — S5E2 / CapEx vs OpEx — Own the Exit
 
-**High Alert line:**  
-“Man I’m so about the bag, I design purses.”
+**Flash:** Marc/Amira/Helen debate owned versus leased infrastructure, resilience, cost and exit options; an expensive owned backbone survives into RAID.
 
-**Flash in High Alert:**  
-A boardroom model shows a cheaper leased route and a much more expensive owned infrastructure route. Prime's approval lands on the expensive owned option. Smash cut to that same physical backbone years later carrying Jordan's RAID traffic inside Site 0.
+**First-watch:** finance/ownership flex.
 
-**First-watch assumption:**  
-Money/ownership flex.
+**Episode owner candidate:** **Marc / Amira / Aya**. Jordan may contribute Wildcard operational perspective without owning the episode.
 
-**Episode reveal:**  
-Jordan and Aya learn how ownership changes long-term control, flexibility and risk. Prime repeatedly pays more to own several critical links instead of depending on outside providers.
+**Hidden layer:** PRIM2 often pays for independence because external dependency limits root authority.
 
-**RAID payoff:**  
-The owned infrastructure is part of why Site 0 remains operable during the assault—and part of the path Jordan later uses to take it.
-
-**Prime's diss meaning:**  
-*You are attacking me through infrastructure I paid to own. Even your route to my throat is part of my balance sheet.*
+**Diss meaning:** *Even the route you use against me exists partly because I refused to rent the right to survive.*
 
 ---
 
-## MEMORY 14 — S5E3 / TRAPPIN FROM THE CLOUD
+## MEMORY 14 — S5E3 / Trappin From The Cloud — Elastic
 
-**High Alert line:**  
-“I don’t need to move techs or packs I move tech packs design merch.”
+**Flash:** two compatible hard cases/resources leave separated logistics lanes. One reaches a PRIM/McCluster mission; another reaches **Royce's Hitman people** elsewhere.
 
-**Flash in High Alert:**  
-Two identical hard cases leave the same logistics system. One is received by Jordan's Prim3 team. The other is received in another city by Benji's people. The camera never shows both recipients in the same shot.
+**First-watch:** global logistics duplication.
 
-**First-watch assumption:**  
-Global logistics imagery.
+**Episode owner candidate:** **Li / Sari / Yonas / Sable / Rack**. Jordan does not need to receive either case personally.
 
-**Episode reveal:**  
-Jordan's operation scales into cloud/global coordination and he notices evidence that an unidentified second team is solving another objective inside the same event.
+**Evil Twin payoff:** the lanes belong to sibling structures under PRIM2's hidden board.
 
-**Evil Twin payoff:**  
-The second case belonged to Hitman. Prime was equipping both sides through separated procurement lanes.
-
-**Prime's diss meaning:**  
-*You thought you discovered another team. I packed both bags.*
+**Diss meaning:** *You discovered another hand on the event. You had not yet discovered the person who could see both hands.*
 
 ---
 
-## MEMORY 15 — S6E1 / PER DIEM
+## MEMORY 15 — S6E1 / Per Diem — Road Kit
 
-**High Alert line:**  
-“My team paid in full and y’all the trail version.”
+**Flash:** vouchers, hotel keys, emergency funds, family support and deployment fatigue. Payments continue to someone harmed/lost earlier while younger people are classified through a system they do not fully understand.
 
-**Flash in High Alert:**  
-Travel vouchers, hotel keycards, emergency cash and direct-deposit notices whip across frame. One payment continues to the family account of the veteran who died in S2E3. Another roster column quietly labels younger operators `CANDIDATE` instead of `CORE`.
+**First-watch:** team compensation/travel imagery.
 
-**First-watch assumption:**  
-Prime bragging that his people get paid.
+**Episode owner candidate:** **Arjun / Rafael / Sable / Dez / family/outside relationship**.
 
-**Episode reveal:**  
-Jordan sees the human economics of constant deployment: missed lives, travel exhaustion, field allowances, families and younger trainees romanticizing the work. He learns that Prime personally refuses several cost-cutting policies that would shift mission costs onto operators.
+**Hidden layer:** institutional care and institutional instrumentality coexist. PRIM2 can sincerely protect compensation while also evaluating people as candidates/resources.
 
-**Darker reveal:**  
-The same system that pays people properly also categorizes some of them as temporary succession candidates. Care and expendability exist in the same institution.
-
-**Prime's diss meaning:**  
-*I paid the people you call disposable. You were the trial version who mistook surviving long enough for ownership.*
+**Diss meaning:** *Being cared for by a system does not prove the system sees you only as a person.*
 
 ---
 
-## MEMORY 16 — S6E2 / PATCH WORK
+## MEMORY 16 — S6E2 / Patch Work — Trust Boundary
 
-**High Alert line:**  
-“Send my angels out to ride on a sly serpent.”
+**Flash:** Aya and Jordan discover that personal relationships, mentorship assignments and institutional observation have been modeled together more deeply than either understood. A brief Hana/Kkeutori image can intrude into Aya's reaction.
 
-**Flash in High Alert:**  
-Seven years earlier, Aya receives Jordan's first technical profile on a tablet. The tasking header is visible for less than a second: `MENTOR / OBSERVE / REPORT ANOMALIES`. Cut immediately to present-day Aya beside Jordan in the RAID.
+**First-watch:** relationship/institution trust crisis.
 
-**First-watch assumption:**  
-An unexplained romantic/operative image.
+**Episode owner candidate:** **Aya**.
 
-**Episode reveal:**  
-During Patch Work, Jordan discovers that Aya's original assignment included observing and reporting unusual behavior from him. She was never assigned to seduce him and the relationship became genuine, but the discovery makes Jordan question which parts of their history belonged to them and which parts belonged to Prime.
+**Current continuity:** DELETE the old locked idea that PRIM2 explicitly assigned Aya `MENTOR / OBSERVE / REPORT ANOMALIES` on Jordan from day one and therefore `introduced` the romance. That gives PRIM2 too much authorship over their relationship and conflicts with Aya's independent McCluster entry/Hana investigation.
 
-**Aya's side:**  
-She stopped treating him as a reportable subject long before the institution stopped expecting reports, and that decision created its own hidden risk.
+A stronger version is:
+- Aya already exists inside McCluster for her own reasons;
+- she and Jordan meet through legitimate work;
+- their relationship is real and self-created;
+- institutional analytics later model the relationship;
+- Aya may have ordinary professional reporting responsibilities, but she was not a planted romantic observer;
+- PRIM2 observes and exploits the dependency after it forms.
 
-**Prime's diss meaning:**  
-*You came here with the woman you think proves you escaped my design. I introduced the two of you.*
+**Kkeutori write:** Patch Work is a strong candidate for Aya to notice one of Hana's old deliberate `ん` losses, without completing the full decode yet.
 
-This line is intentionally crueler than the full truth. Prime is weaponizing a real institutional fact to make Jordan doubt a real relationship.
-
----
-
-## MEMORY 17 — S6E3 / SONG #21 — OPEN
-
-**High Alert line:**  
-“Fetch the waivers and the mitts, so we have paper evidence.”
-
-**Flash in High Alert:**  
-Jordan's hand signs a succession instrument. Another living hand—Prime's—presses a biometric authorization field elsewhere. A neutral adjudication screen changes from `CANDIDATE` to `CHALLENGE RECOGNIZED`.
-
-**First-watch assumption:**  
-Boxing/fight paperwork visual matching the lyric.
-
-**Required Episode 18 reveal:**  
-Whatever Song #21 ultimately teaches technically, its story must reveal that reaching Prime is **not an unsanctioned assassination**. The institution has a formal succession mechanism. A worthy candidate must knowingly trigger the challenge, Prime must genuinely resist, and the result must be capable of being recognized by the command architecture.
-
-Jordan chooses to invoke it.
-
-The technical details of the mission remain open until Song #21 is supplied, but this story event is fixed because it is the bridge into RAID.
-
-**Prime's diss meaning:**  
-*Stop calling this a rebellion. You signed up for the fight. I did too.*
+**Diss meaning:** *I did not create what you love. I learned where it connected to the system.*
 
 ---
 
-# PRESENT-TENSE DISS BARS — NOT FLASHBACKS
+## MEMORY 17 — S6E3 / Song #21 — Mission #18 OPEN
 
-The remaining key bars stay in the RAID present and should be staged as Prime addressing Jordan, Aya, Chioma and the surviving assault team while Site 0 fights around them.
+**Flash:** Jordan knowingly invokes a formal challenge/succession condition; a hidden adjudication state changes from candidate/evaluation toward recognized challenge. PRIM2's current living-root identity is visible only through abstract system consequence, not a tutorial-like mechanic.
 
-## “I’m on High Alert.”
+**First-watch:** fight paperwork / legalistic challenge imagery.
 
-Not a hook in the abstract. It is literal system state.
+**Required Episode 18 reveal:** reaching PRIM2 is not simply an unsanctioned assassination. The hidden Mantle architecture contains a succession challenge mechanism. Jordan deliberately crosses from investigating PRIM2 to deciding he must reach him.
 
-The property perimeter has been breached. Prime's sleep-command state has escalated to physical defense. Every repetition should show the alert propagating deeper through Site 0 while Prime gets closer to direct contact.
+The exact technical mechanism remains open until Song #21 is supplied.
 
-## “Yeah I got nerves don’t work em! Quit while you're ahead before they fire first.”
-
-Prime to the assault team.
-
-He knows exactly how frightened they are because he has telemetry, personnel history and years of observation. It is both warning and insult: *you still have time to leave before the institution starts doing what it was built to do.*
-
-## “I hear the choir, church. I’m on my higher purpose.”
-
-Prime's moral self-conception.
-
-He is not defending Site 0 because he loves a chair. He believes his global interventions prevented worse outcomes. Jordan has come to take power from a man who sincerely thinks history required him.
-
-## “Catch a demon slacking, that's a suit and tie service.”
-
-Prime rejects the idea that the real threats are only people holding weapons.
-
-His targets have included governments, executives, financial actors and polished institutions. This line should cut through executive-board imagery rather than street imagery.
-
-## “If you buy verses, I’m the guy to work with.”
-
-Prime to the governments, sponsors and power brokers who have bought fragments of his capability without realizing they were purchasing one verse from a man writing both sides of the song.
-
-This becomes especially vicious after Evil Twin.
-
-## “I’m known to raise the bar far above the highest perches.”
-
-Prime to Jordan specifically.
-
-Every requirement Jordan believes was unfair was still lower than the standard Prime survived when he took the role in nine months. Prime's contempt and respect coexist here.
-
-## “Ain’t afraid to check your chin you wanna fight? Perfect.”
-
-Pure present tense.
-
-The succession challenge has been invoked. Prime cannot surrender. Jordan cannot claim legitimacy without defeating a Prime who is genuinely trying to stop him.
-
-## “I’ll even pay to ref for this you got the right person.”
-
-The fight has an adjudication layer. Prime is almost mocking the formality of it: *you wanted a legitimate contest? Fine. The system is watching.*
-
-## “They need to get over clocking me cause their time worthless.”
-
-The raid team has spent years studying Prime's routines, sleep cycles, system dependencies and response patterns.
-
-Prime's answer is that his “routine” is distributed; studying the body never gave them the whole schedule.
-
-## “I conduct myself so shockingly I fry circuits.”
-
-Use this during the most kinetic Site 0 defense passage: power transfers, defensive systems, damaged infrastructure, conductive hazards, emergency isolations. It is a technical brag and battlefield imagery at once.
-
-## “I got the formula baby you infant…”
-
-Prime's ugliest superiority bar.
-
-He sees Jordan as brilliant but developmentally young relative to the scope of the chair. The line should sting because Jordan is nearly forty and has spent seven years earning the right to stand there—and Prime can still make him feel like the 33-year-old freshman.
-
-## “I’m on the grind in person.”
-
-Prime finally leaves the protected sleep-command environment and enters the physical defense himself.
-
-The Ghost becomes a man again because the challenge has reached the point where physical presence matters.
+**Diss meaning:** *You wanted the right to challenge the root. Now stop pretending the resistance is unfair.*
 
 ---
 
-# HIGH ALERT EDITING PRINCIPLE
+# Present-tense High Alert principles
 
-The song should make the audience believe Prime is bragging.
+The remaining diss bars stay in RAID present tense and are aimed primarily at **Jordan, Royce and the surviving assault context**.
 
-The series should eventually prove he was **citing evidence**.
+## `I'm on High Alert.`
 
-Every boast has a file behind it.
-Every insult has a shared history behind it.
-Every memory has an episode behind it.
-Every episode reveals that Prime was closer than Jordan understood.
+Literal Site 0 escalation state. PRIM2 has been operating through distributed awareness before physical confrontation.
 
-By the time S7E1 returns to the exact High Alert moment, the song should feel completely different from the first viewing.
+## Fight / check-your-chin material
 
-On first watch: **Who the hell is this guy?**
+The succession challenge requires real resistance. PRIM2 cannot simply hand over the Mantle once a challenger arrives.
 
-On the RAID rewatch: **He remembers everything.**
+## Higher-purpose material
 
-After Evil Twin: **He was running more of those memories than we knew.**
+PRIM2 sincerely believes his interventions prevented worse outcomes. The antagonist must have a coherent moral self-conception rather than defend power because `evil boss likes chair`.
 
-After Ghost: **And now the new Prime has to decide how much of that god-view should survive.**
+## Suit-and-tie / institutional-threat material
+
+PRIM2's board includes governments, executives, financiers and institutions, not just visibly violent opponents.
+
+## Scope / sleep / grind-in-person material
+
+Use to contrast distributed sleep-command scale with the physical reality that RAID has finally forced PRIM2's authority back toward a body in Site 0.
+
+---
+
+# Episode-ownership reminder
+
+The existence of seventeen High Alert memories **must not** pull Episodes 02–18 back into Jordan-only storytelling.
+
+Before finalizing any anchor's full episode, record:
+
+```text
+EPISODE OWNER:
+SECONDARY OWNER(S):
+JORDAN PRESENCE A/B/C/D/E/F:
+MISSION LEAD:
+PRIMARY PLAYABLE POV(S):
+WHAT PRIM2'S FLASH CHOOSES TO EMPHASIZE:
+WHAT THE FULL EPISODE REVEALS PRIM2'S FLASH LEFT OUT:
+```
+
+A powerful technique is to make High Alert show the **Jordan-adjacent fragment**, then let the eventual episode reveal that the real emotional story belonged to somebody else.
+
+---
+
+# Continuity migration
+
+Effective immediately:
+- performer = **PRIM2**;
+- Hitman surviving challenger = **Royce**, not separate Benji;
+- `P-00` as an easy readable root code is deprecated unless deliberately used as a historical cover artifact;
+- Aya/Jordan romance is not a relationship PRIM2 created;
+- PRIM2 does not need a physical cameo in each anchor;
+- other characters may own most of Episodes 02–18;
+- the 17-anchor architecture remains intact.
