@@ -1,5 +1,5 @@
 ---
-status: DRAFT CHAPTER BLUEPRINT
+status: CANON CHAPTER BLUEPRINT
 season: 2
 episode: 1
 global_episode: 4
@@ -7,138 +7,138 @@ level_id: LVL-04
 song: Anti Social Engineering
 mission: The Human Layer
 runtime_target: 9 minutes
+branch: main
 ---
 
-# S2E1 - ANTI SOCIAL ENGINEERING
+# S2E1 — ANTI SOCIAL ENGINEERING / THE HUMAN LAYER
 
-## Merge contract
+## Episode ownership
 
-This chapter expands the locked Episode 04 position and Mission 04 summary. It
-does not canonize new cast, change the Jordan/Aya relationship, or turn social
-engineering into a procedural attack guide. Lyrics remain unchanged under
-`source-material/anti-social-engineering/`.
+```text
+EPISODE OWNER: Priya Srisawat
+SECONDARY OWNERS: Nusrat Rahman / Rae "Twin" Colton / Sora "Gymnast" Okada
+JORDAN NARRATIVE STATE: D — CAMEO / EDGE
+MISSION LEAD: Nusrat for access response; Priya owns public-event consequence
+BASE PLAYABLE ROSTER: Priya / Nusrat / Miguel / selected event-support specialist
+PRIMARY PLAYABLE POV: public-surface + access-control team
+JORDAN PLAY STATE: OFF-BOARD WILDCARD
+WILDCARD ELIGIBLE: yes if the event becomes CRITICAL
+APEX ELIGIBLE: no under normal state
+PRIM2 STORY VISIBILITY: background institutional gravity only
+ROYCE INCURSION ELIGIBLE: no random Royce incursion in the canonical first pass
+```
 
-## Chapter promise
+---
 
-At a crowded McCluster public event, Jordan and Aya must stop a person using
-charm, urgency, and borrowed familiarity to cross staff boundaries. The real
-test is protecting people without treating every guest like a suspect.
+# Human problem
 
-## Song payload
+Priya helped build the kind of McCluster environment that makes strangers feel welcomed, important and already halfway inside the room.
 
-- **Technical:** phishing and smishing awareness, pretexts, shoulder surfing,
-  spoofed identity signals, location leakage, and the human attack surface.
-- **Human:** distrust, appearance versus capability, fear disguised as
-  confidence, and the temptation to manipulate people before they manipulate
-  you.
-- **Visual:** faces reflected in phone glass, badges seen from above, messages
-  arriving faster than staff can verify them, and a surveillance drone that
-  can see posture but not intent.
-- **Safety:** the player identifies contradictions, verifies through approved
-  channels, and protects targets; no credential theft or exploit construction
-  is simulated.
+That is good brand design.
+It is also exploitable social architecture.
 
-## Nine-minute episode
+At a crowded public event, someone uses urgency, status cues and partially legitimate information to pressure staff across a boundary.
 
-### 0:00-3:00 - Music film
+The episode belongs to Priya because the incident attacks something she is proud of:
 
-The performer moves through a polished event while apparently ordinary social
-moments reveal second meanings: a glance at a badge, a rushed text, a guest who
-knows a private nickname, and a helpful stranger who always arrives beside an
-open door. The final image freezes on two people wearing visually identical
-credentials.
+> **Can you create belonging without making trust automatic?**
 
-### 3:00-6:00 - Human story
+Nusrat sees the access problem.
+Priya sees the social system that made the pretext persuasive.
+Miguel tries to keep correction from humiliating innocent staff.
+Rae and Sora can appear on separate social layers of the same event, creating later dual-board meaning without requiring either woman to understand the whole architecture yet.
 
-Jordan returns from his first policy fellowship more protective of ordinary
-people and more suspicious of institutions that label them. Aya believes his
-empathy is valuable but worries it makes him slow to deny access. Their
-argument becomes personal when a staff member Jordan defended is discovered to
-have broken procedure for someone they trusted.
+Jordan may appear briefly as another person moving through the event, but he is not the solution by default.
 
-### 6:00-9:00 - Watch / Play mission
+---
 
-WATCH shows Aya finding the technical inconsistency while Jordan notices the
-human pretext does not fit the relationship being claimed. PLAY asks the player
-to keep the event moving, verify identities, protect a pressured staff member,
-and route a questionable guest into a controlled conversation without panic.
+# Technical / human thesis
 
-## Playable level contract
+The song teaches defensive recognition of:
+- pretexting;
+- urgency/status pressure;
+- phishing/vishing/smishing awareness;
+- shoulder surfing/location leakage;
+- identity verification;
+- tailgating/proximity risk;
+- trusted-channel confirmation;
+- human-centered reporting.
 
-- **Player role:** Jordan, with Aya as live verification partner.
-- **Environment:** public-event lobby, staff corridor, check-in desk, service
-  entrance, and a controlled interview room.
-- **Primary loop:** listen, compare claims, verify through a trusted channel,
-  redirect people, and document why.
-- **Primary objective:** identify and contain the false pretext before protected
-  information or space is reached.
-- **Optional objectives:** keep queues moving; protect the targeted employee
-  from humiliation; preserve the guest's contradictory statements.
-- **Complication:** several legitimate guests also have incomplete paperwork.
-- **Exit state:** normal operations continue and Jordan/Aya each acknowledge
-  that the other's method caught something theirs missed.
+No actionable credential-theft or exploit procedure is simulated.
 
-## Player verbs
+Core lesson:
 
-Move, observe, converse, compare, verify, escort, flag, document.
+> **Trust is a relationship. Access is a decision. Do not confuse the feeling of one with the evidence for the other.**
 
-## Graded outcomes
+---
 
-| Channel | Strong result | Weak but continuing result |
-|---|---|---|
-| Objective | Pretext identified before access | Access is briefly gained, then contained |
-| Team | Staff feel protected and informed | Staff comply but feel accused or abandoned |
-| Exposure | Event continues quietly | Visible disruption creates rumors |
-| Integrity | Every denial is evidence-based | Player profiles appearance or overreaches |
-| Time | Contradiction resolved early | Multiple false leads consume the team |
+# WATCH structure
 
-## Persistent state written by the level
+### Human trigger
+A staff member grants a convincing “vendor” temporary access after being pressured by urgency and familiarity.
 
-Jordan/Aya trust rises when both methods are used. Heavy-handed play adds staff
-resentment and future reluctance to report mistakes. A clean evidence record
-becomes a reusable training example in `Four Colors`.
+### Music film / brief
+Public-event glamour is intercut with tiny human trust decisions: names remembered, badges glimpsed, people holding doors, text messages arriving at exactly the wrong moment.
 
-## Prime background trace
+### Human escalation
+Priya initially fears an aggressive security response will destroy the event and shame staff who were trying to help.
+Nusrat fears concern for optics will allow the boundary to remain open.
 
-- **Visible trace:** as Rae and Sora cross the public event through different
-  social-entry lanes, Prime's reflection sits between them in the revolving-
-  door glass for one beat.
-- **First-watch meaning:** an executive/event sponsor is passing through a busy
-  lobby.
-- **Ghost payoff:** Prime could see both social lanes even though neither woman
-  knew the other was part of the larger board.
+A second employee receives a matching approach through another channel, proving the first event was not harmless confusion.
 
-## Technology accuracy gate
+### Mission threshold
+The unknown actor is still inside the live event while protected spaces, people and information remain in motion.
 
-- **Sensor / input:** conversation, badge records, staff reports, approved
-  messages, and camera observations.
-- **Compute / reasoning:** contradiction mapping and confidence scoring, not
-  mind reading.
-- **Energy / infrastructure:** event network, access-control readers, radios,
-  and battery-powered staff devices.
-- **Access / authorization:** player may inspect event credentials and contact
-  approved owners; private accounts remain out of scope.
-- **Human decision owner:** event security lead, advised by Jordan and Aya.
-- **Failure mode:** false trust permits access; excessive suspicion harms
-  legitimate people and normal operations.
-- **Real concept taught:** verify the claim through an independent trusted
-  path, especially when urgency is used as pressure.
-- **Fictional extrapolation:** none required.
+### WATCH mission
+Priya and Nusrat jointly redesign the response in real time: verify identities, quietly segment access, protect the staff member from public humiliation, preserve contradictory claims and keep the event functioning.
 
-## Production and game assets
+The technical success is also Priya's character loss: something she built to feel frictionless now needs deliberate friction.
 
-- Public-event modular environment - `NEEDED`
-- Crowd and staff behavior set - `NEEDED`
-- Credential/claim comparison UI - `NEEDED`
-- Jordan and Aya approved character rigs - `NEEDED`
-- Song master and timed lyrics - `NEEDED`
-- Phone vibration, crowd bed, radio, and door SFX - `NEEDED`
+---
 
-## Merge hooks
+# PLAY contract
 
-- **Reads from:** S1 recognition, Jordan's first policy summer, Aya's concern
-  about authorization.
-- **Writes to:** S2 team formation and the value of complementary roles.
-- **Reusable systems:** dialogue verification, crowd pressure, evidence cards.
-- **Owner decisions:** exact event type and which existing cohort member is the
-  pressured staff contact.
+Player controls the event/access team.
+
+Primary verbs:
+- observe;
+- converse;
+- compare claims;
+- verify via approved channel;
+- redirect;
+- escort;
+- segment;
+- document;
+- protect staff.
+
+Jordan is not selectable from mission start.
+
+If the mission enters an authored CRITICAL state—such as a vulnerable person trapped, a protected zone compromised with time running out, or the team losing all viable routes—the player may spend a Wildcard Authorization to request Jordan.
+
+If called, Jordan's job is to reopen options or help recover people/objectives. **Priya still owns the episode.**
+
+---
+
+# Hidden PRIM2 / dual-board layer
+
+PRIM2's presence should be subtle.
+
+The event may contain Rae and Sora moving through different social contexts without understanding how their worlds relate.
+
+PRIM2's later significance is that he can see more of the board than either woman or the local team—not that he personally scripts every conversation.
+
+---
+
+# Persistent residue
+
+- Priya becomes more suspicious of the behavioral effects of “frictionless” brand design.
+- Nusrat and Priya learn to treat public experience and security as a joint design problem instead of enemies.
+- affected staff remember whether the institution protected or scapegoated them.
+- Rae/Sora gain future relationship/context hooks.
+- a Jordan Wildcard rescue, if used in PLAY, creates gratitude/resentment without stealing the episode's transformation.
+
+---
+
+# Governing line
+
+> **The Human Layer is not the weak layer. It is the layer where trust becomes real enough to hurt.**
