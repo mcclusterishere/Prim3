@@ -1,7 +1,7 @@
 ---
 status: CANON
 system: Jordan Vale pre-PRIM3 origin / Hitman identity
-version: 1.1.0
+version: 1.2.0
 branch: main
 ---
 
@@ -9,7 +9,7 @@ branch: main
 
 ## Authority
 
-This file locks Jordan Vale's first adult seven-year arc and the identity relationship among **Jordan Vale**, **Benji**, **Bigga Lex the Jet**, and **Royce**.
+This file locks Jordan Vale's first two adult seven-year arcs and the identity relationship among **Jordan Vale**, **Benji**, **Bigga Lex the Jet**, and **Royce**.
 
 Where older PRIM3 material treats Benji as a separate contemporary character, this file supersedes that interpretation.
 
@@ -17,7 +17,7 @@ Where older PRIM3 material treats Benji as a separate contemporary character, th
 
 Where an older draft needs a separate present-day Hitman-side operator after Jordan has left Hitman, that structural role belongs to **Royce** unless later owner canon deliberately changes it.
 
-The purpose of this history is character and continuity. Criminal events may be dramatized at a story level, but PRIM3 does not need to teach operational methods for committing real crimes.
+The purpose of this history is character and continuity. Criminal events may be dramatized at a story level, but PRIM3 does not need to teach operational methods for committing crimes, evading law enforcement, or defeating real-world tracking systems.
 
 ---
 
@@ -380,26 +380,151 @@ It is his first deliberate attempt to answer the question:
 
 > Can I use the same hustle legally and build something I can actually own in public?
 
-The age-26 transition is:
+---
 
-```text
-BENJI / HITMAN
-force + loyalty + retaliation + illicit hustle
-        ↓
-REFUSES LEX'S CHAIR
-protects Lex's exit / avoids Royce succession war
-        ↓
-JORDAN VALE
-legitimacy + ownership + legal hustle
-        ↓
-WHIP EQUIPPED
-```
+# 14. Age 26–33 — the Ghost Years
 
-The detailed Whip Equipped age-26-to-33 story remains a separate arc to be developed next.
+Whip Equipped does **not** immediately turn Jordan into a conventionally stable businessman.
+
+The second seven-year arc is defined by a paradox:
+
+**Jordan becomes more legitimate while becoming harder for the people from his old life to pin down.**
+
+He knows two categories of people may still have reasons to look for him:
+
+- **Royce**, who inherited the position Benji refused and may still view Jordan as a rival, threat or unfinished succession problem;
+- people and networks Benji made enemies of during the Hitman years.
+
+Jordan therefore has no desire to plant himself permanently in one obvious place.
+
+For roughly seven years, mobility becomes both his business model and his survival posture.
+
+He moves among states, lives for periods in **cars, trucks, RVs and buses**, buys and flips vehicles, and uses legitimate dealer/auction access as a recurring way to create cash without depending on a conventional long-term job.
+
+The story-level point is not that Jordan possesses a magical technique for becoming untraceable. The point is that he does not build the kind of fixed, predictable civilian life that would make him easy for old enemies to locate through routine habits.
+
+He is **off-grid in the social sense**:
+
+- no durable home identity;
+- no single long-term residence that defines him;
+- no stable daily geography;
+- income repeatedly generated through deals and vehicle turnover;
+- possessions kept mobile;
+- identity increasingly separated from the Benji world he left behind.
+
+Jordan is not necessarily invisible to governments, financial institutions or modern technical systems. Canon should not exaggerate the concept into supernatural invisibility.
+
+But to people searching through ordinary street knowledge, old routines, neighborhoods, mutual contacts and predictable physical presence, **Jordan becomes extraordinarily difficult to catch in one place.**
+
+This is why the age-26-to-33 period is known structurally as **the Ghost Years**.
 
 ---
 
-# 14. Three seven-year identities
+# 15. The vehicle as shelter, inventory and identity
+
+During the Ghost Years, vehicles become much more than merchandise.
+
+At different times the same class of asset can function as:
+
+- transportation;
+- temporary housing;
+- business inventory;
+- office/storage space;
+- emergency liquidity;
+- a symbol of independence;
+- and the next thing Jordan intends to sell.
+
+Jordan can therefore appear materially successful while remaining structurally unstable.
+
+He may have access to valuable vehicles while lacking a conventional bedroom.
+
+He may generate meaningful cash while lacking a predictable paycheck.
+
+He may understand assets while possessing very little permanence.
+
+This contradiction becomes one of the defining images of the Whip Equipped era:
+
+> **Jordan owns motion before he owns stability.**
+
+---
+
+# 16. Infrastructure enters Jordan's life
+
+The Ghost Years are not seven years spent only flipping vehicles.
+
+Jordan also begins taking work around **data centers and infrastructure**.
+
+He learns through practical exposure to environments organized around:
+
+- power;
+- backup power;
+- cooling;
+- racks and physical systems;
+- connectivity;
+- access control;
+- monitoring;
+- redundancy;
+- maintenance;
+- controlled environments;
+- uptime and failover.
+
+This creates one of the central ironies of Jordan's life.
+
+He may leave a facility deliberately engineered for continuity and redundancy and then sleep in a vehicle because his own life has no fixed home.
+
+Jordan becomes fascinated by infrastructure partly because it represents everything his personal life does not yet possess:
+
+**continuity, predictability, redundancy and designed stability.**
+
+This practical infrastructure exposure is part of why 33-year-old Jordan enters PRIM3 with knowledge and instincts that exceed what other people expect from a returning college student.
+
+---
+
+# 17. Why Jordan returns to college at 33
+
+By 33, Jordan understands something uncomfortable:
+
+**he could keep surviving this way forever.**
+
+He is good enough at hustling, buying, selling, moving, improvising and finding another route that instability itself has become sustainable.
+
+That is no longer what he wants.
+
+Returning to college becomes Jordan's deliberate attempt to **re-enter the grid**.
+
+For the first time since leaving school at 19, he intentionally chooses:
+
+- a fixed institution;
+- a recurring schedule;
+- conventional housing;
+- formal credentials;
+- professors and prerequisites;
+- a path toward traditional employment;
+- and a life whose next step does not always depend on another flip or another workaround.
+
+College is therefore not merely an educational decision.
+
+It is Jordan's attempt to normalize his life.
+
+He wants to cool down the **hustle-for-a-living mentality** that has defined fourteen years of adulthood.
+
+He is trying to become easier to understand, easier to employ, easier to house and more conventionally rooted.
+
+That makes the beginning of PRIM3 deeply ironic:
+
+> **Jordan finally reappears in a fixed place because he is trying to live normally—and that is exactly when the deepest system in his life finds him.**
+
+Age 33 is therefore a genuine reemergence.
+
+The world that knew Benji could not reliably say where Jordan had settled during the Ghost Years.
+
+Now Jordan is enrolled, housed, scheduled and visible again.
+
+PRIM3 begins when the ghost voluntarily steps back onto the grid.
+
+---
+
+# 18. Three seven-year identities
 
 The long-form Jordan chronology is now structurally:
 
@@ -408,9 +533,9 @@ AGE 19–26 — HITMAN / BENJI
 Question: What will Jordan do to survive and retaliate?
 Power language: force / loyalty / street organization
 
-AGE 26–33 — WHIP EQUIPPED / JORDAN
-Question: Can Jordan turn hustle into legitimate ownership?
-Power language: capital / mobility / business / systems
+AGE 26–33 — WHIP EQUIPPED / THE GHOST YEARS
+Question: Can Jordan turn hustle into legitimate ownership while staying alive long enough to disappear from his old life?
+Power language: capital / mobility / vehicles / business / infrastructure
 
 AGE 33–40 — PRIM3 / JORDAN
 Question: What will Jordan do when knowledge becomes authority?
@@ -424,7 +549,7 @@ These eras are not personality resets.
 
 Hitman teaches Jordan operational instinct, loyalty, retaliation and the danger of self-authorized morality.
 
-Whip Equipped teaches him ownership, business, logistics, customers, regulation, capital and institution-building.
+Whip Equipped teaches him ownership, mobility, business, logistics, infrastructure, legal systems, improvisation and the limits of a life built entirely around motion.
 
 PRIM3 adds formal systems knowledge, technical discipline, evidence, authorization, governance and eventually succession.
 
@@ -432,7 +557,7 @@ Prime inherits all three men.
 
 ---
 
-# 15. Seven-year Hitman structural chronology
+# 19. Twenty-one-year pre-Prime structural chronology
 
 ```text
 AGE 19
@@ -469,16 +594,32 @@ FIRST COLLEGE ATTEMPT — UPSTATE NEW YORK
 -> Royce is 19 while Benji is 26
 -> Benji gives the position to rival ROYCE
 -> Jordan leaves Hitman
--> Jordan decides the next hustle must be legitimate
--> used-car economics become the seed of WHIP EQUIPPED
 AGE 26
+-> decides the next hustle must be legitimate
+-> used-car economics become the seed of WHIP EQUIPPED
+-> vehicle flipping and legitimate auction/dealer access become recurring income
+-> cars, trucks, RVs and buses also become temporary homes
+-> Jordan repeatedly changes geography rather than establishing one predictable base
+-> the former Benji becomes difficult for old enemies to locate through ordinary routines
+-> this becomes THE GHOST YEARS
+-> Jordan works around data centers/infrastructure while remaining mobile
+-> learns power, cooling, connectivity, monitoring, redundancy and physical systems
+-> recognizes that he can survive indefinitely without ever becoming stable
+AGE 33
+-> chooses college as deliberate re-entry into a fixed, conventional life
+-> seeks regular housing, credentials, schedule and traditional employment
+-> attempts to cool the hustle-for-a-living mentality
+-> becomes visible and rooted again
+-> PRIM3 begins
+AGE 40
+-> succession / PRIME
 ```
 
-This history should not be presented as one exposition dump inside PRIM3. It should surface through behavior, old music, recognition, records, relationships, contradictions, scars, operational instincts and eventually explicit revelation.
+This history should not be presented as one exposition dump inside PRIM3. It should surface through behavior, old music, recognition, records, relationships, contradictions, scars, operational instincts, Whip Equipped artifacts, vehicle habits, and eventually explicit revelation.
 
 ---
 
-# 16. Continuity migration rule
+# 20. Continuity migration rule
 
 Effective with this canon:
 
@@ -489,12 +630,14 @@ Effective with this canon:
 5. References to `Benji` that clearly describe Jordan's age-19-to-26 Hitman period remain valid and should not be renamed to Royce.
 6. Bigga Lex's retirement is tied to the birth of his children and Jordan's refusal to endanger their father through inherited loyalty.
 7. Royce is seven years younger than Jordan/Benji and receives Lex's former position at approximately age 19.
-8. Jordan's age-26 exit flows directly into the origin of Whip Equipped as a legitimacy/ownership strategy.
-9. Prime's relationship to Jordan must eventually account for Jordan's hidden Hitman history, but **whether Prime knew about Benji from the beginning is not locked by this file**.
+8. Jordan's age-26 exit flows directly into Whip Equipped as a legitimacy/ownership strategy.
+9. The age-26-to-33 Whip Equipped period is also **the Ghost Years**: Jordan stays geographically mobile, lives in vehicles, flips vehicle inventory, works around infrastructure and avoids rebuilding the predictable routines of his Hitman life.
+10. Jordan's return to college at 33 is a deliberate **re-entry into conventional visibility, housing, education and employment**, not merely a degree decision.
+11. Prime's relationship to Jordan must eventually account for Jordan's hidden Hitman and Ghost Years history, but **whether Prime knew about Benji before Jordan's college reemergence remains open until explicitly locked**.
 
 ---
 
-# 17. Still open
+# 21. Still open
 
 The following remain brainstorm/open rather than canonized by this document:
 
@@ -506,6 +649,8 @@ The following remain brainstorm/open rather than canonized by this document:
 - complete Bigga Lex biography beyond friendship, Hitman authority, fatherhood and retirement;
 - complete Royce biography beyond age relationship, rivalry, temperament and succession;
 - precise relationship among Jordan, Royce and the rest of Hitman across the seven-year period;
-- detailed Whip Equipped chronology from age 26–33;
-- why Jordan ultimately returns to college at 33;
-- whether Prime observed or influenced any part of Jordan's Hitman or Whip Equipped periods.
+- exact state-by-state Ghost Years chronology;
+- specific vehicles, flips, companies, employers and data-center jobs during ages 26–33;
+- when the informal vehicle hustle becomes the formal Whip Equipped brand/company;
+- the exact event that turns Jordan's college plan from idea into enrollment at age 33;
+- whether Prime observed or influenced any part of Jordan's Hitman or Whip Equipped periods before the PRIM3 reemergence.
