@@ -1,7 +1,7 @@
 # PRIM3 Canon Register
 
 **Status:** Foundation canon (merged to main)  
-**Continuity version:** 0.4.5  
+**Continuity version:** 0.4.6  
 **Authority:** Matthew McCluster  
 **Rule:** If material conflicts with this register, this register wins until deliberately revised.
 
@@ -105,21 +105,31 @@ Where still referenced: parent/black-site layer above fronts. Do not contradict 
 - Technical realism should teach systems thinking without becoming an actionable abuse manual.
 - Data Breach currently has the complete MP3/SRT/TTML source package; other songs primarily have lyric/source packages until further media is supplied.
 - **The canonical interactive teaching loop is defined in `game/LEARNING-MISSION-SOURCE-OF-TRUTH.md`: timed lyrics -> clickable concepts -> quick definitions/full lessons -> Field-R/Field-E/Field-T role labs -> Learning Mastery -> debrief links back to exact lyric cues.**
-- **The authoritative gameplay contract for turning those concepts into AP-spending battlefield mechanics is `game/TACTICAL-LAB-MECHANICS-AUTHORITY.md`. A meaningful technical objective must consume tactical opportunity and interact with Field-R Picture, Field-E Control, Field-T technical state, clocks, detection, physical position, and/or combat pressure. A disconnected quiz or generic “hack” progress bar does not satisfy PRIM3 canon.**
+- **The authoritative gameplay contract for turning those concepts into AP-spending battlefield mechanics begins with `game/TACTICAL-LAB-MECHANICS-AUTHORITY.md` and is further hardened by `game/TACTICAL-IT-MECHANICS-BIBLE.md`. A meaningful technical objective must consume tactical opportunity and interact with Field-R Picture, Field-E Control, Field-T technical state, clocks, detection, physical position, and/or combat pressure. A disconnected quiz or generic “hack” progress bar does not satisfy PRIM3 canon.**
+- **`game/ROLE-ACTION-REGISTRY.yaml` is the machine-readable authority for shared, Field-R, Field-E and Field-T AP actions and cross-role combo behavior.**
+- **`game/LAB-GAMEPLAY-PATTERN-CATALOG.md` is the canonical reusable pattern library for translating IT concept families into battlefield labs.**
+- **`game/KINETIC-TECHNICAL-COUPLING-AUTHORITY.md` governs two-way combat integration: kinetic actions must be capable of protecting, interrupting, exposing or damaging technical work, and verified technical work must be capable of changing tactical geometry, information, hazards, responders or threat state where the mission supports it.**
+- **`learning/MISSION-LAB-DATA-SCHEMA.yaml` is the machine-readable mission authoring contract.**
+- **`learning/CONCEPT-MECHANIC-BINDING-RULES.yaml` is the default resolver that attaches concept namespaces and major exact concept IDs to roles, Task Atoms, lab patterns, observable evidence, battlefield outputs, failure consequences and verification methods. Unbound concepts are build errors, not invitations for generic minigames.**
 - **`learning/MISSION-CONCEPT-LAB-MATRIX.md` is the current canon-derived cross-episode binding of song concepts to Field-R, Field-E, Field-T labs and kinetic pressure.**
-- **`learning/missions/LVL-07-EXPOSURE-GRANULAR.md` is the reference implementation for how granular a shipping mission specification should become: map zones, LAB_NODE states, AP costs, cross-role dependencies, threats, failure consequences, combat coupling, scoring, and mastery telemetry.**
+- **`learning/missions/LVL-07-EXPOSURE-GRANULAR.md` remains a human-readable reference implementation; `learning/missions/LVL-07-EXPOSURE.yaml` is its machine-readable incident-response implementation contract, and `learning/missions/LVL-06-DEAD-AIR.yaml` proves the same grammar across wireless/RF, physical hazards, power, backhaul and authenticated service.**
 - The current 20-song technical concept inventory is maintained in `learning/SONG-CONCEPT-INDEX.md`; Song #21 remains reserved until supplied.
 
 ## Tactical-learning law
 
 - The standard playable field triad remains Field-T / Field-E / Field-R under the XCOM-style two-AP turn model unless a story mission deliberately changes the roster.
 - **Field-R buys information. Field-E buys controlled space and time. Field-T converts information and protected opportunity into a technically correct result.**
+- The player controls the standard triad omnisciently and may interleave their actions inside a Player Phase; the standard squad therefore creates a six-AP per-round tactical economy.
+- AP represents bounded tactical opportunity—time, attention, body position, tool access and cognitive focus—not literal seconds.
+- Technical correctness may not be invalidated by an unexplained generic “hack chance.” Uncertainty belongs in evidence, changing conditions, combat, incomplete information and interruption; deterministic concept relationships remain deterministic.
 - Kinetic combat remains first-class, visually satisfying gameplay. Shooting, suppression, overwatch, movement, cover, wounds, detection and destruction must be allowed to help or complicate technical objectives rather than existing in a separate mode.
 - Technical success should be able to change the tactical board: routes, doors, lighting, communications, detection, sensor confidence, reinforcement timing, cover access, extraction capability or other mission state.
 - Kinetic success should be able to change technical risk: interruption probability, evidence integrity, equipment health, available time, access, service state or authorization consequences.
-- Technical interactions use explicit task atoms and LAB_NODE state progression; they must require reasoning, not fake terminal typing or unexplained percentage rolls.
+- Technical interactions use explicit Task Atoms and LAB_NODE state progression; they must require reasoning, not fake terminal typing or unexplained percentage rolls.
 - Validation is distinct from configuration. A changed system state does not count as proven simply because the player pressed Commit.
 - Wrong technical reasoning normally creates causal mission consequences and review opportunities rather than an immediate trivia-style “wrong answer” screen.
+- Every primary concept must resolve to observable evidence -> player inference -> AP/state-changing action -> tactical consequence -> verification -> mastery event.
+- Every major mission should contain AP collision: more desirable tactical/technical actions than the six AP available, forcing real prioritization among information, protection, gunfire, movement, lab progress and validation.
 - Operational Grade and Learning Mastery are separate. A player may be tactically excellent and conceptually weak, or tactically costly while demonstrating strong technical understanding.
 - By later seasons, missions should require transfer of concepts learned in prior songs rather than announcing the correct lesson in the objective text.
 
