@@ -1,81 +1,99 @@
 ---
 status: CANON PRODUCTION RULE / TRACE DETAILS PROPOSED UNTIL EACH EPISODE IS WRITTEN
-system: Prime background-presence continuity
-version: 1.5.0
+system: PRIM2 background-presence continuity
+version: 2.0.0
 branch: main
 ---
 
-# Prime Lurking Ledger
+# PRIM2 Background-Presence Ledger
 
 ## Rule
 
-Presiding Prime must be detectably present in the background of **every episode before Ghost In The Wires**, even when the protagonist and audience do not yet understand that he is there.
+PRIM2 should be **causally traceable somewhere in the architecture of the series before Ghost In The Wires**, but he does not need a literal cameo in every episode.
 
-This is not a cameo gimmick. Prime should feel like hidden institutional gravity.
+The old rule `Presiding Prime must be visibly present in every episode` is superseded.
 
-Every trace must:
-
-1. be genuinely visible/audible on first watch;
-2. appear unimportant or explainable on first watch;
-3. gain a clear Prime interpretation after S7E3;
-4. connect to the episode's technical/story concept where possible;
-5. never require a continuity cheat after the fact.
-
-S7E3 contains a rapid twenty-trace montage revealing that Prime was present throughout the series.
-
-## Trace types
-
-Use variety:
-
-- physical silhouette or distant figure;
-- reflection;
-- background vehicle;
-- anonymous review note;
-- unexplained authorization;
-- process/service identifier;
+PRIM3 is an ensemble. A PRIM2 trace can be:
+- an authorization anomaly;
 - Pylon behavior;
-- camera pan or framing;
-- satellite framing;
-- radio voice;
-- access-door timing;
-- route suggestion;
-- unexplained resource availability;
-- observation from a mezzanine/window;
-- minor intervention whose author is not named.
+- a policy;
+- a hidden information boundary;
+- a resource decision;
+- an unexplained denial/approval;
+- a delayed consequence from an earlier action;
+- a corrupted/partial record;
+- somebody reacting to authority they cannot name;
+- or, sparingly, a real physical sighting.
 
-Never use the same trick so often that the audience starts hunting him as a game before the story is ready.
+Some episodes may contain **no audience-detectable PRIM2 trace at all** on first watch. The world must not feel like every human event exists because one man secretly stood behind it.
 
-## Backward-writing ledger
+Canonical principle:
 
-| Global ep | Episode / song | Prime trace | First-watch explanation | Ghost payoff status |
+> **PRIM2 is hidden institutional gravity, not Where's Waldo.**
+
+---
+
+# Trace rules
+
+A useful trace should:
+1. be consistent with what PRIM2 could actually know/control;
+2. preserve other characters' agency;
+3. have a mundane first-watch interpretation;
+4. gain deeper meaning after later reveals;
+5. connect to the episode's technical or human theme where possible;
+6. never require PRIM2 to be omniscient;
+7. never imply every relationship or coincidence was manufactured by him.
+
+Kkeutori establishes an important limit: PRIM2 can possess data without possessing the private interpersonal meaning required to interpret it correctly.
+
+---
+
+# Current backward ledger
+
+| Global ep | Episode | PRIM2 / root trace | First-watch explanation | Status |
 |---:|---|---|---|---|
-| 20 | S7E2 — Evil Twin | Prime is openly defeated; the “lurking” payoff is retrospective. His confession and mirrored flashbacks reveal that every time Jordan and Benji glimpsed one another on prior battlefields, Prime already occupied the unseen third perspective above both of them. He confesses because Jordan and Benji are about to execute him and information is his only remaining weapon. | Earlier cross-board strangers and near-misses looked like ordinary battlefield coincidence | **LOCKED — S07E02 rewrite** |
-| 19 | S7E1 — RAID (HOT SITE) | Prime watches both assault elements through the sleep/tank/global-feed system before physical contact. Jordan and Benji independently lose their teams, nearly kill one another after finally meeting, then ally against Prime. | Expected defensive awareness plus two apparently unrelated attack lanes | **PROPOSED — S07E01 blueprint** |
-| 18 | S6E3 — Song #21 | OPEN | OPEN | WAIT FOR SONG |
-| 17 | S6E2 — Patch Work | Jordan finds Aya's original `MENTOR / OBSERVE / REPORT ANOMALIES` tasking with `P-00` as issuer. | Normal institutional mentoring/oversight | **PROPOSED — S06E02 blueprint** |
-| 16 | S6E1 — Per Diem | A `P-00` ledger exception protects field compensation and the dead veteran's family while the same view labels younger operators `CANDIDATE`. | Distant executive compensation/HR policy | **PROPOSED — S06E01 blueprint** |
-| 15 | S5E3 — Trappin From The Cloud | Identical hard cases leave one logistics system through separated lanes to Jordan's and Benji's teams. | Global-response logistics duplication | **PROPOSED — S05E03 blueprint** |
-| 14 | S5E2 — Cap Ex Vs. Op Ex | `P-00` pre-approves the expensive owned backbone over a cheaper leased route. | Executive finance contingency | **PROPOSED — S05E02 blueprint** |
-| 13 | S5E1 — IaaS, SaaS, PaaS | Jordan's dependency map match-cuts to the same map around sleeping Prime; an unnamed authority resolves a cross-layer escalation. | Surreal music-film image plus executive escalation | **PROPOSED — S05E01 blueprint** |
-| 12 | S4E3 — IoT | Pylon shows two `1 / 1` priorities; a door and camera respond before the local team commands them. Prime appears physically only after the crisis. | Stale automation or a second facility operator | **PROPOSED — S04E03 blueprint** |
-| 11 | S4E2 — Dive In | Jordan's photograph of the former-candidate plate silently syncs to `P-00 OBSERVE`. | Automatic central evidence backup | **PROPOSED — S04E02 blueprint** |
-| 10 | S4E1 — Installation Types | An unseen `P-00` approver combines Jordan and Aya's placement screens into one operating region. | Productive-pair staffing decision | **PROPOSED — S04E01 blueprint** |
-| 09 | S3E3 — Virus Types | A separate high-authority viewer identifies the likely source, waits three seconds, and lets the team attempt self-correction. | Central incident staff validating uncertainty | **PROPOSED — S03E03 blueprint** |
-| 08 | S3E2 — App Attacks | A hidden layer changes `BLOCK` to `TEMPORARY EXCEPTION - P-00` immediately before Jordan's workaround succeeds. | Automatic failover or senior emergency approval | **PROPOSED — S03E02 blueprint** |
-| 07 | S3E1 — Data Breach | Jordan's pre-recruitment dossier carries a tiny `P-00` metadata authorization. | Unfamiliar legacy approval code | **PROPOSED — S03E01 blueprint** |
-| 06 | S2E3 — Got Wifi | A separate supervisory view shows both the responder channel and isolated veteran; a hand authorizes civilian-response priority. | Off-site incident command | **PROPOSED — S02E03 blueprint** |
-| 05 | S2E2 — Red Blue Purple White Team | An unnamed remote reviewer sees the cohort photo and rejects a recommendation to split the team. | Senior staffing review | **PROPOSED — S02E02 blueprint** |
-| 04 | S2E1 — Anti Social Engineering | Prime's reflection sits between Rae and Sora in revolving-door glass as they cross separate social-entry lanes. | Executive/event sponsor in a busy lobby | **PROPOSED — S02E01 blueprint** |
-| 03 | S1E3 — OSINT | While Jordan works at a public college-library terminal, Prime physically passes behind the glass during an unrelated college-administration visit, slows to observe Jordan rejecting an overclaim, then later reviews the same OSINT evidence board as the unnamed senior reviewer and routes Jordan's name toward the first summer policy fellowship | Ordinary executive campus visit plus normal senior review of intern work | **LOCKED — S01E03 draft** |
-| 02 | S1E2 — White Grey Black Hat | During Jordan's access hold, the checkpoint camera tightens; an unseen executive review marks `CONTINUE ACCESS / PRESERVE INCIDENT`; Jordan's badge turns green and he assumes normal security cleared him | Ordinary access escalation after an onboarding-kit mismatch | **LOCKED — S01E02 draft** |
-| 01 | S1E1 — High Alert | Presiding Prime performs inside the future RAID; after the rewind, a red `//` supervisor pane opens on Jordan's preserved alert with `REQUEST INTAKE`. | Future RAID spectacle plus senior security review | **PROPOSED — S01E01 draft** |
+| 20 | Evil Twin | PRIM2 openly explains portions of the dual-board architecture after physical defeat by Jordan and Royce. | Endgame confession. | LOCKED concept |
+| 19 | RAID (HOT SITE) | PRIM2 observes/resists Jordan's PRIM-side assault and Royce's Hitman-side assault through Site 0's distributed command environment. | Expected defensive awareness. | LOCKED concept |
+| 18 | Song #21 | OPEN. | OPEN. | WAIT FOR SONG |
+| 17 | Patch Work | Prefer evidence that Aya/Jordan/Helen discover a trust or tasking inconsistency whose ultimate authority cannot be explained by visible governance. **Do not use the old `MENTOR / OBSERVE JORDAN / P-00` tasking as locked canon.** | Legacy/central administrative inconsistency. | NEEDS EPISODE REWRITE |
+| 16 | Per Diem | A high-level compensation/continuity exception may reveal that somebody outside the visible approval tree protects certain families/operators while classifying others instrumentally. | Remote HR/finance authority. | PROPOSED |
+| 15 | Trappin From The Cloud | Two separated organizational lanes receive suspiciously compatible resources or priorities without seeing the shared source. If Hitman-side material appears, use **Royce's people**, never a separate contemporary Benji. | Global logistics coincidence. | PROPOSED |
+| 14 | CapEx vs OpEx | Expensive resilience spending has an unexplained approval path above visible finance governance. | Executive contingency. | PROPOSED |
+| 13 | IaaS/SaaS/PaaS | A cross-layer escalation resolves from outside the documented service hierarchy. | Senior platform escalation. | PROPOSED |
+| 12 | IoT | Pylon behaves before local humans issue the expected command, implying a higher context source. | Automation/failover. | PROPOSED |
+| 11 | Dive In | Evidence sync/retention behavior preserves something somebody expected to disappear. | Automatic evidence backup. | PROPOSED |
+| 10 | Installation Types | Staffing/placement decisions correlate across compartments more strongly than visible managers can explain. | Central workforce planning. | PROPOSED |
+| 09 | Virus Types | An unnamed high-authority observer waits for the team to self-correct instead of intervening. | Senior incident validation. | PROPOSED |
+| 08 | App Attacks | A temporary exception appears from above the visible approval tree. | Emergency policy engine / senior approval. | PROPOSED |
+| 07 | Data Breach | A legacy/root-level metadata authorization appears in material the current team did not create. | Old approval code. | PROPOSED |
+| 06 | Got Wifi | An off-site supervisory view can see both service state and a human consequence local teams initially treat separately. | Incident command. | PROPOSED |
+| 05 | Red Blue Purple White Team | Senior review resists a recommendation to split a team, but no physical PRIM2 cameo is needed. | Workforce review. | PROPOSED |
+| 04 | Anti Social Engineering | Rae/Sora lanes can unknowingly intersect under separated sponsorship. A literal PRIM2 reflection is optional, not required. | Busy-event coincidence / separate contracts. | PROPOSED |
+| 03 | OSINT | PRIM2 may review an evidence product downstream without physically walking behind Jordan at a library. **Physical campus cameo is no longer required.** | Ordinary senior review. | REWRITE OLD DRAFT |
+| 02 | White Grey Black Hat | An access escalation preserves the incident rather than quietly discarding it. | Senior security review. | REWRITE OLD DRAFT |
+| 01 | High Alert | PRIM2 is openly the performer/defender in the chronologically future RAID sequence. | Future endgame spectacle. | LOCKED |
 
-## S7E3 payoff
+---
 
-During the final third of the Ghost In The Wires music film, the series rapidly revisits all twenty traces.
+# Ensemble-specific rule
 
-The edit should create the realization:
+When an episode belongs to Aya, Chioma, Royce, Amira, Marc, Jonas, Pylon, Thandiwe or another main:
 
-**Prime was not suddenly revealed to have been everywhere. He had actually been visible the entire time. The audience simply did not yet know what counted as him.**
+- do not insert Jordan solely to carry the PRIM2 trace;
+- do not insert PRIM2 physically solely to preserve the ledger;
+- allow the trace to intersect **that episode owner's** institutions, decisions and relationships;
+- or allow no detectable trace until later reconstruction.
 
-As episodes are written backward, replace every TBD with the exact timestamp, shot/line/interface behavior and its first-watch explanation.
+The root architecture should make the world more connected, not smaller.
+
+---
+
+# Ghost payoff
+
+A late-series retrospective may revisit selected traces, but it should **not** claim PRIM2 personally authored every event.
+
+The correct realization is:
+
+> **The hidden root was threaded through more systems than the characters understood. It was not the cause of every life they lived.**
+
+This keeps PRIM2 frightening without stealing the ensemble's agency.
