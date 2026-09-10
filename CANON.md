@@ -1,7 +1,7 @@
 # PRIM3 Canon Register
 
 **Status:** Foundation canon (merged to main)  
-**Continuity version:** 0.4.7  
+**Continuity version:** 0.4.8  
 **Authority:** Matthew McCluster  
 **Rule:** If material conflicts with this register, this register wins until deliberately revised.
 
@@ -96,15 +96,19 @@ Brute multinational; parallel climb centered on Benji.
 ### Apex
 Where still referenced: parent/black-site layer above fronts. Do not contradict McCluster holding-company notes in `story/MCCLUSTER-CORP.md`.
 
-## Infrastructure curriculum law
+## Security+ / infrastructure curriculum law
 
-- **PRIM3 is infrastructure-first.** Its primary educational purpose is to develop deep, durable systems/infrastructure literacy: physical/data-center infrastructure, networking, compute/servers, storage/data protection, operating systems/Linux, virtualization/cloud, observability/operations, automation/IaC, resilience/continuity, and infrastructure security/identity.
-- Cybersecurity, application security, data, software, governance, finance, AI and other adjacent domains remain valuable, but they are taught principally as workloads, risks, controls, dependencies or operating contexts that infrastructure must support, observe, protect, recover or constrain.
-- `learning/INFRASTRUCTURE-FIRST-CURRICULUM-AUTHORITY.md` is the curriculum-priority authority beneath this register.
-- Every substantial non-infrastructure concept should expose its infrastructure dependency: what underlying physical/network/compute/storage/OS/cloud layer supports it, how infrastructure observes it, what can constrain it, and what fails or must recover when it goes wrong.
-- Core infrastructure knowledge must recur across multiple episodes at increasing depth: **introduced -> applied -> reused -> integrated**. One-song vocabulary exposure is insufficient for backbone concepts.
+- **Security+ is PRIM3's primary external certification anchor.** The complete learning product—songs, timed concepts, full lessons, battlefield labs, transfer checks, debrief review and supplemental modules—should be audited toward comprehensive Security+ objective coverage without claiming CompTIA endorsement or guaranteed pass readiness.
+- **Network+ is PRIM3's primary infrastructure companion anchor.** It is the first external benchmark used to ensure that Security+ concepts are grounded in real networking, systems and service-path understanding rather than memorized as isolated security vocabulary.
+- The canonical educational formula is: **Security+ breadth taught through infrastructure depth.**
+- PRIM3 remains infrastructure-first in explanatory depth. Its systems spine includes physical/data-center infrastructure, networking, compute/servers, storage/data protection, operating systems/Linux, virtualization/cloud, observability/operations, automation/IaC, resilience/continuity, and infrastructure security/identity.
+- Cybersecurity, application security, data, software, governance, finance, AI and other adjacent domains remain valuable, but substantial concepts should expose the infrastructure they depend on, the telemetry that reveals them, the controls that constrain them, and the failure/recovery consequences beneath them.
+- `learning/SECURITY-NETWORK-DUAL-ANCHOR.md` is the certification-anchor authority beneath this register.
+- `learning/INFRASTRUCTURE-FIRST-CURRICULUM-AUTHORITY.md` remains the curriculum-depth authority beneath this register and must be interpreted under the Security+ first / Network+ second hierarchy.
+- Core Security+ and infrastructure knowledge must recur across multiple episodes at increasing depth: **introduced -> applied -> reused -> integrated**. One-song vocabulary exposure is insufficient for backbone concepts.
 - Infrastructure must exist as mechanically meaningful battlefield state: racks, network paths, switching/routing, media, power, cooling, server/storage state, hypervisors/containers, identity/control planes, telemetry, backup/failover and edge systems should be operable, degradable, recoverable or defensible where relevant.
-- **Song #21 / Episode 18 remains deliberately open as the final infrastructure-gap payload.** It should be written after objective-gap review and preferentially close high-value missing infrastructure areas—especially modern/emerging infrastructure—rather than merely filling an album slot.
+- **Song #21 / Episode 18 is now the Security+ completion + Network+ infrastructure-integration capstone slot.** Its first responsibility is to close the highest-value remaining Security+ objective gaps; its second responsibility is to make those security concepts operate on top of real network/infrastructure dependencies.
+- `CHAIN OF TRUST` / `TRUST ANCHOR` is the current working song/mission concept for Song #21 / Episode 18. The titles remain working titles until deliberately owner-locked.
 - `learning/COMPTIA-OBJECTIVE-ALIGNMENT-2026.md` records the current external objective-gap audit. It is a design aid, not a claim of CompTIA endorsement, guaranteed coverage or exam-pass readiness.
 - External certification mappings may change when vendors revise exams; PRIM3's internal concept IDs and curriculum canon remain stable, with mapping layers updated to current external objectives.
 
@@ -161,6 +165,6 @@ Presiding Prime must be detectably present in the background of every episode be
 
 - College location
 - Exact dates
-- Song #21 title/lyrics/technical concept
+- Song #21 title/lyrics/technical concept beyond the current `CHAIN OF TRUST` working concept
 - Full cohort biography details beyond current proposed cast files
 - Full meaning of “Negative One” if still used alongside Jordan naming
