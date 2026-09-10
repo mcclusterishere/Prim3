@@ -1,14 +1,17 @@
 ---
 status: TEMPLATE
 system: PRIM3 episode / playable-level chapter
-version: 1.1.0
+version: 2.0.0
+branch: main
 ---
 
 # PRIM3 episode / level chapter template
 
-Use one copy of this structure for every song. A **level** here means the
-playable mission attached to an episode; it does not automatically mean one of
-Site 0's nine architectural floors.
+Use one copy of this structure for every canonical song mission.
+
+A **level** means the playable mission attached to an episode; it does not automatically mean one architectural floor.
+
+This template is subordinate to `CANON.md`, `story/EPISODE-MISSION-BIBLE.md`, `story/ENSEMBLE-POV-AUTHORITY.md`, and `game/WILDCARD-INTERVENTION-AUTHORITY.md`.
 
 ## Identity
 
@@ -19,90 +22,153 @@ Site 0's nine architectural floors.
 - **Source lyrics:** `source-material/<song>/LYRICS.md`
 - **Development state:** `DRAFT`, `PROPOSED`, or `CANON`
 
+## Ownership / deployment contract
+
+- **Episode owner:**
+- **Secondary owner(s):**
+- **Jordan narrative state:** `A/B/C/D/E/F`
+- **Mission lead:**
+- **Base playable roster:**
+- **Primary playable POV(s):**
+- **Jordan play state:** `scripted / off-board wildcard / locked out`
+- **Wildcard eligible:** `yes/no + reason`
+- **Wildcard arrival rule:**
+- **Apex eligible:** `yes/no + reason`
+- **PRIM2 story visibility:** `hidden executive / partially known / explicit`
+- **Royce Incursion eligible:** `yes/no + reason`
+- **Royce telegraph rule:**
+
+Ordinary PLAY should default to **no Jordan in the selectable base roster**.
+
 ## Merge contract
 
-Record what is locked, what this chapter adds, and what must remain open. The
-chapter may elaborate existing canon, but it may not silently replace
-`CANON.md`, `story/EPISODE-PROGRESSION.md`, or an owner-locked chronology.
+Record what is locked, what this chapter adds, and what must remain open. The chapter may elaborate existing canon, but it may not silently replace `CANON.md`, current specialist authorities, or owner-locked chronology.
 
 ## Chapter promise
 
-One paragraph stating the human problem, technical problem, and playable
-fantasy in plain English.
+One paragraph stating the human problem, technical problem, and playable fantasy in plain English.
 
 ## Song payload
 
 - **Technical payload:** concepts carried by the lyrics.
-- **Human payload:** emotion, temptation, contradiction, or relationship
-  pressure carried by the song.
+- **Human payload:** emotion, temptation, contradiction, or relationship pressure carried by the song.
 - **Visual vocabulary:** repeatable images, colors, objects, and motion.
-- **Safety translation:** how offensive language or methods become defensive,
-  authorized, or abstracted gameplay rather than an abuse tutorial.
+- **Safety translation:** how offensive language or methods become defensive, authorized, or abstracted gameplay rather than an abuse tutorial.
 
-## Nine-minute episode
+## Causal episode structure
 
-### 0:00-3:00 - Music film
+### Human trigger / cold open
 
-State the visual thesis, performer/perspective, beginning, escalation, and
-image that hands off to the human story.
+What changes before the lesson begins? Establish whose problem this is and why it matters now.
 
-### 3:00-6:00 - Human story
+### Music film / operational brief
 
-State the ordinary-life pressure, relationship conflict, choice, and emotional
-residue that must survive into later episodes.
+State the visual thesis, performer/perspective, vocabulary, expected model, and emotional argument.
 
-### 6:00-9:00 - Watch / Play mission
+> **The briefing teaches the model. The mission attacks the model.**
 
-State the authored WATCH action and the equivalent PLAY objective. Both must
-resolve the same major story event unless canon explicitly branches.
+### Human escalation / mission threshold
+
+Identify the choice/fact that commits the team. Show relationship/authority pressure before deployment.
+
+### WATCH mission
+
+State the authored action path and canonical hard-spine outcome.
+
+### PLAY mission
+
+Expand the same event into tactical choice space. Normal first-play target is approximately 15–30 minutes; capstones may be longer/checkpointed.
 
 ## Playable level contract
 
-- **Player role:**
 - **Environment:**
 - **Entry state:**
-- **Primary loop:** Observe -> decide -> act -> verify -> extract/debrief.
+- **Primary loop:** `evidence -> inference -> action -> consequence -> validation -> mastery`
 - **Primary objective:**
 - **Optional objectives:**
-- **Complication:**
+- **Expected plan:**
+- **Hidden complication:**
+- **Plan failure:**
+- **Mission threshold:**
 - **Exit state:**
-- **Target first-play duration:** approximately three minutes for the episode
-  cut; a replayable version may run longer.
+
+## Crisis / intervention contract
+
+- **STABLE definition:**
+- **DEGRADED definition:**
+- **CRITICAL triggers:**
+- **TERMINAL triggers:**
+- **Jordan arrival delay / insertion if eligible:**
+- **What Jordan can salvage without auto-solving:**
+- **What remains character-owner-specific after Jordan arrives:**
+- **PRIM2 Apex arrival rule if eligible:**
+- **Royce Incursion trigger band if eligible:**
+- **Intervention consequence write:**
+
+The intervention ladder is:
+
+```text
+ENSEMBLE TEAM
+    -> CRITICAL
+JORDAN / WILDCARD
+    -> eligible high-value mission remains CRITICAL
+PRIM2 / APEX
+```
+
+The hostile board may independently escalate through a Royce Incursion.
 
 ## Player verbs
 
-List only verbs the build must actually support: move, inspect, compare,
-route, verify, isolate, assign, restore, escort, operate, or similar.
+List only verbs the build must actually support: move, inspect, compare, route, verify, isolate, assign, restore, escort, operate, stabilize, protect, command, or similar.
 
 ## Outcome channels
 
 Every mission reports:
+- **Objective** — useful result secured.
+- **Team** — who returns and in what condition.
+- **Exposure** — visibility, disruption, and collateral consequences.
+- **Integrity** — authorization, evidence, compliance, and safety boundaries.
+- **Time** — speed of stabilization.
 
-- **Objective** - useful result secured.
-- **Team** - who returns and in what condition.
-- **Exposure** - visibility, disruption, and collateral consequences.
-- **Integrity** - authorization, evidence, compliance, and safety boundaries.
-- **Time** - speed of stabilization.
+Avoid false binary failure where partial outcomes are meaningful.
 
-Avoid false binary failure. Weak outcomes must create recoverable consequences,
-not erase the episode.
+Learning Mastery is separate from operational grade.
 
 ## Persistent state written by the level
 
-Record relationship, injury, evidence, exposure, resource, authority, and
-Prime-background-presence changes that later chapters may read.
+Record:
+- relationship changes;
+- injury/fatigue;
+- evidence/provenance;
+- exposure/Heat;
+- resources;
+- authority state;
+- Wildcard/Apex usage;
+- PRIM Debt / Executive Attention where relevant;
+- Hitman Pressure / Royce cooldown where relevant;
+- psychological residue;
+- next-character inheritance.
 
-## Prime background trace
+## PRIM2 background trace
 
-- **Visible trace:** the exact shot, sound, interface state, object, or action
-  that is genuinely present on first watch.
-- **First-watch meaning:** the ordinary explanation available at this point in
-  the story.
-- **Ghost payoff:** what the same trace proves once Prime's distributed presence
-  and hidden authority are understood.
+If PRIM2 is not openly present, record:
+- **Visible trace:** what is genuinely on-screen / in-state now.
+- **First-watch meaning:** ordinary explanation available now.
+- **Later payoff:** what it means after PRIM2's cross-board authority is understood.
 
-Coordinate the trace with `story/PRIME-LURK-LEDGER.md`. It must not depend on a
-later continuity cheat.
+PRIM2 traces should usually be **institutional gravity**, not recurring literal physical cameos.
+
+Examples include:
+- approval;
+- omission;
+- timing;
+- resource allocation;
+- Pylon behavior;
+- cross-board data;
+- policy exception;
+- unexplained executive channel behavior.
+
+Coordinate with `story/PRIME-LURK-LEDGER.md` where current.
 
 ## Technology accuracy gate
 
@@ -115,11 +181,22 @@ later continuity cheat.
 - **Real concept taught:**
 - **Fictional extrapolation:** `NONE` unless explicitly identified.
 
+## Character psychology gate
+
+- **Historical anchor activated:**
+- **Belief / rule activated:**
+- **Likely first move:**
+- **Alternative considered:**
+- **Who can interrupt the reflex:**
+- **What changes the character's mind:**
+- **Relationship cost:**
+- **Long-term residue:**
+
+Use `story/CHARACTER-PSYCHOLOGY-DECISION-AUTHORITY.md`.
+
 ## Production and game assets
 
-List required location geometry, characters, props, UI, animation, VFX, music,
-SFX, voice, and cinematic transitions. Mark each item `EXISTS`, `NEEDED`, or
-`OPTIONAL`.
+List required location geometry, characters, props, UI, animation, VFX, music, SFX, voice, and cinematic transitions. Mark each item `EXISTS`, `NEEDED`, or `OPTIONAL`.
 
 ## Merge hooks
 
@@ -130,6 +207,16 @@ SFX, voice, and cinematic transitions. Mark each item `EXISTS`, `NEEDED`, or
 
 ## Completion gate
 
-A chapter is ready to graduate from blueprint to episode draft only when its
-human conflict, mission loop, technical gate, five outcomes, continuity writes,
-Prime trace, and minimum asset list are all present.
+A chapter graduates from blueprint to current episode draft only when its:
+- human owner;
+- base playable roster;
+- intervention state;
+- mission loop;
+- technical gate;
+- psychology write;
+- five outcomes;
+- continuity writes;
+- PRIM2 trace;
+- and minimum asset list
+
+are all deliberately resolved.
