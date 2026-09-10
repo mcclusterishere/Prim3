@@ -1,363 +1,338 @@
 ---
-status: PROPOSED
+status: CANON-SUPPLEMENT
 system: Game — XCOM-style tactical layer
-version: 1.0.0
+version: 1.1.0
+branch: main
+authority: Subordinate to CANON.md, TACTICAL-IT-MECHANICS-BIBLE.md, and WILDCARD-INTERVENTION-AUTHORITY.md
 ---
 
-# PRIM3 Tactical Mechanics (XCOM-style)
+# PRIM3 Tactical Mechanics — XCOM-Style Layer
 
-Turn-based tactical missions.  
-Same mission spine as the strategy layer and any future FPS/mobile clients.
+Turn-based tactical missions use a shared AP/grid/state resolver. This file describes the XCOM-like control feel; detailed technical correctness belongs to `TACTICAL-IT-MECHANICS-BIBLE.md`, and elite intervention rules belong to `WILDCARD-INTERVENTION-AUTHORITY.md`.
 
-**Roles in play (standard squad):**
-- **Field-T** Technical Operator — collects the take
-- **Field-E** Entry Operator — opens and holds space
-- **Field-R** Overwatch Operator — owns the outside picture
+## 1. Ensemble deployment law
 
-Optional later: Cohort-03 Lead as squad leader unit with command actions.
+Most missions launch **without Jordan Vale**.
 
----
+The normal playable force is the named cast actually assigned to that episode or side operation. The classic technical field grammar remains:
 
-## 1. Mission spine (unchanged)
+- **R — Picture / Recon**
+- **E — Physical Reality / Entry / Protection**
+- **T — System / Technical Objective**
 
-```
-BRIEF (off-clock)
-  → APPROACH (Approach Clock)
-  → ON OBJECTIVE (Window Clock)
-  → EXTRACT (Extract Clock)
-  → AFTERMATH (off-clock score)
-```
+But those are mission functions, not three mandatory generic people.
 
-Tactical combat map play happens in **Approach**, **On Objective**, and **Extract**.
+A mission may deploy:
+- one or more R/E/T-qualified characters;
+- a Cohort/Lead;
+- Defense personnel;
+- support/specialists;
+- mixed or cross-trained characters;
+- Jordan only if scripted or called as Wildcard;
+- PRIM2 only if scripted or called through an eligible Apex intervention.
 
----
+Episode ownership and tactical deployment are separate. Calling Jordan into Aya's mission does not make it Jordan's episode.
 
-## 2. Turn structure
+## 2. Mission spine
 
-### Side order
-1. **Player phase** — all player units act (any order)
-2. **Threat phase** — adversaries, cameras, timers, environmental pressure resolve
-3. **Clock phase** — apply tick losses from what happened this round
-
-### Actions per unit
-Each unit gets **2 Action Points (AP)** per player phase.
-
-| AP cost | Action type | Examples |
-|---------|-------------|----------|
-| 0 | Free | Short status ping, swap marked item in hand if already on belt rules allow |
-| 1 | Standard | Move (see movement), Aim, Interact, Overwatch, Suppress, Seal take, Breach attempt |
-| 2 | Full | Sprint, Heavy interact (forensic image step), Combined move+act where allowed |
-
-**Unused AP does not carry** to the next turn.
-
-### Initiative / order
-Player chooses unit order freely each player phase (XCOM-style, not strict speed initiative).
-
----
-
-## 3. Map language
-
-### Tiles
-- Grid map (square tiles). Default mission: **40–80 tiles** of playable space.
-- Elevation optional in v1; add later.
-
-### Tile tags
-| Tag | Meaning |
-|-----|--------|
-| `OPEN` | No cover |
-| `COVER_LOW` | Half cover |
-| `COVER_HIGH` | Full cover |
-| `DOOR` | Closed / open state |
-| `NODE` | Technical interact point (Field-T objective) |
-| `ENTRY` | Breachable portal |
-| `OVERWATCH_LANE` | Long sight line for Field-R |
-| `SAFE` | Extract / van / exit zone |
-| `CAMERA` | Detection source |
-| `HAZARD` | Damage or delay if entered |
-
-### Fog / knowledge
-- **Seen** — currently in LOS of a player unit
-- **Known** — seen earlier this mission
-- **Unknown** — never seen
-
-Field-R reveals more on Approach and during Window when stationed on `OVERWATCH_LANE`.
-
----
-
-## 4. Movement
-
-| Action | AP | Distance |
-|--------|-----|----------|
-| Move | 1 | Up to **Movement** stat tiles |
-| Sprint | 2 | Up to **Movement + 2**, ends AP, cannot shoot/interact after |
-
-**Default Movement stats (v1)**
-| Role | Movement | Notes |
-|------|----------|--------|
-| Field-T | 4 | Encumbered by deck modules |
-| Field-E | 5 | Baseline maneuver unit |
-| Field-R | 6 | Lightest kit |
-
-Difficult terrain / climb / vault: +1 AP or −2 tiles (pick one rule and keep it consistent; v1 = **−2 tiles**).
-
----
-
-## 5. Core stats (per unit)
-
-| Stat | Meaning |
-|------|--------|
-| **HP** | Hits before downed |
-| **AP** | 2 per turn |
-| **Movement** | Tiles per Move action |
-| **Aim** | Base % before cover/range |
-| **Armor** | Flat damage reduction |
-| **Will** | Stress resistance (panic / freeze) |
-| **Tech** | Field-T only — interact quality |
-| **Hold** | Field-E only — space control strength |
-| **Picture** | Field-R only — detection and warning strength |
-
-### v1 baselines
-| Role | HP | Aim | Armor | Will | Special |
-|------|-----|-----|-------|------|--------|
-| Field-T | 5 | 55 | 1 | 6 | Tech 7 |
-| Field-E | 7 | 65 | 2 | 7 | Hold 7 |
-| Field-R | 5 | 70 | 0 | 8 | Picture 7 |
-
----
-
-## 6. Combat (kinetic)
-
-Prim3 is not “kill everyone to win.” Combat is a failure pressure and a tool, not the default objective.
-
-### Shot resolution
-```
-Hit% = Aim − CoverPenalty − RangePenalty + HeightBonus − Suppression
+```text
+BRIEF
+ -> APPROACH
+ -> ON OBJECTIVE
+ -> EXTRACT
+ -> AFTERMATH
 ```
 
-| Cover | Penalty to attacker |
-|-------|---------------------|
-| None | 0 |
-| Low | −20 |
-| High | −40 |
+Mission escalation state runs alongside those phases:
 
-| Range | Penalty |
-|-------|--------|
-| Close (1–4) | 0 |
-| Mid (5–8) | −10 |
-| Long (9+) | −25 |
+```text
+STABLE -> DEGRADED -> CRITICAL -> TERMINAL
+```
 
-**Damage (v1):** weapon base − armor (min 1 if hit).
+The phase answers **where the operation is**.
+The escalation state answers **how close the current plan is to unacceptable loss**.
 
-### Sidearm (all roles carry)
-- Damage 2–3
-- Range efficient Close/Mid
-- 1 AP to fire
+## 3. Turn structure
 
-### Primary (Field-E often; Field-R sometimes; Field-T rare)
-- Higher damage or better range by kit
-- Still 1 AP to fire
+1. Player Phase — activate controlled characters in any order.
+2. Threat Phase — hostile actors, automated systems and environmental pressure resolve.
+3. Clock/State Phase — clocks, mission state and escalation conditions update.
 
-### Overwatch
-- 1 AP: reserve reaction shot on first enemy move in LOS this threat phase
-- Field-R gets **+10 Aim** on Overwatch when on `OVERWATCH_LANE`
+Standard characters receive **2 AP** per Player Phase. Unused AP does not carry.
 
-### Suppression
-- 1 AP: pin a target (−30 Aim next shot, cannot Sprint)
-- Field-E is best at this
+Special exception:
+- PRIM2 receives **3 AP on his Apex-arrival activation**, then 2 AP on later activations.
 
-### Downed / death
-- HP 0 → **Downed** (not dead yet)
-- Downed unit: 1 HP bleed clock (3 turns) unless stabilized
-- Field-E can Stabilize (1 AP adjacent)
-- Extract with downed unit: Extract Clock −1 extra
-- Death on bleed-out or execution event → Aftermath penalty severe
+## 4. Tactical information
 
----
+The board must preserve the earned-knowledge model:
 
-## 7. Role actions (the real game)
+```text
+HIDDEN
+ -> DETECTED
+ -> INFERRED
+ -> CORROBORATED
+ -> VERIFIED
+```
 
-### Field-T — Technical
-| Action | AP | Tick effect | Result |
-|--------|-----|-------------|--------|
-| **Survey Node** | 1 | 0 | Reveals node type and required work remaining |
-| **Live Pull** | 1 | Window −1 | +1 Take (low integrity) |
-| **Exploit Step** | 2 | Window −2 | +2 Take (medium integrity) |
-| **Forensic Image** | 2 | Window −3 | +2 Take (high integrity) if write-block conditions met |
-| **Seal Take** | 1 | 0 | Locks current Take; further pulls start a new packet |
-| **Hard Reset / Abort Work** | 1 | 0 | Cancel partial unsafe work; avoid contamination |
+Information can also become stale, contradicted, compromised or unknown.
 
-**Take integrity track (0–3)**
-- 0 Contaminated / useless
-- 1 Usable but weak (RAPID style)
-- 2 Solid
-- 3 Clean (FORENSIC style)
+A boss character does not grant magical truth. Even `PRIM2-SOURCED` information retains provenance and may require independent validation.
 
-If Window hits 0, only **Sealed** take counts.
+## 5. Movement / positioning
 
-### Field-E — Entry / Hold
-| Action | AP | Effect |
-|--------|-----|--------|
-| **Breach Door** | 1 or 2 | Open `ENTRY`/`DOOR`; loud breach may raise Detection |
-| **Hold Angle** | 1 | Mark a corridor/door; enemies paying through it take −20 / provoke Overwatch |
-| **Clear Room** | 2 | Sweep adjacent room; reveal unknowns in that room |
-| **Guard Tech** | 1 | Adjacent to Field-T: first hit against Field-T redirects to Field-E once this turn |
-| **Stabilize** | 1 | Stop bleed on downed ally |
-| **Force Move** | free (command) | On Contact state: can order Field-T to spend Move without debate (narrative + mechanical priority) |
+Representative AP costs:
+- Move — 1 AP
+- Sprint — 2 AP
+- Hunker / defensive posture — 1 AP
+- Interact — normally 1 AP
+- high-focus staged technical work — up to 2 AP per activation
 
-**Space state:** `Secure` / `Contested` / `Lost`  
-If Space = Lost for 2 consecutive clock phases, Window gains −1 extra per turn.
+Exact movement/range numbers are balance values and may be tuned without changing canon.
 
-### Field-R — Picture / Warning
-| Action | AP | Effect |
-|--------|-----|--------|
-| **Scan Lane** | 1 | Reveal enemies/cameras in a lane; on success reduce Detection pressure |
-| **Mark Threat** | 1 | Tagged enemy: +10 Aim for allies this turn |
-| **Quiet Route** | 2 | Next Approach/Extract group move costs −1 tick once |
-| **Raise Alarm Call** | 0 | Force Lead decision: continue or Extract; narrative interrupt |
-| **Overwatch** | 1 | As combat Overwatch with lane bonus |
-| **Mute Signature** | 1 | Self Dual Sight muted; harder to detect, allies may lose easy ID |
+## 6. Kinetic rule
 
-**Picture state:** `Clear` / `Uncertain` / `Hostile`  
-Hostile Picture → Approach/Extract clocks tick faster (−1 extra on Clock phase).
+Combat buys or protects opportunity. It does not substitute for the technical objective.
 
----
+Kinetic actions may:
+- preserve a route;
+- protect a LAB_NODE;
+- save a downed operator;
+- hold a zone;
+- deny hostile movement;
+- stop physical destruction of evidence/critical equipment.
 
-## 8. Detection and heat (not alien “activity”)
+A mission whose lesson is technical may not be passed merely by killing every hostile.
 
-### Detection meter (0–10)
-| Source | +Detection |
-|--------|------------|
-| Walking in camera LOS | +1 |
-| Loud breach | +2 |
-| Gunfire | +2 to +3 |
-| Failed stealth interact | +1 |
-| Field-R successful Scan | −1 (min 0) |
+## 7. Downed / death / extraction
 
-| Detection | Effect |
-|-----------|--------|
-| 0–2 | Quiet |
-| 3–5 | Patrols shift toward players |
-| 6–8 | Reinforcements schedule |
-| 9–10 | Mission Heat max — Window −1 per Clock phase until Extract |
+`HP <= 0` may place a character in **Downed** state when the mission rules allow rescue.
 
----
+A still-living Downed character may be stabilized.
 
-## 9. Clocks in tactical play
+A completed death persists.
 
-Applied in **Clock phase** after Threat phase.
+Jordan and PRIM2 can arrive in time to prevent a death; they cannot reverse one that already happened.
 
-| Phase | Default ticks | Spend triggers |
-|-------|---------------|----------------|
-| Approach | 6 | Zone transitions, anomalies, detours |
-| Window | 8 (6 if detected entry) | Field-T work, lost space, hostile picture |
-| Extract | 6 (4 if window collapsed; 3 if hot) | Route breaks, carrying downed, bulk take |
+Leaving a character behind can produce capture, missing/separated status or death depending on the authored mission state. Do not globally equate “not extracted” with one outcome.
 
-**Early extract:** Lead may end Window while ticks remain → better Extract size, lower Take possible.
+## 8. Technical-action rule
 
----
+Correct technical reasoning is deterministic.
 
-## 10. Mission end states
+No generic `hack chance` may make the correct technical answer randomly fail.
 
-| Result | Requirements |
-|--------|----------------|
-| **Full success** | Sealed Take integrity ≥2, all units in SAFE, Detection <9 at exit, no deaths |
-| **Partial success** | Sealed Take ≥1 OR high intel value, but hot exit / injury / high detection |
-| **Failure** | No sealed take, or all operators down, or Exposure flag beyond authorized risk |
+Randomness belongs to:
+- hostile behavior;
+- combat resolution;
+- interruption;
+- damaged equipment;
+- incomplete information;
+- environmental change;
+- time pressure.
 
-Aftermath feeds strategy layer: reputation, heat on institution, injuries, unlocked ops.
+Validation remains distinct from change.
 
----
+## 9. Standard field functions
 
-## 11. Loadout hooks (why kits matter)
+### R — THE PICTURE
+Representative actions:
+- Scan Lane
+- Compare Sources
+- Map Topology
+- Mark Threat
+- Validate External State
+- Warn
+- Quiet Route
+- Overwatch
 
-Loadouts modify stats and action costs — they do not invent new phases.
+R primarily reduces uncertainty.
 
-### Field-T examples
-| Kit | Mechanical effect |
-|-----|-------------------|
-| LIVE | Exploit Step integrity floor 1; standard costs |
-| FORENSIC | Forensic Image available at full value; +1 AP cost if moving same turn |
-| RAPID | Live Pull only 1 AP still; integrity cap 1 unless later sealed upgrade |
-| DENIED | −Detection from tech actions; Survey may cost +0; lower emission |
+### E — THE REALITY
+Representative actions:
+- Move / Breach / Open
+- Hold Angle
+- Guard Tech
+- Secure Evidence Zone
+- Escort
+- Stabilize Person
+- Stabilize Physical System
+- Establish/Shift Perimeter
 
-### Field-E examples
-| Kit | Mechanical effect |
-|-----|-------------------|
-| Approach & Entry | Breach tools: loud Breach 1 AP, quiet Bypass 2 AP |
-| Hold & Protect | Guard Tech stronger (2 redirects / mission) |
-| Contact / Collapse | Sprint +1 tile; Stabilize 1 AP still |
-| Technical Escort | Move matched: when adjacent to Field-T, Field-T Move does not provoke free enemy disengage once / turn |
+E primarily creates physical opportunity and preserves people/work.
 
-### Field-R examples
-| Kit | Mechanical effect |
-|-----|-------------------|
-| Static Overwatch | +Picture on lane; Overwatch +15 |
-| Mobile Perimeter | Movement +1; Scan weaker range |
-| Low-Signature | Detection gains from movement reduced by 1 (min 0) |
-| Exfil Screen | Quiet Route costs 1 AP during Extract |
+### T — THE SYSTEM
+Representative actions:
+- Observe / Characterize / Classify
+- Compare
+- Trace Dependency
+- Check Authorization
+- Isolate
+- Preserve
+- Sequence
+- Configure
+- Recover
+- Verify
+- Document
+- Seal
 
----
+T converts evidence and access into technical mission state.
 
-## 12. Adversary basics (v1)
+Full action grammar is in `ROLE-ACTION-REGISTRY.yaml` and `TACTICAL-IT-MECHANICS-BIBLE.md`.
 
-| Type | HP | Behavior |
-|------|-----|----------|
-| **Guard** | 4 | Patrol, investigate Detection |
-| **Camera** | — | Adds Detection in LOS; hackable later by Field-T |
-| **Responder** | 5 | Spawns at Heat thresholds |
-| **Hard target** | 8 | Objective defender; avoid if possible |
+## 10. Wildcard request — Jordan Vale
 
-AI priorities: investigate noise → move to last known → engage nearest visible → call heat.
+When an eligible mission reaches **CRITICAL** while Jordan is off-board and a seasonal authorization remains, mission control may expose:
 
----
+```text
+EXECUTIVE CHANNEL OPEN
+REQUEST WILDCARD
+```
 
-## 13. Will / pressure (XCOM panic analogue)
+Standard campaign pool:
 
-| Trigger | Will test |
-|---------|----------|
-| Ally downed in LOS | Yes |
-| First gunfire when Detection was <3 | Yes |
-| Window hits 0 while still on NODE | Field-T tests |
-| Picture goes Hostile | Field-R tests |
+> **2 non-scripted Jordan Wildcard Authorizations per season.**
 
-**Fail Will:** 1 turn **Stagger** (only 1 AP) or **Freeze** (0 AP, Field-T only on botched high-stress interact).
+Jordan does not instantly spawn. Each mission authors an ingress and arrival delay, normally **1–3 rounds after approval**.
 
-No cartoon panic run into enemies for v1.
+Jordan's tactical purpose is to restore options:
+- `ANOTHER PATH`
+- `ADAPTIVE ROLE`
+- `RALLY THE ROOM`
+- `FAILOVER INSTINCT`
 
----
+He is not a permanent fourth class and not an automatic objective-completion button.
 
-## 14. Standard squad turn example
+## 11. Apex request — PRIM2
 
-1. Field-R Scans lane (1 AP), Overwatch (1 AP)  
-2. Field-E Breaches (1 AP), Hold Angle (1 AP)  
-3. Field-T Moves to NODE (1 AP), Live Pull (1 AP)  
-4. Threat phase — guard walks into Overwatch  
-5. Clock phase — Window −1 from Live Pull  
+An eligible high-value mission may expose Apex intervention only when:
+- Jordan is already present;
+- the mission is appropriately classified Critical/State/Strategic;
+- CRITICAL failure persists or returns for at least one full round;
+- command/communications still permit escalation;
+- PRIM2 is not story-locked out.
 
----
+Standard campaign pool:
 
-## 15. Build order inside this mode
+> **3 non-scripted PRIM2 Apex Authorizations across the entire seven-season campaign.**
 
-1. One graybox map (office / server room hybrid)  
-2. Three player units with baseline stats  
-3. Approach / Window / Extract clocks  
-4. Field-T node actions + Seal  
-5. Field-E breach + hold  
-6. Field-R scan + overwatch  
-7. Detection meter  
-8. One Full / Partial / Fail scoring path  
-9. Then loadout modifiers  
-10. Then strategy hub  
+Before the reveal, the UI may say:
 
----
+```text
+REQUEST EXECUTIVE OVERRIDE
+```
 
-## 16. Explicit non-goals for v1 tactical
+Later it may explicitly say:
 
-- Full FPS movement  
-- Huge skill trees  
-- Base building  
-- Multiplayer  
-- Vehicle combat  
-- Procedural campaign  
+```text
+REQUEST PRIM2
+```
 
-One mission, three operators, readable clocks, decisive Extract.
+PRIM2's identity is broader information + sovereign authority, not an unlimited cheat code.
+
+## 12. Royce Incursion
+
+Royce is a persistent Hitman-side elite incursion, not a generic hard target.
+
+Standard non-scripted limits:
+- maximum **2 Royce Incursions per season**;
+- maximum **1 per mission**;
+- **2-mission cooldown** after a non-scripted incursion;
+- story-authored missions may override;
+- final RAID is not constrained by the random-incursion cap.
+
+Royce specializes in:
+- breaking/contesting Control Zones;
+- pressuring isolated or wounded characters;
+- forcing route changes;
+- disrupting objective tempo;
+- escalating Will pressure;
+- coordinating Hitman units.
+
+He does not become a technical omniscient just because he is an apex threat.
+
+His intended emotional effect is similar to an XCOM Chosen arrival:
+
+> **The mission you planned is suddenly not the mission you are playing.**
+
+## 13. Intervention asymmetry
+
+```text
+ENSEMBLE -> solves the mission
+JORDAN   -> restores optionality
+PRIM2    -> expands picture / authority
+ROYCE    -> destabilizes control / tempo
+```
+
+This asymmetry is mandatory. Do not build three reskinned super-soldiers.
+
+## 14. Mission grade interaction
+
+Intervention use is not automatic failure or grade-capping.
+
+The battlefield outcome still determines the operational grade.
+
+Separate ribbons/flags can record:
+- `INDEPENDENT_COMMAND`
+- `WILDCARD_RECOVERY`
+- `APEX_RECOVERY`
+- `OBJECTIVE_SALVAGED`
+- `ROYCE_REPULSED`
+- `SURVIVOR_EXTRACTION`
+
+Learning Mastery is scored separately. Jordan/PRIM2 may save the people and mission state without auto-awarding concept mastery.
+
+## 15. Intervention cannot rewind
+
+Interventions may act on current recoverable state.
+
+They may not:
+- resurrect;
+- rewind clocks;
+- restore destroyed evidence beyond recovery;
+- zero Heat/Detection;
+- undo a permanently lost objective condition;
+- retroactively authorize an already completed unauthorized action.
+
+## 16. Tactical UI requirements
+
+Always show the information needed to make a fair decision:
+- selected character AP / HP / Will / status;
+- relevant mission clocks;
+- Detection/Heat where relevant;
+- objective/evidence state;
+- Picture / Control / Technical state;
+- current mission escalation state;
+- earned information confidence/provenance;
+- Wildcard availability when eligible;
+- Apex availability when eligible;
+- hostile escalation warning quality when earned.
+
+## 17. Build order
+
+A useful vertical slice should prove this sequence:
+
+1. named ensemble team launches without Jordan;
+2. normal R/E/T cooperation works;
+3. mission can degrade naturally;
+4. CRITICAL state is legible and fair;
+5. player may request Jordan;
+6. Jordan arrives after delay and restores options;
+7. a test scenario can remain critical enough to expose PRIM2 Apex;
+8. a separate/variant scenario supports a Royce Incursion;
+9. aftermath records who saved whom and what intervention was spent;
+10. Learning Mastery remains independent of rescue use.
+
+## 18. Tactical success test
+
+The tactical layer works when the player does **not** want Jordan on every mission.
+
+They should want Aya to solve Aya's problem, Chioma to command Chioma's team, Rafael to own the picture, and the rest of the cast to become legends in their own right.
+
+Jordan becomes exciting precisely because the player sees the CRITICAL alert and thinks:
+
+> **Oh shit. Call the Wildcard.**
+
+And PRIM2 becomes mythic because, a few times in the whole campaign, Jordan is already there and the player still has to ask:
+
+> **Who does the Wildcard call?**
