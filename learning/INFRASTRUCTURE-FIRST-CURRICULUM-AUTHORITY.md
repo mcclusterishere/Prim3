@@ -1,22 +1,24 @@
 ---
 status: CANON
 system: Curriculum priority / infrastructure-first authority
-version: 1.0.0
+version: 1.1.0
 owner: Matthew McCluster
 review_date: 2026-09-09
 ---
 
 # PRIM3 Infrastructure-First Curriculum Authority
 
-PRIM3 is an infrastructure-first IT learning system.
+PRIM3 is an infrastructure-first IT learning system with a **Security+ primary certification anchor and Network+ primary infrastructure companion anchor**.
 
-The 21-song curriculum may teach cybersecurity, software, cloud, data, governance, social engineering, forensics, finance, and other adjacent disciplines, but those subjects are not co-equal curricular centers. They are taught because infrastructure professionals must understand the workloads, risks, users, services, data, applications, and adversaries that infrastructure supports.
+The 21-song curriculum may teach cybersecurity, software, cloud, data, governance, social engineering, forensics, finance, and other adjacent disciplines. Security is now the principal external certification target because the existing twenty-song corpus already aligns most strongly with Security+. Infrastructure remains the explanatory backbone: the learner should understand the systems underneath the controls, incidents, applications, identities, data and threats being discussed.
 
 The primary educational outcome is:
 
-> A learner should leave PRIM3 with unusually deep systems/infrastructure literacy and a practical mental model of how physical, network, compute, storage, operating-system, virtualization, cloud, resilience, monitoring, automation, identity, and security layers combine to support modern IT services.
+> A learner should leave PRIM3 with Security+-level security breadth grounded in unusually deep systems/infrastructure literacy and a practical mental model of how physical, network, compute, storage, operating-system, virtualization, cloud, resilience, monitoring, automation, identity, and security layers combine to support and protect modern IT services.
 
-The target is not memorization alone. PRIM3 should prepare learners to reason through infrastructure-oriented certification objectives and performance-based scenarios by repeatedly applying infrastructure concepts inside tactical missions.
+The target is not memorization alone. PRIM3 should prepare learners to reason through certification objectives and performance-based scenarios by repeatedly applying security and infrastructure concepts inside tactical missions.
+
+The certification hierarchy is governed by `learning/SECURITY-NETWORK-DUAL-ANCHOR.md`.
 
 ## 1. Curriculum priority order
 
@@ -47,13 +49,30 @@ These domains receive the deepest repetition, labs, transfer testing, dependency
 11. Emerging infrastructure
    - edge/distributed computing, modern data-center interconnect, SDN, SD-WAN, SASE/SSE, VXLAN/overlay networking, zero-touch provisioning, AI/accelerator infrastructure, advanced cooling/power, high-speed fabrics, observability automation and other technologies that materially change how infrastructure is built or operated.
 
-### Tier 1 — infrastructure-dependent adjacent literacy
+### Tier 1 — Security+ completion domains
 
-Cybersecurity, incident response, penetration-testing concepts, application security, databases/data systems, IoT, and governance should be taught deeply enough that the learner understands what infrastructure must enable, protect, isolate, observe, recover, or constrain.
+Security+ is now the primary certification-completion target across the full product. These domains must be mapped objective-by-objective across songs, full lessons, labs, transfer missions, debrief review, and supplemental content:
 
-### Tier 2 — broad IT context
+- general security concepts;
+- threats, vulnerabilities and mitigations;
+- security architecture;
+- security operations;
+- security program management and oversight;
+- identity, authentication and authorization;
+- cryptography, PKI and certificate trust;
+- incident response, monitoring and evidence;
+- governance, risk, policies, standards and procedures;
+- secure infrastructure and resilience.
 
-Professional practice, project management, finance, analytics, AI, software-development concepts, and other topics remain useful supporting literacy. They should not displace infrastructure depth unless a story/mission needs them.
+Security concepts should be taught as systems problems whenever possible rather than isolated vocabulary.
+
+### Tier 2 — infrastructure-dependent adjacent literacy
+
+Incident response, penetration-testing concepts, application security, databases/data systems, IoT, governance, software and cloud-adjacent topics should be taught deeply enough that the learner understands what infrastructure must enable, protect, isolate, observe, recover or constrain.
+
+### Tier 3 — broad IT context
+
+Professional practice, project management, finance, analytics, AI, software-development concepts, and other topics remain useful supporting literacy. They should not displace Security+ completion or infrastructure depth unless a story/mission needs them.
 
 ## 2. Infrastructure dependency rule for every song
 
@@ -74,7 +93,7 @@ Examples:
 - `wireless.evil-twin` links to RF, AP/controller architecture, authentication, wired backhaul, VLANs, NAC/AAA, monitoring and physical placement.
 - `incident.data-breach` links to identity, logging, storage, network flows, cloud/on-prem boundaries, backup/evidence systems and incident containment.
 
-A lesson that teaches only the top-layer term without its infrastructure dependency is incomplete.
+A lesson that teaches only the top-layer security term without its infrastructure dependency is incomplete.
 
 ## 3. Mission rule: infrastructure must exist on the battlefield
 
@@ -99,43 +118,65 @@ These objects must change mission state when operated, damaged, isolated, restor
 
 ## 4. Repetition law
 
-Infrastructure concepts are not one-song-and-done vocabulary.
+Infrastructure and high-value Security+ concepts are not one-song-and-done vocabulary.
 
-A core infrastructure concept should normally appear at four depths across the campaign:
+A core concept should normally appear at four depths across the campaign:
 1. Introduced — explicit lyric/lesson definition.
 2. Applied — primary LAB_NODE mechanic in its home mission.
 3. Reused — appears later as an unannounced dependency.
-4. Integrated — capstone mission requires it alongside several other infrastructure layers.
+4. Integrated — capstone mission requires it alongside several other infrastructure/security layers.
 
-This is how PRIM3 should create durable infrastructure memory rather than short-term recall.
+This is how PRIM3 should create durable memory rather than short-term recall.
 
 ## 5. Certification alignment priority
 
 PRIM3 is not an official CompTIA course and must never claim guaranteed exam coverage or endorsement.
 
-For external objective-gap auditing, the infrastructure spine should be checked first against the current objectives for:
+For external objective-gap auditing, use this hierarchy:
 
-1. CompTIA Network+
-2. CompTIA Server+
-3. CompTIA Cloud+
-4. CompTIA Linux+
+1. **CompTIA Security+ — primary certification-completion anchor.**
+2. **CompTIA Network+ — primary infrastructure companion anchor.**
+3. CompTIA Server+
+4. CompTIA Cloud+
 5. CompTIA A+ Core 1 and relevant Core 2 infrastructure/operations objectives
-6. CompTIA CloudNetX
-7. CompTIA Tech+ infrastructure fundamentals
+6. CompTIA Linux+
+7. CompTIA CloudNetX
+8. CompTIA Tech+ infrastructure fundamentals
+9. CySA+, PenTest+, SecurityX and other certifications as advanced or incidental transfer alignments.
 
-Security+, CySA+, PenTest+, SecurityX and other certifications remain important secondary alignments because the current owner-song catalog contains substantial security material.
+This means the final curriculum is first checked for Security+ objective gaps. Network+ is then used to test whether that security knowledge rests on adequate network/infrastructure understanding.
 
 The current cross-certification audit is maintained in `learning/COMPTIA-OBJECTIVE-ALIGNMENT-2026.md`.
 
 ## 6. Protected Song #21 purpose
 
-The currently open Song #21 slot is intentionally reserved as the final infrastructure-gap payload.
+The currently open Song #21 slot is now reserved as the **Security+ completion + Network+ infrastructure integration capstone**.
 
-It must not be filled only because the album needs another song. Before lyrics are finalized, the remaining infrastructure-objective gap matrix must be reviewed.
+It must not be filled only because the album needs another song. Before lyrics are finalized, the remaining Security+ objective gaps must be reviewed first, followed by the Network+/infrastructure gap matrix.
 
-Song #21 should preferentially cover high-value missing infrastructure concepts that cannot be adequately reinforced by expanding existing lessons/labs.
+The current working concept is:
 
-Likely current gap families include:
+- Song working title: `CHAIN OF TRUST`
+- Mission working title: `TRUST ANCHOR`
+
+These remain working titles until deliberately owner-locked.
+
+Song #21 should preferentially cover high-value missing Security+ concepts that cannot be adequately reinforced by expanding existing lessons/labs, especially where they naturally expose infrastructure dependencies.
+
+Likely Security+ completion families include:
+- PKI and certificate chains;
+- certificate authorities, trust stores and revocation;
+- public/private keys, digital signatures and key management;
+- secure protocols, encryption in transit/at rest and trust validation;
+- enterprise identity, AAA, federation and MFA;
+- zero-trust architecture;
+- firewalls/WAF/IDS/IPS and layered controls;
+- monitoring/SIEM/logging/flow visibility and baselines;
+- vulnerability prioritization/remediation;
+- governance, risk treatment, policy, standards, procedures and change control;
+- incident response and business continuity.
+
+Network+/infrastructure integration should reinforce the relevant missing connective layers, including:
 - IPv4/IPv6 addressing, CIDR and subnetting;
 - TCP/UDP and common infrastructure protocols/ports;
 - switching/routing, VLANs, trunks, NAT/PAT and route selection;
@@ -153,14 +194,14 @@ Likely current gap families include:
 - modern high availability, fault domains, regions/AZs and autoscaling;
 - emerging edge, accelerator/GPU, fabric, power and cooling infrastructure.
 
-The final song may be dense. Its mission should be the infrastructure-integration laboratory rather than a glossary dump: the player should have to build, stabilize, troubleshoot, fail over, and defend a multi-layer service path using concepts introduced throughout the album.
+The final song may be dense, but its mission should not be a glossary dump. The player should have to establish a trusted multi-layer service path, defend it, detect broken trust, restore controls, validate the result, and keep the infrastructure supporting that trust operational under pressure.
 
 ## 7. Curriculum success standard
 
-A successful PRIM3 learner should be able to look at an application, attack, dataset, AI workload, IoT system, business service or mission requirement and reason downward through the infrastructure stack:
+A successful PRIM3 learner should be able to look at a security control, application, attack, dataset, AI workload, IoT system, business service or mission requirement and reason downward through the infrastructure stack:
 
 ```text
-USER / MISSION
+SECURITY EVENT / CONTROL / POLICY
   -> APPLICATION / SERVICE
   -> DATA / IDENTITY
   -> RUNTIME / OS / CONTAINER / VM
@@ -170,4 +211,6 @@ USER / MISSION
   -> OBSERVABILITY / AUTOMATION / RECOVERY
 ```
 
-That systems view is the central educational identity of PRIM3.
+The resulting educational identity is:
+
+> **Security+ breadth taught through infrastructure depth, with Network+ as the first infrastructure benchmark.**
