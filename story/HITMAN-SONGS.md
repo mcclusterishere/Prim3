@@ -1,26 +1,40 @@
 ---
-status: CANON
-system: Hitman music (light)
-version: 1.1.0
+status: DEVELOPMENT-SOURCE-NOT-FINAL-ORDER
+system: Hitman music inventory
+version: 2.0.0
+branch: main
 ---
 
-# Hitman song stubs
+# Hitman song inventory
 
-## Benji 6-ep lock (see HITMAN-BENJI.md)
-| Ep | Track |
-|----|--------|
-| 1 | Headed to the Top |
-| 2 | Crimewave |
-| 3 | Hitshake |
-| 4 | Hit-Mode |
-| 5 | Mr. Rogers |
-| 6 | Up for Days |
+These tracks remain useful source material for the future **Hitman / Benji age-19-to-26 prequel**, but the old six-episode order is **not current locked canon**.
 
-## Additional
-| Track | Note |
-|-------|------|
-| **Parking Lot** | Bridgeport / CT origin texture — parking-lot nights, God + Glock, charges dropped, God’s army; supports Benji hometown lore (Bridgeport). Not required as 7th episode unless expanded later. |
+Recovered/development track names include:
+- `Headed to the Top`
+- `Crimewave`
+- `Hitshake`
+- `Hit-Mode`
+- `Mr. Rogers`
+- `Up for Days`
+- `Parking Lot`
 
-Prim3 IT team-color track: **Red Blue Purple White Team** (Prim3 lane, not Hitman).
+Do not infer from this inventory that:
+- Benji is a separate contemporary protagonist;
+- the Hitman prequel must contain exactly six episodes;
+- Jordan joins at age 21;
+- Jordan takes over Hitman at the end;
+- the listed order is final.
 
-Deep Hitman show bible deferred; Prim3 finish takes priority.
+Current character chronology:
+
+```text
+JORDAN / BENJI — approximately age 19–26
+BIGGA LEX THE JET — Jordan's primary friendship/entry bridge
+LEX OFFERS SUCCESSION AT ~26
+JORDAN REFUSES
+ROYCE RECEIVES THE SUCCESSION OPPORTUNITY
+```
+
+Exact future prequel track-to-episode mapping should be rebuilt from the current event/psychology canon when that show enters production.
+
+`Red Blue Purple White Team` remains a PRIM3 track, not part of the Hitman song inventory.
