@@ -1,27 +1,33 @@
 ---
 status: CANON
 system: Song -> timed concept -> lesson -> role lab -> mission mastery
-version: 1.1.0
+version: 1.2.0
 owner: Matthew McCluster
+branch: main
 ---
 
 # PRIM3 Learning Mission Source of Truth
 
 This document defines how PRIM3 turns every educational song into an interactive lesson and then into playable application inside the same episode mission.
 
-If a proposed gameplay, episode, lyric-player, lesson, or lab design conflicts with this document, this document wins unless `CANON.md` is deliberately revised.
+If proposed gameplay, episode, lyric-player, lesson or lab design conflicts with this document, this document wins unless `CANON.md` or a more specialized canonical gameplay authority deliberately revises the rule.
 
-## Mechanical authority
+## Mechanical authorities
 
-This document owns the **learning loop**. `game/TACTICAL-LAB-MECHANICS-AUTHORITY.md` owns the detailed battlefield implementation of that loop: AP economy, LAB_NODE state machines, Task Atoms, Field-R Picture/Evidence Tokens, Field-E Control Zones, Field-T technical state, interruption, validation, combat coupling, objective graphs, and mission-spec requirements.
+This document owns the **learning loop**.
 
-`learning/MISSION-CONCEPT-LAB-MATRIX.md` binds the current 21 episode slots to concrete R/E/T lab concepts, and `learning/missions/LVL-07-EXPOSURE-GRANULAR.md` is the reference implementation for mission-level granularity.
+Use together with:
+- `game/TACTICAL-IT-MECHANICS-BIBLE.md` — detailed battlefield technical grammar;
+- `game/WILDCARD-INTERVENTION-AUTHORITY.md` — Jordan/PRIM2/Royce escalation;
+- `game/OMNISCIENT-COMMAND-INTERFACE.md` — fused mission-control perspective;
+- `story/ENSEMBLE-POV-AUTHORITY.md` — episode and playable-character ownership;
+- `learning/MISSION-CONCEPT-LAB-MATRIX.md` — 21 episode slots to R/E/T concept applications.
 
 A disconnected quiz, fake terminal typing sequence, unexplained “hack percentage,” or lab that pauses tactical pressure indefinitely does not satisfy this learning contract.
 
 ## 1. Core law
 
-**One song = one episode = one mission = one concept set.**
+**One song = one episode = one canonical mission = one concept set.**
 
 The learning loop is:
 
@@ -33,124 +39,116 @@ MUSIC FILM
   -> HUMAN STORY
   -> MISSION BRIEF
   -> XCOM-style tactical mission
-  -> character-specific role labs
+  -> character-specific role applications
   -> operational grade + learning mastery
   -> debrief + exact lyric-cue review
 ```
 
-The music is not decorative. It is the vocabulary briefing for the mission.
-The mission is not a quiz pasted onto an action scene. It forces the player to use the song's concepts as part of completing the operation.
+The music is not decorative. It is vocabulary/mental-model preparation for the mission.
+
+The mission is not a quiz pasted onto an action scene. It forces the player to use the song's concepts while managing time, people, uncertainty and consequence.
 
 ## 2. Music-film learning layer
 
-Every music film must support a **Study Overlay**.
+Every music film should support a **Study Overlay**.
 
 ### Timed lyrics
-- Lyrics are synchronized to the song using TTML/SRT/DistroKid timing when available.
+- Lyrics are synchronized using supplied/derived timing data when available.
 - `LYRICS.md` remains the preserved owner lyric source.
-- Timed files are derived presentation assets and must never silently rewrite owner lyrics.
-- Data Breach is the reference package because it already has MP3 + SRT + TTML + DistroKid timed lyric data.
+- Timed presentation assets must not silently rewrite the owner lyrics.
 
 ### Clickable terms
-A technical term becomes interactive only during the cue in which it is sung/spoken.
+A technical term becomes interactive during the cue where it appears.
 
-Visual behavior:
-- active lyric line is captioned normally;
-- annotated terms receive a restrained highlight/underline/glow;
-- tap/click opens a sidecar concept card without losing the current timestamp;
-- closing the card returns to the same point in the music film;
-- Study Overlay can be toggled off for a clean cinematic watch.
+The overlay may provide:
+- restrained visual annotation;
+- quick definition;
+- full lesson;
+- prerequisite/dependency links;
+- mission application preview;
+- later debrief return link.
 
-### Two depths of explanation
-**Quick definition** — 1-3 sentences. Answers: “What does this term mean here?”
+A viewer may continue without opening lessons.
 
-**Full lesson** — a dedicated concept page containing:
+### Two explanation depths
+
+**Quick definition** answers: “What does this mean here?”
+
+**Full lesson** should cover:
 1. plain-language definition;
 2. why the lyric invokes it;
 3. where it sits in the larger system;
-4. a visual/diagram where useful;
+4. visual/diagram where useful;
 5. common misconception;
-6. defensive, professional, or systems-thinking context;
-7. prerequisite concepts;
-8. which episode/mission actions apply it;
-9. a short knowledge check or safe mini-simulation;
+6. defensive/professional/system context;
+7. prerequisites;
+8. which mission actions apply it;
+9. safe knowledge check/simulation;
 10. what PRIM3 simplified or fictionalized.
 
-A viewer may continue without opening lessons. Learning completion is tracked, not used as a content paywall.
+## 3. Concept annotation contract
 
-## 3. Concept annotation data contract
-
-Each song receives a concept manifest derived from the current lyric source and timed lyric file.
-
-Recommended per-song package:
+Recommended package:
 
 ```text
 source-material/<song-slug>/
   LYRICS.md
-  <timed lyrics>.srt/.ttml/.json        # when supplied/derived
-  CONCEPTS.yaml                         # annotation manifest
+  <timed lyrics>.srt/.ttml/.json
+  CONCEPTS.yaml
 
 learning/concepts/
-  <concept-id>.md                       # reusable full lesson
+  <concept-id>.md
 
 learning/missions/
-  <episode-id>.yaml                     # song concepts -> role labs -> objectives
+  <episode-id>.yaml
 ```
 
-Minimum concept record:
+Minimum concept record should preserve:
+- stable concept ID;
+- lyric term/aliases;
+- domain;
+- cue time;
+- quick definition;
+- full lesson pointer;
+- prerequisites;
+- applicable roles;
+- mission actions;
+- safety/fictionalization state.
 
-```yaml
-id: wireless.evil-twin
-term: Evil twin
-aliases: [evil twin AP]
-domain: wireless-security
-cue:
-  start_ms: 0
-  end_ms: 0
-source_song: evil-twin
-quick_definition: "..."
-lesson: learning/concepts/wireless.evil-twin.md
-prerequisites: [wireless.ssid, wireless.access-point]
-roles: [Field-R, Field-T]
-mission_actions: [identify-rogue-ap, validate-network-identity]
-safety: sandbox-defensive
-```
+## 4. Ensemble instructional mission law
 
-Rules:
-- IDs are stable even if display wording changes.
-- One concept can appear in multiple songs; do not duplicate its full lesson.
-- Every lyric cue may link to zero, one, or several concepts.
-- Aliases handle lyric shorthand, slang, acronyms, spelling variants, and compound phrases.
-- A concept page may be revised for technical accuracy without rewriting the lyric source.
+The classic field triad remains the **functional teaching grammar**:
 
-## 4. XCOM-style instructional mission law
+- **Field-R** — Picture, observation, evidence, topology, warning;
+- **Field-E** — access, control, safety, protection, physical continuity;
+- **Field-T** — system analysis, configuration, recovery, validation.
 
-The player controls the standard squad omnisciently in XCOM style:
-- **Field-T** — technical operator / system interaction;
-- **Field-E** — entry, physical space, protection, continuity;
-- **Field-R** — reconnaissance, picture, detection, warning.
+But this does **not** mean every mission stars three generic characters or Jordan.
 
-All three are player-controlled units. The player chooses their order each Player Phase under the existing 2-AP tactical model.
+The player controls the named characters actually assigned to the episode mission.
 
-### Every song mission gets three role labs
-Each mission must contain at least one meaningful application for each standard role.
+Those characters may include:
+- one or more R/E/T-qualified operators;
+- Leads/Defense/cohort/specialist roles;
+- episode-specific mixed teams;
+- Jordan only if scripted or called as Wildcard;
+- PRIM2 only if scripted or called through eligible Apex intervention.
 
-**Field-R lab** applies observation, evidence, topology, source evaluation, detection, signal, or threat-picture concepts.
+Most ordinary PLAY missions launch **without Jordan**.
 
-**Field-E lab** applies physical security, safe routing, equipment handling, continuity, boundary enforcement, environmental state, or team-protection concepts.
+### Functional coverage requirement
 
-**Field-T lab** applies system analysis, configuration, validation, classification, recovery, architecture, evidence, or other technical concepts.
+Every canonical song mission must meaningfully exercise the song's required technical perspectives. In many episodes that means R/E/T applications. It does **not** require every perspective to be embodied by one fixed recurring trio.
 
-The labs do not have to be identical in length. They must be genuinely tied to the song's vocabulary.
+A character can be cross-trained, a mission can divide work across several people, and a non-Jordan character can own the decisive technical choice.
 
-### Labs live inside the tactical board
-Labs are mission objects, not separate menu quizzes.
+This protects both education and ensemble storytelling.
 
-New tile/object tag:
+## 5. LAB_NODE rule
 
-`LAB_NODE`
+Labs exist inside the tactical board, not as disconnected menu quizzes.
 
-A LAB_NODE may be:
+A `LAB_NODE` may be:
 - terminal;
 - evidence board;
 - rack/cabling panel;
@@ -162,185 +160,208 @@ A LAB_NODE may be:
 - sensor-control panel;
 - document/authorization station.
 
-Interacting with a LAB_NODE costs AP and opens a short diegetic task. Threat, clocks, positioning, and role protection still matter.
+Interacting costs tactical opportunity. Threat, clocks, position, physical control and role protection remain relevant.
 
-Example player phase:
-1. Field-R spends 1 AP scanning a lane and identifies which wireless source is authorized.
-2. Field-E spends 1 AP moving to secure the communications room and 1 AP holding the doorway.
-3. Field-T reaches the LAB_NODE and completes a configuration/analysis task based on the concept highlighted in the song.
-4. Threat phase resolves.
-5. Clock phase advances.
+## 6. Deterministic technical mastery
 
-The technical task is therefore part of the mission pressure rather than a disconnected multiple-choice screen.
+Technical correctness is **not** a generic probability roll.
 
-## 5. Knowledge application model
+A correct technical action is correct because the player:
+- gathered sufficient evidence;
+- interpreted it correctly;
+- chose the correct action/sequence;
+- possessed the required tools/authorization;
+- and completed the work without destructive interruption.
 
-Every episode has **Learning Objectives** in addition to normal operational objectives.
+Randomness may change the battlefield around the player. It may not silently turn a correct answer into a wrong one.
+
+## 7. Knowledge application model
 
 Each learning objective binds:
 
 ```text
-lyric cue -> concept ID -> lesson -> role -> LAB_NODE/action -> evidence of mastery
+lyric cue
+ -> concept ID
+ -> lesson
+ -> character/role application
+ -> LAB_NODE/action
+ -> evidence of mastery
 ```
 
-Example:
-
-```text
-"RAID 1 ... mirroring"
-  -> storage.raid1
-  -> RAID 1 lesson
-  -> Field-T
-  -> recovery-array LAB_NODE
-  -> player chooses a redundancy layout that survives the simulated drive loss
-```
-
-### No binary learning fail
-PRIM3 already rejects binary mission failure. Learning follows the same philosophy.
-
-A wrong lab decision causes consequences such as:
+Incorrect application creates diegetic consequences such as:
 - lost time;
-- lower take integrity;
-- higher detection;
+- lower objective/evidence integrity;
 - degraded system state;
-- extra recovery work;
-- reduced learning mastery;
+- additional recovery work;
+- higher exposure;
+- lower Learning Mastery;
 - alternate debrief dialogue.
 
-It does **not** normally produce a giant “wrong answer / mission failed” interruption.
+Do not normally interrupt with a school-style giant red X.
 
-## 6. Operational grade and Learning Mastery are separate
+## 8. Operational grade and Learning Mastery are separate
 
-Keep the existing mission grade channels for operational performance.
+A player can execute tactically well but misunderstand a technical concept, or understand the concept while making a costly operational decision.
 
-Add a parallel **Learning Mastery** score so education can be measured without distorting story outcomes.
+Keep those signals separate.
 
-Suggested mastery composition:
-- 25% concept recognition;
-- 45% correct application in role labs;
-- 20% transfer question / changed scenario;
-- 10% evidence explanation in debrief.
+Suggested mastery composition remains:
+- 25% recognition;
+- 45% application;
+- 20% transfer to changed scenario;
+- 10% evidence explanation/debrief.
 
-Mastery bands:
-- 90-100: Applied
-- 75-89: Functional
-- 60-74: Developing
-- below 60: Review recommended
+Suggested bands:
+- 90–100 Applied
+- 75–89 Functional
+- 60–74 Developing
+- below 60 Review recommended
 
-A player can earn an operational A while showing weak concept mastery, or a tactically messy C while demonstrating strong understanding. Both are useful signals.
+## 9. Intervention/mastery law
 
-## 7. Mission briefing UX
+Jordan and PRIM2 can **save the mission without auto-passing the lesson**.
 
-Immediately before PLAY begins, show a compact **Concept Loadout**:
+### Jordan Wildcard
+Jordan may:
+- reveal a credible alternate route using earned information;
+- cross-support R/E/T functions;
+- stabilize tempo/people;
+- help create another chance to apply the concept.
+
+Jordan may not simply perform the entire scored learning objective while the player watches and award mastery to another character/player.
+
+If Jordan performs a required technical step, the player must still make the relevant concept decision or complete a transfer/validation task to earn full mastery.
+
+### PRIM2 Apex
+PRIM2 may expose additional `PRIM2-SOURCED` information or change present authorization. That does not make unverified information true and does not grant automatic learning credit.
+
+Apex rescue can preserve a character and still leave the Learning Report saying:
+
+> **Mission survived. Concept not mastered. Review recommended.**
+
+That distinction is intentional.
+
+### Royce
+Royce creates additional pressure. He can force the player to apply concepts under changed conditions, but his presence must not convert a technical lesson into nothing but a boss fight.
+
+## 10. Briefing UX
+
+Immediately before PLAY, show a compact Concept Loadout:
 - concepts heard in the song;
-- which ones the player opened;
-- which role will use each one;
-- optional “review before deployment” links.
+- which were opened/reviewed;
+- which mission functions may apply them;
+- optional review links.
 
-Do not require lesson completion to start the mission unless a separate Guided Curriculum mode explicitly does so.
+Do not require lesson completion unless a separate Guided Curriculum mode deliberately does so.
 
-## 8. Debrief UX
+## 11. Debrief UX
 
-After the mission, the report contains two cards:
+After the mission, show two distinct reports.
 
-**Operational Report**
-- mission grade;
-- team;
-- exposure;
+### Operational Report
+- grade;
+- team integrity;
 - objective/take;
-- integrity/compliance;
-- time.
+- exposure;
+- time;
+- compliance;
+- intervention use;
+- named character consequences.
 
-**Learning Report**
+### Learning Report
 - concept mastery;
-- concepts successfully applied;
-- concepts missed or misapplied;
-- role-by-role performance;
-- “Replay lyric cue” links that jump back to the exact timestamp where the concept appeared;
-- “Open lesson” links for review.
+- concepts correctly applied;
+- concepts missed/misapplied;
+- character/role performance;
+- exact lyric-cue replay links;
+- lesson review links.
 
-This closes the mnemonic loop: hear it -> see it -> define it -> apply it -> review it in the same musical context.
+Intervention-specific states may include:
 
-## 9. Episode authoring requirement
+```text
+WILDCARD_USED
+APEX_USED
+ROYCE_INCURSION
+INDEPENDENT_COMMAND
+WILDCARD_RECOVERY
+APEX_RECOVERY
+```
+
+## 12. Episode authoring requirement
 
 Every episode chapter must explicitly contain:
 
 ```text
+### Episode owner
+### Base playable roster
+### Jordan state: scripted / off-board wildcard / locked out
+### Wildcard eligibility + crisis trigger
+### Apex eligibility + mission classification
+### Royce incursion eligibility + telegraph rule
 ### Song concept set
 ### Timed lyric annotations
-### Music-film Study Overlay beats
-### Field-R lab
-### Field-E lab
-### Field-T lab
+### Study Overlay beats
+### Character/role lab applications
 ### Learning objectives
 ### Mastery evidence
 ### Debrief review cues
+### Relationship/consequence write
 ```
 
-An episode is not implementation-complete until all of those sections are populated.
+An episode is not implementation-complete until these are populated or explicitly marked not applicable.
 
-## 10. Difficulty progression
+## 13. Difficulty progression
 
-Concept tasks progress through four depths:
+Concept tasks progress through:
+1. Recognize
+2. Interpret
+3. Apply
+4. Transfer
 
-1. **Recognize** — identify the concept or signal.
-2. **Interpret** — explain what it means in this situation.
-3. **Apply** — use it to make the mission decision.
-4. **Transfer** — solve a changed scenario without being given the lyric wording.
+Early seasons emphasize Recognize/Interpret. Later seasons increasingly require Apply/Transfer and cross-song integration.
 
-Early seasons emphasize Recognize/Interpret. Later seasons increasingly require Apply/Transfer and cross-song combinations.
+Difficulty may alter tactical pressure/intervention scarcity. It should not require technical misinformation to become harder.
 
-## 11. Cross-song concept graph
+## 14. Cross-song concept graph
 
-Concepts are reusable nodes, not isolated vocabulary lists.
+Concepts are reusable nodes.
 
 Examples:
-- `authorization` connects White/Grey/Black Hat -> OSINT -> App Attacks -> final governance decisions;
-- `identity/authentication` connects Virus Types -> Data Breach -> Evil Twin -> IoT;
-- `network-media` connects Got Wifi -> Ghost In The Wires -> IoT;
-- `redundancy/recovery` connects RAID (Hot Site) -> Trappin From The Cloud -> final Site 0 continuity systems;
-- `input-validation` connects Patch Work -> App Attacks.
+- authorization: White/Grey/Black Hat -> OSINT -> App Attacks -> endgame governance;
+- identity/authentication: Virus Types -> Data Breach -> Evil Twin -> IoT;
+- network media: Got Wifi -> Ghost In The Wires -> IoT;
+- redundancy/recovery: RAID -> Trappin From The Cloud -> Site 0 continuity;
+- trust/input/change control: Patch Work -> App Attacks -> succession authority.
 
-Later missions should deliberately require concepts learned in earlier songs so retention, not just exposure, is measurable.
+Later missions should require prior concepts so retention is measurable.
 
-## 12. Safety and realism
+## 15. Safety and realism
 
-Technical realism is required, but PRIM3 is not an actionable abuse manual.
+PRIM3 teaches systems reasoning, defensive response, architecture, controlled simulation and professional decision-making.
 
-- Offensive concepts are taught through recognition, architecture, defensive response, controlled simulation, or fictional/sandbox targets.
-- Real credentials, real third-party targets, live exploitation instructions, or operational abuse procedures do not belong in curriculum content.
-- Labs should teach *why a system behaves this way* and *how to reason about it*.
-- When the lyric dramatizes or exaggerates a technique, the lesson must say what is fictionalized or simplified.
+Do not make real third-party exploitation, live credential abuse, fraud, evasion, sabotage or other actionable wrongdoing the educational requirement.
 
-## 13. Reference implementation: Data Breach
+When lyrics dramatize or exaggerate a technique, lessons must identify what is fictionalized/simplified.
 
-Data Breach should be the first end-to-end vertical slice because the repo already has the full timing/audio package.
+## 16. Reference implementation
 
-Prototype flow:
-1. play the existing MP3;
-2. render SRT/TTML captions;
-3. annotate concepts such as breach indicators, ransomware, USB/RFID physical risk, password attacks, MFA, supply-chain risk, access logs, abnormal data transfer, hashing/salts;
-4. click any active concept to open its card/lesson;
-5. enter Mission 07 — Exposure;
-6. assign role labs around recognition, containment/physical protection, and evidence/system classification;
-7. return Learning Mastery plus exact lyric-cue review links.
+`Data Breach / Exposure` remains a strong end-to-end learning vertical slice because the repo already contains timing/audio material.
 
-The detailed reference mission is now `learning/missions/LVL-07-EXPOSURE-GRANULAR.md`.
+The tactical prototype should now use a **named ensemble team**, preserve the Wildcard/Apex state model, and permit a crisis branch where a Jordan request can occur without making Jordan the episode owner.
 
-Once Data Breach works, the same data contract applies to the other nineteen current owner tracks and the protected Song #21 slot when supplied.
-
-## 14. Definition of done per song
+## 17. Definition of done per song
 
 A song package is learning-complete only when:
 - owner lyrics are preserved;
-- timed lyrics exist or have been authored;
-- all technical/operational terms are annotated;
-- every annotation links to a quick definition;
-- substantial terms link to a full lesson;
-- the episode has three role labs;
-- mission actions bind back to concept IDs;
+- timed lyrics exist or are authored;
+- relevant concepts are annotated;
+- definitions/lessons are linked;
+- character-specific tactical applications exist;
+- mission actions bind to concept IDs;
 - mastery evidence is scoreable;
-- debrief links back to lyric timestamps;
-- technical accuracy has been reviewed;
+- intervention use cannot bypass mastery;
+- debrief returns to lyric cues;
+- technical accuracy is reviewed;
 - fictionalization/simplification is marked.
 
 That is the canonical PRIM3 teaching loop.
