@@ -1,0 +1,196 @@
+status: CANON
+system: intervention-action-registry
+version: 1.0.0
+owner: Matthew McCluster
+authority: game/WILDCARD-INTERVENTION-AUTHORITY.md
+
+mission_states:
+  - STABLE
+  - DEGRADED
+  - CRITICAL
+  - TERMINAL
+
+standard_campaign_balance:
+  wildcard_authorizations_per_season: 2
+  apex_authorizations_per_campaign: 3
+  royce_incursions_max_per_season: 2
+  royce_incursions_max_per_mission: 1
+  royce_cooldown_missions: 2
+  scripted_appearances_consume_pool: false
+
+jordan_wildcard:
+  normal_roster_selectable: false
+  deployment_states:
+    - SCRIPTED_ASSIGNMENT
+    - OFF_BOARD_WILDCARD
+    - LOCKED_OUT
+  request:
+    player_label: REQUEST_WILDCARD
+    prerequisites:
+      - mission_state_CRITICAL
+      - jordan_OFF_BOARD_WILDCARD
+      - wildcard_authorization_remaining
+      - communications_and_authority_available
+      - authored_ingress_available
+    default_arrival_delay_rounds:
+      min: 1
+      max: 3
+  actions:
+    ANOTHER_PATH:
+      uses_per_intervention: 1
+      ap: 0
+      prerequisites:
+        - jordan_present
+        - earned_or_visible_mission_evidence_available
+      outputs:
+        - credible_alternate_route_or_dependency_exposed
+      restrictions:
+        - cannot_fabricate_hidden_truth
+        - cannot_auto_complete_objective
+        - cannot_auto_verify_inference
+    ADAPTIVE_ROLE:
+      uses: repeatable
+      timing: start_of_jordan_activation
+      ap: 0
+      select_one: [R, E, T]
+      outputs:
+        - bounded_cross_lane_action_access_until_next_activation
+      restrictions:
+        - does_not_replace_top_specialist_deep_expertise
+    RALLY_THE_ROOM:
+      uses_per_intervention: 1
+      ap: 0
+      outputs:
+        - remove_stagger_from_one_ally_or_grant_one_restricted_1AP_reaction
+      reaction_allowed:
+        - MOVE
+        - STABILIZE_PERSON
+        - VERIFY_STATE
+        - SEAL_TAKE
+        - ABORT_TASK
+        - mission_authored_non_attack_objective_action
+      restrictions:
+        - no_free_attack
+    FAILOVER_INSTINCT:
+      passive: true
+      trigger: primary_plan_becomes_invalid
+      outputs:
+        - first_legal_switch_to_verified_alternate_has_no_switch_surcharge
+
+prim2_apex:
+  request:
+    hidden_label: REQUEST_EXECUTIVE_OVERRIDE
+    revealed_label: REQUEST_PRIM2
+    prerequisites:
+      - mission_classification_in_CRITICAL_STATE_STRATEGIC_or_story_equivalent
+      - jordan_present
+      - mission_CRITICAL_persists_or_reenters_for_at_least_one_full_round
+      - apex_authorization_remaining
+      - communications_and_authority_available
+      - prim2_not_story_locked_out
+  arrival_ap: 3
+  later_activation_ap: 2
+  actions:
+    SOVEREIGN_PICTURE:
+      trigger: on_arrival
+      outputs:
+        - PRIM2_SOURCED_information_package
+      restrictions:
+        - source_provenance_required
+        - does_not_auto_promote_to_VERIFIED
+    COMMAND_PRIORITY:
+      uses_per_round: 1
+      ap: 0
+      outputs:
+        - one_ally_receives_restricted_1AP_command_action
+      command_allowed:
+        - MOVE
+        - STABILIZE_PERSON
+        - VERIFY_STATE
+        - SEAL_TAKE
+        - ABORT_TASK
+        - GUARD_TECH
+        - mission_authored_non_attack_emergency_action
+      restrictions:
+        - no_free_attack
+    SOVEREIGN_EXCEPTION:
+      uses_per_intervention: 1
+      ap: 0
+      prerequisites:
+        - action_blocked_only_by_mission_level_authorization
+      outputs:
+        - present_authorization_state_changed
+      restrictions:
+        - cannot_change_physical_reality
+        - cannot_retroactively_authorize_completed_action
+        - consequences_persist
+    ROOT_PRESENCE:
+      passive: true
+      outputs:
+        - mission_authored_root_identity_interactions_enabled
+      restrictions:
+        - no_universal_magic_access
+
+royce_incursion:
+  player_controlled: false
+  persistent_character: true
+  eligibility_inputs:
+    - hitman_pressure
+    - mission_strategic_value
+    - repeated_interference
+    - institutional_heat
+    - rivalry_flags
+    - jordan_visibility
+    - story_trigger
+  actions:
+    TAKE_THE_ROOM:
+      effect:
+        - accelerate_vulnerable_control_zone_toward_hostile_control
+      restriction:
+        - requires_vulnerable_or_contested_zone
+    PRESSURE_CASCADE:
+      effect:
+        - increase_nearby_ally_will_pressure_after_major_hit_or_down
+    HITMAN_COMMAND:
+      uses_per_round: 1
+      effect:
+        - one_hitman_unit_repositions_or_takes_bounded_support_action
+    OLD_BUSINESS:
+      trigger: jordan_present
+      effect:
+        - enable_rivalry_dialogue_and_authored_two_sided_modifiers
+      restriction:
+        - cannot_be_one_sided_royce_buff_only
+  continuity:
+    non_finale_resolution:
+      - player_extract
+      - royce_withdrawal
+      - mission_objective_resolution
+      - authored_separation
+      - temporary_tactical_defeat
+    restrictions:
+      - random_or_side_mission_cannot_permanently_kill_royce_before_locked_finale
+
+intervention_non_rewind_rules:
+  may:
+    - stabilize_still_living_operator
+    - preserve_remaining_evidence
+    - create_viable_extraction
+    - restore_recoverable_service_state
+    - expose_credible_alternate_route
+    - change_present_authorization_when_valid
+    - prevent_worse_loss
+  may_not:
+    - resurrect_dead_operator
+    - rewind_mission_clock
+    - reset_heat_or_detection_to_zero
+    - restore_destroyed_evidence_beyond_recovery
+    - reverse_story_locked_death
+    - retroactively_authorize_completed_action
+    - restore_permanently_lost_grade_conditions
+
+learning_rules:
+  intervention_auto_awards_mastery: false
+  wildcard_can_create_second_chance_to_apply_concept: true
+  apex_information_still_requires_validation_when_applicable: true
+  royce_may_increase_application_pressure_but_not_replace_technical_lesson: true
