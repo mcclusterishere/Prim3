@@ -1,7 +1,7 @@
 # PRIM3 Canon Register
 
 **Status:** Foundation canon (merged to main)  
-**Continuity version:** 0.4.9  
+**Continuity version:** 0.5.0  
 **Authority:** Matthew McCluster  
 **Rule:** If material conflicts with this register, this register wins until deliberately revised.
 
@@ -71,12 +71,40 @@ See `story/HIGH-ALERT-MEMORY-ANCHORS.md`.
 ## Protagonist
 
 - **Jordan Vale** — African American, United States (locked).
-- Begins the seven-year path at age 33.
+- Begins the PRIM3 seven-year path at age 33.
 - Climbs the Prim3 / McCluster path through field/cohort progression.
 - Enters from severe material instability with practical IT/infrastructure experience that exceeds his formal credentials.
-- His defining advantage is persistence rather than instant mastery.
+- His defining advantage is initiative, persistence, systems inference and the tendency to keep looking for another viable path.
 - Love interest: **Aya Shinoda** (Japan, Field-T).
 - Ultimately faces succession / RAID / Evil Twin / Ghost.
+
+## Jordan Vale / Benji — first seven-year adult arc
+
+`story/JORDAN-VALE-HITMAN-ORIGIN-CANON.md` is the authority for Jordan's age-19-to-26 Hitman history.
+
+Locked facts:
+
+- Jordan first attends college at **19**.
+- He did **not** grow up selling drugs. He begins selling for the first time after arriving on campus.
+- The campus operation becomes highly successful and helps pay his tuition.
+- Jordan nearly gets caught, understands the warning, and continues anyway.
+- The dean learns what Jordan is doing and privately offers him a path to leave the college rather than have the matter escalated toward jail/criminal prosecution.
+- Jordan accepts and gracefully leaves.
+- He tells his parents he **flunked out**, because that is easier for him to admit than the real reason.
+- Jordan then enters Hitman through **friendship, culture and music**, not by initially seeking an operator role.
+- Jordan grew up with **Bigga Lex the Jet**, a Hitman operator/leader and his best friend/primary bridge into that world.
+- Friendships and loyalty gradually turn Jordan into a Hitman operator.
+- During this era Jordan operates under the identity **Benji**.
+- **Benji is Jordan Vale. Benji is not a separate contemporary protagonist.**
+- This first Hitman arc runs approximately **age 19 -> age 26**.
+- At 26, Bigga Lex the Jet retires and attempts to pass his title/position to Benji.
+- Jordan/Benji refuses the succession and gracefully leaves Hitman because his deepest loyalty to the organization was tied to Bigga Lex.
+- Jordan gives the succession opportunity to **Royce**, one of his biggest Hitman rivals.
+- Royce therefore becomes the natural post-Benji Hitman-side successor/rival in later dual-board material.
+
+Continuity migration rule: subordinate drafts that treat Jordan and Benji as two separate contemporary men are superseded. Preserve `Benji` where it refers to Jordan's age-19-to-26 Hitman identity; use **Royce** for the separate post-Benji Hitman-side rival/successor function unless later owner canon deliberately changes it.
+
+Whether Prime knew, watched, or influenced Jordan during the Hitman period remains open until explicitly locked.
 
 ## Presiding Prime
 
@@ -86,30 +114,30 @@ See `story/HIGH-ALERT-MEMORY-ANCHORS.md`.
 - Prime cannot simply resign; succession requires a worthy operator to reach and defeat the presiding Prime while Prime genuinely resists.
 - **Prime is already functionally Ghost in the Wires before RAID.** His sleeping biological body is the highest-trust command anchor for a distributed human-machine control architecture.
 - During RAID, his body is critically damaged but remains biometrically authoritative long enough to create a succession window.
-- Jordan and Benji use that still-valid Prime-00 identity inside Site 0 to support the succession transition that recognizes Jordan as the new Prime and revokes Prime-00's independent write / actuator / personnel-command permissions.
+- Jordan and Royce use that still-valid Prime-00 identity inside Site 0 to support the succession transition that recognizes Jordan as the new Prime and revokes Prime-00's independent write / actuator / personnel-command permissions.
 - Prime-00 then persists in the cloud as **Ghost Prime** with read / observe / analyze / advice capability only by default.
 - Ghost In The Wires is therefore an **authority-transfer and privilege-reduction finale**, not the creation of Prime's first networked existence.
 
 ## Final RAID / Evil Twin survivor state
 
-This chronology is owner-locked.
+This chronology is owner-locked subject to later scene-level refinement.
 
 - Jordan enters Site 0 with a Prim3-side assault element.
-- Benji enters Site 0 with a separate assault element from the other side of Prime's architecture.
+- Royce enters Site 0 with a separate Hitman-side assault element from the other side of Prime's architecture.
+- Royce is not a stranger to Jordan: he is a major rival from Jordan's old Benji/Hitman life and the man who received the Hitman succession opportunity Jordan refused when Bigga Lex retired.
 - Prime genuinely resists both teams.
 - **Every other member of both assault elements dies during the breach.**
 - Jordan is the only survivor of his team.
-- Benji is the only survivor of his team.
-- Jordan and Benji recognize one another inside the facility from repeated battlefield near-misses and close calls across earlier operations.
-- They have never previously formed a relationship or held a real conversation.
-- Their first instinct inside Site 0 is to treat each other as the remaining enemy.
+- Royce is the only survivor of his team.
+- Their encounter inside Site 0 therefore carries both present-day opposition and unresolved history from Jordan's first seven-year arc.
+- Their first instinct inside Site 0 is to treat the other surviving operator as a threat.
 - They nearly kill one another.
 - They recognize Prime as the common target and choose a temporary alliance.
-- Jordan and Benji defeat Presiding Prime **together**.
+- Jordan and Royce defeat Presiding Prime **together**.
 - Prime's body is critically damaged and returned to the suspension system, now acting as life support.
-- **Evil Twin begins after that victory.** Prime is already beaten, the facility is already breached, and Jordan/Benji are already the only surviving members of their raid elements.
-- Evil Twin is Prime's confession under threat of execution. He reveals the dual-board architecture and the hidden relationship among prior operations because information is the only weapon he has left.
-- Prime is specifically trying to stop Jordan and Benji from killing him before they understand that his still-living biometric identity is required to remove his authority from the distributed system cleanly.
+- **Evil Twin begins after that victory.** Prime is already beaten, the facility is already breached, and Jordan/Royce are already the only surviving members of their raid elements.
+- Evil Twin is Prime's confession under threat of execution. It reveals the dual-board architecture and forces Jordan to confront the relationship between the life he lived as Benji, the system Royce inherited, and the PRIM3 path that brought Jordan back to the same hidden apex.
+- Prime is specifically trying to stop Jordan and Royce from killing him before they understand that his still-living biometric identity is required to remove his authority from the distributed system cleanly.
 - Ghost In The Wires follows from that decision: keep Prime alive long enough to take the job away from him, then preserve him only as an advisor without autonomous write/command rights.
 
 ## Corporate architecture
@@ -121,7 +149,7 @@ Public marketing face; holding company (building, land, equity). M emblem + Dual
 How the work runs: phenotypes, missions, curriculum and the technical/operational education carried by the 21 songs.
 
 ### Hitman
-Brute multinational; parallel climb centered on Benji.
+Brute multinational and Jordan's first adult operational world. Jordan operates there as **Benji** from approximately 19–26 after entering through Bigga Lex, friendship, music and culture. When Bigga Lex retires and offers Benji succession, Jordan refuses and passes the opportunity to rival **Royce**, establishing Royce as the post-Benji Hitman-side successor/rival.
 
 ### Apex
 Where still referenced: parent/black-site layer above fronts. Do not contradict McCluster holding-company notes in `story/MCCLUSTER-CORP.md`.
@@ -230,8 +258,11 @@ Presiding Prime must be detectably present in the background of every episode be
 
 ## Explicitly open
 
-- College location
+- College location for Jordan's age-19 first enrollment and age-33 PRIM3-era enrollment
 - Exact dates
 - Song #21 final title/lyrics/technical concept beyond current `CHAIN OF TRUST` working concept
 - Full cohort biography details beyond current proposed cast files
 - Full meaning of “Negative One” if still used alongside Jordan naming
+- Exact Hitman mission chronology and Royce relationship details
+- Whether Prime observed or influenced Jordan during the Benji years
+- Full age-26-to-33 arc after Jordan leaves Hitman
