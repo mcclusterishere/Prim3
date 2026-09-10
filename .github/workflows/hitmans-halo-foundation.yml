@@ -1,0 +1,94 @@
+name: Wire Hitman's Halo Foundation
+
+on:
+  push:
+    branches:
+      - feature/hitmans-halo-gev-superset
+    paths:
+      - .github/workflows/hitmans-halo-foundation.yml
+
+permissions:
+  contents: write
+
+jobs:
+  wire-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out feature branch
+        uses: actions/checkout@v4
+        with:
+          ref: feature/hitmans-halo-gev-superset
+          fetch-depth: 0
+
+      - name: Use Node 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24.14.0
+          cache: npm
+          cache-dependency-path: products/hitmans-halo/gev-engine/package-lock.json
+
+      - name: Wire brand and canonical runtime
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+
+          root = Path('products/hitmans-halo/gev-engine')
+          main = root / 'src/main.js'
+          text = main.read_text()
+          imports = "import './branding/hitmansHalo.css';\nimport { initHitmansHaloBrand } from './branding/hitmansHalo.js';\nimport { bootHitmansHaloRuntime } from './platform/hitmansHaloRuntime.js';\n"
+          if "./branding/hitmansHalo.js" not in text:
+              text = imports + text
+          boot = """initHitmansHaloBrand();
+void bootHitmansHaloRuntime()
+  .then((snapshot) => { globalThis.__HITMANS_HALO_RUNTIME__ = snapshot; })
+  .catch((error) => {
+    globalThis.__HITMANS_HALO_RUNTIME__ = { product: 'HITMANS_HALO', errors: [{ message: error?.message || String(error) }] };
+  });
+initLogoGaze();"""
+          if 'initHitmansHaloBrand();' not in text:
+              text = text.replace('initLogoGaze();', boot, 1)
+          main.write_text(text)
+
+          index = root / 'index.html'
+          html = index.read_text()
+          html = html.replace("<title>God's Eye View</title>", "<title>Hitman's Halo — Seek First Superset</title>")
+          html = html.replace('<span>GOD\'S EYE <span class="title-accent">VIEW</span></span>', '<span>HITMAN\'S <span class="title-accent">HALO</span></span>')
+          html = html.replace('<p class="subtitle">NO PLACE LEFT BEHIND</p>', '<p class="subtitle">SEE THE SYSTEM. EARN THE PICTURE.</p>')
+          index.write_text(html)
+
+          package_path = root / 'package.json'
+          package = json.loads(package_path.read_text())
+          package['name'] = 'hitmans-halo-gev'
+          package['description'] = "Hitman's Halo — PRIM3's Seek First superset viewer over the canonical McCluster control plane."
+          package['mccluster'] = {
+              'product': "Hitman's Halo",
+              'backendAuthority': 'https://api.mccluster.org/v1/seek-first',
+              'sourceEngine': 'mcclusterishere/Seek-First'
+          }
+          package_path.write_text(json.dumps(package, indent=2) + '\n')
+          PY
+
+      - name: Install exact dependencies
+        working-directory: products/hitmans-halo/gev-engine
+        run: npm ci
+
+      - name: Run full unit suite
+        working-directory: products/hitmans-halo/gev-engine
+        env:
+          GEV_REQUIRE_ALLOCATION_GATE: '1'
+        run: npm test
+
+      - name: Build production bundle
+        working-directory: products/hitmans-halo/gev-engine
+        run: npm run build
+
+      - name: Commit verified foundation
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add products/hitmans-halo/gev-engine/src/main.js \
+                  products/hitmans-halo/gev-engine/index.html \
+                  products/hitmans-halo/gev-engine/package.json
+          git commit -m "feat: activate Hitman's Halo viewer identity and canonical runtime"
+          git push origin HEAD:feature/hitmans-halo-gev-superset
