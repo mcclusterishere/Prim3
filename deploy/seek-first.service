@@ -1,0 +1,22 @@
+[Unit]
+Description=Seek First / God's Eye View hosted runtime
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=gev
+Group=gev
+WorkingDirectory=/opt/seek-first
+EnvironmentFile=/etc/seek-first/gev.env
+ExecStart=/usr/bin/npm run preview -- --host 127.0.0.1 --port 4173
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=full
+ReadWritePaths=/opt/seek-first/.gev-cache
+
+[Install]
+WantedBy=multi-user.target
