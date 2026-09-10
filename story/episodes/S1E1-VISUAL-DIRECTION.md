@@ -1,74 +1,112 @@
 ---
-status: CANON
-ai_reader: REQUIRED_FOR_IMAGE_AND_ANIMATION
+status: CANON-PRODUCTION-SUMMARY
+ai_reader: REQUIRED_FOR_S1E1_VISUALS
 episode: S1E1 High Alert
-style_target: 4K series animation (Hicksville / Sea Dance–class motion direction — sharp institutional + surreal machine-sleep)
-version: 1.0.0
+version: 2.0.0
+branch: main
 ---
 
-# S1E1 — Visual direction pack
+# S1E1 — High Alert visual direction
 
-**For ChatGPT / Claude / image models / animation boards.**  
-Generate **single shots** unless asked for a sequence. Prefer cinematic stills that can plate into 4K motion later.
+## Core image
 
-## Global look
-- Institutional black / charcoal / wet metal  
-- **M emblem** (white geometric M + two red Dual Sight bars) on Prime’s world only  
-- Dual raid UI: split feeds, Dual Sight language  
-- Suspension fluid: dark, refractive, not soft blue hospital cryo  
-- Robots: silent, fast, priority-driven — extensions of his **neuron fire**, not cartoon mechs  
+The sequence is a glimpse of the future RAID.
 
-## Shot list (priority)
+**PRIM2** is the presiding Mantle holder inside Site 0's suspension-linked command architecture.
 
-### 1. Tank dream (pre-alert)
-Prime’s body in **suspension tank**. Cables / neural lace into wall. Cutaways: he “wakes” **as** a camera, **as** a door motor, **as** a corridor drone — same consciousness, machine body. Dream and facility are one.
+Two hostile approach vectors matter:
+- **Jordan Vale / PRIM-side assault**;
+- **Royce / Hitman-side assault**.
 
-### 2. HIGH ALERT interrupt
-Red strip light through fluid. Text/UI: **HIGH ALERT**. Outer compound map tiles flip from green to dead/red in a cascade — multi-site stack collapsing toward **main**.
+Do not depict a separate contemporary Benji. Benji is Jordan's earlier identity.
 
-### 3. Eyes open
-Extreme close-up: Prime’s eyes under fluid, then break surface. No panic acting — **calculation**.
+---
 
-### 4. Dual feeds
-Split or mosaic:
-- Left: **protagonist** (Prim3 kit, precision, M-world skill inverted against him)  
-- Right: **Benji** (Hitman kinetic, street religion, no M on him)  
-Prime’s face reflected in the glass between them.
+# Global look
 
-### 5. Nerves = neurons (mandatory visual)
-Intercut:
-- Macro **neural fire** (stylized, beautiful, dangerous)  
-- Same rhythm: **robot units** snapping to aim / door locks / turret priority  
-When he says nerves / fire first — show **brain spike → machine trigger** in the same beat. He outthinks because the neuron and the robot share a clock.
+- institutional black / charcoal / wet metal;
+- white geometric M + red Dual Sight language where canonically appropriate;
+- dark refractive suspension environment, not soft hospital-blue cryo;
+- Site 0 shown as layered resilient infrastructure rather than one evil control room;
+- machine responses feel fast, quiet and priority-driven;
+- PRIM2 reads as calculating, not surprised.
 
-### 6. Talking shit to the hire chain
-Prime, still wet or half-suited, speaking toward the feeds / an unseen sponsor channel — not confused, **threatening**. Lyric energy as address to people he **staffed or funded**.
+---
 
-### 7. Robot fire before human fire
-Hostile operators raise weapons; **his** units have already fired or locked the lane. Time-slice / speed-ramp: human intent mid-gesture, machine completion already done.
+# Priority shots
 
-### 8. Sting
-Prime + two live feeds + **M**. Caption energy: *They reached the main site.*
+### 1. Distributed sleep-command state
+PRIM2's body is in the suspension system while mediated feeds make clear that his awareness extends beyond the room through authorized cameras, telemetry and command systems.
 
-## Double-entendre visual pairs
-Always available as paired frames:
+Do not imply supernatural omniscience.
 
-| Pair ID | Frame A (street) | Frame B (machine) |
-|---------|------------------|-------------------|
-| NERVE-01 | Jaw tight, human stress | Synapse / neural lace lighting up |
-| FIRE-01 | Enemy finger on trigger | Robot discharge already mid-air |
-| SLEEP-01 | Underestimate smirk (their side) | His body still in tank while systems kill |
-| DIAL-01 | Phone / call hierarchy chart | Building AI routing priority to Prime |
-| SCOPE-01 | Luxury merch / tech-pack flex | Full multi-compound god-map |
+### 2. High Alert escalation
+A literal `HIGH ALERT` state propagates through Site 0 as the succession-level crisis becomes undeniable.
 
-## Do not
-- Soft blue medical cryo aesthetic  
-- Hitman halo on Prime’s UI  
-- Cartoon “evil AI” face — the AI is **him in the dream**  
-- Multi-view contact sheets in one image  
+### 3. PRIM2 wakes / escalates
+The body transitions from distributed oversight toward direct physical response because ordinary command layers are no longer enough.
 
-## Brand reminder
-White **M** + red Dual Sight bars. See `assets/brand/prim3/M-EMBLEM.md`.
+### 4. Two assault axes
+Show Jordan and Royce through separate visual grammars and information contexts.
 
-## Prompt seed (paste)
-“4K cinematic still, Prim3 series, institutional dark compound. Prime emerging from dark suspension tank hard-linked to facility AI. HIGH ALERT red UI. Split feeds: Prim3 operator raid and Hitman kinetic raid. Intercut neural firing with silent robots aiming on the same beat. White geometric M logo with two red bars. No hospital cryo blue. Double meaning: nerves are neurons controlling machines that fire first.”
+They are not allies yet.
+They are not strangers historically.
+The audience does not yet understand why that matters.
+
+### 5. Brain / command / machine rhythm
+Use neural imagery and Site 0 response timing as a visual metaphor for PRIM2's mediated command architecture.
+
+Keep all defensive systems fictional and non-actionable.
+
+### 6. Memory intrusions
+The 17 Episode 02–18 memories should be brief, emotionally charged and context-poor.
+
+They are not all Jordan-owned memories. Several should feature ensemble characters strongly enough that later episodes can reveal who actually owned the event.
+
+### 7. Cut before resolution
+Do not show Jordan/Royce defeating PRIM2 in the pilot.
+
+The future fragment breaks before the answer.
+
+Then:
+
+> **SEVEN YEARS EARLIER.**
+
+---
+
+# PRIM2 presence rule
+
+Do not build a visual language that requires PRIM2's physical silhouette to appear in every earlier episode.
+
+His later payoff comes through **institutional gravity**:
+- permissions;
+- omissions;
+- timing;
+- Pylon behavior;
+- resource allocation;
+- cross-board information;
+- selected physical appearances only when dramatically justified.
+
+---
+
+# Character identity reminder
+
+```text
+PRIM2 — presiding Mantle holder / High Alert performer
+JORDAN — challenger, not yet PRIM3
+ROYCE — Hitman successor / parallel challenger
+```
+
+Jordan becomes PRIM3 only after the validated succession in `Ghost In The Wires`.
+
+---
+
+# Current reference stack
+
+- `story/missions/HIGH-ALERT.md`
+- `story/HIGH-ALERT-MEMORY-ANCHORS.md`
+- `episodes/S07E01-RAID-HOT-SITE.md`
+- `characters/PRIM2-PRESIDING.md`
+- `CANON.md`
+
+Generate individual visual assets from the exact shot requirement rather than treating the old prompt seed as canon.
