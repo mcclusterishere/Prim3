@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://prim3.local/schemas/prm3-concept-mechanic.schema.json",
+  "title": "PRIM3 Concept Mechanic Binding",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "term",
+    "domain",
+    "source_songs",
+    "quick_definition",
+    "mastery_depths",
+    "task_atoms",
+    "role_affinity",
+    "battlefield_expressions",
+    "wrong_reasoning_consequences",
+    "validation_patterns",
+    "safety"
+  ],
+  "properties": {
+    "id": {"type": "string", "minLength": 3},
+    "term": {"type": "string", "minLength": 1},
+    "aliases": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "domain": {"type": "string", "minLength": 2},
+    "source_songs": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+    "quick_definition": {"type": "string", "minLength": 10},
+    "lesson_path": {"type": ["string", "null"]},
+    "prerequisites": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "mastery_depths": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"enum": ["RECOGNIZE", "INTERPRET", "APPLY", "TRANSFER"]}
+    },
+    "task_atoms": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "OBSERVE", "COMPARE", "CLASSIFY", "PRIORITIZE", "TRACE", "MAP", "AUTHORIZE",
+          "ISOLATE", "ROUTE", "ALLOCATE", "MATCH", "SEQUENCE", "CONFIGURE", "PRESERVE",
+          "RECOVER", "VERIFY", "DOCUMENT", "WARN", "HOLD", "ESCORT", "STABILIZE", "ABORT"
+        ]
+      }
+    },
+    "role_affinity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["Field-R", "Field-E", "Field-T"],
+      "properties": {
+        "Field-R": {"type": "integer", "minimum": 0, "maximum": 3},
+        "Field-E": {"type": "integer", "minimum": 0, "maximum": 3},
+        "Field-T": {"type": "integer", "minimum": 0, "maximum": 3}
+      }
+    },
+    "battlefield_expressions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["verb", "player_reasoning", "state_changed"],
+        "properties": {
+          "verb": {"type": "string"},
+          "player_reasoning": {"type": "string", "minLength": 15},
+          "state_changed": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "enum": [
+                "PICTURE", "CONTROL", "DETECTION", "WINDOW", "EXTRACT_CLOCK", "SERVICE_HEALTH",
+                "EVIDENCE_INTEGRITY", "SCOPE_CONFIDENCE", "IDENTITY_CONFIDENCE", "POWER", "ROUTE",
+                "COVER", "REINFORCEMENT_TIMING", "TAKE_INTEGRITY", "AUTHORIZATION", "OBJECTIVE_TOKEN",
+                "LAB_NODE_STATE", "TEAM_STATE"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "wrong_reasoning_consequences": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["misconception", "observable_consequence", "recoverable"],
+        "properties": {
+          "misconception": {"type": "string", "minLength": 10},
+          "observable_consequence": {"type": "string", "minLength": 10},
+          "recoverable": {"type": "boolean"},
+          "recovery_task_atoms": {
+            "type": "array",
+            "items": {"type": "string"}
+          }
+        }
+      }
+    },
+    "validation_patterns": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["claim", "evidence_needed"],
+        "properties": {
+          "claim": {"type": "string"},
+          "evidence_needed": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+        }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mode", "live_targeting_forbidden"],
+      "properties": {
+        "mode": {"enum": ["defensive", "sandbox", "architecture", "recognition", "professional-practice"]},
+        "live_targeting_forbidden": {"const": true},
+        "notes": {"type": "string"}
+      }
+    }
+  }
+}
