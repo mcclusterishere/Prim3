@@ -1,0 +1,58 @@
+name: Bootstrap Hitman's Halo GEV
+
+on:
+  push:
+    branches:
+      - feature/hitmans-halo-gev-superset
+    paths:
+      - .github/workflows/hitmans-halo-bootstrap.yml
+
+permissions:
+  contents: write
+
+jobs:
+  import-seek-first:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out PRIM3 feature branch
+        uses: actions/checkout@v4
+        with:
+          ref: feature/hitmans-halo-gev-superset
+          fetch-depth: 0
+
+      - name: Configure Git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Import Seek First as a history-preserving subtree
+        env:
+          SEEK_FIRST_COMMIT: bc2c0f2a2153e49e10d6feb45263e0fa46dbf120
+        run: |
+          test ! -e products/hitmans-halo/gev-engine
+          git remote add seek-first https://github.com/mcclusterishere/Seek-First.git
+          git fetch --no-tags seek-first "$SEEK_FIRST_COMMIT"
+          test "$(git rev-parse FETCH_HEAD)" = "$SEEK_FIRST_COMMIT"
+          git subtree add --prefix=products/hitmans-halo/gev-engine seek-first "$SEEK_FIRST_COMMIT"
+
+      - name: Record source lock
+        env:
+          SEEK_FIRST_COMMIT: bc2c0f2a2153e49e10d6feb45263e0fa46dbf120
+        run: |
+          mkdir -p products/hitmans-halo
+          cat > products/hitmans-halo/SOURCE-LOCK.md <<EOF
+          # Hitman's Halo source lock
+
+          Imported from `mcclusterishere/Seek-First` at commit `${SEEK_FIRST_COMMIT}` as a Git subtree.
+
+          - Upstream family: `bilawalsidhu/gods-eye-view`
+          - Import mode: full history-preserving subtree
+          - Production backend authority: `mcclusterishere/mccluster` / `/v1/seek-first/*`
+          - The vendored engine's third-party license and data-source notices remain intact.
+          - This feature branch is intentionally not merged into `main` while the feature set is being established.
+          EOF
+          git add products/hitmans-halo/SOURCE-LOCK.md
+          git commit -m "docs: lock Hitman's Halo GEV source provenance"
+
+      - name: Push feature branch
+        run: git push origin HEAD:feature/hitmans-halo-gev-superset
