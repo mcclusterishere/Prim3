@@ -1,169 +1,235 @@
 ---
 status: CANON
-system: Prime capability doctrine
-version: 2.2.0
+system: PRIM2 capability doctrine
+version: 3.0.0
+branch: main
 ---
 
-# Prime — what he actually is
+# PRIM2 — What the Presiding Mantle Holder Actually Is
 
-Do not underestimate this.
+## Naming authority
 
-## Prime is already the Ghost in the Wires
+The presiding hidden leader during the main series is **PRIM2**, the third holder of the **Primary Root Identity Mantle**.
 
-“Ghost in the Wires” is not something Presiding Prime becomes only after RAID.
+`Prime` remains acceptable spoken shorthand. Older `Prime-00`, `P-00`, `Prime Negative One`, or separate-present-day-Benji language is superseded by `PRIM-SUCCESSION-AUTHORITY.md`.
 
-Long before the finale, Prime already operates as a distributed human-machine command intelligence whose biological body is the highest-trust command anchor.
+---
 
-His sleeping body is physically sustained in the suspension system while an AI is hard-linked to his brain. The surrounding command architecture feeds him cameras, sentries, roads, compounds, satellites and global information streams. In sleep he can observe, model, prioritize and issue decisions through the networked organization.
+# 1. PRIM2 is already the Ghost in the Wires
 
-He is therefore already functionally a ghost in the wires while alive: the body is present at Site 0, but his operational presence can appear anywhere the organization can lawfully sense, communicate or act.
+`Ghost in the Wires` is not something PRIM2 becomes only after RAID.
 
-## Sleep is command
+Long before the finale, PRIM2 already operates as a distributed human-machine command intelligence whose biological body is the highest-trust command anchor.
 
-Prime is not dreaming symbolically. He is operating.
+His sleeping body is physically sustained in the Site 0 suspension system while an AI/neural interface and surrounding architecture feed him authorized cameras, sentries, roads, compounds, system state and global information streams.
 
-The system can place information and recommendations into his sleep-state cognition while taking authenticated decisions back out through the Prime authority layer.
+In sleep he can observe, model, prioritize and issue authenticated decisions through the PRIM authority layer.
+
+He is therefore functionally a ghost in the wires while alive: his body is located at Site 0, while his institutional presence can appear wherever the architecture can lawfully sense, communicate or act.
+
+---
+
+# 2. Sleep is command
+
+PRIM2 is not merely dreaming symbolically. He is operating through a mediated cognitive interface.
+
+The system can present information/recommendations into his sleep-state cognition and receive authenticated decisions back through the Mantle authority layer.
 
 This lets him:
+- see separated sides of one problem;
+- give different information to compartmentalized structures;
+- act as a hidden double-agent/arbiter across PRIM/McCluster and Hitman;
+- resolve cross-domain priorities;
+- coordinate without physically attending every operation;
+- and create the impression of impossible institutional timing.
 
-- see multiple sides of a conflict in real time;
-- give different information to different sides;
-- act as a double agent across opposing structures;
-- decide which objective is allowed to succeed;
-- coordinate Prim3 and Hitman as separate instruments without most members seeing the full board;
-- continue command presence without physically entering every operation.
+This capability must not make him omniscient. Information can be incomplete, delayed, misunderstood, deliberately withheld from him, or contain private human meaning he cannot reconstruct merely from data.
 
-Prim3 cells and Hitman crews experience this as impossible timing, support and institutional “luck.” They are standing inside a sleep-run command machine.
+Kkeutori is a canonical example: PRIM2 may have access to messages without fully possessing the interpersonal context that makes Hana's breadcrumb pattern legible to Aya.
 
-## The biological body is the root trust anchor
+---
 
-Prime's body is not merely a container for a consciousness that could be ignored.
+# 3. The biological body is the root trust anchor
 
-The living Presiding Prime is the highest-trust identity inside the architecture. His biometrics, neural identity and Prime credentials collectively authorize the deepest command layer.
+The living PRIM2 is the highest-trust identity in the hidden architecture.
 
-This is why simply damaging the body does not automatically end his control. If the distributed system still recognizes Prime-00 as the sovereign identity, his networked presence can continue trying to reconstitute command.
+His biometric/neural identity and Mantle credentials collectively authorize the deepest command layer.
 
-## High Alert trigger
+This is the literal meaning Hana Lee approaches through her **Living Root** hypothesis.
 
-High Alert begins at the **property perimeter**, not the main lobby.
+At root clearance:
 
-Prime has already been watching the approach in sleep through cameras, sentries, roads and remote feeds. The body wakes only when the perimeter event requires physical action that the distributed command layer cannot resolve alone.
+> **PRIM = Primary Root Identity Mantle.**
 
-The opening shows Jordan's assault from one visible perspective. A separate Benji-led assault element is also moving through the larger Site 0 battle from another route, though the audience does not understand the relationship yet.
+Lower-clearance personnel know the cover:
 
-## RAID and the survivor state
+> **Program for Resilient Infrastructure Management.**
 
-During the final RAID, two separate assault elements breach Site 0:
+Simply damaging PRIM2's body does not automatically resolve authority. As long as the system still recognizes him as the current living root, distributed components may continue to treat his identity as authoritative.
 
-- Jordan's element;
-- Benji's element.
+---
 
-Prime genuinely resists both.
+# 4. Limits matter
 
-He does not sacrifice people merely to create a lesson and he does not surrender because a candidate finally arrived.
+PRIM2's power is enormous but bounded.
 
-The breach becomes catastrophic.
+He cannot perfectly know:
+- every private conversation's emotional meaning;
+- what a person will choose merely because he understands their incentives;
+- information that never reaches any sensor/record/source he controls;
+- the internal subjective meaning of memories;
+- or the future.
 
-Every other member of both assault elements dies.
+He therefore operates through **probability, observation, information asymmetry and controlled context**, not literal omniscience.
 
-Jordan and Benji become the only survivors of their respective teams.
+His greatest strength and greatest flaw are the same:
 
-They encounter one another inside Site 0 after years of battlefield near-misses and incomplete visual contact.
+> **He sees enough of the board to become convinced that seeing more grants him the right to decide more.**
 
-They nearly kill each other.
+---
 
-Instead, they recognize Prime as the common target and form a temporary alliance.
+# 5. Hana Lee demonstrates PRIM2's method
 
-**Jordan and Benji physically defeat Prime together.**
+PRIM2 identifies Hana as NIS-linked before she identifies him.
 
-Prime's body is damaged badly enough that it can no longer continue as the same autonomous physical commander.
+He does not remove her immediately.
 
-He is returned to the suspension system, which now functions as life support as well as the familiar neural command interface.
+Her investigation becomes unwitting adversarial testing:
 
-That still does **not** mean Prime is gone.
+```text
+HANA FINDS A SEAM
+-> PRIM2 LEARNS THE SEAM IS DISCOVERABLE
+-> ARCHITECTURE HARDENS
+-> HANA DIGS DEEPER
+-> PRIM2 LEARNS MORE ABOUT THE ADVERSARY MODEL
+```
 
-## Evil Twin — confession as survival
+When Hana approaches portable proof of the Living Root, PRIM2's calculation changes.
 
-Evil Twin begins only after Prime is already beaten.
+During GLASSHOUSE he does not directly sabotage machinery. He withholds decisive safety-state information and allows Amira/Marc's genuine decision process to occur inside an incomplete information environment.
 
-Jordan and Benji are standing over him with every reason to execute him.
+Hana dies.
 
-Prime's last available weapon is information.
+This is one of the clearest examples of PRIM2's moral danger: **controlling what other people know can become functionally equivalent to controlling what choices they are able to make.**
 
-He reveals the dual-board architecture because he is trying to survive long enough to explain one critical fact:
+---
 
-**his still-living biological identity remains the deepest trust root of the Prime system.**
+# 6. Jordan is not PRIM2's only story
 
-The confession reinterprets years of near-misses, mirrored missions, separated teams and different information streams.
+PRIM2 has hidden relationships with the entire institutional architecture.
 
-Prime is not merely saying “I watched both sides.”
+He may evaluate Jordan over years, but PRIM3 is an ensemble series. PRIM2's effects can appear in episodes Jordan does not own or does not appear in at all.
 
-He is admitting:
+Relevant independent relationships include:
+- Hana — adversarial intelligence mind;
+- Aya — skeptic who becomes institutionally attached;
+- Royce — Hitman sovereign operating beneath a hidden higher board;
+- Helen — visible governance trying to build structures capable of surviving centralized authority;
+- Chioma / Thandiwe — competing future leadership models;
+- Jonas / Pylon — automation and interface dependence;
+- Marc / Amira — decision-makers whose choices can be shaped by incomplete context.
 
-- he knew where Jordan and Benji were when they saw only fragments of one another;
-- he routed separate teams through the same larger events;
-- he allowed different operators to believe different stories about shared objectives;
-- he used compartmentalization as an operating method;
-- his real advantage was possession of the complete board.
+Do not reduce PRIM2 to `the man secretly watching Jordan`.
 
-Jordan and Benji keep him alive after the confession because they verify that killing the biological root immediately would leave the succession architecture unresolved.
+---
 
-That is utility, not mercy.
+# 7. Jordan / Royce / RAID
 
-## The succession window
+During final RAID, two separate assault elements breach Site 0:
 
-After Evil Twin, the dangerous moment is clear:
+- Jordan's PRIM-side element;
+- Royce's Hitman-side element.
 
-Prime's distributed intelligence and command architecture still exist, while his injured living body remains the system's strongest biometric trust anchor.
+Jordan and Royce are **not strangers**. They have significant pre-PRIM3 Hitman history. Royce received the succession opportunity Jordan/Benji refused when Bigga Lex retired.
 
-The succession operation therefore requires the surviving attackers to use the still-living Prime-00 identity during a narrow in-facility control window to:
+PRIM2 genuinely resists both elements.
 
-1. recognize Jordan as the new Prime authority;
-2. transfer the sovereign command role away from Prime-00;
-3. revoke Prime-00's independent write / actuator / tasking authority;
-4. preserve Prime-00's intelligence as a surviving cloud presence;
-5. constrain that presence to read, observe, analyze and advise unless the new Prime deliberately grants a narrower human-owned exception.
+The breach becomes catastrophic. Every other member of both assault elements dies.
 
-This is an authority transfer, not the creation of a new digital being.
+Jordan and Royce become the only survivors of their respective teams.
 
-## After succession — Ghost Prime
+They encounter one another as old rivals whose histories have now been revealed to sit beneath the same hidden PRIM architecture.
 
-Prime-00 survives as **Ghost Prime**.
+They nearly kill each other, then recognize PRIM2 as the common immediate target.
 
-What changes is privilege.
+**Jordan and Royce defeat PRIM2 together.**
 
-Before RAID:
+PRIM2's body is critically damaged and returned to the suspension/life-support system.
 
-- observe: yes
-- analyze: yes
-- advise: yes
-- write/change system state: yes
-- command people: yes
-- task Prim3 / Hitman: yes
-- exercise Prime authority: yes
+---
 
-After successful succession:
+# 8. Evil Twin — confession as survival
 
-- observe: deliberately exposed data only
-- analyze: yes
-- advise: yes
-- write/change system state: no by default
-- command people: no
-- task Prim3 / Hitman: no
-- exercise Prime authority: no
+`Evil Twin` begins after PRIM2 has been physically defeated.
 
-Jordan becomes the living Prime / commander.
+Jordan and Royce have every immediate reason to kill him.
 
-Prime-00 becomes the most knowledgeable advisor in the world and, for the first time, cannot simply make the world obey him.
+PRIM2's remaining weapon is information.
 
-## Implications
+He reveals enough of the dual-board architecture to make one fact clear:
 
-This is not a facility manager with good CCTV.
+> **His still-living identity is the current root needed to transfer/revoke authority cleanly.**
 
-This is a man who could steer wars, markets and missions from a dream using two house systems and global feeds.
+The confession forces both survivors to reinterpret:
+- Jordan's Benji history;
+- Royce's inherited Hitman sovereignty;
+- cross-board operations;
+- unexplained assistance/conflict;
+- the hidden PRIM office;
+- and the degree to which PRIM2 possessed a wider board than either man.
 
-The final victory therefore has three stages:
+It does not make every event in their lives PRIM2's creation. He exploited and shaped existing people, incentives and information; he did not author every human choice.
 
-1. Jordan and Benji survive long enough to defeat his body;
-2. Evil Twin forces him to explain the board because they are about to kill him;
-3. Ghost In The Wires takes the right to act away from a mind that still knows how to control everything.
+---
+
+# 9. The succession window
+
+The transition requires the existing living root to remain systemically valid long enough to support a clean authority change.
+
+At story level:
+
+```text
+PRIM2 — CURRENT ROOT
+-> PHYSICALLY DEFEATED / STILL VALID
+-> SUCCESSION WINDOW
+-> JORDAN RECOGNIZED AS NEW HOLDER
+-> PRIM3 — NEW ROOT
+-> FORMER PRIM2 WRITE / COMMAND RIGHTS REMOVED
+```
+
+The exact cryptographic/biometric implementation remains abstract unless a specific mission requires it.
+
+---
+
+# 10. After succession — Ghost-class former PRIM2
+
+After successful succession, the former PRIM2 may persist as a Ghost-class advisor.
+
+Default post-succession capability:
+- observe: only deliberately exposed/authorized data;
+- analyze: yes;
+- advise: yes;
+- independent write/change state: no;
+- command people: no;
+- task PRIM/Hitman: no;
+- exercise Mantle authority: no.
+
+Jordan is **PRIM3**, the new living holder.
+
+Former PRIM2 becomes perhaps the most knowledgeable advisor in the system and, for the first time, cannot simply make the system obey.
+
+---
+
+# 11. The philosophical conflict
+
+The finale is not merely `young operator defeats old boss`.
+
+PRIM2's governing premise trends toward:
+
+> **Enough context creates an obligation to control.**
+
+Jordan's mature answer must become:
+
+> **Enough context creates an obligation to design accountable choices.**
+
+PRIM3 is successful only if Jordan can carry the Mantle without reproducing PRIM2 as a younger man.
