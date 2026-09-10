@@ -20,6 +20,7 @@ Main reflects the September 10 continuity migration:
 - `story/PRIM-SUCCESSION-AUTHORITY.md` — PRIM0 -> PRIM1 -> PRIM2 -> PRIM3/Jordan succession numbering
 - `story/PRIM-DUAL-MEANING-AUTHORITY.md` — cover acronym vs executive/root acronym
 - `story/ENSEMBLE-POV-AUTHORITY.md` — rotating episode ownership + Jordan gameplay withholding law
+- `story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md` — locked 21-episode ownership/development grid for the PRIM and Hitman ensemble
 - `story/EPISODE-MISSION-BIBLE.md` — current 21-episode causal/deployment authority
 - `story/IMMEDIATE-CAST-CANON.md` — promoted multinational immediate-story cast
 - `story/CHARACTER-PSYCHOLOGY-DECISION-AUTHORITY.md` — character-history-to-behavior standard
@@ -50,6 +51,8 @@ Jordan is canonically **Wildcard / Flex**: he can work across mission lanes but 
 
 Aya is now reference-quality alongside Jordan. Hana, Ren, Tariq and Zayd have dedicated or supporting authorities around Aya's web.
 
+The ensemble development map now gives all 24 PRIM/McCluster mains, PRIM2, Royce, Maren, Pylon and the named Hitman ensemble explicit development windows across the 21 episodes instead of leaving them as static roster entries.
+
 ## Ensemble story law
 
 PRIM3 is not a Jordan-only protagonist structure.
@@ -57,13 +60,35 @@ PRIM3 is not a Jordan-only protagonist structure.
 - Jordan's seven academic years provide a major chronological spine.
 - Episode POV and emotional ownership rotate.
 - Jordan may be owner, co-owner, supporting, cameo, mentioned-only or absent.
-- Most Episodes 02–18 should default toward deepening characters other than Jordan even when he is present.
+- Most Episodes 02–18 deepen characters other than Jordan even when he appears.
 - Mission lead, playable POV and emotional owner may be different people.
 - Final RAID / Evil Twin / Ghost naturally return Jordan, PRIM2 and Royce to the center because they carry the succession endgame.
 
 Canonical shorthand:
 
 > **The succession belongs to Jordan. The world belongs to everybody.**
+
+Current episode-owner direction is defined by `story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md`.
+
+Key ownership assignments include:
+- E02 Nusrat/Miguel;
+- E03 Oksana/Rafael;
+- E04 Priya/Sora;
+- E05 Chioma/Thandiwe;
+- E06 Sari/Yonas;
+- E07 Leila/Li;
+- E08 Aya/Minh;
+- E09 Dmitri/Oksana;
+- E10 Valeria;
+- E11 Grace/Rafael;
+- E12 Jonas/Pylon;
+- E13 Helen/Li/Yonas;
+- E14 Amira/Marc;
+- E15 Sari/Sable;
+- E16 Jordan/Valeria;
+- E17 Aya;
+- E18 Leila/Helen/Jordan;
+- E19–21 PRIM2/Jordan/Royce endgame with varying ownership.
 
 ## Gameplay intervention law
 
@@ -141,9 +166,9 @@ Optional side operations may exist for campaign depth but are **not additional c
 
 The song order, episode slots and mission titles remain canon.
 
-Several local Episode 02–18 drafts predate the ensemble/Wildcard migration. Their useful incident design and technical material remain development material, but old owner/playable-roster assertions are subordinate to the current authority stack.
+Several local Episode 02–18 drafts predate the ensemble/Wildcard migration. Their useful incident design and technical material remain development material, but old owner/playable-roster assertions are subordinate to the current authority stack and the new character-development map.
 
-`episodes/README.md` now makes this explicit. Those episodes should be migrated one-by-one through the v2 chapter template before promotion.
+`episodes/README.md` makes this explicit. Those episodes should be migrated one-by-one through the v2 chapter template before promotion.
 
 This means old local prose can no longer silently override:
 - no-default-Jordan gameplay;
@@ -151,7 +176,8 @@ This means old local prose can no longer silently override:
 - PRIM2 terminology;
 - Wildcard/Apex scarcity;
 - Royce Incursion eligibility;
-- current character psychology.
+- current character psychology;
+- current episode-owner assignments.
 
 ## Retired gameplay/story assumptions
 
