@@ -1,313 +1,490 @@
 # PRIM3 Canon Register
 
-**Status:** Foundation canon (merged to main)  
-**Continuity version:** 0.5.1  
+**Status:** Foundation canon (main)  
+**Continuity version:** 0.6.0  
 **Authority:** Matthew McCluster  
-**Rule:** If material conflicts with this register, this register wins until deliberately revised.
+**Rule:** If subordinate material conflicts with this register or a specialist authority delegated below, the higher/current authority wins until deliberately revised.
 
-## Format
+---
 
-PRIM3 is a **seven-season adult techno-thriller / infotainment series** following seven academic years of Jordan Vale's development.
+## 1. Series format
+
+PRIM3 is a **seven-season adult ensemble techno-thriller / infotainment series** framed across seven academic years.
 
 - **7 seasons**
 - **3 episodes per season**
 - **21 episodes total**
 - **1 song = 1 episode = 1 mission**
-- Target WATCH runtime remains **approximately 9 minutes per episode**, but the episode is now organized causally rather than as three disconnected equal blocks:
-  1. **Human trigger / cold open** — establish whose problem this is and why it matters now.
-  2. **Music film / operational brief** — teach technical vocabulary, doctrine, expected environment and the plan PRIM3 believes should work.
-  3. **Human escalation / mission threshold** — expose relationship/authority pressure and the event that commits the team.
-  4. **WATCH mission** — approximately three authored minutes showing the canonical dramatic path.
-- **PLAY is not constrained to the ~9-minute WATCH runtime.** Normal playable missions may expand to roughly 15–30 minutes; capstones may be longer/checkpointed.
+- WATCH target: approximately 9 minutes per episode, organized causally:
+  1. human trigger / cold open;
+  2. music film / operational brief;
+  3. human escalation / mission threshold;
+  4. approximately 3-minute authored WATCH mission.
+- PLAY expands the same canonical event, normally around 15–30 minutes; capstones may run longer/checkpointed.
 - WATCH and PLAY are two interfaces to the same story event.
-- Player results may change grade, injuries, exposure, resources, relationship state and debrief details without casually breaking the hard season spine.
+- Player variation may change grade, injury, exposure, resources, relationship state and debrief detail without casually breaking the hard series spine.
 
 Canonical dramatic law:
 
 > **The briefing teaches the model. The mission attacks the model.**
 
-`story/EPISODE-MISSION-BIBLE.md` is the canonical cross-season causal mission/story spine. `story/EPISODE-CAUSE-AND-ENTERTAINMENT-AUTHORITY.md` governs episode-level causality and entertainment requirements.
+`story/EPISODE-MISSION-BIBLE.md` governs the cross-season mission/story spine. `story/EPISODE-CAUSE-AND-ENTERTAINMENT-AUTHORITY.md` governs episode causality. `story/ENSEMBLE-POV-AUTHORITY.md` governs narrative ownership.
 
-Jordan spends the academic year inside the PRIM3/McCluster story. **Between academic years he repeatedly leaves for a summer policy fellowship.** Those summers influence who he is when he returns, but they do not add episodes to PRIM3's 21-episode count. They may later support a separate Equity Uprise series/game/show.
+---
 
-The song/mission order is recorded in `story/EPISODE-PROGRESSION.md`. Song #21 / Episode 18 remains deliberately open until the owner supplies the final track, with its story/curriculum function already constrained below.
+## 2. Ensemble law
 
-## Franchise reveal / background law
+Jordan Vale is one of the central main characters and the eventual succession spine. He is **not** the mandatory owner of every episode.
 
-`story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md` is the canonical writer-facing authority for Jordan's deeper psychological substrate, the age-26-to-33 Whip Equipped / Ghost Years, Prime's first discovery of Jordan during those years, and the reverse-reveal architecture across shows.
+PRIM3 is an ensemble world. Aya, Chioma, Royce, Amira, Marc, Helen, Thandiwe, Jonas, Pylon, Li, Leila, Oksana, Sari, Yonas and other recurring characters may own complete episodes and transformations independent of Jordan.
 
-The release/reveal order is intentionally backward in time:
+Jordan may be:
+- primary episode owner;
+- shared owner;
+- supporting;
+- cameo/edge;
+- mentioned only;
+- or absent.
 
-**PRIM3 (33–40) -> Whip Equipped (26–33) -> Hitman / Benji (19–26).**
+Across global Episodes **02–18**, the default authoring bias is that **most episodes primarily deepen characters other than Jordan**, even where he participates.
 
-PRIM3 remains its own independent show. Earlier history may shape Jordan's choices, instincts, trust, competence, relationship behavior and reactions without being dumped into PRIM3 as exposition.
+Global Episode 01 / `High Alert` is a deliberate exception because its chronological event occurs during the final succession conflict and foregrounds **PRIM2, Jordan and Royce**.
+
+Canonical shorthand:
+
+> **The succession belongs to Jordan. The world belongs to everybody.**
+
+A major recurring character is not deep enough if they cannot plausibly carry an episode in which Jordan never enters the room.
+
+---
+
+## 3. PRIM has two meanings
+
+Lower- and middle-clearance personnel know:
+
+> **PRIM = Program for Resilient Infrastructure Management**
+
+This is a credible and substantially truthful description of the visible training, resilience, infrastructure and mission program.
+
+Root/executive-clearance personnel know the hidden meaning:
+
+> **PRIM = Primary Root Identity Mantle**
+
+The Mantle is the highest-trust living-human authority layer in the hidden Site 0 architecture.
+
+The same letters therefore describe two levels of the same system.
+
+> **Same letters. Same system. Different truth depending on how close you are to the root.**
+
+See:
+- `story/PRIM-DUAL-MEANING-AUTHORITY.md`
+- `story/PRIM-SUCCESSION-AUTHORITY.md`
+
+---
+
+## 4. PRIM succession numbering
+
+The number after PRIM is secretly a **human succession index**, not a software version.
+
+```text
+PRIM0 — founding Mantle holder
+PRIM1 — first successor / second holder
+PRIM2 — second successor / third holder / presiding holder during almost all of this series
+PRIM3 — third successor / fourth holder / Jordan Vale after final succession
+```
+
+Lower-clearance personnel who encounter numbering may reasonably interpret it as program generation, framework revision, platform version or another institutional designation.
+
+The man previously called `Prime-00`, `Prime-0`, `P-00`, `Presiding Prime`, or similar in older drafts is canonically **PRIM2** during the main chronology.
+
+`Prime` remains acceptable spoken shorthand because `PRIM` is pronounced like *prime*.
+
+`Prime Negative One` / `PRIME-N1` as Jordan's formal identity is deprecated. Jordan becomes **PRIM3** only after succession.
+
+The series title therefore has two simultaneous readings:
+1. the visible PRIM program/world the audience initially thinks it is watching;
+2. Jordan's eventual hidden succession identity.
+
+> **The title has always told the truth. The audience was simply given the wrong dictionary.**
+
+---
+
+## 5. Immediate-story cast
+
+`story/IMMEDIATE-CAST-CANON.md` and `story/CHARACTERS.md` govern the current PRIM3-era roster.
+
+The 24 multinational PRIM/McCluster mains and the 48 attached Legacy/Freelancer relationships from `story/CAST-NATIONS.md` are canon, subject to deliberate future revision and specialist dossiers.
+
+Jordan is the canonical **Wildcard / Flex**:
+- he takes unowned jobs;
+- crosses operational lanes;
+- learns beside specialists;
+- can chain R/E/T/Defense/logistics reasoning;
+- remains subject to authorization;
+- is not automatically best at another person's specialty;
+- and risks becoming overextended or the single point of failure.
+
+> **If a task falls between chairs, Jordan picks it up.**
+
+Wildcard is an operational property, not an episode-ownership rule.
+
+---
+
+## 6. Franchise reverse-reveal law
+
+The release/reveal order is intentionally backward through Jordan's adult life:
+
+1. **PRIM3 — age 33–40**
+2. **Whip Equipped — age 26–33**
+3. **Hitman / Benji — age 19–26**
+
+Jordan lived the history forward. The audience discovers it backward.
+
+Earlier history may shape competence, habits, fear, trust, relationship behavior, retaliation, mobility bias and reactions without being dumped into PRIM3 as exposition.
 
 Canonical spoiler rule:
 
 > **Background truth is not disclosure permission.**
 
-Do not casually reveal the full Benji, Whip Equipped, plane-event, girlfriend, cocaine-period, Royce-succession or Prime-pre-PRIM3 history merely because writer canon contains it. Preserve the future prequel reveals unless a specific PRIM3 disclosure is deliberately owner-approved.
+`story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md` is the writer-facing authority for the full psychological substrate and reverse-reveal architecture.
 
-The owner-supplied Whip Equipped album/source material belongs to the **Whip Equipped age-26-to-33 story only** unless deliberately reassigned. It is not part of the PRIM3 song/mission body. `Tears Don't Fall` is specifically a Whip Equipped event song occurring while the aircraft is going down and Jordan knows it is going down.
+The Whip Equipped album/source material belongs to the age-26-to-33 prequel unless deliberately reassigned. `Tears Don't Fall` occurs during the aircraft event while Jordan knows the aircraft is going down.
 
-## Story-to-mission causality law
+---
+
+## 7. Jordan / Benji continuity
+
+Jordan first attends college at **19** in upstate New York. He begins selling drugs only after arriving on campus, nearly gets caught, continues, is confronted by the dean and takes an offered path to leave rather than face escalation toward prosecution. He tells his parents he flunked out.
+
+He enters Hitman through friendship, music and shared danger around childhood best friend **Bigga Lex the Jet**.
+
+During approximately age **19–26**, Jordan operates as **Benji**.
+
+**Benji is Jordan Vale. Benji is not a separate contemporary character.**
+
+At approximately 26:
+- Bigga Lex retires;
+- Lex offers succession to Benji/Jordan;
+- Jordan refuses;
+- rival **Royce**, seven years younger than Jordan, receives the succession opportunity;
+- Jordan enters the Ghost / Whip Equipped years.
+
+See `story/JORDAN-VALE-HITMAN-ORIGIN-CANON.md`.
+
+---
+
+## 8. Jordan — Ghost / Whip Equipped years
+
+Age **26–33** is Jordan's Whip Equipped / Ghost period.
+
+Locked psychological/story facts include:
+- prolonged vehicle living / mobile homelessness;
+- cars, trucks, RVs and other vehicles serving as shelter, transport, inventory, office and capital;
+- legal vehicle dealing / auction access becoming a legitimacy path;
+- simultaneous data-center / infrastructure work;
+- infrastructure/failover becoming psychologically meaningful;
+- a serious romantic relationship;
+- cocaine-network contamination of the legitimate business;
+- betrayal/cooperation fears;
+- a private-aircraft event Jordan independently decides/causes after a warning, without PRIM2 providing a method or final plan;
+- long-term romantic distrust and compartmentalization;
+- college at 33 as a deliberate return to stability, schedule, credentials and conventional life.
+
+PRIM2 first develops active interest in Jordan during this period after tracing Royce's unusual succession backward through Bigga Lex to Benji/Jordan.
+
+---
+
+## 9. Jordan visual re-entry / reacquisition
+
+Before 33, through Hitman/Benji and Whip Equipped/Ghost, Jordan wears **extremely long hair**.
+
+At 33, before college/PRIM entry, he cuts it off and adopts **waves**.
+
+The visual change is dramatic enough to disrupt simple recognition continuity.
+
+College makes Jordan institutionally visible again. A later fictional Site 0 identity-resolution update allows PRIM2's system to understand with high confidence that the new short-haired student is the same long-haired historical Jordan/Benji subject.
+
+Precise distinction:
+
+> **College makes Jordan visible again; Site 0's update makes the system understand who the newly visible person is.**
+
+---
+
+## 10. Aya Shinoda authority
+
+Aya Shinoda is a central main character independent of Jordan.
+
+At PRIM3 opening:
+- **31 years old**;
+- Japanese, from **Kariya, Aichi**;
+- Yale College B.S. Mechanical Engineering;
+- Field-T technical operator;
+- deep strengths in robotics/mechatronics, sensors, controls, cyber-physical troubleshooting, graceful degradation and safety-state verification.
+
+Her history includes:
+- younger brother **Ren Shinoda** losing his left leg above the knee in a fictional Aichi manufacturing accident;
+- Aya developing the advanced Project REN powered prosthesis series;
+- Yale admission/research;
+- former partner **Zayd Al-Harthi** of Oman;
+- long-term friend **Tariq Al-Farsi** of Saudi Arabia;
+- mentor/friend **Hana Lee** of South Korea;
+- entry into McCluster partly to investigate Hana's death;
+- gradual institutional capture as real responsibility, relationships and reforms make the visible organization feel increasingly legitimate.
+
+Full authority:
+- `story/AYA-SHINODA-PSYCHOLOGICAL-BACKGROUND.md`
+- `story/AYA-CIRCLE-RELATIONSHIP-WEB.md`
+
+---
+
+## 11. Hana Lee hidden truth
+
+Hana Lee is genuinely Aya's mentor and friend and secretly a **Republic of Korea NIS technical intelligence officer**.
+
+Her agency helps correlate external historical information unavailable from inside McCluster. Hana's internal observations plus state-level external correlation allow her to approach the hidden PRIM architecture.
+
+She develops the **Living Root** hypothesis: supposedly separated systems appear to resolve toward a continuously authenticated living human authority associated with Site 0.
+
+PRIM2 identifies Hana as intelligence-linked and does not immediately remove her. He uses her pursuit as unwitting adversarial red-team testing: every seam she finds teaches him what a capable state actor can detect.
+
+When Hana approaches portable proof, her value as a tester becomes subordinate to the threat she represents.
+
+During **Operation GLASSHOUSE**, PRIM2 withholds decisive safety-state information. Amira Hassan genuinely argues to stop; Marc Dubois genuinely authorizes bounded continuation under competing human risks; Hana is fatally crushed by automated equipment.
+
+PRIM2's culpability is informational rather than a procedural sabotage recipe:
+
+> **PRIM2 does not push Hana into the machine. He removes the information that would have stopped the machine.**
+
+Aya does not know Hana was NIS at PRIM3 opening.
+
+See `story/AYA-HANA-INTELLIGENCE-CANON.md`.
+
+---
+
+## 12. Kkeutori breadcrumb canon
+
+Aya grew up with Japanese **shiritori** and Hana with Korean **끝말잇기 / kkeunmaritgi**. They turn the analogous word-chain games into a private bilingual variant they nickname **Kkeutori**.
+
+Their signature house rule is the **N-rescue**: in Japanese shiritori, `ん` normally ends the chain; Hana can rescue the dead end by continuing with an appropriate Korean /n/-initial word.
+
+Their friendship joke becomes:
+
+> **Dead end in one language. Continue in the other.**
+
+After Hana concludes someone above visible McCluster is learning from her investigation, she begins deliberately creating unusual `ん` dead ends around seven meaningful semantic clusters:
+
+```text
+MAP -> PERMISSION -> ROOT -> PULSE -> ZERO -> INHERIT -> TWO
+```
+
+Hana leaves one final chain unfinished. Years later Aya realizes Hana's final unrescued dead end meant:
+
+> **Your turn.**
+
+Most Kkeutori exchanges are genuinely meaningless friendship banter. The clue system works because a small number of deliberate dead ends hide inside hundreds of ordinary turns.
+
+See:
+- `story/AYA-HANA-KKEUTORI-BREADCRUMB-CANON.md`
+- `story/AYA-HANA-KKEUTORI-JOKE-ARCHIVE.md`
+
+---
+
+## 13. Episode causality law
 
 Every episode must establish:
 - inciting event;
-- human owner/stake;
+- episode owner;
+- secondary owner(s);
+- Jordan-presence state A/B/C/D/E/F;
+- human stake;
 - why now;
-- why PRIM3;
-- why R/E/T;
+- why PRIM/McCluster;
+- mission lead;
+- primary playable POV(s);
+- why the operational lanes matter;
 - expected plan;
 - hidden complication;
 - mission threshold;
 - first plan failure;
 - operational consequence;
 - human residue;
-- next-episode story write.
+- past-hint write where relevant;
+- next-character write.
 
-A mission may not exist merely because “an IT incident happened.” At least one meaningful complication should normally trace to a human/institutional choice, incentive, hidden mistake, command decision, bad assumption, deferred maintenance, cost tradeoff, secrecy or Prime manipulation.
+A technical problem must threaten something human.
 
-The technical problem must threaten something human: safety, a relationship, truth/evidence, reputation/trust, money/resources, a meaningful service, command legitimacy, survival or a secret the characters care about.
+At least one meaningful complication should normally trace to a human/institutional choice, bad incentive, hidden mistake, deferred maintenance, cost tradeoff, secrecy, psychological reflex or PRIM2 information manipulation rather than pure random failure.
 
-Every operation must leave relationship/continuity residue.
+---
 
-## Opening chronology — High Alert
+## 14. PLAY / tactical-learning law
 
-**High Alert is shown as the S1E1 music film but occurs chronologically in the middle of S7E1 — RAID (HOT SITE).**
+PRIM3 uses one tactical economy, not a shooter plus detached educational minigames.
 
-- The performer is **Presiding Prime / Prime-00**, not future Jordan.
-- Jordan and his raid team are already inside Site 0 trying to reach and replace him.
-- Prime performs High Alert as a diss record / psychological domination scene aimed at the people attacking him.
-- Seventeen selected bars trigger compressed memories from global Episodes **02–18**.
-- Those memories are intentionally incomprehensible on first viewing and become legible as the corresponding episodes are later watched.
-- Several memories gain a third meaning during Evil Twin when the audience learns Prime had been coordinating both Prim3 and Hitman.
-- S7E1 returns to the exact High Alert moment from the RAID side once the seven-year story has caught up.
+Core loop:
+
+> **evidence -> inference -> action -> consequence -> validation -> mastery**
+
+Field-R gathers/reconstructs information; Field-E handles entry/control/protection; Field-T manipulates/recovers technical state. Defense, authority, support and Wildcard roles interact with the same battlefield.
+
+Technical knowledge should be deterministic where known; uncertainty/randomness lives in incomplete information, enemy action, interruption, physical conditions, damage and combat.
+
+Validation is distinct from change.
+
+Combat buys/protects opportunity and cannot substitute for the technical objective.
+
+The player does **not** literally become PRIM3/Jordan in ordinary pre-succession missions. PLAY enters the current mission/team perspective.
+
+Primary gameplay authority: `game/TACTICAL-IT-MECHANICS-BIBLE.md`.
+
+---
+
+## 15. High Alert opening chronology
+
+`High Alert` is shown as Global Episode 01 / S1E1 but occurs chronologically in the middle of S7E1 `RAID (HOT SITE)`.
+
+- performer: **PRIM2**;
+- Jordan's PRIM-side assault element is already inside/attacking Site 0;
+- Royce's separate Hitman-side assault element is attacking from the other side of the hidden architecture;
+- PRIM2 is genuinely resisting both;
+- selected bars trigger **17 compressed memory anchors** from Episodes 02–18;
+- those memories are intentionally unclear on first viewing;
+- later episodes may reveal that another ensemble character, not Jordan, actually owned the human event PRIM2 selected for his diss;
+- S7E1 eventually returns to the exact moment.
 
 See `story/HIGH-ALERT-MEMORY-ANCHORS.md`.
 
-## Protagonist
+---
 
-- **Jordan Vale** — African American, United States (locked).
-- Begins the PRIM3 seven-year path at age 33.
-- Climbs the Prim3 / McCluster path through field/cohort progression.
-- Enters from severe material instability with practical IT/infrastructure experience that exceeds his formal credentials.
-- His defining advantage is initiative, persistence, systems inference and the tendency to keep looking for another viable path.
-- His writer-facing psychology and pre-PRIM3 background are governed by `story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md`.
-- Love interest: **Aya Shinoda** (Japan, Field-T).
-- Ultimately faces succession / RAID / Evil Twin / Ghost.
+## 16. PRIM2
 
-## Jordan Vale / Benji — first seven-year adult arc
+PRIM2 is already functionally **Ghost in the Wires** before RAID.
 
-`story/JORDAN-VALE-HITMAN-ORIGIN-CANON.md` is the authority for Jordan's age-19-to-26 Hitman history.
+His sleeping biological body at Site 0 is the highest-trust living anchor for a distributed human-machine command architecture. Through mediated cognition and authorized feeds he can observe/model/decide across separated systems while remaining physically located at Site 0.
 
-Locked facts:
+He is powerful but not omniscient. Private human meaning can escape him even when raw data does not; Kkeutori is the canonical example.
 
-- Jordan first attends college at **19**.
-- He did **not** grow up selling drugs. He begins selling for the first time after arriving on campus.
-- The campus operation becomes highly successful and helps pay his tuition.
-- Jordan nearly gets caught, understands the warning, and continues anyway.
-- The dean learns what Jordan is doing and privately offers him a path to leave the college rather than have the matter escalated toward jail/criminal prosecution.
-- Jordan accepts and gracefully leaves.
-- He tells his parents he **flunked out**, because that is easier for him to admit than the real reason.
-- Jordan then enters Hitman through **friendship, culture and music**, not by initially seeking an operator role.
-- Jordan grew up with **Bigga Lex the Jet**, a Hitman operator/leader and his best friend/primary bridge into that world.
-- Friendships and loyalty gradually turn Jordan into a Hitman operator.
-- During this era Jordan operates under the identity **Benji**.
-- **Benji is Jordan Vale. Benji is not a separate contemporary protagonist.**
-- This first Hitman arc runs approximately **age 19 -> age 26**.
-- At 26, Bigga Lex the Jet retires and attempts to pass his title/position to Benji.
-- Jordan/Benji refuses the succession and gracefully leaves Hitman because his deepest loyalty to the organization was tied to Bigga Lex.
-- Jordan gives the succession opportunity to **Royce**, one of his biggest Hitman rivals.
-- Royce therefore becomes the natural post-Benji Hitman-side successor/rival in later dual-board material.
+PRIM2 is not merely `the man watching Jordan`. His hidden relationships span Hana, Aya, Royce, Helen, Chioma, Thandiwe, Marc, Amira, Jonas, Pylon and the wider institution.
 
-Continuity migration rule: subordinate drafts that treat Jordan and Benji as two separate contemporary men are superseded. Preserve `Benji` where it refers to Jordan's age-19-to-26 Hitman identity; use **Royce** for the separate post-Benji Hitman-side rival/successor function unless later owner canon deliberately changes it.
+See:
+- `characters/PRIM2-PRESIDING.md`
+- `story/PRIME-LORE.md` *(legacy filename, current PRIM2 content)*
+- `story/PRIME-LURK-LEDGER.md` *(legacy filename, current PRIM2 trace rules)*
 
-Prime does **not** first discover Jordan in PRIM3. After taking the Prime seat, Prime investigates how young Royce received Hitman's succession without the expected violent seizure, traces the lineage backward through Bigga Lex to Benji/Jordan, and first develops active interest in Jordan during the **age-26-to-33 Ghost/Whip Equipped years**. The deeper mechanics and disclosure limits are governed by `story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md`.
+---
 
-## Jordan Vale — Whip Equipped / Ghost Years
+## 17. Final RAID / Evil Twin / Ghost survivor state
 
-The age-26-to-33 period is canonically Jordan's **Whip Equipped / Ghost Years**.
+This chronology is locked subject to scene-level refinement.
 
-- Jordan lives without conventional fixed housing for much of the period, moving among cars, trucks, RVs, buses and other vehicles that can serve as transportation, shelter and inventory.
-- Mobility makes him difficult for Royce and old Hitman enemies to pin down through ordinary street knowledge and predictable routine; it does not make him literally invisible to governments or technical surveillance.
-- Vehicle dealing and auction access become repeatable legal-hustle/cash-flow mechanisms and the seed of Whip Equipped.
-- Jordan seeks legitimacy but does not immediately become morally clean or conventionally stable.
-- He simultaneously develops real data-center/infrastructure experience while often still living in vehicles.
-- Infrastructure becomes psychologically meaningful because Jordan learns systems designed for continuity while his own life has little fixed continuity.
-- During this era he falls in love, becomes entangled in a cocaine network through that relationship, and allows the legitimate dealership/business to become contaminated by criminal activity.
-- Prime has already begun studying him. Prime covertly helps create the encounter path involving the woman/cocaine plug and later causes a compromised police/contact channel to warn Jordan that she is cooperating.
-- **Prime's active involvement ends with that warning.** Prime then waits and observes.
-- Jordan independently determines that the private aircraft carrying the woman will be brought down, independently decides it needs to happen, and owns the resulting act. Prime does not supply the method, plan, equipment or final assistance.
-- `Tears Don't Fall` belongs to Whip Equipped and occurs while the aircraft is going down, with Jordan aware of what is happening.
-- The event leaves Jordan deeply distrustful of intimate relationships and more committed to compartmentalizing his life.
-- At 33, college is a deliberate attempt to normalize his life: fixed housing, recurring schedule, credentials, a conventional professional path, potentially a traditional job, and a reduction in the hustle-for-a-living mentality.
-- Structurally: **at 33, the ghost re-enters the grid.** PRIM3 begins there.
+- Jordan enters Site 0 with a PRIM-side assault element.
+- Royce enters with a separate Hitman-side assault element.
+- PRIM2 genuinely resists both.
+- every other member of both assault elements dies during the breach;
+- Jordan is the sole surviving PRIM-side attacker;
+- Royce is the sole surviving Hitman-side attacker;
+- Jordan and Royce nearly kill one another;
+- their pre-PRIM3 rivalry/history matters immediately;
+- they recognize PRIM2 as common target and form a temporary alliance;
+- **Jordan and Royce defeat PRIM2 together**;
+- PRIM2's body is critically damaged but remains systemically/biologically valid long enough for succession;
+- `Evil Twin` begins after the physical victory;
+- PRIM2's confession reveals the dual-board architecture and forces Jordan/Royce to reinterpret Hitman, Benji, PRIM and their histories;
+- killing PRIM2 too early risks leaving the old root authority unresolved;
+- Jordan is recognized as **PRIM3**;
+- former PRIM2's independent write/actuator/personnel-command authority is revoked;
+- former PRIM2 persists only as a constrained Ghost-class read/observe/analyze/advice intelligence by default.
 
-These facts primarily exist to govern Jordan's psychology and choices. Their existence in canon does not authorize PRIM3 to spoil the later Whip Equipped/Hitman prequel shows.
+The finale is an **authority transfer / privilege reduction**, not the first creation of PRIM2's networked existence.
 
-## Presiding Prime
+---
 
-- Tank + dream-AI + global feeds; personal armies: Prim3 (intellect) + Hitman (kinetic).
-- Double-agent capability across opposing forces.
-- Recruited at 33 and seized Prime in less than nine months.
-- Prime cannot simply resign; succession requires a worthy operator to reach and defeat the presiding Prime while Prime genuinely resists.
-- **Prime is already functionally Ghost in the Wires before RAID.** His sleeping biological body is the highest-trust command anchor for a distributed human-machine control architecture.
-- During RAID, his body is critically damaged but remains biometrically authoritative long enough to create a succession window.
-- Jordan and Royce use that still-valid Prime-00 identity inside Site 0 to support the succession transition that recognizes Jordan as the new Prime and revokes Prime-00's independent write / actuator / personnel-command permissions.
-- Prime-00 then persists in the cloud as **Ghost Prime** with read / observe / analyze / advice capability only by default.
-- Ghost In The Wires is therefore an **authority-transfer and privilege-reduction finale**, not the creation of Prime's first networked existence.
-
-## Final RAID / Evil Twin survivor state
-
-This chronology is owner-locked subject to later scene-level refinement.
-
-- Jordan enters Site 0 with a Prim3-side assault element.
-- Royce enters Site 0 with a separate Hitman-side assault element from the other side of Prime's architecture.
-- Royce is not a stranger to Jordan: he is a major rival from Jordan's old Benji/Hitman life and the man who received the Hitman succession opportunity Jordan refused when Bigga Lex retired.
-- Prime genuinely resists both teams.
-- **Every other member of both assault elements dies during the breach.**
-- Jordan is the only survivor of his team.
-- Royce is the only survivor of his team.
-- Their encounter inside Site 0 therefore carries both present-day opposition and unresolved history from Jordan's first seven-year arc.
-- Their first instinct inside Site 0 is to treat the other surviving operator as a threat.
-- They nearly kill one another.
-- They recognize Prime as the common target and choose a temporary alliance.
-- Jordan and Royce defeat Presiding Prime **together**.
-- Prime's body is critically damaged and returned to the suspension system, now acting as life support.
-- **Evil Twin begins after that victory.** Prime is already beaten, the facility is already breached, and Jordan/Royce are already the only surviving members of their raid elements.
-- Evil Twin is Prime's confession under threat of execution. It reveals the dual-board architecture and forces Jordan to confront the relationship between the life he lived as Benji, the system Royce inherited, and the PRIM3 path that brought Jordan back to the same hidden apex.
-- Prime is specifically trying to stop Jordan and Royce from killing him before they understand that his still-living biometric identity is required to remove his authority from the distributed system cleanly.
-- Ghost In The Wires follows from that decision: keep Prime alive long enough to take the job away from him, then preserve him only as an advisor without autonomous write/command rights.
-
-## Corporate architecture
+## 18. Corporate architecture
 
 ### McCluster Corp
-Public marketing face; holding company (building, land, equity). M emblem + Dual Sight.
+Public marketing/holding face; buildings, land, equity, brands and visible corporate structure.
 
-### Prim3
-How the work runs: phenotypes, missions, curriculum and the technical/operational education carried by the 21 songs.
+### PRIM — visible layer
+`Program for Resilient Infrastructure Management`: training, missions, technical/operational education, resilience, phenotypes, curriculum and field activity.
+
+### PRIM — hidden root layer
+`Primary Root Identity Mantle`: living highest-trust human succession architecture.
 
 ### Hitman
-Brute multinational and Jordan's first adult operational world. Jordan operates there as **Benji** from approximately 19–26 after entering through Bigga Lex, friendship, music and culture. When Bigga Lex retires and offers Benji succession, Jordan refuses and passes the opportunity to rival **Royce**, establishing Royce as the post-Benji Hitman-side successor/rival.
+Separate multinational street/corporate operational system beneath PRIM2's hidden dual-board architecture. Jordan formerly operated there as Benji; Royce is the contemporary successor/sovereign.
 
 ### Apex
-Where still referenced: parent/black-site layer above fronts. Do not contradict McCluster holding-company notes in `story/MCCLUSTER-CORP.md`.
+Where referenced, black-site/parent layer above fronts. Do not use Apex to contradict McCluster holding-company authority or PRIM root canon.
 
-## Security+ / infrastructure curriculum law
+---
 
-- **Security+ is PRIM3's primary external certification anchor.** The complete learning product—songs, timed concepts, full lessons, battlefield labs, transfer checks, debrief review and supplemental modules—should be audited toward comprehensive Security+ objective coverage without claiming CompTIA endorsement or guaranteed pass readiness.
-- **Network+ is PRIM3's primary infrastructure companion anchor.** It is the first external benchmark used to ensure Security+ concepts are grounded in real networking, systems and service-path understanding rather than memorized as isolated security vocabulary.
-- Canonical formula: **Security+ breadth taught through infrastructure depth.**
-- PRIM3 remains infrastructure-first in explanatory depth: physical/data-center infrastructure, networking, compute/servers, storage/data protection, operating systems/Linux, virtualization/cloud, observability/operations, automation/IaC, resilience/continuity and infrastructure security/identity.
-- Substantial application/security/data concepts should expose the infrastructure they depend on, telemetry that reveals them, controls that constrain them and failure/recovery consequences beneath them.
-- `learning/SECURITY-NETWORK-DUAL-ANCHOR.md` is the certification-anchor authority beneath this register.
-- `learning/INFRASTRUCTURE-FIRST-CURRICULUM-AUTHORITY.md` remains the curriculum-depth authority beneath this register under the Security+ first / Network+ second hierarchy.
-- Core Security+ and infrastructure knowledge must recur at increasing depth: **introduced -> applied -> reused -> integrated**.
-- Infrastructure must exist as mechanically meaningful battlefield state: racks, network paths, switching/routing, media, power, cooling, server/storage state, hypervisors/containers, identity/control planes, telemetry, backup/failover and edge systems should be operable, degradable, recoverable or defensible where relevant.
-- **Song #21 / Episode 18 is the Security+ completion + Network+ infrastructure-integration capstone slot.** Its first responsibility is to close high-value remaining Security+ gaps; its second is to make those concepts operate atop real network/infrastructure dependencies.
-- `CHAIN OF TRUST` / `TRUST ANCHOR` remains the working Song #21 / Mission #18 concept; the titles are not owner-locked yet.
-- `learning/COMPTIA-OBJECTIVE-ALIGNMENT-2026.md` is the current external objective-gap audit, not a claim of CompTIA endorsement, guaranteed coverage or pass probability.
+## 19. Curriculum law
 
-## Music and episode law
+- **Security+** is the primary external certification anchor.
+- **Network+** is the primary infrastructure companion anchor.
+- canonical formula: **Security+ breadth taught through infrastructure depth.**
+- curriculum remains infrastructure-first: physical/data-center systems, networking, compute, storage, OS/Linux, virtualization/cloud, observability, automation/IaC, resilience, identity/security and recovery.
+- concepts recur: **introduced -> applied -> reused -> integrated**.
+- battlefield infrastructure must be mechanically meaningful where relevant.
+- no claim of CompTIA endorsement or guaranteed pass readiness.
 
-- Original owner lyrics remain preserved under `source-material/<slug>/`.
-- The song supplies the episode's technical language, emotional thesis and mission vocabulary.
-- The **music film is an operational brief**: it teaches the expected model, doctrine and risks, but may not reveal exact mission solutions/hidden causes.
-- Human story creates the reason to deploy and a conflict that matters independently of the lesson.
-- Mission forces the player to apply/adapt the model under pressure and advances continuity.
-- Data Breach currently has the complete MP3/SRT/TTML source package; other songs primarily have lyric/source packages until further media is supplied.
-- `game/LEARNING-MISSION-SOURCE-OF-TRUTH.md` defines timed lyrics -> clickable concepts -> lessons -> R/E/T labs -> mastery -> debrief cue links.
-- `story/EPISODE-CAUSE-AND-ENTERTAINMENT-AUTHORITY.md` and the canonical `story/EPISODE-MISSION-BIBLE.md` govern why each operation exists and what human residue it leaves.
-- Whip Equipped music is governed separately by `story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md` and is not part of the PRIM3 mission-song body.
+Authorities:
+- `learning/SECURITY-NETWORK-DUAL-ANCHOR.md`
+- `learning/INFRASTRUCTURE-FIRST-CURRICULUM-AUTHORITY.md`
+- `learning/COMPTIA-OBJECTIVE-ALIGNMENT-2026.md`
 
-## Omniscient command / data-layer law
+---
 
-`game/OMNISCIENT-COMMAND-INTERFACE.md` is the canonical command-interface authority.
+## 20. Song / episode order
 
-When PLAY begins, the viewer stops watching PRIM3 and **becomes PRIM3** through one fused tactical/data interface.
+Canonical global order remains:
 
-The fantasy is **earned omniscience**, not magical knowledge:
+1. High Alert — The Blip
+2. White Grey Black Hat — Permission Slip
+3. OSINT — Open Book
+4. Anti Social Engineering — The Human Layer
+5. Red Blue Purple White Team — Four Colors
+6. Got Wifi — Dead Air
+7. Data Breach — Exposure
+8. App Attacks — Bad Input
+9. Virus Types — Patient Zero
+10. Installation Types — Clean Install
+11. Dive In — Dumpster Signal
+12. IoT — House of Eyes
+13. IaaS / SaaS / PaaS — Shared Responsibility
+14. CapEx vs OpEx — Own the Exit
+15. Trappin From The Cloud — Elastic
+16. Per Diem — Road Kit
+17. Patch Work — Trust Boundary
+18. Song #21 — OPEN / Mission #18 OPEN
+19. RAID (HOT SITE) — Hot Site
+20. Evil Twin — Mirror Room
+21. Ghost In The Wires — Last Process
 
-- same mission world supports Area, Tactical, Systems and Node semantic zoom;
-- canonical layers include Physical, Threat, Sensor/Observation, RF/Communications, Network, Identity/Authorization, Service, Power/Environment, Evidence and Mission;
-- information states include **Hidden -> Detected -> Inferred -> Corroborated -> Verified**, with possible Stale, Contradicted, Compromised or Unknown states;
-- Field-R expands **the Picture**;
-- Field-E establishes **physical Reality / Control**;
-- Field-T reveals and changes **the System**;
-- already-earned information is free to view; acquiring, refreshing, validating or acting on it consumes tactical opportunity where appropriate;
-- map answers **where**, dependency graph answers **why/what depends on what**, timeline answers **when**;
-- interface depth grows across seasons as player literacy grows;
-- Prime's apparent omniscience is partly explained by access to fused cross-compartment data other operators were never allowed to see together.
+`story/EPISODE-PROGRESSION.md` governs ordering.
 
-The game uses authored/simulated mission data and does not depend on live public-world feeds.
+### Episode 18 locked function
 
-## Tactical-learning law
+The exact Song #21 remains open.
 
-- Standard playable field triad remains Field-T / Field-E / Field-R under the XCOM-style two-AP turn model unless story deliberately changes roster.
-- **Field-R buys information. Field-E buys controlled space and time. Field-T converts information and protected opportunity into a technically correct result.**
-- Player may interleave triad actions; standard squad creates six AP/round.
-- AP is bounded tactical opportunity, not literal seconds.
-- No unexplained generic “hack chance.” Deterministic concept relationships remain deterministic; uncertainty belongs in evidence, changing conditions, combat and interruption.
-- Combat remains first-class and visually satisfying and must interact with technical work.
-- Technical success can change tactical geometry/information/hazards/responders; kinetic success can protect or damage technical opportunity.
-- Technical interactions use explicit Task Atoms and LAB_NODE state progression.
-- Validation is distinct from configuration.
-- Wrong reasoning normally creates causal consequences/review instead of trivia-style rejection.
-- Every primary concept resolves to observable evidence -> inference -> AP/state action -> tactical consequence -> verification -> mastery event.
-- Every major mission should create AP collision: more desirable uses than six AP available.
-- Operational Grade and Learning Mastery remain separate.
-- Later missions require unannounced transfer of prior concepts.
+Story job is locked:
+- hidden technical trust hierarchy and human authority hierarchy are shown to share a dangerous single-root property;
+- Jordan crosses from investigation to deciding PRIM2 must be reached/challenged;
+- verified evidence, not paranoia alone, causes that choice;
+- a formal succession/challenge mechanism becomes materially relevant;
+- Episode 18 bridges directly into RAID.
 
-Supporting authorities:
-- `game/TACTICAL-LAB-MECHANICS-AUTHORITY.md`
-- `game/TACTICAL-IT-MECHANICS-BIBLE.md`
-- `game/ROLE-ACTION-REGISTRY.yaml`
-- `game/LAB-GAMEPLAY-PATTERN-CATALOG.md`
-- `game/KINETIC-TECHNICAL-COUPLING-AUTHORITY.md`
-- `learning/MISSION-LAB-DATA-SCHEMA.yaml`
-- `learning/CONCEPT-MECHANIC-BINDING-RULES.yaml`
-- `learning/MISSION-CONCEPT-LAB-MATRIX.md`
-- `learning/missions/LVL-07-EXPOSURE.yaml`
-- `learning/missions/LVL-06-DEAD-AIR.yaml`
+---
 
-## Prime Ascension / real-world companion law
+## 21. Canon maintenance law
 
-`game/PRIME-ASCENSION-REAL-WORLD-UNLOCK.md` governs the post-game real-world companion entitlement.
+When new character/history canon is added:
+- update specialist dossier;
+- update relevant relationship state;
+- update episode ownership/residue where needed;
+- do not let old summary files silently outrank new specialist authority;
+- migrate stale `Prime-00`, separate contemporary `Benji`, `Prime Negative One`, Jordan-only episode ownership, and `player becomes PRIM3` language when encountered.
 
-- The separately hosted `Hitman's Halo` public-data system may become a real-world post-game companion.
-- **Owner/admin access exists independently for private development/operational use.** The owner does not need to beat the game to administer the product.
-- Consumer/player real-world access is earned through the succession arc: complete the required PRIM3 progression/mastery condition -> server writes an authenticated **PRIME / ASCENDED** entitlement -> protected HALO session becomes available.
-- A client-side save/localStorage flag/hidden URL is never sufficient authorization.
-- The unlock grants application capability, not raw shared provider credentials.
-- Server-side provider keys remain behind an authenticated gateway with rate limits, quotas and auditability.
-- Real-world data must remain public or explicitly authorized and preserve provenance/freshness/uncertainty.
+Legacy filenames may remain for link compatibility, but their contents must point to current canon rather than preserve contradictory history.
 
-This makes the game's interface progression a product promise: **learn how to see the system; become Prime; unlock the real-world operating picture.**
-
-## Site 0 / helmet / Dual Sight
-
-Nine-level Site 0 stack and Prime visual anchors remain locked: exact M helmet architecture, Dual Sight bars, visible optical camera and Jetson-class Mission Core bay.
-
-## Human continuity
-
-Relationships do not reset between episodes. Consequential lies, rescues, promotions, humiliation, attraction, grief, debt, injury, secrets and command decisions leave residue. See `story/HUMAN-STORY-ENGINE.md` and `story/CHARACTER-RELATIONSHIP-STATE.md`.
-
-Jordan's pre-PRIM3 history should influence human continuity without automatically becoming dialogue exposition. See `story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md`.
-
-## Prime background-presence rule
-
-Presiding Prime must be detectably present in the background of every episode before `Ghost In The Wires`, even when Jordan/audience do not yet understand what counts as Prime's presence. See `story/PRIME-LURK-LEDGER.md`.
-
-Prime's awareness of Jordan predates PRIM3 and begins during Jordan's Ghost/Whip Equipped years, but PRIM3 should preserve that fact as a controlled reveal rather than explain it prematurely.
-
-## Explicitly open
-
-- Exact college identity/location for Jordan's age-19 first enrollment and exact age-33 PRIM3-era college identity/location until separately owner-locked
-- Exact calendar dates
-- Song #21 final title/lyrics/technical concept beyond current `CHAIN OF TRUST` working concept
-- Full cohort biography details beyond current proposed cast files
-- Full meaning of “Negative One” if still used alongside Jordan naming
-- Exact Hitman mission chronology and complete Royce relationship details beyond currently locked origin/succession facts
-- Complete scene-level chronology, identities and episode structure for the future Whip Equipped prequel beyond the background facts now locked in `story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md`
-- Exact mechanics of how Prime creates the woman/cocaine-plug intersection and how the police tip is routed; those should remain non-procedural unless story necessity requires a safe fictional abstraction
+**main is authoritative.**
