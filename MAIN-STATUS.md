@@ -14,7 +14,7 @@ See `source-material/README.md` and `story/SONG-CATALOG.md`.
 
 ## Current highest-priority story authorities
 
-Main now reflects the September 10 continuity migration:
+Main reflects the September 10 continuity migration:
 
 - `story/PRIM-SUCCESSION-AUTHORITY.md` — PRIM0 -> PRIM1 -> PRIM2 -> PRIM3/Jordan succession numbering
 - `story/PRIM-DUAL-MEANING-AUTHORITY.md` — cover acronym vs executive/root acronym
@@ -27,6 +27,15 @@ Main now reflects the September 10 continuity migration:
 - `story/AYA-HANA-INTELLIGENCE-CANON.md` — Hana/NIS/PRIM2/GLASSHOUSE hidden truth
 - `story/AYA-HANA-KKEUTORI-BREADCRUMB-CANON.md` — Hana's delayed breadcrumb path
 - `story/AYA-HANA-KKEUTORI-JOKE-ARCHIVE.md` — actual friendship jokes and clue dialogue
+
+## Current highest-priority gameplay authorities
+
+- `game/TACTICAL-IT-MECHANICS-BIBLE.md` — deterministic technical/tactical grammar
+- `game/LEARNING-MISSION-SOURCE-OF-TRUTH.md` — song-to-concept-to-mission learning loop
+- `game/OMNISCIENT-COMMAND-INTERFACE.md` — ensemble mission-control / earned-knowledge UI
+- `game/GAME-MECHANICS-COMPLETE.md` — current high-level gameplay spine
+- `game/WILDCARD-INTERVENTION-AUTHORITY.md` — Jordan Wildcard, PRIM2 Apex rescue, and Royce Incursion system
+- `game/MECHANICS-GAPS-FILLED.md` — subordinate implementation supplement
 
 ## Character system
 
@@ -53,6 +62,43 @@ Canonical shorthand:
 
 > **The succession belongs to Jordan. The world belongs to everybody.**
 
+## Gameplay intervention law
+
+Most PLAY missions launch with **ensemble characters and no Jordan**.
+
+Canonical Standard escalation:
+
+```text
+NORMAL PRIM TEAM
+    -> mission reaches CRITICAL
+JORDAN WILDCARD REQUEST
+    -> Jordan is present but critical failure persists on an eligible high-value mission
+PRIM2 APEX REQUEST
+```
+
+Scarcity:
+- **2 non-scripted Jordan Wildcard Authorizations per season**;
+- **3 non-scripted PRIM2 Apex Authorizations across the entire seven-season campaign**;
+- scripted Jordan/PRIM2 deployments do not consume these pools.
+
+The hostile side can also escalate:
+- Royce may enter eligible operations as a persistent Hitman-side incursion threat;
+- Standard cap is **2 non-scripted Royce Incursions per season**;
+- maximum one per mission;
+- two-mission cooldown after a non-scripted appearance;
+- story missions, especially final RAID, may override the random-incursion cap.
+
+Mechanical identity shorthand:
+
+```text
+ENSEMBLE -> solves the mission
+JORDAN   -> restores optionality / finds another path
+PRIM2    -> brings sovereign picture + authority
+ROYCE    -> violently destabilizes the board
+```
+
+Interventions operate on current state. They cannot resurrect dead characters, rewind clocks, restore destroyed evidence or erase consequences. They can preserve living characters, salvage recoverable objectives and change the future cost of failure.
+
 ## PRIM terminology
 
 Lower-clearance personnel know:
@@ -74,7 +120,22 @@ Legacy labels such as `Prime-00`, `Prime-0`, `Prime Negative One`, a separate pr
 - **21 total episodes/levels**
 - `Data Breach`, `Got Wifi`, and `Virus Types` remain at Global Episodes 07, 06, and 09 respectively under `story/EPISODE-PROGRESSION.md`
 
-WATCH and PLAY remain two interfaces to the same event, but PLAY during ordinary episodes no longer means the player literally "becomes PRIM3." The player enters the current mission/team operational perspective.
+WATCH and PLAY remain two interfaces to the same event, but PLAY during ordinary episodes does not mean the player literally "becomes PRIM3." The player enters the current mission/team operational perspective.
+
+Optional side operations may exist for campaign depth but are **not additional canonical episodes**.
+
+## Retired gameplay assumptions
+
+Do not revive:
+- invented placeholder Season One leads such as RANE/VOSS/QUILL/SABLE;
+- High Alert as an ordinary tutorial data-extraction mission;
+- 8–13 canonical episodes per season;
+- 8–15 canonical tactical missions per season;
+- generic random hack-success rolls for technically correct actions;
+- generic XP progression into `Prime-N1`;
+- Jordan as a selectable default pawn for every operation.
+
+`game/AUDIT-AND-FILL.md` is now a historical/superseded pointer and records why those prototype assumptions were retired.
 
 ## Branch authority
 
