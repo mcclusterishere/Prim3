@@ -1,5 +1,5 @@
 ---
-status: DRAFT CHAPTER BLUEPRINT
+status: CANON CHAPTER BLUEPRINT
 season: 2
 episode: 2
 global_episode: 5
@@ -7,128 +7,127 @@ level_id: LVL-05
 song: Red Blue Purple White Team
 mission: Four Colors
 runtime_target: 9 minutes
+branch: main
 ---
 
-# S2E2 - RED BLUE PURPLE WHITE TEAM
+# S2E2 — RED BLUE PURPLE WHITE TEAM / FOUR COLORS
 
-## Merge contract
+## Episode ownership
 
-This chapter expands the locked team-doctrine episode. Chioma Okeke's emerging
-leadership and Jordan's lesson that experience does not automatically equal
-command are preserved from the mission bible.
+```text
+EPISODE OWNER: Chioma Okeke
+SECONDARY OWNERS: Thandiwe Nkosi / Aya Shinoda / rotating exercise team
+JORDAN NARRATIVE STATE: C — SUPPORTING
+MISSION LEAD: Chioma
+BASE PLAYABLE ROSTER: role-rotating Red / Blue / Purple / White named ensemble operators
+PRIMARY PLAYABLE POV: multi-role team under Chioma
+JORDAN PLAY STATE: OFF-BOARD WILDCARD
+WILDCARD ELIGIBLE: yes only after the exercise becomes a real CRITICAL incident
+APEX ELIGIBLE: no under canonical WATCH state
+PRIM2 STORY VISIBILITY: hidden senior staffing/observation layer
+ROYCE INCURSION ELIGIBLE: no
+```
 
-## Chapter promise
+---
 
-A controlled red-versus-blue assessment is interrupted by a real facility
-anomaly. The player must stop performing the exercise, combine the teams' partial
-truths, and recognize Chioma as the person who can legally end the simulation.
+# Human problem
 
-## Song payload
+Chioma is being watched to see whether she can command people who are talented enough to disagree with her.
 
-- **Technical:** red offense, blue defense, purple collaboration, white
-  adjudication, plus yellow development and defensive/offensive code roles.
-- **Human:** pride in one's specialty, team identity, rivalry, and the moment a
-  role becomes more important than being right.
-- **Visual:** colored rooms and overlays that merge into full-color reality
-  when the real incident begins.
-- **Safety:** simulated actions are abstract objectives and telemetry; the
-  chapter teaches coordination rather than attack execution.
+A controlled red-vs-blue exercise is interrupted by a real facility anomaly that looks enough like an exercise inject for ambitious participants to keep “playing.”
 
-## Nine-minute episode
+Jordan is one of several people with reasons to believe their own read is correct.
 
-### 0:00-3:00 - Music film
+The episode belongs to Chioma because she must sacrifice a visible competitive win in order to say:
 
-Each team color gets a distinct camera language and rhythm. At the midpoint,
-colors begin bleeding into one another until a white-room referee display shows
-an alert that belongs to none of the exercise injects.
+> **Real-world. Stop the exercise.**
 
-### 3:00-6:00 - Human story
+That choice establishes what command means in this world: not being smartest in the room, but owning the cost of ending the wrong game.
 
-Formal role assignments create celebration and resentment. Jordan expects his
-age and experience to put him near command. Chioma sees the room more clearly,
-ends an argument with one sentence, and earns authority Jordan wanted. He must
-decide whether to support her publicly before he has processed the disappointment.
+---
 
-### 6:00-9:00 - Watch / Play mission
+# Technical thesis
 
-WATCH shows Chioma terminating the exercise and forcing every team to surrender
-its private picture. PLAY rotates the player among four role views, requiring
-information to be shared before the real anomaly can be stabilized.
+The color roles are different ways of producing knowledge and control:
+- Red challenges;
+- Blue defends;
+- Purple converts conflict into shared learning;
+- White adjudicates scope/rules/outcome.
 
-## Playable level contract
+When reality intrudes, role identity must become subordinate to the actual system state.
 
-- **Player role:** a four-station team under Chioma's command.
-- **Environment:** assessment lab, operations gallery, equipment floor, and
-  the real affected utility/service room.
-- **Primary objective:** distinguish exercise traffic from a live facility
-  problem and stabilize the real system.
-- **Optional objectives:** preserve exercise evidence; prevent competing teams
-  from duplicating risky actions; identify the first signal that was real.
-- **Complication:** the live anomaly resembles a scheduled red-team inject.
-- **Exit state:** Chioma owns the debrief; Jordan's response determines whether
-  rivalry becomes respect or quiet resentment.
+Core lesson:
 
-## Player verbs
+> **A role is useful only while it still describes the problem.**
 
-Switch role, observe, classify, share, authorize, assign, isolate, debrief.
+---
 
-## Graded outcomes
+# WATCH structure
 
-| Channel | Strong result | Weak but continuing result |
-|---|---|---|
-| Objective | Live anomaly separated and stabilized | Service restored after avoidable confusion |
-| Team | Roles cooperate under Chioma | Teams hoard information and blame one another |
-| Exposure | Exercise remains contained | The exercise damages live operations |
-| Integrity | White-team authority is respected | Players continue unauthorized exercise actions |
-| Time | Early stop order saves minutes | Pride delays the transition to real response |
+### Human trigger
+A live facility signal appears during the assessment.
 
-## Persistent state written by the level
+### Music film / brief
+Each team color sees a different but valid slice of the same environment. Competitive edits make each perspective feel complete until the colors begin contradicting one another.
 
-Chioma command trust, Jordan-to-Chioma respect/resentment, and a reusable team
-composition record. Strong play unlocks faster cross-role handoffs in later
-missions; poor sharing adds friction to `Dead Air`.
+### Human escalation
+Participants argue whether the anomaly is another inject.
+Jordan's age/experience makes him expect greater command influence.
+Thandiwe notices that the exercise incentives reward continuing.
+Chioma realizes the safest leadership decision will make her look like the person who panicked first.
 
-## Prime background trace
+### Mission threshold
+A physical/environmental service outside the exercise scope begins changing.
 
-- **Visible trace:** the cohort's messy post-exercise photo appears for one beat
-  on an unnamed remote review screen beside a recommendation to split the team;
-  an unseen reviewer selects `KEEP COHORT INTACT`.
-- **First-watch meaning:** routine senior staffing review.
-- **Ghost payoff:** Prime watched the family form and deliberately preserved it
-  as a unit whose loyalty could later be tested.
+Chioma terminates the exercise and orders every team to surrender its private picture.
 
-## Technology accuracy gate
+### WATCH mission
+The ensemble reconstructs the real condition by combining partial evidence and re-baselining what counts as “normal.”
 
-- **Sensor / input:** exercise inject log, facility alarms, role-specific
-  dashboards, physical equipment state.
-- **Compute / reasoning:** compare expected exercise behavior against an
-  independent live baseline.
-- **Energy / infrastructure:** training network and the facility service it
-  accidentally overlaps.
-- **Access / authorization:** role permissions are scoped; Chioma/white team
-  owns the exercise-stop decision.
-- **Human decision owner:** Chioma, with facility safety staff controlling the
-  live equipment.
-- **Failure mode:** teams misclassify reality as simulation or continue an
-  exercise after its authority ends.
-- **Real concept taught:** offense, defense, collaboration, and adjudication
-  require shared context and explicit rules.
-- **Fictional extrapolation:** none required.
+Jordan contributes, but Chioma owns the command decision and debrief.
 
-## Production and game assets
+---
 
-- Four-role HUD skins with a shared event timeline - `NEEDED`
-- Assessment lab and utility room - `NEEDED`
-- Chioma, Jordan, and cohort rigs - `NEEDED`
-- Role-switch and debrief system - `NEEDED`
-- Song master/timed lyrics and color-driven edit - `NEEDED`
+# PLAY contract
 
-## Merge hooks
+The player rotates among **named** characters occupying the four exercise functions rather than generic colored pawns.
 
-- **Reads from:** `The Human Layer` evidence-sharing lesson.
-- **Writes to:** team roles, Chioma authority, and veteran attachment before
-  `Dead Air`.
-- **Reusable systems:** role switching, shared event log, adjudicated mission
-  boundaries.
-- **Owner decisions:** final playable role count and which cohort members fill
-  each station.
+Primary verbs:
+- observe;
+- classify exercise/live;
+- share intelligence;
+- challenge assumptions;
+- authorize;
+- reassign;
+- isolate;
+- stabilize;
+- debrief.
+
+Jordan is not a default unit.
+
+If the real incident escalates to CRITICAL in PLAY, a Wildcard call may become available after Chioma's real-world transition. Calling Jordan then is a rescue/escalation choice, not a reward for refusing Chioma's command.
+
+---
+
+# Character residue
+
+- Chioma earns legitimate authority by choosing reality over prestige.
+- Thandiwe becomes both ally and future critic of how Chioma uses command.
+- Jordan learns that age, breadth and initiative do not automatically entitle him to leadership.
+- the player learns the named ensemble's different operational strengths.
+- a Wildcard rescue, if used, can create tension around why one operator gets executive call-up status.
+
+---
+
+# PRIM2 trace
+
+PRIM2's background role is an institutional staffing decision: after reviewing the exercise, a recommendation to separate several strong personalities is rejected.
+
+First-watch explanation: ordinary senior staffing judgment.
+Later meaning: PRIM2 is interested in what strong people become **together**, not only who wins alone.
+
+---
+
+# Governing line
+
+> **Chioma becomes a leader the moment she is willing to lose the exercise.**
