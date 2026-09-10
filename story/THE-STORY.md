@@ -1,155 +1,201 @@
 ---
 status: CANON
 system: Full narrative how-it-is-told
-version: 2.2.0
+version: 3.0.0
+branch: main
 ---
 
-# THE STORY — how it is told
+# THE STORY — how PRIM3 is told
 
-Full spine lives on **main**. See also `EPISODE-PROGRESSION.md`, `EPISODE-MISSION-BIBLE.md`, `HIGH-ALERT-MEMORY-ANCHORS.md`, `PRIME-LORE.md`, `CAST-NATIONS.md` and `HUMAN-STORY-ENGINE.md`.
+Full spine lives on **main**. Governing authorities include:
+- `CANON.md`
+- `EPISODE-PROGRESSION.md`
+- `EPISODE-MISSION-BIBLE.md`
+- `EPISODE-CAUSE-AND-ENTERTAINMENT-AUTHORITY.md`
+- `ENSEMBLE-POV-AUTHORITY.md`
+- `HIGH-ALERT-MEMORY-ANCHORS.md`
+- `PRIM-SUCCESSION-AUTHORITY.md`
+- `PRIM-DUAL-MEANING-AUTHORITY.md`
+- `PRIME-LORE.md` *(legacy filename; current PRIM2 lore)*
+- `IMMEDIATE-CAST-CANON.md`
 
 ## World
 
-McCluster Corp = public marketing face + holding company (land, building, equity).  
-Prim3 = how the institutional/technical work runs.  
-Hitman = parallel kinetic multinational.  
-Prime = the hidden apex capable of seeing and steering both sides.
+**McCluster Corp** = public marketing / holding face.  
+**PRIM, visible meaning** = **Program for Resilient Infrastructure Management** — the technical, resilience, training and field program most personnel believe they understand.  
+**PRIM, hidden meaning** = **Primary Root Identity Mantle** — the living-human root authority known only near the top.  
+**Hitman** = parallel street/corporate multinational under the same hidden apex.  
+**PRIM2** = presiding Mantle holder during nearly the entire series.
 
-**Presiding Prime** operates through suspension-tank sleep, AI on the brain and global feeds including cameras, roads, compounds and satellites. Prim3 + Hitman function as two different small-unit instruments inside a board that most participants cannot see.
+The series is titled **PRIM3** because the visible program world and Jordan Vale's eventual hidden succession identity occupy the same four letters and number.
+
+## Ensemble structure
+
+Jordan Vale enters the present chronology at 33 and his seven academic years provide a major clock for the series.
+
+But PRIM3 is not `Jordan plus side characters`.
+
+It is an **ensemble story** in which:
+- Aya can own an episode about Hana and institutional trust;
+- Chioma can own an episode about command;
+- Amira and Marc can own the consequences of GLASSHOUSE;
+- Jonas/Pylon can own a human-machine dependency story;
+- Royce can carry Hitman-side development without Jordan physically present;
+- other multinational mains can own missions, relationships and ordinary-life conflicts.
+
+Jordan may be episode owner, co-owner, supporting, cameo, mentioned-only or absent.
+
+> **The succession belongs to Jordan. The world belongs to everybody.**
 
 ## Seven-year structure
 
-Jordan Vale enters the story at 33 and develops across **seven academic years**.
-
 Each academic year is one season:
+- 3 episodes per season;
+- 21 episodes total;
+- 1 song per episode;
+- 1 mission per episode.
 
-- 3 episodes per season
-- 21 episodes total
-- 1 song per episode
-- 1 mission per episode
+Between school years Jordan repeatedly leaves for a summer policy fellowship. Those summers alter him but are not extra PRIM3 episodes and may later support an Equity Uprise series.
 
-Between school years Jordan repeatedly leaves for a **summer policy fellowship**. Those summers alter his politics, ethics and view of institutional authority, but they are not extra Prim3 episodes. A future Equity Uprise series may tell those summers separately.
+The clock follows Jordan's seven-year re-entry into fixed life. The **story ownership rotates**.
 
-## Episode grammar — approximately 9 minutes
+## Episode grammar
 
-### 1. MUSIC FILM — ~3 minutes
-The owner song becomes a cinematic music-video statement of the episode's technical vocabulary, emotion, imagery and pressure.
+The old rigid `music / human story / mission` three-equal-block rule is superseded by causal structure:
 
-### 2. HUMAN STORY — ~3 minutes
-Characters live with the consequences: school, work, money, grief, attraction, rivalry, hierarchy, policy, family, embarrassment, ambition and trust. The scene creates the human reason the mission matters.
+1. **Human trigger / cold open** — establish whose problem this is and why it matters now.
+2. **Music film / operational brief** — technical vocabulary, doctrine, expected environment and emotional thesis.
+3. **Human escalation / mission threshold** — the decision/event that commits the team.
+4. **WATCH mission** — authored canonical action path.
 
-### 3. MISSION — ~3 minutes
-The technical concept becomes action. The audience chooses:
+PLAY expands the same event and may center whichever operators/roles make the mission mechanically legible.
 
-- **WATCH** — authored cinematic action sequence
-- **PLAY** — gamified version of the same event
+The player does **not** become Jordan/PRIM3 in every mission.
 
-The same major story checkpoint remains intact. Play changes grade, injuries, exposure, resource loss, trust and debrief details rather than casually erasing the season spine.
+## Seven-season emotional movement
 
-## Seven-season emotional spine
+These are ensemble themes rather than Jordan-only milestones:
 
-1. **Recognition** — McCluster is the first institution that truly sees Jordan's value.
-2. **Belonging** — the cohort becomes family and loss becomes personal.
-3. **Trust** — privacy, blame and institutional secrecy damage the group.
-4. **Commitment** — Jordan chooses deeper attachment to Aya and the work while discovering the hidden architecture.
-5. **Scale** — Prim3 becomes visible as part of a global machine and Hitman's shadow appears.
-6. **Disillusionment** — Jordan learns how much Prime shaped and decides the architecture must change.
-7. **Prime** — RAID destroys both assault teams and forces Jordan/Benji into alliance; Evil Twin is the defeated Prime's confession; Ghost strips the old Prime's right to act and asks what Jordan will become.
+1. **Recognition** — people are seen, categorized and misread by institutions and one another.
+2. **Belonging** — the multinational network becomes real enough that loss has a cost.
+3. **Trust** — privacy, evidence, blame and institutional secrecy damage relationships.
+4. **Commitment** — characters choose which people and systems they will bind themselves to.
+5. **Scale** — visible PRIM is revealed as part of a much larger transnational machine.
+6. **Disillusionment** — hidden authority, captured loyalties and information asymmetry become impossible to ignore.
+7. **Succession** — RAID defeats PRIM2 physically; Evil Twin reveals the board; Ghost determines what PRIM3 will become.
 
 ## The opening — High Alert is the future
 
 S1E1 begins **inside the middle of the final RAID**.
 
-Jordan and his assault element have already penetrated Site 0 far enough to trigger Presiding Prime's physical-defense state. A separate Benji-led assault element is also entering the larger fight from the other side of Prime's hidden architecture, though the opening does not yet explain that fact.
+Three characters dominate this opening because this particular event belongs to the succession endgame:
+- **PRIM2** — presiding holder and performer;
+- **Jordan Vale** — eventual PRIM3 challenger;
+- **Royce** — Hitman sovereign and Jordan's old rival.
 
-Prime-00 is the performer of **High Alert**.
+Jordan's PRIM-side assault and Royce's separate Hitman-side assault are already attacking Site 0.
 
-He is not merely rapping about himself. He is dissing the people who have come to take his job, using knowledge collected across the previous seven chronological years.
+PRIM2 performs **High Alert** as a diss record / psychological domination sequence aimed at the people trying to reach him.
 
-Seventeen bars trigger compressed memory flashes corresponding to global Episodes **02 through 18**. On first viewing those images are unexplained fragments. As the series progresses each episode reveals the complete scene behind one memory. Several memories are reinterpreted again during Evil Twin.
+Seventeen bars trigger compressed memories corresponding to global Episodes 02–18.
 
-The music film ends before the RAID resolves.
+Crucially, a High Alert memory may show a **Jordan-adjacent fragment** even when the eventual full episode belongs emotionally to Aya, Chioma, Oksana, Marc, Amira, Jonas, Royce or somebody else.
+
+The opening therefore creates the illusion of a Jordan-centered mystery, while the rewind gradually reveals an ensemble world large enough to produce the succession.
+
+The film cuts before the RAID resolves.
 
 Then:
 
 **SEVEN YEARS EARLIER.**
 
-Jordan is 33, entering college and nowhere near understanding the man who just addressed him as if he knows his entire life.
+Jordan is 33, returning to college. Most of the people whose decisions will eventually determine Site 0's fate have their own lives already in motion.
 
-See `HIGH-ALERT-MEMORY-ANCHORS.md`.
+## Aya / Hana hidden current
+
+Aya Shinoda is already inside McCluster before Jordan arrives.
+
+Her mentor/friend Hana Lee was secretly an NIS technical intelligence officer investigating the hidden PRIM architecture. Hana reaches a Living Root hypothesis with agency assistance, realizes someone above the visible organization is learning from her investigation, and leaves Aya a delayed breadcrumb trail through their private Japanese/Korean word-chain game, **Kkeutori**.
+
+Aya does not know Hana was NIS.
+
+Aya joined McCluster partly to prove Hana's death reflected something more sinister. Two years of real work, real reforms and real relationships gradually convince Aya that her original darker theory may have been grief.
+
+Jordan does not create this arc. He arrives inside it.
+
+His outsider-style seam detection later reopens questions Aya believed she had settled.
 
 ## The final trilogy
 
-### 1. RAID (HOT SITE)
-The chronology finally catches up to the opening.
+### RAID (HOT SITE)
 
-Jordan attacks Site 0 with one assault element while Benji reaches the same hidden apex through a separate assault element.
+The chronology catches the opening.
 
-Prime genuinely resists both.
+Jordan enters Site 0 with a PRIM-side assault element.
 
-The facility kills the teams down to two survivors:
+Royce enters with a separate Hitman-side assault element.
 
-- Jordan is the last survivor of his assault element.
-- Benji is the last survivor of his assault element.
+They have substantial pre-PRIM3 history: Royce is the rival who received the Hitman succession opportunity Jordan/Benji refused at 26.
 
-They encounter one another inside Site 0 and recognize the same dangerous stranger they have glimpsed around prior battlefields and operations.
+PRIM2 genuinely resists both.
 
-They have never had a real relationship.
+Every other member of both assault elements dies.
 
-Their first instinct is to kill each other.
+Jordan and Royce become the sole survivors of their respective teams. Their first instinct is still to treat one another as threats. They nearly kill each other, then recognize PRIM2 as the common immediate target.
 
-They nearly do.
+They form a temporary alliance and **defeat PRIM2 together**.
 
-Then both recognize that Prime is the common target and that continuing to fight each other only protects him.
+PRIM2's body is critically damaged and returned to the suspension/life-support system.
 
-They form a temporary alliance and reach the inner command environment together.
+### Evil Twin
 
-**Jordan and Benji defeat Presiding Prime together.**
+Evil Twin begins **after PRIM2 has physically lost**.
 
-Prime's body is critically damaged and returned to the suspension system as life support.
+His remaining weapon is information.
 
-RAID ends with the building breached, both assault elements destroyed and only Jordan/Benji standing over the defeated Prime.
+Under threat of execution, he reveals enough of the hidden board to force Jordan and Royce to reinterpret:
+- PRIM and Hitman as sibling instruments;
+- Jordan's old Benji life;
+- Royce's inherited chair;
+- mirrored assets and unexplained operations;
+- the hidden Mantle;
+- and PRIM2's long history of controlling what different people were allowed to know.
 
-### 2. Evil Twin
-**Evil Twin starts after Prime has already lost.**
+PRIM2's confession also has a survival purpose: his still-living identity remains the current highest-trust root. Killing him before the succession/revocation process could leave authority unresolved.
 
-It is not another phase of the battle and it is not Prime unveiling the board from a position of control.
+### Ghost In The Wires
 
-Prime is beaten, physically trapped and under threat of immediate execution.
+PRIM2 was already functionally distributed while alive.
 
-The song is his confession.
+The finale transfers root authority to Jordan and recognizes him as **PRIM3**.
 
-He reveals:
+Former PRIM2 loses independent write, actuator and personnel-command privileges but may persist as a constrained Ghost-class observer/analyst/advisor.
 
-- Prim3 and Hitman were sibling instruments under one hidden apex;
-- Jordan and Benji repeatedly crossed the same battlefields because Prime could see both sides;
-- Rae/Sora and other mirrored assets were parallel lanes inside the same architecture;
-- some operations that appeared unrelated were complementary halves of one design;
-- Prime's real power was not merely issuing orders but controlling who received which version of reality.
+The final question is not whether Jordan can kill his predecessor.
 
-Flashbacks replay earlier near-misses from both Jordan's and Benji's perspectives until the audience sees the hidden common hand.
-
-Prime's confession has an immediate survival purpose: he explains that his living biological identity is still the deepest trust root in the system. Killing him before transferring that authority could leave the distributed Prime presence technically intact and the succession state unresolved.
-
-Jordan and Benji do not spare him out of forgiveness.
-
-They keep him alive because they need his root identity long enough to take the job away from him correctly.
-
-### 3. Ghost In The Wires
-Prime was already functionally a distributed Ghost while alive. RAID critically damages his biological command anchor but does not erase his networked intelligence.
-
-Using the still-valid living Prime-00 biometric authority, the succession process transfers sovereign Prime authority to Jordan and revokes Prime-00's independent write, actuator and personnel-command privileges.
-
-Prime-00 persists as **Ghost Prime**: able to observe deliberately exposed information, analyze and advise, but unable to independently command people or change system state.
-
-The final question is not whether Jordan can kill the old Prime.
-
-Jordan and Benji already proved they could physically defeat him.
-
-The final question is whether Jordan can inherit the machine without rebuilding the same unaccountable power structure.
+It is whether a Wildcard who spent his life taking every unowned job can inherit the root without becoming the single point of failure for everybody else's life.
 
 ## Character rule
 
-The technology is pressure. The story is what that pressure reveals about people.
+Technology is pressure. Story is what pressure reveals about people.
 
-No episode is complete if its only purpose is to teach a technical concept. Every technical lesson must damage, strengthen or expose a relationship, create a future consequence, or change what a character believes about the institution.
+No episode is complete if its only purpose is technical instruction.
+
+And no major character is complete if their only purpose is to reveal Jordan.
+
+A recurring character should have:
+- an ordinary life;
+- people outside McCluster;
+- history-generated beliefs;
+- a professional strength;
+- a personal failure mode;
+- desires unrelated to the mission;
+- and decisions capable of carrying an episode whether Jordan is present or not.
+
+## Continuity shorthand
+
+- `Benji` = Jordan Vale age 19–26, not separate current character.
+- `Prime-00` / `P-00` = stale references to current **PRIM2** where used for Jordan's predecessor.
+- `Prime Negative One` = deprecated Jordan title; Jordan becomes **PRIM3**.
+- `Prime` = acceptable spoken shorthand for current PRIM holder.
+- High Alert endgame trio = **PRIM2 / Jordan / Royce**.
