@@ -1,7 +1,7 @@
 ---
 status: CANON
 system: Song -> timed concept -> lesson -> role lab -> mission mastery
-version: 1.0.0
+version: 1.1.0
 owner: Matthew McCluster
 ---
 
@@ -10,6 +10,14 @@ owner: Matthew McCluster
 This document defines how PRIM3 turns every educational song into an interactive lesson and then into playable application inside the same episode mission.
 
 If a proposed gameplay, episode, lyric-player, lesson, or lab design conflicts with this document, this document wins unless `CANON.md` is deliberately revised.
+
+## Mechanical authority
+
+This document owns the **learning loop**. `game/TACTICAL-LAB-MECHANICS-AUTHORITY.md` owns the detailed battlefield implementation of that loop: AP economy, LAB_NODE state machines, Task Atoms, Field-R Picture/Evidence Tokens, Field-E Control Zones, Field-T technical state, interruption, validation, combat coupling, objective graphs, and mission-spec requirements.
+
+`learning/MISSION-CONCEPT-LAB-MATRIX.md` binds the current 21 episode slots to concrete R/E/T lab concepts, and `learning/missions/LVL-07-EXPOSURE-GRANULAR.md` is the reference implementation for mission-level granularity.
+
+A disconnected quiz, fake terminal typing sequence, unexplained “hack percentage,” or lab that pauses tactical pressure indefinitely does not satisfy this learning contract.
 
 ## 1. Core law
 
@@ -315,6 +323,8 @@ Prototype flow:
 5. enter Mission 07 — Exposure;
 6. assign role labs around recognition, containment/physical protection, and evidence/system classification;
 7. return Learning Mastery plus exact lyric-cue review links.
+
+The detailed reference mission is now `learning/missions/LVL-07-EXPOSURE-GRANULAR.md`.
 
 Once Data Breach works, the same data contract applies to the other nineteen current owner tracks and the protected Song #21 slot when supplied.
 
