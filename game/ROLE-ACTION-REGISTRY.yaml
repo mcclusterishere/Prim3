@@ -1,0 +1,513 @@
+status: CANON
+system: tactical-role-action-registry
+version: 1.0.0
+owner: Matthew McCluster
+rules:
+  ap_per_unit_per_player_phase: 2
+  no_ap_carryover: true
+  interleaved_activation_allowed: true
+  technical_correctness_uses_generic_rng: false
+  max_single_action_ap: 2
+
+shared_actions:
+  MOVE:
+    ap: 1
+    prerequisites: [unit_not_anchored]
+    concept_hooks: [spatial_planning, route_management]
+    outputs: [position_change]
+    interrupts_lab: true
+  SPRINT:
+    ap: 2
+    prerequisites: [unit_not_anchored]
+    concept_hooks: [time_pressure, route_management]
+    outputs: [extended_position_change]
+    restrictions: [no_fire_after, no_lab_after]
+  FIRE:
+    ap: 1
+    prerequisites: [valid_LOS, usable_weapon]
+    concept_hooks: [physical_security]
+    outputs: [kinetic_pressure, possible_threat_removal]
+    costs: [possible_detection, possible_object_damage]
+  SUPPRESS:
+    ap: 1
+    prerequisites: [valid_LOS, usable_weapon]
+    concept_hooks: [physical_control, time_buying]
+    outputs: [enemy_aim_down, enemy_sprint_blocked, possible_lab_turn_bought]
+  OVERWATCH:
+    ap: 1
+    prerequisites: [usable_weapon]
+    concept_hooks: [early_warning, lane_control]
+    outputs: [reaction_fire_state]
+  HUNKER:
+    ap: 1
+    prerequisites: [cover]
+    concept_hooks: [risk_management]
+    outputs: [defense_up]
+  RELOAD:
+    ap: 1
+    prerequisites: [magazine_model_enabled]
+    concept_hooks: [resource_management]
+    outputs: [weapon_ready]
+  ABORT_TASK:
+    ap: 0
+    prerequisites: [active_abort_window]
+    concept_hooks: [reversibility, safety, incident_judgment]
+    outputs: [task_stopped]
+    notes: Free only before a commit/fragile boundary explicitly closes.
+  STATUS_PING:
+    ap: 0
+    prerequisites: []
+    concept_hooks: [incident_communication]
+    outputs: [team_awareness]
+
+field_r_actions:
+  SCAN_LANE:
+    ap: 1
+    concepts:
+      - monitoring
+      - physical_topology
+      - wireless_rf
+      - threat_detection
+    prerequisites: [lane_or_sensor_source_available]
+    outputs:
+      - reveal_threats_or_sources
+      - possible_picture_improvement
+    tactical_tradeoff: competes_with_overwatch
+  COMPARE_SOURCES:
+    ap: 1
+    concepts:
+      - intel.corroboration
+      - evidence.confidence-level
+      - observability.log
+      - iot.sensor
+    prerequisites: [two_or_more_observations]
+    outputs:
+      - named_evidence_token
+      - possible_decoy_removal
+    misapplication:
+      - false_correlation
+      - confidence_down
+  MAP_TOPOLOGY:
+    ap: 1
+    max_stage_ap: 2
+    concepts:
+      - network_topology
+      - physical_topology
+      - wireless_coverage
+      - cloud_dependency
+      - osint_route_reconstruction
+    prerequisites: [observations_available]
+    outputs:
+      - logical_or_spatial_edges_revealed
+      - route_costs_exposed
+    can_span_rounds: true
+  MARK_THREAT:
+    ap: 1
+    concepts: [threat_prioritization, shared_picture]
+    prerequisites: [threat_observed]
+    outputs: [ally_targeting_benefit]
+  VALIDATE_EXTERNAL_STATE:
+    ap: 1
+    concepts:
+      - verification
+      - out_of_band_confirmation
+      - signal_vs_service
+      - sensor_trust
+    prerequisites: [external_reference_available]
+    outputs: [assumption_confirmed_or_rejected]
+  WARN:
+    ap: 0
+    conditional_ap: 1
+    concepts:
+      - incident_alerting
+      - confidence_under_uncertainty
+      - escalation
+    prerequisites: [material_picture_change]
+    outputs:
+      - abort_window
+      - route_change_option
+      - interruption_mitigation
+    abuse_guard: Repeated low-value warnings may degrade team signal quality or consume AP when not based on new material information.
+  QUIET_ROUTE:
+    ap: 2
+    concepts:
+      - route_recon
+      - signature_management
+      - risk_management
+    prerequisites: [route_observed]
+    outputs: [movement_detection_reduction_or_clock_saving]
+  MUTE_SIGNATURE:
+    ap: 1
+    concepts: [signature_management, identification_tradeoff]
+    prerequisites: []
+    outputs: [detection_reduction, ally_identification_cost_possible]
+  FORECAST_ARRIVAL:
+    ap: 1
+    concepts:
+      - pattern_analysis
+      - timing
+      - incident_prediction
+    prerequisites: [at_least_two_timing_observations]
+    outputs: [eta_evidence_token]
+    notes: Prediction is confidence-bounded and may be wrong if new evidence appears; not magical certainty.
+  CORRELATE_EVENT:
+    ap: 1
+    concepts:
+      - observability.access-log
+      - incident.breach-indicator
+      - incident.abnormal-data-transfer
+      - intel.corroboration
+    prerequisites: [event_sources_available]
+    outputs: [correlation_token, confidence_change]
+  VERIFY_PHYSICAL_LABEL:
+    ap: 1
+    concepts: [asset_management, osint_corroboration, physical_asset_tag]
+    prerequisites: [visible_asset]
+    outputs: [physical_match_token]
+  SPECTRUM_SURVEY:
+    ap: 1
+    concepts:
+      - wireless.rf
+      - wireless.spectrum
+      - wireless.rogue-access-point
+      - signal_vs_service
+    prerequisites: [wireless_sensor_available]
+    outputs: [coverage_or_source_observation]
+    safety: defensive_abstracted
+
+field_e_actions:
+  BREACH_LOUD:
+    ap: 1
+    concepts: [physical_access, risk_tradeoff]
+    prerequisites: [breachable_barrier, authorization_allows]
+    outputs: [barrier_open]
+    costs: [detection_up]
+  BYPASS_QUIET:
+    ap: 2
+    concepts: [physical_access, authorization, time_vs_signature]
+    prerequisites: [compatible_tool, authorization_allows]
+    outputs: [barrier_open]
+    costs: [full_activation]
+  HOLD_ANGLE:
+    ap: 1
+    concepts: [physical_security, chokepoint_control, time_buying]
+    prerequisites: [valid_lane]
+    outputs: [control_zone_strength_up, reaction_pressure]
+  GUARD_TECH:
+    ap: 1
+    concepts: [team_dependency, continuity, protected_work]
+    prerequisites: [T_within_guard_range]
+    outputs: [first_T_interrupt_redirected_or_negated]
+  HOLD_EQUIPMENT:
+    ap: 1
+    concepts: [asset_protection, continuity]
+    prerequisites: [critical_object_within_control]
+    outputs: [first_node_physical_disablement_negated]
+  SECURE_EVIDENCE_ZONE:
+    ap: 1
+    concepts:
+      - forensics.evidence-preservation
+      - chain_of_custody
+      - governance.authorization
+    prerequisites: [evidence_zone_reachable]
+    outputs: [evidence_control_state_secure, physical_custody_token]
+  ESCORT_TECH:
+    ap: 1
+    concepts: [continuity, role_dependency, route_management]
+    prerequisites: [T_adjacent_or_linked]
+    outputs: [protected_movement]
+  ESCORT_CIVILIANS:
+    ap: 1
+    concepts: [human_centered_security, life_safety, privacy_boundary]
+    prerequisites: [civilian_group_present]
+    outputs: [civilian_position_change, exposure_risk_change]
+  STABILIZE_PERSON:
+    ap: 1
+    concepts: [life_safety, triage]
+    prerequisites: [adjacent_downed_unit]
+    outputs: [bleed_stopped]
+  STABILIZE_PHYSICAL_SYSTEM:
+    ap: 1
+    concepts:
+      - iot.fail_safe
+      - human_override
+      - power_continuity
+      - cyber_physical_safety
+    prerequisites: [manual_control_reachable]
+    outputs: [temporary_safe_state]
+  ESTABLISH_PERIMETER:
+    ap: 1
+    concepts: [physical_security, scope_boundary, safe_routing]
+    prerequisites: [zone_reachable]
+    outputs: [control_zone_created]
+  SHIFT_PERIMETER:
+    ap: 1
+    concepts: [dynamic_risk, safe_routing]
+    prerequisites: [existing_control_zone]
+    outputs: [control_zone_moved_or_resized]
+  AUTHORIZE_ACCESS:
+    ap: 0
+    conditional_ap: 1
+    concepts:
+      - governance.authorization
+      - least_privilege
+      - need_to_know
+    prerequisites: [identity_or_role_evidence_available]
+    outputs: [physical_access_state]
+  ISOLATE_DEVICE_PHYSICALLY:
+    ap: 1
+    concepts:
+      - containment
+      - malware_quarantine
+      - device_risk
+    prerequisites: [device_reachable]
+    outputs: [physical_connectivity_state_changed]
+  MANUAL_OVERRIDE:
+    ap: 1
+    concepts:
+      - safety.human-override
+      - safety.fail-safe-state
+      - iot.actuator
+    prerequisites: [manual_control_available]
+    outputs: [physical_actuator_state_changed]
+  CLEAR_ROOM:
+    ap: 2
+    concepts: [physical_security, systematic_search]
+    prerequisites: [adjacent_or_inside_room]
+    outputs: [room_unknowns_revealed, control_improvement]
+
+field_t_actions:
+  OBSERVE_NODE:
+    ap: 0
+    conditional_ap: 1
+    concepts: [system_identification, state_observation]
+    prerequisites: [node_visible_or_connected]
+    outputs: [node_observed]
+  CHARACTERIZE_NODE:
+    ap: 1
+    concepts:
+      - diagnostics
+      - logs
+      - hardware_state
+      - service_health
+      - dependency_analysis
+    prerequisites: [node_observed]
+    outputs: [relevant_variables_revealed]
+  CLASSIFY_STATE:
+    ap: 1
+    concepts:
+      - malware_family
+      - incident_type
+      - data_classification
+      - service_layer
+      - storage_type
+      - install_type
+    prerequisites: [characterization_data_available]
+    outputs: [working_model_selected]
+    misapplication: [wrong_model_state]
+  COMPARE_STATE:
+    ap: 1
+    concepts:
+      - version_comparison
+      - hash_comparison
+      - configuration_difference
+      - redundancy_state
+    prerequisites: [two_or_more_states_available]
+    outputs: [difference_or_match_evidence]
+  TRACE_DEPENDENCY:
+    ap: 1
+    concepts:
+      - network_route
+      - service_dependency
+      - cloud_shared_responsibility
+      - power_path
+      - data_flow
+      - failover
+    prerequisites: [graph_or_physical_clues_available]
+    outputs: [dependency_edges_revealed]
+  CHECK_AUTHORIZATION:
+    ap: 0
+    conditional_ap: 1
+    concepts:
+      - governance.authorization
+      - scope
+      - least_privilege
+      - rules_of_engagement
+    prerequisites: [scope_data_available]
+    outputs: [action_permission_state]
+  ISOLATE_COMPONENT:
+    ap: 1
+    concepts:
+      - incident.containment
+      - network.segmentation
+      - malware_containment
+      - iot_segmentation
+    prerequisites: [component_identified]
+    outputs: [connectivity_or_service_state_changed]
+    tradeoffs: [availability_loss_possible]
+  PRESERVE_STATE:
+    ap: 1
+    max_stage_ap: 2
+    concepts:
+      - forensics.evidence-preservation
+      - backup
+      - rollback
+      - data_preservation
+    prerequisites: [source_identified, storage_or_preservation_path_available]
+    outputs: [evidence_or_recovery_state_improved]
+    can_anchor: true
+    fragile_possible: true
+  SEQUENCE_WORK:
+    ap: 1
+    concepts:
+      - installation
+      - migration
+      - patching
+      - failover
+      - recovery
+    prerequisites: [dependency_graph_available]
+    outputs: [ordered_work_plan]
+  MATCH_COMPONENTS:
+    ap: 1
+    concepts:
+      - hardware_compatibility
+      - interfaces
+      - ports
+      - service_layer_mapping
+      - asset_record_match
+    prerequisites: [components_visible]
+    outputs: [compatibility_or_identity_mapping]
+  CONFIGURE_STATE:
+    ap: 1
+    max_stage_ap: 2
+    concepts:
+      - network_configuration
+      - cloud_configuration
+      - identity_mapping
+      - wireless_trusted_service
+      - iot_segmentation
+      - storage_layout
+    prerequisites: [plan_selected, authorization_sufficient]
+    outputs: [committed_system_change]
+    can_anchor: true
+    validation_required: true
+    safety: abstracted_or_sandboxed
+  ALLOCATE_RESOURCE:
+    ap: 1
+    concepts:
+      - capacity
+      - capex_opex
+      - cloud_scalability
+      - power_budget
+      - recovery_resource
+    prerequisites: [resource_pool_visible]
+    outputs: [resource_distribution_change]
+  RECOVER_STATE:
+    ap: 1
+    max_stage_ap: 2
+    concepts:
+      - disaster_recovery
+      - backup_restore
+      - rollback
+      - service_restoration
+      - hot_warm_cold_site
+    prerequisites: [trusted_source_or_recovery_path_selected]
+    outputs: [candidate_recovered_state]
+    validation_required: true
+    can_anchor: true
+  VERIFY_STATE:
+    ap: 1
+    concepts:
+      - validation
+      - monitoring
+      - hash
+      - independent_confirmation
+      - end_to_end_service_test
+    prerequisites: [candidate_result_exists]
+    outputs: [verified_or_failed_validation]
+  DOCUMENT_ACTION:
+    ap: 1
+    concepts:
+      - chain_of_custody
+      - professional_finding
+      - remediation
+      - auditability
+    prerequisites: [material_action_or_evidence_exists]
+    outputs: [evidence_integrity_or_compliance_up, debrief_detail]
+  SEAL_TAKE:
+    ap: 1
+    concepts: [evidence_integrity, chain_of_custody]
+    prerequisites: [usable_take_exists]
+    outputs: [take_counts_at_window_collapse]
+  RAPID_TRIAGE:
+    ap: 1
+    concepts: [incident_prioritization, partial_evidence, time_tradeoff]
+    prerequisites: [window_low_or_explicit_risk_acceptance]
+    outputs: [reduced_scope_fast_result]
+    tradeoffs: [integrity_cap_possible]
+  FORENSIC_ACQUISITION_STAGE:
+    ap: 2
+    window_cost: 1
+    concepts:
+      - forensics.evidence-preservation
+      - cryptographic_verification
+      - chain_of_custody
+    prerequisites: [correct_kit, secure_or_protected_node]
+    outputs: [high_integrity_take_progress]
+    anchors_operator: true
+    fragile: true
+  SAFE_ROLLBACK:
+    ap: 1
+    concepts: [rollback, reversibility, recovery]
+    prerequisites: [known_good_prechange_state]
+    outputs: [previous_state_restored_candidate]
+    validation_required: true
+  TEST_SERVICE_END_TO_END:
+    ap: 1
+    concepts:
+      - availability
+      - shared_responsibility
+      - signal_vs_service
+      - application_dependency
+    prerequisites: [service_candidate_up]
+    outputs: [actual_service_health_known]
+  HASH_VERIFY:
+    ap: 1
+    concepts: [crypto.hash, evidence_integrity]
+    prerequisites: [two_hashable_states_or_expected_reference]
+    outputs: [integrity_evidence]
+    safety: non_operational
+
+cross_role_combo_actions:
+  R_FEEDS_T:
+    trigger: R produces relevant named Evidence Token
+    effect: >-
+      T receives a specific mechanical simplification tied to the established fact,
+      such as one decoy removed, one graph edge revealed, or one stage cost reduced.
+    restriction: Never use generic unnamed +Tech buffs.
+  E_PROTECTS_T:
+    trigger: E establishes SECURE Control or Guard Tech
+    effect: >-
+      T can conduct anchored/fragile work with reduced interruption risk.
+  T_RESHAPES_BOARD:
+    trigger: T verifies a mission-relevant technical state
+    effect: >-
+      Battlefield state changes: doors, cameras, lighting, route, responder behavior,
+      threat controls, power, communications, or reinforcement information.
+  R_GUIDES_E:
+    trigger: R produces route/threat/power evidence
+    effect: E movement, control placement, or escort decision becomes safer/cheaper/more informed.
+  E_VALIDATES_R:
+    trigger: E physically observes or secures a location R inferred remotely
+    effect: R confidence can move from likely to confirmed and create a stronger Evidence Token.
+  T_GUIDES_E:
+    trigger: T identifies a cyber-physical or infrastructure dependency
+    effect: E can prioritize which physical panel/room/device must be held or manually stabilized.
+
+acceptance_rules:
+  - Every action that changes technical mission outcome must consume AP, clock, state, risk, position, or a named role resource.
+  - Every R evidence action must name the fact produced.
+  - Every E control action must identify the zone/object/person protected.
+  - Every T configuration/recovery action must have an explicit validation path.
+  - Shooting must be a valid tactical tool but may not substitute for non-kinetic concept mastery.
+  - Correct technical reasoning must not be invalidated by generic hidden RNG.
