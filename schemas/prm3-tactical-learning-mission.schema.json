@@ -2,17 +2,54 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://prim3.local/schemas/prm3-tactical-learning-mission.schema.json",
   "title": "PRIM3 Tactical Learning Mission",
+  "description": "Canonical mission schema for ensemble PLAY, deterministic technical learning, Jordan Wildcard escalation, PRIM2 Apex intervention, and Royce Incursion eligibility.",
   "type": "object",
   "additionalProperties": false,
   "required": [
-    "mission_id", "song", "concept_ids", "map", "clocks", "roles", "objective_graph",
-    "lab_nodes", "threat_schedule", "kinetic_coupling", "learning_mastery", "operational_scoring",
-    "debrief_links", "acceptance_tests"
+    "mission_id",
+    "song",
+    "episode_context",
+    "concept_ids",
+    "map",
+    "clocks",
+    "mission_state",
+    "playable_roster",
+    "role_functions",
+    "interventions",
+    "objective_graph",
+    "lab_nodes",
+    "threat_schedule",
+    "kinetic_coupling",
+    "learning_mastery",
+    "operational_scoring",
+    "debrief_links",
+    "acceptance_tests"
   ],
   "properties": {
-    "mission_id": {"type": "string"},
-    "song": {"type": "string"},
-    "concept_ids": {"type": "array", "minItems": 3, "uniqueItems": true, "items": {"type": "string"}},
+    "mission_id": {"type": "string", "minLength": 1},
+    "song": {"type": "string", "minLength": 1},
+    "episode_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["episode_owner", "jordan_presence", "mission_lead", "primary_playable_povs"],
+      "properties": {
+        "episode_owner": {"type": "string", "minLength": 1},
+        "secondary_owners": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "jordan_presence": {
+          "enum": ["A_JORDAN_OWNED", "B_SHARED", "C_SUPPORTING", "D_CAMEO_EDGE", "E_MENTIONED_ONLY", "F_ABSENT"]
+        },
+        "mission_lead": {"type": "string", "minLength": 1},
+        "primary_playable_povs": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+        "relationship_write": {"type": "string"},
+        "past_hint_write": {"type": "string"}
+      }
+    },
+    "concept_ids": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string"}
+    },
     "map": {
       "type": "object",
       "additionalProperties": false,
@@ -20,9 +57,9 @@
       "properties": {
         "width": {"type": "integer", "minimum": 6},
         "height": {"type": "integer", "minimum": 6},
-        "zones": {"type": "array", "minItems": 3, "items": {"type": "string"}},
-        "lab_node_ids": {"type": "array", "minItems": 2, "items": {"type": "string"}},
-        "threat_entries": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "zones": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "lab_node_ids": {"type": "array", "items": {"type": "string"}},
+        "threat_entries": {"type": "array", "items": {"type": "string"}},
         "safe_zones": {"type": "array", "minItems": 1, "items": {"type": "string"}}
       }
     },
@@ -31,19 +68,118 @@
       "additionalProperties": false,
       "required": ["approach", "window", "extract"],
       "properties": {
-        "approach": {"type": "integer", "minimum": 1},
-        "window": {"type": "integer", "minimum": 1},
-        "extract": {"type": "integer", "minimum": 1}
+        "approach": {"type": "integer", "minimum": 0},
+        "window": {"type": "integer", "minimum": 0},
+        "extract": {"type": "integer", "minimum": 0}
       }
     },
-    "roles": {
+    "mission_state": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["Field-R", "Field-E", "Field-T"],
+      "required": ["initial", "critical_triggers", "terminal_triggers"],
       "properties": {
-        "Field-R": {"$ref": "#/$defs/role"},
-        "Field-E": {"$ref": "#/$defs/role"},
-        "Field-T": {"$ref": "#/$defs/role"}
+        "initial": {"enum": ["STABLE", "DEGRADED", "CRITICAL", "TERMINAL"]},
+        "degraded_triggers": {"type": "array", "items": {"type": "string"}},
+        "critical_triggers": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "terminal_triggers": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+      }
+    },
+    "playable_roster": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/playableCharacter"}
+    },
+    "role_functions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required_functions"],
+      "properties": {
+        "required_functions": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"enum": ["R", "E", "T", "LEAD", "DEFENSE", "SUPPORT", "AUTHORITY", "WILDCARD", "OTHER"]}
+        },
+        "function_assignments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["function", "character_ids", "minimum_contribution"],
+            "properties": {
+              "function": {"enum": ["R", "E", "T", "LEAD", "DEFENSE", "SUPPORT", "AUTHORITY", "WILDCARD", "OTHER"]},
+              "character_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+              "minimum_contribution": {"type": "string", "minLength": 10}
+            }
+          }
+        }
+      }
+    },
+    "interventions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["jordan", "prim2", "royce"],
+      "properties": {
+        "jordan": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["state", "wildcard_eligible"],
+          "properties": {
+            "state": {"enum": ["SCRIPTED_ASSIGNMENT", "OFF_BOARD_WILDCARD", "LOCKED_OUT"]},
+            "wildcard_eligible": {"type": "boolean"},
+            "eligibility_reason": {"type": "string"},
+            "request_label": {"type": "string"},
+            "arrival_delay_rounds": {
+              "oneOf": [
+                {"type": "integer", "minimum": 0},
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["min", "max"],
+                  "properties": {
+                    "min": {"type": "integer", "minimum": 0},
+                    "max": {"type": "integer", "minimum": 0}
+                  }
+                }
+              ]
+            },
+            "arrival_rule": {"type": "string"},
+            "ingress": {"type": "string"},
+            "relationship_consequence": {"type": "string"}
+          }
+        },
+        "prim2": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["apex_eligible", "mission_classification", "story_visibility"],
+          "properties": {
+            "apex_eligible": {"type": "boolean"},
+            "mission_classification": {"enum": ["ORDINARY", "CRITICAL", "STATE", "STRATEGIC", "STORY_SCRIPTED"]},
+            "story_visibility": {"enum": ["HIDDEN_EXECUTIVE", "PARTIALLY_KNOWN", "EXPLICIT_PRIM2"]},
+            "persistent_critical_rounds_required": {"type": "integer", "minimum": 1, "default": 1},
+            "request_label": {"type": "string"},
+            "arrival_rule": {"type": "string"},
+            "sourced_information_package": {"type": "string"},
+            "authority_exception_scope": {"type": "string"},
+            "cannot_restore": {"type": "array", "items": {"type": "string"}},
+            "relationship_consequence": {"type": "string"}
+          }
+        },
+        "royce": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["incursion_eligible", "telegraph_rule", "resolution_rule"],
+          "properties": {
+            "incursion_eligible": {"type": "boolean"},
+            "eligibility_reason": {"type": "string"},
+            "telegraph_rule": {"enum": ["UNKNOWN", "POSSIBLE", "LIKELY", "SCRIPTED", "INTEL_DEPENDENT"]},
+            "ingress_rule": {"type": "string"},
+            "resolution_rule": {"type": "string"},
+            "jordan_old_business": {"type": "boolean"},
+            "relationship_consequence": {"type": "string"}
+          }
+        },
+        "intervention_consequence_write": {"type": "string"}
       }
     },
     "objective_graph": {
@@ -53,28 +189,27 @@
       "properties": {
         "nodes": {
           "type": "array",
-          "minItems": 3,
+          "minItems": 1,
           "items": {
             "type": "object",
             "additionalProperties": false,
             "required": ["id", "type", "description"],
             "properties": {
               "id": {"type": "string"},
-              "type": {"enum": ["GATE", "PRIMARY", "SECONDARY", "GHOST", "LEARNING", "SAFETY", "STORY", "EXTRACT"]},
+              "type": {"enum": ["GATE", "PRIMARY", "SECONDARY", "GHOST", "LEARNING", "SAFETY", "STORY", "EXTRACT", "INTERVENTION"]},
               "description": {"type": "string"}
             }
           }
         },
         "edges": {
           "type": "array",
-          "minItems": 2,
           "items": {
             "type": "object",
             "additionalProperties": false,
             "required": ["from", "relation", "to"],
             "properties": {
               "from": {"type": "string"},
-              "relation": {"enum": ["requires", "improves", "conflicts-with", "risks", "unlocks", "substitutes-for"]},
+              "relation": {"enum": ["requires", "improves", "conflicts-with", "risks", "unlocks", "substitutes-for", "escalates-to", "preserves"]},
               "to": {"type": "string"}
             }
           }
@@ -83,27 +218,28 @@
     },
     "lab_nodes": {
       "type": "array",
-      "minItems": 2,
       "items": {"$ref": "#/$defs/labNode"}
     },
     "threat_schedule": {
       "type": "array",
-      "minItems": 1,
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "required": ["trigger", "event", "lab_or_board_effect"],
         "properties": {
           "trigger": {"type": "string"},
           "event": {"type": "string"},
-          "lab_or_board_effect": {"type": "string"}
+          "lab_or_board_effect": {"type": "string"},
+          "may_change_mission_state": {"type": "boolean"},
+          "may_affect_royce_pressure": {"type": "boolean"}
         }
       }
     },
     "kinetic_coupling": {
       "type": "array",
-      "minItems": 2,
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "required": ["kinetic_action_or_state", "technical_effect"],
         "properties": {
           "kinetic_action_or_state": {"type": "string"},
@@ -114,13 +250,15 @@
     },
     "learning_mastery": {
       "type": "object",
-      "required": ["weighted_concepts", "telemetry_required"],
+      "additionalProperties": false,
+      "required": ["weighted_concepts", "telemetry_required", "intervention_cannot_auto_award_mastery"],
       "properties": {
         "weighted_concepts": {
           "type": "array",
-          "minItems": 3,
+          "minItems": 1,
           "items": {
             "type": "object",
+            "additionalProperties": false,
             "required": ["concept_id", "weight"],
             "properties": {
               "concept_id": {"type": "string"},
@@ -128,25 +266,28 @@
             }
           }
         },
-        "telemetry_required": {"type": "array", "minItems": 5, "items": {"type": "string"}}
+        "telemetry_required": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "intervention_cannot_auto_award_mastery": {"const": true}
       }
     },
     "operational_scoring": {
       "type": "object",
-      "required": ["objective", "team", "exposure", "integrity", "time"],
+      "additionalProperties": false,
+      "required": ["objective", "team", "exposure", "integrity", "time", "intervention_recording"],
       "properties": {
         "objective": {"type": "string"},
         "team": {"type": "string"},
         "exposure": {"type": "string"},
         "integrity": {"type": "string"},
-        "time": {"type": "string"}
+        "time": {"type": "string"},
+        "intervention_recording": {"type": "string"}
       }
     },
     "debrief_links": {
       "type": "array",
-      "minItems": 1,
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "required": ["concept_id", "lyric_cue_ref", "reason_shown"],
         "properties": {
           "concept_id": {"type": "string"},
@@ -155,43 +296,46 @@
         }
       }
     },
-    "acceptance_tests": {"type": "array", "minItems": 8, "items": {"type": "string"}}
+    "acceptance_tests": {"type": "array", "minItems": 1, "items": {"type": "string"}}
   },
   "$defs": {
-    "role": {
+    "playableCharacter": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["required_actions", "concept_ids", "produced_state", "minimum_contribution"],
+      "required": ["character_id", "display_name", "qualifications", "base_ap", "story_required"],
       "properties": {
-        "required_actions": {"type": "array", "minItems": 1, "items": {"type": "string"}},
-        "concept_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
-        "produced_state": {"type": "array", "minItems": 1, "items": {"type": "string"}},
-        "minimum_contribution": {"type": "string", "minLength": 15}
+        "character_id": {"type": "string", "minLength": 1},
+        "display_name": {"type": "string", "minLength": 1},
+        "qualifications": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"enum": ["R", "E", "T", "LEAD", "DEFENSE", "SUPPORT", "AUTHORITY", "WILDCARD", "OTHER"]}
+        },
+        "base_ap": {"type": "integer", "minimum": 0, "maximum": 3},
+        "story_required": {"type": "boolean"},
+        "can_die_in_player_path": {"type": "boolean"},
+        "canon_survival_constraint": {"type": "string"}
       }
     },
     "labNode": {
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "id", "location", "concept_ids", "primary_roles", "initial_state", "stages",
-        "dependencies", "wrong_path_consequences", "validation", "battlefield_effect"
-      ],
+      "required": ["id", "location", "concept_ids", "primary_functions", "initial_state", "stages", "dependencies", "wrong_path_consequences", "validation", "battlefield_effect"],
       "properties": {
         "id": {"type": "string"},
         "location": {"type": "string"},
         "concept_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
-        "primary_roles": {
+        "primary_functions": {
           "type": "array",
           "minItems": 1,
           "uniqueItems": true,
-          "items": {"enum": ["Field-R", "Field-E", "Field-T"]}
+          "items": {"enum": ["R", "E", "T", "LEAD", "DEFENSE", "SUPPORT", "AUTHORITY", "WILDCARD", "OTHER"]}
         },
-        "initial_state": {
-          "enum": ["UNSEEN", "OBSERVED", "CHARACTERIZED", "DEGRADED", "UNSAFE"]
-        },
+        "initial_state": {"enum": ["UNSEEN", "OBSERVED", "CHARACTERIZED", "DEGRADED", "UNSAFE"]},
         "stages": {
           "type": "array",
-          "minItems": 2,
+          "minItems": 1,
           "items": {
             "type": "object",
             "additionalProperties": false,
@@ -199,11 +343,7 @@
             "properties": {
               "id": {"type": "string"},
               "task_atom": {
-                "enum": [
-                  "OBSERVE", "COMPARE", "CLASSIFY", "PRIORITIZE", "TRACE", "MAP", "AUTHORIZE",
-                  "ISOLATE", "ROUTE", "ALLOCATE", "MATCH", "SEQUENCE", "CONFIGURE", "PRESERVE",
-                  "RECOVER", "VERIFY", "DOCUMENT", "WARN", "HOLD", "ESCORT", "STABILIZE", "ABORT"
-                ]
+                "enum": ["OBSERVE", "COMPARE", "CLASSIFY", "PRIORITIZE", "TRACE", "MAP", "AUTHORIZE", "ISOLATE", "ROUTE", "ALLOCATE", "MATCH", "SEQUENCE", "CONFIGURE", "PRESERVE", "RECOVER", "VERIFY", "DOCUMENT", "WARN", "HOLD", "ESCORT", "STABILIZE", "ABORT", "REQUEST_INTERVENTION"]
               },
               "ap_cost": {"type": "integer", "minimum": 0, "maximum": 2},
               "window_cost": {"type": "integer", "minimum": 0},
@@ -211,14 +351,14 @@
               "fragile": {"type": "boolean"},
               "state_from": {"type": "string"},
               "state_to": {"type": "string"},
-              "player_reasoning": {"type": "string", "minLength": 15}
+              "player_reasoning": {"type": "string", "minLength": 10}
             }
           }
         },
         "dependencies": {"type": "array", "items": {"type": "string"}},
-        "wrong_path_consequences": {"type": "array", "minItems": 1, "items": {"type": "string"}},
-        "validation": {"type": "string", "minLength": 15},
-        "battlefield_effect": {"type": "string", "minLength": 15}
+        "wrong_path_consequences": {"type": "array", "items": {"type": "string"}},
+        "validation": {"type": "string", "minLength": 10},
+        "battlefield_effect": {"type": "string", "minLength": 10}
       }
     }
   }
