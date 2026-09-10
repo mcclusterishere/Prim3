@@ -1,0 +1,208 @@
+status: CANON
+system: mission-lab-data-schema
+version: 1.0.0
+owner: Matthew McCluster
+purpose: >-
+  Machine-readable contract for binding song concepts, tactical actions, battlefield
+  state, role handoffs, operational scoring, and learning mastery.
+
+mission:
+  id: string
+  level_id: string
+  episode_id: string
+  song_slug: string
+  title: string
+  canon_status: string
+  runtime_mode:
+    watch_target_minutes: number
+    play_target_minutes: number
+  concept_set:
+    primary: [concept_id]
+    secondary: [concept_id]
+    transfer: [concept_id]
+  lyric_bindings:
+    - cue_id: string
+      concept_ids: [concept_id]
+      start_ms: integer
+      end_ms: integer
+      review_priority: primary|secondary|optional
+  operational_objectives:
+    - objective_id: string
+      type: primary|secondary|ghost|compliance
+      description: string
+      weight: number
+      completion_predicate: string
+      partial_predicate: string
+      failure_predicate: string
+      writes_state: [string]
+  learning_objectives:
+    - learning_id: string
+      concept_id: string
+      depth: recognize|interpret|apply|transfer
+      role: R|E|T|shared
+      evidence_predicate: string
+      mastery_weight: number
+  map:
+    dimensions:
+      width_tiles: integer
+      height_tiles: integer
+    zones:
+      - zone_id: string
+        name: string
+        initial_control: SECURE|CONTESTED|LOST|NEUTRAL
+        cover_profile: low|mixed|high
+        destructible_objects: [string]
+        hazards: [string]
+        connected_zones: [string]
+  clocks:
+    approach: integer
+    window: integer
+    extract_clean: integer
+    extract_hot: integer
+  global_state:
+    detection:
+      min: 0
+      max: 10
+      start: integer
+    heat:
+      start: integer
+    picture:
+      start: CLEAR|PARTIAL|UNCERTAIN|HOSTILE
+    service_health:
+      start: integer
+    evidence_integrity:
+      start: integer
+    civilian_safety:
+      start: integer
+    authorization:
+      state: explicit|emergency|ambiguous|mixed
+      constraints: [string]
+  squad:
+    - unit_id: string
+      role: R|E|T
+      start_zone: string
+      hp: integer
+      ap_per_phase: 2
+      movement: integer
+      aim: integer
+      will: integer
+      role_stat:
+        name: Picture|Hold|Tech
+        value: integer
+      loadout_tags: [string]
+  role_resources:
+    evidence_tokens:
+      - token_id: string
+        producer_role: R|E|T|shared
+        fact_established: string
+        expiry: mission|round|consumed
+        mechanical_effect: string
+    control_zones:
+      - zone_id: string
+        owner_role: E
+        state: SECURE|CONTESTED|LOST
+        protected_objects: [string]
+    technical_outputs:
+      - output_id: string
+        producer_role: T
+        state_variable: string
+        delta: string
+  lab_nodes:
+    - id: string
+      world_object: string
+      zone: string
+      owner_role: R|E|T|shared
+      concept_ids: [concept_id]
+      prerequisites: [string]
+      initial_state: UNKNOWN|OBSERVED|CHARACTERIZED|PLAN_SELECTED|WORK_IN_PROGRESS|VALIDATION_PENDING|COMMITTED|VERIFIED|SEALED|STABILIZED|DEGRADED|CONTAMINATED|INCONCLUSIVE|LOCKED_OUT|UNSAFE|RECOVERABLE|ABORTED
+      terminal_states: [string]
+      task_graph:
+        - step_id: string
+          atom: OBSERVE|COMPARE|CLASSIFY|TRACE|MAP|PRIORITIZE|AUTHORIZE|ISOLATE|ROUTE|MATCH|SEQUENCE|CONFIGURE|PRESERVE|RECOVER|VERIFY|DOCUMENT|WARN|HOLD|ESCORT|STABILIZE|ABORT
+          role: R|E|T|shared
+          ap_cost: 0|1|2
+          window_cost: integer
+          requires_control: SECURE|NOT_LOST|none
+          requires_picture: CLEAR|PARTIAL_OR_BETTER|none
+          requires_tokens: [string]
+          consumes_tokens: [string]
+          produces_tokens: [string]
+          anchors_operator: boolean
+          fragile: boolean
+          allowed_when_wounded: boolean
+          success_to: string
+          success_deltas: [string]
+          misapplication_to: string
+          misapplication_deltas: [string]
+          interrupt_to: string
+          interrupt_deltas: [string]
+          recovery_step_ids: [string]
+      mastery_events:
+        - event: concept.recognized|concept.misclassified|concept.corroborated|concept.applied|concept.applied_under_uncertainty|concept.validated|concept.failed_validation|concept.transferred|concept.overridden_by_tactical_need|concept.recovered_after_error|concept.explained_in_debrief
+          concept_id: string
+          predicate: string
+          score_delta: number
+  threats:
+    - threat_id: string
+      archetype: guard|interdictor|flanker|saboteur|retriever|spotter|controller|responder
+      start_zone: string
+      hp: integer
+      aim: integer
+      movement: integer
+      priorities: [string]
+      lab_interactions: [string]
+      detection_interactions: [string]
+  kinetic_technical_links:
+    - link_id: string
+      trigger: string
+      condition: string
+      effect: string
+      affects: lab|picture|control|service|evidence|clock|detection|route|authorization
+  technical_kinetic_links:
+    - link_id: string
+      trigger: string
+      condition: string
+      effect: string
+      affects: cover|LOS|door|camera|lighting|reinforcement|route|hazard|enemy_ai|extraction
+  interruption_rules:
+    - rule_id: string
+      class: soft|hard|catastrophic
+      trigger: string
+      mitigated_by: [string]
+      effect: string
+      recovery: string
+  grade_outputs:
+    operational:
+      take: string
+      team: string
+      exposure: string
+      speed: string
+      compliance: string
+    mastery:
+      recognition: string
+      application: string
+      transfer: string
+      explanation: string
+  debrief:
+    review_bindings:
+      - concept_id: string
+        cue_id: string
+        trigger_if: string
+        debrief_text_key: string
+  story_state_writes:
+    - key: string
+      predicate: string
+      value: string
+
+validation_rules:
+  - Every primary concept must appear in at least one learning objective.
+  - Every primary concept must bind to at least one LAB_NODE step or battlefield decision.
+  - Every standard role must have at least one meaningful mission contribution unless canon explicitly declares a nonstandard squad.
+  - At least one R-produced fact must change an E or T option in standard three-role missions.
+  - At least one E-produced Control state must change R or T viability in standard three-role missions.
+  - At least one T-produced technical output must alter battlefield state, mission outcome, or future mission state.
+  - At least one meaningful player-phase decision must put shooting or suppression in direct competition with lab progress for AP.
+  - At least one technical change must require explicit VERIFY before full scoring credit.
+  - At least one recoverable technical mistake path must exist.
+  - No lab answer may depend on an unexplained random success roll.
+  - Offensive-security concepts must remain fictional, defensive, architectural, recognition-based, or sandboxed.
