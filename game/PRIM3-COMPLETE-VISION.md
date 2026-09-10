@@ -1,256 +1,347 @@
 ---
-status: PROPOSED
-system: Full product vision — anime series + optional tactical play
-version: 1.0.0
+status: CANON
+system: Full product vision — ensemble series + optional tactical play
+version: 1.1.0
+branch: main
 ---
 
 # PRIM3 Complete Vision
 
-**Not “XCOM with a reskin.”**  
-An **anime-style institutional series** you can **watch in the browser**, with the **option to play** the operations that the episode is about.
+PRIM3 is not “XCOM with a reskin.” It is an adult ensemble techno-thriller / infotainment series that can be watched straight through, with the option to step into the same operations as a tactical game.
 
-XCOM’s tactical bones stay useful. Its worst habits do not.
+XCOM supplies useful tactical bones. PRIM3 adds persistent human relationships, real technical reasoning, graded outcomes, intervention escalation and a rotating ensemble whose members matter mechanically.
 
----
-
-# 1. Product identity
+## Product identity
 
 | Pillar | Meaning |
-|--------|--------|
-| **Anime series first** | Seasons, episodes, characters, cliffhangers, score, visual language |
-| **Watch mode** | Full episode experience with no mechanical skill required |
-| **Play mode** | Drop into the same operation as XCOM-style tactics (later: FPS / mobile) |
-| **Browser-native** | Watch and play without a launcher culture barrier |
-| **Graded truth** | Missions almost never binary-fail if you achieved something real |
-| **Institutional world** | McCluster / Prim3 canon — not alien invasion cosplay |
+|---|---|
+| Ensemble series first | Seven seasons, 21 episodes, rotating emotional/mission ownership |
+| WATCH | Authored canonical dramatic path |
+| PLAY | Tactical version of the same operation with persistent player consequences |
+| Browser-native target | Watch/play without a launcher barrier where practical |
+| Graded truth | Partial accomplishment counts; not every imperfection becomes MISSION FAILED |
+| Character preservation pressure | Named operators matter enough that rescue decisions hurt |
+| Intervention escalation | Squad -> Jordan Wildcard -> rare PRIM2 Apex; opposing side can answer with Royce |
+| Institutional world | McCluster / PRIM / Hitman / Mantle continuity rather than alien-war cosplay |
 
-**One line:** *A series about operators under institutional power — that you can either watch or step into.*
+One-line fantasy:
 
----
-
-# 2. Fixing XCOM’s wounds (explicit)
-
-## 2.1 Binary mission failure is banned
-
-**Problem you named:** You completed pieces of the job and still got **MISSION FAILED**.
-
-**Prim3 rule:** Outcomes are **graded reports**, not a red stamp.
-
-### Outcome ladder (always)
-| Grade | Name | When |
-|-------|------|------|
-| S | Clean authority | All primary objectives + low exposure + team whole |
-| A | Operational success | Primary objective done; minor costs |
-| B | Partial success | Secondary objectives / partial take / costly exit |
-| C | Pyrrhic | Objective touched but severe cost |
-| D | Compromise | Little value; high exposure or injury |
-| F | Disaster | No value **and** catastrophic loss (death of squad / public blowup) |
-
-**F is rare.** It is not the default for “timer hit zero while carrying half the data.”
-
-### Objective accounting
-Every mission lists objectives as **tokens**:
-- Primary (weighted)
-- Secondary
-- Optional / ghost
-- Compliance (did not exceed authorized risk)
-
-**Score = sum of secured tokens − penalties**, never a single bool.
-
-If the player seals **any** usable take and extracts **anyone**, the grade is **at least C or B**, not F.
-
-### After-action is a scene, not a fail screen
-Aftermath is an **anime debrief scene**:
-- Sponsor reaction
-- What data mattered
-- Who is hurt
-- What the institution will do next
-
-Even a C-grade episode continues the season. Story does not soft-lock because a Window clock expired.
+> **A world-sized ensemble thriller where you can watch the mission, play the mission, and decide how much power you are willing to call in when people you care about are about to lose it.**
 
 ---
 
-## 2.2 Other XCOM problems Prim3 rejects
+# 1. Canon structure
 
-| XCOM pain | Prim3 replacement |
-|-----------|-------------------|
-| Ironman save scum culture as the “real” way | **Season continuity** with honest grades; optional hardcore later |
-| Fail state erases emotional progress | **Grades feed story branches**, they don’t delete the season |
-| Soldiers as disposable loadouts | Operators are **characters** with episode arcs |
-| Geoscape busywork | **Operations board** tied to episode calendar |
-| Cutscenes as reward dumps | **Cutscenes are the product**; play is optional depth |
-| Same mission feel every time | Episode-authored missions + procedural only as filler |
-| Panic as cartoon | Will tests → **stagger / tunnel vision / hard choices**, not random run |
-| “You lost the campaign” walls | Authority pressure rises; **story changes**, campaign continues |
+PRIM3 has:
+- **7 seasons**;
+- **3 canonical episodes per season**;
+- **21 canonical episodes total**;
+- **1 song = 1 episode = 1 canonical mission**.
+
+This supersedes the obsolete 8–13-episode season concept.
+
+Optional side operations may exist in PLAY for roster development, Heat, Standing, Intel, recovery and replayability. They are not additional canonical television episodes and do not overwrite the fixed 21-episode spine.
+
+Jordan's seven academic years remain the chronological frame, but episode ownership rotates. Most Episodes 02–18 should primarily deepen somebody other than Jordan even when he appears.
+
+See `story/ENSEMBLE-POV-AUTHORITY.md`.
 
 ---
 
-# 3. Watch mode vs Play mode
+# 2. WATCH and PLAY
 
-## 3.1 Watch mode (default)
-- Full episode: cold open → operation → aftermath
-- Tactical layer is **simulated by the story team’s authored outcome** OR a lightweight auto-resolve using the same grade system
-- Viewer can open **dossier panels**, timeline, character themes
-- No fail; the episode has a canon grade for that watch-through
+## WATCH
 
-## 3.2 Play mode (optional)
-- Same episode mission, player takes control of the op
-- Player grade **can differ** from pure watch canon
-- Season state in *their* browser profile follows **their** grades
-- Unlocks alt cutscenes / alt debriefs (“what if the take was cleaner?”)
+WATCH gives the authored story outcome. It may shift cinematic POV between characters and may show events the tactical player would not literally control.
 
-## 3.3 Hybrid moment design
-Episodes are built as **beads**:
+## PLAY
+
+PLAY enters the **current PRIM mission-control perspective**. The player controls whoever is actually assigned to the mission.
+
+The player does **not** automatically become Jordan/PRIM3.
+
+Most ordinary missions should launch without Jordan.
+
+## Hybrid episode grammar
+
+```text
+HUMAN TRIGGER
+    -> MUSIC FILM / OPERATIONAL BRIEF
+    -> HUMAN ESCALATION / MISSION THRESHOLD
+    -> WATCH or PLAY MISSION
+    -> AFTERMATH / RELATIONSHIP WRITE
 ```
-[WATCH scene] → [PLAYABLE OP optional] → [WATCH debrief]
+
+The canonical dramatic law remains:
+
+> **The briefing teaches the model. The mission attacks the model.**
+
+---
+
+# 3. Graded outcomes instead of cheap failure
+
+A useful partial result counts.
+
+Suggested grade ladder:
+
+| Grade | Meaning |
+|---|---|
+| S | Exceptional execution; primary goals, low exposure, team preserved |
+| A | Strong operational success with limited cost |
+| B | Useful partial/qualified success |
+| C | Pyrrhic result; meaningful value at serious cost |
+| D | Compromise; little value and/or heavy consequence |
+| F | Disaster; catastrophic loss with little or no usable value |
+
+F should be possible but uncommon. A clock expiring while the team still has a useful sealed result should not automatically erase everything they achieved.
+
+Aftermath is a scene, not merely a score screen. It records:
+- what was accomplished;
+- who was hurt or killed;
+- who saved whom;
+- which relationships changed;
+- what authority thinks;
+- what the next episode inherits.
+
+---
+
+# 4. Ensemble roster is the game
+
+Named characters are not disposable skins over generic classes.
+
+The tactical roster should make players develop preferences and attachments to people such as Aya, Chioma, Arjun, Rafael, Sari, Oksana, Minh, Jonas, Valeria, Thandiwe and other recurring operators.
+
+Each character can carry:
+- role qualifications;
+- individual perks;
+- injuries/fatigue;
+- trust/rivalry state;
+- episode-specific dialogue;
+- personal fears and stress behavior;
+- persistent consequences.
+
+The intended strategic emotion is not only:
+
+> Which build is strongest?
+
+It is also:
+
+> **Can I risk this person?**
+
+---
+
+# 5. The rescue ladder
+
+`game/WILDCARD-INTERVENTION-AUTHORITY.md` governs the full system.
+
+## Stage 0 — assigned team
+
+Normal mission play belongs to the ensemble. Competent play must be capable of succeeding without Jordan.
+
+## Stage 1 — Jordan Vale / Wildcard
+
+Most missions do not deploy Jordan from launch.
+
+If an eligible mission reaches `CRITICAL`, the player may request the Wildcard through the executive chain.
+
+Canonical Standard pool:
+
+> **2 non-scripted Jordan call-ups per season.**
+
+Jordan does not teleport and does not auto-complete the technical objective. His job is to restore optionality when the intended plan has failed.
+
+His mechanical identity is:
+
+```text
+ANOTHER PATH
+ADAPTIVE ROLE
+RALLY THE ROOM
+FAILOVER INSTINCT
 ```
-Skip play → seamless watch.  
-Enter play → return to debrief with grade-colored dialogue.
+
+He can cross R/E/T lanes in bounded ways because his defining capability is systems inference and improvisation.
+
+Calling him can save a mission or a character, but the intervention remains recorded in aftermath and consumes scarce institutional help.
+
+## Stage 2 — PRIM2 / Apex
+
+On designated Critical/State/Strategic missions, if Jordan is already present and the mission still remains or re-enters `CRITICAL`, the player can become eligible to request the presiding Mantle holder.
+
+Canonical Standard pool:
+
+> **3 non-scripted PRIM2 Apex interventions across the entire seven-season campaign.**
+
+Before the story has openly named him, the UI may present this as `EXECUTIVE OVERRIDE` or `APEX SUPPORT`.
+
+PRIM2 is not Jordan-but-better.
+
+```text
+JORDAN -> finds another path
+PRIM2  -> sees/authorizes more of the board
+```
+
+He can enter with superior command, information access and broad multi-domain competence while still obeying the game's validation law.
+
+Using PRIM2 should feel enormous because the player only gets a few chances to do it.
 
 ---
 
-# 4. Browser-native architecture (product)
+# 6. The opposing board escalates too
 
-| Surface | Tech intent |
-|---------|-------------|
-| Episode player | Stream anime-style episodes (or motion-comic + VA if early) |
-| Dossier / world | Wiki-grade canon browser |
-| Tactical client | WebGL / WebGPU turn-based map |
-| Save state | Account profile: season grades, roster, heat |
-| Share | “My grade on Ep 05” cards |
+The player is not the only side with a hero button.
 
-Mobile: watch perfect; tactical simplified.  
-Desktop: full tactical.
+Royce can enter eligible missions as a persistent Hitman-side incursion threat, analogous in tension to an XCOM Chosen appearing and suddenly changing the entire tactical problem.
 
----
+Canonical Standard cap:
+- maximum **2 non-scripted Royce Incursions per season**;
+- maximum one per mission;
+- two-mission cooldown after a non-scripted appearance;
+- story missions can override this;
+- the final RAID is authored canon and ignores the random-incursion cap.
 
-# 5. Season / episode structure
+Royce's gameplay identity is asymmetric:
 
-## 5.1 Season
-- 8–13 episodes
-- Each episode = one major operation or institutional beat
-- Multi-episode arcs (sponsor war, mole, Prime succession)
+```text
+JORDAN -> optionality / improvisation
+PRIM2  -> information / sovereign authority
+ROYCE  -> violent disruption / pressure / hostile command
+```
 
-## 5.2 Episode template
-1. **Cold open** (2–4 min) — human cost or threat
-2. **Board / Brief** — Authority-03 sets risk; Lead chooses posture
-3. **Approach** — tension, Field-R eyes
-4. **On objective** — Field-T pressure (playable core)
-5. **Extract** — cost collection
-6. **Debrief** — grade-colored anime scene
-7. **Stinger** — season thread
+Royce should be able to break Control Zones, force route changes, pressure isolated operators, damage tempo and turn a clean operation into survival mode.
 
-## 5.3 Cutscenes that don’t suck
-Rules for Prim3 cinema:
-- Characters want conflicting things in the same room (Sponsor vs Lead vs Operator)
-- Information is the knife — reveals change who has power
-- Silence and procedure are allowed to be tense
-- No 8-minute exposition dumps; dossiers hold lore
-- Every debrief answers: *What did this cost, and who absorbs it?*
-- Alt grades swap **key lines and blocking**, not entire episode production when possible
+He does not suddenly become a Field-T genius because he is a boss character.
+
+The more attached players become to the ensemble, the scarier a Royce incursion becomes.
 
 ---
 
-# 6. Tactical layer (kept, improved)
+# 7. Why this is better than ordinary XCOM rescue logic
 
-Still XCOM-style AP/grid at core. Improvements:
+The intervention mechanic is not a revive token.
 
-### 6.1 Objective-first, not kill-first
-Winning by murder is rarely S-grade. Quiet sealed take beats loud perfection.
+Jordan and PRIM2 act on the battlefield **as it currently exists**.
 
-### 6.2 Graded extract always available
-Player may call extract early with partial take → **B/C**, not fail.
+They cannot:
+- resurrect a dead operator;
+- restore destroyed evidence beyond recovery;
+- rewind clocks;
+- reset Heat/Detection;
+- erase a story-locked consequence;
+- magically restore an S-grade after its conditions are permanently gone.
 
-### 6.3 Role triad clarity
-- **T** = take quality vs time
-- **E** = space and survival
-- **R** = information and warning
+They can:
+- stabilize people who are still alive;
+- create/reveal another viable route;
+- protect extraction;
+- salvage evidence/objectives;
+- restore recoverable state;
+- change present authorization where legitimate;
+- stop a disaster from becoming worse.
 
-### 6.4 Clocks as drama, not punishment
-When Window hits 0, mission becomes Extract with what you sealed — **not** instant fail.
+The ideal player moment is:
 
-### 6.5 Characters on the board
-Named operators with will, injury, and episode dialogue — not interchangeable rookies only (rookies exist, but story ops use named faces).
+> **Fuck the perfect grade. Call Jordan. Get them home.**
+
+And only a few times in the entire campaign:
+
+> **Jordan is already there. This is still collapsing. Call PRIM2.**
+
+Then sometimes Hitman answers with Royce and the mission becomes something entirely different.
 
 ---
 
-# 7. Strategy layer (operations board)
+# 8. Strategy board
 
-Between episodes / in play mode campaign:
+Campaign PLAY tracks:
 
 | System | Function |
-|--------|----------|
-| Roster | Named characters + injuries |
-| Heat | World attention |
+|---|---|
+| Roster | Named characters, qualifications, injury/fatigue |
+| Heat | World/institutional attention |
 | Standing | Authority trust |
-| Budget | Kits and recovery |
-| Episode calendar | Story missions land on dates |
-| Side ops | Optional playable fillers that adjust heat/standing |
+| Budget | Kits, recovery and ordinary logistics |
+| Intel | Mission modifiers and hostile warning quality |
+| Episode calendar | Canon story missions |
+| Side ops | Optional non-episode tactical work |
+| Wildcard Authorizations | Jordan rescue scarcity |
+| Apex Authorizations | PRIM2 campaign-wide scarcity |
+| Executive Attention / PRIM Debt | Consequence of repeatedly needing apex help |
+| Hitman Pressure | Hostile escalation state |
+| Royce Cooldown / Incursions | Persistent rival pressure |
 
-Side ops never gate the anime season permanently; they color **your** playthrough.
-
----
-
-# 8. Progression without grinding the soul away
-
-- Operators gain perks slowly
-- Story unlocks matter more than stat sticks
-- Gear unlocks are few and readable
-- New phenotypes appear through seasons (not 40 item tiers)
+Budget cannot simply buy Jordan or PRIM2.
 
 ---
 
-# 9. Multi-mode roadmap (same outcomes)
+# 9. Tactical role grammar
+
+The field triad remains the basic technical mission language:
+
+- **R — THE PICTURE**: reduce uncertainty;
+- **E — THE REALITY**: control physical opportunity and protect work;
+- **T — THE SYSTEM**: convert evidence/access into the technical objective.
+
+But an authored mission can include leads, defense personnel, trainees, specialists, Wildcards and other human roles.
+
+The UI must display the actual people on the board, not imply that R/E/T are the story's only meaningful characters.
+
+---
+
+# 10. Progression
+
+Operators gain qualifications and perks slowly.
+
+Ordinary progression may include:
+
+```text
+Cohort-02 Trainee
+ -> Cohort-01 Operator
+ -> Field qualifications / cross-training
+ -> Cohort-03 Lead or other authored specialist/authority paths
+```
+
+**PRIM succession is not an XP rank.**
+
+Remove/ignore any old progression suggesting that a sufficiently leveled generic character becomes `Prime-N1` or Prime.
+
+`PRIM0`, `PRIM1`, `PRIM2`, `PRIM3` are Mantle succession identities. Jordan becoming PRIM3 is a locked narrative endgame, not a skill-tree reward.
+
+---
+
+# 11. Multi-mode contract
 
 | Mode | Role |
-|------|------|
-| Watch | Primary audience |
-| TB tactical | Deep play (XCOM-like) |
-| Mobile tactical | Shorter TB |
-| FPS | Later “on the ground” client |
+|---|---|
+| WATCH | Complete authored episode experience |
+| Turn-based tactical | Deep strategy/XCOM-like PLAY |
+| Mobile tactical | Reduced-complexity client preserving outcomes |
+| FPS | Later on-the-ground client preserving state/consequences |
 
-All write the **same grade channels**: Take, Team, Exposure, Speed, Compliance.
-
----
-
-# 10. What “better than XCOM” means here
-
-| Dimension | Better how |
-|-----------|------------|
-| Emotional continuity | Grades + episodes, not fail-to-desktop |
-| Clarity of roles | T/E/R triad every mission |
-| Accessibility | Watch-first browser |
-| Story | Anime institutional thriller, not war of the week only |
-| Fairness | Partial work counts |
-| Style | McCluster / Prim3 visual system |
-| Optional depth | Play only if you want |
+All PLAY clients preserve the same outcome channels and escalation identities even if control schemes differ.
 
 ---
 
-# 11. Implementation priority (honest)
+# 12. Implementation priorities
 
-1. **Episode format + grade system + debrief variants**  
-2. **One playable TB mission that cannot binary-fail**  
-3. **Browser watch player + play button**  
-4. **Operations board light**  
-5. **Season one scripts**  
-6. Mobile TB  
-7. FPS client  
-
----
-
-# 12. Non-goals
-
-- Replacing XCOM feature-for-feature
-- Punishing players for incomplete perfection
-- Forcing play to see the story
-- Loot-driven live service as the core
-- Alien invasion mythology
+1. Ensemble episode format + graded debrief system.
+2. One playable mission with named R/E/T characters and no binary-fail cliff.
+3. `STABLE / DEGRADED / CRITICAL / TERMINAL` mission state.
+4. Jordan Wildcard request, delay, arrival and aftermath write.
+5. Royce Incursion implementation.
+6. PRIM2 Apex intervention and hidden/explicit executive UI states.
+7. Operations board with persistent roster/injuries.
+8. Browser WATCH/PLAY transition.
+9. Full Season One content.
+10. Mobile/FPS clients later.
 
 ---
 
-# 13. Success metric
+# 13. Success test
 
-A viewer finishes Episode 05 without playing and feels the season.  
-A player replays Episode 05’s op for an S-grade and unlocks a harder, colder debrief line from Authority-03.  
-Neither path is “the fake game.”
+PRIM3 succeeds mechanically when a player has a favorite character who is **not Jordan**, gets that character into a catastrophic mission, considers preserving their last intervention charge for later, and finally decides the person matters more than the resource.
+
+It succeeds narratively when Jordan arrives and feels exciting without making the episode suddenly become his story.
+
+It succeeds at its highest escalation when the player has already called Jordan, the board is still collapsing, `APEX SUPPORT AVAILABLE` appears for the first time, and they realize:
+
+> **There is somebody above the Wildcard.**
