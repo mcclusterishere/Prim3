@@ -1,5 +1,5 @@
 ---
-status: DRAFT CHAPTER BLUEPRINT
+status: CANON CHAPTER BLUEPRINT
 season: 2
 episode: 3
 global_episode: 6
@@ -7,131 +7,151 @@ level_id: LVL-06
 song: Got Wifi
 mission: Dead Air
 runtime_target: 9 minutes
+branch: main
 ---
 
-# S2E3 - GOT WIFI
+# S2E3 — GOT WIFI / DEAD AIR
 
-## Merge contract
+## Episode ownership
 
-This chapter preserves the locked Season 2 loss: the network returns, but the
-older cohort veteran does not. PLAY can affect response coverage, exposure,
-and other injuries; it cannot offer a fake branch that erases the canonical
-death.
+```text
+EPISODE OWNER: Yonas Bekele
+SECONDARY OWNERS: Rafael Costa / Chioma Okeke / older cohort veteran
+JORDAN NARRATIVE STATE: D — CAMEO / EDGE
+MISSION LEAD: Chioma
+BASE PLAYABLE ROSTER: Yonas / Rafael / Hassan / Sari
+PRIMARY PLAYABLE POV: communications + physical-response ensemble
+JORDAN PLAY STATE: OFF-BOARD WILDCARD
+WILDCARD ELIGIBLE: yes at CRITICAL
+APEX ELIGIBLE: possible only in non-canonical PLAY variants if mission classification/conditions satisfy the Apex law; WATCH does not use it
+PRIM2 STORY VISIBILITY: hidden priority/oversight decision
+ROYCE INCURSION ELIGIBLE: no canonical incursion
+```
 
-## Chapter promise
+The older veteran's canonical death remains locked; exact identity may be finalized in the relationship ledger without changing this episode's structure.
 
-During severe weather at a crowded facility, wireless service collapses when
-responders need it most. The team must restore a trustworthy communications
-path while the physical emergency turns a technical coverage problem into a
-human rescue problem.
+---
 
-## Song payload
+# Human problem
 
-- **Technical:** defensive wireless posture, rogue access detection, spectrum
-  interference, resilient networks, WPA3/AES concepts, and OSI Layers 1-2.
-- **Human:** confidence under pressure and the danger of believing strong
-  defenses make the people operating them invulnerable.
-- **Visual:** invisible coverage rendered as moving light, dead zones as silent
-  darkness, and weather deforming the signal map.
-- **Safety:** the player detects, segments, repositions, and restores approved
-  equipment; offensive wireless methods remain non-operable abstractions.
+Yonas is the person people trust when systems fail because he is calm enough to make restoration look inevitable.
 
-## Nine-minute episode
+During severe weather, that reputation becomes a trap.
 
-### 0:00-3:00 - Music film
+Wireless coverage appears healthy in parts of a crowded facility while responder applications and internal communications fail unpredictably. The team has overlapping problems across RF, wired backhaul, emergency power and physical access.
 
-The Blue Team boasts over a pristine spectrum map. Wind, rain, structural
-damage, and emergency radios gradually bend the clean visualization until the
-hook continues over pockets of total silence.
+An older veteran recognizes the physical danger earlier than the younger team.
 
-### 3:00-6:00 - Human story
+Yonas initially treats the problem as another service he can stabilize.
 
-The younger cohort treats its first real deployment like a graduation. An
-older veteran they admire quietly checks exits, power, and weather while they
-argue about technical prestige. Jordan realizes too late that the veteran's
-fear was experience, not pessimism.
+The episode forces him to learn:
 
-### 6:00-9:00 - Watch / Play mission
+> **Restoring a service is not the same as restoring the conditions that keep the people using it alive.**
 
-WATCH restores the responder channel just before the team learns the veteran
-died in the physical emergency. PLAY asks the player to map credible signal,
-prioritize responder traffic, isolate questionable equipment, move a relay,
-and keep teammates out of unsafe zones.
+---
 
-## Playable level contract
+# Technical thesis
 
-- **Player role:** Blue/Purple response pair coordinated by Chioma.
-- **Environment:** weather-damaged public facility, service corridors, rooftop
-  or protected relay point, responder staging area.
-- **Primary objective:** restore one authenticated, usable responder channel.
-- **Optional objectives:** maintain public check-in connectivity; preserve
-  telemetry; warn the field team before a structure/power hazard worsens.
-- **Complication:** interference, damage, and configuration errors overlap; no
-  single cause explains every dead zone.
-- **Exit state:** communications return; the veteran's empty chair turns the
-  technical victory into grief.
+The song turns RF into terrain.
 
-## Player verbs
+The player learns:
+- signal strength versus usable service;
+- authenticated/approved infrastructure versus merely strong signal;
+- interference;
+- access points;
+- wired backhaul dependencies;
+- emergency power;
+- Layers 1–2;
+- resilience and fallback;
+- validation after restoration.
 
-Scan, map, compare, prioritize, isolate, reposition, route, warn, restore.
+Core lesson:
 
-## Graded outcomes
+> **Bars are not a service guarantee.**
 
-| Channel | Strong result | Weak but continuing result |
-|---|---|---|
-| Objective | Responder channel restored and verified | Partial coverage restored with blind spots |
-| Team | Secondary injuries prevented | Other operators are hurt or exhausted |
-| Exposure | Public remains informed without panic | Conflicting messages create crowd pressure |
-| Integrity | Only approved equipment joins response | An unverified shortcut contaminates trust |
-| Time | Channel returns before rescue window closes | Delay narrows rescue options |
+---
 
-## Persistent state written by the level
+# WATCH structure
 
-The veteran's death is fixed. The result writes cohort grief, confidence in
-Chioma, Jordan's guilt, and whether the institution's sterile public statement
-feels merely cold or actively dishonest. Wireless coverage and responder-priority
-mechanics remain reusable.
+### Human trigger
+Severe weather damages the facility while occupants/responders still depend on communications.
 
-## Prime background trace
+### Music film / brief
+A clean wireless coverage map deforms under weather, power loss, interference and overlapping radio use. Bright signal zones increasingly fail to correspond to successful communications.
 
-- **Visible trace:** a supervisory display, separate from the cohort's view,
-  shows both the overloaded responder channel and the isolated veteran's radio;
-  a hand authorizes civilian-response priority.
-- **First-watch meaning:** an off-site incident commander made the painful
-  resource decision.
-- **Ghost payoff:** Prime saw the competing needs before the cohort and accepted
-  the cost; he did not cause the disaster or the veteran's death.
+### Human escalation
+Rafael identifies contradictory RF evidence.
+Hassan warns that a “good” technical position is becoming physically unsafe.
+Yonas keeps trying to restore the network fast enough to outrun the environment.
+The veteran redirects attention toward exits, power and people.
 
-## Technology accuracy gate
+### Mission threshold
+A responder transmission fails during a real physical rescue.
 
-- **Sensor / input:** spectrum/coverage telemetry, access-point status,
-  responder reports, power and weather state.
-- **Compute / reasoning:** distinguish signal presence from usable authenticated
-  service and correlate technical gaps with physical damage.
-- **Energy / infrastructure:** mains power, backup power, wired backhaul, relay
-  batteries, and responder radios.
-- **Access / authorization:** approved Blue Team tools and organization-owned
-  equipment only.
-- **Human decision owner:** incident commander; Chioma owns technical priorities.
-- **Failure mode:** a signal appears healthy while service is unusable, or the
-  team enters an unsafe area to chase a technical objective.
-- **Real concept taught:** radio conditions, network configuration, backhaul,
-  authentication, and physical infrastructure all affect wireless service.
-- **Fictional extrapolation:** coverage visualization is stylized but based on
-  real measurements.
+### WATCH mission
+Yonas/Rafael/Hassan/Sari restore one authenticated responder path while Chioma prioritizes the wider civilian response.
 
-## Production and game assets
+The responder service returns.
 
-- Weather-damaged facility level - `NEEDED`
-- Signal-coverage overlay and responder-priority UI - `NEEDED`
-- Portable relay/AP prop and power states - `NEEDED`
-- Cohort/veteran characters and rescue animation - `NEEDED`
-- Weather, radio, alarm, and silence-focused SFX - `NEEDED`
+The veteran does not.
 
-## Merge hooks
+The technical victory and human loss occur in the same episode because the system can be repaired faster than grief can be rationalized.
 
-- **Reads from:** formal roles and veteran attachment established in S2E2.
-- **Writes to:** S3 distrust of institutional records and blame.
-- **Reusable systems:** coverage map, priority traffic, physical/technical risk
-  tradeoff.
-- **Owner decisions:** veteran identity and the exact physical cause of death.
+---
+
+# PLAY contract
+
+Primary verbs:
+- scan;
+- map;
+- compare;
+- prioritize;
+- trace backhaul;
+- isolate questionable equipment;
+- reposition;
+- route;
+- warn;
+- restore;
+- verify;
+- extract.
+
+Jordan is not selectable at launch.
+
+If the mission enters CRITICAL, the player may spend a Wildcard Authorization to request him.
+
+A Jordan intervention can:
+- help open an alternate service/physical route;
+- stabilize or extract a still-living operator;
+- help protect a recovery window.
+
+It **cannot** reverse the story-locked veteran death once that death occurs.
+
+This makes the call meaningful rather than magical.
+
+---
+
+# PRIM2 trace
+
+PRIM2's hidden role is not that he causes the storm or kills the veteran.
+
+A senior priority layer sees competing communications needs and accepts the decision to protect the larger responder/civilian channel even while one operator remains isolated.
+
+Later, the cast learns somebody with wider authority understood the tradeoff earlier than they did.
+
+That creates a moral question about observation without requiring villain omnipotence.
+
+---
+
+# Persistent residue
+
+- Yonas loses some of his belief that calm restoration can make every crisis controllable.
+- Rafael becomes more aggressive about early warnings.
+- Chioma carries command responsibility for prioritization under scarcity.
+- the cohort's ordinary social life now contains an empty chair.
+- Jordan, whether cameo or Wildcard in PLAY, witnesses a team becoming family through loss rather than owning the loss himself.
+
+---
+
+# Governing line
+
+> **The network comes back. The person does not.**
