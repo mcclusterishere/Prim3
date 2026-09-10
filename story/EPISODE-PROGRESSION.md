@@ -1,7 +1,7 @@
 ---
 status: CANON
 system: Seven-season episode progression
-version: 2.1.0
+version: 2.2.0
 branch: main
 ---
 
@@ -15,15 +15,18 @@ PRIM3 follows **seven academic years**.
 - **3 episodes per season**
 - **21 episodes total**
 - **1 song = 1 episode = 1 mission**
-- Target runtime: **~9 minutes per episode**
-  - ~3 min music film
-  - ~3 min human/character story
-  - ~3 min mission/action
-- Mission segment can be **WATCHED** as authored action or **PLAYED** as the gamified version of the same story event.
+- WATCH target runtime remains approximately **9 minutes**, organized causally rather than as three disconnected equal blocks:
+  - human trigger / cold open establishes **why** the operation matters;
+  - music film becomes the stylized operational brief and teaches **what PRIM3 thinks should work**;
+  - human escalation reaches the mission threshold;
+  - WATCH shows the authored canonical action path.
+- PLAY expands the same event into full tactical decision space and is not constrained to the WATCH runtime; normal missions may run roughly 15–30 minutes and capstones may run longer/checkpointed.
+- Canonical dramatic rule: **the briefing teaches the model; the mission attacks the model.**
+- When PLAY begins, the viewer stops watching PRIM3 and becomes PRIM3 through the earned-omniscience R/E/T command interface.
 
 Jordan's recurring summer policy fellowships happen **between seasons** and are not added to the 21 PRIM3 episodes. They may later form a separate Equity Uprise series/experience.
 
-See `EPISODE-MISSION-BIBLE.md` for the full mission and story design.
+See `EPISODE-MISSION-BIBLE.md` for the canonical causal story/mission spine and `EPISODE-CAUSE-AND-ENTERTAINMENT-AUTHORITY.md` for authoring requirements.
 
 ## Seven-year order
 
@@ -63,6 +66,10 @@ See `EPISODE-MISSION-BIBLE.md` for the full mission and story design.
 
 ## Open Episode 18
 
-Do not invent Song #21. The owner will supply it later.
+Do not invent/finalize Song #21 without owner lock.
 
-Its required dramatic function is already known: it must bridge `Patch Work` and `RAID` by taking Jordan from **investigating Prime** to **choosing to reach Prime and trigger succession**. Its technical concept and mission should be designed from the actual song once supplied.
+Its **story function is already canon**: it bridges `Patch Work` and `RAID` by taking Jordan from investigating Prime to choosing to reach Prime and trigger succession.
+
+Its **curriculum function is already canon**: Security+ completion + Network+ infrastructure integration, based on the remaining objective-gap audit.
+
+`CHAIN OF TRUST` / `TRUST ANCHOR` remains the working song/mission concept, not a locked final title.
