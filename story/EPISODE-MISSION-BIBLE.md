@@ -1,37 +1,97 @@
 ---
-status: PROPOSED
-system: 21-episode triptych + mission bible
-version: 0.2.0
+status: CANON
+system: 21-episode causal story + mission bible
+version: 1.0.0
 branch: main
 ---
 
 # PRIM3 — Episode & Mission Bible
 
-## Local chapter files
+## Authority
 
-This bible owns the cross-season spine. Expandable local chapter files for all
-21 episode/playable-level slots are indexed in [`episodes/README.md`](../episodes/README.md).
-Add local scenes, mechanics, technical gates, assets and merge hooks to the
-episode file first; update this bible only when the shared season spine changes.
-
-## Locked production grammar
+This bible owns the cross-season dramatic spine for the 21-song PRIM3 series. Local chapter files under `episodes/` may expand scenes, dialogue, tactical geometry, technical gates, assets and optional consequences, but may not contradict this spine without a deliberate canon revision.
 
 PRIM3 is seven academic years, three episodes per year, twenty-one episodes total.
 
-Each episode is approximately **9 minutes** and uses the same three-part grammar:
-
-1. **MUSIC FILM — ~3:00**  
-   The song is presented as a cinematic music-video statement of the episode's technical vocabulary, emotional thesis, imagery and pressure.
-2. **HUMAN STORY — ~3:00**  
-   Character relationships, ordinary life, argument, romance, grief, money, school, work and institutional pressure explain why the coming operation matters.
-3. **MISSION — ~3:00**  
-   The same episode problem becomes an action sequence. The audience may **WATCH** the authored action or **PLAY** the gamified version.
-
 **One song = one episode = one mission.**
 
-Episode 18 / Season 6 Episode 3 is intentionally open until Song #21 is supplied. The other twenty owner tracks each have a mission below.
+Episode 18 / Season 6 Episode 3 remains deliberately open until Song #21 is supplied. Its story function is locked even while its final title/lyrics remain open.
 
-## Watch / Play continuity rule
+---
+
+# 1. Canonical episode grammar
+
+The authored WATCH episode remains approximately nine minutes, but the story is no longer treated as three disconnected equal blocks.
+
+## 0:00–0:45 — HUMAN TRIGGER / COLD OPEN
+
+Something changes in the world before the lesson begins.
+
+The audience must understand:
+- whose problem this is;
+- what is at risk;
+- why the problem matters now;
+- why PRIM3 is being brought in.
+
+The technical incident may be visible before its cause is understood.
+
+## ~0:45–3:45 — MUSIC FILM / OPERATIONAL BRIEF
+
+The music film teaches the episode's vocabulary, system model, doctrine, expected environment and emotional thesis.
+
+It represents **how PRIM3 currently believes the operation is supposed to work**.
+
+It is not a literal slide deck and it must not reveal the puzzle answer.
+
+> **The briefing teaches the model. The mission attacks the model.**
+
+## ~3:45–6:00 — HUMAN ESCALATION / MISSION THRESHOLD
+
+The characters argue, verify authority, make tradeoffs, expose relationship pressure and discover the final fact that makes deployment unavoidable.
+
+The episode must contain a recognizable **mission threshold**: the moment after which the team is committed.
+
+Examples: a responder channel dies; evidence begins disappearing; a door control fails; a deadline collapses; a second actor appears; somebody gives the order; somebody is trapped; a supposedly safe service begins affecting real people.
+
+## ~6:00–9:00 — WATCH MISSION
+
+The authored action sequence shows the canonical dramatic path through the same operation the player may play.
+
+## PLAY MISSION — expanded tactical runtime
+
+PLAY is not constrained to three minutes.
+
+Normal missions should generally support roughly **15–30 minutes** of tactical play. Capstones may be longer and checkpointed.
+
+PLAY gives the player command of the same event through the PRIM3 omniscient command interface, Field-R / Field-E / Field-T, the shared six-AP economy, LAB_NODE technical work, data-layer acquisition and kinetic pressure.
+
+When PLAY begins, the viewer stops watching PRIM3 and **becomes PRIM3**.
+
+---
+
+# 2. Mandatory causal fields
+
+Every local episode chapter must explicitly resolve:
+
+1. **Inciting event** — what changed?
+2. **Human owner** — whose life, trust, safety, reputation, responsibility or relationship is affected?
+3. **Why now** — why can this not wait?
+4. **Why PRIM3** — why is this team the one being sent?
+5. **Why R/E/T** — why do all three disciplines matter?
+6. **Expected plan** — what does the team believe will work?
+7. **Hidden complication** — what is unknown, stale, false, withheld or misunderstood?
+8. **Mission threshold** — what commits the team?
+9. **Plan failure** — where does reality attack the briefing model?
+10. **Operational consequence** — what changes if the team performs poorly, partially succeeds or excels?
+11. **Human residue** — what relationship, belief, secret or command state survives into later episodes?
+
+An episode whose mission exists only because “an IT problem happened” is incomplete.
+
+At least one meaningful complication per episode should normally trace to a human or institutional decision: hidden error, bad incentive, excess scope, convenience over verification, deferred maintenance, cost over resilience, secrecy, command conflict, withheld information or Prime manipulation.
+
+---
+
+# 3. Watch / Play continuity rule
 
 WATCH and PLAY are two interfaces to the same story event.
 
@@ -39,95 +99,111 @@ WATCH and PLAY are two interfaces to the same story event.
 - PLAY gives the player control of the same objective and situation.
 - Play results can change grade, injuries, resource loss, exposure, trust, debrief dialogue and optional details.
 - Hard season-spine events remain stable unless a later canon decision deliberately creates a branch.
-- Technical gameplay should remain realistic enough to teach systems thinking but should not become actionable real-world abuse instructions.
+- Technical gameplay should teach systems/security reasoning without becoming an actionable real-world abuse manual.
+- The player's information is **earned**, not magically omniscient. Data may be Hidden, Detected, Inferred, Corroborated, Verified, Stale, Contradicted, Compromised or Unknown.
 
 ## Mission grade channels
 
-Every playable operation scores the same five channels:
-
+Every playable operation scores:
 - **Objective** — what useful result was secured?
 - **Team** — who came home and in what condition?
 - **Exposure** — how visible or disruptive was the operation?
-- **Integrity** — did the team respect authorization, evidence and safety boundaries?
+- **Integrity** — were authorization, evidence and safety boundaries respected?
 - **Time** — how quickly did the situation stabilize?
 
-No false binary failure. Partial success creates story consequences instead of deleting the episode.
+Learning Mastery remains separate from operational grade.
+
+No false binary failure. Partial success creates causal world/story consequences.
 
 ---
 
 # SEASON 1 — RECOGNITION
 
-Jordan enters college at 33 believing legitimacy will finally stabilize his life. McCluster Corp becomes the first institution that treats his experience as valuable. Prime notices him before Jordan knows Prime exists.
+Jordan enters college at 33 believing formal legitimacy will finally stabilize his life. McCluster becomes the first institution that treats his experience as useful. Prime notices him before Jordan knows Prime exists.
 
-## S1E1 — HIGH ALERT
+## S1E1 — HIGH ALERT / MISSION 01 — THE BLIP
 
-### Music film
-In the middle of the future RAID, Presiding Prime / Prime-00 performs High
-Alert against Jordan and Benji's incoming assault elements. Seventeen bars
-trigger compressed memories from global Episodes 02-18. Cut before the RAID's
-survivor state, alliance or outcome is revealed.
+**Cold open / inciting event:** During a campus/corporate recruiting event, a low-level access anomaly, environmental alert and network irregularity appear almost simultaneously. Staff dismiss them as unrelated nuisance alerts because the event is crowded and the monitoring system is noisy.
 
-### Human story
-**SEVEN YEARS EARLIER.** Jordan arrives at college broke, older than his classmates and determined not to disappear again. A supposedly insignificant security anomaly places him on Presiding Prime's screen.
+**Human owner / why now:** Students and guests are physically inside the affected space. Jordan is not yet PRIM3; he is simply the person who notices that the official explanation does not fit all three observations.
 
-### Mission 01 — THE BLIP
+**Music film:** In the middle of the future RAID, Presiding Prime performs `High Alert`. Seventeen bars flash compressed memories from Episodes 02–18. On first viewing the song feels like swagger and threat doctrine; later it becomes a compressed operational history.
+
+**Expected plan:** Event security intends to clear the alerts independently and continue the program.
+
+**Hidden complication:** One alert is meaningful and the others create enough noise to hide it. Prime is already observing how candidates respond to uncertainty.
+
+**Mission threshold:** A supposedly cleared zone produces a second contradictory event while people are still inside it.
+
 **Mission fantasy:** Survive and correctly interpret an anomaly before anyone agrees it matters.
 
-A campus/corporate recruiting event experiences a sequence of low-level alerts that security initially dismisses as noise. Jordan notices that the alerts do not fit the official explanation. The player must get civilians clear of the affected area, preserve useful evidence, identify which alerts are meaningful and avoid escalating uncertain information into panic.
+The team/player must protect civilians, preserve useful evidence, separate correlated signals from coincidence and resist escalating weak evidence into panic.
 
-**Teaches:** alert triage, perimeter awareness, logs as incomplete evidence, false confidence, chain of custody, human judgment.
+**Why R/E/T:** R establishes which observations belong together; E protects people and controls the physical area; T preserves and interprets the technical state without destroying evidence.
 
-**Story advance:** Prime changes Jordan from background noise to a person worth watching.
+**Teaches:** alert triage, scope, evidence, logs as incomplete signals, uncertainty, documentation, human judgment.
 
-**WATCH action:** Jordan quietly notices the pattern, protects somebody else before himself and preserves the one detail that makes Prime ask for his intake.
+**Plan failure:** The dashboard's “cleared” state is less reliable than Jordan's cross-layer observation.
 
-**PLAY emphasis:** observation, prioritization, safe routing, evidence decisions.
+**Story advance / residue:** Prime changes Jordan from background noise to a person worth watching. Jordan learns that systems can be confidently wrong.
 
----
-
-## S1E2 — WHITE GREY BLACK HAT
-
-### Music film
-Authorization becomes visual language: white, grey and black spaces; boxes; boundaries; credentials; doors that open for one person and not another.
-
-### Human story
-Jordan begins at McCluster Corp. Aya Shinoda immediately recognizes that his practical experience is real, but she distrusts his habit of solving problems before checking whether he is allowed to touch them.
-
-### Mission 02 — PERMISSION SLIP
-**Mission fantasy:** The fastest technical solution is not automatically the legitimate solution.
-
-A staging environment begins affecting a production service during an onboarding exercise. Several interns know ways to interfere with the problem, but only some actions are authorized. Jordan and Aya must stabilize the service while identifying scope, ownership and permission boundaries.
-
-**Teaches:** white/grey/black-hat distinctions, authorization, rules of engagement, scope, least privilege.
-
-**Story advance:** Jordan earns technical respect while creating the first real friction with Aya: capability without authorization can still be dangerous.
-
-**WATCH action:** Jordan stops an overeager trainee from making the technically clever but unauthorized move, then finds a slower legitimate path.
-
-**PLAY emphasis:** permission checks, role assignment, choosing among legal/ethical response options.
+**WATCH action:** Jordan protects someone else before himself and preserves the contradiction that causes Prime to request his intake.
 
 ---
 
-## S1E3 — OSINT
+## S1E2 — WHITE GREY BLACK HAT / MISSION 02 — PERMISSION SLIP
 
-### Music film
-Public fragments assemble into a picture: maps, filings, photos, schedules, shipping records, open publications and ordinary details becoming intelligence.
+**Inciting event:** During Jordan's onboarding assessment, a sanctioned staging exercise unexpectedly begins affecting a production-adjacent service used by real personnel.
 
-### Human story
-Jordan receives an assignment that looks beneath his experience. He becomes irritated until he realizes the official summary does not match the underlying public record.
+**Human owner:** Aya is accountable for keeping the exercise inside scope. Jordan wants to prove he belongs and immediately sees a faster intervention.
 
-### Mission 03 — OPEN BOOK
+**Why now:** Continuing the exercise risks real service impact; ending it incorrectly destroys the evidence needed to determine how the boundary was crossed.
+
+**Music film:** White, grey and black spaces, boxes, credentials and doors make authorization visible. The song teaches that capability and permission are separate dimensions.
+
+**Expected plan:** Complete the assessment inside the written rules of engagement.
+
+**Hidden complication:** An earlier configuration shortcut blurred the staging/production boundary. The exercise did not create all of the risk it exposed.
+
+**Mission threshold:** Aya formally ends the exercise and converts it into a real incident without expanding anyone's authority beyond the written scope.
+
+**Mission fantasy:** The technically fastest solution may still be the wrong operation.
+
+**Why R/E/T:** R identifies which effects are actually connected; E enforces physical and personnel boundaries; T maps what is authorized before changing state.
+
+**Teaches:** white/grey/black-hat distinctions, assessment scope, authorization, rules of engagement, least privilege, documentation.
+
+**Plan failure:** The obvious shortcut would stabilize service faster but crosses authority and would contaminate later findings.
+
+**Story advance / residue:** Aya respects Jordan's ability but distrusts his instinct to solve before checking authority. Jordan learns that restraint is also technical competence.
+
+---
+
+## S1E3 — OSINT / MISSION 03 — OPEN BOOK
+
+**Inciting event:** A critical network/power equipment shipment intended for a facility opening disappears from the contractor chain hours before the site must accept occupants.
+
+**Human owner:** A junior coordinator is being blamed for losing equipment they never physically handled. Jordan recognizes that the paperwork narrative does not match the public/vendor trail.
+
+**Why now:** Without the equipment the opening slips, costs rise and the coordinator may be terminated before the chain is reconstructed.
+
+**Music film:** Public fragments—maps, filings, shipping data, photos, schedules and open publications—assemble into intelligence.
+
+**Expected plan:** Trace the shipment through the contractor's provided status report.
+
+**Hidden complication:** Multiple pages repeat the same original claim, creating false corroboration. A custody handoff used a different corporate/trade name.
+
+**Mission threshold:** The contractor gives a final deadline for declaring the shipment lost and charging the coordinator's department.
+
 **Mission fantasy:** Build the correct picture without touching a protected system.
 
-A critical equipment delivery for a McCluster facility has vanished into a contractor chain. The team must reconstruct the vendor, route, custody changes and likely location using lawful public and owner-provided sources only.
+**Why R/E/T:** R collects and scores public sources; E physically corroborates permitted locations/labels; T builds the confidence/evidence ledger and validates technical identifiers.
 
-**Teaches:** source evaluation, metadata, corroboration, public records, confidence levels, separating fact from inference.
+**Teaches:** OSINT, metadata, source evaluation, corroboration, confidence, fact vs inference, public/private boundaries.
 
-**Story advance:** Jordan proves he distrusts labels and reads underlying evidence. Prime formally directs recruitment to keep Jordan on the path.
+**Plan failure:** Volume of sources is not independence of sources.
 
-**WATCH action:** Jordan finds the one contradiction everyone else filtered out.
-
-**PLAY emphasis:** evidence-board assembly, corroboration, confidence scoring.
+**Story advance / residue:** Jordan proves he reads beneath institutional labels. Prime formally directs recruitment to keep him on the path.
 
 **Year-end:** Jordan leaves for his first summer policy fellowship.
 
@@ -135,74 +211,89 @@ A critical equipment delivery for a McCluster facility has vanished into a contr
 
 # SEASON 2 — BELONGING
 
-Jordan returns from summer thinking more about authority and institutional responsibility. The cohort becomes a real social unit before the work becomes lethal.
+Jordan returns thinking more about authority and institutional responsibility. The cohort becomes a real social unit before the work becomes lethal.
 
-## S2E1 — ANTI SOCIAL ENGINEERING
+## S2E1 — ANTI SOCIAL ENGINEERING / MISSION 04 — THE HUMAN LAYER
 
-### Music film
-Charm, urgency, fear, authority and familiarity become attack surfaces. Faces and conversation carry the same danger as code.
+**Inciting event:** At a crowded McCluster public event, a staff member grants a convincing “vendor” temporary access after being pressured by urgency and status cues.
 
-### Human story
-Jordan's policy instincts collide with Aya's operational pragmatism. He refuses to reduce every stranger to a threat model; Aya refuses to let politeness override verification.
+**Human owner:** The staff member knows they may have made a mistake and initially minimizes it out of embarrassment. Jordan refuses to treat them like the enemy; Aya refuses to let empathy replace verification.
 
-### Mission 04 — THE HUMAN LAYER
+**Why now:** The unknown person is still inside a live event with people, equipment and operational information moving constantly.
+
+**Music film:** Charm, urgency, fear, authority, familiarity and social proof become attack surfaces.
+
+**Expected plan:** Verify badges, escort vendors and quietly restore normal access controls.
+
+**Hidden complication:** The pretext uses partially legitimate information, so several details check out.
+
+**Mission threshold:** A second employee receives a matching request from a different channel, proving the first event was not accidental confusion.
+
 **Mission fantasy:** Protect people from manipulation without treating everybody like an enemy.
 
-Someone is exploiting staff confusion during a crowded McCluster public event to move through spaces and obtain information they should not have. The team must verify identities, protect staff, identify contradictory pretexts and maintain normal operations without creating a public panic.
+**Why R/E/T:** R compares stories and external facts; E controls movement and protects staff; T validates identity/authorization and preserves communication evidence.
 
-**Teaches:** social-engineering awareness, verification, pretext recognition, human-centered security, escalation discipline.
+**Teaches:** pretexting, phishing/vishing/smishing awareness, identity verification, tailgating, human-centered security, escalation discipline.
 
-**Story advance:** Jordan and Aya discover they disagree about method but trust each other's motives more than either admits.
+**Plan failure:** Correct-looking details are not proof of identity.
 
-**WATCH action:** Aya catches the technical inconsistency; Jordan catches the human one.
-
-**PLAY emphasis:** dialogue choices, identity verification, staff protection, consequence management.
+**Story advance / residue:** Jordan and Aya learn their methods are complementary. The embarrassed employee later trusts Jordan because he protected them while correcting the failure.
 
 ---
 
-## S2E2 — RED BLUE PURPLE WHITE TEAM
+## S2E2 — RED BLUE PURPLE WHITE TEAM / MISSION 05 — FOUR COLORS
 
-### Music film
-Team colors become personality: offense, defense, collaboration and adjudication.
+**Inciting event:** A controlled red-vs-blue exercise is running when an unrelated facility anomaly appears. Participants initially treat it as another exercise inject.
 
-### Human story
-The cohort finally gets formal roles. Chioma Okeke emerges as a real leader. Jordan learns that being older and experienced does not automatically make him the person in charge.
+**Human owner:** Chioma is the newly recognized leader. Ending the exercise early makes her look timid; continuing it may leave a real condition unhandled.
 
-### Mission 05 — FOUR COLORS
-**Mission fantasy:** Learn what your role contributes—and when the real world stops respecting the exercise boundary.
+**Why now:** The anomaly begins affecting a physical/environmental service used outside the exercise boundary.
 
-A controlled red-vs-blue exercise is interrupted by an unrelated real facility anomaly. The red team must stop behaving like attackers, blue must stop protecting the exercise at the expense of reality, purple must merge knowledge and white must decide when the exercise is officially over.
+**Music film:** Red, Blue, Purple and White become competing but interdependent ways of seeing the same system.
 
-**Teaches:** red/blue/purple/white team functions, coordination, deconfliction, rules, after-action learning.
+**Expected plan:** Red attacks the scenario, Blue defends, Purple shares learning, White adjudicates.
 
-**Story advance:** The cohort stops being a collection of resumes and becomes a team with jokes, rivalries, loyalties and resentment.
+**Hidden complication:** The real anomaly benefits from the team's exercise assumptions: logs, alerts and unusual behavior are already expected.
 
-**WATCH action:** Chioma ends the exercise early and forces everybody to solve the real problem together.
+**Mission threshold:** Chioma calls “real-world” and strips the scoring objective away.
 
-**PLAY emphasis:** role switching, information sharing, objective arbitration.
+**Mission fantasy:** Learn what your role contributes—and recognize when the world stops respecting the exercise boundary.
+
+**Why R/E/T:** R distinguishes exercise artifacts from live evidence; E separates exercise spaces/personnel from real hazards; T re-baselines systems and identifies the actual state.
+
+**Teaches:** red/blue/purple/white team functions, deconfliction, handoff, rules, after-action learning, operational re-baselining.
+
+**Plan failure:** The team that keeps trying to “win the exercise” becomes the least useful team in the real incident.
+
+**Story advance / residue:** Chioma earns leadership by sacrificing a visible win for a less glamorous correct decision. Jordan learns age/experience do not automatically confer command.
 
 ---
 
-## S2E3 — GOT WIFI
+## S2E3 — GOT WIFI / MISSION 06 — DEAD AIR
 
-### Music film
-Invisible radio space becomes physical terrain: signal, interference, dead zones, access points and the Blue Team trying to keep ordinary people connected.
+**Inciting event:** Severe weather hits a crowded facility. Wi-Fi appears strong in parts of the building while responder applications and internal communications fail unpredictably.
 
-### Human story
-An older cohort member the younger team has grown attached to joins them on their first operation that feels real. Jordan is excited; the veteran is not.
+**Human owner:** An older cohort veteran the younger team loves joins their first operation that feels real. Jordan is energized; the veteran recognizes the physical risk immediately.
 
-### Mission 06 — DEAD AIR
-**Mission fantasy:** Restore communications while the physical situation keeps getting worse.
+**Why now:** Responders and occupants are depending on communications while power, access and weather conditions deteriorate.
 
-At a crowded facility during a severe weather/emergency event, authorized wireless service becomes unreliable. The team must distinguish interference, misconfiguration and unauthorized equipment, restore safe communications and maintain a usable channel for responders.
+**Music film:** RF becomes terrain—signal, interference, access points, encryption, Layers 1–2, rogue infrastructure and the difference between bars and usable service.
 
-**Teaches:** wireless defense, layers 1–2, signal vs service, authorized access points, resilience, physical conditions affecting networks.
+**Expected plan:** Identify the bad AP/interference source, restore the approved wireless profile and hand the channel back.
 
-**Story advance:** The technical problem is solved, but the veteran operator dies during the physical emergency. The cohort returns to an empty chair and a company statement that sounds nothing like grief.
+**Hidden complication:** Wireless, wired backhaul and emergency power are failing in overlapping ways. One strong signal is coming from unauthorized infrastructure.
 
-**WATCH action:** The network comes back before the team does.
+**Mission threshold:** A responder transmission fails during a physical rescue and the team is ordered into the affected relay zone.
 
-**PLAY emphasis:** coverage, prioritization, responder communications, team safety.
+**Mission fantasy:** Restore authenticated communications while the physical environment keeps getting worse.
+
+**Why R/E/T:** R maps RF/source confidence; E secures relay/power access and protects movement; T traces L1/backhaul/authentication and restores verified service.
+
+**Teaches:** wireless defense, RF, APs, WPA3/encryption concepts, Layers 1–2, signal vs service, backhaul, resilience.
+
+**Plan failure:** Strong signal does not equal trusted or usable service.
+
+**Story advance / residue:** The technical problem is solved, but the veteran dies during the physical emergency. The cohort returns to an empty chair and an institutional statement that cannot hold their grief.
 
 **Year-end:** Jordan carries the loss into his second policy fellowship.
 
@@ -212,222 +303,267 @@ At a crowded facility during a severe weather/emergency event, authorized wirele
 
 Jordan returns understanding how institutions convert human loss into administrative language. The season attacks privacy, trust and blame inside the cohort.
 
-## S3E1 — DATA BREACH
+## S3E1 — DATA BREACH / MISSION 07 — EXPOSURE
 
-### Music film
-Files become wounds: indicators, alerts, exposure, categories of compromise and the panic of realizing somebody else may know what was private.
+**Inciting event:** Personal evaluation notes from McCluster's personnel/training environment begin appearing where people who should not have access can see them.
 
-### Human story
-Members of the cohort learn that McCluster stores far more about them than ordinary employment records would justify. Personal information and evaluation notes begin circulating.
+**Human owner:** The cohort members are not abstract data subjects; they are standing together while intimate records about them circulate.
 
-### Mission 07 — EXPOSURE
+**Why now:** Credible indicators show the exposure may still be active and containment choices can destroy evidence or further expose people.
+
+**Music film:** Indicators, credentials, storage, ransomware, MFA, vendor risk, abnormal transfer and evidence become images of injury and exposure.
+
+**Expected plan:** Contain affected services, establish scope, preserve state, notify appropriately and restore minimum trusted service.
+
+**Hidden complication:** Vendor dependencies and pre-recruitment dossiers widen the incident beyond the system everyone first blames.
+
+**Mission threshold:** Jordan discovers his own pre-recruitment file inside the incident scope.
+
 **Mission fantasy:** Contain the breach while the people inside the data are standing beside you.
 
-A McCluster personnel/training system shows credible indicators of compromise. The team must contain affected services, classify what may have been exposed, preserve evidence and protect the people whose information is involved.
+**Why R/E/T:** R builds the incident timeline; E protects evidence/people boundaries; T preserves, scopes, contains and validates recovery.
 
-**Teaches:** breach recognition, compromise indicators, incident containment, evidence preservation, impact classification, response priorities.
+**Teaches:** breach indicators, access logs, abnormal transfer, containment, MFA, third-party risk, evidence preservation, impact classification.
 
-**Story advance:** Jordan discovers that pieces of his history were collected before he remembers consenting to be evaluated at all.
+**Plan failure:** The first compromised-looking asset is not necessarily the root or full scope.
 
-**WATCH action:** Jordan finds his own pre-recruitment file inside the incident scope.
-
-**PLAY emphasis:** containment choices, evidence integrity, notification priorities, relationship fallout.
+**Story advance / residue:** Jordan learns McCluster collected pieces of his history before he remembers consenting to evaluation. Institutional trust becomes personal.
 
 ---
 
-## S3E2 — APP ATTACKS
+## S3E2 — APP ATTACKS / MISSION 08 — BAD INPUT
 
-### Music film
-Inputs, privileges, application boundaries and fragile assumptions become kinetic imagery.
+**Inciting event:** A dispatch/logistics service supporting people in the field begins producing unsafe/contradictory results during an active operation.
 
-### Human story
-Chioma gives a conservative order during a critical application incident. Jordan sees a faster path. Their argument is no longer theoretical because real people depend on the service.
+**Human owner:** Chioma owns command. Jordan sees a technically plausible shortcut that violates her conservative containment order.
 
-### Mission 08 — BAD INPUT
-**Mission fantasy:** Keep a critical application alive when hostile or malformed input is exploiting bad assumptions.
+**Why now:** Field teams are making movement decisions from the service's output.
 
-A dispatch/logistics application begins behaving unpredictably during an active operation. The team must isolate the affected component, protect privileged functions, move essential work to a safe path and preserve evidence for later review.
+**Music film:** Inputs, privileges, validation, application boundaries and trust become kinetic imagery.
 
-**Teaches:** application-layer risk, privilege boundaries, input validation as a concept, segmentation, safe-mode operations.
+**Expected plan:** Isolate affected functions, preserve privileged paths, move essential workflows to a controlled fallback and validate before restoring.
 
-**Story advance:** Jordan disobeys Chioma and succeeds. The success is the problem: the institution rewards the exact behavior Chioma fears will eventually get somebody killed.
+**Hidden complication:** The failing application path shares a trust boundary with a service the team cannot simply take offline.
 
-**WATCH action:** Jordan's workaround saves the operation and damages his relationship with Chioma.
+**Mission threshold:** A bad application result puts a field unit at immediate risk and Chioma orders the risky path frozen.
 
-**PLAY emphasis:** service isolation, privilege protection, mission continuity, command obedience vs justified deviation.
+**Mission fantasy:** Keep the operation alive when malformed/hostile input is exploiting bad assumptions.
+
+**Why R/E/T:** R correlates behavior across users/services; E maintains a physical continuity route for affected teams; T isolates trust boundaries and restores safe function.
+
+**Teaches:** privilege boundaries/RBAC, input validation/sanitization, XSS/injection recognition at defensive depth, segmentation, safe-mode operations.
+
+**Plan failure:** Jordan's faster workaround actually works—creating a command problem instead of resolving one.
+
+**Story advance / residue:** Jordan disobeys Chioma and saves people. The institution praises him, validating exactly the behavior Chioma fears will eventually kill someone. Their trust fractures.
 
 ---
 
-## S3E3 — VIRUS TYPES
+## S3E3 — VIRUS TYPES / MISSION 09 — PATIENT ZERO
 
-### Music film
-Different malware families behave like different illnesses while credentials, biometrics and identity controls become the immune system.
+**Inciting event:** A mixed fleet of lab laptops and field devices begins showing different malicious symptoms after one operator quietly bypasses a process to avoid admitting an earlier mistake.
 
-### Human story
-Everyone wants a person to blame for the season's growing security problems. Suspicion begins spreading faster than the actual malware.
+**Human owner:** The person who hid the mistake is not malicious; they are ashamed and afraid of becoming the season's scapegoat.
 
-### Mission 09 — PATIENT ZERO
+**Why now:** Propagation and credential risk are increasing while the team is wasting time searching for one “patient zero” explanation.
+
+**Music film:** Malware families behave like illnesses; MFA/biometrics/identity become the immune system.
+
+**Expected plan:** Classify symptoms, segment affected systems, protect identity, recover trusted access.
+
+**Hidden complication:** More than one symptom/cause exists. Suspicion spreads faster than the malware.
+
+**Mission threshold:** A trusted account begins behaving inconsistently and everybody turns on the wrong person.
+
 **Mission fantasy:** Stop propagation without turning uncertainty into a witch hunt.
 
-A mixed fleet of lab laptops and field devices shows several kinds of malicious behavior. The team must classify symptoms, isolate affected endpoints, protect identity systems and restore trusted access without assuming every strange device has the same cause.
+**Why R/E/T:** R builds propagation/behavior picture; E quarantines physical devices/work areas; T classifies technical symptoms and restores trusted identity/system state.
 
-**Teaches:** malware-family distinctions at a defensive level, authentication, credential risk, MFA/biometric concepts, segmentation, recovery.
+**Teaches:** defensive malware-family distinctions, worms/trojans/ransomware/spyware/fileless concepts, credentials, MFA, biometrics, segmentation, recovery.
 
-**Story advance:** A cohort member hides a mistake because they fear blame, making containment harder. Jordan learns that shame is itself an attack surface.
+**Plan failure:** “One weird behavior = one malware family = one guilty person” fails.
 
-**WATCH action:** The team stops the spread only after somebody admits what they concealed.
+**Story advance / residue:** Containment only succeeds after the hidden mistake is admitted. Jordan learns shame and blame are operational vulnerabilities.
 
-**PLAY emphasis:** classification, isolation, identity protection, trust decisions.
-
-**Year-end:** Jordan enters a third policy summer now obsessed with oversight and institutional accountability.
+**Year-end:** Jordan enters his third policy summer focused on oversight and accountability.
 
 ---
 
 # SEASON 4 — COMMITMENT
 
-Jordan has to decide whether becoming an operator means replacing his old self or integrating it. The digital world becomes physical, and Prime becomes a man instead of a rumor.
+Jordan must decide whether becoming an operator means replacing his old self or integrating it. The digital world becomes physical, and Prime becomes a person instead of a rumor.
 
-## S4E1 — INSTALLATION TYPES
+## S4E1 — INSTALLATION TYPES / MISSION 10 — CLEAN INSTALL
 
-### Music film
-Clean install vs in-place upgrade becomes identity imagery: erase, preserve, migrate, rebuild.
+**Inciting event:** A remote emergency-support site must migrate before an old environment is powered down. A deadline imposed to save cost leaves less overlap than the technical team recommended.
 
-### Human story
-Jordan and Aya can no longer hide behind technical chemistry. Their relationship becomes explicit at the same moment both are being asked to commit more deeply to the institution.
+**Human owner:** Jordan and Aya are becoming a real couple while both are being asked to commit more deeply to McCluster. A local operator is terrified that the migration will erase years of irreplaceable field configuration/data.
 
-### Mission 10 — CLEAN INSTALL
+**Why now:** The old environment will not remain safely available after the transition window.
+
+**Music film:** Clean install, in-place upgrade, migration, backup and rollback become metaphors for identity, history and commitment.
+
+**Expected plan:** Preserve, migrate, validate, then decommission.
+
+**Hidden complication:** Some legacy state is valuable; some is the source of brittleness. Preserving everything would preserve the problem.
+
+**Mission threshold:** The legacy environment begins degrading before the planned cutover.
+
 **Mission fantasy:** Rebuild a critical environment without destroying what is worth keeping.
 
-A remote site requires an urgent workstation and service migration. Some systems can be upgraded in place; others are too compromised or brittle and must be rebuilt clean. The team must decide what to preserve, what to migrate and what to abandon.
+**Why R/E/T:** R inventories dependencies/users; E maintains physical access/power/device continuity; T chooses clean vs in-place paths, preserves state, migrates and validates.
 
-**Teaches:** clean install, in-place upgrade, migration, backups, validation, rollback thinking.
+**Teaches:** clean/custom install, in-place upgrade, migration, backup, compatibility, validation, rollback.
 
-**Story advance:** Jordan and Aya choose each other while realizing neither gets a clean installation of the other's past.
+**Plan failure:** “Preserve everything” and “wipe everything” are both simplistic answers.
 
-**WATCH action:** The site comes back online with fewer old assumptions than it started with.
-
-**PLAY emphasis:** preservation choices, migration sequencing, validation, downtime tradeoffs.
+**Story advance / residue:** Jordan and Aya choose each other while acknowledging neither gets a clean installation of the other's past.
 
 ---
 
-## S4E2 — DIVE IN
+## S4E2 — DIVE IN / MISSION 11 — DUMPSTER SIGNAL
 
-### Music film
-Information leaks into the physical world: discarded equipment, labels, RF energy, forgotten media and things people throw away because they no longer see them as data.
+**Inciting event:** McCluster is ordered to certify an abandoned/decommissioned facility safe for transfer. Jordan notices asset labels and residual RF activity that do not match the site's official history.
 
-### Human story
-Jordan begins investigating discrepancies between McCluster's public business and the infrastructure he keeps encountering.
+**Human owner:** A facilities worker insists the space has been “dead for years” and fears being blamed for whatever Jordan finds. Jordan has begun privately questioning McCluster's public story.
 
-### Mission 11 — DUMPSTER SIGNAL
-**Mission fantasy:** Read the physical evidence without needing to break into a live system.
+**Why now:** The site changes hands today; once transfer completes, custody of evidence and access vanish.
 
-The team is sent to assess an abandoned or decommissioned facility before transfer. Asset tags, discarded components, RF remnants and physical topology imply the site once served a purpose that is absent from its paperwork.
+**Music film:** Discarded hardware, labels, forgotten media, RF energy and physical topology show that information leaks into the material world.
 
-**Teaches:** physical information exposure, asset handling, RF awareness, media disposal, physical topology, evidence discipline.
+**Expected plan:** Inventory, sanitize, document and release the property.
 
-**Story advance:** Jordan finds evidence of a deeper operational architecture beneath the company he thought he joined.
+**Hidden complication:** Something at the site is still powered/communicating, and a separate retrieval crew is moving to collect an object omitted from the transfer manifest.
 
-**WATCH action:** An object everybody else calls trash links McCluster to a facility nobody can explain.
+**Mission threshold:** R detects the incoming crew while T confirms the residual signal belongs to infrastructure absent from the paperwork.
 
-**PLAY emphasis:** inspection, evidence linking, safe collection, physical navigation.
+**Mission fantasy:** Read physical evidence without breaking into a protected live system—and preserve it before somebody removes it.
+
+**Why R/E/T:** R maps signals/incoming movement; E secures physical evidence and routes; T identifies media/topology and validates what remains active.
+
+**Teaches:** physical information exposure, media disposal, RF awareness, asset handling, physical topology, evidence discipline.
+
+**Plan failure:** “Decommissioned” is an administrative label, not a verified system state.
+
+**Story advance / residue:** A discarded object links McCluster to an unexplained deeper architecture. Jordan's investigation stops being curiosity.
 
 ---
 
-## S4E3 — IOT
+## S4E3 — IOT / MISSION 12 — HOUSE OF EYES
 
-### Music film
-Every sensor becomes an eye, every actuator a hand and every smart device another piece of the building's nervous system.
+**Inciting event:** A smart facility begins producing contradictory sensor and actuator states during occupancy: doors lock unexpectedly, HVAC responses do not match readings and cameras disagree with physical observation.
 
-### Human story
-Jordan's investigation reaches the building itself. Jonas Weber introduces him to Pylon. Emre Yıldız keeps reminding everyone that software errors eventually become heat, doors, air and bodies.
+**Human owner:** Occupants are physically inside the building. Jonas introduces Jordan to Pylon; Emre keeps emphasizing that software eventually becomes heat, air, doors and bodies.
 
-### Mission 12 — HOUSE OF EYES
+**Why now:** Automation can no longer be assumed safe, but blindly shutting it down may disable life-safety functions.
+
+**Music film:** Sensors become eyes, actuators become hands and every smart device becomes part of the building's nervous system.
+
+**Expected plan:** Establish trusted telemetry, isolate unreliable automation and move critical functions to safe/manual control.
+
+**Hidden complication:** Some telemetry is stale rather than malicious. One “safe” automated response would physically trap people.
+
+**Mission threshold:** A contradictory door/HVAC event places occupants on the wrong side of a supposed fail-safe state.
+
 **Mission fantasy:** Save occupants when a connected building stops behaving like a passive environment.
 
-A smart facility begins producing contradictory sensor and control states. Doors, HVAC, cameras and environmental systems can no longer all be trusted at once. The team must establish a safe physical state, isolate unreliable automation and determine which telemetry is still credible.
+**Why R/E/T:** R judges sensor confidence; E establishes physical fail-safe state/manual routes; T segments systems and validates control-plane/actuator behavior.
 
-**Teaches:** IoT attack surface, sensors vs actuators, network segmentation, fail-safe states, human override, cyber-physical consequences.
+**Teaches:** IoT attack surface, sensors vs actuators, segmentation, fail-safe, human override, cyber-physical consequences.
 
-**Story advance:** Jordan encounters Presiding Prime directly for the first time. Prime already knows far more about Jordan than Jordan knows about him.
+**Plan failure:** The control dashboard's reported state cannot be treated as reality without physical corroboration.
 
-**WATCH action:** Prime appears only after Jordan thinks the crisis is over.
+**Story advance / residue:** Prime appears after Jordan thinks the crisis is over—and already knows far more about Jordan than Jordan knows about him.
 
-**PLAY emphasis:** evacuation, sensor confidence, manual override, system isolation.
-
-**Year-end:** Jordan's fourth policy summer begins with him knowing institutional power can literally control physical environments.
+**Year-end:** Jordan enters his fourth policy summer knowing institutional software can control physical environments.
 
 ---
 
 # SEASON 5 — SCALE
 
-Jordan learns that complex systems dissolve ownership and responsibility. Prim3 stops looking like a strange corporation and starts looking like part of a global machine.
+Jordan learns that complex systems dissolve ownership and responsibility. PRIM3 stops looking like a strange corporation and starts looking like part of a global machine.
 
-## S5E1 — IAAS, SAAS, PAAS
+## S5E1 — IAAS, SAAS, PAAS / MISSION 13 — SHARED RESPONSIBILITY
 
-### Music film
-Service layers stack on top of one another until nobody can see the full machine from a single floor.
+**Inciting event:** A multi-provider service used to coordinate an active humanitarian/logistics operation begins failing across infrastructure, platform and application boundaries.
 
-### Human story
-Jordan is now experienced enough to attend architecture discussions where every team can plausibly say, “That isn't our layer.” He becomes frustrated with responsibility disappearing between vendors and departments.
+**Human owner:** Field coordinators are waiting on a service every vendor claims is “healthy from our side.” Jordan watches responsibility disappear between technically true status pages.
 
-### Mission 13 — SHARED RESPONSIBILITY
-**Mission fantasy:** Restore a service by correctly identifying who controls each layer.
+**Why now:** Every escalation loop consumes the same operational clock people in the field are depending on.
 
-A multi-layer service supporting an operation fails across provider boundaries. The team must map infrastructure, platform and application responsibility, restore the minimum viable service and avoid wasting time fixing layers they do not own.
+**Music film:** Service layers stack until nobody standing on one layer can see the whole machine.
 
-**Teaches:** IaaS/PaaS/SaaS, shared-responsibility models, dependency mapping, service ownership, escalation paths.
+**Expected plan:** Identify the failing layer, escalate to the owner and restore minimum viable service.
 
-**Story advance:** Jordan realizes organizational complexity can hide negligence as effectively as secrecy can.
+**Hidden complication:** There are two interacting failures owned by different parties; each provider's local health metric is technically correct.
 
-**WATCH action:** The technical fix is simple once somebody accepts responsibility for the correct layer.
+**Mission threshold:** A field operation loses its safe coordination window while the providers continue finger-pointing.
 
-**PLAY emphasis:** dependency maps, escalation, ownership decisions, service restoration.
+**Mission fantasy:** Restore service by understanding who controls each layer—and what nobody owns end to end.
 
----
+**Why R/E/T:** R correlates external/user symptoms; E protects physical continuity/fallback workflows; T maps IaaS/PaaS/SaaS dependencies and responsibility boundaries.
 
-## S5E2 — CAP EX VS OP EX
+**Teaches:** service models, shared responsibility, dependency mapping, ownership, escalation, availability.
 
-### Music film
-Ownership and rental become visual opposites: buy the machine, rent the capability, control the asset, inherit the burden.
+**Plan failure:** “Whose fault?” is slower and less useful than “which dependency is failing?”
 
-### Human story
-Jordan and Aya are serious enough that the episode's economic question becomes personal: what does it mean to own a future versus temporarily sharing one?
-
-### Mission 14 — OWN THE EXIT
-**Mission fantasy:** Choose between owned capacity and rented capability during a crisis where cost is not the only variable.
-
-A time-sensitive operation requires compute, transport and recovery capacity beyond the team's normal footprint. The player must compose a plan from owned assets and outside services while balancing control, speed, cost, lock-in and continuity.
-
-**Teaches:** CapEx vs OpEx, total cost, control, flexibility, vendor dependence, capacity planning.
-
-**Story advance:** Jordan gets close enough to executive decision-making to see that mission ethics can be reshaped by budgets before a field team ever receives an order.
-
-**WATCH action:** Aya chooses the expensive owned fallback because she refuses to place one critical dependency outside their control.
-
-**PLAY emphasis:** resource composition, budget, dependency risk, contingency planning.
+**Story advance / residue:** Jordan realizes complexity can hide negligence as effectively as secrecy.
 
 ---
 
-## S5E3 — TRAPPIN FROM THE CLOUD
+## S5E2 — CAP EX VS OP EX / MISSION 14 — OWN THE EXIT
 
-### Music film
-Workloads, identities and data move across a global cloud while scale becomes power and distance disappears.
+**Inciting event:** A time-sensitive recovery operation needs additional compute, transport and communications capacity. Leadership previously rejected an owned redundancy purchase as unnecessary CapEx, so the team is now dependent on rented capacity that can be withdrawn or repriced.
 
-### Human story
-Jordan believes he finally understands the size of Prim3. Then telemetry from an operation implies another team is acting inside the same event with a different objective.
+**Human owner:** Aya helped argue for the more expensive fallback months earlier and lost. Jordan is now close enough to executive decision-making to see how a spreadsheet decision becomes a field constraint.
 
-### Mission 15 — ELASTIC
-**Mission fantasy:** Scale fast enough to support a global operation while discovering somebody else is moving through the same storm.
+**Why now:** A contracted capability is no longer guaranteed at the exact moment the operation needs to extract people/data and preserve service.
 
-A sudden international event drives demand far beyond planned capacity. The team must expand services, preserve continuity, keep sensitive workloads separated and identify unexplained traffic/operational effects that do not belong to any known Prim3 unit.
+**Music film:** Ownership, rental, control, flexibility and burden become visual opposites.
 
-**Teaches:** elasticity, cloud scaling, distributed systems, workload separation, monitoring, resilience.
+**Expected plan:** Burst into rented capacity, complete the recovery, release it.
 
-**Story advance:** Jordan gets his first indirect glimpse of the Hitman side. Benji may appear in the action without either man knowing the other's significance.
+**Hidden complication:** The outside provider cannot guarantee one mission-critical dependency through the full extraction window.
 
-**WATCH action:** Prim3 succeeds, but Jordan freezes on a frame showing another team leaving with something Prim3 never knew was an objective.
+**Mission threshold:** The vendor changes the availability/SLA assumption after deployment has begun.
 
-**PLAY emphasis:** scaling decisions, service health, workload isolation, anomaly correlation.
+**Mission fantasy:** Build an exit from owned and rented capacity when cost is no longer the only variable.
+
+**Why R/E/T:** R forecasts capacity/dependency risk; E controls scarce physical transport/equipment; T allocates compute/network/storage capacity and validates failover.
+
+**Teaches:** CapEx, OpEx, fixed/variable cost, ownership/control, vendor dependence, capacity planning, contingency.
+
+**Plan failure:** The cheapest scalable resource is not necessarily the resource you can command when conditions become hostile.
+
+**Story advance / residue:** Jordan sees that mission ethics and resilience can be constrained years earlier by budgeting decisions. Aya's rejected concern is vindicated without making every owned asset automatically superior.
+
+---
+
+## S5E3 — TRAPPIN FROM THE CLOUD / MISSION 15 — ELASTIC
+
+**Inciting event:** A sudden international event drives demand far beyond planned capacity while sensitive and public workloads compete for the same expanding footprint.
+
+**Human owner:** Jordan believes he finally understands the scale of PRIM3. People across regions depend on the service remaining available.
+
+**Why now:** Demand is climbing faster than normal change windows and unexplained traffic/activity appears inside the same event.
+
+**Music film:** Workloads, identities and data move across cloud regions while elasticity, allocation, availability and distance collapse into one system.
+
+**Expected plan:** Scale horizontally, preserve separation, monitor health and fail over where needed.
+
+**Hidden complication:** Another operational team is exploiting the same global event for a different objective. Their actions are not normal demand and not a known PRIM3 unit.
+
+**Mission threshold:** R/T isolate a pattern that cannot be explained by customer traffic and a visual feed catches the unknown team.
+
+**Mission fantasy:** Scale fast enough to support a global operation while discovering somebody else moving through the same storm.
+
+**Why R/E/T:** R separates demand from anomalous actor behavior; E protects regional/physical access and extraction dependencies; T manages scaling, segmentation, allocation and service health.
+
+**Teaches:** cloud, elasticity, scalability, distributed systems, workload separation, monitoring, resilience, DR.
+
+**Plan failure:** Autoscaling preserves capacity but cannot explain intent.
+
+**Story advance / residue:** Jordan gets his first indirect glimpse of the Hitman side. Benji may appear without either understanding the other's significance.
 
 **Year-end:** Jordan spends Summer 5 discussing public power while secretly knowing his employer operates at a scale public institutions cannot see.
 
@@ -437,150 +573,170 @@ A sudden international event drives demand far beyond planned capacity. The team
 
 Jordan becomes the veteran younger operators imitate. He learns how much of his path was architected and must decide whether Prime himself has become the problem.
 
-## S6E1 — PER DIEM
+## S6E1 — PER DIEM / MISSION 16 — ROAD KIT
 
-### Music film
-Airports, cases, server racks, cheap meals, hotel lights, expense rules and the glamorous-looking grind of deployment.
+**Inciting event:** A remote community/operations site loses critical communications and compute after a regional disruption. A small PRIM3 team is the first technical capability that can physically reach it.
 
-### Human story
-Younger trainees see Jordan as the person who made it. Jordan sees missed birthdays, injuries, debt, fatigue and people who never came back.
+**Human owner:** Younger trainees see deployment as glamorous. Jordan sees fatigue, missed lives and the veteran who never returned in Season 2. The remote site has named people depending on the recovery system, not an abstract uptime target.
 
-### Mission 16 — ROAD KIT
-**Mission fantasy:** Build critical capability from what fits in the cases you carried in.
+**Why now:** Medical/logistics/coordination functions have a shrinking manual fallback window.
 
-A remote emergency/recovery site needs communications and compute immediately. The team has limited personnel, equipment, power, transport and rest. The player must stand up the minimum viable environment while protecting exhausted people from becoming another system failure.
+**Music film:** Airports, cases, racks, cheap meals, expense rules and deployment grind turn hardware into logistics and human endurance into a resource.
 
-**Teaches:** field deployment, hardware prioritization, logistics, redundancy, power, recovery, human factors.
+**Expected plan:** Build the minimum viable environment from carried kit, then hand off to follow-on support.
 
-**Story advance:** Jordan realizes he has become an institution to the younger cohort. He is now capable of reproducing the same pressure that shaped him.
+**Hidden complication:** The planned generator/runtime and staffing assumptions are wrong. Running every available device will exhaust power and people before handoff arrives.
 
-**WATCH action:** Jordan sends a younger operator to sleep and takes the ugly shift himself.
+**Mission threshold:** The site requests one more “critical” workload than the kit can safely support.
 
-**PLAY emphasis:** equipment loadout, staffing, fatigue, redundancy, triage.
+**Mission fantasy:** Build capability from what fits in the cases you carried—and decide what not to power.
 
----
+**Why R/E/T:** R prioritizes external needs/connectivity; E manages equipment, physical setup, power and human safety; T assembles compute/storage/network service and validates redundancy.
 
-## S6E2 — PATCH WORK
+**Teaches:** hardware selection, field deployment, power, redundancy, logistics, prioritization, recovery, human factors.
 
-### Music film
-Patches become emotional language: repair, validation, rollback, trust, scars and whether repaired means restored.
+**Plan failure:** Maximum utilization is not resilience.
 
-### Human story
-Jordan discovers enough evidence to know Prime deliberately shaped parts of his recruitment and development. At the same time, Jordan and Aya fracture after one of them makes an operational decision involving the other's life without consent.
-
-### Mission 17 — TRUST BOUNDARY
-**Mission fantasy:** Repair a live system without pretending the flaw never existed.
-
-A critical control/service environment requires an urgent patch while operations continue. The team must verify the update, stage deployment, watch for regressions and preserve a rollback path rather than trusting the patch because authority says it is safe.
-
-**Teaches:** patch management, validation, staged rollout, rollback, trust chains, change control.
-
-**Story advance:** Jordan applies the same logic to Prime: trust cannot be restored by an explanation alone. He begins building the case that the architecture itself must change.
-
-**WATCH action:** The patch works. Jordan and Aya do not magically become fine.
-
-**PLAY emphasis:** staged rollout, verification, service continuity, trust/command choices.
+**Story advance / residue:** Jordan sends a younger operator to sleep and takes the ugly shift himself, realizing he is now capable of reproducing the same institutional pressure that shaped him.
 
 ---
 
-## S6E3 — SONG #21 / MISSION #18 — OPEN
+## S6E2 — PATCH WORK / MISSION 17 — TRUST BOUNDARY
 
-This is the only deliberately unfilled episode.
+**Inciting event:** A critical live control/service environment requires an urgent patch after a vulnerability becomes operationally relevant. Leadership wants immediate deployment because delay is visible; rollback risk is less visible.
 
-**Required story job:** Jordan crosses the threshold from investigating Prime to deciding Prime must be reached. The succession architecture becomes known. Allies choose whether they believe Prime is a necessary evil, a failed system, or an authority that must be replaced.
+**Human owner:** At the same time, Jordan discovers evidence that Prime deliberately shaped parts of his recruitment/development. Jordan and Aya fracture after an operational decision involving the other's life was made without consent.
 
-When Song #21 arrives, its technical concept should define Mission 18 rather than forcing an unrelated mission into the slot.
+**Why now:** The system cannot stay indefinitely exposed, but a bad change could break a service currently supporting people.
 
-**Year-end:** Jordan enters the final summer fellowship knowing that next academic year may end with him attacking the system that educated him.
+**Music film:** Patches become emotional language: repair, scars, validation, rollback and whether “fixed” means “trusted.”
+
+**Expected plan:** Stage, patch, test, deploy, monitor and retain rollback.
+
+**Hidden complication:** A dependent component behaves differently under the new version and Prime's authority chain is pressuring the team to skip validation.
+
+**Mission threshold:** The risk clock and change clock collide; Jordan must either accept authority's assurance or insist on evidence.
+
+**Mission fantasy:** Repair a live system without pretending the flaw—or the broken trust—never existed.
+
+**Why R/E/T:** R watches regression/telemetry; E protects continuity/manual fallback; T stages, patches, verifies and rolls back if needed.
+
+**Teaches:** patching, code signing/integrity concepts, staged rollout, regression, validation, rollback, change control, trust boundaries.
+
+**Plan failure:** The patch can be technically successful while the surrounding trust relationship remains broken.
+
+**Story advance / residue:** Jordan applies the same logic to Prime: trust cannot be restored by explanation or authority alone. The architecture itself may need to change.
+
+---
+
+## S6E3 — SONG #21 / MISSION 18 — OPEN
+
+This remains the only deliberately unfilled song/mission title slot.
+
+**Locked story job:** Jordan crosses from investigating Prime to deciding Prime must be reached and succession must be triggered. Allies split over whether Prime is a necessary evil, a failed system or an authority that must be replaced.
+
+**Locked curriculum job:** This episode is the Security+ completion / Network+ infrastructure-integration capstone. The final lyric concept set should be chosen after objective-gap review.
+
+**Working thematic direction, not locked title:** chain/root of trust, identity, certificates/PKI, monitoring, architecture, risk, continuity and the infrastructure beneath security.
+
+**Required dramatic reveal:** The operation should expose that PRIM3's technical trust hierarchy and its human authority hierarchy have the same dangerous property: too much ultimately resolves to one root—Prime.
+
+**Mission threshold:** Jordan gains enough verified evidence of that single-root architecture to understand that fixing downstream symptoms cannot solve the governance/authority problem.
+
+**Required residue:** Jordan chooses to reach Prime. The final summer fellowship occurs under the knowledge that next academic year may end with him attacking the system that educated him.
 
 ---
 
 # SEASON 7 — PRIME
 
-The final year converts the entire album into operational memory. Every earlier lesson becomes part of the final confrontation and the decision about what comes after it.
+The final year converts the album into operational memory. Earlier lessons return without tutorial labels. The player should feel more “omniscient” because they have learned how to interpret more layers.
 
-## S7E1 — RAID (HOT SITE)
+## S7E1 — RAID (HOT SITE) / MISSION 19 — HOT SITE
 
-### Music film
-RAID, redundancy, hot-site imagery and an assault on Site 0 collapse into one vocabulary: survive failure by having another path ready.
+**Inciting event:** Jordan has decided Prime must be reached. Allies choose whether to follow. The assault begins against Site 0, a facility designed to preserve operation through failure and attack.
 
-### Human story
-Jordan has decided Prime must be reached. Survivors and allies choose whether to follow. Nobody can pretend this is another assignment.
+**Human owner:** Every surviving relationship is now inside the decision. Nobody can pretend this is another assignment.
 
-### Mission 19 — HOT SITE
-**Mission fantasy:** Reach Prime through a facility designed to keep functioning while under attack.
+**Music film:** RAID, redundancy, parity, hot/warm/cold sites, RTO and failover collapse into assault imagery: survive failure by having another path ready.
 
-Jordan's team enters Site 0 while Prime genuinely resists. Every layer has redundant power, data, communications, routes and authority. The objective is not simply destruction: isolate Prime's control, keep essential life-safety systems functioning, prevent the facility from sacrificing civilians/operators to preserve itself, and reach the command environment.
+**Expected plan:** Progress through Site 0 by isolating control, preserving life safety and forcing the facility through recoverable failure states until the command environment becomes reachable.
 
-**Teaches:** RAID/redundancy concepts, hot/warm/cold continuity thinking, failover, resilience, recovery priorities, mission assurance.
+**Hidden complication:** Prime has designed redundancy as both resilience and defense. A backup path that saves people may also restore Prime's authority; destroying the wrong failure domain can kill the mission's own survivability.
 
-**Story advance:** After both assault elements are reduced to Jordan and Benji,
-the two men nearly kill one another, recognize Prime as the common target and
-defeat Presiding Prime together. The victory triggers the succession question
-instead of ending it.
+**Mission threshold:** The first assault element enters and Site 0 deliberately reconfigures itself around the attack.
 
-**WATCH action:** Earlier episode lessons visually recur as Jordan solves problems he once would not have understood.
+**Mission fantasy:** Reach Prime through infrastructure designed to keep functioning while under attack.
 
-**PLAY emphasis:** multi-objective tactical movement, continuity choices, team survival, non-binary success.
+**Why R/E/T:** R builds the multi-floor operational picture; E creates/holds physical breach routes and protects life; T distinguishes safe failover from Prime-preserving failover and changes infrastructure state.
+
+**Teaches/requires transfer:** RAID, failure domains, redundancy, hot/warm/cold continuity, power/network/storage/service dependency, recovery priority, authorization and virtually every earlier infrastructure lesson.
+
+**Plan failure:** Redundancy is not inherently good; it preserves whatever the architecture was designed to preserve.
+
+**Story advance / residue:** Both assault elements are reduced to Jordan and Benji. They nearly kill one another, recognize Prime as the common target and defeat Presiding Prime together. Victory creates the succession problem instead of ending it.
 
 ---
 
-## S7E2 — EVIL TWIN
+## S7E2 — EVIL TWIN / MISSION 20 — MIRROR ROOM
 
-### Music film
-Two apparently separate networks, teams and social worlds mirror one another until the audience sees one hidden command hand behind both.
+**Inciting event:** Prime is beaten and under threat of execution. Information is his remaining weapon. He reveals the dual-board architecture: PRIM3 and Hitman, Jordan and Benji, opposing-looking operations that sometimes produced one hidden outcome.
 
-### Human story
-Defeated Prime confesses the dual-board architecture: Prim3 and Hitman, Jordan and Benji, Rae and Sora, opposing-looking operations that were sometimes complementary pieces of the same design.
+**Human owner:** Jordan and Benji must reinterpret years of loss, loyalty and near-misses while standing beside the person who authored the information asymmetry.
 
-### Mission 20 — MIRROR ROOM
+**Music film:** Duplicate trust signals, mirrored identities, two networks and two teams collapse into one hidden command hand.
+
+**Expected plan:** Verify Prime's claim before acting on it.
+
+**Hidden complication:** Each side's evidence is internally coherent because compartmentalization was real. Neither side alone has enough context to prove the whole architecture.
+
+**Mission threshold:** Jordan and Benji agree to compare operational histories instead of killing Prime immediately.
+
 **Mission fantasy:** Play both halves of an operation that neither side originally understood.
 
-The episode reconstructs a past event as an alternating playable flashback. The player controls a Prim3-side team and a Hitman-side team in different spaces. Each believes it has a separate legitimate objective. Only by the end do their timelines reveal that Prime used both to produce one larger outcome.
+The player alternates between a PRIM3-side team and a Hitman-side team in a reconstructed past event. Each believes it has a separate legitimate objective. Timeline/evidence fusion reveals how Prime used both.
 
-A duplicated/mirrored communications identity creates the technical motif, but gameplay centers on detection, verification and conflicting trust rather than teaching exploit construction.
+**Why R/E/T:** Different perspectives generate different Pictures, Control states and technical evidence; only cross-perspective comparison produces verified truth.
 
-**Teaches:** evil-twin concept at a defensive level, identity verification, duplicated trust signals, compartmentalization, information asymmetry.
+**Teaches:** evil-twin/duplicate-trust concepts defensively, identity verification, compartmentalization, information asymmetry, corroboration and source confidence.
 
-**Story advance:** Jordan realizes the deepest problem is not that Prime had two organizations. It is that one man privately decided what both sides were allowed to know.
+**Plan failure:** A perfectly coherent local picture can still be globally false or incomplete.
 
-**WATCH action:** The same scene is shown twice from opposite sides until the hidden overlap becomes undeniable.
-
-**PLAY emphasis:** alternating perspectives, evidence comparison, identity verification, moral reinterpretation.
+**Story advance / residue:** Jordan realizes the deepest problem is not that Prime had two organizations. One man privately decided what both sides were allowed to know.
 
 ---
 
-## S7E3 — GHOST IN THE WIRES
+## S7E3 — GHOST IN THE WIRES / MISSION 21 — LAST PROCESS
 
-### Music film
-Prime becomes presence rather than body: voice, telemetry, infrastructure, memory, machine state and the fear that deleting a person may not delete their influence.
+**Inciting event:** Prime's body is defeated but still biologically authoritative. Site 0 services and distributed command state begin failing or refusing ambiguous authority during succession.
 
-### Human story
-Jordan has already proven he can defeat Prime. The final question is whether he can inherit the authority without reproducing the same architecture.
+**Human owner:** Jordan has proved he can defeat Prime. The final question is whether he can inherit authority without rebuilding the same architecture.
 
-### Mission 21 — LAST PROCESS
-**Mission fantasy:** Stabilize Site 0 while deciding what parts of Prime's distributed intelligence are infrastructure, evidence, weapon, memory or person.
+**Music film:** Prime becomes presence instead of body: voice, telemetry, infrastructure, memory, machine state and the fear that deleting a person may not delete their influence.
 
-The defeated Prime's neural/AI integration is entangled with Site 0 services. As control transfers, systems begin failing or refusing ambiguous authority. Jordan must preserve essential services, separate Prime-dependent functions from life-safety functions, establish auditable control and decide what happens to the remaining Prime process.
+**Expected plan:** Use the still-living Prime-00 trust anchor long enough to transfer authority cleanly, separate essential services from Prime-dependent control, then reduce Prime-00 privileges.
 
-**Teaches:** identity vs service, continuity, distributed state, recovery, auditability, human-in-the-loop authority, graceful shutdown/migration.
+**Hidden complication:** Some Prime-dependent state is life-safety infrastructure, some is evidence, some is advisory intelligence and some is dangerous authority. “Delete Prime” is not a technically or morally coherent operation.
 
-**Story advance:** The still-living Prime-00 identity supports a clean authority
-transfer to Jordan. Prime-00 loses independent write, actuator and personnel-
-command privileges and persists as Ghost Prime with read, observe, analyze and
-advice capability only by default. The series resolves what kind of Prime
-Jordan will become after taking control of the machine.
+**Mission threshold:** Jordan accepts succession and becomes the authority responsible for what survives.
 
-**WATCH action:** The last action sequence is about responsibility, not winning a gunfight.
+**Mission fantasy:** Stabilize Site 0 while classifying what parts of Prime are infrastructure, evidence, weapon, memory or person.
 
-**PLAY emphasis:** service triage, authority transfer, evidence preservation, moral choice, relationship consequences.
+**Why R/E/T:** R identifies distributed dependencies and conflicting telemetry; E preserves life-safety/manual control; T executes auditable authority transfer, service separation and privilege reduction.
+
+**Teaches/requires transfer:** identity vs service, PKI/trust-anchor thinking, continuity, distributed state, least privilege, auditability, human-in-the-loop authority, graceful shutdown/migration and recovery.
+
+**Plan failure:** Winning the gunfight does not answer what should remain running.
+
+**Story advance / residue:** Prime-00 loses independent write, actuator and personnel-command permissions and persists as Ghost Prime with read/observe/analyze/advice capability by default. Jordan becomes Prime under an architecture that must now be made more accountable than the one he inherited.
 
 ---
 
-# Why the mission structure matters
+# 4. Why the mission structure matters
 
-The final RAID works only if the prior twenty episodes trained the audience emotionally and technically.
+The final RAID works only if the prior episodes train the audience emotionally and technically.
 
-By Season 7, the viewer/player should recognize that Jordan is not suddenly competent because the finale needs him to be. He has spent seven academic years learning authorization, intelligence, human security, team doctrine, wireless, incident response, application security, malware defense, installation, physical information, IoT, service models, infrastructure economics, cloud systems, field deployment and patch/change control—while simultaneously learning leadership, grief, love, accountability and the danger of hidden authority.
+Jordan is not suddenly competent because the finale needs him to be. The player has spent the campaign learning authorization, intelligence, human security, team doctrine, wireless/networking, incident response, application security, malware defense, installation, physical infrastructure, IoT, service models, infrastructure economics, cloud, field deployment, patch/change control, evidence, identity and continuity while simultaneously learning leadership, grief, love, accountability and the danger of hidden authority.
 
-The mission layer is therefore not detachable gameplay. It is the place where the episode proves what the song and the human story have been arguing about.
+The mission layer is therefore not detachable gameplay.
+
+**Story creates the reason to act. Music teaches the expected model. The mission attacks the model. The player uses PRIM3 to turn uncertain data into verified action. The aftermath proves that technical decisions become human consequences.**
