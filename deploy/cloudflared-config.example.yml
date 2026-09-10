@@ -1,0 +1,15 @@
+# Copy to the cloudflared configuration location used by your host.
+# Replace the placeholders with the tunnel created in your Cloudflare account.
+# Protect the hostname with a Cloudflare Access self-hosted application.
+
+tunnel: <TUNNEL_UUID>
+credentials-file: /etc/cloudflared/<TUNNEL_UUID>.json
+
+ingress:
+  - hostname: <GEV_HOSTNAME>
+    service: http://127.0.0.1:4173
+    originRequest:
+      # GEV/Vite is intentionally bound as a local origin. Preserve its local
+      # host model instead of making the Vite server accept arbitrary hosts.
+      httpHostHeader: localhost
+  - service: http_status:404
