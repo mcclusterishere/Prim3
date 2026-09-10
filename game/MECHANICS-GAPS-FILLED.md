@@ -1,279 +1,271 @@
 ---
-status: PROPOSED
-system: Game mechanics — gap fill
-version: 1.0.0
+status: CANON-SUPPLEMENT
+system: Game mechanics — supplemental gap fill
+version: 1.1.0
+branch: main
+authority: Subordinate to CANON.md, TACTICAL-IT-MECHANICS-BIBLE.md, and WILDCARD-INTERVENTION-AUTHORITY.md
 ---
 
-# Mechanics gaps filled
+# Mechanics Gaps Filled — Current Supplement
 
-This file closes major holes left by `GAME-MECHANICS-COMPLETE.md` and `TACTICAL-XCOM-MECHANICS.md`.
+This file fills implementation details that do not belong in the higher-level game spine. Where an older value conflicts with a specialized canonical authority, the specialized authority wins.
 
----
+## 1. Concealment
 
-## 1. Concealment (XCOM2-style, Prim3-flavored)
+Missions may begin `CONCEALED` when the brief says so.
 
-Missions start in **Concealed** unless the Brief says otherwise.
+Concealment can break through:
+- hostile visual confirmation;
+- loud authorized/unauthorized action;
+- Detection threshold;
+- scripted story trigger;
+- environmental exposure.
 
-### Concealed state
-- Enemies patrol but do not engage until **Break**.
-- Player can position freely within movement rules.
-- Detection meter still rises from cameras and loud actions.
+Breaking concealment changes threat behavior. It does not itself prove the technical objective failed.
 
-### Break concealment when
-- Any player unit fires
-- Loud breach
-- Walk into enemy unit tile range (adjacent reveal)
-- Detection hits 6+
-- Scripted story trigger
+## 2. Deployment and extract
 
-### After break
-- Full combat AI on
-- Overwatch pods activate
-- Window clock does **not** auto-start until On Objective zone is entered (Approach can still be concealed)
+### Normal deployment
 
-**Design:** Approach can stay quiet; On Objective is where concealment usually dies.
+Most missions launch with named ensemble characters selected from the qualified roster.
 
----
+A classic technical element is up to three primary field roles:
+- R;
+- E;
+- T.
 
-## 2. Deployment and extract (skyranger equivalent)
+Story missions may add/replace roles with Leads, Defense, trainees or other specialists.
 
-### Deployment
-- Mission starts in **Deploy Zone** tiles (tagged `DEPLOY`)
-- Up to **3 operators** standard (T/E/R). Lead as 4th only on story ops
-- Player places units on DEPLOY tiles before turn 1
-- Optional: staggered deploy (one unit delayed 1 turn) as negative mission modifier
+Jordan is **not** a normal selectable deployment slot unless the episode explicitly assigns him.
+
+### Intervention deployment
+
+Jordan Wildcard and PRIM2 Apex arrivals use mission-authored ingress/ETA rules from `WILDCARD-INTERVENTION-AUTHORITY.md`. They never teleport onto an arbitrary tile.
 
 ### Extract
-- `SAFE` / `EXTRACT` tiles must be held or stood on
-- **Full extract:** all living units on EXTRACT tiles; player confirms
-- **Partial extract:** confirm with people left behind → those left are captured/dead per mission rules
-- Extract confirmation ends mission even if enemies remain
-- Carrying sealed take: Field-T or any unit with Take item in inventory must extract or take is lost
 
-### Evac timer
-When Extract phase starts, Extract Clock **is** the evac timer.  
-No second parallel timer in v1.
+- living units, carried evidence and mission assets must reach the authored SAFE/EXTRACT condition;
+- partial extraction is allowed and writes real consequences;
+- a player may choose to abandon an objective to preserve people;
+- leaving a named operator behind does not automatically mean death: capture, separation, unknown status or death must be authored/derived from the mission state;
+- intervention units do not erase an extraction clock already spent.
 
----
+## 3. Inventory
 
-## 3. Inventory during mission
+Per-character inventory can include:
+- armor;
+- sidearm;
+- optional primary where role/mission permits;
+- role kit;
+- utilities;
+- carried objective/evidence.
 
-### Per unit
-| Slot | Capacity |
-|------|----------|
-| Armor | 1 |
-| Sidearm | 1 |
-| Primary | 0–1 |
-| Backpack / role kit | 1 package |
-| Utility | 2 |
-| Carried objective | 1 (Take cartridge, intel item, VIP token) |
+Dropped evidence remains part of battlefield state. `Seal` protects evidence integrity; it does not teleport the evidence to safety.
 
-### Ground items
-- Drop 0 AP, pick up 1 AP
-- Sealed Take is an item; dropping it risks loss if not recovered
+## 4. Weapons and force
 
-### Ammo (v1 simplified)
-- Sidearm: infinite
-- Primary: **4 shots** then Reload 1 AP
-- Utility consumables: 1 use each
+Kinetic equipment exists to create/protect operational opportunity, not replace the technical objective.
 
----
+Exact damage/aim numbers remain playtest values unless repeated in a higher authority. Episode authors should prefer mission-specific authorization and consequences over building every operation around lethal force.
 
-## 4. Weapon table (v1)
+## 5. Armor and mobility
 
-| Weapon | Class | Dmg | Range band | Notes |
-|--------|-------|-----|------------|--------|
-| Service Pistol | Sidearm | 2 | Close/Mid | All roles |
-| Compact SMG | Primary | 3 | Close/Mid | Field-E default |
-| Carbine | Primary | 4 | Mid | Heavier, −1 Move when equipped |
-| DMR | Primary | 4 | Mid/Long | Field-R overwatch kit |
-| Non-lethal stapler | Utility fire | 0 (Stagger) | Close | Story/compliance ops |
+Armor trades protection against:
+- movement;
+- signature;
+- fatigue/encumbrance;
+- tool access where relevant.
 
-No grenade spam in v1. One utility explosive max if mission authorizes:
+Exact numeric modifiers remain balance data, not story canon.
 
-| Utility | Effect |
-|---------|--------|
-| Flash | Suppress + break enemy Overwatch in radius 2 |
-| Smoke | +cover equivalent in radius 2 for 1 turn |
-| Breach charge | Open ENTRY, +2 Detection |
+## 6. Camera / device interaction — deterministic correction
 
----
+Older drafts used generic `Tech vs 5` checks. That is superseded.
 
-## 5. Armor table (v1)
+A correct technical/device action succeeds because the player:
+- identified the correct device/path;
+- gathered sufficient evidence;
+- has the required role/tool/authorization;
+- selected the correct action;
+- and completes it without interruption.
 
-| Armor | Armor stat | Move | Signature |
-|-------|------------|------|-----------|
-| Soft light (R default) | 0 | +1 | −1 Detection from move |
-| Soft mid (T default) | 1 | 0 | 0 |
-| Soft-mid plate (E default) | 2 | −1 | +1 Detection from move |
-| Heavy (restricted) | 3 | −2 | +2 Detection |
+Randomness may affect:
+- whether the operator is interrupted;
+- enemy behavior;
+- physical damage;
+- incomplete evidence;
+- timing pressure.
 
----
+Randomness may **not** turn the correct technical answer into failure through a hidden generic hack roll.
 
-## 6. Camera and hack loop (Field-T environmental)
+## 7. Low-profile movement
 
-Cameras are devices, not soldiers.
+After global concealment breaks, individual characters may still reduce signature through:
+- route choice;
+- physical cover;
+- sensor blind spots already established by evidence;
+- role abilities;
+- appropriate kit.
 
-| Action | Who | AP | Effect |
-|--------|-----|-----|--------|
-| Spot camera | Any with LOS | — | Reveals CAMERA tile |
-| Disable camera (quiet) | Field-T adjacent or NODE-linked | 2 | Camera off; needs Tech check (Tech vs 5) |
-| Jam lane | Field-R | 2 | Cameras in one lane −1 Detection contribution 1 turn |
-| Shoot camera | Any | 1 | Destroy; +2 Detection |
+Do not treat low-profile state as magical invisibility.
 
-Failed quiet disable: +1 Detection, camera stays on.
+## 8. Enemy roster
 
----
+Normal opposition may include:
+- guards/responders;
+- automated sensors/cameras;
+- drones/robotic systems where authored;
+- hardened objective defenders;
+- environment/system hazards;
+- Hitman elements in relevant missions.
 
-## 7. Stealth per unit (not only global concealment)
+`Royce` is not a generic enemy tier. He is a persistent named incursion character governed separately.
 
-After global concealment breaks, units may still try low profile:
+## 9. Objective objects
 
-| Condition | Effect |
-|-----------|--------|
-| Outside enemy LOS | Not targeted by deliberate fire |
-| Enter enemy LOS | May trigger reaction if enemy on Overwatch |
-| Muted ID + light armor + no sprint | −1 Detection from that unit’s movement once/turn |
+Representative objective state includes:
+- Sealed Take;
+- Raw/Unsealed Take;
+- Intel/Evidence;
+- VIP/Asset;
+- Service/Continuity state;
+- Authorization/Compliance state.
 
----
+The object must preserve provenance and mission consequence.
 
-## 8. Enemy roster (v1)
+## 10. Engineering / kit bench
 
-| Enemy | HP | Aim | Armor | Behavior |
-|-------|-----|-----|-------|----------|
-| Security Guard | 4 | 55 | 0 | Patrol, investigate |
-| Armed Responder | 5 | 60 | 1 | Spawns on high Detection |
-| Elite Guard | 6 | 70 | 1 | Holds NODE rooms |
-| Camera Operator (human) | 3 | 40 | 0 | Buffs nearby cameras until removed |
-| Drone Scout | 3 | 50 | 0 | Fast patrol, high Scan weight |
-| Heavy Door (env) | — | — | — | Requires Breach/Bypass |
+The strategy layer may provide a small readable equipment bench. It should not become a 40-node research maze.
 
-**Pod idea (optional):** 2 guards spawn linked; engaging one aggroes pod.
+Ordinary Budget can support:
+- protective equipment;
+- role tools;
+- recovery;
+- replacement consumables;
+- mission-preparation kit.
 
----
+Budget **cannot directly purchase** Jordan Wildcard or PRIM2 Apex calls.
 
-## 9. Objective tokens
+## 11. Training
 
-| Token | How gained | Extract rule |
-|-------|------------|--------------|
-| Sealed Take | Field-T Seal | Must be carried to EXTRACT |
-| Raw Take | Pull without seal | Lost if Window ends |
-| Intel Photo | Field-R Scan special | Optional bonus |
-| VIP / Asset | Interact | Must escort to EXTRACT |
-| Evidence Flag | Story | Compliance score |
+Training can improve:
+- role XP;
+- cross-training qualifications;
+- fatigue/recovery;
+- character-specific perks.
 
----
+Progression may not turn ordinary operators into PRIM Mantle holders through XP.
 
-## 10. Engineering / kit bench (strategy, light)
+## 12. Side-operation generator
 
-Between missions (not full XCOM workshop tree):
+Procedural/semi-authored mission generation is allowed only for **side operations**, not to replace the fixed 21 canonical episode missions.
 
-| Project | Cost | Result |
-|---------|------|--------|
-| Requisition soft armor | Budget | Unlock armor tier |
-| Deck module LIVE | Budget | Field-T LIVE package |
-| Deck module FORENSIC | Budget + Standing | Forensic package |
-| Breach kit upgrade | Budget | Quiet Bypass −1 AP once/mission |
-| Med kit | Budget | +1 Stabilize charges on E |
+Side-op parameters may vary:
+- map template;
+- node count;
+- Detection;
+- clocks;
+- opposition;
+- mission risk;
+- Hitman Pressure;
+- Wildcard eligibility;
+- Royce eligibility.
 
-No 40-node research maze in v1. **10–15 unlocks total** for season one.
+A side op may affect campaign state but may not rewrite locked episode canon.
 
----
+## 13. Lead unit
 
-## 11. Training (strategy)
+A Lead is a real named character, not merely a fourth generic class slot.
 
-Spend 1 strategy day + Budget:
-- +1 role XP channel  
-- Or remove Fatigue  
-- Or attempt role tag unlock (mission requirements preferred)
+Possible command verbs include:
+- reposition;
+- focus/prioritize;
+- call extract;
+- rally;
+- authorize within delegated scope.
 
----
+A Lead does not replace R/E/T technical functions.
 
-## 12. Mission generator parameters
+Jordan's `RALLY THE ROOM` and PRIM2's `COMMAND PRIORITY` are separate intervention abilities with their own scarcity/rules.
 
-When spawning a procedural op, roll:
+## 14. Capture, death and rescue
 
-| Param | Range |
-|-------|--------|
-| Map template | Office / Lab / Warehouse / Rooftop access |
-| NODE count | 1–3 |
-| Starting Detection | 0–2 |
-| Window size | 6–10 |
-| Guard count | 3–8 |
-| Camera count | 0–6 |
-| Story flag | yes/no |
-| Authorized risk | Low/Mid/High |
+### Downed
+A living Downed operator can be stabilized/rescued.
 
----
+### Death
+A completed death persists unless the story explicitly defines otherwise. Jordan/PRIM2 cannot reverse it.
 
-## 13. Lead unit (optional 4th)
+### Left behind
+Outcome depends on authored mission context:
+- captured;
+- missing/separated;
+- stranded;
+- killed;
+- recovered later.
 
-**Cohort-03 Lead** actions:
-| Action | AP | Effect |
-|--------|-----|--------|
-| Command Move | 1 | Ally within 4 tiles: free 2-tile step |
-| Focus Fire | 1 | Ally +15 Aim on marked target |
-| Call Extract | 0 | Start Extract phase early |
-| Rally | 2 | Clear Stagger on adjacent allies |
+If capture is valid, it may generate a rescue side op or alter a later episode condition.
 
-Lead does not replace T/E/R jobs.
+## 15. Required tactical UI
 
----
+The player must be able to read:
+- selected character AP/HP/Will/status;
+- phase/clocks;
+- Detection/Heat where relevant;
+- objective/evidence state;
+- Picture/Control/Technical state;
+- confidence/provenance on information;
+- mission state: `STABLE / DEGRADED / CRITICAL / TERMINAL`;
+- current Wildcard availability when eligible;
+- current Apex availability when eligible;
+- hostile escalation warning quality when earned;
+- intervention consequences after use.
 
-## 14. Capture and death
+## 16. Intervention implementation requirements
 
-| Event | Result |
-|-------|--------|
-| Bleed-out | Death — removed from roster |
-| Left behind on Extract | Capture — may unlock rescue mission; else death after N strategy days |
-| Surrender story beat | Capture, mission-specific |
+A mission that allows Jordan must define:
+- crisis trigger;
+- request path;
+- arrival delay;
+- arrival route;
+- usable Wildcard abilities;
+- relationship/debrief residue.
 
-Captured operators can generate **Rescue** mission type.
+A mission that allows PRIM2 must additionally define:
+- why it is Critical/State/Strategic enough;
+- why Jordan is already present;
+- what persists long enough to justify Apex escalation;
+- what information/authority PRIM2 adds;
+- what cannot be saved anymore.
 
----
+A mission eligible for Royce must define:
+- telegraph quality;
+- ingress/trigger;
+- objective behavior;
+- retreat/separation condition;
+- survival continuity with the locked finale.
 
-## 15. UI-required information (for implementation)
+## 17. Current completeness assessment
 
-Every tactical frame must show:
-- Active unit AP, HP, Will  
-- Phase name + clock ticks remaining  
-- Detection 0–10  
-- Take status (none / raw / sealed + integrity)  
-- Picture state and Space state  
-- Enemy count known  
+Strong/specifiable now:
+- AP/clock grammar;
+- R/E/T dependency;
+- deterministic technical work;
+- graded outcomes;
+- ensemble roster principle;
+- persistent injury/death;
+- Wildcard/Apex rescue ladder;
+- Royce hostile incursion structure;
+- side-op vs episode distinction.
 
-Without these, the mechanics are not playable even if coded.
+Still requiring playtest/content implementation:
+- exact numeric combat balance;
+- character-specific perk values;
+- per-episode intervention eligibility;
+- per-episode crisis thresholds;
+- Royce adaptation/encounter tuning;
+- full save schema;
+- UI implementation;
+- final map/content volume.
 
----
-
-## 16. Still intentionally open (not missing — deferred)
-
-| Topic | Why deferred |
-|-------|----------------|
-| Full FPS gun-feel | Client layer |
-| 3D asset binding to open-source hardware | Production pipeline |
-| Multiplayer | After single-player loop |
-| Huge research tree | Avoid XCOM bloat |
-| Vehicles | Season 2+ |
-| Base room building | Optional; strategy board may be enough |
-| Exact final % balance | Needs playtest |
-
----
-
-## 17. Honest completeness score
-
-| Area | Before gap-fill | After |
-|------|-----------------|--------|
-| Mission clocks | Strong | Strong |
-| TB combat core | Medium | Strong |
-| Concealment / deploy / evac | Weak | Strong |
-| Weapons / armor tables | Weak | Medium (v1 tables exist) |
-| Enemies | Weak | Medium |
-| Strategy economy | Medium | Medium |
-| Engineering | Weak | Light but present |
-| Campaign length rules | Medium | Medium |
-| FPS client | None | Deferred |
-| Mobile client | None | Deferred |
-
-**Core single-player TB + strategy is now specified enough to prototype.**  
-Balance numbers and content volume are not “mechanics holes”; they are production work.
+**The mechanics are conceptually coherent enough to prototype. The next risk is no longer missing framework; it is failing to instantiate the framework character-by-character and mission-by-mission.**
