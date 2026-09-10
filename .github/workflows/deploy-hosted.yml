@@ -1,0 +1,32 @@
+name: Deploy hosted GEV
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prepare SSH
+        env:
+          GEV_SSH_KEY: ${{ secrets.GEV_SSH_KEY }}
+          GEV_KNOWN_HOSTS: ${{ secrets.GEV_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$GEV_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          printf '%s\n' "$GEV_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Deploy current main branch
+        env:
+          GEV_HOST: ${{ secrets.GEV_HOST }}
+          GEV_SSH_USER: ${{ secrets.GEV_SSH_USER }}
+        run: |
+          set -euo pipefail
+          ssh -o BatchMode=yes "${GEV_SSH_USER}@${GEV_HOST}" \
+            'sudo -n bash /opt/seek-first/deploy/update-hosted.sh'
