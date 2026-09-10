@@ -1,0 +1,225 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://prim3.local/schemas/prm3-tactical-learning-mission.schema.json",
+  "title": "PRIM3 Tactical Learning Mission",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "mission_id", "song", "concept_ids", "map", "clocks", "roles", "objective_graph",
+    "lab_nodes", "threat_schedule", "kinetic_coupling", "learning_mastery", "operational_scoring",
+    "debrief_links", "acceptance_tests"
+  ],
+  "properties": {
+    "mission_id": {"type": "string"},
+    "song": {"type": "string"},
+    "concept_ids": {"type": "array", "minItems": 3, "uniqueItems": true, "items": {"type": "string"}},
+    "map": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["width", "height", "zones", "lab_node_ids", "threat_entries", "safe_zones"],
+      "properties": {
+        "width": {"type": "integer", "minimum": 6},
+        "height": {"type": "integer", "minimum": 6},
+        "zones": {"type": "array", "minItems": 3, "items": {"type": "string"}},
+        "lab_node_ids": {"type": "array", "minItems": 2, "items": {"type": "string"}},
+        "threat_entries": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "safe_zones": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+      }
+    },
+    "clocks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["approach", "window", "extract"],
+      "properties": {
+        "approach": {"type": "integer", "minimum": 1},
+        "window": {"type": "integer", "minimum": 1},
+        "extract": {"type": "integer", "minimum": 1}
+      }
+    },
+    "roles": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["Field-R", "Field-E", "Field-T"],
+      "properties": {
+        "Field-R": {"$ref": "#/$defs/role"},
+        "Field-E": {"$ref": "#/$defs/role"},
+        "Field-T": {"$ref": "#/$defs/role"}
+      }
+    },
+    "objective_graph": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["nodes", "edges"],
+      "properties": {
+        "nodes": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "type", "description"],
+            "properties": {
+              "id": {"type": "string"},
+              "type": {"enum": ["GATE", "PRIMARY", "SECONDARY", "GHOST", "LEARNING", "SAFETY", "STORY", "EXTRACT"]},
+              "description": {"type": "string"}
+            }
+          }
+        },
+        "edges": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["from", "relation", "to"],
+            "properties": {
+              "from": {"type": "string"},
+              "relation": {"enum": ["requires", "improves", "conflicts-with", "risks", "unlocks", "substitutes-for"]},
+              "to": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "lab_nodes": {
+      "type": "array",
+      "minItems": 2,
+      "items": {"$ref": "#/$defs/labNode"}
+    },
+    "threat_schedule": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["trigger", "event", "lab_or_board_effect"],
+        "properties": {
+          "trigger": {"type": "string"},
+          "event": {"type": "string"},
+          "lab_or_board_effect": {"type": "string"}
+        }
+      }
+    },
+    "kinetic_coupling": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["kinetic_action_or_state", "technical_effect"],
+        "properties": {
+          "kinetic_action_or_state": {"type": "string"},
+          "technical_effect": {"type": "string"},
+          "technical_success_back_effect": {"type": "string"}
+        }
+      }
+    },
+    "learning_mastery": {
+      "type": "object",
+      "required": ["weighted_concepts", "telemetry_required"],
+      "properties": {
+        "weighted_concepts": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "required": ["concept_id", "weight"],
+            "properties": {
+              "concept_id": {"type": "string"},
+              "weight": {"type": "number", "exclusiveMinimum": 0, "maximum": 100}
+            }
+          }
+        },
+        "telemetry_required": {"type": "array", "minItems": 5, "items": {"type": "string"}}
+      }
+    },
+    "operational_scoring": {
+      "type": "object",
+      "required": ["objective", "team", "exposure", "integrity", "time"],
+      "properties": {
+        "objective": {"type": "string"},
+        "team": {"type": "string"},
+        "exposure": {"type": "string"},
+        "integrity": {"type": "string"},
+        "time": {"type": "string"}
+      }
+    },
+    "debrief_links": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["concept_id", "lyric_cue_ref", "reason_shown"],
+        "properties": {
+          "concept_id": {"type": "string"},
+          "lyric_cue_ref": {"type": "string"},
+          "reason_shown": {"type": "string"}
+        }
+      }
+    },
+    "acceptance_tests": {"type": "array", "minItems": 8, "items": {"type": "string"}}
+  },
+  "$defs": {
+    "role": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required_actions", "concept_ids", "produced_state", "minimum_contribution"],
+      "properties": {
+        "required_actions": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "concept_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "produced_state": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "minimum_contribution": {"type": "string", "minLength": 15}
+      }
+    },
+    "labNode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "location", "concept_ids", "primary_roles", "initial_state", "stages",
+        "dependencies", "wrong_path_consequences", "validation", "battlefield_effect"
+      ],
+      "properties": {
+        "id": {"type": "string"},
+        "location": {"type": "string"},
+        "concept_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "primary_roles": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"enum": ["Field-R", "Field-E", "Field-T"]}
+        },
+        "initial_state": {
+          "enum": ["UNSEEN", "OBSERVED", "CHARACTERIZED", "DEGRADED", "UNSAFE"]
+        },
+        "stages": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "task_atom", "ap_cost", "state_from", "state_to", "player_reasoning"],
+            "properties": {
+              "id": {"type": "string"},
+              "task_atom": {
+                "enum": [
+                  "OBSERVE", "COMPARE", "CLASSIFY", "PRIORITIZE", "TRACE", "MAP", "AUTHORIZE",
+                  "ISOLATE", "ROUTE", "ALLOCATE", "MATCH", "SEQUENCE", "CONFIGURE", "PRESERVE",
+                  "RECOVER", "VERIFY", "DOCUMENT", "WARN", "HOLD", "ESCORT", "STABILIZE", "ABORT"
+                ]
+              },
+              "ap_cost": {"type": "integer", "minimum": 0, "maximum": 2},
+              "window_cost": {"type": "integer", "minimum": 0},
+              "anchored": {"type": "boolean"},
+              "fragile": {"type": "boolean"},
+              "state_from": {"type": "string"},
+              "state_to": {"type": "string"},
+              "player_reasoning": {"type": "string", "minLength": 15}
+            }
+          }
+        },
+        "dependencies": {"type": "array", "items": {"type": "string"}},
+        "wrong_path_consequences": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "validation": {"type": "string", "minLength": 15},
+        "battlefield_effect": {"type": "string", "minLength": 15}
+      }
+    }
+  }
+}
