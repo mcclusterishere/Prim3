@@ -1,7 +1,7 @@
 # PRIM3 Canon Register
 
 **Status:** Foundation canon (merged to main)  
-**Continuity version:** 0.5.0  
+**Continuity version:** 0.5.1  
 **Authority:** Matthew McCluster  
 **Rule:** If material conflicts with this register, this register wins until deliberately revised.
 
@@ -31,6 +31,24 @@ Canonical dramatic law:
 Jordan spends the academic year inside the PRIM3/McCluster story. **Between academic years he repeatedly leaves for a summer policy fellowship.** Those summers influence who he is when he returns, but they do not add episodes to PRIM3's 21-episode count. They may later support a separate Equity Uprise series/game/show.
 
 The song/mission order is recorded in `story/EPISODE-PROGRESSION.md`. Song #21 / Episode 18 remains deliberately open until the owner supplies the final track, with its story/curriculum function already constrained below.
+
+## Franchise reveal / background law
+
+`story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md` is the canonical writer-facing authority for Jordan's deeper psychological substrate, the age-26-to-33 Whip Equipped / Ghost Years, Prime's first discovery of Jordan during those years, and the reverse-reveal architecture across shows.
+
+The release/reveal order is intentionally backward in time:
+
+**PRIM3 (33–40) -> Whip Equipped (26–33) -> Hitman / Benji (19–26).**
+
+PRIM3 remains its own independent show. Earlier history may shape Jordan's choices, instincts, trust, competence, relationship behavior and reactions without being dumped into PRIM3 as exposition.
+
+Canonical spoiler rule:
+
+> **Background truth is not disclosure permission.**
+
+Do not casually reveal the full Benji, Whip Equipped, plane-event, girlfriend, cocaine-period, Royce-succession or Prime-pre-PRIM3 history merely because writer canon contains it. Preserve the future prequel reveals unless a specific PRIM3 disclosure is deliberately owner-approved.
+
+The owner-supplied Whip Equipped album/source material belongs to the **Whip Equipped age-26-to-33 story only** unless deliberately reassigned. It is not part of the PRIM3 song/mission body. `Tears Don't Fall` is specifically a Whip Equipped event song occurring while the aircraft is going down and Jordan knows it is going down.
 
 ## Story-to-mission causality law
 
@@ -75,6 +93,7 @@ See `story/HIGH-ALERT-MEMORY-ANCHORS.md`.
 - Climbs the Prim3 / McCluster path through field/cohort progression.
 - Enters from severe material instability with practical IT/infrastructure experience that exceeds his formal credentials.
 - His defining advantage is initiative, persistence, systems inference and the tendency to keep looking for another viable path.
+- His writer-facing psychology and pre-PRIM3 background are governed by `story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md`.
 - Love interest: **Aya Shinoda** (Japan, Field-T).
 - Ultimately faces succession / RAID / Evil Twin / Ghost.
 
@@ -104,7 +123,28 @@ Locked facts:
 
 Continuity migration rule: subordinate drafts that treat Jordan and Benji as two separate contemporary men are superseded. Preserve `Benji` where it refers to Jordan's age-19-to-26 Hitman identity; use **Royce** for the separate post-Benji Hitman-side rival/successor function unless later owner canon deliberately changes it.
 
-Whether Prime knew, watched, or influenced Jordan during the Hitman period remains open until explicitly locked.
+Prime does **not** first discover Jordan in PRIM3. After taking the Prime seat, Prime investigates how young Royce received Hitman's succession without the expected violent seizure, traces the lineage backward through Bigga Lex to Benji/Jordan, and first develops active interest in Jordan during the **age-26-to-33 Ghost/Whip Equipped years**. The deeper mechanics and disclosure limits are governed by `story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md`.
+
+## Jordan Vale — Whip Equipped / Ghost Years
+
+The age-26-to-33 period is canonically Jordan's **Whip Equipped / Ghost Years**.
+
+- Jordan lives without conventional fixed housing for much of the period, moving among cars, trucks, RVs, buses and other vehicles that can serve as transportation, shelter and inventory.
+- Mobility makes him difficult for Royce and old Hitman enemies to pin down through ordinary street knowledge and predictable routine; it does not make him literally invisible to governments or technical surveillance.
+- Vehicle dealing and auction access become repeatable legal-hustle/cash-flow mechanisms and the seed of Whip Equipped.
+- Jordan seeks legitimacy but does not immediately become morally clean or conventionally stable.
+- He simultaneously develops real data-center/infrastructure experience while often still living in vehicles.
+- Infrastructure becomes psychologically meaningful because Jordan learns systems designed for continuity while his own life has little fixed continuity.
+- During this era he falls in love, becomes entangled in a cocaine network through that relationship, and allows the legitimate dealership/business to become contaminated by criminal activity.
+- Prime has already begun studying him. Prime covertly helps create the encounter path involving the woman/cocaine plug and later causes a compromised police/contact channel to warn Jordan that she is cooperating.
+- **Prime's active involvement ends with that warning.** Prime then waits and observes.
+- Jordan independently determines that the private aircraft carrying the woman will be brought down, independently decides it needs to happen, and owns the resulting act. Prime does not supply the method, plan, equipment or final assistance.
+- `Tears Don't Fall` belongs to Whip Equipped and occurs while the aircraft is going down, with Jordan aware of what is happening.
+- The event leaves Jordan deeply distrustful of intimate relationships and more committed to compartmentalizing his life.
+- At 33, college is a deliberate attempt to normalize his life: fixed housing, recurring schedule, credentials, a conventional professional path, potentially a traditional job, and a reduction in the hustle-for-a-living mentality.
+- Structurally: **at 33, the ghost re-enters the grid.** PRIM3 begins there.
+
+These facts primarily exist to govern Jordan's psychology and choices. Their existence in canon does not authorize PRIM3 to spoil the later Whip Equipped/Hitman prequel shows.
 
 ## Presiding Prime
 
@@ -179,6 +219,7 @@ Where still referenced: parent/black-site layer above fronts. Do not contradict 
 - Data Breach currently has the complete MP3/SRT/TTML source package; other songs primarily have lyric/source packages until further media is supplied.
 - `game/LEARNING-MISSION-SOURCE-OF-TRUTH.md` defines timed lyrics -> clickable concepts -> lessons -> R/E/T labs -> mastery -> debrief cue links.
 - `story/EPISODE-CAUSE-AND-ENTERTAINMENT-AUTHORITY.md` and the canonical `story/EPISODE-MISSION-BIBLE.md` govern why each operation exists and what human residue it leaves.
+- Whip Equipped music is governed separately by `story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md` and is not part of the PRIM3 mission-song body.
 
 ## Omniscient command / data-layer law
 
@@ -252,17 +293,21 @@ Nine-level Site 0 stack and Prime visual anchors remain locked: exact M helmet a
 
 Relationships do not reset between episodes. Consequential lies, rescues, promotions, humiliation, attraction, grief, debt, injury, secrets and command decisions leave residue. See `story/HUMAN-STORY-ENGINE.md` and `story/CHARACTER-RELATIONSHIP-STATE.md`.
 
+Jordan's pre-PRIM3 history should influence human continuity without automatically becoming dialogue exposition. See `story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md`.
+
 ## Prime background-presence rule
 
 Presiding Prime must be detectably present in the background of every episode before `Ghost In The Wires`, even when Jordan/audience do not yet understand what counts as Prime's presence. See `story/PRIME-LURK-LEDGER.md`.
 
+Prime's awareness of Jordan predates PRIM3 and begins during Jordan's Ghost/Whip Equipped years, but PRIM3 should preserve that fact as a controlled reveal rather than explain it prematurely.
+
 ## Explicitly open
 
-- College location for Jordan's age-19 first enrollment and age-33 PRIM3-era enrollment
-- Exact dates
+- Exact college identity/location for Jordan's age-19 first enrollment and exact age-33 PRIM3-era college identity/location until separately owner-locked
+- Exact calendar dates
 - Song #21 final title/lyrics/technical concept beyond current `CHAIN OF TRUST` working concept
 - Full cohort biography details beyond current proposed cast files
 - Full meaning of “Negative One” if still used alongside Jordan naming
-- Exact Hitman mission chronology and Royce relationship details
-- Whether Prime observed or influenced Jordan during the Benji years
-- Full age-26-to-33 arc after Jordan leaves Hitman
+- Exact Hitman mission chronology and complete Royce relationship details beyond currently locked origin/succession facts
+- Complete scene-level chronology, identities and episode structure for the future Whip Equipped prequel beyond the background facts now locked in `story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md`
+- Exact mechanics of how Prime creates the woman/cocaine-plug intersection and how the police tip is routed; those should remain non-procedural unless story necessity requires a safe fictional abstraction
