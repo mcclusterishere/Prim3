@@ -1,58 +1,90 @@
 ---
-status: CANON
+status: CANON-SUMMARY
 episode: S1E1
 title: High Alert
-track: High Alert (Prime POV)
-runtime_song: 2:47
-version: 5.0.0
+track: High Alert
+version: 6.0.0
+branch: main
 ---
 
 # S1E1 — High Alert
 
-**Song = mission peak (perimeter emergency).**  
-**Second half = how the two crews reached the line.**  
-Full Prime capability: `story/PRIME-LORE.md`.
+## Core chronology
+
+The `High Alert` music film is the future invading the pilot.
+
+It occurs during S7E1 `RAID (HOT SITE)` even though the audience sees it first.
+
+- **PRIM2** is the performer and defender.
+- **Jordan Vale** is attacking Site 0 from the PRIM side.
+- **Royce** is attacking from the Hitman side.
+- PRIM2 genuinely resists both.
+- the audience does not yet know the full Jordan/Royce history or the meaning of the Mantle.
+- 17 compressed memories correspond to Episodes 02–18.
+- the sequence ends before the RAID outcome is revealed.
+
+Then:
+
+> **SEVEN YEARS EARLIER.**
+
+Jordan is 33, newly re-entering college, and the ensemble chronology begins.
 
 ---
 
-## Logline
+# Narrative ownership
 
-Prime is in the tank — not blind. Cameras, sentries, roads, **satellites**, global watch. He only takes a body when the watch is not enough. **High Alert begins when Jordan and Benji’s forces touch the edge of the property perimeter.** He wakes talking shit at a hire chain that includes his own names, while the house and the robots answer his neurons. The main building is still downstream. The perimeter is already on fire.
+High Alert is the deliberate opening exception to the majority-ensemble rule because the future event belongs to the succession triangle:
 
----
+```text
+PRIM2 / JORDAN / ROYCE
+```
 
-## Block A — Song (2:47) — the end of the quiet
+This does not make Jordan the mandatory owner of later episodes.
 
-1. Tank. Sleep = god-view (sat, road, sentry, world).  
-2. **Perimeter contact.** Not main lobby — the edge of the property.  
-3. HIGH ALERT. Body forced online.  
-4. Feeds: Prim3 vector (**Jordan**) + Hitman vector (**Benji**).  
-5. Recognition: who hired the road; some names are his.  
-6. Threat bars + robots/sentries fire on his clock.  
-7. Diss plants for the season. Raiders still outside the heart — but the myth of “untouchable” is broken at the fence line.  
+Many of the memories PRIM2 uses against Jordan may later turn out to belong emotionally to another character.
+
+> **The memory belongs to PRIM2's argument. The episode belongs to whoever changed because of it.**
 
 ---
 
-## Block B — Context (~3 min) — path to the perimeter
+# High Alert state
 
-Plain story:
+High Alert is both the track and a literal Site 0 escalation state.
 
-- Two papers, one property: Prim3 “mission” and Hitman “score.”  
-- Prime’s sleep already knows both moves; support has been tilting objectives for months (why crews feel covered).  
-- Tonight the tilt is not enough to keep them off the **edge**.  
-- Jordan leaves Aya’s bay. Benji leaves his crew.  
-- They reach the perimeter. That is the tripwire for the song you already watched.  
+PRIM2's privileged oversight has already detected that the normal defensive/command situation has crossed into a succession-level crisis.
+
+PRIM2 is powerful, but do not depict him as magical omniscience or as physically hiding in every prior episode.
+
+The later-series reveal should show his institutional gravity through information, permissions, omissions, Pylon behavior, resource timing and selected physical presence where justified.
 
 ---
 
-## Do not write
+# PLAY handling
 
-- Prime surprised in the bedroom with no prior awareness  
-- Raiders already in the main building when High Alert *starts*  
-- Sleep as helpless coma  
+Any playable portion of S1E1's future fragment is **scripted**.
 
-## Write
+It does not consume:
+- Jordan Wildcard authorizations;
+- PRIM2 Apex authorizations;
+- random Royce Incursion allowance.
 
-- Perimeter first  
-- Global watch always on  
-- Dual support even when sides fight  
+It also must not teach the player that Jordan is the normal selectable protagonist pawn.
+
+Ordinary campaign PLAY after the rewind follows `game/WILDCARD-INTERVENTION-AUTHORITY.md`.
+
+---
+
+# Do not write
+
+- separate contemporary Benji attacking beside Jordan;
+- `Prime-00` as formal current identity;
+- Jordan already being PRIM3 before succession;
+- PRIM2 as surprised/unaware until attackers reach the heart of Site 0;
+- a post-song explanation that spoils how the final RAID was assembled;
+- the old six-minute “mission end then immediate context” template as the universal series grammar.
+
+Current full authorities:
+- `story/missions/HIGH-ALERT.md`
+- `story/HIGH-ALERT-MEMORY-ANCHORS.md`
+- `episodes/S07E01-RAID-HOT-SITE.md`
+- `CANON.md`.
