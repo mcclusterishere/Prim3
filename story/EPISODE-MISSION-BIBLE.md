@@ -1,7 +1,7 @@
 ---
 status: CANON-AUTHORING-AUTHORITY
 system: 21-episode causal mission spine / ensemble deployment contract
-version: 2.0.0
+version: 2.1.0
 branch: main
 ---
 
@@ -9,35 +9,30 @@ branch: main
 
 ## Authority
 
-This file defines the current cross-season **episode/mission contract** for the 21-song PRIM3 series.
+This file defines the current cross-season episode/mission contract for the 21-song PRIM3 series.
 
-It intentionally replaces the older Jordan-centric mission bible that:
-- treated Jordan as the default human owner;
-- described ordinary PLAY as the viewer “becoming PRIM3”;
-- assumed an exactly three-person R/E/T squad and fixed six-AP total;
-- did not include Wildcard/Apex/Royce escalation;
-- predated the current PRIM2/PRIM3 succession terminology.
+Character ownership and episode-to-character development are delegated to:
 
-Detailed local episode files may expand scenes and mission geometry, but they may not contradict:
-- `CANON.md`;
-- `story/ENSEMBLE-POV-AUTHORITY.md`;
-- `game/WILDCARD-INTERVENTION-AUTHORITY.md`;
-- `game/TACTICAL-IT-MECHANICS-BIBLE.md`;
-- current character psychology authorities.
+`story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md`
 
-Git history preserves older episode concepts as development material; they are not automatically current canon.
+Gameplay escalation is delegated to:
+
+`game/WILDCARD-INTERVENTION-AUTHORITY.md`
+
+Detailed local episode files may expand scenes and geometry but may not override root canon, current character psychology, the ensemble development map, or the Wildcard/Apex/Royce system.
 
 ---
 
 # 1. Locked format
 
-PRIM3 has:
-- **7 seasons**;
-- **3 canonical episodes per season**;
-- **21 canonical episodes total**;
-- **1 song = 1 episode = 1 canonical mission**.
+- 7 seasons
+- 3 episodes per season
+- 21 episodes total
+- 1 song = 1 episode = 1 canonical mission
+- WATCH target approximately 9 minutes
+- PLAY expands the same event into tactical decision space
 
-WATCH target remains approximately nine minutes and follows the causal grammar:
+Causal grammar:
 
 ```text
 HUMAN TRIGGER
@@ -47,19 +42,17 @@ HUMAN TRIGGER
     -> AFTERMATH / RESIDUE
 ```
 
-PLAY expands the same event into tactical decision space.
-
-The briefing law remains:
+Canonical lesson law:
 
 > **The briefing teaches the model. The mission attacks the model.**
 
 ---
 
-# 2. Ensemble ownership law
+# 2. Ensemble ownership
 
-Every episode must answer **who owns the human change**, independently of who performs the song, commands the mission or performs the decisive technical action.
+Jordan is the succession spine, not the mandatory episode owner.
 
-Jordan is one of the central main characters and eventual succession spine, but across Episodes 02–18 he should own only a minority outright.
+Across Episodes 02–18, most episodes primarily develop other characters.
 
 Allowed Jordan narrative states:
 
@@ -72,28 +65,28 @@ E — mentioned only
 F — absent
 ```
 
-The world must be capable of carrying episodes in which Jordan is absent.
+Episode ownership is now locked by the ensemble development map unless deliberately revised.
 
 ---
 
-# 3. PLAY deployment law
+# 3. PLAY deployment
 
-Ordinary PLAY does **not** put Jordan in the normal selectable roster.
+Ordinary PLAY does not put Jordan in the normal selectable roster.
 
-The player controls the named ensemble team actually assigned to that mission.
+The player controls the named ensemble team assigned to the operation.
 
-R/E/T remain functional disciplines, not a requirement for exactly three generic units.
+R/E/T are functional disciplines, not a mandatory exactly-three-person squad.
 
-Normal qualified characters generally receive 2 AP per activation. Actual total AP depends on the authored roster.
+Normal qualified characters generally receive 2 AP per activation; total AP depends on the authored roster.
 
-Jordan enters only as:
-- `SCRIPTED` — story mission starts with him;
-- `WILDCARD` — requested after an eligible mission reaches CRITICAL;
-- `LOCKED OUT` — unavailable for authored reasons.
+Jordan enters as:
+- `SCRIPTED` — the story requires him from launch;
+- `WILDCARD` — he is called after an eligible mission reaches CRITICAL;
+- `LOCKED OUT` — he cannot participate for authored reasons.
 
 PRIM2 enters only through a scripted appearance or eligible Apex intervention.
 
-Royce may enter eligible missions as a hostile elite incursion or scripted principal.
+Royce may enter through a scripted appearance or eligible hostile incursion.
 
 ---
 
@@ -105,17 +98,13 @@ Mission state:
 STABLE -> DEGRADED -> CRITICAL -> TERMINAL
 ```
 
-Standard campaign scarcity:
+Standard scarcity:
 
 ```text
 JORDAN WILDCARD: 2 non-scripted authorizations / season
 PRIM2 APEX:      3 non-scripted authorizations / full campaign
 ROYCE INCURSION: max 2 non-scripted / season, max 1 / mission, 2-mission cooldown
 ```
-
-Scripted appearances do not consume these pools.
-
-Interventions act on current recoverable state. They cannot resurrect, rewind clocks, restore irrecoverable evidence or erase consequences.
 
 Mechanical identity:
 
@@ -126,31 +115,31 @@ PRIM2    -> expands picture / authority
 ROYCE    -> destabilizes control / tempo
 ```
 
-See `game/WILDCARD-INTERVENTION-AUTHORITY.md`.
+Intervention acts on current recoverable state. It does not resurrect, rewind or erase consequences.
 
 ---
 
 # 5. Mandatory episode fields
 
-No episode is considered production-ready until it resolves:
+Every production-ready episode resolves:
 
 ```text
 INCITING EVENT:
 EPISODE OWNER:
 SECONDARY OWNER(S):
-JORDAN NARRATIVE STATE: A/B/C/D/E/F
+JORDAN NARRATIVE STATE:
 HUMAN STAKE:
 WHY NOW:
 WHY PRIM/MCCLUSTER:
 MISSION LEAD:
 BASE PLAYABLE ROSTER:
 PRIMARY PLAYABLE POV(S):
-JORDAN PLAY STATE: scripted / off-board wildcard / locked out
-WILDCARD ELIGIBLE: yes/no + reason
+JORDAN PLAY STATE:
+WILDCARD ELIGIBLE:
 WILDCARD ARRIVAL RULE:
-APEX ELIGIBLE: yes/no + reason
-PRIM2 STORY VISIBILITY: hidden / partial / explicit
-ROYCE INCURSION ELIGIBLE: yes/no + reason
+APEX ELIGIBLE:
+PRIM2 STORY VISIBILITY:
+ROYCE INCURSION ELIGIBLE:
 ROYCE TELEGRAPH RULE:
 EXPECTED PLAN:
 HIDDEN COMPLICATION:
@@ -165,50 +154,55 @@ PAST-HINT WRITE:
 NEXT CHARACTER WHO INHERITS THE RESIDUE:
 ```
 
-`WHY R/E/T` is no longer a mandatory literal field. Instead ask:
-
-> **Which disciplines/functions are actually required by this operation, and why?**
-
-A mission may legitimately use only some of R/E/T plus Defense, Authority, Support, Lead, Wildcard or another specialist role.
+A mission may use any justified combination of R/E/T, Defense, Authority, Support, Lead, Wildcard or specialist roles.
 
 ---
 
 # 6. Human consequence law
 
-A mission may not exist merely because “an IT incident happened.”
+A mission may not exist merely because an IT incident happened.
 
-The technical problem must threaten something human:
-- safety;
-- trust;
-- relationship;
-- livelihood;
-- reputation;
-- evidence/truth;
-- money/resources;
-- command legitimacy;
-- continuity;
-- survival;
-- or a secret somebody cares about.
+The technical problem must threaten something human: safety, trust, livelihood, reputation, evidence, resources, legitimacy, continuity, survival, privacy or relationship.
 
-At least one meaningful complication should normally trace to a person/institution through:
-- a bad assumption;
-- hidden error;
-- deferred maintenance;
-- cost tradeoff;
-- secrecy;
-- authority conflict;
-- psychological reflex;
-- incentive problem;
-- deliberate manipulation;
-- or withheld context.
+At least one meaningful complication should normally trace to human/institutional choice, incentive, error, secrecy, cost pressure, psychological reflex or withheld context.
 
 Every operation leaves residue.
 
 ---
 
-# 7. WATCH / PLAY continuity
+# 7. Locked 21-episode ownership spine
 
-WATCH and PLAY are two interfaces to the same story event.
+| # | Song / mission | Primary owner(s) | Jordan state / gameplay |
+|---:|---|---|---|
+| 01 | High Alert / The Blip | PRIM2 + Jordan + Royce | scripted future fragment |
+| 02 | White Grey Black Hat / Permission Slip | Nusrat + Miguel | Jordan supporting; locked out of PLAY |
+| 03 | OSINT / Open Book | Oksana + Rafael | Jordan edge; first Wildcard tutorial candidate |
+| 04 | Anti Social Engineering / The Human Layer | Priya + Sora | Jordan cameo; Wildcard eligible |
+| 05 | Red Blue Purple White Team / Four Colors | Chioma + Thandiwe | Jordan supporting; Wildcard eligible after real incident |
+| 06 | Got Wifi / Dead Air | Sari + Yonas | Jordan absent by default; Wildcard eligible |
+| 07 | Data Breach / Exposure | Leila + Li | Jordan mentioned/absent; Wildcard + Royce eligible |
+| 08 | App Attacks / Bad Input | Aya + Minh | Jordan supporting/edge; normally no Wildcard |
+| 09 | Virus Types / Patient Zero | Dmitri + Oksana | Jordan absent; Wildcard + Royce eligible |
+| 10 | Installation Types / Clean Install | Valeria | Jordan supporting mentor; Wildcard eligible |
+| 11 | Dive In / Dumpster Signal | Grace + Rafael | Jordan mentioned until emergency; Wildcard + Royce eligible |
+| 12 | IoT / House of Eyes | Jonas + Pylon | Jordan absent; Wildcard eligible; first strong masked Apex candidate |
+| 13 | IaaS/SaaS/PaaS / Shared Responsibility | Helen + Li + Yonas | Jordan edge/mentioned; Wildcard + conditional Apex |
+| 14 | CapEx vs OpEx / Own the Exit | Amira + Marc | Jordan absent/locked out; no Wildcard rescue |
+| 15 | Trappin From The Cloud / Elastic | Sari + Sable | Jordan mentioned until crisis; Wildcard + Apex + Royce eligible |
+| 16 | Per Diem / Road Kit | Jordan + Valeria | rare scripted Jordan PLAY mission; Royce/Apex eligible |
+| 17 | Patch Work / Trust Boundary | Aya | Jordan emotionally central but off-board Wildcard; conditional Apex |
+| 18 | Song #21 OPEN / Mission #18 OPEN | Leila + Helen + Jordan | shared scripted challenge-threshold episode |
+| 19 | RAID / Hot Site | Jordan + Royce + PRIM2 | scripted endgame |
+| 20 | Evil Twin / Mirror Room | PRIM2 + Jordan + Royce | scripted provenance/confession endgame |
+| 21 | Ghost In The Wires / Last Process | Jordan + PRIM2 | scripted succession; Royce secondary |
+
+Detailed character writes for all PRIM/McCluster mains and named Hitman characters are in `story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md`.
+
+---
+
+# 8. WATCH / PLAY continuity
+
+WATCH and PLAY are two interfaces to the same event.
 
 PLAY may change:
 - grade;
@@ -216,132 +210,90 @@ PLAY may change:
 - exposure;
 - resources;
 - relationship state;
-- preserved evidence;
+- evidence preserved;
 - subsystem state;
 - debrief detail;
 - later tactical modifiers.
 
 Hard spine events remain stable unless a deliberate branch is authored.
 
-Learning Mastery is scored separately from operational outcome.
+Learning Mastery remains separate from operational outcome.
 
 A Jordan or PRIM2 rescue may save people without granting technical mastery for work the player did not demonstrate.
 
 ---
 
-# 8. Canonical 21-episode spine
-
-The following order is locked. **Episode-owner assignment remains deliberately open where a current specialist episode file has not yet been rewritten under the ensemble standard.** Do not silently reuse old Jordan ownership just because a legacy draft did so.
-
-| # | Season | Song | Mission | Current ownership / gameplay note |
-|---:|---:|---|---|---|
-| 01 | S1E1 | High Alert | The Blip | Future-RAID opening centered on PRIM2/Jordan/Royce; campaign rewind follows. Scripted fragment, not ordinary Wildcard play. |
-| 02 | S1E2 | White Grey Black Hat | Permission Slip | Owner reassignment required; authorization/scope concept. Ordinary base roster should not default to Jordan. |
-| 03 | S1E3 | OSINT | Open Book | Owner reassignment required; public-source intelligence/corroboration. |
-| 04 | S2E1 | Anti Social Engineering | The Human Layer | Strong candidate for non-Jordan social-entry character ownership; exact owner must be deliberately locked. |
-| 05 | S2E2 | Red Blue Purple White Team | Four Colors | Strong Chioma/team-leadership ownership candidate; Jordan may support without owning. |
-| 06 | S2E3 | Got Wifi | Dead Air | Ensemble communications/life-safety mission; exact owner must be locked. |
-| 07 | S3E1 | Data Breach | Exposure | Ensemble privacy/trust mission; exact owner must be locked. |
-| 08 | S3E2 | App Attacks | Bad Input | Strong Aya/Minh/Leila technical-human ownership candidates; exact owner open. |
-| 09 | S3E3 | Virus Types | Patient Zero | Ensemble trust/blame/containment mission; exact owner open. |
-| 10 | S4E1 | Installation Types | Clean Install | Relationship/placement/installation concept; old Jordan/Aya assumptions require deliberate review. |
-| 11 | S4E2 | Dive In | Dumpster Signal | Recon/evidence/hidden-architecture episode; owner open. |
-| 12 | S4E3 | IoT | House of Eyes | Strong Jonas/Pylon/Aya cyber-physical ownership potential; owner open. |
-| 13 | S5E1 | IaaS/SaaS/PaaS | Shared Responsibility | Strong Li/Yonas/Helen shared-responsibility ownership potential; owner open. |
-| 14 | S5E2 | CapEx vs OpEx | Own the Exit | Strong Marc/Helen/operations-finance ownership potential; owner open. |
-| 15 | S5E3 | Trappin From The Cloud | Elastic | Multi-site/cloud/global ensemble operation; owner open. |
-| 16 | S6E1 | Per Diem | Road Kit | Field-economics/deployment-life ensemble mission; owner open. |
-| 17 | S6E2 | Patch Work | Trust Boundary | Aya/Jordan relationship and hidden-institution pressure may matter, but exact owner must follow current Aya/Hana canon. |
-| 18 | S6E3 | Song #21 OPEN | Mission #18 OPEN | Locked story function: verified evidence pushes Jordan from investigation to deciding PRIM2 must be reached/challenged; exact song/title/owner structure remains open. |
-| 19 | S7E1 | RAID (HOT SITE) | Hot Site | Shared PRIM2/Jordan/Royce endgame. Jordan and Royce scripted; ordinary intervention caps do not apply. |
-| 20 | S7E2 | Evil Twin | Mirror Room | Shared PRIM2/Jordan/Royce confession/provenance capstone. |
-| 21 | S7E3 | Ghost In The Wires | Last Process | Jordan/PRIM2 primary authority-transfer episode; Royce secondary; Jordan becomes PRIM3 only after validated succession. |
-
-This table is intentionally conservative. It protects the ensemble redesign from premature owner locks while preserving the 21-episode order.
-
----
-
-# 9. High Alert memory interaction
+# 9. High Alert memory law
 
 The 17 memories shown during High Alert correspond to Episodes 02–18.
 
-A memory can show Jordan without making Jordan the owner of the corresponding episode.
-
-Canonical law:
+A fragment may feature Jordan while the later episode belongs to somebody else.
 
 > **The memory belongs to PRIM2's argument. The episode belongs to whoever changed because of it.**
 
-This lets the opening preserve Jordan as one target of PRIM2's diss while the season body remains genuinely ensemble-driven.
-
 ---
 
-# 10. Character preservation and loss
+# 10. Character preservation law
 
 Named characters are not generic soldiers.
 
-The tactical design should encourage the player to care enough about them that a scarce Wildcard/Apex call becomes an emotional decision.
-
-Default principle:
+The tactical system should make the player care enough about them that spending a scarce Wildcard/Apex authorization becomes emotionally meaningful.
 
 > **A bad turn should create danger and consequence before it creates reload pressure.**
 
-Downed characters may be recoverable where authored.
-Jordan/PRIM2 may arrive in time to prevent a future death.
-They cannot undo a completed death.
+Jordan/PRIM2 may prevent a future death where the current state is still recoverable. They cannot undo completed death.
 
-Story-locked deaths remain story-locked unless canon is deliberately revised.
+Story-locked deaths remain locked.
 
 ---
 
 # 11. Episode 18 protected function
 
-Do not invent/finalize Song #21 without owner lock.
+Song #21 remains open.
 
-Its story function is already canon:
+Its story function is locked:
 - technical trust hierarchy and human authority hierarchy reveal a dangerous shared-root property;
 - Jordan's concern becomes verified enough to justify action;
-- allies may split over what the evidence means;
+- Leila/Helen and the wider command ensemble confront the governance implications;
+- allies split over interpretation and response;
 - Jordan decides PRIM2 must be reached/challenged;
-- the formal succession/challenge architecture becomes materially relevant;
+- formal succession/challenge architecture becomes materially relevant;
 - the episode bridges directly into RAID.
-
-Its curriculum function remains the protected Security+ completion + Network+ infrastructure-integration slot unless deliberately revised.
 
 ---
 
 # 12. Finale authority
 
-For Episodes 19–21, current local episode files are authoritative expansions beneath `CANON.md`:
-- `episodes/S07E01-RAID-HOT-SITE.md`;
-- `episodes/S07E02-EVIL-TWIN.md`;
-- `episodes/S07E03-GHOST-IN-THE-WIRES.md`.
+Episodes 19–21 are expanded by:
+- `episodes/S07E01-RAID-HOT-SITE.md`
+- `episodes/S07E02-EVIL-TWIN.md`
+- `episodes/S07E03-GHOST-IN-THE-WIRES.md`
 
-No document may reintroduce:
+Do not reintroduce:
 - separate contemporary Benji;
 - Jordan/Benji as two finale survivors;
-- `Prime-00` as current formal identity;
-- Evil Twin as the old procedural SIM-swap infiltration;
-- Ghost as a first-time upload;
+- Prime-00 as current formal identity;
+- old procedural SIM-swap Evil Twin;
+- Ghost as first-time upload;
 - Jordan as PRIM3 before validated succession.
 
 ---
 
-# 13. Production order from here
+# 13. Episode rewrite order
 
-For each Episode 02–18 rewrite:
+For Episodes 02–18:
 
-1. choose the episode owner first;
-2. define the owner's human problem independent of Jordan;
-3. select the base playable roster without Jordan by default;
-4. decide whether Jordan is scripted, Wildcard-eligible or locked out;
-5. decide whether PRIM2 intervention is eligible;
-6. decide whether Royce incursion is eligible;
-7. bind the song concepts to the owner's actual problem;
-8. write WATCH and PLAY from the same event;
-9. write relationship/psychology residue forward;
-10. only then decide what Jordan-history breadcrumb, if any, belongs there.
-
-This prevents the show from becoming Jordan plus twenty satellites.
+1. preserve the locked owner from the ensemble development map;
+2. define that owner's human problem independent of Jordan;
+3. preserve/rebuild the useful technical incident from the existing local draft;
+4. assign a base playable roster without Jordan by default;
+5. decide Jordan scripted/Wildcard/locked-out state;
+6. decide PRIM2 Apex eligibility;
+7. decide Royce incursion eligibility;
+8. bind the song concept to the owner's psychological problem;
+9. write WATCH and PLAY as the same event;
+10. write relationship and psychology residue forward;
+11. add Jordan-history breadcrumbs only where earned.
 
 ---
 
