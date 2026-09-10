@@ -1,7 +1,7 @@
 ---
 status: CANON
 system: Seven-season episode progression
-version: 2.2.0
+version: 3.0.0
 branch: main
 ---
 
@@ -9,24 +9,29 @@ branch: main
 
 ## Locked format
 
-PRIM3 follows **seven academic years**.
+PRIM3 unfolds across **seven academic years**.
 
 - **7 seasons**
 - **3 episodes per season**
 - **21 episodes total**
 - **1 song = 1 episode = 1 mission**
-- WATCH target runtime remains approximately **9 minutes**, organized causally rather than as three disconnected equal blocks:
-  - human trigger / cold open establishes **why** the operation matters;
-  - music film becomes the stylized operational brief and teaches **what PRIM3 thinks should work**;
+- WATCH target runtime remains approximately **9 minutes**, organized causally:
+  - human trigger / cold open establishes why the operation matters;
+  - music film becomes the stylized operational brief and teaches what the team believes should work;
   - human escalation reaches the mission threshold;
   - WATCH shows the authored canonical action path.
-- PLAY expands the same event into full tactical decision space and is not constrained to the WATCH runtime; normal missions may run roughly 15–30 minutes and capstones may run longer/checkpointed.
+- PLAY expands the same event into tactical decision space; normal missions may run roughly 15–30 minutes and capstones may run longer/checkpointed.
 - Canonical dramatic rule: **the briefing teaches the model; the mission attacks the model.**
-- When PLAY begins, the viewer stops watching PRIM3 and becomes PRIM3 through the earned-omniscience R/E/T command interface.
+- PLAY places the viewer inside the current **PRIM mission/team operational perspective**. The player does **not** literally become Jordan or PRIM3 during ordinary pre-succession missions.
 
-Jordan's recurring summer policy fellowships happen **between seasons** and are not added to the 21 PRIM3 episodes. They may later form a separate Equity Uprise series/experience.
+Jordan's college progression provides important chronological continuity, but **episode ownership rotates across the ensemble**. Most global Episodes 02–18 should primarily deepen characters other than Jordan, even where he appears.
 
-See `EPISODE-MISSION-BIBLE.md` for the canonical causal story/mission spine and `EPISODE-CAUSE-AND-ENTERTAINMENT-AUTHORITY.md` for authoring requirements.
+Jordan's recurring summer policy fellowships happen **between seasons** and are not added to the 21-episode count. They may later support a separate Equity Uprise series/experience.
+
+See:
+- `EPISODE-MISSION-BIBLE.md`
+- `EPISODE-CAUSE-AND-ENTERTAINMENT-AUTHORITY.md`
+- `ENSEMBLE-POV-AUTHORITY.md`
 
 ## Seven-year order
 
@@ -54,22 +59,36 @@ See `EPISODE-MISSION-BIBLE.md` for the canonical causal story/mission spine and 
 | 20 | 7 | 2 | **Evil Twin** | **Mirror Room** | [S07E02](../episodes/S07E02-EVIL-TWIN.md) |
 | 21 | 7 | 3 | **Ghost In The Wires** | **Last Process** | [S07E03](../episodes/S07E03-GHOST-IN-THE-WIRES.md) |
 
-## Season emotional progression
+## Season-level emotional movement
 
-1. **Recognition** — Jordan is finally seen.
-2. **Belonging** — the cohort becomes family and loss becomes real.
-3. **Trust** — privacy, blame and institutional secrecy damage the group.
-4. **Commitment** — Jordan chooses deeper attachment to Aya and the work while discovering the hidden architecture.
-5. **Scale** — Prim3 becomes visible as part of a global machine.
-6. **Disillusionment** — Jordan learns how much of his path Prime shaped and decides the architecture must change.
-7. **Prime** — RAID defeats the man; Evil Twin reveals the board; Ghost asks what Jordan will become.
+These are **ensemble themes**, not instructions that Jordan must own each season.
+
+1. **Recognition** — people are seen by institutions, teammates and hidden systems, often incorrectly.
+2. **Belonging** — the multinational network becomes personally meaningful and loss becomes real.
+3. **Trust** — privacy, blame, evidence and institutional secrecy test relationships.
+4. **Commitment** — characters choose what people, work and institutions they will bind themselves to.
+5. **Scale** — the visible PRIM program is revealed as part of a much larger machine.
+6. **Disillusionment** — hidden authority, captured loyalties and incomplete information become impossible to ignore.
+7. **Succession** — RAID defeats PRIM2 physically; Evil Twin reveals the board; Ghost asks what PRIM3 will become.
+
+## Episode-ownership direction
+
+Detailed ownership will be locked episode-by-episode, but current authoring bias is:
+
+- **Global 01 / High Alert:** PRIM2 + Jordan + Royce.
+- **Global 02–18:** majority ensemble-owned; Jordan owns a minority outright.
+- Several episodes should use Jordan only as supporting/cameo/mention.
+- At least one ordinary-season episode should work with Jordan completely absent.
+- Aya/Hana/Kkeutori material should be distributed through Aya-owned or Aya-adjacent episodes rather than turned into Jordan exposition.
+- Royce/Hitman-side character development should occur before RAID without requiring Jordan's physical presence.
+- **Global 19–21:** succession naturally returns PRIM2/Jordan/Royce toward the center while still honoring accumulated ensemble consequences.
 
 ## Open Episode 18
 
 Do not invent/finalize Song #21 without owner lock.
 
-Its **story function is already canon**: it bridges `Patch Work` and `RAID` by taking Jordan from investigating Prime to choosing to reach Prime and trigger succession.
+Its **story function is canon**: it bridges `Patch Work` and `RAID` by taking Jordan from investigating PRIM2 to choosing to reach/challenge PRIM2 and trigger the succession path.
 
-Its **curriculum function is already canon**: Security+ completion + Network+ infrastructure integration, based on the remaining objective-gap audit.
+Its **curriculum function is canon**: Security+ completion + Network+ infrastructure integration, based on the remaining objective-gap audit.
 
-`CHAIN OF TRUST` / `TRUST ANCHOR` remains the working song/mission concept, not a locked final title.
+`CHAIN OF TRUST` / `TRUST ANCHOR` remains a working concept, not a locked final title.
