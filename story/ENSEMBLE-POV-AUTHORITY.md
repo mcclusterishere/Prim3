@@ -1,7 +1,7 @@
 ---
 status: CANON-AUTHORING-AUTHORITY
-system: ensemble POV / episode ownership / Jordan presence
-version: 1.0.0
+system: ensemble POV / episode ownership / Jordan presence / gameplay ownership
+version: 1.1.0
 branch: main
 ---
 
@@ -47,7 +47,7 @@ Examples:
 
 There is **no rule requiring Jordan to appear in every episode**.
 
-Allowed states include:
+Allowed narrative states include:
 
 ```text
 A — JORDAN-OWNED
@@ -182,7 +182,54 @@ Jordan's Wildcard status remains canon: he can cross operational lanes when pres
 
 ---
 
-# 8. WATCH / PLAY ensemble rule
+# 8. Gameplay ownership — Jordan is deliberately withheld
+
+The story's ensemble principle must be experienced mechanically.
+
+During **ordinary PLAY**, Jordan is not part of the normal selectable deployment roster.
+
+The player should spend the majority of campaign turns learning, risking and caring about the rest of the cast.
+
+Jordan can enter a playable mission in only three states:
+
+```text
+SCRIPTED
+The story specifically requires Jordan from launch.
+
+WILDCARD
+Jordan begins off-board and is requested after an eligible mission reaches CRITICAL.
+
+LOCKED OUT
+Jordan cannot participate because of story, geography, injury, secrecy, authorization or communications state.
+```
+
+A Jordan Wildcard arrival never changes the episode owner by itself.
+
+If Aya owns the episode before the call-up, Aya still owns the episode afterward. Jordan can save her plan, save her life, create an alternate route or help the team extract without taking her emotional climax away from her.
+
+The specialist gameplay authority is:
+
+`game/WILDCARD-INTERVENTION-AUTHORITY.md`
+
+Canonical escalation:
+
+```text
+ENSEMBLE TEAM
+    -> CRITICAL
+JORDAN / WILDCARD
+    -> eligible high-value mission remains CRITICAL
+PRIM2 / APEX INTERVENTION
+```
+
+The hostile board can answer with a **Royce Incursion**.
+
+The purpose is not to create a hero button. It is to turn attachment to the ensemble into a strategic resource decision.
+
+> **Everybody gets to be the hero. Jordan is who they call when heroism is not enough.**
+
+---
+
+# 9. WATCH / PLAY ensemble rule
 
 WATCH may shift POV cinematically between characters.
 
@@ -198,13 +245,14 @@ Use language such as:
 - player enters PRIM operational view;
 - player assumes mission control perspective;
 - player controls the current mission element;
-- player operates through assigned R/E/T/Defense/Wildcard viewpoints.
+- player operates through assigned R/E/T/Defense/support viewpoints;
+- player requests the Wildcard when eligible.
 
 Do not say "the player becomes PRIM3" during ordinary pre-succession missions.
 
 ---
 
-# 9. Character-advancement ledger
+# 10. Character-advancement ledger
 
 For every episode, record:
 
@@ -213,7 +261,12 @@ EPISODE OWNER:
 SECONDARY OWNER(S):
 JORDAN PRESENCE: A/B/C/D/E/F
 MISSION LEAD:
+BASE PLAYABLE ROSTER:
 PRIMARY PLAYABLE POV(S):
+JORDAN PLAY STATE: scripted / wildcard / locked out
+WILDCARD ELIGIBLE: yes/no + reason
+APEX ELIGIBLE: yes/no + reason
+ROYCE INCURSION ELIGIBLE: yes/no + reason
 WHO CHANGES MOST:
 RELATIONSHIP WRITE:
 SECRET LEARNED / MISLEARNED:
@@ -222,17 +275,18 @@ WHO IS ABSENT BUT CONSEQUENTIAL:
 NEXT CHARACTER WHO INHERITS THE RESIDUE:
 ```
 
-This ledger prevents the ensemble from silently collapsing back into a Jordan-only structure.
+This ledger prevents the ensemble from silently collapsing back into a Jordan-only structure in either WATCH or PLAY.
 
 ---
 
-# 10. Distribution target
+# 11. Distribution target
 
 Do not lock an exact episode quota until detailed episode ownership is reassigned, but use the following authoring bias:
 
 - Jordan should own a **minority** of Episodes 02–18 outright;
+- ordinary PLAY should default to a base roster that does **not** include Jordan;
 - several episodes should place him in supporting/cameo/mentioned-only status;
-- at least one ordinary-season episode should prove the series can work with Jordan entirely absent;
+- at least one ordinary-season episode should prove the series can work with Jordan entirely absent and unavailable as Wildcard;
 - no major recurring character should require Jordan's presence to justify their development;
 - final succession episodes naturally increase Jordan/PRIM2/Royce ownership again.
 
@@ -240,7 +294,7 @@ This is a bias, not a mechanical quota.
 
 ---
 
-# 11. Title and succession interaction
+# 12. Title and succession interaction
 
 The ensemble structure strengthens the title reveal.
 
@@ -260,7 +314,7 @@ Both readings are true.
 
 ---
 
-# 12. Governing thematic statement
+# 13. Governing thematic statement
 
 PRIM3 is not "the chosen man meets interesting side characters."
 
