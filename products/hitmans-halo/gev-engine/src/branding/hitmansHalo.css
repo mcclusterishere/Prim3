@@ -1,0 +1,59 @@
+:root[data-product="hitmans-halo"] {
+  --hh-ink: #050505;
+  --hh-panel: rgba(7, 7, 9, 0.9);
+  --hh-red: #ff263c;
+  --hh-red-soft: rgba(255, 38, 60, 0.22);
+  --hh-white: #f7f7f5;
+  --hh-muted: #a7a7aa;
+  --hh-line: rgba(255, 255, 255, 0.15);
+}
+
+body.hitmans-halo {
+  background: var(--hh-ink);
+}
+
+body.hitmans-halo #title-bar {
+  letter-spacing: 0.02em;
+}
+
+body.hitmans-halo #title-bar h1 {
+  color: var(--hh-white);
+  text-shadow: 0 0 28px var(--hh-red-soft);
+}
+
+body.hitmans-halo #title-bar h1 > span:last-child {
+  font-size: 0;
+}
+
+body.hitmans-halo #title-bar h1 > span:last-child::after {
+  content: "HITMAN'S HALO";
+  font-size: 1.55rem;
+  letter-spacing: 0.11em;
+  font-weight: 700;
+}
+
+body.hitmans-halo .title-accent,
+body.hitmans-halo .indicator-value,
+body.hitmans-halo .cockpit-kicker,
+body.hitmans-halo .cockpit-context-kicker,
+body.hitmans-halo .cockpit-route-kicker {
+  color: var(--hh-red);
+}
+
+body.hitmans-halo #style-indicator,
+body.hitmans-halo .cockpit-context-window,
+body.hitmans-halo .cockpit-signal-window {
+  background: var(--hh-panel);
+  border-color: var(--hh-line);
+  backdrop-filter: blur(14px);
+}
+
+body.hitmans-halo button:focus-visible,
+body.hitmans-halo [role="button"]:focus-visible {
+  outline: 2px solid var(--hh-red);
+  outline-offset: 2px;
+}
+
+body.hitmans-halo #toast {
+  border-color: var(--hh-line);
+}
