@@ -1,128 +1,140 @@
-# Owner-hosted GEV cost model
+# Seek First / GEV Cost Model — September 2026
 
 **Verified:** 2026-09-10  
-**Scope:** one authenticated owner, full Seek First / God's Eye View runtime, not public multi-user SaaS.
+**Scope:** owner-first Seek First Superset UI using the existing canonical McCluster Worker/Supabase backend.
 
-Prices are external and may change. Re-check provider pricing before materially scaling usage.
+> This document supersedes the earlier assumption that an additional DigitalOcean VM is required for owner hosting.
 
-## Recommended owner stack
+## Canonical architecture
 
-| Component | Recommended starting choice | Monthly budget |
+```text
+Seek First Superset viewer
+   -> canonical McCluster authentication
+   -> api.mccluster.org/v1/seek-first/*
+   -> Cloudflare Worker / Durable Objects / provider adapters
+   -> Supabase spatial plane
+   -> provider APIs
+```
+
+A separate VM is optional specialized compute/ingest infrastructure, not the baseline backend.
+
+## Fixed-cost bands
+
+| Band | Components | Incremental fixed target |
 |---|---|---:|
-| VM | DigitalOcean Basic, 4 GiB RAM / 2 vCPU / 80 GiB SSD | $24.00 |
-| VM backup | Weekly backup, optional | $4.80 |
-| Cloudflare Tunnel + Access | Free tier, owner-only | $0.00 |
-| Domain/subdomain | Existing domain, e.g. `prime.mcluster.org` | $0 incremental |
-| Google 3D Tiles / Places | Pay-as-you-go with free monthly caps | $0 target |
-| Cesium ion | Not required for owner V1 when using direct Google / fallback map sources | $0 target |
-| OpenSky | Standard/anonymous credit model | $0 target |
-| AISStream | Free API key / WebSocket | $0 target |
-| NASA FIRMS | Free MAP_KEY | $0 target |
-| TomTom | Free monthly request allowance | $0 target |
-| OpenAI Realtime/HUD | Usage based; set a provider budget | $10 suggested initial cap |
+| Existing-stack prototype | existing Worker + existing Supabase plan + static viewer + public/open feeds | ~$0 if current included quotas suffice |
+| Reliable owner production | Workers Paid + Supabase Pro, if neither is already paid | about $30/month |
+| Rich owner console | above + deliberately capped Google/AI usage | target ~$30–75/month |
+| Research-enhanced | approved student/academic/nonprofit data programs | often $0 direct source cost but lane/terms restricted |
+| Multi-user product | production DB/compute + commercial provider licensing | usage/contract driven |
 
-### Practical total
+## Current platform references
 
-- **Bare owner runtime:** about **$24/month** before usage-based APIs.
-- **Recommended owner runtime with weekly VM backup:** about **$28.80/month** before usage-based APIs.
-- **Recommended initial all-in budget ceiling:** **$40/month** by adding a $10 OpenAI budget and keeping Google/TomTom within free caps.
-- This is a budget target, not a guarantee: Google/OpenAI usage can exceed it unless provider-side quotas/budgets are configured.
+### Cloudflare Workers
 
-## Current price references
+Current Workers Paid minimum: **$5/month per account**, with increased included usage for Workers/Pages Functions/KV/Hyperdrive and Durable Objects eligibility. If the McCluster account is already on Paid, Seek First may add little or no fixed incremental Worker cost until usage crosses included allowances.
 
-### DigitalOcean
+Source: https://developers.cloudflare.com/workers/platform/pricing/
 
-Current Basic Droplet pricing lists 4 GiB / 2 vCPU / 80 GiB SSD / 4 TB transfer at $24/month. Weekly basic backups add 20% of Droplet cost; daily backups add 30%.
+### Supabase
 
-Sources:
-- https://www.digitalocean.com/pricing/droplets
-- https://docs.digitalocean.com/products/backups/details/pricing/
+Current pricing:
+- Free: $0, 500 MB database, 50k MAU, 5 GB egress; project can pause after one week of inactivity.
+- Pro: from **$25/month**, 8 GB disk, 100k MAU, 250 GB egress, daily backups, and $10/month compute credit currently covering one Micro project.
 
-### AWS Lightsail alternative
+For an owner-only prototype, Free can be adequate if the project is already active. For a dependable production control/data plane, budget Pro unless an existing paid plan already covers the project.
 
-A comparable Lightsail Linux/Unix bundle with public IPv4 is currently $24/month for 4 GB RAM, 2 vCPU, 80 GB SSD and 4 TB transfer. It is a valid alternative if AWS is preferred.
-
-Source:
-- https://docs.aws.amazon.com/lightsail/latest/userguide/amazon-lightsail-bundles.html
-
-### Cloudflare Access
-
-Cloudflare's Zero Trust free tier currently covers teams under 50 users. That is sufficient for a single-owner authentication gate in front of GEV.
-
-Source:
-- https://www.cloudflare.com/sase/products/access/
+Source: https://supabase.com/pricing
 
 ### Google Maps Platform
 
-Current Google Maps Platform pay-as-you-go pricing includes:
+Photorealistic 3D Tiles currently include **1,000 free monthly billable events**, then **$6 per 1,000** in the first paid tier. Other Maps/Places SKUs have their own free caps.
 
-- Photorealistic 3D Tiles: first 1,000 billable events/month free, then $6.00 per 1,000 in the first paid tier.
-- Places Nearby Search Pro: first 5,000 events/month free, then $32.00 per 1,000 in the first paid tier.
+Verified Google for Nonprofits organizations may apply to Public Programs for additional credits; the current nonprofit program advertises Google Maps Platform credits starting at **$250/month** for approved organizations.
 
-For a single owner, keep usage below the free caps initially and configure provider quotas/budget alerts.
-
-Source:
+Sources:
 - https://developers.google.com/maps/billing-and-pricing/pricing
-
-### Cesium ion
-
-Cesium Community is currently free for eligible personal/non-commercial use. Commercial individual pricing is currently $149/month. The owner V1 does not require a paid Cesium plan because Seek First can use a direct Google Maps key and has keyless/fallback map sources.
-
-Source:
-- https://cesium.com/platform/cesium-ion/pricing/
+- https://developers.google.com/maps/billing-and-pricing/public-programs
 
 ### OpenAI Realtime
 
-Seek First supports a standard and mini voice tier. Current published rates include:
+AI voice/HUD is variable usage, not a fixed hosting cost. Default the owner experience to a lower-cost realtime model tier and enforce provider-side project limits in addition to application-side per-session guards.
 
-- `gpt-realtime-2.1`: text $4/M input, $24/M output; audio $32/M input, $64/M output.
-- `gpt-realtime-2.1-mini`: text $0.60/M input, $2.40/M output; audio $10/M input, $20/M output.
+### Cesium ion
 
-Use Mini for routine map interaction when cost matters and Standard when higher reasoning/tool reliability is worth the spend. The app also contains per-session spend guards, but a provider-side monthly usage limit remains the hard financial backstop.
+Do not make a paid Cesium plan a V1 requirement. Use Google direct 3D where appropriate plus open/keyless basemap/terrain fallbacks. Add paid Cesium only if its commercial asset/terrain/streaming capabilities create measurable value that alternatives do not.
 
-Sources:
-- https://developers.openai.com/api/docs/models/gpt-realtime-2.1
-- https://developers.openai.com/api/docs/models/gpt-realtime-2.1-mini
+## Data-source cost strategy
 
-### OpenSky
+### Prefer $0/public sources first
 
-OpenSky uses API credits rather than a normal per-request dollar bill for standard access. Current quotas include 400 daily credits anonymously and 4,000 daily credits for a standard authenticated user per endpoint bucket. The application already has adaptive caching to conserve credits.
+Examples already in the McCluster source registry:
+- Census
+- EIA
+- BLS
+- FRED
+- USAspending
+- Grants.gov
+- EPA
+- USGS
+- NHTSA
+- CelesTrak
+- OSM/Overpass
+- GDELT
+- NASA FIRMS
+- Copernicus
 
-Source:
-- https://openskynetwork.github.io/opensky-api/rest.html
+High-value public additions planned:
+- National Weather Service
+- OpenFEMA
+- NASA EONET v3
+- CISA KEV
+- NIST NVD 2.0
+- NOAA/NCEI climate data
 
-### AISStream
+### Academic/nonprofit sources are not automatically commercial sources
 
-AISStream advertises its real-time WebSocket feed as free. Keep the API key server-side; its own documentation explicitly tells web applications to consume the WebSocket on the backend and proxy only needed data to clients.
+The canonical McCluster entitlement firewall must preserve source terms. Student/nonprofit eligibility can legitimately strengthen the owner/research experience while the player-facing/commercial lane uses only separately licensed sources.
 
-Sources:
-- https://aisstream.io/
-- https://aisstream.io/documentation
+Important examples:
+- Planet Education & Research Basic is free/limited but non-commercial research only.
+- OpenSky research access can be enhanced for institutional researchers, but its published terms require a written license for operational integration into a live product/service.
+- Google/Mapbox nonprofit programs may subsidize approved nonprofit use without automatically converting the entitlement into unrestricted commercial redistribution rights.
 
-### NASA FIRMS
+## External credit opportunities
 
-FIRMS MAP_KEY registration is free. The documented default limit is 5,000 transactions per 10-minute interval.
+These can fund **optional** compute/storage/processing without moving backend authority away from McCluster.
 
-Source:
-- https://firms.modaps.eosdis.nasa.gov/api/map_key/
+- Microsoft for Nonprofits: currently **$2,000/year Azure credit** for eligible nonprofits.
+- AWS Nonprofit Credit Program: currently advertises **up to $5,000 AWS Promotional Credit** for eligible nonprofits; exact available offer/partner path must be verified at application time.
+- Azure for Students: currently **$100 credit** for eligible full-time students.
+- GitHub Student Developer Pack: useful for current partner tooling, but the DigitalOcean offer is no longer a 2026 budget lever; GitHub announced it ended July 31, 2026 and prior promotional credits expired August 1, 2026.
+- Cloudflare Project Galileo: potentially valuable Business/Zero Trust/Workers security benefits for qualifying vulnerable public-interest organizations, not a generic nonprofit free-hosting entitlement.
 
-### TomTom
+Full program and licensing ledger lives in the canonical backend repository at:
+`docs/control-plane/SEEK-FIRST-COST-AND-ELIGIBILITY-LEDGER-2026-09.md`.
 
-TomTom currently advertises 200,000 free monthly requests for relevant map APIs. Seek First also has an application-side daily tile budget governor.
+## When a VM becomes justified
 
-Source:
-- https://docs.tomtom.com/pricing
+Do **not** provision a VM just because GEV is visually heavy; Cesium/WebGL rendering happens mostly on the client.
 
-## Scale trigger
+Add a subordinate VM/container only when measured workloads require it, such as:
+- persistent feed processing that is uneconomical/inappropriate at the edge;
+- bulk geospatial ETL;
+- image/raster processing;
+- local/dedicated model inference;
+- heavy media transforms;
+- large cache/materialization jobs.
 
-Do not pay for a larger VM merely because the browser renders a large 3D globe. Cesium/WebGL rendering happens primarily on the client device. Scale the VM when observed server metrics show pressure from proxy concurrency, live AIS ingest, cache memory, media proxying or multiple simultaneous users.
+At that point a ~$24/month 4 GiB / 2-vCPU instance remains a reasonable first compute node, but it is controlled by the canonical backend rather than becoming a second credential broker.
 
-Suggested upgrade trigger:
-- sustained memory >75%;
-- sustained CPU >70%;
-- swap pressure;
-- proxy latency increasing under ordinary use;
-- multiple concurrent authenticated users;
-- AIS/CCTV workload competing with other proxy traffic.
+## Cost-control invariants
 
-At that point, move to 8 GiB / 4 vCPU and begin extracting the Vite middleware into a dedicated production API service.
+1. Provider-side hard budget/quota before paid API activation.
+2. Per-source usage telemetry by user/org/lane.
+3. Cache where provider terms allow.
+4. Bounding-box/viewport queries instead of global polling.
+5. Source fallbacks where semantics permit.
+6. Browser-visible tokens restricted by origin/API/asset scope.
+7. Academic/nonprofit entitlements never silently fund a commercial consumer.
+8. No larger infrastructure until measurements justify it.
