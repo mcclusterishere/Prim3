@@ -1,7 +1,7 @@
 # PRIM3 Canon Register
 
 **Status:** Foundation canon (merged to main)  
-**Continuity version:** 0.4.6  
+**Continuity version:** 0.4.7  
 **Authority:** Matthew McCluster  
 **Rule:** If material conflicts with this register, this register wins until deliberately revised.
 
@@ -95,6 +95,18 @@ Brute multinational; parallel climb centered on Benji.
 
 ### Apex
 Where still referenced: parent/black-site layer above fronts. Do not contradict McCluster holding-company notes in `story/MCCLUSTER-CORP.md`.
+
+## Infrastructure curriculum law
+
+- **PRIM3 is infrastructure-first.** Its primary educational purpose is to develop deep, durable systems/infrastructure literacy: physical/data-center infrastructure, networking, compute/servers, storage/data protection, operating systems/Linux, virtualization/cloud, observability/operations, automation/IaC, resilience/continuity, and infrastructure security/identity.
+- Cybersecurity, application security, data, software, governance, finance, AI and other adjacent domains remain valuable, but they are taught principally as workloads, risks, controls, dependencies or operating contexts that infrastructure must support, observe, protect, recover or constrain.
+- `learning/INFRASTRUCTURE-FIRST-CURRICULUM-AUTHORITY.md` is the curriculum-priority authority beneath this register.
+- Every substantial non-infrastructure concept should expose its infrastructure dependency: what underlying physical/network/compute/storage/OS/cloud layer supports it, how infrastructure observes it, what can constrain it, and what fails or must recover when it goes wrong.
+- Core infrastructure knowledge must recur across multiple episodes at increasing depth: **introduced -> applied -> reused -> integrated**. One-song vocabulary exposure is insufficient for backbone concepts.
+- Infrastructure must exist as mechanically meaningful battlefield state: racks, network paths, switching/routing, media, power, cooling, server/storage state, hypervisors/containers, identity/control planes, telemetry, backup/failover and edge systems should be operable, degradable, recoverable or defensible where relevant.
+- **Song #21 / Episode 18 remains deliberately open as the final infrastructure-gap payload.** It should be written after objective-gap review and preferentially close high-value missing infrastructure areas—especially modern/emerging infrastructure—rather than merely filling an album slot.
+- `learning/COMPTIA-OBJECTIVE-ALIGNMENT-2026.md` records the current external objective-gap audit. It is a design aid, not a claim of CompTIA endorsement, guaranteed coverage or exam-pass readiness.
+- External certification mappings may change when vendors revise exams; PRIM3's internal concept IDs and curriculum canon remain stable, with mapping layers updated to current external objectives.
 
 ## Music and episode law
 
