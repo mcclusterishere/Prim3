@@ -1,0 +1,845 @@
+status: CANON
+system: concept-mechanic-binding-resolver
+version: 1.0.0
+owner: Matthew McCluster
+purpose: >-
+  Ensure every concept in learning/SONG-CONCEPT-INDEX.md resolves to a default
+  battlefield role, task-atom family, lab pattern, observable evidence, tactical
+  output, error consequence, and verification method even before an episode-specific
+  override is authored.
+
+resolution_order:
+  - exact_concept_override
+  - namespace_binding
+  - mission_specific_override
+notes:
+  - Mission-specific files may increase specificity but may not detach a primary concept from observable player behavior.
+  - Exact offensive-security concepts must remain defensive, recognition-based, architectural, or sandboxed.
+  - If a concept namespace is absent from this registry, the build should flag it as UNBOUND rather than silently inventing a generic hack mechanic.
+
+namespace_bindings:
+  professional:
+    default_role: shared
+    secondary_roles: [R, E, T]
+    patterns: [Authorization / Scope Overlay, Incident Timeline Correlation]
+    atoms: [OBSERVE, CLASSIFY, PRIORITIZE, DOCUMENT, AUTHORIZE]
+    world_objects: [briefing_board, finding_report, evidence_record, debrief_console]
+    observable_evidence: [scope_text, role_history, interview_claims, findings, remediation_state]
+    battlefield_output: [authorization_clarity, standing, debrief_quality, objective_priority]
+    wrong_consequence: [wasted_AP, compliance_loss, bad_priority]
+    verification: [document_crosscheck, sponsor_or_owner_confirmation]
+  security:
+    default_role: shared
+    secondary_roles: [R, T, E]
+    patterns: [Authorization / Scope Overlay, Containment Boundary, Authentication Confidence Matrix, Application Trust Boundary Graph]
+    atoms: [OBSERVE, CLASSIFY, COMPARE, AUTHORIZE, ISOLATE, VERIFY]
+    world_objects: [security_console, scope_overlay, identity_panel, defensive_test_board]
+    observable_evidence: [alerts, policy_state, identity_state, trust_boundaries]
+    battlefield_output: [detection_change, access_state, containment_state, threat_information]
+    wrong_consequence: [false_positive, overreach, missed_containment, exposure]
+    verification: [independent_telemetry, policy_check, service_test]
+  governance:
+    default_role: shared
+    secondary_roles: [E, T, R]
+    patterns: [Authorization / Scope Overlay]
+    atoms: [AUTHORIZE, CLASSIFY, PRIORITIZE, DOCUMENT]
+    world_objects: [ROE_overlay, access_station, sponsor_brief]
+    observable_evidence: [scope_boundary, emergency_condition, role_permission]
+    battlefield_output: [allowed_action_set, compliance_score, route_choice]
+    wrong_consequence: [standing_loss, compliance_penalty, unauthorized_shortcut]
+    verification: [scope_record, decision_log]
+  evidence:
+    default_role: R
+    secondary_roles: [T, E]
+    patterns: [Incident Timeline Correlation, Evidence Preservation / Seal, OSINT Evidence Board]
+    atoms: [OBSERVE, COMPARE, TRACE, PRESERVE, VERIFY, DOCUMENT]
+    world_objects: [evidence_board, telemetry_wall, evidence_locker]
+    observable_evidence: [source_agreement, custody_state, confidence]
+    battlefield_output: [evidence_token, confidence_up, future_intel]
+    wrong_consequence: [false_correlation, contamination, lower_confidence]
+    verification: [independent_source, custody_check]
+  hardware:
+    default_role: T
+    secondary_roles: [E, R]
+    patterns: [Hardware Compatibility Bench, Physical / Logical Port Match]
+    atoms: [OBSERVE, CLASSIFY, MATCH, TRACE, ALLOCATE, VERIFY]
+    world_objects: [hardware_bench, rack, component_tray]
+    observable_evidence: [interface_type, capacity, component_state, power_requirement]
+    battlefield_output: [service_capability, equipment_health, route_or_sensor_availability]
+    wrong_consequence: [incompatibility, lost_time, degraded_service]
+    verification: [device_state, service_test, physical_indicator]
+  software:
+    default_role: T
+    secondary_roles: [R]
+    patterns: [Patch / Version Dependency Board, Application Trust Boundary Graph]
+    atoms: [COMPARE, CLASSIFY, TRACE, SEQUENCE, CONFIGURE, VERIFY]
+    world_objects: [software_console, version_graph, code_review_board]
+    observable_evidence: [version, dependency, signed_state, behavior]
+    battlefield_output: [service_health, risk_reduction, restored_function]
+    wrong_consequence: [compatibility_failure, service_degradation, revalidation]
+    verification: [behavior_test, version_state, integrity_check]
+  systems:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Service Dependency Graph, Installation / Migration Planner, Recovery Priority Queue]
+    atoms: [TRACE, PRIORITIZE, SEQUENCE, CONFIGURE, RECOVER, VERIFY]
+    world_objects: [system_console, dependency_graph]
+    observable_evidence: [system_state, load, version, dependency]
+    battlefield_output: [service_health, availability, route_state]
+    wrong_consequence: [downtime, instability, lost_window]
+    verification: [end_to_end_test, state_comparison]
+  assessment:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Authorization / Scope Overlay, Application Trust Boundary Graph]
+    atoms: [AUTHORIZE, OBSERVE, CLASSIFY, DOCUMENT, VERIFY]
+    world_objects: [assessment_console, scope_board, finding_report]
+    observable_evidence: [known_information_level, scope, finding_state]
+    battlefield_output: [finding_token, remediation_option, compliance]
+    wrong_consequence: [scope_overreach, bad_finding, wasted_AP]
+    verification: [controlled_test_result, owner_scope_check]
+  forensics:
+    default_role: T
+    secondary_roles: [E, R]
+    patterns: [Evidence Preservation / Seal, Hash / Integrity Verification]
+    atoms: [PRESERVE, COMPARE, VERIFY, DOCUMENT, SEAL]
+    world_objects: [evidence_terminal, storage_device, evidence_locker]
+    observable_evidence: [custody, source_state, integrity_reference]
+    battlefield_output: [evidence_integrity, sealed_take]
+    wrong_consequence: [contamination, partial_take, additional_revalidation]
+    verification: [integrity_check, custody_record]
+  network:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Service Dependency Graph, Physical / Logical Port Match, Wireless Spectrum / Coverage Map]
+    atoms: [MAP, TRACE, MATCH, ROUTE, CONFIGURE, VERIFY]
+    world_objects: [network_map, rack, switchboard, route_overlay]
+    observable_evidence: [link_state, path, layer, traffic_or_service_state]
+    battlefield_output: [route_open, communications, sensor_availability, door_or_service_state]
+    wrong_consequence: [lost_connectivity, wrong_route, false_service_confidence]
+    verification: [end_to_end_test, independent_path_state]
+  intel:
+    default_role: R
+    secondary_roles: [T, E]
+    patterns: [OSINT Evidence Board, Incident Timeline Correlation]
+    atoms: [OBSERVE, COMPARE, MAP, TRACE, CLASSIFY, DOCUMENT]
+    world_objects: [evidence_board, world_map, source_browser]
+    observable_evidence: [public_record, metadata, source_quality, corroboration]
+    battlefield_output: [route_reveal, evidence_token, confidence, target_location]
+    wrong_consequence: [false_lead, wasted_approach, exposure]
+    verification: [independent_source, physical_corroboration]
+  observability:
+    default_role: R
+    secondary_roles: [T]
+    patterns: [Incident Timeline Correlation, Service Dependency Graph]
+    atoms: [OBSERVE, COMPARE, TRACE, PRIORITIZE, VERIFY]
+    world_objects: [dashboard, log_wall, telemetry_console]
+    observable_evidence: [logs, metrics, event_timestamps, service_health]
+    battlefield_output: [picture_improvement, scope_reduction, early_warning]
+    wrong_consequence: [noise_chasing, late_warning, broad_response]
+    verification: [second_source, service_or_physical_confirmation]
+  team:
+    default_role: shared
+    secondary_roles: [R, E, T]
+    patterns: [Authorization / Scope Overlay, Incident Timeline Correlation]
+    atoms: [CLASSIFY, PRIORITIZE, WARN, DOCUMENT]
+    world_objects: [exercise_board, role_assignment_overlay]
+    observable_evidence: [role, exercise_state, live_vs_simulated_event]
+    battlefield_output: [role_bonus, information_sharing, deconfliction]
+    wrong_consequence: [duplicated_work, objective_conflict, missed_real_event]
+    verification: [shared_picture, after_action_review]
+  wireless:
+    default_role: R
+    secondary_roles: [T, E]
+    patterns: [Wireless Spectrum / Coverage Map]
+    atoms: [MAP, COMPARE, CLASSIFY, TRACE, CONFIGURE, VERIFY]
+    world_objects: [spectrum_map, AP, relay, wireless_console]
+    observable_evidence: [signal_strength, approved_inventory, channel_or_source_state, backhaul, auth_state]
+    battlefield_output: [communications, detection_change, responder_coordination]
+    wrong_consequence: [bars_without_service, false_positive, degraded_coverage]
+    verification: [approved_inventory_match, external_service_test]
+  bluetooth:
+    default_role: R
+    secondary_roles: [T]
+    patterns: [Wireless Spectrum / Coverage Map, Authentication Confidence Matrix]
+    atoms: [OBSERVE, CLASSIFY, ISOLATE, VERIFY]
+    world_objects: [short_range_device_map, device_inventory]
+    observable_evidence: [device_presence, pairing_or_trust_state]
+    battlefield_output: [device_risk_state, alert]
+    wrong_consequence: [false_device_assumption, missed_risk]
+    verification: [inventory_match, controlled_device_state]
+  crypto:
+    default_role: T
+    secondary_roles: [R]
+    patterns: [Hash / Integrity Verification, Authentication Confidence Matrix]
+    atoms: [COMPARE, CLASSIFY, VERIFY, DOCUMENT]
+    world_objects: [integrity_console, identity_dashboard]
+    observable_evidence: [reference_value, protected_state, authentication_property]
+    battlefield_output: [integrity_confidence, trusted_state]
+    wrong_consequence: [false_assurance, extra_validation]
+    verification: [independent_reference, expected_property_check]
+  incident:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Incident Timeline Correlation, Containment Boundary, Evidence Preservation / Seal, Recovery Priority Queue]
+    atoms: [OBSERVE, CLASSIFY, PRIORITIZE, ISOLATE, PRESERVE, RECOVER, VERIFY]
+    world_objects: [incident_console, timeline_wall, service_graph]
+    observable_evidence: [indicators, transfer_state, access_events, affected_services]
+    battlefield_output: [containment, service_health, scope_confidence, threat_route_change]
+    wrong_consequence: [continued_spread, excessive_shutdown, evidence_loss]
+    verification: [independent_telemetry, end_to_end_service_test]
+  physical:
+    default_role: E
+    secondary_roles: [R, T]
+    patterns: [Evidence Preservation / Seal, Physical / Logical Port Match, OSINT Evidence Board]
+    atoms: [OBSERVE, ROUTE, HOLD, MATCH, PRESERVE, DOCUMENT]
+    world_objects: [door, asset, evidence_zone, rack, loading_area]
+    observable_evidence: [label, location, custody, hazard]
+    battlefield_output: [control_state, physical_corroboration, safe_route]
+    wrong_consequence: [exposure, contamination, unsafe_route]
+    verification: [physical_observation, inventory_match]
+  rfid:
+    default_role: R
+    secondary_roles: [T, E]
+    patterns: [Authentication Confidence Matrix, Hardware Compatibility Bench]
+    atoms: [OBSERVE, CLASSIFY, VERIFY]
+    world_objects: [badge_reader, tagged_asset]
+    observable_evidence: [tag_presence, authorized_identity_or_asset_record]
+    battlefield_output: [access_confidence, asset_tracking]
+    wrong_consequence: [false_identity_or_asset_assumption]
+    verification: [second_factor_or_inventory_check]
+  vendor:
+    default_role: R
+    secondary_roles: [T]
+    patterns: [Incident Timeline Correlation, Cloud Shared Responsibility Stack]
+    atoms: [TRACE, COMPARE, CLASSIFY, DOCUMENT]
+    world_objects: [vendor_dependency_graph, contract_or_inventory_panel]
+    observable_evidence: [dependency, access_event, service_owner]
+    battlefield_output: [risk_boundary, scope_change]
+    wrong_consequence: [unsupported_root_cause_claim, wrong_owner_response]
+    verification: [independent_telemetry, responsibility_record]
+  cloud:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Cloud Shared Responsibility Stack, Service Dependency Graph, Capacity / CapEx / OpEx Allocation]
+    atoms: [MAP, CLASSIFY, TRACE, ALLOCATE, CONFIGURE, VERIFY]
+    world_objects: [cloud_stack_dashboard, capacity_console]
+    observable_evidence: [layer_owner, resource_state, service_dependency]
+    battlefield_output: [availability, capacity, communications, service_health]
+    wrong_consequence: [wrong_layer_change, resource_waste, downtime]
+    verification: [end_to_end_test, owner_layer_check]
+  asset:
+    default_role: E
+    secondary_roles: [R, T]
+    patterns: [Hardware Compatibility Bench, Evidence Preservation / Seal]
+    atoms: [OBSERVE, CLASSIFY, MATCH, PRESERVE, DOCUMENT]
+    world_objects: [asset_station, tagged_device, evidence_locker]
+    observable_evidence: [asset_identity, compromise_state, custody]
+    battlefield_output: [asset_trust_state, evidence]
+    wrong_consequence: [trusted_asset_misclassified, custody_loss]
+    verification: [inventory_record, independent_health_state]
+  identity:
+    default_role: T
+    secondary_roles: [E, R]
+    patterns: [Authentication Confidence Matrix]
+    atoms: [CLASSIFY, COMPARE, AUTHORIZE, ISOLATE, VERIFY]
+    world_objects: [identity_dashboard, badge_checkpoint, access_controller]
+    observable_evidence: [credential_state, factor_state, device_state, role]
+    battlefield_output: [access_state, responder_relationship, service_trust]
+    wrong_consequence: [false_assurance, denial_of_legitimate_access, unauthorized_route]
+    verification: [independent_factor, role_or_device_check]
+  app:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Application Trust Boundary Graph]
+    atoms: [TRACE, CLASSIFY, ISOLATE, CONFIGURE, VERIFY]
+    world_objects: [application_flow_graph, safe_mode_console]
+    observable_evidence: [input_path, trust_boundary, privilege, behavior]
+    battlefield_output: [dispatch_or_service_continuity, threat_control]
+    wrong_consequence: [privileged_path_exposed, service_degradation]
+    verification: [safe_test_flow, service_behavior]
+  web:
+    default_role: T
+    secondary_roles: [R]
+    patterns: [Application Trust Boundary Graph]
+    atoms: [TRACE, CLASSIFY, CONFIGURE, VERIFY]
+    world_objects: [browser_flow_board, policy_console]
+    observable_evidence: [origin_or_flow_state, policy_boundary]
+    battlefield_output: [application_safety_state, service_health]
+    wrong_consequence: [false_trust, service_breakage]
+    verification: [controlled_behavior_test]
+  debugger:
+    default_role: T
+    secondary_roles: []
+    patterns: [Patch / Version Dependency Board]
+    atoms: [OBSERVE, TRACE, COMPARE, VERIFY]
+    world_objects: [debug_console]
+    observable_evidence: [program_state, fault_location_abstracted]
+    battlefield_output: [diagnostic_confidence]
+    wrong_consequence: [wasted_AP, wrong_component_focus]
+    verification: [repeatable_safe_test]
+  malware:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Malware Symptom Triage, Containment Boundary]
+    atoms: [OBSERVE, MAP, CLASSIFY, ISOLATE, PRESERVE, RECOVER, VERIFY]
+    world_objects: [endpoint_map, quarantine_zone, triage_console]
+    observable_evidence: [symptom_bundle, propagation_relation, credential_or_service_effect]
+    battlefield_output: [containment, access_stability, restored_assets]
+    wrong_consequence: [continued_propagation, unnecessary_quarantine]
+    verification: [post_isolation_state, trusted_restore_test]
+    safety: defensive_only
+  imaging:
+    default_role: R
+    secondary_roles: [T]
+    patterns: [OSINT Evidence Board, Hardware Compatibility Bench]
+    atoms: [OBSERVE, COMPARE, MAP, VERIFY]
+    world_objects: [image_analysis_board, camera_or_scan_station]
+    observable_evidence: [geometry, visual_match, measurement]
+    battlefield_output: [physical_corroboration, topology_clue]
+    wrong_consequence: [false_match]
+    verification: [second_view_or_physical_confirmation]
+  data:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Evidence Preservation / Seal, Installation / Migration Planner]
+    atoms: [CLASSIFY, PRESERVE, ROUTE, VERIFY]
+    world_objects: [data_console, evidence_store, migration_board]
+    observable_evidence: [sensitivity, encryption_state, preservation_state]
+    battlefield_output: [take_integrity, privacy_state, recovery_option]
+    wrong_consequence: [data_loss, privacy_exposure, contaminated_take]
+    verification: [integrity_or_access_check]
+  os:
+    default_role: T
+    secondary_roles: [E, R]
+    patterns: [Installation / Migration Planner, Patch / Version Dependency Board]
+    atoms: [COMPARE, CLASSIFY, PRESERVE, SEQUENCE, CONFIGURE, VERIFY, RECOVER]
+    world_objects: [workstation_console, migration_station]
+    observable_evidence: [compatibility, version, user_data, boot_state]
+    battlefield_output: [workstation_availability, service_restore]
+    wrong_consequence: [downtime, incompatibility, lost_data_if_unpreserved]
+    verification: [boot_or_service_test]
+  backup:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Backup / Rollback Chain, Evidence Preservation / Seal]
+    atoms: [PRESERVE, COMPARE, PRIORITIZE, RECOVER, VERIFY]
+    world_objects: [backup_console, storage_target]
+    observable_evidence: [restore_point_age, confidence, dependency]
+    battlefield_output: [recovery_path, service_restore]
+    wrong_consequence: [stale_restore, lost_window]
+    verification: [post_restore_validation]
+  boot:
+    default_role: T
+    secondary_roles: []
+    patterns: [Installation / Migration Planner]
+    atoms: [CLASSIFY, SEQUENCE, CONFIGURE, VERIFY]
+    world_objects: [boot_configuration_station]
+    observable_evidence: [boot_target, compatibility]
+    battlefield_output: [system_availability]
+    wrong_consequence: [boot_failure, recovery_stage]
+    verification: [successful_controlled_boot]
+  cli:
+    default_role: T
+    secondary_roles: []
+    patterns: [Patch / Version Dependency Board, Installation / Migration Planner]
+    atoms: [OBSERVE, CONFIGURE, VERIFY]
+    world_objects: [abstracted_terminal_interface]
+    observable_evidence: [system_state]
+    battlefield_output: [configuration_or_diagnostic_state]
+    wrong_consequence: [state_unchanged_or_recovery_required]
+    verification: [independent_state_readout]
+    safety: no_live_target_commands_required
+  recovery:
+    default_role: T
+    secondary_roles: [E, R]
+    patterns: [Backup / Rollback Chain, Hot / Warm / Cold Site Failover, Recovery Priority Queue]
+    atoms: [COMPARE, PRIORITIZE, SEQUENCE, RECOVER, VERIFY]
+    world_objects: [recovery_console, continuity_board]
+    observable_evidence: [restore_source, readiness, dependency, RTO_pressure]
+    battlefield_output: [service_health, route_or_life_safety_restore]
+    wrong_consequence: [slow_restore, stale_state, resource_loss]
+    verification: [end_to_end_service_test]
+  privacy:
+    default_role: E
+    secondary_roles: [T, R]
+    patterns: [Evidence Preservation / Seal, Authorization / Scope Overlay]
+    atoms: [AUTHORIZE, HOLD, ROUTE, PRESERVE, DOCUMENT]
+    world_objects: [records_zone, evidence_room]
+    observable_evidence: [need_to_know, sensitive_record_location]
+    battlefield_output: [privacy_exposure, trust]
+    wrong_consequence: [response_driven_privacy_harm]
+    verification: [access_log_or_custody_check]
+  rf:
+    default_role: R
+    secondary_roles: [T, E]
+    patterns: [Wireless Spectrum / Coverage Map]
+    atoms: [MAP, OBSERVE, COMPARE, VERIFY]
+    world_objects: [RF_overlay, sensor_station]
+    observable_evidence: [signal_presence, movement_or_source_cue]
+    battlefield_output: [picture, route_or_detection_change]
+    wrong_consequence: [false_tracking_assumption]
+    verification: [second_sensor_or_physical_confirmation]
+  embedded:
+    default_role: T
+    secondary_roles: [E, R]
+    patterns: [Hardware Compatibility Bench, IoT Sensor Trust / Actuator Safety]
+    atoms: [OBSERVE, MATCH, TRACE, CONFIGURE, VERIFY]
+    world_objects: [embedded_controller, hardware_bench]
+    observable_evidence: [device_role, interface, sensor_or_actuator_state]
+    battlefield_output: [device_state, physical_system_effect]
+    wrong_consequence: [device_unavailable, unsafe_automation]
+    verification: [physical_and_digital_state]
+  iot:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [IoT Sensor Trust / Actuator Safety, Containment Boundary]
+    atoms: [COMPARE, CLASSIFY, TRACE, ISOLATE, CONFIGURE, VERIFY]
+    world_objects: [building_control_console, sensor_mosaic, device_map]
+    observable_evidence: [sensor_state, actuator_state, device_group, network_zone]
+    battlefield_output: [doors, lighting, HVAC, alarms, route, safety]
+    wrong_consequence: [unsafe_actuator_state, false_sensor_trust]
+    verification: [physical_observation_plus_telemetry]
+  device:
+    default_role: T
+    secondary_roles: [E]
+    patterns: [IoT Sensor Trust / Actuator Safety, Hardware Compatibility Bench]
+    atoms: [CLASSIFY, ISOLATE, CONFIGURE, VERIFY]
+    world_objects: [device_station]
+    observable_evidence: [device_state, identity, configuration]
+    battlefield_output: [trusted_device_state]
+    wrong_consequence: [misconfiguration, lost_service]
+    verification: [known_good_state_check]
+  safety:
+    default_role: E
+    secondary_roles: [R, T]
+    patterns: [Fail-Safe Physical State, IoT Sensor Trust / Actuator Safety]
+    atoms: [OBSERVE, PRIORITIZE, STABILIZE, ROUTE, VERIFY]
+    world_objects: [manual_override, life_safety_panel, hazard_zone]
+    observable_evidence: [physical_condition, sensor_confidence, occupant_state]
+    battlefield_output: [safe_route, hazard_reduction, civilian_safety]
+    wrong_consequence: [unsafe_entry, trapped_occupants, system_hazard]
+    verification: [physical_confirmation]
+  analytics:
+    default_role: R
+    secondary_roles: [T]
+    patterns: [Incident Timeline Correlation, Capacity / CapEx / OpEx Allocation]
+    atoms: [OBSERVE, COMPARE, AGGREGATE, PRIORITIZE, VERIFY]
+    world_objects: [analytics_dashboard]
+    observable_evidence: [metrics, trends, aggregated_sources]
+    battlefield_output: [forecast, priority, confidence]
+    wrong_consequence: [bad_forecast, wrong_priority]
+    verification: [later_observation_or_independent_metric]
+  reliability:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Recovery Priority Queue, Hot / Warm / Cold Site Failover, Service Dependency Graph]
+    atoms: [TRACE, PRIORITIZE, ALLOCATE, RECOVER, VERIFY]
+    world_objects: [availability_dashboard, continuity_board]
+    observable_evidence: [health, redundancy, dependency, failure_domain]
+    battlefield_output: [availability, failover_state, route_or_service]
+    wrong_consequence: [cascade, slow_restore, hidden_single_point_failure]
+    verification: [failure_or_recovery test in simulation]
+  finance:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Capacity / CapEx / OpEx Allocation]
+    atoms: [COMPARE, PRIORITIZE, ALLOCATE, VERIFY]
+    world_objects: [cost_capacity_board]
+    observable_evidence: [upfront_cost, ongoing_cost, utilization, ownership]
+    battlefield_output: [budget_state, capacity, later_recovery_options]
+    wrong_consequence: [overspend, undercapacity, future_constraint]
+    verification: [cost_and_load_projection]
+  capacity:
+    default_role: T
+    secondary_roles: [R]
+    patterns: [Capacity / CapEx / OpEx Allocation]
+    atoms: [OBSERVE, FORECAST, ALLOCATE, VERIFY]
+    world_objects: [capacity_dashboard]
+    observable_evidence: [load, headroom, demand]
+    battlefield_output: [service_health, resource_reserve]
+    wrong_consequence: [overload, resource_waste]
+    verification: [load_after_allocation]
+  architecture:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Service Dependency Graph, Capacity / CapEx / OpEx Allocation]
+    atoms: [MAP, TRACE, COMPARE, PRIORITIZE, VERIFY]
+    world_objects: [architecture_board]
+    observable_evidence: [component_relationship, cost_or_failure_domain]
+    battlefield_output: [design_decision, route_or_service_state]
+    wrong_consequence: [hidden_dependency, cost_or_resilience_problem]
+    verification: [scenario_test]
+  storage:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [RAID / Failure-Domain Builder, Backup / Rollback Chain, Evidence Preservation / Seal]
+    atoms: [CLASSIFY, MATCH, TRACE, CONFIGURE, RECOVER, VERIFY]
+    world_objects: [array_console, drive_bays, storage_dashboard]
+    observable_evidence: [layout, disk_state, parity_or_mirror_relation, capacity]
+    battlefield_output: [data_availability, evidence_or_service_state]
+    wrong_consequence: [degraded_array, data_unavailability, lost_time]
+    verification: [simulated_failure_or_health_check]
+  audio:
+    default_role: T
+    secondary_roles: [R]
+    patterns: [Hardware Compatibility Bench, Physical / Logical Port Match]
+    atoms: [CLASSIFY, MATCH, TRACE, VERIFY]
+    world_objects: [AV_panel, cable_patch]
+    observable_evidence: [connector_type, signal_path]
+    battlefield_output: [communications_or_media_state]
+    wrong_consequence: [no_signal, wrong_route]
+    verification: [output_test]
+  power:
+    default_role: E
+    secondary_roles: [T, R]
+    patterns: [Fail-Safe Physical State, Service Dependency Graph]
+    atoms: [OBSERVE, TRACE, STABILIZE, ROUTE, VERIFY]
+    world_objects: [UPS_panel, power_distribution, battery]
+    observable_evidence: [source_state, load, backup_state]
+    battlefield_output: [node_availability, lighting, doors, relay, life_safety]
+    wrong_consequence: [brownout, unsafe_state, lost_node]
+    verification: [physical_indicator_plus_system_health]
+  bus:
+    default_role: T
+    secondary_roles: []
+    patterns: [Hardware Compatibility Bench]
+    atoms: [CLASSIFY, MATCH, VERIFY]
+    world_objects: [hardware_bench]
+    observable_evidence: [slot_or_interface_capability]
+    battlefield_output: [component_function]
+    wrong_consequence: [incompatibility, lost_AP]
+    verification: [device_detected_or_service_test]
+  firmware:
+    default_role: T
+    secondary_roles: [R]
+    patterns: [Patch / Version Dependency Board]
+    atoms: [OBSERVE, COMPARE, SEQUENCE, CONFIGURE, VERIFY, RECOVER]
+    world_objects: [firmware_maintenance_console]
+    observable_evidence: [firmware_state, compatibility, integrity]
+    battlefield_output: [device_boot_or_security_state]
+    wrong_consequence: [device_unavailable, recovery_needed]
+    verification: [version_and_function_check]
+  testing:
+    default_role: T
+    secondary_roles: [R]
+    patterns: [Application Trust Boundary Graph, Patch / Version Dependency Board]
+    atoms: [OBSERVE, CLASSIFY, COMPARE, VERIFY, DOCUMENT]
+    world_objects: [sandbox_test_console]
+    observable_evidence: [test_result, code_or_behavior_state]
+    battlefield_output: [finding_confidence, remediation_choice]
+    wrong_consequence: [false_finding, missed_condition]
+    verification: [repeatable_controlled_test]
+    safety: sandbox_only_when_offensive_adjacent
+  payment:
+    default_role: R
+    secondary_roles: [T, E]
+    patterns: [Evidence Preservation / Seal, Authentication Confidence Matrix]
+    atoms: [OBSERVE, CLASSIFY, PRESERVE, VERIFY]
+    world_objects: [payment_terminal_evidence, transaction_monitor]
+    observable_evidence: [device_or_data_anomaly]
+    battlefield_output: [fraud_risk_state, evidence]
+    wrong_consequence: [false_accusation, evidence_loss]
+    verification: [authorized_record_comparison]
+  cabling:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Physical / Logical Port Match]
+    atoms: [OBSERVE, CLASSIFY, MATCH, TRACE, VERIFY]
+    world_objects: [patch_panel, cable_run]
+    observable_evidence: [cable_category, connector, path]
+    battlefield_output: [link_state, bandwidth_capability]
+    wrong_consequence: [wrong_link, degraded_service]
+    verification: [link_or_service_test]
+  fiber:
+    default_role: T
+    secondary_roles: [R]
+    patterns: [Physical / Logical Port Match]
+    atoms: [CLASSIFY, MATCH, TRACE, VERIFY]
+    world_objects: [fiber_patch, optical_link]
+    observable_evidence: [media_type, path_state]
+    battlefield_output: [high_bandwidth_link, route]
+    wrong_consequence: [link_down, wrong_media_assumption]
+    verification: [link_state]
+  connector:
+    default_role: T
+    secondary_roles: [E]
+    patterns: [Physical / Logical Port Match, Hardware Compatibility Bench]
+    atoms: [CLASSIFY, MATCH, VERIFY]
+    world_objects: [port_panel, hardware_bench]
+    observable_evidence: [connector_shape_or_label, target_interface]
+    battlefield_output: [device_or_link_function]
+    wrong_consequence: [incompatibility, wasted_AP]
+    verification: [functional_test]
+  video:
+    default_role: T
+    secondary_roles: [R]
+    patterns: [Physical / Logical Port Match, Hardware Compatibility Bench]
+    atoms: [CLASSIFY, MATCH, TRACE, VERIFY]
+    world_objects: [display_panel, video_patch]
+    observable_evidence: [interface_type, path]
+    battlefield_output: [visual_feed, camera_or_display_state]
+    wrong_consequence: [lost_feed]
+    verification: [visual_output]
+  troubleshooting:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Service Dependency Graph, Physical / Logical Port Match]
+    atoms: [OBSERVE, CLASSIFY, TRACE, COMPARE, PRIORITIZE, VERIFY]
+    world_objects: [diagnostic_console, physical_link]
+    observable_evidence: [symptom, link, power, service_state]
+    battlefield_output: [root_condition_confidence, restored_function]
+    wrong_consequence: [parts_cannon_behavior, wasted_window, unresolved_fault]
+    verification: [independent_end_to_end_test]
+
+exact_concept_overrides:
+  governance.authorization:
+    default_role: shared
+    patterns: [Authorization / Scope Overlay]
+    atoms: [AUTHORIZE, DOCUMENT]
+    battlefield_output: [allowed_action_set, compliance]
+    wrong_consequence: [unauthorized_action_flag]
+  governance.rules-of-engagement:
+    default_role: shared
+    patterns: [Authorization / Scope Overlay]
+    atoms: [AUTHORIZE, PRIORITIZE]
+    battlefield_output: [kinetic_and_technical_action_limits]
+    wrong_consequence: [standing_loss, exposure]
+  intel.corroboration:
+    default_role: R
+    patterns: [OSINT Evidence Board, Incident Timeline Correlation]
+    atoms: [COMPARE, VERIFY]
+    battlefield_output: [named_evidence_token]
+    wrong_consequence: [false_lead]
+  evidence.confidence-level:
+    default_role: R
+    patterns: [Incident Timeline Correlation, OSINT Evidence Board]
+    atoms: [CLASSIFY, COMPARE, DOCUMENT]
+    battlefield_output: [uncertainty_visible, action_risk_known]
+    wrong_consequence: [overconfidence_or_paralysis]
+  wireless.evil-twin:
+    default_role: R
+    secondary_roles: [T]
+    patterns: [Wireless Spectrum / Coverage Map, Authentication Confidence Matrix]
+    atoms: [COMPARE, CLASSIFY, VERIFY]
+    battlefield_output: [untrusted_source_flag, route_or_auth_choice]
+    wrong_consequence: [false_trust_in_duplicate_network]
+    safety: recognition_and_defense_only
+  wireless.rogue-access-point:
+    default_role: R
+    secondary_roles: [T, E]
+    patterns: [Wireless Spectrum / Coverage Map]
+    atoms: [MAP, COMPARE, CLASSIFY, ISOLATE, VERIFY]
+    battlefield_output: [rogue_source_evidence, coverage_state]
+    wrong_consequence: [false_positive_or_missed_source]
+    safety: defensive_only
+  wireless.wips:
+    default_role: R
+    secondary_roles: [T]
+    patterns: [Wireless Spectrum / Coverage Map]
+    atoms: [OBSERVE, CLASSIFY, WARN]
+    battlefield_output: [wireless_alert_state]
+    wrong_consequence: [noise_or_missed_alert]
+  network.osi-layer-1:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Wireless Spectrum / Coverage Map, Physical / Logical Port Match]
+    atoms: [OBSERVE, TRACE, VERIFY]
+    battlefield_output: [physical_link_confidence]
+    wrong_consequence: [higher_layer_work_on_broken_physical_path]
+  network.osi-layer-2:
+    default_role: T
+    secondary_roles: [R]
+    patterns: [Wireless Spectrum / Coverage Map, Service Dependency Graph]
+    atoms: [TRACE, CLASSIFY, VERIFY]
+    battlefield_output: [local_link_service_confidence]
+    wrong_consequence: [signal_mistaken_for_usable_link]
+  incident.breach-indicator:
+    default_role: R
+    secondary_roles: [T]
+    patterns: [Incident Timeline Correlation]
+    atoms: [OBSERVE, COMPARE, PRIORITIZE]
+    battlefield_output: [incident_evidence_token]
+    wrong_consequence: [false_positive_or_late_response]
+  incident.abnormal-data-transfer:
+    default_role: R
+    secondary_roles: [T]
+    patterns: [Incident Timeline Correlation]
+    atoms: [OBSERVE, COMPARE, TRACE, VERIFY]
+    battlefield_output: [scope_or_priority_change]
+    wrong_consequence: [missed_or_overbroad_scope]
+  observability.access-log:
+    default_role: R
+    secondary_roles: [T]
+    patterns: [Incident Timeline Correlation]
+    atoms: [OBSERVE, COMPARE, TRACE]
+    battlefield_output: [time_window_or_identity_evidence]
+    wrong_consequence: [unsupported_conclusion]
+  incident.containment:
+    default_role: T
+    secondary_roles: [E, R]
+    patterns: [Containment Boundary]
+    atoms: [CLASSIFY, TRACE, ISOLATE, VERIFY]
+    battlefield_output: [propagation_pressure_down, availability_tradeoff]
+    wrong_consequence: [continued_spread_or_excessive_shutdown]
+  forensics.evidence-preservation:
+    default_role: T
+    secondary_roles: [E, R]
+    patterns: [Evidence Preservation / Seal]
+    atoms: [PRESERVE, VERIFY, DOCUMENT, SEAL]
+    battlefield_output: [evidence_integrity, story_proof]
+    wrong_consequence: [contamination_or_lost_proof]
+  identity.mfa:
+    default_role: T
+    secondary_roles: [E, R]
+    patterns: [Authentication Confidence Matrix]
+    atoms: [CLASSIFY, COMPARE, VERIFY]
+    battlefield_output: [authentication_confidence]
+    wrong_consequence: [false_assurance_if_treated_as_endpoint_integrity]
+  identity.biometrics:
+    default_role: T
+    secondary_roles: [E]
+    patterns: [Authentication Confidence Matrix]
+    atoms: [CLASSIFY, VERIFY]
+    battlefield_output: [identity_confidence]
+    wrong_consequence: [biometric_factor_treated_as_total_identity_truth]
+  app.input-validation:
+    default_role: T
+    patterns: [Application Trust Boundary Graph]
+    atoms: [TRACE, CLASSIFY, CONFIGURE, VERIFY]
+    battlefield_output: [untrusted_input_boundary_protected]
+    wrong_consequence: [unsafe_path_remains_or_service_breaks]
+    safety: defensive_abstracted
+  identity.rbac:
+    default_role: T
+    secondary_roles: [E]
+    patterns: [Authentication Confidence Matrix, Application Trust Boundary Graph]
+    atoms: [CLASSIFY, AUTHORIZE, CONFIGURE, VERIFY]
+    battlefield_output: [privilege_boundary_state]
+    wrong_consequence: [overprivilege_or_denied_mission_function]
+  network.segmentation:
+    default_role: T
+    secondary_roles: [E, R]
+    patterns: [Containment Boundary, IoT Sensor Trust / Actuator Safety]
+    atoms: [TRACE, ISOLATE, CONFIGURE, VERIFY]
+    battlefield_output: [threat_or_failure_domain_reduced]
+    wrong_consequence: [critical_service_isolated_or_risk_path_left_open]
+  safety.fail-safe-state:
+    default_role: E
+    secondary_roles: [T, R]
+    patterns: [Fail-Safe Physical State]
+    atoms: [PRIORITIZE, STABILIZE, VERIFY]
+    battlefield_output: [safe_physical_geometry]
+    wrong_consequence: [hazard_or_trapped_people]
+  safety.human-override:
+    default_role: E
+    secondary_roles: [T]
+    patterns: [Fail-Safe Physical State, IoT Sensor Trust / Actuator Safety]
+    atoms: [AUTHORIZE, STABILIZE, VERIFY]
+    battlefield_output: [automation_bypassed_for_safe_state]
+    wrong_consequence: [unsafe_manual_state_or_lost_automation]
+  cloud.shared-responsibility:
+    default_role: T
+    secondary_roles: [R]
+    patterns: [Cloud Shared Responsibility Stack]
+    atoms: [MAP, CLASSIFY, AUTHORIZE, TRACE, VERIFY]
+    battlefield_output: [correct_owner_layer_intervention]
+    wrong_consequence: [wrong_layer_change_or_delay]
+  finance.capex:
+    default_role: T
+    patterns: [Capacity / CapEx / OpEx Allocation]
+    atoms: [COMPARE, ALLOCATE, VERIFY]
+    battlefield_output: [owned_capacity_and_budget_state]
+    wrong_consequence: [overcommitment_or_underutilization]
+  finance.opex:
+    default_role: T
+    patterns: [Capacity / CapEx / OpEx Allocation]
+    atoms: [COMPARE, ALLOCATE, VERIFY]
+    battlefield_output: [service_capacity_and_recurring_cost_state]
+    wrong_consequence: [runaway_cost_or_insufficient_capacity]
+  cloud.scalability:
+    default_role: T
+    secondary_roles: [R]
+    patterns: [Capacity / CapEx / OpEx Allocation]
+    atoms: [FORECAST, ALLOCATE, VERIFY]
+    battlefield_output: [capacity_under_load]
+    wrong_consequence: [overload_or_resource_waste]
+  recovery.disaster-recovery:
+    default_role: T
+    secondary_roles: [E, R]
+    patterns: [Hot / Warm / Cold Site Failover, Recovery Priority Queue]
+    atoms: [PRIORITIZE, ROUTE, RECOVER, VERIFY]
+    battlefield_output: [service_return, continuity]
+    wrong_consequence: [missed_recovery_window]
+  storage.raid:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [RAID / Failure-Domain Builder]
+    atoms: [CLASSIFY, TRACE, CONFIGURE, RECOVER, VERIFY]
+    battlefield_output: [storage_availability, failure_domain_state]
+    wrong_consequence: [wrong_resilience_assumption]
+  storage.raid0:
+    default_role: T
+    patterns: [RAID / Failure-Domain Builder]
+    atoms: [CLASSIFY, MATCH, VERIFY]
+    battlefield_output: [performance_capacity_tradeoff_visible]
+    wrong_consequence: [failure_tolerance_false_assumption]
+  storage.raid1:
+    default_role: T
+    patterns: [RAID / Failure-Domain Builder]
+    atoms: [CLASSIFY, MATCH, VERIFY]
+    battlefield_output: [mirror_state, resilience]
+    wrong_consequence: [mirror_mistaken_for_backup]
+  storage.raid5:
+    default_role: T
+    patterns: [RAID / Failure-Domain Builder]
+    atoms: [CLASSIFY, TRACE, VERIFY]
+    battlefield_output: [single_failure_tolerance_model]
+    wrong_consequence: [failure_domain_miscalculation]
+  storage.raid6:
+    default_role: T
+    patterns: [RAID / Failure-Domain Builder]
+    atoms: [CLASSIFY, TRACE, VERIFY]
+    battlefield_output: [double_parity_resilience_model]
+    wrong_consequence: [capacity_or_failure_tolerance_miscalculation]
+  storage.raid10:
+    default_role: T
+    patterns: [RAID / Failure-Domain Builder]
+    atoms: [CLASSIFY, MATCH, TRACE, VERIFY]
+    battlefield_output: [mirror_plus_stripe_state]
+    wrong_consequence: [incorrect_failure_pair_assumption]
+  recovery.hot-site:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Hot / Warm / Cold Site Failover]
+    atoms: [COMPARE, PRIORITIZE, ROUTE, RECOVER, VERIFY]
+    battlefield_output: [fast_high_readiness_recovery]
+    wrong_consequence: [resource_cost_or_bad_dependency_choice]
+  recovery.warm-site:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Hot / Warm / Cold Site Failover]
+    atoms: [COMPARE, PRIORITIZE, RECOVER, VERIFY]
+    battlefield_output: [moderate_readiness_recovery]
+    wrong_consequence: [restore_delay]
+  recovery.cold-site:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Hot / Warm / Cold Site Failover]
+    atoms: [COMPARE, PRIORITIZE, SEQUENCE, RECOVER, VERIFY]
+    battlefield_output: [slow_low_readiness_recovery]
+    wrong_consequence: [RTO_window_missed]
+  recovery.rto:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Hot / Warm / Cold Site Failover, Recovery Priority Queue]
+    atoms: [PRIORITIZE, COMPARE, ALLOCATE]
+    battlefield_output: [clock_sensitive_recovery_choice]
+    wrong_consequence: [critical_service_returns_too_late]
+  troubleshooting.connectivity:
+    default_role: T
+    secondary_roles: [R, E]
+    patterns: [Service Dependency Graph, Physical / Logical Port Match]
+    atoms: [OBSERVE, TRACE, CLASSIFY, VERIFY]
+    battlefield_output: [fault_domain_narrowed, connection_restored]
+    wrong_consequence: [parts_cannon_waste, missed_fault]
