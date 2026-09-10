@@ -39,13 +39,7 @@ jobs:
           imports = "import './branding/hitmansHalo.css';\nimport { initHitmansHaloBrand } from './branding/hitmansHalo.js';\nimport { bootHitmansHaloRuntime } from './platform/hitmansHaloRuntime.js';\n"
           if "./branding/hitmansHalo.js" not in text:
               text = imports + text
-          boot = """initHitmansHaloBrand();
-void bootHitmansHaloRuntime()
-  .then((snapshot) => { globalThis.__HITMANS_HALO_RUNTIME__ = snapshot; })
-  .catch((error) => {
-    globalThis.__HITMANS_HALO_RUNTIME__ = { product: 'HITMANS_HALO', errors: [{ message: error?.message || String(error) }] };
-  });
-initLogoGaze();"""
+          boot = "initHitmansHaloBrand();\nvoid bootHitmansHaloRuntime()\n  .then((snapshot) => { globalThis.__HITMANS_HALO_RUNTIME__ = snapshot; })\n  .catch((error) => {\n    globalThis.__HITMANS_HALO_RUNTIME__ = { product: 'HITMANS_HALO', errors: [{ message: error?.message || String(error) }] };\n  });\ninitLogoGaze();"
           if 'initHitmansHaloBrand();' not in text:
               text = text.replace('initLogoGaze();', boot, 1)
           main.write_text(text)
