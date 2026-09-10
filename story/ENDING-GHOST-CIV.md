@@ -1,89 +1,95 @@
 ---
-status: CANON
-system: Ghost-Prime endgame product layer
-version: 2.0.0
+status: CANON-SUPPLEMENT
+system: post-succession Ghost / strategy-layer concept
+version: 3.0.0
+branch: main
 ---
 
-# Ghost endgame — take his job, keep his mind
+# Ghost endgame — take the authority, keep the intelligence bounded
 
-## Core correction
+## Core state
 
-Presiding Prime was already functionally **Ghost in the Wires** before RAID.
+PRIM2 is already functionally distributed before RAID. `Ghost In The Wires` does not create that distributed existence.
 
-His sleeping biological body served as the highest-trust command anchor for a distributed human-machine control architecture that could observe global feeds, analyze events and issue authenticated decisions through Prim3, Hitman and Site 0 systems.
+RAID physically defeats PRIM2.
+Evil Twin establishes that his still-living identity remains part of the root authority problem.
+Ghost transfers the Mantle to Jordan and reduces the former holder's privileges.
 
-RAID does not invent Ghost Prime.
+Jordan becomes **PRIM3** only after the transfer is validated.
 
-RAID damages his body and creates the one succession window in which Jordan's team can seize the authority layer before Prime-00's existing distributed control reasserts itself.
+Canonical result:
 
-## What the team has to do inside Site 0
+```text
+CURRENT MANTLE: PRIM3 / JORDAN VALE
+FORMER HOLDER: PRIM2 / GHOST-CLASS ADVISOR
+```
 
-Prime's critically damaged but living body still carries the strongest biometric trust in the system.
+---
 
-The succession operation uses that still-valid identity to authorize a controlled transfer:
+# Former PRIM2 after succession
 
-1. recognize Jordan as the new Prime / sovereign commander;
-2. remove Prime-00 from the root command role;
-3. revoke Prime-00's independent write, actuator, tasking and personnel-command privileges;
-4. preserve Prime-00's cognition/distributed intelligence in the cloud;
-5. reintroduce him as an advisory intelligence under Jordan's authority.
+By default he may:
+- receive deliberately exposed information;
+- observe that information;
+- analyze patterns/dependencies;
+- retain institutional memory;
+- model options;
+- advise PRIM3 and authorized humans.
 
-The dramatic problem is therefore not “can we upload him?”
-
-It is: **can we change the permissions before the most capable operator on Earth regains the ability to act?**
-
-## Ghost Prime after succession
-
-Prime-00 remains alive as a distributed intelligence and personal strategic advisor to the new commander.
-
-He can:
-
-- receive deliberately exposed telemetry;
-- analyze large-scale situations;
-- identify patterns and dependencies;
-- remember institutional history;
-- model strategic options;
-- advise Jordan.
-
-He cannot, by default:
-
-- move doors or actuators;
-- move money;
-- alter identities or credentials;
-- command Prim3 personnel;
+By default he may **not**:
+- independently write protected system state;
+- actuate physical systems;
+- move money or identities by sovereign authority;
+- command PRIM personnel;
 - command Hitman personnel;
-- task operations;
-- independently change system state;
-- exercise Prime authority.
+- task missions;
+- delegate Mantle authority;
+- exercise the PRIM Mantle.
 
-Any exception requires a named living human owner and logged authorization from the new command structure.
+Any future exception requires explicit living-human ownership, narrow scope and logged authorization.
 
-## Why this is punishment and survival at the same time
+Canonical formulation:
 
-For most people, surviving as a cloud intelligence would look like transcendence.
+> **The ghost survives. The sovereign does not.**
 
-For Prime-00, it is also the first real loss of power he has experienced in years.
+---
 
-He still sees more than nearly anyone alive.
-He still understands the board.
-He still knows what he would do.
+# Why this is punishment and preservation
 
-He simply cannot make the move himself.
+Former PRIM2 still understands enormous portions of the board.
 
-Jordan now has to decide how much of that mind to listen to without rebuilding the same unaccountable architecture he just overthrew.
+What he loses is the ability to convert understanding directly into obedience.
 
-## What the game becomes
+That creates a stronger post-series relationship than a simple death/upload fork:
+- Jordan can use knowledge without granting autonomy;
+- the former holder can advise without being able to silently execute;
+- every request to expand his permissions becomes a future governance decision;
+- Royce remains a living external counterweight rather than being absorbed automatically.
 
-The tactical climb ends and a Civ-scale command layer becomes available.
+---
 
-| Arm | Function |
-|-----|----------|
-| **Hitman** | Kinetic / army layer under the new Prime's authority |
-| **Prim3 / McCluster** | Institutional / government / technical layer |
-| **Ghost Prime** | Read/analyze/advice-only strategic intelligence |
-| **Espionage** | Distributed intelligence picture across world actors |
-| **Special operations** | Higher-level interventions selected by the new command structure |
+# Possible post-series strategy layer
 
-The core tension of the endgame is no longer whether Jordan can defeat Prime.
+A later Civ-scale/strategy product may build from this state, but exact post-series governance is **not yet fully locked**.
 
-It is whether Jordan can use Prime's knowledge without becoming dependent on Prime's worldview.
+Potential strategic systems include:
+
+| System | Function |
+|---|---|
+| **PRIM / McCluster** | infrastructure, institutional, technical and resilience operations |
+| **Hitman / Royce** | separate kinetic/street-corporate power center with unresolved relationship to PRIM3 |
+| **Ghost-class PRIM2** | read/analyze/advice intelligence under bounded permissions |
+| **Global intelligence picture** | evidence/provenance-driven strategic awareness |
+| **Policy / special operations** | human-authorized higher-level interventions with consequence tracking |
+
+Do **not** assume Jordan automatically owns Hitman merely because he becomes PRIM3. Royce remains alive and politically/operationally consequential after the finale unless future canon deliberately changes that.
+
+---
+
+# Endgame question
+
+The tactical series asks whether Jordan can reach the hidden root.
+
+The post-succession game would ask something harder:
+
+> **Now that Jordan can authorize more than almost anyone else, what structures stop him from becoming the next version of the man he defeated?**
