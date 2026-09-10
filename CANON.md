@@ -1,7 +1,7 @@
 # PRIM3 Canon Register
 
 **Status:** Foundation canon (merged to main)  
-**Continuity version:** 0.4.3  
+**Continuity version:** 0.4.4  
 **Authority:** Matthew McCluster  
 **Rule:** If material conflicts with this register, this register wins until deliberately revised.
 
@@ -104,6 +104,8 @@ Where still referenced: parent/black-site layer above fronts. Do not contradict 
 - The mission must force characters/player to apply the same concept under pressure and must advance continuity.
 - Technical realism should teach systems thinking without becoming an actionable abuse manual.
 - Data Breach currently has the complete MP3/SRT/TTML source package; other songs primarily have lyric/source packages until further media is supplied.
+- **The canonical interactive teaching loop is defined in `game/LEARNING-MISSION-SOURCE-OF-TRUTH.md`: timed lyrics -> clickable concepts -> quick definitions/full lessons -> Field-R/Field-E/Field-T role labs -> Learning Mastery -> debrief links back to exact lyric cues.**
+- The current 20-song technical concept inventory is maintained in `learning/SONG-CONCEPT-INDEX.md`; Song #21 remains reserved until supplied.
 
 ## Site 0 / helmet / Dual Sight
 
