@@ -1,347 +1,403 @@
 ---
-status: PROPOSED
+status: CANON
 system: Game mechanics — full spine
-version: 1.0.0
+version: 1.1.0
+branch: main
+authority: Subordinate to CANON.md and specialized canonical mechanics authorities
 ---
 
-# PRIM3 Game Mechanics (complete spine)
+# PRIM3 Game Mechanics — Complete Spine
 
-This is the full rules stack for the XCOM-style product first.  
-Real-time FPS and mobile tactical are later **clients** of the same outcomes.
+This is the high-level rules stack for the XCOM-style product first. Real-time FPS and mobile tactical are later clients of the same outcomes.
 
-Related: `TACTICAL-XCOM-MECHANICS.md` (mission combat detail).
+Specialized authorities:
+- `TACTICAL-IT-MECHANICS-BIBLE.md` — technical/action grammar;
+- `WILDCARD-INTERVENTION-AUTHORITY.md` — Jordan/PRIM2/Royce escalation;
+- `OMNISCIENT-COMMAND-INTERFACE.md` — fused mission-control UI;
+- `story/ENSEMBLE-POV-AUTHORITY.md` — character/episode ownership.
 
 ---
 
 # A. Product layers
 
 | Layer | Name | Job |
-|-------|------|-----|
-| 0 | **Shared outcome rules** | Phases, clocks, success states |
-| 1 | **Strategy layer** | Choose ops, assign teams, live with consequences |
-| 2 | **Tactical layer** | XCOM-style mission play |
-| 3 | **Progression** | Operators, gear, institutional rank |
-| 4 | **Campaign structure** | Seasons, heat, story gates |
-| 5 | **Presentation clients** | TB / mobile TB / FPS (same resolver) |
+|---|---|---|
+| 0 | Shared outcome rules | Phases, clocks, success states |
+| 1 | Strategy layer | Choose ops, assign teams, live with consequences |
+| 2 | Tactical layer | XCOM-style mission play |
+| 3 | Progression | Operators, gear, qualifications |
+| 4 | Campaign structure | Seasons, heat, story gates, intervention scarcity |
+| 5 | Presentation clients | TB / mobile TB / FPS using the same outcome writer |
 
-If a feature does not feed a mission outcome or a campaign consequence, it is not v1.
+If a feature does not feed a mission outcome, character consequence, or campaign consequence, it is not core v1.
 
 ---
 
-# B. Shared outcome rules (source of truth)
+# B. Shared outcome rules
 
 ## B1. Mission phases
-```
-BRIEF → APPROACH → ON OBJECTIVE → EXTRACT → AFTERMATH
+
+```text
+BRIEF -> APPROACH -> ON OBJECTIVE -> EXTRACT -> AFTERMATH
 ```
 
-## B2. Clocks (ticks)
+## B2. Clocks
+
 | Phase | Default | Notes |
-|-------|---------|--------|
+|---|---:|---|
 | Brief | Off | Planning only |
 | Approach | 6 | Detection can collapse early |
-| Window | 8 (6 if detected) | Field-T work burns this |
+| Window | 8; commonly 6 if detected | Technical/mission work burns this |
 | Extract | 6 / 4 / 3 | Clean / collapsed / hot |
-| Aftermath | Off | Scoring |
+| Aftermath | Off | Scoring + story residue |
 
-## B3. End states
-| State | Meaning |
-|-------|--------|
-| **Full success** | Objective met, sealed take good enough, team out, exposure within authorization |
-| **Partial** | Something usable, but injury / heat / weak take / hot exit |
-| **Failure** | No usable take, team broken, or unauthorized exposure |
+## B3. Mission-state ladder
 
-## B4. Mission score channels
-Every mission writes all five:
-1. **Take value** (0–3 integrity × objective weight)
-2. **Team integrity** (deaths, downs, injuries)
-3. **Exposure** (detection peak, witnesses, signature)
-4. **Speed** (ticks remaining on Window/Extract)
-5. **Authorization compliance** (did you exceed sponsor risk?)
+Every mission also carries the intervention state from `WILDCARD-INTERVENTION-AUTHORITY.md`:
+
+```text
+STABLE -> DEGRADED -> CRITICAL -> TERMINAL
+```
+
+`CRITICAL` may expose a Jordan Wildcard request. An eligible high-value mission that remains CRITICAL after Jordan is present may expose a PRIM2 Apex request.
+
+## B4. Outcome ladder
+
+Mission results are graded, not binary by default. A failed perfect objective may still produce useful evidence, surviving operators, partial service restoration or a costly extraction.
+
+Core score channels:
+1. Take/objective value
+2. Team integrity
+3. Exposure
+4. Speed
+5. Authorization compliance
+
+Intervention use is recorded separately so a player can earn a strong operational grade while still knowing they required Wildcard or Apex support.
 
 ---
 
-# C. Strategy layer (XCOM geoscape equivalent)
+# C. Strategy layer
 
-## C1. What you manage
-Not a global alien war map. An **institutional operations board**.
+## C1. What the player manages
 
 | System | Player manages |
-|--------|----------------|
-| **Roster** | Operators by phenotype path (Cohort → Field roles) |
-| **Deployment** | Who goes on the next op (standard 3: T/E/R) |
-| **Loadouts** | Kits attached to roles for that op |
-| **Heat** | How loud the institution is in the world |
-| **Standing** | With Authority-03 / 02 / 01 |
-| **Intel** | Known targets, timers, story missions |
-| **Recovery** | Injured operators unavailable |
+|---|---|
+| Roster | Named ensemble operators by qualifications/phenotypes |
+| Deployment | Who actually goes on the next operation |
+| Loadouts | Kits attached to roles for that operation |
+| Heat | How loud the institution is in the world |
+| Standing | Institutional trust/authority access |
+| Intel | Known targets, modifiers, warnings, story missions |
+| Recovery | Injured/fatigued operators unavailable |
+| Wildcard | Scarce Jordan call-up authorizations |
+| Apex | Scarce PRIM2 intervention authorizations |
+| Hitman pressure | Probability/eligibility pressure for hostile escalation including Royce |
 
-## C2. Strategy turn (between missions)
-1. Advance time (1 strategy day)
-2. Resolve injury recovery, heat decay/spike events
-3. Receive intel / sponsor offers
-4. Optional: train, reassign, craft/kit bench (light)
-5. Select mission or wait
-6. Brief → launch tactical
+Jordan is **not** a normal selectable roster slot on most missions.
+
+## C2. Strategy turn
+
+1. Advance time where the campaign structure permits.
+2. Resolve injury recovery, fatigue, Heat and Hitman-pressure changes.
+3. Receive intel / sponsor offers / episode mission.
+4. Train, reassign or prepare kit where allowed.
+5. Select/accept operation.
+6. Assign the ensemble mission team.
+7. Brief -> launch tactical.
 
 ## C3. Resources
-| Resource | Use |
-|----------|-----|
-| **Budget** | Kits, replacements, medical |
-| **Intel tokens** | Reveal mission modifiers before Brief |
-| **Standing** | Unlocks harder/higher-value ops |
-| **Heat** | Raises detection baselines and response speed on future ops |
-| **Personnel** | Limited qualified Field-T/E/R bodies |
 
-v1 economy stays small: **Budget + Heat + Standing + Roster availability**.
+Core ordinary economy:
+- Budget
+- Heat
+- Standing
+- Intel
+- Roster availability
 
-## C4. Mission offers
-Each offer shows:
-- Objective type
-- Estimated Window size
-- Risk band (sponsor authorization)
-- Reward (Budget, Standing, story flag)
-- Required roles
-- Optional intel cost to reveal extras
+Special escalation economy:
+- `WildcardAuthorizationsSeason`
+- `ApexAuthorizationsCampaign`
+- `ExecutiveAttention`
+- `PrimDebt`
+- `HitmanPressure`
+- `RoyceCooldown`
+- `RoyceIncursionsSeason`
+
+Budget does not directly purchase Jordan or PRIM2.
+
+Canonical Standard balance:
+- Jordan Wildcard: **2 non-scripted calls per season**;
+- PRIM2 Apex: **3 non-scripted calls per seven-season campaign**;
+- Royce: **maximum 2 non-scripted incursions per season**, one per mission, then a two-mission cooldown.
+
+Story-scripted appearances do not consume these pools.
 
 ---
 
-# D. Mission types (tactical templates)
+# D. Mission types
 
 | Type | Primary job | Typical success |
-|------|-------------|-----------------|
-| **Data extraction** | Field-T on NODE | Sealed take ≥2 |
-| **Secure & hold** | Field-E control until timer | Survive Window while T works |
-| **Ghost survey** | Field-R picture, minimal kinetic | Intel only, Detection ≤2 |
-| **Denial** | Spoil enemy take / destroy NODE | NODE offline without full forensic |
-| **Recovery** | Extract asset or downed operator | Unit reaches SAFE |
-| **Story beat** | Scripted constraints | Mission-specific |
+|---|---|---|
+| Data extraction | Technical work on NODE | defensible sealed take |
+| Secure & hold | maintain control while work completes | objective survives Window |
+| Ghost survey | build Picture with minimal exposure | useful verified intel |
+| Denial | prevent hostile use of an objective | objective denied within authorization |
+| Recovery | extract person/evidence/system asset | asset reaches SAFE |
+| Continuity | keep service/life-safety process alive | service remains/reaches viable state |
+| Story beat | authored constraints | mission-specific |
 
-All use the same clocks and AP rules; templates change NODE count, Detection start, and fail flags.
+All use the same core AP/state grammar.
 
 ---
 
-# E. Tactical layer (complete combat rules)
+# E. Tactical layer
 
 ## E1. Turn order
-1. Player phase (activate units in any order)  
-2. Threat phase  
-3. Clock phase  
 
-Each unit: **2 AP** per player phase. No carry-over.
+1. Player phase
+2. Threat phase
+3. Clock phase
 
-## E2. Line of sight (LOS)
-- LOS is straight-line through tile centers.
-- Blocks: walls, closed doors, full terrain blockers.
-- Low cover does **not** block LOS; it only applies aim penalty.
-- Units block LOS only for targeting past them if rule_simple_v1 = **no** (v1: units do not block LOS).
+Standard operators receive **2 AP** per Player Phase unless a specific canonical intervention rule says otherwise.
 
-## E3. Flanking
-- If attacker has LOS and target’s cover does not face the attacker’s tile side → **flank**.
-- Flank: ignore that cover penalty; +10 Aim.
+## E2. Standard mission element
 
-## E4. Movement
-| Action | AP | Effect |
-|--------|-----|--------|
-| Move | 1 | Up to Movement tiles |
-| Sprint | 2 | Movement+2, no shot/interact after |
-| Hunker | 1 | +20 defense vs shots until next move (requires cover) |
+The classic technical field triad remains:
+- Field-R — Picture / reconnaissance
+- Field-E — physical control / protection
+- Field-T — technical objective
 
-Difficult terrain: −2 tiles that action.
+But story missions may field other qualified named characters, leads, defense personnel or specialists.
 
-## E5. Standard combat actions
-| Action | AP | Notes |
-|--------|-----|--------|
-| Fire | 1 | Sidearm or primary |
-| Overwatch | 1 | Reaction on first enemy move in LOS |
-| Suppress | 1 | −30 Aim on target; blocks Sprint |
-| Reload | 1 | If magazine model enabled (optional v1: infinite sidearm ammo, primary 3 shots then reload) |
-| Swap item | 1 | Deck ↔ tool etc. |
+**The game controls people, not abstract job icons.**
 
-## E6. Hit formula
-```
-Hit% = Aim − Cover − Range + FlankBonus + HeightBonus − Suppression − Wounds
-Clamped 5%–95%
-```
+## E3. Jordan intervention
 
-Damage = max(1, weapon − armor) on hit.  
-Crit (natural roll 90+ if hit): +1 damage (v1 simple).
+Most missions launch without Jordan.
 
-## E7. Status effects
-| Status | Effect | Clears |
-|--------|--------|--------|
-| **Suppressed** | −30 Aim, no Sprint | End of target’s next turn |
-| **Staggered** | Max 1 AP next player phase | After that phase |
-| **Downed** | 0 AP, bleed 3 turns | Stabilize or death |
-| **Stabilized** | Downed but no bleed | Extract or medevac |
-| **Revealed** | Cannot stealth; enemies path toward | Time or leave LOS long enough |
-| **Muted ID** | Dual Sight off; allies harder to ID | Toggle action |
+When a valid mission reaches CRITICAL, the player may request him through the executive chain if:
+- he is off-board;
+- a Wildcard Authorization remains;
+- the mission does not lock him out;
+- and a plausible arrival route exists.
 
-## E8. Role action sets (summary)
+Jordan arrives after authored delay and acts as the cross-lane **Wildcard**. He restores options rather than auto-solving technical work.
 
-**Field-T:** Survey Node, Live Pull, Exploit Step, Forensic Image, Seal Take, Abort Work  
-**Field-E:** Breach, Bypass (quiet), Hold Angle, Clear Room, Guard Tech, Stabilize  
-**Field-R:** Scan Lane, Mark Threat, Quiet Route, Alarm Call, Overwatch, Mute Signature  
+Core identity:
+- `ANOTHER PATH`
+- `ADAPTIVE ROLE`
+- `RALLY THE ROOM`
+- `FAILOVER INSTINCT`
 
-Full costs in `TACTICAL-XCOM-MECHANICS.md`.
+Full rules live in `WILDCARD-INTERVENTION-AUTHORITY.md`.
 
-## E9. Detection (0–10)
-Gunfire, loud breach, cameras, failed stealth interact raise it.  
-Field-R Scan can lower it.  
-High Detection shortens effective clocks and spawns responders.
+## E4. PRIM2 intervention
 
-## E10. Threat phase AI (v1)
-Priority:
-1. Engage visible hostile in range  
-2. Investigate last noise / last seen  
-3. Continue patrol  
-4. Call heat if Detection threshold crossed  
+PRIM2 can only become a non-scripted second-stage rescue on eligible high-value missions after Jordan is already present and CRITICAL failure persists/reappears.
+
+He is intentionally rare and exceptionally strong. His authority can expose information and alter permission, but it cannot alter physical truth or resurrect losses.
+
+## E5. Royce incursion
+
+Royce is the opposing board's elite escalation threat. He is controlled by hostile/campaign logic rather than the player.
+
+He specializes in:
+- breaking Control;
+- forcing route changes;
+- accelerating Will pressure;
+- disrupting objective tempo;
+- coordinating Hitman units;
+- punishing overextension.
+
+He is not a deep technical LAB_NODE substitute.
 
 ---
 
 # F. Operator progression
 
-## F1. Rank path (cohort → prime)
-```
-Cohort-02 Trainee → Cohort-01 Operator → Field qualification (T/E/R tags)
-  → Cohort-03 Lead → Prime-N1 (story-gated)
+## F1. Ordinary qualification path
+
+```text
+Cohort-02 Trainee
+    -> Cohort-01 Operator
+    -> Field qualification / cross-training tags
+    -> Cohort-03 Lead or other authored specialist/authority progression
 ```
 
-An operator may earn **role tags**: `can_T`, `can_E`, `can_R` through mission performance.
+An operator may earn role tags such as `can_T`, `can_E`, `can_R` through training and mission performance.
+
+### Mantle correction
+
+**PRIM succession is not the top node of the ordinary XP tree.**
+
+Do not use the obsolete path `Cohort -> Prime-N1`.
+
+`PRIM0`, `PRIM1`, `PRIM2`, `PRIM3` are Primary Root Identity Mantle succession identities, not generic character ranks. Jordan becoming **PRIM3** is a story/succession event, not something any sufficiently leveled operator can unlock.
 
 ## F2. XP channels
+
 | Channel | Gained by |
-|---------|-----------|
-| Technical | Sealed take integrity, nodes completed |
-| Entry | Breaches, holds, guards, stabilizes |
-| Recon | Scans, clean picture, quiet routes |
-| Survival | Missions extracted alive |
-| Leadership | (Lead only) full success under pressure |
+|---|---|
+| Technical | verified technical objectives / defensible evidence |
+| Entry | access, holds, protection, stabilization |
+| Recon | picture-building, warning, route/evidence work |
+| Survival | extracting alive / preserving others |
+| Leadership | sound command under pressure |
 
-## F3. Perks (small tree, not Diablo)
-After rank-ups pick **1 perk** from role list examples:
-- Field-T: Clean Hands (integrity +0.5 floor once/mission), Fast Seal, Cold Focus (Will +2 on NODE)
-- Field-E: Iron Door (Hold Angle stronger), Medic, First Through
-- Field-R: Ghost Scan, Long Watch, Early Call (Alarm Call also −1 Detection)
+## F3. Perks
 
-Max 3 perks active per operator in v1.
+Keep perk trees small, readable and character-sensitive. Perks should enhance a person's established strengths rather than turn every operator into the same universal build.
 
 ## F4. Injury & fatigue
+
 | Result | Strategy effect |
-|--------|-----------------|
-| Downed but extracted | −1 mission availability |
-| Critical injury | −2 to −3 missions |
-| Death | Removed from roster; Standing/Heat impact |
-| Fatigue (3 missions back-to-back) | −1 Will until rested |
+|---|---|
+| Downed but extracted | downtime / relationship residue |
+| Critical injury | extended unavailability |
+| Death | removed unless story canon explicitly fixes another result |
+| Repeated deployment | fatigue / Will pressure |
+
+Jordan or PRIM2 intervention can prevent future loss if they arrive in time. They cannot reverse a completed death.
 
 ---
 
-# G. Gear as mechanics (not just cosmetics)
+# G. Gear
 
-## G1. Slots
-| Slot | Required |
-|------|----------|
-| Armor | Yes |
-| Sidearm | Yes |
-| Primary | Optional (E/R) |
-| Role kit | Yes (T deck modules / E entry / R optics) |
-| Utility | 0–2 |
+Every mechanical item defines:
+- stat effects;
+- actions unlocked/cost-modified;
+- weight/mobility impact;
+- signature/detection impact;
+- relevant role/qualification constraints.
 
-## G2. What gear must define
-Every equippable item lists:
-- Stat modifiers  
-- Action unlocks or cost changes  
-- Weight class (affects Movement)  
-- Signature (Detection modifier)  
-
-Example:
-- FORENSIC deck package: enables Forensic Image at full integrity; Weight heavy (−1 Move)
-- RAPID lite deck: Live Pull only efficiency; integrity cap unless upgraded
-- Quiet boots: −1 Detection from movement once per turn
-
-Cosmetic-only items are banned from the mechanical sheet.
+Gear supports the person. It does not replace character identity.
 
 ---
 
 # H. Campaign structure
 
-## H1. Season = strategy campaign act
-- 8–15 tactical missions per season act  
-- 2–4 story-gated missions  
-- Heat and Standing gate which offers appear  
+## H1. Canon story structure
+
+PRIM3 has:
+- **7 seasons**;
+- **3 canonical episodes per season**;
+- **21 canonical episode missions**;
+- **1 song = 1 episode = 1 canonical mission**.
+
+This supersedes the old statement that a season contains 8–15 canonical tactical missions.
+
+Optional **side operations** may exist in the strategy/play layer for roster development, recovery resources, Heat, Standing, Intel and replayability, but they are not additional canonical TV episodes and may not overwrite the fixed 21-episode spine.
 
 ## H2. Failure is data
-Failed missions do not soft-lock the season by default; they raise Heat and change available story branches.
+
+Poor mission performance changes:
+- injury/death state;
+- Heat;
+- Standing;
+- relationships;
+- available intel;
+- resources;
+- debrief dialogue;
+- side-operation state;
+- and, where authored, later mission conditions.
+
+It does not casually soft-lock the seven-season story.
 
 ## H3. Authority pressure
-Authority-03 Mission Sponsor sets per-op risk.  
-Exceeding risk can succeed tactically but **fail compliance** → Standing loss with Authority-02/01.
+
+Exceeding mission authority can produce tactical success but compliance consequences.
+
+PRIM2's `SOVEREIGN EXCEPTION` may alter present authorization once per eligible intervention. It cannot retroactively legalize an earlier unauthorized choice.
 
 ---
 
 # I. Difficulty knobs
 
-| Knob | Effect |
-|------|--------|
-| Enemy Aim/HP | Direct |
-| Detection gain rate | Stealth pressure |
-| Window size | Tech pressure |
-| Responder timing | Extract pressure |
-| Will test frequency | Psychological pressure |
+Difficulty may tune:
+- enemy Aim/HP;
+- detection gain;
+- Window size;
+- responder timing;
+- Will pressure;
+- Wildcard pool;
+- Apex pool;
+- Royce incursion cap/pressure.
+
+Canonical default intervention table:
+
+| Difficulty | Wildcard / season | Apex / campaign | Royce cap / season |
+|---|---:|---:|---:|
+| Story | 3 | 4 | 1 |
+| Standard | **2** | **3** | **2** |
+| Veteran | 1 | 2 | 2 |
+| Ghost | 1 | 1 | 3 |
 
 ---
 
-# J. Multi-mode contract (future clients)
+# J. Multi-mode contract
 
 | Client | Must preserve |
-|--------|----------------|
-| XCOM TB | Full AP/grid rules |
-| Mobile TB | Same rules, smaller maps, fewer enemies |
-| FPS | Same phases, clocks as real-time timers, same end-state writer |
+|---|---|
+| XCOM TB | AP/grid/state rules + intervention ladder |
+| Mobile TB | same resolver, reduced interface complexity |
+| FPS | same phases/states/consequences expressed in real time |
 
-FPS may replace AP with stamina/time, but Aftermath channels stay identical.
+The Jordan/PRIM2/Royce escalation relationship must remain recognizable across clients even when exact control schemes differ.
 
 ---
 
-# K. v1 “complete enough” checklist
+# K. V1 completion checklist
 
 ### Strategy
-- [ ] Roster with 3–6 operators  
-- [ ] Mission offers (at least 2 types)  
-- [ ] Budget / Heat / Standing  
-- [ ] Injury downtime  
-- [ ] Aftermath writeback  
+- [ ] Ensemble roster
+- [ ] Mission/episode board
+- [ ] Budget / Heat / Standing / Intel
+- [ ] Injury downtime
+- [ ] Wildcard season pool
+- [ ] Apex campaign pool
+- [ ] Hitman pressure + Royce cooldown
+- [ ] Aftermath writeback
 
 ### Tactical
-- [ ] Grid, LOS, cover, flank  
-- [ ] 2 AP turns  
-- [ ] T/E/R actions  
-- [ ] Detection meter  
-- [ ] Approach/Window/Extract clocks  
-- [ ] Downed/stabilize  
-- [ ] Full/Partial/Fail  
+- [ ] Grid, LOS, cover, flank
+- [ ] 2 AP standard turns
+- [ ] R/E/T technical-tactical grammar
+- [ ] Detection
+- [ ] Approach/Window/Extract clocks
+- [ ] STABLE/DEGRADED/CRITICAL/TERMINAL state
+- [ ] Downed/stabilize/death
+- [ ] Jordan Wildcard request + delayed arrival
+- [ ] PRIM2 Apex request state
+- [ ] Royce incursion state
+- [ ] graded outcome
 
 ### Progression
-- [ ] XP channels  
-- [ ] 1–3 perks  
-- [ ] Role tags  
+- [ ] XP channels
+- [ ] small perk trees
+- [ ] role/cross-training tags
+- [ ] no generic Prime-rank unlock
 
 ### Content
-- [ ] 1 tutorial mission  
-- [ ] 1 standard data extraction  
-- [ ] 1 high-heat extract under pressure  
-
-When this checklist is implemented, mechanics are **complete for v1**. Polish and FPS come after.
+- [ ] one ensemble tutorial mission
+- [ ] one mission where Jordan is unavailable
+- [ ] one mission that can reach a Wildcard rescue
+- [ ] one controlled Apex-intervention test
+- [ ] one Royce-incursion test
 
 ---
 
-# L. What “complete” does not mean yet
+# L. Governing gameplay feeling
 
-- Final art  
-- Final balance numbers (expect retune)  
-- Open-source hardware catalog binding  
-- FPS gun-feel  
-- Live service / multiplayer  
-- Full seven-season content  
+The campaign should not train the player to treat named operators as disposable bodies.
 
-Those are content and presentation, not missing core mechanics.
+It should create moments where the player looks at a collapsing mission, sees a character they have spent seasons learning, sees only one Wildcard Authorization left, and decides:
+
+> **Fuck the perfect grade. Call Jordan. Get them home.**
+
+And on the rarest missions, after Jordan is already there and even he cannot stabilize the board:
+
+> **Call PRIM2.**
+
+Then, sometimes, the opposing side answers with Royce.
+
+That escalation is part of the story, not a cheat menu.
