@@ -1,59 +1,151 @@
 ---
-status: PROPOSED
+status: CANON
 system: Human story engine
-version: 0.1.0
+version: 1.0.0
+branch: main
 ---
 
 # PRIM3 — Human Story Engine
 
-PRIM3 cannot function as a sequence of technology demonstrations. The technology is pressure. The story is what that pressure reveals about people.
+PRIM3 cannot function as a sequence of technology demonstrations or as a Jordan Vale biography with decorative coworkers.
 
-## Core rule
+> **The technology is pressure. The story is what that pressure reveals about people.**
+
+See also:
+- `CHARACTER-PSYCHOLOGY-DECISION-AUTHORITY.md`
+- `ENSEMBLE-POV-AUTHORITY.md`
+- `CHARACTER-RELATIONSHIP-STATE.md`
+
+## Core character rule
 
 Every recurring character must have:
 
-1. A material want — what they need in ordinary life.
-2. A private wound — what they are still reacting to.
-3. A professional strength — what makes the institution value them.
-4. A blind spot — the mistake they keep making because of who they are.
-5. A relationship they cannot treat rationally.
-6. A line they believe they will never cross.
-7. A future moment that tests that line.
+1. a material want in ordinary life;
+2. a private wound / historical prior;
+3. a professional strength;
+4. a blind spot;
+5. a relationship they cannot treat rationally;
+6. a line they believe they will never cross;
+7. a future moment that tests that line;
+8. an outside connection not dependent on Jordan or PRIM;
+9. ordinary behavior that proves they exist between missions;
+10. a believable episode-scale decision that could matter even if Jordan were absent.
 
-## Relationship rule
+For Tier A / major Tier B characters, use the full causal chain:
 
-No important character exists only in relation to Prime. Each recurring character needs at least three meaningful connections:
+```text
+LIVED EVENT
+-> INTERPRETATION
+-> BELIEF
+-> PRESENT TRIGGER
+-> DEFAULT REFLEX
+-> CHOICE
+-> CONSEQUENCE
+-> RELATIONSHIP / SELF-CONCEPT RESIDUE
+-> UPDATED PRIOR
+```
 
-- one person they trust,
-- one person who irritates or threatens them,
-- one person they misunderstand.
+## Ensemble relationship rule
 
-Relationships must change after missions. Injuries, promotions, lies, money, attraction, jealousy, guilt, debt and professional dependence carry forward.
+No important character exists only in relation to Jordan, PRIM2 or the curriculum.
+
+Each recurring character needs at least three meaningful relational vectors such as:
+- somebody they trust;
+- somebody who irritates/threatens them;
+- somebody they misunderstand;
+- somebody outside the institution;
+- somebody who knows an older version of them;
+- somebody they are responsible for;
+- somebody whose approval they pretend not to need.
+
+Relationships must change after missions. Injuries, promotions, lies, money, attraction, grief, guilt, debt, public embarrassment, professional dependence and discovered secrets carry forward.
+
+## Episode-owner rule
+
+Every episode has an **episode owner** distinct from mission lead and playable POV.
+
+The owner is the character or small cluster whose inner model changes most because of the event.
+
+Jordan may be:
+- owner;
+- shared owner;
+- supporting;
+- cameo;
+- mentioned only;
+- absent.
+
+Across Episodes 02–18, default toward other-character ownership often enough that the world can sustain itself without Jordan physically entering every story.
+
+> **The succession belongs to Jordan. The world belongs to everybody.**
 
 ## Dialogue rule
 
-Characters do not speak to explain the curriculum. They speak because they want something from somebody in the room. Technical information enters dialogue only when it changes leverage, danger, trust or the plan.
+Characters do not speak primarily to explain curriculum.
+
+They speak because they:
+- want something;
+- are hiding something;
+- need permission;
+- refuse permission;
+- are embarrassed;
+- are flirting;
+- are angry;
+- are stalling;
+- are testing trust;
+- or are trying to change another person's decision.
+
+Technical language belongs in dialogue when it changes leverage, danger, confidence, evidence or the plan.
+
+## Humor / ordinary-life rule
+
+World depth requires characters to be funny, annoying, tired, petty and specific outside danger.
+
+Recurring characters should have:
+- jokes that only certain friends understand;
+- food habits;
+- money arguments;
+- family calls;
+- weird hobbies;
+- recurring possessions;
+- professional pet peeves;
+- relationship rituals;
+- and mundane memories later made painful by loss.
+
+**Kkeutori** between Aya/Hana is the reference example: a genuine friendship game exists for years before a small subset of its jokes becomes posthumous evidence.
+
+The rule is not `everything was foreshadowing`.
+
+The rule is:
+
+> **When tragedy reinterprets an ordinary memory, the ordinary memory must have been worth having first.**
 
 ## Song rule
 
-A song is not automatically an episode plot. A track supplies one or more of these:
+A song is not automatically an episode plot or Jordan's point of view.
 
-- technical vocabulary,
-- emotional thesis,
-- mission texture,
-- character attitude,
-- recurring imagery,
-- episode title or end-credit identity.
+A track may supply:
+- technical vocabulary;
+- emotional thesis;
+- mission texture;
+- character attitude;
+- recurring imagery;
+- episode identity.
 
-The episode must still contain a human conflict that would matter even if the technical lesson were removed.
+The song performer, emotional episode owner, mission lead and playable operator may all differ.
 
-## Season One emotional spine
+The episode must still contain a human conflict that would matter if the lesson were removed.
 
-The protagonist enters college believing legitimacy will make his life stable. McCluster Corp initially feels like proof that he finally belongs somewhere. The season gradually converts that feeling from relief into obligation.
+## Season One rule
 
-The cohort should become a real social unit before the audience is asked to fear for them. They study together, argue about money, borrow equipment, cover shifts, flirt, resent favoritism, compete for opportunities, share food, hide embarrassment and slowly learn which people they would trust in a bad room.
+Season One begins with future/endgame `High Alert`, then rewinds seven years.
 
-The first operational loss matters because the person who does not return was already woven into those ordinary routines.
+Jordan's return to college provides the audience a powerful entry path, but Season One should immediately establish that other people already have histories, loyalties, relationships and unresolved problems before Jordan arrives.
+
+McCluster/visible PRIM may feel like opportunity or belonging to different characters for different reasons.
+
+Aya, for example, already has two years of institutional history and entered partly to investigate Hana's death. Jordan does not cause that story; he enters it.
+
+The cohort must become socially real before major loss matters: studying, food, borrowing equipment, work shifts, flirting, resentment, cultural misunderstandings, competition, family obligations, money and mundane favors.
 
 ## Scene test
 
@@ -61,47 +153,45 @@ Before keeping a scene, answer:
 
 - Who wants what from whom?
 - Why can they not ask for it directly?
-- What changes by the end of the scene?
-- What does the audience learn about the relationship that is not stated aloud?
-- What future consequence did this scene create?
+- What historical prior is active?
+- What changes by the end?
+- What relationship fact is shown rather than stated?
+- What future consequence survives?
+- Could the scene still exist if Jordan were not the center of the universe?
 
-If the answer is only “the audience learns a technical concept,” rewrite the scene.
+If the answer is only `the audience learns a technical concept`, rewrite it.
 
-## Character dossier template
+If the answer is only `this teaches us something about Jordan`, ask whether the other character has been reduced to a device.
 
-For every named recurring character:
+## Major-character dossier standard
 
-- Name / ID
-- Age at entry
-- National / cultural background where canonized
-- Institutional role
-- Civilian life before recruitment
-- Financial reality
-- Family structure
-- Education / training
-- Technical specialty
-- Social presentation
-- Private insecurity
-- Desire
-- Fear
-- Contradiction
-- Moral boundary
-- Humor style
-- Anger style
-- Attachment style
-- What they admire in the protagonist
-- What they dislike in the protagonist
-- Relationship to Prime
-- Closest ally
-- Rival
-- Romantic / intimate complications if any
-- Secret
-- Failure mode
-- Season entry
-- Intended longevity
-- Major turning points
-- Exit, death or survival condition
+Every major recurring character should eventually have:
+- identity / age / cultural context;
+- material history;
+- family / money / housing / education / work;
+- major loss, rescue, betrayal, humiliation or mercy;
+- technical formation;
+- strongest perception pattern;
+- blind spot;
+- shame;
+- attachment style;
+- anger/escalation trigger;
+- authority relationship;
+- power appetite/aversion;
+- moral boundary;
+- ordinary humor;
+- outside relationships;
+- secrets;
+- decision-tree priors;
+- knowledge matrix;
+- episode-by-episode continuity residue.
+
+Use Jordan and Aya as current reference-quality implementations without copying their personalities.
 
 ## Continuity rule
 
-Character behavior is cumulative. No emotional reset between episodes. Every consequential interaction must be capable of leaving residue in later scenes.
+Character behavior is cumulative.
+
+No emotional reset between episodes.
+
+Every consequential interaction must be capable of leaving residue in later scenes, including episodes where the character is not physically present.
