@@ -1,103 +1,124 @@
 ---
-status: CANON
-system: Hitman Corporation lore
-version: 2.0.0
+status: CANON-SUMMARY
+system: Hitman organization lore in PRIM3 continuity
+version: 3.0.0
+branch: main
 ---
 
-# Hitman — brand lore (v2)
-
-**External brand:** Hitman / @hitman.halo (owner-held). Own music, own show path.  
-**In the Prim3 multiverse:** the brute-force religion climbing toward the same apex.
-
-Related: `HITMAN-BRAND.md`, `HITMAN-ORG.md`, `DUAL-PATH.md`, `missions/EVIL-TWIN.md`.
-
----
+# Hitman — PRIM3-era lore
 
 ## One line
-**Hitman does not hack the world. Hitman ends people in it.** Killing is doctrine. Denial is policy. The halo on the round is the joke and the prayer.
+
+Hitman is a separate multinational kinetic/street-corporate organization whose culture, incentives and methods differ sharply from PRIM/McCluster.
+
+It is **not** a cyber department with different branding and it is not merely a monster factory built so Jordan can fight somebody.
+
+Its people have independent loyalties, businesses, family structures, ambitions and internal politics.
 
 ---
 
-## What they are
-Not a cyber firm. Not a think tank.
+# Relationship to Jordan
 
-- **Absolute brute force** — savagery as culture
-- **Killing as religion** — ritual, identity, promotion path
-- **Street-first** — gang formation, hood logistics, block energy scaled to multinational contracts
-- **Psychopath-grade** — the ones Wagner-type groups fear, because Hitman answers to **no flag**
-- **Deniable black ops** — dropped into war zones with no backup; if it goes wrong, **they never existed**
-- **Global** — worse than any single PMC brand in reach; more power than old mafia maps
-- **Not high IQ temple priests** — they **consume** intelligence produced elsewhere; they do not worship the terminal
+Jordan Vale operated within Hitman under the identity **Benji** during approximately age 19–26.
 
-They will use a dossier from a technical house to choose who dies. They will not write the dossier.
+Benji is not a separate contemporary protagonist.
 
----
+Jordan enters through friendship/culture around Bigga Lex the Jet, becomes a capable operator, and is eventually offered succession when Lex retires.
 
-## The mark
-**H M** + **AMMC** cartridge + **halo** on black.
+Jordan refuses.
 
-- The round is the product
-- The halo is the lie of sanction — “holy” murder for clients who need the body gone and the story clean
-- Street crews stencil the round; glass floors keep the full lockup
+Royce receives the succession opportunity and becomes the major post-Benji Hitman-side rival/sovereign figure.
+
+The full age-19-to-26 authority is `story/JORDAN-VALE-HITMAN-ORIGIN-CANON.md`.
 
 ---
 
-## Culture
-| Trait | Expression |
-|-------|------------|
-| Religion of the shot | Promotion through successful deniable kills |
-| Gang mitosis | New sets spun up per region / contract |
-| Anti-government | No honest chain to a capital; clients only |
-| Fear brand | Other kinetic groups flinch at the halo |
-| High body count | Acceptable; expected; doctrinal |
-| Low terminal worship | Tech is a tool stolen or bought, not an identity |
+# Relationship to PRIM2
+
+PRIM2 does not need Hitman and PRIM to be culturally identical.
+
+His advantage is that he can hold a higher-level cross-board picture while participants inside each organization receive only the context their compartment exposes.
+
+That can let PRIM2:
+- correlate apparently separate events;
+- allocate or withhold information;
+- recognize shared dependencies;
+- observe how different institutions respond to the same pressure;
+- influence outcomes through authority and timing.
+
+It does **not** mean PRIM2 personally engineers every Hitman conflict or treats every casualty as a planned “cull.”
+
+Human agency remains real.
 
 ---
 
-## How they get intel
-Hitman is not the IT church. **Prim3-side machines, compromised nets, bought analysts, Evil Twin–style embeds** feed them targets. Prime’s dual board means some of that feed is **steered**.
+# PRIM3-era Hitman apex
 
-Brute force without a name on a list is just noise. Hitman brings the noise to the name.
+Royce is the contemporary Hitman-side apex/successor figure relevant to PRIM3.
 
----
+He is not a PRIM Mantle holder.
 
-## Relationship to Prime
-Both organizations climb toward **Prime** — different mountains, same weather.
+In gameplay he functions as Hitman's elite hostile escalation threat: the opposing board can introduce him into eligible missions when pressure, story and campaign state justify it.
 
-- **Prim3 path:** intellect, systems, XCOM-style precision, patch and picture
-- **Hitman path:** kinetic religion, FPS/CoD-style slaughter, phone-playable chaos
+His asymmetry matters:
 
-They **fight each other** when Prime needs:
-- Appearance of opposition (minutes, clients, governments)
-- A cull — only the most ruthless **minds** and the most ruthless **bodies** stay on the board
-- Controlled blood to hide a quieter objective
+```text
+JORDAN -> restores optionality
+PRIM2  -> expands picture / authority
+ROYCE  -> destabilizes control / tempo through kinetic and organizational pressure
+```
 
-Needless deaths are real. The theory (Prime’s, not advertised) is selection pressure across both species of operator.
-
-Evil Twin remains the story of how Prime got a hand on Hitman’s house. It does not make Hitman “secretly soft.”
+See `game/WILDCARD-INTERVENTION-AUTHORITY.md`.
 
 ---
 
-## Own show / own music
-Hitman is not only an enemy faction in Prim3 episodes.
+# Organizational culture
 
-- Separate narrative lane possible (Hitman-facing series)
-- Tracks in motion include **Hitshake**, **Crimewave**, others TBD
-- Tone: street, violent, religious about the work — not CompTIA-in-a-hook
+Hitman should feel:
+- relationship-driven;
+- status-conscious;
+- kinetic;
+- deniable where story requires;
+- geographically adaptable;
+- materially grounded in logistics, money, access and human networks;
+- capable of legitimate-looking public surfaces alongside hidden criminal activity.
 
-Prim3 songs teach systems. Hitman songs preach the round.
+Do not flatten every member into a psychopath or disposable shooter. The stronger story comes from people who can be generous, funny, loyal, ambitious, fearful, loving and dangerous in different combinations.
 
----
-
-## Play fantasy
-| Side | Feel |
-|------|------|
-| Prim3 | XCOM-like TB, clocks, integrity, cohort support |
-| Hitman | CoD-like / phone FPS, high death rate, deniable drops, no backup romance |
-
-Same war calendar. Different hands on the controller. Sometimes the mission is **both at once** — intel board and kill board steered into each other.
+`story/HITMAN-CHARACTER-DOSSIERS.md` and current character authorities govern individual depth.
 
 ---
 
-## Moral engine
-Hitman is **not** redeemed by Prime’s greater good. They are the blade. Prime’s crime is using the blade and the keyboard as dual selection. The protagonist’s horror at the body count is correct. The final Ghost move does not wash the blood off the halo.
+# Intelligence relationship
+
+Hitman consumes information from many sources: people, public information, paid/borrowed expertise, its own watchers, counterparties and hidden cross-board channels.
+
+It should not be written as technically incompetent simply because PRIM's curriculum is more infrastructure-focused.
+
+Different characters can possess deep specialist knowledge without turning Hitman into another PRIM lab.
+
+---
+
+# Own show / prequel lane
+
+Hitman/Benji is a future prequel covering Jordan's age-19-to-26 life.
+
+Exact episode count, final track order and full chronology are **not locked merely by old six-episode stubs**.
+
+The future prequel should reveal why PRIM3 Jordan behaves as he does without requiring PRIM3 itself to expose the full history early.
+
+Canonical spoiler rule:
+
+> **Background truth is not disclosure permission.**
+
+---
+
+# Moral engine
+
+Hitman is neither automatically redeemed by PRIM2's larger strategy nor reduced to “the evil faction.”
+
+The organization creates a harder question:
+
+> **What happens when loyalty, ambition, money, violence and community all occupy the same institution—and the person who walked away from its chair eventually has to confront the person who accepted it?**
+
+That question culminates in Jordan and Royce entering Site 0 from opposite boards during RAID.
