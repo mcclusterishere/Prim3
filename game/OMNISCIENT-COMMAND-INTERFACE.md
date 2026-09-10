@@ -1,7 +1,7 @@
 ---
 status: CANON
-system: PRIM3 omniscient command / data-fusion tactical interface
-version: 1.0.0
+system: PRIM omniscient command / data-fusion tactical interface
+version: 1.1.0
 source_inspiration: Hitman's Halo data-layer philosophy + PRIM3 XCOM mechanics
 ---
 
@@ -9,15 +9,32 @@ source_inspiration: Hitman's Halo data-layer philosophy + PRIM3 XCOM mechanics
 
 ## Thesis
 
-When PLAY begins, the viewer stops watching PRIM3 and **becomes PRIM3**.
+When PLAY begins, the viewer stops only watching the episode and **enters PRIM mission-control perspective**.
 
-The player controls Field-R, Field-E and Field-T through one fused command interface combining XCOM-style tactical control with a data-fusion operating picture.
+The player controls the episode's assigned mission element through one fused command interface combining XCOM-style tactical control with a data-fusion operating picture.
+
+The player is **not literally becoming Jordan or PRIM3** during ordinary pre-succession missions. `PRIM3` is also Jordan Vale's eventual Mantle index, so gameplay language must preserve that distinction.
 
 The fantasy is not magical omniscience. It is **earned omniscience**:
 
 > The interface can potentially represent the whole battlefield and infrastructure stack, but the player only sees what the team has sensed, inferred, corroborated, unlocked or verified.
 
 The interface teaches a second lesson beneath every certification concept: **data is not the same as truth.**
+
+## Ensemble-control law
+
+Normal PLAY primarily controls the characters actually assigned to the mission. Most ordinary missions launch **without Jordan**.
+
+Mission control may include:
+- Field-R;
+- Field-E;
+- Field-T;
+- Cohort/Lead/Defense roles when authored;
+- episode-specific specialists;
+- Jordan Vale only when specifically assigned or when an approved Wildcard call-up occurs;
+- PRIM2 only through a scripted appearance or eligible Apex intervention.
+
+See `game/WILDCARD-INTERVENTION-AUTHORITY.md` and `story/ENSEMBLE-POV-AUTHORITY.md`.
 
 ## One world, four semantic zoom levels
 
@@ -80,16 +97,6 @@ COMPROMISED
 UNKNOWN
 ```
 
-- **HIDDEN:** not yet known.
-- **DETECTED:** something exists; identity/function uncertain.
-- **INFERRED:** plausible interpretation.
-- **CORROBORATED:** multiple independent observations support it.
-- **VERIFIED:** strong enough to use as trusted mission fact.
-- **STALE:** once-useful information may no longer describe current state.
-- **CONTRADICTED:** another credible source disagrees.
-- **COMPROMISED:** the source may itself be manipulated/untrustworthy.
-- **UNKNOWN:** information is explicitly unavailable.
-
 The UI may never silently promote DETECTED or INFERRED information to VERIFIED.
 
 ## Layer unlock mechanics
@@ -112,37 +119,20 @@ Examples:
 
 Do not charge AP for toggling a layer or reading an already-known fact.
 
-AP may be charged for scanning, querying a node, comparing sources, moving into observation position, tracing dependencies, validating identity, refreshing stale data, reaching a physical control point, configuring infrastructure and verifying results.
-
 ## Role identity
 
 ### Field-R — THE PICTURE
-R answers: What exists? Where? What changed? What is approaching? Which source can be trusted? What remains unknown?
-
-R mainly expands spatial, threat, RF, sensor and evidence state.
+What exists? Where? What changed? What is approaching? Which source can be trusted? What remains unknown?
 
 ### Field-E — THE REALITY
-E answers: Can we reach it? Is it safe? Who controls this space? Can T remain here long enough to work? Is there a manual/physical fallback? What happens to people if the system fails?
-
-E turns geometry, access and safety into reliable operational conditions.
+Can we reach it? Is it safe? Who controls this space? Can technical work continue? What happens to people if the system fails?
 
 ### Field-T — THE SYSTEM
-T answers: What is connected to what? Which layer is failing? What can be isolated/configured/recovered? Which identity/service relationship is valid? Did the intervention actually work?
-
-T expands network, identity, service, evidence and infrastructure dependency state.
+What connects to what? Which layer is failing? What can be isolated/configured/recovered? Did the intervention work?
 
 ## Fused-truth moments
 
-The strongest “omniscience” moments happen when roles converge on one fact.
-
-Example — suspected rogue wireless source:
-1. R detects unusual RF: DETECTED.
-2. R maps coverage/source behavior: INFERRED.
-3. E reaches the room and confirms an unlisted physical device: CORROBORATED.
-4. T validates controller/inventory/backhaul mismatch: VERIFIED.
-5. The fused interface exposes the justified containment options.
-
-The player feels omniscient because they see multiple disciplines fused at once; the knowledge was still earned.
+The strongest “omniscience” moments happen when roles converge on one fact. The player feels omniscient because multiple disciplines are fused, not because the interface guesses.
 
 ## Interface composition
 
@@ -150,91 +140,104 @@ The player feels omniscient because they see multiple disciplines fused at once;
 3D/isometric tactical map, units, movement, cover, visible threats, interactables, animated combat.
 
 ### Left rail — layers
-Compact mission-relevant data lenses. Normally one primary layer plus at most one ghost comparison layer. Critical events may temporarily surface themselves.
+Compact mission-relevant data lenses.
 
 ### Right rail — selected entity/node
-Current state, confidence/freshness, provenance, dependency relationships, available actions/AP cost and concept-linked rationale when Study Mode is enabled.
+Current state, confidence/freshness, provenance, dependencies, available actions/AP costs and concept-linked rationale when Study Mode is enabled.
 
 ### Bottom — squad economy
-R/E/T cards, remaining AP, statuses, Control/Picture/technical resources and cross-role combo availability.
+Current playable character cards, remaining AP, statuses, Control/Picture/technical resources and cross-role combo availability. Do not hard-code the rail to Jordan or even strictly R/E/T when the authored mission uses another composition.
 
 ### Top — mission state
-Window/Extract clocks, Detection, objective state, and critical service/evidence/life-safety warnings.
+Window/Extract clocks, Detection, objective state and critical service/evidence/life-safety warnings.
 
-### Optional timeline drawer
-Timestamped event history for incident/evidence-heavy missions.
+### Intervention rail
+Normally compact or hidden. When relevant it exposes:
+
+```text
+MISSION STATE      STABLE / DEGRADED / CRITICAL / TERMINAL
+WILDCARD           remaining season authorizations
+APEX               remaining campaign authorizations
+HOSTILE ESCALATION UNKNOWN / POSSIBLE / LIKELY / ACTIVE
+```
+
+When CRITICAL conditions are met and Jordan is off-board, surface `REQUEST WILDCARD`.
+
+When Jordan is already present on an eligible high-value mission and CRITICAL failure persists, surface `REQUEST EXECUTIVE OVERRIDE` or `REQUEST PRIM2` depending on story clearance.
+
+Royce warnings are information-dependent. Strong R/Intel play can improve warning quality without simply cancelling the incursion.
 
 ## Hybrid map + graph + timeline rule
-
-PRIM3 does not choose between tactical map and entity/dependency graph.
 
 - **Map answers WHERE.**
 - **Graph answers WHY / WHAT DEPENDS ON WHAT.**
 - **Timeline answers WHEN / IN WHAT ORDER.**
 
-Systems graphs remain anchored to battlefield entities. Clicking a rack may reveal switch, power, storage, service and identity dependencies. Clicking an AP may reveal RF coverage spatially while controller/backhaul/VLAN/authentication relationships appear logically.
-
 ## Mission-entry transition
-
-The handoff must sell the transformation from viewer to PRIM3:
 
 1. Human story produces the incident and decision to deploy.
 2. Music film/brief teaches doctrine, vocabulary and expected model.
 3. Human escalation reaches the mission threshold.
 4. Final cinematic image freezes on the operation.
-5. Camera pulls into the PRIM3 operating picture.
+5. Camera pulls into the PRIM operating picture.
 6. Command HUD fades over the same world.
 7. Known briefing layers illuminate.
 8. Unknown/unverified layers remain dark or uncertain.
-9. Player receives control of R/E/T.
+9. Player receives control of **the assigned mission element**.
 
-Avoid a disconnected loading-screen feeling where technically practical.
+Do not describe this handoff as the player “becoming PRIM3” unless the story has actually reached Jordan's succession and that meaning is deliberately intended.
 
 ## Briefing law
 
-The music film communicates what the system is, normal/good state, key concepts, intended doctrine, major risks and what the team believes it will face.
-
-It must not reveal exact enemy positions, exact correct lab choices, hidden root causes, surprise story information or every dependency edge.
-
 > **The briefing teaches the model. The mission attacks the model.**
+
+The brief cannot reveal exact hidden solutions simply because later intervention units possess greater authority.
 
 ## Interface progression across seven seasons
 
 ### Seasons 1–2
-Fewer layers, explicit labels, strong prompts, smaller maps, visible confidence/provenance explanations.
+Fewer layers, explicit labels, strong prompts, smaller maps, visible confidence/provenance explanations. Executive interventions may remain deliberately anonymous in player-facing language.
 
 ### Seasons 3–4
-Conflicting sources, evidence/timeline views, cyber-physical dependency edges, more player inference.
+Conflicting sources, evidence/timeline views, cyber-physical dependency edges, more player inference. Wildcard call-ups become an understood institutional mechanic even if Jordan's deeper history remains hidden.
 
 ### Seasons 5–6
-Multi-site/cloud/global context, larger dependency graphs, provider/ownership overlays, stale/contradicted data and fewer tutorial prompts.
+Multi-site/cloud/global context, larger dependency graphs, provider/ownership overlays, stale/contradicted data and fewer tutorial prompts. Royce incursion pressure and the meaning of executive attention become more legible.
 
 ### Season 7
-Full PRIM3 operating picture, Site 0 multi-floor infrastructure, simultaneous failure domains, and Prime's superior information position made explicit. Earlier layers return as accumulated player literacy.
+Full PRIM operating picture, Site 0 multi-floor infrastructure, simultaneous failure domains and PRIM2's superior information position made explicit. Earlier layers return as accumulated player literacy.
 
-The player becomes more “omniscient” because they understand more of what the interface means, not merely because more buttons unlock.
+## PRIM2 information asymmetry
 
-## Prime information asymmetry
+PRIM2's narrative advantage should be visible through information architecture.
 
-Prime's narrative advantage should be visible through information architecture.
+Across earlier seasons, the player repeatedly encounters unexplained situations where the presiding Mantle holder had a more complete Picture, more reliable provenance, earlier telemetry or cross-organization context.
 
-Across earlier seasons, the player repeatedly encounters unexplained situations where Prime appears to have had a more complete Picture, more reliable provenance, earlier telemetry or cross-organization context.
+An Apex intervention may expose a **PRIM2-SOURCED** information package. That provenance does not magically convert an inference into verified truth. Authority can expose information; validation law still applies.
 
-By `Evil Twin`, the player learns that Prime's apparent omniscience came partly from privately fusing data and mission state across compartments that Jordan and Benji were never allowed to see together.
+By `Evil Twin`, the player learns that PRIM2's apparent omniscience came partly from privately fusing data and mission state across compartments unavailable to ordinary teams.
 
-This makes the interface itself part of the moral conflict: the question is not whether comprehensive situational awareness is useful; it is **who is allowed to see, decide, write and audit the fused picture.**
+## Rival escalation
+
+Royce is not represented as another omniscient interface user. His incursion fantasy is physical/organizational disruption: breaking Control, accelerating pressure, moving Hitman pieces and forcing the player's carefully constructed plan to become unstable.
+
+This asymmetry is intentional:
+
+```text
+JORDAN — finds another path
+PRIM2 — sees/authorizes more of the board
+ROYCE — violently changes the board
+```
 
 ## Real-world bridge principle
 
-PRIM3's fictional command interface and the separately hosted real-world `Hitman's Halo` capability may share visual and conceptual language, but the game must not rely on live public-world feeds to function.
+The fictional command interface and the separately hosted real-world `Hitman's Halo` capability may share visual/conceptual language, but the game must not rely on live public-world feeds to function.
 
-The campaign uses authored/simulated mission data. Real-world public-data access is a post-game/product entitlement, not a hidden dependency in the educational missions.
-
-A player who completes the succession arc and earns Prime status may unlock an authenticated real-world situational-awareness workspace inspired by the same layer/provenance philosophy, subject to provider terms, access controls, privacy rules and rate limits.
+The campaign uses authored/simulated mission data.
 
 ## V1 implementation boundary
 
-A shippable first game version needs:
+A shippable first version needs:
 - authored tactical map;
 - authored entity/dependency graph;
 - deterministic data states;
@@ -245,6 +248,8 @@ A shippable first game version needs:
 - LAB_NODE interaction;
 - smooth Tactical <-> Systems <-> Node context shifts;
 - scripted mission data updates;
+- mission-state classification;
+- Wildcard request UI/state even if the first vertical slice scripts the result;
 - no dependency on real-world surveillance/public feeds.
 
 Use `LVL-07 EXPOSURE` first for Physical, Threat, Service, Identity/Authorization, Evidence and Mission layers. Then `LVL-06 DEAD AIR` proves RF/Network/Power layering.
