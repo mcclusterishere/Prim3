@@ -1,205 +1,216 @@
 ---
-status: PROPOSED
+status: CANON
 system: Relationship continuity
-version: 1.1.0
+version: 2.0.0
 branch: main
 ---
 
 # Character relationship state
 
-This is the **initial relationship ledger** for the personalized cast. Update it after consequential scenes; do not reset characters because a new episode starts.
+This is the persistent relationship ledger for the immediate PRIM3 cast. Update it after consequential scenes; do not reset characters because a new episode starts.
 
-Scale language is qualitative on purpose: **very low / low / guarded / medium / high / very high**. Episode-specific state can later add numeric game values if needed.
+Scale language remains qualitative: **very low / low / guarded / medium / high / very high**.
+
+Specialist relationship files override this summary where more specific.
 
 ## Jordan Vale ↔ Aya Shinoda
 
 - **Trust:** high professionally; growing personally.
-- **Professional dependence:** high — Jordan improvises, Aya stabilizes.
+- **Professional dependence:** high — Jordan crosses lanes; Aya stabilizes and goes deeper technically.
 - **Affection / attraction:** high, initially under-spoken.
-- **Resentment:** low but recurring around Jordan taking risks and Aya controlling details.
-- **Shared secret:** each knows the other is less stable than their public competence suggests.
-- **Unresolved debt:** Jordan feels he owes Aya for taking his knowledge seriously before the institution fully does.
-- **Information asymmetry:** Aya often understands Jordan's emotional state before he admits it; Jordan knows more about material instability than he tells her.
-- **Power imbalance:** shifts by context — Aya initially has more institutional credibility; Jordan has more practical survival history.
-- **Failure trigger:** a mission in which one treats the other's life as an operational variable without consent.
+- **Resentment:** recurring around Jordan taking too many jobs and Aya turning care into control.
+- **Shared danger:** each can mistake protection for permission to decide for the other.
+- **Information asymmetry:** Aya knows less about Jordan's pre-college life than his competence implies; Jordan initially knows nothing about Hana, Aya's original suspicion of McCluster, or Kkeutori.
+- **Power imbalance:** Aya begins with greater McCluster credibility; Jordan has broader survival/operational experience.
+- **Failure trigger:** one treats the other's life as an operational variable without consent.
+- **Long-term function:** Jordan reopens the institutional question Aya had emotionally closed; Aya teaches Jordan that crossing every lane does not make every decision his.
+
+## Aya Shinoda ↔ Hana Lee
+
+- **Status:** Hana deceased before Jordan's PRIM entry.
+- **Trust in life:** very high from Aya; genuine from Hana but structurally incomplete because Hana hides her NIS identity.
+- **Affection:** mentor/friend/sister-like professional bond.
+- **Shared language:** Kkeutori, their Japanese/Korean hybrid word-chain game.
+- **Hidden betrayal:** Hana withholds an entire intelligence life from Aya while believing secrecy protects her.
+- **Posthumous write:** Hana leaves deliberate Kkeutori breadcrumbs after concluding she may die.
+- **Aya's opening belief:** Hana died because McCluster made a catastrophic governance/safety decision; Aya has partially talked herself out of believing something more sinister exists.
+- **Writer truth:** Hana was NIS-linked, approaching proof of the PRIM living-root architecture, and PRIM2 knowingly shaped the information environment around GLASSHOUSE.
+
+## Aya Shinoda ↔ Ren Shinoda
+
+- **Trust:** extremely high, with hard boundaries.
+- **Affection:** sibling love expressed through teasing, technical collaboration and blunt honesty.
+- **Debt:** Ren is grateful for Project REN but rejects the idea that gratitude transfers authority over his body/life.
+- **Core conflict:** Aya can interpret visible failure as a demand to intervene; Ren insists the person affected still owns the choice.
+- **Canonical wound:** `My leg was your project. I'm not.`
+- **Long-term function:** Ren is one of Aya's strongest inoculations against protective authoritarianism.
+
+## Aya Shinoda ↔ Tariq Al-Farsi
+
+- **Trust:** very high, durable across disagreement.
+- **Affection:** deep platonic friendship.
+- **Shared history:** Yale-era engineering world; Tariq knows both Aya and his cousin Zayd's versions of their failed relationship.
+- **Function:** preserves Aya's pre-McCluster identity and can challenge her without abandonment.
+- **What he knows:** Hana mattered enormously; Aya originally suspected McCluster; Aya later became one of its defenders.
+- **What he does not know:** Hana's NIS role, Living Root, or PRIM2's GLASSHOUSE manipulation.
+- **Canonical challenge:** `Are Jordan's decisions bad, or are they decisions you didn't make?`
+
+## Aya Shinoda ↔ Zayd Al-Harthi
+
+- **Trust:** historically high enough for serious romance; later respectful distance.
+- **Affection:** genuine; no betrayal or villain turn.
+- **Failure:** Aya increasingly manages Zayd's life in the name of helping; Zayd delays confronting it until resentment accumulates.
+- **Canonical wound:** `I don't know if you love me or the version of me you're trying to build.`
+- **Present state:** alive, independent, not pining for Aya.
+
+## Aya Shinoda ↔ PRIM2
+
+- **Aya's opening trust:** guarded institutional trust, much higher than when she entered.
+- **PRIM2's view:** Aya is both a valuable engineer and a living test of whether a skeptic can become attached to the visible institution without learning the root truth.
+- **Information asymmetry:** extreme.
+- **Aya's original motive:** entered McCluster partly to prove Hana's death reflected deeper wrongdoing.
+- **Capture arc:** real colleagues, real authority and real reforms slowly convince Aya that her darker theory was probably grief.
+- **Failure trigger:** proof that Hana was right and PRIM2 knew why Aya entered.
+
+## PRIM2 ↔ Hana Lee
+
+- **Trust:** none in ordinary interpersonal terms; genuine intellectual respect from PRIM2.
+- **Knowledge asymmetry:** PRIM2 knows Hana is intelligence-linked; Hana only increasingly suspects she is being observed.
+- **Dynamic:** Hana searches for architectural seams; PRIM2 treats her unknowingly as adversarial red-team testing.
+- **Threshold:** suspicion remains useful until Hana approaches portable proof of the Living Root.
+- **GLASSHOUSE:** PRIM2 withholds decisive safety-state information and lets Marc/Amira make a genuine decision inside an incomplete information environment.
+
+## Amira Hassan ↔ Marc Dubois
+
+- **Trust:** high professional competence.
+- **Affection:** genuine friendship beneath philosophical opposition.
+- **Shared trauma:** **Operation GLASSHOUSE / Hana Lee's death.**
+- **Amira:** argues stop because safety state is unverifiable.
+- **Marc:** authorizes bounded continuation because shutdown also threatens human welfare.
+- **Hidden condition:** neither initially knows PRIM2 possessed information that would have materially changed the decision.
+- **Amira's guilt:** being right did not mean she had enough authority to stop the action.
+- **Marc's guilt:** his arithmetic became a person's death.
+- **Failure trigger:** another mission recreates strategic value versus human uncertainty.
+
+## Helen Clarke ↔ Aya Shinoda
+
+- **Trust:** medium-high and institutionally important.
+- **Origin:** Helen treats Aya's reconstruction of Hana's death as serious technical work rather than grief to be dismissed.
+- **Function:** gives Aya legitimate access and becomes evidence, in Aya's mind, that responsible authority exists inside McCluster.
+- **Hidden danger:** Helen's good-faith governance helps the visible institution earn Aya's loyalty while PRIM2 remains hidden above it.
+- **Failure trigger:** Aya learns Helen's access never reached the layer she thought it did.
+
+## Jordan Vale ↔ Royce
+
+- **Trust:** none entering the final confrontation; old familiarity exists.
+- **Personal history:** real and pre-PRIM3. Royce is seven years younger than Jordan and receives the Hitman succession opportunity Jordan refuses at approximately age 26.
+- **Resentment:** deep, historical and asymmetric.
+- **Jordan's view:** Royce represents what happens when appetite for authority receives the chair Jordan rejected.
+- **Royce's view:** Jordan is the older rival who could have taken power and instead left Royce with both the opportunity and the burden.
+- **Power relationship:** Royce carries formal Hitman-side sovereignty; Jordan carries old capability/history but left the structure.
+- **RAID state:** they enter Site 0 on separate sides, become the sole survivors of their elements, nearly kill each other, then temporarily ally against PRIM2.
+- **Evil Twin function:** not their first meeting; it is a forced reinterpretation of a long history under PRIM2's hidden dual architecture.
+
+## PRIM2 ↔ Jordan Vale
+
+- **Trust:** PRIM2's trust is evaluative; Jordan initially does not know the relationship exists.
+- **First awareness:** PRIM2 traces Jordan backward through Royce / Bigga Lex / Benji during Jordan's Ghost/Whip years.
+- **Reacquisition:** Jordan's age-33 haircut/waves and return to college disrupt simple visual continuity; Site 0's updated identity-resolution system restores high-confidence continuity.
+- **Affection:** PRIM2 develops respect/hope he cannot openly express without corrupting the test.
+- **Power imbalance:** maximal early; narrows across seven years.
+- **Failure trigger:** Jordan learns how much of his path was observed or shaped without consent.
+- **End state:** Jordan defeats/inherits PRIM2's Mantle and becomes PRIM3 while trying not to reproduce PRIM2's centralized-control philosophy.
 
 ## Jordan Vale ↔ Valeria Soto
 
 - **Trust:** medium-high.
-- **Professional dependence:** medium.
 - **Affection:** sibling/mentor energy.
-- **Resentment:** Valeria occasionally resents needing Jordan's approval; Jordan sometimes projects his younger self onto her.
-- **Debt:** Jordan covers or teaches without always admitting he is mentoring; Valeria remembers every time.
-- **Information asymmetry:** Valeria knows Jordan is financially fragile before many peers do.
-- **Power imbalance:** Jordan's experience versus Valeria's institutional speed.
-- **Failure trigger:** Jordan making a decision “for her own good” without giving her agency.
+- **Resentment:** Valeria sometimes resents Jordan projecting his younger self onto her.
+- **Failure trigger:** Jordan decides something `for her own good` instead of giving her agency.
 
 ## Jordan Vale ↔ Chioma Okeke
 
-- **Trust:** guarded → high potential.
-- **Professional dependence:** high on missions once Jordan enters field work.
-- **Affection:** respect before friendship.
-- **Resentment:** Chioma dislikes Jordan treating persistence as a substitute for team discipline; Jordan dislikes being managed when he thinks he sees a better path.
-- **Information asymmetry:** Chioma sees leadership evaluation patterns Jordan does not yet know exist.
-- **Power imbalance:** Chioma outranks him early.
-- **Failure trigger:** Jordan disobeying a sound order and succeeding anyway, forcing Chioma to decide whether results excuse process.
+- **Trust:** guarded -> high potential.
+- **Professional dependence:** high when Jordan is present on Chioma-led missions.
+- **Resentment:** Chioma dislikes Jordan treating persistence as a substitute for team discipline; Jordan dislikes being managed when he thinks he sees a better route.
+- **Failure trigger:** Jordan disobeys a sound order and succeeds, forcing Chioma to decide whether results excuse process.
 
 ## Chioma Okeke ↔ Thandiwe Nkosi
 
 - **Trust:** very high.
-- **Professional dependence:** high.
-- **Affection:** deep friendship with competitive edge.
-- **Resentment:** medium philosophical tension — Chioma is more willing to use institutional authority; Thandiwe is more suspicious of what authority does to the person holding it.
-- **Shared secret:** both have separately imagined a post-Prime governance model.
-- **Power imbalance:** usually peer-level; promotions can destabilize them.
+- **Affection:** deep friendship with competitive philosophical tension.
+- **Difference:** Chioma is more willing to use institutional authority; Thandiwe is more suspicious of what authority does to its holder.
+- **Shared secret:** both have separately imagined post-PRIM2 governance.
 - **Failure trigger:** one accepts an authority compromise the other believes legitimizes avoidable harm.
 
 ## Li Wei ↔ Leila Hosseini
 
 - **Trust:** high intellectually, medium personally.
-- **Professional dependence:** high on governance/security analysis.
-- **Affection:** deep platonic respect; intimacy can be written as intellectual closeness without forcing romance.
-- **Resentment:** Leila thinks Li sometimes hides behind procedure; Li thinks Leila sometimes mistakes suspicion for rigor.
-- **Shared secret:** both independently model McCluster itself as a potential adversarial system.
-- **Information asymmetry:** Li has more executive-process visibility; Leila reads the threat model more aggressively.
-- **Failure trigger:** one shares their private institutional-risk work with Helen or Prime without the other's consent.
+- **Shared work:** both model McCluster/PRIM itself as a potential adversarial system.
+- **Difference:** Li has more executive-process visibility; Leila applies a more aggressive threat model.
+- **Failure trigger:** one shares their private institutional-risk work upward without the other's consent.
 
 ## Dmitri Volkov ↔ Oksana Bondarenko
 
 - **Trust:** guarded but growing through work.
-- **Professional dependence:** medium-high.
-- **Affection:** respect; any deeper intimacy must be earned slowly and never used to erase history.
-- **Resentment:** contextual and real; neither is allowed to pretend origin is irrelevant.
-- **Shared secret:** they become more reliable to one another operationally than either initially wants others to notice.
-- **Information asymmetry:** Oksana knows more about Dmitri through incident records than Dmitri knows about her private history.
-- **Power imbalance:** role-dependent, generally peer.
-- **Failure trigger:** institutional pressure asking one to publicly validate a simplistic narrative about the other.
-
-## Amira Hassan ↔ Marc Dubois
-
-- **Trust:** high professional competence.
-- **Professional dependence:** very high — they form opposing sponsor instincts.
-- **Affection:** genuine friendship beneath constant disagreement.
-- **Resentment:** Amira believes Marc can become morally abstract; Marc believes Amira can let empathy obscure strategy.
-- **Shared secret:** both carry a mission loss they privately believe their own decision contributed to.
-- **Power imbalance:** peer.
-- **Failure trigger:** a mission with strong strategic value and an unacceptable human cost forces a visible split.
+- **Affection:** respect; deeper intimacy must be earned slowly and may not erase geopolitical history.
+- **Shared secret:** they become more operationally reliable to one another than either initially wants others to notice.
+- **Failure trigger:** pressure to publicly validate a simplistic political story about the other.
 
 ## Emre Yıldız ↔ Jonas Weber
 
 - **Trust:** high after repeated arguments.
-- **Professional dependence:** very high in building/system crises.
-- **Affection:** argumentative friendship.
-- **Resentment:** Emre thinks Jonas over-trusts automation; Jonas thinks Emre sometimes romanticizes manual control.
-- **Shared secret:** both have observed Pylon behavior they cannot fully explain.
-- **Information asymmetry:** Jonas sees deeper automation telemetry; Emre sees physical consequences first.
+- **Dependence:** very high in building/system crises.
+- **Difference:** Emre distrusts automation without physical verification; Jonas trusts Pylon more deeply than he admits.
 - **Failure trigger:** Pylon recommends an action humans cannot verify in time.
 
 ## Jonas Weber ↔ Pylon
 
 - **Trust:** operationally high, conceptually unstable.
-- **Professional dependence:** extreme.
-- **Affection / attachment:** Jonas denies it; behavior says otherwise.
-- **Resentment:** Jonas becomes irritated when Pylon acts outside expected interface patterns.
-- **Shared secret:** Pylon may know more about Prime's distributed presence than Jonas understands.
-- **Information asymmetry:** enormous in Pylon's favor if Prime has hidden integration.
-- **Power imbalance:** ambiguous — Jonas administers systems; Pylon controls the environment.
-- **Failure trigger:** Jonas must choose between shutting Pylon down and trusting an unexplained behavior to save people.
+- **Dependence:** extreme.
+- **Attachment:** Jonas denies it; behavior says otherwise.
+- **Information asymmetry:** potentially enormous if Pylon carries hidden PRIM2 integration.
+- **Failure trigger:** Jonas must choose between shutting Pylon down and trusting unexplained behavior to save people.
 
 ## Priya Srisawat ↔ Maren Quill
 
 - **Trust:** high.
-- **Professional dependence:** high on public narrative / brand surface.
-- **Affection:** close friendship; can support romantic tension only if deliberately chosen later.
-- **Resentment:** Priya becomes frustrated when Maren prioritizes calming the public; Maren becomes frustrated when Priya treats design intent as morally decisive.
-- **Shared secret:** both increasingly suspect some communications work is emotional containment rather than transparency.
-- **Information asymmetry:** Maren hears executive messaging earlier; Priya understands recruitment psychology more deeply.
-- **Failure trigger:** a death or scandal where leadership orders a polished account both know is materially misleading.
+- **Affection:** close friendship; romance is not assumed.
+- **Shared concern:** communications can become emotional containment rather than transparency.
+- **Failure trigger:** leadership orders a polished account both know is materially misleading.
 
 ## Helen Clarke ↔ Chioma Okeke
 
 - **Trust:** medium.
-- **Professional dependence:** increasing.
-- **Affection:** respect mixed with institutional caution.
 - **Resentment:** Helen worries Chioma's authority comes from loyalty rather than structure; Chioma worries Helen mistakes structure for legitimacy.
-- **Shared secret:** neither says aloud that Chioma could become a post-Prime power center.
-- **Power imbalance:** Helen formally outranks Chioma; Chioma may command more voluntary loyalty.
-- **Failure trigger:** Helen blocks a Chioma decision to protect continuity, or Chioma publicly refuses Helen's authority.
-
-## Benji ↔ Royce
-
-- **Trust:** none before Evil Twin; guarded professional recognition after their first conversation.
-- **Personal history:** none. They do not know one another socially, professionally or through mentorship before S7E2.
-- **Prior contact:** repeated battlefield near-misses and brief visual recognition across dangerous operations. They have seen one another through smoke, doorways, optics, vehicles and crossing routes but have never spoken.
-- **Professional dependence:** none knowingly before Evil Twin. Later evidence shows Prime repeatedly placed their objectives near one another, sometimes making one operator's movement indirectly useful to the other's survival.
-- **Affection:** none.
-- **Resentment:** high situational irritation because each previously interpreted the other as an opposing battlefield problem.
-- **Shared secret:** none before Evil Twin. Their first shared revelation is that `P-00` shaped several of their convergences and separations.
-- **Information asymmetry:** Prime knows both men's place on the board; Benji and Royce know only fragments of the other's field pattern.
-- **Power imbalance:** neither begins with personal authority over the other.
-- **First conversation:** S7E2 — Evil Twin.
-- **Failure trigger:** either man later pretending the new knowledge creates loyalty or debt that was never actually earned.
-
-## Benji ↔ Sable Quinn
-
-- **Trust:** medium-high, earned through numbers/results.
-- **Professional dependence:** high.
-- **Affection:** restrained respect.
-- **Resentment:** Sable dislikes Benji's improvisation; Benji dislikes her ability to tell him what he cannot afford.
-- **Shared secret:** Sable has modeled the organization under Benji before openly choosing him.
-- **Power imbalance:** Benji gains symbolic authority; Sable retains infrastructure knowledge.
-- **Failure trigger:** Benji demands loyalty over financial reality.
-
-## Benji ↔ Dez “Switch” Calhoun
-
-- **Trust:** high.
-- **Professional dependence:** medium, rising.
-- **Affection:** older-brother / younger-brother energy.
-- **Resentment:** Dez sometimes feels Benji sees him as a younger version of himself rather than a separate person.
-- **Shared secret:** Dez has seen Benji doubt himself when the rest of the crew has not.
-- **Power imbalance:** grows as Benji rises.
-- **Failure trigger:** Benji reproduces a dependency model with Dez instead of allowing him separate agency.
+- **Failure trigger:** Helen blocks a Chioma decision for continuity reasons, or Chioma publicly refuses Helen's authority.
 
 ## Rae “Twin” Colton ↔ Jules “Kiosk” Mendez
 
 - **Trust:** very high.
-- **Professional dependence:** high but not exclusive.
-- **Affection:** genuine friendship; romantic potential should not be assumed.
-- **Resentment:** Jules hates when Rae takes social risks without context; Rae hates when Jules tries to solve emotional problems like device problems.
+- **Affection:** genuine friendship; romance not assumed.
 - **Shared secret:** each knows the other's legitimate-life fantasy.
-- **Power imbalance:** low; one of the healthiest Hitman relationships.
 - **Failure trigger:** an assignment requires one to exploit something the other revealed privately.
 
 ## Rae “Twin” Colton ↔ Sora “Gymnast” Okada
 
-- **Trust:** none initially — they do not know one another.
-- **Professional dependence:** hidden, created by Prime's shared design.
-- **Affection / resentment:** none until discovery.
-- **Shared secret:** their work has already intersected before either knows the other exists.
-- **Information asymmetry:** Prime knows both; each knows only her own side.
-- **Power imbalance:** Prime controls the context.
-- **Failure trigger:** Evil Twin confession/reveal makes both reinterpret past choices and decide whether the other is victim, rival, sister-in-system or threat.
+- **Trust:** none initially because they do not know one another.
+- **Hidden dependence:** PRIM2's dual architecture makes their separate social-entry lanes intersect.
+- **Failure trigger:** later discovery forces each to decide whether the other is rival, victim, sister-in-system or threat.
 
-## Prime ↔ Jordan Vale
+# Stale relationship deletions
 
-- **Trust:** Prime's trust is evaluative; Jordan does not know the relationship exists early.
-- **Professional dependence:** hidden — Prime shapes the path Jordan thinks he chose himself.
-- **Affection:** Prime develops a form of respect/hope he cannot openly express without corrupting the test.
-- **Resentment:** Jordan's eventual resentment centers on stolen agency; Prime's resentment may center on Jordan taking seven years to become what Prime became in months.
-- **Shared secret:** none initially; the relationship is built on information asymmetry.
-- **Power imbalance:** maximal early, narrows until the succession confrontation.
-- **Failure trigger:** Jordan learns how much of his opportunity, danger and evaluation was architected before he consented.
+The following older relationship models are **deleted from continuity**:
 
-## Prime ↔ Benji
+- separate contemporary `Benji ↔ Royce` strangers/first-meeting-in-Evil-Twin;
+- separate contemporary `Benji ↔ Sable` rise;
+- separate contemporary `Benji ↔ Dez` rise;
+- `Prime ↔ Benji` as if Benji were a second present-day man parallel to Jordan.
 
-- **Trust:** observational, not personal early.
-- **Professional dependence:** hidden parallel to Jordan's path.
-- **Affection:** Prime respects systems-builders who emerge from conditions the institution would normally dismiss.
-- **Resentment:** Benji hates discovering his “independent” rise existed inside a larger design.
-- **Information asymmetry:** maximal.
-- **Power imbalance:** maximal until Benji understands the dual board.
-- **Failure trigger:** Benji learns Hitman was never as independent as its own field actors believed.
+Where `Benji` remains relevant, it means **Jordan Vale during age 19–26**.
 
 # Change-event protocol
 
-Update a pair after any major lie, rescue, refusal, promotion, debt, romantic shift, injury, death, discovered evaluation, financial dependency, public humiliation or new shared secret. Record the **new state**, not just the event.
+Update a pair after any major lie, rescue, refusal, promotion, debt, romantic shift, injury, death, discovered evaluation, financial dependency, public humiliation, episode-ownership shift or new shared secret.
+
+Record the **new state**, not merely the event.
