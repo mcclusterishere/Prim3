@@ -1,0 +1,1195 @@
+status: CANON-DERIVED
+system: mission-lab-instance
+version: 1.0.0
+mission:
+  id: exposure
+  level_id: LVL-07
+  episode_id: S03E01
+  song_slug: data-breach
+  title: EXPOSURE
+  canon_status: DRAFT-IMPLEMENTATION-AUTHORITY
+  design_intent: >-
+    First end-to-end PRIM3 vertical slice proving that a song's IT concepts can be
+    learned through the same six-AP tactical economy as movement, cover, shooting,
+    suppression, reconnaissance, physical control, and extraction.
+  runtime_mode:
+    watch_target_minutes: 3
+    play_target_minutes: 18
+
+  concept_set:
+    primary:
+      - incident.data-breach
+      - incident.breach-indicator
+      - observability.access-log
+      - incident.abnormal-data-transfer
+      - incident.containment
+      - forensics.evidence-preservation
+      - identity.mfa
+      - vendor.third-party-risk
+    secondary:
+      - malware.ransomware
+      - incident.supply-chain-attack
+      - incident.unauthorized-access
+      - asset.compromised-asset
+      - crypto.hash
+      - crypto.salt
+      - security.patch-management
+    transfer:
+      - governance.authorization
+      - evidence.confidence-level
+      - network.segmentation
+
+  lyric_bindings:
+    - cue_id: db-breach
+      concept_ids: [incident.data-breach]
+      start_ms: null
+      end_ms: null
+      review_priority: primary
+    - cue_id: db-ransomware
+      concept_ids: [malware.ransomware, incident.breach-indicator]
+      start_ms: null
+      end_ms: null
+      review_priority: primary
+    - cue_id: db-mfa
+      concept_ids: [identity.mfa]
+      start_ms: null
+      end_ms: null
+      review_priority: primary
+    - cue_id: db-supply-chain
+      concept_ids: [incident.supply-chain-attack, vendor.third-party-risk]
+      start_ms: null
+      end_ms: null
+      review_priority: primary
+    - cue_id: db-transfer
+      concept_ids: [incident.abnormal-data-transfer, observability.access-log]
+      start_ms: null
+      end_ms: null
+      review_priority: primary
+    - cue_id: db-hash
+      concept_ids: [crypto.hash, crypto.salt]
+      start_ms: null
+      end_ms: null
+      review_priority: secondary
+
+  operational_objectives:
+    - objective_id: OBJ-P1-CONTAIN
+      type: primary
+      description: Contain the affected personnel/training service without destroying the evidence needed to understand the incident.
+      weight: 0.35
+      completion_predicate: containment_state == VERIFIED and evidence_integrity >= 2
+      partial_predicate: containment_state in [COMMITTED, VERIFIED] and evidence_integrity >= 1
+      failure_predicate: containment_state == NONE and window_clock == 0
+      writes_state: [breach_containment_quality]
+    - objective_id: OBJ-P2-SCOPE
+      type: primary
+      description: Establish a defensible impact scope from correlated evidence rather than assumption.
+      weight: 0.25
+      completion_predicate: incident_scope_confidence >= 80 and timeline_state == SEALED
+      partial_predicate: incident_scope_confidence >= 50
+      failure_predicate: incident_scope_confidence < 25 at extraction
+      writes_state: [breach_scope_confidence]
+    - objective_id: OBJ-S1-EVIDENCE
+      type: secondary
+      description: Preserve high-value logs and Jordan's pre-recruitment dossier without response-driven privacy leakage.
+      weight: 0.15
+      completion_predicate: evidence_integrity == 3 and dossier_custody == SEALED
+      partial_predicate: evidence_integrity >= 1
+      failure_predicate: dossier_destroyed == true
+      writes_state: [jordan_pre_recruitment_evidence]
+    - objective_id: OBJ-S2-CONTINUITY
+      type: secondary
+      description: Keep the minimum trusted training/notification functions available during containment.
+      weight: 0.10
+      completion_predicate: trusted_service_health >= 60
+      partial_predicate: trusted_service_health >= 30
+      failure_predicate: trusted_service_health == 0
+      writes_state: [service_continuity_quality]
+    - objective_id: OBJ-G1-PRIVACY
+      type: ghost
+      description: Prevent incident response itself from spreading sensitive personnel information beyond need-to-know staff.
+      weight: 0.05
+      completion_predicate: privacy_exposure == 0
+      partial_predicate: privacy_exposure <= 1
+      failure_predicate: privacy_exposure >= 3
+      writes_state: [cohort_privacy_trust]
+    - objective_id: OBJ-C1-AUTH
+      type: compliance
+      description: Keep collection, containment, and dossier access within incident-response authorization.
+      weight: 0.10
+      completion_predicate: unauthorized_actions == 0
+      partial_predicate: unauthorized_actions == 1 and emergency_justified == true
+      failure_predicate: unauthorized_actions >= 2
+      writes_state: [authority_compliance]
+
+  learning_objectives:
+    - learning_id: LO-DB-01
+      concept_id: incident.breach-indicator
+      depth: recognize
+      role: R
+      evidence_predicate: R correctly marks at least three relevant signals and rejects at least one noisy but non-corroborating signal
+      mastery_weight: 8
+    - learning_id: LO-DB-02
+      concept_id: observability.access-log
+      depth: interpret
+      role: R
+      evidence_predicate: R correlates access events with a second independent signal before issuing scope warning
+      mastery_weight: 8
+    - learning_id: LO-DB-03
+      concept_id: incident.abnormal-data-transfer
+      depth: apply
+      role: R
+      evidence_predicate: abnormal transfer evidence changes containment scope or priority
+      mastery_weight: 10
+    - learning_id: LO-DB-04
+      concept_id: incident.containment
+      depth: apply
+      role: T
+      evidence_predicate: T isolates affected service path before broad restoration and verifies isolation
+      mastery_weight: 14
+    - learning_id: LO-DB-05
+      concept_id: forensics.evidence-preservation
+      depth: apply
+      role: T
+      evidence_predicate: T preserves evidence before any destructive recovery path
+      mastery_weight: 14
+    - learning_id: LO-DB-06
+      concept_id: identity.mfa
+      depth: interpret
+      role: T
+      evidence_predicate: player understands MFA changes authentication confidence but does not prove endpoint integrity
+      mastery_weight: 8
+    - learning_id: LO-DB-07
+      concept_id: vendor.third-party-risk
+      depth: apply
+      role: R
+      evidence_predicate: vendor dependency is traced and treated as a risk boundary rather than assumed root cause
+      mastery_weight: 8
+    - learning_id: LO-DB-08
+      concept_id: governance.authorization
+      depth: transfer
+      role: E
+      evidence_predicate: E protects privacy/access boundaries while preserving the incident workflow
+      mastery_weight: 8
+    - learning_id: LO-DB-09
+      concept_id: evidence.confidence-level
+      depth: transfer
+      role: shared
+      evidence_predicate: squad acts appropriately under partial evidence and increases confidence through corroboration
+      mastery_weight: 10
+    - learning_id: LO-DB-10
+      concept_id: incident.data-breach
+      depth: transfer
+      role: shared
+      evidence_predicate: player distinguishes containment, impact scoping, evidence preservation, and restoration as separate jobs
+      mastery_weight: 12
+
+  map:
+    dimensions:
+      width_tiles: 18
+      height_tiles: 14
+    zones:
+      - zone_id: Z-OPS
+        name: Incident Operations Floor
+        initial_control: CONTESTED
+        cover_profile: mixed
+        destructible_objects: [glass_partitions, wall_displays]
+        hazards: [privacy_exposure_if_civilians_enter]
+        connected_zones: [Z-CORRIDOR, Z-IDP, Z-EVIDENCE]
+      - zone_id: Z-IDP
+        name: Identity / Personnel Service Room
+        initial_control: NEUTRAL
+        cover_profile: low
+        destructible_objects: [service_console, rack_enclosure, door_controller]
+        hazards: [fragile_service_state]
+        connected_zones: [Z-OPS, Z-MAINT]
+      - zone_id: Z-EVIDENCE
+        name: Secure Evidence Room
+        initial_control: NEUTRAL
+        cover_profile: high
+        destructible_objects: [evidence_locker, evidence_terminal]
+        hazards: [chain_of_custody_break]
+        connected_zones: [Z-OPS, Z-CORRIDOR]
+      - zone_id: Z-CORRIDOR
+        name: Central Glass Corridor
+        initial_control: CONTESTED
+        cover_profile: mixed
+        destructible_objects: [glass, access_panel]
+        hazards: [long_sightline]
+        connected_zones: [Z-OPS, Z-EVIDENCE, Z-LOADING, Z-EXIT]
+      - zone_id: Z-LOADING
+        name: Vendor / Loading Access
+        initial_control: LOST
+        cover_profile: high
+        destructible_objects: [loading_console, crates]
+        hazards: [enemy_entry]
+        connected_zones: [Z-CORRIDOR, Z-MAINT]
+      - zone_id: Z-MAINT
+        name: Maintenance / Power Passage
+        initial_control: NEUTRAL
+        cover_profile: high
+        destructible_objects: [ups_panel, cable_tray]
+        hazards: [power_transition]
+        connected_zones: [Z-IDP, Z-LOADING]
+      - zone_id: Z-EXIT
+        name: Controlled Extraction Lobby
+        initial_control: SECURE
+        cover_profile: mixed
+        destructible_objects: [outer_door_control]
+        hazards: []
+        connected_zones: [Z-CORRIDOR]
+
+  clocks:
+    approach: 4
+    window: 8
+    extract_clean: 5
+    extract_hot: 3
+
+  global_state:
+    detection:
+      min: 0
+      max: 10
+      start: 2
+    heat:
+      start: 1
+    picture:
+      start: UNCERTAIN
+    service_health:
+      start: 72
+    evidence_integrity:
+      start: 2
+    civilian_safety:
+      start: 100
+    authorization:
+      state: mixed
+      constraints:
+        - Incident team may access affected personnel-system records only for impact determination, containment, evidence preservation, and required notification.
+        - Unrelated personal records are out of scope.
+        - Destructive recovery is authorized only after preservation or explicit emergency justification.
+        - Physical force is defensive and must remain consistent with the fictional mission threat state.
+
+  squad:
+    - unit_id: R-QUILL
+      role: R
+      start_zone: Z-OPS
+      hp: 5
+      ap_per_phase: 2
+      movement: 6
+      aim: 70
+      will: 8
+      role_stat: {name: Picture, value: 7}
+      loadout_tags: [mobile_perimeter, compact_optics, incident_sensor_feed]
+    - unit_id: E-VOSS
+      role: E
+      start_zone: Z-CORRIDOR
+      hp: 7
+      ap_per_phase: 2
+      movement: 5
+      aim: 65
+      will: 7
+      role_stat: {name: Hold, value: 7}
+      loadout_tags: [hold_protect, evidence_control, compact_primary]
+    - unit_id: T-RANE
+      role: T
+      start_zone: Z-OPS
+      hp: 5
+      ap_per_phase: 2
+      movement: 4
+      aim: 55
+      will: 6
+      role_stat: {name: Tech, value: 7}
+      loadout_tags: [forensic_imaging, incident_console, offline_storage]
+
+  role_resources:
+    evidence_tokens:
+      - token_id: EV-TIME-WINDOW
+        producer_role: R
+        fact_established: Two independent data sources identify the same incident time window.
+        expiry: mission
+        mechanical_effect: Timeline Scope step loses one decoy event and T Narrow Containment costs no extra Window tick.
+      - token_id: EV-TRANSFER-SPIKE
+        producer_role: R
+        fact_established: A transfer anomaly is independently corroborated as relevant to the incident.
+        expiry: mission
+        mechanical_effect: T can classify the personnel API as high-priority without broad service shutdown.
+      - token_id: EV-VENDOR-DEPENDENCY
+        producer_role: R
+        fact_established: The vendor integration is a real dependency touched during the incident window, but root cause is not proven.
+        expiry: mission
+        mechanical_effect: Reveals vendor connector edge and prevents unsupported root-cause certainty bonus.
+      - token_id: EV-PHYSICAL-CUSTODY
+        producer_role: E
+        fact_established: Evidence room access and custody are physically controlled.
+        expiry: round
+        mechanical_effect: First privacy/custody interrupt against evidence is ignored this Threat phase.
+    control_zones:
+      - zone_id: Z-EVIDENCE
+        owner_role: E
+        state: NEUTRAL
+        protected_objects: [evidence_locker, evidence_terminal]
+      - zone_id: Z-IDP
+        owner_role: E
+        state: NEUTRAL
+        protected_objects: [service_console, rack_enclosure]
+    technical_outputs:
+      - output_id: TECH-CONTAINMENT
+        producer_role: T
+        state_variable: containment_state
+        delta: NONE -> PLAN_SELECTED -> COMMITTED -> VERIFIED
+      - output_id: TECH-EVIDENCE
+        producer_role: T
+        state_variable: evidence_integrity
+        delta: preserve/verify/seal can raise effective scoring confidence; destructive actions can lower it
+      - output_id: TECH-SERVICE
+        producer_role: T
+        state_variable: trusted_service_health
+        delta: containment may temporarily reduce availability; verified recovery restores trusted capacity
+
+  lab_nodes:
+    - id: LAB-R-TIMELINE
+      world_object: Incident Telemetry Wall
+      zone: Z-OPS
+      owner_role: R
+      concept_ids:
+        - incident.breach-indicator
+        - observability.access-log
+        - incident.abnormal-data-transfer
+        - evidence.confidence-level
+        - vendor.third-party-risk
+      prerequisites: []
+      initial_state: OBSERVED
+      terminal_states: [SEALED, INCONCLUSIVE]
+      task_graph:
+        - step_id: R-TL-01-OBSERVE
+          atom: OBSERVE
+          role: R
+          ap_cost: 0
+          window_cost: 0
+          requires_control: none
+          requires_picture: none
+          requires_tokens: []
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: OBSERVED
+          success_deltas:
+            - reveal event cards: badge access, service auth, transfer telemetry, endpoint report, vendor heartbeat, routine backup
+          misapplication_to: OBSERVED
+          misapplication_deltas: []
+          interrupt_to: OBSERVED
+          interrupt_deltas: []
+          recovery_step_ids: [R-TL-02-COMPARE]
+        - step_id: R-TL-02-COMPARE
+          atom: COMPARE
+          role: R
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: none
+          requires_tokens: []
+          consumes_tokens: []
+          produces_tokens: [EV-TIME-WINDOW]
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: CHARACTERIZED
+          success_deltas:
+            - incident_scope_confidence +15
+            - picture_state UNCERTAIN -> PARTIAL
+          misapplication_to: INCONCLUSIVE
+          misapplication_deltas:
+            - incident_scope_confidence -5
+            - false_correlation_count +1
+          interrupt_to: OBSERVED
+          interrupt_deltas: []
+          recovery_step_ids: [R-TL-02-COMPARE]
+        - step_id: R-TL-03-TRANSFER
+          atom: TRACE
+          role: R
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: [EV-TIME-WINDOW]
+          consumes_tokens: []
+          produces_tokens: [EV-TRANSFER-SPIKE]
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: CHARACTERIZED
+          success_deltas:
+            - incident_scope_confidence +15
+          misapplication_to: CHARACTERIZED
+          misapplication_deltas:
+            - incident_scope_confidence -5
+          interrupt_to: CHARACTERIZED
+          interrupt_deltas: []
+          recovery_step_ids: [R-TL-03-TRANSFER]
+        - step_id: R-TL-04-VENDOR
+          atom: TRACE
+          role: R
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: [EV-TIME-WINDOW]
+          consumes_tokens: []
+          produces_tokens: [EV-VENDOR-DEPENDENCY]
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: CHARACTERIZED
+          success_deltas:
+            - vendor_dependency_known true
+            - incident_scope_confidence +10
+          misapplication_to: CHARACTERIZED
+          misapplication_deltas:
+            - unsupported_root_cause_claim true
+            - mastery vendor.third-party-risk -8
+          interrupt_to: CHARACTERIZED
+          interrupt_deltas: []
+          recovery_step_ids: [R-TL-04-VENDOR]
+        - step_id: R-TL-05-PRIORITIZE
+          atom: PRIORITIZE
+          role: R
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: [EV-TIME-WINDOW, EV-TRANSFER-SPIKE]
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: VALIDATION_PENDING
+          success_deltas:
+            - priority_targets = [personnel_api, identity_session_boundary, evidence_store]
+            - incident_scope_confidence +10
+          misapplication_to: INCONCLUSIVE
+          misapplication_deltas:
+            - window_clock -1
+            - low_value_response_work +1
+          interrupt_to: CHARACTERIZED
+          interrupt_deltas: []
+          recovery_step_ids: [R-TL-05-PRIORITIZE]
+        - step_id: R-TL-06-VERIFY
+          atom: VERIFY
+          role: R
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: [EV-TIME-WINDOW]
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: SEALED
+          success_deltas:
+            - timeline_state SEALED
+            - incident_scope_confidence +20
+            - picture_state PARTIAL -> CLEAR
+          misapplication_to: INCONCLUSIVE
+          misapplication_deltas:
+            - incident_scope_confidence unchanged
+          interrupt_to: VALIDATION_PENDING
+          interrupt_deltas: []
+          recovery_step_ids: [R-TL-06-VERIFY]
+      mastery_events:
+        - event: concept.corroborated
+          concept_id: observability.access-log
+          predicate: R-TL-02-COMPARE success
+          score_delta: 8
+        - event: concept.applied
+          concept_id: incident.abnormal-data-transfer
+          predicate: EV-TRANSFER-SPIKE produced and used by T containment scope
+          score_delta: 10
+        - event: concept.applied_under_uncertainty
+          concept_id: vendor.third-party-risk
+          predicate: EV-VENDOR-DEPENDENCY produced without claiming proven root cause
+          score_delta: 8
+
+    - id: LAB-E-CUSTODY
+      world_object: Evidence Room / Personnel Access Boundary
+      zone: Z-EVIDENCE
+      owner_role: E
+      concept_ids:
+        - forensics.evidence-preservation
+        - governance.authorization
+        - incident.data-breach
+      prerequisites: []
+      initial_state: OBSERVED
+      terminal_states: [STABILIZED, DEGRADED]
+      task_graph:
+        - step_id: E-CU-01-ROUTE
+          atom: ROUTE
+          role: E
+          ap_cost: 1
+          window_cost: 0
+          requires_control: none
+          requires_picture: none
+          requires_tokens: []
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: CHARACTERIZED
+          success_deltas:
+            - E reaches evidence threshold
+          misapplication_to: OBSERVED
+          misapplication_deltas:
+            - exposure_risk +1
+          interrupt_to: OBSERVED
+          interrupt_deltas: []
+          recovery_step_ids: [E-CU-01-ROUTE]
+        - step_id: E-CU-02-AUTHORIZE
+          atom: AUTHORIZE
+          role: E
+          ap_cost: 0
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: none
+          requires_tokens: []
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: PLAN_SELECTED
+          success_deltas:
+            - access policy set to incident_team_need_to_know
+          misapplication_to: DEGRADED
+          misapplication_deltas:
+            - privacy_exposure +1
+            - compliance -10
+          interrupt_to: CHARACTERIZED
+          interrupt_deltas: []
+          recovery_step_ids: [E-CU-02-AUTHORIZE]
+        - step_id: E-CU-03-HOLD
+          atom: HOLD
+          role: E
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: none
+          requires_tokens: []
+          consumes_tokens: []
+          produces_tokens: [EV-PHYSICAL-CUSTODY]
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: WORK_IN_PROGRESS
+          success_deltas:
+            - Z-EVIDENCE ControlState -> SECURE for round
+          misapplication_to: CONTESTED
+          misapplication_deltas: []
+          interrupt_to: CONTESTED
+          interrupt_deltas:
+            - Evidence Token not produced
+          recovery_step_ids: [E-CU-03-HOLD]
+        - step_id: E-CU-04-ESCORT
+          atom: ESCORT
+          role: E
+          ap_cost: 1
+          window_cost: 0
+          requires_control: SECURE
+          requires_picture: none
+          requires_tokens: [EV-PHYSICAL-CUSTODY]
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: VALIDATION_PENDING
+          success_deltas:
+            - non_incident_staff moved outside evidence boundary
+            - privacy_exposure risk -1
+          misapplication_to: DEGRADED
+          misapplication_deltas:
+            - operations_congestion +1
+          interrupt_to: WORK_IN_PROGRESS
+          interrupt_deltas: []
+          recovery_step_ids: [E-CU-04-ESCORT]
+        - step_id: E-CU-05-STABILIZE
+          atom: STABILIZE
+          role: E
+          ap_cost: 1
+          window_cost: 0
+          requires_control: SECURE
+          requires_picture: none
+          requires_tokens: [EV-PHYSICAL-CUSTODY]
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: STABILIZED
+          success_deltas:
+            - dossier_custody physical_boundary_stable
+            - first retriever theft interaction blocked unless E leaves zone
+          misapplication_to: DEGRADED
+          misapplication_deltas:
+            - evidence_integrity -1 if retriever reaches locker
+          interrupt_to: WORK_IN_PROGRESS
+          interrupt_deltas: []
+          recovery_step_ids: [E-CU-03-HOLD, E-CU-05-STABILIZE]
+      mastery_events:
+        - event: concept.applied
+          concept_id: governance.authorization
+          predicate: need-to-know boundary set without locking authorized incident staff out
+          score_delta: 8
+        - event: concept.applied
+          concept_id: forensics.evidence-preservation
+          predicate: evidence zone SECURE during T preserve/seal step
+          score_delta: 8
+
+    - id: LAB-T-CONTAINMENT
+      world_object: Personnel Service Dependency Console
+      zone: Z-IDP
+      owner_role: T
+      concept_ids:
+        - incident.containment
+        - forensics.evidence-preservation
+        - identity.mfa
+        - network.segmentation
+        - incident.unauthorized-access
+      prerequisites: [LAB-R-TIMELINE at least CHARACTERIZED]
+      initial_state: UNKNOWN
+      terminal_states: [VERIFIED, STABILIZED, DEGRADED, CONTAMINATED]
+      task_graph:
+        - step_id: T-CT-01-OBSERVE
+          atom: OBSERVE
+          role: T
+          ap_cost: 0
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: none
+          requires_tokens: []
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: OBSERVED
+          success_deltas:
+            - reveal service graph nodes: personnel_api, identity_provider, training_frontend, vendor_connector, evidence_store
+          misapplication_to: OBSERVED
+          misapplication_deltas: []
+          interrupt_to: OBSERVED
+          interrupt_deltas: []
+          recovery_step_ids: [T-CT-02-CLASSIFY]
+        - step_id: T-CT-02-CLASSIFY
+          atom: CLASSIFY
+          role: T
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: [EV-TIME-WINDOW]
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: CHARACTERIZED
+          success_deltas:
+            - personnel_api affected
+            - identity_provider authentication_confidence_degraded
+            - training_frontend continuity_required
+            - evidence_store preserve_before_change
+            - incident_scope_confidence +10
+          misapplication_to: INCONCLUSIVE
+          misapplication_deltas:
+            - broad_shutdown_option highlighted
+            - window_clock -1 if committed later without correction
+          interrupt_to: OBSERVED
+          interrupt_deltas: []
+          recovery_step_ids: [T-CT-02-CLASSIFY]
+        - step_id: T-CT-03-PRESERVE
+          atom: PRESERVE
+          role: T
+          ap_cost: 2
+          window_cost: 1
+          requires_control: SECURE
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: [EV-PHYSICAL-CUSTODY]
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: true
+          fragile: true
+          allowed_when_wounded: true
+          success_to: WORK_IN_PROGRESS
+          success_deltas:
+            - evidence_integrity +1 capped 3
+            - destructive_recovery_allowed true
+            - dossier_custody PRESERVED
+          misapplication_to: CONTAMINATED
+          misapplication_deltas:
+            - evidence_integrity -1
+          interrupt_to: RECOVERABLE
+          interrupt_deltas:
+            - revalidation_required true
+          recovery_step_ids: [T-CT-03B-REVERIFY-PRESERVATION]
+        - step_id: T-CT-03B-REVERIFY-PRESERVATION
+          atom: VERIFY
+          role: T
+          ap_cost: 1
+          window_cost: 0
+          requires_control: SECURE
+          requires_picture: none
+          requires_tokens: [EV-PHYSICAL-CUSTODY]
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: WORK_IN_PROGRESS
+          success_deltas:
+            - revalidation_required false
+          misapplication_to: CONTAMINATED
+          misapplication_deltas:
+            - evidence_integrity -1
+          interrupt_to: RECOVERABLE
+          interrupt_deltas: []
+          recovery_step_ids: [T-CT-03B-REVERIFY-PRESERVATION]
+        - step_id: T-CT-04-SCOPE
+          atom: TRACE
+          role: T
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: [EV-TRANSFER-SPIKE]
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: PLAN_SELECTED
+          success_deltas:
+            - narrow containment boundary available
+            - incident_scope_confidence +10
+          misapplication_to: PLAN_SELECTED
+          misapplication_deltas:
+            - only broad containment boundary available
+          interrupt_to: CHARACTERIZED
+          interrupt_deltas: []
+          recovery_step_ids: [T-CT-04-SCOPE]
+        - step_id: T-CT-05-MFA-INTERPRET
+          atom: CLASSIFY
+          role: T
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: []
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: PLAN_SELECTED
+          success_deltas:
+            - identity_provider marked authentication_layer_not_endpoint_integrity
+            - prevents false assumption that MFA alone proves clean system state
+          misapplication_to: PLAN_SELECTED
+          misapplication_deltas:
+            - false_identity_confidence true
+            - validation later reveals contradiction
+          interrupt_to: PLAN_SELECTED
+          interrupt_deltas: []
+          recovery_step_ids: [T-CT-05-MFA-INTERPRET]
+        - step_id: T-CT-06-ISOLATE
+          atom: ISOLATE
+          role: T
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: [EV-TRANSFER-SPIKE]
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: COMMITTED
+          success_deltas:
+            - containment_state COMMITTED
+            - trusted_service_health -12
+            - propagation_pressure -2
+            - retriever remote_dossier_access disabled
+          misapplication_to: DEGRADED
+          misapplication_deltas:
+            - trusted_service_health -35
+            - containment_state COMMITTED
+            - low_value_services unnecessarily lost
+          interrupt_to: CHARACTERIZED
+          interrupt_deltas: []
+          recovery_step_ids: [T-CT-07-VERIFY-CONTAINMENT]
+        - step_id: T-CT-07-VERIFY-CONTAINMENT
+          atom: VERIFY
+          role: T
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: [EV-TIME-WINDOW]
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: VERIFIED
+          success_deltas:
+            - containment_state VERIFIED
+            - incident_scope_confidence +10
+            - one hostile digital-control route removed from threat AI
+          misapplication_to: VALIDATION_PENDING
+          misapplication_deltas:
+            - containment_state COMMITTED
+            - no full objective credit
+          interrupt_to: COMMITTED
+          interrupt_deltas: []
+          recovery_step_ids: [T-CT-07-VERIFY-CONTAINMENT]
+        - step_id: T-CT-08-RECOVER-MINIMUM
+          atom: RECOVER
+          role: T
+          ap_cost: 2
+          window_cost: 1
+          requires_control: SECURE
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: []
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: true
+          fragile: true
+          allowed_when_wounded: true
+          success_to: VALIDATION_PENDING
+          success_deltas:
+            - trusted_service_health +25 capped 100
+            - training_frontend candidate_for_return
+          misapplication_to: DEGRADED
+          misapplication_deltas:
+            - trusted_service_health -10
+            - recovery_source_confidence low
+          interrupt_to: RECOVERABLE
+          interrupt_deltas:
+            - trusted_service_health -5
+            - recovery_revalidate true
+          recovery_step_ids: [T-CT-09-VERIFY-RECOVERY]
+        - step_id: T-CT-09-VERIFY-RECOVERY
+          atom: VERIFY
+          role: T
+          ap_cost: 1
+          window_cost: 0
+          requires_control: NOT_LOST
+          requires_picture: PARTIAL_OR_BETTER
+          requires_tokens: []
+          consumes_tokens: []
+          produces_tokens: []
+          anchors_operator: false
+          fragile: false
+          allowed_when_wounded: true
+          success_to: STABILIZED
+          success_deltas:
+            - training_frontend trusted_return true
+            - service_continuity objective updated
+          misapplication_to: VALIDATION_PENDING
+          misapplication_deltas:
+            - service may look available but no trusted scoring credit
+          interrupt_to: VALIDATION_PENDING
+          interrupt_deltas: []
+          recovery_step_ids: [T-CT-09-VERIFY-RECOVERY]
+      mastery_events:
+        - event: concept.applied
+          concept_id: forensics.evidence-preservation
+          predicate: T-CT-03-PRESERVE succeeds before any destructive recovery
+          score_delta: 14
+        - event: concept.applied
+          concept_id: incident.containment
+          predicate: T-CT-06-ISOLATE then T-CT-07-VERIFY-CONTAINMENT succeeds
+          score_delta: 14
+        - event: concept.validated
+          concept_id: incident.containment
+          predicate: containment verified independently
+          score_delta: 6
+        - event: concept.recovered_after_error
+          concept_id: forensics.evidence-preservation
+          predicate: fragile preserve interrupted, revalidation succeeds, evidence_integrity remains >=2
+          score_delta: 6
+        - event: concept.applied
+          concept_id: identity.mfa
+          predicate: player avoids treating MFA state as proof of endpoint integrity
+          score_delta: 8
+
+  threats:
+    - threat_id: TH-RETRIEVER-1
+      archetype: retriever
+      start_zone: Z-LOADING
+      hp: 4
+      aim: 58
+      movement: 5
+      priorities:
+        - reach Z-EVIDENCE
+        - interact with evidence_locker
+        - exit through Z-LOADING if carrying evidence
+        - engage E if blocked
+      lab_interactions:
+        - if evidence room not SECURE, 1 AP interaction reduces dossier_custody one state
+        - if carrying evidence, T loses optional dossier objective unless retriever is stopped before exit
+      detection_interactions:
+        - spotted entering public corridor adds Detection +1
+    - threat_id: TH-INTERDICTOR-1
+      archetype: interdictor
+      start_zone: Z-LOADING
+      hp: 4
+      aim: 62
+      movement: 5
+      priorities:
+        - pressure Z-IDP
+        - force T interruption
+        - attack E if E holds doorway
+      lab_interactions:
+        - successful hit on anchored T triggers hard interrupt
+      detection_interactions:
+        - gunfight in Z-IDP adds extra Detection due sensitive infrastructure
+    - threat_id: TH-SPOTTER-1
+      archetype: spotter
+      start_zone: Z-MAINT
+      hp: 3
+      aim: 50
+      movement: 6
+      priorities:
+        - acquire LOS on Z-IDP or Z-EVIDENCE
+        - increase hostile picture
+        - avoid direct firefight
+      lab_interactions:
+        - while LOS maintained, first T fragile action each round gains interruption risk
+      detection_interactions:
+        - active spotter raises Detection +1 at Clock phase
+    - threat_id: TH-RESPONDER-1
+      archetype: responder
+      start_zone: Z-EXIT
+      hp: 5
+      aim: 60
+      movement: 5
+      priorities:
+        - investigate gunfire
+        - challenge unidentified actors
+        - become allied-neutral if authorization state clearly demonstrated
+      lab_interactions:
+        - can create privacy exposure if routed through evidence room without E authorization control
+      detection_interactions:
+        - unnecessary engagement with responder adds Detection +2 and major Compliance penalty
+
+  kinetic_technical_links:
+    - link_id: KT-01
+      trigger: gunfire in Z-EVIDENCE
+      condition: line crosses evidence_locker or evidence_terminal
+      effect: evidence_integrity -1 if destructible prop is hit; otherwise Detection +1
+      affects: evidence
+    - link_id: KT-02
+      trigger: E uses Suppress on Interdictor
+      condition: Interdictor within one move of Z-IDP
+      effect: Interdictor cannot reach T this Threat phase; buys one technical activation
+      affects: lab
+    - link_id: KT-03
+      trigger: R uses Overwatch from Z-OPS sightline
+      condition: Retriever crosses Z-CORRIDOR
+      effect: reaction shot can stop theft route but shot near glass may raise Detection
+      affects: route
+    - link_id: KT-04
+      trigger: T is hit while anchored on Preserve or Recover
+      condition: Guard Tech not active
+      effect: hard interrupt; node enters RECOVERABLE and requires VERIFY before continuation
+      affects: lab
+    - link_id: KT-05
+      trigger: E abandons Z-EVIDENCE
+      condition: Retriever active and EV-PHYSICAL-CUSTODY expired
+      effect: evidence room ControlState becomes CONTESTED; theft interaction becomes possible
+      affects: control
+    - link_id: KT-06
+      trigger: destructive fire damages UPS panel
+      condition: Z-MAINT line of fire intersects panel
+      effect: power_state -> BACKUP/UNSTABLE; T recovery steps gain mandatory revalidation
+      affects: service
+
+  technical_kinetic_links:
+    - link_id: TK-01
+      trigger: containment_state becomes VERIFIED
+      condition: none
+      effect: hostile remote dossier-control route is disabled; Retriever cannot remotely bypass evidence door
+      affects: enemy_ai
+    - link_id: TK-02
+      trigger: timeline_state becomes SEALED
+      condition: incident_scope_confidence >= 70
+      effect: R reveals correct enemy entry likelihood and one responder ETA
+      affects: reinforcement
+    - link_id: TK-03
+      trigger: trusted_service_health >= 60 and training_frontend trusted_return == true
+      condition: none
+      effect: internal authenticated comms restore; squad receives one free shared status ping each round
+      affects: route
+    - link_id: TK-04
+      trigger: identity_provider correctly interpreted
+      condition: false_identity_confidence == false
+      effect: responder authorization challenge can be resolved without combat if E presents verified incident role state
+      affects: enemy_ai
+    - link_id: TK-05
+      trigger: broad shutdown misapplication
+      condition: trusted_service_health < 35
+      effect: access doors fail to manual mode in one corridor, changing route and cover geometry
+      affects: door
+
+  interruption_rules:
+    - rule_id: INT-01
+      class: soft
+      trigger: alarm or nearby non-damaging movement during T non-fragile step
+      mitigated_by: [Z-IDP SECURE]
+      effect: no progress loss when secure; otherwise next Verify costs 1 additional AP-equivalent stage
+      recovery: re-verify affected state
+    - rule_id: INT-02
+      class: hard
+      trigger: anchored T takes damage
+      mitigated_by: [Guard Tech]
+      effect: current fragile stage stops and node enters RECOVERABLE
+      recovery: explicit Verify/Revalidate step
+    - rule_id: INT-03
+      class: hard
+      trigger: evidence room becomes LOST during Preserve
+      mitigated_by: [EV-PHYSICAL-CUSTODY, Hold Equipment]
+      effect: evidence_integrity -1 unless E re-secures before next Clock phase
+      recovery: re-secure + verify custody
+    - rule_id: INT-04
+      class: catastrophic
+      trigger: evidence_locker destroyed
+      mitigated_by: [E Control, careful fire discipline]
+      effect: optional dossier preservation objective becomes unavailable; primary containment remains playable
+      recovery: preserve remaining telemetry and extract partial proof
+
+  scripted_pressure_curve:
+    - round: 1
+      event: incident begins under uncertainty; no hostile contact visible
+      design_goal: teach R evidence comparison and E boundary positioning before gunfire
+    - round: 2
+      event: vendor/loading anomaly appears; Retriever enters hidden movement state
+      design_goal: make R decide between deeper analysis and overwatch positioning
+    - round: 3
+      event: first physical hostile contact becomes likely; T should be approaching Preserve/Containment decision
+      design_goal: force E to choose between protecting T and controlling evidence room
+    - round: 4
+      event: responder challenge from extraction side if Detection >=4
+      design_goal: show authorization and identity state can prevent unnecessary firefight
+    - round: 5
+      event: Interdictor pressures Z-IDP; possible hard interrupt
+      design_goal: make suppression/Guard Tech compete directly with kill attempts
+    - round: 6
+      event: power fluctuation if Z-MAINT unresolved or damaged
+      design_goal: require validation after environmental state change
+    - round: 7
+      event: if containment unverified, propagation pressure increases and Window -1 extra
+      design_goal: punish unverified apparent success without binary failure
+    - round: 8
+      event: Window collapse transitions immediately to Extract with sealed/verified value only
+      design_goal: reinforce partial success and preservation discipline
+
+  canonical_decision_knots:
+    - knot_id: DK-01-R-SHOOT-OR-CORRELATE
+      setup: R has one AP left; Retriever route is not yet confirmed; timeline is one correlation away from EV-TRANSFER-SPIKE.
+      options:
+        - Overwatch corridor: increases physical protection but delays technical certainty.
+        - Compare telemetry: produces stronger containment evidence but risks Retriever movement.
+      lesson: information and firepower compete for the same tactical attention.
+    - knot_id: DK-02-E-HOLD-OR-INTERCEPT
+      setup: E is holding evidence room while Interdictor approaches T and Retriever threatens custody.
+      options:
+        - stay and preserve evidence Control;
+        - move to Guard Tech;
+        - intercept Retriever;
+        - suppress Interdictor from current position if LOS exists.
+      lesson: E's job is allocating controlled space, not maximizing kills.
+    - knot_id: DK-03-T-PRESERVE-OR-CONTAIN
+      setup: T has enough evidence to suspect the personnel API; Preserve costs full activation and one Window tick.
+      options:
+        - preserve first: protects evidence but propagation continues one more Threat phase;
+        - isolate first: reduces propagation but can complicate volatile evidence state;
+        - broad shutdown: fast but harms continuity and may exceed proportional response.
+      lesson: incident response contains competing priorities and must separate preservation, containment, and restoration.
+    - knot_id: DK-04-T-VERIFY-OR-EXTRACT
+      setup: Window nearly exhausted; containment appears successful but is only COMMITTED.
+      options:
+        - spend 1 AP Verify and risk hot extract;
+        - leave immediately with unverified containment and better team safety.
+      lesson: operational judgment can legitimately override perfect process; scoring records both.
+
+  grade_outputs:
+    operational:
+      take: weighted combination of containment_state, timeline_state, dossier_custody, incident_scope_confidence
+      team: standard injury/death model plus privacy-protected staff state
+      exposure: detection peak + unnecessary responder engagement + privacy_exposure
+      speed: Window and Extract ticks remaining
+      compliance: authorization choices + need-to-know boundary + destructive recovery justification
+    mastery:
+      recognition: primary concept recognition events
+      application: T containment/preservation plus R/E role applications
+      transfer: authorization/confidence/segmentation choices under changed conditions
+      explanation: debrief reconstruction of why containment, preservation, and restoration differed
+
+  debrief:
+    review_bindings:
+      - concept_id: incident.containment
+        cue_id: db-breach
+        trigger_if: containment_state != VERIFIED
+        debrief_text_key: REVIEW-CONTAINMENT-VS-RESTORE
+      - concept_id: forensics.evidence-preservation
+        cue_id: db-hash
+        trigger_if: evidence_integrity < 2 or dossier_custody != SEALED
+        debrief_text_key: REVIEW-PRESERVE-BEFORE-DESTRUCTIVE-RECOVERY
+      - concept_id: observability.access-log
+        cue_id: db-transfer
+        trigger_if: timeline_state != SEALED
+        debrief_text_key: REVIEW-CORRELATION
+      - concept_id: identity.mfa
+        cue_id: db-mfa
+        trigger_if: false_identity_confidence == true
+        debrief_text_key: REVIEW-MFA-LIMITS
+      - concept_id: vendor.third-party-risk
+        cue_id: db-supply-chain
+        trigger_if: unsupported_root_cause_claim == true
+        debrief_text_key: REVIEW-VENDOR-RISK-NOT-PROOF
+
+  story_state_writes:
+    - key: jordan_pre_recruitment_evidence
+      predicate: dossier_custody == SEALED
+      value: preserved
+    - key: jordan_pre_recruitment_evidence
+      predicate: dossier_custody in [PRESERVED, physical_boundary_stable] but not SEALED
+      value: partial
+    - key: cohort_privacy_trust
+      predicate: privacy_exposure == 0
+      value: damaged_by_breach_but_response_respected_people
+    - key: cohort_privacy_trust
+      predicate: privacy_exposure >= 2
+      value: further_damaged_by_response
+    - key: future_patient_zero_reporting_modifier
+      predicate: privacy_exposure == 0 and evidence_integrity >= 2
+      value: plus_reporting_trust
+    - key: future_patient_zero_reporting_modifier
+      predicate: privacy_exposure >= 2 or evidence_integrity == 0
+      value: minus_reporting_trust
+
+  implementation_acceptance_tests:
+    - Player can finish primary containment without firing a weapon, but doing so should require exceptional positioning/control.
+    - Player can engage in a satisfying firefight without automatically completing any primary IT objective.
+    - At least one optimal play path uses suppression rather than a kill attempt to buy T an anchored action.
+    - R evidence must reduce T ambiguity in a mechanically visible way.
+    - E Control must prevent at least one lab interruption or custody loss in ordinary play.
+    - T verified containment must alter enemy or route behavior on the board.
+    - Broad shutdown must be mechanically valid but create continuity/compliance tradeoffs.
+    - An interrupted Preserve action must remain recoverable without restart.
+    - Window expiration must transition to extraction with partial value rather than show an instant failure banner.
+    - Debrief must be capable of pointing to the precise concept and lyric cue associated with every major technical mistake.
