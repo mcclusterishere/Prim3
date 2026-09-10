@@ -1,7 +1,7 @@
 # PRIM3 Canon Register
 
 **Status:** Foundation canon (main)  
-**Continuity version:** 0.6.0  
+**Continuity version:** 0.7.0  
 **Authority:** Matthew McCluster  
 **Rule:** If subordinate material conflicts with this register or a specialist authority delegated below, the higher/current authority wins until deliberately revised.
 
@@ -28,7 +28,7 @@ Canonical dramatic law:
 
 > **The briefing teaches the model. The mission attacks the model.**
 
-`story/EPISODE-MISSION-BIBLE.md` governs the cross-season mission/story spine. `story/EPISODE-CAUSE-AND-ENTERTAINMENT-AUTHORITY.md` governs episode causality. `story/ENSEMBLE-POV-AUTHORITY.md` governs narrative ownership.
+`story/EPISODE-MISSION-BIBLE.md` governs the cross-season mission/story spine where still current. `story/EPISODE-CAUSE-AND-ENTERTAINMENT-AUTHORITY.md` governs episode causality. `story/ENSEMBLE-POV-AUTHORITY.md` governs narrative ownership. `game/WILDCARD-INTERVENTION-AUTHORITY.md` governs Jordan/PRIM2/Royce gameplay escalation.
 
 ---
 
@@ -335,11 +335,116 @@ Combat buys/protects opportunity and cannot substitute for the technical objecti
 
 The player does **not** literally become PRIM3/Jordan in ordinary pre-succession missions. PLAY enters the current mission/team perspective.
 
-Primary gameplay authority: `game/TACTICAL-IT-MECHANICS-BIBLE.md`.
+Primary technical gameplay authority: `game/TACTICAL-IT-MECHANICS-BIBLE.md`.
 
 ---
 
-## 15. High Alert opening chronology
+## 15. Wildcard / Apex / hostile-incursion gameplay law
+
+The ensemble structure is also a hard gameplay structure.
+
+### Base deployment
+
+During ordinary PLAY, **Jordan is not selectable as a normal pre-mission roster unit**.
+
+The player launches with the named ensemble characters actually assigned to the mission. Jordan appears from launch only on a specifically authored Jordan mission.
+
+This is deliberate: the player must build attachment to the rest of the cast and learn to solve missions through them.
+
+### Mission escalation state
+
+Playable missions track:
+
+```text
+STABLE -> DEGRADED -> CRITICAL -> TERMINAL
+```
+
+At `CRITICAL`, an eligible mission can expose the executive channel and allow a Jordan call-up.
+
+### Jordan — Wildcard
+
+Canonical Standard pool:
+
+> **2 non-scripted Jordan Wildcard Authorizations per season.**
+
+Unused seasonal authorizations do not bank. Scripted Jordan missions do not spend the pool.
+
+Jordan's mechanical purpose is to **restore optionality**, not to replace the specialists or auto-complete the technical objective.
+
+Core identity:
+
+```text
+ANOTHER PATH
+ADAPTIVE ROLE
+RALLY THE ROOM
+FAILOVER INSTINCT
+```
+
+A Jordan request should often be a genuine resource decision between preserving a scarce call-up for later and saving a character/objective now.
+
+### PRIM2 — Apex intervention
+
+PRIM2 maintains privileged standing oversight of PRIM operations through the distributed command architecture when mission telemetry is available to him.
+
+**Watching is not the same as taking control.**
+
+PRIM2 is not perfectly omniscient and normal mission leadership retains normal command responsibility.
+
+On eligible `CRITICAL` / `STATE` / `STRATEGIC` missions, if Jordan is already present and the mission remains or re-enters `CRITICAL` for at least one full tactical round, the player may become eligible to request the presiding Mantle holder.
+
+Canonical Standard pool:
+
+> **3 non-scripted PRIM2 Apex Authorizations across the entire seven-season campaign.**
+
+Before the story openly identifies PRIM2, the player-facing control may read `EXECUTIVE OVERRIDE` or `APEX SUPPORT`.
+
+PRIM2 brings broader information, sovereign authorization and elite cross-domain capability. He is not simply Jordan with larger stats.
+
+### Royce — hostile elite incursion
+
+The other board gets escalation too.
+
+Royce can enter eligible missions as Hitman's persistent elite incursion threat. His appearance can be random/pressure-driven, partially telegraphed or story-authored depending on Intel and campaign state.
+
+Canonical Standard limits:
+- maximum **2 non-scripted Royce Incursions per season**;
+- maximum **1 per mission**;
+- **2-mission cooldown** after a non-scripted appearance;
+- story missions may override;
+- final RAID is authored and not constrained by the random-incursion cap.
+
+Royce is the Hitman-side field threat closest in gameplay function to a hostile apex/wildcard, but he is **not** a PRIM Mantle holder and does not possess PRIM2's information architecture.
+
+Mechanical asymmetry is mandatory:
+
+```text
+ENSEMBLE -> solves the mission
+JORDAN   -> restores optionality / finds another path
+PRIM2    -> expands the picture and authority space
+ROYCE    -> violently destabilizes control and tempo
+```
+
+### Intervention safety-valve law
+
+Jordan and PRIM2 exist partly to reduce cheap campaign-ending frustration and give the player a chance to preserve characters they care about.
+
+They act only on the **current recoverable state**.
+
+They may save living operators, preserve extraction, salvage recoverable evidence/objectives or prevent further collapse.
+
+They may not resurrect the dead, rewind clocks, restore irrecoverably destroyed evidence, zero Heat/Detection, erase consequences or retroactively legalize completed unauthorized actions.
+
+Specialist gameplay authority:
+
+`game/WILDCARD-INTERVENTION-AUTHORITY.md`
+
+Canonical shorthand:
+
+> **Everybody gets to be the hero. Jordan is who they call when heroism is not enough. PRIM2 is who Jordan calls when even that is not enough. Royce is why sometimes none of it feels like enough.**
+
+---
+
+## 16. High Alert opening chronology
 
 `High Alert` is shown as Global Episode 01 / S1E1 but occurs chronologically in the middle of S7E1 `RAID (HOT SITE)`.
 
@@ -356,7 +461,7 @@ See `story/HIGH-ALERT-MEMORY-ANCHORS.md`.
 
 ---
 
-## 16. PRIM2
+## 17. PRIM2
 
 PRIM2 is already functionally **Ghost in the Wires** before RAID.
 
@@ -373,7 +478,7 @@ See:
 
 ---
 
-## 17. Final RAID / Evil Twin / Ghost survivor state
+## 18. Final RAID / Evil Twin / Ghost survivor state
 
 This chronology is locked subject to scene-level refinement.
 
@@ -399,7 +504,7 @@ The finale is an **authority transfer / privilege reduction**, not the first cre
 
 ---
 
-## 18. Corporate architecture
+## 19. Corporate architecture
 
 ### McCluster Corp
 Public marketing/holding face; buildings, land, equity, brands and visible corporate structure.
@@ -418,7 +523,7 @@ Where referenced, black-site/parent layer above fronts. Do not use Apex to contr
 
 ---
 
-## 19. Curriculum law
+## 20. Curriculum law
 
 - **Security+** is the primary external certification anchor.
 - **Network+** is the primary infrastructure companion anchor.
@@ -435,7 +540,7 @@ Authorities:
 
 ---
 
-## 20. Song / episode order
+## 21. Song / episode order
 
 Canonical global order remains:
 
@@ -476,14 +581,15 @@ Story job is locked:
 
 ---
 
-## 21. Canon maintenance law
+## 22. Canon maintenance law
 
-When new character/history canon is added:
-- update specialist dossier;
+When new character/history/gameplay canon is added:
+- update specialist authority;
 - update relevant relationship state;
 - update episode ownership/residue where needed;
+- update gameplay deployment/intervention fields where needed;
 - do not let old summary files silently outrank new specialist authority;
-- migrate stale `Prime-00`, separate contemporary `Benji`, `Prime Negative One`, Jordan-only episode ownership, and `player becomes PRIM3` language when encountered.
+- migrate stale `Prime-00`, separate contemporary `Benji`, `Prime Negative One`, Jordan-only episode ownership, `player becomes PRIM3`, fixed-three-person-squad, and default-playable-Jordan language when encountered.
 
 Legacy filenames may remain for link compatibility, but their contents must point to current canon rather than preserve contradictory history.
 
