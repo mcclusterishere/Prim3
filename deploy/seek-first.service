@@ -9,7 +9,8 @@ User=gev
 Group=gev
 WorkingDirectory=/opt/seek-first
 EnvironmentFile=/etc/seek-first/gev.env
-ExecStart=/usr/bin/npm run preview -- --host 127.0.0.1 --port 4173
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
+ExecStart=/usr/bin/env npm run start:hosted
 Restart=always
 RestartSec=5
 NoNewPrivileges=true
@@ -17,6 +18,7 @@ PrivateTmp=true
 ProtectHome=true
 ProtectSystem=full
 ReadWritePaths=/opt/seek-first/.gev-cache
+UMask=0077
 
 [Install]
 WantedBy=multi-user.target
