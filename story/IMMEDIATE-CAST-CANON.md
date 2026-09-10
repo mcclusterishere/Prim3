@@ -1,7 +1,7 @@
 ---
 status: CANON
 system: PRIM3 immediate-story cast authority
-version: 1.0.0
+version: 2.0.0
 branch: main
 ---
 
@@ -9,260 +9,249 @@ branch: main
 
 ## Authority and scope
 
-This file promotes the current PRIM3-era cast from proposed characterization into canon for the **age-33-to-40 PRIM3 story**.
+This file governs the people who exist in the immediate age-33-to-40 PRIM3 story.
 
-It governs the people who exist in the immediate PRIM3 story, not the earlier Hitman and Whip Equipped prequel chronology except where an earlier person is still alive and directly relevant to PRIM3.
+Root `CANON.md` remains highest authority. Character-specific psychological dossiers override short summaries here where they are more specific and non-conflicting.
 
-Root `CANON.md` remains highest authority. `story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md` and `story/JORDAN-VALE-HITMAN-ORIGIN-CANON.md` govern Jordan's earlier life. Where an older cast document still treats Benji as a separate contemporary person, that material is superseded: **Benji is Jordan Vale's age-19-to-26 Hitman identity.**
-
-The cast law is now:
+Core cast law:
 
 > **Every recurring character must have a lived history that can causally explain present behavior.**
 
-Nationality is not a costume, accent, stereotype or substitute for characterization. The multinational design exists to create people with different histories, institutions, technical cultures, family obligations, political assumptions, professional traditions and relationships who must operate inside one shared system.
+Nationality is not a costume or substitute for characterization.
+
+The ensemble must be strong enough that major characters can carry episodes and playable missions without Jordan present.
 
 ---
 
 # 1. Jordan Vale — canonical Wildcard
 
-**Jordan Vale is the PRIM3 Wildcard.**
+Jordan Vale is the PRIM-side **Wildcard / Flex**.
 
-Jordan is not permanently locked to Field-R, Field-E, Field-T, Defense, logistics, liaison, command-support or one narrow operational job.
+He can cross operational seams because he repeatedly takes unowned work, learns beside specialists and combines R/E/T/Defense/logistics reasoning when the original division of labor fails.
 
-His defining mission behavior is that he **takes all the jobs**.
+Wildcard does **not** mean:
+- magical omniskill;
+- automatic authorization;
+- being better than every specialist;
+- owning every episode;
+- being a default selectable unit in every mission.
 
-When a mission needs somebody to scout, troubleshoot, carry equipment, enter a dangerous space, trace a dependency, talk to a stakeholder, restore a service, protect a teammate, document evidence, drive, improvise logistics, assist technical work, or temporarily cover a role that has failed, Jordan is unusually likely to step into that gap.
+Gameplay law:
 
-This is not magical omniskill.
+> **Ordinary PLAY withholds Jordan from the normal selectable roster.**
 
-Wildcard means:
+Jordan enters only when:
+- a specific authored mission scripts him from launch;
+- an eligible CRITICAL mission receives a limited Wildcard call-up;
+- or the story explicitly changes his availability.
 
-- Jordan accumulates competence across lanes instead of protecting one professional identity;
-- he learns by working beside specialists and then attempting adjacent work himself;
-- he volunteers for duties other people regard as outside their job description;
-- he becomes unusually useful when a mission's original division of labor breaks down;
-- he can chain R/E/T reasoning together because he has practiced all three perspectives;
-- he frequently creates value by noticing an unowned task and simply owning it;
-- his broad usefulness can make commanders rely on him too heavily;
-- his desire to fill every gap can become overextension, control, fatigue and a failure to let other people develop ownership.
-
-**Wildcard does not override authorization.** Jordan may understand how to do something and still lack legal, institutional, safety or mission authority to do it. This tension is core to his arc.
-
-**Wildcard does not erase specialists.** Aya should be better than Jordan at things Aya has spent her life mastering. Arjun should know physical-entry/safety disciplines Jordan does not. Rafael and Oksana should see intelligence problems he misses. Jonas should know Pylon in ways Jordan cannot duplicate. Jordan's advantage is not being the best person at every job; it is becoming the person who can operate across the seams between jobs.
+See `game/WILDCARD-INTERVENTION-AUTHORITY.md`.
 
 Writer shorthand:
 
 > **If a task falls between chairs, Jordan picks it up.**
 
-Gameplay shorthand:
+Character risk:
 
-```text
-JORDAN VALE
-ROLE: WILDCARD / FLEX
-PRIMARY PROPERTY: CROSS-LANE ACTION ACCESS
-STRENGTH: ROLE ADAPTATION / SYSTEM-LEVEL INFERENCE
-RISK: OVEREXTENSION / AUTHORITY OVERREACH / BECOMING THE SINGLE POINT OF FAILURE
-```
-
-Long-form consequence: the organization increasingly learns that Jordan can cover almost anything. Jordan must eventually learn that **being able to do everybody's job is not the same as being entitled to make everybody's decisions.**
+> **Being able to cover everybody's job can turn into believing he is entitled to make everybody's decisions.**
 
 ---
 
-# 2. Canonical multinational PRIM3 / McCluster mains
+# 2. Canonical PRIM / McCluster mains
 
-The following 24 main characters, their nations, professional lanes, backgrounds, wants, fears, contradictions and key relationship engines described in `story/CAST-NATIONS.md` are promoted to **CANON**, subject only to later deliberate owner revision and higher-order continuity.
+The following 24 immediate-story mains are canon by identity, nation and core lane. Detailed backgrounds are delegated to `story/CAST-NATIONS.md` and specialist dossiers.
 
-1. **Jordan Vale — United States — Wildcard / Cohort path.** Thirty-three-year-old returning student with practical infrastructure experience, severe prior instability and an unusually broad operating profile. Wants legitimacy and stability without surrendering initiative.
-2. **Aya Shinoda — Japan — Field-T Technical Operator.** Precision/robotics engineer whose competence is an expression of care; excels at diagnosing systems under pressure and fears becoming indispensable to an institution that would spend her life without consent.
-3. **Arjun Mehta — India — Field-E Entry Operator.** Industrial-safety/emergency-response specialist who treats physical access, timing, people and exits as one engineering problem; outwardly fearless and privately obsessive about mistakes.
-4. **Li Wei — China — Authority / Director track.** Distributed-systems, compliance and cross-border data/governance specialist who sees the institutional consequences hidden inside technical choices.
-5. **Sari Wulandari — Indonesia — Cohort-01 Operator.** Telecom-operations veteran whose outages affected real neighborhoods; practical, funny, difficult to impress and carrying family sacrifice into every professional choice.
-6. **Hassan Raza — Pakistan — Defense-03 Tech-Zone Guard.** Hardware/facilities-first security operator who sees doors, racks, cameras, power and human routine as one boundary; warm off shift and relentlessly skeptical on shift.
-7. **Chioma Okeke — Nigeria — Cohort-03 Lead.** Fintech/community-operations leader who naturally becomes the coordination center in a crisis and must learn what it means to assign costs through command.
-8. **Rafael Costa — Brazil — Field-R Overwatch.** Remote-sensing/disaster-mapping specialist whose strength is noticing small changes before boredom lowers standards; socially loud and operationally quiet.
-9. **Nusrat Rahman — Bangladesh — Defense-02 Access Officer.** Identity/access specialist defined by the belief that rules must mean the same thing for powerful people and ordinary staff.
-10. **Dmitri Volkov — Russia — Defense-01 Building Guard.** Older heavy-infrastructure/facility-response professional who wants duty to become personal rather than merely national and refuses simplistic geopolitical narratives.
-11. **Oksana Bondarenko — Ukraine — Field-R / Intelligence.** Geospatial/incident-reconstruction specialist who preserves uncertainty and distrusts clean narratives created before the evidence is complete.
-12. **Yonas Bekele — Ethiopia — Cohort-01 Operator.** Network/service-restoration operator whose calm stabilizes failing environments and who fears being valuable only when systems are broken.
-13. **Valeria Soto — Mexico — Cohort-02 Trainee.** Younger first-generation technical operator with bilingual support/freelance roots who sees Jordan as both proof of recovery and a warning about delayed stability.
-14. **Amira Hassan — Egypt — Authority-03 Mission Sponsor.** Procurement/program/technical-contracting specialist who looks for danger embedded in scope, incentives and signatures before a mission launches.
-15. **Miguel Santos — Philippines — Defense-02 Access Officer.** Maritime-logistics/facilities operator who believes security can remain strict without becoming dehumanizing.
-16. **Grace Mbala — Democratic Republic of the Congo — Cohort Support.** Humanitarian-data/continuity specialist who refuses to let civilian consequences disappear into executive abstractions.
-17. **Minh Tran — Vietnam — Field-T Technical Operator.** Embedded-systems/firmware specialist focused on the gap between what software claims and what hardware is actually doing.
-18. **Leila Hosseini — Iran — Authority / Analysis.** Risk, cryptographic-governance and trust specialist who understands how policy and identity systems can become technologies of exclusion.
-19. **Emre Yıldız — Turkey — Defense-01 Building Guard.** Facilities/emergency-management realist who forces cyber operators to remember fire, water, power, gravity and physical consequence.
-20. **Jonas Weber — Germany — System Liaison / Pylon Interface.** Industrial-automation engineer whose relationship to Pylon blurs the line between administering a tool and depending emotionally on a system.
-21. **Priya Srisawat — Thailand — Marketing / Public Surface.** Brand/visual strategist who helped create McCluster's aspirational identity and must confront the possibility that belonging can become behavioral control.
-22. **Helen Clarke — United Kingdom — Authority-02 Director.** Governance/program leader trying to build an institution capable of surviving Prime instead of merely obeying him.
-23. **Marc Dubois — France — Mission Sponsor.** Aerospace-procurement/multinational-supply specialist who can quantify severe risk with frightening calm until human loss breaks the arithmetic.
-24. **Thandiwe Nkosi — South Africa — Cohort-03 Lead peer.** Mining-automation, worker-safety and community-advocacy leader who questions whether technological scale equals progress and whether reform can legitimize the structure being reformed.
+1. **Jordan Vale — United States — Wildcard / Cohort path**
+2. **Aya Shinoda — Japan — Field-T Technical Operator**
+3. **Arjun Mehta — India — Field-E Entry Operator**
+4. **Li Wei — China — Authority / Director track**
+5. **Sari Wulandari — Indonesia — Cohort-01 Operator**
+6. **Hassan Raza — Pakistan — Defense-03 Tech-Zone Guard**
+7. **Chioma Okeke — Nigeria — Cohort-03 Lead**
+8. **Rafael Costa — Brazil — Field-R Overwatch**
+9. **Nusrat Rahman — Bangladesh — Defense-02 Access Officer**
+10. **Dmitri Volkov — Russia — Defense-01 Building Guard**
+11. **Oksana Bondarenko — Ukraine — Field-R / Intelligence**
+12. **Yonas Bekele — Ethiopia — Cohort-01 Operator**
+13. **Valeria Soto — Mexico — Cohort-02 Trainee**
+14. **Amira Hassan — Egypt — Authority-03 Mission Sponsor**
+15. **Miguel Santos — Philippines — Defense-02 Access Officer**
+16. **Grace Mbala — Democratic Republic of the Congo — Cohort Support**
+17. **Minh Tran — Vietnam — Field-T Technical Operator**
+18. **Leila Hosseini — Iran — Authority / Analysis**
+19. **Emre Yıldız — Turkey — Defense-01 Building Guard**
+20. **Jonas Weber — Germany — System Liaison / Pylon Interface**
+21. **Priya Srisawat — Thailand — Marketing / Public Surface**
+22. **Helen Clarke — United Kingdom — Authority-02 Director**
+23. **Marc Dubois — France — Mission Sponsor**
+24. **Thandiwe Nkosi — South Africa — Cohort-03 Lead peer**
 
-Their more detailed characterization in `story/CAST-NATIONS.md` is no longer merely a brainstorming pool. It is canon background material.
+These people are not Jordan's support roster. They are the ensemble.
 
----
-
-# 3. Canonical attached multinational network — 48 supporting characters
-
-The 48 attached characters defined in `story/CAST-NATIONS.md` are also promoted to canon as the supporting human network around the 24 mains.
-
-Each main has:
-
-- one **Legacy** relationship — a deceased or lost former operator whose history shaped the main character; and
-- one living **Freelancer / outside connection** who keeps that main character connected to a life, profession, friendship or moral reference point beyond McCluster.
-
-These characters and their existing background descriptions are canon:
-
-- Jordan Vale: **Kwame Asante — Ghana** / **Sofia Berg — Sweden**
-- Aya Shinoda: **Hana Lee — South Korea** / **Tariq Al-Farsi — Saudi Arabia**
-- Arjun Mehta: **Priyan Perera — Sri Lanka** / **Fatima Zahra — Morocco**
-- Li Wei: **Sun Ho — North Korea** / **Bat Erdene — Mongolia**
-- Sari Wulandari: **Nur Aisyah Rahman — Malaysia** / **Ariel Cruz — Singapore**
-- Hassan Raza: **Omar Nazari — Afghanistan** / **Dilshad Karim — Uzbekistan**
-- Chioma Okeke: **Ibrahim Cissé — Côte d’Ivoire** / **Aisha Diallo — Senegal**
-- Rafael Costa: **Lucía Fernández — Argentina** / **Camila Rojas — Colombia**
-- Nusrat Rahman: **Rajesh Thapa — Nepal** / **Aye Chan — Myanmar**
-- Dmitri Volkov: **Nino Kapanadze — Georgia** / **Aigerim Nazer — Kazakhstan**
-- Oksana Bondarenko: **Piotr Kowalski — Poland** / **Anastasia Popescu — Romania**
-- Yonas Bekele: **Daniel Mwangi — Kenya** / **Amina Jibril — Tanzania**
-- Valeria Soto: **Luis Herrera — Guatemala** / **Sofía Vargas — Peru**
-- Amira Hassan: **Youssef Benali — Algeria** / **Layla Mansour — Jordan**
-- Miguel Santos: **José Ramírez — Spain** / **Andrea Rossi — Italy**
-- Grace Mbala: **Jean-Pierre Ndlovu — Zimbabwe** / **Fatou Camara — Mali**
-- Minh Tran: **Sopheak Lim — Cambodia** / **Bounmy Phom — Laos**
-- Leila Hosseini: **Rami Abbas — Iraq** / **Elina Petrosyan — Armenia**
-- Emre Yıldız: **Nikos Papadopoulos — Greece** / **Lea Hadad — Lebanon**
-- Jonas Weber: **Eva Novák — Czechia** / **Lars Hansen — Denmark**
-- Priya Srisawat: **Mei-Ling Tan — Taiwan** / **Rachel Wong — Australia**
-- Helen Clarke: **Aoife Byrne — Ireland** / **James MacLeod — Canada**
-- Marc Dubois: **Inês Costa — Portugal** / **Yara Benkirane — Tunisia**
-- Thandiwe Nkosi: **Naledi Dube — Botswana** / **Tendai Moyo — Zambia**
-
-Their canon purpose is not to force 48 exposition-heavy subplots into 21 PRIM3 episodes. They exist so recurring characters have history beyond Prime, and so calls, memories, favors, old files, grief, outside contracts, moral objections and personal relationships can emerge naturally when useful.
+Their goals, mistakes, relationships and transformations must remain meaningful when Jordan is off-screen.
 
 ---
 
-# 4. Canonical public/system recurring characters
+# 3. Attached multinational network
 
-**Maren Quill** is canon as McCluster's communications/public-facing human surface. Her central conflict is whether communication keeps the institution accountable or merely makes dangerous things feel normal.
+The 48 Legacy/Freelancer relationships defined in `story/CAST-NATIONS.md` remain canon supporting network around the 24 mains.
 
-**Pylon** is canon as System-01 / the building automation platform and as a genuine recurring character-level presence. Pylon is nonhuman infrastructure, but its persistent behavior, relationship with Jonas and relationship to Prime make it part of the dramatic cast.
+Their purpose is to give the main cast:
+- history beyond PRIM2;
+- family/professional connections outside McCluster;
+- grief;
+- favors;
+- external moral reference points;
+- people who remember older versions of them.
 
----
+They do not all require equal episode time.
 
-# 5. Canonical contemporary Hitman-side cast
-
-The following contemporary Hitman-side characters are canon by name, role and non-conflicting personal engine from `story/HITMAN-CAST.md`:
-
-- **Royce** — Hitman successor/sovereign and Jordan's old rival; seven years younger than Jordan; received the position Jordan refused when Bigga Lex retired.
-- **Sable Quinn** — operations and money; translates swagger into staffing, obligations and numbers.
-- **Grant Voss** — respectable-money sponsor who wants influence without visible liability.
-- **Tone Rivera** — block/control operator whose deeper strength is preventing uncontrolled escalation.
-- **Kira “Keys” Moon** — access/social-gate specialist who understands the power of introductions, guest lists and practical access.
-- **Omar “Rack” Dillon** — gear/stash/logistics specialist whose reliability is structural power.
-- **Jules “Kiosk” Mendez** — deniable-tech specialist who survives partly through being underestimated.
-- **Rae “Twin” Colton** — street/social-entry specialist capable of manufacturing trust while longing for trust she did not engineer.
-- **Chris “Perch” Alvarez** — overwatch/context specialist focused on detecting changes before they become crises.
-- **Dez “Switch” Calhoun** — adaptive younger operator whose versatility can threaten his sense of identity.
-- **Mina “Halo” Brooks** — cell lead whose reputation for bringing people home creates dangerous expectations around leadership.
-- **Sora “Gymnast” Okada** — elite/social-entry specialist able to operate inside donor, political and high-status environments.
-
-**Benji is not a separate present-day member of this list. Benji is Jordan Vale's former identity.**
-
-Any older Hitman-cast language claiming Benji and Royce lacked personal history, or that Benji independently rises during the PRIM3 era, is superseded. Jordan and Royce have real pre-PRIM3 history.
+Where a Legacy/Freelancer becomes important enough to own substantial screen time, promote them through a dedicated psychology/relationship dossier instead of treating them as exposition furniture.
 
 ---
 
-# 6. Presiding Prime
+# 4. Public/system recurring characters
 
-**Presiding Prime / Prime-00** is canon as the hidden apex above PRIM3 and Hitman, Jordan's long-term observer/evaluator, the presiding authority Jordan eventually reaches in RAID, and the predecessor whose power Jordan must defeat, inherit and constrain.
+**Maren Quill** is canon as McCluster's communications/public-facing human surface. Her conflict concerns whether communication creates accountability or merely makes dangerous structures feel normal.
 
-Prime is not part of the 24-nationality matrix. His unresolved civilian identity remains intentional unless deliberately changed later.
+**Pylon** is canon as System-01 / building automation platform and a recurring character-level presence through its persistent behavior, operational dependence and relationship with Jonas.
+
+Pylon is not merely PRIM2 with a robot skin.
+
+---
+
+# 5. Contemporary Hitman-side cast
+
+The following current Hitman-side people are canon by name/role and non-conflicting personal engine:
+
+- **Royce** — contemporary Hitman successor/sovereign; Jordan's old rival; seven years younger than Jordan; received the succession opportunity Jordan refused.
+- **Sable Quinn** — operations / money.
+- **Grant Voss** — sponsor / respectable-money surface.
+- **Tone Rivera** — block/control operator.
+- **Kira “Keys” Moon** — access/social gate.
+- **Omar “Rack” Dillon** — logistics/equipment.
+- **Jules “Kiosk” Mendez** — deniable technical support.
+- **Rae “Twin” Colton** — social-entry specialist.
+- **Chris “Perch” Alvarez** — overwatch/context.
+- **Dez “Switch” Calhoun** — adaptive younger operator.
+- **Mina “Halo” Brooks** — cell lead.
+- **Sora “Gymnast” Okada** — elite/social-entry specialist.
+
+**Benji is not a separate contemporary character. Benji is Jordan Vale's age-19-to-26 Hitman identity.**
+
+Royce is the primary Hitman-side elite incursion threat in PRIM3 gameplay. He is not a PRIM Mantle holder and does not possess PRIM2's information architecture.
+
+---
+
+# 6. PRIM2 — presiding Mantle holder
+
+The hidden apex during almost all of the series is **PRIM2**.
+
+Older labels such as `Presiding Prime`, `Prime-00`, `Prime-0` and `P-00` are legacy terminology when used as formal identities.
+
+PRIM2:
+- is the presiding Primary Root Identity Mantle holder;
+- operates through the Site 0 distributed human-machine command architecture;
+- has privileged cross-board visibility into PRIM and Hitman contexts;
+- is powerful but not omniscient;
+- first develops active interest in Jordan during the Whip Equipped/Ghost years;
+- later reacquires high-confidence Jordan identity continuity after college re-entry and the Site 0 identity-resolution update;
+- is the performer/defender in `High Alert`;
+- is physically defeated by Jordan + Royce during RAID;
+- loses the Mantle to Jordan during `Ghost In The Wires`;
+- persists afterward as constrained Ghost-class advisory intelligence.
+
+PRIM2 is not simply “the man watching Jordan.” His direct and indirect relationships span the wider ensemble.
 
 ---
 
 # 7. Immediate cast hierarchy
 
-The existence of a large canon cast does not require equal screen time.
+Screen-time tiers are practical, not moral rankings.
 
-Use three dramatic tiers:
+### Tier A — multi-season spine
 
-### Tier A — spine characters
+At minimum:
+- Jordan;
+- Aya;
+- PRIM2;
+- Royce;
+- Chioma;
+- plus whichever relationships become season-critical.
 
-Jordan, Aya, Prime, Royce, Chioma and whichever additional relationship becomes season-critical.
-
-These characters can carry multi-season transformation and major irreversible decisions.
+Tier A does **not** mean every episode centers these people.
 
 ### Tier B — recurring operational ensemble
 
-The other 24-main members, Maren, Pylon and major Hitman figures.
+The remaining 24-main members, Maren, Pylon and major Hitman figures.
 
-They should recur enough that competence, friendship, disagreement and loss accumulate rather than feeling episodic.
+Several Tier B characters should own episodes outright.
 
 ### Tier C — attached human network
 
-The 48 Legacy/Freelancer relationships and other limited recurring people.
+Legacy/Freelancer relationships and limited recurring people.
 
-They provide history, grief, civilian perspective, favors, independent expertise and lives outside the central institution.
-
-A Tier C person can move upward if the story earns it.
+A Tier C character can move upward when the story earns it.
 
 ---
 
 # 8. Character-depth law
 
-For every Tier A or Tier B human character, future development must eventually answer:
+For every Tier A/B human, development must eventually answer:
 
-1. What happened before PRIM3 that materially shaped them?
-2. What did they learn from it—correctly or incorrectly?
-3. What do they materially want now?
+1. What materially shaped them before this series?
+2. What rule did they learn from it?
+3. What do they want in ordinary life?
 4. What are they ashamed of?
 5. What do they fear losing?
-6. What professional skill do they rely on when scared?
-7. What personal reflex becomes dangerous under pressure?
-8. What kind of person makes them irrational?
-9. What boundary do they believe they would never cross?
-10. What event could make them cross it?
-11. Who knows the version of them they try to hide?
-12. What ordinary non-mission behavior proves they have a life?
-13. What changes in their decisions after each major relationship event?
-14. How does their national/cultural/professional background influence them without reducing them to stereotype?
-15. What could they become if Prime's system amplifies their worst trait?
+6. What skill do they reach for under stress?
+7. What reflex becomes dangerous?
+8. Who makes them irrational?
+9. What line do they believe they will never cross?
+10. What could make them cross it?
+11. Who knows the version they hide?
+12. What mundane behavior proves they have a life outside missions?
+13. How do major events update future decisions?
+14. How does culture/profession shape assumptions without becoming stereotype?
+15. What could PRIM2's system amplify in them—for better or worse?
 
-Use `story/CHARACTER-PSYCHOLOGY-DECISION-AUTHORITY.md` to turn those answers into behavioral decision logic.
-
-The goal is that later scenes can be reasoned from character history rather than manufactured for plot convenience.
+Use `story/CHARACTER-PSYCHOLOGY-DECISION-AUTHORITY.md`.
 
 ---
 
-# 9. Multinational writing law
+# 9. Ensemble gameplay law
+
+Normal missions should launch with the named people assigned to the operation, **not Jordan by default**.
+
+This means character depth and mechanical identity reinforce one another:
+- if Aya is at risk, the player cares because they have actually played Aya;
+- if Chioma makes a bad command decision, the player has lived with her command style;
+- if Jonas loses Pylon access, it matters mechanically and personally;
+- if a favorite operator is about to die, spending a limited Jordan Wildcard call becomes an emotional strategy choice.
+
+PRIM2 is the rarer second-stage intervention after Jordan is already involved and a qualified high-value mission remains CRITICAL.
+
+Royce allows the hostile board to escalate too.
+
+---
+
+# 10. Multinational writing law
 
 The global cast is a permanent feature of PRIM3.
 
-Characters from different nations must not exist merely to produce a diversity count. Their histories should create different assumptions about infrastructure, government, family, work, authority, privacy, safety, hierarchy, money, migration, professional identity and loyalty.
-
-At the same time:
+Characters from different nations should have specific individual histories rather than serve as national avatars.
 
 - nationality does not predetermine politics;
 - nationality does not predetermine morality;
-- characters from countries in conflict are not required to reproduce state narratives;
-- diaspora and immigrant experience can differ radically from state identity;
-- two people from the same region may disagree more sharply than two people from different continents;
-- technical competence must come from lived/professional history, not ethnic stereotype;
-- cultural detail should become more specific through research when a character moves into major screen time.
+- state conflict does not require characters to repeat state narratives;
+- diaspora experience can differ from state identity;
+- technical competence comes from lived/training history, not ethnicity;
+- cultural detail should become more specific through research as screen importance grows.
 
-PRIM3's multinational premise works when the audience experiences a room full of **specific people who happen to come from the world**, not a checklist of national representatives.
+The goal is a room full of **specific people who happen to come from the world**, not a checklist of national representatives.
 
 ---
 
-# 10. Continuity migration
+# 11. Governing ensemble statement
 
-Effective immediately:
-
-1. `story/CAST-NATIONS.md` is promoted from proposed characterization to **canon source material** for its 24 mains and 48 attached characters.
-2. The names, nations, professional lanes and existing non-conflicting background engines in that file are canon.
-3. `story/HITMAN-CAST.md` remains useful for contemporary Hitman characterization, but every separate-Benji assumption is superseded by current Jordan/Benji canon.
-4. `story/CHARACTERS.md` is a stale index where it conflicts with this file; its current list must be interpreted through this authority.
-5. **Jordan Vale = Wildcard / Flex** for the immediate PRIM3 arc.
-6. Jordan may perform across mission roles but remains subject to expertise, authorization, consequence, fatigue and relationship constraints.
-7. The large cast is not permission to flatten screen time. Character importance is earned through relationship and causal relevance.
-8. Every major character should eventually receive a psychological/background dossier comparable in reasoning depth—not necessarily identical length—to Jordan's.
+> **The succession belongs to Jordan. The world belongs to everybody.**
