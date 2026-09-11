@@ -1,7 +1,7 @@
 ---
 status: CANON-AUTHORING-AUTHORITY
-system: episode cast density / recurring-roster overlap
-version: 2.0.0
+system: episode cast density / recurring-roster overlap / micro-development
+version: 3.0.0
 branch: main
 ---
 
@@ -28,15 +28,19 @@ It is:
 
 > **reuse the people who already live here.**
 
-Canonical law:
+Canonical density law:
 
-> **Every ordinary episode should normally contain at least 6–7 meaningful named presences, with most of those presences drawn from the established recurring roster.**
+> **Every ordinary episode should normally contain 7–12 meaningful named presences across WATCH + PLAY, with most drawn from the established recurring roster.**
+
+Canonical micro-development law:
+
+> **Every recurring character who appears must receive at least one meaningful development beat.**
 
 Historical/outside characters appear only when a specific established relationship makes them relevant.
 
 ---
 
-# 1. What “support character” means now
+# 1. What “support character” means
 
 In PRIM3, a support character is usually another recurring cast member whose episode this simply is not.
 
@@ -45,10 +49,10 @@ Examples:
 - Nusrat appears in an Aya episode because access control still exists when Aya is the emotional owner;
 - Priya sits in a post-mission meeting because somebody must decide what the public is told;
 - Yonas is on comms in a Sari-owned story because they actually work together;
-- Helen walks through a briefing for twenty seconds because she runs part of the institution;
+- Helen walks through a briefing because she runs part of the institution;
 - Chioma is in the cafeteria argument after a mission she did not personally command;
 - Leila reviews a decision from the previous episode and carries the argument into the next;
-- Sable or Kiosk can recur on the Hitman side across several unrelated operations.
+- Sable or Kiosk recur on the Hitman side across unrelated operations.
 
 The same person can be:
 
@@ -56,7 +60,7 @@ The same person can be:
 OWNER in Episode 07
 SUPPORT in Episode 08
 REMOTE in Episode 09
-BACKGROUND WORKPLACE PRESENCE in Episode 10
+AMBIENT WORKPLACE PRESENCE in Episode 10
 OWNER again in Episode 18
 ```
 
@@ -64,17 +68,17 @@ That recurrence is the point.
 
 ---
 
-# 2. Density hierarchy
+# 2. Development density hierarchy
 
 Default episode composition:
 
 ```text
-1–2  episode owners
-3–5  recurring coworkers / command / technical / support people from the 39-person immediate roster
+1–2  episode owners — deep write
+4–8  recurring coworkers / command / technical / support people — micro/mid writes
 0–2  recurring Hitman-side parallels when relevant
-0–1  established outside/historical relationship when specifically earned
+0–2  established outside/historical relationships when specifically earned
 ----------------------------------------------
-6–10 meaningful recurring presences
+7–12 meaningful named presences
 ```
 
 Do not add a guest merely because the count is low.
@@ -83,9 +87,45 @@ First ask:
 
 > **Which existing person would realistically already be here?**
 
+Then ask of every person who appears:
+
+> **What is newly true about this character by the end?**
+
+If the answer is nothing, either give them a beat or remove the appearance.
+
 ---
 
-# 3. Recurrent presence types
+# 3. Valid micro-development beats
+
+A support/ambient character does not need a monologue.
+
+A 5–30 second beat can count if it persists later.
+
+Useful beat categories:
+
+- **BELIEF:** confidence in a rule changes;
+- **RELATIONSHIP:** trust, resentment, attraction, debt or loyalty shifts;
+- **COMPETENCE:** skill is demonstrated, gained, lost or questioned;
+- **STATUS:** responsibility, clearance, reputation or informal influence changes;
+- **HABIT:** a recurring routine starts, ends or gains new meaning;
+- **SECRET:** information is learned, hidden, misread or shared;
+- **MATERIAL LIFE:** money, school, family, health, housing, schedule or workload changes;
+- **MORAL LINE:** somebody inches toward/away from something they swore they would not do;
+- **GRIEF:** an old loss affects behavior differently;
+- **FUTURE SEED:** a tiny choice creates a later conflict.
+
+Examples:
+- Miguel stops joking with somebody after a mission disagreement;
+- Sari starts automatically bringing a backup device after `Got Wifi`;
+- Priya begins deleting a phrase from every press draft because she no longer trusts what it implies;
+- Emre quietly checks a door twice after a prior failure;
+- Valeria begins correcting Jordan instead of merely absorbing his advice;
+- Oksana notices Dmitri saving her seat before either admits they have become close;
+- Jonas uses `we` when talking about Pylon and catches himself.
+
+---
+
+# 4. Recurring presence types
 
 A recurring character can matter without owning the episode through:
 
@@ -109,9 +149,9 @@ Maren, Pylon, Helen, Amira, Marc, Li, Leila, Chioma and PRIM2 can recur through 
 
 ---
 
-# 4. Episode recurring-cast matrix
+# 5. Episode recurring-cast matrix
 
-This matrix is a **population layer** beneath the owner map. It identifies people who should plausibly recur around each story. Exact scene placement remains flexible.
+This matrix is a **population layer** beneath the owner map. It identifies people who should plausibly recur around each story. Exact scene placement may change during episode rewrites, but the recurrence philosophy is canonical.
 
 ## 01 — HIGH ALERT
 **Core:** PRIM2, Jordan, Royce  
@@ -121,99 +161,99 @@ This matrix is a **population layer** beneath the owner map. It identifies peopl
 ## 02 — WHITE GREY BLACK HAT
 **Owners:** Nusrat, Miguel  
 **Recurring overlap:** Jordan, Aya, Helen, Priya, Maren, Chioma  
-**Purpose:** first institutional-access episode also establishes the visible workplace hierarchy and who notices Jordan.
+**Purpose:** access control establishes the workplace hierarchy while multiple people form different first impressions of Jordan.
 
 ## 03 — OSINT
 **Owners:** Oksana, Rafael  
 **Recurring overlap:** Valeria, Leila, Chioma, Pylon, Chris “Perch” Alvarez; Jordan only if Wildcard is called  
-**Purpose:** intelligence culture begins recurring on both PRIM and Hitman boards.
+**Purpose:** intelligence culture recurs on both PRIM and Hitman boards; Valeria's relationship to expertise evolves.
 
 ## 04 — ANTI SOCIAL ENGINEERING
 **Owners:** Priya, Sora  
 **Recurring overlap:** Maren, Nusrat, Miguel, Kira “Keys” Moon, Helen, Chioma, Jordan cameo  
-**Purpose:** the same workplace people from Episode 02 now confront the human side of access instead of the paperwork side.
+**Purpose:** Episode 02's access people return under social rather than credential pressure; Priya/Maren's public-trust conflict advances.
 
 ## 05 — RED BLUE PURPLE WHITE TEAM
 **Owners:** Chioma, Thandiwe  
 **Recurring overlap:** Grace, Jordan, Arjun, Sari, Mina “Halo” Brooks, Dez “Switch” Calhoun, Helen  
-**Purpose:** leadership, team identity and parallel organizational culture deepen through people already introduced.
+**Purpose:** leadership and team identity develop through people already introduced; Jordan/Dez become generalist mirrors.
 
 ## 06 — GOT WIFI
 **Owners:** Sari, Yonas  
 **Recurring overlap:** Hassan, Emre, Chioma, Grace, Jonas, Pylon; Jordan available only as Wildcard  
-**Purpose:** outage response feels like the same coworkers getting pulled into a different kind of emergency.
+**Purpose:** outage response pulls the same coworkers into different responsibilities; every participant carries a changed routine forward.
 
 ## 07 — DATA BREACH
 **Owners:** Leila, Li  
 **Recurring overlap:** Grace, Helen, Amira, Chioma, Sable Quinn, Rae “Twin” Colton; Royce conditional  
-**Purpose:** governance/trust expands beyond the analysts into command, sponsorship and the opposing board.
+**Purpose:** governance/trust expands into command, sponsorship and opposing-board consequence.
 
 ## 08 — APP ATTACKS
 **Owners:** Aya, Minh  
 **Recurring overlap:** Leila, Jonas, Emre, Jordan edge, Jules “Kiosk” Mendez  
-**Established special relationship:** Hana and/or Tariq only because Aya's already-canon personal history directly matters  
-**Purpose:** technical team recurrence makes Aya/Minh's rivalry feel like part of a real lab rather than a one-off pairing.
+**Established special relationship:** Hana and/or Tariq only because Aya's canon history directly matters  
+**Purpose:** technical-team recurrence makes Aya/Minh's rivalry part of a real lab; Leila/Jonas/Emre also advance.
 
 ## 09 — VIRUS TYPES
 **Owners:** Dmitri, Oksana  
 **Recurring overlap:** Hassan, Leila, Chioma, Emre, Dez; Royce conditional  
-**Purpose:** trust established in earlier episodes now gets tested under containment pressure.
+**Purpose:** trust from earlier episodes is tested; Oksana/Dmitri shift while Hassan/Leila/Emre also accumulate residue.
 
 ## 10 — INSTALLATION TYPES
 **Owner:** Valeria  
 **Recurring overlap:** Arjun, Emre, Jordan, Aya, Hassan, Omar “Rack” Dillon, Chioma  
-**Purpose:** Valeria's growth happens in front of mentors/coworkers the audience already understands.
+**Purpose:** Valeria's growth happens in front of a familiar team; Jordan's mentorship, Aya's evaluation and Arjun/Emre's philosophies all move.
 
 ## 11 — DIVE IN
 **Owners:** Grace, Rafael  
 **Recurring overlap:** Oksana, Leila, Chioma, Perch, Kiosk, Sora; Jordan available as Wildcard  
-**Purpose:** intelligence/evidence characters from Episodes 03, 04 and 07 collide instead of appearing in separate bubbles.
+**Purpose:** intelligence/evidence characters from Episodes 03, 04 and 07 collide instead of living in separate bubbles.
 
 ## 12 — IoT
 **Owners:** Jonas, Pylon  
 **Recurring overlap:** Emre, Aya, Minh, Helen, Leila, PRIM2 trace; Jordan Wildcard if needed  
-**Purpose:** building automation finally pulls together the people who have been touching physical, technical and governance layers for multiple seasons.
+**Purpose:** building automation draws together physical, technical and governance relationships accumulated across seasons.
 
 ## 13 — IAAS / SAAS / PAAS
 **Owners:** Helen, Li, Yonas  
 **Recurring overlap:** Leila, Grace, Jonas, Amira, Marc, Chioma  
-**Purpose:** shared responsibility becomes an institutional ensemble story, not a cloud lecture.
+**Purpose:** shared responsibility becomes an institutional ensemble story; nobody returns to pre-episode trust automatically.
 
 ## 14 — CAPEX VS OPEX
 **Owners:** Amira, Marc  
 **Recurring overlap:** Helen, Priya, Maren, Li, Grace, Grant Voss  
-**Purpose:** money/risk/public-language characters already in the series meet around one decision.
+**Purpose:** risk/money/public-language characters meet around one decision; GLASSHOUSE guilt alters more than the owners.
 
 ## 15 — TRAPPIN FROM THE CLOUD
 **Owners:** Sari, Sable  
 **Recurring overlap:** Minh, Yonas, Maren, Li, Jules “Kiosk” Mendez, Royce conditional, Grace  
-**Purpose:** scale is shown through the same operations people on both boards rather than by introducing a new cloud team.
+**Purpose:** scale is shown through familiar operations people on both boards; Sari/Yonas and Sable/Kiosk relationships move.
 
 ## 16 — PER DIEM
 **Owners:** Jordan, Valeria  
 **Recurring overlap:** Chioma, Arjun, Sari, Mina, Tone Rivera, Rack, Dez, Royce conditional  
-**Purpose:** Jordan's rare scripted PLAY episode happens among people whose specialties the player already knows.
+**Purpose:** Jordan's rare scripted PLAY episode happens among people whose specialties and relationships the audience already knows.
 
 ## 17 — PATCH WORK
 **Owner:** Aya  
 **Recurring overlap:** Jordan, Minh, Helen, Leila, Jonas, Chioma, Pylon  
-**Established special relationship:** Hana through Kkeutori; Tariq/Ren only if the scene specifically needs Aya's outside life  
-**Purpose:** Aya's old suspicion returns inside a workplace web the audience already understands.
+**Established special relationship:** Hana through Kkeutori; Tariq/Ren only if Aya's outside life is specifically needed  
+**Purpose:** Aya's suspicion returns inside a workplace web with years of accumulated trust and strain.
 
 ## 18 — SONG #21 OPEN
 **Owners:** Leila, Helen, Jordan  
 **Recurring overlap:** Li, Chioma, Thandiwe, Amira, Aya, Marc, Jonas, Pylon, Grace  
-**Purpose:** the institutional rupture is crowded because these are the people who have spent six seasons building, operating and questioning the same system.
+**Purpose:** institutional rupture is crowded because these people have spent six seasons building, operating and questioning the same system.
 
 ## 19 — RAID
 **Owners:** Jordan, Royce, PRIM2  
-**Recurring overlap:** selected assault-team members drawn from established PRIM and Hitman rosters; Aya, Chioma, Leila, Helen, Mina, Tone, Sable and others matter through deployment, loss, comms or accumulated relationship debt  
-**Purpose:** the finale kills/risks people the audience already knows rather than faceless final-mission extras.
+**Recurring overlap:** selected assault-team members drawn from established PRIM and Hitman rosters; earlier relationships matter through deployment, loss, comms and accumulated debt  
+**Purpose:** the finale risks/kills people the audience already knows rather than faceless final-mission extras.
 
 ## 20 — EVIL TWIN
 **Owners:** PRIM2, Jordan, Royce  
 **Recurring overlap:** Aya, Helen, Li, Leila, Amira, Marc, Jonas/Pylon through evidence and remote verification  
-**Purpose:** earlier ensemble episodes become evidence in the confession rather than flashback exposition.
+**Purpose:** earlier ensemble episodes become evidence in the confession while remote characters continue changing under the revelation.
 
 ## 21 — GHOST IN THE WIRES
 **Owners:** Jordan, PRIM2  
@@ -222,30 +262,30 @@ This matrix is a **population layer** beneath the owner map. It identifies peopl
 
 ---
 
-# 5. Same-building realism law
+# 6. Same-building realism law
 
 McCluster/PRIM scenes should routinely include **low-intensity recurrence**.
 
-Not every appearance needs plot weight.
+Not every appearance needs plot weight equal to an owner beat, but every named recurring appearance needs development movement.
 
 Examples:
 - Miguel hands Aya a badge while continuing a conversation from two episodes ago;
-- Sari steals Yonas's coffee during somebody else's briefing;
-- Dmitri and Oksana enter the elevator mid-argument;
-- Chioma asks Grace for a debrief note while the actual scene is about Valeria;
-- Priya passes through the lab taking approved photos and hears something she remembers later;
-- Jonas complains that Emre manually disabled something again;
-- Leila corrects Li from across a conference table even when neither owns the scene;
-- Maren is waiting outside a command room because whatever just happened will become a public statement;
+- Sari steals Yonas's coffee, but this time Yonas has already bought her one;
+- Dmitri and Oksana enter the elevator mid-argument and leave with one new private joke;
+- Chioma asks Grace for a debrief note while the actual scene is about Valeria, revealing Chioma now trusts Grace's human-consequence judgment;
+- Priya passes through the lab taking approved photos and quietly chooses not to photograph something she once would have;
+- Jonas complains that Emre manually disabled something again, but now immediately asks why before turning it back on;
+- Leila corrects Li from across a conference table and he changes the document without fighting her;
+- Maren is waiting outside a command room with two versions of a statement because she already knows leadership will argue;
 - Pylon announces something mundane in five episodes before its unusual behavior becomes sinister.
 
-These micro-presences make the organization feel inhabited.
+The beat can be tiny. It cannot be inert.
 
 ---
 
-# 6. Recurrence tracking
+# 7. Whole-roster recurrence tracking
 
-Every episode chapter should now record:
+Every episode chapter now records:
 
 ```text
 CORE OWNERS:
@@ -258,11 +298,20 @@ WHO APPEARED LAST EPISODE AND CONTINUES HERE:
 WHO APPEARS HERE BEFORE A LATER PAYOFF:
 ```
 
-A recurring character can receive a 5–20 second mini-write and still matter if the beat persists.
+In addition, every current recurring slot receives a whole-roster state for that episode:
+
+```text
+A — ACTIVE DEVELOPMENT
+B — AMBIENT CONTINUITY
+C — OFFSCREEN CONSEQUENCE
+D — UNAFFECTED / OUT OF FRAME
+```
+
+Do not force all 39 onto camera. Do not accidentally forget somebody exists for half a season either.
 
 ---
 
-# 7. Historical restraint
+# 8. Historical restraint
 
 Do not require one historical character per episode.
 
@@ -278,7 +327,31 @@ The default episode should be able to hit its density target using the **recurri
 
 ---
 
-# 8. No single-episode character boxes
+# 9. Support promotion, attrition and vacancy
+
+An ownership episode should make a character **more reusable**, not retire them.
+
+A recurring support character can gradually become a main through repeated competence, relationships, responsibility and audience attachment.
+
+Likewise, a main can drift, transfer, lose authority, become injured or die.
+
+Deaths and exits must change the population layer:
+- workloads move;
+- briefing combinations change;
+- somebody covers a shift;
+- a relationship loses one endpoint;
+- an empty desk/seat/role persists;
+- a support character may absorb responsibility without becoming an instant equivalent replacement.
+
+Do not automatically replace a dead character one-for-one.
+
+If a newcomer arrives later, they enter with uneven preexisting relationships and must earn belonging.
+
+Full authority: `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md`.
+
+---
+
+# 10. No single-episode character boxes
 
 Owning an episode does not mean the character disappears afterward.
 
@@ -294,19 +367,21 @@ SARI owns E06 -> stronger recurrence E13/E15/E16
 LEILA owns E07 -> grows through E13/E17/E18/E21
 AYA owns E08 -> continues E12/E17/E18/E20/E21
 JONAS owns E12 -> Pylon thread continues into E18/E20/E21
-AMIRA/MARC own E14 -> their GLASSHOUSE history matters in E18/E20
+AMIRA/MARC own E14 -> GLASSHOUSE history matters in E18/E20
 ```
 
 The ownership episode is an investment that improves all later appearances.
 
 ---
 
-# 9. Governing rule
+# 11. Governing rules
 
 > **Same building. Same company. Same people. New pressure.**
+
+> **Episode ownership determines depth, not exclusivity.**
+
+> **If you appear, you move.**
 
 And on the Hitman side:
 
 > **Same organization. Same relationships. Different job.**
-
-That recurrence—not an endless supply of guests—is what makes PRIM3 feel deep.
