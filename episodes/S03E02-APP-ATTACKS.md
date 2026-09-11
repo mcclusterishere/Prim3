@@ -1,147 +1,117 @@
 ---
-status: CANON CHAPTER BLUEPRINT
+status: CANON MIGRATED BLUEPRINT
 season: 3
 episode: 2
 global_episode: 8
 level_id: LVL-08
 song: App Attacks
 mission: Bad Input
-runtime_target: 9 minutes
+runtime: FLEX-LONGFORM
+version: 3.0.0
 branch: main
 ---
 
 # S3E2 — APP ATTACKS / BAD INPUT
 
-## Episode ownership
+## Ownership / deployment
 
 ```text
-EPISODE OWNER: Chioma Okeke
-SECONDARY OWNERS: Jordan Vale / Aya Shinoda / Minh Tran
-JORDAN NARRATIVE STATE: B — SHARED STORY, Chioma owns the command consequence
-MISSION LEAD: Chioma
-BASE PLAYABLE ROSTER: Chioma / Aya / Minh / Jordan
-PRIMARY PLAYABLE POV: command + technical team
-JORDAN PLAY STATE: SCRIPTED — this is one of the specific missions where Jordan is playable from launch
-WILDCARD ELIGIBLE: no — scripted Jordan presence consumes no Wildcard resource
-APEX ELIGIBLE: no in canonical WATCH state
-PRIM2 STORY VISIBILITY: hidden authorization/observation layer only
-ROYCE INCURSION ELIGIBLE: no canonical incursion
+PRIMARY OWNERS: Aya Shinoda / Minh Tran
+SECONDARY DEPTH: Leila Hosseini / Jonas Weber / Emre Yıldız / Jules “Kiosk” Mendez
+ESTABLISHED OUTSIDE/HISTORY: Hana Lee memory and/or Tariq Al-Farsi only when directly relevant
+JORDAN: supporting/edge; not scripted from launch by default
+WILDCARD: normally unavailable — Aya/Minh must own the technical climax
+APEX: unavailable
+ROYCE: unavailable
 ```
 
-This is deliberately an exception to the normal no-Jordan deployment rule because the episode's core conflict requires the player to experience the temptation to use Jordan's initiative against Chioma's authority.
+This supersedes the old Chioma-owned/Jordan-scripted blueprint.
+
+---
+
+# Recurring cast / micro-development ledger
+
+| Character | Function | Development moment |
+|---|---|---|
+| Aya | owner / Field-T | A declared software state conflicts with physical behavior; her insistence on proving the physical truth looks obsessive until it saves the mission. She must also decide whether Minh gets real ownership or only delegated chores. |
+| Minh | owner / Field-T | Beats Aya to one hardware/firmware-level truth and learns that being correct in front of a mentor is different from becoming independent of her. |
+| Leila | analysis/governance | Asks who trusted the application's output enough to let it influence physical decisions; continues her governance thread from Episode 7. |
+| Jonas | system liaison | Defends application/system telemetry longer than Emre is comfortable with, foreshadowing his deeper emotional dependence on unified systems. |
+| Emre | physical truth | Refuses to let a green dashboard overrule a dangerous physical observation. His recurring argument with Jonas becomes recognizable rather than episodic. |
+| Kiosk | Hitman technical mirror | Solves technical problems in a very different environment by exploiting being underestimated; gains recurring specialist identity without being written as Aya's equal/opposite clone. |
+| Jordan | edge/support | Is useful socially or logistically but is deliberately not the technical answer, proving Wildcard does not erase specialist ownership. |
+| Hana | memory/breadcrumb | An old Kkeutori joke about declared state vs observed state resurfaces as genuine affectionate memory first; its clue value remains latent. |
+| Tariq | optional outside relationship | If used, reminds Aya that engineering once meant normal professional life and that she can talk about a problem without turning it into a mission. |
 
 ---
 
 # Human problem
 
-A dispatch/logistics application begins producing unsafe or contradictory results during an active operation.
+A dispatch/logistics application reports states that do not match physical outcomes.
 
-Chioma wants a conservative containment path.
-Jordan sees a faster reduced-function workaround.
-Aya and Minh understand why both positions are technically defensible.
+Aya recognizes the pattern because her entire engineering identity is built around graceful degradation and refusing to trust a display over a body/system she can verify.
 
-The incident becomes a command problem:
+Minh sees part of the fault before she does.
 
-> **If somebody beneath you is technically right and procedurally wrong, what exactly are you responsible for when their disobedience works?**
-
-Jordan's successful deviation damages Chioma's authority because success can make an unauthorized choice look retrospectively inevitable.
-
-The episode belongs to Chioma because she must absorb that consequence and decide what leadership means after being proven “wrong” by a subordinate who still violated her order.
+Aya's character problem is not whether she can fix the system. It is whether she can let somebody younger be right without immediately absorbing their discovery into her own control structure.
 
 ---
 
 # Technical thesis
 
-The mission uses application security defensively:
+Teach defensively:
 - input validation;
 - privilege boundaries;
 - role-based access;
 - safe failure;
 - component isolation;
-- code review/debugging concepts;
 - error handling;
 - reduced-function fallback;
-- verification after workaround.
+- verification after workaround;
+- physical validation of cyber-physical claims.
 
-Offensive categories may be named as curriculum concepts without becoming executable attack mechanics.
+Core line:
 
-Core lesson:
-
-> **A working workaround can still create an authority or trust failure.**
+> **A system's declared state is evidence, not reality.**
 
 ---
 
-# WATCH
+# WATCH spine
 
-The music film turns application layers into rooms whose state changes when bad input crosses boundaries.
-
-During escalation, the team agrees on the danger but disagrees on who owns the decision.
-
-Mission threshold: the safe official response will not restore time-critical dispatch quickly enough.
-
-Jordan takes a narrow alternate path before Chioma grants approval.
-
-It works.
-
-That is not framed as proof that Jordan was simply right.
-
-Chioma must now manage:
-- a saved operation;
-- a broken command boundary;
-- people celebrating the person who disobeyed her;
-- the possibility that punishing him can look like ego;
-- the danger that praising him can normalize freelancing during crisis.
+1. App produces contradictory dispatch/logistics behavior.
+2. Jonas initially trusts the unified state more than Emre does.
+3. Aya insists on physical verification.
+4. Minh identifies a lower-level inconsistency before Aya does.
+5. Aya has a choice: absorb his answer or let him own it publicly. She gives him ownership.
+6. Leila identifies the governance assumption that let one application output become de facto authority.
+7. Kiosk handles a separate opposing-board technical problem, building recurring parallel texture.
+8. The team isolates the bad component/state and restores a reduced safe function before full service.
+9. Hana memory lands as warmth, not spooky exposition.
 
 ---
 
 # PLAY
 
-This is a scripted Jordan mission.
-
-The player can control the whole named team, including Jordan, and therefore directly feels the temptation of Jordan's stronger “another path” style before it has become the formal Wildcard call-up mechanic.
+Base roster centers Aya/Minh plus authorized analysis/system support.
 
 Primary verbs:
-- inspect;
-- isolate;
-- validate;
-- assign privilege;
-- route;
-- request approval;
-- deviate;
-- document;
-- verify.
+`inspect / compare physical state / validate / isolate / assign privilege / route / fall back / verify / document`.
 
-The player may produce different tactical quality around the deviation, but the canonical story beat remains that Jordan acts ahead of Chioma's approval and the operation survives.
-
-Outcome variation changes how defensible, narrow, documented and costly the choice was.
+Jordan is not the rescue mechanic for this episode under normal canon because the point is to make Aya and Minh indispensable.
 
 ---
 
-# PRIM2 trace
+# Persistent residue
 
-PRIM2's hidden interest is not “Jordan can break rules.”
-
-It is the collision between:
-- Jordan's ability to find another viable path;
-- Chioma's ability to hold command boundaries;
-- the institution's tendency to reward outcomes after the fact.
-
-A subtle higher-level exception/observation may make the workaround possible without telling either Jordan or Chioma who opened that authority window.
-
-Later this becomes evidence that PRIM2 sometimes learns about people by letting competing forms of competence collide.
-
----
-
-# Residue
-
-- Chioma/Jordan trust worsens even though operational respect rises.
-- Aya sees Jordan's useful initiative and dangerous overreach in the same act.
-- Minh becomes a technical witness who cannot reduce the event to personality conflict.
-- Jordan learns the worst possible lesson if he focuses only on the fact that he succeeded.
-- future episodes can reference this as the reason some operators resent the Wildcard concept before it is formally available to the player.
+- Aya begins treating Minh as an independent engineer rather than an extension of her standards.
+- Minh's confidence rises without becoming arrogance-free.
+- Jonas/Emre's recurring trust-vs-physical-verification relationship deepens.
+- Leila sees another example of hidden authority embedded in “neutral” technical outputs.
+- Kiosk becomes recognizable across future Hitman technical scenes.
+- Hana's remembered joke acquires a second meaning only later.
 
 ---
 
 # Governing line
 
-> **Jordan saves the operation. Chioma has to save command afterward.**
+> **Bad input is dangerous. So is a mentor who cannot accept input from somebody younger.**
