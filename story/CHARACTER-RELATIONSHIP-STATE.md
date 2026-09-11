@@ -1,7 +1,7 @@
 ---
 status: CANON
 system: Relationship continuity
-version: 2.0.0
+version: 2.1.0
 branch: main
 ---
 
@@ -198,6 +198,70 @@ Specialist relationship files override this summary where more specific.
 - **Hidden dependence:** PRIM2's dual architecture makes their separate social-entry lanes intersect.
 - **Failure trigger:** later discovery forces each to decide whether the other is rival, victim, sister-in-system or threat.
 
+# Recurring micro-development protocol
+
+Every time two recurring characters share meaningful screen time, ask whether the relationship state moved even slightly.
+
+Possible micro-writes include:
+- trust + / -;
+- new private joke;
+- changed seating/work preference;
+- new debt or favor;
+- new irritation;
+- increased professional reliance;
+- attraction acknowledged/denied;
+- somebody now knows a secret;
+- somebody begins avoiding another person;
+- somebody starts defending another person when they are absent.
+
+Not every interaction must change the scale label, but every meaningful recurrence should either **advance**, **complicate**, or **confirm under new pressure** the relationship.
+
+If a pair repeatedly appears together with no new information, the scenes are wasting ensemble bandwidth.
+
+# Death / departure relationship protocol
+
+A death or permanent departure rewrites more than one relationship row.
+
+For every affected survivor, record:
+
+```text
+LOSS INTERPRETATION:
+LAST UNRESOLVED INTERACTION:
+BLAME TARGET:
+GUILT:
+BROKEN ROUTINE:
+INHERITED WORK / OBJECT / SECRET:
+NEW RELATIONSHIP FEAR:
+HOW THEY TREAT THE VACANCY:
+HOW THEY TREAT AN EVENTUAL REPLACEMENT:
+```
+
+Do not reduce grief to a single universal tone.
+
+One survivor can become more protective.
+Another can become reckless.
+Another can become angry at leadership.
+Another can treat the replacement unfairly.
+Another can avoid attachment entirely.
+
+The absence itself remains relational state.
+
+# Replacement relationship protocol
+
+A replacement does not start at neutral relationship distance from the whole roster.
+
+Before introducing them, define:
+- who already knows them;
+- who recommended them;
+- who distrusts their reputation;
+- who wants the vacancy left empty;
+- who desperately needs their skill;
+- who unfairly compares them to the predecessor;
+- who becomes their first real friend;
+- who never fully accepts them.
+
+Their relationship web should feel uneven on arrival.
+
 # Stale relationship deletions
 
 The following older relationship models are **deleted from continuity**:
@@ -211,6 +275,6 @@ Where `Benji` remains relevant, it means **Jordan Vale during age 19–26**.
 
 # Change-event protocol
 
-Update a pair after any major lie, rescue, refusal, promotion, debt, romantic shift, injury, death, discovered evaluation, financial dependency, public humiliation, episode-ownership shift or new shared secret.
+Update a pair after any major lie, rescue, refusal, promotion, debt, romantic shift, injury, death, discovered evaluation, financial dependency, public humiliation, episode-ownership shift, new shared secret, support-to-main promotion, transfer, vacancy or replacement arrival.
 
 Record the **new state**, not merely the event.
