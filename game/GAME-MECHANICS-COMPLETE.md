@@ -1,9 +1,9 @@
 ---
 status: CANON
 system: Game mechanics — full spine
-version: 1.1.0
+version: 1.2.0
 branch: main
-authority: Subordinate to CANON.md and specialized canonical mechanics authorities
+authority: Subordinate to CANON.md and specialized canonical mechanics/story authorities
 ---
 
 # PRIM3 Game Mechanics — Complete Spine
@@ -14,7 +14,8 @@ Specialized authorities:
 - `TACTICAL-IT-MECHANICS-BIBLE.md` — technical/action grammar;
 - `WILDCARD-INTERVENTION-AUTHORITY.md` — Jordan/PRIM2/Royce escalation;
 - `OMNISCIENT-COMMAND-INTERFACE.md` — fused mission-control UI;
-- `story/ENSEMBLE-POV-AUTHORITY.md` — character/episode ownership.
+- `story/ENSEMBLE-POV-AUTHORITY.md` — character/episode ownership;
+- `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md` — recurring-cast development, death, vacancy, promotion and replacement.
 
 ---
 
@@ -26,10 +27,10 @@ Specialized authorities:
 | 1 | Strategy layer | Choose ops, assign teams, live with consequences |
 | 2 | Tactical layer | XCOM-style mission play |
 | 3 | Progression | Operators, gear, qualifications |
-| 4 | Campaign structure | Seasons, heat, story gates, intervention scarcity |
+| 4 | Campaign structure | Seasons, heat, story gates, intervention scarcity, roster continuity |
 | 5 | Presentation clients | TB / mobile TB / FPS using the same outcome writer |
 
-If a feature does not feed a mission outcome, character consequence, or campaign consequence, it is not core v1.
+If a feature does not feed a mission outcome, character consequence, relationship consequence or campaign consequence, it is not core v1.
 
 ---
 
@@ -53,7 +54,7 @@ BRIEF -> APPROACH -> ON OBJECTIVE -> EXTRACT -> AFTERMATH
 
 ## B3. Mission-state ladder
 
-Every mission also carries the intervention state from `WILDCARD-INTERVENTION-AUTHORITY.md`:
+Every mission carries:
 
 ```text
 STABLE -> DEGRADED -> CRITICAL -> TERMINAL
@@ -82,13 +83,16 @@ Intervention use is recorded separately so a player can earn a strong operationa
 
 | System | Player manages |
 |---|---|
-| Roster | Named ensemble operators by qualifications/phenotypes |
+| Roster | Named recurring ensemble operators by qualification, health and availability |
 | Deployment | Who actually goes on the next operation |
 | Loadouts | Kits attached to roles for that operation |
 | Heat | How loud the institution is in the world |
 | Standing | Institutional trust/authority access |
 | Intel | Known targets, modifiers, warnings, story missions |
 | Recovery | Injured/fatigued operators unavailable |
+| Vacancies | Work/roles left uncovered after death, transfer or departure |
+| Promotion | Existing support people absorbing new responsibility |
+| Onboarding | New arrivals integrating unevenly into the social/operational graph |
 | Wildcard | Scarce Jordan call-up authorizations |
 | Apex | Scarce PRIM2 intervention authorizations |
 | Hitman pressure | Probability/eligibility pressure for hostile escalation including Royce |
@@ -99,11 +103,13 @@ Jordan is **not** a normal selectable roster slot on most missions.
 
 1. Advance time where the campaign structure permits.
 2. Resolve injury recovery, fatigue, Heat and Hitman-pressure changes.
-3. Receive intel / sponsor offers / episode mission.
-4. Train, reassign or prepare kit where allowed.
-5. Select/accept operation.
-6. Assign the ensemble mission team.
-7. Brief -> launch tactical.
+3. Resolve vacancy/workload consequences from prior losses or transfers.
+4. Receive intel / sponsor offers / episode mission.
+5. Train, reassign, promote or prepare kit where allowed.
+6. Resolve onboarding/relationship friction for any new arrival.
+7. Select/accept operation.
+8. Assign the ensemble mission team.
+9. Brief -> launch tactical.
 
 ## C3. Resources
 
@@ -113,6 +119,7 @@ Core ordinary economy:
 - Standing
 - Intel
 - Roster availability
+- Workload / staffing pressure
 
 Special escalation economy:
 - `WildcardAuthorizationsSeason`
@@ -131,6 +138,60 @@ Canonical Standard balance:
 - Royce: **maximum 2 non-scripted incursions per season**, one per mission, then a two-mission cooldown.
 
 Story-scripted appearances do not consume these pools.
+
+## C4. Roster continuity
+
+The roster is not auto-normalized after loss.
+
+When a character dies, leaves, transfers or becomes unavailable, the strategy layer may produce:
+- understaffed deployments;
+- cross-training pressure;
+- delayed mission options;
+- increased fatigue on surviving specialists;
+- a support character receiving temporary responsibility;
+- increased temptation to spend Jordan Wildcard calls;
+- reduced capability in one lane;
+- different briefing/dialogue combinations.
+
+The campaign must be allowed to look **different after a death**.
+
+A vacancy can remain open for multiple operations.
+
+## C5. Replacement / promotion
+
+The game does not spawn `Replacement Technician #4` the moment somebody dies.
+
+A new recurring operator is introduced only through authored/campaign logic.
+
+Possible paths:
+
+```text
+INTERNAL PROMOTION
+existing support character absorbs the role
+
+CROSS-TRAINING
+existing main becomes partially qualified
+
+TRANSFER
+known person from another team/site moves in
+
+NEW HIRE / RECRUIT
+new person arrives with uneven prior relationships
+
+NO REPLACEMENT
+team permanently changes shape
+```
+
+Newcomers do not inherit predecessor relationship values.
+
+Onboarding tracks:
+- preexisting familiarity;
+- reputation;
+- resentment/comparison pressure;
+- trust earned through missions;
+- first real friendship;
+- first conflict;
+- eventual ownership episode if promoted to major status.
 
 ---
 
@@ -189,8 +250,6 @@ Core identity:
 - `RALLY THE ROOM`
 - `FAILOVER INSTINCT`
 
-Full rules live in `WILDCARD-INTERVENTION-AUTHORITY.md`.
-
 ## E4. PRIM2 intervention
 
 PRIM2 can only become a non-scripted second-stage rescue on eligible high-value missions after Jordan is already present and CRITICAL failure persists/reappears.
@@ -213,7 +272,7 @@ He is not a deep technical LAB_NODE substitute.
 
 ---
 
-# F. Operator progression
+# F. Operator progression and loss
 
 ## F1. Ordinary qualification path
 
@@ -225,6 +284,8 @@ Cohort-02 Trainee
 ```
 
 An operator may earn role tags such as `can_T`, `can_E`, `can_R` through training and mission performance.
+
+Support characters can become mechanically important through actual responsibility rather than hidden “main character” flags.
 
 ### Mantle correction
 
@@ -248,16 +309,49 @@ Do not use the obsolete path `Cohort -> Prime-N1`.
 
 Keep perk trees small, readable and character-sensitive. Perks should enhance a person's established strengths rather than turn every operator into the same universal build.
 
-## F4. Injury & fatigue
+## F4. Injury, death and casualty class
 
 | Result | Strategy effect |
 |---|---|
 | Downed but extracted | downtime / relationship residue |
-| Critical injury | extended unavailability |
-| Death | removed unless story canon explicitly fixes another result |
+| Critical injury | extended unavailability / possible role redistribution |
+| Permanent disability | changed capability and life, not automatic removal |
+| Transfer / resignation | vacancy plus relationship consequences |
+| Death | removed; vacancy/workload/grief persists |
 | Repeated deployment | fatigue / Will pressure |
 
+Every recurring character also has an authored casualty state:
+
+```text
+STORY-LOCKED
+survival/death fixed by current WATCH canon for this period/event
+
+PROTECTED-UNTIL
+cannot receive permanent death before a required story function, but can be severely injured/removed temporarily
+
+CAMPAIGN-VARIABLE
+PLAY may create permanent loss if later hard-spine scenes do not require the person
+```
+
+Protection should be invisible in-fiction. Use mission design, Downed states, extraction and intervention opportunities rather than obvious invulnerability.
+
 Jordan or PRIM2 intervention can prevent future loss if they arrive in time. They cannot reverse a completed death.
+
+## F5. Grief as mechanics
+
+Meaningful loss can modify:
+- Will;
+- fatigue;
+- pair bonuses/penalties;
+- command confidence;
+- risk appetite;
+- equipment preference;
+- mission availability;
+- dialogue and relationship state;
+- who volunteers for a dangerous role;
+- who refuses one.
+
+Grief should not become one universal debuff. Character psychology determines direction.
 
 ---
 
@@ -272,6 +366,8 @@ Every mechanical item defines:
 
 Gear supports the person. It does not replace character identity.
 
+Inherited gear may become relationship/story residue after a death, but it does not transfer the dead person's skill automatically.
+
 ---
 
 # H. Campaign structure
@@ -284,14 +380,14 @@ PRIM3 has:
 - **21 canonical episode missions**;
 - **1 song = 1 episode = 1 canonical mission**.
 
-This supersedes the old statement that a season contains 8–15 canonical tactical missions.
-
 Optional **side operations** may exist in the strategy/play layer for roster development, recovery resources, Heat, Standing, Intel and replayability, but they are not additional canonical TV episodes and may not overwrite the fixed 21-episode spine.
 
 ## H2. Failure is data
 
 Poor mission performance changes:
 - injury/death state;
+- vacancies;
+- workload;
 - Heat;
 - Standing;
 - relationships;
@@ -321,7 +417,8 @@ Difficulty may tune:
 - Will pressure;
 - Wildcard pool;
 - Apex pool;
-- Royce incursion cap/pressure.
+- Royce incursion cap/pressure;
+- casualty recovery windows.
 
 Canonical default intervention table:
 
@@ -338,11 +435,11 @@ Canonical default intervention table:
 
 | Client | Must preserve |
 |---|---|
-| XCOM TB | AP/grid/state rules + intervention ladder |
+| XCOM TB | AP/grid/state rules + intervention ladder + persistent roster loss |
 | Mobile TB | same resolver, reduced interface complexity |
 | FPS | same phases/states/consequences expressed in real time |
 
-The Jordan/PRIM2/Royce escalation relationship must remain recognizable across clients even when exact control schemes differ.
+The Jordan/PRIM2/Royce escalation relationship and named-roster continuity must remain recognizable across clients even when exact control schemes differ.
 
 ---
 
@@ -353,6 +450,9 @@ The Jordan/PRIM2/Royce escalation relationship must remain recognizable across c
 - [ ] Mission/episode board
 - [ ] Budget / Heat / Standing / Intel
 - [ ] Injury downtime
+- [ ] Vacancy/workload tracking
+- [ ] Internal promotion / cross-training path
+- [ ] New-arrival onboarding state
 - [ ] Wildcard season pool
 - [ ] Apex campaign pool
 - [ ] Hitman pressure + Royce cooldown
@@ -365,7 +465,7 @@ The Jordan/PRIM2/Royce escalation relationship must remain recognizable across c
 - [ ] Detection
 - [ ] Approach/Window/Extract clocks
 - [ ] STABLE/DEGRADED/CRITICAL/TERMINAL state
-- [ ] Downed/stabilize/death
+- [ ] Downed/stabilize/injury/death
 - [ ] Jordan Wildcard request + delayed arrival
 - [ ] PRIM2 Apex request state
 - [ ] Royce incursion state
@@ -375,6 +475,7 @@ The Jordan/PRIM2/Royce escalation relationship must remain recognizable across c
 - [ ] XP channels
 - [ ] small perk trees
 - [ ] role/cross-training tags
+- [ ] support-to-main mechanical growth
 - [ ] no generic Prime-rank unlock
 
 ### Content
@@ -383,6 +484,8 @@ The Jordan/PRIM2/Royce escalation relationship must remain recognizable across c
 - [ ] one mission that can reach a Wildcard rescue
 - [ ] one controlled Apex-intervention test
 - [ ] one Royce-incursion test
+- [ ] one vacancy/reassignment test
+- [ ] one newcomer onboarding test
 
 ---
 
@@ -393,6 +496,8 @@ The campaign should not train the player to treat named operators as disposable 
 It should create moments where the player looks at a collapsing mission, sees a character they have spent seasons learning, sees only one Wildcard Authorization left, and decides:
 
 > **Fuck the perfect grade. Call Jordan. Get them home.**
+
+If that person still dies, the next mission should feel different because they are gone.
 
 And on the rarest missions, after Jordan is already there and even he cannot stabilize the board:
 
