@@ -1,144 +1,107 @@
 ---
-status: CANON CHAPTER BLUEPRINT
+status: CANON MIGRATED BLUEPRINT
 season: 2
 episode: 1
 global_episode: 4
 level_id: LVL-04
 song: Anti Social Engineering
 mission: The Human Layer
-runtime_target: 9 minutes
+runtime: FLEX-LONGFORM
+version: 3.0.0
 branch: main
 ---
 
 # S2E1 — ANTI SOCIAL ENGINEERING / THE HUMAN LAYER
 
-## Episode ownership
+## Ownership / deployment
 
 ```text
-EPISODE OWNER: Priya Srisawat
-SECONDARY OWNERS: Nusrat Rahman / Rae "Twin" Colton / Sora "Gymnast" Okada
-JORDAN NARRATIVE STATE: D — CAMEO / EDGE
-MISSION LEAD: Nusrat for access response; Priya owns public-event consequence
-BASE PLAYABLE ROSTER: Priya / Nusrat / Miguel / selected event-support specialist
-PRIMARY PLAYABLE POV: public-surface + access-control team
-JORDAN PLAY STATE: OFF-BOARD WILDCARD
-WILDCARD ELIGIBLE: yes if the event becomes CRITICAL
-APEX ELIGIBLE: no under normal state
-PRIM2 STORY VISIBILITY: background institutional gravity only
-ROYCE INCURSION ELIGIBLE: no random Royce incursion in the canonical first pass
+PRIMARY OWNERS: Priya Srisawat / Sora “Gymnast” Okada
+SECONDARY DEPTH: Maren Quill / Nusrat Rahman / Miguel Santos / Kira “Keys” Moon
+MISSION LEAD: Nusrat for access response; Priya for event/public consequence
+BASE PLAYABLE ROSTER: Priya / Nusrat / Miguel / event-support specialist from existing roster
+JORDAN: cameo/edge; off-board Wildcard if CRITICAL
+APEX: unavailable
+ROYCE: no random incursion
 ```
+
+---
+
+# Recurring cast / micro-development ledger
+
+| Character | Function | Development moment |
+|---|---|---|
+| Priya | owner / public surface | Learns that the welcoming cues she is proud of can also manufacture false belonging; begins questioning whether “frictionless” is always good. |
+| Sora | owner / Hitman social-entry mirror | Gains interiority: she succeeds because she understands what powerful rooms want to assume, not because she has magic charisma. |
+| Maren | communications | Protects an embarrassed staff member from becoming the public face of the failure; starts treating communication as operational containment and moral accountability. |
+| Nusrat | access | Moves from rule enforcement to security design: the better answer is not simply “be stricter,” but give people a safer way to verify. |
+| Miguel | access | Shows that correction can preserve dignity; his partnership with Nusrat becomes complementary rather than redundant. |
+| Kira “Keys” Moon | Hitman access mirror | Demonstrates how familiarity, invitations and remembered names become real access capital on the opposing board. |
+| Helen | institutional presence | Refuses a cosmetic-only fix after the event, reinforcing that visible leadership can accept uncomfortable process changes. |
+| Chioma | workplace recurrence | Watches how Priya responds when her own design assumptions are implicated; starts trusting her more because she does not dodge responsibility. |
+| Jordan | cameo | Misreads one social cue and is not useful; a small but important reminder that Wildcard competence is not omniscience. |
 
 ---
 
 # Human problem
 
-Priya helped build the kind of McCluster environment that makes strangers feel welcomed, important and already halfway inside the room.
+At a crowded McCluster public event, someone uses urgency, status cues and partially legitimate information to pressure staff across a boundary.
 
-That is good brand design.
-It is also exploitable social architecture.
-
-At a crowded public event, someone uses urgency, status cues and partially legitimate information to pressure staff across a boundary.
-
-The episode belongs to Priya because the incident attacks something she is proud of:
-
-> **Can you create belonging without making trust automatic?**
-
-Nusrat sees the access problem.
-Priya sees the social system that made the pretext persuasive.
-Miguel tries to keep correction from humiliating innocent staff.
-Rae and Sora can appear on separate social layers of the same event, creating later dual-board meaning without requiring either woman to understand the whole architecture yet.
-
-Jordan may appear briefly as another person moving through the event, but he is not the solution by default.
+Priya fears a harsh response will humiliate staff and destroy the atmosphere she built.
+Nusrat fears concern for optics will leave the boundary open.
+Sora and Keys operate on the Hitman side through different social contexts, giving the audience parallel human-access logic without requiring either to understand PRIM2's larger architecture.
 
 ---
 
 # Technical / human thesis
 
-The song teaches defensive recognition of:
+Teach defensive recognition of:
 - pretexting;
 - urgency/status pressure;
 - phishing/vishing/smishing awareness;
-- shoulder surfing/location leakage;
-- identity verification;
+- trusted-channel verification;
 - tailgating/proximity risk;
-- trusted-channel confirmation;
 - human-centered reporting.
 
-No actionable credential-theft or exploit procedure is simulated.
+Core line:
 
-Core lesson:
-
-> **Trust is a relationship. Access is a decision. Do not confuse the feeling of one with the evidence for the other.**
+> **Trust is a relationship. Access is a decision.**
 
 ---
 
-# WATCH structure
+# WATCH spine
 
-### Human trigger
-A staff member grants a convincing “vendor” temporary access after being pressured by urgency and familiarity.
-
-### Music film / brief
-Public-event glamour is intercut with tiny human trust decisions: names remembered, badges glimpsed, people holding doors, text messages arriving at exactly the wrong moment.
-
-### Human escalation
-Priya initially fears an aggressive security response will destroy the event and shame staff who were trying to help.
-Nusrat fears concern for optics will allow the boundary to remain open.
-
-A second employee receives a matching approach through another channel, proving the first event was not harmless confusion.
-
-### Mission threshold
-The unknown actor is still inside the live event while protected spaces, people and information remain in motion.
-
-### WATCH mission
-Priya and Nusrat jointly redesign the response in real time: verify identities, quietly segment access, protect the staff member from public humiliation, preserve contradictory claims and keep the event functioning.
-
-The technical success is also Priya's character loss: something she built to feel frictionless now needs deliberate friction.
+1. Staff member grants convincing “vendor” temporary access.
+2. Priya initially protects the event experience; Nusrat protects the boundary.
+3. Miguel prevents the response from becoming public humiliation.
+4. A second matching approach proves the first was not harmless confusion.
+5. Maren manages the story internally before it becomes external blame.
+6. Sora/Keys reveal parallel Hitman social logic through their own scenes.
+7. Priya and Nusrat redesign response flow in real time: verify, segment, redirect, preserve claims, keep the event functioning.
+8. Helen backs process change even though it adds visible friction.
 
 ---
 
-# PLAY contract
-
-Player controls the event/access team.
+# PLAY
 
 Primary verbs:
-- observe;
-- converse;
-- compare claims;
-- verify via approved channel;
-- redirect;
-- escort;
-- segment;
-- document;
-- protect staff.
+`observe / converse / compare claims / verify / redirect / escort / segment / document / protect staff`.
 
-Jordan is not selectable from mission start.
-
-If the mission enters an authored CRITICAL state—such as a vulnerable person trapped, a protected zone compromised with time running out, or the team losing all viable routes—the player may spend a Wildcard Authorization to request Jordan.
-
-If called, Jordan's job is to reopen options or help recover people/objectives. **Priya still owns the episode.**
-
----
-
-# Hidden PRIM2 / dual-board layer
-
-PRIM2's presence should be subtle.
-
-The event may contain Rae and Sora moving through different social contexts without understanding how their worlds relate.
-
-PRIM2's later significance is that he can see more of the board than either woman or the local team—not that he personally scripts every conversation.
+Jordan may only be called if the event reaches a true authored CRITICAL state. If he arrives, he reopens options; he does not own Priya's transformation.
 
 ---
 
 # Persistent residue
 
-- Priya becomes more suspicious of the behavioral effects of “frictionless” brand design.
-- Nusrat and Priya learn to treat public experience and security as a joint design problem instead of enemies.
-- affected staff remember whether the institution protected or scapegoated them.
-- Rae/Sora gain future relationship/context hooks.
-- a Jordan Wildcard rescue, if used in PLAY, creates gratitude/resentment without stealing the episode's transformation.
+- Priya/Maren become a recurring public-trust pair.
+- Nusrat/Miguel become a mature access-design pair rather than duplicate guards.
+- Sora/Keys become familiar Hitman people, not disposable adversaries.
+- Helen accumulates evidence as a genuinely responsible visible executive.
+- Chioma sees Priya accept accountability.
+- Jordan gains a tiny social blind-spot write.
 
 ---
 
 # Governing line
 
-> **The Human Layer is not the weak layer. It is the layer where trust becomes real enough to hurt.**
+> **The human layer is where trust becomes real enough to hurt.**
