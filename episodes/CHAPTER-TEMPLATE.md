@@ -1,7 +1,7 @@
 ---
 status: TEMPLATE
 system: PRIM3 episode / playable-level chapter
-version: 2.2.0
+version: 2.3.0
 branch: main
 ---
 
@@ -11,7 +11,7 @@ Use one copy of this structure for every canonical song mission.
 
 A **level** means the playable mission attached to an episode; it does not automatically mean one architectural floor.
 
-This template is subordinate to `CANON.md`, `story/EPISODE-MISSION-BIBLE.md`, `story/ENSEMBLE-POV-AUTHORITY.md`, `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md`, and `game/WILDCARD-INTERVENTION-AUTHORITY.md`.
+This template is subordinate to `CANON.md`, `story/EPISODE-MISSION-BIBLE.md`, `story/ENSEMBLE-POV-AUTHORITY.md`, `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md`, `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md`, and `game/WILDCARD-INTERVENTION-AUTHORITY.md`.
 
 ## Identity
 
@@ -42,7 +42,7 @@ Ordinary PLAY should default to **no Jordan in the selectable base roster**.
 
 ## Cast density / recurring relationship web
 
-Every canonical episode should contain at least **6–7 meaningful named character presences across WATCH + PLAY**, with **7–10 preferred** for most episodes.
+Every canonical episode should normally contain **7–12 meaningful named character presences across WATCH + PLAY**.
 
 **Use the established recurring roster first.**
 
@@ -50,7 +50,7 @@ A presence may be:
 - `OWNER`
 - `ACTIVE`
 - `REMOTE`
-- `WORKPLACE`
+- `AMBIENT/WORKPLACE`
 - `RELATIONSHIP`
 - `OPPOSING`
 - `TRACE`
@@ -58,25 +58,28 @@ A presence may be:
 
 Do not satisfy this requirement with silent bodies in a room.
 
-For each meaningful presence record:
+For each named recurring presence record:
 
 ```text
 CHARACTER:
 MODE:
 WHY THEY ARE REALISTICALLY HERE:
+STARTING STATE:
 WHAT THEY WANT IN THIS EPISODE:
-WHAT THEY DO:
-WHAT CHANGES OR IS REVEALED:
+DEVELOPMENT BEAT:
+ENDING STATE:
 WHAT CARRIES FORWARD:
 ```
+
+**No recurring named appearance may leave `DEVELOPMENT BEAT` blank.**
 
 Default composition target:
 
 ```text
-1–2 primary owners
-3–5 recurring coworkers / command / technical / support people from the immediate roster
+1–2 primary owners — deep development
+4–8 recurring coworkers / command / technical / support people — micro/mid development
 0–2 recurring Hitman-side parallels when relevant
-0–1 established outside/historical relationship when specifically earned
+0–2 established outside/historical relationships when specifically earned
 ```
 
 Do **not** invent a guest simply to reach the count. First ask:
@@ -86,13 +89,61 @@ Do **not** invent a guest simply to reach the count. First ask:
 Every Episode 02–18 should normally overlap with:
 - at least one person carrying residue from the previous episode;
 - at least one person whose larger payoff occurs later;
-- at least one non-owner recurring main receiving a mini-development write;
+- several non-owner recurring people receiving micro-development writes;
 - at least one continuing relationship thread from earlier episodes;
-- a Hitman/institutional/PRIM2 pressure only where it naturally belongs.
+- Hitman/institutional/PRIM2 pressure only where it naturally belongs.
 
 Historical/outside characters are optional, not mandatory. Use Hana, Ren, Tariq, Zayd, Bigga Lex, or other separately promoted people only when their established relationship actually affects the episode.
 
-Use `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md` as the current episode-by-episode population plan.
+Use `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md` for population logic and `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md` for continuous development, death, vacancy and replacement rules.
+
+## Whole-roster continuity ledger
+
+Every episode must account for every current recurring slot, including people who do not appear.
+
+For each current recurring character/system record:
+
+```text
+CHARACTER:
+EPISODE STATE: A / B / C / D
+A = ACTIVE DEVELOPMENT
+B = AMBIENT CONTINUITY
+C = OFFSCREEN CONSEQUENCE
+D = UNAFFECTED / OUT OF FRAME
+CURRENT ASSIGNMENT:
+HEALTH / AVAILABILITY:
+RELATIONSHIP CHANGE:
+WORKLOAD / STATUS CHANGE:
+NEXT EXPECTED TOUCH:
+```
+
+Do not force all recurring characters on camera. Do not accidentally forget major people exist for half a season either.
+
+## Cast lifecycle / attrition contract
+
+- **Who is promoted in responsibility or narrative importance:**
+- **Who is drifting outward / transferred / sidelined:**
+- **Injury or permanent-loss eligibility:**
+- **Story-locked / Campaign-variable / Protected-until casualty states:**
+- **If somebody dies/leaves, what work becomes uncovered:**
+- **Who absorbs that work immediately:**
+- **What routine/relationship disappears:**
+- **Whether the vacancy remains open:**
+- **Whether any support character begins organically filling it:**
+- **Whether a newcomer is needed later:**
+
+Do not assume every death receives a one-for-one replacement.
+
+If a replacement is introduced, record:
+
+```text
+WHO ALREADY KNOWS THEM:
+WHO DOES NOT:
+WHO RESENTS THE COMPARISON TO THE PREDECESSOR:
+WHAT THEY DO BETTER:
+WHAT THEY DO WORSE:
+WHAT SOCIAL FRICTION ARRIVES WITH THEM:
+```
 
 ## Merge contract
 
@@ -193,14 +244,17 @@ Learning Mastery is separate from operational grade.
 Record:
 - relationship changes;
 - injury/fatigue;
+- deaths / transfers / vacancies;
 - evidence/provenance;
 - exposure/Heat;
 - resources;
 - authority state;
+- staffing/workload redistribution;
 - Wildcard/Apex usage;
 - PRIM Debt / Executive Attention where relevant;
 - Hitman Pressure / Royce cooldown where relevant;
 - psychological residue;
+- support-to-main promotion movement;
 - next-character inheritance.
 
 ## PRIM2 background trace
@@ -237,6 +291,8 @@ Coordinate with `story/PRIME-LURK-LEDGER.md` where current.
 
 ## Character psychology gate
 
+For owners and any support character receiving more than a micro-beat:
+
 - **Historical anchor activated:**
 - **Belief / rule activated:**
 - **Likely first move:**
@@ -263,12 +319,15 @@ List required location geometry, characters, props, UI, animation, VFX, music, S
 
 A chapter graduates from blueprint to current episode draft only when its:
 - human owner;
-- **6–7+ meaningful-character density requirement**;
+- **7–12 meaningful-character development density target** or justified exception;
+- **development beat for every recurring named appearance**;
 - recurring-roster overlap;
+- whole-roster A/B/C/D continuity ledger;
 - prior-episode residue carry;
 - future-payoff setup;
 - base playable roster;
 - intervention state;
+- attrition/vacancy implications;
 - mission loop;
 - technical gate;
 - psychology writes;
