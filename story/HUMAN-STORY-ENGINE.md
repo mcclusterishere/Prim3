@@ -1,7 +1,7 @@
 ---
 status: CANON
 system: Human story engine
-version: 1.0.0
+version: 1.1.0
 branch: main
 ---
 
@@ -15,6 +15,8 @@ See also:
 - `CHARACTER-PSYCHOLOGY-DECISION-AUTHORITY.md`
 - `ENSEMBLE-POV-AUTHORITY.md`
 - `CHARACTER-RELATIONSHIP-STATE.md`
+- `EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md`
+- `CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md`
 
 ## Core character rule
 
@@ -27,7 +29,7 @@ Every recurring character must have:
 5. a relationship they cannot treat rationally;
 6. a line they believe they will never cross;
 7. a future moment that tests that line;
-8. an outside connection not dependent on Jordan or PRIM;
+8. an outside connection not dependent on Jordan or PRIM where appropriate;
 9. ordinary behavior that proves they exist between missions;
 10. a believable episode-scale decision that could matter even if Jordan were absent.
 
@@ -44,6 +46,31 @@ LIVED EVENT
 -> RELATIONSHIP / SELF-CONCEPT RESIDUE
 -> UPDATED PRIOR
 ```
+
+## Continuous ensemble-development rule
+
+Episode ownership determines **depth**, not exclusivity.
+
+Every recurring character who appears in an episode must receive at least one meaningful development beat.
+
+That beat can be tiny:
+- a joke lands differently;
+- a friendship gets easier;
+- somebody stops trusting a procedure;
+- somebody quietly covers another shift;
+- a habit appears after injury;
+- a person is now willing to challenge somebody they used to defer to;
+- a flirtation advances by one sentence;
+- somebody avoids a room because a dead coworker used to sit there;
+- a support character starts becoming the person everyone calls.
+
+Canonical shorthand:
+
+> **If you appear, you move.**
+
+The episode owner receives the deepest write. Everyone else who appears still leaves with something newly true about them.
+
+Do not force the entire roster on camera every episode. Maintain a whole-roster continuity state so offscreen people also remain part of the institution.
 
 ## Ensemble relationship rule
 
@@ -78,6 +105,89 @@ Across Episodes 02–18, default toward other-character ownership often enough t
 
 > **The succession belongs to Jordan. The world belongs to everybody.**
 
+## Recurring workplace rule
+
+McCluster/PRIM should feel inhabited before it feels plotted.
+
+Characters should routinely recur through:
+- access desks;
+- elevators;
+- cafeteria tables;
+- labs;
+- classrooms;
+- briefing rooms;
+- transport;
+- recovery spaces;
+- equipment checkout;
+- public-relations staging;
+- shift coverage;
+- after-hours work;
+- campus/company overlap.
+
+These low-intensity scenes are not filler when they accumulate character state.
+
+A repeated five-second ritual can become one of the saddest things in the series after one participant dies.
+
+## Support-to-main rule
+
+Support status is not permanent.
+
+A recurring support character may become a main when repeated appearances create:
+- competence the audience relies on;
+- relationships with several mains;
+- their own problem independent of somebody else's arc;
+- growing responsibility;
+- audience attachment;
+- or a vacancy they gradually begin filling.
+
+Do not announce the promotion.
+
+The desired audience reaction is:
+
+> **When did this person become one of my favorites?**
+
+Likewise, a former main may drift outward, transfer, lose clearance, burn out, become injured, turn antagonistic, leave or die.
+
+## Death / loss rule
+
+Named character death is allowed and should sometimes be devastating.
+
+Do not keep a character alive merely because they became lovable.
+
+But death must cost the **world**, not only the audience.
+
+After a meaningful death, show consequences such as:
+- uncovered work;
+- changed mission composition;
+- somebody receiving a promotion they do not want;
+- changed jokes and routines;
+- an empty desk/seat/locker;
+- inherited tools;
+- secrets that die with the person or pass awkwardly to someone else;
+- people blaming different causes;
+- somebody becoming more reckless;
+- somebody becoming more cautious;
+- public language that angers the people who knew the dead person.
+
+> **If you die, the building changes.**
+
+Do not treat the funeral/debrief as the end of grief.
+
+## Replacement rule
+
+A dead or departed character does not automatically receive a one-for-one replacement.
+
+The vacancy can remain part of the story.
+
+If a replacement eventually arrives:
+- they do not inherit the predecessor's personality;
+- they do not inherit identical relationships;
+- they should know some people already and be strangers to others;
+- survivors may unfairly compare them to the predecessor;
+- the newcomer should eventually receive a story that belongs to them, not to the dead person.
+
+> **A replacement inherits the vacancy, not the person.**
+
 ## Dialogue rule
 
 Characters do not speak primarily to explain curriculum.
@@ -92,6 +202,8 @@ They speak because they:
 - are angry;
 - are stalling;
 - are testing trust;
+- are grieving;
+- are covering for somebody;
 - or are trying to change another person's decision.
 
 Technical language belongs in dialogue when it changes leverage, danger, confidence, evidence or the plan.
@@ -157,11 +269,14 @@ Before keeping a scene, answer:
 - What changes by the end?
 - What relationship fact is shown rather than stated?
 - What future consequence survives?
+- Which support/ambient character also changes because they are here?
 - Could the scene still exist if Jordan were not the center of the universe?
 
 If the answer is only `the audience learns a technical concept`, rewrite it.
 
 If the answer is only `this teaches us something about Jordan`, ask whether the other character has been reduced to a device.
+
+If a recurring named character appears and nothing about them changes/reveals, either give them a beat or remove them from the scene.
 
 ## Major-character dossier standard
 
@@ -195,3 +310,14 @@ Character behavior is cumulative.
 No emotional reset between episodes.
 
 Every consequential interaction must be capable of leaving residue in later scenes, including episodes where the character is not physically present.
+
+Every recurring slot should also maintain one of these episode states:
+
+```text
+A — active development
+B — ambient continuity
+C — offscreen consequence
+D — unaffected / out of frame
+```
+
+This keeps the cast alive without forcing all of them on camera every week.
