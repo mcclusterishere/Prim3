@@ -1,7 +1,7 @@
 ---
 status: CANON-AUTHORING-AUTHORITY
 system: character psychology / behavior / decision-tree continuity
-version: 1.0.0
+version: 1.1.0
 branch: main
 ---
 
@@ -264,6 +264,7 @@ Before locking a consequential scene, answer:
 8. What happens if nobody interrupts the reflex?
 9. What choice is made?
 10. What residue survives into the next episode?
+11. Which non-owner recurring character also moves because they are present?
 
 If the scene could be given unchanged to another character, it is probably not psychologically specific enough.
 
@@ -298,7 +299,40 @@ Branching outcomes may change relationships and operational details without viol
 
 ---
 
-# 9. Psychological continuity ledger
+# 9. Micro-development authority
+
+Not every development beat deserves a full decision tree.
+
+But every recurring character who appears must receive a persistent write.
+
+For micro-development, use this compact form:
+
+```text
+STARTING STATE:
+TRIGGER / INTERACTION:
+SMALL SHIFT:
+VISIBLE BEHAVIOR:
+CARRY-FORWARD:
+```
+
+Valid small shifts include:
+- one level of trust changing;
+- beginning/stopping a habit;
+- choosing who to sit/ride/work with;
+- changing who they ask for help;
+- becoming more/less willing to challenge authority;
+- adopting another person's phrase/tool/routine;
+- holding back a joke they would once have made;
+- accepting a task they used to avoid;
+- refusing a task they used to accept.
+
+Micro-development should compound into major behavior later.
+
+> **Small beats are not filler if they change the future prior.**
+
+---
+
+# 10. Psychological continuity ledger
 
 After every major episode, update at least the following when changed:
 
@@ -319,18 +353,74 @@ BELIEVED SECRETS:
 ACTIVE THREATS:
 NEWLY LEARNED RULE:
 OLD RULE CHALLENGED:
+WORKLOAD / RESPONSIBILITY:
+HEALTH / AVAILABILITY:
+ROSTER STATUS:
 ```
 
 Relationships do not reset because a new episode begins.
 
 ---
 
-# 10. Jordan Vale as the reference implementation
+# 11. Death, grief and replacement psychology
+
+When a recurring character dies or permanently leaves, do not write one generic “everyone is sad” reaction.
+
+Each affected character processes the loss through existing psychology.
+
+Record individually:
+
+```text
+WHAT THIS PERSON THINKS CAUSED THE LOSS:
+WHAT THEY BLAME THEMSELVES FOR:
+WHAT THEY BLAME SOMEONE ELSE FOR:
+WHAT HABIT OR ROUTINE IS NOW BROKEN:
+WHAT TASK THEY INHERIT:
+WHAT OBJECT / PHRASE / SECRET THEY INHERIT:
+WHETHER THEY BECOME MORE CAUTIOUS OR RECKLESS:
+HOW THEY TREAT THE EVENTUAL REPLACEMENT:
+WHAT OLD REFLEX THE LOSS REACTIVATES:
+```
+
+A replacement is psychologically interesting because surviving characters are not neutral toward the vacancy.
+
+Some will overprotect the newcomer.
+Some will resent them.
+Some will compare them unfairly.
+Some will avoid attachment because they do not want another loss.
+Some will become attached too quickly because the vacancy hurts.
+
+See `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md`.
+
+---
+
+# 12. Whole-roster state
+
+Every current recurring character receives an episode status:
+
+```text
+A — ACTIVE DEVELOPMENT
+B — AMBIENT CONTINUITY
+C — OFFSCREEN CONSEQUENCE
+D — UNAFFECTED / OUT OF FRAME
+```
+
+This is not a demand to put all characters on screen.
+
+It is a defense against accidental disappearance and emotional reset.
+
+A major character remaining `D` for multiple episodes requires a reason: assignment elsewhere, injury, leave, secrecy, travel, conflict, transfer, or deliberate pacing.
+
+---
+
+# 13. Jordan Vale as the reference implementation
 
 `story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md` is the first full implementation of this authority.
 
-When building Aya, Chioma, Royce, Bigga Lex, Presiding Prime and the rest of the recurring cast, aim for comparable causal depth rather than copying Jordan's personality.
+Aya is now another reference-quality implementation through `story/AYA-SHINODA-PSYCHOLOGICAL-BACKGROUND.md` and related files.
 
-Jordan's dossier demonstrates the desired principle:
+When building Chioma, Royce, PRIM2 and the rest of the recurring cast, aim for comparable causal depth rather than copying Jordan or Aya's personalities.
 
-> **A decision becomes interesting when the audience can later discover that the character had twenty years of reasons for making it.**
+The governing principle is:
+
+> **A decision becomes interesting when the audience can later discover that the character had years of reasons for making it.**
