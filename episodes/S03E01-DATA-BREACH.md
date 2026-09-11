@@ -1,129 +1,114 @@
 ---
-status: CANON CHAPTER BLUEPRINT
+status: CANON MIGRATED BLUEPRINT
 season: 3
 episode: 1
 global_episode: 7
 level_id: LVL-07
 song: Data Breach
 mission: Exposure
-runtime_target: 9 minutes
+runtime: FLEX-LONGFORM
+version: 3.0.0
 branch: main
 ---
 
 # S3E1 — DATA BREACH / EXPOSURE
 
-## Episode ownership
+## Ownership / deployment
 
 ```text
-EPISODE OWNER: Grace Mbala
-SECONDARY OWNERS: Leila Hosseini / Oksana Bondarenko / Jordan Vale
-JORDAN NARRATIVE STATE: C — SUPPORTING
-MISSION LEAD: Grace for human-impact coordination; Leila for trust/governance analysis
-BASE PLAYABLE ROSTER: Grace / Leila / Oksana / Hassan
-PRIMARY PLAYABLE POV: incident-response / impact team
-JORDAN PLAY STATE: OFF-BOARD WILDCARD
-WILDCARD ELIGIBLE: yes if containment/extraction becomes CRITICAL
-APEX ELIGIBLE: no in canonical WATCH state
-PRIM2 STORY VISIBILITY: hidden pre-recruitment metadata / authority footprint
-ROYCE INCURSION ELIGIBLE: no
+PRIMARY OWNERS: Leila Hosseini / Li Wei
+SECONDARY DEPTH: Grace Mbala / Helen Clarke / Amira Hassan / Chioma Okeke / Sable Quinn / Rae “Twin” Colton
+BASE PLAYABLE ROSTER: Leila / Li / Grace / authorized technical support
+JORDAN: mentioned or absent by default; off-board Wildcard if CRITICAL
+APEX: unavailable
+ROYCE: eligible only under authored/campaign pressure
 ```
+
+This supersedes the older Grace-owned/Jordan-file-centered version. Jordan's record anomaly may remain a secondary mystery beat, but the episode is fundamentally about governance, identity and human consequence.
+
+---
+
+# Recurring cast / micro-development ledger
+
+| Character | Function | Development moment |
+|---|---|---|
+| Leila | owner / analysis | Refuses to let identity-risk classification become identity guilt; her distrust of opaque governance becomes personal rather than academic. |
+| Li | owner / executive process | Writes a legally clean response that is emotionally dishonest, recognizes what he did, and begins treating governance language itself as a threat surface. |
+| Grace | human consequence | Keeps names and lived harms visible while everyone else wants clean scope tables. |
+| Helen | visible governance | Learns that responsible leadership can still operate inside a system whose retention architecture she does not fully control. |
+| Amira | sponsor/risk | Challenges whether the institution had the right to collect some of the exposed data at all, not merely whether it protected it well. |
+| Chioma | command recurrence | Has to translate breach restrictions into operational staffing, experiencing how policy becomes somebody else's workload. |
+| Sable | Hitman operations mirror | Shows how compromised information becomes staffing, obligation and money pressure on the other board. |
+| Rae | Hitman trust mirror | Distinguishes genuine familiarity from manufactured trust; her people-reading skill gains a less glamorous emotional cost. |
+| Jordan | optional secondary subject | A pre-recruitment/provenance anomaly may appear in scope, but he does not seize the incident because the file concerns him. |
 
 ---
 
 # Human problem
 
-A compromise of McCluster personnel/training systems exposes intimate records about people who are standing in the same room watching themselves become incident categories.
+A compromise exposes intimate personnel/training information while affected people are physically present in the workplace watching themselves become categories.
 
-Grace refuses to let “records affected” replace the names of the people affected.
-
-Leila focuses on who was authorized to collect, retain and see the data in the first place.
-Oksana protects uncertainty in the incident timeline.
-Hassan protects the physical/evidence boundary.
-
-Jordan's pre-recruitment file appears inside scope.
-
-That is a major Jordan mystery beat, but the episode belongs to Grace because she decides whether incident response protects **people** or merely protects the institution from the consequences of exposing them.
+Leila asks who was authorized to see what.
+Li asks what can legally be said.
+Grace asks who is being hurt right now.
+Amira asks why the organization collected the data in the first place.
+Helen discovers that visible governance does not equal total governance.
 
 ---
 
 # Technical thesis
 
-The mission teaches defensive breach response:
-- indicators;
-- abnormal access/transfer;
-- MFA and identity controls;
-- third-party/supply-chain risk;
+Teach defensive breach response:
+- abnormal identity/access events;
 - containment;
 - evidence preservation;
-- impact classification;
-- notification;
+- scope/impact classification;
 - need-to-know handling;
+- third-party/supply-chain context;
+- notification;
 - recovery validation.
 
-Core lesson:
+Core line:
 
 > **The data subject is a person before they are a row in your scope table.**
 
 ---
 
-# WATCH
+# WATCH spine
 
-The music film renders one human identity fragmented across badges, notes, training scores, messages and surveillance stills.
-
-During escalation, Grace fights pressure to distribute sensitive incident data too broadly “for efficiency.” Leila discovers that some retention decisions predate the current team.
-
-Mission threshold: credible evidence shows the exposure may still be active.
-
-The playable response contains affected services while preserving enough evidence to understand scope.
-
-Jordan is brought into the human story when his own file appears with dates preceding his formal recruitment.
-
-His reaction matters, but he does not seize command of the incident merely because the file is his.
+1. Breach becomes visible to the people whose records are inside it.
+2. Leila limits internal spread of the very data responders want for efficiency.
+3. Li drafts clean institutional language and realizes it conceals how uncertain the institution actually is.
+4. Grace documents concrete human harm.
+5. Amira challenges collection/retention legitimacy.
+6. Helen discovers one retention/provenance path sits above her expected visibility.
+7. Chioma manages operational consequences of restricting access.
+8. Sable/Rae show parallel opposing-board pressure without turning Hitman into a second IT department.
+9. Optional Jordan record anomaly deepens the long mystery without recentralizing the episode.
 
 ---
 
 # PLAY
 
-Player verbs:
-- inspect;
-- classify;
-- scope;
-- isolate;
-- preserve;
-- restrict access;
-- prioritize notification;
-- correlate;
-- restore;
-- verify.
+Primary verbs:
+`inspect / scope / classify / isolate / preserve / restrict / notify / correlate / restore / verify`.
 
-Jordan remains off-board unless the mission reaches an eligible CRITICAL state.
-
-If the player calls the Wildcard, Jordan can help recover an alternate service/evidence path or protect people under pressure. He cannot automatically access his own restricted file simply because it concerns him.
-
-That reinforces authorization as a world rule rather than a protagonist exemption.
+Jordan can be requested only in an eligible CRITICAL state to recover options or people. He cannot access his own restricted file by protagonist privilege.
 
 ---
 
-# PRIM2 trace
+# Persistent residue
 
-Jordan's old record contains a subtle authority/provenance anomaly tied to the hidden higher layer.
-
-The episode should not label it `Prime-00` or fully explain PRIM2.
-
-Later, the audience understands that PRIM2's system held enough pre-recruitment context to connect Jordan to an older identity history.
-
----
-
-# Residue
-
-- Grace becomes a major human-consequence voice.
-- Leila's distrust of opaque identity governance deepens.
-- Jordan's institutional trust takes a direct hit.
-- Oksana's evidence discipline prevents the team from turning one suspicious artifact into a complete conspiracy theory.
-- any Wildcard use creates the uncomfortable image of the exposed subject becoming the emergency responder to his own breach.
+- Leila/Li become each other's most useful institutional critic.
+- Grace gains credibility as the person who will not let impact disappear into metrics.
+- Helen's trust in the visible governance stack weakens slightly.
+- Amira's suspicion of risk arithmetic deepens toward Episode 14.
+- Chioma experiences policy as operational burden.
+- Sable/Rae become familiar recurring Hitman-side people.
+- Any Jordan provenance anomaly becomes a breadcrumb, not the episode's owner.
 
 ---
 
 # Governing line
 
-> **Jordan discovers the file. Grace decides whether everybody inside the file still gets to be treated like a person.**
+> **A breach exposes more than data; it exposes who the institution believes has the right to know.**
