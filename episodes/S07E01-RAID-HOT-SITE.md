@@ -6,8 +6,9 @@ global_episode: 19
 level_id: LVL-19
 song: RAID (HOT SITE)
 mission: Hot Site
-runtime_target: 9 minutes
+runtime: FLEX-LONGFORM-CAPSTONE
 playable_scope: Multi-floor Site 0 capstone
+version: 3.1.0
 branch: main
 ---
 
@@ -15,7 +16,7 @@ branch: main
 
 ## Canon contract
 
-This is a **scripted endgame mission**, not an ordinary Wildcard-rescue operation.
+This is a **scripted longform endgame mission**, not an ordinary Wildcard-rescue operation.
 
 - Jordan Vale enters Site 0 with a PRIM-side assault element.
 - Royce enters Site 0 with a separate Hitman-side assault element.
@@ -24,7 +25,7 @@ This is a **scripted endgame mission**, not an ordinary Wildcard-rescue operatio
 - Jordan becomes the sole surviving PRIM-side attacker.
 - Royce becomes the sole surviving Hitman-side attacker.
 - Jordan and Royce already have unresolved history from Jordan's Benji/Hitman life.
-- Their first convergence inside Site 0 nearly becomes a lethal continuation of that rivalry.
+- Their convergence inside Site 0 nearly becomes a lethal continuation of that rivalry.
 - They recognize PRIM2 as the common target and form a temporary alliance.
 - **Jordan and Royce defeat PRIM2 together.**
 - PRIM2's body is critically damaged but remains biologically/systemically valid long enough for succession.
@@ -36,21 +37,42 @@ The normal Standard Wildcard/Apex/Royce-incursion resource caps do not constrain
 
 ---
 
+# Living-cast endgame law
+
+The assault elements **must be composed of established recurring characters**, not finale-only redshirts.
+
+Exact membership remains deliberately open until Episodes 02–18 receive enough scene-level development to make each decision to join RAID psychologically and operationally credible.
+
+Before final script lock, every selected attacker must have:
+- a reason to go;
+- a relationship to somebody else on the team;
+- unfinished ordinary life outside the mission;
+- a practical function the organization will lose when they die;
+- at least one surviving person who will carry the absence.
+
+The audience should recognize equipment, habits, jokes, arguments and relationships as the assault teams assemble.
+
+> **The deaths hurt because these are coworkers and friends the audience has lived with, not because the score says “casualty.”**
+
+The fact that every other attacker dies is locked. **Who those attackers are is earned later.**
+
+---
+
 # Episode ownership
 
 ```text
 EPISODE OWNER: Jordan Vale / Royce / PRIM2 — shared endgame triangle
-SECONDARY OWNERS: surviving memories of both assault teams
+SECONDARY OWNERS: the established assault-team characters through choices, loss, sacrifice and aftermath
 JORDAN PRESENCE: B — SHARED
 MISSION LEAD: split command until convergence
-BASE PLAYABLE ROSTER: PRIM-side assault element + Hitman-side assault element by phase
+BASE PLAYABLE ROSTER: established PRIM assault element + established Hitman assault element by phase
 JORDAN PLAY STATE: SCRIPTED
-WILDCARD ELIGIBLE: no — Jordan is already a required scripted attacker
+WILDCARD ELIGIBLE: no
 APEX ELIGIBLE: no — PRIM2 is the hostile presiding Mantle holder
-ROYCE INCURSION ELIGIBLE: no random incursion — Royce is a scripted second assault axis
+ROYCE INCURSION ELIGIBLE: no random incursion — Royce is scripted principal
 ```
 
-This episode belongs to all three men because it is the point where their separate authority histories finally occupy the same room.
+The succession triangle owns deepest endgame transformation. It does **not** erase the people dying around it.
 
 ---
 
@@ -70,94 +92,89 @@ Technical metaphor and story are the same thing:
 
 - **Technical:** RAID 0/1/5/6/10, striping, mirroring, parity, redundancy, recoverability, hot/warm/cold sites, restoration cost, failover, continuity.
 - **Human:** contingency as obsession; old rivals forced into temporary cooperation; teams as people rather than replaceable array members; the cost of building a life around always having another path.
-- **Visual:** the PRIM and Hitman assaults move like mirrored/striped arrays across different Site 0 layers; lost teammates create visible missing-member gaps; High Alert imagery finally gains chronological context.
+- **Visual:** PRIM and Hitman assaults move like mirrored/striped arrays; lost teammates create visible missing-member gaps; High Alert imagery finally gains chronological context.
 - **Safety:** facility attack/defense mechanics remain fictional abstractions and do not model actionable attacks on real facilities.
 
 ---
 
-# WATCH structure
+# Longform WATCH structure
 
-## Human trigger / pre-RAID threshold
+## Before entry — people, not pawns
 
-The final choices before entry make clear that nobody is walking into Site 0 for the same reason.
+The episode spends real time with both teams before the breach.
 
-Jordan is trying to reach the authority structure he now believes cannot remain unchallenged.
-Royce is pursuing the apex from the Hitman side with his own hunger, debts and history.
-PRIM2 knows both assault elements are approaching and cannot surrender once the challenge reaches the succession threshold.
+Required functions:
+- show people making different decisions to participate;
+- let unresolved relationships breathe;
+- surface prior injuries, vacancies, promotions and accumulated fatigue;
+- show one or more mundane rituals that will become painful after the deaths;
+- make clear that not everyone agrees with Jordan or Royce even while going with them.
 
-The dead and absent ensemble remain emotionally present through messages, equipment, unresolved arguments and reasons each attacker came.
+Nobody should feel like they were invented to die ten minutes later.
 
 ## High Alert convergence
 
 The S1E1 future sequence now occurs in full chronology.
 
-PRIM2 performs `High Alert` from inside the active defense state. The seventeen memory anchors are no longer mysterious flashes: the audience now understands the people, relationships and consequences behind them.
-
-The song is directed at the two men who reached the final board from opposite systems.
+PRIM2 performs `High Alert` from inside the active defense state. The seventeen memory anchors are no longer mysterious flashes: the audience understands the people, relationships and consequences behind them.
 
 ## WATCH mission
 
-WATCH compresses:
+The authored spine remains:
 1. separate PRIM and Hitman penetrations;
 2. cascading loss of both teams;
-3. Jordan and Royce becoming the sole survivors;
-4. their first direct confrontation inside Site 0;
-5. the near-fight driven by old Benji/Royce history;
+3. Jordan and Royce becoming sole survivors;
+4. Jordan/Royce convergence;
+5. their near-fight driven by old history;
 6. recognition that continuing to fight one another protects PRIM2;
 7. temporary alliance;
 8. joint defeat of PRIM2;
 9. PRIM2 returned to suspension/life-support state;
-10. immediate transition into the unresolved authority question of `Evil Twin`.
+10. unresolved authority question transitions into `Evil Twin`.
+
+The longer episode must **name and emotionally register the losses as they happen** without turning every death into identical slow-motion tragedy.
+
+Different deaths should reveal different people:
+- somebody follows an order they once would have challenged;
+- somebody protects a person they used to resent;
+- somebody dies doing the boring job they have done correctly for years;
+- somebody's absence becomes obvious before anybody has time to grieve.
+
+Exact death order remains open until final RAID roster lock.
 
 ---
 
 # PLAY capstone contract
 
-PLAY is longer, checkpointed and multi-perspective.
+PLAY is long, checkpointed and multi-perspective.
 
 ## Phase A — two boards
 
-The player alternates between:
+Player alternates between:
 - Jordan's PRIM assault element;
 - Royce's Hitman assault element.
 
-The two sides do not share complete information. What one side verifies may remain unknown to the other until systems, geography or evidence converge.
-
-The player should feel the dramatic irony of seeing both boards while the characters do not.
+The two sides do not share complete information.
 
 ## Phase B — attrition / continuity choices
 
-The player must distinguish between failovers that:
-- preserve life safety;
-- preserve recoverable evidence;
-- preserve mission access;
-- preserve PRIM2's hostile control.
+Player distinguishes failovers that preserve:
+- life safety;
+- recoverable evidence;
+- mission access;
+- PRIM2's hostile control.
 
-Perfect tactical execution may change injuries, resources, exposure, evidence, subsystem health and the exact circumstances of loss, but the authored main-story branch preserves the locked survivor state.
+Perfect execution may change exact injuries, resources, exposure, evidence, subsystem health and circumstances of loss, but the authored main-story branch preserves the locked sole-survivor state.
 
-A clearly labeled non-canon challenge mode may later allow alternate survival experiments without rewriting WATCH canon.
+A clearly labeled non-canon challenge mode may later experiment with alternate survival outcomes.
 
 ## Phase C — convergence
 
-Jordan and Royce meet as the sole survivors.
-
-This is not a stranger encounter. Their old relationship is emotionally loaded even if PRIM3 has only hinted at the full history.
-
-The player gets a short conflict-state sequence where their rivalry mechanically threatens the objective before the shared target becomes undeniable.
+Jordan and Royce meet as sole survivors. Their rivalry mechanically threatens the objective before shared target becomes undeniable.
 
 ## Phase D — joint PRIM2 fight
 
-PRIM2 is not just a high-HP boss.
-
-He fights through:
-- superior information;
-- control of authored Site 0 systems;
-- command authority;
-- environmental continuity;
-- physical combat competence;
-- asymmetric knowledge of both men.
-
-Jordan and Royce must combine unlike strengths.
+PRIM2 is not a high-HP boss. He fights through information, authored systems, command authority, environmental continuity, physical competence and asymmetric knowledge.
 
 ```text
 JORDAN -> finds viable alternate paths across systems
@@ -165,9 +182,7 @@ ROYCE  -> seizes/contests physical tempo and hostile control
 PRIM2  -> predicts, authorizes and redirects the board
 ```
 
-The battle ends only when Jordan and Royce remove PRIM2's **physical ability to continue resisting**, not when they have already resolved succession.
-
-That distinction creates `Evil Twin`.
+The battle ends when Jordan and Royce remove PRIM2's **physical ability to continue resisting**, not when succession is resolved.
 
 ---
 
@@ -175,13 +190,13 @@ That distinction creates `Evil Twin`.
 
 | Site 0 phase | Dramatic/game job |
 |---|---|
-| Exterior / L1 | Separate approach, first false failover, two-board language |
-| L2–L4 | Air/command systems, High Alert convergence, assault elements begin taking irreversible losses |
-| B1 | Evidence versus speed; history starts contradicting each side's assumptions |
-| B2 | Fabrication/defense continuity must be contained rather than blindly destroyed |
-| B3 | Jordan/Royce routes begin converging; old history becomes operationally dangerous |
+| Exterior / L1 | Separate approach, established-team relationships under pressure |
+| L2–L4 | High Alert convergence; irreversible losses begin |
+| B1 | Evidence versus speed; earlier assumptions break |
+| B2 | Defense/fabrication continuity must be contained rather than blindly destroyed |
+| B3 | Routes converge; old Jordan/Royce history becomes operationally dangerous |
 | B4–B5 | Global coordination/life-safety dependencies make destruction unacceptable |
-| Suspension core | Sole-survivor convergence, joint defeat of PRIM2, unresolved living-root authority |
+| Suspension core | sole-survivor convergence, joint defeat of PRIM2, unresolved living-root authority |
 
 Exact geometry is implementation detail. Story functions are canonical.
 
@@ -193,11 +208,9 @@ Exact geometry is implementation detail. Story functions are canonical.
 |---|---|---|
 | Objective | PRIM2 physically defeated with succession-critical state intact | PRIM2 defeated amid severe subsystem degradation |
 | Team | Locked survivors reach convergence with usable capability | Jordan/Royce arrive critically depleted |
-| Exposure | External effects contained; evidence survives | cascading systems create outside consequences |
-| Integrity | life safety and root evidence preserved | destructive shortcuts complicate the transition |
+| Exposure | external effects contained; evidence survives | cascading systems create outside consequences |
+| Integrity | life safety and root evidence preserved | destructive shortcuts complicate transition |
 | Time | hostile failovers identified selectively | PRIM2 repeatedly recovers through missed dependencies |
-
-The main-story ending remains Jordan + Royce alive, PRIM2 defeated but living.
 
 ---
 
@@ -207,14 +220,18 @@ Writes:
 - Jordan injury/resource state;
 - Royce injury/resource state;
 - Jordan↔Royce temporary trust/rivalry state;
+- exact named dead from both assault teams;
+- grief/blame states of every surviving remote character;
+- newly created vacancies and uncovered work;
+- equipment/secrets/data inherited from the dead;
 - surviving evidence;
 - Site 0 subsystem health;
 - life-support state;
 - external exposure;
 - actuator/control state;
-- exactly what remains available during `Evil Twin` and `Ghost In The Wires`.
+- what remains available during `Evil Twin` and `Ghost In The Wires`.
 
-The dead are cumulative story weight, not a score decoration.
+The dead are cumulative story weight, not score decoration.
 
 ---
 
@@ -222,11 +239,9 @@ The dead are cumulative story weight, not a score decoration.
 
 There is no lurking gimmick here. PRIM2 is openly the defender.
 
-The earlier-series question was whether an unseen authority connected apparently separate events.
+RAID answers the earlier-series question:
 
-RAID answers:
-
-> **Yes. And now both men who reached him from opposite boards are standing inside the architecture that connected them.**
+> **Yes, an unseen authority connected apparently separate systems. And now the two men who reached him from opposite boards are standing inside the architecture that connected them.**
 
 ---
 
@@ -243,26 +258,6 @@ RAID answers:
 
 ---
 
-# Production / gameplay hooks
-
-Use the existing Site 0 geometry/traversal work as foundation where still compatible.
-
-Required game systems include:
-- multi-perspective squad control;
-- persistent injury/death state;
-- authored two-board information asymmetry;
-- redundancy/failover objective graph;
-- life-safety dependencies;
-- checkpointing;
-- Jordan/Royce convergence logic;
-- PRIM2 boss-state transitions;
-- five-channel grading;
-- continuity write into Episodes 20–21.
-
-Do not regenerate Site 0 simply because old character labels changed.
-
----
-
 # Final handoff
 
 RAID ends with:
@@ -271,8 +266,11 @@ RAID ends with:
 JORDAN VALE — ALIVE
 ROYCE — ALIVE
 PRIM2 — PHYSICALLY DEFEATED / BIOLOGICALLY ACTIVE
-ASSAULT ELEMENTS — LOST
+PRIM ASSAULT ELEMENT — LOST
+HITMAN ASSAULT ELEMENT — LOST
 MANTLE AUTHORITY — UNRESOLVED
 ```
+
+And around those three principals is the immediate reality that a huge number of people the audience loved are suddenly gone.
 
 Then `Evil Twin` begins.
