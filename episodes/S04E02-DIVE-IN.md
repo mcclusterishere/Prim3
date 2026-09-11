@@ -1,137 +1,115 @@
 ---
-status: DRAFT CHAPTER BLUEPRINT
+status: CANON MIGRATED BLUEPRINT
 season: 4
 episode: 2
 global_episode: 11
 level_id: LVL-11
 song: Dive In
 mission: Dumpster Signal
-runtime_target: 9 minutes
+runtime: FLEX-LONGFORM
+version: 3.0.0
+branch: main
 ---
 
-# S4E2 - DIVE IN
+# S4E2 — DIVE IN / DUMPSTER SIGNAL
 
-## Merge contract
+## Ownership / deployment
 
-This chapter expands Jordan's investigation into infrastructure that does not
-match McCluster's public paperwork. It keeps collection lawful and controlled:
-the team is authorized to assess an abandoned/decommissioned site.
+```text
+PRIMARY OWNERS: Grace Mbala / Rafael Costa
+SECONDARY DEPTH: Oksana Bondarenko / Leila Hosseini / Chioma Okeke / Chris “Perch” Alvarez / Jules “Kiosk” Mendez / Sora “Gymnast” Okada
+JORDAN: mentioned/edge until emergency; off-board Wildcard if CRITICAL
+BASE PLAYABLE ROSTER: Grace / Rafael / Oksana
+APEX: unavailable
+ROYCE: eligible only if Hitman pressure warrants
+```
 
-## Chapter promise
+This supersedes the old Jordan-led secret-site investigation while retaining the authorized decommissioned-site/evidence-reconstruction mechanics.
 
-At a facility scheduled for transfer, discarded objects reveal a history the
-documents omit. The player reconstructs purpose from asset tags, physical
-topology, forgotten media, and residual signals without entering a live
-protected system.
+---
 
-## Song payload
+# Recurring cast / micro-development ledger
 
-- **Technical:** physical information exposure, discarded documents and media,
-  RF remnants, drones as observation platforms, device deauthorization as a
-  defensive concern, packet overload as a symptom, and evidence handling.
-- **Human:** obsession, surveillance, resourcefulness, and the belief that
-  knowledge can replace direct violence.
-- **Visual:** a shredder, trash and decommissioned hardware becoming an evidence
-  constellation; a drone following a route while Jordan follows custody labels.
-- **Safety:** the mission uses owner-authorized inspection and passive/abstracted
-  signal observation. No stalking or unauthorized interception mechanic ships.
-
-## Nine-minute episode
-
-### 0:00-3:00 - Music film
-
-Objects dismissed as trash become visually valuable: envelopes, labels,
-receipts, antennas, cables, storage media, and a vehicle with its identity
-removed. The song's predatory viewpoint is framed as a warning about what
-careless disposal exposes.
-
-### 3:00-6:00 - Human story
-
-Jordan keeps investigating the difference between McCluster's public business
-and the facilities he encounters. Aya worries he is using legitimate
-assignments to pursue a private case. Their new relationship gives the argument
-more weight: secrecy at work now enters their home life.
-
-### 6:00-9:00 - Watch / Play mission
-
-WATCH finds one discarded item whose serial/custody trail links McCluster to an
-unexplained site. PLAY asks the player to photograph before moving, identify
-assets, map topology, distinguish active from residual signal, collect only
-authorized evidence, and build a confidence-rated timeline.
-
-## Playable level contract
-
-- **Player role:** Jordan on an authorized transfer assessment.
-- **Environment:** decommissioned facility, loading area, office refuse zone,
-  equipment room, roof/antenna line, and evidence staging table.
-- **Primary objective:** determine the site's former operational purpose well
-  enough to flag the paperwork discrepancy.
-- **Optional objectives:** preserve chain of custody; find the least ambiguous
-  physical link; avoid contaminating media or powering unsafe equipment.
-- **Complication:** some discarded items belong to later legitimate tenants and
-  must not be folded into the wrong story.
-- **Exit state:** a defensible link points deeper into McCluster's hidden
-  architecture.
-
-## Player verbs
-
-Photograph, inspect, tag, map, compare, passively scan, collect, corroborate.
-
-## Graded outcomes
-
-| Channel | Strong result | Weak but continuing result |
+| Character | Function | Development moment |
 |---|---|---|
-| Objective | Former purpose supported by multiple sources | One intriguing but uncertain clue is found |
-| Team | Assessment remains safe and coordinated | Curiosity exposes someone to physical risk |
-| Exposure | Site is left undisturbed | Collection reveals the investigation to others |
-| Integrity | Custody and ownership boundaries are preserved | Items are moved or attributed carelessly |
-| Time | High-value areas are prioritized | Team chases dramatic low-confidence clues |
+| Grace | owner / human-evidence ethics | Finds evidence that could help PRIM but would expose vulnerable civilians if handled carelessly; accepts slower progress to protect people who will never know she protected them. |
+| Rafael | owner / reconnaissance | His fear of missing a signal becomes over-collection; Grace forces him to confront that seeing more is not automatically ethically better. |
+| Oksana | intelligence | Becomes the bridge between appetite for context and disciplined provenance. |
+| Leila | governance | Defines the ownership/authorization boundary for evidence that is physically present but not automatically theirs to use. |
+| Chioma | command | Has to defend a slower evidence path to people demanding operational answers now. |
+| Perch | Hitman overwatch mirror | Feels pressure to simplify uncertainty into something actionable for Hitman leadership, sharpening his contrast with Rafael. |
+| Kiosk | Hitman technical | Helps interpret technical residue from the other board while remaining a recurring person with his own competence and limits. |
+| Sora | social-entry / opposing context | Shows how human context around a place can change the meaning of the same physical artifact. |
+| Jordan | optional Wildcard | If called, he helps protect/extract people or reopen access but does not own the evidentiary judgment. |
 
-## Persistent state written by the level
+---
 
-Jordan gains a Site/Prime architecture evidence flag. Aya gains trust or
-resentment based on whether Jordan discloses his private objective. The physical
-evidence-board system becomes reusable in later RAID preparation.
+# Human problem
 
-## Prime background trace
+At an authorized decommissioned facility, discarded objects and residual signals reveal more about the site's past than the official paperwork does.
 
-- **Visible trace:** when Jordan photographs the former-candidate plate, the
-  authorized assessment sync silently creates a read-only copy for `P-00
-  OBSERVE` before the local upload confirmation appears.
-- **First-watch meaning:** automatic central backup of field evidence.
-- **Ghost payoff:** Prime watched Jordan discover the path that defeated an
-  earlier candidate and knew the investigation was moving closer to him.
+Rafael wants the fullest possible picture.
+Grace knows some of that picture includes people who never consented to become intelligence.
+Oksana wants provenance.
+Leila wants a defensible authority boundary.
+Chioma wants enough truth to make a decision before time runs out.
 
-## Technology accuracy gate
+The episode asks:
 
-- **Sensor / input:** photographs, asset labels, paper records, physical wiring,
-  passive authorized RF observations, and owner-provided transfer documents.
-- **Compute / reasoning:** provenance and topology reconstruction with explicit
-  confidence levels.
-- **Energy / infrastructure:** mostly powered down; portable lighting, camera,
-  scanner, and safe evidence storage.
-- **Access / authorization:** property-owner assessment scope; no adjacent or
-  third-party system access.
-- **Human decision owner:** transfer/assessment lead.
-- **Failure mode:** contamination, unsafe energizing, misattribution, or
-  confusing residual evidence with current activity.
-- **Real concept taught:** physical disposal and infrastructure layout can leak
-  operational information.
-- **Fictional extrapolation:** visual evidence constellation only.
+> **When information is available, what makes using it legitimate?**
 
-## Production and game assets
+---
 
-- Decommissioned facility exploration level - `NEEDED`
-- Photograph/tag/evidence-board system - `NEEDED`
-- Discarded hardware and document props - `NEEDED`
-- Portable drone/camera visualization - `OPTIONAL`
-- Jordan/Aya argument scene and song package - `NEEDED`
+# Technical thesis
 
-## Merge hooks
+Teach defensively:
+- physical information exposure;
+- asset tags and custody trails;
+- topology reconstruction;
+- residual vs active signals;
+- passive authorized observation;
+- chain of custody;
+- confidence-rated timelines;
+- safe media handling.
 
-- **Reads from:** Jordan's pre-recruitment evidence and new relationship secrecy.
-- **Writes to:** hidden-building architecture and the smart-facility encounter.
-- **Reusable systems:** physical evidence capture, chain of custody, confidence
-  board.
-- **Owner decisions:** precise site identity, the decisive object, and whether
-  Aya sees the full evidence.
+No unauthorized interception/stalking mechanics.
+
+---
+
+# WATCH spine
+
+1. Team enters owner-authorized decommissioned site.
+2. Rafael begins finding a richer operational picture than expected.
+3. Grace identifies records/artifacts involving vulnerable third parties.
+4. Oksana distinguishes current activity from historical residue.
+5. Leila narrows what may be collected/used.
+6. Chioma takes heat for allowing slower work.
+7. Perch/Kiosk/Sora show the opposing board building context under different incentives.
+8. Grace/Rafael preserve the one defensible link while deliberately leaving irrelevant private material alone.
+9. The mission ends with less information than Rafael could have taken—and more trust than he would have preserved otherwise.
+
+---
+
+# PLAY
+
+Primary verbs:
+`photograph / inspect / tag / map / compare / passively scan / preserve / corroborate / leave untouched`.
+
+A high score rewards **restraint plus defensibility**, not maximum collection.
+
+---
+
+# Persistent residue
+
+- Grace/Rafael become a durable ethical-intelligence pair.
+- Oksana gains even more authority as uncertainty referee.
+- Leila's abstract governance rules become field-real.
+- Chioma experiences the political cost of defending ethical delay.
+- Perch/Kiosk/Sora deepen as recurring Hitman people.
+- Jordan can be useful without being the investigator who owns every hidden-architecture clue.
+
+---
+
+# Governing line
+
+> **Just because you can collect it does not mean it belongs in your case.**
