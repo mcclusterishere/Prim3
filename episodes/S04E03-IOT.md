@@ -1,137 +1,113 @@
 ---
-status: DRAFT CHAPTER BLUEPRINT
+status: CANON MIGRATED BLUEPRINT
 season: 4
 episode: 3
 global_episode: 12
 level_id: LVL-12
 song: IoT
 mission: House of Eyes
-runtime_target: 9 minutes
+runtime: FLEX-LONGFORM
+version: 3.0.0
+branch: main
 ---
 
-# S4E3 - IOT
+# S4E3 — IOT / HOUSE OF EYES
 
-## Merge contract
+## Ownership / deployment
 
-This chapter preserves the first direct Jordan/Presiding Prime encounter.
-Jonas Weber introduces Pylon, and Emre Yildiz keeps the cyber-physical stakes
-grounded. Prime must know more about Jordan than Jordan knows about him.
+```text
+PRIMARY OWNERS: Jonas Weber / Pylon
+SECONDARY DEPTH: Emre Yıldız / Aya Shinoda / Minh Tran / Helen Clarke / Leila Hosseini
+JORDAN: absent by default; off-board Wildcard at CRITICAL
+APEX: eligible after Jordan is present and a qualified high-value crisis remains CRITICAL
+PRIM2: hidden institutional/system gravity; no required face-to-face reveal
+ROYCE: unavailable
+```
 
-## Chapter promise
+This supersedes the old Jordan-coordinated / first-direct-Prime-encounter framing.
 
-A connected building reports mutually impossible states. Doors, cameras, HVAC,
-meters, wearables, and vehicle interfaces cannot all be trusted at once. The
-player must make the building physically safe before solving which digital
-story is true.
+---
 
-## Song payload
+# Recurring cast / micro-development ledger
 
-- **Technical:** IoT breadth, default credentials as systemic risk, device
-  inventory, specialized devices, segmentation, update/reset discipline, and
-  cyber-physical consequences.
-- **Human:** the anxiety of being observed, overconfidence in knowing oneself,
-  and the recognition that convenience can become control.
-- **Visual:** every sensor becomes an eye, every actuator a hand, and the
-  building's floor plan pulses like a nervous system.
-- **Safety:** gameplay exposes defensive inventory, isolation, and human
-  override. It does not provide device-compromise procedures.
-
-## Nine-minute episode
-
-### 0:00-3:00 - Music film
-
-The performer walks through an ordinary home/building while meters, lights,
-vehicles, cameras, and wearables quietly report to an unseen control image.
-The final chorus reveals that the same sensor sees both threat and rescue.
-
-### 3:00-6:00 - Human story
-
-Jonas shows Jordan Pylon's building model. Emre interrupts the fascination with
-physical questions: which door unlocks on failure, who breathes when HVAC lies,
-and what happens when a software state heats a real room. Jordan realizes his
-investigation has entered the architecture itself.
-
-### 6:00-9:00 - Watch / Play mission
-
-WATCH establishes manual life-safety state, isolates unreliable automation,
-and then reveals Prime already observing Jordan's decisions. PLAY asks the
-player to evacuate, compare sensors against physical witnesses, choose fail-safe
-actuator states, segment systems, and hand control to verified humans.
-
-## Playable level contract
-
-- **Player role:** Jordan coordinating Jonas, Emre, and facility staff.
-- **Environment:** connected civic/corporate building with lobby, mechanical
-  spaces, control room, occupied zones, and manual overrides.
-- **Primary objective:** establish a safe physical state for occupants.
-- **Optional objectives:** preserve trustworthy telemetry; avoid trapping
-  people; keep critical environmental service running manually.
-- **Complication:** a “healthy” dashboard conflicts with physical temperature,
-  door, and occupancy reports.
-- **Exit state:** occupants are safe; Prime appears after Jordan thinks the
-  mission is finished.
-
-## Player verbs
-
-Inspect, compare, evacuate, isolate, override, verify, route, hand off.
-
-## Graded outcomes
-
-| Channel | Strong result | Weak but continuing result |
+| Character | Function | Development moment |
 |---|---|---|
-| Objective | Safe physical state and trusted control restored | Building is safe but largely offline |
-| Team | Occupants/operators remain protected | Manual work causes fatigue or minor injury |
-| Exposure | Fault remains segmented | Broad shutdown disrupts surrounding operations |
-| Integrity | Overrides are authorized and auditable | Unlogged improvisation leaves unknown state |
-| Time | Life safety is prioritized before diagnosis | Team debates telemetry while conditions worsen |
+| Jonas | owner / system liaison | Realizes he is emotionally dependent on Pylon's predictability after spending years insisting it is “just a system.” |
+| Pylon | owner / system presence | Becomes character-level through consistent priorities, omissions and partial knowledge without becoming a cute humanized AI. |
+| Emre | physical systems | Forces human drills/manual state when automation conflicts with physical truth; his recurring argument with Jonas finally matters under life-safety pressure. |
+| Aya | technical | Recognizes a safety-state inconsistency that resembles the kind of mismatch Hana taught her to take seriously, but does not yet connect it to the larger truth. |
+| Minh | technical | Demonstrates independent competence while Aya is occupied, showing their mentorship actually changed him. |
+| Helen | governance | Learns that the institution's “single pane of glass” can hide who actually owns authority beneath it. |
+| Leila | analysis | Starts mapping whether apparently neutral automation is carrying hidden policy/identity assumptions. |
+| Jordan | optional Wildcard | If called, restores alternate human/physical routes; he cannot replace Jonas's system knowledge or Emre's physical judgment. |
+| PRIM2 | hidden apex | If Apex is invoked, the intervention appears as a masked executive authority expansion, not as a magical boss cameo. |
 
-## Persistent state written by the level
+---
 
-Jordan meets Presiding Prime. Pylon enters the reusable world/tool registry.
-Jonas/Emre trust changes based on whether the player respects physical safety.
-Prime's background-presence ledger becomes explicit for the first time.
+# Human problem
 
-## Prime background trace
+A connected building reports mutually impossible states across doors, cameras, HVAC, meters, wearables and occupancy.
 
-- **Visible trace:** Pylon shows two identical `1 / 1` priority indicators; a
-  door opens before Jonas commands it and a camera tracks Jordan before he
-  enters the room.
-- **First-watch meaning:** the smart building has stale automation or a second
-  facility operator.
-- **Ghost payoff:** Prime was already observing and acting through the building
-  while his biological body remained asleep elsewhere.
+Jonas initially believes the problem is corrupted telemetry around a fundamentally reliable system.
+Emre believes the building must be made physically safe before anyone debates digital truth.
+Aya/Minh help isolate cyber-physical contradictions.
+Helen/Leila discover that “who can override what” is as important as which sensor is wrong.
 
-## Technology accuracy gate
+---
 
-- **Sensor / input:** temperature, air quality, door state, cameras, meters,
-  device health, and human reports.
-- **Compute / reasoning:** compare independent sources, assign confidence, and
-  separate sensing from actuation.
-- **Energy / infrastructure:** building power, backup power, control network,
-  HVAC, access control, and manual mechanisms.
-- **Access / authorization:** facility emergency authority with human approval
-  for actuator changes.
-- **Human decision owner:** facility incident commander; Emre owns life-safety
-  engineering judgment.
-- **Failure mode:** trusted telemetry is false, automation enters an unsafe
-  state, or manual control is unavailable/unknown.
-- **Real concept taught:** connected devices join digital risk to real physical
-  consequences; fail-safe design and human override matter.
-- **Fictional extrapolation:** Pylon's unified visualization; underlying device
-  behaviors remain plausible.
+# Technical thesis
 
-## Production and game assets
+Teach:
+- IoT inventory and segmentation;
+- sensing vs actuation;
+- independent verification;
+- default/weak credential risk at safe abstraction;
+- update/reset discipline;
+- manual override;
+- fail-safe state;
+- cyber-physical consequence;
+- human decision ownership.
 
-- Smart-building modular level and mechanical rooms - `NEEDED`
-- Pylon building-nervous-system UI - `NEEDED`
-- Manual door/HVAC/power controls - `NEEDED`
-- Jonas, Emre, Jordan, Prime character scenes - `NEEDED`
-- Building room tone and actuator SFX - `NEEDED`
+Core line:
 
-## Merge hooks
+> **A building can know a lot and still be wrong about the thing that matters.**
 
-- **Reads from:** Jordan's physical evidence trail and IoT lyric source.
-- **Writes to:** first Prime encounter, Pylon availability, and Season 5 scale.
-- **Reusable systems:** sensor confidence, actuator state, evacuation routing.
-- **Owner decisions:** building population/location and the exact first words
-  between Jordan and Prime.
+---
+
+# WATCH spine
+
+1. Pylon reports normal state while physical conditions contradict it.
+2. Jonas initially defends the system model.
+3. Emre orders manual life-safety checks.
+4. Aya/Minh separate sensing failures from actuation risk.
+5. Helen asks who is authorized to override automation.
+6. Leila discovers the answer is less transparent than visible governance suggests.
+7. The team establishes safe physical state before restoring automation.
+8. Pylon's unusual priority behavior leaves a subtle PRIM2 trace without explaining the Living Root.
+9. Jonas has to admit that his attachment to Pylon affected his judgment.
+
+---
+
+# PLAY
+
+Primary verbs:
+`inspect / compare / evacuate / isolate / override / verify / route / hand off / restore`.
+
+This is the first strong candidate for the masked Apex tutorial if Jordan has already been called and the mission remains CRITICAL.
+
+---
+
+# Persistent residue
+
+- Jonas/Pylon become emotionally and operationally inseparable enough that later separation has stakes.
+- Emre gains formal weight in automation-heavy crises.
+- Aya adds another safety-state inconsistency to the Hana-shaped pattern in her head.
+- Minh demonstrates growth without needing Aya's approval every minute.
+- Helen/Leila both gain evidence that authority is less transparent than the org chart.
+- PRIM2's system gravity becomes more legible without an exposition reveal.
+
+---
+
+# Governing line
+
+> **The dangerous smart building is not the one with no data. It is the one everybody trusts too completely.**
