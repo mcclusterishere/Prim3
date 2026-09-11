@@ -1,133 +1,106 @@
 ---
-status: CANON CHAPTER BLUEPRINT
+status: CANON MIGRATED BLUEPRINT
 season: 2
 episode: 2
 global_episode: 5
 level_id: LVL-05
 song: Red Blue Purple White Team
 mission: Four Colors
-runtime_target: 9 minutes
+runtime: FLEX-LONGFORM
+version: 3.0.0
 branch: main
 ---
 
 # S2E2 — RED BLUE PURPLE WHITE TEAM / FOUR COLORS
 
-## Episode ownership
+## Ownership / deployment
 
 ```text
-EPISODE OWNER: Chioma Okeke
-SECONDARY OWNERS: Thandiwe Nkosi / Aya Shinoda / rotating exercise team
-JORDAN NARRATIVE STATE: C — SUPPORTING
+PRIMARY OWNERS: Chioma Okeke / Thandiwe Nkosi
+SECONDARY DEPTH: Grace Mbala / Arjun Mehta / Sari Wulandari / Mina “Halo” Brooks / Dez “Switch” Calhoun
 MISSION LEAD: Chioma
-BASE PLAYABLE ROSTER: role-rotating Red / Blue / Purple / White named ensemble operators
-PRIMARY PLAYABLE POV: multi-role team under Chioma
-JORDAN PLAY STATE: OFF-BOARD WILDCARD
-WILDCARD ELIGIBLE: yes only after the exercise becomes a real CRITICAL incident
-APEX ELIGIBLE: no under canonical WATCH state
-PRIM2 STORY VISIBILITY: hidden senior staffing/observation layer
-ROYCE INCURSION ELIGIBLE: no
+BASE PLAYABLE ROSTER: named ensemble assigned across Red / Blue / Purple / White functions
+JORDAN: supporting; not selectable at launch; Wildcard only after exercise becomes real CRITICAL incident
+APEX: unavailable
+ROYCE: unavailable
 ```
+
+---
+
+# Recurring cast / micro-development ledger
+
+| Character | Function | Development moment |
+|---|---|---|
+| Chioma | owner / command | Chooses to end a prestigious exercise when reality intrudes, learning that leadership sometimes means looking wrong first. |
+| Thandiwe | owner / peer critic | Sees that the exercise incentives themselves reward the wrong behavior and begins her long question: does optimizing a system legitimize it? |
+| Grace | human-consequence voice | Forces the room to stop talking in colors and name who outside the exercise can actually get hurt. |
+| Arjun | entry/physical lane | Demonstrates that entry/control decisions create information, not merely access; begins building credibility beyond “door guy.” |
+| Sari | operator | Competes hard, then voluntarily shares an advantage when the event becomes real; first strong belonging write. |
+| Mina “Halo” Brooks | Hitman command mirror | Shows genuine care for her own people and a leadership reputation built on bringing them home, complicating simplistic faction morality. |
+| Dez “Switch” Calhoun | Hitman adaptive operator | Versatility keeps him useful but makes him increasingly unsure whether he has an identity beyond adapting to stronger people. |
+| Helen | visible executive | Watches Chioma sacrifice the exercise result and begins treating her as command material rather than merely talented staff. |
+| Jordan | supporting | Resents not having more say, then publicly backs Chioma; learns that broad experience does not grant automatic command. |
 
 ---
 
 # Human problem
 
-Chioma is being watched to see whether she can command people who are talented enough to disagree with her.
+A controlled red-vs-blue assessment is interrupted by a real facility anomaly that looks enough like an exercise inject for ambitious people to keep playing.
 
-A controlled red-vs-blue exercise is interrupted by a real facility anomaly that looks enough like an exercise inject for ambitious participants to keep “playing.”
-
-Jordan is one of several people with reasons to believe their own read is correct.
-
-The episode belongs to Chioma because she must sacrifice a visible competitive win in order to say:
-
-> **Real-world. Stop the exercise.**
-
-That choice establishes what command means in this world: not being smartest in the room, but owning the cost of ending the wrong game.
+Chioma's safest choice makes her look like the first person to panic.
+Thandiwe notices the institution designed incentives that reward continuing.
+Jordan thinks his breadth should give him more influence.
+Grace asks who pays if they guess wrong.
 
 ---
 
 # Technical thesis
 
-The color roles are different ways of producing knowledge and control:
-- Red challenges;
-- Blue defends;
-- Purple converts conflict into shared learning;
-- White adjudicates scope/rules/outcome.
+Red challenges. Blue defends. Purple converts conflict into shared learning. White adjudicates scope, rules and evidence.
 
-When reality intrudes, role identity must become subordinate to the actual system state.
-
-Core lesson:
+Core line:
 
 > **A role is useful only while it still describes the problem.**
 
 ---
 
-# WATCH structure
+# WATCH spine
 
-### Human trigger
-A live facility signal appears during the assessment.
-
-### Music film / brief
-Each team color sees a different but valid slice of the same environment. Competitive edits make each perspective feel complete until the colors begin contradicting one another.
-
-### Human escalation
-Participants argue whether the anomaly is another inject.
-Jordan's age/experience makes him expect greater command influence.
-Thandiwe notices that the exercise incentives reward continuing.
-Chioma realizes the safest leadership decision will make her look like the person who panicked first.
-
-### Mission threshold
-A physical/environmental service outside the exercise scope begins changing.
-
-Chioma terminates the exercise and orders every team to surrender its private picture.
-
-### WATCH mission
-The ensemble reconstructs the real condition by combining partial evidence and re-baselining what counts as “normal.”
-
-Jordan contributes, but Chioma owns the command decision and debrief.
+1. Competitive exercise establishes team personalities.
+2. A live facility signal appears.
+3. Several participants interpret it as an inject because winning incentives point that way.
+4. Grace identifies a real-world human consequence.
+5. Chioma calls `REAL-WORLD` and ends the exercise.
+6. Thandiwe names the incentive failure during the transition, not afterward when it is safe.
+7. The named ensemble combines previously private pictures to stabilize the real incident.
+8. Jordan supports Chioma despite private frustration.
+9. Helen's post-event decision gives Chioma more responsibility; Thandiwe worries what that will do to her.
 
 ---
 
-# PLAY contract
+# PLAY
 
-The player rotates among **named** characters occupying the four exercise functions rather than generic colored pawns.
+The player rotates among named people filling the four functions; colors are roles, not disposable pawns.
 
 Primary verbs:
-- observe;
-- classify exercise/live;
-- share intelligence;
-- challenge assumptions;
-- authorize;
-- reassign;
-- isolate;
-- stabilize;
-- debrief.
+`observe / challenge / defend / share / adjudicate / reassign / isolate / stabilize / debrief`.
 
-Jordan is not a default unit.
-
-If the real incident escalates to CRITICAL in PLAY, a Wildcard call may become available after Chioma's real-world transition. Calling Jordan then is a rescue/escalation choice, not a reward for refusing Chioma's command.
+If CRITICAL, Jordan may be called only after Chioma has correctly transitioned the mission to real-world state.
 
 ---
 
-# Character residue
+# Persistent residue
 
-- Chioma earns legitimate authority by choosing reality over prestige.
-- Thandiwe becomes both ally and future critic of how Chioma uses command.
-- Jordan learns that age, breadth and initiative do not automatically entitle him to leadership.
-- the player learns the named ensemble's different operational strengths.
-- a Wildcard rescue, if used, can create tension around why one operator gets executive call-up status.
-
----
-
-# PRIM2 trace
-
-PRIM2's background role is an institutional staffing decision: after reviewing the exercise, a recommendation to separate several strong personalities is rejected.
-
-First-watch explanation: ordinary senior staffing judgment.
-Later meaning: PRIM2 is interested in what strong people become **together**, not only who wins alone.
+- Chioma/Thandiwe becomes a loving but serious philosophical rivalry.
+- Grace gains standing as the person who makes technical teams name human cost.
+- Arjun gains broader respect.
+- Sari shifts from proving herself individually toward belonging.
+- Mina/Dez become recognizable recurring Hitman people.
+- Helen starts considering Chioma for larger authority.
+- Jordan gains both respect for and friction with Chioma.
 
 ---
 
 # Governing line
 
-> **Chioma becomes a leader the moment she is willing to lose the exercise.**
+> **Chioma becomes a leader when she is willing to lose the exercise.**
