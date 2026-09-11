@@ -1,136 +1,115 @@
 ---
-status: DRAFT CHAPTER BLUEPRINT
+status: CANON MIGRATED BLUEPRINT
 season: 3
 episode: 3
 global_episode: 9
 level_id: LVL-09
 song: Virus Types
 mission: Patient Zero
-runtime_target: 9 minutes
+runtime: FLEX-LONGFORM
+version: 3.0.0
+branch: main
 ---
 
-# S3E3 - VIRUS TYPES
+# S3E3 — VIRUS TYPES / PATIENT ZERO
 
-## Merge contract
+## Ownership / deployment
 
-This chapter preserves the locked season ending: a cohort member's concealed
-mistake makes containment harder, and Jordan learns shame is an attack surface.
-The owner must select the existing character; this blueprint does not name one.
+```text
+PRIMARY OWNERS: Dmitri Volkov / Oksana Bondarenko
+SECONDARY DEPTH: Hassan Raza / Leila Hosseini / Emre Yıldız / Dez “Switch” Calhoun
+BASE PLAYABLE ROSTER: Dmitri / Oksana / Hassan / Leila
+JORDAN: absent by default; off-board Wildcard at CRITICAL
+APEX: unavailable
+ROYCE: eligible as a rare pressure incursion if campaign conditions warrant
+```
 
-## Chapter promise
+This supersedes the old Jordan-led containment blueprint.
 
-Different devices show different malicious symptoms, but the institution wants
-one culprit and one explanation. The player must classify, isolate, and restore
-trust without turning uncertainty into a witch hunt.
+---
 
-## Song payload
+# Recurring cast / micro-development ledger
 
-- **Technical:** malware-family distinctions, keylogging and spyware symptoms,
-  ransomware, worms, trojans, rootkits, authentication, MFA, biometrics,
-  credential hygiene, and defensive testing.
-- **Human:** fear, authenticity, loyalty, and the pressure to look competent
-  when admitting a mistake is the safest action.
-- **Visual:** devices behaving like patients with different symptoms; identity
-  factors becoming a layered immune response.
-- **Safety:** classification is symptom-based and defensive. No malware payload,
-  credential cracking, or persistence construction is implemented.
-
-## Nine-minute episode
-
-### 0:00-3:00 - Music film
-
-The song moves through a clinical-tech visual language: infected devices are
-tagged by behavior, not appearance, while a recurring operator figure seems
-untouchable until their own credential signal splits into conflicting copies.
-
-### 3:00-6:00 - Human story
-
-After Jordan's celebrated rule-breaking in `Bad Input`, everyone fears being
-the person blamed for the next incident. A cohort member hides an early mistake.
-Jordan initially participates in the pressure by demanding certainty before he
-creates enough safety for honesty.
-
-### 6:00-9:00 - Watch / Play mission
-
-WATCH succeeds only after the concealed action is disclosed. PLAY requires
-players to group endpoints by observed behavior, isolate without over-quarantining,
-protect identity services, interview teammates, and rebuild access from trusted
-states.
-
-## Playable level contract
-
-- **Player role:** Jordan leading a mixed technical/human containment cell.
-- **Environment:** lab/device depot, quarantine bench, identity service room,
-  and interview/debrief space.
-- **Primary objective:** stop propagation and restore trusted access.
-- **Optional objectives:** preserve business-critical devices; identify multiple
-  causes; create a blame-safe disclosure path.
-- **Complication:** several symptoms look alike and one hidden action distorts
-  the timeline.
-- **Exit state:** spread is stopped; the team's trust depends on whether truth
-  was invited or extracted.
-
-## Player verbs
-
-Observe, classify, quarantine, compare, interview, protect identity, restore,
-document.
-
-## Graded outcomes
-
-| Channel | Strong result | Weak but continuing result |
+| Character | Function | Development moment |
 |---|---|---|
-| Objective | Families/causes separated and contained | Broad quarantine stops spread at high cost |
-| Team | Teammate discloses safely | Truth emerges through accusation or evidence |
-| Exposure | Clean systems remain available | Over-isolation disrupts the whole fleet |
-| Integrity | Identity and evidence are protected | Blame shortcuts replace verified facts |
-| Time | Early admission shortens response | Concealment extends propagation window |
+| Dmitri | owner / physical security | Becomes a convenient suspect because of origin, access and temperament; chooses to let evidence work instead of escalating defensively, but the humiliation does not disappear. |
+| Oksana | owner / intelligence | Defends Dmitri from a conclusion she emotionally understands why others want; their trust becomes earned through evidence rather than symbolic solidarity. |
+| Hassan | containment/security | Learns that containment requires suspicion without paranoia; his instinct to distrust everyone is challenged directly. |
+| Leila | identity/governance | Articulates the difference between a risk category and a guilty person, extending Episode 7's identity argument into crisis response. |
+| Emre | physical systems | Pushes back against indiscriminate isolation when a broad technical shutdown creates physical hazards. |
+| Dez | Hitman adaptive mirror | Shows how survival rewards can teach a younger operator to become more flexible and more dangerous at the same time. |
+| Royce | conditional hostile escalation | If present, increases pressure and tempo but does not magically know the technical answer. His existence independent of Jordan becomes undeniable. |
 
-## Persistent state written by the level
+---
 
-The selected cohort member gains shame, debt, or trust toward Jordan based on
-how disclosure occurs. Jordan carries the lesson into Season 4: systems and
-people both need safe recovery paths, not merely punishment.
+# Human problem
 
-## Prime background trace
+Multiple devices show different malicious behaviors while the institution wants one culprit and one explanation.
 
-- **Visible trace:** after the concealed mistake creates its first identity
-  anomaly, a separate high-authority viewer holds on the likely source for three
-  seconds without intervening.
-- **First-watch meaning:** central incident staff are still validating an
-  uncertain signal.
-- **Ghost payoff:** Prime knew the likely origin early and allowed a limited
-  self-correction window to see whether shame would destroy the team first.
+Dmitri fits a convenient narrative.
+Oksana refuses to convert pattern recognition into guilt.
+Hassan wants aggressive containment.
+Emre sees physical costs to over-isolation.
+Leila forces everyone to separate identity-risk handling from human accusation.
 
-## Technology accuracy gate
+The episode asks whether a team can stay suspicious enough to survive without becoming so suspicious it destroys itself.
 
-- **Sensor / input:** endpoint behavior, network alerts, identity events,
-  operator reports, and device history.
-- **Compute / reasoning:** cluster by observed symptom and timeline; maintain
-  multiple hypotheses until evidence separates them.
-- **Energy / infrastructure:** lab network, endpoint fleet, identity service,
-  clean recovery media, and quarantine power/network.
-- **Access / authorization:** defensive endpoint and identity administration
-  within the owned fleet.
-- **Human decision owner:** containment lead with device owners approving
-  restoration priority.
-- **Failure mode:** one label is applied to every symptom, clean devices are
-  trusted too early, or fear suppresses key evidence.
-- **Real concept taught:** different malware behaviors require different
-  containment and recovery decisions; identity compromise can outlive one device.
-- **Fictional extrapolation:** stylized infection visualization only.
+---
 
-## Production and game assets
+# Technical thesis
 
-- Device-fleet/quarantine environment - `NEEDED`
-- Symptom/timeline classification board - `NEEDED`
-- Identity restoration UI - `NEEDED`
-- Cohort interview and consequence scenes - `NEEDED`
-- Song master/timed lyrics - `NEEDED`
+Teach defensive classification and containment:
+- symptom-based malware-family distinctions;
+- identity compromise vs endpoint compromise;
+- quarantine;
+- trusted recovery state;
+- MFA/credential reset concepts;
+- evidence preservation;
+- avoiding over-quarantine;
+- rebuilding access from known-good state.
 
-## Merge hooks
+No malware construction, cracking or persistence mechanics.
 
-- **Reads from:** S3 breach, blame, and Jordan's rewarded deviation.
-- **Writes to:** S4 recovery/identity themes and a persistent cohort secret.
-- **Reusable systems:** classification board, quarantine states, interview trust.
-- **Owner decisions:** which existing cohort member hid the mistake and what
-  non-malicious action started the chain.
+Core line:
+
+> **Different symptoms can share a cause. Similar symptoms can have different causes. Neither fact proves who is guilty.**
+
+---
+
+# WATCH spine
+
+1. Several endpoints show different symptoms.
+2. Dmitri's access/history makes him the easiest human explanation.
+3. Hassan pushes for broad containment.
+4. Oksana forces the team to keep competing hypotheses alive.
+5. Leila blocks language that turns risk into accusation.
+6. Emre identifies a physical consequence caused by an over-broad shutdown.
+7. The team separates multiple technical causes/states and restores trust deliberately.
+8. Dmitri is cleared by evidence, not sympathy.
+9. Optional Royce pressure can complicate extraction/tempo without taking over the technical story.
+
+---
+
+# PLAY
+
+Primary verbs:
+`observe / classify / quarantine / compare / protect identity / restore / document / verify`.
+
+Jordan may be called only if the mission becomes CRITICAL; if called, he preserves options or people. He does not solve the classification problem for Dmitri/Oksana.
+
+---
+
+# Persistent residue
+
+- Dmitri/Oksana move from guarded professional respect toward real trust.
+- Hassan becomes more disciplined about distinguishing vigilance from paranoia.
+- Leila's identity-governance philosophy gains another concrete example.
+- Emre earns more authority in mixed cyber-physical incidents.
+- Dez gains visible trajectory on the Hitman side.
+- If Royce appears, the team learns he is not merely “Jordan's old problem.”
+
+---
+
+# Governing line
+
+> **Contain the threat without turning uncertainty into a witch hunt.**
