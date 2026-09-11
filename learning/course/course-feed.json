@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0.0",
+  "course": {
+    "id": "prim3-foundation",
+    "title": "PRIM3 Foundation",
+    "subtitle": "Program for Resilient Infrastructure Management",
+    "canonical_repo": "mcclusterishere/Prim3",
+    "canonical_branch": "main",
+    "module_count": 21,
+    "pass_mark": 80,
+    "progression": "guided",
+    "source_authorities": [
+      "CANON.md",
+      "MAIN-STATUS.md",
+      "game/LEARNING-MISSION-SOURCE-OF-TRUTH.md",
+      "learning/MISSION-CONCEPT-LAB-MATRIX.md"
+    ],
+    "layers": [
+      {"id":"learn","label":"LEARN","required":true,"description":"Conventional lesson, terms, knowledge checks and assessment. This layer controls course progression."},
+      {"id":"remember","label":"REMEMBER","required":false,"description":"The episode song reinforces vocabulary and mental models."},
+      {"id":"watch","label":"WATCH","required":false,"description":"The canonical episode applies the same concepts inside character and story pressure."},
+      {"id":"lab","label":"LAB","required":false,"description":"PLAY and LAB_NODE scenarios require concept application under tactical constraints."}
+    ],
+    "modules": [
+      {
+        "id":"M01","sequence":1,"season":1,"episode_id":"S01E01","song":"High Alert","episode_title":"The Blip","status":"migrated-baseline","source_slug":"high-alert",
+        "concepts":["alert state","monitoring","scope of work","evidence trail","search/access policy","professional judgment"],
+        "objectives":["Triage alerts using confidence and corroborating evidence.","Establish a safe response boundary without overreacting.","Preserve useful telemetry before routine cleanup removes it."],
+        "labs":{"field_r":"Signal or Noise","field_e":"Safe Perimeter Under Uncertainty","field_t":"Preserve the One Useful Detail"},
+        "sources":["source-material/high-alert/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md","episodes/S01E01-HIGH-ALERT.md"]
+      },
+      {
+        "id":"M02","sequence":2,"season":1,"episode_id":"S01E02","song":"White Grey Black Hat","episode_title":"Permission Slip","status":"production-developed","source_slug":"white-grey-black-hat",
+        "concepts":["white/grey/black hat","authorization","scope","rules of engagement","white/grey/black box","attack surface","remediation"],
+        "objectives":["Separate capability from authority.","Classify discovered systems by scope state.","Document findings and remediation without overreaching."],
+        "labs":{"field_r":"Scope Recon","field_e":"Physical Boundary Enforcement","field_t":"Assessment Without Overreach"},
+        "sources":["source-material/white-grey-black-hat/LYRICS.md","episodes/S01E02-WHITE-GREY-BLACK-HAT.md","game/LVL-02-PERMISSION-SLIP.md","story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md"]
+      },
+      {
+        "id":"M03","sequence":3,"season":1,"episode_id":"S01E03","song":"OSINT","episode_title":"Open Book","status":"migrated-baseline","source_slug":"osint",
+        "concepts":["public sources","social/forums","metadata","source evaluation","corroboration","public vs private information","indicators","confidence"],
+        "objectives":["Build an intelligence picture from openly available information.","Distinguish fact, inference and stale or duplicated reporting.","Assign confidence based on independent corroboration."],
+        "labs":{"field_r":"Public Picture","field_e":"Physical Corroboration","field_t":"Confidence Ledger"},
+        "sources":["source-material/osint/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M04","sequence":4,"season":2,"episode_id":"S02E01","song":"Anti Social Engineering","episode_title":"The Human Layer","status":"migrated-baseline","source_slug":"anti-social-engineering",
+        "concepts":["social engineering","phishing/smishing","pretext","identity verification","trust","spoofing","human attack surface"],
+        "objectives":["Recognize contradictions that require identity verification.","Verify people without creating unnecessary operational disruption.","Triage suspicious communications and preserve evidence."],
+        "labs":{"field_r":"Contradiction Detection","field_e":"Verify Without Panic","field_t":"Message Triage"},
+        "sources":["source-material/anti-social-engineering/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M05","sequence":5,"season":2,"episode_id":"S02E02","song":"Red Blue Purple White Team","episode_title":"Four Colors","status":"migrated-baseline","source_slug":"red-blue-purple-white-team",
+        "concepts":["red team","blue team","purple team","white team","yellow/orange/green teams","exercise control","deconfliction","after-action learning"],
+        "objectives":["Identify common security-team functions.","Differentiate exercise activity from a real incident.","Combine offensive observations with defensive telemetry for improvement."],
+        "labs":{"field_r":"Exercise vs Reality","field_e":"Re-role the Floor","field_t":"Purple Merge"},
+        "sources":["source-material/red-blue-purple-white-team/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M06","sequence":6,"season":2,"episode_id":"S02E03","song":"Got Wifi","episode_title":"Dead Air","status":"migrated-baseline","source_slug":"got-wifi",
+        "concepts":["wireless defense","rogue AP","WIPS","spectrum","interference/jamming","WPA3/AES","signal vs service","OSI layers 1-2"],
+        "objectives":["Distinguish signal availability from working service.","Identify an unknown wireless source against authorized coverage.","Restore a trusted responder channel using approved authentication and backhaul state."],
+        "labs":{"field_r":"Spectrum Picture","field_e":"Relay Access / Hazard Control","field_t":"Trusted Responder Channel"},
+        "sources":["source-material/got-wifi/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M07","sequence":7,"season":3,"episode_id":"S03E01","song":"Data Breach","episode_title":"Exposure","status":"migrated-baseline","source_slug":"data-breach",
+        "concepts":["breach indicators","ransomware","physical media risk","password attacks","MFA","supply chain","abnormal transfer","access logs","containment","evidence preservation"],
+        "objectives":["Build an incident timeline from multiple evidence sources.","Contain affected systems before restoration.","Protect evidence and need-to-know access during response."],
+        "labs":{"field_r":"Incident Timeline","field_e":"Evidence / People Boundary","field_t":"Contain Before Restore"},
+        "sources":["source-material/data-breach/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M08","sequence":8,"season":3,"episode_id":"S03E02","song":"App Attacks","episode_title":"Bad Input","status":"migrated-baseline","source_slug":"app-attacks",
+        "concepts":["privilege escalation","RBAC","XSS","input validation","sanitization","CSP","injection family","URL parameters","code review","debugging"],
+        "objectives":["Identify trust boundaries from service behavior.","Select defensive controls for untrusted input paths.","Maintain critical continuity while an application is isolated or repaired."],
+        "labs":{"field_r":"Service Behavior Picture","field_e":"Continuity Route","field_t":"Trust Boundary Repair"},
+        "sources":["source-material/app-attacks/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M09","sequence":9,"season":3,"episode_id":"S03E03","song":"Virus Types","episode_title":"Patient Zero","status":"migrated-baseline","source_slug":"virus-types",
+        "concepts":["worm","keylogger","Trojan","ransomware","spyware","fileless malware","rootkit","MFA/biometrics","password spraying","credentials"],
+        "objectives":["Classify malware families from defensive symptoms.","Map likely propagation relationships without assuming one cause.","Isolate suspect systems while preserving trusted access."],
+        "labs":{"field_r":"Propagation Picture","field_e":"Quarantine Space","field_t":"Symptom-Based Classification"},
+        "sources":["source-material/virus-types/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M10","sequence":10,"season":4,"episode_id":"S04E01","song":"Installation Types","episode_title":"Clean Install","status":"migrated-baseline","source_slug":"installation-types",
+        "concepts":["compatibility","clean install","custom install","in-place upgrade","multiboot","backup","migration","registry","reboot","rollback"],
+        "objectives":["Inventory dependencies before changing a system.","Choose an installation strategy that fits risk and continuity requirements.","Preserve rollback and verify the resulting system state."],
+        "labs":{"field_r":"Dependency Inventory","field_e":"Keep the Site Operating","field_t":"Preserve or Rebuild"},
+        "sources":["source-material/installation-types/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M11","sequence":11,"season":4,"episode_id":"S04E02","song":"Dive In","episode_title":"Dumpster Signal","status":"migrated-baseline","source_slug":"dive-in",
+        "concepts":["discarded-information exposure","media disposal","asset tags","physical topology","RF remnants","deauthentication/packet overload as risk concepts"],
+        "objectives":["Recognize residual information and topology clues in owner-authorized material.","Preserve physical evidence without contaminating it.","Reconstruct a prior system architecture from labels, cables, components and records."],
+        "labs":{"field_r":"Residual Signal / Site Picture","field_e":"Safe Evidence Recovery","field_t":"Reconstruct the Old Architecture"},
+        "sources":["source-material/dive-in/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M12","sequence":12,"season":4,"episode_id":"S04E03","song":"IoT","episode_title":"House of Eyes","status":"migrated-baseline","source_slug":"iot",
+        "concepts":["IoT","smart meter","lighting","connected vehicles","wearables","default credentials","sensors","actuators","segmentation","fail-safe","human override"],
+        "objectives":["Assess conflicting sensor states using confidence and physical observation.","Establish a safe physical state when automation cannot be trusted.","Segment unreliable device groups and restore only trusted control."],
+        "labs":{"field_r":"Which Sensor Can We Believe?","field_e":"Establish Safe Physical State","field_t":"Segment and Recover Control"},
+        "sources":["source-material/iot/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M13","sequence":13,"season":5,"episode_id":"S05E01","song":"IaaS, SaaS, PaaS","episode_title":"Shared Responsibility","status":"migrated-baseline","source_slug":"iaas-saas-paas",
+        "concepts":["IaaS","PaaS","SaaS","application layer","VMs","switches/servers","runtime","Kubernetes","hybrid architecture","uptime"],
+        "objectives":["Map service dependencies to the party or layer that owns them.","Intervene only in infrastructure the team actually controls.","Validate service end to end after recovery."],
+        "labs":{"field_r":"Dependency Ownership Map","field_e":"Maintain Human Continuity","field_t":"Restore the Correct Layer"},
+        "sources":["source-material/iaas-saas-paas/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M14","sequence":14,"season":5,"episode_id":"S05E02","song":"Cap Ex Vs. Op Ex","episode_title":"Own the Exit","status":"migrated-baseline","source_slug":"cap-ex-vs-op-ex",
+        "concepts":["CapEx","OpEx","upfront cost","ongoing cost","asset ownership","variable/fixed cost","load","cost model"],
+        "objectives":["Distinguish capital and operating expenditure models.","Compare demand against real physical capacity.","Choose a resilient architecture under cost and availability constraints."],
+        "labs":{"field_r":"Demand Forecast","field_e":"Physical Capacity Reality","field_t":"Architecture Procurement Choice"},
+        "sources":["source-material/cap-ex-vs-op-ex/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M15","sequence":15,"season":5,"episode_id":"S05E03","song":"Trappin From The Cloud","episode_title":"Elastic","status":"migrated-baseline","source_slug":"trappin-from-the-cloud",
+        "concepts":["compute","storage","networking","analytics","agility","scalability","allocation","disaster recovery","elasticity","high availability"],
+        "objectives":["Track how load and failures migrate across a service.","Use abstract cloud resources to scale or fail over under changing demand.","Verify that remote elasticity still has a working local path."],
+        "labs":{"field_r":"Load / Failure Picture","field_e":"Protect Edge / Access Point","field_t":"Scale, Fail Over, Validate"},
+        "sources":["source-material/trappin-from-the-cloud/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M16","sequence":16,"season":6,"episode_id":"S06E01","song":"Per Diem","episode_title":"Road Kit","status":"migrated-baseline","source_slug":"per-diem",
+        "concepts":["keyboard","touchscreen","optical drive","Bluetooth","memory","CPU","SSD/HDD","NFC","DC power","battery","PCIe","hybrid systems"],
+        "objectives":["Identify hardware and interfaces from functional clues.","Match components into a working system chain.","Diagnose a failed link while protecting critical equipment."],
+        "labs":{"field_r":"Hardware Identification Under Pressure","field_e":"Move the Right Hardware","field_t":"Build the Working Chain"},
+        "sources":["source-material/per-diem/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M17","sequence":17,"season":6,"episode_id":"S06E02","song":"Patch Work","episode_title":"Trust Boundary","status":"migrated-baseline","source_slug":"patch-work",
+        "concepts":["update","patch","backward compatibility","UEFI/BIOS","fuzzing","input validation","code signing","integrity","secure cookies","static/dynamic analysis","secure coding","debugging"],
+        "objectives":["Evaluate change risk before patching.","Validate integrity and testing evidence before deployment.","Maintain rollback and recovery options if a change fails."],
+        "labs":{"field_r":"Change Risk Picture","field_e":"Maintain Patch Window","field_t":"Test Before Commit"},
+        "sources":["source-material/patch-work/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M18","sequence":18,"season":6,"episode_id":"S06E03","song":null,"episode_title":"Open Song #21","status":"owner-source-required","source_slug":null,
+        "concepts":[],"objectives":[],"labs":{},
+        "sources":["MAIN-STATUS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M19","sequence":19,"season":7,"episode_id":"S07E01","song":"RAID (HOT SITE)","episode_title":"RAID (HOT SITE)","status":"endgame-baseline","source_slug":"raid-hot-site",
+        "concepts":["RAID 0/1/5/6/10","striping","mirroring","parity","redundancy","failure tolerance","hot/warm/cold sites","failover","recovery priority"],
+        "objectives":["Reason about redundancy and failure domains.","Differentiate hot, warm and cold recovery sites.","Disable hostile redundancy selectively while preserving life-safety and succession-critical paths."],
+        "labs":{"field_r":"Hidden Redundancy Map","field_e":"Hold the Failure Domain","field_t":"Selective Failover Defeat"},
+        "sources":["source-material/raid-hot-site/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M20","sequence":20,"season":7,"episode_id":"S07E02","song":"Evil Twin","episode_title":"Evil Twin","status":"endgame-baseline","source_slug":"evil-twin",
+        "concepts":["evil twin/SSID","SIM-swap risk","replay","pass-the-hash","MITM/MITB","typosquatting","CSRF","privilege concepts","zero-days"],
+        "objectives":["Recognize deceptive substitutes for trusted identity and network assumptions.","Reconstruct a compromised trust chain without reproducing real-world intrusion procedures.","Choose defensive breaks that reduce the impact of one compromised relationship."],
+        "labs":{"field_r":"Identity / Network Deception Picture","field_e":"Human/Physical Opportunity Map","field_t":"Trust Chain Reconstruction"},
+        "sources":["source-material/evil-twin/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      },
+      {
+        "id":"M21","sequence":21,"season":7,"episode_id":"S07E03","song":"Ghost In The Wires","episode_title":"Ghost In The Wires","status":"endgame-baseline","source_slug":"ghost-in-the-wires",
+        "concepts":["network media","bound/unbound transmission","cable/media types","troubleshooting","interfaces","distributed control","authority/privilege reduction"],
+        "objectives":["Trace physical and wireless network paths across damaged infrastructure.","Preserve life support and safe physical dependencies during authority transfer.","Reduce write authority while preserving necessary read/observe capability and prove the old authority cannot act independently."],
+        "labs":{"field_r":"See the Whole Path","field_e":"Preserve the Living Infrastructure","field_t":"Remove Write, Preserve Read"},
+        "sources":["source-material/ghost-in-the-wires/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md"]
+      }
+    ]
+  }
+}
