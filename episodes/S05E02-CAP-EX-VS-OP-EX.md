@@ -1,134 +1,120 @@
 ---
-status: DRAFT CHAPTER BLUEPRINT
+status: CANON MIGRATED BLUEPRINT
 season: 5
 episode: 2
 global_episode: 14
 level_id: LVL-14
 song: Cap Ex Vs. Op Ex
 mission: Own the Exit
-runtime_target: 9 minutes
+runtime: FLEX-LONGFORM
+version: 3.0.0
+branch: main
 ---
 
-# S5E2 - CAP EX VS. OP EX
+# S5E2 — CAPEX VS OPEX / OWN THE EXIT
 
-## Merge contract
+## Ownership / deployment
 
-This chapter preserves the locked choice: Aya selects an expensive owned
-fallback because one critical dependency cannot be surrendered. The song's
-relationship metaphors inform the emotional question but must not reduce Aya
-or another character to property.
+```text
+PRIMARY OWNERS: Amira Hassan / Marc Dubois
+SECONDARY DEPTH: Helen Clarke / Priya Srisawat / Maren Quill / Li Wei / Grace Mbala / Grant Voss
+JORDAN: absent / locked out of solving the core problem
+BASE PLAYABLE POV: planning/governance/resource allocation team
+WILDCARD: unavailable — this episode must prove some problems cannot be solved by calling Jordan
+APEX: unavailable in canonical WATCH
+ROYCE: unavailable
+```
 
-## Chapter promise
+This supersedes the old Jordan/Aya ownership and keeps the cost/control/flexibility mechanics.
 
-A time-sensitive operation needs more compute, transport, and recovery capacity
-than the team owns. The player composes a plan from owned assets and rented
-services while balancing speed, control, cost, flexibility, and a clean exit.
+---
 
-## Song payload
+# Recurring cast / micro-development ledger
 
-- **Technical:** capital versus operational expenditure, upfront cost, ongoing
-  cost, ownership, utilization/load, maintenance, flexibility, and termination.
-- **Human:** permanence versus convenience, commitment, responsibility, and who
-  bears cost after the exciting decision is over.
-- **Visual:** owned equipment carries weight and scars; rented capacity appears
-  instantly but can disappear at the edge of a contract.
-- **Safety:** any lyric reference to stolen equipment is framed as provenance
-  and supply-chain risk, never a procurement option.
-
-## Nine-minute episode
-
-### 0:00-3:00 - Music film
-
-Two parallel operations perform the same task: one with a heavy owned machine,
-one with rented capacity that expands and vanishes. The emotional imagery asks
-whether access without responsibility is enough.
-
-### 3:00-6:00 - Human story
-
-Jordan and Aya discuss a shared future while sitting inside an executive budget
-argument. The institution treats ownership as a spreadsheet field; they feel
-its human version as risk, obligation, and the ability to leave. Jordan begins
-seeing how budgets silently pre-authorize ethical compromises.
-
-### 6:00-9:00 - Watch / Play mission
-
-WATCH has Aya approve the more expensive owned fallback for a critical control
-path. PLAY asks the player to allocate owned and rented capacity, forecast load,
-identify lock-in and exit risk, reserve contingencies, and defend the plan to an
-executive decision owner.
-
-## Playable level contract
-
-- **Player role:** Jordan preparing options; Aya makes/owns the final technical
-  recommendation.
-- **Environment:** operations planning room linked to physical staging, vendor
-  offers, and live capacity/load simulation.
-- **Primary objective:** field a viable capacity plan before the operation begins.
-- **Optional objectives:** stay within budget; preserve a clean exit; avoid a
-  single outside dependency; document total cost beyond the first hour.
-- **Complication:** the cheapest/fastest option concentrates control outside the
-  organization.
-- **Exit state:** the operation launches with a deliberate mix and an explicit
-  owner for every dependency.
-
-## Player verbs
-
-Compare, forecast, allocate, reserve, negotiate, justify, approve, stage.
-
-## Graded outcomes
-
-| Channel | Strong result | Weak but continuing result |
+| Character | Function | Development moment |
 |---|---|---|
-| Objective | Capacity meets load with an exit path | Capacity works but creates lock-in/debt |
-| Team | Operators can support the selected mix | Plan overloads maintenance or vendor staff |
-| Exposure | Critical control stays appropriately owned | Outside dependency sees more than intended |
-| Integrity | Provenance, cost, and authority are clear | Hidden cost/provenance problem is accepted |
-| Time | Capacity arrives before demand | Late procurement forces emergency compromise |
+| Amira | owner / mission sponsor | GLASSHOUSE guilt resurfaces when a cheaper flexible option leaves a critical dependency outside direct control. She refuses to let “cost efficient” substitute for naming who absorbs failure. |
+| Marc | owner / mission sponsor | Defends bounded risk-taking, then recognizes how easily spreadsheets recreate the same moral arithmetic that haunts him from Hana's death. |
+| Helen | governance | Realizes good governance cannot rely on “responsible executives” making heroic judgment every time; the architecture itself must constrain bad tradeoffs. |
+| Priya | public surface | Notices euphemisms in finance language make risk feel cleaner than it is; starts challenging how the institution narrates cost. |
+| Maren | communications | Refuses a polished internal summary that says “optimization” where people actually accepted exposure. |
+| Li | executive process | Converts the argument into a traceable decision rule instead of another personality conflict. |
+| Grace | human consequence | Identifies who will do the maintenance, carry the pager, lose sleep, or be stranded if the “cheap” plan fails. |
+| Grant Voss | Hitman money mirror | Shows the darker version of respectable capital: money can deliberately create distance between decision-maker and consequence. |
 
-## Persistent state written by the level
+---
 
-Budget, vendor dependence, and Aya/Jordan commitment states are written. The
-owned fallback becomes a concrete resource in `Elastic`; a weak plan makes the
-next global scale event more fragile.
+# Human problem
 
-## Prime background trace
+A time-sensitive operation needs more compute, transport and recovery capacity than the institution already owns.
 
-- **Visible trace:** a boardroom model compares a cheap leased route with an
-  expensive owned backbone; the `P-00` approval lands on the owned option before
-  the meeting begins.
-- **First-watch meaning:** executive finance pre-approved a costly contingency.
-- **Ghost payoff:** Prime funded the backbone that later keeps Site 0 alive—and
-  that Jordan ultimately uses as part of the RAID path.
+The cheapest/fastest option is operationally viable but concentrates control and future dependency outside McCluster.
 
-## Technology accuracy gate
+Amira sees the safety/governance risk.
+Marc sees the cost of delay and underutilized owned capacity.
+Helen sees a governance system asking humans to repeatedly solve a structural problem.
+Priya/Maren hear language laundering moral weight.
+Grace names who inherits the burden after the meeting ends.
 
-- **Sensor / input:** forecast load, current capacity, vendor terms, maintenance
-  limits, transport time, and cost.
-- **Compute / reasoning:** total-cost and dependency-risk comparison across a
-  stated time horizon.
-- **Energy / infrastructure:** owned hardware, rented/cloud capacity, power,
-  networking, transport, and recovery resources.
-- **Access / authorization:** executive-approved spend and provider scopes.
-- **Human decision owner:** Aya's technical recommendation; executive owner
-  authorizes expenditure.
-- **Failure mode:** capacity shortfall, cost overrun, lock-in, uncontrolled data
-  access, or an asset no one can maintain.
-- **Real concept taught:** CapEx and OpEx shift cost, control, flexibility, and
-  long-term responsibility; neither is automatically superior.
-- **Fictional extrapolation:** compressed real-time cost/load visualization.
+Jordan cannot “another path” his way out of the fact that every option has somebody paying for it.
 
-## Production and game assets
+---
 
-- Planning room and physical staging area - `NEEDED`
-- Cost/capacity/dependency simulation UI - `NEEDED`
-- Owned and rented resource cards/models - `NEEDED`
-- Jordan/Aya executive-room scenes - `NEEDED`
-- Song master/timed lyrics - `NEEDED`
+# Technical thesis
 
-## Merge hooks
+Teach:
+- CapEx vs OpEx;
+- upfront vs ongoing cost;
+- ownership/control;
+- utilization/load;
+- maintenance burden;
+- flexibility;
+- lock-in/exit risk;
+- total cost over time;
+- provenance and dependency concentration.
 
-- **Reads from:** shared-responsibility ownership gaps and Jordan/Aya commitment.
-- **Writes to:** available capacity and vendor exposure in `Elastic`.
-- **Reusable systems:** resource composition, budget, forecast, dependency risk.
-- **Owner decisions:** exact operational need, budget ceiling, and which owned
-  fallback Aya protects.
+Core line:
+
+> **The cheapest route is not cheap if somebody else owns your exit.**
+
+---
+
+# WATCH spine
+
+1. Planning team receives a hard deadline and capacity gap.
+2. Marc favors flexible rented capacity under bounded risk.
+3. Amira identifies the critical path that becomes externally controlled.
+4. Grace maps the human labor hidden behind each option.
+5. Priya/Maren challenge euphemistic language around “optimization.”
+6. Grant Voss appears on the Hitman side using financial distance as intentional power.
+7. Helen recognizes the decision needs an architecture rule, not a heroic executive preference.
+8. Li formalizes the ownership/exit criteria.
+9. Amira and Marc choose a mixed plan that preserves direct control over the life/safety-critical dependency while accepting OpEx where reversibility remains real.
+
+The exact asset mix remains an episode-detail decision, but the moral/technical logic is locked.
+
+---
+
+# PLAY
+
+Primary verbs:
+`compare / forecast / allocate / reserve / negotiate / justify / approve / stage / stress-test exit`.
+
+No Wildcard rescue. The player must live with constrained options and justify tradeoffs.
+
+---
+
+# Persistent residue
+
+- Amira/Marc's GLASSHOUSE relationship gains new tension without repeating the old event.
+- Helen becomes less satisfied with governance-by-good-intentions.
+- Priya/Maren become more willing to challenge institutional euphemism.
+- Li gains a durable decision-rule artifact used later.
+- Grace makes labor visible in executive planning.
+- Grant Voss becomes a recurring respectable-money antagonist/mirror.
+
+---
+
+# Governing line
+
+> **Ownership is not automatically virtue. But surrendering control without naming the exit is not flexibility either.**
