@@ -6,115 +6,121 @@ global_episode: 20
 level_id: LVL-20
 song: Evil Twin
 mission: Mirror Room
-runtime_target: 9 minutes
+runtime: FLEX-LONGFORM-CAPSTONE
+version: 3.1.0
 branch: main
 ---
 
-# S7E2 — EVIL TWIN
+# S7E2 — EVIL TWIN / MIRROR ROOM
 
 ## Owner-locked chronology
 
 `Evil Twin` begins **after RAID has already been physically won**.
 
-The room contains three surviving principals:
+Inside Site 0:
 
 ```text
 JORDAN VALE — sole surviving PRIM-side attacker
 ROYCE — sole surviving Hitman-side attacker
-PRIM2 — physically defeated, critically injured, still biologically active
+PRIM2 — physically defeated, critically injured, biologically active
 ```
-
-Jordan and Royce defeated PRIM2 together only after nearly turning their old Benji-era rivalry against one another.
 
 No separate contemporary Benji exists. Benji is Jordan's earlier Hitman identity.
 
-PRIM2's body has been returned to the suspension/life-support architecture. He no longer controls the physical battle, but his living identity remains entangled with the deepest trust root of Site 0.
+PRIM2's body is back inside the damaged suspension/life-support architecture. He no longer controls the physical battle, but his living identity remains entangled with the deepest trust root of Site 0.
 
 Jordan and Royce initially believe killing him can finish the job.
+PRIM2 knows it may instead leave root authority unresolved.
 
-PRIM2 knows it may do the opposite: his authority has not yet been cleanly transferred or revoked.
-
-His last weapon is information.
+His remaining weapon is information.
 
 ---
 
 # Episode ownership
 
 ```text
-EPISODE OWNER: PRIM2 / Jordan / Royce — shared confession triangle
-JORDAN PRESENCE: B — SHARED
-MISSION LEAD: no conventional mission lead; interrogation/verification state
+PRIMARY OWNERS: PRIM2 / Jordan / Royce
+SECONDARY DEVELOPMENT: surviving remote ensemble, especially Aya / Helen / Leila / Li / Amira / Marc / Jonas / Pylon / Chioma as continuity permits
 BASE PLAYABLE ROSTER: Jordan + Royce
-JORDAN PLAY STATE: SCRIPTED
-WILDCARD ELIGIBLE: no
-APEX ELIGIBLE: no — PRIM2 is the defeated root being interrogated
-ROYCE INCURSION ELIGIBLE: no random incursion — Royce is scripted principal
+JORDAN: scripted
+WILDCARD/APEX/ROYCE RANDOM SYSTEMS: not applicable
 ```
 
-This is not a rescue mission. It is an **epistemic boss fight**: the physical boss is down, but neither survivor yet understands what they have actually defeated.
+This is an **epistemic boss fight**, but it must not feel like the rest of the show disappeared because three men reached the core.
+
+---
+
+# Fresh-RAID grief law
+
+Evil Twin begins while the named RAID dead are still newly dead.
+
+The episode must therefore carry two simultaneous realities:
+
+1. Jordan/Royce/PRIM2 are trying to resolve the hidden authority problem;
+2. surviving remote coworkers/friends are learning exactly who did not come back.
+
+Longform structure may cut between Site 0 verification and remote aftermath.
+
+Required ensemble functions:
+- somebody is still waiting for a check-in that will never arrive;
+- somebody has to identify/confirm a death professionally before they can react personally;
+- somebody inherits work immediately because systems do not stop for grief;
+- somebody is furious that Jordan/Royce are still protecting PRIM2's life for strategic reasons;
+- somebody else understands why they have no clean alternative;
+- the absence of RAID members begins changing staffing before the funeral/memorial language even exists.
+
+> **The institution starts reorganizing around the dead before the living have processed that they are dead.**
+
+Exact reactions depend on the final RAID roster and are locked only after that roster is earned.
 
 ---
 
 # Episode job
 
-`Evil Twin` has five jobs:
+`Evil Twin` must:
 
-1. reveal that visible PRIM and Hitman were separate instruments under PRIM2's hidden dual-board view;
-2. reveal why Jordan's old Benji/Hitman history and Royce's succession mattered to PRIM2;
-3. reinterpret earlier episodes without claiming PRIM2 literally caused every event;
+1. reveal that visible PRIM and Hitman were separate systems under PRIM2's hidden cross-board view;
+2. explain why Jordan's old Benji/Hitman history and Royce's succession mattered to PRIM2;
+3. reinterpret earlier episodes without claiming PRIM2 caused every event;
 4. force Jordan and Royce to distinguish evidence from a defeated man's self-serving confession;
-5. establish why PRIM2 must remain alive long enough for the Mantle transfer in `Ghost In The Wires`.
+5. establish why PRIM2 must remain alive long enough for Mantle transfer/revocation;
+6. allow the wider surviving ensemble to independently verify or challenge parts of the confession;
+7. begin the staffing/grief consequences of RAID immediately.
 
 Central question:
 
 > **How much of a defeated man's truth do you need before killing him becomes the strategically stupid choice?**
 
-PRIM2 is simultaneously:
-- explaining;
-- defending himself;
-- manipulating;
-- bargaining;
-- documenting;
-- and occasionally admitting real culpability.
-
-The audience must never be required to trust him merely because he is finally talking.
-
 ---
 
 # Technical / educational thesis
 
-The `Evil Twin` concept becomes an identity, provenance and hidden-common-control problem.
+`Evil Twin` becomes an identity, provenance and hidden-common-control problem.
 
-The episode safely dramatizes:
+Safely dramatize:
 - two systems that appear independent while sharing hidden authority;
-- duplicated/mirrored identities;
-- trusted-looking interfaces with different provenance;
-- authentication versus appearance;
+- mirrored identities/interfaces;
+- authentication vs appearance;
 - common-root correlation;
-- information asymmetry;
 - conflicting evidence;
 - independent validation;
-- why two apparently separate views can expose one controlling source.
+- provenance to the root.
 
-Core lesson:
+Core line:
 
 > **Similarity is not proof of shared control. Independence is not proof of separate control. Follow provenance to the root.**
 
-Do not turn this episode into a real-world credential-theft, SIM-swap, social-engineering or intrusion recipe. Older procedural mission concepts are superseded.
+Do not turn this into a credential-theft, SIM-swap, social-engineering or real intrusion recipe.
 
 ---
 
-# WATCH structure
+# Longform WATCH structure
 
-## 0:00–0:45 — three people left
+## Immediate aftermath
 
-Site 0 is damaged, partially dark and running on emergency continuity.
+Jordan and Royce are injured, exhausted and surrounded by the practical evidence of the people they lost.
 
-Jordan and Royce are injured and exhausted.
-
-PRIM2 is inside the damaged suspension system.
-
-A root-state display establishes only what the characters can verify:
+Root display:
 
 ```text
 FACILITY BREACH: CONFIRMED
@@ -123,59 +129,52 @@ MANTLE AUTHORITY: ACTIVE / UNRESOLVED
 ACTIVE RAID PRINCIPALS: JORDAN VALE / ROYCE
 ```
 
-Royce wants a final answer now.
-Jordan wants to know what killing PRIM2 actually does to the architecture.
-
-PRIM2 begins talking because both possibilities threaten him.
+Royce wants finality.
+Jordan wants to know what killing PRIM2 does to the architecture.
+PRIM2 talks because both possible decisions threaten him.
 
 ## Music film — the board opens
 
-The song visualizes paired systems and paired histories:
+Visualize paired systems/histories:
 
 ```text
-PRIM brief          / Hitman brief
+PRIM brief           / Hitman brief
 public authorization / deniable order
 corporate logistics  / street logistics
-Aya's visible world  / Royce's visible world
+visible governance   / hidden root authority
 Jordan as student    / Jordan as old Benji subject
-one incident         / another incident that shared context
 ```
 
 The reveal is not “PRIM2 controlled every human choice.”
+The reveal is cross-compartment visibility and authority unavailable to people inside either board.
 
-The reveal is that PRIM2 possessed a cross-compartment view unavailable to people living inside either side.
+## Verification
 
-He could:
-- compare two supposedly separate situations;
-- route information differently;
-- authorize different responses;
-- withhold context;
-- observe collisions before participants understood they were related.
+Jordan refuses confession as proof.
+Royce refuses endless verification as another form of control.
 
-That is his real advantage.
+Their distrust becomes useful because they ask different questions:
 
-## Human escalation — verify the confession
+```text
+JORDAN -> systems / provenance / dependency
+ROYCE  -> power / obligation / motive / hierarchy
+```
 
-Jordan refuses to accept confession as proof.
-Royce refuses to let verification become endless delay.
+Remote surviving characters can provide independent evidence where communications and subsystem state permit.
 
-Their old relationship resurfaces:
-- Jordan once refused power Royce wanted;
-- Royce inherited a system Jordan walked away from;
-- both can interpret the other's motives in the most hostile possible way.
+Examples:
+- Leila/Li compare provenance/authority records;
+- Helen confirms where visible governance actually stopped;
+- Aya contributes Hana/Kkeutori-derived evidence without revealing more than PRIM3 has earned;
+- Jonas/Pylon verify root dependencies;
+- Amira/Marc identify GLASSHOUSE decision-state inconsistencies;
+- Chioma may challenge whether verification is costing living people elsewhere.
 
-The conflict becomes useful because they distrust PRIM2 for different reasons.
+No one becomes a passive witness merely because the three principals are physically at Site 0.
 
-Jordan asks systems questions.
-Royce asks power questions.
+## Mirror Room mission
 
-Together those questions expose contradictions neither would catch alone.
-
-## WATCH mission — Mirror Room
-
-The authored mission is a contained evidence/provenance reconstruction inside damaged Site 0.
-
-The survivors must identify which PRIM2 claims are:
+Classify PRIM2 claims:
 
 ```text
 VERIFIED
@@ -186,51 +185,37 @@ CONTRADICTED
 SELF-SERVING BUT POSSIBLY TRUE
 ```
 
-They compare:
-- surviving logs;
-- authority records;
-- mission artifacts;
-- independent records already collected in prior episodes;
-- Hitman-side evidence Royce possesses;
-- PRIM-side evidence Jordan possesses.
+Compare surviving Site 0 logs, prior episode artifacts, Jordan's evidence, Royce's Hitman knowledge, and remote independent records.
 
-The decisive result is not that every PRIM2 statement is proven.
+The decisive result is narrower than “PRIM2 told the truth about everything”:
 
-It is that one crucial claim is:
-
-> **PRIM2's living identity is still a required trust component for clean succession/revocation.**
+> **PRIM2's living identity remains a required trust component for clean succession/revocation.**
 
 Killing him now creates unacceptable uncertainty.
 
-Jordan and Royce therefore keep him alive for utility, not forgiveness.
+Jordan and Royce keep him alive for utility, not forgiveness.
 
 ---
 
 # PLAY contract
 
-PLAY controls Jordan and Royce as a deliberately uncomfortable two-person verification team.
-
-Their toolsets are asymmetric:
+Jordan and Royce are an uncomfortable two-person core verification team with remote evidence channels.
 
 ```text
 JORDAN
-- system dependency reasoning
+- dependency reasoning
 - provenance correlation
 - alternate explanation generation
 - technical validation
 
 ROYCE
 - Hitman institutional knowledge
-- human hierarchy / obligation knowledge
-- contradictory witness/context recognition
+- hierarchy / obligation knowledge
+- contradictory human context
 - pressure against PRIM2's evasions
 ```
 
-PRIM2 functions as a hostile information source rather than a normal controlled unit.
-
-The player should not be able to simply select “believe” or “disbelieve.”
-
-The gameplay loop is:
+Gameplay loop:
 
 ```text
 CLAIM
@@ -241,53 +226,43 @@ CLAIM
  -> DECISION
 ```
 
-Bad play can leave more uncertainty, destroy evidence, deepen Jordan/Royce distrust or enter Episode 21 with fewer verified authority facts.
-
-Hard canon still preserves the decision to keep PRIM2 alive long enough to attempt succession.
+Bad play can destroy evidence, deepen Jordan/Royce distrust or reduce verified facts entering Episode 21. Hard canon preserves the decision to keep PRIM2 alive long enough to attempt succession.
 
 ---
 
-# Major confession payload
+# Confession payload boundaries
 
-PRIM2 may reveal, subject to spoiler discipline and exact scene writing:
+PRIM2 may reveal/confirm enough to establish:
+- visible PRIM vs hidden Mantle;
+- cross-board visibility over PRIM/Hitman;
+- Royce's succession drawing attention backward toward Lex and Jordan/Benji;
+- active PRIM2 interest in Jordan during Ghost/Whip years;
+- age-33 reacquisition after college re-entry and Site 0 identity resolution;
+- selected information-routing/withholding choices;
+- Hana approaching living-root architecture;
+- PRIM2 benefiting from information asymmetry.
 
-- the visible PRIM program and hidden Mantle layer coexist;
-- Hitman and PRIM were compartmentalized under his cross-board observation/authority;
-- Royce's succession drew PRIM2's attention backward toward Bigga Lex and Benji/Jordan;
-- PRIM2 first became actively interested in Jordan during the Whip Equipped/Ghost years;
-- Jordan's college re-entry and Site 0 identity-resolution update restored high-confidence continuity on him;
-- some apparently coincidental cross-board events were visible to PRIM2 as one larger state;
-- Hana's investigation approached the living-root architecture from another direction;
-- PRIM2 repeatedly benefited from information asymmetry and selective disclosure.
-
-Do **not** use the episode to dump every future Whip Equipped/Hitman prequel answer. The reverse-reveal law still applies.
-
-PRIM2 can confirm enough to deepen those mysteries without narrating entire prequel plots.
+Do **not** dump the entire Whip Equipped or Hitman prequels. Reverse-reveal law remains active.
 
 ---
 
 # Relationship engine
 
 ### Jordan ↔ Royce
-The temporary alliance becomes more complicated rather than warmer.
-
-Jordan sees that Royce has evidence he does not.
-Royce sees that Jordan's technical caution is not cowardice.
-Neither forgets the old succession grievance.
+Alliance becomes more complicated, not warmer. Jordan learns Royce holds context he lacks; Royce learns Jordan's verification instinct is not simple cowardice.
 
 ### Jordan ↔ PRIM2
-Jordan's core conflict shifts from “defeat the man” to “inherit or dismantle the authority architecture without becoming him.”
+Conflict shifts from defeating the man to determining whether Jordan can inherit capability without reproducing the philosophy.
 
 ### Royce ↔ PRIM2
-Royce confronts the possibility that even his sovereignty inside Hitman existed beneath another person's larger information advantage.
+Royce confronts the insult that even his sovereignty existed beneath somebody else's larger information advantage.
 
-That is a personal insult as much as a strategic revelation.
+### surviving ensemble ↔ Jordan/Royce
+Some survivors may see “keep PRIM2 alive” as necessary. Others may see it as another elite decision made over the bodies of people who followed them. That disagreement carries into Ghost.
 
 ---
 
 # End state
-
-The episode ends when Jordan and Royce independently arrive at the same practical conclusion:
 
 ```text
 KILL PRIM2 NOW
@@ -296,23 +271,20 @@ KILL PRIM2 NOW
  -> unacceptable risk
 
 KEEP PRIM2 ALIVE TEMPORARILY
- -> verify trust-root dependency
+ -> verify root dependency
  -> transfer/revoke authority
- -> decide his final status afterward
+ -> decide final status afterward
 ```
 
-PRIM2 has successfully bought time.
-
-He has not bought forgiveness.
-
-Final state:
+Final:
 
 ```text
-PRIM2: ALIVE / DEFEATED / ROOT-AUTHORITY STILL ACTIVE
+PRIM2: ALIVE / DEFEATED / ROOT AUTHORITY STILL ACTIVE
 JORDAN: NOT YET PRIM3
-ROYCE: ARMED / ALLIED BY NECESSITY / NOT SUBORDINATE
+ROYCE: ALLIED BY NECESSITY / NOT SUBORDINATE
 MANTLE TRANSFER: REQUIRED
-EVIDENCE CONFIDENCE: PLAYER-DEPENDENT
+RAID GRIEF: ACTIVE
+VACANCIES: ACTIVE
 NEXT: GHOST IN THE WIRES
 ```
 
@@ -320,4 +292,4 @@ NEXT: GHOST IN THE WIRES
 
 # Governing line
 
-> **RAID defeats the body. Evil Twin defeats the lie that the body was the whole system.**
+> **RAID defeats the body. Evil Twin defeats the lie that the body was the whole system—while everybody else starts counting who the victory cost.**
