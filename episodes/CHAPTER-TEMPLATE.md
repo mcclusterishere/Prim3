@@ -1,7 +1,7 @@
 ---
 status: TEMPLATE
 system: PRIM3 episode / playable-level chapter
-version: 2.3.0
+version: 2.4.0
 branch: main
 ---
 
@@ -20,6 +20,7 @@ This template is subordinate to `CANON.md`, `story/EPISODE-MISSION-BIBLE.md`, `s
 - **Song:**
 - **Mission:**
 - **Source lyrics:** `source-material/<song>/LYRICS.md`
+- **WATCH planning runtime:** normally `20–35 min`, flexible by story
 - **Development state:** `DRAFT`, `PROPOSED`, or `CANON`
 
 ## Ownership / deployment contract
@@ -42,7 +43,7 @@ Ordinary PLAY should default to **no Jordan in the selectable base roster**.
 
 ## Cast density / recurring relationship web
 
-Every canonical episode should normally contain **7–12 meaningful named character presences across WATCH + PLAY**.
+Every canonical episode should normally contain **at least 6–7 meaningful named character presences**, with **7–10 preferred**. Larger convergent episodes may exceed ten.
 
 **Use the established recurring roster first.**
 
@@ -77,7 +78,7 @@ Default composition target:
 
 ```text
 1–2 primary owners — deep development
-4–8 recurring coworkers / command / technical / support people — micro/mid development
+3–6 recurring coworkers / command / technical / support people — micro/mid development
 0–2 recurring Hitman-side parallels when relevant
 0–2 established outside/historical relationships when specifically earned
 ```
@@ -160,11 +161,19 @@ One paragraph stating the human problem, technical problem, and playable fantasy
 - **Visual vocabulary:** repeatable images, colors, objects, and motion.
 - **Safety translation:** how offensive language or methods become defensive, authorized, or abstracted gameplay rather than an abuse tutorial.
 
-## Causal episode structure
+## Longform causal episode structure
 
-### Human trigger / cold open
+The old three-minute-block / nine-minute cap is retired.
 
-What changes before the lesson begins? Establish whose problem this is and why it matters now.
+Use flexible longform pacing:
+
+### Cold open / ordinary life
+
+Show people existing before the incident: work, food, jokes, money, relationships, fatigue, study, routine, unresolved residue.
+
+### Human trigger
+
+What changes? Establish whose problem this is and why it matters now.
 
 ### Music film / operational brief
 
@@ -172,7 +181,7 @@ State the visual thesis, performer/perspective, vocabulary, expected model, and 
 
 > **The briefing teaches the model. The mission attacks the model.**
 
-### Human escalation / mission threshold
+### Escalation / mission threshold
 
 Identify the choice/fact that commits the team. Show relationship/authority pressure before deployment.
 
@@ -180,9 +189,13 @@ Identify the choice/fact that commits the team. Show relationship/authority pres
 
 State the authored action path and canonical hard-spine outcome.
 
+### Aftermath / workplace return
+
+Let people carry injury, resentment, relief, jokes, workload and grief back into the same building. Do not end every episode at objective completion.
+
 ### PLAY mission
 
-Expand the same event into tactical choice space. Normal first-play target is approximately 15–30 minutes; capstones may be longer/checkpointed.
+Expand the same event into tactical choice space. Normal first-play planning band is roughly **20–45 minutes**; capstones may be longer/checkpointed.
 
 ## Playable level contract
 
@@ -266,15 +279,7 @@ If PRIM2 is not openly present, record:
 
 PRIM2 traces should usually be **institutional gravity**, not recurring literal physical cameos.
 
-Examples include:
-- approval;
-- omission;
-- timing;
-- resource allocation;
-- Pylon behavior;
-- cross-board data;
-- policy exception;
-- unexplained executive channel behavior.
+Examples include approval, omission, timing, resource allocation, Pylon behavior, cross-board data, policy exception and unexplained executive-channel behavior.
 
 Coordinate with `story/PRIME-LURK-LEDGER.md` where current.
 
@@ -319,7 +324,7 @@ List required location geometry, characters, props, UI, animation, VFX, music, S
 
 A chapter graduates from blueprint to current episode draft only when its:
 - human owner;
-- **7–12 meaningful-character development density target** or justified exception;
+- meaningful-character density or justified exception;
 - **development beat for every recurring named appearance**;
 - recurring-roster overlap;
 - whole-roster A/B/C/D continuity ledger;
