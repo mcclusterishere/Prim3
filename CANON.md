@@ -1,7 +1,7 @@
 # PRIM3 Canon Register
 
 **Status:** Foundation canon (main)  
-**Continuity version:** 0.7.0  
+**Continuity version:** 0.7.1  
 **Authority:** Matthew McCluster  
 **Rule:** If subordinate material conflicts with this register or a specialist authority delegated below, the higher/current authority wins until deliberately revised.
 
@@ -113,7 +113,22 @@ The series title therefore has two simultaneous readings:
 
 `story/IMMEDIATE-CAST-CANON.md` and `story/CHARACTERS.md` govern the current PRIM3-era roster.
 
-The 24 multinational PRIM/McCluster mains and the 48 attached Legacy/Freelancer relationships from `story/CAST-NATIONS.md` are canon, subject to deliberate future revision and specialist dossiers.
+The default immediate recurring roster is **39 character slots**:
+- **24 PRIM/McCluster mains**;
+- **Maren Quill**;
+- **Pylon**;
+- **PRIM2**;
+- **12 contemporary Hitman-side figures**, including Royce.
+
+These are the people the show should repeatedly reuse across workplaces, classes, briefings, missions, debriefs, meals, transport, arguments and consequences.
+
+Canonical production rule:
+
+> **Use the recurring roster before inventing anybody else.**
+
+The 48 Legacy/Freelancer names in `story/CAST-NATIONS.md` are **not automatically immediate-story canon**. They remain a development/history pool unless a specialist authority separately promotes them. Characters already promoted through specific canon—such as Hana Lee, Ren Shinoda, Tariq Al-Farsi, Zayd Al-Harthi, and Bigga Lex the Jet—remain canon within those authorities.
+
+Historical/outside characters should appear because a specific relationship requires them, not because an episode needs more bodies.
 
 Jordan is the canonical **Wildcard / Flex**:
 - he takes unowned jobs;
@@ -127,6 +142,10 @@ Jordan is the canonical **Wildcard / Flex**:
 > **If a task falls between chairs, Jordan picks it up.**
 
 Wildcard is an operational property, not an episode-ownership rule.
+
+Episode density is governed by `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md`, whose default principle is:
+
+> **Same building. Same company. Same people. New pressure.**
 
 ---
 
