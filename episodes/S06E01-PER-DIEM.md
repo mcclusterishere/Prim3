@@ -1,135 +1,114 @@
 ---
-status: DRAFT CHAPTER BLUEPRINT
+status: CANON MIGRATED BLUEPRINT
 season: 6
 episode: 1
 global_episode: 16
 level_id: LVL-16
 song: Per Diem
 mission: Road Kit
-runtime_target: 9 minutes
+runtime: FLEX-LONGFORM
+version: 3.0.0
+branch: main
 ---
 
-# S6E1 - PER DIEM
+# S6E1 — PER DIEM / ROAD KIT
 
-## Merge contract
+## Ownership / deployment
 
-This chapter preserves Jordan as the veteran younger operators imitate. Its
-central action is his choice to send a younger operator to rest and take the
-ugly shift himself. The episode may critique temporary/disposable labor without
-inventing new named trainees before owner approval.
+```text
+PRIMARY OWNERS: Jordan Vale / Valeria Soto
+SECONDARY DEPTH: Chioma Okeke / Arjun Mehta / Sari Wulandari / Mina “Halo” Brooks / Tone Rivera / Omar “Rack” Dillon / Dez “Switch” Calhoun
+JORDAN: scripted from launch — rare ordinary-season Jordan PLAY episode
+WILDCARD COST: none; scripted mission
+APEX: eligible only if qualified CRITICAL state persists
+ROYCE: eligible as hostile escalation
+```
 
-## Chapter promise
+This is intentionally one of the few ordinary-season missions where Jordan is playable from launch. By now the player has spent years learning other people's specialties, so Jordan's breadth finally feels exceptional instead of normal.
 
-A remote emergency site needs communications and compute from whatever fits in
-the team's cases. The player must build the minimum useful environment while
-recognizing that tired people are part of the failure model, not an unlimited
-resource.
+---
 
-## Song payload
+# Recurring cast / micro-development ledger
 
-- **Technical:** keyboard/input, touchscreen, memory, CPU, speakers/audio,
-  optical versus solid-state versus magnetic storage, hybrid systems, NFC,
-  batteries/DC power, and PCIe interconnects.
-- **Human:** permanent versus temporary work, pride in hardware, competition,
-  deployment bravado, and the physical cost behind “always on.”
-- **Visual:** airports, hard cases, cheap meals, hotel light, per-diem receipts,
-  worn hardware, and a team that looks glamorous only in the edited version.
-- **Safety:** hardware concepts become loadout and troubleshooting decisions;
-  threats/weapon metaphors stay cinematic rather than actionable mechanics.
-
-## Nine-minute episode
-
-### 0:00-3:00 - Music film
-
-Every hardware metaphor appears first as swagger and then as labor: a CPU is a
-person coordinating tasks, memory is what the exhausted team forgets, and
-solid-state speed contrasts with the human body slowing down.
-
-### 3:00-6:00 - Human story
-
-New trainees think Jordan has “made it.” Jordan sees cases, debt, missed life,
-injury, and names that disappeared. A younger operator hides exhaustion to
-avoid looking disposable. Jordan recognizes the same performance in himself.
-
-### 6:00-9:00 - Watch / Play mission
-
-WATCH has Jordan send the trainee to sleep and take the worst shift. PLAY asks
-the player to select hardware, allocate power and redundancy, stage a minimal
-network/compute service, schedule rest, and choose what capability can wait.
-
-## Playable level contract
-
-- **Player role:** Jordan as field deployment lead.
-- **Environment:** transport arrival, temporary operations shelter, power point,
-  communications mast/line, equipment cases, and rest area.
-- **Primary objective:** stand up minimum viable communications and compute.
-- **Optional objectives:** preserve a spare; keep load within power budget;
-  rotate staff before fatigue becomes failure; maintain chain of custody.
-- **Complication:** one desired capability consumes the power, person, or port
-  needed for the critical service.
-- **Exit state:** the site is operational, but the debrief records the human
-  cost rather than calling deployment a clean success.
-
-## Player verbs
-
-Pack, connect, allocate, power, test, prioritize, schedule, rotate, repair.
-
-## Graded outcomes
-
-| Channel | Strong result | Weak but continuing result |
+| Character | Function | Development moment |
 |---|---|---|
-| Objective | Minimum service plus tested spare | Service works with no reliable fallback |
-| Team | Fatigue is actively managed | Jordan/trainees accumulate dangerous exhaustion |
-| Exposure | Equipment and data stay controlled | Improvised staging leaves assets vulnerable |
-| Integrity | Loadout and work/rest decisions are documented | Hero culture hides unsafe choices |
-| Time | Critical path comes online first | Noncritical gear delays useful service |
+| Jordan | owner / field lead | His vehicle-living/Ghost-years instincts surface through how naturally he packs, sleeps, reroutes and preserves optionality. He also recognizes hero culture in himself and tries not to reproduce it. |
+| Valeria | owner / younger operator | Now competent enough to notice that Jordan's “road wisdom” is not normal professional experience; she also refuses to hide fatigue just to prove she belongs. |
+| Chioma | command | Gives Jordan field authority while setting explicit boundaries, showing their long conflict has matured into conditional trust. |
+| Arjun | entry/physical | Owns deployment geometry and safe access, proving he has grown beyond being treated as auxiliary support. |
+| Sari | operations | Uses her scaling lessons to choose what capability does not need to travel; becomes less impressed by maximalist loadouts. |
+| Mina | Hitman command mirror | Appears as a leader who genuinely tracks who comes home, making her later risk decisions emotionally legible. |
+| Tone | Hitman control | Begins showing that his identity is not pure aggression; he cares about controlling tempo because chaos once cost him something not yet fully revealed. |
+| Rack | Hitman logistics | Deepens as the person everyone expects to have the right material at the right time; reliability becomes both affection and burden. |
+| Dez | Hitman adaptive operator | Sees Jordan's breadth from the opposite organizational lineage and becomes increasingly obsessed with whether versatility can become identity. |
+| Royce | conditional escalation | If he arrives, old history with Jordan changes everybody else's mission in seconds; he remains a story-level threat, not a random boss skin. |
 
-## Persistent state written by the level
+---
 
-Writes trainee trust, Jordan fatigue/injury, available road-kit inventory, and
-whether Jordan is reproducing or resisting Prime's attrition culture. These
-states change resources and dialogue in `Trust Boundary` and `Hot Site`.
+# Human problem
 
-## Prime background trace
+A remote emergency site needs minimum viable communications/compute from whatever the team can actually transport, power, cool and staff.
 
-- **Visible trace:** the deployment ledger shows a `P-00` exception rejecting a
-  cost-cutting proposal and continuing payment to the S2 veteran's family while
-  a nearby roster labels younger operators `CANDIDATE` rather than `CORE`.
-- **First-watch meaning:** a distant executive protects field compensation while
-  HR distinguishes temporary staff.
-- **Ghost payoff:** the same Prime who materially cared for operators also
-  classified people inside a succession system that treated them as replaceable.
+Younger people still mythologize Jordan as the guy who can do everything.
+Valeria is now experienced enough to see the cost behind that image.
 
-## Technology accuracy gate
+Jordan has to decide whether being the Wildcard means taking every ugly shift himself—or building a team that does not require him to destroy himself to keep it alive.
 
-- **Sensor / input:** site requirements, case inventory, power readings,
-  link/service tests, and staff fatigue reports.
-- **Compute / reasoning:** prioritize dependencies and match hardware interfaces
-  to the minimum service plan.
-- **Energy / infrastructure:** portable/utility power, batteries, networking,
-  compute, storage, cooling, and transport.
-- **Access / authorization:** emergency deployment scope at an owner-approved
-  site.
-- **Human decision owner:** Jordan as field lead, accountable to incident command.
-- **Failure mode:** wrong hardware, insufficient power/cooling, no spare,
-  exhausted operator error, or uncontrolled assets.
-- **Real concept taught:** field systems are constrained by hardware,
-  interfaces, logistics, energy, and human endurance.
-- **Fictional extrapolation:** none required.
+---
 
-## Production and game assets
+# Technical thesis
 
-- Modular road-kit inventory and case props - `NEEDED`
-- Temporary site and deployable power/network pieces - `NEEDED`
-- Loadout/power/dependency UI - `NEEDED`
-- Fatigue and staffing system - `NEEDED`
-- Jordan and unnamed trainee performance - `NEEDED`
-- Song master, travel room tone, hardware and generator SFX - `NEEDED`
+Teach through deployment decisions:
+- CPU/memory/storage/interface basics;
+- batteries/DC power;
+- hardware compatibility;
+- portable networking;
+- redundancy/spares;
+- loadout constraints;
+- power/cooling;
+- staffing and fatigue as system constraints.
 
-## Merge hooks
+Core line:
 
-- **Reads from:** Season 5 scale and Jordan's growing institutional authority.
-- **Writes to:** fatigue/resources and Jordan's veteran identity before betrayal.
-- **Reusable systems:** inventory/loadout, power budget, staffing/fatigue.
-- **Owner decisions:** emergency type, trainee identity, and which critical
-  service the road kit restores.
+> **The road kit includes the people carrying it.**
+
+---
+
+# WATCH spine
+
+1. Deployment begins with familiar travel/workplace banter from characters the audience already knows.
+2. Jordan's packing/routing instincts reveal unexplained depth without exposing Whip history.
+3. Valeria notices he is too comfortable living from cases/vehicles/temporary spaces.
+4. Sari cuts unnecessary capability from the loadout.
+5. Arjun identifies site-access/physical sequence problems.
+6. A staffing/power constraint forces rest-vs-capability choices.
+7. Jordan initially volunteers to absorb the ugly shift; Valeria pushes back on the mythology that makes this admirable.
+8. Chioma forces a rotation plan rather than rewarding martyrdom.
+9. Parallel Hitman scenes with Mina/Tone/Rack/Dez deepen the opposing workforce before the final war.
+10. Optional Royce/Apex escalation may test the whole system.
+
+---
+
+# PLAY
+
+Primary verbs:
+`pack / connect / allocate / power / test / prioritize / schedule / rotate / repair / extract`.
+
+Jordan can cross lanes, but specialist bonuses and authored expertise still matter. The player should feel his optionality without concluding he is the best person at everything.
+
+---
+
+# Persistent residue
+
+- Valeria sees a hidden older Jordan without learning the prequel.
+- Jordan starts rejecting self-erasure as leadership.
+- Chioma/Jordan trust becomes adult rather than adversarial.
+- Sari/Arjun gain more command credibility.
+- Mina/Tone/Rack/Dez deepen before endgame attrition.
+- Any injuries/fatigue remain persistent into Episodes 17–19.
+
+---
+
+# Governing line
+
+> **Jordan can cover every chair. His growth is learning that he should not have to.**
