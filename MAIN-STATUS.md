@@ -1,96 +1,101 @@
 # Main branch status
 
+## Current state
+
+**main is authoritative.**
+
+The September 10 PRIM3 continuity migration is now structurally complete through the local episode layer.
+
+- Episodes **01–18** have migrated current ensemble blueprints.
+- Episodes **19–21** retain the current endgame chronology and inherit living-cast, attrition, grief, vacancy and promotion law.
+- The old nine-minute WATCH cap is retired.
+- Standard WATCH planning is now **flexible longform, approximately 20–35 minutes**.
+- PLAY expands the same canonical event and may run longer.
+
+The project is ready for **episode-by-episode scene development**, not another macro migration pass.
+
+---
+
 ## Source material
 
-All **20 owner-supplied PRIM3 songs** currently available in this project are represented under `source-material/` on **main**.
+All **20 owner-supplied PRIM3 songs** currently available are represented under `source-material/`.
 
-- `got-wifi/` from `Prim3 - Got Wifi_.docx`
-- `virus-types/` from `Prim3 - Virus Types.docx`
-- `raid-hot-site/LYRICS.md` extracted from the owner-supplied DOCX
-- `data-breach/` remains the fullest audio + timed-lyrics/distribution package currently stored in the repo
-- other tracks currently preserve available lyric/source material
+Global Episode 18 remains the protected open slot for **Song #21**. Do not invent its source content.
 
-See `source-material/README.md` and `story/SONG-CATALOG.md`.
+---
 
-## Current highest-priority story authorities
+## Highest-priority story authorities
 
-Main reflects the September 10 continuity migration and living-cast update:
+1. `CANON.md` — root authority, continuity v0.8.0
+2. `story/PRIM-SUCCESSION-AUTHORITY.md`
+3. `story/PRIM-DUAL-MEANING-AUTHORITY.md`
+4. `story/ENSEMBLE-POV-AUTHORITY.md`
+5. `story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md`
+6. `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md`
+7. `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md`
+8. `story/HUMAN-STORY-ENGINE.md`
+9. `story/CHARACTER-PSYCHOLOGY-DECISION-AUTHORITY.md`
+10. `story/CHARACTER-RELATIONSHIP-STATE.md`
+11. `story/EPISODE-MISSION-BIBLE.md` v2.3
+12. `story/IMMEDIATE-CAST-CANON.md`
+13. current character-specific dossiers
+14. migrated local episode files
 
-- `CANON.md` — root authority
-- `story/PRIM-SUCCESSION-AUTHORITY.md` — PRIM0 -> PRIM1 -> PRIM2 -> PRIM3/Jordan succession numbering
-- `story/PRIM-DUAL-MEANING-AUTHORITY.md` — cover acronym vs executive/root acronym
-- `story/ENSEMBLE-POV-AUTHORITY.md` — rotating episode ownership + Jordan gameplay withholding law
-- `story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md` — 21-episode ownership/development spine
-- `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md` — 7–12 recurring-presence target + micro-development for every named recurring appearance
-- `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md` — support-to-main promotion, death, vacancy, grief and replacement canon
-- `story/HUMAN-STORY-ENGINE.md` — continuous ensemble-development standard
-- `story/CHARACTER-RELATIONSHIP-STATE.md` — persistent relationship ledger including death/replacement aftermath
-- `story/EPISODE-MISSION-BIBLE.md` — current 21-episode causal/deployment authority
-- `story/IMMEDIATE-CAST-CANON.md` — 39-slot recurring immediate-story cast architecture
-- `story/CHARACTER-PSYCHOLOGY-DECISION-AUTHORITY.md` — character-history-to-behavior + micro-development standard
-- `story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md` — Jordan/Benji/Whip psychological history
-- `story/AYA-SHINODA-PSYCHOLOGICAL-BACKGROUND.md` — Aya full background
-- `story/HANA-LEE-PSYCHOLOGICAL-BACKGROUND.md` — Hana full background
-- `story/AYA-HANA-INTELLIGENCE-CANON.md` — Hana/NIS/PRIM2/GLASSHOUSE hidden truth
-- `story/AYA-HANA-KKEUTORI-BREADCRUMB-CANON.md` — Hana's delayed breadcrumb path
-- `story/AYA-HANA-KKEUTORI-JOKE-ARCHIVE.md` — actual friendship jokes and clue dialogue
+Historical migration records:
+- `CANON-SWEEP-2026-09-10.md`
+- `episodes/LIVING-CAST-MIGRATION-AUDIT-2026-09-10.md`
 
-## Current highest-priority gameplay authorities
+---
 
-- `game/TACTICAL-IT-MECHANICS-BIBLE.md` — deterministic technical/tactical grammar
-- `game/LEARNING-MISSION-SOURCE-OF-TRUTH.md` — song-to-concept-to-mission learning loop
-- `game/OMNISCIENT-COMMAND-INTERFACE.md` — ensemble mission-control / earned-knowledge UI
-- `game/GAME-MECHANICS-COMPLETE.md` — current high-level gameplay spine including persistent roster loss/vacancies/onboarding
-- `game/WILDCARD-INTERVENTION-AUTHORITY.md` — Jordan Wildcard, PRIM2 Apex rescue, and Royce Incursion system
-- `game/MECHANICS-GAPS-FILLED.md` — subordinate implementation supplement
-- `episodes/CHAPTER-TEMPLATE.md` — v2.3 episode template with recurring-cast development, whole-roster ledger, attrition and replacement fields
+## Highest-priority gameplay authorities
 
-## Character system
+- `game/TACTICAL-IT-MECHANICS-BIBLE.md`
+- `game/LEARNING-MISSION-SOURCE-OF-TRUTH.md`
+- `game/OMNISCIENT-COMMAND-INTERFACE.md`
+- `game/GAME-MECHANICS-COMPLETE.md`
+- `game/WILDCARD-INTERVENTION-AUTHORITY.md`
+- `episodes/CHAPTER-TEMPLATE.md` v2.4
 
-The default immediate recurring world is **39 character slots**:
+---
 
-- **24 PRIM/McCluster mains**;
-- **Maren Quill**;
-- **Pylon**;
-- **PRIM2**;
-- **12 contemporary Hitman-side recurring characters**, including Royce.
+## Immediate recurring world
 
-These people are expected to recur across the same buildings, missions, shifts, command rooms, classes, meals, transport, labs and consequences.
+Default immediate recurring roster: **39 character slots**.
 
-Canonical production rule:
+```text
+24 PRIM / McCluster mains
++ Maren Quill
++ Pylon
++ PRIM2
++ 12 contemporary Hitman figures
+= 39
+```
+
+Production rule:
 
 > **Use the 39 before inventing anybody else.**
 
-The 48 Legacy/Freelancer names in `story/CAST-NATIONS.md` are **not automatically immediate-story canon**. They are a development/history pool unless separately promoted by specific authority.
+The 48 Legacy/Freelancer names in `story/CAST-NATIONS.md` remain a development/history pool unless separately promoted.
 
-Already promoted historical/outside characters such as Hana, Ren, Tariq, Zayd and Bigga Lex remain canon where their specialist files establish them.
+Already-promoted outside/history people such as Hana, Ren, Tariq, Zayd and Bigga Lex remain canon where their specialist authorities establish them.
 
-Jordan is canonically **Wildcard / Flex**: he can work across mission lanes but does not automatically own the narrative, authorization or somebody else's technical specialty.
-
-Aya is reference-quality alongside Jordan. Hana, Ren, Tariq and Zayd have dedicated/supporting authorities around Aya's web.
+---
 
 ## Continuous ensemble-development law
 
 Episode ownership determines **depth**, not exclusivity.
 
-Every recurring named character who appears in an episode must receive at least one meaningful development beat.
-
-A beat can be small:
-- relationship movement;
-- changed habit;
-- competence/status shift;
-- secret learned/hidden;
-- material-life pressure;
-- grief movement;
-- future decision seed.
-
-Canonical shorthand:
+Every meaningful recurring named character who appears receives a development beat.
 
 > **If you appear, you move.**
 
-Ordinary episodes should normally contain **7–12 meaningful named presences across WATCH + PLAY**, with most selected from the recurring 39-person ecosystem.
+Ordinary episode target:
 
-Do not force all 39 onto camera. Instead, every episode tracks the whole current recurring roster through:
+> **at least 6–7 meaningful named presences, with 7–10 preferred**
+
+primarily drawn from the established recurring world.
+
+Do not force all 39 onto camera. Whole-roster continuity uses:
 
 ```text
 A — ACTIVE DEVELOPMENT
@@ -99,229 +104,150 @@ C — OFFSCREEN CONSEQUENCE
 D — UNAFFECTED / OUT OF FRAME
 ```
 
-This prevents both roll-call writing and accidental character disappearance.
+This allows realistic recurrence without roll-call writing.
+
+---
 
 ## Cast lifecycle law
 
 Support/main status is dynamic.
 
-A recurring support character may organically become a main through repeated usefulness, relationships, responsibility, secrets and audience attachment.
+A support character may quietly become a main through repeated usefulness, relationships, responsibility, promotion, secrets and audience familiarity.
 
-A main may drift outward, transfer, lose clearance, burn out, become injured, leave, turn antagonistic or die.
-
-Missions are dangerous. Named character death is allowed when earned.
-
-Death must change the institution:
-- work becomes uncovered;
-- deployments change;
-- promotions happen badly or reluctantly;
-- routines disappear;
-- grief changes relationships;
-- equipment/secrets may be inherited;
-- some people become cautious while others become reckless.
+A main may transfer, lose clearance, become injured/disabled, burn out, drift outward, become antagonistic, resign or die.
 
 > **If you die, the building changes.**
 
+Death creates staffing, workload, authority, equipment, routine, relationship and mission consequences.
+
 There is no automatic one-for-one replacement.
 
-If a newcomer eventually fills a vacancy, they inherit the **vacancy**, not the predecessor's personality or relationships. They should already know some people and be unknown to others.
+A later newcomer inherits the **vacancy**, not the dead person's personality or social position.
 
-## Ensemble story law
+---
 
-PRIM3 is not a Jordan-only protagonist structure.
+## Episode migration status
 
-- Jordan's seven academic years provide a major chronological spine.
-- Episode POV and emotional ownership rotate.
-- Jordan may be owner, co-owner, supporting, cameo, mentioned-only or absent.
-- Most Episodes 02–18 deepen characters other than Jordan even when he appears.
-- Mission lead, playable POV and emotional owner may be different people.
-- Every appearing recurring character still receives a micro-development write.
-- Final RAID / Evil Twin / Ghost naturally return Jordan, PRIM2 and Royce to the center because they carry the succession endgame.
+Episodes 01–18 are now **MIGRATED BASELINES**:
 
-Canonical shorthand:
+- E01 `High Alert / The Blip` — future PRIM2/Jordan/Royce; rewind Blip = Jordan age-33 reacquisition
+- E02 `Permission Slip` — Nusrat/Miguel
+- E03 `Open Book` — Oksana/Rafael
+- E04 `The Human Layer` — Priya/Sora
+- E05 `Four Colors` — Chioma/Thandiwe
+- E06 `Dead Air` — Sari/Yonas; casualty identity intentionally deferred until scene development earns it
+- E07 `Exposure` — Leila/Li
+- E08 `Bad Input` — Aya/Minh
+- E09 `Patient Zero` — Dmitri/Oksana
+- E10 `Clean Install` — Valeria
+- E11 `Dumpster Signal` — Grace/Rafael
+- E12 `House of Eyes` — Jonas/Pylon
+- E13 `Shared Responsibility` — Helen/Li/Yonas
+- E14 `Own the Exit` — Amira/Marc
+- E15 `Elastic` — Sari/Sable; separate contemporary Benji removed
+- E16 `Road Kit` — Jordan/Valeria
+- E17 `Trust Boundary` — Aya
+- E18 open Song #21 container — Leila/Helen/Jordan story function locked
 
-> **The succession belongs to Jordan. The world belongs to everybody.**
+Episodes 19–21 remain current endgame baselines:
+- E19 `RAID (HOT SITE)` — Jordan/Royce/PRIM2
+- E20 `Evil Twin` — PRIM2/Jordan/Royce
+- E21 `Ghost In The Wires` — Jordan/PRIM2; Royce secondary
 
-Population shorthand:
+---
 
-> **Same building. Same company. Same people. New pressure.**
+## Attrition pressure points
 
-Current episode-owner direction is defined by `story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md`. Full recurring-population logic is defined by `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md`.
+### Episode 06
 
-Key ownership assignments include:
-- E02 Nusrat/Miguel;
-- E03 Oksana/Rafael;
-- E04 Priya/Sora;
-- E05 Chioma/Thandiwe;
-- E06 Sari/Yonas;
-- E07 Leila/Li;
-- E08 Aya/Minh;
-- E09 Dmitri/Oksana;
-- E10 Valeria;
-- E11 Grace/Rafael;
-- E12 Jonas/Pylon;
-- E13 Helen/Li/Yonas;
-- E14 Amira/Marc;
-- E15 Sari/Sable;
-- E16 Jordan/Valeria;
-- E17 Aya;
-- E18 Leila/Helen/Jordan;
-- E19–21 PRIM2/Jordan/Royce endgame with varying ownership.
+If `Got Wifi` retains a major death, the victim must be an **existing recurring person** developed through Episodes 01–05.
 
-Ownership assignments do **not** imply only those people develop.
+No unnamed veteran.
+No automatic replacement.
+
+Exact victim remains intentionally open until the first five episodes have enough scene-level life to make the choice earned.
+
+### Final RAID
+
+RAID assault teams must be composed of established recurring PRIM and Hitman characters.
+
+No finale redshirts.
+
+Locked end state:
+- Jordan sole surviving PRIM-side attacker;
+- Royce sole surviving Hitman-side attacker;
+- every other assault-team member dies;
+- Jordan + Royce defeat PRIM2 together.
+
+Exact team membership is chosen after Episodes 02–18 are developed enough to make each person's decision to enter RAID psychologically and operationally credible.
+
+---
 
 ## Gameplay intervention law
 
-**Ordinary PLAY launches with ensemble characters and no Jordan in the normal selectable roster.**
+Ordinary PLAY launches with ensemble characters, not Jordan by default.
 
-Jordan appears from launch only when a specific authored story mission scripts him.
-
-Canonical Standard escalation:
+Standard escalation:
 
 ```text
-NORMAL PRIM TEAM
-    -> mission reaches CRITICAL
+ENSEMBLE MISSION
+-> CRITICAL
 JORDAN WILDCARD REQUEST
-    -> Jordan is present but critical failure persists on an eligible high-value mission
+-> qualified mission remains/re-enters CRITICAL
 PRIM2 APEX REQUEST
 ```
 
-Scarcity:
-- **2 non-scripted Jordan Wildcard Authorizations per season**;
-- **3 non-scripted PRIM2 Apex Authorizations across the entire seven-season campaign**;
-- scripted Jordan/PRIM2 deployments do not consume these pools.
+Standard scarcity:
+- Jordan Wildcard: **2 non-scripted calls / season**
+- PRIM2 Apex: **3 non-scripted calls / campaign**
+- Royce hostile incursion: **max 2 non-scripted / season**, max one per mission, two-mission cooldown
 
-PRIM2 has privileged standing oversight when mission telemetry is available, but:
-
-```text
-PRIM2 OBSERVING != PRIM2 TAKING OVER
-```
-
-He is powerful but not perfectly omniscient; missing/stale/compromised telemetry and private human meaning can remain outside his picture.
-
-The hostile side can also escalate:
-- Royce may enter eligible operations as a persistent Hitman-side incursion threat;
-- Standard cap is **2 non-scripted Royce Incursions per season**;
-- maximum one per mission;
-- two-mission cooldown after a non-scripted appearance;
-- story missions, especially final RAID, may override the random-incursion cap.
-
-Mechanical identity shorthand:
+Mechanical identity:
 
 ```text
 ENSEMBLE -> solves the mission
-JORDAN   -> restores optionality / finds another path
-PRIM2    -> expands sovereign picture + authority
-ROYCE    -> violently destabilizes control + tempo
+JORDAN   -> restores optionality
+PRIM2    -> expands picture + authority
+ROYCE    -> destabilizes control + tempo
 ```
 
-Interventions operate on current state. They cannot resurrect dead characters, rewind clocks, restore irrecoverably destroyed evidence or erase consequences. They can preserve living characters, salvage recoverable objectives and reduce cheap campaign-ending frustration.
+Interventions cannot resurrect dead characters or erase consequences.
 
-## Persistent roster gameplay
-
-`game/GAME-MECHANICS-COMPLETE.md` now treats loss as strategy state.
-
-A death/transfer can create:
-- vacancies;
-- workload/fatigue pressure;
-- altered deployment options;
-- cross-training needs;
-- support-character promotion;
-- delayed or changed missions;
-- newcomer onboarding later.
-
-Casualty classes:
-
-```text
-STORY-LOCKED
-PROTECTED-UNTIL
-CAMPAIGN-VARIABLE
-```
-
-Plot-critical people are not visibly invulnerable; mission design, Downed states, extraction and intervention opportunities carry the protection until required story functions are complete.
+---
 
 ## PRIM terminology
 
-Lower-clearance personnel know:
+Lower-clearance:
 
 > **Program for Resilient Infrastructure Management**
 
-Root/executive-clearance personnel know:
+Root/executive:
 
 > **Primary Root Identity Mantle**
 
-The current presiding holder during almost all of the show is **PRIM2**. Jordan becomes **PRIM3** at succession.
+Presiding holder during almost all of the show: **PRIM2**.
 
-Legacy labels such as `Prime-00`, `Prime-0`, `Prime Negative One`, a separate present-day `Benji`, or claims that Jordan and Royce first meet in Evil Twin are stale and must not control interpretation.
+Jordan becomes **PRIM3 only after validated succession**.
 
-## Episode / playable-level coverage
+Stale formal identities such as `Prime-00`, `Prime-0`, `Prime Negative One`, `PRIME-N1`, or a separate contemporary Benji must not control interpretation.
 
-- **20 existing songs = 20 song-based episodes = 20 playable mission levels**
-- **1 protected open slot** for Song #21 / Mission #18
-- **21 total episodes/levels**
-- `Data Breach`, `Got Wifi`, and `Virus Types` remain at Global Episodes 07, 06, and 09 respectively under `story/EPISODE-PROGRESSION.md`
+---
 
-WATCH and PLAY remain two interfaces to the same event, but PLAY during ordinary episodes does not mean the player literally "becomes PRIM3." The player enters the current mission/team operational perspective.
+## Next production phase
 
-Optional side operations may exist for campaign depth but are **not additional canonical episodes**.
+The macro base is stable.
 
-## Local Episode 02–18 migration state
+Proceed episode by episode using the migrated local blueprint and `episodes/CHAPTER-TEMPLATE.md`:
 
-The song order, episode slots and mission titles remain canon.
-
-Several local Episode 02–18 drafts predate the ensemble/Wildcard/living-cast migration. Their useful incident design and technical material remain development material, but old owner/playable-roster assertions are subordinate to the current authority stack.
-
-`episodes/README.md` makes this explicit. Those episodes should be migrated one-by-one through the v2.3 chapter template before promotion.
-
-Old local prose can no longer silently override:
-- no-default-Jordan gameplay;
-- rotating episode ownership;
-- PRIM2 terminology;
-- Wildcard/Apex scarcity;
-- Royce Incursion eligibility;
-- current character psychology;
-- current episode-owner assignments;
-- recurring-roster-first population;
-- development beat for every appearing recurring character;
-- whole-roster A/B/C/D continuity tracking;
-- dynamic support/main promotion;
-- death/vacancy/replacement consequences.
-
-## Retired gameplay/story assumptions
-
-Do not revive:
-- invented placeholder Season One leads such as RANE/VOSS/QUILL/SABLE;
-- High Alert as an ordinary tutorial data-extraction mission;
-- 8–13 canonical episodes per season;
-- 8–15 canonical tactical missions per season;
-- generic random hack-success rolls for technically correct actions;
-- generic XP progression into `Prime-N1`;
-- Jordan as a selectable default pawn for every operation;
-- fixed exactly-three-person R/E/T roster as universal mission law;
-- separate contemporary Benji;
-- Jordan + Benji as finale survivors;
-- Evil Twin as the old procedural SIM-swap infiltration;
-- Ghost as a first-time upload;
-- kill-PRIM2 -> dimension shift -> Whip Equipped;
-- Jordan personally passing through all phenotypes as a mandatory progression checklist;
-- two-owner episodes with silent background extras standing in for an actual ensemble web;
-- mandatory historical guest characters every episode;
-- automatic one-for-one replacement after a named-character death.
-
-`game/AUDIT-AND-FILL.md` is a historical/superseded pointer.
-
-## September 10 canon sweep
-
-Full prior migration record:
-
-`CANON-SWEEP-2026-09-10.md`
-
-A new living-cast sweep is layered above that record through the current authorities listed at the top of this file.
-
-## Branch authority
+1. exact scene roster;
+2. whole-roster A/B/C/D ledger;
+3. micro-development beat for every appearing recurring person;
+4. ordinary-life/workplace recurrence;
+5. exact dialogue/relationship movement;
+6. mission staging and PLAY contract;
+7. injury/death/transfer eligibility;
+8. aftermath, staffing and grief;
+9. relationship/psychology/lifecycle ledger update;
+10. next-episode inheritance.
 
 **main is authoritative going forward.**
-
-## Rule
-
-Every owner-locked continuity change belongs on **main** or in a PR intended for main. No silent side-branch-only canon work.
