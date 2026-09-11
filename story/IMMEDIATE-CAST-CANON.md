@@ -1,7 +1,7 @@
 ---
 status: CANON
 system: PRIM3 immediate-story cast authority
-version: 3.0.0
+version: 3.1.0
 branch: main
 ---
 
@@ -209,31 +209,41 @@ Examples:
 
 ---
 
-# 8. Episode-density law
+# 8. Episode-density and micro-development law
 
-Every ordinary episode should normally contain **at least 6–7 meaningful presences**, with 7–10 preferred when WATCH + PLAY are considered together.
+Every ordinary episode should normally contain **7–12 meaningful recurring presences across WATCH + PLAY** when mission scale permits.
 
 The default source order is:
 
 ```text
 1–2 episode owners
-3–5 additional people from the 39-person recurring roster
+4–8 additional people from the 39-person recurring roster
 0–2 established historical/outside people only when specifically relevant
 0–2 hidden/opposing/apex presences where story warrants
 ```
 
 Do **not** interpret this as a requirement to invent guests.
 
-A character counts only if the episode does something with them:
-- advances or strains a relationship;
-- carries consequence from another episode;
-- reveals a different professional assumption;
-- changes somebody's decision;
-- plants a later conflict;
-- makes the workplace feel persistent;
-- or becomes responsible for an outcome.
+A recurring character counts only if the episode gives them a persistent development beat.
+
+Canonical test:
+
+> **If a named recurring character appears, what is newly true about them when the episode ends?**
+
+Valid small writes include:
+- relationship movement;
+- changed habit;
+- competence gained/lost/revealed;
+- status or workload change;
+- secret learned/hidden;
+- moral-line movement;
+- material-life pressure;
+- grief progression;
+- future decision seed.
 
 Seven silent bodies in a room do not count.
+
+Full lifecycle authority: `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md`.
 
 ---
 
@@ -271,7 +281,7 @@ The audience should be able to remember who a dead mentor or outside friend is w
 
 ---
 
-# 11. Immediate cast hierarchy
+# 11. Immediate cast hierarchy is dynamic
 
 ### Tier A — multi-season spine
 At minimum:
@@ -283,7 +293,7 @@ At minimum:
 - plus whichever relationships become season-critical.
 
 ### Tier B — recurring operational ensemble
-The remaining 39-person immediate roster.
+The remaining immediate roster.
 
 Several Tier B characters should own episodes outright, and nearly all should recur outside the episode they own.
 
@@ -293,27 +303,64 @@ Only people promoted by specific relationship/history authority or deliberately 
 ### Development pool
 Unpromoted names in `CAST-NATIONS.md` remain available for future use but are not presumed to exist on-screen.
 
+These tiers are **not permanent contracts**.
+
+A support character can become a main through repeated usefulness, relationships, responsibility and audience attachment.
+A main can drift outward, transfer, lose authority, become injured, leave, turn antagonistic or die.
+
+Do not preserve screen prominence merely because an early spreadsheet once labeled somebody `main`.
+
 ---
 
-# 12. Ensemble gameplay law
+# 12. Attrition, vacancies and replacements
+
+The recurring roster is not guaranteed to remain at 39 living/active people.
+
+Missions are dangerous.
+Named characters may die or permanently leave when the story earns it.
+
+A death is not followed automatically by a one-for-one replacement.
+
+The vacancy may create:
+- workload redistribution;
+- understaffed missions;
+- delayed operations;
+- reluctant promotions;
+- more dependence on Jordan's Wildcard function;
+- conflict over whether/when to hire;
+- a support character gradually absorbing the work.
+
+If a replacement eventually arrives, they inherit the **vacancy**, not the dead character's personality or relationships.
+
+A newcomer should already know some people and be unknown to others. Equal-distance introductions are unrealistic.
+
+See `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md`.
+
+---
+
+# 13. Ensemble gameplay law
 
 Normal missions launch with named recurring people assigned to the operation, **not Jordan by default**.
 
 Recurring gameplay creates attachment:
 - the player remembers Aya because they have controlled her more than once;
 - Chioma's command choices matter because the player has worked under her before;
-- losing Hassan hurts because he has guarded several missions, not because a dossier says he is nice;
+- losing Hassan would hurt because he has guarded several missions, not because a dossier says he is nice;
 - calling Jordan matters because he is being called to save people the player already knows.
 
 PRIM2 is the rarer second-stage intervention.
 Royce is the opposing elite escalation.
 
+Named characters should not feel like disposable tactical units. Loss matters precisely because the player has watched their ordinary lives and evolving relationships.
+
 ---
 
-# 13. Governing ensemble statement
+# 14. Governing ensemble statement
 
 > **The succession belongs to Jordan. The world belongs to everybody.**
 
-And the practical writing rule beneath it is:
+And the practical writing rules beneath it are:
 
 > **Same building. Same company. Same people. New pressure.**
+
+> **If you appear, you move. If you die, the building changes.**
