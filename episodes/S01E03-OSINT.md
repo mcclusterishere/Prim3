@@ -1,154 +1,114 @@
 ---
-status: CANON CHAPTER BLUEPRINT
+status: CANON MIGRATED BLUEPRINT
 season: 1
 episode: 3
 global_episode: 3
 level_id: LVL-03
 song: OSINT
 mission: Open Book
-runtime_target: 9 minutes
+runtime: FLEX-LONGFORM
+version: 3.0.0
 branch: main
 ---
 
 # S1E3 — OSINT / OPEN BOOK
 
-## Episode ownership
+## Ownership / deployment
 
 ```text
-EPISODE OWNER: Oksana Bondarenko
-SECONDARY OWNERS: Jordan Vale / Rafael Costa
-JORDAN NARRATIVE STATE: C — SUPPORTING
+PRIMARY OWNERS: Oksana Bondarenko / Rafael Costa
+SECONDARY DEPTH: Valeria Soto / Leila Hosseini / Chioma Okeke
 MISSION LEAD: Oksana
 BASE PLAYABLE ROSTER: Oksana / Rafael / Valeria
-PRIMARY PLAYABLE POV: intelligence/recon team validating a public-source picture
-JORDAN PLAY STATE: OFF-BOARD / non-player contributor
-WILDCARD ELIGIBLE: no — this early assignment is an evaluation of disciplined evidence work, not an emergency rescue
-APEX ELIGIBLE: no
-PRIM2 STORY VISIBILITY: hidden senior-review layer
-ROYCE INCURSION ELIGIBLE: no
+JORDAN: edge/cameo; off-board Wildcard only if authored CRITICAL state is reached
+APEX: unavailable
+ROYCE: unavailable
 ```
 
-Jordan still gets an important recognition beat, but the player learns OSINT through people whose professional identity actually centers evidence quality.
+---
+
+# Recurring cast / micro-development ledger
+
+| Character | Function | Development moment |
+|---|---|---|
+| Oksana | owner / intelligence | Publicly downgrades a seductive theory she personally wants to believe; establishes disciplined uncertainty as strength, not hesitation. |
+| Rafael | owner / overwatch | His joking surface gives way to obsessive patience; he becomes visibly protective of Oksana's slower evidentiary standard. |
+| Valeria | junior operator | Overstates confidence, gets corrected in front of peers, feels humiliated, then chooses to stay in the room and learn rather than defend ego. |
+| Leila | analysis/governance | Forces the team to distinguish source repetition from independent corroboration; plants her obsession with provenance and institutional truth. |
+| Chioma | recurring command presence | Watches Valeria recover from embarrassment and begins treating recoverability—not swagger—as leadership potential. |
+| Pylon | system support | Provides lawful environmental/custody context but also demonstrates that system-generated metadata still requires interpretation. |
+| Chris “Perch” Alvarez | Hitman parallel | Builds a picture of the same broader environment from a different organizational logic, establishing him as a recurring mirror to Rafael. |
+| Jordan | optional edge | If present, sees a pattern early but has to accept that seeing it first does not make it proven. |
 
 ---
 
 # Human problem
 
-Oksana's defining instinct is to preserve uncertainty longer than institutions want to tolerate it.
+A critical equipment shipment is missing shortly before a facility opening. A junior coordinator is becoming the convenient human explanation because uncertainty is administratively expensive.
 
-A critical equipment shipment is missing shortly before a facility opening. A junior coordinator is already becoming the convenient human explanation.
+Oksana refuses to let a clean story outrun evidence.
 
-Jordan, still new, notices that public traces do not fit the official carrier-delay story and begins building an alternate hypothesis from lawful public information.
+Rafael finds a physical/geospatial inconsistency.
+Valeria wants to impress and overclaims.
+Leila notices several “independent” sources share one origin.
 
-The episode belongs to Oksana because she has to decide whether Jordan's pattern recognition is:
-- genuinely useful;
-- confirmation bias dressed as cleverness;
-- or a partially correct story that still lacks independent support.
-
-Rafael pushes for physical/geospatial corroboration.
-Valeria experiences what it feels like to watch a junior employee become a scapegoat because a clean narrative is administratively cheaper than an uncertain one.
+The episode becomes a lesson in how institutions manufacture certainty under schedule pressure.
 
 ---
 
 # Technical thesis
 
-OSINT is not “whatever can be found online.”
-
-The mission teaches:
-- source provenance;
+Teach:
+- provenance;
 - independent corroboration;
-- fact versus inference;
+- fact vs inference;
 - confidence states;
-- public versus private/proprietary boundaries;
-- metadata as context, not automatic truth;
-- repeated claims versus independent sources;
-- lawful owner-provided/subscription data versus genuinely public data.
+- public vs proprietary boundaries;
+- metadata as context rather than automatic truth;
+- repeated claims vs independent sources.
 
-Core lesson:
+Core line:
 
 > **Three pages repeating one source are still one source.**
 
 ---
 
-# WATCH structure
+# WATCH spine
 
-### Human trigger
-The shipment is declared delayed/lost and the coordinator is blamed before the evidence chain is complete.
-
-### Music film / brief
-Public fragments—maps, filings, schedules, vendor pages, permitted photos and shipping identifiers—assemble and then repeatedly collapse when provenance reveals several “sources” all copied one original claim.
-
-### Human escalation
-Jordan produces a clever alternate route through the evidence.
-Oksana refuses to promote it beyond `INFERRED` until another independent source supports it.
-Jordan is frustrated because he thinks the pattern is obvious.
-
-### Mission threshold
-A deadline arrives that will make the coordinator absorb the cost and disciplinary consequence unless the team can produce a defensible counter-picture.
-
-### WATCH mission
-Oksana/Rafael/Valeria test Jordan's hypothesis against independent public/authorized evidence and permitted physical corroboration. The chain resolves to a trade-name/custody mismatch rather than the coordinator losing the equipment.
-
-Jordan was directionally right. Oksana is the reason “directionally right” becomes defensible truth.
+1. Missing shipment triggers blame pressure.
+2. Valeria repeats a strong-looking explanation too confidently.
+3. Oksana downgrades it publicly despite the schedule cost.
+4. Rafael finds a physical inconsistency that keeps the alternate hypothesis alive.
+5. Leila maps source provenance and shows several “confirmations” are circular.
+6. Perch appears on the opposing board building his own context picture from different incentives.
+7. The PRIM team resolves the custody/trade-name mismatch without scapegoating the coordinator.
+8. Jordan, if present, learns that intuition needs somebody willing to tell him “not yet.”
 
 ---
 
-# PLAY contract
-
-The player controls the validation team, not Jordan.
+# PLAY
 
 Primary verbs:
-- collect;
-- tag provenance;
-- link;
-- compare;
-- downgrade confidence;
-- corroborate;
-- geolocate at safe abstraction;
-- classify fact/inference;
-- publish a defensible picture.
+`collect / tag provenance / compare / downgrade / corroborate / map / classify / publish`.
 
-Jordan's contribution appears as a candidate hypothesis/evidence bundle that the player can use, reject or partially adopt.
-
-This gives the player a critical lesson:
-
-> **A charismatic analyst can be right for the wrong evidentiary reasons. Your job is to prove the picture, not reward the person.**
-
----
-
-# PRIM2 trace
-
-PRIM2 does not need to physically walk behind Jordan for the scene to work.
-
-A senior-review layer receives:
-- Jordan's initial anomaly observation;
-- Oksana's confidence ledger;
-- the final corroborated result.
-
-PRIM2 becomes interested in the combination:
-
-```text
-JORDAN -> unusual cross-layer inference
-OKSANA -> disciplined refusal to overclaim
-TEAM   -> converts intuition into defensible evidence
-```
-
-The institution's interest in Jordan deepens, but Oksana owns the episode because she determines what counts as knowledge.
+The player wins by producing a defensible picture, not by guessing the right answer fastest.
 
 ---
 
 # Persistent residue
 
-- Oksana establishes the series' evidence-confidence discipline.
-- Jordan learns that seeing the pattern first does not make him the authority on truth.
-- Rafael and Oksana develop a useful friction between sensing change and proving meaning.
-- Valeria sees how institutional narratives can hurt junior people before facts settle.
-- PRIM2's hidden attention expands from Jordan alone toward how Jordan behaves inside a capable team.
-
-Season One ends with Jordan leaving for his first summer policy fellowship, while the audience has already learned that his story is happening inside other people's careers.
+- Oksana becomes the cast's strongest “slow down the claim” voice.
+- Rafael/Oksana establish productive friction.
+- Valeria starts admiring Oksana instead of only Jordan.
+- Leila gains a recurring role as the person who asks where institutional “truth” came from.
+- Chioma records Valeria's recovery from embarrassment as leadership potential.
+- Perch becomes recognizable enough that later Hitman appearances feel like recurrence, not a new villain.
+- Pylon gets another mundane baseline behavior.
 
 ---
 
-# Governing line
+# Season-one handoff
 
-> **Jordan finds the thread. Oksana decides whether it can hold weight.**
+Season One ends with the audience understanding that Jordan entered a workplace where other people's careers, rivalries, ethics and histories were already moving before he arrived.
+
+> **The world did not begin when Jordan walked in.**
