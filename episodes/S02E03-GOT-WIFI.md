@@ -1,157 +1,131 @@
 ---
-status: CANON CHAPTER BLUEPRINT
+status: CANON MIGRATED BLUEPRINT
 season: 2
 episode: 3
 global_episode: 6
 level_id: LVL-06
 song: Got Wifi
 mission: Dead Air
-runtime_target: 9 minutes
+runtime: FLEX-LONGFORM
+version: 3.0.0
 branch: main
 ---
 
 # S2E3 — GOT WIFI / DEAD AIR
 
-## Episode ownership
+## Ownership / deployment
 
 ```text
-EPISODE OWNER: Yonas Bekele
-SECONDARY OWNERS: Rafael Costa / Chioma Okeke / older cohort veteran
-JORDAN NARRATIVE STATE: D — CAMEO / EDGE
+PRIMARY OWNERS: Sari Wulandari / Yonas Bekele
+SECONDARY DEPTH: Hassan Raza / Emre Yıldız / Chioma Okeke / Grace Mbala / Jonas Weber / Pylon
 MISSION LEAD: Chioma
-BASE PLAYABLE ROSTER: Yonas / Rafael / Hassan / Sari
-PRIMARY PLAYABLE POV: communications + physical-response ensemble
-JORDAN PLAY STATE: OFF-BOARD WILDCARD
-WILDCARD ELIGIBLE: yes at CRITICAL
-APEX ELIGIBLE: possible only in non-canonical PLAY variants if mission classification/conditions satisfy the Apex law; WATCH does not use it
-PRIM2 STORY VISIBILITY: hidden priority/oversight decision
-ROYCE INCURSION ELIGIBLE: no canonical incursion
+BASE PLAYABLE ROSTER: Sari / Yonas / Hassan / Emre
+JORDAN: absent by default; off-board Wildcard at CRITICAL
+APEX: unavailable in canonical WATCH
+ROYCE: unavailable
 ```
 
-The older veteran's canonical death remains locked; exact identity may be finalized in the relationship ledger without changing this episode's structure.
+---
+
+# Recurring cast / micro-development ledger
+
+| Character | Function | Development moment |
+|---|---|---|
+| Sari | owner / operator | Improvises brilliantly under communications failure, then sees that an unverified shortcut can create a second dependency. |
+| Yonas | owner / communications | His calm restoration persona cracks when he learns that fixing service does not fix the human conditions around it. |
+| Hassan | physical/security continuity | Demonstrates that communications reliability includes safe physical routes and controlled spaces, not only signal. |
+| Emre | physical systems | Wins a disagreement about heat/power/doors that software-first teammates initially dismiss; his physical-verification philosophy gains authority. |
+| Chioma | mission command | Makes the first scarcity decision that may cost a life; command stops being aspirational. |
+| Grace | aftermath / human consequence | Refuses the phrase “clean restore” after loss and begins shaping how the organization talks about technical victory. |
+| Jonas | system support | Learns the uncomfortable limit of trusting a unified dashboard when backhaul/power/physical truth diverge. |
+| Pylon | system presence | Becomes useful but visibly incomplete under degraded sensing, strengthening the audience's baseline for later dependence. |
+| Death-slot character | existing recurring roster only | If the locked death remains, the victim must be selected from an already-developed recurring character during the Episode 1–5 detailed-writing pass. No anonymous veteran may fill this role. |
+
+---
+
+# Death / attrition authority
+
+The story may preserve a canonical death in this episode, but the identity is intentionally not chosen by spreadsheet.
+
+Rules:
+- victim must already be part of the recurring roster or separately promoted support cast;
+- Episodes 1–5 must contain ordinary, non-telegraphed life with that person first;
+- death is not automatically backfilled;
+- the vacancy must alter staffing, workload, routines, relationships and later mission composition;
+- grief persists beyond the immediate aftermath;
+- the person's equipment, unfinished work, secrets and social relationships become continuity objects.
+
+The victim may be selected only during detailed episode work when enough relationship texture exists to know whose loss is most structurally meaningful.
 
 ---
 
 # Human problem
 
-Yonas is the person people trust when systems fail because he is calm enough to make restoration look inevitable.
+Severe weather damages a crowded facility while responder apps and internal communications fail inconsistently.
 
-During severe weather, that reputation becomes a trap.
+Strong signal is confused with usable service.
+Yonas believes he can stabilize fast enough.
+Hassan/Emre see physical danger spreading faster than the network team does.
+Sari keeps finding routes, but one improvisation risks adding uncertainty.
 
-Wireless coverage appears healthy in parts of a crowded facility while responder applications and internal communications fail unpredictably. The team has overlapping problems across RF, wired backhaul, emergency power and physical access.
-
-An older veteran recognizes the physical danger earlier than the younger team.
-
-Yonas initially treats the problem as another service he can stabilize.
-
-The episode forces him to learn:
-
-> **Restoring a service is not the same as restoring the conditions that keep the people using it alive.**
+The system can be repaired faster than people can be made whole.
 
 ---
 
 # Technical thesis
 
-The song turns RF into terrain.
-
-The player learns:
-- signal strength versus usable service;
-- authenticated/approved infrastructure versus merely strong signal;
+Teach:
+- signal strength vs usable service;
+- approved/authenticated infrastructure vs merely strong signal;
 - interference;
 - access points;
-- wired backhaul dependencies;
+- wired backhaul;
 - emergency power;
-- Layers 1–2;
-- resilience and fallback;
-- validation after restoration.
+- Layer 1/2 dependencies;
+- resilient fallback;
+- restoration validation.
 
-Core lesson:
+Core line:
 
 > **Bars are not a service guarantee.**
 
 ---
 
-# WATCH structure
+# WATCH spine
 
-### Human trigger
-Severe weather damages the facility while occupants/responders still depend on communications.
-
-### Music film / brief
-A clean wireless coverage map deforms under weather, power loss, interference and overlapping radio use. Bright signal zones increasingly fail to correspond to successful communications.
-
-### Human escalation
-Rafael identifies contradictory RF evidence.
-Hassan warns that a “good” technical position is becoming physically unsafe.
-Yonas keeps trying to restore the network fast enough to outrun the environment.
-The veteran redirects attention toward exits, power and people.
-
-### Mission threshold
-A responder transmission fails during a real physical rescue.
-
-### WATCH mission
-Yonas/Rafael/Hassan/Sari restore one authenticated responder path while Chioma prioritizes the wider civilian response.
-
-The responder service returns.
-
-The veteran does not.
-
-The technical victory and human loss occur in the same episode because the system can be repaired faster than grief can be rationalized.
+1. Weather causes simultaneous wireless, power and physical-access problems.
+2. Yonas initially reads the problem as restorable service degradation.
+3. Emre/Hassan identify unsafe physical state.
+4. Sari creates a workable alternate route but must admit what has not been verified.
+5. Jonas/Pylon disagree with human observations, making “dashboard truth” part of the conflict.
+6. Chioma prioritizes the larger responder/civilian channel under scarcity.
+7. Service returns through an authenticated fallback.
+8. A recurring person may still die despite technically competent restoration.
+9. Grace forces the debrief to distinguish service success from mission/human success.
 
 ---
 
-# PLAY contract
+# PLAY
 
 Primary verbs:
-- scan;
-- map;
-- compare;
-- prioritize;
-- trace backhaul;
-- isolate questionable equipment;
-- reposition;
-- route;
-- warn;
-- restore;
-- verify;
-- extract.
+`scan / map / compare / trace / isolate / reposition / route / warn / restore / verify / extract`.
 
-Jordan is not selectable at launch.
-
-If the mission enters CRITICAL, the player may spend a Wildcard Authorization to request him.
-
-A Jordan intervention can:
-- help open an alternate service/physical route;
-- stabilize or extract a still-living operator;
-- help protect a recovery window.
-
-It **cannot** reverse the story-locked veteran death once that death occurs.
-
-This makes the call meaningful rather than magical.
-
----
-
-# PRIM2 trace
-
-PRIM2's hidden role is not that he causes the storm or kills the veteran.
-
-A senior priority layer sees competing communications needs and accepts the decision to protect the larger responder/civilian channel even while one operator remains isolated.
-
-Later, the cast learns somebody with wider authority understood the tradeoff earlier than they did.
-
-That creates a moral question about observation without requiring villain omnipotence.
+If CRITICAL, the player may spend a Wildcard authorization. Jordan can preserve still-living people or recover options; he cannot reverse a completed death.
 
 ---
 
 # Persistent residue
 
-- Yonas loses some of his belief that calm restoration can make every crisis controllable.
-- Rafael becomes more aggressive about early warnings.
-- Chioma carries command responsibility for prioritization under scarcity.
-- the cohort's ordinary social life now contains an empty chair.
-- Jordan, whether cameo or Wildcard in PLAY, witnesses a team becoming family through loss rather than owning the loss himself.
+- Sari gains confidence and humility at once.
+- Yonas loses belief that calm competence controls every crisis.
+- Hassan/Emre gain standing as physical-truth voices.
+- Chioma carries command guilt.
+- Grace becomes the institutional memory against sanitized victory language.
+- Jonas becomes more emotionally dependent on validating Pylon rather than merely trusting it.
+- If a death is selected, the vacancy begins immediately and follows `CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md`.
 
 ---
 
 # Governing line
 
-> **The network comes back. The person does not.**
+> **The network comes back. A person might not.**
