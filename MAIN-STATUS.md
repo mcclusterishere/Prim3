@@ -20,7 +20,8 @@ Main reflects the September 10 continuity migration:
 - `story/PRIM-SUCCESSION-AUTHORITY.md` — PRIM0 -> PRIM1 -> PRIM2 -> PRIM3/Jordan succession numbering
 - `story/PRIM-DUAL-MEANING-AUTHORITY.md` — cover acronym vs executive/root acronym
 - `story/ENSEMBLE-POV-AUTHORITY.md` — rotating episode ownership + Jordan gameplay withholding law
-- `story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md` — locked 21-episode ownership/development grid for the PRIM and Hitman ensemble
+- `story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md` — locked 21-episode ownership/development spine
+- `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md` — 6–7+ meaningful-character minimum, support/history overlap, and full 48-attached-character utilization plan
 - `story/EPISODE-MISSION-BIBLE.md` — current 21-episode causal/deployment authority
 - `story/IMMEDIATE-CAST-CANON.md` — promoted multinational immediate-story cast
 - `story/CHARACTER-PSYCHOLOGY-DECISION-AUTHORITY.md` — character-history-to-behavior standard
@@ -39,7 +40,7 @@ Main reflects the September 10 continuity migration:
 - `game/GAME-MECHANICS-COMPLETE.md` — current high-level gameplay spine
 - `game/WILDCARD-INTERVENTION-AUTHORITY.md` — Jordan Wildcard, PRIM2 Apex rescue, and Royce Incursion system
 - `game/MECHANICS-GAPS-FILLED.md` — subordinate implementation supplement
-- `episodes/CHAPTER-TEMPLATE.md` — current episode/mission fields including intervention state
+- `episodes/CHAPTER-TEMPLATE.md` — current episode/mission template, including intervention state and 6–7+ character density gate
 
 ## Character system
 
@@ -51,7 +52,11 @@ Jordan is canonically **Wildcard / Flex**: he can work across mission lanes but 
 
 Aya is now reference-quality alongside Jordan. Hana, Ren, Tariq and Zayd have dedicated or supporting authorities around Aya's web.
 
-The ensemble development map now gives all 24 PRIM/McCluster mains, PRIM2, Royce, Maren, Pylon and the named Hitman ensemble explicit development windows across the 21 episodes instead of leaving them as static roster entries.
+The ensemble development map gives all 24 PRIM/McCluster mains, PRIM2, Royce, Maren, Pylon and the named Hitman ensemble explicit development windows across the 21 episodes instead of leaving them as static roster entries.
+
+The dense-cast authority now requires **at least 6–7 meaningful named character presences per episode across WATCH + PLAY, with 7–10 preferred**. These presences can be active, remote, outside, historical/Legacy, opposing-board or PRIM2/Pylon traces, but every named presence must produce an actual character write.
+
+All 48 attached Legacy/Freelancer relationships now have at least one planned meaningful use across the 21-episode map. They are no longer ornamental backstory names.
 
 ## Ensemble story law
 
@@ -63,12 +68,17 @@ PRIM3 is not a Jordan-only protagonist structure.
 - Most Episodes 02–18 deepen characters other than Jordan even when he appears.
 - Mission lead, playable POV and emotional owner may be different people.
 - Final RAID / Evil Twin / Ghost naturally return Jordan, PRIM2 and Royce to the center because they carry the succession endgame.
+- Episodes must feel populated by overlapping institutional, personal and historical relationships rather than isolated two-person morality plays.
 
 Canonical shorthand:
 
 > **The succession belongs to Jordan. The world belongs to everybody.**
 
-Current episode-owner direction is defined by `story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md`.
+Population shorthand:
+
+> **PRIM3 should feel populated before it feels plotted.**
+
+Current episode-owner direction is defined by `story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md`. Full support/history population is defined by `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md`.
 
 Key ownership assignments include:
 - E02 Nusrat/Miguel;
@@ -166,9 +176,9 @@ Optional side operations may exist for campaign depth but are **not additional c
 
 The song order, episode slots and mission titles remain canon.
 
-Several local Episode 02–18 drafts predate the ensemble/Wildcard migration. Their useful incident design and technical material remain development material, but old owner/playable-roster assertions are subordinate to the current authority stack and the new character-development map.
+Several local Episode 02–18 drafts predate the ensemble/Wildcard migration. Their useful incident design and technical material remain development material, but old owner/playable-roster assertions are subordinate to the current authority stack, the character-development map, and the dense support/history authority.
 
-`episodes/README.md` makes this explicit. Those episodes should be migrated one-by-one through the v2 chapter template before promotion.
+`episodes/README.md` makes this explicit. Those episodes should be migrated one-by-one through the v2.1 chapter template before promotion.
 
 This means old local prose can no longer silently override:
 - no-default-Jordan gameplay;
@@ -177,7 +187,9 @@ This means old local prose can no longer silently override:
 - Wildcard/Apex scarcity;
 - Royce Incursion eligibility;
 - current character psychology;
-- current episode-owner assignments.
+- current episode-owner assignments;
+- 6–7+ meaningful-character density;
+- Legacy/outside overlap requirements.
 
 ## Retired gameplay/story assumptions
 
@@ -195,7 +207,8 @@ Do not revive:
 - Evil Twin as the old procedural SIM-swap infiltration;
 - Ghost as a first-time upload;
 - kill-PRIM2 -> dimension shift -> Whip Equipped;
-- Jordan personally passing through all phenotypes as a mandatory progression checklist.
+- Jordan personally passing through all phenotypes as a mandatory progression checklist;
+- two-owner episodes with silent background extras standing in for an actual ensemble web.
 
 `game/AUDIT-AND-FILL.md` is a historical/superseded pointer.
 
