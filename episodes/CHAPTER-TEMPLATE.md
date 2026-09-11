@@ -1,7 +1,7 @@
 ---
 status: TEMPLATE
 system: PRIM3 episode / playable-level chapter
-version: 2.0.0
+version: 2.1.0
 branch: main
 ---
 
@@ -11,7 +11,7 @@ Use one copy of this structure for every canonical song mission.
 
 A **level** means the playable mission attached to an episode; it does not automatically mean one architectural floor.
 
-This template is subordinate to `CANON.md`, `story/EPISODE-MISSION-BIBLE.md`, `story/ENSEMBLE-POV-AUTHORITY.md`, and `game/WILDCARD-INTERVENTION-AUTHORITY.md`.
+This template is subordinate to `CANON.md`, `story/EPISODE-MISSION-BIBLE.md`, `story/ENSEMBLE-POV-AUTHORITY.md`, `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md`, and `game/WILDCARD-INTERVENTION-AUTHORITY.md`.
 
 ## Identity
 
@@ -39,6 +39,49 @@ This template is subordinate to `CANON.md`, `story/EPISODE-MISSION-BIBLE.md`, `s
 - **Royce telegraph rule:**
 
 Ordinary PLAY should default to **no Jordan in the selectable base roster**.
+
+## Cast density / relationship web
+
+Every canonical episode should contain at least **6–7 meaningful named character presences across WATCH + PLAY**, with **7–10 preferred** for most episodes.
+
+A presence may be:
+- `OWNER`
+- `ACTIVE`
+- `REMOTE`
+- `OUTSIDE`
+- `LEGACY`
+- `OPPOSING`
+- `TRACE`
+
+Do not satisfy this requirement with silent bodies in a room.
+
+For each named presence record:
+
+```text
+CHARACTER:
+MODE:
+WHAT THEY WANT IN THIS EPISODE:
+WHAT THEY DO:
+WHAT CHANGES OR IS REVEALED:
+WHAT CARRIES FORWARD:
+```
+
+Default composition target:
+
+```text
+1–2 primary owners
+2–4 active/remote recurring mains
+1–2 Legacy/outside/historical relationships
+1–2 institutional or opposing-board presences
+```
+
+Every Episode 02–18 should normally overlap with:
+- at least one person carrying residue from the previous episode;
+- at least one person whose larger payoff comes later;
+- at least one Legacy/outside character;
+- at least one non-owner main receiving a mini-development write.
+
+Use `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md` as the current episode-by-episode population plan.
 
 ## Merge contract
 
@@ -209,11 +252,13 @@ List required location geometry, characters, props, UI, animation, VFX, music, S
 
 A chapter graduates from blueprint to current episode draft only when its:
 - human owner;
+- **6–7+ meaningful-character density requirement**;
+- Legacy/outside overlap;
 - base playable roster;
 - intervention state;
 - mission loop;
 - technical gate;
-- psychology write;
+- psychology writes;
 - five outcomes;
 - continuity writes;
 - PRIM2 trace;
