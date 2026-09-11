@@ -1,138 +1,119 @@
 ---
-status: DRAFT CHAPTER BLUEPRINT
+status: CANON MIGRATED BLUEPRINT
 season: 6
 episode: 2
 global_episode: 17
 level_id: LVL-17
 song: Patch Work
 mission: Trust Boundary
-runtime_target: 9 minutes
+runtime: FLEX-LONGFORM
+version: 3.0.0
+branch: main
 ---
 
-# S6E2 - PATCH WORK
+# S6E2 — PATCH WORK / TRUST BOUNDARY
 
-## Merge contract
+## Ownership / deployment
 
-This chapter preserves two locked outcomes: Jordan confirms Prime deliberately
-shaped parts of his path, and Jordan/Aya fracture after one makes an operational
-decision involving the other's life without consent. The owner must decide who
-made the decision and its exact circumstances.
+```text
+PRIMARY OWNER: Aya Shinoda
+SECONDARY DEPTH: Minh Tran / Helen Clarke / Leila Hosseini / Jonas Weber / Chioma Okeke / Pylon
+ESTABLISHED HISTORY: Hana Lee through Kkeutori; Tariq Al-Farsi and/or Ren Shinoda only if the scene specifically requires Aya's outside life
+JORDAN: emotionally central supporting character; off-board Wildcard if mission reaches CRITICAL
+APEX: conditional after Jordan is present and crisis remains qualified CRITICAL
+ROYCE: unavailable by default
+```
 
-## Chapter promise
+This supersedes the old Jordan-led patch mission. The technical patch/change-control mechanics remain, but the episode's central rupture is Aya discovering that the institution she learned to trust still contains a layer she never actually audited.
 
-A critical control environment needs an urgent patch while operations continue.
-The player must stage, validate, observe, and preserve rollback rather than
-trusting an update because authority says it is safe. Jordan applies the same
-logic to Prime and to love: repair is not restored trust by default.
+---
 
-## Song payload
+# Recurring cast / micro-development ledger
 
-- **Technical:** updates, backward compatibility, trust levels, firmware/UEFI,
-  fuzzing and input validation as testing concepts, code signing/integrity,
-  cookie/session security, static/dynamic analysis, debugging, and blacklisting.
-- **Human:** repair after betrayal, mismatched energy, old baggage, symbiosis,
-  and the desire to patch a relationship in one night.
-- **Visual:** seams remain visible after repair; signed packages pass through
-  trust checkpoints; a relationship and a system display the same rollback line.
-- **Safety:** gameplay validates and deploys defensive updates in a fictional
-  environment; code-analysis terms are not turned into exploit instructions.
-
-## Nine-minute episode
-
-### 0:00-3:00 - Music film
-
-The hook plays over two intercut repairs: software moving through a signed
-staging path and Jordan/Aya trying to occupy the same room after a boundary was
-crossed. Neither repair erases the evidence of what happened.
-
-### 3:00-6:00 - Human story
-
-Jordan assembles enough evidence to know Prime influenced recruitment,
-assignments, and losses. At the same time, the consent violation between Jordan
-and Aya removes their ability to hide behind technical language. One believes
-the decision saved a life; the other insists survival did not grant permission.
-
-### 6:00-9:00 - Watch / Play mission
-
-WATCH deploys the patch successfully through a canary/staged path. Jordan and
-Aya do not magically reconcile. PLAY asks the player to verify source/signature,
-test compatibility, choose a canary group, watch health, pause/roll back when
-needed, and document residual risk.
-
-## Playable level contract
-
-- **Player role:** Jordan leading change under active operations, with Aya
-  controlling a consequential approval boundary.
-- **Environment:** live control/service room, isolated test environment,
-  deployment rings, and a human debrief space.
-- **Primary objective:** correct the vulnerability/defect without destabilizing
-  the active service.
-- **Optional objectives:** preserve rollback; avoid widening privileges;
-  identify the untrusted link in the update chain; protect exhausted staff.
-- **Complication:** Prime's authority endorses the patch, but the evidence is
-  incomplete and delay carries real cost.
-- **Exit state:** technical service stabilizes; Jordan decides the architecture
-  around Prime cannot be trusted merely because it still works.
-
-## Player verbs
-
-Verify, stage, test, sign/check, deploy, observe, pause, roll back, document.
-
-## Graded outcomes
-
-| Channel | Strong result | Weak but continuing result |
+| Character | Function | Development moment |
 |---|---|---|
-| Objective | Defect repaired with stable service | Defect reduced with residual instability |
-| Team | Operators and Aya retain decision clarity | Pressure deepens fatigue and relationship harm |
-| Exposure | Change remains narrow and segmented | Emergency rollout touches too much at once |
-| Integrity | Trust chain and consent boundaries are explicit | Authority substitutes for verification/consent |
-| Time | Staged rollout responds before crisis | Delay or rollback extends risk |
+| Aya | owner / technical + emotional | Hana's Kkeutori pattern stops looking like grief-shaped coincidence. Aya has to face that her years of defending the institution may have been built on incomplete evidence. |
+| Minh | technical peer | Challenges Aya on a technical interpretation instead of protecting her emotionally; proves their relationship has matured enough to survive disagreement. |
+| Helen | visible authority | Confronts the possibility that her legitimate access and good-faith reforms never reached the layer Aya assumed they did. |
+| Leila | analysis/governance | Helps Aya separate what is proven, inferred and merely feared, preventing grief from becoming certainty too early. |
+| Jonas | system liaison | Finds a provenance/priority behavior he cannot fully explain through Pylon's documented ownership. |
+| Chioma | command | Must keep the live mission functioning while friends start questioning the authority structure above it. |
+| Pylon | system presence | Its trust/priority path becomes evidence without becoming a talking confession machine. |
+| Hana | posthumous established relationship | One deliberate Kkeutori `ん` dead end becomes unmistakably unlike Hana's normal play, converting a friendship ritual into evidence only after years of ordinary meaning. |
+| Jordan | supporting / possible Wildcard | Aya may want his help while simultaneously distrusting what else he knows or hides. If called tactically, he must preserve Aya's plan rather than take it over. |
 
-## Persistent state written by the level
+---
 
-Writes Prime-investigation proof, Jordan/Aya fracture, rollback resources, team
-fatigue, and Jordan's “architecture must change” decision. These are mandatory
-inputs to the open Episode 18 bridge and `Hot Site`.
+# Human problem
 
-## Prime background trace
+A critical live environment needs an urgent patch/change while Aya is independently realizing Hana may have left a structured warning about hidden authority.
 
-- **Visible trace:** Jordan finds Aya's original S1 tasking header—`MENTOR /
-  OBSERVE / REPORT ANOMALIES`—with `P-00` as the issuing authority.
-- **First-watch meaning:** the institution assigned a senior peer to watch a
-  promising but unconventional recruit.
-- **Ghost payoff:** Prime introduced an observation lane into Jordan and Aya's
-  first contact, even though their later relationship became genuinely theirs.
+The institution says the update is trusted.
+Aya has spent years becoming one of the people who normally makes that statement credible.
+Now she no longer knows whether the trust chain stops where she thought it did.
 
-## Technology accuracy gate
+The relationship/consent thread with Jordan remains relevant, but this is not primarily “Jordan learns Prime manipulated him.”
+It is:
 
-- **Sensor / input:** package provenance/signature, test results, service health,
-  compatibility inventory, and operator reports.
-- **Compute / reasoning:** compare baseline/canary health, identify regressions,
-  and make staged go/pause/rollback decisions.
-- **Energy / infrastructure:** test/staging service, production rings, identity,
-  logging, backups, and control network.
-- **Access / authorization:** formal change window and named approvers; emergency
-  authority remains auditable.
-- **Human decision owner:** service owner and safety owner; relationship consent
-  cannot be delegated to command.
-- **Failure mode:** trusted source is assumed, compatibility breaks, rollout is
-  too broad, rollback fails, or operators hide harm to declare success.
-- **Real concept taught:** patches require provenance, testing, staged deployment,
-  monitoring, and rollback.
-- **Fictional extrapolation:** visual parallel between human/system trust only.
+> **Aya discovers she may have become evidence for the institution she entered to investigate.**
 
-## Production and game assets
+---
 
-- Live/staging environment and rollout-ring UI - `NEEDED`
-- Package trust/provenance and health telemetry mechanics - `NEEDED`
-- Jordan/Aya fracture performance - `NEEDED`
-- Prime evidence reveal asset - `NEEDED`
-- Song master/timed lyrics and rollback sound language - `NEEDED`
+# Technical thesis
 
-## Merge hooks
+Teach:
+- update/package provenance;
+- signatures/integrity at safe abstraction;
+- staging/canary deployment;
+- backward compatibility;
+- monitoring;
+- rollback;
+- trust boundaries;
+- authority vs verification;
+- residual risk after a successful patch.
 
-- **Reads from:** Jordan fatigue, Prime evidence, and relationship state.
-- **Writes to:** Episode 18 threshold and RAID commitment.
-- **Reusable systems:** staged rollout, health comparison, rollback, consent log.
-- **Owner decisions:** who crossed the relationship/operational boundary, what
-  decision was made, and what immediate danger it addressed.
+Core line:
+
+> **A patch can repair function without repairing trust.**
+
+---
+
+# WATCH spine
+
+1. Live service/control environment needs urgent change.
+2. Aya sees one old Kkeutori `ん` dead end whose context maps uncomfortably well to current architecture.
+3. Leila forces a confidence ledger: what is evidence, what is inference, what is grief.
+4. Minh finds a technical inconsistency Aya initially overlooks because she is emotionally activated.
+5. Helen admits her own visibility may not reach the hidden root layer.
+6. Jonas/Pylon reveal an undocumented priority/provenance seam.
+7. Chioma contains the human/operational crisis while Aya refuses to trust a package merely because authority says so.
+8. Team uses staged/canary deployment and explicit rollback rather than blind approval.
+9. The patch succeeds, but Aya's institutional trust does not reset.
+10. Jordan/Aya boundary fracture or unresolved consent conflict may sharpen here, but exact triggering act remains to be locked during detailed scene work.
+
+---
+
+# PLAY
+
+Primary verbs:
+`verify / stage / test / deploy / observe / pause / roll back / compare provenance / document residual risk`.
+
+Jordan is not the mission owner. If called, his job is to preserve optionality and Aya's decision authority.
+
+---
+
+# Persistent residue
+
+- Aya's dormant Hana investigation reactivates decisively.
+- Minh becomes somebody Aya can disagree with as a peer.
+- Helen loses confidence that visible governance equals root governance.
+- Leila becomes essential to Aya because she can validate suspicion without feeding it.
+- Jonas/Pylon become part of the root-authority evidence chain.
+- Chioma starts preparing for the possibility that institutional loyalty and operational duty may diverge.
+- Jordan/Aya trust is damaged but not reduced to one simple betrayal.
+
+---
+
+# Governing line
+
+> **The system can come back healthy while everybody in the room trusts it less.**
