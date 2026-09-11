@@ -1,7 +1,7 @@
 ---
 status: CANON-AUTHORING-AUTHORITY
 system: 21-episode causal mission spine / ensemble deployment contract
-version: 2.2.0
+version: 2.3.0
 branch: main
 ---
 
@@ -24,9 +24,9 @@ Gameplay escalation is delegated to:
 
 `game/WILDCARD-INTERVENTION-AUTHORITY.md`
 
-Detailed local episode files may expand scenes and geometry but may not override root canon, current character psychology, the ensemble development map, living-cast authorities, or the Wildcard/Apex/Royce system.
+Local Episodes 01–18 now contain **migrated current ensemble blueprints**. Episodes 19–21 remain the current endgame blueprints and inherit all living-cast/lifecycle laws.
 
-Episodes 01–18 are currently under migration review as documented in:
+The migration record remains in:
 
 `episodes/LIVING-CAST-MIGRATION-AUDIT-2026-09-10.md`
 
@@ -38,8 +38,9 @@ Episodes 01–18 are currently under migration review as documented in:
 - 3 episodes per season
 - 21 episodes total
 - 1 song = 1 episode = 1 canonical mission
-- WATCH target approximately 9 minutes
-- PLAY expands the same event into tactical decision space
+- WATCH is **flexible longform**, normally planned in an approximately **20–35 minute** band rather than a nine-minute cap
+- song/music-film sections remain track-driven; character life, workplace recurrence, mission support and aftermath receive the time required
+- PLAY expands the same event into tactical decision space and may run substantially longer
 
 Causal grammar:
 
@@ -94,7 +95,7 @@ Canonical shorthand:
 
 > **If you appear, you move.**
 
-Ordinary episodes should normally contain **7–12 meaningful named presences across WATCH + PLAY**, with most selected from the established recurring roster.
+Ordinary episodes should normally contain **at least 6–7 meaningful named presences**, with **7–10 preferred**. Larger casts are appropriate when the story naturally converges, especially Episode 18 and the finale.
 
 Do not force all recurring people on camera. Maintain whole-roster continuity through:
 
@@ -243,29 +244,29 @@ Possible writes include:
 
 | # | Song / mission | Primary owner(s) | Jordan state / gameplay |
 |---:|---|---|---|
-| 01 | High Alert / The Blip | PRIM2 + Jordan + Royce | scripted future fragment; local Blip draft requires reacquisition migration |
+| 01 | High Alert / The Blip | PRIM2 + Jordan + Royce | scripted future fragment; rewind is Jordan age-33 reacquisition, not first discovery |
 | 02 | White Grey Black Hat / Permission Slip | Nusrat + Miguel | Jordan supporting; locked out of PLAY |
-| 03 | OSINT / Open Book | Oksana + Rafael | Jordan edge; first Wildcard tutorial candidate |
+| 03 | OSINT / Open Book | Oksana + Rafael | Jordan edge; Wildcard candidate |
 | 04 | Anti Social Engineering / The Human Layer | Priya + Sora | Jordan cameo; Wildcard eligible |
 | 05 | Red Blue Purple White Team / Four Colors | Chioma + Thandiwe | Jordan supporting; Wildcard eligible after real incident |
-| 06 | Got Wifi / Dead Air | Sari + Yonas | Jordan absent by default; Wildcard eligible; established recurring-character death must be selected during rewrite |
+| 06 | Got Wifi / Dead Air | Sari + Yonas | Jordan absent by default; Wildcard eligible; recurring-character death slot if retained |
 | 07 | Data Breach / Exposure | Leila + Li | Jordan mentioned/absent; Wildcard + Royce eligible |
 | 08 | App Attacks / Bad Input | Aya + Minh | Jordan supporting/edge; normally no Wildcard |
 | 09 | Virus Types / Patient Zero | Dmitri + Oksana | Jordan absent; Wildcard + Royce eligible |
 | 10 | Installation Types / Clean Install | Valeria | Jordan supporting mentor; Wildcard eligible |
-| 11 | Dive In / Dumpster Signal | Grace + Rafael | Jordan mentioned until emergency; Wildcard + Royce eligible |
+| 11 | Dive In / Dumpster Signal | Grace + Rafael | Jordan edge until emergency; Wildcard + Royce eligible |
 | 12 | IoT / House of Eyes | Jonas + Pylon | Jordan absent; Wildcard eligible; strong masked Apex candidate |
 | 13 | IaaS/SaaS/PaaS / Shared Responsibility | Helen + Li + Yonas | Jordan edge/mentioned; Wildcard + conditional Apex |
 | 14 | CapEx vs OpEx / Own the Exit | Amira + Marc | Jordan absent/locked out; no Wildcard rescue |
-| 15 | Trappin From The Cloud / Elastic | Sari + Sable | Jordan mentioned until crisis; Wildcard + Apex + Royce eligible |
+| 15 | Trappin From The Cloud / Elastic | Sari + Sable | Jordan edge until crisis; Wildcard + Apex + Royce eligible |
 | 16 | Per Diem / Road Kit | Jordan + Valeria | rare scripted Jordan PLAY mission; Royce/Apex eligible |
 | 17 | Patch Work / Trust Boundary | Aya | Jordan emotionally central but off-board Wildcard; conditional Apex |
-| 18 | Song #21 OPEN / Mission #18 OPEN | Leila + Helen + Jordan | shared scripted challenge-threshold episode; exact song remains owner-supplied/open |
-| 19 | RAID / Hot Site | Jordan + Royce + PRIM2 | scripted endgame; established recurring assault teams die except Jordan/Royce |
-| 20 | Evil Twin / Mirror Room | PRIM2 + Jordan + Royce | scripted provenance/confession endgame; remote ensemble continues developing |
-| 21 | Ghost In The Wires / Last Process | Jordan + PRIM2 | scripted succession; Royce secondary; ensemble governance/grief continues |
+| 18 | Song #21 OPEN / Mission #18 OPEN | Leila + Helen + Jordan | shared institutional rupture; exact song still open |
+| 19 | RAID / Hot Site | Jordan + Royce + PRIM2 | scripted endgame; recurring assault teams die except Jordan/Royce |
+| 20 | Evil Twin / Mirror Room | PRIM2 + Jordan + Royce | scripted provenance/confession endgame |
+| 21 | Ghost In The Wires / Last Process | Jordan + PRIM2 | scripted succession; Royce secondary |
 
-Detailed character writes live in `story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md` and recurring population in `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md`.
+Detailed character writes live in `story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md`; recurring population lives in `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md`; local episode files are the current migrated incident/character blueprints.
 
 ---
 
@@ -283,15 +284,7 @@ BACKGROUND RECURRING
 -> EPISODE OWNER / MAIN
 ```
 
-The opposite can happen too. A former main may:
-- transfer;
-- lose clearance;
-- become injured;
-- burn out;
-- drift politically;
-- become antagonistic;
-- leave;
-- die.
+The opposite can happen too. A former main may transfer, lose clearance, become injured, burn out, drift politically, become antagonistic, leave or die.
 
 Do not preserve hierarchy merely because an old planning document called somebody `main`.
 
@@ -303,27 +296,17 @@ The desired audience experience is to realize after several episodes that a form
 
 Named character death is allowed when earned.
 
-Do not create a lovable cast and then protect everybody because the audience cares.
+Do not protect everybody because the audience cares. Do not kill people merely to prove danger either.
 
-Do not kill people merely to prove danger either.
-
-A death works when the character has enough ordinary life, relationships and practical function that their absence changes future episodes.
+A death works when ordinary life, relationships and practical function have made the absence structurally meaningful.
 
 There is **no automatic one-for-one replacement**.
 
-Vacancy states may create:
-- understaffing;
-- reassignment;
-- support-character promotion;
-- cross-training;
-- burnout;
-- mission delay;
-- more Wildcard pressure;
-- permanent organizational change.
+Vacancy states may create understaffing, reassignment, support-character promotion, cross-training, burnout, mission delay, greater Wildcard pressure or permanent organizational change.
 
-If a replacement eventually arrives, they inherit the **vacancy**, not the dead person's personality/relationships.
+If a replacement eventually arrives, they inherit the **vacancy**, not the dead person's personality or relationships.
 
-They must enter with uneven social distance: some people know them, others do not, and survivors may compare them unfairly to the predecessor.
+They enter with uneven social distance: some people know them, others only know their reputation, and survivors may compare them unfairly to the predecessor.
 
 See `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md`.
 
@@ -333,18 +316,7 @@ See `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md`.
 
 WATCH and PLAY are two interfaces to the same event.
 
-PLAY may change:
-- grade;
-- injury;
-- exposure;
-- resources;
-- relationship state;
-- evidence preserved;
-- subsystem state;
-- debrief detail;
-- later tactical modifiers;
-- campaign-variable death/removal where later hard-spine scenes permit;
-- vacancy/workload state.
+PLAY may change grade, injury, exposure, resources, relationship state, evidence preserved, subsystem state, later tactical modifiers, campaign-variable removal/death where hard-spine scenes permit, and vacancy/workload state.
 
 Hard spine events remain stable unless a deliberate branch is authored.
 
@@ -382,10 +354,10 @@ PROTECTED-UNTIL
 CAMPAIGN-VARIABLE
 ```
 
-Protection exists to preserve necessary story functions, not to make danger fake.
+Protection preserves required story functions; it does not make danger fake.
 
-Episode 06 and final RAID are explicit planned attrition pressure points:
-- E06 must select a real established recurring person if the veteran death remains canon;
+Episode 06 and final RAID are explicit attrition pressure points:
+- E06 must select a real established recurring person if the planned death remains canon;
 - RAID assault teams must be established recurring people, not disposable extras.
 
 ---
@@ -396,8 +368,7 @@ Song #21 remains open.
 
 Its story function is locked:
 - technical trust hierarchy and human authority hierarchy reveal a dangerous shared-root property;
-- Jordan's concern becomes verified enough to justify action;
-- Leila/Helen and the wider command ensemble confront the governance implications;
+- multiple ensemble characters independently verify the case;
 - allies split over interpretation and response;
 - Jordan decides PRIM2 must be reached/challenged;
 - formal succession/challenge architecture becomes materially relevant;
@@ -414,38 +385,26 @@ Episodes 19–21 are expanded by:
 - `episodes/S07E02-EVIL-TWIN.md`
 - `episodes/S07E03-GHOST-IN-THE-WIRES.md`
 
-Do not reintroduce:
-- separate contemporary Benji;
-- Jordan/Benji as two finale survivors;
-- Prime-00 as current formal identity;
-- old procedural SIM-swap Evil Twin;
-- Ghost as first-time upload;
-- Jordan as PRIM3 before validated succession.
+Do not reintroduce separate contemporary Benji, Jordan/Benji as two survivors, Prime-00 as current formal identity, old procedural SIM-swap Evil Twin, Ghost as first-time upload, or Jordan as PRIM3 before validated succession.
 
 Even in the finale, the succession triangle does not erase the rest of the cast. RAID deaths, remote verification, grief and governance reaction remain ensemble development.
 
 ---
 
-# 15. Episode rewrite order
+# 15. Scene-development protocol
 
-For Episodes 01–18:
+The structural migration is complete. Episode-by-episode scene work now proceeds from the migrated local blueprints:
 
-1. read `episodes/LIVING-CAST-MIGRATION-AUDIT-2026-09-10.md`;
-2. preserve the strong technical/incident spine identified there;
-3. apply the current owner from the ensemble development map;
-4. define that owner's human problem independent of Jordan;
-5. select 7–12 realistic recurring presences from the established world;
-6. give every appearing recurring character a development beat;
-7. mark every current recurring slot A/B/C/D;
-8. assign a base playable roster without Jordan by default;
-9. decide Jordan scripted/Wildcard/locked-out state;
-10. decide PRIM2 Apex eligibility;
-11. decide Royce incursion eligibility;
-12. bind the song concept to the owner's psychological problem;
-13. write WATCH and PLAY as the same event;
-14. write casualty/vacancy/promotion possibilities;
-15. write relationship and psychology residue forward;
-16. add Jordan-history breadcrumbs only where earned.
+1. preserve the locked owner and technical incident;
+2. select exact scene-by-scene recurring presences;
+3. give every meaningful appearance a micro-development write;
+4. carry prior-episode relationship/staffing residue forward;
+5. decide exact casualty/injury states only when enough development exists to earn them;
+6. maintain base playable roster and intervention rules;
+7. bind the song's emotional language to the human conflict;
+8. write WATCH and PLAY as the same event;
+9. update relationship/psychology/lifecycle ledgers after the episode;
+10. do not expose reverse-reveal history merely because writers know it.
 
 ---
 
