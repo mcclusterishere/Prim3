@@ -1,7 +1,7 @@
 ---
 status: CANON INDEX
 system: PRIM3 song-to-episode-to-level coverage
-version: 2.1.0
+version: 2.2.0
 branch: main
 ---
 
@@ -9,52 +9,20 @@ branch: main
 
 PRIM3 has **20 existing owner songs** and **21 locked episode slots**. Every existing song owns one episode and one playable mission level. Global Episode 18 remains a protected placeholder for **Song #21** and must not be invented.
 
-## Authority warning for local drafts
+## Migration state
 
-The September 10 living-cast audit reviewed **all 21 local episode files**.
+The September 10 living-cast migration is now **structurally complete**.
 
-Current result:
-- Episodes **01–18** contain valuable incident/technical material but require different amounts of migration into the current ensemble/lifecycle architecture.
-- Episodes **19–21** have current core chronology but still require scene-level recurring-cast, grief and lifecycle writes during production.
+- Episodes **01–18** have current migrated ensemble blueprints.
+- Episodes **19–21** already held the current endgame chronology and inherit all living-cast, attrition, grief, vacancy and support-promotion laws.
+- The previous migration audit remains as historical record of what was preserved/replaced:
+  `episodes/LIVING-CAST-MIGRATION-AUDIT-2026-09-10.md`
 
-Formal audit:
+Local episode files are now the correct base for **scene-level development**, subject to root/specialist authority.
 
-`episodes/LIVING-CAST-MIGRATION-AUDIT-2026-09-10.md`
+---
 
-Any `CANON CHAPTER BLUEPRINT` label on an older local Episode 01–18 file does **not** allow its stale owner, roster, Prime/Benji, Jordan-centrality or relationship assertions to outrank the current authority stack.
-
-Treat Episodes 01–18 as:
-
-> **incident/technical source material pending v2.3 living-cast migration**
-
-unless a later commit explicitly says that episode has completed migration.
-
-Useful local material may include:
-- technical incident design;
-- locations;
-- song/concept adaptation;
-- props;
-- mission verbs;
-- graded outcomes;
-- individual scenes that survive continuity review.
-
-Stale local assumptions that must not control canon include:
-- episode owner = only characters who develop;
-- named recurring support people appearing without persistent writes;
-- Jordan automatically owning/coordinating the incident;
-- Jordan as default playable pawn;
-- PLAY meaning the viewer literally becomes PRIM3;
-- exactly three generic R/E/T units always being required;
-- PRIM2 formally being `Prime-00` / `P-00`;
-- Benji existing as a separate contemporary character;
-- PRIM2 first discovering Jordan during college;
-- PRIM2 physically lurking in every episode;
-- mandatory one-use historical guest characters;
-- unnamed disposable casualties where established recurring roster members should carry consequence;
-- automatic one-for-one replacement after death;
-- emotional reset after an episode ends.
-
-## Current governing stack
+# Current governing stack
 
 1. `CANON.md`
 2. `story/PRIM-SUCCESSION-AUTHORITY.md`
@@ -70,17 +38,21 @@ Stale local assumptions that must not control canon include:
 12. current character psychology/relationship authorities
 13. local episode file
 
-## Living-cast writing law
+---
 
-The current recurring immediate world is approximately 39 character slots.
+# Living-cast law
 
-Episode ownership determines **depth**, not exclusivity.
+The immediate recurring world is approximately **39 character slots**.
 
-Every named recurring character who appears must receive a meaningful development write, even if it is only a small relationship/habit/status/competence/grief/material-life shift.
+Episode ownership determines depth, not exclusivity.
 
-Ordinary episode target across WATCH + PLAY:
+Every meaningful recurring character who appears receives a development write.
 
-> **7–12 meaningful named presences, primarily drawn from the established recurring roster.**
+Ordinary episode target:
+
+> **at least 6–7 meaningful named presences, with 7–10 preferred**
+
+primarily drawn from the established recurring roster.
 
 Do not force all 39 people on screen. Track the whole roster through:
 
@@ -95,98 +67,109 @@ Canonical shorthand:
 
 > **Same building. Same company. Same people. New pressure.**
 
-> **If you appear, you move.**
+> **If you appear, you move. If you die, the building changes.**
 
-## Episode index / migration classification
+---
 
-| Level | Season | Song | Mission | Living-cast migration state |
-|---:|---:|---|---|---|
-| 01 | S1E1 | High Alert | The Blip | **SEVERE STALE CONTINUITY** — keep future-RAID/blip material; fix PRIM2/Royce/reacquisition chronology |
-| 02 | S1E2 | White Grey Black Hat | Permission Slip | **PARTIAL** — incident strong; migrate Miguel co-ownership + recurring cast |
-| 03 | S1E3 | OSINT | Open Book | **PARTIAL** — incident strong; make Oksana/Rafael co-owners + recurrence |
-| 04 | S2E1 | Anti Social Engineering | The Human Layer | **PARTIAL / CLOSE** — promote Sora co-ownership + recurring micro-writes |
-| 05 | S2E2 | Red Blue Purple White Team | Four Colors | **PARTIAL** — preserve exercise incident; deepen Thandiwe + ensemble recurrence |
-| 06 | S2E3 | Got Wifi | Dead Air | **PARTIAL / ATTRITION TARGET** — preserve loss; replace unnamed veteran with established recurring character before rewrite |
-| 07 | S3E1 | Data Breach | Exposure | **MAJOR** — local Grace/Jordan spine conflicts with current Leila/Li ownership |
-| 08 | S3E2 | App Attacks | Bad Input | **MAJOR** — local Chioma/Jordan-scripted spine conflicts with Aya/Minh ownership |
-| 09 | S3E3 | Virus Types | Patient Zero | **MAJOR** — remove Jordan-led containment default; Dmitri/Oksana own |
-| 10 | S4E1 | Installation Types | Clean Install | **MAJOR** — old Jordan/Aya relationship spine replaced by Valeria ownership |
-| 11 | S4E2 | Dive In | Dumpster Signal | **MAJOR** — old Jordan-investigation spine replaced by Grace/Rafael ownership |
-| 12 | S4E3 | IoT | House of Eyes | **MAJOR** — Jonas/Pylon own; remove forced first PRIM2/Jordan encounter |
-| 13 | S5E1 | IaaS, SaaS, PaaS | Shared Responsibility | **MAJOR** — Helen/Li/Yonas own, not Jordan coordinator |
-| 14 | S5E2 | Cap Ex Vs. Op Ex | Own the Exit | **MAJOR** — Amira/Marc own; connect economics to GLASSHOUSE psychology |
-| 15 | S5E3 | Trappin From The Cloud | Elastic | **SEVERE STALE CONTINUITY** — separate-Benji/Jordan framing invalid; Sari/Sable own |
-| 16 | S6E1 | Per Diem | Road Kit | **PARTIAL** — Jordan showcase retained; Valeria co-owns; remove unnamed trainee solution |
-| 17 | S6E2 | Patch Work | Trust Boundary | **MAJOR** — Aya owns; current Hana/Kkeutori/institutional-capture canon must drive rupture |
-| 18 | S6E3 | **Song #21 — open** | **Mission #18 — open** | **OPEN CONTAINER** — preserve no-invention rule; migrate ensemble ownership/PRIM2 terminology |
-| 19 | S7E1 | RAID (HOT SITE) | Hot Site | **CURRENT CORE** — define established recurring assault-team deaths and grief writes later |
-| 20 | S7E2 | Evil Twin | Mirror Room | **CURRENT CORE** — add remote ensemble development + fresh RAID grief |
-| 21 | S7E3 | Ghost In The Wires | Last Process | **CURRENT CORE** — add governance/social/grief writes around succession |
+# Runtime
 
-Full preserve/replace notes live in the migration audit.
+The old nine-minute WATCH cap is retired.
 
-## Episode 06 casualty warning
+Standard WATCH planning band is now roughly **20–35 minutes**, flexible by story.
 
-`Got Wifi` currently references an unnamed `older cohort veteran` death.
+This allows:
+- ordinary-life texture;
+- 7–10 recurring character presences;
+- song/music-film material;
+- mission support;
+- aftermath;
+- grief/workload continuity;
+- relationship movement.
 
-That is no longer an acceptable final solution.
+PLAY expands the same event and may run longer.
 
-The rewrite must choose an **existing recurring person** whose Episodes 01–05 have built enough ordinary life and relationships that their death creates real institutional absence.
+---
 
-The death must alter:
-- staffing;
-- workload;
-- mission composition;
-- relationships;
-- routines;
-- grief;
-- promotion pressure;
-- later character behavior.
+# Episode index
 
-Do not auto-replace the person.
+| # | Episode | Current primary owner(s) | Local blueprint state |
+|---:|---|---|---|
+| 01 | High Alert / The Blip | PRIM2 / Jordan / Royce | **MIGRATED** — Blip = age-33 reacquisition |
+| 02 | White Grey Black Hat / Permission Slip | Nusrat / Miguel | **MIGRATED** |
+| 03 | OSINT / Open Book | Oksana / Rafael | **MIGRATED** |
+| 04 | Anti Social Engineering / The Human Layer | Priya / Sora | **MIGRATED** |
+| 05 | Red Blue Purple White Team / Four Colors | Chioma / Thandiwe | **MIGRATED** |
+| 06 | Got Wifi / Dead Air | Sari / Yonas | **MIGRATED BASE** — casualty identity intentionally deferred until E01–05 scene development earns it |
+| 07 | Data Breach / Exposure | Leila / Li | **MIGRATED** |
+| 08 | App Attacks / Bad Input | Aya / Minh | **MIGRATED** |
+| 09 | Virus Types / Patient Zero | Dmitri / Oksana | **MIGRATED** |
+| 10 | Installation Types / Clean Install | Valeria | **MIGRATED** |
+| 11 | Dive In / Dumpster Signal | Grace / Rafael | **MIGRATED** |
+| 12 | IoT / House of Eyes | Jonas / Pylon | **MIGRATED** |
+| 13 | IaaS/SaaS/PaaS / Shared Responsibility | Helen / Li / Yonas | **MIGRATED** |
+| 14 | CapEx vs OpEx / Own the Exit | Amira / Marc | **MIGRATED** |
+| 15 | Trappin From The Cloud / Elastic | Sari / Sable | **MIGRATED** — separate contemporary Benji removed |
+| 16 | Per Diem / Road Kit | Jordan / Valeria | **MIGRATED** |
+| 17 | Patch Work / Trust Boundary | Aya | **MIGRATED** |
+| 18 | Song #21 OPEN / Mission #18 OPEN | Leila / Helen / Jordan | **MIGRATED OPEN CONTAINER** |
+| 19 | RAID / Hot Site | Jordan / Royce / PRIM2 | **CURRENT ENDGAME** |
+| 20 | Evil Twin / Mirror Room | PRIM2 / Jordan / Royce | **CURRENT ENDGAME** |
+| 21 | Ghost In The Wires / Last Process | Jordan / PRIM2 | **CURRENT ENDGAME** |
 
-## Final RAID casualty warning
+---
 
-The RAID assault elements must be drawn from established recurring PRIM and Hitman characters.
+# Episode 06 casualty rule
 
-Do not populate the finale with faceless disposable attackers merely to preserve the regular cast.
+`Got Wifi` may retain a major death, but no unnamed `older veteran` may be invented for it.
 
-Current locked end state remains:
+If the death remains, the victim must be an **existing established recurring person** whose Episodes 01–05 scene work has created enough ordinary life and relationship texture to make the loss structural.
+
+Do not choose the victim until that development exists.
+
+Do not auto-replace them afterward.
+
+---
+
+# Final RAID casualty rule
+
+RAID assault elements must be drawn from established recurring PRIM and Hitman characters.
+
+Do not populate the finale with disposable redshirts.
+
+Locked end state remains:
 - Jordan sole surviving PRIM-side attacker;
 - Royce sole surviving Hitman-side attacker;
-- everyone else in both assault elements dies;
+- every other member of both assault elements dies;
 - Jordan + Royce defeat PRIM2 together.
 
-Which established characters enter those assault teams must be earned through Episodes 02–18 before final script lock.
+Exact assault-team membership is chosen only after Episodes 02–18 receive enough scene-level development to make those decisions earned.
 
-## File roles
+---
 
-- `CHAPTER-TEMPLATE.md` v2.3 defines current merge, living-cast, intervention, casualty and replacement fields.
-- `LIVING-CAST-MIGRATION-AUDIT-2026-09-10.md` records what survives from each existing episode draft.
+# File roles
+
+- `CHAPTER-TEMPLATE.md` v2.4 defines the current longform/living-cast episode format.
 - `story/EPISODE-PROGRESSION.md` owns order.
-- `story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md` owns current episode-owner spine.
+- `story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md` owns primary development spine.
 - `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md` owns recurring population logic.
 - `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md` owns support promotion, death, vacancy and replacement behavior.
 - `story/EPISODE-MISSION-BIBLE.md` owns cross-season causal/deployment rules.
-- each local episode file owns expandable detail only after it is migrated and where it does not conflict with higher authority.
+- each local episode file now owns its migrated incident/character blueprint where non-conflicting.
 - `source-material/<song>/` preserves owner lyrics separately from adaptation.
 
-## Expansion rule
+---
 
-For Episodes 01–18, re-author in this order:
+# Next phase
 
-1. preserve the useful incident/technical spine identified in the audit;
-2. apply the current episode owner(s);
-3. choose 7–12 realistic recurring presences from the existing world;
-4. give every appearing recurring character a development beat;
-5. mark every recurring slot A/B/C/D for the episode;
-6. choose the base playable roster without Jordan by default;
-7. decide Jordan `scripted / wildcard / locked out` state;
-8. define CRITICAL/TERMINAL conditions;
-9. decide PRIM2 Apex eligibility;
-10. decide Royce Incursion eligibility;
-11. decide casualty state / vacancy consequences;
-12. carry relationship/grief/workload state into the next episode;
-13. promote only after continuity review.
+Structural migration is finished.
 
-This prevents stale drafts from silently re-centralizing Jordan or freezing the rest of the cast.
+The next work is **episode-by-episode scene development**, beginning at Episode 01 or Episode 02 as desired:
+
+1. exact scene roster;
+2. whole-roster A/B/C/D state;
+3. individual micro-development beats;
+4. dialogue and ordinary-life recurrence;
+5. mission staging;
+6. injury/death eligibility;
+7. aftermath/workload/grief;
+8. relationship and psychology ledger updates.
