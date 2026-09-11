@@ -4,7 +4,7 @@
 
 **main is authoritative.**
 
-The September 10 PRIM3 continuity migration is now structurally complete through the local episode layer.
+The September 10 PRIM3 continuity migration is structurally complete through the local episode layer.
 
 - Episodes **01–18** have migrated current ensemble blueprints.
 - Episodes **19–21** retain the current endgame chronology and inherit living-cast, attrition, grief, vacancy and promotion law.
@@ -12,7 +12,9 @@ The September 10 PRIM3 continuity migration is now structurally complete through
 - Standard WATCH planning is now **flexible longform, approximately 20–35 minutes**.
 - PLAY expands the same canonical event and may run longer.
 
-The project is ready for **episode-by-episode scene development**, not another macro migration pass.
+The project is in **episode-by-episode scene/game development**.
+
+Episode 2 is now the first episode with a completed longform treatment plus episode-specific tactical implementation.
 
 ---
 
@@ -40,6 +42,11 @@ Global Episode 18 remains the protected open slot for **Song #21**. Do not inven
 12. `story/IMMEDIATE-CAST-CANON.md`
 13. current character-specific dossiers
 14. migrated local episode files
+15. current longform episode treatments where present
+
+Episode 2 current story stack:
+- `episodes/S01E02-WHITE-GREY-BLACK-HAT.md` v4.0
+- `story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md`
 
 Historical migration records:
 - `CANON-SWEEP-2026-09-10.md`
@@ -54,7 +61,11 @@ Historical migration records:
 - `game/OMNISCIENT-COMMAND-INTERFACE.md`
 - `game/GAME-MECHANICS-COMPLETE.md`
 - `game/WILDCARD-INTERVENTION-AUTHORITY.md`
+- `game/SCOPE-ENVELOPE-AUTHORITY.md`
 - `episodes/CHAPTER-TEMPLATE.md` v2.4
+
+Episode 2 tactical implementation:
+- `game/LVL-02-PERMISSION-SLIP.md`
 
 ---
 
@@ -128,10 +139,22 @@ A later newcomer inherits the **vacancy**, not the dead person's personality or 
 
 ## Episode migration status
 
-Episodes 01–18 are now **MIGRATED BASELINES**:
+Episodes 01–18 are **MIGRATED BASELINES**.
 
+Episode 2 has advanced beyond baseline into detailed production development:
+
+### E02 — White Grey Black Hat / Permission Slip
+- 28–35 minute longform treatment written;
+- Act I internal onboarding/access problem retained as thematic setup;
+- actual PLAY mission moved off-site to fictional `Harborline Edge Exchange`;
+- playable roster: Nusrat / Miguel / Aya;
+- Jordan locked out of PLAY and Wildcard unavailable;
+- episode introduces reusable `Scope Envelope` gameplay;
+- mission begins `WHITE HAT / BLACK BOX` — authorized team, incomplete system knowledge;
+- tactical pressures combine physical Control, civilians, hostile recovery, evidence custody, service continuity and scope boundaries.
+
+Remaining migrated baselines:
 - E01 `High Alert / The Blip` — future PRIM2/Jordan/Royce; rewind Blip = Jordan age-33 reacquisition
-- E02 `Permission Slip` — Nusrat/Miguel
 - E03 `Open Book` — Oksana/Rafael
 - E04 `The Human Layer` — Priya/Sora
 - E05 `Four Colors` — Chioma/Thandiwe
@@ -153,6 +176,34 @@ Episodes 19–21 remain current endgame baselines:
 - E19 `RAID (HOT SITE)` — Jordan/Royce/PRIM2
 - E20 `Evil Twin` — PRIM2/Jordan/Royce
 - E21 `Ghost In The Wires` — Jordan/PRIM2; Royce secondary
+
+---
+
+## Episode 2 gameplay lesson now established
+
+`Permission Slip` creates a reusable tactical distinction:
+
+```text
+WHAT CAN I DO?
+WHAT MAY I DO?
+WHAT DO I ACTUALLY KNOW?
+```
+
+These are different questions.
+
+Scope-state vocabulary:
+
+```text
+AUTHORIZED
+OBSERVE-ONLY
+OUT-OF-SCOPE
+EMERGENCY-ELIGIBLE
+UNKNOWN-SCOPE
+```
+
+The game may allow deliberate unauthorized action when physically possible, but it must be explicitly labeled and carry persistent consequences.
+
+Authorization is gameplay, not an invisible wall.
 
 ---
 
@@ -213,6 +264,8 @@ ROYCE    -> destabilizes control + tempo
 
 Interventions cannot resurrect dead characters or erase consequences.
 
+Episode 2 deliberately predates Wildcard availability so the player first learns to trust the ordinary roster.
+
 ---
 
 ## PRIM terminology
@@ -235,19 +288,16 @@ Stale formal identities such as `Prime-00`, `Prime-0`, `Prime Negative One`, `PR
 
 ## Next production phase
 
-The macro base is stable.
+Continue episode by episode using Episode 2 as the first fully developed model:
 
-Proceed episode by episode using the migrated local blueprint and `episodes/CHAPTER-TEMPLATE.md`:
-
-1. exact scene roster;
-2. whole-roster A/B/C/D ledger;
-3. micro-development beat for every appearing recurring person;
-4. ordinary-life/workplace recurrence;
-5. exact dialogue/relationship movement;
-6. mission staging and PLAY contract;
-7. injury/death/transfer eligibility;
-8. aftermath, staffing and grief;
-9. relationship/psychology/lifecycle ledger update;
-10. next-episode inheritance.
+1. actual longform human setup;
+2. why these specific people get assigned;
+3. song/concept integration;
+4. real off-site or high-stakes mission where appropriate;
+5. episode-specific tactical map/objective chain;
+6. micro-development for every recurring person who appears;
+7. ordinary-life and aftermath scenes;
+8. gameplay-state writes into relationship/psychology/lifecycle systems;
+9. next-episode inheritance.
 
 **main is authoritative going forward.**
