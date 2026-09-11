@@ -1,7 +1,7 @@
 ---
 status: TEMPLATE
 system: PRIM3 episode / playable-level chapter
-version: 2.1.0
+version: 2.2.0
 branch: main
 ---
 
@@ -40,26 +40,30 @@ This template is subordinate to `CANON.md`, `story/EPISODE-MISSION-BIBLE.md`, `s
 
 Ordinary PLAY should default to **no Jordan in the selectable base roster**.
 
-## Cast density / relationship web
+## Cast density / recurring relationship web
 
 Every canonical episode should contain at least **6–7 meaningful named character presences across WATCH + PLAY**, with **7–10 preferred** for most episodes.
+
+**Use the established recurring roster first.**
 
 A presence may be:
 - `OWNER`
 - `ACTIVE`
 - `REMOTE`
-- `OUTSIDE`
-- `LEGACY`
+- `WORKPLACE`
+- `RELATIONSHIP`
 - `OPPOSING`
 - `TRACE`
+- `OUTSIDE/HISTORICAL` only when already established and specifically relevant
 
 Do not satisfy this requirement with silent bodies in a room.
 
-For each named presence record:
+For each meaningful presence record:
 
 ```text
 CHARACTER:
 MODE:
+WHY THEY ARE REALISTICALLY HERE:
 WHAT THEY WANT IN THIS EPISODE:
 WHAT THEY DO:
 WHAT CHANGES OR IS REVEALED:
@@ -70,16 +74,23 @@ Default composition target:
 
 ```text
 1–2 primary owners
-2–4 active/remote recurring mains
-1–2 Legacy/outside/historical relationships
-1–2 institutional or opposing-board presences
+3–5 recurring coworkers / command / technical / support people from the immediate roster
+0–2 recurring Hitman-side parallels when relevant
+0–1 established outside/historical relationship when specifically earned
 ```
+
+Do **not** invent a guest simply to reach the count. First ask:
+
+> **Which existing person would realistically already be here?**
 
 Every Episode 02–18 should normally overlap with:
 - at least one person carrying residue from the previous episode;
-- at least one person whose larger payoff comes later;
-- at least one Legacy/outside character;
-- at least one non-owner main receiving a mini-development write.
+- at least one person whose larger payoff occurs later;
+- at least one non-owner recurring main receiving a mini-development write;
+- at least one continuing relationship thread from earlier episodes;
+- a Hitman/institutional/PRIM2 pressure only where it naturally belongs.
+
+Historical/outside characters are optional, not mandatory. Use Hana, Ren, Tariq, Zayd, Bigga Lex, or other separately promoted people only when their established relationship actually affects the episode.
 
 Use `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md` as the current episode-by-episode population plan.
 
@@ -253,7 +264,9 @@ List required location geometry, characters, props, UI, animation, VFX, music, S
 A chapter graduates from blueprint to current episode draft only when its:
 - human owner;
 - **6–7+ meaningful-character density requirement**;
-- Legacy/outside overlap;
+- recurring-roster overlap;
+- prior-episode residue carry;
+- future-payoff setup;
 - base playable roster;
 - intervention state;
 - mission loop;
