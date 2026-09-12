@@ -77,7 +77,7 @@ test('standard move costs one AP and dash costs two', () => {
 
 test('moving into an observed detection zone breaks concealment', () => {
   let state = beginPlayerPhase(baseState());
-  state = moveUnit(state, 'R1', { x: 3, y: 1 }, 'MOVE');
+  state = moveUnit(state, 'R1', { x: 2, y: 2 }, 'MOVE');
   const player = state.units.find((unit) => unit.id === 'R1');
   assert.equal(player.concealed, true);
 
