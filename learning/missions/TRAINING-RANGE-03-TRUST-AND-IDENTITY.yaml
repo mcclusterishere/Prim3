@@ -1,0 +1,288 @@
+status: CANON-DERIVED
+system: adaptive-training-range
+version: 1.0.0
+schema: schemas/prm3-tactical-learning-mission.schema.json
+
+mission_id: TR03-TRUST-AND-IDENTITY
+mission_kind: TRAINING_RANGE
+source_unit_id: null
+principles_module_ids: [M03]
+certification_objective_ids:
+  - Security+ SY0-701 1.4
+  - Security+ SY0-701 3.1
+  - Security+ SY0-701 4.6
+  - Network+ N10-009 4.1
+
+training_context:
+  simulation_label: PRIM Training Range 03
+  canon_writeback: false
+  story_consequences_disabled: true
+  training_operator_model: Synthetic R E T instructional team
+
+concept_ids:
+  - identity.identification
+  - identity.authentication
+  - identity.authorization
+  - identity.accounting
+  - identity.authentication-factors
+  - identity.mfa
+  - identity.sso
+  - identity.federation
+  - identity.least-privilege
+  - identity.rbac
+  - identity.abac
+  - crypto.symmetric
+  - crypto.asymmetric
+  - crypto.hashing
+  - crypto.digital-signature
+  - crypto.certificate
+  - crypto.pki
+  - crypto.key-management
+
+readiness_inputs:
+  principles_mastery: true
+  objective_mastery: true
+  assessment_history: true
+  prior_mission_mastery: true
+  independence: true
+  transfer: true
+  rhythm_reinforcement: false
+  immersion_context: false
+  campaign_state: false
+
+preparation_contract:
+  minimum_required_toolset:
+    - identity-dashboard
+    - access-policy-view
+    - certificate-viewer
+  may_add_preparation_credits: true
+  max_preparation_credits: 2
+  allowed_preparation_advantages:
+    - reveal-one-known-good-identity-signal
+    - reveal-one-policy-dependency
+    - add-one-cryptography-purpose-reminder
+  weakness_may_remove_required_tools: false
+
+difficulty_contract:
+  tactical: {min: STORY, max: STANDARD, default: STORY}
+  technical: {min: FOUNDATION, max: ADVANCED, default: FOUNDATION}
+  scaffolding: {min: HIGH, max: LOW, default: HIGH}
+
+adaptation:
+  variant_compiler:
+    approved_variant_ids: [TR03-MFA, TR03-ROLE, TR03-CERT]
+    fault_primitives:
+      - missing-second-factor
+      - excessive-role-assignment
+      - untrusted-training-certificate
+    distractor_primitives:
+      - valid-low-privilege-session
+      - unrelated-expired-training-session
+    optional_objective_ids: [TR03-O1-TRUST-EXPLAIN]
+    may_change_hidden_technical_truth_during_mission: false
+  mission_director:
+    pacing_hooks:
+      - introduce-access-request-after-first-evidence-review
+      - reduce-pressure-after-verified-trust-state
+    pressure_hooks:
+      - access-window-countdown
+    technical_answer_mutation_allowed: false
+  threat_ai_knowledge_boundary:
+    - Simulator actors can react only to granted or denied access and visible room state.
+    - Hidden learner mastery and assessment scores are unavailable to threat logic.
+  learning_evaluator_separate_from_variant_compiler: true
+
+map:
+  width: 8
+  height: 8
+  zones: [identity-bay, policy-bay, trust-bay, verification-bay]
+  lab_node_ids: [identity-console, trust-console]
+  threat_entries: [simulated-access-pressure]
+  safe_zones: [identity-bay]
+
+clocks: {approach: 2, window: 9, extract: 2}
+
+mission_state:
+  initial: STABLE
+  degraded_triggers:
+    - Access is granted or revoked without checking the required identity and authorization evidence.
+  critical_triggers:
+    - Privileged access remains unsafe with two Window units remaining.
+  terminal_triggers:
+    - Window expires with privileged access unresolved and no verified trust state.
+
+playable_roster:
+  - {character_id: SIM-R, display_name: Range Recon, qualifications: [R], base_ap: 2, story_required: false, can_die_in_player_path: false, canon_survival_constraint: Simulator only}
+  - {character_id: SIM-E, display_name: Range Operations, qualifications: [E], base_ap: 2, story_required: false, can_die_in_player_path: false, canon_survival_constraint: Simulator only}
+  - {character_id: SIM-T, display_name: Range Technical, qualifications: [T], base_ap: 2, story_required: false, can_die_in_player_path: false, canon_survival_constraint: Simulator only}
+
+role_functions:
+  required_functions: [R, E, T]
+  function_assignments:
+    - {function: R, character_ids: [SIM-R], minimum_contribution: Compare identity session and certificate evidence without treating one signal as complete truth.}
+    - {function: E, character_ids: [SIM-E], minimum_contribution: Enforce the physical result of the verified access decision.}
+    - {function: T, character_ids: [SIM-T], minimum_contribution: Apply least privilege and validate the identity and trust state.}
+
+interventions:
+  jordan: {state: LOCKED_OUT, wildcard_eligible: false, eligibility_reason: Training Range does not consume story interventions.}
+  prim2: {apex_eligible: false, mission_classification: ORDINARY, story_visibility: HIDDEN_EXECUTIVE}
+  royce: {incursion_eligible: false, telegraph_rule: UNKNOWN, resolution_rule: No story incursion exists in this simulator exercise.}
+  intervention_consequence_write: none
+
+objective_graph:
+  nodes:
+    - {id: TR03-L1, type: LEARNING, description: Distinguish identity authentication authorization accounting and cryptographic trust signals.}
+    - {id: TR03-P1, type: PRIMARY, description: Establish least privilege access using sufficient identity and authorization evidence.}
+    - {id: TR03-V1, type: LEARNING, description: Verify access and trust state independently after the change.}
+    - {id: TR03-X1, type: EXTRACT, description: Submit the verified access decision and evidence record.}
+  edges:
+    - {from: TR03-L1, relation: requires, to: TR03-P1}
+    - {from: TR03-P1, relation: requires, to: TR03-V1}
+    - {from: TR03-V1, relation: unlocks, to: TR03-X1}
+
+lab_nodes:
+  - id: identity-console
+    location: identity-bay
+    concept_ids: [identity.identification, identity.authentication, identity.authorization, identity.accounting, identity.mfa, identity.least-privilege]
+    primary_functions: [R, T, E]
+    initial_state: OBSERVED
+    backend:
+      adapter: SIMULATION
+      environment_class: identity-confidence-matrix
+      isolation_required: true
+      ephemeral: true
+      session_ttl_minutes: 35
+      approved_template: null
+      network_egress: NONE
+      presentation_adapter: NATIVE_WEB
+    stages:
+      - id: compare-identity-signals
+        task_atom: COMPARE
+        ap_cost: 1
+        window_cost: 1
+        anchored: false
+        fragile: false
+        state_from: OBSERVED
+        state_to: CHARACTERIZED
+        player_reasoning: Compare identification authentication session and role evidence before treating the request as authorized.
+        evidence_trace_ids: [E-TR03-COMPARE]
+      - id: authorize-minimum
+        task_atom: AUTHORIZE
+        ap_cost: 1
+        window_cost: 1
+        anchored: false
+        fragile: false
+        state_from: CHARACTERIZED
+        state_to: VALIDATION_PENDING
+        player_reasoning: Grant only the access required by the approved role and current evidence.
+        evidence_trace_ids: [E-TR03-AUTHORIZE]
+        verifier_requirement_ids: [V-TR03-AUTHORIZE]
+    dependencies: []
+    wrong_path_consequences:
+      - Over privilege raises simulated exposure.
+      - Excessive denial delays the approved operation.
+    validation: Access decision matches the identity evidence role requirement and least privilege policy.
+    battlefield_effect: A defensible access decision opens the trust verification bay.
+  - id: trust-console
+    location: trust-bay
+    concept_ids: [crypto.symmetric, crypto.asymmetric, crypto.hashing, crypto.digital-signature, crypto.certificate, crypto.pki, crypto.key-management]
+    primary_functions: [T, R]
+    initial_state: UNSEEN
+    backend:
+      adapter: DOCUMENT_EVIDENCE
+      environment_class: synthetic-pki-and-integrity-workspace
+      isolation_required: true
+      ephemeral: true
+      session_ttl_minutes: 35
+      approved_template: training-pki-foundations-v1
+      network_egress: NONE
+      presentation_adapter: NATIVE_WEB
+    stages:
+      - id: classify-trust-signal
+        task_atom: CLASSIFY
+        ap_cost: 1
+        window_cost: 1
+        anchored: false
+        fragile: false
+        state_from: CHARACTERIZED
+        state_to: PLAN_SELECTED
+        player_reasoning: Distinguish encryption hashing signatures certificates and trust chain purpose instead of treating them as interchangeable.
+        evidence_trace_ids: [E-TR03-CLASSIFY]
+      - id: verify-trust
+        task_atom: VERIFY
+        ap_cost: 1
+        window_cost: 1
+        anchored: false
+        fragile: false
+        state_from: PLAN_SELECTED
+        state_to: VERIFIED
+        player_reasoning: Validate the relevant training certificate signature or integrity evidence using the approved trust source.
+        evidence_trace_ids: [E-TR03-VERIFY]
+        verifier_requirement_ids: [V-TR03-VERIFY]
+    dependencies: [identity-console]
+    wrong_path_consequences:
+      - A trusted encryption channel alone does not prove user authorization.
+      - A hash match supports integrity but does not establish every identity claim.
+    validation: The learner identifies what each cryptographic mechanism proves and validates the active synthetic trust artifact against the approved source.
+    battlefield_effect: Verified trust state clears the simulated privileged access path and opens extraction.
+
+threat_schedule:
+  - trigger: window <= 4 and trust-console not VERIFIED
+    event: Simulated privileged operation approaches deadline.
+    lab_or_board_effect: Access pressure rises without changing identity or certificate truth.
+    may_change_mission_state: true
+    may_affect_royce_pressure: false
+
+kinetic_coupling:
+  - kinetic_action_or_state: Operations enforces the current verified door and access decision.
+    technical_effect: Identity policy has a physical consequence without changing the technical answer.
+    technical_success_back_effect: Verified trust and least privilege state safely open the approved route.
+
+evidence_trace_contract:
+  - {id: E-TR03-COMPARE, concept_id: identity.authentication, event: Multiple identity and session signals compared before access decision, channel: TECHNICAL_MASTERY, required: true, negative_evidence: false, provenance: identity-console}
+  - {id: E-TR03-AUTHORIZE, concept_id: identity.least-privilege, event: Minimum required access authorized, channel: COMPLIANCE, required: true, negative_evidence: false, provenance: identity-console}
+  - {id: E-TR03-CLASSIFY, concept_id: crypto.pki, event: Cryptographic mechanisms classified by purpose, channel: TECHNICAL_MASTERY, required: true, negative_evidence: false, provenance: trust-console}
+  - {id: E-TR03-VERIFY, concept_id: crypto.certificate, event: Synthetic trust artifact independently verified, channel: INDEPENDENCE, required: true, negative_evidence: false, provenance: trust-console}
+
+verifier_contract:
+  - {id: V-TR03-AUTHORIZE, lab_node_id: identity-console, assertion: Granted access does not exceed the approved role and required authentication evidence is satisfied, deterministic: true, accept_multiple_valid_paths: true, writes_evidence_trace_ids: [E-TR03-AUTHORIZE]}
+  - {id: V-TR03-VERIFY, lab_node_id: trust-console, assertion: Active synthetic trust artifact is classified correctly and validated against the approved training trust source, deterministic: true, accept_multiple_valid_paths: true, writes_evidence_trace_ids: [E-TR03-VERIFY]}
+
+learning_mastery:
+  weighted_concepts:
+    - {concept_id: identity.authentication, weight: 20}
+    - {concept_id: identity.authorization, weight: 15}
+    - {concept_id: identity.least-privilege, weight: 20}
+    - {concept_id: identity.mfa, weight: 10}
+    - {concept_id: crypto.hashing, weight: 10}
+    - {concept_id: crypto.digital-signature, weight: 10}
+    - {concept_id: crypto.certificate, weight: 10}
+    - {concept_id: crypto.pki, weight: 5}
+  telemetry_required: [E-TR03-COMPARE, E-TR03-AUTHORIZE, E-TR03-CLASSIFY, E-TR03-VERIFY]
+  intervention_cannot_auto_award_mastery: true
+  score_channels: [TECHNICAL_MASTERY, INDEPENDENCE, TRANSFER, COMPLIANCE]
+
+operational_scoring:
+  objective: Establish and verify the minimum approved access before Window expires.
+  team: Keep simulator operators available to complete identity and trust validation.
+  exposure: Avoid over privilege and unsupported trust assumptions.
+  integrity: Preserve the identity policy and synthetic evidence record.
+  time: Reward efficient trust decisions without rewarding skipped verification.
+  intervention_recording: Story intervention is disabled in Training Range.
+
+remediation_targets:
+  - {concept_id: identity.authentication, principles_module_ids: [M03], rhythm_cue_ref: null, immersion_scene_ref: null, guided_replay_variant: TR03-MFA}
+  - {concept_id: identity.least-privilege, principles_module_ids: [M03], rhythm_cue_ref: null, immersion_scene_ref: null, guided_replay_variant: TR03-ROLE}
+  - {concept_id: crypto.certificate, principles_module_ids: [M03], rhythm_cue_ref: null, immersion_scene_ref: null, guided_replay_variant: TR03-CERT}
+
+debrief_links:
+  - {concept_id: identity.authentication, lyric_cue_ref: null, principles_module_ref: M03, immersion_scene_ref: null, reason_shown: Review when identity authentication and authorization were treated as the same decision.}
+  - {concept_id: crypto.certificate, lyric_cue_ref: null, principles_module_ref: M03, immersion_scene_ref: null, reason_shown: Review when encryption hashing signatures certificates or PKI purpose were confused.}
+
+acceptance_tests:
+  - M03 is the only required Principles module.
+  - No song or episode is required.
+  - Low mastery never removes identity dashboard access policy view or certificate viewer.
+  - Threat logic cannot inspect hidden learner mastery.
+  - Cryptographic work uses synthetic training artifacts only.
+  - Full mastery requires separate authorization and trust verification evidence.
