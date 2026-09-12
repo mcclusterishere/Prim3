@@ -1,0 +1,270 @@
+schema_version: 1.0.0
+status: CANON
+system: PRIM3 browser first tactical game core
+authority: game/TACTICAL-XCOM-MECHANICS.md
+
+product_identity:
+  player_promise: "A real turn based 3D tactical game whose technical labs exist inside the battlefield."
+  final_player_presentation_must_be_game: true
+  form_only_training_range_allowed_as_final: false
+  combat_and_technical_work_share_one_mission_state: true
+  technical_mastery_may_be_awarded_by_kills: false
+
+renderer_target:
+  presentation: 3D_ISOMETRIC_TACTICAL
+  browser_first: true
+  future_engine_candidate: PLAYCANVAS
+  asset_delivery_target: GLB_GLTF_2
+  mobile_and_tablet_required: true
+
+turn_model:
+  phases:
+    - PLAYER
+    - THREAT
+    - CLOCK_STATE
+  standard_action_points: 2
+  unused_action_points_carry: false
+  movement:
+    standard_move_ap: 1
+    dash_ap: 2
+    waypoint_pathing: true
+    vertical_floors: true
+    ladders_stairs_vaults: true
+  core_actions:
+    - MOVE
+    - DASH
+    - FIRE
+    - OVERWATCH
+    - HUNKER
+    - RELOAD
+    - INTERACT
+    - CARRY
+    - STABILIZE
+    - EXTRACT
+    - TECHNICAL_ACTION
+
+combat_model:
+  stochastic_combat: true
+  deterministic_technical_truth: true
+  cover:
+    states:
+      - NONE
+      - LOW
+      - HIGH
+    directional: true
+    flanking: true
+    destructible: true
+  line_of_sight: true
+  elevation: true
+  concealment:
+    enabled: true
+    break_conditions:
+      - FIRE_UNSUPPRESSED_WEAPON
+      - ENTER_HOSTILE_LOS
+      - LOUD_ENVIRONMENTAL_ACTION
+      - SCRIPTED_DISCOVERY
+  reaction_fire:
+    overwatch: true
+    concealment_ambush: true
+  weapons:
+    ammo_magazines: true
+    reload_action: true
+    hit_probability_visible_when_known: true
+    projected_damage_visible_when_known: true
+    critical_hits: true
+    area_effects: true
+    friendly_fire_rules_authored_per_action: true
+  downed_state: true
+  carry_wounded: true
+  evacuation: true
+  persistent_injury: true
+  permanent_death_allowed_by_mission_kind: true
+
+information_model:
+  states:
+    - HIDDEN
+    - DETECTED
+    - INFERRED
+    - CORROBORATED
+    - VERIFIED
+  stale_state_supported: true
+  contradiction_supported: true
+  provenance_required_for_high_confidence_technical_truth: true
+  fog_of_war: true
+  hostile_awareness:
+    local_senses: true
+    alert_network: true
+    may_read_hidden_learner_model: false
+
+squad_model:
+  standard_roles:
+    R: "Picture and reconnaissance"
+    E: "Physical control and protection"
+    T: "Technical objective"
+  named_characters_not_generic_tokens: true
+  class_like_specializations: true
+  promotions_and_ability_unlocks: true
+  bonds_and_teamwork: true
+  will_and_fatigue: true
+  negative_traits_or_fears: true
+  roster_injury_and_recovery: true
+
+mission_model:
+  phases:
+    - BRIEF
+    - APPROACH
+    - ON_OBJECTIVE
+    - EXTRACT
+    - AFTERMATH
+  escalation:
+    - STABLE
+    - DEGRADED
+    - CRITICAL
+    - TERMINAL
+  objectives:
+    primary_and_secondary: true
+    timed_objectives_supported: true
+    optional_objectives_supported: true
+    extraction_supported: true
+    rescue_supported: true
+    hold_zone_supported: true
+    recovery_supported: true
+    continuity_supported: true
+  reinforcements: true
+  loot_and_salvage: true
+  environment_hazards: true
+  destructible_environment: true
+
+technical_integration:
+  lab_node_states:
+    - UNSEEN
+    - OBSERVED
+    - CHARACTERIZED
+    - PLAN_SELECTED
+    - WORK_IN_PROGRESS
+    - VALIDATION_PENDING
+    - COMMITTED
+    - VERIFIED
+    - SEALED_STABILIZED
+  node_view_inside_mission: true
+  full_screen_external_lab_as_separate_product: false
+  adapters_planned:
+    - BROWSER_SIM
+    - TERMINAL
+    - REMOTE_DESKTOP
+    - NETWORK_RANGE
+    - PACKET_ANALYSIS
+    - IDENTITY_RANGE
+  correct_technical_action_random_failure: false
+  validation_distinct_from_change: true
+  combat_may_interrupt_technical_work: true
+  technical_state_may_change_battlefield: true
+
+adaptive_system:
+  mission_variant_compiler:
+    runs_before_deployment: true
+    may_use_learner_readiness: true
+    chooses_from_approved_variants: true
+    may_mutate_truth_after_launch: false
+  mission_director:
+    runs_during_mission: true
+    controls:
+      - PACING
+      - REINFORCEMENT_WINDOWS
+      - ENVIRONMENTAL_PRESSURE
+      - DISTRACTOR_DENSITY
+      - TEMPORARY_QUIET_WINDOWS
+    may_change_correct_technical_answer: false
+  threat_ai:
+    may_use_world_observations: true
+    may_use_hidden_learner_data: false
+  learning_evaluator:
+    separate_from_variant_compiler: true
+    separate_from_threat_ai: true
+    evidence_channels:
+      - TECHNICAL_MASTERY
+      - INDEPENDENCE
+      - TRANSFER
+      - COMPLIANCE
+    operational_grade_separate: true
+
+procedural_content:
+  map_model: PLOT_AND_PARCEL_STYLE
+  handcrafted_parcels_combined_procedurally: true
+  mission_seed_recorded: true
+  authored_landmarks_supported: true
+  tactical_validity_checks_required: true
+  prevent_unreachable_objectives: true
+  prevent_coverless_spawn_traps: true
+
+training_ranges:
+  final_format: FULL_3D_TACTICAL_SIMULATION
+  noncanonical_story_state: true
+  use_real_gameplay_core: true
+  require_playable_characters: true
+  require_hostile_or_pressure_entities: true
+  require_cover_and_positioning: true
+  require_firearms_or_equivalent_kinetic_training_actions: true
+  require_lab_node: true
+  ranges:
+    TR01:
+      module: M01
+      title: Risk and Controls
+      tactical_fantasy: "Secure a compromised training facility while identifying the material risk and applying a proportional control."
+    TR02:
+      module: M02
+      title: Network Path
+      tactical_fantasy: "Fight through a failing network facility, protect the technical operator, trace the service path, repair the fault and verify restoration."
+    TR03:
+      module: M03
+      title: Trust and Identity
+      tactical_fantasy: "Move through an access controlled training complex, distinguish trusted identities from compromised ones, restore least privilege and verify the trust chain."
+
+prototype_policy:
+  current_html_range_classification: SYSTEMS_HARNESS
+  systems_harness_purpose:
+    - READINESS_LOGIC
+    - VARIANT_COMPILATION
+    - EVIDENCE_TRACE
+    - SCORING
+    - ACCOUNT_PERSISTENCE
+  systems_harness_is_final_game: false
+  systems_harness_may_be_used_for_internal_testing: true
+
+production_gates:
+  gate_01_headless_resolver:
+    required:
+      - GRID_AND_PATHING_STATE
+      - ACTION_POINT_RESOLUTION
+      - COVER_AND_FLANKING
+      - LINE_OF_SIGHT
+      - CONCEALMENT
+      - WEAPON_AND_DAMAGE_RESOLUTION
+      - OBJECTIVE_STATE
+      - LAB_NODE_STATE
+  gate_02_greybox_3d:
+    required:
+      - CAMERA
+      - TILE_SELECTION
+      - MOVEMENT_PREVIEW
+      - COVER_ICONS
+      - CHARACTERS
+      - ENEMY_TURNS
+      - SHOOTING
+      - LAB_NODE_INTERACTION
+  gate_03_asset_pipeline:
+    required:
+      - CHARACTER_ASSET_MANIFESTS
+      - ENVIRONMENT_KITS
+      - ANIMATION_LIBRARY
+      - GLB_VALIDATION
+      - LOD_POLICY
+      - COLLISION_POLICY
+  gate_04_training_range_alpha:
+    required:
+      - TR01_FULL_GAME_LOOP
+      - TR02_FULL_GAME_LOOP
+      - TR03_FULL_GAME_LOOP
+      - TABLET_CONTROLS
+      - SAVE_RESUME
+      - TELEMETRY
