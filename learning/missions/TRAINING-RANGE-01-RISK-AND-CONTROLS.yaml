@@ -1,0 +1,314 @@
+status: CANON-DERIVED
+system: adaptive-training-range
+version: 1.0.0
+schema: schemas/prm3-tactical-learning-mission.schema.json
+
+mission_id: TR01-RISK-AND-CONTROLS
+mission_kind: TRAINING_RANGE
+source_unit_id: null
+principles_module_ids: [M01]
+certification_objective_ids:
+  - Security+ SY0-701 1.1
+  - Security+ SY0-701 1.2
+  - Security+ SY0-701 1.3
+  - Security+ SY0-701 1.4
+
+training_context:
+  simulation_label: PRIM Training Range 01
+  canon_writeback: false
+  story_consequences_disabled: true
+  training_operator_model: Synthetic R E T instructional team
+
+concept_ids:
+  - security.confidentiality
+  - security.integrity
+  - security.availability
+  - security.threat
+  - security.vulnerability
+  - security.risk
+  - security.likelihood
+  - security.impact
+  - security.controls
+  - security.data-states
+  - security.zero-trust
+  - security.shared-responsibility
+  - security.governance
+
+readiness_inputs:
+  principles_mastery: true
+  objective_mastery: true
+  assessment_history: true
+  prior_mission_mastery: false
+  independence: true
+  transfer: true
+  rhythm_reinforcement: false
+  immersion_context: false
+  campaign_state: false
+
+preparation_contract:
+  minimum_required_toolset:
+    - evidence-viewer
+    - risk-register
+    - control-catalog
+  may_add_preparation_credits: true
+  max_preparation_credits: 2
+  allowed_preparation_advantages:
+    - reveal-one-source-provenance
+    - remove-one-nonmaterial-distractor
+    - preview-one-control-category
+  weakness_may_remove_required_tools: false
+
+difficulty_contract:
+  tactical: {min: STORY, max: STANDARD, default: STORY}
+  technical: {min: FOUNDATION, max: APPLIED, default: FOUNDATION}
+  scaffolding: {min: HIGH, max: LOW, default: HIGH}
+
+adaptation:
+  variant_compiler:
+    approved_variant_ids: [TR01-A, TR01-B, TR01-C]
+    fault_primitives:
+      - weak-access-control
+      - integrity-change
+      - availability-loss
+      - exposed-data-state
+    distractor_primitives:
+      - unrelated-low-impact-alert
+      - duplicate-observation
+    optional_objective_ids: [TR01-O1-TRANSFER]
+    may_change_hidden_technical_truth_during_mission: false
+  mission_director:
+    pacing_hooks:
+      - introduce-second-source-after-first-classification
+      - reduce-pressure-after-verified-control
+    pressure_hooks:
+      - countdown-to-service-impact
+    technical_answer_mutation_allowed: false
+  threat_ai_knowledge_boundary:
+    - Training pressure reacts only to visible board state and authored triggers.
+    - Hidden learner mastery is never available to threat logic.
+  learning_evaluator_separate_from_variant_compiler: true
+
+map:
+  width: 8
+  height: 8
+  zones: [briefing-bay, evidence-bay, control-bay, verification-bay]
+  lab_node_ids: [risk-console, control-console]
+  threat_entries: [simulated-service-pressure]
+  safe_zones: [briefing-bay]
+
+clocks: {approach: 2, window: 8, extract: 2}
+
+mission_state:
+  initial: STABLE
+  degraded_triggers:
+    - Two material risks are misclassified or ignored.
+  critical_triggers:
+    - Availability reaches critical threshold before a control plan is committed.
+  terminal_triggers:
+    - Window expires with no defensible control plan and no validated service state.
+
+playable_roster:
+  - character_id: SIM-R
+    display_name: Range Recon
+    qualifications: [R]
+    base_ap: 2
+    story_required: false
+    can_die_in_player_path: false
+    canon_survival_constraint: Simulator only
+  - character_id: SIM-E
+    display_name: Range Operations
+    qualifications: [E]
+    base_ap: 2
+    story_required: false
+    can_die_in_player_path: false
+    canon_survival_constraint: Simulator only
+  - character_id: SIM-T
+    display_name: Range Technical
+    qualifications: [T]
+    base_ap: 2
+    story_required: false
+    can_die_in_player_path: false
+    canon_survival_constraint: Simulator only
+
+role_functions:
+  required_functions: [R, E, T]
+  function_assignments:
+    - function: R
+      character_ids: [SIM-R]
+      minimum_contribution: Compare evidence sources and assign defensible confidence.
+    - function: E
+      character_ids: [SIM-E]
+      minimum_contribution: Protect the service and maintain a safe operating boundary.
+    - function: T
+      character_ids: [SIM-T]
+      minimum_contribution: Select and validate controls against identified risk.
+
+interventions:
+  jordan:
+    state: LOCKED_OUT
+    wildcard_eligible: false
+    eligibility_reason: Training Range exercises do not consume story interventions.
+  prim2:
+    apex_eligible: false
+    mission_classification: ORDINARY
+    story_visibility: HIDDEN_EXECUTIVE
+  royce:
+    incursion_eligible: false
+    telegraph_rule: UNKNOWN
+    resolution_rule: No story incursion exists inside this simulator exercise.
+  intervention_consequence_write: none
+
+objective_graph:
+  nodes:
+    - {id: TR01-L1, type: LEARNING, description: Distinguish threat vulnerability likelihood impact and risk.}
+    - {id: TR01-P1, type: PRIMARY, description: Choose a proportional control plan that protects confidentiality integrity and availability.}
+    - {id: TR01-V1, type: LEARNING, description: Verify that the selected control changes the intended risk state.}
+    - {id: TR01-X1, type: EXTRACT, description: Submit the evidence based risk record.}
+  edges:
+    - {from: TR01-L1, relation: requires, to: TR01-P1}
+    - {from: TR01-P1, relation: requires, to: TR01-V1}
+    - {from: TR01-V1, relation: unlocks, to: TR01-X1}
+
+lab_nodes:
+  - id: risk-console
+    location: evidence-bay
+    concept_ids: [security.threat, security.vulnerability, security.risk, security.likelihood, security.impact]
+    primary_functions: [R, T]
+    initial_state: OBSERVED
+    backend:
+      adapter: SIMULATION
+      environment_class: deterministic-risk-board
+      isolation_required: true
+      ephemeral: true
+      session_ttl_minutes: 30
+      approved_template: null
+      network_egress: NONE
+      presentation_adapter: NATIVE_WEB
+    stages:
+      - id: inspect-evidence
+        task_atom: OBSERVE
+        ap_cost: 1
+        window_cost: 1
+        anchored: false
+        fragile: false
+        state_from: OBSERVED
+        state_to: CHARACTERIZED
+        player_reasoning: Separate observed facts from assumptions before assigning risk.
+        evidence_trace_ids: [E-TR01-OBSERVE]
+      - id: classify-risk
+        task_atom: CLASSIFY
+        ap_cost: 1
+        window_cost: 1
+        anchored: false
+        fragile: false
+        state_from: CHARACTERIZED
+        state_to: PLAN_SELECTED
+        player_reasoning: Connect threat vulnerability likelihood and impact into a defensible risk statement.
+        evidence_trace_ids: [E-TR01-CLASSIFY]
+    dependencies: []
+    wrong_path_consequences:
+      - Misclassification spends Window and can expose the service to unnecessary or insufficient controls.
+    validation: Risk record identifies material threat vulnerability likelihood and impact using available evidence.
+    battlefield_effect: Correct classification exposes the control console with the correct service priorities.
+  - id: control-console
+    location: control-bay
+    concept_ids: [security.confidentiality, security.integrity, security.availability, security.controls, security.zero-trust]
+    primary_functions: [T, E]
+    initial_state: UNSEEN
+    backend:
+      adapter: SIMULATION
+      environment_class: control-selection-sandbox
+      isolation_required: true
+      ephemeral: true
+      session_ttl_minutes: 30
+      approved_template: null
+      network_egress: NONE
+      presentation_adapter: NATIVE_WEB
+    stages:
+      - id: select-control
+        task_atom: CONFIGURE
+        ap_cost: 1
+        window_cost: 1
+        anchored: true
+        fragile: false
+        state_from: CHARACTERIZED
+        state_to: VALIDATION_PENDING
+        player_reasoning: Choose a proportional control that protects the identified security objective without inventing authority.
+        evidence_trace_ids: [E-TR01-CONTROL]
+        verifier_requirement_ids: [V-TR01-CONTROL]
+      - id: verify-control
+        task_atom: VERIFY
+        ap_cost: 1
+        window_cost: 1
+        anchored: false
+        fragile: false
+        state_from: VALIDATION_PENDING
+        state_to: VERIFIED
+        player_reasoning: Confirm the selected control actually changes the intended risk and does not create an unacceptable availability failure.
+        evidence_trace_ids: [E-TR01-VERIFY]
+        verifier_requirement_ids: [V-TR01-VERIFY]
+    dependencies: [risk-console]
+    wrong_path_consequences:
+      - Overbroad control lowers availability.
+      - Weak control leaves material exposure unchanged.
+    validation: Confidentiality integrity availability and residual risk states are recalculated after the control is applied.
+    battlefield_effect: Verified control stops simulated service pressure and opens the verification bay.
+
+threat_schedule:
+  - trigger: window <= 5 and control-console not VERIFIED
+    event: Service pressure increases.
+    lab_or_board_effect: Availability state degrades one band.
+    may_change_mission_state: true
+    may_affect_royce_pressure: false
+
+kinetic_coupling:
+  - kinetic_action_or_state: Operations keeps the control bay safe and powered.
+    technical_effect: Technical work is not interrupted.
+    technical_success_back_effect: Verified control stabilizes the simulated service board.
+
+evidence_trace_contract:
+  - {id: E-TR01-OBSERVE, concept_id: security.risk, event: Relevant evidence reviewed before classification, channel: TECHNICAL_MASTERY, required: true, negative_evidence: false, provenance: risk-console}
+  - {id: E-TR01-CLASSIFY, concept_id: security.risk, event: Threat vulnerability likelihood and impact connected correctly, channel: TECHNICAL_MASTERY, required: true, negative_evidence: false, provenance: risk-console}
+  - {id: E-TR01-CONTROL, concept_id: security.controls, event: Proportional control selected, channel: TRANSFER, required: true, negative_evidence: false, provenance: control-console}
+  - {id: E-TR01-VERIFY, concept_id: security.integrity, event: Result independently validated, channel: INDEPENDENCE, required: true, negative_evidence: false, provenance: control-console}
+
+verifier_contract:
+  - {id: V-TR01-CONTROL, lab_node_id: control-console, assertion: Selected control addresses the material risk without violating the minimum availability requirement, deterministic: true, accept_multiple_valid_paths: true, writes_evidence_trace_ids: [E-TR01-CONTROL]}
+  - {id: V-TR01-VERIFY, lab_node_id: control-console, assertion: Residual risk and CIA state match the committed control outcome, deterministic: true, accept_multiple_valid_paths: true, writes_evidence_trace_ids: [E-TR01-VERIFY]}
+
+learning_mastery:
+  weighted_concepts:
+    - {concept_id: security.risk, weight: 40}
+    - {concept_id: security.controls, weight: 30}
+    - {concept_id: security.confidentiality, weight: 10}
+    - {concept_id: security.integrity, weight: 10}
+    - {concept_id: security.availability, weight: 10}
+  telemetry_required: [E-TR01-OBSERVE, E-TR01-CLASSIFY, E-TR01-CONTROL, E-TR01-VERIFY]
+  intervention_cannot_auto_award_mastery: true
+  score_channels: [TECHNICAL_MASTERY, INDEPENDENCE, TRANSFER, COMPLIANCE]
+
+operational_scoring:
+  objective: Complete a defensible risk and control cycle before Window expires.
+  team: Simulator operators remain available and functional.
+  exposure: Avoid unnecessary service exposure created by poor control choices.
+  integrity: Preserve evidence and service state throughout the exercise.
+  time: Reward efficient diagnosis without rewarding skipped validation.
+  intervention_recording: Story intervention is disabled in Training Range.
+
+remediation_targets:
+  - concept_id: security.risk
+    principles_module_ids: [M01]
+    rhythm_cue_ref: null
+    immersion_scene_ref: null
+    guided_replay_variant: TR01-A
+
+debrief_links:
+  - {concept_id: security.risk, lyric_cue_ref: null, principles_module_ref: M01, immersion_scene_ref: null, reason_shown: Return here when threat vulnerability likelihood impact or risk was confused.}
+  - {concept_id: security.controls, lyric_cue_ref: null, principles_module_ref: M01, immersion_scene_ref: null, reason_shown: Return here when the selected control did not match the identified risk.}
+
+acceptance_tests:
+  - M01 is the only required Principles module.
+  - No song or episode is required.
+  - All minimum required tools remain available at every readiness level.
+  - Technical truth cannot change after mission start.
+  - Technical mastery and operational result are reported separately.
