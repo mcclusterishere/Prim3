@@ -2,13 +2,11 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://prim3.local/schemas/prm3-tactical-learning-mission.schema.json",
   "title": "PRIM3 Tactical Learning Mission",
-  "description": "Canonical mission schema for ensemble PLAY, deterministic technical learning, Jordan Wildcard escalation, PRIM2 Apex intervention, and Royce Incursion eligibility.",
+  "description": "Canonical schema for Training Range, canonical episode, and side operation Missions with adaptive readiness, deterministic LAB_NODE verification, evidence traces, and separate tactical and learning challenge.",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "mission_id",
-    "song",
-    "episode_context",
     "concept_ids",
     "map",
     "clocks",
@@ -27,7 +25,22 @@
   ],
   "properties": {
     "mission_id": {"type": "string", "minLength": 1},
+    "mission_kind": {
+      "enum": ["TRAINING_RANGE", "CANONICAL_EPISODE", "SIDE_OPERATION"],
+      "default": "CANONICAL_EPISODE"
+    },
+    "source_unit_id": {"type": ["string", "null"]},
     "song": {"type": "string", "minLength": 1},
+    "principles_module_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^M[0-9]{2}$"}
+    },
+    "certification_objective_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
     "episode_context": {
       "type": "object",
       "additionalProperties": false,
@@ -44,11 +57,74 @@
         "past_hint_write": {"type": "string"}
       }
     },
+    "training_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["simulation_label", "canon_writeback", "story_consequences_disabled"],
+      "properties": {
+        "simulation_label": {"type": "string", "minLength": 1},
+        "canon_writeback": {"const": false},
+        "story_consequences_disabled": {"const": true},
+        "training_operator_model": {"type": "string"}
+      }
+    },
     "concept_ids": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
       "items": {"type": "string"}
+    },
+    "readiness_inputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "principles_mastery": {"type": "boolean"},
+        "objective_mastery": {"type": "boolean"},
+        "assessment_history": {"type": "boolean"},
+        "prior_mission_mastery": {"type": "boolean"},
+        "independence": {"type": "boolean"},
+        "transfer": {"type": "boolean"},
+        "rhythm_reinforcement": {"type": "boolean"},
+        "immersion_context": {"type": "boolean"},
+        "campaign_state": {"type": "boolean"}
+      }
+    },
+    "preparation_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["minimum_required_toolset", "may_add_preparation_credits", "weakness_may_remove_required_tools"],
+      "properties": {
+        "minimum_required_toolset": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string"}
+        },
+        "may_add_preparation_credits": {"type": "boolean"},
+        "max_preparation_credits": {"type": "integer", "minimum": 0},
+        "allowed_preparation_advantages": {"type": "array", "items": {"type": "string"}},
+        "weakness_may_remove_required_tools": {"const": false}
+      }
+    },
+    "difficulty_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tactical", "technical", "scaffolding"],
+      "properties": {
+        "tactical": {"$ref": "#/$defs/tacticalDifficultyRange"},
+        "technical": {"$ref": "#/$defs/technicalDifficultyRange"},
+        "scaffolding": {"$ref": "#/$defs/scaffoldingRange"}
+      }
+    },
+    "adaptation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "variant_compiler": {"$ref": "#/$defs/variantCompiler"},
+        "mission_director": {"$ref": "#/$defs/missionDirector"},
+        "threat_ai_knowledge_boundary": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "learning_evaluator_separate_from_variant_compiler": {"const": true}
+      }
     },
     "map": {
       "type": "object",
@@ -120,65 +196,9 @@
       "additionalProperties": false,
       "required": ["jordan", "prim2", "royce"],
       "properties": {
-        "jordan": {
-          "type": "object",
-          "additionalProperties": false,
-          "required": ["state", "wildcard_eligible"],
-          "properties": {
-            "state": {"enum": ["SCRIPTED_ASSIGNMENT", "OFF_BOARD_WILDCARD", "LOCKED_OUT"]},
-            "wildcard_eligible": {"type": "boolean"},
-            "eligibility_reason": {"type": "string"},
-            "request_label": {"type": "string"},
-            "arrival_delay_rounds": {
-              "oneOf": [
-                {"type": "integer", "minimum": 0},
-                {
-                  "type": "object",
-                  "additionalProperties": false,
-                  "required": ["min", "max"],
-                  "properties": {
-                    "min": {"type": "integer", "minimum": 0},
-                    "max": {"type": "integer", "minimum": 0}
-                  }
-                }
-              ]
-            },
-            "arrival_rule": {"type": "string"},
-            "ingress": {"type": "string"},
-            "relationship_consequence": {"type": "string"}
-          }
-        },
-        "prim2": {
-          "type": "object",
-          "additionalProperties": false,
-          "required": ["apex_eligible", "mission_classification", "story_visibility"],
-          "properties": {
-            "apex_eligible": {"type": "boolean"},
-            "mission_classification": {"enum": ["ORDINARY", "CRITICAL", "STATE", "STRATEGIC", "STORY_SCRIPTED"]},
-            "story_visibility": {"enum": ["HIDDEN_EXECUTIVE", "PARTIALLY_KNOWN", "EXPLICIT_PRIM2"]},
-            "persistent_critical_rounds_required": {"type": "integer", "minimum": 1, "default": 1},
-            "request_label": {"type": "string"},
-            "arrival_rule": {"type": "string"},
-            "sourced_information_package": {"type": "string"},
-            "authority_exception_scope": {"type": "string"},
-            "cannot_restore": {"type": "array", "items": {"type": "string"}},
-            "relationship_consequence": {"type": "string"}
-          }
-        },
-        "royce": {
-          "type": "object",
-          "additionalProperties": false,
-          "required": ["incursion_eligible", "telegraph_rule", "resolution_rule"],
-          "properties": {
-            "incursion_eligible": {"type": "boolean"},
-            "eligibility_reason": {"type": "string"},
-            "telegraph_rule": {"enum": ["UNKNOWN", "POSSIBLE", "LIKELY", "SCRIPTED", "INTEL_DEPENDENT"]},
-            "ingress_rule": {"type": "string"},
-            "resolution_rule": {"type": "string"},
-            "jordan_old_business": {"type": "boolean"},
-            "relationship_consequence": {"type": "string"}
-          }
-        },
+        "jordan": {"$ref": "#/$defs/jordanIntervention"},
+        "prim2": {"$ref": "#/$defs/prim2Intervention"},
+        "royce": {"$ref": "#/$defs/royceIntervention"},
         "intervention_consequence_write": {"type": "string"}
       }
     },
@@ -248,6 +268,14 @@
         }
       }
     },
+    "evidence_trace_contract": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/evidenceTraceRequirement"}
+    },
+    "verifier_contract": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/verifierRequirement"}
+    },
     "learning_mastery": {
       "type": "object",
       "additionalProperties": false,
@@ -267,7 +295,12 @@
           }
         },
         "telemetry_required": {"type": "array", "minItems": 1, "items": {"type": "string"}},
-        "intervention_cannot_auto_award_mastery": {"const": true}
+        "intervention_cannot_auto_award_mastery": {"const": true},
+        "score_channels": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"enum": ["TECHNICAL_MASTERY", "INDEPENDENCE", "TRANSFER", "COMPLIANCE"]}
+        }
       }
     },
     "operational_scoring": {
@@ -283,21 +316,59 @@
         "intervention_recording": {"type": "string"}
       }
     },
+    "remediation_targets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["concept_id", "principles_module_ids"],
+        "properties": {
+          "concept_id": {"type": "string"},
+          "principles_module_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+          "rhythm_cue_ref": {"type": ["string", "null"]},
+          "immersion_scene_ref": {"type": ["string", "null"]},
+          "guided_replay_variant": {"type": ["string", "null"]}
+        }
+      }
+    },
     "debrief_links": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["concept_id", "lyric_cue_ref", "reason_shown"],
+        "required": ["concept_id", "reason_shown"],
         "properties": {
           "concept_id": {"type": "string"},
-          "lyric_cue_ref": {"type": "string"},
+          "lyric_cue_ref": {"type": ["string", "null"]},
+          "principles_module_ref": {"type": ["string", "null"]},
+          "immersion_scene_ref": {"type": ["string", "null"]},
           "reason_shown": {"type": "string"}
         }
       }
     },
     "acceptance_tests": {"type": "array", "minItems": 1, "items": {"type": "string"}}
   },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"mission_kind": {"const": "TRAINING_RANGE"}},
+        "required": ["mission_kind"]
+      },
+      "then": {
+        "required": ["training_context", "principles_module_ids", "preparation_contract", "difficulty_contract"],
+        "properties": {"source_unit_id": {"type": "null"}}
+      }
+    },
+    {
+      "if": {
+        "anyOf": [
+          {"properties": {"mission_kind": {"const": "CANONICAL_EPISODE"}}, "required": ["mission_kind"]},
+          {"not": {"required": ["mission_kind"]}}
+        ]
+      },
+      "then": {"required": ["song", "episode_context"]}
+    }
+  ],
   "$defs": {
     "playableCharacter": {
       "type": "object",
@@ -318,6 +389,130 @@
         "canon_survival_constraint": {"type": "string"}
       }
     },
+    "jordanIntervention": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state", "wildcard_eligible"],
+      "properties": {
+        "state": {"enum": ["SCRIPTED_ASSIGNMENT", "OFF_BOARD_WILDCARD", "LOCKED_OUT"]},
+        "wildcard_eligible": {"type": "boolean"},
+        "eligibility_reason": {"type": "string"},
+        "request_label": {"type": "string"},
+        "arrival_delay_rounds": {
+          "oneOf": [
+            {"type": "integer", "minimum": 0},
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["min", "max"],
+              "properties": {
+                "min": {"type": "integer", "minimum": 0},
+                "max": {"type": "integer", "minimum": 0}
+              }
+            }
+          ]
+        },
+        "arrival_rule": {"type": "string"},
+        "ingress": {"type": "string"},
+        "relationship_consequence": {"type": "string"}
+      }
+    },
+    "prim2Intervention": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["apex_eligible", "mission_classification", "story_visibility"],
+      "properties": {
+        "apex_eligible": {"type": "boolean"},
+        "mission_classification": {"enum": ["ORDINARY", "CRITICAL", "STATE", "STRATEGIC", "STORY_SCRIPTED"]},
+        "story_visibility": {"enum": ["HIDDEN_EXECUTIVE", "PARTIALLY_KNOWN", "EXPLICIT_PRIM2"]},
+        "persistent_critical_rounds_required": {"type": "integer", "minimum": 1, "default": 1},
+        "request_label": {"type": "string"},
+        "arrival_rule": {"type": "string"},
+        "sourced_information_package": {"type": "string"},
+        "authority_exception_scope": {"type": "string"},
+        "cannot_restore": {"type": "array", "items": {"type": "string"}},
+        "relationship_consequence": {"type": "string"}
+      }
+    },
+    "royceIntervention": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["incursion_eligible", "telegraph_rule", "resolution_rule"],
+      "properties": {
+        "incursion_eligible": {"type": "boolean"},
+        "eligibility_reason": {"type": "string"},
+        "telegraph_rule": {"enum": ["UNKNOWN", "POSSIBLE", "LIKELY", "SCRIPTED", "INTEL_DEPENDENT"]},
+        "ingress_rule": {"type": "string"},
+        "resolution_rule": {"type": "string"},
+        "jordan_old_business": {"type": "boolean"},
+        "relationship_consequence": {"type": "string"}
+      }
+    },
+    "tacticalDifficultyRange": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min", "max", "default"],
+      "properties": {
+        "min": {"enum": ["STORY", "STANDARD", "VETERAN", "GHOST"]},
+        "max": {"enum": ["STORY", "STANDARD", "VETERAN", "GHOST"]},
+        "default": {"enum": ["STORY", "STANDARD", "VETERAN", "GHOST"]}
+      }
+    },
+    "technicalDifficultyRange": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min", "max", "default"],
+      "properties": {
+        "min": {"enum": ["FOUNDATION", "APPLIED", "ADVANCED", "TRANSFER"]},
+        "max": {"enum": ["FOUNDATION", "APPLIED", "ADVANCED", "TRANSFER"]},
+        "default": {"enum": ["FOUNDATION", "APPLIED", "ADVANCED", "TRANSFER"]}
+      }
+    },
+    "scaffoldingRange": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min", "max", "default"],
+      "properties": {
+        "min": {"enum": ["HIGH", "STANDARD", "LOW", "NONE"]},
+        "max": {"enum": ["HIGH", "STANDARD", "LOW", "NONE"]},
+        "default": {"enum": ["HIGH", "STANDARD", "LOW", "NONE"]}
+      }
+    },
+    "variantCompiler": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "approved_variant_ids": {"type": "array", "items": {"type": "string"}},
+        "fault_primitives": {"type": "array", "items": {"type": "string"}},
+        "distractor_primitives": {"type": "array", "items": {"type": "string"}},
+        "optional_objective_ids": {"type": "array", "items": {"type": "string"}},
+        "may_change_hidden_technical_truth_during_mission": {"const": false}
+      }
+    },
+    "missionDirector": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "pacing_hooks": {"type": "array", "items": {"type": "string"}},
+        "pressure_hooks": {"type": "array", "items": {"type": "string"}},
+        "technical_answer_mutation_allowed": {"const": false}
+      }
+    },
+    "labBackend": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["adapter", "environment_class", "isolation_required", "ephemeral"],
+      "properties": {
+        "adapter": {"enum": ["SIMULATION", "TERMINAL", "REMOTE_DESKTOP", "NETWORK_RANGE", "PACKET_ANALYSIS", "SIEM", "HARDWARE_SIM", "DOCUMENT_EVIDENCE"]},
+        "environment_class": {"type": "string", "minLength": 1},
+        "isolation_required": {"const": true},
+        "ephemeral": {"type": "boolean"},
+        "session_ttl_minutes": {"type": "integer", "minimum": 1},
+        "approved_template": {"type": ["string", "null"]},
+        "network_egress": {"enum": ["NONE", "ALLOWLISTED"]},
+        "presentation_adapter": {"enum": ["NATIVE_WEB", "XTERM", "GUACAMOLE", "GNS3_WEB", "OTHER"]}
+      }
+    },
     "labNode": {
       "type": "object",
       "additionalProperties": false,
@@ -333,6 +528,7 @@
           "items": {"enum": ["R", "E", "T", "LEAD", "DEFENSE", "SUPPORT", "AUTHORITY", "WILDCARD", "OTHER"]}
         },
         "initial_state": {"enum": ["UNSEEN", "OBSERVED", "CHARACTERIZED", "DEGRADED", "UNSAFE"]},
+        "backend": {"$ref": "#/$defs/labBackend"},
         "stages": {
           "type": "array",
           "minItems": 1,
@@ -351,7 +547,9 @@
               "fragile": {"type": "boolean"},
               "state_from": {"type": "string"},
               "state_to": {"type": "string"},
-              "player_reasoning": {"type": "string", "minLength": 10}
+              "player_reasoning": {"type": "string", "minLength": 10},
+              "evidence_trace_ids": {"type": "array", "items": {"type": "string"}},
+              "verifier_requirement_ids": {"type": "array", "items": {"type": "string"}}
             }
           }
         },
@@ -359,6 +557,33 @@
         "wrong_path_consequences": {"type": "array", "items": {"type": "string"}},
         "validation": {"type": "string", "minLength": 10},
         "battlefield_effect": {"type": "string", "minLength": 10}
+      }
+    },
+    "evidenceTraceRequirement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "concept_id", "event", "channel"],
+      "properties": {
+        "id": {"type": "string"},
+        "concept_id": {"type": "string"},
+        "event": {"type": "string"},
+        "channel": {"enum": ["TECHNICAL_MASTERY", "INDEPENDENCE", "TRANSFER", "COMPLIANCE", "OPERATIONAL_CONTEXT"]},
+        "required": {"type": "boolean"},
+        "negative_evidence": {"type": "boolean"},
+        "provenance": {"type": "string"}
+      }
+    },
+    "verifierRequirement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "lab_node_id", "assertion", "deterministic"],
+      "properties": {
+        "id": {"type": "string"},
+        "lab_node_id": {"type": "string"},
+        "assertion": {"type": "string"},
+        "deterministic": {"const": true},
+        "accept_multiple_valid_paths": {"type": "boolean"},
+        "writes_evidence_trace_ids": {"type": "array", "items": {"type": "string"}}
       }
     }
   }
