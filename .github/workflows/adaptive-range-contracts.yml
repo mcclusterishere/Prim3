@@ -1,0 +1,76 @@
+name: Adaptive range contracts
+
+on:
+  pull_request:
+    paths:
+      - 'game/**'
+      - 'learning/missions/TRAINING-RANGE-*.yaml'
+      - 'schemas/prm3-*.json'
+      - '.github/workflows/adaptive-range-contracts.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'game/**'
+      - 'learning/missions/TRAINING-RANGE-*.yaml'
+      - 'schemas/prm3-*.json'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Parse JSON contracts
+        run: |
+          python -m json.tool schemas/prm3-tactical-learning-mission.schema.json >/dev/null
+          python -m json.tool schemas/prm3-mission-readiness.schema.json >/dev/null
+
+      - name: Parse Training Range YAML
+        run: |
+          ruby -e "require 'yaml'; %w[
+            learning/missions/TRAINING-RANGE-01-RISK-AND-CONTROLS.yaml
+            learning/missions/TRAINING-RANGE-02-NETWORK-PATH.yaml
+            learning/missions/TRAINING-RANGE-03-TRUST-AND-IDENTITY.yaml
+          ].each { |p| YAML.load_file(p, aliases: true); puts \"parsed #{p}\" }"
+
+      - name: Enforce Training Range fairness and identity
+        run: |
+          ruby <<'RUBY'
+          require 'yaml'
+
+          expected = {
+            'TRAINING-RANGE-01-RISK-AND-CONTROLS.yaml' => ['TR01-RISK-AND-CONTROLS', ['M01']],
+            'TRAINING-RANGE-02-NETWORK-PATH.yaml' => ['TR02-NETWORK-PATH', ['M02']],
+            'TRAINING-RANGE-03-TRUST-AND-IDENTITY.yaml' => ['TR03-TRUST-AND-IDENTITY', ['M03']]
+          }
+
+          expected.each do |file, (mission_id, modules)|
+            path = File.join('learning', 'missions', file)
+            data = YAML.load_file(path, aliases: true)
+
+            raise "#{file}: mission_kind" unless data['mission_kind'] == 'TRAINING_RANGE'
+            raise "#{file}: mission_id" unless data['mission_id'] == mission_id
+            raise "#{file}: principles modules" unless data['principles_module_ids'] == modules
+            raise "#{file}: story writeback" unless data.dig('training_context', 'canon_writeback') == false
+            raise "#{file}: story consequences" unless data.dig('training_context', 'story_consequences_disabled') == true
+            raise "#{file}: required tools can never be removed" unless data.dig('preparation_contract', 'weakness_may_remove_required_tools') == false
+            raise "#{file}: variant compiler cannot mutate truth" unless data.dig('adaptation', 'variant_compiler', 'may_change_hidden_technical_truth_during_mission') == false
+            raise "#{file}: director cannot mutate answer" unless data.dig('adaptation', 'mission_director', 'technical_answer_mutation_allowed') == false
+            raise "#{file}: evaluator separation" unless data.dig('adaptation', 'learning_evaluator_separate_from_variant_compiler') == true
+            raise "#{file}: mastery intervention law" unless data.dig('learning_mastery', 'intervention_cannot_auto_award_mastery') == true
+            raise "#{file}: evidence traces missing" unless Array(data['evidence_trace_contract']).any?
+            raise "#{file}: verifier contract missing" unless Array(data['verifier_contract']).any?
+          end
+          RUBY
+
+      - name: Enforce current foundation mapping in canon
+        run: |
+          grep -q 'M01  Security Foundations and Risk' game/TRAINING-RANGE-AUTHORITY.md
+          grep -q 'M02  Networking Foundations' game/TRAINING-RANGE-AUTHORITY.md
+          grep -q 'M03  Identity, Cryptography and Access' game/TRAINING-RANGE-AUTHORITY.md
+          grep -q 'TR01-RISK-AND-CONTROLS' game/LEARNING-MISSION-SOURCE-OF-TRUTH.md
+          grep -q 'TR02-NETWORK-PATH' game/LEARNING-MISSION-SOURCE-OF-TRUTH.md
+          grep -q 'TR03-TRUST-AND-IDENTITY' game/LEARNING-MISSION-SOURCE-OF-TRUTH.md
