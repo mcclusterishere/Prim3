@@ -25,6 +25,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Test headless tactical resolver
+        run: node --test game/runtime/*.test.mjs
+
       - name: Parse JSON contracts
         run: |
           python -m json.tool schemas/prm3-tactical-learning-mission.schema.json >/dev/null
