@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - 'game/**'
+      - 'production/GAME-PRODUCTION-CONTROL-PLANE.md'
       - 'learning/missions/TRAINING-RANGE-*.yaml'
       - 'schemas/prm3-*.json'
       - '.github/workflows/adaptive-range-contracts.yml'
@@ -11,6 +12,7 @@ on:
     branches: [main]
     paths:
       - 'game/**'
+      - 'production/GAME-PRODUCTION-CONTROL-PLANE.md'
       - 'learning/missions/TRAINING-RANGE-*.yaml'
       - 'schemas/prm3-*.json'
 
@@ -23,18 +25,53 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Test headless tactical resolver
+        run: node --test game/runtime/*.test.mjs
+
       - name: Parse JSON contracts
         run: |
           python -m json.tool schemas/prm3-tactical-learning-mission.schema.json >/dev/null
           python -m json.tool schemas/prm3-mission-readiness.schema.json >/dev/null
 
-      - name: Parse Training Range YAML
+      - name: Parse tactical and Training Range YAML
         run: |
           ruby -e "require 'yaml'; %w[
+            game/TACTICAL-CORE-MECHANICS.yaml
             learning/missions/TRAINING-RANGE-01-RISK-AND-CONTROLS.yaml
             learning/missions/TRAINING-RANGE-02-NETWORK-PATH.yaml
             learning/missions/TRAINING-RANGE-03-TRUST-AND-IDENTITY.yaml
           ].each { |p| YAML.load_file(p, aliases: true); puts \"parsed #{p}\" }"
+
+      - name: Enforce tactical game identity
+        run: |
+          ruby <<'RUBY'
+          require 'yaml'
+          data = YAML.load_file('game/TACTICAL-CORE-MECHANICS.yaml', aliases: true)
+
+          raise 'final player presentation must be game' unless data.dig('product_identity', 'final_player_presentation_must_be_game') == true
+          raise 'form only range cannot be final' unless data.dig('product_identity', 'form_only_training_range_allowed_as_final') == false
+          raise 'combat and technical work must share mission state' unless data.dig('product_identity', 'combat_and_technical_work_share_one_mission_state') == true
+          raise 'kills cannot award technical mastery' unless data.dig('product_identity', 'technical_mastery_may_be_awarded_by_kills') == false
+          raise 'standard AP contract changed' unless data.dig('turn_model', 'standard_action_points') == 2
+          raise 'cover must include low and high' unless data.dig('combat_model', 'cover', 'states') == ['NONE', 'LOW', 'HIGH']
+          raise 'flanking required' unless data.dig('combat_model', 'cover', 'flanking') == true
+          raise 'concealment required' unless data.dig('combat_model', 'concealment', 'enabled') == true
+          raise 'technical truth must be deterministic' unless data.dig('combat_model', 'deterministic_technical_truth') == true
+          raise 'threat AI cannot read learner model' unless data.dig('information_model', 'hostile_awareness', 'may_read_hidden_learner_model') == false
+          raise 'variant compiler cannot mutate truth after launch' unless data.dig('adaptive_system', 'mission_variant_compiler', 'may_mutate_truth_after_launch') == false
+          raise 'director cannot mutate technical answer' unless data.dig('adaptive_system', 'mission_director', 'may_change_correct_technical_answer') == false
+          raise 'evaluator must be separate from variant compiler' unless data.dig('adaptive_system', 'learning_evaluator', 'separate_from_variant_compiler') == true
+          raise 'evaluator must be separate from threat AI' unless data.dig('adaptive_system', 'learning_evaluator', 'separate_from_threat_ai') == true
+          raise 'Training Range must be full 3D tactical simulation' unless data.dig('training_ranges', 'final_format') == 'FULL_3D_TACTICAL_SIMULATION'
+          raise 'Training Range requires playable characters' unless data.dig('training_ranges', 'require_playable_characters') == true
+          raise 'Training Range requires cover and positioning' unless data.dig('training_ranges', 'require_cover_and_positioning') == true
+          raise 'Training Range requires lab node' unless data.dig('training_ranges', 'require_lab_node') == true
+          raise 'systems harness must not be final game' unless data.dig('prototype_policy', 'systems_harness_is_final_game') == false
+          RUBY
 
       - name: Enforce Training Range fairness and identity
         run: |
@@ -66,11 +103,14 @@ jobs:
           end
           RUBY
 
-      - name: Enforce current foundation mapping in canon
+      - name: Enforce current foundation mapping and game presentation in canon
         run: |
           grep -q 'M01  Security Foundations and Risk' game/TRAINING-RANGE-AUTHORITY.md
           grep -q 'M02  Networking Foundations' game/TRAINING-RANGE-AUTHORITY.md
           grep -q 'M03  Identity, Cryptography and Access' game/TRAINING-RANGE-AUTHORITY.md
+          grep -q 'Training Range means a real playable tactical simulation' game/TRAINING-RANGE-AUTHORITY.md
+          grep -q 'Training Range Systems Harness' game/TRAINING-RANGE-AUTHORITY.md
+          grep -q 'PRIM3 Missions are a real turn based 3D tactical game' game/XCOM2-MECHANIC-ADAPTATION-AUTHORITY.md
           grep -q 'TR01-RISK-AND-CONTROLS' game/LEARNING-MISSION-SOURCE-OF-TRUTH.md
           grep -q 'TR02-NETWORK-PATH' game/LEARNING-MISSION-SOURCE-OF-TRUTH.md
           grep -q 'TR03-TRUST-AND-IDENTITY' game/LEARNING-MISSION-SOURCE-OF-TRUTH.md
