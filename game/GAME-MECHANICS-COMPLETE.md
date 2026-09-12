@@ -1,38 +1,39 @@
 ---
 status: CANON
-system: Game mechanics — full spine
-version: 1.2.0
-branch: main
-authority: Subordinate to CANON.md and specialized canonical mechanics/story authorities
+system: Game mechanics, full spine
+version: 1.3.0
+branch: prim3-adaptive-cyber-range
+authority: Subordinate to CANON.md and specialized canonical mechanics, learning, and story authorities
 ---
 
-# PRIM3 Game Mechanics — Complete Spine
+# PRIM3 Game Mechanics, Complete Spine
 
-This is the high-level rules stack for the XCOM-style product first. Real-time FPS and mobile tactical are later clients of the same outcomes.
+This is the high level rules stack for the browser first XCOM style product. Real time FPS and mobile tactical are later clients of the same mission outcomes.
 
 Specialized authorities:
-- `TACTICAL-IT-MECHANICS-BIBLE.md` — technical/action grammar;
-- `WILDCARD-INTERVENTION-AUTHORITY.md` — Jordan/PRIM2/Royce escalation;
-- `OMNISCIENT-COMMAND-INTERFACE.md` — fused mission-control UI;
-- `story/ENSEMBLE-POV-AUTHORITY.md` — character/episode ownership;
-- `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md` — recurring-cast development, death, vacancy, promotion and replacement.
 
----
+1. `ADAPTIVE-CYBER-RANGE-AUTHORITY.md`, readiness, adaptation, live lab integration, and evidence traces.
+2. `LEARNING-MISSION-SOURCE-OF-TRUTH.md`, PRIM learning loop and mastery law.
+3. `TACTICAL-IT-MECHANICS-BIBLE.md`, technical and action grammar.
+4. `WILDCARD-INTERVENTION-AUTHORITY.md`, Jordan, PRIM2, and Royce escalation.
+5. `OMNISCIENT-COMMAND-INTERFACE.md`, fused mission control UI.
+6. `story/ENSEMBLE-POV-AUTHORITY.md`, character and episode ownership.
+7. `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md`, recurring cast development, death, vacancy, promotion, and replacement.
 
 # A. Product layers
 
 | Layer | Name | Job |
-|---|---|---|
+| --- | --- | --- |
 | 0 | Shared outcome rules | Phases, clocks, success states |
-| 1 | Strategy layer | Choose ops, assign teams, live with consequences |
-| 2 | Tactical layer | XCOM-style mission play |
-| 3 | Progression | Operators, gear, qualifications |
-| 4 | Campaign structure | Seasons, heat, story gates, intervention scarcity, roster continuity |
-| 5 | Presentation clients | TB / mobile TB / FPS using the same outcome writer |
+| 1 | Learning readiness | Convert PRIM evidence into fair mission preparation |
+| 2 | Strategy layer | Choose ops, assign teams, live with consequences |
+| 3 | Tactical layer | XCOM style mission play |
+| 4 | Cyber range layer | LAB_NODE environments, verification, evidence traces |
+| 5 | Progression | Operators, gear, qualifications, learner independence |
+| 6 | Campaign structure | Seasons, heat, story gates, intervention scarcity, roster continuity |
+| 7 | Presentation clients | Browser tactical, mobile tactical, future FPS using the same outcome writer |
 
-If a feature does not feed a mission outcome, character consequence, relationship consequence or campaign consequence, it is not core v1.
-
----
+If a feature does not feed learning evidence, mission outcome, character consequence, relationship consequence, or campaign consequence, it is not core version one.
 
 # B. Shared outcome rules
 
@@ -45,464 +46,560 @@ BRIEF -> APPROACH -> ON OBJECTIVE -> EXTRACT -> AFTERMATH
 ## B2. Clocks
 
 | Phase | Default | Notes |
-|---|---:|---|
+| --- | ---: | --- |
 | Brief | Off | Planning only |
 | Approach | 6 | Detection can collapse early |
-| Window | 8; commonly 6 if detected | Technical/mission work burns this |
-| Extract | 6 / 4 / 3 | Clean / collapsed / hot |
-| Aftermath | Off | Scoring + story residue |
+| Window | 8, commonly 6 if detected | Technical and mission work burns this |
+| Extract | 6, 4, or 3 | Clean, collapsed, or hot |
+| Aftermath | Off | Scoring, learning evidence, and story residue |
 
-## B3. Mission-state ladder
+## B3. Mission state ladder
 
-Every mission carries:
+Every tactical mission carries:
 
 ```text
 STABLE -> DEGRADED -> CRITICAL -> TERMINAL
 ```
 
-`CRITICAL` may expose a Jordan Wildcard request. An eligible high-value mission that remains CRITICAL after Jordan is present may expose a PRIM2 Apex request.
+CRITICAL may expose a Jordan Wildcard request. An eligible high value story mission that remains CRITICAL after Jordan is present may expose a PRIM2 Apex request.
 
-## B4. Outcome ladder
+Training Range missions do not use story interventions unless an explicit simulator lesson requires a noncanonical demonstration.
 
-Mission results are graded, not binary by default. A failed perfect objective may still produce useful evidence, surviving operators, partial service restoration or a costly extraction.
+## B4. Outcome channels
 
-Core score channels:
-1. Take/objective value
-2. Team integrity
-3. Exposure
-4. Speed
-5. Authorization compliance
+Mission results are graded rather than binary by default.
 
-Intervention use is recorded separately so a player can earn a strong operational grade while still knowing they required Wildcard or Apex support.
+Operational score channels remain:
 
----
+1. Objective value.
+2. Team integrity.
+3. Exposure.
+4. Speed.
+5. Authorization compliance.
 
-# C. Strategy layer
+Learning channels are separate:
 
-## C1. What the player manages
+1. Technical Mastery.
+2. Independence.
+3. Transfer.
+4. Compliance evidence.
+
+Intervention use is recorded separately.
+
+# C. PRIM readiness layer
+
+## C1. Mission Readiness Profile
+
+Before a scored Mission, the system may build a concept level readiness profile from:
+
+1. Principles mastery and assessment history.
+2. Certification objective coverage.
+3. Prior Mission performance.
+4. Independence and hint use.
+5. Prior transfer performance.
+6. Rhythm reinforcement state.
+7. Immersion context state.
+8. Campaign and roster state.
+
+The profile recommends preparation, Technical Challenge, and Scaffolding.
+
+## C2. Fair preparation
+
+Every mission declares a minimum required technical toolset.
+
+Readiness can grant more choice, information, or optional challenge above that floor. It cannot remove required tools because a learner is weak.
+
+High mastery may grant Preparation Credits, better starting intelligence, route choice, extra diagnostic options, reduced prompts, or elite optional objectives.
+
+Developing mastery may grant clearer task boundaries, stronger evidence labels, more coaching, and lower distractor density.
+
+## C3. Rhythm and Immersion resources
+
+Rhythm may grant limited Recall resources that surface mnemonic cues but not answers.
+
+Immersion may grant Context Intel established by the story but not hidden technical solutions.
+
+Neither can auto award technical mastery.
+
+# D. Strategy layer
+
+## D1. What the player manages
 
 | System | Player manages |
-|---|---|
-| Roster | Named recurring ensemble operators by qualification, health and availability |
+| --- | --- |
+| Roster | Named recurring ensemble operators by qualification, health, and availability |
 | Deployment | Who actually goes on the next operation |
 | Loadouts | Kits attached to roles for that operation |
 | Heat | How loud the institution is in the world |
-| Standing | Institutional trust/authority access |
+| Standing | Institutional trust and authority access |
 | Intel | Known targets, modifiers, warnings, story missions |
-| Recovery | Injured/fatigued operators unavailable |
-| Vacancies | Work/roles left uncovered after death, transfer or departure |
+| Recovery | Injured or fatigued operators unavailable |
+| Vacancies | Work and roles left uncovered after death, transfer, or departure |
 | Promotion | Existing support people absorbing new responsibility |
-| Onboarding | New arrivals integrating unevenly into the social/operational graph |
-| Wildcard | Scarce Jordan call-up authorizations |
+| Onboarding | New arrivals integrating unevenly into the social and operational graph |
+| Wildcard | Scarce Jordan call up authorizations |
 | Apex | Scarce PRIM2 intervention authorizations |
-| Hitman pressure | Probability/eligibility pressure for hostile escalation including Royce |
+| Hitman pressure | Eligibility pressure for hostile escalation including Royce |
 
-Jordan is **not** a normal selectable roster slot on most missions.
+Jordan is not a normal selectable roster slot on most story missions.
 
-## C2. Strategy turn
+## D2. Strategy turn
 
-1. Advance time where the campaign structure permits.
-2. Resolve injury recovery, fatigue, Heat and Hitman-pressure changes.
-3. Resolve vacancy/workload consequences from prior losses or transfers.
-4. Receive intel / sponsor offers / episode mission.
-5. Train, reassign, promote or prepare kit where allowed.
-6. Resolve onboarding/relationship friction for any new arrival.
-7. Select/accept operation.
-8. Assign the ensemble mission team.
-9. Brief -> launch tactical.
+1. Advance time where campaign structure permits.
+2. Resolve injury recovery, fatigue, Heat, and Hitman pressure changes.
+3. Resolve vacancy and workload consequences.
+4. Receive intelligence, sponsor offers, or episode mission.
+5. Train, reassign, promote, or prepare kit where allowed.
+6. Resolve onboarding and relationship friction.
+7. Select or accept operation.
+8. Build Mission Readiness Profile where learning mode applies.
+9. Assign team and preparation resources.
+10. Brief and launch tactical.
 
-## C3. Resources
+## D3. Resources
 
 Core ordinary economy:
-- Budget
-- Heat
-- Standing
-- Intel
-- Roster availability
-- Workload / staffing pressure
+
+1. Budget.
+2. Heat.
+3. Standing.
+4. Intel.
+5. Roster availability.
+6. Workload and staffing pressure.
 
 Special escalation economy:
-- `WildcardAuthorizationsSeason`
-- `ApexAuthorizationsCampaign`
-- `ExecutiveAttention`
-- `PrimDebt`
-- `HitmanPressure`
-- `RoyceCooldown`
-- `RoyceIncursionsSeason`
+
+```text
+WildcardAuthorizationsSeason
+ApexAuthorizationsCampaign
+ExecutiveAttention
+PrimDebt
+HitmanPressure
+RoyceCooldown
+RoyceIncursionsSeason
+```
 
 Budget does not directly purchase Jordan or PRIM2.
 
-Canonical Standard balance:
-- Jordan Wildcard: **2 non-scripted calls per season**;
-- PRIM2 Apex: **3 non-scripted calls per seven-season campaign**;
-- Royce: **maximum 2 non-scripted incursions per season**, one per mission, then a two-mission cooldown.
+Canonical Standard balance remains:
 
-Story-scripted appearances do not consume these pools.
+1. Jordan Wildcard, 2 nonscripted calls per season.
+2. PRIM2 Apex, 3 nonscripted calls per seven season campaign.
+3. Royce, maximum 2 nonscripted incursions per season, one per mission, then a two mission cooldown.
 
-## C4. Roster continuity
+Story scripted appearances do not consume these pools.
 
-The roster is not auto-normalized after loss.
+## D4. Roster continuity
 
-When a character dies, leaves, transfers or becomes unavailable, the strategy layer may produce:
-- understaffed deployments;
-- cross-training pressure;
-- delayed mission options;
-- increased fatigue on surviving specialists;
-- a support character receiving temporary responsibility;
-- increased temptation to spend Jordan Wildcard calls;
-- reduced capability in one lane;
-- different briefing/dialogue combinations.
+The roster is not auto normalized after loss.
 
-The campaign must be allowed to look **different after a death**.
+Death, departure, transfer, and injury may produce understaffed deployments, cross training pressure, delayed options, fatigue, support character promotion, reduced capability, and different briefing combinations.
 
 A vacancy can remain open for multiple operations.
 
-## C5. Replacement / promotion
+## D5. Replacement and promotion
 
-The game does not spawn `Replacement Technician #4` the moment somebody dies.
-
-A new recurring operator is introduced only through authored/campaign logic.
+The game does not spawn a generic replacement immediately after loss.
 
 Possible paths:
 
 ```text
 INTERNAL PROMOTION
-existing support character absorbs the role
-
-CROSS-TRAINING
-existing main becomes partially qualified
-
+CROSS TRAINING
 TRANSFER
-known person from another team/site moves in
-
-NEW HIRE / RECRUIT
-new person arrives with uneven prior relationships
-
+NEW HIRE OR RECRUIT
 NO REPLACEMENT
-team permanently changes shape
 ```
 
 Newcomers do not inherit predecessor relationship values.
 
-Onboarding tracks:
-- preexisting familiarity;
-- reputation;
-- resentment/comparison pressure;
-- trust earned through missions;
-- first real friendship;
-- first conflict;
-- eventual ownership episode if promoted to major status.
+# E. Mission kinds
 
----
+Every mission declares one kind:
 
-# D. Mission types
+```text
+TRAINING_RANGE
+CANONICAL_EPISODE
+SIDE_OPERATION
+```
+
+Training Range is a noncanonical simulator exercise attached to songless foundation learning.
+
+Canonical Episode is one of the fixed 21 story missions.
+
+Side Operation is optional campaign play that may develop resources, roster, Heat, Standing, Intel, or retention without creating a television episode.
+
+Operational mission types remain:
 
 | Type | Primary job | Typical success |
-|---|---|---|
-| Data extraction | Technical work on NODE | defensible sealed take |
-| Secure & hold | maintain control while work completes | objective survives Window |
+| --- | --- | --- |
+| Data extraction | Technical work on a node | defensible sealed take |
+| Secure and hold | maintain control while work completes | objective survives Window |
 | Ghost survey | build Picture with minimal exposure | useful verified intel |
 | Denial | prevent hostile use of an objective | objective denied within authorization |
-| Recovery | extract person/evidence/system asset | asset reaches SAFE |
-| Continuity | keep service/life-safety process alive | service remains/reaches viable state |
-| Story beat | authored constraints | mission-specific |
+| Recovery | extract person, evidence, or system asset | asset reaches SAFE |
+| Continuity | keep service or life safety process alive | service remains or reaches viable state |
+| Story beat | authored constraints | mission specific |
+| Training exercise | practical skill evidence | declared learning state reached and verified |
 
-All use the same core AP/state grammar.
+All use the same core state grammar where applicable.
 
----
+# F. Tactical layer
 
-# E. Tactical layer
+## F1. Turn order
 
-## E1. Turn order
+1. Player Phase.
+2. Threat Phase.
+3. Clock and State Phase.
 
-1. Player phase
-2. Threat phase
-3. Clock phase
+Standard operators receive 2 AP per Player Phase unless a specialized canonical intervention rule says otherwise.
 
-Standard operators receive **2 AP** per Player Phase unless a specific canonical intervention rule says otherwise.
-
-## E2. Standard mission element
+## F2. Standard mission element
 
 The classic technical field triad remains:
-- Field-R — Picture / reconnaissance
-- Field-E — physical control / protection
-- Field-T — technical objective
 
-But story missions may field other qualified named characters, leads, defense personnel or specialists.
+1. Field R, Picture and reconnaissance.
+2. Field E, physical control and protection.
+3. Field T, technical objective.
 
-**The game controls people, not abstract job icons.**
+Story missions may field other qualified named characters, Leads, Defense personnel, or specialists.
 
-## E3. Jordan intervention
+The game controls people, not abstract job icons.
 
-Most missions launch without Jordan.
+## F3. Jordan intervention
 
-When a valid mission reaches CRITICAL, the player may request him through the executive chain if:
-- he is off-board;
-- a Wildcard Authorization remains;
-- the mission does not lock him out;
-- and a plausible arrival route exists.
+Most story missions launch without Jordan.
 
-Jordan arrives after authored delay and acts as the cross-lane **Wildcard**. He restores options rather than auto-solving technical work.
+When a valid mission reaches CRITICAL, the player may request him through the executive chain if he is off board, a Wildcard Authorization remains, the mission permits it, and a plausible arrival route exists.
 
-Core identity:
-- `ANOTHER PATH`
-- `ADAPTIVE ROLE`
-- `RALLY THE ROOM`
-- `FAILOVER INSTINCT`
+Jordan restores options rather than auto solving technical work.
 
-## E4. PRIM2 intervention
-
-PRIM2 can only become a non-scripted second-stage rescue on eligible high-value missions after Jordan is already present and CRITICAL failure persists/reappears.
-
-He is intentionally rare and exceptionally strong. His authority can expose information and alter permission, but it cannot alter physical truth or resurrect losses.
-
-## E5. Royce incursion
-
-Royce is the opposing board's elite escalation threat. He is controlled by hostile/campaign logic rather than the player.
-
-He specializes in:
-- breaking Control;
-- forcing route changes;
-- accelerating Will pressure;
-- disrupting objective tempo;
-- coordinating Hitman units;
-- punishing overextension.
-
-He is not a deep technical LAB_NODE substitute.
-
----
-
-# F. Operator progression and loss
-
-## F1. Ordinary qualification path
+Core identity remains:
 
 ```text
-Cohort-02 Trainee
-    -> Cohort-01 Operator
-    -> Field qualification / cross-training tags
-    -> Cohort-03 Lead or other authored specialist/authority progression
+ANOTHER PATH
+ADAPTIVE ROLE
+RALLY THE ROOM
+FAILOVER INSTINCT
 ```
 
-An operator may earn role tags such as `can_T`, `can_E`, `can_R` through training and mission performance.
+## F4. PRIM2 intervention
 
-Support characters can become mechanically important through actual responsibility rather than hidden “main character” flags.
+PRIM2 can become a nonscripted second stage rescue only on eligible high value missions after Jordan is already present and CRITICAL failure persists or returns.
 
-### Mantle correction
+His authority can expose information and alter permission. It cannot alter physical truth, bypass validation, or resurrect losses.
 
-**PRIM succession is not the top node of the ordinary XP tree.**
+## F5. Royce incursion
 
-Do not use the obsolete path `Cohort -> Prime-N1`.
+Royce is the opposing board's elite escalation threat. He specializes in breaking Control, forcing route changes, increasing Will pressure, disrupting objective tempo, coordinating Hitman units, and punishing overextension.
 
-`PRIM0`, `PRIM1`, `PRIM2`, `PRIM3` are Primary Root Identity Mantle succession identities, not generic character ranks. Jordan becoming **PRIM3** is a story/succession event, not something any sufficiently leveled operator can unlock.
+He is not a substitute for the technical LAB_NODE problem.
 
-## F2. XP channels
+# G. Cyber range layer
+
+## G1. LAB_NODE execution
+
+A LAB_NODE remains a diegetic world object whose technical state affects the mission.
+
+Node View may expose one of these adapter classes:
+
+```text
+SIMULATION
+TERMINAL
+REMOTE_DESKTOP
+NETWORK_RANGE
+PACKET_ANALYSIS
+SIEM
+HARDWARE_SIM
+DOCUMENT_EVIDENCE
+```
+
+The technical workspace remains part of the mission context.
+
+## G2. Deterministic technical correctness
+
+There is no generic hack chance for technical correctness.
+
+A correct action succeeds when the learner has sufficient evidence, chooses an appropriate action, possesses required access and tools, completes the work, and validates it when required.
+
+Randomness belongs to interruption, incomplete information, physical damage, tactical pressure, and changing environment.
+
+## G3. Verification
+
+Technical grading should prefer resulting system state and evidence over a required click path.
+
+Multiple valid solution paths should be accepted when they satisfy the same objective and authorization requirements.
+
+Configuration and verification remain separate states.
+
+## G4. Tactical back effects
+
+Verified technical work may change the board by restoring communications, reopening access routes, improving sensor confidence, containing propagation, restoring continuity, protecting evidence, or changing objective viability.
+
+Physical and tactical pressure may affect technical work through time, access, power, interruption, equipment damage, or evidence integrity.
+
+# H. Adaptive mission systems
+
+## H1. Mission Variant Compiler
+
+Runs before mission launch and chooses only approved scenario primitives.
+
+It can adapt faults, distractors, transfer requirements, starting intelligence, optional objectives, preparation advantages, Technical Challenge, and Scaffolding.
+
+It cannot generate unsafe live targets or unvalidated infrastructure actions.
+
+## H2. Mission Director
+
+Runs during play and adapts pacing rather than technical truth.
+
+It may tune patrol timing, reinforcement timing, interruptions, environmental complications, temporary quiet, authored false signals, and threat tempo.
+
+It may not secretly replace the correct technical answer after a learner has reasoned correctly.
+
+## H3. Threat AI
+
+Threat AI knows only what hostile actors could know in the fiction.
+
+It cannot inspect quiz scores, readiness scores, or hidden learner weakness data in order to cheat.
+
+## H4. Learning Evaluator
+
+The evaluator consumes evidence traces and determines Technical Mastery, Independence, Transfer, and Compliance evidence.
+
+It is logically separate from the Variant Compiler.
+
+# I. Progression and loss
+
+## I1. Ordinary qualification path
+
+```text
+Cohort 02 Trainee
+    -> Cohort 01 Operator
+    -> Field qualification or cross training tags
+    -> Cohort 03 Lead or authored specialist progression
+```
+
+An operator may earn R, E, or T qualification through training and mission performance.
+
+PRIM succession is not the top node of ordinary XP.
+
+PRIM0, PRIM1, PRIM2, and PRIM3 are Primary Root Identity Mantle succession identities, not generic ranks.
+
+## I2. XP channels
 
 | Channel | Gained by |
-|---|---|
-| Technical | verified technical objectives / defensible evidence |
+| --- | --- |
+| Technical | verified technical objectives and defensible evidence |
 | Entry | access, holds, protection, stabilization |
-| Recon | picture-building, warning, route/evidence work |
-| Survival | extracting alive / preserving others |
+| Recon | Picture building, warning, route, evidence work |
+| Survival | extracting alive and preserving others |
 | Leadership | sound command under pressure |
 
-## F3. Perks
+Learner Technical Mastery is not identical to a character's XP.
 
-Keep perk trees small, readable and character-sensitive. Perks should enhance a person's established strengths rather than turn every operator into the same universal build.
+## I3. Perks
 
-## F4. Injury, death and casualty class
+Keep perk trees small, readable, and character sensitive. Perks enhance established strengths and do not replace the learner's need to make correct technical decisions.
+
+## I4. Injury, death, and casualty class
 
 | Result | Strategy effect |
-|---|---|
-| Downed but extracted | downtime / relationship residue |
-| Critical injury | extended unavailability / possible role redistribution |
+| --- | --- |
+| Downed but extracted | downtime and relationship residue |
+| Critical injury | extended unavailability and possible role redistribution |
 | Permanent disability | changed capability and life, not automatic removal |
-| Transfer / resignation | vacancy plus relationship consequences |
-| Death | removed; vacancy/workload/grief persists |
-| Repeated deployment | fatigue / Will pressure |
+| Transfer or resignation | vacancy plus relationship consequences |
+| Death | removed, vacancy, workload, and grief persist |
+| Repeated deployment | fatigue and Will pressure |
 
-Every recurring character also has an authored casualty state:
+Recurring characters retain authored casualty classes such as STORY LOCKED, PROTECTED UNTIL, and CAMPAIGN VARIABLE.
 
-```text
-STORY-LOCKED
-survival/death fixed by current WATCH canon for this period/event
+Intervention can prevent future loss if it arrives in time. It cannot reverse completed death.
 
-PROTECTED-UNTIL
-cannot receive permanent death before a required story function, but can be severely injured/removed temporarily
+# J. Campaign structure
 
-CAMPAIGN-VARIABLE
-PLAY may create permanent loss if later hard-spine scenes do not require the person
-```
-
-Protection should be invisible in-fiction. Use mission design, Downed states, extraction and intervention opportunities rather than obvious invulnerability.
-
-Jordan or PRIM2 intervention can prevent future loss if they arrive in time. They cannot reverse a completed death.
-
-## F5. Grief as mechanics
-
-Meaningful loss can modify:
-- Will;
-- fatigue;
-- pair bonuses/penalties;
-- command confidence;
-- risk appetite;
-- equipment preference;
-- mission availability;
-- dialogue and relationship state;
-- who volunteers for a dangerous role;
-- who refuses one.
-
-Grief should not become one universal debuff. Character psychology determines direction.
-
----
-
-# G. Gear
-
-Every mechanical item defines:
-- stat effects;
-- actions unlocked/cost-modified;
-- weight/mobility impact;
-- signature/detection impact;
-- relevant role/qualification constraints.
-
-Gear supports the person. It does not replace character identity.
-
-Inherited gear may become relationship/story residue after a death, but it does not transfer the dead person's skill automatically.
-
----
-
-# H. Campaign structure
-
-## H1. Canon story structure
+## J1. Canon story structure
 
 PRIM3 has:
-- **7 seasons**;
-- **3 canonical episodes per season**;
-- **21 canonical episode missions**;
-- **1 song = 1 episode = 1 canonical mission**.
 
-Optional **side operations** may exist in the strategy/play layer for roster development, recovery resources, Heat, Standing, Intel and replayability, but they are not additional canonical TV episodes and may not overwrite the fixed 21-episode spine.
+1. 7 seasons.
+2. 3 canonical episodes per season.
+3. 21 canonical episode missions.
+4. 1 canonical source slot per episode.
 
-## H2. Failure is data
+The 66 module Principles course does not alter this story count.
 
-Poor mission performance changes:
-- injury/death state;
-- vacancies;
-- workload;
-- Heat;
-- Standing;
-- relationships;
-- available intel;
-- resources;
-- debrief dialogue;
-- side-operation state;
-- and, where authored, later mission conditions.
+Three Training Range missions exist for Principles modules M01 through M03 and are explicitly noncanonical simulation exercises.
 
-It does not casually soft-lock the seven-season story.
+Optional Side Operations may exist without adding television episodes.
 
-## H3. Authority pressure
+## J2. Failure is data
 
-Exceeding mission authority can produce tactical success but compliance consequences.
+Poor mission performance can change injury, death, vacancies, workload, Heat, Standing, relationships, available intelligence, resources, debrief dialogue, and later mission conditions.
 
-PRIM2's `SOVEREIGN EXCEPTION` may alter present authorization once per eligible intervention. It cannot retroactively legalize an earlier unauthorized choice.
+It can also create learning remediation targets.
 
----
+A poor result does not casually soft lock the seven season story.
 
-# I. Difficulty knobs
+## J3. Authority pressure
 
-Difficulty may tune:
-- enemy Aim/HP;
-- detection gain;
-- Window size;
-- responder timing;
-- Will pressure;
-- Wildcard pool;
-- Apex pool;
-- Royce incursion cap/pressure;
-- casualty recovery windows.
+Exceeding mission authority may produce tactical success but compliance consequences.
 
-Canonical default intervention table:
+PRIM2 may alter present authorization where canon permits. He cannot retroactively legalize an earlier unauthorized action.
 
-| Difficulty | Wildcard / season | Apex / campaign | Royce cap / season |
-|---|---:|---:|---:|
+# K. Difficulty contract
+
+PRIM uses three independent settings.
+
+## K1. Tactical Challenge
+
+Representative levels:
+
+```text
+STORY
+STANDARD
+VETERAN
+GHOST
+```
+
+It may tune enemy Aim or HP, detection gain, Window size, responder timing, Will pressure, intervention scarcity, hostile escalation pressure, and casualty recovery windows.
+
+Canonical intervention defaults remain:
+
+| Tactical Challenge | Wildcard per season | Apex per campaign | Royce cap per season |
+| --- | ---: | ---: | ---: |
 | Story | 3 | 4 | 1 |
-| Standard | **2** | **3** | **2** |
+| Standard | 2 | 3 | 2 |
 | Veteran | 1 | 2 | 2 |
 | Ghost | 1 | 1 | 3 |
 
----
+## K2. Technical Challenge
 
-# J. Multi-mode contract
+Representative levels:
+
+```text
+FOUNDATION
+APPLIED
+ADVANCED
+TRANSFER
+```
+
+It may tune ambiguity, distractor density, concept integration, transfer distance, evidence completeness, and validation depth.
+
+It may not inject false technical rules merely to become harder.
+
+## K3. Scaffolding
+
+Representative levels:
+
+```text
+HIGH
+STANDARD
+LOW
+NONE
+```
+
+It may tune hint availability, task decomposition, evidence labeling, interface guidance, and reversible coaching.
+
+## K4. Independence scoring
+
+Hints and scaffolding may reduce Independence scoring without converting an eventually correct technical result into an incorrect one.
+
+# L. Multi client contract
 
 | Client | Must preserve |
-|---|---|
-| XCOM TB | AP/grid/state rules + intervention ladder + persistent roster loss |
-| Mobile TB | same resolver, reduced interface complexity |
-| FPS | same phases/states/consequences expressed in real time |
+| --- | --- |
+| Browser tactical | AP, grid, state rules, semantic views, LAB_NODE adapters, intervention ladder |
+| Mobile tactical | same resolver, reduced interface complexity, remote lab handoff where practical |
+| Future FPS | same phases, objective states, technical verification, and campaign consequences expressed in real time |
 
-The Jordan/PRIM2/Royce escalation relationship and named-roster continuity must remain recognizable across clients even when exact control schemes differ.
+The preferred browser tactical renderer is PlayCanvas for the current implementation phase, but renderer choice is subordinate to the shared outcome and learning contracts.
 
----
+# M. Version one completion checklist
 
-# K. V1 completion checklist
+### Readiness
+
+1. Mission Readiness Profile.
+2. Minimum required toolset enforcement.
+3. Preparation Credits.
+4. Rhythm Recall resource.
+5. Immersion Context Intel.
+6. Separate Technical Challenge and Scaffolding.
 
 ### Strategy
-- [ ] Ensemble roster
-- [ ] Mission/episode board
-- [ ] Budget / Heat / Standing / Intel
-- [ ] Injury downtime
-- [ ] Vacancy/workload tracking
-- [ ] Internal promotion / cross-training path
-- [ ] New-arrival onboarding state
-- [ ] Wildcard season pool
-- [ ] Apex campaign pool
-- [ ] Hitman pressure + Royce cooldown
-- [ ] Aftermath writeback
+
+1. Ensemble roster.
+2. Mission and episode board.
+3. Budget, Heat, Standing, and Intel.
+4. Injury downtime.
+5. Vacancy and workload tracking.
+6. Promotion and cross training.
+7. Wildcard and Apex pools.
+8. Hitman pressure and Royce cooldown.
+9. Aftermath writeback.
 
 ### Tactical
-- [ ] Grid, LOS, cover, flank
-- [ ] 2 AP standard turns
-- [ ] R/E/T technical-tactical grammar
-- [ ] Detection
-- [ ] Approach/Window/Extract clocks
-- [ ] STABLE/DEGRADED/CRITICAL/TERMINAL state
-- [ ] Downed/stabilize/injury/death
-- [ ] Jordan Wildcard request + delayed arrival
-- [ ] PRIM2 Apex request state
-- [ ] Royce incursion state
-- [ ] graded outcome
 
-### Progression
-- [ ] XP channels
-- [ ] small perk trees
-- [ ] role/cross-training tags
-- [ ] support-to-main mechanical growth
-- [ ] no generic Prime-rank unlock
+1. Grid, line of sight, cover, and flank.
+2. 2 AP standard turns.
+3. R, E, T technical tactical grammar.
+4. Detection.
+5. Approach, Window, and Extract clocks.
+6. Mission state ladder.
+7. Downed, stabilize, injury, and death.
+8. Jordan request and delayed arrival.
+9. PRIM2 Apex state.
+10. Royce incursion state.
+11. Graded operational outcome.
+
+### Cyber range
+
+1. LAB_NODE adapter interface.
+2. Browser terminal adapter.
+3. Remote desktop adapter contract.
+4. Network range adapter contract.
+5. Deterministic verifier interface.
+6. Evidence trace writer.
+7. Lab session isolation and expiration.
+8. Technical result to battlefield state bridge.
+
+### Learning
+
+1. Technical Mastery.
+2. Independence.
+3. Transfer.
+4. Compliance evidence.
+5. Objective progress writeback.
+6. Remediation recommendation.
+7. Variant Compiler.
+8. Mission Director.
+9. Threat AI knowledge boundary.
+10. Learning Evaluator separation.
 
 ### Content
-- [ ] one ensemble tutorial mission
-- [ ] one mission where Jordan is unavailable
-- [ ] one mission that can reach a Wildcard rescue
-- [ ] one controlled Apex-intervention test
-- [ ] one Royce-incursion test
-- [ ] one vacancy/reassignment test
-- [ ] one newcomer onboarding test
 
----
+1. Training Range 01.
+2. Training Range 02.
+3. Training Range 03.
+4. Data Breach and Exposure canonical vertical slice.
+5. Dead Air network and RF slice.
+6. One Wildcard rescue test.
+7. One Apex intervention test.
+8. One Royce incursion test.
+9. One vacancy and reassignment test.
 
-# L. Governing gameplay feeling
+# N. Governing gameplay feeling
 
-The campaign should not train the player to treat named operators as disposable bodies.
+PRIM3 should make the technical task and the tactical situation matter to each other.
 
-It should create moments where the player looks at a collapsing mission, sees a character they have spent seasons learning, sees only one Wildcard Authorization left, and decides:
+The learner should sometimes know exactly what must be done technically but still have to create enough time and safety to do it.
+
+The learner should sometimes win the operation but leave knowing the technical concept still needs work.
+
+The learner should sometimes fail an operation but prove genuine technical understanding that changes what the system teaches next.
+
+The campaign should still create the emotional moment where the player sees a collapsing mission, a named character at risk, one Wildcard Authorization remaining, and decides:
 
 > **Fuck the perfect grade. Call Jordan. Get them home.**
 
-If that person still dies, the next mission should feel different because they are gone.
-
-And on the rarest missions, after Jordan is already there and even he cannot stabilize the board:
-
-> **Call PRIM2.**
-
-Then, sometimes, the opposing side answers with Royce.
-
-That escalation is part of the story, not a cheat menu.
+That rescue can save the people. It cannot purchase understanding.

@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://prim3.local/schemas/prm3-mission-readiness.schema.json",
+  "title": "PRIM3 Mission Readiness Profile",
+  "description": "Learner readiness contract used to prepare a fair adaptive Mission without allowing weak scores to remove required tools.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "profile_version",
+    "mission_id",
+    "concept_readiness",
+    "objective_readiness",
+    "independence",
+    "transfer",
+    "rhythm",
+    "immersion",
+    "recommendation",
+    "fairness"
+  ],
+  "properties": {
+    "profile_version": {"const": "1.0.0"},
+    "mission_id": {"type": "string", "minLength": 1},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "learner_ref": {
+      "description": "Opaque internal learner reference. Do not place private profile data in the mission definition.",
+      "type": ["string", "null"]
+    },
+    "concept_readiness": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/readinessScore"}
+    },
+    "objective_readiness": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/readinessScore"}
+    },
+    "independence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["score", "evidence_count"],
+      "properties": {
+        "score": {"type": "number", "minimum": 0, "maximum": 100},
+        "evidence_count": {"type": "integer", "minimum": 0},
+        "recent_hint_rate": {"type": ["number", "null"], "minimum": 0, "maximum": 1}
+      }
+    },
+    "transfer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["score", "evidence_count"],
+      "properties": {
+        "score": {"type": "number", "minimum": 0, "maximum": 100},
+        "evidence_count": {"type": "integer", "minimum": 0},
+        "changed_scenarios_completed": {"type": "integer", "minimum": 0}
+      }
+    },
+    "rhythm": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reinforced_concept_ids", "recall_tokens"],
+      "properties": {
+        "reinforced_concept_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "recall_tokens": {"type": "integer", "minimum": 0},
+        "recall_cannot_reveal_solution": {"const": true}
+      }
+    },
+    "immersion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["context_concept_ids", "context_intel_ids"],
+      "properties": {
+        "context_concept_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "context_intel_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "context_cannot_reveal_unearned_solution": {"const": true}
+      }
+    },
+    "recommendation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tactical_challenge", "technical_challenge", "scaffolding", "preparation_credits"],
+      "properties": {
+        "tactical_challenge": {"enum": ["STORY", "STANDARD", "VETERAN", "GHOST"]},
+        "technical_challenge": {"enum": ["FOUNDATION", "APPLIED", "ADVANCED", "TRANSFER"]},
+        "scaffolding": {"enum": ["HIGH", "STANDARD", "LOW", "NONE"]},
+        "preparation_credits": {"type": "integer", "minimum": 0},
+        "preparation_advantage_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "optional_objective_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "targeted_review_concept_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}}
+      }
+    },
+    "fairness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["minimum_required_toolset", "granted_toolset", "required_tools_removed_for_low_mastery"],
+      "properties": {
+        "minimum_required_toolset": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+        "granted_toolset": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+        "required_tools_removed_for_low_mastery": {"const": false}
+      }
+    }
+  },
+  "$defs": {
+    "readinessScore": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "score", "evidence_count", "confidence"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "score": {"type": "number", "minimum": 0, "maximum": 100},
+        "evidence_count": {"type": "integer", "minimum": 0},
+        "confidence": {"enum": ["LOW", "MEDIUM", "HIGH"]},
+        "last_evidence_at": {"type": ["string", "null"], "format": "date-time"}
+      }
+    }
+  }
+}

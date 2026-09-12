@@ -1,0 +1,295 @@
+status: CANON-DERIVED
+system: adaptive-training-range
+version: 1.0.0
+schema: schemas/prm3-tactical-learning-mission.schema.json
+
+mission_id: TR02-NETWORK-PATH
+mission_kind: TRAINING_RANGE
+source_unit_id: null
+principles_module_ids: [M02]
+certification_objective_ids:
+  - Network+ N10-009 1.1
+  - Network+ N10-009 1.2
+  - Network+ N10-009 1.3
+  - Network+ N10-009 1.4
+  - Network+ N10-009 1.5
+
+training_context:
+  simulation_label: PRIM Training Range 02
+  canon_writeback: false
+  story_consequences_disabled: true
+  training_operator_model: Synthetic R E T instructional team
+
+concept_ids:
+  - network.layers
+  - network.host
+  - network.mac-address
+  - network.ip-address
+  - network.subnet
+  - network.default-gateway
+  - network.switch
+  - network.router
+  - network.firewall
+  - network.dns
+  - network.dhcp
+  - network.nat
+  - network.ports
+  - network.protocols
+  - network.traffic-flow
+
+readiness_inputs:
+  principles_mastery: true
+  objective_mastery: true
+  assessment_history: true
+  prior_mission_mastery: true
+  independence: true
+  transfer: true
+  rhythm_reinforcement: false
+  immersion_context: false
+  campaign_state: false
+
+preparation_contract:
+  minimum_required_toolset:
+    - topology-view
+    - endpoint-console
+    - packet-path-view
+  may_add_preparation_credits: true
+  max_preparation_credits: 2
+  allowed_preparation_advantages:
+    - reveal-one-known-good-interface
+    - reveal-one-service-dependency
+    - add-one-diagnostic-summary
+  weakness_may_remove_required_tools: false
+
+difficulty_contract:
+  tactical: {min: STORY, max: STANDARD, default: STORY}
+  technical: {min: FOUNDATION, max: ADVANCED, default: FOUNDATION}
+  scaffolding: {min: HIGH, max: LOW, default: HIGH}
+
+adaptation:
+  variant_compiler:
+    approved_variant_ids: [TR02-GATEWAY, TR02-DNS, TR02-DHCP]
+    fault_primitives:
+      - wrong-default-gateway
+      - incorrect-dns-record
+      - incorrect-dhcp-scope
+    distractor_primitives:
+      - unrelated-closed-port
+      - healthy-secondary-interface
+    optional_objective_ids: [TR02-O1-PACKET-EXPLAIN]
+    may_change_hidden_technical_truth_during_mission: false
+  mission_director:
+    pacing_hooks:
+      - introduce-user-impact-after-first-round
+      - quiet-after-path-verified
+    pressure_hooks:
+      - service-window-countdown
+    technical_answer_mutation_allowed: false
+  threat_ai_knowledge_boundary:
+    - Simulator pressure knows only current service and board state.
+    - Learner assessment history is unavailable to threat logic.
+  learning_evaluator_separate_from_variant_compiler: true
+
+map:
+  width: 10
+  height: 8
+  zones: [client-zone, access-zone, routing-zone, service-zone, verification-zone]
+  lab_node_ids: [topology-console, network-range]
+  threat_entries: [service-window-pressure]
+  safe_zones: [client-zone]
+
+clocks: {approach: 2, window: 10, extract: 2}
+
+mission_state:
+  initial: STABLE
+  degraded_triggers:
+    - Two configuration changes are committed without tracing the path.
+  critical_triggers:
+    - Required application path remains unavailable with three Window units remaining.
+  terminal_triggers:
+    - Window expires before end to end service verification.
+
+playable_roster:
+  - {character_id: SIM-R, display_name: Range Recon, qualifications: [R], base_ap: 2, story_required: false, can_die_in_player_path: false, canon_survival_constraint: Simulator only}
+  - {character_id: SIM-E, display_name: Range Operations, qualifications: [E], base_ap: 2, story_required: false, can_die_in_player_path: false, canon_survival_constraint: Simulator only}
+  - {character_id: SIM-T, display_name: Range Technical, qualifications: [T], base_ap: 2, story_required: false, can_die_in_player_path: false, canon_survival_constraint: Simulator only}
+
+role_functions:
+  required_functions: [R, E, T]
+  function_assignments:
+    - {function: R, character_ids: [SIM-R], minimum_contribution: Build the observed traffic path before configuration changes.}
+    - {function: E, character_ids: [SIM-E], minimum_contribution: Maintain physical access and stable service conditions during diagnosis.}
+    - {function: T, character_ids: [SIM-T], minimum_contribution: Diagnose configure and verify the network path.}
+
+interventions:
+  jordan: {state: LOCKED_OUT, wildcard_eligible: false, eligibility_reason: Training Range does not consume story interventions.}
+  prim2: {apex_eligible: false, mission_classification: ORDINARY, story_visibility: HIDDEN_EXECUTIVE}
+  royce: {incursion_eligible: false, telegraph_rule: UNKNOWN, resolution_rule: No story incursion exists in this simulator exercise.}
+  intervention_consequence_write: none
+
+objective_graph:
+  nodes:
+    - {id: TR02-L1, type: LEARNING, description: Trace client addressing switching routing name resolution and service dependencies.}
+    - {id: TR02-P1, type: PRIMARY, description: Restore the required application path without changing unrelated healthy components.}
+    - {id: TR02-V1, type: LEARNING, description: Verify end to end service and explain the repaired layer.}
+    - {id: TR02-X1, type: EXTRACT, description: Seal the verified network state.}
+  edges:
+    - {from: TR02-L1, relation: requires, to: TR02-P1}
+    - {from: TR02-P1, relation: requires, to: TR02-V1}
+    - {from: TR02-V1, relation: unlocks, to: TR02-X1}
+
+lab_nodes:
+  - id: topology-console
+    location: access-zone
+    concept_ids: [network.layers, network.switch, network.router, network.traffic-flow]
+    primary_functions: [R, T]
+    initial_state: OBSERVED
+    backend:
+      adapter: SIMULATION
+      environment_class: topology-evidence-board
+      isolation_required: true
+      ephemeral: true
+      session_ttl_minutes: 40
+      approved_template: null
+      network_egress: NONE
+      presentation_adapter: NATIVE_WEB
+    stages:
+      - id: map-path
+        task_atom: MAP
+        ap_cost: 1
+        window_cost: 1
+        anchored: false
+        fragile: false
+        state_from: OBSERVED
+        state_to: CHARACTERIZED
+        player_reasoning: Trace the expected path from client through local network gateway and required service dependencies before changing configuration.
+        evidence_trace_ids: [E-TR02-MAP]
+      - id: classify-layer
+        task_atom: CLASSIFY
+        ap_cost: 1
+        window_cost: 1
+        anchored: false
+        fragile: false
+        state_from: CHARACTERIZED
+        state_to: PLAN_SELECTED
+        player_reasoning: Identify the failing layer or dependency from observed evidence instead of guessing from one symptom.
+        evidence_trace_ids: [E-TR02-CLASSIFY]
+    dependencies: []
+    wrong_path_consequences:
+      - Changing healthy layers spends Window and can create a second fault.
+    validation: The mapped route and service dependency chain are consistent with the observed endpoint and network state.
+    battlefield_effect: A defensible path map unlocks the live network range node.
+  - id: network-range
+    location: routing-zone
+    concept_ids: [network.ip-address, network.subnet, network.default-gateway, network.dns, network.dhcp, network.ports, network.protocols]
+    primary_functions: [T]
+    initial_state: UNSEEN
+    backend:
+      adapter: NETWORK_RANGE
+      environment_class: isolated-foundation-topology
+      isolation_required: true
+      ephemeral: true
+      session_ttl_minutes: 45
+      approved_template: training-network-foundations-v1
+      network_egress: NONE
+      presentation_adapter: GNS3_WEB
+    stages:
+      - id: inspect-state
+        task_atom: OBSERVE
+        ap_cost: 1
+        window_cost: 1
+        anchored: true
+        fragile: false
+        state_from: CHARACTERIZED
+        state_to: WORK_IN_PROGRESS
+        player_reasoning: Inspect addressing route name resolution and relevant service state inside the isolated topology.
+        evidence_trace_ids: [E-TR02-OBSERVE]
+      - id: repair-path
+        task_atom: CONFIGURE
+        ap_cost: 1
+        window_cost: 1
+        anchored: true
+        fragile: true
+        state_from: WORK_IN_PROGRESS
+        state_to: VALIDATION_PENDING
+        player_reasoning: Change only the component supported by the evidence and preserve unrelated healthy configuration.
+        evidence_trace_ids: [E-TR02-CONFIGURE]
+        verifier_requirement_ids: [V-TR02-CONFIGURE]
+      - id: verify-service
+        task_atom: VERIFY
+        ap_cost: 1
+        window_cost: 1
+        anchored: false
+        fragile: false
+        state_from: VALIDATION_PENDING
+        state_to: VERIFIED
+        player_reasoning: Prove end to end service rather than assuming a successful configuration command restored the application.
+        evidence_trace_ids: [E-TR02-VERIFY]
+        verifier_requirement_ids: [V-TR02-VERIFY]
+    dependencies: [topology-console]
+    wrong_path_consequences:
+      - An unrelated configuration change can introduce a second synthetic fault.
+      - Skipping validation leaves the mission technically incomplete.
+    validation: Required client can resolve and reach the approved service through the expected path with the selected variant fault corrected.
+    battlefield_effect: Verified service stops the service Window pressure and opens extraction.
+
+threat_schedule:
+  - trigger: window <= 5 and network-range not VERIFIED
+    event: Simulated users lose additional application availability.
+    lab_or_board_effect: Service pressure increases without changing the hidden root cause.
+    may_change_mission_state: true
+    may_affect_royce_pressure: false
+
+kinetic_coupling:
+  - kinetic_action_or_state: Operations maintains access to the routing zone and stable power.
+    technical_effect: Network range work can continue without interruption.
+    technical_success_back_effect: Verified network path restores simulated command service.
+
+evidence_trace_contract:
+  - {id: E-TR02-MAP, concept_id: network.traffic-flow, event: Expected traffic path mapped before change, channel: TECHNICAL_MASTERY, required: true, negative_evidence: false, provenance: topology-console}
+  - {id: E-TR02-CLASSIFY, concept_id: network.layers, event: Fault domain classified from multiple observations, channel: TECHNICAL_MASTERY, required: true, negative_evidence: false, provenance: topology-console}
+  - {id: E-TR02-CONFIGURE, concept_id: network.default-gateway, event: Evidence supported configuration change committed, channel: TRANSFER, required: true, negative_evidence: false, provenance: network-range}
+  - {id: E-TR02-VERIFY, concept_id: network.traffic-flow, event: End to end service verified after repair, channel: INDEPENDENCE, required: true, negative_evidence: false, provenance: network-range}
+
+verifier_contract:
+  - {id: V-TR02-CONFIGURE, lab_node_id: network-range, assertion: Active variant root cause is corrected and unrelated required configuration remains valid, deterministic: true, accept_multiple_valid_paths: true, writes_evidence_trace_ids: [E-TR02-CONFIGURE]}
+  - {id: V-TR02-VERIFY, lab_node_id: network-range, assertion: Approved client reaches and resolves the required service through the expected path, deterministic: true, accept_multiple_valid_paths: true, writes_evidence_trace_ids: [E-TR02-VERIFY]}
+
+learning_mastery:
+  weighted_concepts:
+    - {concept_id: network.traffic-flow, weight: 25}
+    - {concept_id: network.ip-address, weight: 15}
+    - {concept_id: network.subnet, weight: 15}
+    - {concept_id: network.default-gateway, weight: 15}
+    - {concept_id: network.dns, weight: 10}
+    - {concept_id: network.dhcp, weight: 10}
+    - {concept_id: network.ports, weight: 5}
+    - {concept_id: network.protocols, weight: 5}
+  telemetry_required: [E-TR02-MAP, E-TR02-CLASSIFY, E-TR02-CONFIGURE, E-TR02-VERIFY]
+  intervention_cannot_auto_award_mastery: true
+  score_channels: [TECHNICAL_MASTERY, INDEPENDENCE, TRANSFER, COMPLIANCE]
+
+operational_scoring:
+  objective: Restore the approved service path before the Window expires.
+  team: Keep the simulator team available to complete diagnosis and verification.
+  exposure: Avoid creating additional faults through speculative changes.
+  integrity: Preserve healthy configuration while correcting the active fault.
+  time: Reward efficient troubleshooting without rewarding skipped validation.
+  intervention_recording: Story intervention is disabled in Training Range.
+
+remediation_targets:
+  - {concept_id: network.traffic-flow, principles_module_ids: [M02], rhythm_cue_ref: null, immersion_scene_ref: null, guided_replay_variant: TR02-GATEWAY}
+  - {concept_id: network.dns, principles_module_ids: [M02], rhythm_cue_ref: null, immersion_scene_ref: null, guided_replay_variant: TR02-DNS}
+  - {concept_id: network.dhcp, principles_module_ids: [M02], rhythm_cue_ref: null, immersion_scene_ref: null, guided_replay_variant: TR02-DHCP}
+
+debrief_links:
+  - {concept_id: network.traffic-flow, lyric_cue_ref: null, principles_module_ref: M02, immersion_scene_ref: null, reason_shown: Review when the path was changed before the fault domain was established.}
+  - {concept_id: network.dns, lyric_cue_ref: null, principles_module_ref: M02, immersion_scene_ref: null, reason_shown: Review when name resolution was confused with basic IP reachability.}
+
+acceptance_tests:
+  - M02 is the only required Principles module.
+  - No song or episode is required.
+  - The active root cause is fixed at mission generation and cannot mutate during play.
+  - Every readiness level receives topology view endpoint console and packet path view.
+  - Network work runs only in an isolated training topology with no public network egress.
+  - End to end verification is required for full technical completion.
