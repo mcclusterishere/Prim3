@@ -36,12 +36,14 @@ jobs:
           import re
           import sys
 
+          directive = re.compile(r'^\s*-\s*uses:\s*([^\s#]+)')
           bad = []
           for path in sorted(Path('.github/workflows').glob('*.y*ml')):
               for lineno, line in enumerate(path.read_text(encoding='utf-8').splitlines(), 1):
-                  if 'uses:' not in line:
+                  match = directive.match(line)
+                  if not match:
                       continue
-                  ref = line.split('uses:', 1)[1].strip().split()[0]
+                  ref = match.group(1)
                   if ref.startswith('./'):
                       continue
                   if not re.fullmatch(r'[^@\s]+@[0-9a-f]{40}', ref):
