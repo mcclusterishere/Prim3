@@ -1,0 +1,53 @@
+name: Repository contract
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  repository-contract:
+    name: McCluster authority and immutable actions
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - name: Verify ecosystem authority contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -Fq 'mcclusterishere/mccluster' AGENTS.md
+          grep -Fq 'Canonical Worker:** `mccluster`' AGENTS.md
+          grep -Fq 'https://api.mccluster.org' AGENTS.md
+          grep -Fq 'There is no Worker named `mccluster-core`' AGENTS.md
+          grep -Fq 'retired legacy website repository and is **never authoritative**' AGENTS.md
+
+      - name: Reject mutable third-party action references
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+          import sys
+
+          bad = []
+          for path in sorted(Path('.github/workflows').glob('*.y*ml')):
+              for lineno, line in enumerate(path.read_text(encoding='utf-8').splitlines(), 1):
+                  if 'uses:' not in line:
+                      continue
+                  ref = line.split('uses:', 1)[1].strip().split()[0]
+                  if ref.startswith('./'):
+                      continue
+                  if not re.fullmatch(r'[^@\s]+@[0-9a-f]{40}', ref):
+                      bad.append(f'{path}:{lineno}: {ref}')
+          if bad:
+              print('Mutable or malformed GitHub Action references are forbidden:', file=sys.stderr)
+              print('\n'.join(bad), file=sys.stderr)
+              raise SystemExit(1)
+          print('All external GitHub Actions are pinned to immutable 40-character SHAs.')
