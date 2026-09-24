@@ -1,7 +1,7 @@
 # PRIM3 Canon Register
 
 **Status:** Foundation canon (main)  
-**Continuity version:** 0.8.0  
+**Continuity version:** 1.0.0  
 **Authority:** Matthew McCluster  
 **Rule:** If subordinate material conflicts with this register or a current specialist authority delegated below, the higher/current authority wins until deliberately revised.
 
@@ -27,6 +27,10 @@ Canonical dramatic law:
 > **The briefing teaches the model. The mission attacks the model.**
 
 Primary authorities:
+- `story/MCCLUSTER-PROTAGONIST-CANON.md`
+- `story/EQUITY-UPRISE-WORKPLACE-CANON.md`
+- `story/EPISODE-WORKPLACE-LOCATION-MAP.md`
+- `world/equity-uprise-workplace-roster.v1.json`
 - `story/EPISODE-MISSION-BIBLE.md`
 - `story/EPISODE-CAUSE-AND-ENTERTAINMENT-AUTHORITY.md`
 - `story/ENSEMBLE-POV-AUTHORITY.md`
@@ -41,6 +45,12 @@ Primary authorities:
 McCluster is one of the central main characters and the eventual succession spine. He is **not** the mandatory owner of every episode.
 
 PRIM3 is a recurring workplace/community ensemble. The same people study, work, train, eat, travel, brief, debrief, argue, recover, cover shifts and enter missions together for years.
+
+The recurring workplace is **Equity Uprise HQ**. It is not Site 0.
+
+- Equity Uprise HQ = day-to-day workplace, training campus, ensemble home and recurring visual set.
+- Site 0 / Root HQ = hidden McCluster Corp / PRIM root facility and final-arc assault/succession site.
+- B1 at Equity Uprise is a known staffed technical-operations floor, not a secret owner-only level.
 
 Canonical shorthand:
 
@@ -533,13 +543,18 @@ The finale is an authority transfer / privilege reduction, not the first creatio
 
 ---
 
-## 19. Corporate architecture
+## 19. Corporate / institutional architecture
+
+### Equity Uprise
+The recurring visible institution and workplace where McCluster and the ensemble study, work, train, brief, debrief and build ordinary life.
+
+Equity Uprise is real, not a disposable front. Its educational/community mission matters even though it sits inside a deeper system.
 
 ### McCluster Corp
-Public marketing/holding face; buildings, land, equity, brands and visible corporate structure.
+The larger holding/operating ecosystem behind Equity Uprise: property, brands, companies, institutional relationships and cross-domain resources. McCluster does **not** begin the series by joining McCluster Corp directly.
 
 ### PRIM — visible layer
-`Program for Resilient Infrastructure Management`: training, missions, technical/operational education, resilience, phenotypes, curriculum and field activity.
+`Program for Resilient Infrastructure Management`: training, missions, technical/operational education, resilience, phenotypes, curriculum and field activity as encountered through Equity Uprise and connected operations.
 
 ### PRIM — hidden root layer
 `Primary Root Identity Mantle`: living highest-trust human succession architecture.
