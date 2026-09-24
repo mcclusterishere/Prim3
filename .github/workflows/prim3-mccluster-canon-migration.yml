@@ -24,6 +24,8 @@ jobs:
           python-version: '3.12'
       - name: Apply canon migration
         run: python development/migrate_mccluster_equity_uprise_canon.py
+      - name: Verify canon migration
+        run: python development/verify_mccluster_equity_uprise_canon.py
       - name: Commit migration
         run: |
           git config user.name "github-actions[bot]"
