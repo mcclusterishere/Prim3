@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Canon migration version: 1.2
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
