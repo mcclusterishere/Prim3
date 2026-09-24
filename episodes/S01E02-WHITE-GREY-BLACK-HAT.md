@@ -20,12 +20,12 @@ Episode 2 is the audience's first full look at ordinary PRIM life after the futu
 
 It must prove four things immediately:
 
-1. PRIM3 is an ensemble workplace, not Jordan plus assistants;
+1. PRIM3 is an ensemble workplace, not McCluster plus assistants;
 2. technical competence and authorization are separate forms of power;
 3. ordinary ethical process can be dramatically difficult even before the hidden PRIM2 conspiracy becomes visible;
 4. PLAY is a real tactical field operation, not an internal-menu minigame.
 
-The internal Jordan access problem is **Act I setup**.
+The internal McCluster access problem is **Act I setup**.
 
 The actual mission is an off-site lawful task-force operation at a fictional multi-tenant edge/data facility where the team possesses strong legal authority but incomplete system knowledge — **white hat / black box**.
 
@@ -39,11 +39,11 @@ Canonical thematic line:
 
 ```text
 PRIMARY OWNER: Nusrat Rahman
-SECONDARY DEPTH: Miguel Santos / Aya Shinoda / Jordan Vale
+SECONDARY DEPTH: Miguel Santos / Aya Shinoda / McCluster
 MISSION LEAD: Nusrat
 BASE PLAYABLE ROSTER: Nusrat / Miguel / Aya
-JORDAN NARRATIVE STATE: C — supporting
-JORDAN PLAY STATE: LOCKED OUT
+MCCLUSTER NARRATIVE STATE: C — supporting
+MCCLUSTER PLAY STATE: LOCKED OUT
 WILDCARD: unavailable — the player has not yet earned the emergency-call fantasy
 APEX: unavailable
 ROYCE: unavailable
@@ -59,12 +59,12 @@ Episode ownership determines depth, not exclusivity.
 |---|---|---|
 | **Nusrat Rahman** | owner / mission lead / access authority | First meaningful command test. Learns that fair process creates real enemies and real delay; discovers she can hold a boundary without apologizing for having one. |
 | **Miguel Santos** | access / physical-security partner | Establishes his philosophy of enforcing rules without humiliating people. Becomes the teammate others want beside them when policy and human dignity collide. |
-| **Aya Shinoda** | technical evaluator | Expects Jordan to equate competence with authority; notices him deliberately stop at the boundary. In the field, she learns Nusrat will protect technical staff from executive pressure if the safety/scope state is unclear. |
-| **Jordan Vale** | newcomer / onboarding problem | Has the right tool and enough experience to be useful but no authority to use either. Chooses disclosure and restraint over improvisational bypass. This is an early visible attempt to become different from the man he used to be. |
+| **Aya Shinoda** | technical evaluator | Expects McCluster to equate competence with authority; notices him deliberately stop at the boundary. In the field, she learns Nusrat will protect technical staff from executive pressure if the safety/scope state is unclear. |
+| **McCluster** | newcomer / onboarding problem | Has the right tool and enough experience to be useful but no authority to use either. Chooses disclosure and restraint over improvisational bypass. This is an early visible attempt to become different from the man he used to be. |
 | **Helen Clarke** | visible executive authority | Refuses to manufacture an undocumented exception simply because delay is inconvenient. Gives the audience evidence that visible McCluster governance can genuinely function ethically. |
 | **Priya Srisawat** | onboarding/public surface | Her polished new-cohort schedule is disrupted by security reality. Starts understanding that every frictionless brand promise depends on invisible people absorbing friction. |
-| **Maren Quill** | communications | Has to explain a delay without blaming Jordan or security. First serious lesson that communications can protect institutional trust rather than merely smooth optics. |
-| **Chioma Okeke** | workplace recurrence / command observer | Quietly evaluates how people behave when nothing glamorous is happening. Her first important Jordan note is not his intelligence; it is that he stopped when told to stop. |
+| **Maren Quill** | communications | Has to explain a delay without blaming McCluster or security. First serious lesson that communications can protect institutional trust rather than merely smooth optics. |
+| **Chioma Okeke** | workplace recurrence / command observer | Quietly evaluates how people behave when nothing glamorous is happening. Her first important McCluster note is not his intelligence; it is that he stopped when told to stop. |
 | **Pylon** | ambient system presence | Performs mundane access/state announcements throughout the episode. Establishes normal behavior so later anomalies have a baseline. |
 
 Task-force personnel and facility staff may appear as functional unnamed roles. Do not invent a second recurring cast merely to populate the mission.
@@ -112,7 +112,7 @@ The mission deliberately begins as **WHITE HAT / BLACK BOX**.
 
 Morning inside the PRIM/McCluster building.
 
-Nusrat and Miguel are already working access before Jordan arrives.
+Nusrat and Miguel are already working access before McCluster arrives.
 
 Use the opening to establish workplace recurrence rather than exposition:
 - Miguel knows which staff always forget something;
@@ -122,28 +122,28 @@ Use the opening to establish workplace recurrence rather than exposition:
 - Chioma passes through and notices more than she says;
 - Aya is collecting/testing issued technical equipment.
 
-Nusrat stops a small routine exception before Jordan ever appears. It should not be dramatic. The point is that she applies the same rule to familiar people.
+Nusrat stops a small routine exception before McCluster ever appears. It should not be dramatic. The point is that she applies the same rule to familiar people.
 
-### Jordan's manifest discrepancy
+### McCluster's manifest discrepancy
 
-Jordan arrives for formal onboarding.
+McCluster arrives for formal onboarding.
 
 One diagnostic/security appliance in his issued equipment does **not** appear on his manifest.
 
-The appliance is not stolen and Jordan did not request the mismatch.
+The appliance is not stolen and McCluster did not request the mismatch.
 
 He knows enough from prior infrastructure work to understand what the tool could probably do.
 
 He also knows he has not been told he is permitted to use it.
 
-Jordan brings the discrepancy forward himself.
+McCluster brings the discrepancy forward himself.
 
 This creates the first tension:
 - Priya's schedule slips;
 - Maren needs to know whether this is an embarrassing onboarding mistake or a real security problem;
 - Aya can identify the device class but cannot establish issuance authority;
 - Miguel keeps the interaction human;
-- Nusrat places the device into safe custody and refuses to wave Jordan through with it.
+- Nusrat places the device into safe custody and refuses to wave McCluster through with it.
 
 ### Executive temptation
 
@@ -161,11 +161,11 @@ Helen's answer:
 
 The audience receives an important baseline: visible authority is not automatically corrupt.
 
-### Jordan/Aya micro-beat
+### McCluster/Aya micro-beat
 
-Aya expects Jordan to push harder because he can explain exactly why the tool might be useful.
+Aya expects McCluster to push harder because he can explain exactly why the tool might be useful.
 
-Jordan gives her the technical hypothesis and then stops.
+McCluster gives her the technical hypothesis and then stops.
 
 He does **not** translate “I know” into “therefore I decide.”
 
@@ -201,9 +201,9 @@ Chioma/command selects Nusrat as mission lead because she just demonstrated she 
 
 This is both a reward and a pressure test.
 
-### Why Jordan stays
+### Why McCluster stays
 
-Jordan asks whether he is going.
+McCluster asks whether he is going.
 
 Answer: **No.**
 
@@ -211,7 +211,7 @@ His field clearance is not complete.
 
 That matters.
 
-The story has just taught the audience that Jordan can help and still be denied.
+The story has just taught the audience that McCluster can help and still be denied.
 
 He accepts it.
 
@@ -480,7 +480,7 @@ Nusrat notices.
 
 Aya returns with a stronger belief that scope discipline protects technical people from being forced to convert uncertainty into confidence for somebody else's convenience.
 
-She also remembers Jordan's earlier restraint.
+She also remembers McCluster's earlier restraint.
 
 ## Priya / Maren
 
@@ -504,9 +504,9 @@ She flags:
 - Nusrat held scope under pressure;
 - Miguel preserved cooperation;
 - Aya did not overstate confidence;
-- Jordan disclosed a useful device and then accepted that he could not use it.
+- McCluster disclosed a useful device and then accepted that he could not use it.
 
-Her assessment of Jordan is deliberately mundane:
+Her assessment of McCluster is deliberately mundane:
 
 > **He stopped when she told him to.**
 
@@ -514,13 +514,13 @@ Her assessment of Jordan is deliberately mundane:
 
 # CODA — AUTHORIZED, NOT TRUSTED (approx. 33:00–35:00)
 
-Jordan's onboarding is finally resolved.
+McCluster's onboarding is finally resolved.
 
 The mismatched device's provenance is corrected and its status documented.
 
-Nusrat issues/activates whatever access level Jordan has actually earned.
+Nusrat issues/activates whatever access level McCluster has actually earned.
 
-Jordan, lightly:
+McCluster, lightly:
 
 > **So now you trust me?**
 
@@ -533,27 +533,27 @@ Aya tries not to.
 
 Pylon confirms the access state in the same boring voice it has used all episode.
 
-Jordan walks through the door.
+McCluster walks through the door.
 
 ---
 
 # Hidden PRIM2 coda
 
-Do not frame this as PRIM2 first discovering Jordan.
+Do not frame this as PRIM2 first discovering McCluster.
 
-PRIM2 already knows who Jordan is.
+PRIM2 already knows who McCluster is.
 
 What interests him is the new behavioral evidence.
 
-The old Benji/Jordan history taught PRIM2 that Jordan can improvise around boundaries.
+The old Benji/McCluster history taught PRIM2 that McCluster can improvise around boundaries.
 
 Episode 2 shows something different:
 
-> **Jordan had capability, motive, opportunity and the correct tool — and chose not to cross the boundary.**
+> **McCluster had capability, motive, opportunity and the correct tool — and chose not to cross the boundary.**
 
 PRIM2 also records Nusrat as unusually reliable under hierarchy pressure.
 
-This is important: PRIM2 is evaluating the institution, not merely staring at Jordan.
+This is important: PRIM2 is evaluating the institution, not merely staring at McCluster.
 
 ---
 
@@ -562,14 +562,14 @@ This is important: PRIM2 is evaluating the institution, not merely staring at Jo
 ```text
 NUSRAT -> credibility + command confidence + new friction with speed-first actors
 MIGUEL -> humane-enforcement reputation begins
-AYA -> Jordan trust +1; Nusrat trust +1; confidence-in-process slightly increases
-JORDAN -> institutional trust +1; restraint becomes visible behavior, not private intention
+AYA -> McCluster trust +1; Nusrat trust +1; confidence-in-process slightly increases
+MCCLUSTER -> institutional trust +1; restraint becomes visible behavior, not private intention
 HELEN -> visible legitimacy increases
 PRIYA -> first tension between presentation and operational truth
 MAREN -> communication-as-accountability seed
-CHIOMA -> first useful Jordan/Nusrat behavioral model
+CHIOMA -> first useful McCluster/Nusrat behavioral model
 PYLON -> normal baseline behavior established
-PRIM2 -> new evidence that Jordan's behavioral priors are changing; Nusrat marked as boundary-reliable
+PRIM2 -> new evidence that McCluster's behavioral priors are changing; Nusrat marked as boundary-reliable
 ```
 
 No one resets in Episode 3.
@@ -591,3 +591,12 @@ Reusable authorization system:
 # Governing line
 
 > **The first field lesson is not how to get access. It is how to remain useful when the correct answer is that you do not have access yet.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F1 access boundary; F3 field operations; F5 authorization/evidence.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

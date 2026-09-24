@@ -240,7 +240,7 @@ He does not know Hana was an NIS officer or that Prime intentionally exploited G
 He knows only:
 
 - Hana mattered deeply to Aya;
-- Aya entered McCluster partly because Hana's death felt wrong;
+- Aya entered Equity Uprise partly because Hana's death felt wrong;
 - Aya stayed;
 - Aya says she has improved the place;
 - and Aya is increasingly unwilling to imagine that leaving could be the responsible choice.
@@ -253,21 +253,21 @@ He worries that McCluster has become another Project REN—something Aya believe
 
 ---
 
-# 11. Ren and Jordan
+# 11. Ren and McCluster
 
-Ren initially distrusts Jordan because Jordan's Wildcard behavior looks like exactly the kind of self-endangerment Aya feels compelled to manage.
+Ren initially distrusts McCluster because McCluster's Wildcard behavior looks like exactly the kind of self-endangerment Aya feels compelled to manage.
 
-Then he realizes Jordan is one of the few people who genuinely respects Aya's competence without needing to dominate it.
+Then he realizes McCluster is one of the few people who genuinely respects Aya's competence without needing to dominate it.
 
 Ren also notices something Aya dislikes admitting:
 
-Jordan understands the difference between accepting help and surrendering autonomy.
+McCluster understands the difference between accepting help and surrendering autonomy.
 
-Ren and Jordan can bond around one principle from radically different histories:
+Ren and McCluster can bond around one principle from radically different histories:
 
 > **You can save my life and still not own my next decision.**
 
-Ren becomes one of the few people capable of telling Jordan when Aya is protecting him by trying to control him—and telling Aya when Jordan is using "freedom" as an excuse to make everybody else absorb his risk.
+Ren becomes one of the few people capable of telling McCluster when Aya is protecting him by trying to control him—and telling Aya when McCluster is using "freedom" as an excuse to make everybody else absorb his risk.
 
 ---
 
@@ -315,4 +315,4 @@ The lesson is narrower and harder:
 
 > **A good intervention can still become domination if the person receiving it loses ownership of the choice.**
 
-That principle becomes central to Aya, Jordan and eventually post-Prime governance.
+That principle becomes central to Aya, McCluster and eventually post-Prime governance.

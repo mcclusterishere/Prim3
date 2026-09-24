@@ -17,7 +17,7 @@ It is **not** an ordinary Season One tutorial operation.
 
 The performer is **PRIM2**, the presiding Mantle holder.
 
-Jordan Vale and Royce are already attacking Site 0 from separate PRIM-side and Hitman-side assault paths.
+McCluster and Royce are already attacking Site 0 from separate PRIM-side and Hitman-side assault paths.
 
 PRIM2 genuinely resists them.
 
@@ -36,8 +36,8 @@ The audience initially receives an impossible amount of information without the 
 
 They see:
 - PRIM2 under High Alert state;
-- Jordan much later in his life than the college story that follows;
-- Royce as a dangerous parallel challenger whose full relationship to Jordan is withheld;
+- McCluster much later in his life than the college story that follows;
+- Royce as a dangerous parallel challenger whose full relationship to McCluster is withheld;
 - Site 0;
 - flashes from seventeen events that have not yet been experienced.
 
@@ -47,7 +47,7 @@ The story rewinds:
 
 > **SEVEN YEARS EARLIER.**
 
-Jordan is 33 and entering college.
+McCluster is 33 and entering college.
 
 The contrast is the hook.
 
@@ -63,9 +63,9 @@ The audience should not be able to fully explain the memory on first watch.
 
 When the corresponding episode later arrives, the audience learns the human context.
 
-Critically, the flash shown in `High Alert` does **not** prove Jordan owns the later episode.
+Critically, the flash shown in `High Alert` does **not** prove McCluster owns the later episode.
 
-A memory may feature Jordan because PRIM2 is talking to him while the full episode actually belongs to Aya, Chioma, Marc, Amira, Jonas, Oksana, another ensemble character, or a character cluster.
+A memory may feature McCluster because PRIM2 is talking to him while the full episode actually belongs to Aya, Chioma, Marc, Amira, Jonas, Oksana, another ensemble character, or a character cluster.
 
 Canonical rule:
 
@@ -79,11 +79,11 @@ See `story/HIGH-ALERT-MEMORY-ANCHORS.md`.
 
 The S1E1 future fragment may be WATCH-only or use a tightly bounded playable teaser.
 
-It must **not** teach the player that Jordan is the default campaign pawn.
+It must **not** teach the player that McCluster is the default campaign pawn.
 
 If PLAY is used in the future fragment:
 - it is a scripted endgame glimpse;
-- Jordan's presence consumes no Wildcard Authorization;
+- McCluster's presence consumes no Wildcard Authorization;
 - Royce is a scripted hostile/parallel principal rather than a random incursion;
 - PRIM2 is the active defender;
 - the interface may intentionally withhold mechanics/context that will only become understandable later.
@@ -98,7 +98,7 @@ PRIM2 is not performing because he likes spectacle more than survival.
 
 The music film externalizes his psychological and information advantage during an active crisis.
 
-He knows enough about Jordan, Royce and the prior seven years to weaponize memories whose meanings are intimate, institutional or operational.
+He knows enough about McCluster, Royce and the prior seven years to weaponize memories whose meanings are intimate, institutional or operational.
 
 He does **not** have to have caused each event.
 
@@ -124,9 +124,9 @@ Keep all facility defense systems fictional/non-actionable.
 
 The sequence ends without answering:
 - who PRIM2 is;
-- why Jordan is attacking him;
+- why McCluster is attacking him;
 - who Royce is;
-- why Jordan and Royce are on different sides;
+- why McCluster and Royce are on different sides;
 - what PRIM means;
 - why the memories matter;
 - whether anybody survives.
@@ -138,3 +138,5 @@ The rewind then begins the ensemble world whose accumulated lives eventually mak
 # Governing line
 
 > **Episode One shows the end before the audience has met the people whose lives make the end matter.**
+
+Workplace authority: story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md.

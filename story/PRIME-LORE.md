@@ -114,11 +114,11 @@ This is one of the clearest examples of PRIM2's moral danger: **controlling what
 
 ---
 
-# 6. Jordan is not PRIM2's only story
+# 6. McCluster is not PRIM2's only story
 
 PRIM2 has hidden relationships with the entire institutional architecture.
 
-He may evaluate Jordan over years, but PRIM3 is an ensemble series. PRIM2's effects can appear in episodes Jordan does not own or does not appear in at all.
+He may evaluate McCluster over years, but PRIM3 is an ensemble series. PRIM2's effects can appear in episodes McCluster does not own or does not appear in at all.
 
 Relevant independent relationships include:
 - Hana — adversarial intelligence mind;
@@ -129,30 +129,30 @@ Relevant independent relationships include:
 - Jonas / Pylon — automation and interface dependence;
 - Marc / Amira — decision-makers whose choices can be shaped by incomplete context.
 
-Do not reduce PRIM2 to `the man secretly watching Jordan`.
+Do not reduce PRIM2 to `the man secretly watching McCluster`.
 
 ---
 
-# 7. Jordan / Royce / RAID
+# 7. McCluster / Royce / RAID
 
 During final RAID, two separate assault elements breach Site 0:
 
-- Jordan's PRIM-side element;
+- McCluster's PRIM-side element;
 - Royce's Hitman-side element.
 
-Jordan and Royce are **not strangers**. They have significant pre-PRIM3 Hitman history. Royce received the succession opportunity Jordan/Benji refused when Bigga Lex retired.
+McCluster and Royce are **not strangers**. They have significant pre-PRIM3 Hitman history. Royce received the succession opportunity McCluster/Benji refused when Bigga Lex retired.
 
 PRIM2 genuinely resists both elements.
 
 The breach becomes catastrophic. Every other member of both assault elements dies.
 
-Jordan and Royce become the only survivors of their respective teams.
+McCluster and Royce become the only survivors of their respective teams.
 
 They encounter one another as old rivals whose histories have now been revealed to sit beneath the same hidden PRIM architecture.
 
 They nearly kill each other, then recognize PRIM2 as the common immediate target.
 
-**Jordan and Royce defeat PRIM2 together.**
+**McCluster and Royce defeat PRIM2 together.**
 
 PRIM2's body is critically damaged and returned to the suspension/life-support system.
 
@@ -162,7 +162,7 @@ PRIM2's body is critically damaged and returned to the suspension/life-support s
 
 `Evil Twin` begins after PRIM2 has been physically defeated.
 
-Jordan and Royce have every immediate reason to kill him.
+McCluster and Royce have every immediate reason to kill him.
 
 PRIM2's remaining weapon is information.
 
@@ -171,7 +171,7 @@ He reveals enough of the dual-board architecture to make one fact clear:
 > **His still-living identity is the current root needed to transfer/revoke authority cleanly.**
 
 The confession forces both survivors to reinterpret:
-- Jordan's Benji history;
+- McCluster's Benji history;
 - Royce's inherited Hitman sovereignty;
 - cross-board operations;
 - unexplained assistance/conflict;
@@ -192,7 +192,7 @@ At story level:
 PRIM2 — CURRENT ROOT
 -> PHYSICALLY DEFEATED / STILL VALID
 -> SUCCESSION WINDOW
--> JORDAN RECOGNIZED AS NEW HOLDER
+-> MCCLUSTER RECOGNIZED AS NEW HOLDER
 -> PRIM3 — NEW ROOT
 -> FORMER PRIM2 WRITE / COMMAND RIGHTS REMOVED
 ```
@@ -214,7 +214,7 @@ Default post-succession capability:
 - task PRIM/Hitman: no;
 - exercise Mantle authority: no.
 
-Jordan is **PRIM3**, the new living holder.
+McCluster is **PRIM3**, the new living holder.
 
 Former PRIM2 becomes perhaps the most knowledgeable advisor in the system and, for the first time, cannot simply make the system obey.
 
@@ -228,8 +228,8 @@ PRIM2's governing premise trends toward:
 
 > **Enough context creates an obligation to control.**
 
-Jordan's mature answer must become:
+McCluster's mature answer must become:
 
 > **Enough context creates an obligation to design accountable choices.**
 
-PRIM3 is successful only if Jordan can carry the Mantle without reproducing PRIM2 as a younger man.
+PRIM3 is successful only if McCluster can carry the Mantle without reproducing PRIM2 as a younger man.

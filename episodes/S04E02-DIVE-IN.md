@@ -18,13 +18,13 @@ branch: main
 ```text
 PRIMARY OWNERS: Grace Mbala / Rafael Costa
 SECONDARY DEPTH: Oksana Bondarenko / Leila Hosseini / Chioma Okeke / Chris “Perch” Alvarez / Jules “Kiosk” Mendez / Sora “Gymnast” Okada
-JORDAN: mentioned/edge until emergency; off-board Wildcard if CRITICAL
+MCCLUSTER: mentioned/edge until emergency; off-board Wildcard if CRITICAL
 BASE PLAYABLE ROSTER: Grace / Rafael / Oksana
 APEX: unavailable
 ROYCE: eligible only if Hitman pressure warrants
 ```
 
-This supersedes the old Jordan-led secret-site investigation while retaining the authorized decommissioned-site/evidence-reconstruction mechanics.
+This supersedes the old McCluster-led secret-site investigation while retaining the authorized decommissioned-site/evidence-reconstruction mechanics.
 
 ---
 
@@ -40,7 +40,7 @@ This supersedes the old Jordan-led secret-site investigation while retaining the
 | Perch | Hitman overwatch mirror | Feels pressure to simplify uncertainty into something actionable for Hitman leadership, sharpening his contrast with Rafael. |
 | Kiosk | Hitman technical | Helps interpret technical residue from the other board while remaining a recurring person with his own competence and limits. |
 | Sora | social-entry / opposing context | Shows how human context around a place can change the meaning of the same physical artifact. |
-| Jordan | optional Wildcard | If called, he helps protect/extract people or reopen access but does not own the evidentiary judgment. |
+| McCluster | optional Wildcard | If called, he helps protect/extract people or reopen access but does not own the evidentiary judgment. |
 
 ---
 
@@ -106,10 +106,19 @@ A high score rewards **restraint plus defensibility**, not maximum collection.
 - Leila's abstract governance rules become field-real.
 - Chioma experiences the political cost of defending ethical delay.
 - Perch/Kiosk/Sora deepen as recurring Hitman people.
-- Jordan can be useful without being the investigator who owns every hidden-architecture clue.
+- McCluster can be useful without being the investigator who owns every hidden-architecture clue.
 
 ---
 
 # Governing line
 
 > **Just because you can collect it does not mean it belongs in your case.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** Exterior discovery where required; F5 evidence processing; B1 technical validation.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

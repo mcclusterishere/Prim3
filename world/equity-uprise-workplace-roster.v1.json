@@ -1,0 +1,277 @@
+{
+  "schema_version": "1.0.0",
+  "status": "CANON",
+  "facility_id": "EQUITY-UPRISE-HQ",
+  "facility_role": "recurring_workplace_headquarters",
+  "root_hq_id": "SITE-0",
+  "root_hq_role": "hidden_mccluster_corp_prim_root_facility_final_raid",
+  "rules": {
+    "equity_uprise_is_site0": false,
+    "b1_is_secret": false,
+    "b1_is_staffed_workplace": true,
+    "workspaces_are_persistent": true,
+    "named_cast_before_new_npcs": true,
+    "skins_require_plausible_workplace_role": true
+  },
+  "floors": {
+    "B1": {
+      "title": "Technical Operations + Infrastructure",
+      "named_workspaces": [
+        {
+          "character": "Hassan Raza",
+          "workspace": "Tech-Zone Security Station",
+          "role": "Defense-03 Tech-Zone Guard"
+        },
+        {
+          "character": "Dmitri Volkov",
+          "workspace": "Building Security / Infrastructure Guard Station",
+          "role": "Defense-01 Building Guard"
+        },
+        {
+          "character": "Emre Yıldız",
+          "workspace": "Physical Systems / Facilities Desk",
+          "role": "Defense-01 / physical systems"
+        },
+        {
+          "character": "Jonas Weber",
+          "workspace": "Pylon Systems Liaison Console",
+          "role": "System Liaison"
+        },
+        {
+          "character": "Minh Tran",
+          "workspace": "Hardware / Firmware Bench",
+          "role": "Field-T"
+        },
+        {
+          "character": "Pylon",
+          "workspace": "Primary Human-Service Operations Interface",
+          "role": "Building automation platform"
+        }
+      ],
+      "archetypes": [
+        "Defense-03",
+        "Facilities Technician",
+        "Network/IDF Technician",
+        "Field-T Hardware Technician",
+        "Infrastructure Lab Instructor",
+        "Tunnel/Mobility Maintenance"
+      ]
+    },
+    "F1": {
+      "title": "Arrival + Intake + Access",
+      "named_workspaces": [
+        {
+          "character": "Grace Mbala",
+          "workspace": "Cohort Support / Participant Services Desk",
+          "role": "Cohort Support"
+        },
+        {
+          "character": "Miguel Santos",
+          "workspace": "Access / Welcome Security Desk",
+          "role": "Defense-02 Access Officer"
+        },
+        {
+          "character": "Valeria Soto",
+          "workspace": "Cohort-02 Trainee / Support Hot Desk",
+          "role": "Cohort-02 Trainee"
+        },
+        {
+          "character": "McCluster",
+          "workspace": "Opening-phase Onboarding / Hot Desk",
+          "role": "Wildcard candidate"
+        }
+      ],
+      "archetypes": [
+        "Intake Staff",
+        "Reception",
+        "Defense-02",
+        "Cohort Support",
+        "Cohort-02",
+        "Visitor"
+      ]
+    },
+    "F2": {
+      "title": "Public Forum + Cohort Community",
+      "named_workspaces": [
+        {
+          "character": "Chioma Okeke",
+          "workspace": "Cohort-03 Lead Desk",
+          "role": "Cohort-03 Lead"
+        },
+        {
+          "character": "Sari Wulandari",
+          "workspace": "Telecom / Cohort Operator Desk",
+          "role": "Cohort-01 Operator"
+        },
+        {
+          "character": "Thandiwe Nkosi",
+          "workspace": "Cohort-03 Lead Peer Desk",
+          "role": "Cohort-03 Lead"
+        }
+      ],
+      "archetypes": [
+        "Instructor",
+        "Cohort-01",
+        "Cohort-02",
+        "Cohort-03",
+        "Community Moderator",
+        "Workshop Facilitator"
+      ]
+    },
+    "F3": {
+      "title": "Fellowship + Field Operations",
+      "named_workspaces": [
+        {
+          "character": "McCluster",
+          "workspace": "Wildcard / Fellowship Desk",
+          "role": "Wildcard / Flex"
+        },
+        {
+          "character": "Aya Shinoda",
+          "workspace": "Field-T Technical Bench",
+          "role": "Field-T"
+        },
+        {
+          "character": "Arjun Mehta",
+          "workspace": "Field-E Entry / Safety Planning Desk",
+          "role": "Field-E"
+        },
+        {
+          "character": "Rafael Costa",
+          "workspace": "Field-R Overwatch Workstation",
+          "role": "Field-R"
+        },
+        {
+          "character": "Nusrat Rahman",
+          "workspace": "Access Policy / Operations Desk",
+          "role": "Defense-02 / access operations"
+        }
+      ],
+      "archetypes": [
+        "Field-R",
+        "Field-E",
+        "Field-T",
+        "Fellow",
+        "Recruitment/Interview",
+        "Cross-Training Operator"
+      ]
+    },
+    "F4": {
+      "title": "Media + Culture",
+      "named_workspaces": [
+        {
+          "character": "Priya Srisawat",
+          "workspace": "Brand / Public Identity Desk",
+          "role": "Marketing / Public Surface"
+        },
+        {
+          "character": "Maren Quill",
+          "workspace": "Communications / Media Desk",
+          "role": "Public Communications"
+        }
+      ],
+      "archetypes": [
+        "Producer",
+        "Editor",
+        "Audio/Video Technician",
+        "Communications Staff",
+        "Designer",
+        "Creator"
+      ]
+    },
+    "F5": {
+      "title": "Policy + Proof",
+      "named_workspaces": [
+        {
+          "character": "Oksana Bondarenko",
+          "workspace": "Intelligence / Source Review Desk",
+          "role": "Field-R / Intelligence"
+        },
+        {
+          "character": "Leila Hosseini",
+          "workspace": "Authority Analysis Desk",
+          "role": "Authority / Analysis"
+        },
+        {
+          "character": "Amira Hassan",
+          "workspace": "Mission Sponsor / Ethics Review Desk",
+          "role": "Mission Sponsor"
+        }
+      ],
+      "archetypes": [
+        "Researcher",
+        "Policy Analyst",
+        "Evidence Librarian",
+        "Grant/Development Staff",
+        "Compliance/Review Staff",
+        "Publication Staff"
+      ]
+    },
+    "F6": {
+      "title": "Executive Command",
+      "named_workspaces": [
+        {
+          "character": "Li Wei",
+          "workspace": "Governance / Authority Desk",
+          "role": "Authority / Governance"
+        },
+        {
+          "character": "Helen Clarke",
+          "workspace": "Director Office / Command Desk",
+          "role": "Authority-02 Director"
+        },
+        {
+          "character": "Marc Dubois",
+          "workspace": "Risk / Mission Sponsor Desk",
+          "role": "Mission Sponsor"
+        },
+        {
+          "character": "PRIM2",
+          "workspace": "Authorized Executive Interface",
+          "role": "Presiding Mantle presence",
+          "physical_body_here": false
+        }
+      ],
+      "archetypes": [
+        "Director",
+        "Executive Staff",
+        "Mission Sponsor",
+        "Command Analyst",
+        "Partner/Briefing Staff"
+      ]
+    },
+    "F7": {
+      "title": "Roof + Mobility",
+      "named_workspaces": [
+        {
+          "character": "Yonas Bekele",
+          "workspace": "Mobility / Service Continuity Station",
+          "role": "Service Continuity"
+        },
+        {
+          "character": "Arjun Mehta",
+          "workspace": "Secondary Roof Safety / Movement Planning Station",
+          "role": "Field-E"
+        },
+        {
+          "character": "Emre Yıldız",
+          "workspace": "Secondary MEP / Physical-Systems Roof Station",
+          "role": "Physical Systems"
+        }
+      ],
+      "archetypes": [
+        "Mobility/Logistics Staff",
+        "Roof Safety",
+        "Facilities/MEP Staff",
+        "Transport Coordinator",
+        "Authorized Vehicle/Flight Support"
+      ]
+    }
+  },
+  "story_location_rules": {
+    "ordinary_hq_term": "Equity Uprise HQ",
+    "final_root_hq_term": "Site 0 / Root HQ",
+    "workspace_vacancy_visible_after_loss": true,
+    "episode_location_authority": "story/EPISODE-WORKPLACE-LOCATION-MAP.md"
+  }
+}

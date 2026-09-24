@@ -358,7 +358,7 @@ The player succeeds by understanding the concept well enough to adapt when reali
 
 ## 12. Interface progression across seven seasons
 
-The command interface itself should mature with Jordan/player knowledge.
+The command interface itself should mature with McCluster/player knowledge.
 
 ### Seasons 1-2
 - fewer layers

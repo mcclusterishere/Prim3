@@ -36,11 +36,11 @@ A classic technical element is up to three primary field roles:
 
 Story missions may add/replace roles with Leads, Defense, trainees or other specialists.
 
-Jordan is **not** a normal selectable deployment slot unless the episode explicitly assigns him.
+McCluster is **not** a normal selectable deployment slot unless the episode explicitly assigns him.
 
 ### Intervention deployment
 
-Jordan Wildcard and PRIM2 Apex arrivals use mission-authored ingress/ETA rules from `WILDCARD-INTERVENTION-AUTHORITY.md`. They never teleport onto an arbitrary tile.
+McCluster Wildcard and PRIM2 Apex arrivals use mission-authored ingress/ETA rules from `WILDCARD-INTERVENTION-AUTHORITY.md`. They never teleport onto an arbitrary tile.
 
 ### Extract
 
@@ -144,7 +144,7 @@ Ordinary Budget can support:
 - replacement consumables;
 - mission-preparation kit.
 
-Budget **cannot directly purchase** Jordan Wildcard or PRIM2 Apex calls.
+Budget **cannot directly purchase** McCluster Wildcard or PRIM2 Apex calls.
 
 ## 11. Training
 
@@ -186,7 +186,7 @@ Possible command verbs include:
 
 A Lead does not replace R/E/T technical functions.
 
-Jordan's `RALLY THE ROOM` and PRIM2's `COMMAND PRIORITY` are separate intervention abilities with their own scarcity/rules.
+McCluster's `RALLY THE ROOM` and PRIM2's `COMMAND PRIORITY` are separate intervention abilities with their own scarcity/rules.
 
 ## 14. Capture, death and rescue
 
@@ -194,7 +194,7 @@ Jordan's `RALLY THE ROOM` and PRIM2's `COMMAND PRIORITY` are separate interventi
 A living Downed operator can be stabilized/rescued.
 
 ### Death
-A completed death persists unless the story explicitly defines otherwise. Jordan/PRIM2 cannot reverse it.
+A completed death persists unless the story explicitly defines otherwise. McCluster/PRIM2 cannot reverse it.
 
 ### Left behind
 Outcome depends on authored mission context:
@@ -223,7 +223,7 @@ The player must be able to read:
 
 ## 16. Intervention implementation requirements
 
-A mission that allows Jordan must define:
+A mission that allows McCluster must define:
 - crisis trigger;
 - request path;
 - arrival delay;
@@ -233,7 +233,7 @@ A mission that allows Jordan must define:
 
 A mission that allows PRIM2 must additionally define:
 - why it is Critical/State/Strategic enough;
-- why Jordan is already present;
+- why McCluster is already present;
 - what persists long enough to justify Apex escalation;
 - what information/authority PRIM2 adds;
 - what cannot be saved anymore.

@@ -19,7 +19,7 @@ Use this learning authority together with:
 1. `game/ADAPTIVE-CYBER-RANGE-AUTHORITY.md`, readiness, adaptation, live labs, evidence traces, and remediation.
 2. `game/TRAINING-RANGE-AUTHORITY.md`, the exact current M01 through M03 Training Range mapping.
 3. `game/TACTICAL-IT-MECHANICS-BIBLE.md`, battlefield technical grammar.
-4. `game/WILDCARD-INTERVENTION-AUTHORITY.md`, Jordan, PRIM2, and Royce escalation.
+4. `game/WILDCARD-INTERVENTION-AUTHORITY.md`, McCluster, PRIM2, and Royce escalation.
 5. `game/OMNISCIENT-COMMAND-INTERFACE.md`, fused mission control perspective.
 6. `story/ENSEMBLE-POV-AUTHORITY.md`, episode and playable character ownership.
 7. `learning/MISSION-CONCEPT-LAB-MATRIX.md`, source unit concept applications.
@@ -280,11 +280,11 @@ The classic field triad remains the functional teaching grammar:
 2. **Field E**, access, control, safety, protection, physical continuity.
 3. **Field T**, system analysis, configuration, recovery, validation.
 
-This does not mean every Mission stars three generic characters or Jordan.
+This does not mean every Mission stars three generic characters or McCluster.
 
 The player controls named characters assigned to a story Mission. Training Range Missions may use explicit simulator operators.
 
-Most ordinary story Missions launch without Jordan.
+Most ordinary story Missions launch without McCluster.
 
 ## 14. LAB_NODE law
 
@@ -426,9 +426,9 @@ Scores evidence traces and produces mastery evidence. It is logically separate f
 
 ## 21. Intervention and mastery law
 
-Jordan and PRIM2 can save an operation without auto passing the lesson.
+McCluster and PRIM2 can save an operation without auto passing the lesson.
 
-Jordan may reveal another credible route, cross support a function, stabilize tempo, or create another chance to apply the concept.
+McCluster may reveal another credible route, cross support a function, stabilize tempo, or create another chance to apply the concept.
 
 PRIM2 may expose additional sourced information or change present authorization. That does not make unverified information true and does not grant automatic learning credit.
 
@@ -494,7 +494,7 @@ Every canonical episode chapter must explicitly contain or reference:
 ```text
 Episode owner
 Base playable roster
-Jordan state
+McCluster state
 Wildcard eligibility and crisis trigger
 Apex eligibility and mission classification
 Royce incursion eligibility and telegraph rule

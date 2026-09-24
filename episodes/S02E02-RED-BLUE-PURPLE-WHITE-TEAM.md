@@ -20,7 +20,7 @@ PRIMARY OWNERS: Chioma Okeke / Thandiwe Nkosi
 SECONDARY DEPTH: Grace Mbala / Arjun Mehta / Sari Wulandari / Mina “Halo” Brooks / Dez “Switch” Calhoun
 MISSION LEAD: Chioma
 BASE PLAYABLE ROSTER: named ensemble assigned across Red / Blue / Purple / White functions
-JORDAN: supporting; not selectable at launch; Wildcard only after exercise becomes real CRITICAL incident
+MCCLUSTER: supporting; not selectable at launch; Wildcard only after exercise becomes real CRITICAL incident
 APEX: unavailable
 ROYCE: unavailable
 ```
@@ -39,7 +39,7 @@ ROYCE: unavailable
 | Mina “Halo” Brooks | Hitman command mirror | Shows genuine care for her own people and a leadership reputation built on bringing them home, complicating simplistic faction morality. |
 | Dez “Switch” Calhoun | Hitman adaptive operator | Versatility keeps him useful but makes him increasingly unsure whether he has an identity beyond adapting to stronger people. |
 | Helen | visible executive | Watches Chioma sacrifice the exercise result and begins treating her as command material rather than merely talented staff. |
-| Jordan | supporting | Resents not having more say, then publicly backs Chioma; learns that broad experience does not grant automatic command. |
+| McCluster | supporting | Resents not having more say, then publicly backs Chioma; learns that broad experience does not grant automatic command. |
 
 ---
 
@@ -49,7 +49,7 @@ A controlled red-vs-blue assessment is interrupted by a real facility anomaly th
 
 Chioma's safest choice makes her look like the first person to panic.
 Thandiwe notices the institution designed incentives that reward continuing.
-Jordan thinks his breadth should give him more influence.
+McCluster thinks his breadth should give him more influence.
 Grace asks who pays if they guess wrong.
 
 ---
@@ -73,7 +73,7 @@ Core line:
 5. Chioma calls `REAL-WORLD` and ends the exercise.
 6. Thandiwe names the incentive failure during the transition, not afterward when it is safe.
 7. The named ensemble combines previously private pictures to stabilize the real incident.
-8. Jordan supports Chioma despite private frustration.
+8. McCluster supports Chioma despite private frustration.
 9. Helen's post-event decision gives Chioma more responsibility; Thandiwe worries what that will do to her.
 
 ---
@@ -85,7 +85,7 @@ The player rotates among named people filling the four functions; colors are rol
 Primary verbs:
 `observe / challenge / defend / share / adjudicate / reassign / isolate / stabilize / debrief`.
 
-If CRITICAL, Jordan may be called only after Chioma has correctly transitioned the mission to real-world state.
+If CRITICAL, McCluster may be called only after Chioma has correctly transitioned the mission to real-world state.
 
 ---
 
@@ -97,10 +97,19 @@ If CRITICAL, Jordan may be called only after Chioma has correctly transitioned t
 - Sari shifts from proving herself individually toward belonging.
 - Mina/Dez become recognizable recurring Hitman people.
 - Helen starts considering Chioma for larger authority.
-- Jordan gains both respect for and friction with Chioma.
+- McCluster gains both respect for and friction with Chioma.
 
 ---
 
 # Governing line
 
 > **Chioma becomes a leader when she is willing to lose the exercise.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F2 instruction; F3 field planning.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

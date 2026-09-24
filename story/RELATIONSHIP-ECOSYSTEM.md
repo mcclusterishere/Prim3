@@ -7,7 +7,7 @@ version: 1.0.0
 # Relationship ecosystem (before the main story)
 
 The series does not start with strangers in a logo.  
-By High Alert / Jordan’s climb, the **24 mains** already carry an **ecosystem**: people who tried to get in, people who got in and died, people who got in and left, friendships that outlast badges, and the quiet math that **only about one in three** who reach the door ever stay company.
+By High Alert / McCluster’s climb, the **24 mains** already carry an **ecosystem**: people who tried to get in, people who got in and died, people who got in and left, friendships that outlast badges, and the quiet math that **only about one in three** who reach the door ever stay company.
 
 ## Split of the 48 secondaries (locked)
 
@@ -29,7 +29,7 @@ Each main is not only a nation + job. They are:
 - Someone who still answers (or avoids) a **freelancer** who knew them before the M felt heavy  
 - Someone who still sees a **dead name** when a corridor or a tool is used  
 
-That pre-history is why Aya is precise, why Jordan hungers for paid-in-full, why Volkov and Bondarenko can share a floor without performing a news cycle, why Chioma leads like someone who buried a peer.
+That pre-history is why Aya is precise, why McCluster hungers for paid-in-full, why Volkov and Bondarenko can share a floor without performing a news cycle, why Chioma leads like someone who buried a peer.
 
 ---
 
@@ -51,14 +51,14 @@ Numbers are moral texture, not a spreadsheet episode. The point: **every main kn
 Not a single hierarchy. A **mesh** built in the founding years:
 
 ### Cluster A — Bay / Field spine
-**Jordan · Aya · Arjun · Minh · Rafael · Samir-type seats**  
+**McCluster · Aya · Arjun · Minh · Rafael · Samir-type seats**  
 Trained in close quarters. Shared dirty cables, shared seals, shared first real fear.  
-- Jordan–Aya: trust as integrity (Patch Work future)  
+- McCluster–Aya: trust as integrity (Patch Work future)  
 - Arjun–Minh: quiet competition that became respect  
 - Rafael: the one who pulled two people out of a bad entry and never bragged  
 
 **Dead on this line:** early Field-E who taught Arjun the door order; trainee who imaged dirty and later died on an outer site.  
-**Freelance on this line:** ex-Field-T who still texts Aya hash tricks; ex-overwatch who will sit a roof for Jordan once if he asks as a friend.
+**Freelance on this line:** ex-Field-T who still texts Aya hash tricks; ex-overwatch who will sit a roof for McCluster once if he asks as a friend.
 
 ### Cluster B — Defense floor
 **Dmitri Volkov · Oksana Bondarenko · Emre · Nusrat · Miguel · Hassan**  
@@ -91,7 +91,7 @@ Per diem years. Hybrid identity. Who got promoted, who got seasonal.
 | Volkov ↔ Bondarenko | Same defense certification class; saved the same civilian contractor in a blackout |
 | Li Wei ↔ (DPRK secondary Sun Ho, if alive freelance or dead) | Language table / technical translation nights — personal, not state |
 | Arjun ↔ Hassan | Long argument about scope ethics that ended in mutual field backup |
-| Jordan ↔ Chioma | She signed an early evaluation that kept him from washing out |
+| McCluster ↔ Chioma | She signed an early evaluation that kept him from washing out |
 | Aya ↔ Helen | Director once shielded a bay budget so Aya’s kit stayed FORENSIC-clean |
 
 ---
@@ -117,7 +117,7 @@ On screen: a name on a memorial strip under the M; a tool nobody else reassigns;
 |------|-----------------|
 | **Friendship help** | One mission beat: unlock, drive, translate, hold a roof — no badge |
 | **Warning** | “Faces from the old list” |
-| **Temptation** | Offer Jordan or Aya a life outside the M |
+| **Temptation** | Offer McCluster or Aya a life outside the M |
 | **Mirror** | Show what the main would be if they had left |
 
 They do **not** restart the company plot. They prove the ecosystem is larger than payroll.
@@ -131,7 +131,7 @@ They do **not** restart the company plot. They prove the ecosystem is larger tha
 3. **Outer compounds staffed** — defense and field learn the multi-site religion.  
 4. **Deaths and exits cluster** — some years thin the roster; freelancers scatter into the real economy.  
 5. **Mains stabilize** — 24 seats that hold. Relationships already dense.  
-6. **Jordan enters late** relative to founding — inherits the web, doesn’t invent it.  
+6. **McCluster enters late** relative to founding — inherits the web, doesn’t invent it.  
 7. **Main story** — High Alert / climb / RAID — lands on people who already lost people.
 
 ---
@@ -141,7 +141,7 @@ They do **not** restart the company plot. They prove the ecosystem is larger tha
 | Main | Why they act that way (ecosystem) |
 |------|-----------------------------------|
 | **Aya** | Lost a bay partner to dirty procedure culture; never again |
-| **Jordan** | Watched freelancers leave “free” and stay hungry; wants paid-in-full |
+| **McCluster** | Watched freelancers leave “free” and stay hungry; wants paid-in-full |
 | **Volkov** | Dead former on his line was loud about politics; Volkov stayed quiet and competent |
 | **Bondarenko** | Freelance friend in Poland still sends weather; she doesn’t perform the war for the building |
 | **Chioma** | Two dead on her evaluation list; she promotes hard and sleeps little |

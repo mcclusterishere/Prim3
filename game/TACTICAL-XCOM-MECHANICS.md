@@ -12,7 +12,7 @@ Turn-based tactical missions use a shared AP/grid/state resolver. This file desc
 
 ## 1. Ensemble deployment law
 
-Most missions launch **without Jordan Vale**.
+Most missions launch **without McCluster**.
 
 The normal playable force is the named cast actually assigned to that episode or side operation. The classic technical field grammar remains:
 
@@ -28,10 +28,10 @@ A mission may deploy:
 - Defense personnel;
 - support/specialists;
 - mixed or cross-trained characters;
-- Jordan only if scripted or called as Wildcard;
+- McCluster only if scripted or called as Wildcard;
 - PRIM2 only if scripted or called through an eligible Apex intervention.
 
-Episode ownership and tactical deployment are separate. Calling Jordan into Aya's mission does not make it Jordan's episode.
+Episode ownership and tactical deployment are separate. Calling McCluster into Aya's mission does not make it McCluster's episode.
 
 ## 2. Mission spine
 
@@ -112,7 +112,7 @@ A still-living Downed character may be stabilized.
 
 A completed death persists.
 
-Jordan and PRIM2 can arrive in time to prevent a death; they cannot reverse one that already happened.
+McCluster and PRIM2 can arrive in time to prevent a death; they cannot reverse one that already happened.
 
 Leaving a character behind can produce capture, missing/separated status or death depending on the authored mission state. Do not globally equate “not extracted” with one outcome.
 
@@ -180,9 +180,9 @@ T converts evidence and access into technical mission state.
 
 Full action grammar is in `ROLE-ACTION-REGISTRY.yaml` and `TACTICAL-IT-MECHANICS-BIBLE.md`.
 
-## 10. Wildcard request — Jordan Vale
+## 10. Wildcard request — McCluster
 
-When an eligible mission reaches **CRITICAL** while Jordan is off-board and a seasonal authorization remains, mission control may expose:
+When an eligible mission reaches **CRITICAL** while McCluster is off-board and a seasonal authorization remains, mission control may expose:
 
 ```text
 EXECUTIVE CHANNEL OPEN
@@ -191,11 +191,11 @@ REQUEST WILDCARD
 
 Standard campaign pool:
 
-> **2 non-scripted Jordan Wildcard Authorizations per season.**
+> **2 non-scripted McCluster Wildcard Authorizations per season.**
 
-Jordan does not instantly spawn. Each mission authors an ingress and arrival delay, normally **1–3 rounds after approval**.
+McCluster does not instantly spawn. Each mission authors an ingress and arrival delay, normally **1–3 rounds after approval**.
 
-Jordan's tactical purpose is to restore options:
+McCluster's tactical purpose is to restore options:
 - `ANOTHER PATH`
 - `ADAPTIVE ROLE`
 - `RALLY THE ROOM`
@@ -206,7 +206,7 @@ He is not a permanent fourth class and not an automatic objective-completion but
 ## 11. Apex request — PRIM2
 
 An eligible high-value mission may expose Apex intervention only when:
-- Jordan is already present;
+- McCluster is already present;
 - the mission is appropriately classified Critical/State/Strategic;
 - CRITICAL failure persists or returns for at least one full round;
 - command/communications still permit escalation;
@@ -259,7 +259,7 @@ His intended emotional effect is similar to an XCOM Chosen arrival:
 
 ```text
 ENSEMBLE -> solves the mission
-JORDAN   -> restores optionality
+MCCLUSTER   -> restores optionality
 PRIM2    -> expands picture / authority
 ROYCE    -> destabilizes control / tempo
 ```
@@ -280,7 +280,7 @@ Separate ribbons/flags can record:
 - `ROYCE_REPULSED`
 - `SURVIVOR_EXTRACTION`
 
-Learning Mastery is scored separately. Jordan/PRIM2 may save the people and mission state without auto-awarding concept mastery.
+Learning Mastery is scored separately. McCluster/PRIM2 may save the people and mission state without auto-awarding concept mastery.
 
 ## 15. Intervention cannot rewind
 
@@ -312,12 +312,12 @@ Always show the information needed to make a fair decision:
 
 A useful vertical slice should prove this sequence:
 
-1. named ensemble team launches without Jordan;
+1. named ensemble team launches without McCluster;
 2. normal R/E/T cooperation works;
 3. mission can degrade naturally;
 4. CRITICAL state is legible and fair;
-5. player may request Jordan;
-6. Jordan arrives after delay and restores options;
+5. player may request McCluster;
+6. McCluster arrives after delay and restores options;
 7. a test scenario can remain critical enough to expose PRIM2 Apex;
 8. a separate/variant scenario supports a Royce Incursion;
 9. aftermath records who saved whom and what intervention was spent;
@@ -325,14 +325,14 @@ A useful vertical slice should prove this sequence:
 
 ## 18. Tactical success test
 
-The tactical layer works when the player does **not** want Jordan on every mission.
+The tactical layer works when the player does **not** want McCluster on every mission.
 
 They should want Aya to solve Aya's problem, Chioma to command Chioma's team, Rafael to own the picture, and the rest of the cast to become legends in their own right.
 
-Jordan becomes exciting precisely because the player sees the CRITICAL alert and thinks:
+McCluster becomes exciting precisely because the player sees the CRITICAL alert and thinks:
 
 > **Oh shit. Call the Wildcard.**
 
-And PRIM2 becomes mythic because, a few times in the whole campaign, Jordan is already there and the player still has to ask:
+And PRIM2 becomes mythic because, a few times in the whole campaign, McCluster is already there and the player still has to ask:
 
 > **Who does the Wildcard call?**

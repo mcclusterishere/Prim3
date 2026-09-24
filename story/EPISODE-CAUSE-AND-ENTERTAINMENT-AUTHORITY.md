@@ -16,7 +16,7 @@ Every episode must answer three different questions with three different storyte
 - **Music film:** WHAT doctrine, vocabulary, risks and expected plan should the team/player understand before entry?
 - **Mission:** CAN the player apply that model when reality deviates from the plan?
 
-PRIM3 is an ensemble. The person who owns the emotional story does not have to be Jordan, the mission commander, or the most mechanically active playable character.
+PRIM3 is an ensemble. The person who owns the emotional story does not have to be McCluster, the mission commander, or the most mechanically active playable character.
 
 Canonical loop:
 
@@ -34,7 +34,7 @@ INCITING HUMAN PROBLEM
 -> CHARACTER / RELATIONSHIP RESIDUE
 ```
 
-Do **not** write `PLAYER BECOMES PRIM3` for ordinary missions. `PRIM3` is Jordan Vale's eventual succession designation under the hidden `Primary Root Identity Mantle` meaning. Before succession, PLAY represents entry into the current PRIM operational perspective.
+Do **not** write `PLAYER BECOMES PRIM3` for ordinary missions. `PRIM3` is McCluster's eventual succession designation under the hidden `Primary Root Identity Mantle` meaning. Before succession, PLAY represents entry into the current PRIM operational perspective.
 
 See `story/ENSEMBLE-POV-AUTHORITY.md`.
 
@@ -47,10 +47,10 @@ Every episode must explicitly define:
 1. **Inciting event** — what changed?
 2. **Episode owner** — whose belief, relationship, obligation or identity receives the deepest write?
 3. **Secondary owner(s)** — who else materially changes?
-4. **Jordan presence** — A/B/C/D/E/F per `ENSEMBLE-POV-AUTHORITY.md`.
+4. **McCluster presence** — A/B/C/D/E/F per `ENSEMBLE-POV-AUTHORITY.md`.
 5. **Human stake** — whose life, trust, reputation, relationship or responsibility is affected?
 6. **Why now** — why can this not wait?
-7. **Why PRIM / McCluster** — why this organization/team is involved.
+7. **Why PRIM / McCluster Corp Corp Corp Corp** — why this organization/team is involved.
 8. **Mission lead** — who has operational authority?
 9. **Primary playable POV(s)** — whose capabilities make the mission mechanically legible?
 10. **Why these roles** — why R/E/T/Defense/Wildcard or other lanes matter.
@@ -60,21 +60,21 @@ Every episode must explicitly define:
 14. **First plan failure** — where reality attacks the briefing model.
 15. **Operational consequence** — what changes on partial, poor or excellent execution.
 16. **Human residue** — what relationship, belief, secret, guilt, authority or trust state persists.
-17. **Past-hint write** — if any Jordan/PRIM2/Hitman/prequel hint appears, what does it reveal without spoiling the later show?
+17. **Past-hint write** — if any McCluster/PRIM2/Hitman/prequel hint appears, what does it reveal without spoiling the later show?
 18. **Next-character write** — whose future episode can inherit the residue?
 
 If these cannot be answered, the episode is not story-complete.
 
 ---
 
-# 2. Episode ownership is not Jordan ownership
+# 2. Episode ownership is not McCluster ownership
 
-Jordan Vale is a central spine character and eventual PRIM3, but the series is not required to route every episode through him.
+McCluster is a central spine character and eventual PRIM3, but the series is not required to route every episode through him.
 
-Allowed Jordan states:
+Allowed McCluster states:
 
 ```text
-A — Jordan-owned
+A — McCluster-owned
 B — shared owner
 C — supporting
 D — cameo / edge
@@ -82,11 +82,11 @@ E — mentioned only
 F — absent
 ```
 
-Across Episodes 02–18, the default authoring bias is that **most episodes primarily deepen other characters**, even where Jordan participates.
+Across Episodes 02–18, the default authoring bias is that **most episodes primarily deepen other characters**, even where McCluster participates.
 
-A strong recurring character should be capable of carrying an episode in which Jordan never enters the room.
+A strong recurring character should be capable of carrying an episode in which McCluster never enters the room.
 
-Global Episode 01 / High Alert is a deliberate exception because it opens inside the future succession conflict and therefore foregrounds **PRIM2, Jordan and Royce**.
+Global Episode 01 / High Alert is a deliberate exception because it opens inside the future succession conflict and therefore foregrounds **PRIM2, McCluster and Royce**.
 
 ---
 
@@ -107,7 +107,7 @@ It shows **how the operation is supposed to work under the team's current model*
 
 > **The briefing teaches the model. The mission attacks the model.**
 
-A song does not automatically belong emotionally to Jordan. Its performer, episode owner, mission lead and playable focus can be different characters when the story benefits.
+A song does not automatically belong emotionally to McCluster. Its performer, episode owner, mission lead and playable focus can be different characters when the story benefits.
 
 ---
 
@@ -249,7 +249,7 @@ Combat cannot substitute for the technical objective.
 - PLAY may center whichever operator/role is mechanically appropriate.
 - Mission lead, emotional owner and playable POV may differ.
 
-Jordan's Wildcard role allows him to cross lanes **when he is present**. It does not require the player to control Jordan, nor does it erase specialists.
+McCluster's Wildcard role allows him to cross lanes **when he is present**. It does not require the player to control McCluster, nor does it erase specialists.
 
 ---
 
@@ -265,7 +265,7 @@ Root/executive truth is:
 
 Early episodes may naturally use the visible program meaning without revealing the hidden one.
 
-The current hidden holder is **PRIM2**. Jordan becomes **PRIM3** only after succession.
+The current hidden holder is **PRIM2**. McCluster becomes **PRIM3** only after succession.
 
 Do not casually expose the numbering truth early.
 
@@ -277,7 +277,7 @@ Do not casually expose the numbering truth early.
 INCITING EVENT
 EPISODE OWNER
 SECONDARY OWNER(S)
-JORDAN PRESENCE A/B/C/D/E/F
+MCCLUSTER PRESENCE A/B/C/D/E/F
 HUMAN STAKE
 WHY NOW
 WHY PRIM / MCCLUSTER

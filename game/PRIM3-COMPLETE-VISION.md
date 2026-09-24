@@ -21,7 +21,7 @@ XCOM supplies useful tactical bones. PRIM3 adds persistent human relationships, 
 | Browser-native target | Watch/play without a launcher barrier where practical |
 | Graded truth | Partial accomplishment counts; not every imperfection becomes MISSION FAILED |
 | Character preservation pressure | Named operators matter enough that rescue decisions hurt |
-| Intervention escalation | Squad -> Jordan Wildcard -> rare PRIM2 Apex; opposing side can answer with Royce |
+| Intervention escalation | Squad -> McCluster Wildcard -> rare PRIM2 Apex; opposing side can answer with Royce |
 | Institutional world | McCluster / PRIM / Hitman / Mantle continuity rather than alien-war cosplay |
 
 One-line fantasy:
@@ -42,7 +42,7 @@ This supersedes the obsolete 8–13-episode season concept.
 
 Optional side operations may exist in PLAY for roster development, Heat, Standing, Intel, recovery and replayability. They are not additional canonical television episodes and do not overwrite the fixed 21-episode spine.
 
-Jordan's seven academic years remain the chronological frame, but episode ownership rotates. Most Episodes 02–18 should primarily deepen somebody other than Jordan even when he appears.
+McCluster's seven academic years remain the chronological frame, but episode ownership rotates. Most Episodes 02–18 should primarily deepen somebody other than McCluster even when he appears.
 
 See `story/ENSEMBLE-POV-AUTHORITY.md`.
 
@@ -58,9 +58,9 @@ WATCH gives the authored story outcome. It may shift cinematic POV between chara
 
 PLAY enters the **current PRIM mission-control perspective**. The player controls whoever is actually assigned to the mission.
 
-The player does **not** automatically become Jordan/PRIM3.
+The player does **not** automatically become McCluster/PRIM3.
 
-Most ordinary missions should launch without Jordan.
+Most ordinary missions should launch without McCluster.
 
 ## Hybrid episode grammar
 
@@ -136,19 +136,19 @@ It is also:
 
 ## Stage 0 — assigned team
 
-Normal mission play belongs to the ensemble. Competent play must be capable of succeeding without Jordan.
+Normal mission play belongs to the ensemble. Competent play must be capable of succeeding without McCluster.
 
-## Stage 1 — Jordan Vale / Wildcard
+## Stage 1 — McCluster / Wildcard
 
-Most missions do not deploy Jordan from launch.
+Most missions do not deploy McCluster from launch.
 
 If an eligible mission reaches `CRITICAL`, the player may request the Wildcard through the executive chain.
 
 Canonical Standard pool:
 
-> **2 non-scripted Jordan call-ups per season.**
+> **2 non-scripted McCluster call-ups per season.**
 
-Jordan does not teleport and does not auto-complete the technical objective. His job is to restore optionality when the intended plan has failed.
+McCluster does not teleport and does not auto-complete the technical objective. His job is to restore optionality when the intended plan has failed.
 
 His mechanical identity is:
 
@@ -165,7 +165,7 @@ Calling him can save a mission or a character, but the intervention remains reco
 
 ## Stage 2 — PRIM2 / Apex
 
-On designated Critical/State/Strategic missions, if Jordan is already present and the mission still remains or re-enters `CRITICAL`, the player can become eligible to request the presiding Mantle holder.
+On designated Critical/State/Strategic missions, if McCluster is already present and the mission still remains or re-enters `CRITICAL`, the player can become eligible to request the presiding Mantle holder.
 
 Canonical Standard pool:
 
@@ -173,10 +173,10 @@ Canonical Standard pool:
 
 Before the story has openly named him, the UI may present this as `EXECUTIVE OVERRIDE` or `APEX SUPPORT`.
 
-PRIM2 is not Jordan-but-better.
+PRIM2 is not McCluster-but-better.
 
 ```text
-JORDAN -> finds another path
+MCCLUSTER -> finds another path
 PRIM2  -> sees/authorizes more of the board
 ```
 
@@ -202,7 +202,7 @@ Canonical Standard cap:
 Royce's gameplay identity is asymmetric:
 
 ```text
-JORDAN -> optionality / improvisation
+MCCLUSTER -> optionality / improvisation
 PRIM2  -> information / sovereign authority
 ROYCE  -> violent disruption / pressure / hostile command
 ```
@@ -219,7 +219,7 @@ The more attached players become to the ensemble, the scarier a Royce incursion 
 
 The intervention mechanic is not a revive token.
 
-Jordan and PRIM2 act on the battlefield **as it currently exists**.
+McCluster and PRIM2 act on the battlefield **as it currently exists**.
 
 They cannot:
 - resurrect a dead operator;
@@ -240,11 +240,11 @@ They can:
 
 The ideal player moment is:
 
-> **Fuck the perfect grade. Call Jordan. Get them home.**
+> **Fuck the perfect grade. Call McCluster. Get them home.**
 
 And only a few times in the entire campaign:
 
-> **Jordan is already there. This is still collapsing. Call PRIM2.**
+> **McCluster is already there. This is still collapsing. Call PRIM2.**
 
 Then sometimes Hitman answers with Royce and the mission becomes something entirely different.
 
@@ -263,13 +263,13 @@ Campaign PLAY tracks:
 | Intel | Mission modifiers and hostile warning quality |
 | Episode calendar | Canon story missions |
 | Side ops | Optional non-episode tactical work |
-| Wildcard Authorizations | Jordan rescue scarcity |
+| Wildcard Authorizations | McCluster rescue scarcity |
 | Apex Authorizations | PRIM2 campaign-wide scarcity |
 | Executive Attention / PRIM Debt | Consequence of repeatedly needing apex help |
 | Hitman Pressure | Hostile escalation state |
 | Royce Cooldown / Incursions | Persistent rival pressure |
 
-Budget cannot simply buy Jordan or PRIM2.
+Budget cannot simply buy McCluster or PRIM2.
 
 ---
 
@@ -304,7 +304,7 @@ Cohort-02 Trainee
 
 Remove/ignore any old progression suggesting that a sufficiently leveled generic character becomes `Prime-N1` or Prime.
 
-`PRIM0`, `PRIM1`, `PRIM2`, `PRIM3` are Mantle succession identities. Jordan becoming PRIM3 is a locked narrative endgame, not a skill-tree reward.
+`PRIM0`, `PRIM1`, `PRIM2`, `PRIM3` are Mantle succession identities. McCluster becoming PRIM3 is a locked narrative endgame, not a skill-tree reward.
 
 ---
 
@@ -326,7 +326,7 @@ All PLAY clients preserve the same outcome channels and escalation identities ev
 1. Ensemble episode format + graded debrief system.
 2. One playable mission with named R/E/T characters and no binary-fail cliff.
 3. `STABLE / DEGRADED / CRITICAL / TERMINAL` mission state.
-4. Jordan Wildcard request, delay, arrival and aftermath write.
+4. McCluster Wildcard request, delay, arrival and aftermath write.
 5. Royce Incursion implementation.
 6. PRIM2 Apex intervention and hidden/explicit executive UI states.
 7. Operations board with persistent roster/injuries.
@@ -338,10 +338,10 @@ All PLAY clients preserve the same outcome channels and escalation identities ev
 
 # 13. Success test
 
-PRIM3 succeeds mechanically when a player has a favorite character who is **not Jordan**, gets that character into a catastrophic mission, considers preserving their last intervention charge for later, and finally decides the person matters more than the resource.
+PRIM3 succeeds mechanically when a player has a favorite character who is **not McCluster**, gets that character into a catastrophic mission, considers preserving their last intervention charge for later, and finally decides the person matters more than the resource.
 
-It succeeds narratively when Jordan arrives and feels exciting without making the episode suddenly become his story.
+It succeeds narratively when McCluster arrives and feels exciting without making the episode suddenly become his story.
 
-It succeeds at its highest escalation when the player has already called Jordan, the board is still collapsing, `APEX SUPPORT AVAILABLE` appears for the first time, and they realize:
+It succeeds at its highest escalation when the player has already called McCluster, the board is still collapsing, `APEX SUPPORT AVAILABLE` appears for the first time, and they realize:
 
 > **There is somebody above the Wildcard.**

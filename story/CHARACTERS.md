@@ -20,28 +20,28 @@ Primary authorities:
 
 ## Ensemble law
 
-Jordan Vale is a central spine character and eventual PRIM3, but **he is not the sole protagonist of every episode**.
+McCluster is a central spine character and eventual PRIM3, but **he is not the sole protagonist of every episode**.
 
-Episode ownership rotates across the multinational cast. Jordan may be primary, shared, supporting, cameo, mentioned-only or absent.
+Episode ownership rotates across the multinational cast. McCluster may be primary, shared, supporting, cameo, mentioned-only or absent.
 
-> **The succession belongs to Jordan. The world belongs to everybody.**
+> **The succession belongs to McCluster. The world belongs to everybody.**
 
 ## Apex / succession
 
 | Character | Function | Core engine |
 |---|---|---|
-| **PRIM2** | Presiding Primary Root Identity Mantle holder; hidden apex over PRIM/McCluster and Hitman; Jordan's predecessor | Believes coherence may justify extraordinary centralized human authority; seeks a worthy successor but must genuinely resist succession. |
-| **Jordan Vale** | U.S.; age-33 student / Wildcard -> eventual **PRIM3** | Seeks legitimacy and stability while repeatedly taking unowned jobs; must learn that capability does not grant authority over everybody else's choices. |
-| **Royce** | Hitman successor / sovereign; Jordan's old rival | Wants power and control more directly than Jordan; carries the succession Jordan refused and returns as the surviving Hitman-side challenger in RAID. |
+| **PRIM2** | Presiding Primary Root Identity Mantle holder; hidden apex over PRIM/McCluster and Hitman; McCluster's predecessor | Believes coherence may justify extraordinary centralized human authority; seeks a worthy successor but must genuinely resist succession. |
+| **McCluster** | U.S.; age-33 student / Wildcard -> eventual **PRIM3** | Seeks legitimacy and stability while repeatedly taking unowned jobs; must learn that capability does not grant authority over everybody else's choices. |
+| **Royce** | Hitman successor / sovereign; McCluster's old rival | Wants power and control more directly than McCluster; carries the succession McCluster refused and returns as the surviving Hitman-side challenger in RAID. |
 
 `Prime`, spoken aloud, may refer colloquially to the current PRIM holder. `Prime-00`, `Prime Negative One` and similar older labels are deprecated where they conflict with current succession canon.
 
-## PRIM / McCluster — 24 multinational mains
+## Equity Uprise / McCluster Corp — 24 multinational mains
 
 | # | Character | Nation | Primary lane | Personal engine |
 |---|---|---|---|---|
-| 1 | **Jordan Vale** | United States | Wildcard / Flex | Cross-lane competence, initiative, legitimacy hunger, overextension risk. |
-| 2 | **Aya Shinoda** | Japan | Field-T | Precision engineer whose care becomes responsibility and can become control; secretly entered McCluster to investigate Hana's death. |
+| 1 | **McCluster** | United States | Wildcard / Flex | Cross-lane competence, initiative, legitimacy hunger, overextension risk. |
+| 2 | **Aya Shinoda** | Japan | Field-T | Precision engineer whose care becomes responsibility and can become control; secretly entered Equity Uprise to investigate Hana's death. |
 | 3 | **Arjun Mehta** | India | Field-E | Safety/entry operator who carries mistakes longer than anyone sees. |
 | 4 | **Li Wei** | China | Authority / governance | Wants accountability inside compartmentalized systems. |
 | 5 | **Sari Wulandari** | Indonesia | Cohort-01 | Telecom survivor balancing family obligation, humor and institutional ownership. |
@@ -52,7 +52,7 @@ Episode ownership rotates across the multinational cast. Jordan may be primary, 
 | 10 | **Dmitri Volkov** | Russia | Defense-01 | Older infrastructure professional building personal duty beyond national identity. |
 | 11 | **Oksana Bondarenko** | Ukraine | Field-R / intelligence | Reconstructs truth from incomplete records and rejects premature certainty. |
 | 12 | **Yonas Bekele** | Ethiopia | Cohort-01 | Calm restoration operator who fears being useful only when everything is broken. |
-| 13 | **Valeria Soto** | Mexico | Cohort-02 | Fast-rising younger operator who sees Jordan as both mentor and warning. |
+| 13 | **Valeria Soto** | Mexico | Cohort-02 | Fast-rising younger operator who sees McCluster as both mentor and warning. |
 | 14 | **Amira Hassan** | Egypt | Mission Sponsor | Wants real ethical braking authority, not merely the right to object. |
 | 15 | **Miguel Santos** | Philippines | Defense-02 | Makes security humane without making it weak. |
 | 16 | **Grace Mbala** | DR Congo | Cohort support | Keeps civilian names attached to decisions executives prefer to summarize. |
@@ -69,7 +69,7 @@ These characters are **canon**, not merely proposed names.
 
 ## Aya's immediate surrounding web
 
-The Aya cluster is now independently developed and should be treated as story-capable even without Jordan:
+The Aya cluster is now independently developed and should be treated as story-capable even without McCluster:
 
 - **Ren Shinoda** — Japan; Aya's younger brother; transfemoral amputee, technical worker, later safety-validation / simulation specialist; bodily-autonomy counterweight to Aya.
 - **Masato Shinoda** — Japan; father; maintenance/tooling technician; teaches Aya anticipatory care.
@@ -91,16 +91,16 @@ See:
 
 | Character | Function | Engine |
 |---|---|---|
-| **Maren Quill** | McCluster public communications surface | Wants communication to create accountability; fears her real function is emotional containment. |
+| **Maren Quill** | Equity Uprise public communications surface | Wants communication to create accountability; fears her real function is emotional containment. |
 | **Pylon** | System-01 building/automation platform | Persistent nonhuman presence whose behavior blurs infrastructure, interface and extension of PRIM2. |
 
 ## Contemporary Hitman core
 
-**Benji is not a separate contemporary person. Benji is Jordan Vale's age-19-to-26 Hitman identity.**
+**Benji is not a separate contemporary person. Benji is McCluster's age-19-to-26 Hitman identity.**
 
 Current Hitman-side characters:
 
-- **Royce** — sovereign/successor; seven years younger than Jordan; inherited the opportunity Jordan refused.
+- **Royce** — sovereign/successor; seven years younger than McCluster; inherited the opportunity McCluster refused.
 - **Sable Quinn** — operations / money.
 - **Grant Voss** — respectable-money sponsor.
 - **Tone Rivera** — block/control operator.
@@ -125,15 +125,15 @@ They are not mandatory exposition. They exist to ensure every major person has g
 
 | Relationship | What keeps it dramatic |
 |---|---|
-| Jordan ↔ Aya | Love built from technical respect; improvisation vs control; both overreach in the name of protection. |
+| McCluster ↔ Aya | Love built from technical respect; improvisation vs control; both overreach in the name of protection. |
 | Aya ↔ Hana | Genuine friendship/mentorship later reinterpreted through hidden intelligence truth and Kkeutori breadcrumbs. |
 | Aya ↔ Ren | Care versus bodily autonomy; Project REN proves both Aya's brilliance and her capacity to over-manage. |
-| Aya ↔ Tariq | Disagreement without abandonment; a pre-McCluster identity anchor. |
+| Aya ↔ Tariq | Disagreement without abandonment; a pre-Equity Uprise identity anchor. |
 | Aya ↔ Zayd | Love can become supervision even without betrayal. |
 | PRIM2 ↔ Hana | Hidden intellectual adversaries; only PRIM2 knows he is using Hana as an adversarial red team. |
 | PRIM2 ↔ Aya | He lets a skeptic improve the visible institution until absence of proof feels like proof of innocence. |
-| PRIM2 ↔ Jordan | Longitudinal evaluator versus candidate who must ultimately challenge centralized control. |
-| Jordan ↔ Royce | Deep pre-PRIM3 rivalry/history; Royce receives the Hitman succession Jordan refused. |
+| PRIM2 ↔ McCluster | Longitudinal evaluator versus candidate who must ultimately challenge centralized control. |
+| McCluster ↔ Royce | Deep pre-PRIM3 rivalry/history; Royce receives the Hitman succession McCluster refused. |
 | Chioma ↔ Thandiwe | Two credible models of leadership competing over what deserves to survive after PRIM2. |
 | Dmitri ↔ Oksana | Operational trust that cannot erase historical/geopolitical context. |
 | Li ↔ Leila | Governance and security skepticism sharpening one another. |
@@ -147,6 +147,6 @@ Every recurring character must have **competence, desire, fear, contradiction, f
 
 For a major character, use the stronger test:
 
-> **Could this person carry an episode in which Jordan never enters the room?**
+> **Could this person carry an episode in which McCluster never enters the room?**
 
 If not, the character is not deep enough yet.

@@ -37,9 +37,9 @@ MIGUEL SANTOS — physical control / protection / coordination
 AYA SHINODA — technical characterization / validation
 ```
 
-Jordan is not playable and cannot be called as Wildcard in this mission.
+McCluster is not playable and cannot be called as Wildcard in this mission.
 
-This is intentional. Episode 2 must teach the player that PRIM3 is an ensemble before the game teaches the Jordan rescue fantasy.
+This is intentional. Episode 2 must teach the player that PRIM3 is an ensemble before the game teaches the McCluster rescue fantasy.
 
 ---
 
@@ -366,7 +366,7 @@ Examples:
 - Nusrat asks Aya to state confidence, not certainty.
 - Miguel reminds both that facility staff are listening to how they talk about people whose systems are under investigation.
 
-Jordan should not remotely solve the mission.
+McCluster should not remotely solve the mission.
 
 His episode development already happened in Act I by accepting the boundary.
 
@@ -406,7 +406,7 @@ The player needs to first believe:
 
 > **These people can carry a mission.**
 
-Only later does the game earn the fantasy of calling Jordan because the mission has become extraordinary.
+Only later does the game earn the fantasy of calling McCluster because the mission has become extraordinary.
 
 ---
 

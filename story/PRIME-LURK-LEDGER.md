@@ -52,10 +52,10 @@ Kkeutori establishes an important limit: PRIM2 can possess data without possessi
 
 | Global ep | Episode | PRIM2 / root trace | First-watch explanation | Status |
 |---:|---|---|---|---|
-| 20 | Evil Twin | PRIM2 openly explains portions of the dual-board architecture after physical defeat by Jordan and Royce. | Endgame confession. | LOCKED concept |
-| 19 | RAID (HOT SITE) | PRIM2 observes/resists Jordan's PRIM-side assault and Royce's Hitman-side assault through Site 0's distributed command environment. | Expected defensive awareness. | LOCKED concept |
+| 20 | Evil Twin | PRIM2 openly explains portions of the dual-board architecture after physical defeat by McCluster and Royce. | Endgame confession. | LOCKED concept |
+| 19 | RAID (HOT SITE) | PRIM2 observes/resists McCluster's PRIM-side assault and Royce's Hitman-side assault through Site 0's distributed command environment. | Expected defensive awareness. | LOCKED concept |
 | 18 | Song #21 | OPEN. | OPEN. | WAIT FOR SONG |
-| 17 | Patch Work | Prefer evidence that Aya/Jordan/Helen discover a trust or tasking inconsistency whose ultimate authority cannot be explained by visible governance. **Do not use the old `MENTOR / OBSERVE JORDAN / P-00` tasking as locked canon.** | Legacy/central administrative inconsistency. | NEEDS EPISODE REWRITE |
+| 17 | Patch Work | Prefer evidence that Aya/McCluster/Helen discover a trust or tasking inconsistency whose ultimate authority cannot be explained by visible governance. **Do not use the old `MENTOR / OBSERVE MCCLUSTER / P-00` tasking as locked canon.** | Legacy/central administrative inconsistency. | NEEDS EPISODE REWRITE |
 | 16 | Per Diem | A high-level compensation/continuity exception may reveal that somebody outside the visible approval tree protects certain families/operators while classifying others instrumentally. | Remote HR/finance authority. | PROPOSED |
 | 15 | Trappin From The Cloud | Two separated organizational lanes receive suspiciously compatible resources or priorities without seeing the shared source. If Hitman-side material appears, use **Royce's people**, never a separate contemporary Benji. | Global logistics coincidence. | PROPOSED |
 | 14 | CapEx vs OpEx | Expensive resilience spending has an unexplained approval path above visible finance governance. | Executive contingency. | PROPOSED |
@@ -69,7 +69,7 @@ Kkeutori establishes an important limit: PRIM2 can possess data without possessi
 | 06 | Got Wifi | An off-site supervisory view can see both service state and a human consequence local teams initially treat separately. | Incident command. | PROPOSED |
 | 05 | Red Blue Purple White Team | Senior review resists a recommendation to split a team, but no physical PRIM2 cameo is needed. | Workforce review. | PROPOSED |
 | 04 | Anti Social Engineering | Rae/Sora lanes can unknowingly intersect under separated sponsorship. A literal PRIM2 reflection is optional, not required. | Busy-event coincidence / separate contracts. | PROPOSED |
-| 03 | OSINT | PRIM2 may review an evidence product downstream without physically walking behind Jordan at a library. **Physical campus cameo is no longer required.** | Ordinary senior review. | REWRITE OLD DRAFT |
+| 03 | OSINT | PRIM2 may review an evidence product downstream without physically walking behind McCluster at a library. **Physical campus cameo is no longer required.** | Ordinary senior review. | REWRITE OLD DRAFT |
 | 02 | White Grey Black Hat | An access escalation preserves the incident rather than quietly discarding it. | Senior security review. | REWRITE OLD DRAFT |
 | 01 | High Alert | PRIM2 is openly the performer/defender in the chronologically future RAID sequence. | Future endgame spectacle. | LOCKED |
 
@@ -79,7 +79,7 @@ Kkeutori establishes an important limit: PRIM2 can possess data without possessi
 
 When an episode belongs to Aya, Chioma, Royce, Amira, Marc, Jonas, Pylon, Thandiwe or another main:
 
-- do not insert Jordan solely to carry the PRIM2 trace;
+- do not insert McCluster solely to carry the PRIM2 trace;
 - do not insert PRIM2 physically solely to preserve the ledger;
 - allow the trace to intersect **that episode owner's** institutions, decisions and relationships;
 - or allow no detectable trace until later reconstruction.

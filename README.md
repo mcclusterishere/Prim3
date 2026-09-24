@@ -2,16 +2,16 @@
 
 **PRIM3** is a seven-season adult ensemble techno-thriller / infotainment universe built around technology, relationships, missions and a hidden succession system.
 
-The chronology is framed by Jordan Vale returning to college at 33, but **Jordan is not the owner of every episode**. PRIM3 is an ensemble story: Aya, Chioma, Royce, Amira, Marc, Helen, Thandiwe, Jonas, Pylon and the rest of the multinational cast can own complete episodes, and Jordan may appear as support, cameo, mention-only or not at all.
+The chronology is framed by McCluster returning to college at 33, but **McCluster is not the owner of every episode**. PRIM3 is an ensemble story: Aya, Chioma, Royce, Amira, Marc, Helen, Thandiwe, Jonas, Pylon and the rest of the multinational cast can own complete episodes, and McCluster may appear as support, cameo, mention-only or not at all.
 
 The title has two in-world meanings:
 
 - **lower-clearance cover:** `Program for Resilient Infrastructure Management`
 - **root/executive truth:** `Primary Root Identity Mantle`
 
-The number is secretly a human succession index. The presiding hidden leader during the series is **PRIM2**. Jordan eventually becomes **PRIM3**. The series title therefore names both the visible program world and the succession destination the audience does not understand at first.
+The number is secretly a human succession index. The presiding hidden leader during the series is **PRIM2**. McCluster eventually becomes **PRIM3**. The series title therefore names both the visible program world and the succession destination the audience does not understand at first.
 
-The story opens in the middle of the final RAID: **PRIM2** performs **High Alert** from Site 0 while Jordan and Royce's separate assault elements close in. Before the outcome is revealed, the story rewinds seven academic years.
+The story opens in the middle of the final RAID: **PRIM2** performs **High Alert** from Site 0 while McCluster and Royce's separate assault elements close in. Before the outcome is revealed, the story rewinds seven academic years.
 
 ## Core promise
 
@@ -19,7 +19,7 @@ The story opens in the middle of the final RAID: **PRIM2** performs **High Alert
 - Three episodes per season; 21 total.
 - One song = one episode = one mission.
 - Rotating episode ownership across a multinational ensemble.
-- Adult coming-of-age for many characters, not only Jordan.
+- Adult coming-of-age for many characters, not only McCluster.
 - Character-driven serialized drama where meaningful characters can die and relationship state persists.
 - Real information-technology / infrastructure concepts taught through story problems.
 - WATCH and PLAY are two interfaces to the same canonical event.
@@ -31,7 +31,7 @@ The story opens in the middle of the final RAID: **PRIM2** performs **High Alert
 PRIM0 — founding Mantle holder
 PRIM1 — first successor
 PRIM2 — presiding holder during the main series
-PRIM3 — Jordan Vale after final succession
+PRIM3 — McCluster after final succession
 ```
 
 `Prime`, spoken aloud, is acceptable colloquial language for a PRIM holder. Older `Prime-00`, `Prime-0`, `Prime Negative One` and similar labels are deprecated continuity terms where they conflict with the succession authority.
@@ -51,7 +51,7 @@ The immediate PRIM-era cast is governed by:
 
 Canonical ensemble shorthand:
 
-> **The succession belongs to Jordan. The world belongs to everybody.**
+> **The succession belongs to McCluster. The world belongs to everybody.**
 
 ## Aya / Hana current canon
 

@@ -18,14 +18,14 @@ branch: main
 ```text
 PRIMARY OWNERS: Amira Hassan / Marc Dubois
 SECONDARY DEPTH: Helen Clarke / Priya Srisawat / Maren Quill / Li Wei / Grace Mbala / Grant Voss
-JORDAN: absent / locked out of solving the core problem
+MCCLUSTER: absent / locked out of solving the core problem
 BASE PLAYABLE POV: planning/governance/resource allocation team
-WILDCARD: unavailable — this episode must prove some problems cannot be solved by calling Jordan
+WILDCARD: unavailable — this episode must prove some problems cannot be solved by calling McCluster
 APEX: unavailable in canonical WATCH
 ROYCE: unavailable
 ```
 
-This supersedes the old Jordan/Aya ownership and keeps the cost/control/flexibility mechanics.
+This supersedes the old McCluster/Aya ownership and keeps the cost/control/flexibility mechanics.
 
 ---
 
@@ -56,7 +56,7 @@ Helen sees a governance system asking humans to repeatedly solve a structural pr
 Priya/Maren hear language laundering moral weight.
 Grace names who inherits the burden after the meeting ends.
 
-Jordan cannot “another path” his way out of the fact that every option has somebody paying for it.
+McCluster cannot “another path” his way out of the fact that every option has somebody paying for it.
 
 ---
 
@@ -118,3 +118,12 @@ No Wildcard rescue. The player must live with constrained options and justify tr
 # Governing line
 
 > **Ownership is not automatically virtue. But surrendering control without naming the exit is not flexibility either.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F5 policy/proof; F6 executive command.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

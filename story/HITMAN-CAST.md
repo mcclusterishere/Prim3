@@ -13,36 +13,36 @@ These characters should never read like PRIM/McCluster employees wearing differe
 
 ## Continuity correction — Benji
 
-**Benji is Jordan Vale.**
+**Benji is McCluster.**
 
-Benji is Jordan's age-19-to-26 Hitman identity from the prequel chronology. There is no separate contemporary Benji rising through Hitman during PRIM3.
+Benji is McCluster's age-19-to-26 Hitman identity from the prequel chronology. There is no separate contemporary Benji rising through Hitman during PRIM3.
 
 At approximately age 26:
 - Bigga Lex the Jet retires;
-- Lex offers succession to Benji/Jordan;
-- Jordan refuses;
-- Jordan passes the opportunity toward rival **Royce**;
+- Lex offers succession to Benji/McCluster;
+- McCluster refuses;
+- McCluster passes the opportunity toward rival **Royce**;
 - Royce becomes the post-Benji Hitman-side successor/sovereign.
 
-Therefore any older Hitman material describing `Benji` as a separate present-day operator, claiming Jordan and Royce lack personal history, or claiming their first conversation occurs in `Evil Twin` is superseded.
+Therefore any older Hitman material describing `Benji` as a separate present-day operator, claiming McCluster and Royce lack personal history, or claiming their first conversation occurs in `Evil Twin` is superseded.
 
 ---
 
 ## Royce — Hitman successor / sovereign
 
-**Background:** Royce is seven years younger than Jordan. When Jordan/Benji is approximately 26 and walking away from Hitman, Royce is approximately 19: young, dangerous, ambitious and willing to take a chair Jordan does not want.
+**Background:** Royce is seven years younger than McCluster. When McCluster/Benji is approximately 26 and walking away from Hitman, Royce is approximately 19: young, dangerous, ambitious and willing to take a chair McCluster does not want.
 
-Jordan already knows Royce well enough to believe Royce might kill him for power. Jordan nevertheless refuses the succession and allows the opportunity to move toward Royce partly because Jordan's deeper loyalty is to Bigga Lex rather than the organization itself.
+McCluster already knows Royce well enough to believe Royce might kill him for power. McCluster nevertheless refuses the succession and allows the opportunity to move toward Royce partly because McCluster's deeper loyalty is to Bigga Lex rather than the organization itself.
 
-That choice becomes one of Jordan's moral debts.
+That choice becomes one of McCluster's moral debts.
 
 **Wants:** authority he can feel and exercise directly; recognition that he took seriously what older men were willing to abandon.  
 **Fears:** being treated forever as the kid who received somebody else's discarded crown.  
 **Contradiction:** wants to prove he earned the chair while building much of his identity around possessing it.  
-**Relationship to Jordan:** old rival, inherited-successor relationship, unresolved mutual contempt/respect. Royce is a living counterfactual of the path Jordan refused.  
-**PRIM3 endpoint:** survives the Hitman-side RAID element, nearly kills Jordan, temporarily allies with him against PRIM2, and helps defeat the presiding Mantle holder.
+**Relationship to McCluster:** old rival, inherited-successor relationship, unresolved mutual contempt/respect. Royce is a living counterfactual of the path McCluster refused.  
+**PRIM3 endpoint:** survives the Hitman-side RAID element, nearly kills McCluster, temporarily allies with him against PRIM2, and helps defeat the presiding Mantle holder.
 
-Royce must have enough independent story that he can own Hitman-side episodes without Jordan appearing.
+Royce must have enough independent story that he can own Hitman-side episodes without McCluster appearing.
 
 ---
 
@@ -54,7 +54,7 @@ Royce must have enough independent story that he can own Hitman-side episodes wi
 **Fears:** betting her life's work on a sovereign who mistakes fear for loyalty.  
 **Contradiction:** outwardly transactional, privately more loyal than she wants anyone to know.  
 **Relationship to Royce:** indispensable but never worshipful. She understands that Royce's appetite for authority can make him both decisive and financially irrational.  
-**Historical Jordan layer:** Sable knows the chair did not originate with Royce and possesses fragments of the old Benji-era financial history, but she is not automatically a full keeper of Jordan's secrets.
+**Historical McCluster layer:** Sable knows the chair did not originate with Royce and possesses fragments of the old Benji-era financial history, but she is not automatically a full keeper of McCluster's secrets.
 
 ---
 
@@ -143,7 +143,7 @@ Royce must have enough independent story that he can own Hitman-side episodes wi
 **Fears:** discovering he has spent years becoming whatever the room required and no longer knows what he wanted.  
 **Contradiction:** tactically flexible, personally stubborn in loyalty.  
 **Relationship to Royce:** admires decisive leadership but becomes increasingly uncomfortable when loyalty is treated as ownership.  
-**Historical Benji echo:** older Hitman stories about Benji/Jordan can become mythology Dez hears without knowing the entire person behind them.
+**Historical Benji echo:** older Hitman stories about Benji/McCluster can become mythology Dez hears without knowing the entire person behind them.
 
 ---
 
@@ -182,7 +182,7 @@ Maren is primarily a McCluster/PRIM-side recurring character rather than a Hitma
 
 # Relationship pressure map
 
-- **Jordan/Benji ↔ Royce:** real pre-PRIM3 rivalry and succession history; Jordan refuses the chair Royce takes; they later converge again at Site 0.
+- **McCluster/Benji ↔ Royce:** real pre-PRIM3 rivalry and succession history; McCluster refuses the chair Royce takes; they later converge again at Site 0.
 - **Royce ↔ Sable:** authority versus organizational reality; Sable can tell Royce what his mythology cannot afford.
 - **Royce ↔ Mina:** sovereign authority versus cell-level responsibility to living people.
 - **Royce ↔ Dez:** tests whether loyalty can remain voluntary under a leader hungry for control.
@@ -192,9 +192,9 @@ Maren is primarily a McCluster/PRIM-side recurring character rather than a Hitma
 
 # Episode-ownership rule
 
-Hitman characters can own full PRIM3 episodes or substantial sections without Jordan appearing.
+Hitman characters can own full PRIM3 episodes or substantial sections without McCluster appearing.
 
-Royce especially must become understandable as a person before the audience reaches RAID. His history with Jordan should arrive in controlled fragments so the later Hitman/Benji prequel still retains major revelations.
+Royce especially must become understandable as a person before the audience reaches RAID. His history with McCluster should arrive in controlled fragments so the later Hitman/Benji prequel still retains major revelations.
 
 # Writing rule
 

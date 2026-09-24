@@ -10,9 +10,9 @@ branch: main
 
 ## Naming correction
 
-This filename is retained for compatibility. In current story canon, Jordan does not become a generic `Prime-N1` rank.
+This filename is retained for compatibility. In current story canon, McCluster does not become a generic `Prime-N1` rank.
 
-Jordan's endgame identity is **PRIM3**, the next holder of the **Primary Root Identity Mantle** after PRIM2.
+McCluster's endgame identity is **PRIM3**, the next holder of the **Primary Root Identity Mantle** after PRIM2.
 
 `Prime` may still appear in older product/UI language or as an audience-facing shorthand where deliberately retained, but it must not overwrite the locked `PRIM0 -> PRIM1 -> PRIM2 -> PRIM3` succession model.
 
@@ -68,7 +68,7 @@ Product design should favor legitimate infrastructure, mobility, environmental, 
 
 PRIM2's power came partly from fusing information across compartments with insufficient accountability.
 
-Jordan's PRIM3 succession asks whether the same capability can be governed differently: auditable, bounded and human-owned rather than privately absolute.
+McCluster's PRIM3 succession asks whether the same capability can be governed differently: auditable, bounded and human-owned rather than privately absolute.
 
 The companion should therefore expose:
 - data provenance;
@@ -83,7 +83,7 @@ The companion should therefore expose:
 
 Wildcard/Apex intervention use does **not** itself unlock this entitlement.
 
-Calling Jordan or PRIM2 during the campaign is part of tactical play. The post-game entitlement is tied to the actual succession/completion/mastery condition.
+Calling McCluster or PRIM2 during the campaign is part of tactical play. The post-game entitlement is tied to the actual succession/completion/mastery condition.
 
 This distinction matters because PRIM2 appearing as a rescue unit must not imply that the player has already inherited the Mantle.
 

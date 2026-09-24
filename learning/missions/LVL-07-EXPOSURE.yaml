@@ -90,7 +90,7 @@ mission:
       writes_state: [breach_scope_confidence]
     - objective_id: OBJ-S1-EVIDENCE
       type: secondary
-      description: Preserve high-value logs and Jordan's pre-recruitment dossier without response-driven privacy leakage.
+      description: Preserve high-value logs and McCluster's pre-recruitment dossier without response-driven privacy leakage.
       weight: 0.15
       completion_predicate: evidence_integrity == 3 and dossier_custody == SEALED
       partial_predicate: evidence_integrity >= 1

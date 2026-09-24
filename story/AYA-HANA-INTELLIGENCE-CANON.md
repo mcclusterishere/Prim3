@@ -105,7 +105,7 @@ Hana's true target becomes proof that a **living human command identity** sits a
 
 She is approaching the existence of Presiding Prime / Prime-00.
 
-She has **not** yet reconstructed the entire later Jordan/Royce dual-board story, and she does not possess a complete map of Hitman. Her breakthrough is narrower and more dangerous: she is close to proving that McCluster's highest authority collapses onto a concealed human root.
+She has **not** yet reconstructed the entire later McCluster/Royce dual-board story, and she does not possess a complete map of Hitman. Her breakthrough is narrower and more dangerous: she is close to proving that McCluster's highest authority collapses onto a concealed human root.
 
 ---
 
@@ -312,7 +312,7 @@ To Aya:
 - Hana was her mentor;
 - Hana was her friend;
 - Hana believed in graceful failure and verifiable safety;
-- Hana joined McCluster because the work mattered;
+- Hana joined Equity Uprise because the work mattered, while her hidden assignment concerned the McCluster Corp system behind it;
 - Hana became increasingly uneasy about inconsistencies inside the organization;
 - Hana died after objecting to an unverifiable safety state;
 - and the official explanation feels too neat.
@@ -320,7 +320,7 @@ To Aya:
 Aya does **not** know:
 
 - Hana worked for the NIS;
-- Hana entered/continued inside McCluster with an intelligence mission;
+- Hana entered/continued inside Equity Uprise with an intelligence mission focused on the McCluster Corp architecture behind the visible institution;
 - Hana was trying to identify Prime;
 - Prime had already identified Hana;
 - Prime was using Hana as an adversarial test;
@@ -331,9 +331,9 @@ This ignorance is central to Aya's PRIM3 psychology.
 
 ---
 
-# 11. Why Aya joins McCluster — adversarial entry
+# 11. Why Aya joins Equity Uprise — adversarial entry
 
-Aya does not initially join McCluster because she trusts it.
+Aya does not initially join Equity Uprise because she trusts it.
 
 She joins because **she suspects it**.
 
@@ -373,7 +373,7 @@ He does not demand ideological loyalty.
 
 He does not constantly lie about obvious reality.
 
-Instead, Aya enters McCluster and discovers many things that are genuinely good.
+Instead, Aya enters Equity Uprise and discovers many things that are genuinely good.
 
 She finds:
 
@@ -408,7 +408,7 @@ Her original internal story was:
 
 But month after month she fails to locate the decisive evidence she expected.
 
-At the same time, she accumulates evidence that her work inside McCluster matters.
+At the same time, she accumulates evidence that her work inside Equity Uprise matters.
 
 That creates a psychological conflict:
 
@@ -466,11 +466,11 @@ That is exactly why the capture works.
 
 Aya does not become loyal because Prime convinces her that black is white.
 
-Aya becomes loyal because **the visible McCluster she experiences contains enough real good to make the hidden evil increasingly difficult for her to believe without evidence**.
+Aya becomes loyal because **the visible Equity Uprise institution she experiences contains enough real good to make the hidden evil increasingly difficult for her to believe without evidence**.
 
 The irony is severe:
 
-> **Aya joins McCluster to prove Hana was right to be afraid of it, then gradually uses the absence of evidence Prime has engineered as evidence that Hana's death was probably only a tragedy.**
+> **Aya joins Equity Uprise to determine whether Hana was right to fear the McCluster Corp system behind it, then gradually uses the absence of evidence Prime has engineered as evidence that Hana's death was probably only a tragedy.**
 
 ---
 
@@ -504,13 +504,13 @@ Sometimes the strongest loyalty can be produced by:
 - withholding only the evidence that would reveal the deepest layer;
 - and waiting for their own identity to become entangled with the system they meant to judge.
 
-This lesson becomes relevant to how Prime later handles Jordan.
+This lesson becomes relevant to how Prime later handles McCluster.
 
 ---
 
-# 15. What Aya believes about Hana by the time Jordan arrives
+# 15. What Aya believes about Hana by the time McCluster arrives
 
-By the time thirty-three-year-old Jordan enters PRIM3, Aya is thirty-one and has spent roughly two years inside McCluster.
+By the time thirty-three-year-old McCluster enters PRIM3, Aya is thirty-one and has spent roughly two years inside Equity Uprise.
 
 Her belief has evolved.
 
@@ -536,29 +536,29 @@ Prime knows she is wrong.
 
 ---
 
-# 16. Jordan destabilizes Aya's settled explanation
+# 16. McCluster destabilizes Aya's settled explanation
 
-Jordan is dangerous to Aya's institutional equilibrium because he notices systems from the outside-in.
+McCluster is dangerous to Aya's institutional equilibrium because he notices systems from the outside-in.
 
 Aya has spent two years learning the documented architecture, changing it from inside and building relationships with the people who operate it.
 
-Jordan enters with very little institutional reverence and repeatedly notices seams that Aya has learned to interpret as complexity rather than conspiracy.
+McCluster enters with very little institutional reverence and repeatedly notices seams that Aya has learned to interpret as complexity rather than conspiracy.
 
 At first this irritates her.
 
-Some of Jordan's suspicions really are wrong.
+Some of McCluster's suspicions really are wrong.
 
 Some of his shortcuts are reckless.
 
 Some of his pattern-matching is contaminated by his own history.
 
-But sometimes Jordan notices the exact class of contradiction Hana used to notice.
+But sometimes McCluster notices the exact class of contradiction Hana used to notice.
 
 That activates something Aya thought she had settled.
 
 Writer-level relationship function:
 
-> **Jordan does not simply teach Aya to distrust McCluster. He reopens a question Aya had emotionally survived by deciding it was closed.**
+> **McCluster does not simply teach Aya to distrust McCluster. He reopens a question Aya had emotionally survived by deciding it was closed.**
 
 This creates another reason their bond becomes dangerous to Prime.
 
@@ -581,7 +581,7 @@ Aya learns that:
 5. Prime learned from Hana's attempts to expose him.
 6. Hana reached the Living Root hypothesis.
 7. Prime withheld decisive safety information during GLASSHOUSE once Hana became too dangerous.
-8. Aya then entered McCluster to investigate.
+8. Aya then entered Equity Uprise to investigate the McCluster Corp system behind Hana's death.
 9. Prime knew why Aya entered.
 10. Prime allowed Aya's investigation to fail while giving her enough real influence to become attached to the institution.
 11. Aya eventually defended the organization whose hidden leader had exploited both Hana and Aya's grief.
@@ -693,7 +693,7 @@ Hana's arc:
 
 Aya's arc:
 
-> **She entered to prove the institution was sinister, improved it until it felt like home, failed to find the hidden evidence, and mistook that absence for proof that her suspicion had been grief.**
+> **She entered Equity Uprise to test whether the institution and the McCluster Corp system behind it were sinister, improved the visible institution until it felt like home, failed to find the hidden evidence, and mistook that absence for proof that her suspicion had been grief.**
 
 Prime's role:
 

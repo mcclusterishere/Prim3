@@ -129,7 +129,7 @@ All three ranges:
 
 1. Are noncanonical simulators for story purposes.
 2. Disable story consequences.
-3. Do not consume Jordan Wildcard, PRIM2 Apex or Royce story state.
+3. Do not consume McCluster Wildcard, PRIM2 Apex or Royce story state.
 4. Use the normal tactical resolver, cover model, combat model and LAB_NODE contracts.
 5. Use playable 3D characters in the final implementation.
 6. Preserve minimum required tools at every readiness level.

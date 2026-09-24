@@ -62,7 +62,7 @@ The holder number is a succession index:
 - PRIM0 — founding holder;
 - PRIM1 — first successor;
 - PRIM2 — presiding holder during the main series;
-- PRIM3 — Jordan Vale after succession.
+- PRIM3 — McCluster after succession.
 
 The public/cover program exists partly to make the acronym and its presence throughout infrastructure, documentation and organizational culture appear ordinary.
 
@@ -239,7 +239,7 @@ Aya initially knows the ordinary expansion:
 
 > **Program for Resilient Infrastructure Management**
 
-Even after joining McCluster to investigate Hana's death, Aya does not immediately suspect that the words themselves are camouflage.
+Even after joining Equity Uprise to investigate Hana's death, Aya does not immediately suspect that the words themselves are camouflage.
 
 She investigates:
 
@@ -262,9 +262,9 @@ The later reveal therefore attacks language itself: something Aya has said hundr
 
 ---
 
-# 8. Jordan and the title-card deception
+# 8. McCluster and the title-card deception
 
-Jordan enters the story believing PRIM refers to the visible program/framework around McCluster's technical and operational world.
+McCluster enters the story believing PRIM refers to the visible program/framework around McCluster's technical and operational world.
 
 He has no reason at the beginning to interpret the acronym as a succession office.
 
@@ -274,7 +274,7 @@ The series title **PRIM3** therefore operates on three levels:
 
 1. **audience surface:** a stylized franchise/show name;
 2. **organizational cover:** something that can plausibly sound like a program/platform generation inside `Program for Resilient Infrastructure Management`;
-3. **hidden truth:** the designation of Jordan Vale after he becomes the third successor / fourth holder of the `Primary Root Identity Mantle`.
+3. **hidden truth:** the designation of McCluster after he becomes the third successor / fourth holder of the `Primary Root Identity Mantle`.
 
 Canonical title principle:
 
@@ -298,7 +298,7 @@ THE AUDIENCE STOPS ASKING WHAT PRIM MEANS
         ↓
 "PRIME" EMERGES AS A SPOKEN EXECUTIVE TITLE
         ↓
-HANA / JORDAN / AYA DISCOVER AUTHORITY ANOMALIES
+HANA / MCCLUSTER / AYA DISCOVER AUTHORITY ANOMALIES
         ↓
 NUMBERED PRIM REFERENCES APPEAR TO BE VERSIONING
         ↓
@@ -310,7 +310,7 @@ PRIMARY ROOT IDENTITY MANTLE
         ↓
 PRIM0 → PRIM1 → PRIM2
         ↓
-JORDAN'S SUCCESSION
+MCCLUSTER'S SUCCESSION
         ↓
 PRIM3
 ```
@@ -418,7 +418,7 @@ CURRENT HOLDER DURING MAIN STORY:
 PRIM2
 
 SUCCESSION DESTINATION:
-JORDAN VALE → PRIM3
+MCCLUSTER → PRIM3
 ```
 
 Final thematic shorthand:

@@ -253,7 +253,7 @@ The first response to loss is often a vacancy.
 Possible consequences:
 - coworkers absorb work badly;
 - missions deploy understaffed;
-- Jordan gets called more often because a seam now exists;
+- McCluster gets called more often because a seam now exists;
 - somebody receives a promotion they are not ready for;
 - a specialist function disappears temporarily;
 - a team becomes riskier;
@@ -340,7 +340,7 @@ Examples:
 - a mission type stops being attempted;
 - automation takes over a task and creates new risk;
 - surviving operators become more versatile;
-- the vacancy becomes one reason Jordan's Wildcard role grows dangerously central;
+- the vacancy becomes one reason McCluster's Wildcard role grows dangerously central;
 - a support character gradually absorbs responsibility and accidentally becomes a main.
 
 Permanent absence can be more emotionally truthful than clean staffing symmetry.
@@ -384,7 +384,7 @@ The character is not immortal; they remain non-lethal / severe-injury-only until
 
 Protection should not be visible as arbitrary plot armor. The mission design should provide recoverable Downed states, extraction opportunities and Wildcard/Apex interventions.
 
-Jordan and PRIM2 reduce cheap frustration. They do not erase permanent loss.
+McCluster and PRIM2 reduce cheap frustration. They do not erase permanent loss.
 
 Royce and other high-pressure threats should make loss feel possible without converting every encounter into roulette.
 

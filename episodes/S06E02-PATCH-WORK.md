@@ -19,12 +19,12 @@ branch: main
 PRIMARY OWNER: Aya Shinoda
 SECONDARY DEPTH: Minh Tran / Helen Clarke / Leila Hosseini / Jonas Weber / Chioma Okeke / Pylon
 ESTABLISHED HISTORY: Hana Lee through Kkeutori; Tariq Al-Farsi and/or Ren Shinoda only if the scene specifically requires Aya's outside life
-JORDAN: emotionally central supporting character; off-board Wildcard if mission reaches CRITICAL
-APEX: conditional after Jordan is present and crisis remains qualified CRITICAL
+MCCLUSTER: emotionally central supporting character; off-board Wildcard if mission reaches CRITICAL
+APEX: conditional after McCluster is present and crisis remains qualified CRITICAL
 ROYCE: unavailable by default
 ```
 
-This supersedes the old Jordan-led patch mission. The technical patch/change-control mechanics remain, but the episode's central rupture is Aya discovering that the institution she learned to trust still contains a layer she never actually audited.
+This supersedes the old McCluster-led patch mission. The technical patch/change-control mechanics remain, but the episode's central rupture is Aya discovering that the institution she learned to trust still contains a layer she never actually audited.
 
 ---
 
@@ -40,7 +40,7 @@ This supersedes the old Jordan-led patch mission. The technical patch/change-con
 | Chioma | command | Must keep the live mission functioning while friends start questioning the authority structure above it. |
 | Pylon | system presence | Its trust/priority path becomes evidence without becoming a talking confession machine. |
 | Hana | posthumous established relationship | One deliberate Kkeutori `ん` dead end becomes unmistakably unlike Hana's normal play, converting a friendship ritual into evidence only after years of ordinary meaning. |
-| Jordan | supporting / possible Wildcard | Aya may want his help while simultaneously distrusting what else he knows or hides. If called tactically, he must preserve Aya's plan rather than take it over. |
+| McCluster | supporting / possible Wildcard | Aya may want his help while simultaneously distrusting what else he knows or hides. If called tactically, he must preserve Aya's plan rather than take it over. |
 
 ---
 
@@ -52,7 +52,7 @@ The institution says the update is trusted.
 Aya has spent years becoming one of the people who normally makes that statement credible.
 Now she no longer knows whether the trust chain stops where she thought it did.
 
-The relationship/consent thread with Jordan remains relevant, but this is not primarily “Jordan learns Prime manipulated him.”
+The relationship/consent thread with McCluster remains relevant, but this is not primarily “McCluster learns Prime manipulated him.”
 It is:
 
 > **Aya discovers she may have become evidence for the institution she entered to investigate.**
@@ -89,7 +89,7 @@ Core line:
 7. Chioma contains the human/operational crisis while Aya refuses to trust a package merely because authority says so.
 8. Team uses staged/canary deployment and explicit rollback rather than blind approval.
 9. The patch succeeds, but Aya's institutional trust does not reset.
-10. Jordan/Aya boundary fracture or unresolved consent conflict may sharpen here, but exact triggering act remains to be locked during detailed scene work.
+10. McCluster/Aya boundary fracture or unresolved consent conflict may sharpen here, but exact triggering act remains to be locked during detailed scene work.
 
 ---
 
@@ -98,7 +98,7 @@ Core line:
 Primary verbs:
 `verify / stage / test / deploy / observe / pause / roll back / compare provenance / document residual risk`.
 
-Jordan is not the mission owner. If called, his job is to preserve optionality and Aya's decision authority.
+McCluster is not the mission owner. If called, his job is to preserve optionality and Aya's decision authority.
 
 ---
 
@@ -110,10 +110,19 @@ Jordan is not the mission owner. If called, his job is to preserve optionality a
 - Leila becomes essential to Aya because she can validate suspicion without feeding it.
 - Jonas/Pylon become part of the root-authority evidence chain.
 - Chioma starts preparing for the possibility that institutional loyalty and operational duty may diverge.
-- Jordan/Aya trust is damaged but not reduced to one simple betrayal.
+- McCluster/Aya trust is damaged but not reduced to one simple betrayal.
 
 ---
 
 # Governing line
 
 > **The system can come back healthy while everybody in the room trusts it less.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** B1 infrastructure maintenance; F3 technical response; F5 trust/evidence aftermath.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

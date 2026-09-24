@@ -27,11 +27,11 @@ This template is subordinate to `CANON.md`, `story/EPISODE-MISSION-BIBLE.md`, `s
 
 - **Episode owner:**
 - **Secondary owner(s):**
-- **Jordan narrative state:** `A/B/C/D/E/F`
+- **McCluster narrative state:** `A/B/C/D/E/F`
 - **Mission lead:**
 - **Base playable roster:**
 - **Primary playable POV(s):**
-- **Jordan play state:** `scripted / off-board wildcard / locked out`
+- **McCluster play state:** `scripted / off-board wildcard / locked out`
 - **Wildcard eligible:** `yes/no + reason`
 - **Wildcard arrival rule:**
 - **Apex eligible:** `yes/no + reason`
@@ -39,7 +39,7 @@ This template is subordinate to `CANON.md`, `story/EPISODE-MISSION-BIBLE.md`, `s
 - **Royce Incursion eligible:** `yes/no + reason`
 - **Royce telegraph rule:**
 
-Ordinary PLAY should default to **no Jordan in the selectable base roster**.
+Ordinary PLAY should default to **no McCluster in the selectable base roster**.
 
 ## Cast density / recurring relationship web
 
@@ -216,9 +216,9 @@ Expand the same event into tactical choice space. Normal first-play planning ban
 - **DEGRADED definition:**
 - **CRITICAL triggers:**
 - **TERMINAL triggers:**
-- **Jordan arrival delay / insertion if eligible:**
-- **What Jordan can salvage without auto-solving:**
-- **What remains character-owner-specific after Jordan arrives:**
+- **McCluster arrival delay / insertion if eligible:**
+- **What McCluster can salvage without auto-solving:**
+- **What remains character-owner-specific after McCluster arrives:**
 - **PRIM2 Apex arrival rule if eligible:**
 - **Royce Incursion trigger band if eligible:**
 - **Intervention consequence write:**
@@ -228,7 +228,7 @@ The intervention ladder is:
 ```text
 ENSEMBLE TEAM
     -> CRITICAL
-JORDAN / WILDCARD
+MCCLUSTER / WILDCARD
     -> eligible high-value mission remains CRITICAL
 PRIM2 / APEX
 ```

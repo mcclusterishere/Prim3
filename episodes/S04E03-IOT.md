@@ -18,13 +18,13 @@ branch: main
 ```text
 PRIMARY OWNERS: Jonas Weber / Pylon
 SECONDARY DEPTH: Emre Yıldız / Aya Shinoda / Minh Tran / Helen Clarke / Leila Hosseini
-JORDAN: absent by default; off-board Wildcard at CRITICAL
-APEX: eligible after Jordan is present and a qualified high-value crisis remains CRITICAL
+MCCLUSTER: absent by default; off-board Wildcard at CRITICAL
+APEX: eligible after McCluster is present and a qualified high-value crisis remains CRITICAL
 PRIM2: hidden institutional/system gravity; no required face-to-face reveal
 ROYCE: unavailable
 ```
 
-This supersedes the old Jordan-coordinated / first-direct-Prime-encounter framing.
+This supersedes the old McCluster-coordinated / first-direct-Prime-encounter framing.
 
 ---
 
@@ -39,7 +39,7 @@ This supersedes the old Jordan-coordinated / first-direct-Prime-encounter framin
 | Minh | technical | Demonstrates independent competence while Aya is occupied, showing their mentorship actually changed him. |
 | Helen | governance | Learns that the institution's “single pane of glass” can hide who actually owns authority beneath it. |
 | Leila | analysis | Starts mapping whether apparently neutral automation is carrying hidden policy/identity assumptions. |
-| Jordan | optional Wildcard | If called, restores alternate human/physical routes; he cannot replace Jonas's system knowledge or Emre's physical judgment. |
+| McCluster | optional Wildcard | If called, restores alternate human/physical routes; he cannot replace Jonas's system knowledge or Emre's physical judgment. |
 | PRIM2 | hidden apex | If Apex is invoked, the intervention appears as a masked executive authority expansion, not as a magical boss cameo. |
 
 ---
@@ -93,7 +93,7 @@ Core line:
 Primary verbs:
 `inspect / compare / evacuate / isolate / override / verify / route / hand off / restore`.
 
-This is the first strong candidate for the masked Apex tutorial if Jordan has already been called and the mission remains CRITICAL.
+This is the first strong candidate for the masked Apex tutorial if McCluster has already been called and the mission remains CRITICAL.
 
 ---
 
@@ -111,3 +111,12 @@ This is the first strong candidate for the masked Apex tutorial if Jordan has al
 # Governing line
 
 > **The dangerous smart building is not the one with no data. It is the one everybody trusts too completely.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** B1 building systems; F3 technical response; F6 command consequence.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

@@ -20,7 +20,7 @@ PRIMARY OWNERS: Sari Wulandari / Yonas Bekele
 SECONDARY DEPTH: Hassan Raza / Emre Yıldız / Chioma Okeke / Grace Mbala / Jonas Weber / Pylon
 MISSION LEAD: Chioma
 BASE PLAYABLE ROSTER: Sari / Yonas / Hassan / Emre
-JORDAN: absent by default; off-board Wildcard at CRITICAL
+MCCLUSTER: absent by default; off-board Wildcard at CRITICAL
 APEX: unavailable in canonical WATCH
 ROYCE: unavailable
 ```
@@ -110,7 +110,7 @@ Core line:
 Primary verbs:
 `scan / map / compare / trace / isolate / reposition / route / warn / restore / verify / extract`.
 
-If CRITICAL, the player may spend a Wildcard authorization. Jordan can preserve still-living people or recover options; he cannot reverse a completed death.
+If CRITICAL, the player may spend a Wildcard authorization. McCluster can preserve still-living people or recover options; he cannot reverse a completed death.
 
 ---
 
@@ -129,3 +129,12 @@ If CRITICAL, the player may spend a Wildcard authorization. Jordan can preserve 
 # Governing line
 
 > **The network comes back. A person might not.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F2 user symptom; F3 field diagnosis; B1 infrastructure trace; F4 reinforcement/media.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

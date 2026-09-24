@@ -65,7 +65,7 @@ D — UNAFFECTED / OUT OF FRAME
 
 Canonical shorthand:
 
-> **Same building. Same company. Same people. New pressure.**
+> **Same building. Same institution. Same people. New pressure.**
 
 > **If you appear, you move. If you die, the building changes.**
 
@@ -94,7 +94,7 @@ PLAY expands the same event and may run longer.
 
 | # | Episode | Current primary owner(s) | Local blueprint state |
 |---:|---|---|---|
-| 01 | High Alert / The Blip | PRIM2 / Jordan / Royce | **MIGRATED** — Blip = age-33 reacquisition |
+| 01 | High Alert / The Blip | PRIM2 / McCluster / Royce | **MIGRATED** — Blip = age-33 reacquisition |
 | 02 | White Grey Black Hat / Permission Slip | Nusrat / Miguel | **MIGRATED** |
 | 03 | OSINT / Open Book | Oksana / Rafael | **MIGRATED** |
 | 04 | Anti Social Engineering / The Human Layer | Priya / Sora | **MIGRATED** |
@@ -109,12 +109,12 @@ PLAY expands the same event and may run longer.
 | 13 | IaaS/SaaS/PaaS / Shared Responsibility | Helen / Li / Yonas | **MIGRATED** |
 | 14 | CapEx vs OpEx / Own the Exit | Amira / Marc | **MIGRATED** |
 | 15 | Trappin From The Cloud / Elastic | Sari / Sable | **MIGRATED** — separate contemporary Benji removed |
-| 16 | Per Diem / Road Kit | Jordan / Valeria | **MIGRATED** |
+| 16 | Per Diem / Road Kit | McCluster / Valeria | **MIGRATED** |
 | 17 | Patch Work / Trust Boundary | Aya | **MIGRATED** |
-| 18 | Song #21 OPEN / Mission #18 OPEN | Leila / Helen / Jordan | **MIGRATED OPEN CONTAINER** |
-| 19 | RAID / Hot Site | Jordan / Royce / PRIM2 | **CURRENT ENDGAME** |
-| 20 | Evil Twin / Mirror Room | PRIM2 / Jordan / Royce | **CURRENT ENDGAME** |
-| 21 | Ghost In The Wires / Last Process | Jordan / PRIM2 | **CURRENT ENDGAME** |
+| 18 | Song #21 OPEN / Mission #18 OPEN | Leila / Helen / McCluster | **MIGRATED OPEN CONTAINER** |
+| 19 | RAID / Hot Site | McCluster / Royce / PRIM2 | **CURRENT ENDGAME** |
+| 20 | Evil Twin / Mirror Room | PRIM2 / McCluster / Royce | **CURRENT ENDGAME** |
+| 21 | Ghost In The Wires / Last Process | McCluster / PRIM2 | **CURRENT ENDGAME** |
 
 ---
 
@@ -137,10 +137,10 @@ RAID assault elements must be drawn from established recurring PRIM and Hitman c
 Do not populate the finale with disposable redshirts.
 
 Locked end state remains:
-- Jordan sole surviving PRIM-side attacker;
+- McCluster sole surviving PRIM-side attacker;
 - Royce sole surviving Hitman-side attacker;
 - every other member of both assault elements dies;
-- Jordan + Royce defeat PRIM2 together.
+- McCluster + Royce defeat PRIM2 together.
 
 Exact assault-team membership is chosen only after Episodes 02–18 receive enough scene-level development to make those decisions earned.
 

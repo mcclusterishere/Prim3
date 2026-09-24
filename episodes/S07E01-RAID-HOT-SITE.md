@@ -18,20 +18,20 @@ branch: main
 
 This is a **scripted longform endgame mission**, not an ordinary Wildcard-rescue operation.
 
-- Jordan Vale enters Site 0 with a PRIM-side assault element.
+- McCluster enters Site 0 with a PRIM-side assault element.
 - Royce enters Site 0 with a separate Hitman-side assault element.
 - PRIM2 genuinely resists both.
 - Every other member of both assault elements dies during the breach.
-- Jordan becomes the sole surviving PRIM-side attacker.
+- McCluster becomes the sole surviving PRIM-side attacker.
 - Royce becomes the sole surviving Hitman-side attacker.
-- Jordan and Royce already have unresolved history from Jordan's Benji/Hitman life.
+- McCluster and Royce already have unresolved history from McCluster's Benji/Hitman life.
 - Their convergence inside Site 0 nearly becomes a lethal continuation of that rivalry.
 - They recognize PRIM2 as the common target and form a temporary alliance.
-- **Jordan and Royce defeat PRIM2 together.**
+- **McCluster and Royce defeat PRIM2 together.**
 - PRIM2's body is critically damaged but remains biologically/systemically valid long enough for succession.
 - `Evil Twin` begins after this physical victory.
 
-No separate contemporary Benji exists. **Benji is Jordan's age-19-to-26 Hitman identity.**
+No separate contemporary Benji exists. **Benji is McCluster's age-19-to-26 Hitman identity.**
 
 The normal Standard Wildcard/Apex/Royce-incursion resource caps do not constrain this authored finale.
 
@@ -61,12 +61,12 @@ The fact that every other attacker dies is locked. **Who those attackers are is 
 # Episode ownership
 
 ```text
-EPISODE OWNER: Jordan Vale / Royce / PRIM2 — shared endgame triangle
+EPISODE OWNER: McCluster / Royce / PRIM2 — shared endgame triangle
 SECONDARY OWNERS: the established assault-team characters through choices, loss, sacrifice and aftermath
-JORDAN PRESENCE: B — SHARED
+MCCLUSTER PRESENCE: B — SHARED
 MISSION LEAD: split command until convergence
 BASE PLAYABLE ROSTER: established PRIM assault element + established Hitman assault element by phase
-JORDAN PLAY STATE: SCRIPTED
+MCCLUSTER PLAY STATE: SCRIPTED
 WILDCARD ELIGIBLE: no
 APEX ELIGIBLE: no — PRIM2 is the hostile presiding Mantle holder
 ROYCE INCURSION ELIGIBLE: no random incursion — Royce is scripted principal
@@ -80,7 +80,7 @@ The succession triangle owns deepest endgame transformation. It does **not** era
 
 Site 0 is a fortress designed to keep operating while being attacked.
 
-Jordan and Royce cannot simply destroy it. They must survive redundant defenses, preserve life-safety and succession-critical systems, endure the collapse of both assault teams, and reach the living root whose architecture is designed to fail over around damage.
+McCluster and Royce cannot simply destroy it. They must survive redundant defenses, preserve life-safety and succession-critical systems, endure the collapse of both assault teams, and reach the living root whose architecture is designed to fail over around damage.
 
 Technical metaphor and story are the same thing:
 
@@ -108,7 +108,7 @@ Required functions:
 - let unresolved relationships breathe;
 - surface prior injuries, vacancies, promotions and accumulated fatigue;
 - show one or more mundane rituals that will become painful after the deaths;
-- make clear that not everyone agrees with Jordan or Royce even while going with them.
+- make clear that not everyone agrees with McCluster or Royce even while going with them.
 
 Nobody should feel like they were invented to die ten minutes later.
 
@@ -123,8 +123,8 @@ PRIM2 performs `High Alert` from inside the active defense state. The seventeen 
 The authored spine remains:
 1. separate PRIM and Hitman penetrations;
 2. cascading loss of both teams;
-3. Jordan and Royce becoming sole survivors;
-4. Jordan/Royce convergence;
+3. McCluster and Royce becoming sole survivors;
+4. McCluster/Royce convergence;
 5. their near-fight driven by old history;
 6. recognition that continuing to fight one another protects PRIM2;
 7. temporary alliance;
@@ -151,7 +151,7 @@ PLAY is long, checkpointed and multi-perspective.
 ## Phase A — two boards
 
 Player alternates between:
-- Jordan's PRIM assault element;
+- McCluster's PRIM assault element;
 - Royce's Hitman assault element.
 
 The two sides do not share complete information.
@@ -170,19 +170,19 @@ A clearly labeled non-canon challenge mode may later experiment with alternate s
 
 ## Phase C — convergence
 
-Jordan and Royce meet as sole survivors. Their rivalry mechanically threatens the objective before shared target becomes undeniable.
+McCluster and Royce meet as sole survivors. Their rivalry mechanically threatens the objective before shared target becomes undeniable.
 
 ## Phase D — joint PRIM2 fight
 
 PRIM2 is not a high-HP boss. He fights through information, authored systems, command authority, environmental continuity, physical competence and asymmetric knowledge.
 
 ```text
-JORDAN -> finds viable alternate paths across systems
+MCCLUSTER -> finds viable alternate paths across systems
 ROYCE  -> seizes/contests physical tempo and hostile control
 PRIM2  -> predicts, authorizes and redirects the board
 ```
 
-The battle ends when Jordan and Royce remove PRIM2's **physical ability to continue resisting**, not when succession is resolved.
+The battle ends when McCluster and Royce remove PRIM2's **physical ability to continue resisting**, not when succession is resolved.
 
 ---
 
@@ -194,7 +194,7 @@ The battle ends when Jordan and Royce remove PRIM2's **physical ability to conti
 | L2–L4 | High Alert convergence; irreversible losses begin |
 | B1 | Evidence versus speed; earlier assumptions break |
 | B2 | Defense/fabrication continuity must be contained rather than blindly destroyed |
-| B3 | Routes converge; old Jordan/Royce history becomes operationally dangerous |
+| B3 | Routes converge; old McCluster/Royce history becomes operationally dangerous |
 | B4–B5 | Global coordination/life-safety dependencies make destruction unacceptable |
 | Suspension core | sole-survivor convergence, joint defeat of PRIM2, unresolved living-root authority |
 
@@ -207,7 +207,7 @@ Exact geometry is implementation detail. Story functions are canonical.
 | Channel | Strong result | Weak but continuing result |
 |---|---|---|
 | Objective | PRIM2 physically defeated with succession-critical state intact | PRIM2 defeated amid severe subsystem degradation |
-| Team | Locked survivors reach convergence with usable capability | Jordan/Royce arrive critically depleted |
+| Team | Locked survivors reach convergence with usable capability | McCluster/Royce arrive critically depleted |
 | Exposure | external effects contained; evidence survives | cascading systems create outside consequences |
 | Integrity | life safety and root evidence preserved | destructive shortcuts complicate transition |
 | Time | hostile failovers identified selectively | PRIM2 repeatedly recovers through missed dependencies |
@@ -217,9 +217,9 @@ Exact geometry is implementation detail. Story functions are canonical.
 # Persistent state written forward
 
 Writes:
-- Jordan injury/resource state;
+- McCluster injury/resource state;
 - Royce injury/resource state;
-- Jordan↔Royce temporary trust/rivalry state;
+- McCluster↔Royce temporary trust/rivalry state;
 - exact named dead from both assault teams;
 - grief/blame states of every surviving remote character;
 - newly created vacancies and uncovered work;
@@ -251,7 +251,7 @@ RAID answers the earlier-series question:
 - **Compute/reasoning:** distinguish life-preserving redundancy from authority-preserving redundancy.
 - **Energy/infrastructure:** power, storage, networks, lifts/ramps, environmental controls, communications and life support.
 - **Access/authorization:** fictional Site 0 challenge/succession state; no real target implementation.
-- **Human decision owners:** Jordan and Royce for assault choices; PRIM2 for defensive choices.
+- **Human decision owners:** McCluster and Royce for assault choices; PRIM2 for defensive choices.
 - **Failure modes:** cascading failover, route isolation, team loss, evidence destruction, life-safety collapse, PRIM2 retaining hidden command paths.
 - **Real concept:** redundancy improves availability but does not remove the need to understand failure domains, restoration priority and authority.
 - **Fictional extrapolation:** PRIM living-root/Mantle architecture and integrated Site 0 defense.
@@ -263,7 +263,7 @@ RAID answers the earlier-series question:
 RAID ends with:
 
 ```text
-JORDAN VALE — ALIVE
+MCCLUSTER — ALIVE
 ROYCE — ALIVE
 PRIM2 — PHYSICALLY DEFEATED / BIOLOGICALLY ACTIVE
 PRIM ASSAULT ELEMENT — LOST
@@ -274,3 +274,12 @@ MANTLE AUTHORITY — UNRESOLVED
 And around those three principals is the immediate reality that a huge number of people the audience loved are suddenly gone.
 
 Then `Evil Twin` begins.
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** Equity Uprise F6/B1 frames departure and remote support; the assault itself is Site 0, not Equity Uprise.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

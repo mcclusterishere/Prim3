@@ -16,7 +16,7 @@ The season must work before the audience understands the full Prime mythology.
 
 ## Cold open
 
-In the future, Jordan and Benji's separate assault elements have penetrated
+In the future, McCluster and Benji's separate assault elements have penetrated
 Site 0. Presiding Prime / Prime-00 performs **High Alert** as a diss record and
 psychological weapon against the people who have come to replace him.
 

@@ -14,7 +14,7 @@ This file retains the LAB_NODE implementation concepts from an earlier tactical 
 Current governing files:
 - `game/TACTICAL-IT-MECHANICS-BIBLE.md` — primary technical/action grammar;
 - `game/LEARNING-MISSION-SOURCE-OF-TRUTH.md` — teaching loop;
-- `game/WILDCARD-INTERVENTION-AUTHORITY.md` — Jordan/PRIM2/Royce escalation;
+- `game/WILDCARD-INTERVENTION-AUTHORITY.md` — McCluster/PRIM2/Royce escalation;
 - `schemas/prm3-tactical-learning-mission.schema.json` — machine-readable mission contract;
 - `story/ENSEMBLE-POV-AUTHORITY.md` — named-character ownership.
 
@@ -34,7 +34,7 @@ Normal qualified characters generally receive **2 AP per activation**. Mission c
 - Leads;
 - Defense/support roles;
 - episode-specific specialists;
-- Jordan after scripted deployment or Wildcard call-up;
+- McCluster after scripted deployment or Wildcard call-up;
 - PRIM2 after scripted/Apex intervention.
 
 PRIM2's 3-AP arrival activation is a specialized exception.
@@ -138,7 +138,7 @@ ABORT
 REQUEST_INTERVENTION
 ```
 
-The intervention task atom does not itself perform Jordan/PRIM2's abilities; it changes mission state by opening the appropriate executive request flow.
+The intervention task atom does not itself perform McCluster/PRIM2's abilities; it changes mission state by opening the appropriate executive request flow.
 
 ## 6. Deterministic technical correctness
 
@@ -165,7 +165,7 @@ ISOLATE != CONTAINED until checked
 COLLECT != DEFENSIBLE EVIDENCE until preserved/sealed
 ```
 
-Jordan Wildcard and PRIM2 Apex do not bypass this law.
+McCluster Wildcard and PRIM2 Apex do not bypass this law.
 
 PRIM2 may provide `PRIM2-SOURCED` data or sovereign authorization; the player still distinguishes source from truth.
 
@@ -199,8 +199,8 @@ Interruption changes whether the action completes; it does not roll against whet
 
 ## 10. Intervention interaction
 
-### Jordan
-Jordan may restore a route or temporarily cross-support a function. He cannot convert a node directly from unknown to solved without the required evidence/reasoning.
+### McCluster
+McCluster may restore a route or temporarily cross-support a function. He cannot convert a node directly from unknown to solved without the required evidence/reasoning.
 
 ### PRIM2
 PRIM2 may expose additional source information or change present authorization. He cannot skip physical prerequisites or validation merely because he holds the Mantle.

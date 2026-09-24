@@ -4,18 +4,18 @@ system: tactical intervention / rescue escalation / rival incursion authority
 version: 1.1.0
 branch: main
 owner: Matthew McCluster
-authority: Subordinate only to CANON.md; governs all Jordan Wildcard, PRIM2 intervention, and Royce incursion mechanics
+authority: Subordinate only to CANON.md; governs all McCluster Wildcard, PRIM2 intervention, and Royce incursion mechanics
 ---
 
 # PRIM3 — Wildcard Intervention Authority
 
 ## Core fantasy
 
-**Ordinary PLAY does not deploy Jordan Vale from the normal selectable roster.**
+**Ordinary PLAY does not deploy McCluster from the normal selectable roster.**
 
 The normal game belongs to the ensemble: Aya, Chioma, Arjun, Rafael, Sari, Oksana, Minh, Jonas, Valeria, Thandiwe and the rest of the qualified roster should carry missions, make mistakes, get hurt, save one another and earn their own legends.
 
-Jordan is mechanically exceptional because he is deliberately withheld.
+McCluster is mechanically exceptional because he is deliberately withheld.
 
 He is the call you make when the answer you brought is failing.
 
@@ -26,7 +26,7 @@ NORMAL PRIM MISSION TEAM
         ↓ mission degrades
 EXECUTIVE CALL-UP AVAILABLE
         ↓ approved
-JORDAN VALE — WILDCARD
+MCCLUSTER — WILDCARD
         ↓ critical mission still collapsing
 APEX REQUEST AVAILABLE
         ↓ approved
@@ -49,9 +49,9 @@ Canonical shorthand:
 
 ---
 
-# 1. Jordan is not a default squad slot
+# 1. McCluster is not a default squad slot
 
-During ordinary PLAY missions, Jordan is **not selectable in the normal pre-mission roster** unless that specific authored story mission explicitly assigns him.
+During ordinary PLAY missions, McCluster is **not selectable in the normal pre-mission roster** unless that specific authored story mission explicitly assigns him.
 
 This is a hard gameplay law, not merely a balance preference.
 
@@ -59,27 +59,27 @@ The rest of the cast must carry the majority of player turns across the campaign
 
 This rule exists because:
 
-1. the ensemble must remain mechanically important rather than becoming Jordan's backup cast;
-2. Jordan's reputation as the Wildcard must be experienced as a gameplay fact, not only stated in dialogue;
+1. the ensemble must remain mechanically important rather than becoming McCluster's backup cast;
+2. McCluster's reputation as the Wildcard must be experienced as a gameplay fact, not only stated in dialogue;
 3. calling him should feel like escalation;
-4. the player must develop attachments to people who are not Jordan;
-5. a rescue decision only matters if the player had something meaningful to lose before Jordan arrived.
+4. the player must develop attachments to people who are not McCluster;
+5. a rescue decision only matters if the player had something meaningful to lose before McCluster arrived.
 
-Allowed Jordan states in PLAY:
+Allowed McCluster states in PLAY:
 
 ```text
 SCRIPTED ASSIGNMENT
-Jordan is part of the mission from launch because the story specifically requires him.
+McCluster is part of the mission from launch because the story specifically requires him.
 No Wildcard Authorization is consumed.
 
 OFF-BOARD WILDCARD
-Jordan is not deployed. He may become callable if the mission reaches an eligible crisis state.
+McCluster is not deployed. He may become callable if the mission reaches an eligible crisis state.
 
 LOCKED OUT
-Story geography, injury, secrecy, communications failure, authorization, or another authored condition makes Jordan unavailable.
+Story geography, injury, secrecy, communications failure, authorization, or another authored condition makes McCluster unavailable.
 ```
 
-Episode ownership remains separate from tactical presence. Jordan can be called into an Aya-owned, Chioma-owned or other character-owned episode without stealing emotional ownership of that episode.
+Episode ownership remains separate from tactical presence. McCluster can be called into an Aya-owned, Chioma-owned or other character-owned episode without stealing emotional ownership of that episode.
 
 ---
 
@@ -164,11 +164,11 @@ Early in the story, the player may not know the human being behind the executive
 
 ---
 
-# 4. Executive Call-Up — Jordan Vale / Wildcard
+# 4. Executive Call-Up — McCluster / Wildcard
 
 ## 4.1 Request flow
 
-When an eligible mission reaches CRITICAL and Jordan is off-board, the command interface exposes:
+When an eligible mission reaches CRITICAL and McCluster is off-board, the command interface exposes:
 
 ```text
 EXECUTIVE CALL-UP
@@ -177,7 +177,7 @@ REQUEST WILDCARD
 
 The request goes upward through the mission's authority chain. At lower story clearance, the player may not know exactly who is watching or who grants the authorization.
 
-Jordan does not teleport.
+McCluster does not teleport.
 
 Each eligible mission authors a plausible:
 - insertion route;
@@ -188,40 +188,40 @@ Each eligible mission authors a plausible:
 
 Default gameplay arrival is **1–3 rounds after approval**, modified by mission geography and story.
 
-That delay is important: after requesting Jordan, the existing team still has to survive long enough for help to matter.
+That delay is important: after requesting McCluster, the existing team still has to survive long enough for help to matter.
 
 ## 4.2 Wildcard Authorizations
 
 Default campaign balance:
 
-- **2 Wildcard Authorizations per season** for non-scripted Jordan call-ups;
+- **2 Wildcard Authorizations per season** for non-scripted McCluster call-ups;
 - unused authorizations **do not bank** into the next season;
 - an authored reward may grant **1 bonus Wildcard Authorization** for exceptional Standing or a specific story achievement;
-- a scripted mission that begins with Jordan assigned does **not** spend this resource.
+- a scripted mission that begins with McCluster assigned does **not** spend this resource.
 
-These numbers are canonical Standard balance defaults. Difficulty modes may tune the pool without changing the fiction that Jordan call-ups are scarce executive resources.
+These numbers are canonical Standard balance defaults. Difficulty modes may tune the pool without changing the fiction that McCluster call-ups are scarce executive resources.
 
 The resource is intentionally limited so the player sometimes has to ask:
 
 > **Do I burn one now to save these people, or trust them to finish this themselves?**
 
-## 4.3 What Jordan mechanically is
+## 4.3 What McCluster mechanically is
 
-Jordan is the **Wildcard**, not a fourth permanent phenotype.
+McCluster is the **Wildcard**, not a fourth permanent phenotype.
 
 He can cross R/E/T operational lanes because his strength is rapid systems inference, improvisation, practical infrastructure fluency and finding another viable path when the planned route fails.
 
 He should not permanently outperform a top specialist at that specialist's deepest work.
 
-Jordan's default intervention kit includes:
+McCluster's default intervention kit includes:
 
 ### ANOTHER PATH — once per intervention
-Using already earned/visible mission evidence, Jordan exposes one previously unselected **credible alternate route, dependency, interaction or objective approach**.
+Using already earned/visible mission evidence, McCluster exposes one previously unselected **credible alternate route, dependency, interaction or objective approach**.
 
 This does not fabricate hidden truth and does not auto-complete the objective.
 
 ### ADAPTIVE ROLE
-At the beginning of each Jordan activation, designate one emphasis until his next activation:
+At the beginning of each McCluster activation, designate one emphasis until his next activation:
 
 - `R` — Picture / movement / evidence support;
 - `E` — control / protection / rescue support;
@@ -235,11 +235,11 @@ Remove `Staggered` from one ally or grant one adjacent/linked ally a 1-AP reacti
 It is not a free attack generator.
 
 ### FAILOVER INSTINCT — passive
-When the current primary plan becomes invalid, Jordan suffers no AP surcharge for the first legal switch to a verified alternate route that round.
+When the current primary plan becomes invalid, McCluster suffers no AP surcharge for the first legal switch to a verified alternate route that round.
 
-## 4.4 Calling Jordan has a cost
+## 4.4 Calling McCluster has a cost
 
-A Jordan rescue is still a legitimate success, but it is not the same as completing the mission independently.
+A McCluster rescue is still a legitimate success, but it is not the same as completing the mission independently.
 
 Aftermath records:
 
@@ -262,8 +262,8 @@ PRIM2 is not a second ordinary rescue button.
 A non-scripted Apex Request becomes eligible only when **all** of the following are true:
 
 1. the mission is tagged `CRITICAL`, `STATE`, `STRATEGIC`, or equivalent high-value classification;
-2. Jordan is already physically/operationally present, either from launch or via Wildcard call-up;
-3. after Jordan's arrival, the mission remains in CRITICAL state or re-enters CRITICAL state for at least one full tactical round;
+2. McCluster is already physically/operationally present, either from launch or via Wildcard call-up;
+3. after McCluster's arrival, the mission remains in CRITICAL state or re-enters CRITICAL state for at least one full tactical round;
 4. communications/authority conditions still permit an executive request;
 5. PRIM2 is not story-locked out.
 
@@ -303,9 +303,9 @@ After the Mantle reveal, the UI may name him directly.
 
 ## 5.4 PRIM2 tactical identity
 
-PRIM2 should feel qualitatively different from Jordan.
+PRIM2 should feel qualitatively different from McCluster.
 
-Jordan finds another path.
+McCluster finds another path.
 
 PRIM2 arrives with a broader picture, sovereign authority and elite multi-domain capability.
 
@@ -369,8 +369,8 @@ The desired hierarchy is:
 ```text
 perfect execution -> no intervention needed
 messy execution -> ordinary roster can still recover
-critical execution -> spend Jordan if the people/objective are worth it
-catastrophic high-value execution -> spend PRIM2 if even Jordan cannot stabilize it
+critical execution -> spend McCluster if the people/objective are worth it
+catastrophic high-value execution -> spend PRIM2 if even McCluster cannot stabilize it
 terminal state -> save what can still be saved and live with the damage
 ```
 
@@ -404,9 +404,9 @@ The mechanic is mercy through escalation, not save-scumming disguised as canon.
 
 Royce is the opposing-side answer to the player's rescue hierarchy.
 
-He is not a random elite guard and not a reskinned Jordan.
+He is not a random elite guard and not a reskinned McCluster.
 
-Royce is the current Hitman-side apex operator/successor figure: aggressive, power-hungry, physically dangerous, experienced with the organization Jordan left behind and personally entangled with Jordan's old Benji history.
+Royce is the current Hitman-side apex operator/successor figure: aggressive, power-hungry, physically dangerous, experienced with the organization McCluster left behind and personally entangled with McCluster's old Benji history.
 
 In practical Hitman terms, he occupies the position closest to **their Prime-level field threat** even though he is not a PRIM Mantle holder and does not share PRIM2's information architecture.
 
@@ -423,7 +423,7 @@ Royce may enter an eligible mission when one or more campaign conditions are hig
 - repeated player interference with Hitman objectives;
 - high institutional Heat;
 - a story-authored rivalry flag;
-- Jordan Wildcard deployment on a mission where Hitman has visibility;
+- McCluster Wildcard deployment on a mission where Hitman has visibility;
 - or a specific episode trigger.
 
 His appearance may be telegraphed, partially telegraphed or surprising depending on earned intelligence.
@@ -475,7 +475,7 @@ When Royce Downs or severely pressures an operator, nearby allies face increased
 Once per round, one Hitman unit may reposition or take a bounded support action around Royce.
 
 ### OLD BUSINESS
-If Jordan is present, both characters gain unique contextual dialogue and selected rivalry modifiers. This must create risk for **both** sides rather than simply buffing Royce.
+If McCluster is present, both characters gain unique contextual dialogue and selected rivalry modifiers. This must create risk for **both** sides rather than simply buffing Royce.
 
 ## 7.5 Royce is persistent
 
@@ -512,7 +512,7 @@ EXECUTIVE CHANNEL OPEN
 WILDCARD REQUEST AVAILABLE
 ```
 
-If Jordan is already present and the Apex requirements become true:
+If McCluster is already present and the Apex requirements become true:
 
 ```text
 CRITICAL FAILURE PERSISTS
@@ -541,7 +541,7 @@ These interact with existing Budget, Heat, Standing, Intel and roster availabili
 
 Important distinction:
 
-- **Budget** cannot simply buy Jordan or PRIM2.
+- **Budget** cannot simply buy McCluster or PRIM2.
 - **Standing** may affect authorization opportunities but is not a direct currency conversion.
 - **Intel** may warn about Royce but does not delete his eligibility.
 - **Heat** can make both rescue and hostile escalation more consequential.
@@ -573,7 +573,7 @@ Interventions should make the player **glad they used them**, not ashamed to tou
 
 Therefore:
 
-- Jordan intervention does not automatically cap the final mission grade;
+- McCluster intervention does not automatically cap the final mission grade;
 - PRIM2 intervention does not automatically force a bad grade;
 - the actual battlefield state still determines outcome grade;
 - separate mastery ribbons record whether the operation was completed independently.
@@ -599,10 +599,10 @@ This separates **mission outcome** from **how much institutional help the player
 
 The intervention system must deepen the story rather than sit outside it.
 
-Jordan call-ups create:
+McCluster call-ups create:
 - resentment from operators who think he gets special treatment;
 - relief from people he saved;
-- pressure on Jordan to become everybody's emergency answer;
+- pressure on McCluster to become everybody's emergency answer;
 - evidence of his strange cross-lane competence;
 - opportunities to hint at a past nobody fully understands.
 
@@ -616,7 +616,7 @@ PRIM2 call-ups create:
 Royce incursions create:
 - dread before he appears;
 - scars and relationship consequences after he leaves;
-- old-history reactions from Jordan that become reverse-reveal breadcrumbs;
+- old-history reactions from McCluster that become reverse-reveal breadcrumbs;
 - a growing sense that Hitman is not merely another enemy faction but another board with its own elite human center.
 
 An intervention must therefore write to the relationship/psychology continuity ledger.
@@ -631,7 +631,7 @@ Every PLAY mission now records:
 EPISODE OWNER:
 MISSION LEAD:
 BASE PLAYABLE ROSTER:
-JORDAN STATE: scripted / off-board wildcard / locked out
+MCCLUSTER STATE: scripted / off-board wildcard / locked out
 WILDCARD ELIGIBLE: yes/no + reason
 WILDCARD ARRIVAL RULE:
 APEX ELIGIBLE: yes/no + mission classification
@@ -652,17 +652,17 @@ No episode implementation is complete until these are deliberately answered.
 
 The mechanic must never become:
 
-> play badly until Jordan arrives and does the cool part.
+> play badly until McCluster arrives and does the cool part.
 
 Therefore:
 
 - normal characters receive the majority of tactical turns across the campaign;
-- critical objectives remain solvable without Jordan in competent play;
-- Jordan's best contribution is restoring options, not auto-solving LAB_NODEs;
-- PRIM2 is vastly scarcer than Jordan;
+- critical objectives remain solvable without McCluster in competent play;
+- McCluster's best contribution is restoring options, not auto-solving LAB_NODEs;
+- PRIM2 is vastly scarcer than McCluster;
 - Royce ensures escalation can cut both ways;
-- some missions lock Jordan out entirely;
-- some story missions require specific other characters to make the decisive choice even after Jordan/PRIM2 arrives.
+- some missions lock McCluster out entirely;
+- some story missions require specific other characters to make the decisive choice even after McCluster/PRIM2 arrives.
 
 The intended feeling is:
 
@@ -674,10 +674,10 @@ That turns character attachment into strategy.
 
 # 15. Governing rules
 
-1. **Ordinary PLAY launches without Jordan unless the mission is a specific scripted Jordan mission.**
-2. **Jordan is a scarce rescue/escalation unit, not the default protagonist pawn.**
+1. **Ordinary PLAY launches without McCluster unless the mission is a specific scripted McCluster mission.**
+2. **McCluster is a scarce rescue/escalation unit, not the default protagonist pawn.**
 3. **PRIM2 has privileged oversight of missions, but observation is not automatic intervention or perfect knowledge.**
-4. **PRIM2 is an even scarcer second-stage intervention available only on genuinely critical high-value missions after Jordan is already involved.**
+4. **PRIM2 is an even scarcer second-stage intervention available only on genuinely critical high-value missions after McCluster is already involved.**
 5. **Royce gives the opposing board its own elite escalation threat.**
 6. **Interventions operate on current state; they do not rewind consequences.**
 7. **Named characters remain mechanically valuable before, during and after a Wildcard intervention.**
@@ -686,4 +686,4 @@ That turns character attachment into strategy.
 
 Final shorthand:
 
-> **Everybody gets to be the hero. Jordan is who they call when heroism is not enough. PRIM2 is who Jordan calls when even that is not enough. Royce is why sometimes none of it feels like enough.**
+> **Everybody gets to be the hero. McCluster is who they call when heroism is not enough. PRIM2 is who McCluster calls when even that is not enough. Royce is why sometimes none of it feels like enough.**

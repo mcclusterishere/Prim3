@@ -40,7 +40,7 @@ Each episode is approximately **9 minutes**:
 2. **Human story (~3 min)** — character pressure and continuity
 3. **Mission (~3 min)** — WATCH authored action or PLAY gamified version
 
-Jordan leaves between academic years for recurring **summer policy fellowships**. Those summers change his worldview but are not added to PRIM3's 21-episode count. Equity Uprise may later become the separate show/game lane that tells those summers.
+McCluster leaves between academic years for recurring **summer policy fellowships**. Those summers change his worldview but are not added to PRIM3's 21-episode count. Equity Uprise may later become the separate show/game lane that tells those summers.
 
 Current final trilogy:
 

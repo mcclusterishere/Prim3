@@ -10,21 +10,21 @@ branch: main
 The old binary ending in this file is retired.
 
 There is no current canon branch where:
-- Jordan simply kills the presiding holder and jumps dimensions;
+- McCluster simply kills the presiding holder and jumps dimensions;
 - killing PRIM2 creates the Whip Equipped prequel;
 - PRIM2 is newly uploaded into a Ghost state.
 
-Whip Equipped is Jordan's **age-26-to-33 prequel**, chronologically before PRIM3.
+Whip Equipped is McCluster's **age-26-to-33 prequel**, chronologically before PRIM3.
 
 Current WATCH canon is:
 
 ```text
 RAID
- -> Jordan + Royce physically defeat PRIM2
+ -> McCluster + Royce physically defeat PRIM2
  -> EVIL TWIN
  -> they verify that PRIM2's living root identity is still needed for clean succession
  -> GHOST IN THE WIRES
- -> Jordan becomes PRIM3
+ -> McCluster becomes PRIM3
  -> former PRIM2 loses sovereign write/command authority
  -> former PRIM2 persists as constrained Ghost-class advisory intelligence
 ```

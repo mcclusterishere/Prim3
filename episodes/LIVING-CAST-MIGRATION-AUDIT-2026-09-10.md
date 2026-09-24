@@ -41,7 +41,7 @@ Technical incident and substantial character material remain usable, but ownersh
 Technical premise may survive, but current owner/gameplay/relationship architecture materially conflicts with higher canon.
 
 ### SEVERE STALE CONTINUITY
-Contains a premise directly invalidated by newer canon such as separate contemporary Benji, Prime-00 formal identity, first-discovery chronology, or Jordan-default gameplay.
+Contains a premise directly invalidated by newer canon such as separate contemporary Benji, Prime-00 formal identity, first-discovery chronology, or McCluster-default gameplay.
 
 ---
 
@@ -60,16 +60,16 @@ Contains a premise directly invalidated by newer canon such as separate contempo
 ### Replace
 - `Presiding Prime / Prime-00` formal language -> **PRIM2**;
 - separate contemporary `Benji` attacker -> **Royce**;
-- claim that PRIM2 first notices Jordan because of The Blip;
+- claim that PRIM2 first notices McCluster because of The Blip;
 - `REQUEST INTAKE` as first-awareness event;
-- Jordan/PRIM2 chronology that ignores Ghost-Year awareness + age-33 identity reacquisition;
+- McCluster/PRIM2 chronology that ignores Ghost-Year awareness + age-33 identity reacquisition;
 - old single-protagonist pilot assumptions.
 
 ### Current interpretation
-If `The Blip` remains part of Episode 01 after the rewind, its function should be **reacquisition / renewed institutional interest**, not first discovery of Jordan.
+If `The Blip` remains part of Episode 01 after the rewind, its function should be **reacquisition / renewed institutional interest**, not first discovery of McCluster.
 
 ### Living-cast requirement
-The pilot should establish recurring workplace faces immediately, even if only in small beats, so the audience feels the world existed before Jordan arrived.
+The pilot should establish recurring workplace faces immediately, even if only in small beats, so the audience feels the world existed before McCluster arrived.
 
 ---
 
@@ -80,7 +80,7 @@ The pilot should establish recurring workplace faces immediately, even if only i
 - unmanifested-device / access-authorization incident;
 - capability versus permission thesis;
 - Nusrat refusing an undocumented exception;
-- Jordan declaring ambiguity rather than exploiting it;
+- McCluster declaring ambiguity rather than exploiting it;
 - Nusrat/Aya/Miguel playable access-control concept.
 
 ### Current owners
@@ -88,10 +88,10 @@ The pilot should establish recurring workplace faces immediately, even if only i
 
 ### Add / migrate
 - Miguel from secondary texture to genuine co-owner;
-- Aya, Jordan, Helen, Priya, Maren, Chioma recurring micro-writes;
+- Aya, McCluster, Helen, Priya, Maren, Chioma recurring micro-writes;
 - whole-roster state ledger;
 - explicit Episode 03 carry-forward;
-- PRIM2 trace as observation after ordinary process, not first Jordan awareness.
+- PRIM2 trace as observation after ordinary process, not first McCluster awareness.
 
 ---
 
@@ -101,7 +101,7 @@ The pilot should establish recurring workplace faces immediately, even if only i
 ### Preserve
 - missing shipment / scapegoated junior coordinator incident;
 - provenance, corroboration, confidence states;
-- Oksana refusing to over-promote Jordan's hypothesis;
+- Oksana refusing to over-promote McCluster's hypothesis;
 - Rafael physical/geospatial corroboration;
 - Valeria embarrassment/growth.
 
@@ -111,7 +111,7 @@ The pilot should establish recurring workplace faces immediately, even if only i
 ### Add / migrate
 - Rafael to equal owner depth;
 - Leila, Chioma, Pylon and Perch recurrence;
-- Jordan should be edge/off-board Wildcard rather than required contributor;
+- McCluster should be edge/off-board Wildcard rather than required contributor;
 - continuity writes from Episode 02 and into Episode 04.
 
 ---
@@ -131,7 +131,7 @@ The pilot should establish recurring workplace faces immediately, even if only i
 ### Add / migrate
 - Sora to genuine co-owner interiority;
 - Maren, Helen, Chioma recurrence;
-- Jordan cameo only unless PLAY crisis calls him;
+- McCluster cameo only unless PLAY crisis calls him;
 - every recurring appearance gets a micro-write.
 
 ---
@@ -143,7 +143,7 @@ The pilot should establish recurring workplace faces immediately, even if only i
 - training exercise interrupted by a real anomaly;
 - Chioma's decision to stop the exercise at reputational cost;
 - role perspective / combined picture thesis;
-- Jordan supporting rather than commanding.
+- McCluster supporting rather than commanding.
 
 ### Current owners
 **Chioma Okeke + Thandiwe Nkosi**.
@@ -151,7 +151,7 @@ The pilot should establish recurring workplace faces immediately, even if only i
 ### Add / migrate
 - Thandiwe to equal philosophical owner;
 - Grace, Arjun, Sari, Mina, Dez, Helen recurring development;
-- Jordan/Dez generalist mirror;
+- McCluster/Dez generalist mirror;
 - consequences that persist into Episode 06.
 
 ---
@@ -184,7 +184,7 @@ The death must write:
 - no automatic replacement.
 
 ### Recurring web
-Hassan, Emre, Chioma, Grace, Jonas, Pylon; Jordan only as optional Wildcard.
+Hassan, Emre, Chioma, Grace, Jonas, Pylon; McCluster only as optional Wildcard.
 
 ---
 
@@ -194,12 +194,12 @@ Hassan, Emre, Chioma, Grace, Jonas, Pylon; Jordan only as optional Wildcard.
 ### Preserve
 - intimate personnel/training-data breach;
 - people becoming `incident categories` while standing in the room;
-- Jordan's pre-recruitment file/provenance anomaly as reverse-reveal evidence;
+- McCluster's pre-recruitment file/provenance anomaly as reverse-reveal evidence;
 - evidence preservation / identity / impact-classification mechanics;
 - Grace as human-consequence voice.
 
 ### Stale local ownership
-Local file makes **Grace** primary and Jordan central.
+Local file makes **Grace** primary and McCluster central.
 
 ### Current owners
 **Leila Hosseini + Li Wei**.
@@ -221,16 +221,16 @@ Turn the same breach into a governance/identity episode in which Grace remains v
 - technically correct versus procedurally dangerous tension where useful.
 
 ### Stale local ownership/gameplay
-Local file makes **Chioma** owner and scripts Jordan from launch.
+Local file makes **Chioma** owner and scripts McCluster from launch.
 
 ### Current owners
 **Aya Shinoda + Minh Tran**.
 
 ### Current recurrence
-Leila, Jonas, Emre, Jordan edge, Kiosk; Hana/Tariq only where Aya history specifically matters.
+Leila, Jonas, Emre, McCluster edge, Kiosk; Hana/Tariq only where Aya history specifically matters.
 
 ### Rewrite job
-The technical contradiction should deepen Aya/Minh peer development. Jordan should not consume the scripted-Jordan showcase reserved for later Season Six unless canon is deliberately changed.
+The technical contradiction should deepen Aya/Minh peer development. McCluster should not consume the scripted-McCluster showcase reserved for later Season Six unless canon is deliberately changed.
 
 ---
 
@@ -244,7 +244,7 @@ The technical contradiction should deepen Aya/Minh peer development. Jordan shou
 - identity compromise outliving one endpoint.
 
 ### Stale local gameplay
-Local file makes Jordan the mixed containment-cell leader and centers his shame lesson.
+Local file makes McCluster the mixed containment-cell leader and centers his shame lesson.
 
 ### Current owners
 **Dmitri Volkov + Oksana Bondarenko**.
@@ -266,16 +266,16 @@ Choose any concealed mistake from the existing roster only if it strengthens the
 - idea that not all inherited state should be carried forward.
 
 ### Stale local spine
-Local file is primarily a Jordan/Aya relationship-commitment episode with both as migration leads.
+Local file is primarily a McCluster/Aya relationship-commitment episode with both as migration leads.
 
 ### Current owner
 **Valeria Soto**.
 
 ### Current recurrence
-Arjun, Emre, Jordan, Aya, Hassan, Rack, Chioma.
+Arjun, Emre, McCluster, Aya, Hassan, Rack, Chioma.
 
 ### Rewrite job
-Make the migration decision Valeria's professional growth while Jordan/Aya may receive smaller ongoing relationship beats rather than owning the hour.
+Make the migration decision Valeria's professional growth while McCluster/Aya may receive smaller ongoing relationship beats rather than owning the hour.
 
 ---
 
@@ -289,13 +289,13 @@ Make the migration decision Valeria's professional growth while Jordan/Aya may r
 - physical disposal leaking operational information.
 
 ### Stale local spine
-Local file is Jordan's private investigation into hidden McCluster infrastructure.
+Local file is McCluster's private investigation into hidden McCluster infrastructure.
 
 ### Current owners
 **Grace Mbala + Rafael Costa**.
 
 ### Current recurrence
-Oksana, Leila, Chioma, Perch, Kiosk, Sora; Jordan only Wildcard where needed.
+Oksana, Leila, Chioma, Perch, Kiosk, Sora; McCluster only Wildcard where needed.
 
 ### Rewrite job
 Turn the physical-evidence premise into a Grace/Rafael ethics-and-observation episode while still allowing evidence to advance the hidden architecture mystery.
@@ -313,16 +313,16 @@ Turn the physical-evidence premise into a Grace/Rafael ethics-and-observation ep
 - Pylon as building-level recurring presence.
 
 ### Stale local spine
-Local file says this preserves **Jordan's first direct encounter with Presiding Prime** and makes Jordan the coordinator.
+Local file says this preserves **McCluster's first direct encounter with Presiding Prime** and makes McCluster the coordinator.
 
 ### Current owners
 **Jonas Weber + Pylon**.
 
 ### Current recurrence
-Emre, Aya, Minh, Helen, Leila, PRIM2 institutional trace; Jordan optional Wildcard.
+Emre, Aya, Minh, Helen, Leila, PRIM2 institutional trace; McCluster optional Wildcard.
 
 ### Rewrite job
-Do not force a direct PRIM2/Jordan meeting. Make unexplained Pylon/root behavior the clue.
+Do not force a direct PRIM2/McCluster meeting. Make unexplained Pylon/root behavior the clue.
 
 ---
 
@@ -336,7 +336,7 @@ Do not force a direct PRIM2/Jordan meeting. Make unexplained Pylon/root behavior
 - ownership ambiguity as design defect.
 
 ### Stale local spine
-Jordan is the cross-layer incident coordinator and emotional center.
+McCluster is the cross-layer incident coordinator and emotional center.
 
 ### Current owners
 **Helen Clarke + Li Wei + Yonas Bekele**.
@@ -345,7 +345,7 @@ Jordan is the cross-layer incident coordinator and emotional center.
 Leila, Grace, Jonas, Amira, Marc, Chioma.
 
 ### Rewrite job
-Make shared responsibility a genuine institutional ensemble problem rather than Jordan discovering architecture meetings.
+Make shared responsibility a genuine institutional ensemble problem rather than McCluster discovering architecture meetings.
 
 ---
 
@@ -359,7 +359,7 @@ Make shared responsibility a genuine institutional ensemble problem rather than 
 - budget decision as an ethical/operational decision.
 
 ### Stale local spine
-Aya makes the final fallback recommendation while Jordan/Aya's future relationship dominates the human story.
+Aya makes the final fallback recommendation while McCluster/Aya's future relationship dominates the human story.
 
 ### Current owners
 **Amira Hassan + Marc Dubois**.
@@ -381,11 +381,11 @@ Use the same CapEx/OpEx problem to reactivate **GLASSHOUSE**: Marc's cost/risk a
 - global command-map visual language.
 
 ### Delete / replace
-- `Jordan's first indirect glimpse of Hitman` as currently framed;
+- `McCluster's first indirect glimpse of Hitman` as currently framed;
 - separate contemporary `Benji` appearing as an unknown second man;
-- any claim Jordan and Benji do not know one another;
+- any claim McCluster and Benji do not know one another;
 - `Prime packed both lanes` deterministic-manipulator framing;
-- Jordan as mandatory global service coordinator.
+- McCluster as mandatory global service coordinator.
 
 ### Current owners
 **Sari Wulandari + Sable Quinn**.
@@ -394,21 +394,21 @@ Use the same CapEx/OpEx problem to reactivate **GLASSHOUSE**: Marc's cost/risk a
 Minh, Yonas, Maren, Li, Kiosk, Grace; Royce conditional.
 
 ### Rewrite job
-Use elastic scale to show two familiar organizations solving different objectives under the same global pressure. Jordan's old Hitman connection remains reverse-reveal residue, not a separate Benji sighting.
+Use elastic scale to show two familiar organizations solving different objectives under the same global pressure. McCluster's old Hitman connection remains reverse-reveal residue, not a separate Benji sighting.
 
 ---
 
 ## 16 — PER DIEM / ROAD KIT
-**Classification:** **PARTIAL MIGRATION — INTENDED JORDAN SHOWCASE**
+**Classification:** **PARTIAL MIGRATION — INTENDED MCCLUSTER SHOWCASE**
 
 ### Preserve
-- Jordan as rare ordinary-season scripted PLAY character;
+- McCluster as rare ordinary-season scripted PLAY character;
 - field deployment / portable hardware / power / fatigue mechanics;
-- Jordan recognizing hidden exhaustion and taking an ugly shift;
+- McCluster recognizing hidden exhaustion and taking an ugly shift;
 - travel/per-diem/road texture that hints at Whip Equipped without exposition.
 
 ### Current owners
-**Jordan Vale + Valeria Soto**.
+**McCluster + Valeria Soto**.
 
 ### Migration need
 Replace the local **unnamed trainee** with Valeria and/or another established recurring person. Do not create a temporary sacrificial trainee when existing younger operators already exist.
@@ -417,7 +417,7 @@ Replace the local **unnamed trainee** with Valeria and/or another established re
 Chioma, Arjun, Sari, Mina, Tone, Rack, Dez; Royce conditional.
 
 ### Character job
-Valeria should notice that Jordan's road-life fluency is too practiced for an ordinary late-career student. Jordan's veteran instinct should be both admirable and evidence of a past he is not explaining.
+Valeria should notice that McCluster's road-life fluency is too practiced for an ordinary late-career student. McCluster's veteran instinct should be both admirable and evidence of a past he is not explaining.
 
 ---
 
@@ -427,20 +427,20 @@ Valeria should notice that Jordan's road-life fluency is too practiced for an or
 ### Preserve
 - patch provenance / staged deployment / canary / rollback mechanics;
 - repair does not equal restored trust;
-- Jordan/Aya consent/protection conflict belongs in this late-season pressure zone;
+- McCluster/Aya consent/protection conflict belongs in this late-season pressure zone;
 - technical trust and relationship trust should rhyme without becoming identical.
 
 ### Stale local spine
-Jordan is mission lead and episode center; file says he confirms `Prime deliberately shaped parts of his path` and contains stale `P-00` tasking assumptions.
+McCluster is mission lead and episode center; file says he confirms `Prime deliberately shaped parts of his path` and contains stale `P-00` tasking assumptions.
 
 ### Current owner
 **Aya Shinoda**.
 
 ### Current recurrence
-Jordan, Minh, Helen, Leila, Jonas, Chioma, Pylon; Hana through Kkeutori; Tariq/Ren only if specifically useful.
+McCluster, Minh, Helen, Leila, Jonas, Chioma, Pylon; Hana through Kkeutori; Tariq/Ren only if specifically useful.
 
 ### Rewrite job
-Aya's Kkeutori/Hana evidence and institutional capture should crack open here. Jordan matters emotionally, but Aya owns the epistemic and relational rupture.
+Aya's Kkeutori/Hana evidence and institutional capture should crack open here. McCluster matters emotionally, but Aya owns the epistemic and relational rupture.
 
 ---
 
@@ -454,14 +454,14 @@ Aya's Kkeutori/Hana evidence and institutional capture should crack open here. J
 - succession/challenge architecture becomes materially relevant.
 
 ### Current owners
-**Leila Hosseini + Helen Clarke + Jordan Vale**, subject to the actual song's language once supplied.
+**Leila Hosseini + Helen Clarke + McCluster**, subject to the actual song's language once supplied.
 
 ### Current recurrence target
 Li, Chioma, Thandiwe, Amira, Aya, Marc, Jonas, Pylon, Grace.
 
 ### Migrate
 - `Prime` -> PRIM2 where formal;
-- do not treat Jordan's decision as the only character movement;
+- do not treat McCluster's decision as the only character movement;
 - the institutional rupture must advance everyone in the room;
 - Song #21 still controls exact technical/emotional language once supplied.
 
@@ -471,11 +471,11 @@ Li, Chioma, Thandiwe, Amira, Aya, Marc, Jonas, Pylon, Grace.
 **Classification:** **CURRENT CORE / ADD LIFECYCLE DETAIL**
 
 Current locked chronology is correct:
-- Jordan PRIM-side assault;
+- McCluster PRIM-side assault;
 - Royce Hitman-side assault;
 - PRIM2 genuinely resists both;
 - every other assault member dies;
-- Jordan and Royce become sole survivors;
+- McCluster and Royce become sole survivors;
 - temporary alliance;
 - defeat PRIM2 together.
 
@@ -488,7 +488,7 @@ Before final script lock, define:
 - death sequence and cause at story-safe abstraction;
 - practical vacancy that would have existed if the series continued normally;
 - which objects/secrets/messages survive them;
-- Jordan/Royce grief/guilt reactions.
+- McCluster/Royce grief/guilt reactions.
 
 The finale should hurt because these people have been living in the building for years.
 
@@ -497,7 +497,7 @@ The finale should hurt because these people have been living in the building for
 ## 20 — EVIL TWIN / MIRROR ROOM
 **Classification:** **CURRENT CORE / ADD REMOTE ENSEMBLE DEVELOPMENT**
 
-Current PRIM2/Jordan/Royce confession/provenance structure is correct.
+Current PRIM2/McCluster/Royce confession/provenance structure is correct.
 
 ### Next production requirement
 Remote/evidence-linked Aya, Helen, Li, Leila, Amira, Marc, Jonas/Pylon must each receive a reaction/state change where continuity permits.
@@ -513,11 +513,11 @@ Current PRIM2→PRIM3 privilege-reduction/succession structure is correct.
 
 ### Next production requirement
 Aya, Helen, Leila, Jonas, Pylon, Chioma, Li and Royce should not exist merely as witnesses. Each needs a specific development write around:
-- Jordan receiving the Mantle;
+- McCluster receiving the Mantle;
 - PRIM2 losing sovereign power;
 - the deaths from RAID;
 - what governance must now change;
-- whether they trust Jordan differently after he accepts authority.
+- whether they trust McCluster differently after he accepts authority.
 
 The final episode ends the succession story but should leave a living social system, not a coronation tableau.
 
@@ -549,10 +549,10 @@ The local drafts contain substantial useful technical/inciting-event work. The m
 
 - episode owner = only person who develops;
 - named support character appearing without a persistent write;
-- Jordan as default player/incident coordinator;
+- McCluster as default player/incident coordinator;
 - separate present-day Benji;
 - `Prime-00`/`P-00` as current formal identity;
-- PRIM2 first discovering Jordan during college;
+- PRIM2 first discovering McCluster during college;
 - PRIM2 physically lurking in every episode;
 - automatic historical/outside guest quota;
 - unnamed disposable casualty when a recurring character should carry the loss;

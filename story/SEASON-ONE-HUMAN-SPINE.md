@@ -11,7 +11,7 @@ This file does not replace the existing Season One canon. It supplies the interp
 
 ## The emotional promise
 
-The protagonist does not join McCluster Corp because he wants danger. He joins because he wants ordinary things: stability, legitimacy, useful work, money, respect, and proof that going back to school at 33 was not a mistake.
+The protagonist does not join Equity Uprise because he wants danger. He joins because he wants ordinary things: stability, legitimacy, useful work, money, respect, and proof that going back to school at 33 was not a mistake.
 
 The tragedy of Season One is that the institution gives him many of those things before revealing the price.
 
@@ -23,7 +23,7 @@ He knows practical infrastructure. They know fresh academic language. Both sides
 
 The first friendships should come from small exchanges rather than destiny: borrowing a charger, fixing a lab mistake, covering a meal, arguing over a group project, walking to class because neither wants to admit they missed the bus.
 
-## Movement 2 — McCluster Corp feels like rescue
+## Movement 2 — Equity Uprise feels like rescue
 
 The internship is visually and materially impressive. The protagonist gets good clothes, competent equipment, access to serious systems, and adults who seem to recognize what he knows.
 

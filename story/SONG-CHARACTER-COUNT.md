@@ -17,7 +17,7 @@ version: 1.0.0
 | Role | Tree | Tier |
 |------|------|------|
 | Prime (speaker) | P / above | **Core** |
-| Jordan (raid feed) | P | **Core** |
+| McCluster (raid feed) | P | **Core** |
 | Benji (raid feed) | H | **Core** |
 | Hire-chain sponsors (addressed) | P/H mixed | **Higher** (2–4 names) |
 | Robot / house units | P | systems |
@@ -30,7 +30,7 @@ version: 1.0.0
 ## E02 White Grey Black Hat
 | Role | Tree | Tier |
 |------|------|------|
-| Speaker / operator learning hats | P | **Core** (Jordan) |
+| Speaker / operator learning hats | P | **Core** (McCluster) |
 | Task force / crew (“we”) | P | Higher (team slots) |
 | Client with permission (white box) | X | Extra victim/client |
 | Cops (if grey turns malicious) | X | Extra |
@@ -42,7 +42,7 @@ version: 1.0.0
 ## E03 OSINT
 | Role | Tree | Tier |
 |------|------|------|
-| Speaker (collector) | P | Jordan / Field-R |
+| Speaker (collector) | P | McCluster / Field-R |
 | Extortion mark (“quiet cash”) | X | Extra victim |
 | Sharing-center / subscription faces | X | Extra |
 | Compromised “never compromised” target | X | Extra |
@@ -82,7 +82,7 @@ version: 1.0.0
 ## E06 Patch Work
 | Role | Tree | Tier |
 |------|------|------|
-| Speaker (patch / love) | P | **Core** Jordan or duet |
+| Speaker (patch / love) | P | **Core** McCluster or duet |
 | Partner (“been with you since sandbox”) | P | **Core Aya Shinoda** |
 | Network people mad at “us” | P | Extra coworkers |
 | Leeches / old scripts / virus voices | X | Extra |
@@ -94,7 +94,7 @@ version: 1.0.0
 ## E07 App Attacks
 | Role | Tree | Tier |
 |------|------|------|
-| Attacker / team | P | Jordan + Field-T |
+| Attacker / team | P | McCluster + Field-T |
 | Soft-target users | X | Extra victims |
 | Admin / RBAC holders | X or P | Extra or internal |
 **Count:** medium · 2–3 higher + X users
@@ -104,7 +104,7 @@ version: 1.0.0
 ## E08 Installation Types
 | Role | Tree | Tier |
 |------|------|------|
-| Installer / path-chooser | P | Jordan |
+| Installer / path-chooser | P | McCluster |
 | “Brothers die searching” | P/H | Higher fallen or extra |
 **Count:** low · path doctrine
 
@@ -142,7 +142,7 @@ version: 1.0.0
 ## E12 Cap Ex vs Op Ex
 | Role | Tree | Tier |
 |------|------|------|
-| Speaker | P | Jordan |
+| Speaker | P | McCluster |
 | **Wifey (CapEx)** | P | **Core Aya** |
 | **Sidepiece (OpEx)** | X or P | Extra or named rival interest |
 | Right-guy / crime-scene CapEx source | H or X | Extra or Hitman money |
@@ -163,7 +163,7 @@ version: 1.0.0
 ## E14 Per Diem
 | Role | Tree | Tier |
 |------|------|------|
-| Grinder (speaker) | P | Jordan / cohort |
+| Grinder (speaker) | P | McCluster / cohort |
 | Seasonal vs hybrid peers | P | Higher cohort fills |
 **Count:** 2–5 cohort faces → **roster fill**
 
@@ -173,7 +173,7 @@ version: 1.0.0
 | Role | Tree | Tier |
 |------|------|------|
 | Prime | P | Core |
-| Jordan | P | Core |
+| McCluster | P | Core |
 | Benji | H | Core |
 | Outer-site defenders | P | Higher building defense ×2+ |
 | Raid teams both sides | P+H | Higher field slots |
@@ -204,7 +204,7 @@ version: 1.0.0
 | Role | Tree | Tier |
 |------|------|------|
 | Prime-as-ghost | above/P | Core |
-| Jordan | P | Core |
+| McCluster | P | Core |
 | Wire / infrastructure as presence | P | systems |
 **Count:** core pair + system
 
@@ -217,7 +217,7 @@ version: 1.0.0
 | High Alert | hire chain, dual raiders | kit ops |
 | Anti Social | SE specialist, crew, DEFcon | drip victims, police |
 | Teams | full color seats | corporate foil |
-| Patch Work | Jordan + Aya | network noise |
+| Patch Work | McCluster + Aya | network noise |
 | CapEx/OpEx | Aya + optional side | rental faces |
 | RAID | both raid rosters + defense | unnamed dead |
 | **Evil Twin** | **Hitgirl-H, Kiosk, Lower Exec, Hitgirl-M, cyber crew, optional Sponsor** | politicians, reddit, crowd |

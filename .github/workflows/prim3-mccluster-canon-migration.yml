@@ -1,0 +1,39 @@
+name: PRIM3 McCluster Canon Migration
+
+on:
+  push:
+    branches:
+      - canon/mccluster-equity-uprise-workplace
+    paths:
+      - development/migrate_mccluster_equity_uprise_canon.py
+      - .github/workflows/prim3-mccluster-canon-migration.yml
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: canon/mccluster-equity-uprise-workplace
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Apply canon migration
+        run: python development/migrate_mccluster_equity_uprise_canon.py
+      - name: Verify canon migration
+        run: python development/verify_mccluster_equity_uprise_canon.py
+      - name: Commit migration
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Canon migration already applied."
+          else
+            git commit -m "Migrate PRIM3 protagonist canon to McCluster"
+            git push origin HEAD:canon/mccluster-equity-uprise-workplace
+          fi

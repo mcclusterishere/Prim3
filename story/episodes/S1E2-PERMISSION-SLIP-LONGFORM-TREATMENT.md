@@ -84,7 +84,7 @@ Miguel quietly enjoys this far too much.
 
 Priya is irritated, but she waits.
 
-This establishes that Nusrat's behavior with Jordan later is not selective suspicion.
+This establishes that Nusrat's behavior with McCluster later is not selective suspicion.
 
 **Character writes:**
 - Nusrat = consistency before status.
@@ -97,9 +97,9 @@ This establishes that Nusrat's behavior with Jordan later is not selective suspi
 # Scene 2 — “THE NEW GUY”
 **Approx. 2:30–5:30**
 
-Jordan arrives for formal onboarding.
+McCluster arrives for formal onboarding.
 
-This should be one of the first extended looks at age-33 Jordan after the future shock of Episode 1.
+This should be one of the first extended looks at age-33 McCluster after the future shock of Episode 1.
 
 He does not enter like a superhero.
 
@@ -109,12 +109,12 @@ Chioma sees him before she speaks to him.
 
 Aya is checking technical issue kits nearby.
 
-Miguel greets Jordan casually.
+Miguel greets McCluster casually.
 Nusrat checks the manifest.
 
-One diagnostic/security appliance is present physically but absent from Jordan's issuance record.
+One diagnostic/security appliance is present physically but absent from McCluster's issuance record.
 
-Jordan notices Nusrat stop on the line item.
+McCluster notices Nusrat stop on the line item.
 
 He says before she accuses him:
 
@@ -124,12 +124,12 @@ That matters.
 
 Aya examines it and confirms the device class, not ownership.
 
-Jordan can explain what it is useful for.
+McCluster can explain what it is useful for.
 
 Nusrat:
 > “That's not the question.”
 
-Jordan:
+McCluster:
 > “I know.”
 
 Aya looks at him because she expected more resistance.
@@ -142,7 +142,7 @@ Aya looks at him because she expected more resistance.
 The small problem starts inconveniencing larger people.
 
 Priya's onboarding schedule is now slipping.
-Maren needs to know whether Jordan's delay is routine or something she has to explain.
+Maren needs to know whether McCluster's delay is routine or something she has to explain.
 
 Somebody proposes the obvious solution:
 
@@ -153,7 +153,7 @@ Helen appears remotely or in person depending production blocking.
 Nusrat explains:
 - device class known;
 - provenance unresolved;
-- Jordan disclosed discrepancy;
+- McCluster disclosed discrepancy;
 - no evidence of misconduct;
 - no authority to issue/use the appliance yet.
 
@@ -168,26 +168,26 @@ Helen:
 
 That exchange should land quietly.
 
-Jordan hears it.
+McCluster hears it.
 
 This is one of his first pieces of evidence that authority here can actually submit to procedure.
 
 Aya offers to retain the device in technical custody until provenance is corrected.
 
-Jordan gives Aya the most useful information he knows about what the device was likely intended for.
+McCluster gives Aya the most useful information he knows about what the device was likely intended for.
 
 Then he stops.
 
 Aya:
 > “You're not going to argue?”
 
-Jordan:
+McCluster:
 > “About what? She said I'm not cleared.”
 
 Aya:
 > “You seem like somebody who argues.”
 
-Jordan:
+McCluster:
 > “I argue when I think I'm right.”
 
 Nusrat, without looking up:
@@ -238,18 +238,18 @@ Team:
 - Miguel;
 - Aya.
 
-Jordan immediately asks if he is going.
+McCluster immediately asks if he is going.
 
 Chioma:
 > “No.”
 
-Jordan:
+McCluster:
 > “Because of the device?”
 
 Chioma:
 > “Because you aren't field-cleared.”
 
-Jordan absorbs it.
+McCluster absorbs it.
 
 No tantrum.
 No secret ride-along.
@@ -558,7 +558,7 @@ Back at McCluster.
 
 Priya's polished onboarding schedule is wrecked.
 
-Jordan spent half the day waiting, learning the building and talking to whoever was around instead of receiving the planned introduction.
+McCluster spent half the day waiting, learning the building and talking to whoever was around instead of receiving the planned introduction.
 
 Priya thinks the day looks sloppy.
 
@@ -585,11 +585,11 @@ It was an ordinary internal issuance error, not a conspiracy.
 
 That is important: not every irregularity points to PRIM2.
 
-Jordan receives the correct access state.
+McCluster receives the correct access state.
 
 Nusrat hands/activates his credential.
 
-Jordan:
+McCluster:
 > “So now you trust me?”
 
 Nusrat:
@@ -602,7 +602,7 @@ Beat.
 Miguel laughs.
 Aya tries not to.
 
-Jordan:
+McCluster:
 > “That's cold.”
 
 Nusrat:
@@ -610,7 +610,7 @@ Nusrat:
 
 Pylon announces the successful access state in exactly the same boring cadence used in Scene 1.
 
-Jordan walks through.
+McCluster walks through.
 
 ---
 
@@ -623,18 +623,18 @@ Do not overexplain PRIM2.
 
 The audience receives only enough to know somebody above the visible structure is evaluating more than mission grades.
 
-PRIM2 already knows Jordan's historical identity.
+PRIM2 already knows McCluster's historical identity.
 
 The useful observation is behavioral:
 
 ```text
-SUBJECT: JORDAN VALE
+SUBJECT: MCCLUSTER
 CAPABILITY: CONFIRMED / PREVIOUSLY KNOWN
 BOUNDARY RESPONSE: RESTRAINT
 UNAUTHORIZED OPPORTUNITY: DECLINED
 ```
 
-Then another line — not Jordan:
+Then another line — not McCluster:
 
 ```text
 RAHMAN, NUSRAT
@@ -642,7 +642,7 @@ HIERARCHY PRESSURE: RESISTED
 SCOPE DISCIPLINE: HIGH
 ```
 
-PRIM2 is not just selecting Jordan.
+PRIM2 is not just selecting McCluster.
 
 He is studying the whole institution.
 
@@ -658,11 +658,11 @@ Moves from competent coworkers toward genuine trust. Miguel becomes one of the f
 ### Nusrat ↔ Aya
 Aya realizes access/governance discipline can protect technical truth rather than merely restrict it.
 
-### Nusrat ↔ Jordan
-Jordan respects her because she tells him no consistently rather than suspiciously.
+### Nusrat ↔ McCluster
+McCluster respects her because she tells him no consistently rather than suspiciously.
 
-### Aya ↔ Jordan
-Aya's first positive trust marker: Jordan does not convert expertise into entitlement.
+### Aya ↔ McCluster
+Aya's first positive trust marker: McCluster does not convert expertise into entitlement.
 
 ### Helen ↔ Nusrat
 Helen signals that legitimate executive authority can strengthen subordinate authority rather than automatically override it.
@@ -670,8 +670,8 @@ Helen signals that legitimate executive authority can strengthen subordinate aut
 ### Priya ↔ Maren
 First real philosophical difference about whether communications should reduce friction or reveal it honestly.
 
-### Chioma ↔ Jordan
-Chioma's first meaningful judgment of Jordan is about discipline, not talent.
+### Chioma ↔ McCluster
+Chioma's first meaningful judgment of McCluster is about discipline, not talent.
 
 ---
 
@@ -682,15 +682,17 @@ Episode 3 should not reset the office.
 Carry forward:
 - Nusrat has now led a mission successfully;
 - Miguel has a stronger internal reputation;
-- Aya has a specific reason to trust Nusrat and a tiny reason to trust Jordan;
-- Jordan remains not-yet-field-cleared;
+- Aya has a specific reason to trust Nusrat and a tiny reason to trust McCluster;
+- McCluster remains not-yet-field-cleared;
 - Priya/Maren's communications philosophy has begun diverging;
 - Chioma has begun building behavioral models of the cohort;
 - Pylon's normal behavior has been established;
-- PRIM2 has started evaluating Nusrat as well as Jordan.
+- PRIM2 has started evaluating Nusrat as well as McCluster.
 
 ---
 
 # Governing line
 
 > **The episode starts with a badge reader and ends with the same question under fire: who has the right to do what, and what happens when the fastest answer is outside the line?**
+
+Workplace authority: story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md.

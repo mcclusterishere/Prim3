@@ -64,7 +64,7 @@
       {"id": "P-CONTAIN", "type": "PRIMARY", "description": "Contain high-risk affected services without unnecessary outage."},
       {"id": "L-EVIDENCE", "type": "LEARNING", "description": "Preserve evidence before destructive recovery."},
       {"id": "P-RESTORE", "type": "PRIMARY", "description": "Restore and validate one trusted critical function."},
-      {"id": "S-JORDAN", "type": "STORY", "description": "Lawfully preserve Jordan's pre-recruitment record."},
+      {"id": "S-MCCLUSTER", "type": "STORY", "description": "Lawfully preserve McCluster's pre-recruitment record."},
       {"id": "X-EXTRACT", "type": "EXTRACT", "description": "Extract the team with stabilized or sealed mission state."}
     ],
     "edges": [
@@ -72,7 +72,7 @@
       {"from": "P-SCOPE", "relation": "improves", "to": "P-CONTAIN"},
       {"from": "L-EVIDENCE", "relation": "requires", "to": "P-RESTORE"},
       {"from": "P-CONTAIN", "relation": "unlocks", "to": "P-RESTORE"},
-      {"from": "L-EVIDENCE", "relation": "unlocks", "to": "S-JORDAN"},
+      {"from": "L-EVIDENCE", "relation": "unlocks", "to": "S-MCCLUSTER"},
       {"from": "P-RESTORE", "relation": "unlocks", "to": "X-EXTRACT"}
     ]
   },
@@ -140,7 +140,7 @@
       "dependencies": ["Field-E SECURE control permits maximum EVIDENCE_INTEGRITY", "CONTESTED control caps evidence integrity below maximum"],
       "wrong_path_consequences": ["Over-collection consumes WINDOW and raises privacy EXPOSURE", "Casual handling lowers EVIDENCE_INTEGRITY", "Skipping verification yields weaker debrief confidence"],
       "validation": "Preserved artifact verification values and provenance record must agree with the captured source state.",
-      "battlefield_effect": "Sealed evidence enables the strongest scope findings, preserves Jordan's story evidence option, and improves debrief authority."
+      "battlefield_effect": "Sealed evidence enables the strongest scope findings, preserves McCluster's story evidence option, and improves debrief authority."
     },
     {
       "id": "LAB-E-VENDOR",

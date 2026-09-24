@@ -20,7 +20,7 @@ PRIMARY OWNERS: Oksana Bondarenko / Rafael Costa
 SECONDARY DEPTH: Valeria Soto / Leila Hosseini / Chioma Okeke
 MISSION LEAD: Oksana
 BASE PLAYABLE ROSTER: Oksana / Rafael / Valeria
-JORDAN: edge/cameo; off-board Wildcard only if authored CRITICAL state is reached
+MCCLUSTER: edge/cameo; off-board Wildcard only if authored CRITICAL state is reached
 APEX: unavailable
 ROYCE: unavailable
 ```
@@ -38,7 +38,7 @@ ROYCE: unavailable
 | Chioma | recurring command presence | Watches Valeria recover from embarrassment and begins treating recoverability—not swagger—as leadership potential. |
 | Pylon | system support | Provides lawful environmental/custody context but also demonstrates that system-generated metadata still requires interpretation. |
 | Chris “Perch” Alvarez | Hitman parallel | Builds a picture of the same broader environment from a different organizational logic, establishing him as a recurring mirror to Rafael. |
-| Jordan | optional edge | If present, sees a pattern early but has to accept that seeing it first does not make it proven. |
+| McCluster | optional edge | If present, sees a pattern early but has to accept that seeing it first does not make it proven. |
 
 ---
 
@@ -82,7 +82,7 @@ Core line:
 5. Leila maps source provenance and shows several “confirmations” are circular.
 6. Perch appears on the opposing board building his own context picture from different incentives.
 7. The PRIM team resolves the custody/trade-name mismatch without scapegoating the coordinator.
-8. Jordan, if present, learns that intuition needs somebody willing to tell him “not yet.”
+8. McCluster, if present, learns that intuition needs somebody willing to tell him “not yet.”
 
 ---
 
@@ -99,7 +99,7 @@ The player wins by producing a defensible picture, not by guessing the right ans
 
 - Oksana becomes the cast's strongest “slow down the claim” voice.
 - Rafael/Oksana establish productive friction.
-- Valeria starts admiring Oksana instead of only Jordan.
+- Valeria starts admiring Oksana instead of only McCluster.
 - Leila gains a recurring role as the person who asks where institutional “truth” came from.
 - Chioma records Valeria's recovery from embarrassment as leadership potential.
 - Perch becomes recognizable enough that later Hitman appearances feel like recurrence, not a new villain.
@@ -109,6 +109,15 @@ The player wins by producing a defensible picture, not by guessing the right ans
 
 # Season-one handoff
 
-Season One ends with the audience understanding that Jordan entered a workplace where other people's careers, rivalries, ethics and histories were already moving before he arrived.
+Season One ends with the audience understanding that McCluster entered a workplace where other people's careers, rivalries, ethics and histories were already moving before he arrived.
 
-> **The world did not begin when Jordan walked in.**
+> **The world did not begin when McCluster walked in.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F5 source review/evidence; F3 Field-R coordination.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

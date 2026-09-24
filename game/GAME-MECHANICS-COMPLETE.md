@@ -15,7 +15,7 @@ Specialized authorities:
 1. `ADAPTIVE-CYBER-RANGE-AUTHORITY.md`, readiness, adaptation, live lab integration, and evidence traces.
 2. `LEARNING-MISSION-SOURCE-OF-TRUTH.md`, PRIM learning loop and mastery law.
 3. `TACTICAL-IT-MECHANICS-BIBLE.md`, technical and action grammar.
-4. `WILDCARD-INTERVENTION-AUTHORITY.md`, Jordan, PRIM2, and Royce escalation.
+4. `WILDCARD-INTERVENTION-AUTHORITY.md`, McCluster, PRIM2, and Royce escalation.
 5. `OMNISCIENT-COMMAND-INTERFACE.md`, fused mission control UI.
 6. `story/ENSEMBLE-POV-AUTHORITY.md`, character and episode ownership.
 7. `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md`, recurring cast development, death, vacancy, promotion, and replacement.
@@ -61,7 +61,7 @@ Every tactical mission carries:
 STABLE -> DEGRADED -> CRITICAL -> TERMINAL
 ```
 
-CRITICAL may expose a Jordan Wildcard request. An eligible high value story mission that remains CRITICAL after Jordan is present may expose a PRIM2 Apex request.
+CRITICAL may expose a McCluster Wildcard request. An eligible high value story mission that remains CRITICAL after McCluster is present may expose a PRIM2 Apex request.
 
 Training Range missions do not use story interventions unless an explicit simulator lesson requires a noncanonical demonstration.
 
@@ -137,11 +137,11 @@ Neither can auto award technical mastery.
 | Vacancies | Work and roles left uncovered after death, transfer, or departure |
 | Promotion | Existing support people absorbing new responsibility |
 | Onboarding | New arrivals integrating unevenly into the social and operational graph |
-| Wildcard | Scarce Jordan call up authorizations |
+| Wildcard | Scarce McCluster call up authorizations |
 | Apex | Scarce PRIM2 intervention authorizations |
 | Hitman pressure | Eligibility pressure for hostile escalation including Royce |
 
-Jordan is not a normal selectable roster slot on most story missions.
+McCluster is not a normal selectable roster slot on most story missions.
 
 ## D2. Strategy turn
 
@@ -179,11 +179,11 @@ RoyceCooldown
 RoyceIncursionsSeason
 ```
 
-Budget does not directly purchase Jordan or PRIM2.
+Budget does not directly purchase McCluster or PRIM2.
 
 Canonical Standard balance remains:
 
-1. Jordan Wildcard, 2 nonscripted calls per season.
+1. McCluster Wildcard, 2 nonscripted calls per season.
 2. PRIM2 Apex, 3 nonscripted calls per seven season campaign.
 3. Royce, maximum 2 nonscripted incursions per season, one per mission, then a two mission cooldown.
 
@@ -266,13 +266,13 @@ Story missions may field other qualified named characters, Leads, Defense person
 
 The game controls people, not abstract job icons.
 
-## F3. Jordan intervention
+## F3. McCluster intervention
 
-Most story missions launch without Jordan.
+Most story missions launch without McCluster.
 
 When a valid mission reaches CRITICAL, the player may request him through the executive chain if he is off board, a Wildcard Authorization remains, the mission permits it, and a plausible arrival route exists.
 
-Jordan restores options rather than auto solving technical work.
+McCluster restores options rather than auto solving technical work.
 
 Core identity remains:
 
@@ -285,7 +285,7 @@ FAILOVER INSTINCT
 
 ## F4. PRIM2 intervention
 
-PRIM2 can become a nonscripted second stage rescue only on eligible high value missions after Jordan is already present and CRITICAL failure persists or returns.
+PRIM2 can become a nonscripted second stage rescue only on eligible high value missions after McCluster is already present and CRITICAL failure persists or returns.
 
 His authority can expose information and alter permission. It cannot alter physical truth, bypass validation, or resurrect losses.
 
@@ -547,7 +547,7 @@ The preferred browser tactical renderer is PlayCanvas for the current implementa
 5. Approach, Window, and Extract clocks.
 6. Mission state ladder.
 7. Downed, stabilize, injury, and death.
-8. Jordan request and delayed arrival.
+8. McCluster request and delayed arrival.
 9. PRIM2 Apex state.
 10. Royce incursion state.
 11. Graded operational outcome.
@@ -600,6 +600,6 @@ The learner should sometimes fail an operation but prove genuine technical under
 
 The campaign should still create the emotional moment where the player sees a collapsing mission, a named character at risk, one Wildcard Authorization remaining, and decides:
 
-> **Fuck the perfect grade. Call Jordan. Get them home.**
+> **Fuck the perfect grade. Call McCluster. Get them home.**
 
 That rescue can save the people. It cannot purchase understanding.

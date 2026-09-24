@@ -9,7 +9,7 @@ branch: main
 
 These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-TEMPLATE.md` for the 24 Prim3/McCluster mains. They are **proposed development**, not a silent rewrite of root canon.
 
-## 01 — Jordan Vale — United States — 33
+## 01 — McCluster — United States — 33
 
 **Civilian baseline:** First-year college student, recently homeless, living as cheaply and close to campus/work as circumstances allow. A normal Tuesday before McCluster is class, library/computer-lab time, job hunting, fixing somebody else's tech for cash, checking account balance too often, and trying to look less financially unstable than he is.
 
@@ -41,7 +41,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 
 **Civilian baseline:** Lives neatly, buys fewer things than she can afford, repairs instead of replacing, and keeps a small set of high-quality tools that matter more to her than most jewelry. A normal Tuesday is lab/work, a precise meal, a call home she may delay if she thinks she sounds tired, and some technical problem she cannot resist touching after hours.
 
-**Money / family:** Not wealthy, but more stable than Jordan. Sends gifts and money home selectively because her family will refuse anything that feels like charity. Family expects competence, not emotional disclosure.
+**Money / family:** Not wealthy, but more stable than McCluster. Sends gifts and money home selectively because her family will refuse anything that feels like charity. Family expects competence, not emotional disclosure.
 
 **Education / specialty:** Engineering research background with robotics, embedded systems and diagnostics. Strongest when documentation is incomplete and the system is behaving strangely under load.
 
@@ -57,9 +57,9 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 
 **Moral boundary:** refuses to knowingly design a system whose safe operation depends on lying to its users.  
 **Stress habit:** becomes hyper-specific and controlling.  
-**Secret:** she is more afraid of Jordan dying than of the organization itself.
+**Secret:** she is more afraid of McCluster dying than of the organization itself.
 
-**Relationships:** loves Jordan; professionally competitive with Minh; trusts Chioma's leadership; is irritated by Rafael's jokes; Grace sees through her stoicism.
+**Relationships:** loves McCluster; professionally competitive with Minh; trusts Chioma's leadership; is irritated by Rafael's jokes; Grace sees through her stoicism.
 
 **Failure mode:** withholds uncertainty and overfunctions.  
 **Longevity:** long-run central cast.  
@@ -87,7 +87,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 **Stress habit:** checks equipment and exits repeatedly.  
 **Secret:** he sometimes blames himself for deaths caused by decisions above him because self-blame feels more controllable than institutional betrayal.
 
-**Relationships:** trusts Jordan in technical improvisation but challenges his physical-risk judgment; clashes affectionately with Hassan over access doctrine; Chioma relies on him to say when a plan is physically impossible.
+**Relationships:** trusts McCluster in technical improvisation but challenges his physical-risk judgment; clashes affectionately with Hassan over access doctrine; Chioma relies on him to say when a plan is physically impossible.
 
 **Failure mode:** over-responsibility.  
 **Longevity:** multi-season anchor.  
@@ -199,7 +199,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 **Stress habit:** becomes hyper-functional and emotionally unavailable.  
 **Secret:** she has imagined what she would change if Prime disappeared.
 
-**Relationships:** Thandiwe is peer/rival; Grace is conscience; Jordan earns her respect slowly; Helen sees her as dangerous because people follow her voluntarily.
+**Relationships:** Thandiwe is peer/rival; Grace is conscience; McCluster earns her respect slowly; Helen sees her as dangerous because people follow her voluntarily.
 
 **Failure mode:** assumes responsibility until she becomes the bottleneck.  
 **Longevity:** long-term leadership spine.  
@@ -255,7 +255,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 **Stress habit:** becomes rigid.  
 **Secret:** keeps written notes about executive overrides outside the normal system.
 
-**Relationships:** Miguel is trusted second seat; Hassan respects her boundaries; Jordan irritates her when he treats authorization like an obstacle instead of a social contract.
+**Relationships:** Miguel is trusted second seat; Hassan respects her boundaries; McCluster irritates her when he treats authorization like an obstacle instead of a social contract.
 
 **Failure mode:** mistakes consistency for fairness when the underlying rule is wrong.  
 **Longevity:** recurring.  
@@ -339,7 +339,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 **Stress habit:** takes extra shifts.  
 **Secret:** he sometimes envies people allowed to fall apart publicly.
 
-**Relationships:** friendly rivalry with Sari; respects Jordan's resilience; Chioma relies on him as an emotional stabilizer.
+**Relationships:** friendly rivalry with Sari; respects McCluster's resilience; Chioma relies on him as an emotional stabilizer.
 
 **Failure mode:** quiet burnout.  
 **Longevity:** several seasons.  
@@ -367,7 +367,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 **Stress habit:** overcommits and misses meals/sleep.  
 **Secret:** she keeps an alternate job plan active even after McCluster starts investing in her.
 
-**Relationships:** looks up to Jordan and resents needing his approval; protected by Sari; underestimated by Helen at first.
+**Relationships:** looks up to McCluster and resents needing his approval; protected by Sari; underestimated by Helen at first.
 
 **Failure mode:** confuses motion with progress.  
 **Longevity:** multi-season developmental mirror.  
@@ -451,7 +451,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 **Stress habit:** takes on emotional labor for everybody.  
 **Secret:** maintains contact with affected people after missions when policy says the case is closed.
 
-**Relationships:** Chioma trusts her conscience; Jordan underestimates her investigative persistence; Amira quietly depends on her reports.
+**Relationships:** Chioma trusts her conscience; McCluster underestimates her investigative persistence; Amira quietly depends on her reports.
 
 **Failure mode:** compassion fatigue hidden behind competence.  
 **Longevity:** long-term moral spine.  
@@ -479,7 +479,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 **Stress habit:** isolates at the bench.  
 **Secret:** he keeps experimental fixes off the official repo until he trusts the mission context.
 
-**Relationships:** Aya is benchmark/rival; Jonas appreciates his hardware honesty; Jordan likes that Minh does not care about credentials.
+**Relationships:** Aya is benchmark/rival; Jonas appreciates his hardware honesty; McCluster likes that Minh does not care about credentials.
 
 **Failure mode:** refuses context and focuses too narrowly on technical truth.  
 **Longevity:** multi-season.  
@@ -591,7 +591,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 **Stress habit:** overworks the message instead of confronting the event.  
 **Secret:** she has saved early brand drafts that reveal how much recruitment psychology was intentionally engineered.
 
-**Relationships:** Maren is collaborator/confidante; Sora is high-value contractor; Jordan initially loves the swag Priya later feels guilty about.
+**Relationships:** Maren is collaborator/confidante; Sora is high-value contractor; McCluster initially loves the swag Priya later feels guilty about.
 
 **Failure mode:** confuses beautiful framing with ethical communication.  
 **Longevity:** recurring public-surface spine.  
@@ -601,7 +601,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 
 **Civilian baseline:** High-functioning executive life, clean home, scheduled family contact, exercise and work boundaries she violates constantly. A normal Tuesday is portfolio review, staffing decisions, sponsor meetings and contingency planning after everybody else signs off.
 
-**Money / family:** Financially secure; this distance from scarcity makes Jordan initially suspicious of her advice.
+**Money / family:** Financially secure; this distance from scarcity makes McCluster initially suspicious of her advice.
 
 **Education / specialty:** Program governance, portfolio management, institutional continuity, executive resource authority.
 
@@ -619,7 +619,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 **Stress habit:** creates contingency plans nobody asked for.  
 **Secret:** maintains a private succession-readiness framework outside normal reporting.
 
-**Relationships:** trusts Amira; grooms Li; wary of Chioma's organic authority; Jordan sees her as proof the institution thinks further ahead than it admits.
+**Relationships:** trusts Amira; grooms Li; wary of Chioma's organic authority; McCluster sees her as proof the institution thinks further ahead than it admits.
 
 **Failure mode:** planning becomes manipulation.  
 **Longevity:** long-run authority.  
@@ -675,7 +675,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 **Stress habit:** becomes confrontational and sleeps less.  
 **Secret:** she keeps a draft proposal for restructuring authority after Prime, even though discussing “after Prime” openly is dangerous institutionally.
 
-**Relationships:** Chioma is peer/rival/friend; Grace is trusted conscience; Helen sees her as a governance threat; Jordan admires her ability to say out loud what he only thinks.
+**Relationships:** Chioma is peer/rival/friend; Grace is trusted conscience; Helen sees her as a governance threat; McCluster admires her ability to say out loud what he only thinks.
 
 **Failure mode:** moral clarity becomes rigidity.  
 **Longevity:** long-run leadership.  

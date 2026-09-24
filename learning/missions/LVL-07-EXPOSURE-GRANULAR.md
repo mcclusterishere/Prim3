@@ -17,7 +17,7 @@ inherits:
 
 This is the reference mission for proving that PRIM3 can be a satisfying XCOM-style tactical game and a legitimate applied IT lab at the same time.
 
-The existing episode contract remains authoritative: the personnel/training system is compromised; Jordan finds a pre-recruitment file; the response must contain spread, establish defensible impact scope, preserve evidence, protect people, and avoid response-driven privacy harm.
+The existing episode contract remains authoritative: the personnel/training system is compromised; McCluster finds a pre-recruitment file; the response must contain spread, establish defensible impact scope, preserve evidence, protect people, and avoid response-driven privacy harm.
 
 No offensive procedure is required. All technical systems, identities, traffic, logs, and malware behavior are fictional/sandboxed.
 
@@ -128,7 +128,7 @@ R loading-lane clue --improves------> physical-access hypothesis
 T identity lab -------improves------> safe restoration
 T premature wipe -----conflicts-----> Evidence Integrity
 Heavy combat Z-D -----risks---------> Service Health / hardware evidence
-Optional Jordan file -requires------> authorization + evidence-room access
+Optional McCluster file -requires------> authorization + evidence-room access
 ```
 
 Mission does not require every optional branch.
@@ -347,7 +347,7 @@ Player has limited storage/time and must choose priority artifacts:
 - affected service state;
 - identity events;
 - transfer telemetry;
-- optional Jordan pre-recruitment record;
+- optional McCluster pre-recruitment record;
 - low-value unrelated bulk data.
 
 Over-collection costs Window and creates privacy Exposure.
@@ -573,7 +573,7 @@ Suggested mission-specific inputs:
 - +35 scope >= 70 and containment verified
 - +25 trusted critical function restored
 - +15 notification path protected
-- +15 Jordan record lawfully preserved
+- +15 McCluster record lawfully preserved
 - +10 vendor/physical clue correctly classified
 
 ## Team

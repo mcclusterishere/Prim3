@@ -9,24 +9,24 @@ branch: main
 
 These compact dossiers govern the contemporary Hitman ensemble unless a later individual dossier overrides them.
 
-**Benji is Jordan Vale's age-19-to-26 identity, not a separate present-day operator. Royce is the contemporary Hitman successor/sovereign.**
+**Benji is McCluster's age-19-to-26 identity, not a separate present-day operator. Royce is the contemporary Hitman successor/sovereign.**
 
-For Jordan/Benji history, use `JORDAN-VALE-HITMAN-ORIGIN-CANON.md` and `JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md`.
+For McCluster/Benji history, use `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `MCCLUSTER-PSYCHOLOGICAL-BACKGROUND.md`.
 
-## Royce — contemporary sovereign / Jordan's old rival
+## Royce — contemporary sovereign / McCluster's old rival
 
-**Age relationship:** seven years younger than Jordan. Approximately 19 when Jordan is 26 and refuses Bigga Lex's succession.  
+**Age relationship:** seven years younger than McCluster. Approximately 19 when McCluster is 26 and refuses Bigga Lex's succession.  
 **Civilian texture:** keeps a schedule in which business, people asking permission, property/relationship obligations and visible authority blur together.  
 **Money:** increasingly asset- and network-based; equates durable control with survival.  
 **Specialty:** command pressure, battlefield authority, loyalty networks, reading fear and ambition.  
 **Voice:** controlled until challenged; more direct and volatile than the old-head caricature in superseded drafts.  
-**Private wound:** hates any implication that his chair is merely something Jordan discarded.  
-**Desire:** prove the authority is his because he could carry it, not because Jordan walked away.  
+**Private wound:** hates any implication that his chair is merely something McCluster discarded.  
+**Desire:** prove the authority is his because he could carry it, not because McCluster walked away.  
 **Fear:** discovering his entire reign existed inside a larger PRIM2 architecture.  
 **Moral boundary:** believes there are forms of weakness a leader cannot publicly show; this becomes a liability rather than a virtue.  
 **Stress habit:** tightens control and makes loyalty tests more personal.  
-**Secret:** Jordan's refusal still structures how Royce thinks about legitimacy.  
-**Key ties:** Jordan/Benji = old rival/predecessor-by-refusal; Sable = organizational reality; Tone/Mina = people whose voluntary loyalty matters; PRIM2 = hidden apex.  
+**Secret:** McCluster's refusal still structures how Royce thinks about legitimacy.  
+**Key ties:** McCluster/Benji = old rival/predecessor-by-refusal; Sable = organizational reality; Tone/Mina = people whose voluntary loyalty matters; PRIM2 = hidden apex.  
 **Failure mode:** authority becomes identity, so challenges to authority feel like challenges to existence.
 
 ## Sable Quinn — operations / money
@@ -189,19 +189,19 @@ For Jordan/Benji history, use `JORDAN-VALE-HITMAN-ORIGIN-CANON.md` and `JORDAN-V
 **Key ties:** Priya = legitimate-facing contact/friend; Grant = target-world power; Rae = unknown operational twin.  
 **Failure mode:** perfection masks loss of agency.
 
-# Jordan / Benji historical note
+# McCluster / Benji historical note
 
-Jordan's old Benji identity may appear in Hitman stories, rumors, records and characters' memories.
+McCluster's old Benji identity may appear in Hitman stories, rumors, records and characters' memories.
 
-Do not use a present-day `Benji` dossier separate from Jordan.
+Do not use a present-day `Benji` dossier separate from McCluster.
 
-Old dossier claims that Royce is 52, functions as Benji's father/mentor, that Benji is 28 during the immediate story, or that Benji is simultaneously climbing parallel to Jordan are deleted from continuity.
+Old dossier claims that Royce is 52, functions as Benji's father/mentor, that Benji is 28 during the immediate story, or that Benji is simultaneously climbing parallel to McCluster are deleted from continuity.
 
 # Episode ownership
 
-Hitman characters are eligible to own full PRIM3 episodes or major episode movements. Jordan's presence is not required.
+Hitman characters are eligible to own full PRIM3 episodes or major episode movements. McCluster's presence is not required.
 
-Royce in particular must develop as an independent character before the final RAID so his endgame choices do not exist solely as reactions to Jordan.
+Royce in particular must develop as an independent character before the final RAID so his endgame choices do not exist solely as reactions to McCluster.
 
 # Maintenance rule
 

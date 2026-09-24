@@ -468,7 +468,7 @@ Reserved until owner supplies title, lyrics, concept set, story mission, and rol
 - Task atoms: TRACE -> CLASSIFY -> ISOLATE -> DOCUMENT.
 - Gameplay: reconstruct how one compromised trust relationship could pivot to another in a fictional graph, then select defensive breaks.
 
-**Kinetic pressure:** confession occurs under threat after RAID. Tactical pressure is Jordan/Benji conflict and remaining Site 0 danger rather than a live real-world intrusion tutorial.
+**Kinetic pressure:** confession occurs under threat after RAID. Tactical pressure is McCluster/Benji conflict and remaining Site 0 danger rather than a live real-world intrusion tutorial.
 
 ---
 
