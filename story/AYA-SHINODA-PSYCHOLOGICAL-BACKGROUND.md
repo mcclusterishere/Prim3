@@ -38,7 +38,7 @@ Where an older cast summary conflicts with this dossier, this dossier wins unles
 - **Core belief entering PRIM3:** **If I can see the failure mode, I am responsible for closing it.**
 - **Secondary beliefs:** **Competence is care. Unverified safety is not safety. A system that cannot explain its state cannot demand trust.**
 
-Aya is approximately two years younger than McCluster. At the beginning of McCluster's PRIM3 path, she therefore has **more institutional credibility inside McCluster while McCluster has much broader survival and cross-lane operating experience**.
+Aya is approximately two years younger than McCluster. At the beginning of McCluster's PRIM3 path, she therefore has **more institutional credibility inside Equity Uprise while McCluster has much broader survival and cross-lane operating experience**.
 
 That imbalance is useful: Aya is not McCluster's apprentice, and McCluster is not hers. They enter the relationship with different forms of authority.
 
@@ -620,9 +620,9 @@ Hana, meanwhile, moves into increasingly consequential McCluster-linked technica
 
 ---
 
-# 20. Hana enters McCluster
+# 20. Hana enters Equity Uprise / the McCluster Corp orbit
 
-Hana is recruited into McCluster several years before Aya.
+Hana is recruited into Equity Uprise several years before Aya, giving her legitimate technical access to work connected to the wider McCluster Corp ecosystem.
 
 Her profile makes sense for Field-T work: robotics, human-machine systems, safety, degraded-system reasoning and the ability to distinguish a control problem from an authority problem.
 
@@ -756,7 +756,7 @@ That repetition becomes the deepest technical trigger of Aya's adult life.
 
 # 23. Why Aya joins the institution that killed Hana
 
-Aya does not join McCluster because she forgives it.
+Aya does not join Equity Uprise because she has forgiven the McCluster Corp system she suspects sits behind Hana's death.
 
 She joins because leaving would preserve the exact information asymmetry she despises.
 
@@ -772,7 +772,7 @@ She gains enough evidence to confirm the core conclusion:
 
 **the fatality was not caused only by a robot/control fault; it emerged from a decision to continue through unresolved safety uncertainty.**
 
-Aya expects this conclusion to end her relationship with McCluster.
+Aya expects this conclusion to end her relationship with Equity Uprise and the McCluster Corp system behind it.
 
 Instead, it becomes part of why she is offered a Field-T path.
 
@@ -788,7 +788,7 @@ Her motives are mixed:
 - she wants to change the decision culture that killed her;
 - she wants access to technical problems unavailable elsewhere;
 - she wants to prove expertise can function as an ethical brake;
-- and, less comfortably, she is attracted to the scale of what McCluster can let her solve.
+- and, less comfortably, she is attracted to the scale of what Equity Uprise and its McCluster Corp connections can let her solve.
 
 That final motive matters. Aya is not morally pure. The same institution she distrusts also gives her extraordinarily meaningful work.
 
@@ -832,7 +832,7 @@ Aya fears becoming so useful that people stop asking whether she is willing.
 
 Early in her career, "Aya will handle it" feels like praise.
 
-Inside McCluster it can become a deployment doctrine.
+Inside Equity Uprise it can become a deployment doctrine.
 
 That terrifies her because competence can turn into a justification for spending a person.
 
@@ -896,7 +896,7 @@ Outside work:
 - she drinks coffee more for schedule continuity than connoisseurship;
 - she keeps her physical workspace extremely organized but her private browser tabs can be absurdly numerous;
 - she repairs personal objects long after replacing them would be cheaper because discarding a repairable object feels intellectually offensive;
-- with family, she is much more teasing and visibly affectionate than most McCluster colleagues initially imagine.
+- with family, she is much more teasing and visibly affectionate than most Equity Uprise colleagues initially imagine.
 
 The REN-1 fastener stays on her key ring/tool pouch.
 
@@ -1179,7 +1179,7 @@ Tariq is proof that Aya can sustain deep intimacy without controlling the other 
 
 Their friendship works because neither needs the other to become a project.
 
-He remembers the pre-McCluster Aya.
+He remembers the pre-Equity-Uprise Aya.
 
 He can detect when she is using technical language to avoid saying she is frightened.
 
@@ -1393,9 +1393,9 @@ Writer truth, Aya's knowledge, other-character knowledge and audience knowledge 
 At PRIM3 opening:
 
 - Aya obviously knows her family, Yale, Zayd, Tariq, Hana and GLASSHOUSE;
-- McCluster leadership knows portions of GLASSHOUSE and her recruitment history;
-- Tariq knows the Zayd relationship and pre-McCluster Aya;
-- Ren knows Aya's family/project history but not necessarily every classified McCluster detail;
+- Equity Uprise / McCluster Corp leadership knows portions of GLASSHOUSE and her recruitment history;
+- Tariq knows the Zayd relationship and pre-Equity-Uprise Aya;
+- Ren knows Aya's family/project history but not necessarily every classified McCluster Corp detail;
 - McCluster initially knows very little beyond what Aya voluntarily reveals;
 - the audience should discover the history through behavior, objects, calls, arguments, old messages, technical choices and controlled flashback/reveal rather than biography monologues.
 
