@@ -50,7 +50,7 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 
 ## 04 — Li Wei — China — Authority / Director track
 
-**Background:** Li built his early career around distributed systems, compliance and the politics of data moving across borders. He is unusually skilled at reading the institutional consequences of a technical decision: who gains authority, who loses deniability, and who becomes responsible when the log is finally opened. He enters McCluster believing governance can tame power and slowly discovers governance can also conceal it.
+**Background:** Li built his early career around distributed systems, compliance and the politics of data moving across borders. He is unusually skilled at reading the institutional consequences of a technical decision: who gains authority, who loses deniability, and who becomes responsible when the log is finally opened. He enters Equity Uprise believing governance can tame power and slowly discovers governance can also conceal it.
 
 **Wants:** a system in which competence and accountability can coexist.  
 **Fears:** becoming the polished official who explains away what he once would have challenged.  
@@ -131,7 +131,7 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 
 ## 13 — Valeria Soto — Mexico — Cohort-02 Trainee
 
-**Background:** Valeria is a first-generation technical student who spent years doing bilingual support, family troubleshooting and small freelance jobs before anybody called it engineering. She enters McCluster younger and more credential-hungry than McCluster, initially seeing him as proof that falling behind can still be recovered from.
+**Background:** Valeria is a first-generation technical student who spent years doing bilingual support, family troubleshooting and small freelance jobs before anybody called it engineering. She enters Equity Uprise younger and more credential-hungry than McCluster, initially seeing him as proof that falling behind can still be recovered from.
 
 **Wants:** to move fast enough that money stops deciding what opportunities she can take.  
 **Fears:** becoming excellent at a job she morally cannot leave.  
@@ -230,7 +230,7 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 
 ## 24 — Thandiwe Nkosi — South Africa — Cohort-03 Lead peer
 
-**Background:** Thandiwe's background combines mining automation, worker-safety systems and community advocacy. She has seen technology used both to keep people alive and to justify removing them from decisions. She joins McCluster because it offers scale, then becomes one of the first cohort leaders to question whether scale is automatically progress.
+**Background:** Thandiwe's background combines mining automation, worker-safety systems and community advocacy. She has seen technology used both to keep people alive and to justify removing them from decisions. She joins Equity Uprise because it offers scale, then becomes one of the first cohort leaders to question whether scale is automatically progress.
 
 **Wants:** enough authority to make the system answer to the people inside it.  
 **Fears:** becoming a reformer whose presence only makes an unjust structure look legitimate.  

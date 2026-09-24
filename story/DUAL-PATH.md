@@ -11,7 +11,7 @@ PRIM and Hitman are separate operational cultures that PRIM2 can observe and inf
 
 | Board | Core identity | Gameplay tendency |
 |---|---|---|
-| **PRIM / McCluster Corp Corp Corp** | infrastructure, resilience, institutional authority, technical operations | ensemble XCOM-style tactical systems play |
+| **PRIM / McCluster Corp Corp Corp Corp** | infrastructure, resilience, institutional authority, technical operations | ensemble XCOM-style tactical systems play |
 | **Hitman** | kinetic power, street/corporate leverage, deniable field organization | hostile/parallel operational pressure; later clients may express its play differently |
 
 They are not good-team / bad-team palette swaps.

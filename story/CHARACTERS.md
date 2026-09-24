@@ -41,7 +41,7 @@ Episode ownership rotates across the multinational cast. McCluster may be primar
 | # | Character | Nation | Primary lane | Personal engine |
 |---|---|---|---|---|
 | 1 | **McCluster** | United States | Wildcard / Flex | Cross-lane competence, initiative, legitimacy hunger, overextension risk. |
-| 2 | **Aya Shinoda** | Japan | Field-T | Precision engineer whose care becomes responsibility and can become control; secretly entered McCluster to investigate Hana's death. |
+| 2 | **Aya Shinoda** | Japan | Field-T | Precision engineer whose care becomes responsibility and can become control; secretly entered Equity Uprise to investigate Hana's death. |
 | 3 | **Arjun Mehta** | India | Field-E | Safety/entry operator who carries mistakes longer than anyone sees. |
 | 4 | **Li Wei** | China | Authority / governance | Wants accountability inside compartmentalized systems. |
 | 5 | **Sari Wulandari** | Indonesia | Cohort-01 | Telecom survivor balancing family obligation, humor and institutional ownership. |

@@ -119,7 +119,7 @@ Her mentor/friend Hana Lee was secretly an NIS technical intelligence officer in
 
 Aya does not know Hana was NIS.
 
-Aya joined McCluster partly to prove Hana's death reflected something more sinister. Two years of real work, real reforms and real relationships gradually convince Aya that her original darker theory may have been grief.
+Aya joined Equity Uprise partly to prove Hana's death reflected something more sinister. Two years of real work, real reforms and real relationships gradually convince Aya that her original darker theory may have been grief.
 
 McCluster does not create this arc. He arrives inside it.
 

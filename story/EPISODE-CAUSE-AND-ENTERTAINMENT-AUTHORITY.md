@@ -50,7 +50,7 @@ Every episode must explicitly define:
 4. **McCluster presence** — A/B/C/D/E/F per `ENSEMBLE-POV-AUTHORITY.md`.
 5. **Human stake** — whose life, trust, reputation, relationship or responsibility is affected?
 6. **Why now** — why can this not wait?
-7. **Why PRIM / McCluster Corp Corp Corp** — why this organization/team is involved.
+7. **Why PRIM / McCluster Corp Corp Corp Corp** — why this organization/team is involved.
 8. **Mission lead** — who has operational authority?
 9. **Primary playable POV(s)** — whose capabilities make the mission mechanically legible?
 10. **Why these roles** — why R/E/T/Defense/Wildcard or other lanes matter.

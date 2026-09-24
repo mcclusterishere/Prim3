@@ -303,7 +303,7 @@ Her history includes:
 - former partner Zayd Al-Harthi of Oman;
 - durable friend Tariq Al-Farsi of Saudi Arabia;
 - mentor/friend Hana Lee of South Korea;
-- joining McCluster partly to investigate Hana's death;
+- joining Equity Uprise partly to investigate Hana's death;
 - gradually becoming attached to the visible institution because real people, reforms and responsibility make it feel increasingly legitimate.
 
 Hana is secretly a Republic of Korea NIS technical intelligence officer. Her agency helps her correlate external history unavailable from inside McCluster. She approaches proof of the hidden living-root architecture.

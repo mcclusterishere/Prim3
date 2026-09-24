@@ -68,7 +68,7 @@ Specialist relationship files override this summary where more specific.
 - **Aya's opening trust:** guarded institutional trust, much higher than when she entered.
 - **PRIM2's view:** Aya is both a valuable engineer and a living test of whether a skeptic can become attached to the visible institution without learning the root truth.
 - **Information asymmetry:** extreme.
-- **Aya's original motive:** entered McCluster partly to prove Hana's death reflected deeper wrongdoing.
+- **Aya's original motive:** entered Equity Uprise partly to prove Hana's death reflected deeper wrongdoing.
 - **Capture arc:** real colleagues, real authority and real reforms slowly convince Aya that her darker theory was probably grief.
 - **Failure trigger:** proof that Hana was right and PRIM2 knew why Aya entered.
 

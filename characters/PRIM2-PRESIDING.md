@@ -77,7 +77,7 @@ During GLASSHOUSE, he withholds decisive safety-state information rather than di
 
 ## Relationship to Aya Shinoda
 
-PRIM2 knows Aya enters McCluster partly to investigate Hana's death.
+PRIM2 knows Aya enters Equity Uprise partly to investigate Hana's death.
 
 He does not need to brainwash her. He allows her to obtain real authority, make real improvements and form real relationships while her access remains insufficient to prove the hidden root.
 

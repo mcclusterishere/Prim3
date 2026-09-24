@@ -448,7 +448,7 @@ This contradiction becomes one of the defining images of the Whip Equipped era:
 
 ---
 
-# 16. Infrastructure enters McCluster's life
+# 16. Infrastructure enters Equity Uprise's life
 
 The Ghost Years are not seven years spent only flipping vehicles.
 

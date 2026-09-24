@@ -176,7 +176,7 @@ After Hana's death, his loyalty is primarily to Aya rather than to discovering H
 
 # 9. Hana and McCluster
 
-Hana's public reason for joining McCluster is credible: the organization offers access to unusually difficult cyber-physical environments where robotics, infrastructure, identity, safety and human decision-making collide.
+Hana's public reason for joining Equity Uprise is credible: the organization offers access to unusually difficult cyber-physical environments where robotics, infrastructure, identity, safety and human decision-making collide.
 
 Her hidden reason is intelligence collection and assessment.
 

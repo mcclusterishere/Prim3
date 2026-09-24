@@ -46,7 +46,7 @@ The following are inventions for PRIM3:
 - Prime using her as an unwitting adversarial red team;
 - Operation GLASSHOUSE being used as the opportunity for her death;
 - Prime withholding decisive safety information;
-- and Aya later entering McCluster to investigate.
+- and Aya later entering Equity Uprise to investigate.
 
 No real intelligence officer, Korean government employee, university, company or facility is represented by Hana or the GLASSHOUSE operation.
 

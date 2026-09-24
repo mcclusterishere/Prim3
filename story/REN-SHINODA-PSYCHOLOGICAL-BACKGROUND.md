@@ -240,7 +240,7 @@ He does not know Hana was an NIS officer or that Prime intentionally exploited G
 He knows only:
 
 - Hana mattered deeply to Aya;
-- Aya entered McCluster partly because Hana's death felt wrong;
+- Aya entered Equity Uprise partly because Hana's death felt wrong;
 - Aya stayed;
 - Aya says she has improved the place;
 - and Aya is increasingly unwilling to imagine that leaving could be the responsible choice.
