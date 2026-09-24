@@ -138,3 +138,5 @@ The rewind then begins the ensemble world whose accumulated lives eventually mak
 # Governing line
 
 > **Episode One shows the end before the audience has met the people whose lives make the end matter.**
+
+Workplace authority: story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md.

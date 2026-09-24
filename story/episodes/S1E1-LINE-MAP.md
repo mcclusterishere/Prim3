@@ -35,3 +35,5 @@ When a High Alert line is attached to a later episode, remember:
 > **The memory belongs to PRIM2's argument. The episode belongs to whoever changed because of it.**
 
 The old line map remains available in Git history for lyric-image salvage only.
+
+Workplace authority: story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md.

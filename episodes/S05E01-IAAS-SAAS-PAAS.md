@@ -111,3 +111,12 @@ McCluster may be called only if the operation reaches CRITICAL. He can bridge la
 # Governing line
 
 > **Shared responsibility fails when “shared” becomes another word for “nobody.”**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F3 systems planning; F6 authority/partner decision.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

@@ -105,3 +105,12 @@ McCluster may only be called if the event reaches a true authored CRITICAL state
 # Governing line
 
 > **The human layer is where trust becomes real enough to hurt.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F1 intake/access; F2 public forum/community.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

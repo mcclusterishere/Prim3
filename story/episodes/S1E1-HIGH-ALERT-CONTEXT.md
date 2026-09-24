@@ -28,3 +28,5 @@ Current authorities:
 - `CANON.md`
 
 This filename remains for compatibility only.
+
+Workplace authority: story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md.

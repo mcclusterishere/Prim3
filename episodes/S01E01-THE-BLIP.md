@@ -139,3 +139,12 @@ No death occurs here solely to make the pilot exciting.
 # Governing line
 
 > **At thirty-three, the ghost cuts off the old silhouette and re-enters the grid.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F1 arrival/intake; F3 first field overlap; F6 hidden executive observation. The future cold open is Site 0.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

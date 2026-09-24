@@ -118,3 +118,12 @@ RELATIONSHIPS: damaged but not simplified
 # Governing line
 
 > **The system stops being trustworthy before the people inside it agree on what to do about that.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** Workplace footprint remains open; final script must select at least one Equity Uprise floor anchor.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

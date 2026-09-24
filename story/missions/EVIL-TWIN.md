@@ -220,3 +220,5 @@ NEXT ACTION: SUCCESSION / PRIVILEGE TRANSFER
 # Governing line
 
 > **The evil twin is not merely the copy beside you. It is the hidden root that can make two apparently independent systems answer to the same hand.**
+
+Workplace authority: story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md.

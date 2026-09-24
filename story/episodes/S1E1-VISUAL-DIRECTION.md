@@ -110,3 +110,5 @@ McCluster becomes PRIM3 only after the validated succession in `Ghost In The Wir
 - `CANON.md`
 
 Generate individual visual assets from the exact shot requirement rather than treating the old prompt seed as canon.
+
+Workplace authority: story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md.

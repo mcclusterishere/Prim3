@@ -111,3 +111,12 @@ This is the first strong candidate for the masked Apex tutorial if McCluster has
 # Governing line
 
 > **The dangerous smart building is not the one with no data. It is the one everybody trusts too completely.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** B1 building systems; F3 technical response; F6 command consequence.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

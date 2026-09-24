@@ -112,3 +112,12 @@ McCluster can cross lanes, but specialist bonuses and authored expertise still m
 # Governing line
 
 > **McCluster can cover every chair. His growth is learning that he should not have to.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F7 mobility/logistics; F1 arrivals; F2 temporary-worker/cohort life.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

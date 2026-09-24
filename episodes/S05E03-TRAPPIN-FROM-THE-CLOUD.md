@@ -123,3 +123,12 @@ PRIM2 may possess a wider cross-board picture than either Sari or Sable. The lat
 # Governing line
 
 > **Elasticity is the ability to grow. Maturity is knowing what should not grow with you.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F3 systems work; F6 institutional consequence.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

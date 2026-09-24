@@ -129,3 +129,12 @@ If CRITICAL, the player may spend a Wildcard authorization. McCluster can preser
 # Governing line
 
 > **The network comes back. A person might not.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F2 user symptom; F3 field diagnosis; B1 infrastructure trace; F4 reinforcement/media.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

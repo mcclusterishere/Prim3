@@ -115,3 +115,12 @@ McCluster is not the rescue mechanic for this episode under normal canon because
 # Governing line
 
 > **Bad input is dangerous. So is a mentor who cannot accept input from somebody younger.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F3 technical operations; B1 controlled lab infrastructure.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

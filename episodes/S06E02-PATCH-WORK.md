@@ -117,3 +117,12 @@ McCluster is not the mission owner. If called, his job is to preserve optionalit
 # Governing line
 
 > **The system can come back healthy while everybody in the room trusts it less.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** B1 infrastructure maintenance; F3 technical response; F5 trust/evidence aftermath.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

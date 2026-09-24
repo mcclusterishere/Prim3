@@ -24,7 +24,7 @@ Equity Uprise HQ is not the root McCluster Corp headquarters attacked in the fin
 | Location | Story function |
 |---|---|
 | Equity Uprise HQ | recurring workplace, training campus, visible institution, community, day-to-day headquarters |
-| Site 0 / Root HQ | hidden PRIM / McCluster Corp Corp root facility, succession site, final-arc assault target |
+| Site 0 / Root HQ | hidden PRIM / McCluster Corp Corp Corp root facility, succession site, final-arc assault target |
 
 The final RAID therefore does not erase the audience's familiar workplace.
 

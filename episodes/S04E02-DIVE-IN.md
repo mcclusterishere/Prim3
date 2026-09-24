@@ -113,3 +113,12 @@ A high score rewards **restraint plus defensibility**, not maximum collection.
 # Governing line
 
 > **Just because you can collect it does not mean it belongs in your case.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** Exterior discovery where required; F5 evidence processing; B1 technical validation.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

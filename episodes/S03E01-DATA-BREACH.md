@@ -112,3 +112,12 @@ McCluster can be requested only in an eligible CRITICAL state to recover options
 # Governing line
 
 > **A breach exposes more than data; it exposes who the institution believes has the right to know.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F3 incident response; F5 evidence/accountability.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

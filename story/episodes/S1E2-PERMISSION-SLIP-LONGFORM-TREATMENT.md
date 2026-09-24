@@ -694,3 +694,5 @@ Carry forward:
 # Governing line
 
 > **The episode starts with a badge reader and ends with the same question under fire: who has the right to do what, and what happens when the fastest answer is outside the line?**
+
+Workplace authority: story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md.

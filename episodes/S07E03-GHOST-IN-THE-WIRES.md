@@ -342,3 +342,12 @@ SITE 0
 # Governing final line
 
 > **RAID takes the body. Evil Twin takes the secret. Ghost takes the permission—and leaves McCluster responsible for everybody who has to live with what comes next.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** Site 0 succession residue; F6/B1/F3 return-to-work epilogue at Equity Uprise.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

@@ -45,3 +45,5 @@ Ghost          -> PRIM2's institutional-gravity footprint becomes legible
 Do not use old entries that refer to a separate contemporary Benji, an upload ending, procedural Evil Twin infiltration, or PRIM2 as the literal cause of every event.
 
 The previous table remains recoverable through Git history for possible visual/lyric association salvage.
+
+Workplace authority: story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md.

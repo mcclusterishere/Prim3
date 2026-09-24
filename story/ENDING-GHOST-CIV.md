@@ -76,7 +76,7 @@ Potential strategic systems include:
 
 | System | Function |
 |---|---|
-| **PRIM / McCluster Corp Corp** | infrastructure, institutional, technical and resilience operations |
+| **PRIM / McCluster Corp Corp Corp** | infrastructure, institutional, technical and resilience operations |
 | **Hitman / Royce** | separate kinetic/street-corporate power center with unresolved relationship to PRIM3 |
 | **Ghost-class PRIM2** | read/analyze/advice intelligence under bounded permissions |
 | **Global intelligence picture** | evidence/provenance-driven strategic awareness |

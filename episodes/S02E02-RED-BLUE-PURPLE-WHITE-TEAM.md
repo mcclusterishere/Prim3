@@ -104,3 +104,12 @@ If CRITICAL, McCluster may be called only after Chioma has correctly transitione
 # Governing line
 
 > **Chioma becomes a leader when she is willing to lose the exercise.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F2 instruction; F3 field planning.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

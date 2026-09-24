@@ -118,3 +118,12 @@ No Wildcard rescue. The player must live with constrained options and justify tr
 # Governing line
 
 > **Ownership is not automatically virtue. But surrendering control without naming the exit is not flexibility either.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F5 policy/proof; F6 executive command.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

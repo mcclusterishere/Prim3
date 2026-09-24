@@ -112,3 +112,12 @@ The player wins by producing a defensible picture, not by guessing the right ans
 Season One ends with the audience understanding that McCluster entered a workplace where other people's careers, rivalries, ethics and histories were already moving before he arrived.
 
 > **The world did not begin when McCluster walked in.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F5 source review/evidence; F3 Field-R coordination.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

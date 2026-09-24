@@ -107,3 +107,12 @@ McCluster is not selectable at launch. A Wildcard call, if earned through CRITIC
 # Governing line
 
 > **Valeria grows up professionally the moment she stops treating speed as proof that she belongs.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** B1 hardware/service work; F3 technical planning.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

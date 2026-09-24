@@ -88,3 +88,5 @@ Current full authorities:
 - `story/HIGH-ALERT-MEMORY-ANCHORS.md`
 - `episodes/S07E01-RAID-HOT-SITE.md`
 - `CANON.md`.
+
+Workplace authority: story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md.

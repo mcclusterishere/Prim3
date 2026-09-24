@@ -293,3 +293,12 @@ NEXT: GHOST IN THE WIRES
 # Governing line
 
 > **RAID defeats the body. Evil Twin defeats the lie that the body was the whole system—while everybody else starts counting who the victory cost.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** Site 0 root conflict; F6/B1 maintain Equity Uprise remote/aftermath continuity.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

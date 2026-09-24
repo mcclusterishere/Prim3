@@ -274,3 +274,12 @@ MANTLE AUTHORITY — UNRESOLVED
 And around those three principals is the immediate reality that a huge number of people the audience loved are suddenly gone.
 
 Then `Evil Twin` begins.
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** Equity Uprise F6/B1 frames departure and remote support; the assault itself is Site 0, not Equity Uprise.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

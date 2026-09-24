@@ -113,3 +113,12 @@ McCluster may be called only if the mission becomes CRITICAL; if called, he pres
 # Governing line
 
 > **Contain the threat without turning uncertainty into a witch hunt.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** B1 technical lab; F3 operational response.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+

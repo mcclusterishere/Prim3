@@ -591,3 +591,12 @@ Reusable authorization system:
 # Governing line
 
 > **The first field lesson is not how to get access. It is how to remain useful when the correct answer is that you do not have access yet.**
+
+---
+
+## Equity Uprise workplace continuity
+
+**Canonical location footprint:** F1 access boundary; F3 field operations; F5 authorization/evidence.
+
+This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
+
