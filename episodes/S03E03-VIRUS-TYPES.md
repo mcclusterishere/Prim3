@@ -19,7 +19,7 @@ branch: main
 PRIMARY OWNERS: Dmitri Volkov / Oksana Bondarenko
 SECONDARY DEPTH: Hassan Raza / Leila Hosseini / Emre Yıldız / Dez “Switch” Calhoun
 BASE PLAYABLE ROSTER: Dmitri / Oksana / Hassan / Leila
-JORDAN: absent by default; off-board Wildcard at CRITICAL
+MCCLUSTER: absent by default; off-board Wildcard at CRITICAL
 APEX: unavailable
 ROYCE: eligible as a rare pressure incursion if campaign conditions warrant
 ```

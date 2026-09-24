@@ -228,7 +228,7 @@ The intervention ladder is:
 ```text
 ENSEMBLE TEAM
     -> CRITICAL
-JORDAN / WILDCARD
+MCCLUSTER / WILDCARD
     -> eligible high-value mission remains CRITICAL
 PRIM2 / APEX
 ```

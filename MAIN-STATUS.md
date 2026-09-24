@@ -243,7 +243,7 @@ Standard escalation:
 ```text
 ENSEMBLE MISSION
 -> CRITICAL
-JORDAN WILDCARD REQUEST
+MCCLUSTER WILDCARD REQUEST
 -> qualified mission remains/re-enters CRITICAL
 PRIM2 APEX REQUEST
 ```
@@ -257,7 +257,7 @@ Mechanical identity:
 
 ```text
 ENSEMBLE -> solves the mission
-JORDAN   -> restores optionality
+MCCLUSTER   -> restores optionality
 PRIM2    -> expands picture + authority
 ROYCE    -> destabilizes control + tempo
 ```

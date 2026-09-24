@@ -1068,7 +1068,7 @@ McCluster survives instability by becoming adaptable.
 Aya survives instability by becoming precise.
 
 ```text
-JORDAN
+MCCLUSTER
 movement
 improvisation
 another route

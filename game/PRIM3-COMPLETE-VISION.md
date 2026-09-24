@@ -176,7 +176,7 @@ Before the story has openly named him, the UI may present this as `EXECUTIVE OVE
 PRIM2 is not McCluster-but-better.
 
 ```text
-JORDAN -> finds another path
+MCCLUSTER -> finds another path
 PRIM2  -> sees/authorizes more of the board
 ```
 
@@ -202,7 +202,7 @@ Canonical Standard cap:
 Royce's gameplay identity is asymmetric:
 
 ```text
-JORDAN -> optionality / improvisation
+MCCLUSTER -> optionality / improvisation
 PRIM2  -> information / sovereign authority
 ROYCE  -> violent disruption / pressure / hostile command
 ```

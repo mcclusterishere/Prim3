@@ -20,7 +20,7 @@ PRIMARY OWNERS: Priya Srisawat / Sora “Gymnast” Okada
 SECONDARY DEPTH: Maren Quill / Nusrat Rahman / Miguel Santos / Kira “Keys” Moon
 MISSION LEAD: Nusrat for access response; Priya for event/public consequence
 BASE PLAYABLE ROSTER: Priya / Nusrat / Miguel / event-support specialist from existing roster
-JORDAN: cameo/edge; off-board Wildcard if CRITICAL
+MCCLUSTER: cameo/edge; off-board Wildcard if CRITICAL
 APEX: unavailable
 ROYCE: no random incursion
 ```

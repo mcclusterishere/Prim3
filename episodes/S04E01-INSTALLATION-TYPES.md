@@ -18,7 +18,7 @@ branch: main
 ```text
 PRIMARY OWNER: Valeria Soto
 SECONDARY DEPTH: Arjun Mehta / Emre Yıldız / Aya Shinoda / Hassan Raza / Chioma Okeke / Omar “Rack” Dillon
-JORDAN: supporting mentor; off-board Wildcard at CRITICAL
+MCCLUSTER: supporting mentor; off-board Wildcard at CRITICAL
 BASE PLAYABLE ROSTER: Valeria / Arjun / Emre / assigned technical support
 APEX: unavailable
 ROYCE: unavailable

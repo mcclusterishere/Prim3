@@ -18,7 +18,7 @@ branch: main
 ```text
 PRIMARY OWNERS: Sari Wulandari / Sable Quinn
 SECONDARY DEPTH: Minh Tran / Yonas Bekele / Maren Quill / Li Wei / Jules “Kiosk” Mendez / Grace Mbala
-JORDAN: mentioned/edge; off-board Wildcard only if CRITICAL
+MCCLUSTER: mentioned/edge; off-board Wildcard only if CRITICAL
 APEX: eligible only after McCluster is present and high-value crisis remains CRITICAL
 ROYCE: eligible as hostile escalation under current rules
 BENJI: not a separate contemporary person; Benji = McCluster's historical identity

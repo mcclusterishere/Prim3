@@ -34,9 +34,9 @@ The pilot's chronological `blip` is therefore **reacquisition**, not first disco
 # Episode ownership / deployment
 
 ```text
-FUTURE OWNER TRIANGLE: PRIM2 / JORDAN / ROYCE
+FUTURE OWNER TRIANGLE: PRIM2 / MCCLUSTER / ROYCE
 CHRONOLOGICAL REWIND HUMAN ANCHOR: McCluster re-entering fixed life at 33
-JORDAN PLAY STATE: scripted where used
+MCCLUSTER PLAY STATE: scripted where used
 WILDCARD / APEX / ROYCE POOLS: not consumed by scripted pilot material
 ```
 

@@ -537,7 +537,7 @@ AGE 26–33 — WHIP EQUIPPED / THE GHOST YEARS
 Question: Can McCluster turn hustle into legitimate ownership while staying alive long enough to disappear from his old life?
 Power language: capital / mobility / vehicles / business / infrastructure
 
-AGE 33–40 — PRIM3 / JORDAN
+AGE 33–40 — PRIM3 / MCCLUSTER
 Question: What will McCluster do when knowledge becomes authority?
 Power language: infrastructure / information / command
 

@@ -42,7 +42,7 @@ His remaining weapon is information.
 PRIMARY OWNERS: PRIM2 / McCluster / Royce
 SECONDARY DEVELOPMENT: surviving remote ensemble, especially Aya / Helen / Leila / Li / Amira / Marc / Jonas / Pylon / Chioma as continuity permits
 BASE PLAYABLE ROSTER: McCluster + Royce
-JORDAN: scripted
+MCCLUSTER: scripted
 WILDCARD/APEX/ROYCE RANDOM SYSTEMS: not applicable
 ```
 
@@ -156,7 +156,7 @@ Royce refuses endless verification as another form of control.
 Their distrust becomes useful because they ask different questions:
 
 ```text
-JORDAN -> systems / provenance / dependency
+MCCLUSTER -> systems / provenance / dependency
 ROYCE  -> power / obligation / motive / hierarchy
 ```
 
@@ -202,7 +202,7 @@ McCluster and Royce keep him alive for utility, not forgiveness.
 McCluster and Royce are an uncomfortable two-person core verification team with remote evidence channels.
 
 ```text
-JORDAN
+MCCLUSTER
 - dependency reasoning
 - provenance correlation
 - alternate explanation generation
@@ -280,7 +280,7 @@ Final:
 
 ```text
 PRIM2: ALIVE / DEFEATED / ROOT AUTHORITY STILL ACTIVE
-JORDAN: NOT YET PRIM3
+MCCLUSTER: NOT YET PRIM3
 ROYCE: ALLIED BY NECESSITY / NOT SUBORDINATE
 MANTLE TRANSFER: REQUIRED
 RAID GRIEF: ACTIVE

@@ -41,7 +41,7 @@ Former PRIM2 persists as constrained Ghost-class intelligence with read/observe/
 PRIMARY OWNERS: McCluster / PRIM2
 SECONDARY OWNER: Royce
 RECURRING GOVERNANCE / VERIFICATION ENSEMBLE: Aya / Helen / Leila / Li / Chioma / Amira / Marc / Jonas / Pylon / other living characters as RAID roster permits
-JORDAN: scripted succession principal
+MCCLUSTER: scripted succession principal
 WILDCARD/APEX/ROYCE RANDOM SYSTEMS: not applicable
 ```
 

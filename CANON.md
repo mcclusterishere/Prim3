@@ -273,7 +273,7 @@ See:
 
 Through Hitman/Benji and Whip Equipped/Ghost, McCluster wears **extremely long hair**.
 
-At 33 he cuts it off and adopts **waves** before college/PRIM entry.
+At 33 he cuts it off and adopts **waves** before college/Equity Uprise entry.
 
 The appearance change is dramatic enough to disrupt simple visual-recognition continuity.
 
@@ -361,7 +361,7 @@ Every episode must establish:
 - McCluster-presence state A/B/C/D/E/F;
 - human stake;
 - why now;
-- why PRIM/McCluster;
+- why Equity Uprise / McCluster Corp / PRIM;
 - mission lead;
 - playable POV(s);
 - expected plan;
@@ -453,7 +453,7 @@ Mechanical identity:
 
 ```text
 ENSEMBLE -> solves the mission
-JORDAN   -> restores optionality / finds another path
+MCCLUSTER   -> restores optionality / finds another path
 PRIM2    -> expands picture and authority
 ROYCE    -> violently destabilizes control and tempo
 ```

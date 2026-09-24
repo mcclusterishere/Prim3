@@ -26,7 +26,7 @@ The episode's **story function, ensemble ownership and continuity job are locked
 ```text
 PRIMARY OWNERS: Leila Hosseini / Helen Clarke / McCluster
 SECONDARY DEPTH: Li Wei / Chioma Okeke / Thandiwe Nkosi / Amira Hassan / Aya Shinoda / Marc Dubois / Jonas Weber / Pylon / Grace Mbala
-JORDAN: shared scripted story principal; exact PLAY role depends on supplied song/mission
+MCCLUSTER: shared scripted story principal; exact PLAY role depends on supplied song/mission
 ROYCE: not required physically; Hitman/succession evidence may matter
 PRIM2: hidden authority becomes materially provable enough to justify challenge
 ```
@@ -108,7 +108,7 @@ By episode end:
 ```text
 PRIM2 HIDDEN ROOT: materially verified enough to act on
 ENSEMBLE CONSENSUS: fractured
-JORDAN: decides to reach/challenge PRIM2
+MCCLUSTER: decides to reach/challenge PRIM2
 RAID PRECONDITIONS: active
 RELATIONSHIPS: damaged but not simplified
 ```

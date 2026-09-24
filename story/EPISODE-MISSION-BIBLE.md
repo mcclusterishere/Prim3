@@ -140,7 +140,7 @@ STABLE -> DEGRADED -> CRITICAL -> TERMINAL
 Standard scarcity:
 
 ```text
-JORDAN WILDCARD: 2 non-scripted authorizations / season
+MCCLUSTER WILDCARD: 2 non-scripted authorizations / season
 PRIM2 APEX:      3 non-scripted authorizations / full campaign
 ROYCE INCURSION: max 2 non-scripted / season, max 1 / mission, 2-mission cooldown
 ```
@@ -149,7 +149,7 @@ Mechanical identity:
 
 ```text
 ENSEMBLE -> solves the mission
-JORDAN   -> restores optionality
+MCCLUSTER   -> restores optionality
 PRIM2    -> expands picture / authority
 ROYCE    -> destabilizes control / tempo
 ```
@@ -166,14 +166,14 @@ Every production-ready episode resolves:
 INCITING EVENT:
 EPISODE OWNER:
 SECONDARY OWNER(S):
-JORDAN NARRATIVE STATE:
+MCCLUSTER NARRATIVE STATE:
 HUMAN STAKE:
 WHY NOW:
 WHY PRIM/MCCLUSTER:
 MISSION LEAD:
 BASE PLAYABLE ROSTER:
 PRIMARY PLAYABLE POV(S):
-JORDAN PLAY STATE:
+MCCLUSTER PLAY STATE:
 WILDCARD ELIGIBLE:
 WILDCARD ARRIVAL RULE:
 APEX ELIGIBLE:

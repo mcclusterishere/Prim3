@@ -93,7 +93,7 @@ His later payoff comes through **institutional gravity**:
 
 ```text
 PRIM2 — presiding Mantle holder / High Alert performer
-JORDAN — challenger, not yet PRIM3
+MCCLUSTER — challenger, not yet PRIM3
 ROYCE — Hitman successor / parallel challenger
 ```
 

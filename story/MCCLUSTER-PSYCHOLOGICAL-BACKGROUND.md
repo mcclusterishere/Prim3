@@ -380,7 +380,7 @@ The visual rule is:
 HITMAN / BENJI — LONG HAIR
 WHIP EQUIPPED / GHOST YEARS — LONG HAIR
 AGE 33 COLLEGE RE-ENTRY — HAIR CUT OFF / WAVES
-PRIM3 JORDAN — WAVES
+PRIM3 MCCLUSTER — WAVES
 ```
 
 This visual transformation is one of the clearest physical boundaries between McCluster's earlier lives and the man the PRIM3 audience meets.
@@ -450,7 +450,7 @@ This helps explain why later PRIM3 infrastructure concepts can feel intuitive to
 It also creates one of the deepest long-range echoes in the franchise:
 
 ```text
-JORDAN'S LIFE: constant failover
+MCCLUSTER'S LIFE: constant failover
 DATA CENTERS: engineered failover
 SITE 0: extreme failover
 PRIME SUCCESSION: human failover
@@ -1084,7 +1084,7 @@ How far will I go when the world gives me enemies?
 WHIP EQUIPPED / GHOST YEARS — 26–33
 Can I turn survival and hustle into something legitimate without carrying the old world into it?
 
-PRIM3 / JORDAN — 33–40
+PRIM3 / MCCLUSTER — 33–40
 Can I become stable, educated and trustworthy without losing the initiative that kept me alive?
 
 PRIME — 40+

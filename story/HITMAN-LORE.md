@@ -63,7 +63,7 @@ In gameplay he functions as Hitman's elite hostile escalation threat: the opposi
 His asymmetry matters:
 
 ```text
-JORDAN -> restores optionality
+MCCLUSTER -> restores optionality
 PRIM2  -> expands picture / authority
 ROYCE  -> destabilizes control / tempo through kinetic and organizational pressure
 ```

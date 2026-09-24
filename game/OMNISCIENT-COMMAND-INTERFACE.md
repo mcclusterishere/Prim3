@@ -224,7 +224,7 @@ Royce is not represented as another omniscient interface user. His incursion fan
 This asymmetry is intentional:
 
 ```text
-JORDAN — finds another path
+MCCLUSTER — finds another path
 PRIM2 — sees/authorizes more of the board
 ROYCE — violently changes the board
 ```

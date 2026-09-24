@@ -113,7 +113,7 @@ McCluster is 33, returning to college. Most of the people whose decisions will e
 
 ## Aya / Hana hidden current
 
-Aya Shinoda is already inside McCluster before McCluster arrives.
+Aya Shinoda is already inside Equity Uprise before McCluster arrives.
 
 Her mentor/friend Hana Lee was secretly an NIS technical intelligence officer investigating the hidden PRIM architecture. Hana reaches a Living Root hypothesis with agency assistance, realizes someone above the visible organization is learning from her investigation, and leaves Aya a delayed breadcrumb trail through their private Japanese/Korean word-chain game, **Kkeutori**.
 

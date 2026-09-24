@@ -19,7 +19,7 @@ branch: main
 PRIMARY OWNERS: Leila Hosseini / Li Wei
 SECONDARY DEPTH: Grace Mbala / Helen Clarke / Amira Hassan / Chioma Okeke / Sable Quinn / Rae “Twin” Colton
 BASE PLAYABLE ROSTER: Leila / Li / Grace / authorized technical support
-JORDAN: mentioned or absent by default; off-board Wildcard if CRITICAL
+MCCLUSTER: mentioned or absent by default; off-board Wildcard if CRITICAL
 APEX: unavailable
 ROYCE: eligible only under authored/campaign pressure
 ```

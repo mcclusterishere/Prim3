@@ -63,10 +63,10 @@ The fact that every other attacker dies is locked. **Who those attackers are is 
 ```text
 EPISODE OWNER: McCluster / Royce / PRIM2 — shared endgame triangle
 SECONDARY OWNERS: the established assault-team characters through choices, loss, sacrifice and aftermath
-JORDAN PRESENCE: B — SHARED
+MCCLUSTER PRESENCE: B — SHARED
 MISSION LEAD: split command until convergence
 BASE PLAYABLE ROSTER: established PRIM assault element + established Hitman assault element by phase
-JORDAN PLAY STATE: SCRIPTED
+MCCLUSTER PLAY STATE: SCRIPTED
 WILDCARD ELIGIBLE: no
 APEX ELIGIBLE: no — PRIM2 is the hostile presiding Mantle holder
 ROYCE INCURSION ELIGIBLE: no random incursion — Royce is scripted principal
@@ -177,7 +177,7 @@ McCluster and Royce meet as sole survivors. Their rivalry mechanically threatens
 PRIM2 is not a high-HP boss. He fights through information, authored systems, command authority, environmental continuity, physical competence and asymmetric knowledge.
 
 ```text
-JORDAN -> finds viable alternate paths across systems
+MCCLUSTER -> finds viable alternate paths across systems
 ROYCE  -> seizes/contests physical tempo and hostile control
 PRIM2  -> predicts, authorizes and redirects the board
 ```

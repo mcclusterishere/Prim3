@@ -28,10 +28,10 @@ Do not infer from this inventory that:
 Current character chronology:
 
 ```text
-JORDAN / BENJI — approximately age 19–26
+MCCLUSTER / BENJI — approximately age 19–26
 BIGGA LEX THE JET — McCluster's primary friendship/entry bridge
 LEX OFFERS SUCCESSION AT ~26
-JORDAN REFUSES
+MCCLUSTER REFUSES
 ROYCE RECEIVES THE SUCCESSION OPPORTUNITY
 ```
 

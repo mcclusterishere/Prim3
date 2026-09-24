@@ -20,7 +20,7 @@ PRIMARY OWNERS: Oksana Bondarenko / Rafael Costa
 SECONDARY DEPTH: Valeria Soto / Leila Hosseini / Chioma Okeke
 MISSION LEAD: Oksana
 BASE PLAYABLE ROSTER: Oksana / Rafael / Valeria
-JORDAN: edge/cameo; off-board Wildcard only if authored CRITICAL state is reached
+MCCLUSTER: edge/cameo; off-board Wildcard only if authored CRITICAL state is reached
 APEX: unavailable
 ROYCE: unavailable
 ```

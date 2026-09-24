@@ -20,7 +20,7 @@ PRIMARY OWNERS: Sari Wulandari / Yonas Bekele
 SECONDARY DEPTH: Hassan Raza / Emre Yıldız / Chioma Okeke / Grace Mbala / Jonas Weber / Pylon
 MISSION LEAD: Chioma
 BASE PLAYABLE ROSTER: Sari / Yonas / Hassan / Emre
-JORDAN: absent by default; off-board Wildcard at CRITICAL
+MCCLUSTER: absent by default; off-board Wildcard at CRITICAL
 APEX: unavailable in canonical WATCH
 ROYCE: unavailable
 ```

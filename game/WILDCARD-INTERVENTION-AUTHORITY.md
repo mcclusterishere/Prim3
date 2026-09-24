@@ -631,7 +631,7 @@ Every PLAY mission now records:
 EPISODE OWNER:
 MISSION LEAD:
 BASE PLAYABLE ROSTER:
-JORDAN STATE: scripted / off-board wildcard / locked out
+MCCLUSTER STATE: scripted / off-board wildcard / locked out
 WILDCARD ELIGIBLE: yes/no + reason
 WILDCARD ARRIVAL RULE:
 APEX ELIGIBLE: yes/no + mission classification

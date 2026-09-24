@@ -50,7 +50,7 @@ There is **no rule requiring McCluster to appear in every episode**.
 Allowed narrative states include:
 
 ```text
-A — JORDAN-OWNED
+A — MCCLUSTER-OWNED
 McCluster is the primary emotional/mission POV.
 
 B — SHARED
@@ -216,7 +216,7 @@ Canonical escalation:
 ```text
 ENSEMBLE TEAM
     -> CRITICAL
-JORDAN / WILDCARD
+MCCLUSTER / WILDCARD
     -> eligible high-value mission remains CRITICAL
 PRIM2 / APEX INTERVENTION
 ```
@@ -259,11 +259,11 @@ For every episode, record:
 ```text
 EPISODE OWNER:
 SECONDARY OWNER(S):
-JORDAN PRESENCE: A/B/C/D/E/F
+MCCLUSTER PRESENCE: A/B/C/D/E/F
 MISSION LEAD:
 BASE PLAYABLE ROSTER:
 PRIMARY PLAYABLE POV(S):
-JORDAN PLAY STATE: scripted / wildcard / locked out
+MCCLUSTER PLAY STATE: scripted / wildcard / locked out
 WILDCARD ELIGIBLE: yes/no + reason
 APEX ELIGIBLE: yes/no + reason
 ROYCE INCURSION ELIGIBLE: yes/no + reason

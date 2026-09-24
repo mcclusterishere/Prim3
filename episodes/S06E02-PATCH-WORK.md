@@ -19,7 +19,7 @@ branch: main
 PRIMARY OWNER: Aya Shinoda
 SECONDARY DEPTH: Minh Tran / Helen Clarke / Leila Hosseini / Jonas Weber / Chioma Okeke / Pylon
 ESTABLISHED HISTORY: Hana Lee through Kkeutori; Tariq Al-Farsi and/or Ren Shinoda only if the scene specifically requires Aya's outside life
-JORDAN: emotionally central supporting character; off-board Wildcard if mission reaches CRITICAL
+MCCLUSTER: emotionally central supporting character; off-board Wildcard if mission reaches CRITICAL
 APEX: conditional after McCluster is present and crisis remains qualified CRITICAL
 ROYCE: unavailable by default
 ```

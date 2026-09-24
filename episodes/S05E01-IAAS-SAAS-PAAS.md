@@ -18,7 +18,7 @@ branch: main
 ```text
 PRIMARY OWNERS: Helen Clarke / Li Wei / Yonas Bekele
 SECONDARY DEPTH: Leila Hosseini / Grace Mbala / Jonas Weber / Amira Hassan / Marc Dubois / Chioma Okeke
-JORDAN: edge/mentioned; off-board Wildcard if CRITICAL
+MCCLUSTER: edge/mentioned; off-board Wildcard if CRITICAL
 BASE PLAYABLE ROSTER: Yonas plus named layer owners / analysts from recurring roster
 APEX: conditional on high-value CRITICAL state after McCluster arrival
 ROYCE: unavailable by default

@@ -11,7 +11,7 @@ PRIM and Hitman are separate operational cultures that PRIM2 can observe and inf
 
 | Board | Core identity | Gameplay tendency |
 |---|---|---|
-| **PRIM / McCluster Corp** | infrastructure, resilience, institutional authority, technical operations | ensemble XCOM-style tactical systems play |
+| **PRIM / McCluster Corp Corp** | infrastructure, resilience, institutional authority, technical operations | ensemble XCOM-style tactical systems play |
 | **Hitman** | kinetic power, street/corporate leverage, deniable field organization | hostile/parallel operational pressure; later clients may express its play differently |
 
 They are not good-team / bad-team palette swaps.
@@ -24,7 +24,7 @@ Current apex relationships:
 
 ```text
 PRIM2 — presiding Mantle holder with cross-board visibility
-JORDAN — former Benji; PRIM-side Wildcard; eventual PRIM3
+MCCLUSTER — former Benji; PRIM-side Wildcard; eventual PRIM3
 ROYCE — post-Benji Hitman successor / hostile elite field threat
 ```
 

@@ -20,7 +20,7 @@ PRIMARY OWNERS: Chioma Okeke / Thandiwe Nkosi
 SECONDARY DEPTH: Grace Mbala / Arjun Mehta / Sari Wulandari / Mina “Halo” Brooks / Dez “Switch” Calhoun
 MISSION LEAD: Chioma
 BASE PLAYABLE ROSTER: named ensemble assigned across Red / Blue / Purple / White functions
-JORDAN: supporting; not selectable at launch; Wildcard only after exercise becomes real CRITICAL incident
+MCCLUSTER: supporting; not selectable at launch; Wildcard only after exercise becomes real CRITICAL incident
 APEX: unavailable
 ROYCE: unavailable
 ```

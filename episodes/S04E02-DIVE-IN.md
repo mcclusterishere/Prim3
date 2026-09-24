@@ -18,7 +18,7 @@ branch: main
 ```text
 PRIMARY OWNERS: Grace Mbala / Rafael Costa
 SECONDARY DEPTH: Oksana Bondarenko / Leila Hosseini / Chioma Okeke / Chris “Perch” Alvarez / Jules “Kiosk” Mendez / Sora “Gymnast” Okada
-JORDAN: mentioned/edge until emergency; off-board Wildcard if CRITICAL
+MCCLUSTER: mentioned/edge until emergency; off-board Wildcard if CRITICAL
 BASE PLAYABLE ROSTER: Grace / Rafael / Oksana
 APEX: unavailable
 ROYCE: eligible only if Hitman pressure warrants

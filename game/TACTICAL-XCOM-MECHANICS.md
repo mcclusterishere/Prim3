@@ -259,7 +259,7 @@ His intended emotional effect is similar to an XCOM Chosen arrival:
 
 ```text
 ENSEMBLE -> solves the mission
-JORDAN   -> restores optionality
+MCCLUSTER   -> restores optionality
 PRIM2    -> expands picture / authority
 ROYCE    -> destabilizes control / tempo
 ```

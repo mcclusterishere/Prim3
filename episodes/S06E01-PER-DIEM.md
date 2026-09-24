@@ -18,7 +18,7 @@ branch: main
 ```text
 PRIMARY OWNERS: McCluster / Valeria Soto
 SECONDARY DEPTH: Chioma Okeke / Arjun Mehta / Sari Wulandari / Mina “Halo” Brooks / Tone Rivera / Omar “Rack” Dillon / Dez “Switch” Calhoun
-JORDAN: scripted from launch — rare ordinary-season McCluster PLAY episode
+MCCLUSTER: scripted from launch — rare ordinary-season McCluster PLAY episode
 WILDCARD COST: none; scripted mission
 APEX: eligible only if qualified CRITICAL state persists
 ROYCE: eligible as hostile escalation

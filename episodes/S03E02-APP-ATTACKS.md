@@ -19,7 +19,7 @@ branch: main
 PRIMARY OWNERS: Aya Shinoda / Minh Tran
 SECONDARY DEPTH: Leila Hosseini / Jonas Weber / Emre Yıldız / Jules “Kiosk” Mendez
 ESTABLISHED OUTSIDE/HISTORY: Hana Lee memory and/or Tariq Al-Farsi only when directly relevant
-JORDAN: supporting/edge; not scripted from launch by default
+MCCLUSTER: supporting/edge; not scripted from launch by default
 WILDCARD: normally unavailable — Aya/Minh must own the technical climax
 APEX: unavailable
 ROYCE: unavailable

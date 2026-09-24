@@ -36,7 +36,7 @@ McCluster is 33, newly re-entering college, and the ensemble chronology begins.
 High Alert is the deliberate opening exception to the majority-ensemble rule because the future event belongs to the succession triangle:
 
 ```text
-PRIM2 / JORDAN / ROYCE
+PRIM2 / MCCLUSTER / ROYCE
 ```
 
 This does not make McCluster the mandatory owner of later episodes.

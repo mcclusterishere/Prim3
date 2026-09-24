@@ -53,13 +53,13 @@ At approximately 26:
 ```text
 BIGGA LEX THE JET RETIRES
         ↓
-OFFERS CHAIR TO BENJI / JORDAN
+OFFERS CHAIR TO BENJI / MCCLUSTER
         ↓
-JORDAN REFUSES
+MCCLUSTER REFUSES
         ↓
 ROYCE RECEIVES THE SUCCESSION OPPORTUNITY
         ↓
-JORDAN ENTERS THE GHOST / WHIP EQUIPPED YEARS
+MCCLUSTER ENTERS THE GHOST / WHIP EQUIPPED YEARS
 ```
 
 McCluster's refusal is partly protective: Lex has children and McCluster does not want accepting the chair to create a reason Lex must return to danger for him.

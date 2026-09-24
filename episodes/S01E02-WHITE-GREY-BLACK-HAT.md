@@ -42,8 +42,8 @@ PRIMARY OWNER: Nusrat Rahman
 SECONDARY DEPTH: Miguel Santos / Aya Shinoda / McCluster
 MISSION LEAD: Nusrat
 BASE PLAYABLE ROSTER: Nusrat / Miguel / Aya
-JORDAN NARRATIVE STATE: C — supporting
-JORDAN PLAY STATE: LOCKED OUT
+MCCLUSTER NARRATIVE STATE: C — supporting
+MCCLUSTER PLAY STATE: LOCKED OUT
 WILDCARD: unavailable — the player has not yet earned the emergency-call fantasy
 APEX: unavailable
 ROYCE: unavailable
@@ -563,7 +563,7 @@ This is important: PRIM2 is evaluating the institution, not merely staring at Mc
 NUSRAT -> credibility + command confidence + new friction with speed-first actors
 MIGUEL -> humane-enforcement reputation begins
 AYA -> McCluster trust +1; Nusrat trust +1; confidence-in-process slightly increases
-JORDAN -> institutional trust +1; restraint becomes visible behavior, not private intention
+MCCLUSTER -> institutional trust +1; restraint becomes visible behavior, not private intention
 HELEN -> visible legitimacy increases
 PRIYA -> first tension between presentation and operational truth
 MAREN -> communication-as-accountability seed

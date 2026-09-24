@@ -444,7 +444,7 @@ Audience sees Kkeutori only as Aya/Hana friendship texture.
 AYA INSIDE MCCLUSTER
 Old Hana jokes occasionally recur as emotional memory.
         ↓
-JORDAN / SYSTEM ANOMALY
+MCCLUSTER / SYSTEM ANOMALY
 A present-day contradiction echoes one old joke.
         ↓
 AYA REOPENS OLD CHAINS

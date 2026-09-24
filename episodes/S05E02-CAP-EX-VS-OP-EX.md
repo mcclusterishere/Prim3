@@ -18,7 +18,7 @@ branch: main
 ```text
 PRIMARY OWNERS: Amira Hassan / Marc Dubois
 SECONDARY DEPTH: Helen Clarke / Priya Srisawat / Maren Quill / Li Wei / Grace Mbala / Grant Voss
-JORDAN: absent / locked out of solving the core problem
+MCCLUSTER: absent / locked out of solving the core problem
 BASE PLAYABLE POV: planning/governance/resource allocation team
 WILDCARD: unavailable — this episode must prove some problems cannot be solved by calling McCluster
 APEX: unavailable in canonical WATCH

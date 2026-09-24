@@ -36,8 +36,8 @@ Current succession line relevant to the show:
 
 ```text
 BIGGA LEX THE JET
-    -> offers succession to JORDAN / BENJI
-JORDAN REFUSES
+    -> offers succession to MCCLUSTER / BENJI
+MCCLUSTER REFUSES
     -> ROYCE receives the succession opportunity
 ```
 

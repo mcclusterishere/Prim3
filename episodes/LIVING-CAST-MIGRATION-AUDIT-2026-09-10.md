@@ -399,7 +399,7 @@ Use elastic scale to show two familiar organizations solving different objective
 ---
 
 ## 16 — PER DIEM / ROAD KIT
-**Classification:** **PARTIAL MIGRATION — INTENDED JORDAN SHOWCASE**
+**Classification:** **PARTIAL MIGRATION — INTENDED MCCLUSTER SHOWCASE**
 
 ### Preserve
 - McCluster as rare ordinary-season scripted PLAY character;
