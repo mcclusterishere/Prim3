@@ -138,8 +138,8 @@ Possible writes:
 - guilt attaches to a character;
 - a secret becomes shared;
 - somebody becomes protective of somebody else;
-- a trainee imitates Jordan;
-- Jordan begins/ends trusting an institution;
+- a trainee imitates McCluster;
+- McCluster begins/ends trusting an institution;
 - Prime's unseen influence becomes more legible.
 
 ## 7. Current storyline strength audit
@@ -164,13 +164,13 @@ These already combine technical stakes, human stakes and continuity unusually we
 - **S1E3 — Open Book:** good investigative play; needs a stronger human reason the missing equipment matters now beyond assignment completion.
 - **S2E1 — The Human Layer:** strong interpersonal conflict; the infiltrator's goal should materially threaten someone/something the audience already values.
 - **S2E2 — Four Colors:** conceptually clever; should produce a memorable cost for staying in “exercise mode” too long.
-- **S3E2 — Bad Input:** already strong because Jordan disobeys Chioma; make the player's technical shortcut visibly save people while simultaneously proving Chioma's fear valid.
+- **S3E2 — Bad Input:** already strong because McCluster disobeys Chioma; make the player's technical shortcut visibly save people while simultaneously proving Chioma's fear valid.
 - **S3E3 — Patient Zero:** excellent shame/blame mechanism; identify the person who hid the mistake earlier enough that the audience emotionally understands why.
 - **S4E1 — Clean Install:** relationship metaphor is strong; mission trigger needs a more urgent human consequence than generic remote-site migration.
 - **S4E2 — Dumpster Signal:** mystery is strong; give the unexplained facility evidence an immediate consequence or pursuer so it is not only archaeology.
 - **S5E1 — Shared Responsibility:** technically useful but presently abstract; attach the failing service to a concrete operation/person and make vendor finger-pointing cost actual time.
 - **S5E2 — Own the Exit:** strongest thematic risk of feeling like a business-school case. Make the CapEx/OpEx decision determine control of a physical extraction/recovery capability under pressure.
-- **S6E1 — Road Kit:** excellent operator-life theme; give the remote recovery site's minimum viable environment a named human population/service that fails if Jordan overworks the team or chooses the wrong hardware priority.
+- **S6E1 — Road Kit:** excellent operator-life theme; give the remote recovery site's minimum viable environment a named human population/service that fails if McCluster overworks the team or chooses the wrong hardware priority.
 
 ### Open / capstone bridge
 

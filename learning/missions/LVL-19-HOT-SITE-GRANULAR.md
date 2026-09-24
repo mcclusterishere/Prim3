@@ -16,7 +16,7 @@ inherits:
 
 Purpose: prove the PRIM3 system can scale from a contained IT incident into a cinematic multi-floor assault without losing the educational mechanics.
 
-The existing locked story outcome remains: Jordan and Benji enter Site 0 with separate teams, the teams are destroyed, Jordan and Benji survive, nearly fight one another, ally against Prime, defeat him together, and preserve the life-support/succession state required for Evil Twin/Ghost.
+The existing locked story outcome remains: McCluster and Benji enter Site 0 with separate teams, the teams are destroyed, McCluster and Benji survive, nearly fight one another, ally against Prime, defeat him together, and preserve the life-support/succession state required for Evil Twin/Ghost.
 
 All Site 0 systems and attack paths are fictional abstractions.
 
@@ -67,11 +67,11 @@ Full-game version is a checkpointed multi-phase capstone, not literally constrai
 Player-control structure:
 
 ```text
-PHASE A — Jordan team / Exterior-L1
+PHASE A — McCluster team / Exterior-L1
 PHASE B — Benji team / alternate route
 PHASE C — alternating viewpoints through Site 0
 PHASE D — both teams collapsing / redundancy reveals
-PHASE E — Jordan + Benji convergence
+PHASE E — McCluster + Benji convergence
 PHASE F — Prime control-core fight
 PHASE G — succession/life-support validation
 ```
@@ -90,7 +90,7 @@ Mission-wide state variables:
 - Internal Comms: 100
 - External Exposure: 0
 - Evidence Integrity: 3
-- Jordan Team Strength: story-decaying
+- McCluster Team Strength: story-decaying
 - Benji Team Strength: story-decaying
 - Failover Map Confidence: 0/100
 - Hostile Redundancy Remaining: 5 abstract domains
@@ -347,7 +347,7 @@ Player must isolate authority from life-safety continuity before committing.
 
 ## Set piece D — Final Authority Room
 Combat and technical work happen simultaneously.
-Jordan/Benji must survive Prime while T/R/E-equivalent actions across surviving characters disable hostile command paths but preserve life support.
+McCluster/Benji must survive Prime while T/R/E-equivalent actions across surviving characters disable hostile command paths but preserve life support.
 Technical completion weakens Prime's tactical board; combat buys the turns required to complete technical state transition.
 
 ---
@@ -373,7 +373,7 @@ The game must never present locked deaths as caused by the player answering a te
 
 ---
 
-# 14. Jordan / Benji convergence
+# 14. McCluster / Benji convergence
 
 When both survivor paths meet:
 - both initially appear as HOSTILE/UNKNOWN units on each other's tactical picture;
@@ -450,7 +450,7 @@ Operational Objective:
 - succession state viable.
 
 Team:
-- locked survivor state remains Jordan + Benji;
+- locked survivor state remains McCluster + Benji;
 - score reflects injury severity, resources, what doomed teammates preserved, and avoidable noncombatant harm.
 
 Exposure:

@@ -25,7 +25,7 @@ APEX: unavailable
 ROYCE: unavailable
 ```
 
-This supersedes the old Chioma-owned/Jordan-scripted blueprint.
+This supersedes the old Chioma-owned/McCluster-scripted blueprint.
 
 ---
 
@@ -39,7 +39,7 @@ This supersedes the old Chioma-owned/Jordan-scripted blueprint.
 | Jonas | system liaison | Defends application/system telemetry longer than Emre is comfortable with, foreshadowing his deeper emotional dependence on unified systems. |
 | Emre | physical truth | Refuses to let a green dashboard overrule a dangerous physical observation. His recurring argument with Jonas becomes recognizable rather than episodic. |
 | Kiosk | Hitman technical mirror | Solves technical problems in a very different environment by exploiting being underestimated; gains recurring specialist identity without being written as Aya's equal/opposite clone. |
-| Jordan | edge/support | Is useful socially or logistically but is deliberately not the technical answer, proving Wildcard does not erase specialist ownership. |
+| McCluster | edge/support | Is useful socially or logistically but is deliberately not the technical answer, proving Wildcard does not erase specialist ownership. |
 | Hana | memory/breadcrumb | An old Kkeutori joke about declared state vs observed state resurfaces as genuine affectionate memory first; its clue value remains latent. |
 | Tariq | optional outside relationship | If used, reminds Aya that engineering once meant normal professional life and that she can talk about a problem without turning it into a mission. |
 
@@ -97,7 +97,7 @@ Base roster centers Aya/Minh plus authorized analysis/system support.
 Primary verbs:
 `inspect / compare physical state / validate / isolate / assign privilege / route / fall back / verify / document`.
 
-Jordan is not the rescue mechanic for this episode under normal canon because the point is to make Aya and Minh indispensable.
+McCluster is not the rescue mechanic for this episode under normal canon because the point is to make Aya and Minh indispensable.
 
 ---
 

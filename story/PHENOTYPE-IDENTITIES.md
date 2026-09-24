@@ -11,13 +11,13 @@ branch: main
 
 A phenotype never determines who owns an episode, and one person may cross phenotypes when authorized and trained.
 
-Jordan Vale is the canonical **Wildcard / Flex** and therefore should not be forced into one permanent phenotype.
+McCluster is the canonical **Wildcard / Flex** and therefore should not be forced into one permanent phenotype.
 
 ## Shared apex / hidden succession
 
 | Role | Primary identity | Succession pressure | Personal tension |
 |---|---|---|---|
-| **PRIM / root authority** | **PRIM2** — presiding Mantle holder | **Jordan Vale -> eventual PRIM3** | Centralized total-context authority versus a Wildcard successor who must learn not to become the single point of failure. |
+| **PRIM / root authority** | **PRIM2** — presiding Mantle holder | **McCluster -> eventual PRIM3** | Centralized total-context authority versus a Wildcard successor who must learn not to become the single point of failure. |
 
 Most personnel do not know this table's root meaning. Lower-clearance personnel understand PRIM as **Program for Resilient Infrastructure Management**. Root clearance understands **Primary Root Identity Mantle**.
 
@@ -51,7 +51,7 @@ Most personnel do not know this table's root meaning. Lower-clearance personnel 
 
 | Phenotype | Primary | Function |
 |---|---|---|
-| **Wildcard / Flex** | **Jordan Vale** | Crosses R/E/T/Defense/logistics/support boundaries when trained/authorized; specializes in seams, unowned tasks and adapting when division of labor breaks. |
+| **Wildcard / Flex** | **McCluster** | Crosses R/E/T/Defense/logistics/support boundaries when trained/authorized; specializes in seams, unowned tasks and adapting when division of labor breaks. |
 
 Wildcard is not universal mastery and does not override authorization.
 
@@ -59,7 +59,7 @@ Wildcard is not universal mastery and does not override authorization.
 
 | Phenotype | Primary | Second seat | Character logic |
 |---|---|---|---|
-| **Cohort-02 Trainee** | **Valeria Soto** | rotating new trainees | The trainee layer exists independently of Jordan; Jordan may pass through cohort states without being permanently identified by them. |
+| **Cohort-02 Trainee** | **Valeria Soto** | rotating new trainees | The trainee layer exists independently of McCluster; McCluster may pass through cohort states without being permanently identified by them. |
 | **Cohort-01 Operator** | **Sari Wulandari** | **Yonas Bekele** | Different forms of reliable infrastructure restoration. |
 | **Cohort-03 Lead** | **Chioma Okeke** | **Thandiwe Nkosi** | Institutional command versus reform-minded command. |
 
@@ -84,7 +84,7 @@ Hitman is a separate street/corporate organism under PRIM2's hidden dual archite
 
 | Hitman phenotype | Primary identity | Second seat / pressure | Function |
 |---|---|---|---|
-| **H-Authority-01 — Sovereign** | **Royce** | **Sable Quinn** | Royce carries the Hitman chair Jordan/Benji refused; Sable constrains mythology with organizational reality. |
+| **H-Authority-01 — Sovereign** | **Royce** | **Sable Quinn** | Royce carries the Hitman chair McCluster/Benji refused; Sable constrains mythology with organizational reality. |
 | **H-Authority-02 — Operations / Money** | **Sable Quinn** | **Omar “Rack” Dillon** | Money, people, staffing and logistics. |
 | **H-Authority-03 — Sponsor / Client Gate** | **Grant Voss** | **Maren Quill** *(surface contact only where appropriate)* | Respectable demand translated into work without visibility into the hidden root. |
 | **H-Defense-01 — Block Control** | **Tone Rivera** | **Dez “Switch” Calhoun** | Presence, de-escalation and crew discipline. |
@@ -97,7 +97,7 @@ Hitman is a separate street/corporate organism under PRIM2's hidden dual archite
 | **H-Cohort-03 — Cell Lead** | **Mina “Halo” Brooks** | **Tone Rivera** | Small-team authority and extraction responsibility. |
 | **H-Dual Social — Elite Face** | **Sora “Gymnast” Okada** | **Priya Srisawat** *(unwitting institutional proximity)* | Elite social access unaware of Rae's sibling-side lane. |
 
-Historical note: **Benji = Jordan Vale at age 19–26.** He is relevant to Royce's succession history but is not an immediate-era phenotype occupant.
+Historical note: **Benji = McCluster at age 19–26.** He is relevant to Royce's succession history but is not an immediate-era phenotype occupant.
 
 ## Song-to-character availability map
 
@@ -105,23 +105,23 @@ This table indicates characters naturally suited to concepts; it does **not** as
 
 | Track | Characters naturally carrying the concept |
 |---|---|
-| High Alert | **PRIM2, Jordan, Royce, Pylon** plus surviving/failing assault context |
-| White Grey Black Hat | Nusrat, Miguel, Amira, Jordan |
-| OSINT | Oksana, Rafael, Aya, Jordan |
+| High Alert | **PRIM2, McCluster, Royce, Pylon** plus surviving/failing assault context |
+| White Grey Black Hat | Nusrat, Miguel, Amira, McCluster |
+| OSINT | Oksana, Rafael, Aya, McCluster |
 | Anti Social Engineering | Rae, Sora, Kira, Priya |
 | Red Blue Purple White Team | Chioma, Aya, Arjun, Rafael, Sari, Yonas |
-| Patch Work | Aya, Minh, Jordan, Helen |
+| Patch Work | Aya, Minh, McCluster, Helen |
 | App Attacks | Aya, Minh, Leila |
-| Installation Types | Aya, Valeria, Jordan |
+| Installation Types | Aya, Valeria, McCluster |
 | Dive In | Rafael, Oksana, Rae |
 | IoT | Jonas, Hassan, Minh, Pylon |
 | IaaS / SaaS / PaaS | Li, Yonas, Helen |
-| Cap Ex Vs. Op Ex | Marc, Amira, Aya, Jordan |
+| Cap Ex Vs. Op Ex | Marc, Amira, Aya, McCluster |
 | Trappin From The Cloud | Li, Sari, Yonas |
 | Per Diem | Arjun, Rafael, Dez, Royce-side personnel as appropriate |
-| RAID | PRIM2, Jordan, Royce, defense/field assault ensemble, Pylon |
-| Evil Twin | PRIM2, Jordan, Royce, dual-board characters |
-| Ghost In The Wires | former PRIM2, Jordan/PRIM3, Jonas, Pylon |
+| RAID | PRIM2, McCluster, Royce, defense/field assault ensemble, Pylon |
+| Evil Twin | PRIM2, McCluster, Royce, dual-board characters |
+| Ghost In The Wires | former PRIM2, McCluster/PRIM3, Jonas, Pylon |
 | Data Breach | Grace, Leila, Oksana, Hassan |
 | Got Wifi | Rafael, Hassan, Aya, Minh |
 | Virus Types | Aya, Minh, Leila, Sora |
@@ -132,6 +132,6 @@ When an episode needs a role, use existing people before inventing a new person.
 
 An episode can be owned emotionally by a character who is not the lead technical operator.
 
-Jordan may be absent.
+McCluster may be absent.
 
 See `ENSEMBLE-POV-AUTHORITY.md`.

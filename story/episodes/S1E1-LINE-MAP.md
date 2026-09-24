@@ -9,14 +9,14 @@ branch: main
 # High Alert line map — compatibility pointer
 
 The old line-by-line map in this path predates:
-- Benji = Jordan;
+- Benji = McCluster;
 - Royce as the contemporary Hitman-side rival;
 - PRIM2 terminology;
 - the 17-anchor Episode 02–18 structure;
 - rotating ensemble ownership;
 - the current institutional-gravity model of PRIM2 presence.
 
-Do not use the old Jordan-vs-separate-Benji diss labels or obsolete episode seed assignments.
+Do not use the old McCluster-vs-separate-Benji diss labels or obsolete episode seed assignments.
 
 Current line/memory authority is:
 

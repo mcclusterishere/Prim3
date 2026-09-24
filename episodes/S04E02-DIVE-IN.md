@@ -24,7 +24,7 @@ APEX: unavailable
 ROYCE: eligible only if Hitman pressure warrants
 ```
 
-This supersedes the old Jordan-led secret-site investigation while retaining the authorized decommissioned-site/evidence-reconstruction mechanics.
+This supersedes the old McCluster-led secret-site investigation while retaining the authorized decommissioned-site/evidence-reconstruction mechanics.
 
 ---
 
@@ -40,7 +40,7 @@ This supersedes the old Jordan-led secret-site investigation while retaining the
 | Perch | Hitman overwatch mirror | Feels pressure to simplify uncertainty into something actionable for Hitman leadership, sharpening his contrast with Rafael. |
 | Kiosk | Hitman technical | Helps interpret technical residue from the other board while remaining a recurring person with his own competence and limits. |
 | Sora | social-entry / opposing context | Shows how human context around a place can change the meaning of the same physical artifact. |
-| Jordan | optional Wildcard | If called, he helps protect/extract people or reopen access but does not own the evidentiary judgment. |
+| McCluster | optional Wildcard | If called, he helps protect/extract people or reopen access but does not own the evidentiary judgment. |
 
 ---
 
@@ -106,7 +106,7 @@ A high score rewards **restraint plus defensibility**, not maximum collection.
 - Leila's abstract governance rules become field-real.
 - Chioma experiences the political cost of defending ethical delay.
 - Perch/Kiosk/Sora deepen as recurring Hitman people.
-- Jordan can be useful without being the investigator who owns every hidden-architecture clue.
+- McCluster can be useful without being the investigator who owns every hidden-architecture clue.
 
 ---
 

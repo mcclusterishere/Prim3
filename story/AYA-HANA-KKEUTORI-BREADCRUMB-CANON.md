@@ -412,13 +412,13 @@ That gap becomes one of PRIM2's blind spots.
 
 ---
 
-# 15. Jordan's eventual role
+# 15. McCluster's eventual role
 
-Jordan does not solve Kkeutori for Aya.
+McCluster does not solve Kkeutori for Aya.
 
 That would steal Aya's history from her.
 
-Jordan's Wildcard pattern recognition may help trigger the rediscovery by independently noticing one of the same structural contradictions Hana encoded:
+McCluster's Wildcard pattern recognition may help trigger the rediscovery by independently noticing one of the same structural contradictions Hana encoded:
 
 - map versus real authority;
 - visible permission versus effective permission;
@@ -429,7 +429,7 @@ Aya then recognizes the echo.
 
 The actual reconstruction belongs to Aya because only Aya understands the friendship context.
 
-Jordan can help validate the present-day technical implications after Aya identifies the trail.
+McCluster can help validate the present-day technical implications after Aya identifies the trail.
 
 ---
 

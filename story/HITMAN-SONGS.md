@@ -21,15 +21,15 @@ Recovered/development track names include:
 Do not infer from this inventory that:
 - Benji is a separate contemporary protagonist;
 - the Hitman prequel must contain exactly six episodes;
-- Jordan joins at age 21;
-- Jordan takes over Hitman at the end;
+- McCluster joins at age 21;
+- McCluster takes over Hitman at the end;
 - the listed order is final.
 
 Current character chronology:
 
 ```text
 JORDAN / BENJI — approximately age 19–26
-BIGGA LEX THE JET — Jordan's primary friendship/entry bridge
+BIGGA LEX THE JET — McCluster's primary friendship/entry bridge
 LEX OFFERS SUCCESSION AT ~26
 JORDAN REFUSES
 ROYCE RECEIVES THE SUCCESSION OPPORTUNITY

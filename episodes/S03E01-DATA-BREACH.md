@@ -24,7 +24,7 @@ APEX: unavailable
 ROYCE: eligible only under authored/campaign pressure
 ```
 
-This supersedes the older Grace-owned/Jordan-file-centered version. Jordan's record anomaly may remain a secondary mystery beat, but the episode is fundamentally about governance, identity and human consequence.
+This supersedes the older Grace-owned/McCluster-file-centered version. McCluster's record anomaly may remain a secondary mystery beat, but the episode is fundamentally about governance, identity and human consequence.
 
 ---
 
@@ -40,7 +40,7 @@ This supersedes the older Grace-owned/Jordan-file-centered version. Jordan's rec
 | Chioma | command recurrence | Has to translate breach restrictions into operational staffing, experiencing how policy becomes somebody else's workload. |
 | Sable | Hitman operations mirror | Shows how compromised information becomes staffing, obligation and money pressure on the other board. |
 | Rae | Hitman trust mirror | Distinguishes genuine familiarity from manufactured trust; her people-reading skill gains a less glamorous emotional cost. |
-| Jordan | optional secondary subject | A pre-recruitment/provenance anomaly may appear in scope, but he does not seize the incident because the file concerns him. |
+| McCluster | optional secondary subject | A pre-recruitment/provenance anomaly may appear in scope, but he does not seize the incident because the file concerns him. |
 
 ---
 
@@ -84,7 +84,7 @@ Core line:
 6. Helen discovers one retention/provenance path sits above her expected visibility.
 7. Chioma manages operational consequences of restricting access.
 8. Sable/Rae show parallel opposing-board pressure without turning Hitman into a second IT department.
-9. Optional Jordan record anomaly deepens the long mystery without recentralizing the episode.
+9. Optional McCluster record anomaly deepens the long mystery without recentralizing the episode.
 
 ---
 
@@ -93,7 +93,7 @@ Core line:
 Primary verbs:
 `inspect / scope / classify / isolate / preserve / restrict / notify / correlate / restore / verify`.
 
-Jordan can be requested only in an eligible CRITICAL state to recover options or people. He cannot access his own restricted file by protagonist privilege.
+McCluster can be requested only in an eligible CRITICAL state to recover options or people. He cannot access his own restricted file by protagonist privilege.
 
 ---
 
@@ -105,7 +105,7 @@ Jordan can be requested only in an eligible CRITICAL state to recover options or
 - Amira's suspicion of risk arithmetic deepens toward Episode 14.
 - Chioma experiences policy as operational burden.
 - Sable/Rae become familiar recurring Hitman-side people.
-- Any Jordan provenance anomaly becomes a breadcrumb, not the episode's owner.
+- Any McCluster provenance anomaly becomes a breadcrumb, not the episode's owner.
 
 ---
 

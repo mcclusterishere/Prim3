@@ -24,7 +24,7 @@ APEX: unavailable
 ROYCE: unavailable
 ```
 
-This supersedes the old Jordan/Aya relationship-owned migration story. Technical installation/migration mechanics are retained; the human story now belongs to Valeria's transition from ambitious trainee to trusted operator.
+This supersedes the old McCluster/Aya relationship-owned migration story. Technical installation/migration mechanics are retained; the human story now belongs to Valeria's transition from ambitious trainee to trusted operator.
 
 ---
 
@@ -39,7 +39,7 @@ This supersedes the old Jordan/Aya relationship-owned migration story. Technical
 | Hassan | security | Makes chain-of-custody and controlled staging part of the technical plan instead of an afterthought. |
 | Chioma | command | Deliberately gives Valeria room to own the decision even when senior people could move faster. |
 | Rack | Hitman logistics mirror | Shows why reliable material support becomes informal power; people trust the person who always has the needed thing. |
-| Jordan | supporting mentor | Tries to rescue Valeria from one hard choice too early; she rejects the help and finishes it herself. |
+| McCluster | supporting mentor | Tries to rescue Valeria from one hard choice too early; she rejects the help and finishes it herself. |
 
 ---
 
@@ -75,8 +75,8 @@ Core line:
 1. Valeria receives the assignment and assumes speed will prove readiness.
 2. Aya/Emre identify different reasons one legacy dependency is dangerous.
 3. Arjun exposes a physical/user constraint the technical plan missed.
-4. Jordan offers to take the hardest decision; Valeria refuses.
-5. Chioma backs Valeria's ownership instead of rewarding Jordan's instinct to cover the seam.
+4. McCluster offers to take the hardest decision; Valeria refuses.
+5. Chioma backs Valeria's ownership instead of rewarding McCluster's instinct to cover the seam.
 6. Valeria selects a slower clean rebuild for the critical path and preserves only verified state.
 7. Hassan protects custody/rollback media.
 8. Rack appears through the opposing-board logistics layer, continuing the theme that material reliability creates status.
@@ -89,14 +89,14 @@ Core line:
 Primary verbs:
 `inventory / classify / back up / choose install path / migrate / validate / roll back / document`.
 
-Jordan is not selectable at launch. A Wildcard call, if earned through CRITICAL escalation, may create an alternate path but cannot take Valeria's decision ownership away.
+McCluster is not selectable at launch. A Wildcard call, if earned through CRITICAL escalation, may create an alternate path but cannot take Valeria's decision ownership away.
 
 ---
 
 # Persistent residue
 
 - Valeria earns adult professional credibility.
-- Jordan/Valeria mentorship becomes more equal and more conflict-capable.
+- McCluster/Valeria mentorship becomes more equal and more conflict-capable.
 - Aya improves at not controlling protégés.
 - Chioma gains trust in Valeria.
 - Arjun's human-rescue pressure weakness becomes available for later development.

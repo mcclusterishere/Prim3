@@ -17,19 +17,19 @@ branch: main
 
 This is the final PRIM3 episode.
 
-`RAID` proves Jordan and Royce can physically defeat PRIM2 together.
+`RAID` proves McCluster and Royce can physically defeat PRIM2 together.
 
 `Evil Twin` proves defeating PRIM2's body does not automatically explain, transfer or revoke the authority rooted through that living identity.
 
 `Ghost In The Wires` asks:
 
-> **Can Jordan inherit capability without inheriting PRIM2's unrestricted right to make the world obey him?**
+> **Can McCluster inherit capability without inheriting PRIM2's unrestricted right to make the world obey him?**
 
 The canonical result is **authority transfer + privilege reduction**, not an upload.
 
 PRIM2 was already functionally distributed before RAID. His damaged biological body remains a living trust component long enough for controlled succession.
 
-Jordan becomes **PRIM3 only when the Mantle recognizes and validates the transfer**.
+McCluster becomes **PRIM3 only when the Mantle recognizes and validates the transfer**.
 
 Former PRIM2 persists as constrained Ghost-class intelligence with read/observe/analyze/advice capability only by default.
 
@@ -38,16 +38,16 @@ Former PRIM2 persists as constrained Ghost-class intelligence with read/observe/
 # Episode ownership / ensemble
 
 ```text
-PRIMARY OWNERS: Jordan Vale / PRIM2
+PRIMARY OWNERS: McCluster / PRIM2
 SECONDARY OWNER: Royce
 RECURRING GOVERNANCE / VERIFICATION ENSEMBLE: Aya / Helen / Leila / Li / Chioma / Amira / Marc / Jonas / Pylon / other living characters as RAID roster permits
 JORDAN: scripted succession principal
 WILDCARD/APEX/ROYCE RANDOM SYSTEMS: not applicable
 ```
 
-This is not “Jordan wins the game.”
+This is not “McCluster wins the game.”
 
-It is Jordan deciding what winning is allowed to mean **while other living people get a say in the institution they are expected to keep serving**.
+It is McCluster deciding what winning is allowed to mean **while other living people get a say in the institution they are expected to keep serving**.
 
 ---
 
@@ -59,7 +59,7 @@ Ghost must carry:
 - newly empty jobs;
 - survivors working while grieving;
 - anger at the people who chose RAID;
-- conflicting opinions on whether Jordan should inherit the Mantle at all;
+- conflicting opinions on whether McCluster should inherit the Mantle at all;
 - practical dependence on somebody who died;
 - support characters suddenly operating above their old station because nobody else is left;
 - people who refuse to treat the succession ceremony as a clean victory.
@@ -68,7 +68,7 @@ The final episode may promote surviving support characters into future mains thr
 
 No death automatically produces a replacement.
 
-> **Jordan inherits an institution with holes in it.**
+> **McCluster inherits an institution with holes in it.**
 
 ---
 
@@ -123,7 +123,7 @@ WHAT LIFE-SAFETY FUNCTION RETURNS?
 WHAT AUTHORITY RETURNS WITH IT?
 ```
 
-Jordan cannot simply reconnect everything because useful infrastructure and old sovereign authority may share dependencies.
+McCluster cannot simply reconnect everything because useful infrastructure and old sovereign authority may share dependencies.
 
 ## Remote ensemble governance
 
@@ -136,9 +136,9 @@ Where continuity permits:
 - Chioma represents people who must operate under whatever governance comes next;
 - Amira/Marc test the plan against competing-risk logic without repeating GLASSHOUSE blindly;
 - Jonas/Pylon verify root/system behavior;
-- survivors affected by RAID force Jordan to answer what new authority will mean to actual people.
+- survivors affected by RAID force McCluster to answer what new authority will mean to actual people.
 
-Not everyone must support Jordan becoming PRIM3 emotionally just because succession architecture recognizes him.
+Not everyone must support McCluster becoming PRIM3 emotionally just because succession architecture recognizes him.
 
 ---
 
@@ -173,8 +173,8 @@ This preserves genuine ownership of earlier ensemble episodes.
 ### Royce
 If a defeated sovereign can still act, Royce does not consider him defeated.
 
-### Jordan
-Independent command must end, but Jordan refuses to destroy useful intelligence solely because he hates the holder.
+### McCluster
+Independent command must end, but McCluster refuses to destroy useful intelligence solely because he hates the holder.
 
 He must avoid:
 - mercy disguised as architecture;
@@ -188,7 +188,7 @@ Survivors force a fourth question:
 
 > **Why should the answer to too much power in one man automatically be another man?**
 
-Jordan may still become PRIM3, but the show should not pretend succession itself solves governance.
+McCluster may still become PRIM3, but the show should not pretend succession itself solves governance.
 
 ---
 
@@ -240,7 +240,7 @@ EXERCISE MANTLE: no
 
 # Succession moment
 
-Jordan becomes PRIM3 only after:
+McCluster becomes PRIM3 only after:
 
 1. challenge/succession state recognizes him;
 2. living PRIM2 root is used while still valid to transfer/revoke authority;
@@ -251,22 +251,22 @@ Identity state:
 ```text
 PRIMARY ROOT IDENTITY MANTLE
 CURRENT HOLDER: PRIM3
-HUMAN IDENTITY: JORDAN VALE
+HUMAN IDENTITY: MCCLUSTER
 PREVIOUS HOLDER: PRIM2
 PREVIOUS HOLDER STATUS: GHOST / ADVISORY
 ```
 
-Do not call Jordan PRIM3 before this moment.
+Do not call McCluster PRIM3 before this moment.
 
 ---
 
 # Royce's final function
 
-Royce is not reduced to watching Jordan receive a crown.
+Royce is not reduced to watching McCluster receive a crown.
 
 He is one of only two attackers who survived RAID and one of the people who defeated PRIM2.
 
-He has standing to challenge Jordan's assumptions.
+He has standing to challenge McCluster's assumptions.
 
 > **What happens when the person who walked away from power finally accepts more power than the person who always wanted it?**
 
@@ -307,7 +307,7 @@ Validation is the final technical lesson.
 # Final world state
 
 ```text
-PRIM3 / JORDAN VALE
+PRIM3 / MCCLUSTER
 - living Mantle holder
 - sovereign authority transferred
 - inherits damaged institution, dead colleagues, vacancies and unresolved moral responsibility
@@ -341,4 +341,4 @@ SITE 0
 
 # Governing final line
 
-> **RAID takes the body. Evil Twin takes the secret. Ghost takes the permission—and leaves Jordan responsible for everybody who has to live with what comes next.**
+> **RAID takes the body. Evil Twin takes the secret. Ghost takes the permission—and leaves McCluster responsible for everybody who has to live with what comes next.**

@@ -1,13 +1,13 @@
 ---
 status: CANON
 asset: official-suit-character-sheet
-character: Jordan Vale / eventual PRIM3
+character: McCluster / eventual PRIM3
 legacy_asset_path: assets/canon/characters/prime-negative-one/PRIME-N1-character-sheet.png
 ---
 
-# Official PRIM3 Suit — Jordan Vale Post-Succession Character Sheet
+# Official PRIM3 Suit — McCluster Post-Succession Character Sheet
 
-This is the locked completed suit design associated with **Jordan Vale after he becomes PRIM3**.
+This is the locked completed suit design associated with **McCluster after he becomes PRIM3**.
 
 The visual design survives the succession terminology migration. Older `Prime Negative One` / `PRIME-N1` naming attached to the current binary asset path is legacy naming only.
 
@@ -22,17 +22,17 @@ The visual design survives the succession terminology migration. Older `Prime Ne
 
 ## Usage rules
 
-- Before final succession, **Jordan does not ordinarily wear the completed PRIM3 identity/suit**.
+- Before final succession, **McCluster does not ordinarily wear the completed PRIM3 identity/suit**.
 - The future High Alert/RAID opening may foreshadow later-state visual language only where chronology supports it.
-- The suit is Jordan's succession/end-state design; it is not automatically the exact suit worn by PRIM0, PRIM1 or PRIM2.
+- The suit is McCluster's succession/end-state design; it is not automatically the exact suit worn by PRIM0, PRIM1 or PRIM2.
 - A future PRIM2 design must be visually distinct enough that the audience does not assume the Mantle is one literal inherited costume.
-- All future renders of Jordan's completed PRIM3 suit should preserve the locked geometry/proportions/design language unless owner canon deliberately revises them.
+- All future renders of McCluster's completed PRIM3 suit should preserve the locked geometry/proportions/design language unless owner canon deliberately revises them.
 
 ## Naming migration
 
 Current terminology:
 
-> **Jordan Vale / PRIM3**
+> **McCluster / PRIM3**
 
 Deprecated terminology:
 - Prime Negative One

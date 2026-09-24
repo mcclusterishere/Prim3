@@ -169,4 +169,4 @@ As the learner progresses, more layer relationships become interpretable. By Sit
 
 The final revelation is that Prime's historic advantage was not supernatural vision. Prime had cross-compartment access to more layers, earlier, than the people being directed through them.
 
-Jordan's succession therefore changes not just who controls the UI but the governance of the information behind it.
+McCluster's succession therefore changes not just who controls the UI but the governance of the information behind it.

@@ -7,7 +7,7 @@ branch: main
 
 # PRIM3 — Human Story Engine
 
-PRIM3 cannot function as a sequence of technology demonstrations or as a Jordan Vale biography with decorative coworkers.
+PRIM3 cannot function as a sequence of technology demonstrations or as a McCluster biography with decorative coworkers.
 
 > **The technology is pressure. The story is what that pressure reveals about people.**
 
@@ -29,9 +29,9 @@ Every recurring character must have:
 5. a relationship they cannot treat rationally;
 6. a line they believe they will never cross;
 7. a future moment that tests that line;
-8. an outside connection not dependent on Jordan or PRIM where appropriate;
+8. an outside connection not dependent on McCluster or PRIM where appropriate;
 9. ordinary behavior that proves they exist between missions;
-10. a believable episode-scale decision that could matter even if Jordan were absent.
+10. a believable episode-scale decision that could matter even if McCluster were absent.
 
 For Tier A / major Tier B characters, use the full causal chain:
 
@@ -74,7 +74,7 @@ Do not force the entire roster on camera every episode. Maintain a whole-roster 
 
 ## Ensemble relationship rule
 
-No important character exists only in relation to Jordan, PRIM2 or the curriculum.
+No important character exists only in relation to McCluster, PRIM2 or the curriculum.
 
 Each recurring character needs at least three meaningful relational vectors such as:
 - somebody they trust;
@@ -93,7 +93,7 @@ Every episode has an **episode owner** distinct from mission lead and playable P
 
 The owner is the character or small cluster whose inner model changes most because of the event.
 
-Jordan may be:
+McCluster may be:
 - owner;
 - shared owner;
 - supporting;
@@ -101,9 +101,9 @@ Jordan may be:
 - mentioned only;
 - absent.
 
-Across Episodes 02–18, default toward other-character ownership often enough that the world can sustain itself without Jordan physically entering every story.
+Across Episodes 02–18, default toward other-character ownership often enough that the world can sustain itself without McCluster physically entering every story.
 
-> **The succession belongs to Jordan. The world belongs to everybody.**
+> **The succession belongs to McCluster. The world belongs to everybody.**
 
 ## Recurring workplace rule
 
@@ -233,7 +233,7 @@ The rule is:
 
 ## Song rule
 
-A song is not automatically an episode plot or Jordan's point of view.
+A song is not automatically an episode plot or McCluster's point of view.
 
 A track may supply:
 - technical vocabulary;
@@ -251,11 +251,11 @@ The episode must still contain a human conflict that would matter if the lesson 
 
 Season One begins with future/endgame `High Alert`, then rewinds seven years.
 
-Jordan's return to college provides the audience a powerful entry path, but Season One should immediately establish that other people already have histories, loyalties, relationships and unresolved problems before Jordan arrives.
+McCluster's return to college provides the audience a powerful entry path, but Season One should immediately establish that other people already have histories, loyalties, relationships and unresolved problems before McCluster arrives.
 
 McCluster/visible PRIM may feel like opportunity or belonging to different characters for different reasons.
 
-Aya, for example, already has two years of institutional history and entered partly to investigate Hana's death. Jordan does not cause that story; he enters it.
+Aya, for example, already has two years of institutional history and entered partly to investigate Hana's death. McCluster does not cause that story; he enters it.
 
 The cohort must become socially real before major loss matters: studying, food, borrowing equipment, work shifts, flirting, resentment, cultural misunderstandings, competition, family obligations, money and mundane favors.
 
@@ -270,11 +270,11 @@ Before keeping a scene, answer:
 - What relationship fact is shown rather than stated?
 - What future consequence survives?
 - Which support/ambient character also changes because they are here?
-- Could the scene still exist if Jordan were not the center of the universe?
+- Could the scene still exist if McCluster were not the center of the universe?
 
 If the answer is only `the audience learns a technical concept`, rewrite it.
 
-If the answer is only `this teaches us something about Jordan`, ask whether the other character has been reduced to a device.
+If the answer is only `this teaches us something about McCluster`, ask whether the other character has been reduced to a device.
 
 If a recurring named character appears and nothing about them changes/reveals, either give them a beat or remove them from the scene.
 
@@ -301,7 +301,7 @@ Every major recurring character should eventually have:
 - knowledge matrix;
 - episode-by-episode continuity residue.
 
-Use Jordan and Aya as current reference-quality implementations without copying their personalities.
+Use McCluster and Aya as current reference-quality implementations without copying their personalities.
 
 ## Continuity rule
 

@@ -60,14 +60,14 @@ Canonical lesson law:
 
 # 2. Ensemble ownership and continuous development
 
-Jordan is the succession spine, not the mandatory episode owner.
+McCluster is the succession spine, not the mandatory episode owner.
 
 Across Episodes 02–18, most episodes primarily develop other characters.
 
-Allowed Jordan narrative states:
+Allowed McCluster narrative states:
 
 ```text
-A — Jordan-owned
+A — McCluster-owned
 B — shared
 C — supporting
 D — cameo / edge
@@ -110,7 +110,7 @@ D — UNAFFECTED / OUT OF FRAME
 
 # 3. PLAY deployment
 
-Ordinary PLAY does not put Jordan in the normal selectable roster.
+Ordinary PLAY does not put McCluster in the normal selectable roster.
 
 The player controls the named ensemble team assigned to the operation.
 
@@ -118,7 +118,7 @@ R/E/T are functional disciplines, not a mandatory exactly-three-person squad.
 
 Normal qualified characters generally receive 2 AP per activation; total AP depends on the authored roster.
 
-Jordan enters as:
+McCluster enters as:
 - `SCRIPTED` — the story requires him from launch;
 - `WILDCARD` — he is called after an eligible mission reaches CRITICAL;
 - `LOCKED OUT` — he cannot participate for authored reasons.
@@ -242,29 +242,29 @@ Possible writes include:
 
 # 7. Locked 21-episode ownership spine
 
-| # | Song / mission | Primary owner(s) | Jordan state / gameplay |
+| # | Song / mission | Primary owner(s) | McCluster state / gameplay |
 |---:|---|---|---|
-| 01 | High Alert / The Blip | PRIM2 + Jordan + Royce | scripted future fragment; rewind is Jordan age-33 reacquisition, not first discovery |
-| 02 | White Grey Black Hat / Permission Slip | Nusrat + Miguel | Jordan supporting; locked out of PLAY |
-| 03 | OSINT / Open Book | Oksana + Rafael | Jordan edge; Wildcard candidate |
-| 04 | Anti Social Engineering / The Human Layer | Priya + Sora | Jordan cameo; Wildcard eligible |
-| 05 | Red Blue Purple White Team / Four Colors | Chioma + Thandiwe | Jordan supporting; Wildcard eligible after real incident |
-| 06 | Got Wifi / Dead Air | Sari + Yonas | Jordan absent by default; Wildcard eligible; recurring-character death slot if retained |
-| 07 | Data Breach / Exposure | Leila + Li | Jordan mentioned/absent; Wildcard + Royce eligible |
-| 08 | App Attacks / Bad Input | Aya + Minh | Jordan supporting/edge; normally no Wildcard |
-| 09 | Virus Types / Patient Zero | Dmitri + Oksana | Jordan absent; Wildcard + Royce eligible |
-| 10 | Installation Types / Clean Install | Valeria | Jordan supporting mentor; Wildcard eligible |
-| 11 | Dive In / Dumpster Signal | Grace + Rafael | Jordan edge until emergency; Wildcard + Royce eligible |
-| 12 | IoT / House of Eyes | Jonas + Pylon | Jordan absent; Wildcard eligible; strong masked Apex candidate |
-| 13 | IaaS/SaaS/PaaS / Shared Responsibility | Helen + Li + Yonas | Jordan edge/mentioned; Wildcard + conditional Apex |
-| 14 | CapEx vs OpEx / Own the Exit | Amira + Marc | Jordan absent/locked out; no Wildcard rescue |
-| 15 | Trappin From The Cloud / Elastic | Sari + Sable | Jordan edge until crisis; Wildcard + Apex + Royce eligible |
-| 16 | Per Diem / Road Kit | Jordan + Valeria | rare scripted Jordan PLAY mission; Royce/Apex eligible |
-| 17 | Patch Work / Trust Boundary | Aya | Jordan emotionally central but off-board Wildcard; conditional Apex |
-| 18 | Song #21 OPEN / Mission #18 OPEN | Leila + Helen + Jordan | shared institutional rupture; exact song still open |
-| 19 | RAID / Hot Site | Jordan + Royce + PRIM2 | scripted endgame; recurring assault teams die except Jordan/Royce |
-| 20 | Evil Twin / Mirror Room | PRIM2 + Jordan + Royce | scripted provenance/confession endgame |
-| 21 | Ghost In The Wires / Last Process | Jordan + PRIM2 | scripted succession; Royce secondary |
+| 01 | High Alert / The Blip | PRIM2 + McCluster + Royce | scripted future fragment; rewind is McCluster age-33 reacquisition, not first discovery |
+| 02 | White Grey Black Hat / Permission Slip | Nusrat + Miguel | McCluster supporting; locked out of PLAY |
+| 03 | OSINT / Open Book | Oksana + Rafael | McCluster edge; Wildcard candidate |
+| 04 | Anti Social Engineering / The Human Layer | Priya + Sora | McCluster cameo; Wildcard eligible |
+| 05 | Red Blue Purple White Team / Four Colors | Chioma + Thandiwe | McCluster supporting; Wildcard eligible after real incident |
+| 06 | Got Wifi / Dead Air | Sari + Yonas | McCluster absent by default; Wildcard eligible; recurring-character death slot if retained |
+| 07 | Data Breach / Exposure | Leila + Li | McCluster mentioned/absent; Wildcard + Royce eligible |
+| 08 | App Attacks / Bad Input | Aya + Minh | McCluster supporting/edge; normally no Wildcard |
+| 09 | Virus Types / Patient Zero | Dmitri + Oksana | McCluster absent; Wildcard + Royce eligible |
+| 10 | Installation Types / Clean Install | Valeria | McCluster supporting mentor; Wildcard eligible |
+| 11 | Dive In / Dumpster Signal | Grace + Rafael | McCluster edge until emergency; Wildcard + Royce eligible |
+| 12 | IoT / House of Eyes | Jonas + Pylon | McCluster absent; Wildcard eligible; strong masked Apex candidate |
+| 13 | IaaS/SaaS/PaaS / Shared Responsibility | Helen + Li + Yonas | McCluster edge/mentioned; Wildcard + conditional Apex |
+| 14 | CapEx vs OpEx / Own the Exit | Amira + Marc | McCluster absent/locked out; no Wildcard rescue |
+| 15 | Trappin From The Cloud / Elastic | Sari + Sable | McCluster edge until crisis; Wildcard + Apex + Royce eligible |
+| 16 | Per Diem / Road Kit | McCluster + Valeria | rare scripted McCluster PLAY mission; Royce/Apex eligible |
+| 17 | Patch Work / Trust Boundary | Aya | McCluster emotionally central but off-board Wildcard; conditional Apex |
+| 18 | Song #21 OPEN / Mission #18 OPEN | Leila + Helen + McCluster | shared institutional rupture; exact song still open |
+| 19 | RAID / Hot Site | McCluster + Royce + PRIM2 | scripted endgame; recurring assault teams die except McCluster/Royce |
+| 20 | Evil Twin / Mirror Room | PRIM2 + McCluster + Royce | scripted provenance/confession endgame |
+| 21 | Ghost In The Wires / Last Process | McCluster + PRIM2 | scripted succession; Royce secondary |
 
 Detailed character writes live in `story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md`; recurring population lives in `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md`; local episode files are the current migrated incident/character blueprints.
 
@@ -322,7 +322,7 @@ Hard spine events remain stable unless a deliberate branch is authored.
 
 Learning Mastery remains separate from operational outcome.
 
-A Jordan or PRIM2 rescue may save people without granting technical mastery for work the player did not demonstrate.
+A McCluster or PRIM2 rescue may save people without granting technical mastery for work the player did not demonstrate.
 
 ---
 
@@ -330,7 +330,7 @@ A Jordan or PRIM2 rescue may save people without granting technical mastery for 
 
 The 17 memories shown during High Alert correspond to Episodes 02–18.
 
-A fragment may feature Jordan while the later episode belongs to somebody else.
+A fragment may feature McCluster while the later episode belongs to somebody else.
 
 > **The memory belongs to PRIM2's argument. The episode belongs to whoever changed because of it.**
 
@@ -344,7 +344,7 @@ The tactical system should make the player care enough about them that spending 
 
 > **A bad turn should create danger and consequence before it creates reload pressure.**
 
-Jordan/PRIM2 may prevent a future death where the current state is still recoverable. They cannot undo completed death.
+McCluster/PRIM2 may prevent a future death where the current state is still recoverable. They cannot undo completed death.
 
 Each recurring character should ultimately receive an authored casualty state:
 
@@ -370,7 +370,7 @@ Its story function is locked:
 - technical trust hierarchy and human authority hierarchy reveal a dangerous shared-root property;
 - multiple ensemble characters independently verify the case;
 - allies split over interpretation and response;
-- Jordan decides PRIM2 must be reached/challenged;
+- McCluster decides PRIM2 must be reached/challenged;
 - formal succession/challenge architecture becomes materially relevant;
 - the episode bridges directly into RAID.
 
@@ -385,7 +385,7 @@ Episodes 19–21 are expanded by:
 - `episodes/S07E02-EVIL-TWIN.md`
 - `episodes/S07E03-GHOST-IN-THE-WIRES.md`
 
-Do not reintroduce separate contemporary Benji, Jordan/Benji as two survivors, Prime-00 as current formal identity, old procedural SIM-swap Evil Twin, Ghost as first-time upload, or Jordan as PRIM3 before validated succession.
+Do not reintroduce separate contemporary Benji, McCluster/Benji as two survivors, Prime-00 as current formal identity, old procedural SIM-swap Evil Twin, Ghost as first-time upload, or McCluster as PRIM3 before validated succession.
 
 Even in the finale, the succession triangle does not erase the rest of the cast. RAID deaths, remote verification, grief and governance reaction remain ensemble development.
 
@@ -410,7 +410,7 @@ The structural migration is complete. Episode-by-episode scene work now proceeds
 
 # Governing shorthand
 
-> **The episode belongs to the person who changes. The mission belongs to the people who were sent. Jordan belongs to the emergency until the story specifically belongs to him.**
+> **The episode belongs to the person who changes. The mission belongs to the people who were sent. McCluster belongs to the emergency until the story specifically belongs to him.**
 
 And beneath that:
 

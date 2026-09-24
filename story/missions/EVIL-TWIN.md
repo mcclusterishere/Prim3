@@ -16,7 +16,7 @@ Current canon is governed together with:
 - `CANON.md`;
 - `episodes/S07E02-EVIL-TWIN.md`;
 - `story/PRIM-SUCCESSION-AUTHORITY.md`;
-- `story/JORDAN-VALE-HITMAN-ORIGIN-CANON.md`.
+- `story/MCCLUSTER-HITMAN-ORIGIN-CANON.md`.
 
 No old procedural infiltration material in this file remains canon.
 
@@ -24,13 +24,13 @@ No old procedural infiltration material in this file remains canon.
 
 # What the episode is
 
-`Evil Twin` begins **after Jordan Vale and Royce have already defeated PRIM2 physically during RAID**.
+`Evil Twin` begins **after McCluster and Royce have already defeated PRIM2 physically during RAID**.
 
-Jordan is the sole surviving PRIM-side attacker.
+McCluster is the sole surviving PRIM-side attacker.
 Royce is the sole surviving Hitman-side attacker.
 PRIM2 is critically injured, physically defeated and alive in Site 0's suspension/life-support architecture.
 
-Jordan and Royce initially believe they may be able to finish the conflict by killing him.
+McCluster and Royce initially believe they may be able to finish the conflict by killing him.
 
 PRIM2 reveals that his living identity remains entangled with the deepest trust root of the architecture and that immediate death could leave authority unresolved.
 
@@ -44,7 +44,7 @@ PRIM2's last weapon is not force.
 
 It is the fact that he knows more about the board than the two people who beat him.
 
-Jordan and Royce do not have to trust him.
+McCluster and Royce do not have to trust him.
 They have to determine which claims are true **before deciding whether killing him is safe**.
 
 The dramatic question is:
@@ -118,7 +118,7 @@ UNKNOWN
 
 # Playable identities
 
-### Jordan
+### McCluster
 Best at:
 - dependency reasoning;
 - technical provenance;
@@ -171,7 +171,7 @@ That does **not** mean:
 - he personally scripted every human choice;
 - every coincidence was manufactured;
 - every bad event was his doing;
-- every character existed to serve Jordan's succession.
+- every character existed to serve McCluster's succession.
 
 The stronger reveal is narrower:
 
@@ -195,13 +195,13 @@ Strong PLAY outcome:
 - root dependency independently verified;
 - several PRIM2 historical claims corroborated;
 - false/self-serving claims identified;
-- Jordan↔Royce trust improves enough for succession work;
+- McCluster↔Royce trust improves enough for succession work;
 - critical evidence preserved.
 
 Weak but continuing outcome:
 - only the root-dependency claim is sufficiently established;
 - historical picture remains contradictory;
-- Jordan/Royce distrust deepens;
+- McCluster/Royce distrust deepens;
 - Episode 21 begins with higher uncertainty and fewer preserved records.
 
 Hard story state remains:

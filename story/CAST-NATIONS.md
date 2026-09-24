@@ -13,17 +13,17 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 
 ## Locked anchors preserved
 
-- **Jordan Vale** — African American, United States, protagonist path.
-- **Aya Shinoda** — Japan, Field-T, central emotional relationship with Jordan.
+- **McCluster** — African American, United States, protagonist path.
+- **Aya Shinoda** — Japan, Field-T, central emotional relationship with McCluster.
 - Prime remains above the nationality matrix and keeps his civilian name unresolved.
 - Everyone is presently operating in the United States / McCluster system even when their origin remains central to identity.
 - The point of the roster is not tokenism. People from governments that may distrust one another are forced to share one operational architecture and decide whether personal loyalty can outgrow national narratives.
 
 # 24 main characters
 
-## 01 — Jordan Vale — United States — Cohort path
+## 01 — McCluster — United States — Cohort path
 
-**Background:** Jordan enters college at 33 after homelessness with years of real IT, infrastructure and data-center experience but no degree. He is used to being the person who can fix the thing while still being treated as the least credentialed person in the room. McCluster is the first institution to make his knowledge feel valuable before he understands the price of that recognition.
+**Background:** McCluster enters college at 33 after homelessness with years of real IT, infrastructure and data-center experience but no degree. He is used to being the person who can fix the thing while still being treated as the least credentialed person in the room. McCluster is the first institution to make his knowledge feel valuable before he understands the price of that recognition.
 
 **Wants:** legitimacy, stability and a life that cannot be administratively erased.  
 **Fears:** becoming so focused on surviving systems that he stops seeing people.  
@@ -37,7 +37,7 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 **Wants:** to build things that still work when people are scared, tired or dishonest.  
 **Fears:** becoming indispensable to an institution that would spend her life without asking.  
 **Contradiction:** emotionally private but technically incapable of leaving a broken thing alone.  
-**Key relationship:** Jordan fascinates and frustrates her because he survives by improvisation where she survives by structure.
+**Key relationship:** McCluster fascinates and frustrates her because he survives by improvisation where she survives by structure.
 
 ## 03 — Arjun Mehta — India — Field-E Entry Operator
 
@@ -46,7 +46,7 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 **Wants:** to be the teammate people are relieved to see arrive.  
 **Fears:** freezing when somebody else's life depends on his judgment.  
 **Contradiction:** physically fearless, privately obsessive about every mistake.  
-**Key relationship:** he becomes Jordan's reality check whenever Jordan believes intelligence can substitute for preparation.
+**Key relationship:** he becomes McCluster's reality check whenever McCluster believes intelligence can substitute for preparation.
 
 ## 04 — Li Wei — China — Authority / Director track
 
@@ -131,12 +131,12 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 
 ## 13 — Valeria Soto — Mexico — Cohort-02 Trainee
 
-**Background:** Valeria is a first-generation technical student who spent years doing bilingual support, family troubleshooting and small freelance jobs before anybody called it engineering. She enters McCluster younger and more credential-hungry than Jordan, initially seeing him as proof that falling behind can still be recovered from.
+**Background:** Valeria is a first-generation technical student who spent years doing bilingual support, family troubleshooting and small freelance jobs before anybody called it engineering. She enters McCluster younger and more credential-hungry than McCluster, initially seeing him as proof that falling behind can still be recovered from.
 
 **Wants:** to move fast enough that money stops deciding what opportunities she can take.  
 **Fears:** becoming excellent at a job she morally cannot leave.  
 **Contradiction:** ambitious about promotion, deeply suspicious of people impressed by titles.  
-**Key relationship:** Jordan becomes an older-brother figure she sometimes resents because his approval matters to her.
+**Key relationship:** McCluster becomes an older-brother figure she sometimes resents because his approval matters to her.
 
 ## 14 — Amira Hassan — Egypt — Authority-03 Mission Sponsor
 
@@ -158,7 +158,7 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 
 ## 16 — Grace Mbala — Democratic Republic of the Congo — Cohort Support
 
-**Background:** Grace came through humanitarian data coordination and continuity work, where every technical failure eventually became somebody's food, medication, transport or missing relative. She is the character most likely to ask what happens to civilians after the operators leave. She enters McCluster through support rather than combat identity and becomes indispensable because she remembers the cost center has names.
+**Background:** Grace came through humanitarian data coordination and continuity work, where every technical failure eventually became somebody's food, medication, transport or missing relative. She is the character most likely to ask what happens to civilians after the operators leave. She enters Equity Uprise through support rather than combat identity and becomes indispensable because she remembers the cost center has names.
 
 **Wants:** to keep the organization connected to the human consequences of its decisions.  
 **Fears:** compassion becoming merely another data field in a debrief.  
@@ -243,7 +243,7 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 
 | Main | Legacy — deceased former operator | Living freelancer / outside connection |
 |---|---|---|
-| Jordan Vale | **Kwame Asante — Ghana.** A patient infrastructure mentor who taught Jordan that clean documentation is a form of respect. His death on an earlier continuity operation becomes Jordan's first proof that competent adults can disappear inside sterile reporting. | **Sofia Berg — Sweden.** Independent digital archivist who distrusts McCluster but believes Jordan deserves a verifiable record of his own life. |
+| McCluster | **Kwame Asante — Ghana.** A patient infrastructure mentor who taught McCluster that clean documentation is a form of respect. His death on an earlier continuity operation becomes McCluster's first proof that competent adults can disappear inside sterile reporting. | **Sofia Berg — Sweden.** Independent digital archivist who distrusts McCluster but believes McCluster deserves a verifiable record of his own life. |
 | Aya Shinoda | **Hana Lee — South Korea.** Robotics engineer whose insistence on graceful failure shaped Aya's technical philosophy; Aya still quotes her without saying whose words they are. | **Tariq Al-Farsi — Saudi Arabia.** Aviation-systems contractor and old research friend who reminds Aya she once expected a normal engineering career. |
 | Arjun Mehta | **Priyan Perera — Sri Lanka.** Industrial safety specialist who died during a rescue he believed management delayed too long. Arjun measures every sponsor against that memory. | **Fatima Zahra — Morocco.** Structural engineer who exchanges brutally practical field notes with Arjun and refuses McCluster recruitment. |
 | Li Wei | **Sun Ho — North Korea.** Brilliant isolated systems technician whose defection into the program ended in a mission loss that Li still believes could have been prevented by better governance. | **Bat Erdene — Mongolia.** Independent network planner who treats borders as routing problems and needles Li whenever he becomes too institutional. |
@@ -256,7 +256,7 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 | Oksana Bondarenko | **Piotr Kowalski — Poland.** Geospatial analyst who taught Oksana to preserve uncertainty instead of forcing a clean narrative too early. | **Anastasia Popescu — Romania.** Investigative data journalist who is valuable precisely because she does not work for McCluster. |
 | Yonas Bekele | **Daniel Mwangi — Kenya.** Network-restoration operator who could calm a war room by lowering his voice; Yonas consciously imitates that steadiness. | **Amina Jibril — Tanzania.** Community-network builder who accuses Yonas of fixing elite systems while ordinary neighborhoods still need infrastructure. |
 | Valeria Soto | **Luis Herrera — Guatemala.** Junior operator who died before becoming the senior person he was always preparing to be; Valeria sees too much of herself in his old notes. | **Sofía Vargas — Peru.** Freelance developer and Valeria's closest friend outside McCluster, unimpressed by secrecy and very impressed by invoices being paid on time. |
-| Amira Hassan | **Youssef Benali — Algeria.** Sponsor who once refused a mission and lost his career before later dying in unrelated field work; Amira keeps his refusal letter. | **Layla Mansour — Jordan.** International contracting attorney who helps Amira distinguish what is legal, what is authorized and what is merely possible. |
+| Amira Hassan | **Youssef Benali — Algeria.** Sponsor who once refused a mission and lost his career before later dying in unrelated field work; Amira keeps his refusal letter. | **Layla Mansour — McCluster.** International contracting attorney who helps Amira distinguish what is legal, what is authorized and what is merely possible. |
 | Miguel Santos | **José Ramírez — Spain.** Access officer remembered for recognizing every employee by name; Miguel learned that security can feel human. | **Andrea Rossi — Italy.** Port/logistics consultant who keeps Miguel supplied with stories about ordinary operational chaos outside Prime's world. |
 | Grace Mbala | **Jean-Pierre Ndlovu — Zimbabwe.** Continuity coordinator who died after staying behind to complete an evacuation manifest; Grace refuses to let his final act become a KPI. | **Fatou Camara — Mali.** Humanitarian logistics specialist who challenges McCluster's habit of calling affected communities 'stakeholders.' |
 | Minh Tran | **Sopheak Lim — Cambodia.** Firmware engineer whose meticulous lab notebooks survive him and become Minh's private technical scripture. | **Bounmy Phom — Laos.** Small-manufacturer automation consultant who reminds Minh how elegant technology can be when nobody is shooting at it. |
@@ -270,8 +270,8 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 
 # Relationship web — primary pressure lines
 
-- **Jordan ↔ Aya:** love grows out of mutual technical respect; their conflict is improvisation versus control, then survival versus intimacy.
-- **Jordan ↔ Valeria:** older/younger student mirror; Valeria sees the path Jordan might have had with earlier support.
+- **McCluster ↔ Aya:** love grows out of mutual technical respect; their conflict is improvisation versus control, then survival versus intimacy.
+- **McCluster ↔ Valeria:** older/younger student mirror; Valeria sees the path McCluster might have had with earlier support.
 - **Chioma ↔ Thandiwe:** leadership peers who may eventually disagree over whether the institution should be inherited, reformed or dismantled.
 - **Li ↔ Leila:** governance versus skepticism; strongest analytical partnership in the organization.
 - **Dmitri ↔ Oksana:** earned operational trust under geopolitical tension; never written as a simplistic reconciliation allegory.

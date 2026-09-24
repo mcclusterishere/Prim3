@@ -39,7 +39,7 @@ ROYCE: no random incursion
 | Kira “Keys” Moon | Hitman access mirror | Demonstrates how familiarity, invitations and remembered names become real access capital on the opposing board. |
 | Helen | institutional presence | Refuses a cosmetic-only fix after the event, reinforcing that visible leadership can accept uncomfortable process changes. |
 | Chioma | workplace recurrence | Watches how Priya responds when her own design assumptions are implicated; starts trusting her more because she does not dodge responsibility. |
-| Jordan | cameo | Misreads one social cue and is not useful; a small but important reminder that Wildcard competence is not omniscience. |
+| McCluster | cameo | Misreads one social cue and is not useful; a small but important reminder that Wildcard competence is not omniscience. |
 
 ---
 
@@ -87,7 +87,7 @@ Core line:
 Primary verbs:
 `observe / converse / compare claims / verify / redirect / escort / segment / document / protect staff`.
 
-Jordan may only be called if the event reaches a true authored CRITICAL state. If he arrives, he reopens options; he does not own Priya's transformation.
+McCluster may only be called if the event reaches a true authored CRITICAL state. If he arrives, he reopens options; he does not own Priya's transformation.
 
 ---
 
@@ -98,7 +98,7 @@ Jordan may only be called if the event reaches a true authored CRITICAL state. I
 - Sora/Keys become familiar Hitman people, not disposable adversaries.
 - Helen accumulates evidence as a genuinely responsible visible executive.
 - Chioma sees Priya accept accountability.
-- Jordan gains a tiny social blind-spot write.
+- McCluster gains a tiny social blind-spot write.
 
 ---
 

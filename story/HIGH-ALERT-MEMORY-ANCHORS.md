@@ -13,11 +13,11 @@ The **High Alert music film is shown in S1E1 but occurs chronologically in the m
 
 **PRIM2** is the performer.
 
-Jordan Vale's PRIM-side assault element and **Royce's Hitman-side assault element** are attacking Site 0 from different sides of PRIM2's hidden architecture. They are old rivals with pre-PRIM3 history, not strangers and not Jordan/Benji as two separate men.
+McCluster's PRIM-side assault element and **Royce's Hitman-side assault element** are attacking Site 0 from different sides of PRIM2's hidden architecture. They are old rivals with pre-PRIM3 history, not strangers and not McCluster/Benji as two separate men.
 
 High Alert belongs primarily to the endgame triangle:
 - **PRIM2** — defending the Mantle;
-- **Jordan** — eventual PRIM3 challenger;
+- **McCluster** — eventual PRIM3 challenger;
 - **Royce** — surviving Hitman-side sovereign/challenger.
 
 It is deliberately unlike most Episodes 02–18, whose emotional ownership may belong primarily to other ensemble characters.
@@ -33,7 +33,7 @@ The song functions as:
 
 There are exactly **17 core memory anchors** because the chronologically prior story slots are global Episodes 02–18.
 
-The anchors do **not** imply Jordan owns all seventeen episodes. They are flashes selected by PRIM2 because they are useful against the people currently attacking him. The complete episode may reveal that another character actually owned the event.
+The anchors do **not** imply McCluster owns all seventeen episodes. They are flashes selected by PRIM2 because they are useful against the people currently attacking him. The complete episode may reveal that another character actually owned the event.
 
 > **The memory belongs to PRIM2's argument. The episode belongs to whoever changed because of it.**
 
@@ -43,7 +43,7 @@ The anchors do **not** imply Jordan owns all seventeen episodes. They are flashe
 
 Each High Alert memory receives roughly 1–4 seconds.
 
-The first viewing should not explain itself. Later episodes reveal the full human story and may change the apparent owner of what was initially perceived as a Jordan memory.
+The first viewing should not explain itself. Later episodes reveal the full human story and may change the apparent owner of what was initially perceived as a McCluster memory.
 
 The strongest anchors can acquire three meanings:
 
@@ -59,13 +59,13 @@ S1E1 IMAGE
 
 ## MEMORY 01 — S1E2 / WHITE GREY BLACK HAT — Permission
 
-**Flash:** Jordan's bag at a McCluster access checkpoint; Nusrat holds an unregistered onboarding device; Jordan leaves his hands visible and declares it. A distant approval field resolves above the local access office.
+**Flash:** McCluster's bag at a McCluster access checkpoint; Nusrat holds an unregistered onboarding device; McCluster leaves his hands visible and declares it. A distant approval field resolves above the local access office.
 
 **First-watch:** corporate-security imagery.
 
-**Full-episode freedom:** the episode can belong primarily to **Nusrat/Miguel/Amira** as a story about consistent rules and institutional pressure, with Jordan as the case that forces the question.
+**Full-episode freedom:** the episode can belong primarily to **Nusrat/Miguel/Amira** as a story about consistent rules and institutional pressure, with McCluster as the case that forces the question.
 
-**Hidden layer:** Jordan's access ultimately survives an escalation above the visible local tree. Do not label that authority `P-00`; use a cryptic root-class approval or no readable identifier until later.
+**Hidden layer:** McCluster's access ultimately survives an escalation above the visible local tree. Do not label that authority `P-00`; use a cryptic root-class approval or no readable identifier until later.
 
 **Diss meaning:** *You thought you entered because you passed the checkpoint. Someone above the checkpoint chose not to end your path there.*
 
@@ -73,13 +73,13 @@ S1E1 IMAGE
 
 ## MEMORY 02 — S1E3 / OSINT — Open Book
 
-**Flash:** Oksana/Rafael-style evidence fragments, public records, shipping/business/map data, and Jordan or another operator refusing an overclaim. An unnamed senior review later sees the same chain.
+**Flash:** Oksana/Rafael-style evidence fragments, public records, shipping/business/map data, and McCluster or another operator refusing an overclaim. An unnamed senior review later sees the same chain.
 
 **First-watch:** research montage.
 
-**Full-episode freedom:** the episode may be owned by **Oksana, Rafael, Aya, or another investigator**, with Jordan supporting or merely contributing one inference.
+**Full-episode freedom:** the episode may be owned by **Oksana, Rafael, Aya, or another investigator**, with McCluster supporting or merely contributing one inference.
 
-**Hidden layer:** PRIM2 can receive downstream work without physically walking behind Jordan in a library. The old mandatory physical-campus cameo is superseded.
+**Hidden layer:** PRIM2 can receive downstream work without physically walking behind McCluster in a library. The old mandatory physical-campus cameo is superseded.
 
 **Diss meaning:** *You were learning what public information can reveal. I was learning what your team chooses not to claim without proof.*
 
@@ -91,7 +91,7 @@ S1E1 IMAGE
 
 **First-watch:** two unrelated social characters.
 
-**Episode owner candidate:** **Rae / Sora / Kira / Priya**. Jordan may be absent.
+**Episode owner candidate:** **Rae / Sora / Kira / Priya**. McCluster may be absent.
 
 **Late payoff:** PRIM2 does not need a literal reflection between them. Their unknowingly coordinated existence is enough.
 
@@ -105,7 +105,7 @@ S1E1 IMAGE
 
 **First-watch:** team/family visual.
 
-**Episode owner candidate:** **Chioma / Thandiwe / ensemble**, not necessarily Jordan.
+**Episode owner candidate:** **Chioma / Thandiwe / ensemble**, not necessarily McCluster.
 
 **Hidden layer:** a staffing recommendation to separate high-value people is rejected from above. PRIM2 understands that real loyalties make later authority tests meaningful.
 
@@ -133,7 +133,7 @@ S1E1 IMAGE
 
 **First-watch:** classified-file visual.
 
-**Episode owner candidate:** **Grace / Leila / Oksana / Hassan**, with Jordan's dossier one of several emotionally loaded exposures.
+**Episode owner candidate:** **Grace / Leila / Oksana / Hassan**, with McCluster's dossier one of several emotionally loaded exposures.
 
 **Hidden layer:** the old literal `P-00` code is deprecated. The important fact is that a hidden root authority exists, not that a convenient label spoils it.
 
@@ -147,9 +147,9 @@ S1E1 IMAGE
 
 **First-watch:** application/action graphics.
 
-**Episode owner candidate:** **Chioma / Aya / Minh / Leila**. Jordan may be the operator who challenges the order, but the emotional episode can belong to Chioma's command problem.
+**Episode owner candidate:** **Chioma / Aya / Minh / Leila**. McCluster may be the operator who challenges the order, but the emotional episode can belong to Chioma's command problem.
 
-**Hidden layer:** if Jordan improvises successfully, do not make the success entirely PRIM2's gift. PRIM2 may shape an authorization boundary, but Jordan still has to perceive/execute the path and Chioma still owns the command consequence.
+**Hidden layer:** if McCluster improvises successfully, do not make the success entirely PRIM2's gift. PRIM2 may shape an authorization boundary, but McCluster still has to perceive/execute the path and Chioma still owns the command consequence.
 
 **Diss meaning:** *You call the result proof you were right. The deeper question is who was allowed to take the risk and who paid if it failed.*
 
@@ -171,11 +171,11 @@ S1E1 IMAGE
 
 ## MEMORY 09 — S4E1 / INSTALLATION TYPES — Clean Install
 
-**Flash:** Jordan and Aya's personal worlds become visibly entangled while separate placement/assignment systems begin treating them as an operational pair.
+**Flash:** McCluster and Aya's personal worlds become visibly entangled while separate placement/assignment systems begin treating them as an operational pair.
 
 **First-watch:** relationship/career montage.
 
-**Episode owner candidate:** **Aya** as easily as Jordan.
+**Episode owner candidate:** **Aya** as easily as McCluster.
 
 **Hidden layer:** PRIM2 does not manufacture their relationship. Once it exists, the institution models it and can make decisions around it.
 
@@ -189,7 +189,7 @@ S1E1 IMAGE
 
 **First-watch:** dead-operator relic.
 
-**Episode owner candidate:** **Rafael / Oksana / Aya / Jordan**, depending final episode design.
+**Episode owner candidate:** **Rafael / Oksana / Aya / McCluster**, depending final episode design.
 
 **Later layer:** an earlier candidate/operator also approached hidden succession architecture and failed.
 
@@ -203,7 +203,7 @@ S1E1 IMAGE
 
 **First-watch:** smart-building autonomy/failover.
 
-**Episode owner candidate:** **Jonas / Pylon / Hassan / Minh**. Jordan can be supporting or absent.
+**Episode owner candidate:** **Jonas / Pylon / Hassan / Minh**. McCluster can be supporting or absent.
 
 **Hidden layer:** the building has access to higher-context authority originating through PRIM2's root layer. If this is the first physical meeting with PRIM2, the irony is that the characters have already interacted with his authority indirectly.
 
@@ -231,7 +231,7 @@ S1E1 IMAGE
 
 **First-watch:** finance/ownership flex.
 
-**Episode owner candidate:** **Marc / Amira / Aya**. Jordan may contribute Wildcard operational perspective without owning the episode.
+**Episode owner candidate:** **Marc / Amira / Aya**. McCluster may contribute Wildcard operational perspective without owning the episode.
 
 **Hidden layer:** PRIM2 often pays for independence because external dependency limits root authority.
 
@@ -245,7 +245,7 @@ S1E1 IMAGE
 
 **First-watch:** global logistics duplication.
 
-**Episode owner candidate:** **Li / Sari / Yonas / Sable / Rack**. Jordan does not need to receive either case personally.
+**Episode owner candidate:** **Li / Sari / Yonas / Sable / Rack**. McCluster does not need to receive either case personally.
 
 **Evil Twin payoff:** the lanes belong to sibling structures under PRIM2's hidden board.
 
@@ -269,17 +269,17 @@ S1E1 IMAGE
 
 ## MEMORY 16 — S6E2 / Patch Work — Trust Boundary
 
-**Flash:** Aya and Jordan discover that personal relationships, mentorship assignments and institutional observation have been modeled together more deeply than either understood. A brief Hana/Kkeutori image can intrude into Aya's reaction.
+**Flash:** Aya and McCluster discover that personal relationships, mentorship assignments and institutional observation have been modeled together more deeply than either understood. A brief Hana/Kkeutori image can intrude into Aya's reaction.
 
 **First-watch:** relationship/institution trust crisis.
 
 **Episode owner candidate:** **Aya**.
 
-**Current continuity:** DELETE the old locked idea that PRIM2 explicitly assigned Aya `MENTOR / OBSERVE / REPORT ANOMALIES` on Jordan from day one and therefore `introduced` the romance. That gives PRIM2 too much authorship over their relationship and conflicts with Aya's independent McCluster entry/Hana investigation.
+**Current continuity:** DELETE the old locked idea that PRIM2 explicitly assigned Aya `MENTOR / OBSERVE / REPORT ANOMALIES` on McCluster from day one and therefore `introduced` the romance. That gives PRIM2 too much authorship over their relationship and conflicts with Aya's independent McCluster entry/Hana investigation.
 
 A stronger version is:
 - Aya already exists inside McCluster for her own reasons;
-- she and Jordan meet through legitimate work;
+- she and McCluster meet through legitimate work;
 - their relationship is real and self-created;
 - institutional analytics later model the relationship;
 - Aya may have ordinary professional reporting responsibilities, but she was not a planted romantic observer;
@@ -293,11 +293,11 @@ A stronger version is:
 
 ## MEMORY 17 — S6E3 / Song #21 — Mission #18 OPEN
 
-**Flash:** Jordan knowingly invokes a formal challenge/succession condition; a hidden adjudication state changes from candidate/evaluation toward recognized challenge. PRIM2's current living-root identity is visible only through abstract system consequence, not a tutorial-like mechanic.
+**Flash:** McCluster knowingly invokes a formal challenge/succession condition; a hidden adjudication state changes from candidate/evaluation toward recognized challenge. PRIM2's current living-root identity is visible only through abstract system consequence, not a tutorial-like mechanic.
 
 **First-watch:** fight paperwork / legalistic challenge imagery.
 
-**Required Episode 18 reveal:** reaching PRIM2 is not simply an unsanctioned assassination. The hidden Mantle architecture contains a succession challenge mechanism. Jordan deliberately crosses from investigating PRIM2 to deciding he must reach him.
+**Required Episode 18 reveal:** reaching PRIM2 is not simply an unsanctioned assassination. The hidden Mantle architecture contains a succession challenge mechanism. McCluster deliberately crosses from investigating PRIM2 to deciding he must reach him.
 
 The exact technical mechanism remains open until Song #21 is supplied.
 
@@ -307,7 +307,7 @@ The exact technical mechanism remains open until Song #21 is supplied.
 
 # Present-tense High Alert principles
 
-The remaining diss bars stay in RAID present tense and are aimed primarily at **Jordan, Royce and the surviving assault context**.
+The remaining diss bars stay in RAID present tense and are aimed primarily at **McCluster, Royce and the surviving assault context**.
 
 ## `I'm on High Alert.`
 
@@ -333,7 +333,7 @@ Use to contrast distributed sleep-command scale with the physical reality that R
 
 # Episode-ownership reminder
 
-The existence of seventeen High Alert memories **must not** pull Episodes 02–18 back into Jordan-only storytelling.
+The existence of seventeen High Alert memories **must not** pull Episodes 02–18 back into McCluster-only storytelling.
 
 Before finalizing any anchor's full episode, record:
 
@@ -347,7 +347,7 @@ WHAT PRIM2'S FLASH CHOOSES TO EMPHASIZE:
 WHAT THE FULL EPISODE REVEALS PRIM2'S FLASH LEFT OUT:
 ```
 
-A powerful technique is to make High Alert show the **Jordan-adjacent fragment**, then let the eventual episode reveal that the real emotional story belonged to somebody else.
+A powerful technique is to make High Alert show the **McCluster-adjacent fragment**, then let the eventual episode reveal that the real emotional story belonged to somebody else.
 
 ---
 
@@ -357,7 +357,7 @@ Effective immediately:
 - performer = **PRIM2**;
 - Hitman surviving challenger = **Royce**, not separate Benji;
 - `P-00` as an easy readable root code is deprecated unless deliberately used as a historical cover artifact;
-- Aya/Jordan romance is not a relationship PRIM2 created;
+- Aya/McCluster romance is not a relationship PRIM2 created;
 - PRIM2 does not need a physical cameo in each anchor;
 - other characters may own most of Episodes 02–18;
 - the 17-anchor architecture remains intact.

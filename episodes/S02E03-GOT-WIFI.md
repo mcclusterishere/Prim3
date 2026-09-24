@@ -110,7 +110,7 @@ Core line:
 Primary verbs:
 `scan / map / compare / trace / isolate / reposition / route / warn / restore / verify / extract`.
 
-If CRITICAL, the player may spend a Wildcard authorization. Jordan can preserve still-living people or recover options; he cannot reverse a completed death.
+If CRITICAL, the player may spend a Wildcard authorization. McCluster can preserve still-living people or recover options; he cannot reverse a completed death.
 
 ---
 

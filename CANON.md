@@ -38,17 +38,17 @@ Primary authorities:
 
 ## 2. Ensemble / living-cast law
 
-Jordan Vale is one of the central main characters and the eventual succession spine. He is **not** the mandatory owner of every episode.
+McCluster is one of the central main characters and the eventual succession spine. He is **not** the mandatory owner of every episode.
 
 PRIM3 is a recurring workplace/community ensemble. The same people study, work, train, eat, travel, brief, debrief, argue, recover, cover shifts and enter missions together for years.
 
 Canonical shorthand:
 
-> **The succession belongs to Jordan. The world belongs to everybody.**
+> **The succession belongs to McCluster. The world belongs to everybody.**
 
 And:
 
-> **Same building. Same company. Same people. New pressure.**
+> **Same building. Same institution. Same people. New pressure.**
 
 ### Episode ownership is depth, not exclusivity
 
@@ -93,7 +93,7 @@ The cast is a living organization, not a fixed character-select screen.
 Default immediate recurring world: **39 character slots**.
 
 ```text
-24 PRIM / McCluster mains
+24 Equity Uprise / McCluster Corp mains
 + Maren Quill
 + Pylon
 + PRIM2
@@ -146,7 +146,7 @@ A meaningful death must affect more than grief dialogue. Track:
 
 Death does **not** automatically create a replacement.
 
-A vacancy may remain vacant for episodes or seasons. Existing people may cross-train, work doubles, be promoted too early or call Jordan more often because a seam has appeared.
+A vacancy may remain vacant for episodes or seasons. Existing people may cross-train, work doubles, be promoted too early or call McCluster more often because a seam has appeared.
 
 When a replacement arrives:
 
@@ -165,19 +165,19 @@ Protection until a required story beat does not mean invulnerability: injury, di
 
 ---
 
-## 5. Jordan Vale — Wildcard / Flex
+## 5. McCluster — Wildcard / Flex
 
-Jordan is the PRIM-side **Wildcard**.
+McCluster is the PRIM-side **Wildcard**.
 
 He takes unowned jobs, crosses operational seams and can chain R/E/T/Defense/logistics reasoning because he repeatedly learns beside specialists.
 
 Wildcard does not mean magical omniskill, automatic authorization, default leadership or being better than every specialist.
 
-> **If a task falls between chairs, Jordan picks it up.**
+> **If a task falls between chairs, McCluster picks it up.**
 
 His risk is becoming overextended or believing capability grants permission to make other people's decisions.
 
-Ordinary PLAY withholds Jordan from the normal selectable roster. He appears from launch only on specifically authored missions or after a valid Wildcard request.
+Ordinary PLAY withholds McCluster from the normal selectable roster. He appears from launch only on specifically authored missions or after a valid Wildcard request.
 
 ---
 
@@ -209,14 +209,14 @@ The number is secretly a **human succession index**, not a normal software versi
 PRIM0 — founding Mantle holder
 PRIM1 — first successor / second holder
 PRIM2 — second successor / third holder / presiding holder during almost all of PRIM3
-PRIM3 — third successor / fourth holder / Jordan Vale after final succession
+PRIM3 — third successor / fourth holder / McCluster after final succession
 ```
 
 Older formal labels such as `Prime-00`, `Prime-0`, `P-00`, `Presiding Prime`, `Prime Negative One` and `PRIME-N1` are deprecated as current formal identities.
 
 `Prime` remains acceptable spoken shorthand because `PRIM` is pronounced like *prime*.
 
-Jordan becomes **PRIM3 only after validated succession**.
+McCluster becomes **PRIM3 only after validated succession**.
 
 > **The title has always told the truth. The audience was simply given the wrong dictionary.**
 
@@ -224,13 +224,13 @@ Jordan becomes **PRIM3 only after validated succession**.
 
 ## 8. Franchise reverse-reveal law
 
-Release/reveal order is intentionally backward through Jordan's adult life:
+Release/reveal order is intentionally backward through McCluster's adult life:
 
 1. **PRIM3 — age 33–40**
 2. **Whip Equipped — age 26–33**
 3. **Hitman / Benji — age 19–26**
 
-Jordan lived history forward. The audience discovers it backward.
+McCluster lived history forward. The audience discovers it backward.
 
 Canonical spoiler law:
 
@@ -238,56 +238,56 @@ Canonical spoiler law:
 
 Earlier history may explain competence, habits, fear, trust, retaliation, mobility bias, relationship behavior and reactions without being dumped into PRIM3 as exposition.
 
-`story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md` is the principal writer-facing authority.
+`story/MCCLUSTER-PSYCHOLOGICAL-BACKGROUND.md` is the principal writer-facing authority.
 
 ---
 
-## 9. Jordan / Benji / Ghost continuity
+## 9. McCluster / Benji / Ghost continuity
 
-At 19 Jordan attends college in upstate New York, begins dealing only after arriving, nearly gets caught, continues, is confronted by the dean and leaves under an offered path rather than escalating toward prosecution. He tells his parents he flunked out.
+At 19 McCluster attends college in upstate New York, begins dealing only after arriving, nearly gets caught, continues, is confronted by the dean and leaves under an offered path rather than escalating toward prosecution. He tells his parents he flunked out.
 
 He enters Hitman through friendship, music and shared danger around childhood best friend **Bigga Lex the Jet**.
 
-During approximately age 19–26 Jordan operates as **Benji**.
+During approximately age 19–26 McCluster operates as **Benji**.
 
-**Benji is Jordan Vale. Benji is not a separate contemporary character.**
+**Benji is McCluster. Benji is not a separate contemporary character.**
 
 At approximately 26:
 - Lex retires;
-- Lex offers succession to Jordan/Benji;
-- Jordan refuses;
+- Lex offers succession to McCluster/Benji;
+- McCluster refuses;
 - Royce, seven years younger, receives the succession opportunity;
-- Jordan enters the Ghost / Whip Equipped years.
+- McCluster enters the Ghost / Whip Equipped years.
 
 Age 26–33 includes prolonged vehicle living/mobile homelessness, legitimate vehicle dealing, data-center/infrastructure work, serious romance, criminal relapse/cocaine-network contamination, betrayal, the private-aircraft event, compartmentalization and eventual desire for a stable conventional life.
 
-PRIM2 first develops active interest in Jordan during the Ghost years after tracing Royce's succession backward through Lex to Benji/Jordan.
+PRIM2 first develops active interest in McCluster during the Ghost years after tracing Royce's succession backward through Lex to Benji/McCluster.
 
 See:
-- `story/JORDAN-VALE-HITMAN-ORIGIN-CANON.md`
-- `story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md`
+- `story/MCCLUSTER-HITMAN-ORIGIN-CANON.md`
+- `story/MCCLUSTER-PSYCHOLOGICAL-BACKGROUND.md`
 
 ---
 
-## 10. Jordan visual re-entry / reacquisition
+## 10. McCluster visual re-entry / reacquisition
 
-Through Hitman/Benji and Whip Equipped/Ghost, Jordan wears **extremely long hair**.
+Through Hitman/Benji and Whip Equipped/Ghost, McCluster wears **extremely long hair**.
 
 At 33 he cuts it off and adopts **waves** before college/PRIM entry.
 
 The appearance change is dramatic enough to disrupt simple visual-recognition continuity.
 
-College makes Jordan institutionally visible again. A fictional Site 0 identity-resolution update restores high-confidence continuity between the newly visible student and the older long-haired Jordan/Benji subject PRIM2 already knew.
+College makes McCluster institutionally visible again. A fictional Site 0 identity-resolution update restores high-confidence continuity between the newly visible student and the older long-haired McCluster/Benji subject PRIM2 already knew.
 
-> **College makes Jordan visible again; Site 0's update makes the system understand who the newly visible person is.**
+> **College makes McCluster visible again; Site 0's update makes the system understand who the newly visible person is.**
 
-Therefore S1E1 `The Blip` is a **reacquisition event**, not PRIM2's first discovery of Jordan.
+Therefore S1E1 `The Blip` is a **reacquisition event**, not PRIM2's first discovery of McCluster.
 
 ---
 
 ## 11. Aya / Hana authority
 
-Aya Shinoda is a central main character independent of Jordan.
+Aya Shinoda is a central main character independent of McCluster.
 
 At opening:
 - 31;
@@ -358,7 +358,7 @@ Every episode must establish:
 - primary owner(s);
 - meaningful recurring cast;
 - one development write for every meaningful appearing recurring character;
-- Jordan-presence state A/B/C/D/E/F;
+- McCluster-presence state A/B/C/D/E/F;
 - human stake;
 - why now;
 - why PRIM/McCluster;
@@ -399,7 +399,7 @@ Validation is distinct from change.
 
 Combat buys/protects opportunity and cannot substitute for the technical objective.
 
-The player does **not** literally become PRIM3/Jordan in ordinary pre-succession missions. PLAY enters the current mission/team perspective.
+The player does **not** literally become PRIM3/McCluster in ordinary pre-succession missions. PLAY enters the current mission/team perspective.
 
 Primary technical authority: `game/TACTICAL-IT-MECHANICS-BIBLE.md`.
 
@@ -413,15 +413,15 @@ Mission state:
 STABLE -> DEGRADED -> CRITICAL -> TERMINAL
 ```
 
-### Jordan — Wildcard
+### McCluster — Wildcard
 
-Ordinary missions launch without Jordan as a normal selectable pawn.
+Ordinary missions launch without McCluster as a normal selectable pawn.
 
 Standard pool:
 
-> **2 non-scripted Jordan Wildcard Authorizations per season.**
+> **2 non-scripted McCluster Wildcard Authorizations per season.**
 
-Jordan restores optionality; he does not replace specialists or auto-complete their objectives.
+McCluster restores optionality; he does not replace specialists or auto-complete their objectives.
 
 ### PRIM2 — Apex
 
@@ -431,7 +431,7 @@ PRIM2 has privileged standing oversight when telemetry is available, but:
 PRIM2 OBSERVING != PRIM2 TAKING OVER
 ```
 
-On eligible high-value missions, if Jordan is already present and CRITICAL failure persists/reappears, Apex support may become available.
+On eligible high-value missions, if McCluster is already present and CRITICAL failure persists/reappears, Apex support may become available.
 
 Standard pool:
 
@@ -469,7 +469,7 @@ Specialist authority: `game/WILDCARD-INTERVENTION-AUTHORITY.md`.
 Global Episode 01 / `High Alert` is shown first but occurs chronologically during S7E1 `RAID (HOT SITE)`.
 
 - performer/defender: **PRIM2**;
-- Jordan attacks from the PRIM side;
+- McCluster attacks from the PRIM side;
 - Royce attacks from the Hitman side;
 - PRIM2 genuinely resists both;
 - 17 compressed memory anchors point toward Episodes 02–18;
@@ -490,7 +490,7 @@ His sleeping biological body at Site 0 is the highest-trust living anchor for a 
 
 He is powerful but not omniscient. Private human meaning can escape him even when raw data does not; Kkeutori is the canonical example.
 
-PRIM2 is not merely “the man watching Jordan.” His hidden relationships span the ensemble and both boards.
+PRIM2 is not merely “the man watching McCluster.” His hidden relationships span the ensemble and both boards.
 
 Authorities:
 - `characters/PRIM2-PRESIDING.md`
@@ -503,21 +503,21 @@ Authorities:
 
 This chronology is locked subject to scene-level refinement.
 
-- Jordan enters Site 0 with a PRIM-side assault element.
+- McCluster enters Site 0 with a PRIM-side assault element.
 - Royce enters with a separate Hitman-side assault element.
 - PRIM2 genuinely resists both.
 - every other member of both assault elements dies during the breach;
-- Jordan is the sole surviving PRIM-side attacker;
+- McCluster is the sole surviving PRIM-side attacker;
 - Royce is the sole surviving Hitman-side attacker;
-- Jordan and Royce nearly kill one another;
+- McCluster and Royce nearly kill one another;
 - their pre-PRIM3 rivalry/history matters immediately;
 - they recognize PRIM2 as common target and form a temporary alliance;
-- Jordan and Royce defeat PRIM2 together;
+- McCluster and Royce defeat PRIM2 together;
 - PRIM2's body is critically damaged but remains valid long enough for succession;
 - `Evil Twin` begins after physical victory;
 - PRIM2's confession reveals the dual-board architecture and forces reinterpretation;
 - killing PRIM2 too early risks leaving root authority unresolved;
-- Jordan becomes **PRIM3** only after validated transfer;
+- McCluster becomes **PRIM3** only after validated transfer;
 - former PRIM2 loses independent write/actuator/personnel-command authority;
 - former PRIM2 persists only as constrained Ghost-class read/observe/analyze/advice intelligence by default.
 
@@ -545,7 +545,7 @@ Public marketing/holding face; buildings, land, equity, brands and visible corpo
 `Primary Root Identity Mantle`: living highest-trust human succession architecture.
 
 ### Hitman
-Separate multinational street/corporate operational system beneath PRIM2's hidden cross-board view. Jordan formerly operated there as Benji; Royce is the contemporary successor/sovereign.
+Separate multinational street/corporate operational system beneath PRIM2's hidden cross-board view. McCluster formerly operated there as Benji; Royce is the contemporary successor/sovereign.
 
 ### Apex
 Where referenced, black-site/parent layer above fronts. Do not use Apex to contradict McCluster holding-company authority or PRIM root canon.
@@ -571,7 +571,7 @@ Authorities:
 
 ## 21. Canonical episode order / current primary ownership
 
-1. **High Alert — The Blip** — PRIM2 / Jordan / Royce future triangle; age-33 reacquisition on rewind
+1. **High Alert — The Blip** — PRIM2 / McCluster / Royce future triangle; age-33 reacquisition on rewind
 2. **White Grey Black Hat — Permission Slip** — Nusrat / Miguel
 3. **OSINT — Open Book** — Oksana / Rafael
 4. **Anti Social Engineering — The Human Layer** — Priya / Sora
@@ -586,12 +586,12 @@ Authorities:
 13. **IaaS / SaaS / PaaS — Shared Responsibility** — Helen / Li / Yonas
 14. **CapEx vs OpEx — Own the Exit** — Amira / Marc
 15. **Trappin From The Cloud — Elastic** — Sari / Sable
-16. **Per Diem — Road Kit** — Jordan / Valeria
+16. **Per Diem — Road Kit** — McCluster / Valeria
 17. **Patch Work — Trust Boundary** — Aya
-18. **Song #21 — OPEN / Mission #18 OPEN** — Leila / Helen / Jordan story function locked
-19. **RAID (HOT SITE) — Hot Site** — Jordan / Royce / PRIM2
-20. **Evil Twin — Mirror Room** — PRIM2 / Jordan / Royce
-21. **Ghost In The Wires — Last Process** — Jordan / PRIM2; Royce secondary
+18. **Song #21 — OPEN / Mission #18 OPEN** — Leila / Helen / McCluster story function locked
+19. **RAID (HOT SITE) — Hot Site** — McCluster / Royce / PRIM2
+20. **Evil Twin — Mirror Room** — PRIM2 / McCluster / Royce
+21. **Ghost In The Wires — Last Process** — McCluster / PRIM2; Royce secondary
 
 `story/EPISODE-PROGRESSION.md` governs order. Local episode files now carry migrated ensemble blueprints for Episodes 01–18; Episodes 19–21 remain current endgame authorities and inherit the living-cast/lifecycle law.
 
@@ -603,7 +603,7 @@ Its story job is locked:
 - technical trust hierarchy and human authority hierarchy reveal a dangerous shared-root property;
 - multiple ensemble characters independently verify different parts of the case;
 - allies split over interpretation and response;
-- Jordan crosses from investigation to deciding PRIM2 must be reached/challenged;
+- McCluster crosses from investigation to deciding PRIM2 must be reached/challenged;
 - formal succession/challenge architecture becomes materially relevant;
 - the episode bridges directly into RAID.
 
@@ -618,7 +618,7 @@ When new character/history/gameplay canon is added:
 - update staffing/lifecycle state when injury, death, promotion, transfer or replacement changes the organization;
 - update gameplay deployment/intervention fields where needed;
 - do not let old summary files silently outrank current specialist authority;
-- migrate stale `Prime-00`, separate contemporary `Benji`, `Prime Negative One`, Jordan-only ownership, `player becomes PRIM3`, fixed-three-person-squad, anonymous-death-fodder, automatic-replacement and default-playable-Jordan language when encountered.
+- migrate stale `Prime-00`, separate contemporary `Benji`, `Prime Negative One`, McCluster-only ownership, `player becomes PRIM3`, fixed-three-person-squad, anonymous-death-fodder, automatic-replacement and default-playable-McCluster language when encountered.
 
 Legacy filenames may remain for link compatibility, but their contents must point to current canon rather than preserve contradictory history.
 

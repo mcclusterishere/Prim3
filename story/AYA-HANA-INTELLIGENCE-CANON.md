@@ -105,7 +105,7 @@ Hana's true target becomes proof that a **living human command identity** sits a
 
 She is approaching the existence of Presiding Prime / Prime-00.
 
-She has **not** yet reconstructed the entire later Jordan/Royce dual-board story, and she does not possess a complete map of Hitman. Her breakthrough is narrower and more dangerous: she is close to proving that McCluster's highest authority collapses onto a concealed human root.
+She has **not** yet reconstructed the entire later McCluster/Royce dual-board story, and she does not possess a complete map of Hitman. Her breakthrough is narrower and more dangerous: she is close to proving that McCluster's highest authority collapses onto a concealed human root.
 
 ---
 
@@ -504,13 +504,13 @@ Sometimes the strongest loyalty can be produced by:
 - withholding only the evidence that would reveal the deepest layer;
 - and waiting for their own identity to become entangled with the system they meant to judge.
 
-This lesson becomes relevant to how Prime later handles Jordan.
+This lesson becomes relevant to how Prime later handles McCluster.
 
 ---
 
-# 15. What Aya believes about Hana by the time Jordan arrives
+# 15. What Aya believes about Hana by the time McCluster arrives
 
-By the time thirty-three-year-old Jordan enters PRIM3, Aya is thirty-one and has spent roughly two years inside McCluster.
+By the time thirty-three-year-old McCluster enters PRIM3, Aya is thirty-one and has spent roughly two years inside McCluster.
 
 Her belief has evolved.
 
@@ -536,29 +536,29 @@ Prime knows she is wrong.
 
 ---
 
-# 16. Jordan destabilizes Aya's settled explanation
+# 16. McCluster destabilizes Aya's settled explanation
 
-Jordan is dangerous to Aya's institutional equilibrium because he notices systems from the outside-in.
+McCluster is dangerous to Aya's institutional equilibrium because he notices systems from the outside-in.
 
 Aya has spent two years learning the documented architecture, changing it from inside and building relationships with the people who operate it.
 
-Jordan enters with very little institutional reverence and repeatedly notices seams that Aya has learned to interpret as complexity rather than conspiracy.
+McCluster enters with very little institutional reverence and repeatedly notices seams that Aya has learned to interpret as complexity rather than conspiracy.
 
 At first this irritates her.
 
-Some of Jordan's suspicions really are wrong.
+Some of McCluster's suspicions really are wrong.
 
 Some of his shortcuts are reckless.
 
 Some of his pattern-matching is contaminated by his own history.
 
-But sometimes Jordan notices the exact class of contradiction Hana used to notice.
+But sometimes McCluster notices the exact class of contradiction Hana used to notice.
 
 That activates something Aya thought she had settled.
 
 Writer-level relationship function:
 
-> **Jordan does not simply teach Aya to distrust McCluster. He reopens a question Aya had emotionally survived by deciding it was closed.**
+> **McCluster does not simply teach Aya to distrust McCluster. He reopens a question Aya had emotionally survived by deciding it was closed.**
 
 This creates another reason their bond becomes dangerous to Prime.
 

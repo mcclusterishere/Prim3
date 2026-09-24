@@ -28,11 +28,11 @@ The sequence is:
 - **PRIM0** — first holder / founder-generation leader
 - **PRIM1** — second holder
 - **PRIM2** — third holder and the presiding PRIM during almost the entirety of the PRIM3 show
-- **PRIM3** — Jordan Vale after succession
+- **PRIM3** — McCluster after succession
 
 Therefore the man previously called **Presiding Prime / Prime-00** in older drafts is canonically **PRIM2**.
 
-Legacy references to `Prime-00`, `Prime-0`, `Prime`, `Presiding Prime` or similar language should be interpreted as references to **PRIM2** when they describe Jordan's predecessor during the age-33-to-40 PRIM3 story.
+Legacy references to `Prime-00`, `Prime-0`, `Prime`, `Presiding Prime` or similar language should be interpreted as references to **PRIM2** when they describe McCluster's predecessor during the age-33-to-40 PRIM3 story.
 
 `Prime-00` is deprecated continuity language and does **not** mean the first PRIM holder.
 
@@ -40,11 +40,11 @@ Legacy references to `Prime-00`, `Prime-0`, `Prime`, `Presiding Prime` or simila
 
 # 2. Why the show is called PRIM3
 
-The television/game/story franchise remains titled **PRIM3** even though Jordan does not hold the Mantle at the beginning.
+The television/game/story franchise remains titled **PRIM3** even though McCluster does not hold the Mantle at the beginning.
 
 The title names the destination of the story.
 
-The seven-season PRIM3 narrative is the story of the succession path that ultimately produces **PRIM3: Jordan Vale**.
+The seven-season PRIM3 narrative is the story of the succession path that ultimately produces **PRIM3: McCluster**.
 
 For most of the early story, the audience is not required to understand what the number means.
 
@@ -59,7 +59,7 @@ Only later does the audience learn that the `3` is a **succession index**.
 
 Canonical reveal principle:
 
-> **The audience has been looking at Jordan's eventual title since Episode 1 without knowing it.**
+> **The audience has been looking at McCluster's eventual title since Episode 1 without knowing it.**
 
 ---
 
@@ -160,7 +160,7 @@ Thus:
 FOUNDING HOLDER       = PRIM0
 FIRST SUCCESSOR       = PRIM1
 SECOND SUCCESSOR      = PRIM2
-THIRD SUCCESSOR       = PRIM3 / JORDAN VALE
+THIRD SUCCESSOR       = PRIM3 / MCCLUSTER
 ```
 
 ---
@@ -193,7 +193,7 @@ PRIM1 must not become retroactively irrelevant merely because the current show f
 
 ---
 
-# 8. PRIM2 — Jordan's predecessor
+# 8. PRIM2 — McCluster's predecessor
 
 The current presiding leader during the main PRIM3 chronology is **PRIM2**.
 
@@ -204,12 +204,12 @@ Existing locked traits transfer to PRIM2:
 - dream-AI / distributed cognition architecture;
 - Site 0 command anchoring;
 - hidden coordination across McCluster / PRIM and Hitman;
-- long-term observation of Jordan during the Ghost Years;
+- long-term observation of McCluster during the Ghost Years;
 - exploitation of Hana Lee as an unwitting adversarial red team;
 - manipulation of information boundaries rather than simplistic direct control;
 - genuine resistance during RAID;
 - inability to simply resign the Mantle;
-- and eventual privilege reduction into Ghost after Jordan's succession.
+- and eventual privilege reduction into Ghost after McCluster's succession.
 
 PRIM2 is therefore the **third human to hold the Mantle**.
 
@@ -217,9 +217,9 @@ His exact civilian identity remains intentionally unresolved unless later owner 
 
 ---
 
-# 9. PRIM3 — Jordan Vale
+# 9. PRIM3 — McCluster
 
-Jordan Vale becomes **PRIM3** only after the final succession event.
+McCluster becomes **PRIM3** only after the final succession event.
 
 He does not begin the series as PRIM3.
 
@@ -227,11 +227,11 @@ He earns, reaches, defeats, inherits and then redefines the Mantle.
 
 The title of the show therefore has an additional meaning:
 
-> **PRIM3 is not the organization Jordan joins. PRIM3 is the person Jordan becomes.**
+> **PRIM3 is not the organization McCluster joins. PRIM3 is the person McCluster becomes.**
 
-This does not mean Jordan becomes psychologically identical to PRIM2.
+This does not mean McCluster becomes psychologically identical to PRIM2.
 
-Jordan's central post-succession challenge is whether he can preserve the useful parts of a unified trust architecture without reproducing PRIM2's belief that capability justifies unilateral control.
+McCluster's central post-succession challenge is whether he can preserve the useful parts of a unified trust architecture without reproducing PRIM2's belief that capability justifies unilateral control.
 
 ---
 
@@ -288,9 +288,9 @@ This is why her work threatens PRIM2 at the architectural level.
 
 ---
 
-# 12. Jordan / PRIM2 thematic contrast
+# 12. McCluster / PRIM2 thematic contrast
 
-PRIM2 and Jordan are not merely old leader and new leader.
+PRIM2 and McCluster are not merely old leader and new leader.
 
 They represent competing answers to the same systems problem.
 
@@ -298,7 +298,7 @@ PRIM2's answer increasingly becomes:
 
 > **If one person can see enough of the system, that person should be allowed to control enough of the system to keep it coherent.**
 
-Jordan's growth must ultimately challenge that premise:
+McCluster's growth must ultimately challenge that premise:
 
 > **Seeing the whole system does not make every human inside the system yours to decide for.**
 
@@ -361,11 +361,11 @@ Effective immediately:
 
 - `Presiding Prime` = acceptable informal descriptor for **PRIM2**;
 - `Prime` = acceptable colloquial pronunciation/title for the current PRIM holder;
-- `Prime-00` / `Prime-0` = deprecated old continuity label when referring to Jordan's predecessor;
-- `PRIM0` = first holder, not Jordan's predecessor;
+- `Prime-00` / `Prime-0` = deprecated old continuity label when referring to McCluster's predecessor;
+- `PRIM0` = first holder, not McCluster's predecessor;
 - `PRIM1` = second holder;
-- `PRIM2` = Jordan's predecessor during the show;
-- `PRIM3` = Jordan after succession.
+- `PRIM2` = McCluster's predecessor during the show;
+- `PRIM3` = McCluster after succession.
 
 All subordinate files should migrate toward this terminology when next edited.
 

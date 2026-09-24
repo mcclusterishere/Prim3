@@ -11,25 +11,25 @@ branch: main
 
 Hitman is a separate multinational kinetic/street-corporate organization whose culture, incentives and methods differ sharply from PRIM/McCluster.
 
-It is **not** a cyber department with different branding and it is not merely a monster factory built so Jordan can fight somebody.
+It is **not** a cyber department with different branding and it is not merely a monster factory built so McCluster can fight somebody.
 
 Its people have independent loyalties, businesses, family structures, ambitions and internal politics.
 
 ---
 
-# Relationship to Jordan
+# Relationship to McCluster
 
-Jordan Vale operated within Hitman under the identity **Benji** during approximately age 19–26.
+McCluster operated within Hitman under the identity **Benji** during approximately age 19–26.
 
 Benji is not a separate contemporary protagonist.
 
-Jordan enters through friendship/culture around Bigga Lex the Jet, becomes a capable operator, and is eventually offered succession when Lex retires.
+McCluster enters through friendship/culture around Bigga Lex the Jet, becomes a capable operator, and is eventually offered succession when Lex retires.
 
-Jordan refuses.
+McCluster refuses.
 
 Royce receives the succession opportunity and becomes the major post-Benji Hitman-side rival/sovereign figure.
 
-The full age-19-to-26 authority is `story/JORDAN-VALE-HITMAN-ORIGIN-CANON.md`.
+The full age-19-to-26 authority is `story/MCCLUSTER-HITMAN-ORIGIN-CANON.md`.
 
 ---
 
@@ -101,11 +101,11 @@ Different characters can possess deep specialist knowledge without turning Hitma
 
 # Own show / prequel lane
 
-Hitman/Benji is a future prequel covering Jordan's age-19-to-26 life.
+Hitman/Benji is a future prequel covering McCluster's age-19-to-26 life.
 
 Exact episode count, final track order and full chronology are **not locked merely by old six-episode stubs**.
 
-The future prequel should reveal why PRIM3 Jordan behaves as he does without requiring PRIM3 itself to expose the full history early.
+The future prequel should reveal why PRIM3 McCluster behaves as he does without requiring PRIM3 itself to expose the full history early.
 
 Canonical spoiler rule:
 
@@ -121,4 +121,4 @@ The organization creates a harder question:
 
 > **What happens when loyalty, ambition, money, violence and community all occupy the same institution—and the person who walked away from its chair eventually has to confront the person who accepted it?**
 
-That question culminates in Jordan and Royce entering Site 0 from opposite boards during RAID.
+That question culminates in McCluster and Royce entering Site 0 from opposite boards during RAID.

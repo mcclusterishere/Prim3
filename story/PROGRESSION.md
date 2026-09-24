@@ -13,7 +13,7 @@ PRIM3 progression is not one protagonist passing through every phenotype.
 
 The roster is an ensemble of named people with different disciplines, careers, loyalties and rates of advancement.
 
-Jordan's seven academic years remain an important chronological spine, but gameplay progression must deepen the whole cast.
+McCluster's seven academic years remain an important chronological spine, but gameplay progression must deepen the whole cast.
 
 ---
 
@@ -35,9 +35,9 @@ Specialists should remain meaningfully better than generalists at their deepest 
 
 ---
 
-# Jordan progression
+# McCluster progression
 
-Jordan is the **Wildcard / Flex**, not the universal class tree.
+McCluster is the **Wildcard / Flex**, not the universal class tree.
 
 His growth is expressed through:
 - increased cross-lane literacy;
@@ -48,9 +48,9 @@ His growth is expressed through:
 - deeper understanding of authority;
 - eventual willingness to challenge PRIM2.
 
-Ordinary PLAY still withholds Jordan from the normal selectable roster. His Wildcard call-up is governed by `game/WILDCARD-INTERVENTION-AUTHORITY.md`.
+Ordinary PLAY still withholds McCluster from the normal selectable roster. His Wildcard call-up is governed by `game/WILDCARD-INTERVENTION-AUTHORITY.md`.
 
-Jordan becoming **PRIM3** is not an XP unlock. It is the final Mantle succession event.
+McCluster becoming **PRIM3** is not an XP unlock. It is the final Mantle succession event.
 
 ---
 
@@ -89,4 +89,4 @@ Learning Mastery remains separate from mission outcome.
 
 # Governing law
 
-> **The roster does not level up around Jordan. Jordan grows inside a roster that is leveling up around itself.**
+> **The roster does not level up around McCluster. McCluster grows inside a roster that is leveling up around itself.**

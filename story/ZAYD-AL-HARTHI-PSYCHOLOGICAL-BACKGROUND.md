@@ -122,15 +122,15 @@ Hana's death affects Zayd mostly through what it does to Aya.
 
 He is already out of Aya's romantic life by the time she becomes deeply entangled with McCluster, but he can see from a distance that grief has given Aya another system she believes she must understand and fix.
 
-## Jordan
+## McCluster
 
-Zayd and Jordan do not need to become rivals.
+Zayd and McCluster do not need to become rivals.
 
 If they eventually meet, Zayd's value is that he can identify Aya's old relationship pattern without jealousy.
 
-He may notice that Jordan is different because Jordan pushes back much earlier than Zayd did.
+He may notice that McCluster is different because McCluster pushes back much earlier than Zayd did.
 
-Zayd's presence can therefore make Aya realize that the Jordan relationship is not merely repeating the past; both people are changing the pattern in real time.
+Zayd's presence can therefore make Aya realize that the McCluster relationship is not merely repeating the past; both people are changing the pattern in real time.
 
 ## Behavioral priors
 
@@ -150,4 +150,4 @@ Zayd is the first person Aya seriously loves who teaches her that **effective he
 
 He also proves that Aya can have a major relationship end without treachery, death or conspiracy.
 
-That contrast becomes crucial later: when Jordan and Aya struggle, Aya cannot simply classify relationship pain as evidence that the other person is dangerous.
+That contrast becomes crucial later: when McCluster and Aya struggle, Aya cannot simply classify relationship pain as evidence that the other person is dangerous.

@@ -11,13 +11,13 @@ These are the **48 attached characters** from `CAST-NATIONS.md`: one lost legacy
 
 Legacy characters are deceased before or around the main chronology unless later canon says otherwise. Their deaths are not spectacle; the point is the behavioral residue they leave behind.
 
-## Attached to Jordan Vale
+## Attached to McCluster
 
 ### Kwame Asante — Ghana — legacy
-Former infrastructure mentor who treated documentation as respect for the next person touching the system. Patient, dryly funny, allergic to technical ego. **Want:** build apprentices who no longer need him. **Flaw:** stayed useful to organizations longer than they deserved. **Residue:** Jordan hears Kwame's voice whenever he is tempted to skip the record and “just fix it.”
+Former infrastructure mentor who treated documentation as respect for the next person touching the system. Patient, dryly funny, allergic to technical ego. **Want:** build apprentices who no longer need him. **Flaw:** stayed useful to organizations longer than they deserved. **Residue:** McCluster hears Kwame's voice whenever he is tempted to skip the record and “just fix it.”
 
 ### Sofia Berg — Sweden — living freelancer
-Independent digital archivist with a minimalist life and maximal distrust of unverifiable claims. **Want:** records ordinary people can own, not merely request. **Flaw:** assumes institutions always act strategically when sometimes they are simply chaotic. **Connection:** she helps Jordan preserve evidence of his own history and refuses to be impressed by McCluster access.
+Independent digital archivist with a minimalist life and maximal distrust of unverifiable claims. **Want:** records ordinary people can own, not merely request. **Flaw:** assumes institutions always act strategically when sometimes they are simply chaotic. **Connection:** she helps McCluster preserve evidence of his own history and refuses to be impressed by McCluster access.
 
 ## Attached to Aya Shinoda
 
@@ -120,7 +120,7 @@ Freelance developer who likes paid invoices, ordinary clients and knowing what t
 ### Youssef Benali — Algeria — legacy
 Mission sponsor who once refused authorization and paid for it professionally. **Want:** make “no” a legitimate technical decision. **Flaw:** believed moral clarity protected him from institutional retaliation. **Residue:** Amira keeps his refusal letter because it proves courage can look bureaucratic.
 
-### Layla Mansour — Jordan — living freelancer
+### Layla Mansour — McCluster — living freelancer
 International contracting attorney who distinguishes legality, authorization and legitimacy with annoying precision. **Want:** clients who understand that a signature does not remove responsibility. **Flaw:** can mistake legal nuance for emotional distance. **Connection:** Amira's outside counsel and oldest reality check.
 
 ## Attached to Miguel Santos

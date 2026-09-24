@@ -74,7 +74,7 @@ Episode 2 tactical implementation:
 Default immediate recurring roster: **39 character slots**.
 
 ```text
-24 PRIM / McCluster mains
+24 Equity Uprise / McCluster Corp mains
 + Maren Quill
 + Pylon
 + PRIM2
@@ -148,13 +148,13 @@ Episode 2 has advanced beyond baseline into detailed production development:
 - Act I internal onboarding/access problem retained as thematic setup;
 - actual PLAY mission moved off-site to fictional `Harborline Edge Exchange`;
 - playable roster: Nusrat / Miguel / Aya;
-- Jordan locked out of PLAY and Wildcard unavailable;
+- McCluster locked out of PLAY and Wildcard unavailable;
 - episode introduces reusable `Scope Envelope` gameplay;
 - mission begins `WHITE HAT / BLACK BOX` — authorized team, incomplete system knowledge;
 - tactical pressures combine physical Control, civilians, hostile recovery, evidence custody, service continuity and scope boundaries.
 
 Remaining migrated baselines:
-- E01 `High Alert / The Blip` — future PRIM2/Jordan/Royce; rewind Blip = Jordan age-33 reacquisition
+- E01 `High Alert / The Blip` — future PRIM2/McCluster/Royce; rewind Blip = McCluster age-33 reacquisition
 - E03 `Open Book` — Oksana/Rafael
 - E04 `The Human Layer` — Priya/Sora
 - E05 `Four Colors` — Chioma/Thandiwe
@@ -168,14 +168,14 @@ Remaining migrated baselines:
 - E13 `Shared Responsibility` — Helen/Li/Yonas
 - E14 `Own the Exit` — Amira/Marc
 - E15 `Elastic` — Sari/Sable; separate contemporary Benji removed
-- E16 `Road Kit` — Jordan/Valeria
+- E16 `Road Kit` — McCluster/Valeria
 - E17 `Trust Boundary` — Aya
-- E18 open Song #21 container — Leila/Helen/Jordan story function locked
+- E18 open Song #21 container — Leila/Helen/McCluster story function locked
 
 Episodes 19–21 remain current endgame baselines:
-- E19 `RAID (HOT SITE)` — Jordan/Royce/PRIM2
-- E20 `Evil Twin` — PRIM2/Jordan/Royce
-- E21 `Ghost In The Wires` — Jordan/PRIM2; Royce secondary
+- E19 `RAID (HOT SITE)` — McCluster/Royce/PRIM2
+- E20 `Evil Twin` — PRIM2/McCluster/Royce
+- E21 `Ghost In The Wires` — McCluster/PRIM2; Royce secondary
 
 ---
 
@@ -225,10 +225,10 @@ RAID assault teams must be composed of established recurring PRIM and Hitman cha
 No finale redshirts.
 
 Locked end state:
-- Jordan sole surviving PRIM-side attacker;
+- McCluster sole surviving PRIM-side attacker;
 - Royce sole surviving Hitman-side attacker;
 - every other assault-team member dies;
-- Jordan + Royce defeat PRIM2 together.
+- McCluster + Royce defeat PRIM2 together.
 
 Exact team membership is chosen after Episodes 02–18 are developed enough to make each person's decision to enter RAID psychologically and operationally credible.
 
@@ -236,7 +236,7 @@ Exact team membership is chosen after Episodes 02–18 are developed enough to m
 
 ## Gameplay intervention law
 
-Ordinary PLAY launches with ensemble characters, not Jordan by default.
+Ordinary PLAY launches with ensemble characters, not McCluster by default.
 
 Standard escalation:
 
@@ -249,7 +249,7 @@ PRIM2 APEX REQUEST
 ```
 
 Standard scarcity:
-- Jordan Wildcard: **2 non-scripted calls / season**
+- McCluster Wildcard: **2 non-scripted calls / season**
 - PRIM2 Apex: **3 non-scripted calls / campaign**
 - Royce hostile incursion: **max 2 non-scripted / season**, max one per mission, two-mission cooldown
 
@@ -280,7 +280,7 @@ Root/executive:
 
 Presiding holder during almost all of the show: **PRIM2**.
 
-Jordan becomes **PRIM3 only after validated succession**.
+McCluster becomes **PRIM3 only after validated succession**.
 
 Stale formal identities such as `Prime-00`, `Prime-0`, `Prime Negative One`, `PRIME-N1`, or a separate contemporary Benji must not control interpretation.
 

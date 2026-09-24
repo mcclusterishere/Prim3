@@ -216,7 +216,7 @@ For major appearance changes, record:
 
 Appearance changes should affect how the world reacts to the character when that change is narratively meaningful.
 
-Jordan Vale's long-hair-to-waves transition is the first canonical example. See `story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md`.
+McCluster's long-hair-to-waves transition is the first canonical example. See `story/MCCLUSTER-PSYCHOLOGICAL-BACKGROUND.md`.
 
 ---
 
@@ -413,13 +413,13 @@ A major character remaining `D` for multiple episodes requires a reason: assignm
 
 ---
 
-# 13. Jordan Vale as the reference implementation
+# 13. McCluster as the reference implementation
 
-`story/JORDAN-VALE-PSYCHOLOGICAL-BACKGROUND.md` is the first full implementation of this authority.
+`story/MCCLUSTER-PSYCHOLOGICAL-BACKGROUND.md` is the first full implementation of this authority.
 
 Aya is now another reference-quality implementation through `story/AYA-SHINODA-PSYCHOLOGICAL-BACKGROUND.md` and related files.
 
-When building Chioma, Royce, PRIM2 and the rest of the recurring cast, aim for comparable causal depth rather than copying Jordan or Aya's personalities.
+When building Chioma, Royce, PRIM2 and the rest of the recurring cast, aim for comparable causal depth rather than copying McCluster or Aya's personalities.
 
 The governing principle is:
 

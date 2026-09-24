@@ -15,7 +15,7 @@ Current authority:
 
 ## Current rule
 
-S1E1 shows PRIM2 performing `High Alert` during the future RAID while Jordan and Royce attack Site 0 from separate boards.
+S1E1 shows PRIM2 performing `High Alert` during the future RAID while McCluster and Royce attack Site 0 from separate boards.
 
 Seventeen short memory intrusions point toward Episodes 02–18.
 
@@ -23,14 +23,14 @@ Each later episode should make its corresponding fragment more legible, but the 
 
 > **The memory belongs to PRIM2's argument. The episode belongs to whoever changed because of it.**
 
-That means a Jordan-visible flash can later resolve into:
+That means a McCluster-visible flash can later resolve into:
 - an Aya-owned episode;
 - a Chioma-owned episode;
 - a Jonas/Pylon episode;
 - an Amira/Marc episode;
 - another ensemble character's story.
 
-The seed should create recognition without forcing the ensemble back into a Jordan-only structure.
+The seed should create recognition without forcing the ensemble back into a McCluster-only structure.
 
 ## Progressive payoff
 

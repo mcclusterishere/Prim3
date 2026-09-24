@@ -13,7 +13,7 @@ When PLAY begins, the viewer stops only watching the episode and **enters PRIM m
 
 The player controls the episode's assigned mission element through one fused command interface combining XCOM-style tactical control with a data-fusion operating picture.
 
-The player is **not literally becoming Jordan or PRIM3** during ordinary pre-succession missions. `PRIM3` is also Jordan Vale's eventual Mantle index, so gameplay language must preserve that distinction.
+The player is **not literally becoming McCluster or PRIM3** during ordinary pre-succession missions. `PRIM3` is also McCluster's eventual Mantle index, so gameplay language must preserve that distinction.
 
 The fantasy is not magical omniscience. It is **earned omniscience**:
 
@@ -23,7 +23,7 @@ The interface teaches a second lesson beneath every certification concept: **dat
 
 ## Ensemble-control law
 
-Normal PLAY primarily controls the characters actually assigned to the mission. Most ordinary missions launch **without Jordan**.
+Normal PLAY primarily controls the characters actually assigned to the mission. Most ordinary missions launch **without McCluster**.
 
 Mission control may include:
 - Field-R;
@@ -31,7 +31,7 @@ Mission control may include:
 - Field-T;
 - Cohort/Lead/Defense roles when authored;
 - episode-specific specialists;
-- Jordan Vale only when specifically assigned or when an approved Wildcard call-up occurs;
+- McCluster only when specifically assigned or when an approved Wildcard call-up occurs;
 - PRIM2 only through a scripted appearance or eligible Apex intervention.
 
 See `game/WILDCARD-INTERVENTION-AUTHORITY.md` and `story/ENSEMBLE-POV-AUTHORITY.md`.
@@ -146,7 +146,7 @@ Compact mission-relevant data lenses.
 Current state, confidence/freshness, provenance, dependencies, available actions/AP costs and concept-linked rationale when Study Mode is enabled.
 
 ### Bottom — squad economy
-Current playable character cards, remaining AP, statuses, Control/Picture/technical resources and cross-role combo availability. Do not hard-code the rail to Jordan or even strictly R/E/T when the authored mission uses another composition.
+Current playable character cards, remaining AP, statuses, Control/Picture/technical resources and cross-role combo availability. Do not hard-code the rail to McCluster or even strictly R/E/T when the authored mission uses another composition.
 
 ### Top — mission state
 Window/Extract clocks, Detection, objective state and critical service/evidence/life-safety warnings.
@@ -161,9 +161,9 @@ APEX               remaining campaign authorizations
 HOSTILE ESCALATION UNKNOWN / POSSIBLE / LIKELY / ACTIVE
 ```
 
-When CRITICAL conditions are met and Jordan is off-board, surface `REQUEST WILDCARD`.
+When CRITICAL conditions are met and McCluster is off-board, surface `REQUEST WILDCARD`.
 
-When Jordan is already present on an eligible high-value mission and CRITICAL failure persists, surface `REQUEST EXECUTIVE OVERRIDE` or `REQUEST PRIM2` depending on story clearance.
+When McCluster is already present on an eligible high-value mission and CRITICAL failure persists, surface `REQUEST EXECUTIVE OVERRIDE` or `REQUEST PRIM2` depending on story clearance.
 
 Royce warnings are information-dependent. Strong R/Intel play can improve warning quality without simply cancelling the incursion.
 
@@ -185,7 +185,7 @@ Royce warnings are information-dependent. Strong R/Intel play can improve warnin
 8. Unknown/unverified layers remain dark or uncertain.
 9. Player receives control of **the assigned mission element**.
 
-Do not describe this handoff as the player “becoming PRIM3” unless the story has actually reached Jordan's succession and that meaning is deliberately intended.
+Do not describe this handoff as the player “becoming PRIM3” unless the story has actually reached McCluster's succession and that meaning is deliberately intended.
 
 ## Briefing law
 
@@ -199,7 +199,7 @@ The brief cannot reveal exact hidden solutions simply because later intervention
 Fewer layers, explicit labels, strong prompts, smaller maps, visible confidence/provenance explanations. Executive interventions may remain deliberately anonymous in player-facing language.
 
 ### Seasons 3–4
-Conflicting sources, evidence/timeline views, cyber-physical dependency edges, more player inference. Wildcard call-ups become an understood institutional mechanic even if Jordan's deeper history remains hidden.
+Conflicting sources, evidence/timeline views, cyber-physical dependency edges, more player inference. Wildcard call-ups become an understood institutional mechanic even if McCluster's deeper history remains hidden.
 
 ### Seasons 5–6
 Multi-site/cloud/global context, larger dependency graphs, provider/ownership overlays, stale/contradicted data and fewer tutorial prompts. Royce incursion pressure and the meaning of executive attention become more legible.

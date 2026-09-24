@@ -22,11 +22,11 @@ PRIM3 unfolds across **seven academic years**.
   - WATCH shows the authored canonical action path.
 - PLAY expands the same event into tactical decision space; normal missions may run roughly 15–30 minutes and capstones may run longer/checkpointed.
 - Canonical dramatic rule: **the briefing teaches the model; the mission attacks the model.**
-- PLAY places the viewer inside the current **PRIM mission/team operational perspective**. The player does **not** literally become Jordan or PRIM3 during ordinary pre-succession missions.
+- PLAY places the viewer inside the current **PRIM mission/team operational perspective**. The player does **not** literally become McCluster or PRIM3 during ordinary pre-succession missions.
 
-Jordan's college progression provides important chronological continuity, but **episode ownership rotates across the ensemble**. Most global Episodes 02–18 should primarily deepen characters other than Jordan, even where he appears.
+McCluster's college progression provides important chronological continuity, but **episode ownership rotates across the ensemble**. Most global Episodes 02–18 should primarily deepen characters other than McCluster, even where he appears.
 
-Jordan's recurring summer policy fellowships happen **between seasons** and are not added to the 21-episode count. They may later support a separate Equity Uprise series/experience.
+McCluster's recurring summer policy fellowships happen **between seasons** and are not added to the 21-episode count. They may later support a separate Equity Uprise series/experience.
 
 See:
 - `EPISODE-MISSION-BIBLE.md`
@@ -61,7 +61,7 @@ See:
 
 ## Season-level emotional movement
 
-These are **ensemble themes**, not instructions that Jordan must own each season.
+These are **ensemble themes**, not instructions that McCluster must own each season.
 
 1. **Recognition** — people are seen by institutions, teammates and hidden systems, often incorrectly.
 2. **Belonging** — the multinational network becomes personally meaningful and loss becomes real.
@@ -75,19 +75,19 @@ These are **ensemble themes**, not instructions that Jordan must own each season
 
 Detailed ownership will be locked episode-by-episode, but current authoring bias is:
 
-- **Global 01 / High Alert:** PRIM2 + Jordan + Royce.
-- **Global 02–18:** majority ensemble-owned; Jordan owns a minority outright.
-- Several episodes should use Jordan only as supporting/cameo/mention.
-- At least one ordinary-season episode should work with Jordan completely absent.
-- Aya/Hana/Kkeutori material should be distributed through Aya-owned or Aya-adjacent episodes rather than turned into Jordan exposition.
-- Royce/Hitman-side character development should occur before RAID without requiring Jordan's physical presence.
-- **Global 19–21:** succession naturally returns PRIM2/Jordan/Royce toward the center while still honoring accumulated ensemble consequences.
+- **Global 01 / High Alert:** PRIM2 + McCluster + Royce.
+- **Global 02–18:** majority ensemble-owned; McCluster owns a minority outright.
+- Several episodes should use McCluster only as supporting/cameo/mention.
+- At least one ordinary-season episode should work with McCluster completely absent.
+- Aya/Hana/Kkeutori material should be distributed through Aya-owned or Aya-adjacent episodes rather than turned into McCluster exposition.
+- Royce/Hitman-side character development should occur before RAID without requiring McCluster's physical presence.
+- **Global 19–21:** succession naturally returns PRIM2/McCluster/Royce toward the center while still honoring accumulated ensemble consequences.
 
 ## Open Episode 18
 
 Do not invent/finalize Song #21 without owner lock.
 
-Its **story function is canon**: it bridges `Patch Work` and `RAID` by taking Jordan from investigating PRIM2 to choosing to reach/challenge PRIM2 and trigger the succession path.
+Its **story function is canon**: it bridges `Patch Work` and `RAID` by taking McCluster from investigating PRIM2 to choosing to reach/challenge PRIM2 and trigger the succession path.
 
 Its **curriculum function is canon**: Security+ completion + Network+ infrastructure integration, based on the remaining objective-gap audit.
 

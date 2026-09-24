@@ -30,7 +30,7 @@ Both systems need authority, information, logistics, access, people and money, b
 
 ## Contemporary apex
 
-Jordan/Benji is historical to Hitman by the time PRIM3 begins.
+McCluster/Benji is historical to Hitman by the time PRIM3 begins.
 
 Current succession line relevant to the show:
 

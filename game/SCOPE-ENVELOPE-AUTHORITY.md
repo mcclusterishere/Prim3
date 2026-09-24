@@ -231,7 +231,7 @@ Examples:
 - Nusrat treats boundary clarity as fairness;
 - Miguel translates enforcement into human language;
 - Aya distinguishes technical certainty from authority;
-- Jordan is tempted by capability but must learn restraint;
+- McCluster is tempted by capability but must learn restraint;
 - Helen owns executive exceptions and their governance cost;
 - Chioma may accept tactical risk while still respecting declared scope;
 - PRIM2 can possess higher authority but should not trivialize ordinary mission governance by constantly overriding it.

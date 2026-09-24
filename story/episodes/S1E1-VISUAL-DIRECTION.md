@@ -15,10 +15,10 @@ The sequence is a glimpse of the future RAID.
 **PRIM2** is the presiding Mantle holder inside Site 0's suspension-linked command architecture.
 
 Two hostile approach vectors matter:
-- **Jordan Vale / PRIM-side assault**;
+- **McCluster / PRIM-side assault**;
 - **Royce / Hitman-side assault**.
 
-Do not depict a separate contemporary Benji. Benji is Jordan's earlier identity.
+Do not depict a separate contemporary Benji. Benji is McCluster's earlier identity.
 
 ---
 
@@ -47,7 +47,7 @@ A literal `HIGH ALERT` state propagates through Site 0 as the succession-level c
 The body transitions from distributed oversight toward direct physical response because ordinary command layers are no longer enough.
 
 ### 4. Two assault axes
-Show Jordan and Royce through separate visual grammars and information contexts.
+Show McCluster and Royce through separate visual grammars and information contexts.
 
 They are not allies yet.
 They are not strangers historically.
@@ -61,10 +61,10 @@ Keep all defensive systems fictional and non-actionable.
 ### 6. Memory intrusions
 The 17 Episode 02–18 memories should be brief, emotionally charged and context-poor.
 
-They are not all Jordan-owned memories. Several should feature ensemble characters strongly enough that later episodes can reveal who actually owned the event.
+They are not all McCluster-owned memories. Several should feature ensemble characters strongly enough that later episodes can reveal who actually owned the event.
 
 ### 7. Cut before resolution
-Do not show Jordan/Royce defeating PRIM2 in the pilot.
+Do not show McCluster/Royce defeating PRIM2 in the pilot.
 
 The future fragment breaks before the answer.
 
@@ -97,7 +97,7 @@ JORDAN — challenger, not yet PRIM3
 ROYCE — Hitman successor / parallel challenger
 ```
 
-Jordan becomes PRIM3 only after the validated succession in `Ghost In The Wires`.
+McCluster becomes PRIM3 only after the validated succession in `Ghost In The Wires`.
 
 ---
 

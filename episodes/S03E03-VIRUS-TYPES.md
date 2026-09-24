@@ -24,7 +24,7 @@ APEX: unavailable
 ROYCE: eligible as a rare pressure incursion if campaign conditions warrant
 ```
 
-This supersedes the old Jordan-led containment blueprint.
+This supersedes the old McCluster-led containment blueprint.
 
 ---
 
@@ -38,7 +38,7 @@ This supersedes the old Jordan-led containment blueprint.
 | Leila | identity/governance | Articulates the difference between a risk category and a guilty person, extending Episode 7's identity argument into crisis response. |
 | Emre | physical systems | Pushes back against indiscriminate isolation when a broad technical shutdown creates physical hazards. |
 | Dez | Hitman adaptive mirror | Shows how survival rewards can teach a younger operator to become more flexible and more dangerous at the same time. |
-| Royce | conditional hostile escalation | If present, increases pressure and tempo but does not magically know the technical answer. His existence independent of Jordan becomes undeniable. |
+| Royce | conditional hostile escalation | If present, increases pressure and tempo but does not magically know the technical answer. His existence independent of McCluster becomes undeniable. |
 
 ---
 
@@ -95,7 +95,7 @@ Core line:
 Primary verbs:
 `observe / classify / quarantine / compare / protect identity / restore / document / verify`.
 
-Jordan may be called only if the mission becomes CRITICAL; if called, he preserves options or people. He does not solve the classification problem for Dmitri/Oksana.
+McCluster may be called only if the mission becomes CRITICAL; if called, he preserves options or people. He does not solve the classification problem for Dmitri/Oksana.
 
 ---
 
@@ -106,7 +106,7 @@ Jordan may be called only if the mission becomes CRITICAL; if called, he preserv
 - Leila's identity-governance philosophy gains another concrete example.
 - Emre earns more authority in mixed cyber-physical incidents.
 - Dez gains visible trajectory on the Hitman side.
-- If Royce appears, the team learns he is not merely “Jordan's old problem.”
+- If Royce appears, the team learns he is not merely “McCluster's old problem.”
 
 ---
 

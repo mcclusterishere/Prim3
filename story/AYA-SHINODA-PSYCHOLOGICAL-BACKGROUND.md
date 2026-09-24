@@ -11,7 +11,7 @@ branch: main
 
 This file is the writer-facing authority for **Aya Shinoda**: her family, education, technical formation, relationships, losses, behavioral priors, Field-T doctrine, and the psychology that governs her choices throughout PRIM3.
 
-It implements `story/CHARACTER-PSYCHOLOGY-DECISION-AUTHORITY.md` at the same causal depth expected of Jordan Vale.
+It implements `story/CHARACTER-PSYCHOLOGY-DECISION-AUTHORITY.md` at the same causal depth expected of McCluster.
 
 The governing rule is:
 
@@ -38,9 +38,9 @@ Where an older cast summary conflicts with this dossier, this dossier wins unles
 - **Core belief entering PRIM3:** **If I can see the failure mode, I am responsible for closing it.**
 - **Secondary beliefs:** **Competence is care. Unverified safety is not safety. A system that cannot explain its state cannot demand trust.**
 
-Aya is approximately two years younger than Jordan Vale. At the beginning of Jordan's PRIM3 path, she therefore has **more institutional credibility inside McCluster while Jordan has much broader survival and cross-lane operating experience**.
+Aya is approximately two years younger than McCluster. At the beginning of McCluster's PRIM3 path, she therefore has **more institutional credibility inside McCluster while McCluster has much broader survival and cross-lane operating experience**.
 
-That imbalance is useful: Aya is not Jordan's apprentice, and Jordan is not hers. They enter the relationship with different forms of authority.
+That imbalance is useful: Aya is not McCluster's apprentice, and McCluster is not hers. They enter the relationship with different forms of authority.
 
 ---
 
@@ -547,7 +547,7 @@ Tariq understands that Aya's controlling behavior frequently begins as sincere c
 
 He also refuses to let sincerity erase the effect on the other person.
 
-Years later, when Jordan becomes important to Aya, Tariq recognizes the old pattern before Aya does.
+Years later, when McCluster becomes important to Aya, Tariq recognizes the old pattern before Aya does.
 
 Tariq therefore functions as:
 
@@ -796,9 +796,9 @@ That final motive matters. Aya is not morally pure. The same institution she dis
 
 # 24. Aya enters Field-T
 
-Aya formally enters the Field-T track at approximately **29**, roughly two years before Jordan's age-33 PRIM3 opening.
+Aya formally enters the Field-T track at approximately **29**, roughly two years before McCluster's age-33 PRIM3 opening.
 
-By the time Jordan arrives, Aya already has a reputation for:
+By the time McCluster arrives, Aya already has a reputation for:
 
 - refusing to call a system healthy because the dashboard is green;
 - requiring physical/telemetry evidence;
@@ -936,9 +936,9 @@ When Aya enters a malfunctioning environment, she tends to notice in this order:
 7. **Failure containment:** if the next component fails, where does consequence propagate?
 8. **Validation:** what evidence would prove the system is actually safe/restored?
 
-This differs from Jordan's Wildcard thinking.
+This differs from McCluster's Wildcard thinking.
 
-Jordan often asks:
+McCluster often asks:
 
 > **What other route exists?**
 
@@ -974,7 +974,7 @@ Aya's choices are behavioral priors, not deterministic scripts.
 
 **Escalation risk:** can become confrontational faster than colleagues understand because they do not know the emotional history.
 
-**Who can interrupt:** Hana's teachings in memory; Ren; later Jordan when he can demonstrate an independent safety case rather than merely tell her to relax.
+**Who can interrupt:** Hana's teachings in memory; Ren; later McCluster when he can demonstrate an independent safety case rather than merely tell her to relax.
 
 ## Trigger: authority asks her to continue under unverifiable safety
 
@@ -1012,7 +1012,7 @@ Zayd is the historical anchor for this lesson.
 
 **Growth response:** disclose the evidence, argue hard, establish shared boundaries, then respect the person's authority over their own life.
 
-This branch becomes central with Jordan.
+This branch becomes central with McCluster.
 
 ## Trigger: failure Aya believes she should have prevented
 
@@ -1026,7 +1026,7 @@ This branch becomes central with Jordan.
 
 ## Trigger: betrayal
 
-Aya is not Jordan.
+Aya is not McCluster.
 
 Her reflex is not retaliatory escalation.
 
@@ -1059,11 +1059,11 @@ This makes her naturally resistant to magical-looking omniscience.
 
 ---
 
-# 30. Aya ↔ Jordan Vale
+# 30. Aya ↔ McCluster
 
-Aya and Jordan are complementary responses to instability.
+Aya and McCluster are complementary responses to instability.
 
-Jordan survives instability by becoming adaptable.
+McCluster survives instability by becoming adaptable.
 
 Aya survives instability by becoming precise.
 
@@ -1083,17 +1083,17 @@ specialist rigor
 "I can prevent it."
 ```
 
-## Why Aya is attracted to Jordan
+## Why Aya is attracted to McCluster
 
-Jordan values competence without needing to dominate it.
+McCluster values competence without needing to dominate it.
 
-When Aya knows more, Jordan will often simply hand her the problem.
+When Aya knows more, McCluster will often simply hand her the problem.
 
 He does not require her to pretend his idea is better so he can feel secure.
 
 That matters to her.
 
-Jordan also demonstrates something Aya has difficulty believing:
+McCluster also demonstrates something Aya has difficulty believing:
 
 **uncertainty can sometimes be survived without first eliminating it.**
 
@@ -1101,21 +1101,21 @@ His improvisational intelligence can produce correct solutions from incomplete c
 
 She is impressed by this before she trusts it.
 
-## Why Jordan is attracted to Aya
+## Why McCluster is attracted to Aya
 
 Aya makes unstable systems legible.
 
-She takes the chaotic world Jordan has spent his life improvising through and shows him that preparation, validation and disciplined boundaries can create freedom rather than merely restrict it.
+She takes the chaotic world McCluster has spent his life improvising through and shows him that preparation, validation and disciplined boundaries can create freedom rather than merely restrict it.
 
 She also recognizes his practical competence before institutional credentials fully catch up.
 
 ## Why they fight
 
-Jordan can mistake capability for permission.
+McCluster can mistake capability for permission.
 
 Aya can mistake understanding for authority.
 
-Jordan's dangerous sentence is:
+McCluster's dangerous sentence is:
 
 > **"I can handle it."**
 
@@ -1129,13 +1129,13 @@ Their relationship therefore carries a shared moral lesson:
 
 > **Protecting someone does not grant authority over their life.**
 
-## Aya and Jordan's eventual consent rupture
+## Aya and McCluster's eventual consent rupture
 
 A major relationship failure must eventually involve one treating the other's life as an operational variable without consent.
 
 It is preferable that **both characters commit a version of this failure at different points**, because the flaw comes from different histories.
 
-Jordan does it through protective improvisation.
+McCluster does it through protective improvisation.
 
 Aya does it through protective control.
 
@@ -1143,11 +1143,11 @@ Neither gets to claim moral superiority simply because the method differs.
 
 ## Aya must remain a specialist
 
-Jordan's Wildcard status does not erase Aya.
+McCluster's Wildcard status does not erase Aya.
 
-In Field-T areas closest to Aya's life work—mechatronics, robotics, sensor reasoning, control behavior, safety-state verification, graceful degradation, human-machine systems—Aya should normally be **more rigorous and more deeply trained than Jordan**.
+In Field-T areas closest to Aya's life work—mechatronics, robotics, sensor reasoning, control behavior, safety-state verification, graceful degradation, human-machine systems—Aya should normally be **more rigorous and more deeply trained than McCluster**.
 
-Jordan's gift is crossing seams.
+McCluster's gift is crossing seams.
 
 Aya's gift is knowing when a seam is hiding a failure everybody else has normalized.
 
@@ -1355,7 +1355,7 @@ The transformation is from **control as care** toward **resilience, consent and 
 
 > **I can trust another person to make a choice I would not make for them, and I can remain beside them without taking the choice away.**
 
-This is her moral complement to Jordan's development from personal capability toward shared authority.
+This is her moral complement to McCluster's development from personal capability toward shared authority.
 
 ---
 
@@ -1377,7 +1377,7 @@ When writing Aya, major behavior should be traceable to these anchors:
 | distrusts quantified uncertainty used to justify exposure | Marc / GLASSHOUSE |
 | respects dissent that becomes action | Amira after GLASSHOUSE growth |
 | distrusts opaque authority | McCluster + Prime |
-| is attracted to improvisational competence | Jordan |
+| is attracted to improvisational competence | McCluster |
 | attempts to control loved ones when scared | Ren/Zayd history amplified by Hana's death |
 
 If a scene gives Aya an important action that cannot be connected to one of these or a later accumulated event, update the dossier or reconsider the scene.
@@ -1386,7 +1386,7 @@ If a scene gives Aya an important action that cannot be connected to one of thes
 
 # 42. Audience disclosure law
 
-Unlike Jordan's prequel history, Aya's background is not automatically reserved for another show. However, it still should not be dumped into exposition.
+Unlike McCluster's prequel history, Aya's background is not automatically reserved for another show. However, it still should not be dumped into exposition.
 
 Writer truth, Aya's knowledge, other-character knowledge and audience knowledge must remain separate.
 
@@ -1396,7 +1396,7 @@ At PRIM3 opening:
 - McCluster leadership knows portions of GLASSHOUSE and her recruitment history;
 - Tariq knows the Zayd relationship and pre-McCluster Aya;
 - Ren knows Aya's family/project history but not necessarily every classified McCluster detail;
-- Jordan initially knows very little beyond what Aya voluntarily reveals;
+- McCluster initially knows very little beyond what Aya voluntarily reveals;
 - the audience should discover the history through behavior, objects, calls, arguments, old messages, technical choices and controlled flashback/reveal rather than biography monologues.
 
 The REN-1 fastener, her reaction to "probably safe," her relationship with Marc, and the way she asks for independent verification can all function as clues before explanations.

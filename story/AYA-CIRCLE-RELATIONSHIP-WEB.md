@@ -116,7 +116,7 @@ mother / consent      │             brother / bodily autonomy
 
 **Canonical challenge line:**
 
-> **"Are Jordan's decisions bad, or are they decisions you didn't make?"**
+> **"Are McCluster's decisions bad, or are they decisions you didn't make?"**
 
 ---
 
@@ -282,7 +282,7 @@ His deepest manipulation of Aya is allowing her to experience enough genuine ins
 
 **Institution says she is indispensable** → pride + exploitation fear.
 
-**Jordan notices undocumented authority seam** → Hana memory, initially suppressed by two years of failed investigation.
+**McCluster notices undocumented authority seam** → Hana memory, initially suppressed by two years of failed investigation.
 
 **Marc uses quantified risk language** → GLASSHOUSE anger.
 

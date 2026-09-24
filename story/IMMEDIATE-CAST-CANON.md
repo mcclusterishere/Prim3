@@ -23,9 +23,9 @@ Nationality is not a costume or substitute for characterization.
 
 ---
 
-# 1. Jordan Vale — canonical Wildcard
+# 1. McCluster — canonical Wildcard
 
-Jordan Vale is the PRIM-side **Wildcard / Flex**.
+McCluster is the PRIM-side **Wildcard / Flex**.
 
 He crosses operational seams because he repeatedly takes unowned work, learns beside specialists and combines R/E/T/Defense/logistics reasoning when the original division of labor fails.
 
@@ -36,14 +36,14 @@ Wildcard does **not** mean:
 - owning every episode;
 - being a default selectable unit in every mission.
 
-Ordinary PLAY withholds Jordan from the normal selectable roster.
+Ordinary PLAY withholds McCluster from the normal selectable roster.
 
-Jordan enters only when:
+McCluster enters only when:
 - a specifically authored mission scripts him from launch;
 - an eligible CRITICAL mission receives a limited Wildcard call-up;
 - or the story explicitly changes his availability.
 
-> **If a task falls between chairs, Jordan picks it up.**
+> **If a task falls between chairs, McCluster picks it up.**
 
 Character risk:
 
@@ -51,9 +51,9 @@ Character risk:
 
 ---
 
-# 2. Canonical PRIM / McCluster mains — 24
+# 2. Canonical Equity Uprise / McCluster Corp mains — 24
 
-1. **Jordan Vale — United States — Wildcard / Cohort path**
+1. **McCluster — United States — Wildcard / Cohort path**
 2. **Aya Shinoda — Japan — Field-T Technical Operator**
 3. **Arjun Mehta — India — Field-E Entry Operator**
 4. **Li Wei — China — Authority / Director track**
@@ -78,7 +78,7 @@ Character risk:
 23. **Marc Dubois — France — Mission Sponsor**
 24. **Thandiwe Nkosi — South Africa — Cohort-03 Lead peer**
 
-These people are not Jordan's support roster. **They are the show.**
+These people are not McCluster's support roster. **They are the show.**
 
 Owning one episode does not cause somebody to disappear in the next. They remain coworkers with schedules, friendships, grudges, unfinished tasks and consequences.
 
@@ -86,7 +86,7 @@ Owning one episode does not cause somebody to disappear in the next. They remain
 
 # 3. Public/system recurring characters — 3
 
-25. **Maren Quill** — McCluster communications/public-facing human surface.
+25. **Maren Quill** — Equity Uprise communications/public-facing human surface.
 26. **Pylon** — System-01 / building automation platform; recurring character-level system presence through Jonas and the physical environment.
 27. **PRIM2** — presiding hidden Mantle holder during almost all of the series.
 
@@ -96,7 +96,7 @@ These belong to the immediate recurring environment even when remote, institutio
 
 # 4. Contemporary Hitman recurring cast — 12
 
-28. **Royce** — contemporary Hitman successor/sovereign; Jordan's old rival; seven years younger; receives the succession opportunity Jordan refused.
+28. **Royce** — contemporary Hitman successor/sovereign; McCluster's old rival; seven years younger; receives the succession opportunity McCluster refused.
 29. **Sable Quinn** — operations / money.
 30. **Grant Voss** — sponsor / respectable-money surface.
 31. **Tone Rivera** — block/control operator.
@@ -109,7 +109,7 @@ These belong to the immediate recurring environment even when remote, institutio
 38. **Mina “Halo” Brooks** — cell lead.
 39. **Sora “Gymnast” Okada** — elite/social-entry specialist.
 
-**Benji is not a separate contemporary character. Benji is Jordan Vale's age-19-to-26 Hitman identity.**
+**Benji is not a separate contemporary character. Benji is McCluster's age-19-to-26 Hitman identity.**
 
 Royce is the primary Hitman-side elite incursion threat in PRIM3 gameplay. He is not a PRIM Mantle holder and does not possess PRIM2's information architecture.
 
@@ -118,7 +118,7 @@ Royce is the primary Hitman-side elite incursion threat in PRIM3 gameplay. He is
 # 5. Immediate recurring roster total
 
 ```text
-24 PRIM / McCluster mains
+24 Equity Uprise / McCluster Corp mains
 + 3 public/system/apex presences
 + 12 contemporary Hitman figures
 = 39 recurring immediate-story slots
@@ -254,7 +254,7 @@ Vacancy may create:
 - delayed missions;
 - reluctant promotions;
 - cross-training;
-- greater Jordan/Wildcard dependence;
+- greater McCluster/Wildcard dependence;
 - support-character rise;
 - permanent capability loss.
 
@@ -270,7 +270,7 @@ Full authority: `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md`.
 
 # 12. Ensemble gameplay law
 
-Normal missions launch with named recurring people assigned to the operation, not Jordan by default.
+Normal missions launch with named recurring people assigned to the operation, not McCluster by default.
 
 Recurring gameplay creates attachment. Losing someone hurts because the player has worked with them, watched them eat, argue, improve and become useful—not because a dossier says they matter.
 
@@ -280,10 +280,10 @@ PRIM2 is the rarer second-stage intervention. Royce is the opposing elite escala
 
 # Governing ensemble statement
 
-> **The succession belongs to Jordan. The world belongs to everybody.**
+> **The succession belongs to McCluster. The world belongs to everybody.**
 
 Practical rules:
 
-> **Same building. Same company. Same people. New pressure.**
+> **Same building. Same institution. Same people. New pressure.**
 
 > **If you appear, you move. If you die, the building changes.**

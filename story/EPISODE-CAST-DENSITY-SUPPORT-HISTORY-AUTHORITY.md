@@ -95,7 +95,7 @@ Examples:
 - Sari automatically brings a backup after `Got Wifi`;
 - Priya starts removing a phrase from press drafts because she no longer trusts what it implies;
 - Emre checks a physical control twice after a prior failure;
-- Valeria begins correcting Jordan instead of only absorbing his advice;
+- Valeria begins correcting McCluster instead of only absorbing his advice;
 - Oksana notices Dmitri saving her seat;
 - Jonas says `we` when talking about Pylon and catches himself.
 
@@ -133,27 +133,27 @@ Local migrated episode files are now the detailed source for each roster. This m
 
 | Ep | Owners | Recurring population around them |
 |---:|---|---|
-| 01 | PRIM2 / Jordan / Royce | Aya, Chioma, Leila, Helen, Pylon |
-| 02 | Nusrat / Miguel | Jordan, Aya, Helen, Priya, Maren, Chioma |
-| 03 | Oksana / Rafael | Valeria, Leila, Chioma, Pylon, Perch; Jordan edge/conditional |
-| 04 | Priya / Sora | Maren, Nusrat, Miguel, Keys, Helen, Chioma, Jordan cameo |
-| 05 | Chioma / Thandiwe | Grace, Arjun, Sari, Mina, Dez, Helen, Jordan |
-| 06 | Sari / Yonas | Hassan, Emre, Chioma, Grace, Jonas, Pylon; Jordan Wildcard conditional |
+| 01 | PRIM2 / McCluster / Royce | Aya, Chioma, Leila, Helen, Pylon |
+| 02 | Nusrat / Miguel | McCluster, Aya, Helen, Priya, Maren, Chioma |
+| 03 | Oksana / Rafael | Valeria, Leila, Chioma, Pylon, Perch; McCluster edge/conditional |
+| 04 | Priya / Sora | Maren, Nusrat, Miguel, Keys, Helen, Chioma, McCluster cameo |
+| 05 | Chioma / Thandiwe | Grace, Arjun, Sari, Mina, Dez, Helen, McCluster |
+| 06 | Sari / Yonas | Hassan, Emre, Chioma, Grace, Jonas, Pylon; McCluster Wildcard conditional |
 | 07 | Leila / Li | Grace, Helen, Amira, Chioma, Sable, Rae; Royce conditional |
-| 08 | Aya / Minh | Leila, Jonas, Emre, Kiosk, Jordan edge; Hana/Tariq only if earned |
+| 08 | Aya / Minh | Leila, Jonas, Emre, Kiosk, McCluster edge; Hana/Tariq only if earned |
 | 09 | Dmitri / Oksana | Hassan, Leila, Emre, Dez, Chioma; Royce conditional |
-| 10 | Valeria | Arjun, Emre, Jordan, Aya, Hassan, Rack, Chioma |
-| 11 | Grace / Rafael | Oksana, Leila, Chioma, Perch, Kiosk, Sora; Jordan conditional |
-| 12 | Jonas / Pylon | Emre, Aya, Minh, Helen, Leila, PRIM2 trace; Jordan conditional |
+| 10 | Valeria | Arjun, Emre, McCluster, Aya, Hassan, Rack, Chioma |
+| 11 | Grace / Rafael | Oksana, Leila, Chioma, Perch, Kiosk, Sora; McCluster conditional |
+| 12 | Jonas / Pylon | Emre, Aya, Minh, Helen, Leila, PRIM2 trace; McCluster conditional |
 | 13 | Helen / Li / Yonas | Leila, Grace, Jonas, Amira, Marc, Chioma |
 | 14 | Amira / Marc | Helen, Priya, Maren, Li, Grace, Grant Voss |
-| 15 | Sari / Sable | Minh, Yonas, Maren, Li, Kiosk, Grace; Royce/Jordan conditional |
-| 16 | Jordan / Valeria | Chioma, Arjun, Sari, Mina, Tone, Rack, Dez; Royce conditional |
-| 17 | Aya | Jordan, Minh, Helen, Leila, Jonas, Chioma, Pylon; Hana via Kkeutori |
-| 18 | Leila / Helen / Jordan | Li, Chioma, Thandiwe, Amira, Aya, Marc, Jonas, Pylon, Grace |
-| 19 | Jordan / Royce / PRIM2 | established PRIM and Hitman assault teams selected from recurring cast after development earns them |
-| 20 | PRIM2 / Jordan / Royce | surviving remote ensemble through evidence, verification, grief and vacancy consequence |
-| 21 | Jordan / PRIM2 | Royce plus surviving governance/technical ensemble; grief and staffing continue through succession |
+| 15 | Sari / Sable | Minh, Yonas, Maren, Li, Kiosk, Grace; Royce/McCluster conditional |
+| 16 | McCluster / Valeria | Chioma, Arjun, Sari, Mina, Tone, Rack, Dez; Royce conditional |
+| 17 | Aya | McCluster, Minh, Helen, Leila, Jonas, Chioma, Pylon; Hana via Kkeutori |
+| 18 | Leila / Helen / McCluster | Li, Chioma, Thandiwe, Amira, Aya, Marc, Jonas, Pylon, Grace |
+| 19 | McCluster / Royce / PRIM2 | established PRIM and Hitman assault teams selected from recurring cast after development earns them |
+| 20 | PRIM2 / McCluster / Royce | surviving remote ensemble through evidence, verification, grief and vacancy consequence |
+| 21 | McCluster / PRIM2 | Royce plus surviving governance/technical ensemble; grief and staffing continue through succession |
 
 Exact scene placement remains flexible. Local episode files govern migrated detail.
 
@@ -213,7 +213,7 @@ Do not require a historical/outside character per episode.
 
 Use established relationships when they actually affect present behavior:
 - Hana / Ren / Tariq / Zayd with Aya where appropriate;
-- Bigga Lex with Jordan/Royce history;
+- Bigga Lex with McCluster/Royce history;
 - other outside people only after deliberate promotion.
 
 Prefer recurring outside relationships over one-use exposition names.
@@ -268,7 +268,7 @@ AMIRA/MARC own E14 -> GLASSHOUSE/risk history matters later
 
 # Governing rules
 
-> **Same building. Same company. Same people. New pressure.**
+> **Same building. Same institution. Same people. New pressure.**
 
 > **If you appear, you move.**
 
