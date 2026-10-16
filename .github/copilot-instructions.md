@@ -2,6 +2,6 @@
 
 This repository participates in the McCluster control plane.
 
-Canonical backend: GitHub `mcclusterishere/mccluster`, Cloudflare project `mccluster`, Worker `mccluster-core`, Supabase `zmnhbrjyhxzhkxmhkexs`.
+Canonical backend: GitHub `mcclusterishere/mccluster`, Cloudflare project `mccluster`, Worker `mccluster`, Supabase `zmnhbrjyhxzhkxmhkexs`.
 
 Do not scaffold a new API server, auth provider, or database. Route shared work through McCluster. Public site is `matthew.mccluster.org`. Read `AGENTS.md`.
