@@ -1,0 +1,106 @@
+{
+  "schema_version": "prim3.performer.v0.1",
+  "status": "OWNER_REVIEW_REQUIRED",
+  "authority": "mcclusterishere/Prim3/story/ROYCE-JANUS-ORIGIN-CANON.md",
+  "character_id": "prim3:royce",
+  "character_name": "Royce",
+  "performer_type": "fictional_ai_produced_character",
+  "franchise": "PRIM3 / Hitman",
+  "plot_role": "H-Authority-01 Hitman successor / sovereign",
+  "producer_of_record": "McCluster",
+  "approval": {
+    "public_profile": false,
+    "visual_reference": false,
+    "voice_reference": false,
+    "character_likeness_training": false,
+    "external_publishing": false
+  },
+  "continuity": {
+    "age_delta_to_mccluster_years": -7,
+    "visible_age_at_prim3_opening_approx": 26,
+    "visible_age_at_hitman_succession_approx": 19,
+    "appearance": "white-presenting young adult male; engineered counterpart concept, not yet visually locked",
+    "canon_constraints": [
+      "Benji is the same person as McCluster, not Royce",
+      "Royce receives succession opportunity refused by McCluster as Bigga Lex retires",
+      "Royce is seven years younger than McCluster",
+      "PRIM2's active interest in McCluster began in Ghost era, not explicitly in childhood",
+      "Royce remains an autonomous person, not a programmable device",
+      "Reveal-gated origin must not appear in public posts ahead of canonical episode 20"
+    ]
+  },
+  "public_profile": {
+    "handle_proposal": "royce.prim3",
+    "public_display_name": "Royce · HITMAN",
+    "fictional_identity_disclosure": "Fictional / AI-produced PRIM3 entertainment character by McCluster.",
+    "short_bio": "Hitman successor. Artist. Trouble magnet. Nobody handed him the respect.",
+    "persona_voice": "controlled and direct until challenged; sharp streetwise humor; intensely charismatic, not a stereotype",
+    "permitted_formats": [
+      "character_original_music_teasers",
+      "scripted_scenes",
+      "in_universe_interviews",
+      "behind_the_scenes",
+      "fictional_artist_social_posts"
+    ],
+    "prohibited_claims": [
+      "is_independent_real_human",
+      "is_real_government_agent",
+      "authentic_eyewitness",
+      "real_world_endorsement",
+      "invented_verified_audience"
+    ],
+    "website_host": "Human Uprise fictional performer profile; production record in McCluster"
+  },
+  "appearance_dev": {
+    "target": "Consistent fictional performer with boyish face and intimidating presence; visually a younger white-presenting counterfactual of McCluster without falsely asserting a real user's identity.",
+    "concept_wardrobe": "charcoal technical street jacket, dark tee, dark jeans, silver chain with unbranded pendant, clean neutral shoes",
+    "additional_variant": "premium suited authority wear",
+    "palette": [
+      "charcoal",
+      "steel",
+      "desaturated burgundy",
+      "silver"
+    ],
+    "face_refs_required": [
+      "front_neutral",
+      "left_three_quarter",
+      "right_three_quarter",
+      "left_profile",
+      "right_profile",
+      "full_body",
+      "expressive_closeup"
+    ],
+    "marks_and_tattoos": "unassigned; no fake real-world gang insignia or official marks",
+    "lock_requires": [
+      "owner_approval",
+      "independent_reference_consistency_review",
+      "approved_media_rights",
+      "canon_spoiler_check"
+    ],
+    "current_reference_asset_ids": [],
+    "current_voice_asset_ids": [],
+    "source_photo_of_mccluster_authorized": false,
+    "note": "Initial generated concepts are explorations. They do not prove a faithful race-adjusted likeness of any real human."
+  },
+  "production": {
+    "canonical_social_identity_id": null,
+    "source_rights_record_ids": [],
+    "job_capability_proposed": "video.recharacterize",
+    "workflow": "studio_upload -> select_person -> lock_character -> short_private_preview -> short_private_render -> qa -> owner_approval -> optional_publish",
+    "external_account_ids": {},
+    "release_state": "internal_concept_only",
+    "auto_publish_enabled": false,
+    "auto_reply_enabled": false
+  },
+  "internal_spoiler_controls": {
+    "origin_reveal_not_before": "S7E2 / Global Episode 20, Evil Twin",
+    "public_about_page_must_not_include": [
+      "JANUS",
+      "engineered biological source",
+      "donor identity",
+      "family lineage registry",
+      "program sponsor"
+    ],
+    "spoiler_clearance": "ROOT_REVEAL"
+  }
+}
