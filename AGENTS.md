@@ -100,6 +100,8 @@ Every image prompt must include:
 
 Never overwrite approved source imagery. Use versioned filenames.
 
+**Battlefield size:** no level is smaller than −100…+100 on both X and Y. Team training is at least ±100, real scenarios at least ±150, with the objective at (0,0). See [`game/BATTLEFIELD-SIZE-AUTHORITY.md`](game/BATTLEFIELD-SIZE-AUTHORITY.md).
+
 **Field operator loadouts (E / R / T):** before drawing, generating, modelling or describing a Field operator, read [`phenotypes/operators/LOADOUTS.md`](phenotypes/operators/LOADOUTS.md). It has the dressed mannequin and labeled loadout photograph for each operator, and the rules for using them.
 
 ## Change control
