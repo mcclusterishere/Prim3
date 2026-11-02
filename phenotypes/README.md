@@ -11,6 +11,8 @@ version: 1.0.0
 
 Read [NAMING.md](./NAMING.md) for the full hybrid naming rules.
 
+**What the Field operators look like:** see [operators/LOADOUTS.md](./operators/LOADOUTS.md), which has the mannequin and labeled-loadout photographs for E, R and T.
+
 Built for: **video game · seasonal story · real institutional design**
 
 ---

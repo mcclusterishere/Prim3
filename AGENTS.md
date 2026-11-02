@@ -100,6 +100,8 @@ Every image prompt must include:
 
 Never overwrite approved source imagery. Use versioned filenames.
 
+**Field operator loadouts (E / R / T):** before drawing, generating, modelling or describing a Field operator, read [`phenotypes/operators/LOADOUTS.md`](phenotypes/operators/LOADOUTS.md). It has the dressed mannequin and labeled loadout photograph for each operator, and the rules for using them.
+
 ## Change control
 
 Canon changes require a pull request that states:
