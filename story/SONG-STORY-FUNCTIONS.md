@@ -1,7 +1,7 @@
 ---
 status: CANON SUPPORT
 system: Music-to-story integration
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Song Story Functions
@@ -17,26 +17,29 @@ recurring imagery to its own episode/level.
 
 ## Current 20-track inventory
 
+Numbered in the written episode order of `EPISODE-PROGRESSION.md` (owner decision 2026-11-02: track order follows the order on paper). The number is the global episode number. Episode 18 is the open Song #21 slot, so the 20 songs skip it.
+
 1. High Alert
 2. White Grey Black Hat
-3. Anti Social Engineering
-4. OSINT
-5. Patch Work
-6. App Attacks
-7. Dive In
-8. IoT
-9. Red Blue Purple White Team
+3. OSINT
+4. Anti Social Engineering
+5. Red Blue Purple White Team
+6. Got Wifi
+7. Data Breach
+8. App Attacks
+9. Virus Types
 10. Installation Types
-11. IaaS, SaaS, PaaS
-12. Cap Ex Vs. Op Ex
-13. Trappin From The Cloud
-14. Per Diem
-15. RAID (HOT SITE)
-16. Evil Twin
-17. Ghost In The Wires
-18. Data Breach
-19. Virus Types
-20. Got Wifi
+11. Dive In
+12. IoT
+13. IaaS, SaaS, PaaS
+14. Cap Ex Vs. Op Ex
+15. Trappin From The Cloud
+16. Per Diem
+17. Patch Work
+18. *(Song #21 — OPEN, protected slot)*
+19. RAID (HOT SITE)
+20. Evil Twin
+21. Ghost In The Wires
 
 ## Integration rule
 
@@ -60,7 +63,7 @@ chapters are indexed in `../episodes/README.md`.
 - **Cap Ex Vs. Op Ex:** ownership versus rental becomes a conflict about commitment, institutional control, and who bears long-term cost.
 - **Per Diem:** hardware language supports an episode about temporary workers, disposable labor, pride, and who is considered permanent.
 - **Data Breach:** the breach is not just a technical event; it can expose a private truth that permanently changes relationships.
-- **RAID:** redundancy and disaster recovery become the architecture of the final assault and the question of whether Prime designed his own defeat to be survivable.
+- **RAID:** redundancy and disaster recovery become the architecture of the final assault and the question of whether PRIM2 designed his own defeat to be survivable.
 - **Evil Twin:** duplicated identities, deceptive access, and parallel systems naturally support the revelation that apparently separate organizations have been manipulated through one hidden command structure.
 - **Ghost In The Wires:** infrastructure becomes memory and presence; a person can be gone physically while remaining embedded in systems and habits.
 

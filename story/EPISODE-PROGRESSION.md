@@ -35,6 +35,8 @@ See:
 
 ## Seven-year order
 
+**Owner decision (2026-11-02):** track order follows the order on paper. This table is that order; every other numbered song or episode list (`SONG-STORY-FUNCTIONS.md`, `SONG-CHARACTER-COUNT.md` and the rest) is renumbered to match it. *Flag for the owner: "the order on paper" is assumed to mean this table.*
+
 | Global # | Season | Episode | Song | Mission | Expandable chapter |
 |---:|---:|---:|---|---|---|
 | 01 | 1 | 1 | **High Alert** | **The Blip** | [S01E01](../episodes/S01E01-THE-BLIP.md) |
