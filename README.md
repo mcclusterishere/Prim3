@@ -75,12 +75,15 @@ See:
 
 ## Tactical-map and training proposal
 
-The owner-requested coordinate convention keeps the primary objective at **(0,0)** and the X/Y axes through the exact screen center. The optional E/R/T training exercise lets all three field roles contest that objective.
+The owner-requested tactical view keeps the primary objective at **(0,0)** and at the exact screen center. Every training arena must extend at least **-50 to +50 on both X and Y**. The replacement **128 × 128** reference uses a 3D industrial battlefield with dense cover, climbable structures, elevated positions and multiple approaches.
+
+The optional E/R/T exercise combines objective control with simulated combat, including elimination and return. All three roles retain Math, Science and Information Technology at different levels and specialties.
 
 - [Design specification and proposed exercise rules](game/OBJECTIVE-CENTERED-TRAINING.md)
-- [Tactical-map visual and editable source](assets/reference/tactical-map/README.md)
+- [3D battlefield visual, offline scene and source](assets/reference/tactical-map/README.md)
+- [Recon mannequin, labeled loadout and detailed visual brief](assets/reference/field-recon/FO-R-SO-visual-brief-v01.md)
 
-Status: **PROPOSED design reference**. The core direction is owner-requested; balance details remain draft and gameplay integration is pending.
+Status: **PROPOSED design reference**. The owner's correction supersedes the small flat v01 map. The scene supports visual inspection; gameplay integration and balance validation remain pending.
 
 ## Repository map
 

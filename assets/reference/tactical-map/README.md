@@ -1,37 +1,65 @@
 ---
 status: PROPOSED
-asset_class: tactical-coordinate reference
-version: 0.1.0
+asset_class: Objective-centered 3D battlefield reference
+version: 0.2.0
+owner_revision_date: 2026-11-02
 ---
 
-# Objective-centered training reference
+# Objective-centered 3D battlefield reference
 
-![PRIM3 objective-centered tactical training map](PRIM3-objective-origin-training-v01.png)
+![PRIM3 128 by 128 objective-centered 3D tactical battlefield](PRIM3-objective-origin-training-v02.png)
 
-The owner requested centered X/Y axes, a primary objective at (0,0), and an E/R/T competitive training exercise on 2026-11-02. The [design specification](../../../game/OBJECTIVE-CENTERED-TRAINING.md) separates those requirements from proposed balance details.
+The owner rejected the small flat `v01` arena on 2026-11-02. Training arenas must include **-50 through +50 on both X and Y at minimum**, with a 3D tactical view, substantial terrain and cover, climbable structures and dangerous objective approaches. This replacement spans **-64 through +64: 128 × 128 training units**.
 
-- [Editable SVG](PRIM3-objective-origin-training-v01.svg)
-- [Coordinate fixture](objective-origin-training-v01.json)
-- [Deterministic renderer](../../../development/render_objective_training_map.py)
+- [Open the offline 3D scene](PRIM3-objective-origin-training-v02.html)
+- [Rendered battlefield PNG](PRIM3-objective-origin-training-v02.png)
+- [Scene and coordinate data](objective-origin-training-v02.json)
+- [Scene generator](../../../development/render_battlefield_v02.py)
+- [Design specification and proposed exercise rules](../../../game/OBJECTIVE-CENTERED-TRAINING.md)
 
-The 1600 × 1600 canvas places the origin at exactly (800,800) pixels. Both axes use 52 pixels per training unit, with +X right and +Y up. Integer coordinates denote tile centers; boundaries lie at half-integers. The visible centers run from -10 through +10 (21 centers and 20 center-to-center intervals). HUD labels do not move the coordinate origin.
+Download the HTML and open it in a WebGL-capable browser to inspect the offline scene; GitHub's file view displays its source. Drag to orbit and scroll to zoom while the origin stays centered. The scene is a visual interaction preview. Camera and display controls do not constitute a playable combat mission.
 
-The image is an orthographic coaching reference with all three sample operators visible. Its role colors are draft presentation overlays, not uniform color canon. Cover is illustrative training geometry, not Site 0 or Equity Uprise architecture. The black mannequin map symbols are schematic markers, not finished character models.
+| Control | Effect |
+|---|---|
+| Coordinates | Show or hide the projected X/Y axes, signed ticks and grid |
+| Approaches | Show or hide illustrative route waypoints; these are not pathfinding results |
+| Roof cutaway | Hide building walls, roofs and attached facade details for inspection; this does not change gameplay collision |
+| Reset view | Restore the reference camera angle and zoom |
 
-The relay occupies the non-walkable origin tile. Four orthogonally adjacent highlighted tiles are common interaction positions available to E, R and T. No path or claim of competitive balance is implied by the visual. The renderer checks that each starting position can reach an interaction tile through the declared cover layout.
+## World and presentation
+
+The industrial ravine and ruined transit compound combines lower passages, working yards, elevated decks, bridges, roofs, stairs and ramps. Layered approaches and substantial cover make the center a contested destination. Elevated positions illustrate the owner's request for Recon to threaten rivals approaching the objective.
+
+X and Y describe horizontal world position; Z describes elevation. The objective at **(0,0)** is the camera target and screen center. Its projected world axes meet there and change angle honestly under 3D orbit. A north-up plan convention has +X right and +Y up; an angled 3D projection does not promise those same screen directions.
+
+The sample coaching starts are E at **(-48,-30,0)**, R at **(+44,-44,12.55)** and T at **(-4,+52,4.1)**. Reference walk-surface levels span **-4 to +16.55**, including intermediate ground, roof and bridge levels; railings and roof apparatus extend above them. These stage different ground and elevated roles for inspection; they are not an approved balanced match. Coach visibility is not gameplay visibility. Role colors are draft interface overlays, not uniform canon. The compound is not established Site 0 or Equity Uprise architecture.
+
+The geometry and route examples express visual intent. Final gameplay must validate navigation, access links, cover, line of sight, AP costs, shooting, damage, elimination, objective control and return/reset behavior through the existing tactical resolver. Occupying the objective is not a protected interaction.
 
 ## Reproduce
 
-From the repository root, generate the SVG with Python 3:
+From the repository root, generate the JSON, offline HTML and PNG with Python 3, NumPy and Pillow installed:
 
 ```bash
-python3 development/render_objective_training_map.py
+python3 development/render_battlefield_v02.py
 ```
 
-With Inkscape installed, regenerate both committed image formats:
+To generate only the JSON and HTML with Python's standard library, use:
 
 ```bash
-python3 development/render_objective_training_map.py --png
+python3 development/render_battlefield_v02.py --no-png
 ```
 
-This is a design reference. It does not implement multiplayer, gameplay, learner persistence or the final 3D Training Range.
+The PNG is a software render of the same authored meshes at the reference camera view. The HTML uses WebGL and includes its data locally; it needs no external asset or library downloads. A north-up plan view is a possible future teaching option in the specification, not an implemented preview control.
+
+## Verified visual behavior
+
+The final reference contains seven buildings, 78 cover groups and 14 authored access links. Generator checks verify the minimum arena extent, the objective origin, role positions and access endpoints. The JavaScript parses successfully and all rendered mesh faces have valid normals.
+
+The HTML was checked in Chromium with WebGL: camera orbit, zoom, resize and all display controls work without JavaScript errors. The origin stayed at `(800,550)` in a `1600 × 1100` viewport and at `(195,422)` in a `390 × 844` viewport. The mobile layout has no horizontal overflow and retains its visible controls and notes. Roof openings, stair landings, ramp endpoints and canal bridge access were visually reviewed and corrected. These checks validate the scene preview; they do not certify gameplay navigation, line of sight or competitive balance.
+
+## Superseded v01
+
+The `v01` PNG, SVG and JSON and `development/render_objective_training_map.py` are retained as historical design artifacts. They use -10 through +10 and a flat overhead presentation. **They do not satisfy current training-arena requirements and must not be used as a valid new arena template.**
+
+This reference changes no course numbering, story chronology, campaign consequences or learner-progress authority. Gameplay integration remains pending.
