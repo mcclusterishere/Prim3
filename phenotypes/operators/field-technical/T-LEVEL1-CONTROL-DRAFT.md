@@ -1,5 +1,5 @@
 ---
-status: DRAFT (owner direction recorded; numbers not yet signed off)
+status: DRAFT (owner direction and numbers signed off 2026-11-02; engine work next)
 system: Operators / Field T — level-one primary and level-two unlock
 owner_direction_date: 2026-11-02
 ---
@@ -33,7 +33,7 @@ Each machine needs four things:
 | Action | AP | Reach | Effect | Limit |
 |---|---|---|---|---|
 | **JAM** | 1 | A machine in T's line of sight, ≤ 8 tiles | The machine is JAMMED until T's next turn: cameras stop spotting, turrets cannot fire, doors stay as they are, lights go dark | none |
-| **TAKE CONTROL** | 2 | A machine in line of sight, ≤ 6 tiles, already *observed* (seen this turn by T, or marked by R) | The machine is CONTROLLED for 2 rounds and serves the squad: a camera adds its sight to the squad's fog of war, a turret takes overwatch against threats, a door opens or locks on T's command | One controlled machine at a time |
+| **TAKE CONTROL** | 2 | A machine in line of sight, ≤ 6 tiles, already *observed* (seen this turn by T, or marked by R) | The machine is CONTROLLED and serves the squad until a hostile re-takes it, which is possible only after 3 rounds: a camera adds its sight to the squad's fog of war, a turret takes overwatch against threats, a door opens or locks on T's command | One controlled machine at a time |
 | **SYNC PULSE** (the T04 puck) | 1 | Thrown to a tile ≤ 5 tiles away, in line of sight | Visible **area effect**, radius 3: every compatible machine in the area is JAMMED for 1 round. Hostiles in the area lose the alert network for 1 round: they share nothing they spot | Once per mission at level 1 |
 
 Rules these follow (unchanged canon):
@@ -42,7 +42,18 @@ Rules these follow (unchanged canon):
 - Machines and their states are information. A machine the squad has not seen is never shown or targetable (fog of war).
 - Each action is a resolver action with events (`MACHINE_JAMMED`, `MACHINE_CONTROLLED`, `SYNC_PULSE`), so the renderer only plays them.
 
-## Questions for the owner
+## Owner decisions (2026-11-02)
+
+1. **Numbers approved:** JAM ≤ 8 tiles; TAKE CONTROL ≤ 6 tiles; SYNC PULSE radius 3, thrown ≤ 5, once per mission at level one.
+2. **Level two: the main arm joins the sidearm.** T then carries both. From level two on, tech control is available **only while the sidearm is the ready weapon**. With the main arm up, T cannot use JAM, TAKE CONTROL or SYNC PULSE.
+   - Switching weapons is an action.
+   - Engine default: **1 AP to switch**, held as data so it can be tuned.
+3. **Hostiles can re-take a controlled machine, after about 3 turns.**
+   - A machine the squad controls is protected for **3 rounds**.
+   - After that, an aware hostile with line of sight within 6 tiles may spend 2 AP to re-take it, and it serves them again.
+   - Without a re-take, control stays with the squad.
+
+## Questions that were put to the owner (answered above)
 
 1. **Ranges and counts:** are 8 / 6 / radius 3, once per mission, right for level one?
 2. **The level-two main arm:** which weapon, and does it replace the sidearm or join it?
