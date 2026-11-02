@@ -85,7 +85,7 @@ Aya gradually treats the absence of evidence as reason to distrust her own darke
 
 ## Relationship to McCluster
 
-PRIM2 first develops active interest in McCluster during the Ghost/Whip years after tracing Hitman succession backward from Royce to Bigga Lex to Benji/McCluster.
+PRIM2 first develops active interest in McCluster during the Ghost/Whip years after tracing Hitman succession backward from Royce to Bigga Lex to McCluster.
 
 At 33 McCluster cuts his long hair, adopts waves and re-enters fixed institutional life through college. The visual break briefly lowers identity continuity; a Site 0 identity-resolution update restores high-confidence linkage.
 

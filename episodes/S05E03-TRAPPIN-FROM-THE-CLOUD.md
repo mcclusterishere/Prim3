@@ -21,10 +21,10 @@ SECONDARY DEPTH: Minh Tran / Yonas Bekele / Maren Quill / Li Wei / Jules “Kios
 MCCLUSTER: mentioned/edge; off-board Wildcard only if CRITICAL
 APEX: eligible only after McCluster is present and high-value crisis remains CRITICAL
 ROYCE: eligible as hostile escalation under current rules
-BENJI: not a separate contemporary person; Benji = McCluster's historical identity
+BENJI CHASE: a different person from McCluster (owner 2026-11-02); not used in this episode; role open
 ```
 
-This completely supersedes the old “McCluster glimpses separate Benji” continuity while preserving elasticity, scaling and unknown-parallel-operations themes.
+This supersedes the old “McCluster glimpses Benji” continuity while preserving elasticity, scaling and unknown-parallel-operations themes.
 
 ---
 

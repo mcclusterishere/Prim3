@@ -109,7 +109,7 @@ These belong to the immediate recurring environment even when remote, institutio
 38. **Mina “Halo” Brooks** — cell lead.
 39. **Sora “Gymnast” Okada** — elite/social-entry specialist.
 
-**Benji is not a separate contemporary character. Benji is McCluster's age-19-to-26 Hitman identity.**
+**Benji Chase is a separate person (owner decision, 2026-11-02; see `CANON.md` §9). He is not in the immediate-story roster until the owner decides his role.**
 
 Royce is the primary Hitman-side elite incursion threat in PRIM3 gameplay. He is not a PRIM Mantle holder and does not possess PRIM2's information architecture.
 

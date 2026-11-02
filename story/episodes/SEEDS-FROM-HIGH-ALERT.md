@@ -42,7 +42,7 @@ Evil Twin      -> some fragments gain cross-board provenance meaning
 Ghost          -> PRIM2's institutional-gravity footprint becomes legible
 ```
 
-Do not use old entries that refer to a separate contemporary Benji, an upload ending, procedural Evil Twin infiltration, or PRIM2 as the literal cause of every event.
+Do not use old entries that make Benji a present-day attacker or McCluster's alias (Benji Chase is a different person, owner 2026-11-02), an upload ending, procedural Evil Twin infiltration, or PRIM2 as the literal cause of every event.
 
 The previous table remains recoverable through Git history for possible visual/lyric association salvage.
 

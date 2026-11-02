@@ -19,7 +19,7 @@ The central rule is:
 
 McCluster's earlier life explains his instincts, habits, fears, moral reflexes, blind spots, relationship patterns, technical/operational competence and decision-making. PRIM3 may point toward that history through behavior, scars, recognition, contradictions, music echoes, unusual competence, visual artifacts and carefully chosen reveals, but the earlier stories remain their own stories.
 
-`story/MCCLUSTER-HITMAN-ORIGIN-CANON.md` remains the event-level authority for the age-19-to-26 Hitman/Benji origin. This file is the broader **psychological, behavioral, visual-identity and decision-tree authority** spanning McCluster's first college attempt, Hitman/Benji, the Whip Equipped/Ghost period, Prime's discovery of McCluster, McCluster's re-entry into college at thirty-three, and the franchise's reverse-reveal structure.
+`story/MCCLUSTER-HITMAN-ORIGIN-CANON.md` remains the event-level authority for the age-19-to-26 Hitman origin. This file is the broader **psychological, behavioral, visual-identity and decision-tree authority** spanning McCluster's first college attempt, the Hitman years, the Whip Equipped/Ghost period, Prime's discovery of McCluster, McCluster's re-entry into college at thirty-three, and the franchise's reverse-reveal structure.
 
 When this file and a later owner-approved character decision-tree conflict, the newer owner-approved canon wins and this file must be updated rather than silently worked around.
 
@@ -46,7 +46,7 @@ infrastructure work, Prime's hidden observation, and his attempt to become legit
 THEN
 HITMAN — AGE 19–26
 The audience finally sees the earliest adult layer:
-first college attempt, campus dealing, Bigga Lex the Jet, Benji, violent hardening,
+first college attempt, campus dealing, Bigga Lex the Jet, violent hardening,
 Royce, and the first succession McCluster refuses.
 ```
 
@@ -67,7 +67,7 @@ The transition from one show to the next is itself part of the reveal. Do not ma
 McCluster's adult life is structured around successive seven-year identities:
 
 ```text
-AGE 19–26 — HITMAN / BENJI
+AGE 19–26 — HITMAN
 Force, loyalty, survival, retaliation, friendship, illicit hustle.
 
 AGE 26–33 — WHIP EQUIPPED / THE GHOST YEARS
@@ -218,7 +218,7 @@ The emotional formula is:
 
 > **friendship -> shared danger -> proven loyalty -> operational trust**
 
-That is the true beginning of Benji's Hitman trajectory.
+That is the true beginning of McCluster's Hitman trajectory.
 
 ---
 
@@ -244,17 +244,17 @@ That can produce innovation, overextension, or danger depending on the context.
 
 ---
 
-# 9. Benji — age 19 to 26
+# 9. McCluster inside Hitman — age 19 to 26
 
-Inside Hitman, McCluster becomes known as **Benji**.
+Inside Hitman, McCluster operates under his own name.
 
-**Benji is McCluster.** Benji is not a brother, clone, separate protagonist or later contemporary counterpart.
+**Owner decision (2026-11-02): Benji Chase is a different person from McCluster.** Earlier canon that made "Benji" McCluster's Hitman-era identity is withdrawn. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation years, the refused chair) stays McCluster's and is told under his own name. Benji Chase's role in that history is **open** (owner question in `story/STORY-CONSOLIDATION-PROPOSAL.md`). Benji Chase is not the Hitman-side RAID attacker: that is Royce.
 
-The Hitman-era music associated with Benji belongs to McCluster's age-19-to-26 life where compatible with later owner canon.
+Which Hitman-era music belongs to McCluster's age-19-to-26 life, and which to Benji Chase, is open.
 
-The tonal gap between Benji and thirty-three-year-old McCluster is intentional. McCluster has seven additional years of experience, attempted legitimacy, homelessness, infrastructure work, love, betrayal and reinvention before PRIM3 begins.
+The tonal gap between McCluster at 19–26 and thirty-three-year-old McCluster is intentional. McCluster has seven additional years of experience, attempted legitimacy, homelessness, infrastructure work, love, betrayal and reinvention before PRIM3 begins.
 
-Benji's operating morality hardens around retaliation.
+McCluster's Hitman-era operating morality hardens around retaliation.
 
 His internal rule becomes increasingly close to:
 
@@ -264,7 +264,7 @@ This allows McCluster to preserve a self-image of reacting rather than initiatin
 
 His core moral vulnerability becomes:
 
-> **Benji decides for himself who has forfeited mercy.**
+> **McCluster decides for himself who has forfeited mercy.**
 
 That vulnerability later rhymes directly with Prime's belief that superior information/competence can justify unilateral judgment.
 
@@ -280,7 +280,7 @@ The exact mechanics of fraud, robbery, travel, targeting or evasion are not requ
 
 The psychological fact is what matters:
 
-**Benji converts victimization into a mandate for disproportionate retaliation and humiliation.**
+**McCluster converts victimization into a mandate for disproportionate retaliation and humiliation.**
 
 By this period he can be savage, ruthless and apparently conscience-free toward people he has categorized as enemies.
 
@@ -302,13 +302,13 @@ PRIM3 must show that McCluster's later maturity consists partly of learning not 
 
 At approximately twenty-six, **Bigga Lex's children are born** and Lex decides to retire from Hitman.
 
-Lex offers Benji his title/position.
+Lex offers McCluster his title/position.
 
 McCluster refuses for two separate reasons.
 
-First, McCluster knows Lex would come back if Benji were ever in serious trouble. Once Lex is a father, McCluster no longer considers that loyalty his to spend. He does not want a future emergency involving him to pull Lex back into danger and potentially cost Lex's children their father.
+First, McCluster knows Lex would come back if McCluster were ever in serious trouble. Once Lex is a father, McCluster no longer considers that loyalty his to spend. He does not want a future emergency involving him to pull Lex back into danger and potentially cost Lex's children their father.
 
-Second, **Royce**, one of Benji's biggest rivals, is approximately seven years younger than McCluster. When McCluster is twenty-six, Royce is about nineteen. Royce is nastier, more openly power-hungry and dangerous enough that McCluster believes accepting Lex's seat would likely create a violent succession conflict.
+Second, **Royce**, one of McCluster's biggest Hitman rivals, is approximately seven years younger than McCluster. When McCluster is twenty-six, Royce is about nineteen. Royce is nastier, more openly power-hungry and dangerous enough that McCluster believes accepting Lex's seat would likely create a violent succession conflict.
 
 McCluster therefore concludes that the chair is not worth Lex's children's risk, his own continued attachment to Hitman, or a future war with Royce.
 
@@ -364,20 +364,20 @@ A conventional home cannot.
 
 ---
 
-# 13. Hair as identity — Benji/McCluster before thirty-three
+# 13. Hair as identity — McCluster before thirty-three
 
 Before the PRIM3 college re-entry at age thirty-three, McCluster wears his hair **extremely long**.
 
 The long hair is not incidental grooming. It is a major part of his appearance, silhouette and recognizable vibe across the Hitman and Whip Equipped periods.
 
-People who knew Benji/McCluster during those years strongly associate him with that look.
+People who knew McCluster during those years strongly associate him with that look.
 
 Photographs, memories, informal descriptions and older recognition profiles are therefore biased toward a version of McCluster with very long hair.
 
 The visual rule is:
 
 ```text
-HITMAN / BENJI — LONG HAIR
+HITMAN — LONG HAIR
 WHIP EQUIPPED / GHOST YEARS — LONG HAIR
 AGE 33 COLLEGE RE-ENTRY — HAIR CUT OFF / WAVES
 PRIM3 MCCLUSTER — WAVES
@@ -515,7 +515,7 @@ Prime asks, in effect:
 
 > **Who gave Royce the chair?**
 
-That inquiry leads backward through Bigga Lex to **Benji**, and from Benji to McCluster.
+That inquiry leads backward through Bigga Lex to **the successor candidate who refused the chair**: McCluster.
 
 Prime discovers that the former Hitman successor candidate did not die and did not build a conventional fixed empire. He became mobile, difficult to pin down and increasingly involved in vehicles, business and infrastructure.
 
@@ -577,7 +577,7 @@ Prime watches to learn what McCluster does with the warning.
 
 The franchise does not need to depict actionable real-world aircraft sabotage methodology. The character-level fact is sufficient: McCluster independently conceives and executes a plan that results in the aircraft going down while knowing the woman he loves is aboard.
 
-This event matters because it proves that leaving Hitman did not remove Benji's retaliatory logic from McCluster.
+This event matters because it proves that leaving Hitman did not remove the Hitman-era retaliatory logic from McCluster.
 
 McCluster has spent years trying to separate the legitimate man from the operator he used to be. Under extreme betrayal and perceived existential threat, those compartments collapse.
 
@@ -624,7 +624,7 @@ Family can know one version.
 
 Business partners another.
 
-Old Hitman people know Benji.
+Old Hitman people know the Hitman-era McCluster.
 
 Infrastructure coworkers know the technician/operator.
 
@@ -640,13 +640,13 @@ This is **McCluster's trauma-derived generalization**, not objective truth about
 
 Aya's importance is therefore not simply that McCluster falls in love again. A deeper progression is that McCluster gradually allows another person to know more of the compartments he normally keeps separated.
 
-## 21.4 Benji was never fully gone
+## 21.4 The Hitman reflex was never fully gone
 
-McCluster left Hitman at twenty-six, but this later decision shows that the Benji operating logic survived internally.
+McCluster left Hitman at twenty-six, but this later decision shows that the Hitman-era operating logic survived internally.
 
 A useful private writer thesis is:
 
-> **McCluster retired the name before he retired the reflex.**
+> **McCluster left the life before he retired the reflex.**
 
 PRIM3 should not state this thesis too early.
 
@@ -656,7 +656,7 @@ PRIM3 should not state this thesis too early.
 
 Immediately before or as part of his re-entry into college at **thirty-three**, McCluster makes a dramatic physical change.
 
-He cuts off the extremely long hair that had defined his Hitman/Benji and Whip Equipped appearance and begins wearing **waves**.
+He cuts off the extremely long hair that had defined his Hitman and Whip Equipped appearance and begins wearing **waves**.
 
 This is not a small haircut.
 
@@ -689,14 +689,14 @@ McCluster does not need to know that the third effect exists.
 
 McCluster is put back onto Prime's reliable map only after an **update to Site 0's fictional identity-tracking / identity-resolution software** improves the system's ability to reconcile changed appearance with older observations and records.
 
-The story does not need to explain or teach a real-world tracking recipe. At the fiction level, the update allows Site 0 to connect the short-haired/waves college-era McCluster to the long-haired Benji/Whip Equipped subject Prime had previously been following.
+The story does not need to explain or teach a real-world tracking recipe. At the fiction level, the update allows Site 0 to connect the short-haired/waves college-era McCluster to the long-haired Hitman/Whip Equipped-era subject Prime had previously been following.
 
 The update produces the equivalent of a renewed high-confidence identity match:
 
 ```text
 SUBJECT REACQUIRED
 MCCLUSTER
-PRIOR ASSOCIATION: BENJI
+PRIOR ASSOCIATION: HITMAN SUCCESSION (LEX)
 IDENTITY CONFIDENCE: RESTORED
 CURRENT CONTEXT: COLLEGE ENROLLMENT
 AGE: 33
@@ -768,8 +768,8 @@ The deeper writer truth is:
 
 1. Prime assumes his position and inherits/observes Hitman.
 2. Prime questions how young Royce received his position without the expected violent seizure.
-3. The investigation leads to Bigga Lex and the former successor candidate Benji.
-4. Prime identifies Benji as McCluster.
+3. The investigation leads to Bigga Lex and the former successor candidate who refused the chair.
+4. Prime identifies that candidate as McCluster.
 5. Prime locates/traces McCluster during the Ghost/Whip Equipped years.
 6. Prime becomes interested in McCluster before the plane event.
 7. Prime covertly helps create the social/criminal intersection involving the woman and cocaine plug.
@@ -968,7 +968,7 @@ This comes from being a nineteen-year-old dealer, racialized suspicion, being so
 
 The following information may exist in writer canon without automatically becoming explicit PRIM3 dialogue or exposition:
 
-- McCluster was Benji;
+- McCluster was a Hitman successor candidate;
 - the full details of his first college attempt;
 - marijuana/Adderall dealing;
 - Ricky and the dorm incident;
@@ -1027,7 +1027,7 @@ There are at least three distinct music/story bodies in the wider McCluster univ
 
 1. **PRIM3 music** — belongs to the PRIM3 age-33-to-40 story and its mission/curriculum architecture.
 2. **Whip Equipped music** — belongs to the age-26-to-33 Whip Equipped story.
-3. **Hitman/Benji music** — belongs to the age-19-to-26 Hitman story where compatible with detailed canon.
+3. **Hitman-era music** — belongs to the age-19-to-26 Hitman story where compatible with detailed canon; which songs are McCluster's and which are Benji Chase's is open.
 
 Do not freely move songs among these bodies because a lyric happens to fit another era.
 
@@ -1078,7 +1078,7 @@ It must teach that man how to operate inside relationships, institutions and aut
 The complete backward-revealed life can eventually resolve into four questions:
 
 ```text
-HITMAN / BENJI — 19–26
+HITMAN — 19–26
 How far will I go when the world gives me enemies?
 
 WHIP EQUIPPED / GHOST YEARS — 26–33

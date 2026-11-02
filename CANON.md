@@ -238,7 +238,7 @@ Release/reveal order is intentionally backward through McCluster's adult life:
 
 1. **PRIM3 — age 33–40**
 2. **Whip Equipped — age 26–33**
-3. **Hitman / Benji — age 19–26**
+3. **Hitman — age 19–26**
 
 McCluster lived history forward. The audience discovers it backward.
 
@@ -252,26 +252,26 @@ Earlier history may explain competence, habits, fear, trust, retaliation, mobili
 
 ---
 
-## 9. McCluster / Benji / Ghost continuity
+## 9. McCluster / Hitman / Ghost continuity
 
 At 19 McCluster attends college in upstate New York, begins dealing only after arriving, nearly gets caught, continues, is confronted by the dean and leaves under an offered path rather than escalating toward prosecution. He tells his parents he flunked out.
 
 He enters Hitman through friendship, music and shared danger around childhood best friend **Bigga Lex the Jet**.
 
-During approximately age 19–26 McCluster operates as **Benji**.
+During approximately age 19–26 McCluster operates inside Hitman under his own name.
 
-**Benji is McCluster. Benji is not a separate contemporary character.**
+**Owner decision (2026-11-02): Benji Chase is a different person from McCluster.** Earlier canon that made "Benji" McCluster's Hitman-era identity is withdrawn. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation years, the refused chair) stays McCluster's and is told under his own name. Benji Chase's role in that history is **open** (owner question in `story/STORY-CONSOLIDATION-PROPOSAL.md`). Benji Chase is not the Hitman-side RAID attacker: that is Royce.
 
 At approximately 26:
 - Lex retires;
-- Lex offers succession to McCluster/Benji;
+- Lex offers succession to McCluster;
 - McCluster refuses;
 - Royce, seven years younger, receives the succession opportunity;
 - McCluster enters the Ghost / Whip Equipped years.
 
 Age 26–33 includes prolonged vehicle living/mobile homelessness, legitimate vehicle dealing, data-center/infrastructure work, serious romance, criminal relapse/cocaine-network contamination, betrayal, the private-aircraft event, compartmentalization and eventual desire for a stable conventional life.
 
-PRIM2 first develops active interest in McCluster during the Ghost years after tracing Royce's succession backward through Lex to Benji/McCluster.
+PRIM2 first develops active interest in McCluster during the Ghost years after tracing Royce's succession backward through Lex to McCluster, the successor candidate who refused the chair.
 
 See:
 - `story/MCCLUSTER-HITMAN-ORIGIN-CANON.md`
@@ -281,13 +281,13 @@ See:
 
 ## 10. McCluster visual re-entry / reacquisition
 
-Through Hitman/Benji and Whip Equipped/Ghost, McCluster wears **extremely long hair**.
+Through the Hitman and Whip Equipped/Ghost years, McCluster wears **extremely long hair**.
 
 At 33 he cuts it off and adopts **waves** before college/Equity Uprise entry.
 
 The appearance change is dramatic enough to disrupt simple visual-recognition continuity.
 
-College makes McCluster institutionally visible again. A fictional Site 0 identity-resolution update restores high-confidence continuity between the newly visible student and the older long-haired McCluster/Benji subject PRIM2 already knew.
+College makes McCluster institutionally visible again. A fictional Site 0 identity-resolution update restores high-confidence continuity between the newly visible student and the older long-haired Hitman/Ghost-era McCluster subject PRIM2 already knew.
 
 > **College makes McCluster visible again; Site 0's update makes the system understand who the newly visible person is.**
 
@@ -560,7 +560,7 @@ The larger holding/operating ecosystem behind Equity Uprise: property, brands, c
 `Primary Root Identity Mantle`: living highest-trust human succession architecture.
 
 ### Hitman
-Separate multinational street/corporate operational system beneath PRIM2's hidden cross-board view. McCluster formerly operated there as Benji; Royce is the contemporary successor/sovereign.
+Separate multinational street/corporate operational system beneath PRIM2's hidden cross-board view. McCluster formerly operated there (ages 19–26); Royce is the contemporary successor/sovereign.
 
 ### Apex
 Where referenced, black-site/parent layer above fronts. Do not use Apex to contradict McCluster holding-company authority or PRIM root canon.
@@ -633,7 +633,7 @@ When new character/history/gameplay canon is added:
 - update staffing/lifecycle state when injury, death, promotion, transfer or replacement changes the organization;
 - update gameplay deployment/intervention fields where needed;
 - do not let old summary files silently outrank current specialist authority;
-- migrate stale `Prime-00`, separate contemporary `Benji`, `Prime Negative One`, McCluster-only ownership, `player becomes PRIM3`, fixed-three-person-squad, anonymous-death-fodder, automatic-replacement and default-playable-McCluster language when encountered.
+- migrate stale `Prime-00`, `Benji`-as-McCluster alias language (Benji Chase is a different person, owner 2026-11-02), Benji as a RAID attacker or finale survivor, `Prime Negative One`, McCluster-only ownership, `player becomes PRIM3`, fixed-three-person-squad, anonymous-death-fodder, automatic-replacement and default-playable-McCluster language when encountered.
 
 Legacy filenames may remain for link compatibility, but their contents must point to current canon rather than preserve contradictory history.
 

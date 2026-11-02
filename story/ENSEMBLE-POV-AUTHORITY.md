@@ -116,7 +116,7 @@ The audience should be able to describe substantial arcs for Aya, Chioma, Royce,
 
 # 5. McCluster's past appears as residue, not monopoly
 
-PRIM3 preserves the reverse-reveal structure for McCluster's Whip Equipped and Hitman/Benji history.
+PRIM3 preserves the reverse-reveal structure for McCluster's Whip Equipped and Hitman history.
 
 Because McCluster is not always the episode owner, past hints should often enter through other people's experience of him:
 

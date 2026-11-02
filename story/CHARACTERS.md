@@ -96,7 +96,7 @@ See:
 
 ## Contemporary Hitman core
 
-**Benji is not a separate contemporary person. Benji is McCluster's age-19-to-26 Hitman identity.**
+**Benji Chase is a separate person (owner decision, 2026-11-02; see `CANON.md` §9). McCluster's age-19-to-26 Hitman years are his own; Benji Chase's role is open.**
 
 Current Hitman-side characters:
 

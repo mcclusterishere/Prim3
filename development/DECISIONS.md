@@ -40,3 +40,9 @@ This ledger prevents AI collaborators from silently filling important blanks.
 - [ ] Voice policy and performer consent
 - [ ] Music/album synchronization
 - [ ] Git LFS or external media storage policy
+
+## Owner decisions recorded 2026-11-02 (story consolidation)
+
+These are owner decisions, applied to canon on branch `claude/story-consolidation-20261102`. Wording is the owner's intent as relayed in the session.
+
+- [x] **Benji Chase is a different person from Matthew McCluster.** "Canon text that merges McCluster, Benji and Ghost into one man must be separated." Applied: `CANON.md` §8, §9, §10, §19, §22 and every file that used "Benji" as McCluster's alias. McCluster's age-19-to-26 Hitman scenes are kept and told under McCluster's name. Open: Benji Chase's role; whether "Ghost" is only the name of McCluster's age-26-to-33 life stage (canon today) or also a handle (owner questions in `story/STORY-CONSOLIDATION-PROPOSAL.md`).

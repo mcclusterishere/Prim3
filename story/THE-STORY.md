@@ -135,7 +135,7 @@ McCluster enters Site 0 with a PRIM-side assault element.
 
 Royce enters with a separate Hitman-side assault element.
 
-They have substantial pre-PRIM3 history: Royce is the rival who received the Hitman succession opportunity McCluster/Benji refused at 26.
+They have substantial pre-PRIM3 history: Royce is the rival who received the Hitman succession opportunity McCluster refused at 26.
 
 PRIM2 genuinely resists both.
 
@@ -155,7 +155,7 @@ His remaining weapon is information.
 
 Under threat of execution, he reveals enough of the hidden board to force McCluster and Royce to reinterpret:
 - PRIM and Hitman as sibling instruments;
-- McCluster's old Benji life;
+- McCluster's old Hitman life;
 - Royce's inherited chair;
 - mirrored assets and unexplained operations;
 - the hidden Mantle;
@@ -194,7 +194,7 @@ A recurring character should have:
 
 ## Continuity shorthand
 
-- `Benji` = McCluster age 19–26, not separate current character.
+- `Benji` / Benji Chase = a different person from McCluster (owner 2026-11-02); role open. McCluster's age-19-to-26 Hitman years are told under his own name.
 - `Prime-00` / `P-00` = stale references to current **PRIM2** where used for McCluster's predecessor.
 - `Prime Negative One` = deprecated McCluster title; McCluster becomes **PRIM3**.
 - `Prime` = acceptable spoken shorthand for current PRIM holder.

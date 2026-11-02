@@ -15,13 +15,13 @@ branch: main
 
 ## Authority contract
 
-This file supersedes the old `Prime-00`, separate-contemporary-Benji, and first-discovery framing.
+This file supersedes the old `Prime-00`, Benji-as-RAID-attacker, and first-discovery framing.
 
 Current truth:
 - the opening music film occurs during S7E1 `RAID (HOT SITE)`;
 - the performer/defender is **PRIM2**;
 - the two assault axes are **McCluster** and **Royce**;
-- Benji is McCluster's earlier age-19-to-26 identity;
+- Benji Chase is a different person from McCluster (owner decision, 2026-11-02) and is not a RAID attacker;
 - PRIM2 already knew of McCluster during the Ghost/Whip years;
 - McCluster's age-33 long-hair-to-waves reinvention disrupted simple identity continuity;
 - college makes McCluster institutionally visible again;
@@ -96,7 +96,7 @@ Writer-facing alert concept:
 ```text
 SUBJECT REACQUIRED
 MCCLUSTER
-PRIOR ASSOCIATION: BENJI
+PRIOR ASSOCIATION: HITMAN SUCCESSION (LEX)
 IDENTITY CONFIDENCE: RESTORED
 CURRENT CONTEXT: COLLEGE ENROLLMENT
 AGE: 33

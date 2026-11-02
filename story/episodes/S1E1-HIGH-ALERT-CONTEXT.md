@@ -14,7 +14,7 @@ Current canon:
 - PRIM2 performs;
 - McCluster attacks from the PRIM side;
 - Royce attacks from the Hitman side;
-- Benji is McCluster's old identity, not a separate attacker;
+- Benji Chase is a different person from McCluster and is not an attacker;
 - 17 memory anchors point toward Episodes 02–18;
 - the opening cuts away before RAID resolves;
 - the series then rewinds **seven years earlier** to McCluster entering college at 33 and the ensemble world beginning.

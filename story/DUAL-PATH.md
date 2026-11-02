@@ -24,8 +24,8 @@ Current apex relationships:
 
 ```text
 PRIM2 — presiding Mantle holder with cross-board visibility
-MCCLUSTER — former Benji; PRIM-side Wildcard; eventual PRIM3
-ROYCE — post-Benji Hitman successor / hostile elite field threat
+MCCLUSTER — former Hitman successor candidate; PRIM-side Wildcard; eventual PRIM3
+ROYCE — post-McCluster Hitman successor / hostile elite field threat
 ```
 
 During ordinary PLAY, McCluster is withheld from the base roster and may be requested as Wildcard. Royce may intrude from the opposing board as an elite incursion. On the rarest eligible missions, PRIM2 can be requested as Apex support after McCluster is already present and the mission still collapses.

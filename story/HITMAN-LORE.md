@@ -19,15 +19,15 @@ Its people have independent loyalties, businesses, family structures, ambitions 
 
 # Relationship to McCluster
 
-McCluster operated within Hitman under the identity **Benji** during approximately age 19–26.
+McCluster operated within Hitman, under his own name, during approximately age 19–26.
 
-Benji is not a separate contemporary protagonist.
+Benji Chase is a separate person (owner decision, 2026-11-02; see `CANON.md` §9).
 
 McCluster enters through friendship/culture around Bigga Lex the Jet, becomes a capable operator, and is eventually offered succession when Lex retires.
 
 McCluster refuses.
 
-Royce receives the succession opportunity and becomes the major post-Benji Hitman-side rival/sovereign figure.
+Royce receives the succession opportunity and becomes the major post-McCluster Hitman-side rival/sovereign figure.
 
 The full age-19-to-26 authority is `story/MCCLUSTER-HITMAN-ORIGIN-CANON.md`.
 
@@ -101,7 +101,7 @@ Different characters can possess deep specialist knowledge without turning Hitma
 
 # Own show / prequel lane
 
-Hitman/Benji is a future prequel covering McCluster's age-19-to-26 life.
+Hitman is a future prequel covering McCluster's age-19-to-26 life.
 
 Exact episode count, final track order and full chronology are **not locked merely by old six-episode stubs**.
 

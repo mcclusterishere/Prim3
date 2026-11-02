@@ -11,7 +11,7 @@ branch: main
 
 The presiding hidden leader during the main series is **PRIM2**, the third holder of the **Primary Root Identity Mantle**.
 
-`Prime` remains acceptable spoken shorthand. Older `Prime-00`, `P-00`, `Prime Negative One`, or separate-present-day-Benji language is superseded by `PRIM-SUCCESSION-AUTHORITY.md`.
+`Prime` remains acceptable spoken shorthand. Older `Prime-00`, `P-00`, `Prime Negative One`, or Benji-as-RAID-attacker language is superseded by `PRIM-SUCCESSION-AUTHORITY.md`.
 
 ---
 
@@ -140,7 +140,7 @@ During final RAID, two separate assault elements breach Site 0:
 - McCluster's PRIM-side element;
 - Royce's Hitman-side element.
 
-McCluster and Royce are **not strangers**. They have significant pre-PRIM3 Hitman history. Royce received the succession opportunity McCluster/Benji refused when Bigga Lex retired.
+McCluster and Royce are **not strangers**. They have significant pre-PRIM3 Hitman history. Royce received the succession opportunity McCluster refused when Bigga Lex retired.
 
 PRIM2 genuinely resists both elements.
 
@@ -171,7 +171,7 @@ He reveals enough of the dual-board architecture to make one fact clear:
 > **His still-living identity is the current root needed to transfer/revoke authority cleanly.**
 
 The confession forces both survivors to reinterpret:
-- McCluster's Benji history;
+- McCluster's Hitman history;
 - Royce's inherited Hitman sovereignty;
 - cross-board operations;
 - unexplained assistance/conflict;

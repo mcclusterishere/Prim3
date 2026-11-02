@@ -76,7 +76,7 @@ Ordinary campaign PLAY after the rewind follows `game/WILDCARD-INTERVENTION-AUTH
 
 # Do not write
 
-- separate contemporary Benji attacking beside McCluster;
+- Benji attacking beside McCluster (Benji Chase is a different person from McCluster and is not a RAID attacker);
 - `Prime-00` as formal current identity;
 - McCluster already being PRIM3 before succession;
 - PRIM2 as surprised/unaware until attackers reach the heart of Site 0;

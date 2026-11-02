@@ -34,11 +34,11 @@ He already has years of real IT, infrastructure and data-center experience witho
 
 ## Visual re-entry
 
-Before 33, McCluster/Benji wears extremely long hair through the Hitman and Ghost/Whip eras.
+Before 33, McCluster wears extremely long hair through the Hitman and Ghost/Whip eras.
 
 At college re-entry he cuts it off and adopts waves.
 
-The change creates a genuine recognition discontinuity. College makes him institutionally visible again, while a later Site 0 identity-resolution update allows PRIM2's system to confidently reconcile the new student with the long-haired historical McCluster/Benji profile.
+The change creates a genuine recognition discontinuity. College makes him institutionally visible again, while a later Site 0 identity-resolution update allows PRIM2's system to confidently reconcile the new student with the long-haired historical McCluster profile.
 
 ## Wildcard / Flex
 
@@ -65,20 +65,20 @@ McCluster's writer-facing history is governed by:
 Key identity continuity:
 - McCluster attends college first at 19;
 - enters Hitman through friendship/culture/music;
-- operates as **Benji** approximately age 19–26;
+- operates inside Hitman under his own name approximately age 19–26;
 - refuses Bigga Lex the Jet's succession at 26;
 - allows rival Royce to inherit that opportunity;
 - lives the mobile Ghost/Whip Equipped years age 26–33;
 - returns to college at 33;
 - ultimately becomes PRIM3 at approximately 40.
 
-Benji is not a separate contemporary person.
+Benji Chase is a separate person (owner decision, 2026-11-02; see `CANON.md` §9). Benji Chase's role is open.
 
 ## Relationship to PRIM2
 
 PRIM2 does not first discover McCluster in Season One.
 
-He traces McCluster during the Ghost years through the Royce/Bigga Lex/Benji succession history, loses simple visual continuity around McCluster's dramatic age-33 appearance change, and reacquires high confidence when Site 0's fictional identity-resolution system is updated.
+He traces McCluster during the Ghost years through the Royce/Bigga Lex succession history, loses simple visual continuity around McCluster's dramatic age-33 appearance change, and reacquires high confidence when Site 0's fictional identity-resolution system is updated.
 
 McCluster spends most of the series unaware of the full relationship.
 

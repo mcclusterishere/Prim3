@@ -7,7 +7,7 @@ branch: main
 
 # Hitman song inventory
 
-These tracks remain useful source material for the future **Hitman / Benji age-19-to-26 prequel**, but the old six-episode order is **not current locked canon**.
+These tracks remain useful source material for the future **Hitman age-19-to-26 prequel**, but the old six-episode order is **not current locked canon**.
 
 Recovered/development track names include:
 - `Headed to the Top`
@@ -19,7 +19,7 @@ Recovered/development track names include:
 - `Parking Lot`
 
 Do not infer from this inventory that:
-- Benji is a separate contemporary protagonist;
+- Benji Chase is the present-day Hitman sovereign or a RAID attacker (Benji Chase is a different person from McCluster, owner 2026-11-02; his role is open);
 - the Hitman prequel must contain exactly six episodes;
 - McCluster joins at age 21;
 - McCluster takes over Hitman at the end;
@@ -28,7 +28,7 @@ Do not infer from this inventory that:
 Current character chronology:
 
 ```text
-MCCLUSTER / BENJI — approximately age 19–26
+MCCLUSTER — approximately age 19–26 (Benji Chase: separate person, role open)
 BIGGA LEX THE JET — McCluster's primary friendship/entry bridge
 LEX OFFERS SUCCESSION AT ~26
 MCCLUSTER REFUSES

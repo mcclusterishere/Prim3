@@ -80,11 +80,11 @@ Wildcard is not universal mastery and does not override authorization.
 
 ## Hitman mirrored tree — immediate PRIM3 era
 
-Hitman is a separate street/corporate organism under PRIM2's hidden dual architecture. It does not have a separate contemporary Benji.
+Hitman is a separate street/corporate organism under PRIM2's hidden dual architecture. Benji Chase (a different person from McCluster, owner 2026-11-02) holds no immediate-era seat until the owner decides his role.
 
 | Hitman phenotype | Primary identity | Second seat / pressure | Function |
 |---|---|---|---|
-| **H-Authority-01 — Sovereign** | **Royce** | **Sable Quinn** | Royce carries the Hitman chair McCluster/Benji refused; Sable constrains mythology with organizational reality. |
+| **H-Authority-01 — Sovereign** | **Royce** | **Sable Quinn** | Royce carries the Hitman chair McCluster refused; Sable constrains mythology with organizational reality. |
 | **H-Authority-02 — Operations / Money** | **Sable Quinn** | **Omar “Rack” Dillon** | Money, people, staffing and logistics. |
 | **H-Authority-03 — Sponsor / Client Gate** | **Grant Voss** | **Maren Quill** *(surface contact only where appropriate)* | Respectable demand translated into work without visibility into the hidden root. |
 | **H-Defense-01 — Block Control** | **Tone Rivera** | **Dez “Switch” Calhoun** | Presence, de-escalation and crew discipline. |
@@ -97,7 +97,7 @@ Hitman is a separate street/corporate organism under PRIM2's hidden dual archite
 | **H-Cohort-03 — Cell Lead** | **Mina “Halo” Brooks** | **Tone Rivera** | Small-team authority and extraction responsibility. |
 | **H-Dual Social — Elite Face** | **Sora “Gymnast” Okada** | **Priya Srisawat** *(unwitting institutional proximity)* | Elite social access unaware of Rae's sibling-side lane. |
 
-Historical note: **Benji = McCluster at age 19–26.** He is relevant to Royce's succession history but is not an immediate-era phenotype occupant.
+Historical note: **McCluster (age 19–26) refused the chair Royce holds.** Benji Chase is a separate person (owner decision, 2026-11-02; see `CANON.md` §9).
 
 ## Song-to-character availability map
 

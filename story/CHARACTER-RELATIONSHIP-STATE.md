@@ -114,7 +114,7 @@ Specialist relationship files override this summary where more specific.
 ## PRIM2 ↔ McCluster
 
 - **Trust:** PRIM2's trust is evaluative; McCluster initially does not know the relationship exists.
-- **First awareness:** PRIM2 traces McCluster backward through Royce / Bigga Lex / Benji during McCluster's Ghost/Whip years.
+- **First awareness:** PRIM2 traces McCluster backward through Royce / Bigga Lex during McCluster's Ghost/Whip years.
 - **Reacquisition:** McCluster's age-33 haircut/waves and return to college disrupt simple visual continuity; Site 0's updated identity-resolution system restores high-confidence continuity.
 - **Affection:** PRIM2 develops respect/hope he cannot openly express without corrupting the test.
 - **Power imbalance:** maximal early; narrows across seven years.
@@ -271,7 +271,7 @@ The following older relationship models are **deleted from continuity**:
 - separate contemporary `Benji ↔ Dez` rise;
 - `Prime ↔ Benji` as if Benji were a second present-day man parallel to McCluster.
 
-Where `Benji` remains relevant, it means **McCluster during age 19–26**.
+Benji Chase is a separate person (owner decision, 2026-11-02; see `CANON.md` §9). Older text that used `Benji` for McCluster during age 19–26 now names McCluster. Any Benji Chase relationship state waits for the owner's decision on his role.
 
 # Change-event protocol
 

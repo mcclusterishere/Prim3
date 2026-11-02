@@ -9,9 +9,9 @@ branch: main
 
 These compact dossiers govern the contemporary Hitman ensemble unless a later individual dossier overrides them.
 
-**Benji is McCluster's age-19-to-26 identity, not a separate present-day operator. Royce is the contemporary Hitman successor/sovereign.**
+**Benji Chase is a different person from McCluster (owner decision, 2026-11-02); his role is open. Royce is the contemporary Hitman successor/sovereign.**
 
-For McCluster/Benji history, use `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `MCCLUSTER-PSYCHOLOGICAL-BACKGROUND.md`.
+For McCluster's Hitman-era history, use `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `MCCLUSTER-PSYCHOLOGICAL-BACKGROUND.md`.
 
 ## Royce — contemporary sovereign / McCluster's old rival
 
@@ -26,7 +26,7 @@ For McCluster/Benji history, use `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `MCCLUST
 **Moral boundary:** believes there are forms of weakness a leader cannot publicly show; this becomes a liability rather than a virtue.  
 **Stress habit:** tightens control and makes loyalty tests more personal.  
 **Secret:** McCluster's refusal still structures how Royce thinks about legitimacy.  
-**Key ties:** McCluster/Benji = old rival/predecessor-by-refusal; Sable = organizational reality; Tone/Mina = people whose voluntary loyalty matters; PRIM2 = hidden apex.  
+**Key ties:** McCluster = old rival/predecessor-by-refusal; Sable = organizational reality; Tone/Mina = people whose voluntary loyalty matters; PRIM2 = hidden apex.  
 **Failure mode:** authority becomes identity, so challenges to authority feel like challenges to existence.
 
 ## Sable Quinn — operations / money
@@ -189,13 +189,15 @@ For McCluster/Benji history, use `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `MCCLUST
 **Key ties:** Priya = legitimate-facing contact/friend; Grant = target-world power; Rae = unknown operational twin.  
 **Failure mode:** perfection masks loss of agency.
 
-# McCluster / Benji historical note
+# McCluster / Benji Chase historical note
 
-McCluster's old Benji identity may appear in Hitman stories, rumors, records and characters' memories.
+McCluster's Hitman years may appear in Hitman stories, rumors, records and characters' memories, under McCluster's own name.
 
-Do not use a present-day `Benji` dossier separate from McCluster.
+**Owner decision (2026-11-02): Benji Chase is a different person from McCluster.** Earlier canon that made "Benji" McCluster's Hitman-era identity is withdrawn. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation years, the refused chair) stays McCluster's and is told under his own name. Benji Chase's role in that history is **open** (owner question in `story/STORY-CONSOLIDATION-PROPOSAL.md`). Benji Chase is not the Hitman-side RAID attacker: that is Royce.
 
-Old dossier claims that Royce is 52, functions as Benji's father/mentor, that Benji is 28 during the immediate story, or that Benji is simultaneously climbing parallel to McCluster are deleted from continuity.
+Do not write a Benji Chase dossier until the owner decides his role.
+
+Old dossier claims that Royce is 52, functions as Benji's father/mentor, that Benji is 28 during the immediate story, or that Benji is simultaneously climbing to the Hitman chair are deleted from continuity.
 
 # Episode ownership
 

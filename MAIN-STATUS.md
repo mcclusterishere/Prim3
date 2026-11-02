@@ -282,7 +282,7 @@ Presiding holder during almost all of the show: **PRIM2**.
 
 McCluster becomes **PRIM3 only after validated succession**.
 
-Stale formal identities such as `Prime-00`, `Prime-0`, `Prime Negative One`, `PRIME-N1`, or a separate contemporary Benji must not control interpretation.
+Stale formal identities such as `Prime-00`, `Prime-0`, `Prime Negative One`, `PRIME-N1`, or Benji as a RAID attacker / McCluster alias must not control interpretation (Benji Chase is a different person, owner 2026-11-02).
 
 ---
 

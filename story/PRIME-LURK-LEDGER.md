@@ -57,7 +57,7 @@ Kkeutori establishes an important limit: PRIM2 can possess data without possessi
 | 18 | Song #21 | OPEN. | OPEN. | WAIT FOR SONG |
 | 17 | Patch Work | Prefer evidence that Aya/McCluster/Helen discover a trust or tasking inconsistency whose ultimate authority cannot be explained by visible governance. **Do not use the old `MENTOR / OBSERVE MCCLUSTER / P-00` tasking as locked canon.** | Legacy/central administrative inconsistency. | NEEDS EPISODE REWRITE |
 | 16 | Per Diem | A high-level compensation/continuity exception may reveal that somebody outside the visible approval tree protects certain families/operators while classifying others instrumentally. | Remote HR/finance authority. | PROPOSED |
-| 15 | Trappin From The Cloud | Two separated organizational lanes receive suspiciously compatible resources or priorities without seeing the shared source. If Hitman-side material appears, use **Royce's people**, never a separate contemporary Benji. | Global logistics coincidence. | PROPOSED |
+| 15 | Trappin From The Cloud | Two separated organizational lanes receive suspiciously compatible resources or priorities without seeing the shared source. If Hitman-side material appears, use **Royce's people**, never Benji. | Global logistics coincidence. | PROPOSED |
 | 14 | CapEx vs OpEx | Expensive resilience spending has an unexplained approval path above visible finance governance. | Executive contingency. | PROPOSED |
 | 13 | IaaS/SaaS/PaaS | A cross-layer escalation resolves from outside the documented service hierarchy. | Senior platform escalation. | PROPOSED |
 | 12 | IoT | Pylon behaves before local humans issue the expected command, implying a higher context source. | Automation/failover. | PROPOSED |

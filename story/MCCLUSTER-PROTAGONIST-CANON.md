@@ -69,19 +69,17 @@ His defining flaw is the inverse of the same strength:
 
 The succession story therefore asks whether someone capable of holding enormous centralized authority can learn not to confuse capability with entitlement.
 
-## McCluster / Benji / Ghost continuity
+## McCluster / Hitman / Ghost continuity
 
 The reverse-reveal structure remains.
 
-- Hitman / Benji — approximately age 19–26.
+- Hitman — approximately age 19–26.
 - Whip Equipped / Ghost — approximately age 26–33.
 - PRIM3 / Equity Uprise — approximately age 33–40.
 
-**Benji is McCluster.**
+**Owner decision (2026-11-02): Benji Chase is a different person from McCluster.** Earlier canon that made "Benji" McCluster's Hitman-era identity is withdrawn. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation years, the refused chair) stays McCluster's and is told under his own name. Benji Chase's role in that history is **open** (owner question in `story/STORY-CONSOLIDATION-PROPOSAL.md`). Benji Chase is not the Hitman-side RAID attacker: that is Royce.
 
-**Ghost is McCluster during the Whip Equipped period.**
-
-They are life-stage identities, not separate contemporary characters.
+**Ghost is McCluster during the Whip Equipped period.** "The Ghost Years" is the structural name of that life stage, not a second person.
 
 ## The name mystery
 

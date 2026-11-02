@@ -25,7 +25,7 @@ ROYCE — sole surviving Hitman-side attacker
 PRIM2 — physically defeated, critically injured, biologically active
 ```
 
-No separate contemporary Benji exists. Benji is McCluster's earlier Hitman identity.
+Benji Chase is not part of this episode. Benji Chase is a separate person (owner decision, 2026-11-02; see `CANON.md` §9).
 
 PRIM2's body is back inside the damaged suspension/life-support architecture. He no longer controls the physical battle, but his living identity remains entangled with the deepest trust root of Site 0.
 
@@ -80,7 +80,7 @@ Exact reactions depend on the final RAID roster and are locked only after that r
 `Evil Twin` must:
 
 1. reveal that visible PRIM and Hitman were separate systems under PRIM2's hidden cross-board view;
-2. explain why McCluster's old Benji/Hitman history and Royce's succession mattered to PRIM2;
+2. explain why McCluster's old Hitman history and Royce's succession mattered to PRIM2;
 3. reinterpret earlier episodes without claiming PRIM2 caused every event;
 4. force McCluster and Royce to distinguish evidence from a defeated man's self-serving confession;
 5. establish why PRIM2 must remain alive long enough for Mantle transfer/revocation;
@@ -142,7 +142,7 @@ PRIM brief           / Hitman brief
 public authorization / deniable order
 corporate logistics  / street logistics
 visible governance   / hidden root authority
-McCluster as student    / McCluster as old Benji subject
+McCluster as student    / McCluster as old Hitman subject
 ```
 
 The reveal is not “PRIM2 controlled every human choice.”
@@ -235,7 +235,7 @@ Bad play can destroy evidence, deepen McCluster/Royce distrust or reduce verifie
 PRIM2 may reveal/confirm enough to establish:
 - visible PRIM vs hidden Mantle;
 - cross-board visibility over PRIM/Hitman;
-- Royce's succession drawing attention backward toward Lex and McCluster/Benji;
+- Royce's succession drawing attention backward toward Lex and McCluster;
 - active PRIM2 interest in McCluster during Ghost/Whip years;
 - age-33 reacquisition after college re-entry and Site 0 identity resolution;
 - selected information-routing/withholding choices;

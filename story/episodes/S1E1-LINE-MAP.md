@@ -9,7 +9,7 @@ branch: main
 # High Alert line map — compatibility pointer
 
 The old line-by-line map in this path predates:
-- Benji = McCluster;
+- the Benji = McCluster merge (itself withdrawn 2026-11-02: Benji Chase is a different person);
 - Royce as the contemporary Hitman-side rival;
 - PRIM2 terminology;
 - the 17-anchor Episode 02–18 structure;

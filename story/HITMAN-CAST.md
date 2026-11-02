@@ -11,26 +11,26 @@ Hitman is the street/corporate sibling system operating beneath the hidden autho
 
 These characters should never read like PRIM/McCluster employees wearing different clothes. Their expertise is social reach, deniable logistics, money, access, reputation, mobility, coercive pressure and street/corporate relationship systems rather than formal institutional IT doctrine.
 
-## Continuity correction — Benji
+## Continuity correction — Benji Chase
 
-**Benji is McCluster.**
+**Owner decision (2026-11-02): Benji Chase is a different person from McCluster.** Earlier canon that made "Benji" McCluster's Hitman-era identity is withdrawn. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation years, the refused chair) stays McCluster's and is told under his own name. Benji Chase's role in that history is **open** (owner question in `story/STORY-CONSOLIDATION-PROPOSAL.md`). Benji Chase is not the Hitman-side RAID attacker: that is Royce.
 
-Benji is McCluster's age-19-to-26 Hitman identity from the prequel chronology. There is no separate contemporary Benji rising through Hitman during PRIM3.
+There is still no Benji rising through Hitman to take Royce's chair during PRIM3.
 
 At approximately age 26:
 - Bigga Lex the Jet retires;
-- Lex offers succession to Benji/McCluster;
+- Lex offers succession to McCluster;
 - McCluster refuses;
 - McCluster passes the opportunity toward rival **Royce**;
-- Royce becomes the post-Benji Hitman-side successor/sovereign.
+- Royce becomes the post-McCluster Hitman-side successor/sovereign.
 
-Therefore any older Hitman material describing `Benji` as a separate present-day operator, claiming McCluster and Royce lack personal history, or claiming their first conversation occurs in `Evil Twin` is superseded.
+Therefore any older Hitman material making `Benji` the present-day sovereign or RAID attacker, claiming McCluster and Royce lack personal history, or claiming their first conversation occurs in `Evil Twin` is superseded.
 
 ---
 
 ## Royce — Hitman successor / sovereign
 
-**Background:** Royce is seven years younger than McCluster. When McCluster/Benji is approximately 26 and walking away from Hitman, Royce is approximately 19: young, dangerous, ambitious and willing to take a chair McCluster does not want.
+**Background:** Royce is seven years younger than McCluster. When McCluster is approximately 26 and walking away from Hitman, Royce is approximately 19: young, dangerous, ambitious and willing to take a chair McCluster does not want.
 
 McCluster already knows Royce well enough to believe Royce might kill him for power. McCluster nevertheless refuses the succession and allows the opportunity to move toward Royce partly because McCluster's deeper loyalty is to Bigga Lex rather than the organization itself.
 
@@ -54,7 +54,7 @@ Royce must have enough independent story that he can own Hitman-side episodes wi
 **Fears:** betting her life's work on a sovereign who mistakes fear for loyalty.  
 **Contradiction:** outwardly transactional, privately more loyal than she wants anyone to know.  
 **Relationship to Royce:** indispensable but never worshipful. She understands that Royce's appetite for authority can make him both decisive and financially irrational.  
-**Historical McCluster layer:** Sable knows the chair did not originate with Royce and possesses fragments of the old Benji-era financial history, but she is not automatically a full keeper of McCluster's secrets.
+**Historical McCluster layer:** Sable knows the chair did not originate with Royce and possesses fragments of the old McCluster-era financial history, but she is not automatically a full keeper of McCluster's secrets.
 
 ---
 
@@ -143,7 +143,7 @@ Royce must have enough independent story that he can own Hitman-side episodes wi
 **Fears:** discovering he has spent years becoming whatever the room required and no longer knows what he wanted.  
 **Contradiction:** tactically flexible, personally stubborn in loyalty.  
 **Relationship to Royce:** admires decisive leadership but becomes increasingly uncomfortable when loyalty is treated as ownership.  
-**Historical Benji echo:** older Hitman stories about Benji/McCluster can become mythology Dez hears without knowing the entire person behind them.
+**Historical McCluster echo:** older Hitman stories about McCluster can become mythology Dez hears without knowing the entire person behind them.
 
 ---
 
@@ -182,7 +182,7 @@ Maren is primarily a McCluster/PRIM-side recurring character rather than a Hitma
 
 # Relationship pressure map
 
-- **McCluster/Benji ↔ Royce:** real pre-PRIM3 rivalry and succession history; McCluster refuses the chair Royce takes; they later converge again at Site 0.
+- **McCluster ↔ Royce:** real pre-PRIM3 rivalry and succession history; McCluster refuses the chair Royce takes; they later converge again at Site 0.
 - **Royce ↔ Sable:** authority versus organizational reality; Sable can tell Royce what his mythology cannot afford.
 - **Royce ↔ Mina:** sovereign authority versus cell-level responsibility to living people.
 - **Royce ↔ Dez:** tests whether loyalty can remain voluntary under a leader hungry for control.
@@ -194,7 +194,7 @@ Maren is primarily a McCluster/PRIM-side recurring character rather than a Hitma
 
 Hitman characters can own full PRIM3 episodes or substantial sections without McCluster appearing.
 
-Royce especially must become understandable as a person before the audience reaches RAID. His history with McCluster should arrive in controlled fragments so the later Hitman/Benji prequel still retains major revelations.
+Royce especially must become understandable as a person before the audience reaches RAID. His history with McCluster should arrive in controlled fragments so the later Hitman prequel still retains major revelations.
 
 # Writing rule
 

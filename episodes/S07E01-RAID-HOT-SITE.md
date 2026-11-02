@@ -24,14 +24,14 @@ This is a **scripted longform endgame mission**, not an ordinary Wildcard-rescue
 - Every other member of both assault elements dies during the breach.
 - McCluster becomes the sole surviving PRIM-side attacker.
 - Royce becomes the sole surviving Hitman-side attacker.
-- McCluster and Royce already have unresolved history from McCluster's Benji/Hitman life.
+- McCluster and Royce already have unresolved history from McCluster's Hitman life.
 - Their convergence inside Site 0 nearly becomes a lethal continuation of that rivalry.
 - They recognize PRIM2 as the common target and form a temporary alliance.
 - **McCluster and Royce defeat PRIM2 together.**
 - PRIM2's body is critically damaged but remains biologically/systemically valid long enough for succession.
 - `Evil Twin` begins after this physical victory.
 
-No separate contemporary Benji exists. **Benji is McCluster's age-19-to-26 Hitman identity.**
+Benji Chase is not an attacker here. **Benji Chase is a different person from McCluster (owner decision, 2026-11-02); the Hitman-side attacker is Royce.**
 
 The normal Standard Wildcard/Apex/Royce-incursion resource caps do not constrain this authored finale.
 

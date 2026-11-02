@@ -1,17 +1,17 @@
 ---
 status: CANON-COMPATIBILITY
-system: McCluster / Benji prequel identity summary
-version: 2.0.0
+system: Benji Chase / McCluster Hitman-era separation note
+version: 3.0.0
 branch: main
 ---
 
-# Hitman Benji — McCluster, Age 19–26
+# Hitman Benji — Benji Chase is not McCluster
 
 ## Continuity correction
 
-**Benji is McCluster.**
+**Owner decision (2026-11-02): Benji Chase is a different person from McCluster.** Earlier canon that made "Benji" McCluster's Hitman-era identity is withdrawn. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation years, the refused chair) stays McCluster's and is told under his own name. Benji Chase's role in that history is **open** (owner question in `story/STORY-CONSOLIDATION-PROPOSAL.md`). Benji Chase is not the Hitman-side RAID attacker: that is Royce.
 
-This file is retained because `Hitman Benji` remains the correct name for McCluster's old Hitman identity and future prequel material. It is **not** a separate contemporary character in PRIM3.
+Version 2.0.0 of this file said "Benji is McCluster" and made `Hitman Benji` McCluster's old Hitman identity. That is withdrawn. This file keeps its filename for links. The table below now describes **McCluster's** Hitman years under his own name.
 
 Full authority:
 - `MCCLUSTER-HITMAN-ORIGIN-CANON.md`
@@ -22,17 +22,17 @@ Full authority:
 | Field | Canon |
 |---|---|
 | Civilian identity | **McCluster** |
-| Hitman identity | **Benji / Hitman Benji** |
+| Hitman identity | McCluster, under his own name. **Benji Chase / Hitman Benji is a different person; his role is open.** |
 | Era | approximately **age 19–26** |
 | First college | upstate New York, exact school still open |
 | Entry into crime | begins selling after arriving at college; did not grow up as a dealer |
 | Hitman bridge | childhood best friend **Bigga Lex the Jet** |
 | Core path | college dealing -> forced/graceful school exit -> friendship/shared danger -> Hitman operations -> succession refusal |
-| End of Benji era | Bigga Lex retires and offers the chair; McCluster refuses and the opportunity passes to **Royce** |
+| End of McCluster's Hitman era | Bigga Lex retires and offers the chair; McCluster refuses and the opportunity passes to **Royce** |
 
 ## Core character engine
 
-McCluster/Benji combines:
+McCluster in his Hitman years combines:
 - hustler pattern recognition;
 - cross-domain initiative;
 - loyalty to people more than institutions;
@@ -44,7 +44,7 @@ His internal moral story is roughly:
 
 > **I do not start with innocent people. But if somebody knowingly crosses me, what happens next is on them.**
 
-The danger is that Benji decides for himself who has forfeited mercy.
+The danger is that McCluster decides for himself who has forfeited mercy.
 
 ## Succession
 
@@ -53,7 +53,7 @@ At approximately 26:
 ```text
 BIGGA LEX THE JET RETIRES
         ↓
-OFFERS CHAIR TO BENJI / MCCLUSTER
+OFFERS CHAIR TO MCCLUSTER
         ↓
 MCCLUSTER REFUSES
         ↓
@@ -68,10 +68,10 @@ The refusal is also morally complicated because McCluster knows Royce wants powe
 
 ## Franchise law
 
-The full Hitman/Benji series is a later prequel released after PRIM3 and Whip Equipped.
+The full Hitman series is a later prequel released after PRIM3 and Whip Equipped.
 
 PRIM3 may contain hints, scars, old names, reactions and unexplained competence from this history without dumping the full story early.
 
 > **Background truth is not disclosure permission.**
 
-Old material claiming Benji is recruited at 21, takes over Hitman in six episodes, or becomes a separate present-day sovereign is superseded.
+Old material claiming Benji is recruited at 21, takes over Hitman in six episodes, or becomes a separate present-day sovereign is still superseded: Royce holds the chair. Whether any of that older separate-Benji material returns as Benji Chase's own story is an owner question.

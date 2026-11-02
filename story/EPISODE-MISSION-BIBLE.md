@@ -385,7 +385,7 @@ Episodes 19–21 are expanded by:
 - `episodes/S07E02-EVIL-TWIN.md`
 - `episodes/S07E03-GHOST-IN-THE-WIRES.md`
 
-Do not reintroduce separate contemporary Benji, McCluster/Benji as two survivors, Prime-00 as current formal identity, old procedural SIM-swap Evil Twin, Ghost as first-time upload, or McCluster as PRIM3 before validated succession.
+Do not reintroduce Benji as the Hitman-side attacker, McCluster/Benji as the two survivors (they are McCluster and Royce), Benji as McCluster's alias (Benji Chase is a different person, owner 2026-11-02), Prime-00 as current formal identity, old procedural SIM-swap Evil Twin, Ghost as first-time upload, or McCluster as PRIM3 before validated succession.
 
 Even in the finale, the succession triangle does not erase the rest of the cast. RAID deaths, remote verification, grief and governance reaction remain ensemble development.
 

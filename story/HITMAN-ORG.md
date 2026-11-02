@@ -30,13 +30,13 @@ Both systems need authority, information, logistics, access, people and money, b
 
 ## Contemporary apex
 
-McCluster/Benji is historical to Hitman by the time PRIM3 begins.
+McCluster is historical to Hitman by the time PRIM3 begins.
 
 Current succession line relevant to the show:
 
 ```text
 BIGGA LEX THE JET
-    -> offers succession to MCCLUSTER / BENJI
+    -> offers succession to MCCLUSTER
 MCCLUSTER REFUSES
     -> ROYCE receives the succession opportunity
 ```

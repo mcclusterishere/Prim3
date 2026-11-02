@@ -18,7 +18,7 @@ Two hostile approach vectors matter:
 - **McCluster / PRIM-side assault**;
 - **Royce / Hitman-side assault**.
 
-Do not depict a separate contemporary Benji. Benji is McCluster's earlier identity.
+Do not depict Benji as an attacker. Benji Chase is a separate person (owner decision, 2026-11-02; see `CANON.md` §9).
 
 ---
 

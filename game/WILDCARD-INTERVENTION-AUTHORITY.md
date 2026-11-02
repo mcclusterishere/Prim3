@@ -406,7 +406,7 @@ Royce is the opposing-side answer to the player's rescue hierarchy.
 
 He is not a random elite guard and not a reskinned McCluster.
 
-Royce is the current Hitman-side apex operator/successor figure: aggressive, power-hungry, physically dangerous, experienced with the organization McCluster left behind and personally entangled with McCluster's old Benji history.
+Royce is the current Hitman-side apex operator/successor figure: aggressive, power-hungry, physically dangerous, experienced with the organization McCluster left behind and personally entangled with McCluster's old Hitman history.
 
 In practical Hitman terms, he occupies the position closest to **their Prime-level field threat** even though he is not a PRIM Mantle holder and does not share PRIM2's information architecture.
 

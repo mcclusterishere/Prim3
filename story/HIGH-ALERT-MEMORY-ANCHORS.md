@@ -13,7 +13,7 @@ The **High Alert music film is shown in S1E1 but occurs chronologically in the m
 
 **PRIM2** is the performer.
 
-McCluster's PRIM-side assault element and **Royce's Hitman-side assault element** are attacking Site 0 from different sides of PRIM2's hidden architecture. They are old rivals with pre-PRIM3 history, not strangers and not McCluster/Benji as two separate men.
+McCluster's PRIM-side assault element and **Royce's Hitman-side assault element** are attacking Site 0 from different sides of PRIM2's hidden architecture. They are old rivals with pre-PRIM3 history, not strangers. Benji Chase is not one of the attackers.
 
 High Alert belongs primarily to the endgame triangle:
 - **PRIM2** — defending the Mantle;
@@ -355,7 +355,7 @@ A powerful technique is to make High Alert show the **McCluster-adjacent fragmen
 
 Effective immediately:
 - performer = **PRIM2**;
-- Hitman surviving challenger = **Royce**, not separate Benji;
+- Hitman surviving challenger = **Royce**, not Benji;
 - `P-00` as an easy readable root code is deprecated unless deliberately used as a historical cover artifact;
 - Aya/McCluster romance is not a relationship PRIM2 created;
 - PRIM2 does not need a physical cameo in each anchor;
