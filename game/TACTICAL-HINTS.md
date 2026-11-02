@@ -68,3 +68,13 @@ Ties within `tieEpsilon` are reported. The wording always says "strong given wha
 - **Server-side check:** without a supplied route, the resolver finds the shortest orthogonal path around walls and units (`findPath`) within the move or dash range. If none exists, it refuses and spends nothing.
 - **Supplied route:** a client passes the route the player chose: `moveUnit(state, id, dest, mode, { path })`, planned with `knownPaths` over what the player knows. The resolver checks each step for bounds, walls, adjacency and range. If a step meets a unit the player could not know about, the move stops on the last free tile, the AP is spent, and a `MOVE_INTERRUPTED` event is recorded. A refusal therefore never reveals a hidden unit before contact.
 - **Recorded path:** `MOVE`/`DASH` events carry the walked `path`, so a renderer animates the committed route, not its own guess.
+
+## Floors, links and the display frame (2026-11-02)
+
+`knownPaths` is now the resolver's own weighted reach (`computeReach`) on the player's projection: an
+orthogonal step costs 1, a declared stair/ladder link costs its `cost`, upper-floor cells are walkable only
+on declared surfaces. On a multi-floor board its paths carry `z` and include link steps, and the
+suggestion carries the `path`; pass it to `moveUnit` as `options.path` so the preview is the execution.
+With `battlefield.coordinateFrame` every coordinate the player reads (prompts, worked steps, `why`, and a
+`display` field on geometry, the suggestion and alternatives) uses the frame; engine cells and answers
+do not change. See `game/TACTICAL-TRANSIT-RULES.md`.
