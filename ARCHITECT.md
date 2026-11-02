@@ -8,7 +8,8 @@ Read this first.
 
 ## 0. Corporate face
 
-**McCluster Corp** = front (marketing face, holds land/building, equity).  
+**McCluster Corp** = the holding/operating ecosystem behind Equity Uprise (land, building, brands, equity), governed at its hidden root through PRIM (`CANON.md` §19). Not a front for Apex.  
+**Equity Uprise** = the real, visible workplace McCluster joins.  
 **Prim3** = how the work runs.  
 **Mark:** white geometric **M** + red Dual Sight bars.
 
