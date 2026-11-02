@@ -18,7 +18,7 @@ Each operator has two reference photographs:
 | Operator | Profile | Mannequin | Loadout | Written brief |
 |---|---|---|---|---|
 | **E — Entry** | FO-E-AE, Approach & Entry | [mannequin](../../assets/reference/field-entry/FO-E-AE-mannequin-v01.png) | [loadout](../../assets/reference/field-entry/FO-E-AE-loadout-v01.png) (16 groups) | [FO-E-AE visual brief](../../assets/reference/field-entry/FO-E-AE-visual-brief-v01.md) |
-| **R — Recon** | FO-R-SO, Static Overwatch | [mannequin](../../assets/reference/field-recon/FO-R-SO-mannequin-v01.png) | [loadout](../../assets/reference/field-recon/FO-R-SO-loadout-v01.png) (18 groups) | FO-R-SO visual brief (arrives with Prim3 PR #17) |
+| **R — Recon** | FO-R-SO, Static Overwatch | [mannequin](../../assets/reference/field-recon/FO-R-SO-mannequin-v02.png) | [loadout](../../assets/reference/field-recon/FO-R-SO-loadout-v02.png) (18 groups) | FO-R-SO visual brief (arrives with Prim3 PR #17; describes v01) |
 | **T — Technical** | — | **not made yet** | **not made yet** | Itemized text only: [LOADOUTS-ITEMIZED.md](field-technical/LOADOUTS-ITEMIZED.md) |
 
 ## E — Entry · Approach & Entry (FO-E-AE)
@@ -42,9 +42,11 @@ Each operator has two reference photographs:
 
 ## R — Recon · Static Overwatch (FO-R-SO)
 
-![Field-R Recon mannequin, fully dressed, on white](../../assets/reference/field-recon/FO-R-SO-mannequin-v01.png)
+![Field-R Recon mannequin, fully dressed, on white](../../assets/reference/field-recon/FO-R-SO-mannequin-v02.png)
 
-![Field-R Static Overwatch loadout, eighteen labeled groups](../../assets/reference/field-recon/FO-R-SO-loadout-v01.png)
+![Field-R Static Overwatch loadout, eighteen labeled groups](../../assets/reference/field-recon/FO-R-SO-loadout-v02.png)
+
+**v02 is the active Recon reference.** The owner designated it on 2026-11-02 ("This is R"). Codex's v01 pair in Prim3 PR #17 stays as history and is not the reference. In v02 the flat lay shows the light soft vest (03) as worn, with the observation recorder and binoculars in their pouch; items 09–11 also appear separately. Count each item once.
 
 | # | Item | # | Item |
 |---|---|---|---|
@@ -58,7 +60,7 @@ Each operator has two reference photographs:
 | 08 | Team radio | 17 | Scoped overwatch rifle |
 | 09 | Observation recorder | 18 | Rifle sling |
 
-**Read at a glance:** the lightest of the three. Binoculars sit in a pouch at the sternum and an observation recorder is clipped high on the chest. The scoped rifle is slung muzzle-down and appears only in this overwatch profile; it is not mandatory for every Recon profile ([FO-R](field-recon/FO-R.md)).
+**Read at a glance:** the lightest of the three. The mannequin has a long-sleeve quarter-zip, a slim headset and a light chest rig. Binoculars sit in a pouch at the sternum, the observation recorder is clipped high on its right chest, and the radio is on the belt beside the right-hip holster. A sling runs over the left shoulder. The scoped rifle is slung muzzle-down and appears only in this overwatch profile; it is not mandatory for every Recon profile ([FO-R](field-recon/FO-R.md)).
 
 ## T — Technical
 
@@ -85,4 +87,5 @@ No photographs yet. Until they exist, use [FO-T](field-technical/FO-T.md), [LOAD
 | File | Origin |
 |---|---|
 | `FO-E-AE-mannequin-v01.png`, `FO-E-AE-loadout-v01.png` | Supplied by the owner, 2026-11-02 (ChatGPT image generation) |
-| `FO-R-SO-mannequin-v01.png`, `FO-R-SO-loadout-v01.png` | Codex, Prim3 PR #17 (`design/objective-origin-training-20261102`), byte-identical copies |
+| `FO-R-SO-mannequin-v02.png`, `FO-R-SO-loadout-v02.png` | Supplied by the owner, 2026-11-02 ("This is R"): the active Recon reference |
+| `FO-R-SO-*-v01.png` (in Prim3 PR #17, not on this branch) | Codex; superseded by the owner's v02 |
