@@ -73,6 +73,15 @@ See:
 - The episode spine remains 21 total episodes.
 - The story may shift emotional POV independently from mission lead or playable POV.
 
+## Tactical-map and training proposal
+
+The owner-requested coordinate convention keeps the primary objective at **(0,0)** and the X/Y axes through the exact screen center. The optional E/R/T training exercise lets all three field roles contest that objective.
+
+- [Design specification and proposed exercise rules](game/OBJECTIVE-CENTERED-TRAINING.md)
+- [Tactical-map visual and editable source](assets/reference/tactical-map/README.md)
+
+Status: **PROPOSED design reference**. The core direction is owner-requested; balance details remain draft and gameplay integration is pending.
+
 ## Repository map
 
 - `episodes/` — expandable episode/playable-level chapters
@@ -86,3 +95,4 @@ The repository is the source of truth. Conversation ideas become canon when reco
 ## Ownership
 
 Created by Matthew McCluster / McCluster. All story and brand rights reserved unless a file states otherwise.
+
