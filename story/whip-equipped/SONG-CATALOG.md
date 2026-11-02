@@ -1,12 +1,12 @@
 ---
 status: CANON
 system: Whip Equipped music
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Whip Equipped — song catalog
 
-Lane: car / gig / Bridgeport climb (kill-Prime branch sequel).
+Lane: car / gig / Bridgeport climb. Whip Equipped is the **prequel** to PRIM3: McCluster, age 26–33 (owner decision 2026-11-02). The old "kill-Prime branch sequel" label is withdrawn.
 
 | Track | Role |
 |-------|------|
