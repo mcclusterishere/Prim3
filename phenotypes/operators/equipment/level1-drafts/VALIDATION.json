@@ -1,0 +1,497 @@
+{
+  "validation": "Fresh Blender GLB import; nonempty finite geometry, positive bounds, assigned materials, no camera/light leakage",
+  "blender": "4.3.2",
+  "assets": [
+    {
+      "id": "E01",
+      "status": "PASS",
+      "mesh_parts": 16,
+      "vertices": 2351,
+      "triangles": 1756,
+      "bounds_blender_m": [
+        [
+          -0.4475000202655792,
+          -0.06800000369548798,
+          -0.24783866107463837
+        ],
+        [
+          0.45899999141693115,
+          0.05999999865889549,
+          0.13250000774860382
+        ]
+      ],
+      "bytes": 97084,
+      "materials": [
+        "Dark_Brushed_Metal",
+        "E_Amber",
+        "Graphite_Ceramic",
+        "Recess",
+        "Soft_Rubber"
+      ]
+    },
+    {
+      "id": "E02",
+      "status": "PASS",
+      "mesh_parts": 15,
+      "vertices": 2256,
+      "triangles": 1648,
+      "bounds_blender_m": [
+        [
+          -0.11957952380180359,
+          -0.05349999666213989,
+          -0.1683269888162613
+        ],
+        [
+          0.19449999928474426,
+          0.05349999666213989,
+          0.11649999767541885
+        ]
+      ],
+      "bytes": 89416,
+      "materials": [
+        "Dark_Brushed_Metal.001",
+        "E_Amber.001",
+        "Graphite_Ceramic.001",
+        "Recess.001",
+        "Soft_Rubber.001"
+      ]
+    },
+    {
+      "id": "E03",
+      "status": "PASS",
+      "mesh_parts": 8,
+      "vertices": 1153,
+      "triangles": 864,
+      "bounds_blender_m": [
+        [
+          -0.21699999272823334,
+          -0.09600000083446503,
+          -0.07999999821186066
+        ],
+        [
+          0.28780221939086914,
+          0.09600000083446503,
+          0.21250000596046448
+        ]
+      ],
+      "bytes": 47868,
+      "materials": [
+        "Dark_Brushed_Metal.002",
+        "E_Amber.002",
+        "Graphite_Ceramic.002",
+        "Neutral_Mount",
+        "Soft_Rubber.002"
+      ]
+    },
+    {
+      "id": "E04",
+      "status": "PASS",
+      "mesh_parts": 9,
+      "vertices": 1277,
+      "triangles": 972,
+      "bounds_blender_m": [
+        [
+          -0.09549999982118607,
+          -0.07099999487400055,
+          -0.11999999731779099
+        ],
+        [
+          0.09549999982118607,
+          0.07600000500679016,
+          0.1925000101327896
+        ]
+      ],
+      "bytes": 53588,
+      "materials": [
+        "Dark_Brushed_Metal.003",
+        "E_Amber.003",
+        "Graphite_Ceramic.003",
+        "Neutral_Mount.001",
+        "Soft_Rubber.003"
+      ]
+    },
+    {
+      "id": "E05",
+      "status": "PASS",
+      "mesh_parts": 13,
+      "vertices": 2297,
+      "triangles": 1852,
+      "bounds_blender_m": [
+        [
+          -0.2524999976158142,
+          -0.16449999809265137,
+          -0.23999999463558197
+        ],
+        [
+          0.2524999976158142,
+          0.18250000476837158,
+          0.25999999046325684
+        ]
+      ],
+      "bytes": 85564,
+      "materials": [
+        "E_Amber.004",
+        "Graphite_Ceramic.004",
+        "Neutral_Mount.002",
+        "Soft_Rubber.004",
+        "Technical_Fabric"
+      ]
+    },
+    {
+      "id": "E06",
+      "status": "PASS",
+      "mesh_parts": 13,
+      "vertices": 1839,
+      "triangles": 1404,
+      "bounds_blender_m": [
+        [
+          -0.13249999284744263,
+          -0.09099999815225601,
+          -0.10000000149011612
+        ],
+        [
+          0.13249999284744263,
+          0.09750000387430191,
+          0.1574999988079071
+        ]
+      ],
+      "bytes": 76420,
+      "materials": [
+        "Dark_Brushed_Metal.004",
+        "E_Amber.005",
+        "Graphite_Ceramic.005",
+        "Neutral_Mount.003",
+        "Soft_Rubber.005",
+        "Technical_Fabric.001"
+      ]
+    },
+    {
+      "id": "R01",
+      "status": "PASS",
+      "mesh_parts": 18,
+      "vertices": 3029,
+      "triangles": 2212,
+      "bounds_blender_m": [
+        [
+          -0.4475000202655792,
+          -0.050999999046325684,
+          -0.24783866107463837
+        ],
+        [
+          0.5419999957084656,
+          0.042500000447034836,
+          0.18500001728534698
+        ]
+      ],
+      "bytes": 123916,
+      "materials": [
+        "Dark_Brushed_Metal.005",
+        "Graphite_Ceramic.006",
+        "R_Teal",
+        "Recess.002",
+        "Sensor_Glass",
+        "Soft_Rubber.006"
+      ]
+    },
+    {
+      "id": "R02",
+      "status": "PASS",
+      "mesh_parts": 15,
+      "vertices": 2225,
+      "triangles": 1648,
+      "bounds_blender_m": [
+        [
+          -0.11957952380180359,
+          -0.04100000113248825,
+          -0.16878345608711243
+        ],
+        [
+          0.19449999928474426,
+          0.04100000113248825,
+          0.11649999767541885
+        ]
+      ],
+      "bytes": 88412,
+      "materials": [
+        "Dark_Brushed_Metal.006",
+        "Graphite_Ceramic.007",
+        "R_Teal.001",
+        "Recess.003",
+        "Soft_Rubber.007"
+      ]
+    },
+    {
+      "id": "R03",
+      "status": "PASS",
+      "mesh_parts": 10,
+      "vertices": 1376,
+      "triangles": 1080,
+      "bounds_blender_m": [
+        [
+          -0.09000000357627869,
+          -0.058000002056360245,
+          -0.13500000536441803
+        ],
+        [
+          0.09000000357627869,
+          0.08750000596046448,
+          0.16249999403953552
+        ]
+      ],
+      "bytes": 59468,
+      "materials": [
+        "Dark_Brushed_Metal.007",
+        "Graphite_Ceramic.008",
+        "Neutral_Mount.004",
+        "R_Teal.002",
+        "Sensor_Glass.001",
+        "Soft_Rubber.008"
+      ]
+    },
+    {
+      "id": "R04",
+      "status": "PASS",
+      "mesh_parts": 7,
+      "vertices": 2097,
+      "triangles": 1460,
+      "bounds_blender_m": [
+        [
+          -0.12200000137090683,
+          -0.05249999836087227,
+          -0.12200001627206802
+        ],
+        [
+          0.12200000137090683,
+          0.05500001460313797,
+          0.12250000238418579
+        ]
+      ],
+      "bytes": 82120,
+      "materials": [
+        "Dark_Brushed_Metal.008",
+        "Graphite_Ceramic.009",
+        "R_Teal.003",
+        "Sensor_Glass.002",
+        "Soft_Rubber.009"
+      ]
+    },
+    {
+      "id": "R05",
+      "status": "PASS",
+      "mesh_parts": 14,
+      "vertices": 2429,
+      "triangles": 1896,
+      "bounds_blender_m": [
+        [
+          -0.2101999968290329,
+          -0.12700000405311584,
+          -0.23999999463558197
+        ],
+        [
+          0.2101999968290329,
+          0.1574999988079071,
+          0.25999999046325684
+        ]
+      ],
+      "bytes": 90732,
+      "materials": [
+        "Graphite_Ceramic.010",
+        "Neutral_Mount.005",
+        "R_Teal.004",
+        "Soft_Rubber.010",
+        "Technical_Fabric.002"
+      ]
+    },
+    {
+      "id": "R06",
+      "status": "PASS",
+      "mesh_parts": 11,
+      "vertices": 2897,
+      "triangles": 1956,
+      "bounds_blender_m": [
+        [
+          -0.11299999803304672,
+          -0.09100000560283661,
+          -0.048000019043684006
+        ],
+        [
+          0.11299999803304672,
+          0.12050000578165054,
+          0.11749999970197678
+        ]
+      ],
+      "bytes": 110504,
+      "materials": [
+        "Dark_Brushed_Metal.009",
+        "Graphite_Ceramic.011",
+        "R_Teal.005",
+        "Sensor_Glass.003",
+        "Soft_Rubber.011"
+      ]
+    },
+    {
+      "id": "T01",
+      "status": "PASS",
+      "mesh_parts": 19,
+      "vertices": 2817,
+      "triangles": 2052,
+      "bounds_blender_m": [
+        [
+          -0.4475000202655792,
+          -0.11699999868869781,
+          -0.24783866107463837
+        ],
+        [
+          0.43400001525878906,
+          0.06499999761581421,
+          0.10000000149011612
+        ]
+      ],
+      "bytes": 116348,
+      "materials": [
+        "Dark_Brushed_Metal.010",
+        "Graphite_Ceramic.012",
+        "Recess.004",
+        "Soft_Rubber.012",
+        "T_Violet"
+      ]
+    },
+    {
+      "id": "T02",
+      "status": "PASS",
+      "mesh_parts": 16,
+      "vertices": 2370,
+      "triangles": 1756,
+      "bounds_blender_m": [
+        [
+          -0.11957952380180359,
+          -0.06650000065565109,
+          -0.1683269888162613
+        ],
+        [
+          0.19449999928474426,
+          0.050999999046325684,
+          0.11649999767541885
+        ]
+      ],
+      "bytes": 94672,
+      "materials": [
+        "Dark_Brushed_Metal.011",
+        "Graphite_Ceramic.013",
+        "Recess.005",
+        "Soft_Rubber.013",
+        "T_Violet.001"
+      ]
+    },
+    {
+      "id": "T03",
+      "status": "PASS",
+      "mesh_parts": 12,
+      "vertices": 1755,
+      "triangles": 1296,
+      "bounds_blender_m": [
+        [
+          -0.1599999964237213,
+          -0.0560000017285347,
+          -0.10699999332427979
+        ],
+        [
+          0.1599999964237213,
+          0.07950000464916229,
+          0.10699999332427979
+        ]
+      ],
+      "bytes": 72312,
+      "materials": [
+        "Dark_Brushed_Metal.012",
+        "Graphite_Ceramic.014",
+        "Neutral_Mount.006",
+        "Sensor_Glass.004",
+        "Soft_Rubber.014",
+        "T_Violet.002"
+      ]
+    },
+    {
+      "id": "T04",
+      "status": "PASS",
+      "mesh_parts": 10,
+      "vertices": 2148,
+      "triangles": 1520,
+      "bounds_blender_m": [
+        [
+          -0.13500000536441803,
+          -0.059000011533498764,
+          -0.12791317701339722
+        ],
+        [
+          0.13500000536441803,
+          0.05150001496076584,
+          0.12791317701339722
+        ]
+      ],
+      "bytes": 84488,
+      "materials": [
+        "Dark_Brushed_Metal.013",
+        "Graphite_Ceramic.015",
+        "Neutral_Mount.007",
+        "Soft_Rubber.015",
+        "T_Violet.003"
+      ]
+    },
+    {
+      "id": "T05",
+      "status": "PASS",
+      "mesh_parts": 15,
+      "vertices": 2494,
+      "triangles": 2004,
+      "bounds_blender_m": [
+        [
+          -0.2336999922990799,
+          -0.15199999511241913,
+          -0.23999999463558197
+        ],
+        [
+          0.2336999922990799,
+          0.17249999940395355,
+          0.25999999046325684
+        ]
+      ],
+      "bytes": 93164,
+      "materials": [
+        "Graphite_Ceramic.016",
+        "Neutral_Mount.008",
+        "Soft_Rubber.016",
+        "T_Violet.004",
+        "Technical_Fabric.003"
+      ]
+    },
+    {
+      "id": "T06",
+      "status": "PASS",
+      "mesh_parts": 13,
+      "vertices": 1809,
+      "triangles": 1404,
+      "bounds_blender_m": [
+        [
+          -0.13500000536441803,
+          -0.09050000458955765,
+          -0.125
+        ],
+        [
+          0.13500000536441803,
+          0.11250000447034836,
+          0.16250000894069672
+        ]
+      ],
+      "bytes": 76236,
+      "materials": [
+        "Dark_Brushed_Metal.014",
+        "Graphite_Ceramic.017",
+        "Neutral_Mount.009",
+        "Soft_Rubber.017",
+        "T_Violet.005",
+        "Technical_Fabric.004"
+      ]
+    }
+  ]
+}

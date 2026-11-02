@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "units": "meters, artistic scale only",
+  "blender_up": "Z",
+  "glb_up": "Y",
+  "source_front": "-Y",
+  "glb_front": "+Z",
+  "origin": "asset assembly center, not character socket",
+  "count": 18,
+  "assets": [
+    {
+      "id": "E01",
+      "title": "Entry carbine",
+      "role": "E",
+      "slot": "primary",
+      "file": "models/E01.glb",
+      "mesh_parts": 16,
+      "source_bounds_m": [
+        [
+          -0.4475000202655792,
+          -0.06800000369548798,
+          -0.25089386105537415
+        ],
+        [
+          0.45899999141693115,
+          0.05999999865889549,
+          0.13250000774860382
+        ]
+      ],
+      "editable_collection": "E01_Entry_carbine",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "E02",
+      "title": "Compact backup",
+      "role": "E",
+      "slot": "sidearm",
+      "file": "models/E02.glb",
+      "mesh_parts": 15,
+      "source_bounds_m": [
+        [
+          -0.12112653255462646,
+          -0.05349999666213989,
+          -0.17179064452648163
+        ],
+        [
+          0.19449999928474426,
+          0.05349999666213989,
+          0.11649999767541885
+        ]
+      ],
+      "editable_collection": "E02_Compact_backup",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "E03",
+      "title": "Blunt breach kit",
+      "role": "E",
+      "slot": "specialist",
+      "file": "models/E03.glb",
+      "mesh_parts": 8,
+      "source_bounds_m": [
+        [
+          -0.21699999272823334,
+          -0.09600000083446503,
+          -0.07999999821186066
+        ],
+        [
+          0.28780221939086914,
+          0.09600000083446503,
+          0.21250000596046448
+        ]
+      ],
+      "editable_collection": "E03_Blunt_breach_kit",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "E04",
+      "title": "Smoke capsule",
+      "role": "E",
+      "slot": "throwable",
+      "file": "models/E04.glb",
+      "mesh_parts": 9,
+      "source_bounds_m": [
+        [
+          -0.09549999982118607,
+          -0.07099999487400055,
+          -0.11999999731779099
+        ],
+        [
+          0.09549999982118607,
+          0.07600000500679016,
+          0.1925000101327896
+        ]
+      ],
+      "editable_collection": "E04_Smoke_capsule",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "E05",
+      "title": "Reinforced entry armor",
+      "role": "E",
+      "slot": "armor",
+      "file": "models/E05.glb",
+      "mesh_parts": 13,
+      "source_bounds_m": [
+        [
+          -0.2524999976158142,
+          -0.16449999809265137,
+          -0.23999999463558197
+        ],
+        [
+          0.2524999976158142,
+          0.18250000476837158,
+          0.25999999046325684
+        ]
+      ],
+      "editable_collection": "E05_Reinforced_entry_armor",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "E06",
+      "title": "Rescue harness",
+      "role": "E",
+      "slot": "support",
+      "file": "models/E06.glb",
+      "mesh_parts": 13,
+      "source_bounds_m": [
+        [
+          -0.13249999284744263,
+          -0.09099999815225601,
+          -0.10000000149011612
+        ],
+        [
+          0.13249999284744263,
+          0.09750000387430191,
+          0.1574999988079071
+        ]
+      ],
+      "editable_collection": "E06_Rescue_harness",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "R01",
+      "title": "Precision carbine",
+      "role": "R",
+      "slot": "primary",
+      "file": "models/R01.glb",
+      "mesh_parts": 18,
+      "source_bounds_m": [
+        [
+          -0.4475000202655792,
+          -0.050999999046325684,
+          -0.25089386105537415
+        ],
+        [
+          0.5419999957084656,
+          0.042500000447034836,
+          0.1850000023841858
+        ]
+      ],
+      "editable_collection": "R01_Precision_carbine",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "R02",
+      "title": "Recon pistol",
+      "role": "R",
+      "slot": "sidearm",
+      "file": "models/R02.glb",
+      "mesh_parts": 15,
+      "source_bounds_m": [
+        [
+          -0.12112653255462646,
+          -0.04100000113248825,
+          -0.17179064452648163
+        ],
+        [
+          0.19449999928474426,
+          0.04100000113248825,
+          0.11649999767541885
+        ]
+      ],
+      "editable_collection": "R02_Recon_pistol",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "R03",
+      "title": "Evidence scanner",
+      "role": "R",
+      "slot": "specialist",
+      "file": "models/R03.glb",
+      "mesh_parts": 10,
+      "source_bounds_m": [
+        [
+          -0.09000000357627869,
+          -0.058000002056360245,
+          -0.13500000536441803
+        ],
+        [
+          0.09000000357627869,
+          0.08750000596046448,
+          0.16249999403953552
+        ]
+      ],
+      "editable_collection": "R03_Evidence_scanner",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "R04",
+      "title": "Sensor beacon",
+      "role": "R",
+      "slot": "throwable",
+      "file": "models/R04.glb",
+      "mesh_parts": 7,
+      "source_bounds_m": [
+        [
+          -0.12200000137090683,
+          -0.05249999836087227,
+          -0.12200000137090683
+        ],
+        [
+          0.12200000137090683,
+          0.055000003427267075,
+          0.12250000238418579
+        ]
+      ],
+      "editable_collection": "R04_Sensor_beacon",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "R05",
+      "title": "Light recon armor",
+      "role": "R",
+      "slot": "armor",
+      "file": "models/R05.glb",
+      "mesh_parts": 14,
+      "source_bounds_m": [
+        [
+          -0.2101999968290329,
+          -0.12700000405311584,
+          -0.23999999463558197
+        ],
+        [
+          0.2101999968290329,
+          0.1574999988079071,
+          0.25999999046325684
+        ]
+      ],
+      "editable_collection": "R05_Light_recon_armor",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "R06",
+      "title": "Observation optic",
+      "role": "R",
+      "slot": "support",
+      "file": "models/R06.glb",
+      "mesh_parts": 11,
+      "source_bounds_m": [
+        [
+          -0.11299999803304672,
+          -0.09100000560283661,
+          -0.04800000414252281
+        ],
+        [
+          0.11299999803304672,
+          0.12049999833106995,
+          0.11749999970197678
+        ]
+      ],
+      "editable_collection": "R06_Observation_optic",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "T01",
+      "title": "Technical carbine",
+      "role": "T",
+      "slot": "primary",
+      "file": "models/T01.glb",
+      "mesh_parts": 19,
+      "source_bounds_m": [
+        [
+          -0.4475000202655792,
+          -0.11699999868869781,
+          -0.25089386105537415
+        ],
+        [
+          0.43400001525878906,
+          0.06499999761581421,
+          0.10000000149011612
+        ]
+      ],
+      "editable_collection": "T01_Technical_carbine",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "T02",
+      "title": "Specialist backup",
+      "role": "T",
+      "slot": "sidearm",
+      "file": "models/T02.glb",
+      "mesh_parts": 16,
+      "source_bounds_m": [
+        [
+          -0.12112653255462646,
+          -0.06650000065565109,
+          -0.17179064452648163
+        ],
+        [
+          0.19449999928474426,
+          0.050999999046325684,
+          0.11649999767541885
+        ]
+      ],
+      "editable_collection": "T02_Specialist_backup",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "T03",
+      "title": "Control terminal",
+      "role": "T",
+      "slot": "specialist",
+      "file": "models/T03.glb",
+      "mesh_parts": 12,
+      "source_bounds_m": [
+        [
+          -0.1599999964237213,
+          -0.0560000017285347,
+          -0.10699999332427979
+        ],
+        [
+          0.1599999964237213,
+          0.07950000464916229,
+          0.10699999332427979
+        ]
+      ],
+      "editable_collection": "T03_Control_terminal",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "T04",
+      "title": "Sync Pulse puck",
+      "role": "T",
+      "slot": "throwable",
+      "file": "models/T04.glb",
+      "mesh_parts": 10,
+      "source_bounds_m": [
+        [
+          -0.13500000536441803,
+          -0.05900000408291817,
+          -0.12791316211223602
+        ],
+        [
+          0.13500000536441803,
+          0.05150000378489494,
+          0.12791316211223602
+        ]
+      ],
+      "editable_collection": "T04_Sync_Pulse_puck",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "T05",
+      "title": "Insulated technical armor",
+      "role": "T",
+      "slot": "armor",
+      "file": "models/T05.glb",
+      "mesh_parts": 15,
+      "source_bounds_m": [
+        [
+          -0.2336999922990799,
+          -0.15199999511241913,
+          -0.23999999463558197
+        ],
+        [
+          0.2336999922990799,
+          0.17249999940395355,
+          0.25999999046325684
+        ]
+      ],
+      "editable_collection": "T05_Insulated_technical_armor",
+      "draft": true,
+      "rigged": false
+    },
+    {
+      "id": "T06",
+      "title": "Repair module",
+      "role": "T",
+      "slot": "support",
+      "file": "models/T06.glb",
+      "mesh_parts": 13,
+      "source_bounds_m": [
+        [
+          -0.13500000536441803,
+          -0.09050000458955765,
+          -0.125
+        ],
+        [
+          0.13500000536441803,
+          0.11250000447034836,
+          0.16250000894069672
+        ]
+      ],
+      "editable_collection": "T06_Repair_module",
+      "draft": true,
+      "rigged": false
+    }
+  ]
+}
