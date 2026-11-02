@@ -73,7 +73,7 @@ spent; `techActionPreview` returns the same verdict without acting.
 | `jamMachine(state, actorId, machineId)` | 1 | ≤ 8 tiles, line of sight | observed; not the squad's own; not already jammed | `JAMMED` until the start of the actor's next phase | owner (AP, range, duration); chosen (no re-jam, no own machines) |
 | `takeControl(state, actorId, machineId)` | 2 | ≤ 6, line of sight | observed; not the squad's own | `faction: PLAYER`, `CONTROLLED`, `controlledSinceRound = round`. One per actor: the previous one goes back to its own faction, ACTIVE (`MACHINE_RELEASED`). Taking a jammed machine clears the jam. | owner; chosen (jam cleared) |
 | `operateDoor(state, actorId, machineId, open)` | 1 | ≤ 6, line of sight | a door CONTROLLED by the squad (not jammed) | opens (blockers removed) or closes (blockers restored); refuses to close on an occupied cell | owner (operate); chosen (AP, range, sight) |
-| `syncPulse(state, actorId, {x,y,z})` | 1 | target tile ≤ 5, line of sight | `syncPulsesUsed < syncPulsePerMission` | radius 3 (Manhattan, target floor): every machine JAMMED for 1 round (same expiry as JAM); every opposing living unit `NETWORK_SILENCED` | owner; chosen (no sight check inside the area, own machines inside are jammed too, the limit also applies at level ≥ 2) |
+| `syncPulse(state, actorId, {x,y,z})` | 1 | target tile ≤ 5, line of sight | `syncPulsesUsed < syncPulsePerMission` | radius 3 (Manhattan, target floor): every machine JAMMED for 1 round (same expiry as JAM); every opposing living unit `NETWORK_SILENCED` | owner; owner 2026-11-02: own machines inside are jammed too, and the once-per-mission limit holds at level ≥ 2 unless T has the optional level-2 upgrade (extra pulses; amount to come from the attribute matrix); chosen: no sight check inside the area |
 
 Refusal codes: `UNKNOWN_UNIT`, `INVALID_UNIT_STATE`, `NOT_TECHNICIAN`, `MAIN_ARM_READY`,
 `UNKNOWN_MACHINE`, `FRIENDLY_MACHINE`, `ALREADY_JAMMED`, `NOT_OBSERVED`, `NOT_A_DOOR`,
@@ -159,3 +159,8 @@ Status: `NETWORK_SILENCED`.
 - The threat AI does not avoid squad-controlled turrets when it moves.
 - Concealment against cameras is checked at the mover's stop cell, as for units.
 - The level-two main arm itself is still open (owner): `weapons.main` is generic stats.
+
+## Owner decisions after implementation (2026-11-02)
+
+- **Sync Pulse at level 2:** still once per mission by default. Extra pulses are an **optional level-2 upgrade**. The amount and cost will come from the owner's attribute matrix, which is being built separately; until then `syncPulsePerMission` (global) is the only knob. A per-unit override for the upgrade is the expected follow-up.
+- **Sync Pulse jams the squad's own machines** inside its area. Confirmed by the owner, now canon for this draft.
