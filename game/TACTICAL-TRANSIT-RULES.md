@@ -65,3 +65,6 @@ the move exactly as for the player side. Deterministic for a given state and rng
 - Concealment on the move is still checked at the stop cell, except where an overwatching enemy detects the mover.
 - The threat AI has no flanking or grenade logic, does not coordinate beyond shared knowledge, and fires
   any legal shot with leftover AP even when it is poor.
+
+## Extension
+Machines, weapons and levels, T technology control and hostile re-take: [`TACTICAL-T-CONTROL-RULES.md`](TACTICAL-T-CONTROL-RULES.md) (DRAFT, owner numbers 2026-11-02).
