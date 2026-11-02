@@ -38,11 +38,12 @@ owner_supplied: 2026-11-02 (made with ChatGPT; original procedural Blender geome
 
 ## Two owner calls before any of this goes on a character
 
-1. **Role colour accents** (amber E, teal R, violet T) are on the gear itself. Canon field kit is black, and team identity comes from the glow:
-   - Studio look: squad red, opposition blue;
-   - Day and Night looks: squad teal, threats red.
-
-   Keep role colours as a new rule, or recolour the drafts black?
+1. ~~Role colours~~ **decided (owner, 2026-11-02): equipment carries role colours, and no colour is ever purple.**
+   - E is amber; R is teal; T is **lime** (`#8BD346`), replacing violet.
+   - The T models' `T_Violet` material is now `T_Lime`, with its colour value changed and the geometry unchanged.
+   - The previews and the generator script are updated to match.
+   - Two files still show the old violet, as records only: `source/PRIM3_Level1_Editable.blend` (it needs Blender to edit) and `VALIDATION.json` (the supplier's original run).
+   - Watch: R's teal is close to the squad's teal team glow in the Day and Night looks.
 2. ~~T01~~ decided: level-two main arm; level one is technology control (see `T-LEVEL1-CONTROL-DRAFT.md`).
 
 ## Before production

@@ -13,7 +13,7 @@ These are editable starting meshes, not finished production assets. No fal, Trip
 
 ## Roles and slots
 
-| Slot | E / Entry / amber | R / Recon / teal | T / Technical / violet |
+| Slot | E / Entry / amber | R / Recon / teal | T / Technical / lime (was violet; recoloured 2026-11-02, see CANON-RECONCILIATION.md) |
 |---|---|---|---|
 | Primary | E01 Entry carbine | R01 Precision carbine | T01 Technical carbine |
 | Sidearm | E02 Compact backup | R02 Recon pistol | T02 Specialist backup |

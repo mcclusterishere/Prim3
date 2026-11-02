@@ -21,7 +21,7 @@ def mat(name,color,metal=0,rough=.5):
  m=bpy.data.materials.new(name); m.diffuse_color=(*color,1); m.use_nodes=True
  bs=m.node_tree.nodes.get('Principled BSDF'); bs.inputs['Base Color'].default_value=(*color,1); bs.inputs['Metallic'].default_value=metal; bs.inputs['Roughness'].default_value=rough; M[name]=m; return m
 mat('Graphite_Ceramic',(.045,.054,.064),.15,.4);mat('Dark_Brushed_Metal',(.14,.17,.20),.75,.3);mat('Soft_Rubber',(.019,.022,.027),0,.77);mat('Technical_Fabric',(.085,.10,.115),0,.9);mat('Recess',(.005,.009,.012),.1,.52)
-mat('E_Amber',(.92,.32,.035),.25,.4);mat('R_Teal',(.025,.48,.43),.25,.4);mat('T_Violet',(.37,.14,.68),.25,.4);mat('Sensor_Glass',(.025,.10,.14),.65,.18);mat('Neutral_Mount',(.22,.25,.28),.65,.5)
+mat('E_Amber',(.92,.32,.035),.25,.4);mat('R_Teal',(.025,.48,.43),.25,.4);mat('T_Lime',(0.2582,0.6514,0.0612),.25,.4);mat('Sensor_Glass',(.025,.10,.14),.65,.18);mat('Neutral_Mount',(.22,.25,.28),.65,.5)
 CUR=None;ROOT=None;ROLE=None; parts=[]
 def add(obj,name,material):
  obj.name=ROOT.name+'__'+name
@@ -69,7 +69,7 @@ def mount(y=.11,z=0):
  e=bpy.data.objects.new(ROOT.name+'__socket_mount',None);CUR.objects.link(e);e.parent=ROOT;e.location=(0,y+.04,z);e.empty_display_type='ARROWS';e.empty_display_size=.06
 
 def rifle(kind):
- a=ROLE+'_Amber' if ROLE=='E' else ROLE+'_Teal' if ROLE=='R' else 'T_Violet'
+ a=ROLE+'_Amber' if ROLE=='E' else ROLE+'_Teal' if ROLE=='R' else 'T_Lime'
  if kind=='E':
   panel('Body',[(-.20,-.07),(.19,-.07),(.27,.005),(.21,.10),(-.17,.10)],0,.12)
   box('Front_shell',(.32,0,.04),(.22,.105,.12));box('Sealed_front',(.445,0,.04),(.028,.085,.09),'Recess')
@@ -93,7 +93,7 @@ def rifle(kind):
  box('Lower_guard',(-.01,0,-.085),(.10,.065,.025),'Dark_Brushed_Metal',.008)
 
 def pistol(kind):
- a={'E':'E_Amber','R':'R_Teal','T':'T_Violet'}[kind]
+ a={'E':'E_Amber','R':'R_Teal','T':'T_Lime'}[kind]
  w={'E':.09,'R':.065,'T':.085}[kind]
  panel('Upper_housing',[(-.12,.01),(.17,.01),(.19,.06),(.14,.105),(-.115,.105)],0,w)
  box('Solid_front',(.187,0,.052),(.015,w*.8,.045),'Recess',.005)
@@ -121,7 +121,7 @@ def smoke():
  box('Rear_sealed_panel',(0,.071,-.055),(.09,.01,.065),'Neutral_Mount',.006)
 
 def armor(kind):
- a={'E':'E_Amber','R':'R_Teal','T':'T_Violet'}[kind]; w={'E':.25,'R':.205,'T':.23}[kind];d={'E':.12,'R':.095,'T':.11}[kind]
+ a={'E':'E_Amber','R':'R_Teal','T':'T_Lime'}[kind]; w={'E':.25,'R':.205,'T':.23}[kind];d={'E':.12,'R':.095,'T':.11}[kind]
  shape=[(-w,-.24),(w,-.24),(w,.12),(w*.65,.26),(w*.34,.26),(w*.27,.18),(-w*.27,.18),(-w*.34,.26),(-w*.65,.26),(-w,.12)]
  panel('Front_fabric_shell',shape,-d,.026,'Technical_Fabric');panel('Rear_fabric_shell',shape,d,.025,'Technical_Fabric')
  for x in (-w*.68,w*.68):box('Shoulder_bridge',(x,0,.23),(.10,d*2,.055),'Technical_Fabric',.022)
@@ -180,12 +180,12 @@ def terminal():
  box('Screen_frame',(0,-.04,.015),(.22,.018,.15),'Dark_Brushed_Metal');box('Inactive_screen',(0,-.052,.015),(.185,.008,.115),'Sensor_Glass',.01)
  for x in (-.14,.14):box('Side_grip',(x,0,0),(.04,.085,.15),'Soft_Rubber')
  for x in (-.11,.11):
-  for z in (-.087,.087):box('Corner_bumper',(x,-.008,z),(.055,.09,.04),'T_Violet',.01)
+  for z in (-.087,.087):box('Corner_bumper',(x,-.008,z),(.055,.09,.04),'T_Lime',.01)
  mount(.047)
 
 def pulse():
  cyl('Hexagonal_body',(0,0,0),.13,.075,'Graphite_Ceramic','Y',6)
- cyl('Violet_ring',(0,-.042,0),.10,.012,'T_Violet','Y',24)
+ cyl('Lime_ring',(0,-.042,0),.10,.012,'T_Lime','Y',24)
  cyl('Central_disc',(0,-.052,0),.074,.014,'Dark_Brushed_Metal','Y',24)
  cyl('Sealed_rear',(0,.045,0),.081,.013,'Neutral_Mount','Y',12)
  for i in range(6):
@@ -194,7 +194,7 @@ def pulse():
 def repair():
  box('Maintenance_housing',(0,0,0),(.27,.13,.22),bevel=.025)
  for x in (-.12,.12):box('Metal_corner',(x,0,0),(.03,.145,.20),'Dark_Brushed_Metal')
- for x in (-.065,.065):box('Violet_latch',(x,-.078,.055),(.04,.025,.06),'T_Violet',.007)
+ for x in (-.065,.065):box('Lime_latch',(x,-.078,.055),(.04,.025,.06),'T_Lime',.007)
  box('Closed_front_panel',(0,-.075,-.035),(.19,.02,.095),'Technical_Fabric')
  for x in (-.065,.065):box('Handle_support',(x,0,.125),(.025,.045,.04),'Dark_Brushed_Metal')
  box('Carry_handle',(0,0,.15),(.15,.05,.025),'Soft_Rubber');box('Base_bumper',(0,0,-.11),(.24,.15,.03),'Soft_Rubber');mount(.08)
