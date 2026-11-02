@@ -103,9 +103,9 @@ A LIVING HUMAN IDENTITY MAY ANCHOR THE ENTIRE SYSTEM
 
 Hana's true target becomes proof that a **living human command identity** sits above systems that publicly appear distributed.
 
-She is approaching the existence of Presiding Prime / Prime-00.
+She is approaching the existence of PRIM2, the presiding Mantle holder.
 
-She has **not** yet reconstructed the entire later McCluster/Royce dual-board story, and she does not possess a complete map of Hitman. Her breakthrough is narrower and more dangerous: she is close to proving that McCluster's highest authority collapses onto a concealed human root.
+She has **not** yet reconstructed the entire later McCluster/Royce dual-board story, and she does not possess a complete map of Hitman. Her breakthrough is narrower and more dangerous: she is close to proving that McCluster Corp's highest authority collapses onto a concealed human root.
 
 ---
 

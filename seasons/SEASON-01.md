@@ -16,9 +16,10 @@ The season must work before the audience understands the full Prime mythology.
 
 ## Cold open
 
-In the future, McCluster and Benji's separate assault elements have penetrated
-Site 0. Presiding Prime / Prime-00 performs **High Alert** as a diss record and
-psychological weapon against the people who have come to replace him.
+In the future, McCluster's PRIM-side assault element and Royce's Hitman-side
+assault element have penetrated Site 0. PRIM2 performs **High Alert** as a diss
+record and psychological weapon against the people who have come to replace him
+(`CANON.md` §16).
 
 Seventeen compressed memory flashes point toward global Episodes 02-18. The
 opening cuts away before the RAID outcome, the survivor state or the identity

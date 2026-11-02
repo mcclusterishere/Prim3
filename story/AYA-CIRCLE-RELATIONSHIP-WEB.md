@@ -230,9 +230,9 @@ Marc represents a worldview Aya finds frightening:
 
 ---
 
-# 10. Prime-00 — hidden architect of the web
+# 10. PRIM2 — hidden architect of the web
 
-Prime knows more about this cluster than anybody realizes.
+PRIM2 ("Prime" in speech) knows more about this cluster than anybody realizes.
 
 He knows:
 
