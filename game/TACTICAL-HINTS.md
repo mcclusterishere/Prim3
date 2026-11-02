@@ -60,3 +60,11 @@ Ties within `tieEpsilon` are reported. The wording always says "strong given wha
 - Square grid only. A hex adapter must be a separate, separately verified module.
 - Challenge bank is small and authored here; a verified LMS generator should replace it when one exists
   on a reachable ref (the private math LMS `5d76d704` is not on the remote).
+
+## Movement legality (2026-11-02)
+
+`moveUnit` validates the route, not only the endpoint:
+- **Destination:** whole-tile coordinates on the unit's own floor, not a wall, not its current tile.
+- **Server-side check:** without a supplied route, the resolver finds the shortest orthogonal path around walls and units (`findPath`) within the move or dash range. If none exists, it refuses and spends nothing.
+- **Supplied route:** a client passes the route the player chose: `moveUnit(state, id, dest, mode, { path })`, planned with `knownPaths` over what the player knows. The resolver checks each step for bounds, walls, adjacency and range. If a step meets a unit the player could not know about, the move stops on the last free tile, the AP is spent, and a `MOVE_INTERRUPTED` event is recorded. A refusal therefore never reveals a hidden unit before contact.
+- **Recorded path:** `MOVE`/`DASH` events carry the walked `path`, so a renderer animates the committed route, not its own guess.

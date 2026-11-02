@@ -253,3 +253,69 @@ test('Overwatch consumes an action point and is preserved as reaction state', ()
   assert.equal(unit.ap, 1);
   assert.equal(unit.overwatch, true);
 });
+
+/* ---------- movement legality: a real route, not just an endpoint (2026-11-02) ---------- */
+import { findPath } from './tactical-resolver.mjs';
+
+function wallState() {
+  // R1 at (1,1); a wall column at x=3 from y=0..4 forces a long detour to (4,1)
+  return beginPlayerPhase(baseState({ blockers: [0, 1, 2, 3, 4].map((y) => ({ x: 3, y, z: 0 })) }));
+}
+
+test('a move is refused when walls make the real route longer than the range, even if the straight distance fits', () => {
+  const state = wallState();
+  const r1 = state.units.find((u) => u.id === 'R1');
+  assert.ok(Math.abs(4 - r1.x) + Math.abs(1 - r1.y) <= r1.moveRange, 'Manhattan distance alone would allow it');
+  assert.throws(() => moveUnit(state, 'R1', { x: 4, y: 1 }, 'MOVE'), /No traversable path/);
+  assert.equal(state.units.find((u) => u.id === 'R1').ap, 2, 'nothing spent');
+});
+
+test('the move walks a connected route around walls and records it', () => {
+  const state = beginPlayerPhase(baseState({ blockers: [{ x: 2, y: 2, z: 0 }] }));
+  const next = moveUnit(state, 'R1', { x: 1, y: 3 }, 'MOVE');
+  const ev = next.events.at(-1);
+  assert.equal(ev.type, 'MOVE');
+  assert.deepEqual(ev.path.at(-1), { x: 1, y: 3, z: 0 });
+  let at = { x: 1, y: 1 };
+  for (const step of ev.path) { assert.equal(Math.abs(step.x - at.x) + Math.abs(step.y - at.y), 1); at = step; }
+});
+
+test('findPath never passes through walls or units, and respects the step limit', () => {
+  const state = wallState();
+  assert.equal(findPath(state, 'R1', { x: 4, y: 1 }, 4), null);
+  const long = findPath(state, 'R1', { x: 4, y: 1 }, 20);
+  assert.ok(long && long.length > 4);
+  assert.ok(long.every((c) => !(c.x === 3 && c.y <= 4)));
+  assert.ok(long.every((c) => !(c.x === 2 && c.y === 1)), 'never through T1');
+});
+
+test('non-integer, other-floor, wall and same-tile destinations are refused', () => {
+  const state = beginPlayerPhase(baseState({ blockers: [{ x: 1, y: 3, z: 0 }] }));
+  assert.throws(() => moveUnit(state, 'R1', { x: 1.5, y: 2 }), /whole tile/);
+  assert.throws(() => moveUnit(state, 'R1', { x: 1, y: 2, z: 1 }), /out of bounds|another floor/);
+  assert.throws(() => moveUnit(state, 'R1', { x: 1, y: 3 }), /wall/);
+  assert.throws(() => moveUnit(state, 'R1', { x: 1, y: 1 }), /already there/);
+});
+
+test('a supplied route is checked step by step', () => {
+  const state = beginPlayerPhase(baseState({ blockers: [{ x: 1, y: 2, z: 0 }] }));
+  assert.throws(() => moveUnit(state, 'R1', { x: 1, y: 3 }, 'MOVE', { path: [{ x: 1, y: 2 }, { x: 1, y: 3 }] }), /wall/);
+  assert.throws(() => moveUnit(state, 'R1', { x: 1, y: 4 }, 'MOVE', { path: [{ x: 1, y: 2 }, { x: 1, y: 4 }] }), /connected|wall/);
+  assert.throws(() => moveUnit(state, 'R1', { x: 0, y: 2 }, 'MOVE', { path: [{ x: 0, y: 1 }] }), /end at the destination/);
+  const ok = moveUnit(state, 'R1', { x: 0, y: 2 }, 'MOVE', { path: [{ x: 1, y: 1 }, { x: 0, y: 1 }, { x: 0, y: 2 }] });
+  assert.deepEqual(ok.units.find((u) => u.id === 'R1') && [ok.units.find((u) => u.id === 'R1').x, ok.units.find((u) => u.id === 'R1').y], [0, 2]);
+});
+
+test('a supplied route that meets a unit stops on the last free tile: AP spent, nothing revealed beforehand', () => {
+  // H2 is hidden from the player at (1,3); the player's planned route runs through it
+  const state = beginPlayerPhase(baseState({ units: [
+    { id: 'R1', faction: 'PLAYER', role: 'R', x: 1, y: 1 },
+    { id: 'H2', faction: 'THREAT', x: 1, y: 3, hp: 4, detectionRadius: 0 }
+  ] }));
+  const next = moveUnit(state, 'R1', { x: 1, y: 4 }, 'MOVE', { path: [{ x: 1, y: 2 }, { x: 1, y: 3 }, { x: 1, y: 4 }] });
+  const r1 = next.units.find((u) => u.id === 'R1');
+  assert.deepEqual([r1.x, r1.y, r1.ap], [1, 2, 1]);
+  const ev = next.events.find((e) => e.type === 'MOVE_INTERRUPTED');
+  assert.ok(ev);
+  assert.deepEqual(ev.blockedAt, { x: 1, y: 3, z: 0 });
+});
