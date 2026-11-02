@@ -19,7 +19,7 @@ Each operator has two reference photographs:
 |---|---|---|---|---|
 | **E — Entry** | FO-E-AE, Approach & Entry | [mannequin](../../assets/reference/field-entry/FO-E-AE-mannequin-v01.png) | [loadout](../../assets/reference/field-entry/FO-E-AE-loadout-v01.png) (16 groups) | [FO-E-AE visual brief](../../assets/reference/field-entry/FO-E-AE-visual-brief-v01.md) |
 | **R — Recon** | FO-R-SO, Static Overwatch | [mannequin](../../assets/reference/field-recon/FO-R-SO-mannequin-v02.png) | [loadout](../../assets/reference/field-recon/FO-R-SO-loadout-v02.png) (18 groups) | FO-R-SO visual brief (arrives with Prim3 PR #17; describes v01) |
-| **T — Technical** | — | **not made yet** | **not made yet** | Itemized text only: [LOADOUTS-ITEMIZED.md](field-technical/LOADOUTS-ITEMIZED.md) |
+| **T — Technical** | FO-T-STD, Standard | [mannequin](../../assets/reference/field-technical/FO-T-STD-mannequin-v01.png) | [loadout](../../assets/reference/field-technical/FO-T-STD-loadout-v01.png) (12 groups) | This section; itemized text in [LOADOUTS-ITEMIZED.md](field-technical/LOADOUTS-ITEMIZED.md) |
 
 ## E — Entry · Approach & Entry (FO-E-AE)
 
@@ -62,12 +62,30 @@ Each operator has two reference photographs:
 
 **Read at a glance:** the lightest of the three. The mannequin has a long-sleeve quarter-zip, a slim headset and a light chest rig. Binoculars sit in a pouch at the sternum, the observation recorder is clipped high on its right chest, and the radio is on the belt beside the right-hip holster. A sling runs over the left shoulder. The scoped rifle is slung muzzle-down and appears only in this overwatch profile; it is not mandatory for every Recon profile ([FO-R](field-recon/FO-R.md)).
 
-## T — Technical
+## T — Technical · Standard (FO-T-STD)
 
-No photographs yet. Until they exist, use [FO-T](field-technical/FO-T.md), [LOADOUTS-ITEMIZED.md](field-technical/LOADOUTS-ITEMIZED.md) and the [3D asset brief](field-technical/3D-ASSET-BRIEF.md). Make the pair the same way:
-- the same mannequin;
-- the same white seamless background and lighting;
-- one dressed photograph, then one labeled flat lay with every item exactly once.
+![Field-T Technical mannequin, fully dressed, on white](../../assets/reference/field-technical/FO-T-STD-mannequin-v01.png)
+
+![Field-T Standard loadout, twelve labeled groups](../../assets/reference/field-technical/FO-T-STD-loadout-v01.png)
+
+| Item | Where it sits (the mannequin's own left/right) |
+|---|---|
+| Soft torso armor | Zip-front soft vest over a **short-sleeve** collared field shirt; blank identification panel on the left chest |
+| Field cyberdeck | Rugged clamshell deck, held open at waist height on the deck sling |
+| Deck sling | Over the right shoulder, across the chest; carries a small "T" role tab |
+| Interface kit | Hard case with cables and adapters; carried in a belt pouch |
+| Write-block bridge | Small inline adapter; belt pouch |
+| Offline storage | Rugged drive; belt pouch |
+| Body recorder | Centre of the chest, high on the vest |
+| Team comms | Radio on the left chest strap, with an earpiece |
+| Tactile gloves | Thin, close-fitting, textured palms |
+| Quiet-sole boots | Laced, low-profile |
+| Holstered sidearm | Retention holster on the right hip |
+| Spare power | Battery pack; belt pouch |
+
+**Read at a glance:** the only short-sleeved operator, so the mannequin's arms show from the elbow. The open cyberdeck is held in front on its sling, and the belt carries a row of small pouches. He has the lightest weapon load of the three: a sidearm only, no long gun.
+
+**One correction for anyone reproducing it:** the body recorder in both photographs carries small red diagonal stripes. They resemble the red `//` mark. Under the no-marks rule, leave them off in 3D models and new images, or apply the locked master whole. The "T" on the sling is a role letter, not a brand mark.
 
 ## Rules for using these pictures
 
@@ -87,5 +105,6 @@ No photographs yet. Until they exist, use [FO-T](field-technical/FO-T.md), [LOAD
 | File | Origin |
 |---|---|
 | `FO-E-AE-mannequin-v01.png`, `FO-E-AE-loadout-v01.png` | Supplied by the owner, 2026-11-02 (ChatGPT image generation) |
+| `FO-T-STD-mannequin-v01.png`, `FO-T-STD-loadout-v01.png` | Supplied by the owner, 2026-11-02 |
 | `FO-R-SO-mannequin-v02.png`, `FO-R-SO-loadout-v02.png` | Supplied by the owner, 2026-11-02 ("This is R"): the active Recon reference |
 | `FO-R-SO-*-v01.png` (in Prim3 PR #17, not on this branch) | Codex; superseded by the owner's v02 |
