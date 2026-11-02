@@ -316,7 +316,7 @@ Her history includes:
 - joining Equity Uprise partly to investigate Hana's death;
 - gradually becoming attached to the visible institution because real people, reforms and responsibility make it feel increasingly legitimate.
 
-Hana is secretly a Republic of Korea NIS technical intelligence officer. Her agency helps her correlate external history unavailable from inside McCluster. She approaches proof of the hidden living-root architecture.
+Hana is secretly a Republic of Korea NIS technical intelligence officer. Her agency helps her correlate external history unavailable from inside Equity Uprise and McCluster Corp. She approaches proof of the hidden living-root architecture.
 
 PRIM2 recognizes Hana as intelligence-linked and uses her pursuit as unwitting adversarial red-team testing until her portable proof risk becomes unacceptable.
 

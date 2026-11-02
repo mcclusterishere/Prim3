@@ -35,7 +35,7 @@ This supersedes the old McCluster-as-cross-layer-coordinator story while preserv
 | Helen | owner / visible authority | Learns that a clean org chart can distribute responsibility so thoroughly that nobody feels responsible for the end-to-end failure. |
 | Li | owner / executive process | Begins distinguishing documented ownership from actual accountability; his governance skepticism matures beyond language. |
 | Yonas | owner / operations | Stops being merely the calm outage fixer and speaks before failure, forcing senior people to confront a dependency gap they prefer to route away. |
-| Leila | analysis | Models McCluster itself as a potential adversarial system: who benefits when responsibility is fragmented? |
+| Leila | analysis | Models McCluster Corp itself as a potential adversarial system: who benefits when responsibility is fragmented? |
 | Grace | human consequence | Keeps user/civilian impact visible when executives discuss layers instead of people. |
 | Jonas | system liaison | Discovers Pylon can show dependencies without deciding who morally owns them. |
 | Amira | sponsor/risk | Asks whether risk transfer in a contract is being mistaken for risk elimination. |

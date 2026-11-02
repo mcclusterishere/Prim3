@@ -16,7 +16,7 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 - **McCluster** — African American, United States, protagonist path.
 - **Aya Shinoda** — Japan, Field-T, central emotional relationship with McCluster.
 - Prime remains above the nationality matrix and keeps his civilian name unresolved.
-- Everyone is presently operating in the United States / McCluster system even when their origin remains central to identity.
+- Everyone is presently operating in the United States / Equity Uprise system even when their origin remains central to identity.
 - The point of the roster is not tokenism. People from governments that may distrust one another are forced to share one operational architecture and decide whether personal loyalty can outgrow national narratives.
 
 # 24 main characters
@@ -203,7 +203,7 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 
 ## 21 — Priya Srisawat — Thailand — Marketing / Public Surface
 
-**Background:** Priya is a brand strategist and visual storyteller who understands that corporate identity changes behavior before policy ever does. She helped turn McCluster's black, ivory and red design language into something employees wanted to wear. At first she is proud that the brand gives broke recruits dignity; later she realizes the same design system makes belonging feel like obedience.
+**Background:** Priya is a brand strategist and visual storyteller who understands that corporate identity changes behavior before policy ever does. She helped turn McCluster Corp's black, ivory and red design language into something employees wanted to wear. At first she is proud that the brand gives broke recruits dignity; later she realizes the same design system makes belonging feel like obedience.
 
 **Wants:** to prove aesthetics can create community without becoming propaganda.  
 **Fears:** discovering she designed the emotional architecture of a trap.  
@@ -214,7 +214,7 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 
 **Background:** Helen built a career in program governance, complex technical portfolios and turning chaotic operations into something a board could actually authorize. She is not physically imposing; her power comes from knowing exactly which resources can move and which signature makes them legal. She sees Prime as both the institution's greatest asset and its largest unpriced liability.
 
-**Wants:** a McCluster that can survive Prime rather than merely obey him.  
+**Wants:** a McCluster Corp that can survive Prime rather than merely obey him.  
 **Fears:** that every governance mechanism ultimately exists at Prime's pleasure.  
 **Contradiction:** believes in institutional continuity while quietly preparing for institutional rupture.  
 **Key relationship:** Amira is the sponsor she trusts; Li Wei is the successor she may be grooming without admitting it.
@@ -256,7 +256,7 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 | Oksana Bondarenko | **Piotr Kowalski — Poland.** Geospatial analyst who taught Oksana to preserve uncertainty instead of forcing a clean narrative too early. | **Anastasia Popescu — Romania.** Investigative data journalist who is valuable precisely because she does not work for McCluster. |
 | Yonas Bekele | **Daniel Mwangi — Kenya.** Network-restoration operator who could calm a war room by lowering his voice; Yonas consciously imitates that steadiness. | **Amina Jibril — Tanzania.** Community-network builder who accuses Yonas of fixing elite systems while ordinary neighborhoods still need infrastructure. |
 | Valeria Soto | **Luis Herrera — Guatemala.** Junior operator who died before becoming the senior person he was always preparing to be; Valeria sees too much of herself in his old notes. | **Sofía Vargas — Peru.** Freelance developer and Valeria's closest friend outside McCluster, unimpressed by secrecy and very impressed by invoices being paid on time. |
-| Amira Hassan | **Youssef Benali — Algeria.** Sponsor who once refused a mission and lost his career before later dying in unrelated field work; Amira keeps his refusal letter. | **Layla Mansour — McCluster.** International contracting attorney who helps Amira distinguish what is legal, what is authorized and what is merely possible. |
+| Amira Hassan | **Youssef Benali — Algeria.** Sponsor who once refused a mission and lost his career before later dying in unrelated field work; Amira keeps his refusal letter. | **Layla Mansour — Jordan.** International contracting attorney who helps Amira distinguish what is legal, what is authorized and what is merely possible. |
 | Miguel Santos | **José Ramírez — Spain.** Access officer remembered for recognizing every employee by name; Miguel learned that security can feel human. | **Andrea Rossi — Italy.** Port/logistics consultant who keeps Miguel supplied with stories about ordinary operational chaos outside Prime's world. |
 | Grace Mbala | **Jean-Pierre Ndlovu — Zimbabwe.** Continuity coordinator who died after staying behind to complete an evacuation manifest; Grace refuses to let his final act become a KPI. | **Fatou Camara — Mali.** Humanitarian logistics specialist who challenges McCluster's habit of calling affected communities 'stakeholders.' |
 | Minh Tran | **Sopheak Lim — Cambodia.** Firmware engineer whose meticulous lab notebooks survive him and become Minh's private technical scripture. | **Bounmy Phom — Laos.** Small-manufacturer automation consultant who reminds Minh how elegant technology can be when nobody is shooting at it. |
@@ -277,7 +277,7 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 - **Dmitri ↔ Oksana:** earned operational trust under geopolitical tension; never written as a simplistic reconciliation allegory.
 - **Amira ↔ Marc:** competing mission-sponsor ethics — human restraint versus quantified risk.
 - **Emre ↔ Jonas ↔ Pylon:** human procedure, automation and the uncomfortable possibility that the building knows more than either man.
-- **Priya ↔ Maren Quill:** the public smile of McCluster, with growing disagreement over where branding ends and behavioral control begins.
+- **Priya ↔ Maren Quill:** the public smile of Equity Uprise, with growing disagreement over where branding ends and behavioral control begins.
 
 # Character-writing rule
 
@@ -287,6 +287,6 @@ Every recurring character must retain all five of these dimensions when used in 
 2. **Desire** — what life they are trying to build.
 3. **Fear** — what would make victory feel hollow.
 4. **Contradiction** — the trait that prevents them becoming a job title with dialogue.
-5. **Outside connection** — somebody or somewhere that proves McCluster is not their entire identity.
+5. **Outside connection** — somebody or somewhere that proves Equity Uprise is not their entire identity.
 
 No character should exist only to die, explain a technical concept or validate Prime.

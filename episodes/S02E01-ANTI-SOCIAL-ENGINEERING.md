@@ -45,7 +45,7 @@ ROYCE: no random incursion
 
 # Human problem
 
-At a crowded McCluster public event, someone uses urgency, status cues and partially legitimate information to pressure staff across a boundary.
+At a crowded Equity Uprise public event, someone uses urgency, status cues and partially legitimate information to pressure staff across a boundary.
 
 Priya fears a harsh response will humiliate staff and destroy the atmosphere she built.
 Nusrat fears concern for optics will leave the boundary open.

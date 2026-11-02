@@ -95,7 +95,7 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **Apex:** unavailable  
 **Royce:** not a direct incursion; Hitman-side presence is Sora/Keys
 
-**Priya development:** she is proud that McCluster's visual identity makes people feel welcome. The episode forces her to confront that the same cues can manufacture false belonging.  
+**Priya development:** she is proud that Equity Uprise's visual identity makes people feel welcome. The episode forces her to confront that the same cues can manufacture false belonging.  
 **Maren development:** treats communication as operational infrastructure; begins noticing that public trust can become an attack surface.  
 **Sora development:** gets real interiority instead of villain framing. She is brilliant at high-status social environments because she understands what powerful people want to assume about themselves.  
 **Keys development:** shows that practical access often begins with relationships, invitations and familiarity rather than technology.  
@@ -372,7 +372,7 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **Minh development:** now mature enough to challenge Aya's interpretation rather than merely seek her approval.  
 **Helen development:** becomes frightened by what Aya is asking because she knows governance is weaker than it looks even if she does not know the full Hana truth.
 
-**Residue:** Aya starts reconstructing Kkeutori; McCluster realizes her distrust of McCluster predates him.
+**Residue:** Aya starts reconstructing Kkeutori; McCluster realizes her distrust of McCluster Corp predates him.
 
 ## 18 — SONG #21 OPEN / Mission #18 OPEN
 

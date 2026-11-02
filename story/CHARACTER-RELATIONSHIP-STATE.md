@@ -96,7 +96,7 @@ Specialist relationship files override this summary where more specific.
 
 - **Trust:** medium-high and institutionally important.
 - **Origin:** Helen treats Aya's reconstruction of Hana's death as serious technical work rather than grief to be dismissed.
-- **Function:** gives Aya legitimate access and becomes evidence, in Aya's mind, that responsible authority exists inside McCluster.
+- **Function:** gives Aya legitimate access and becomes evidence, in Aya's mind, that responsible authority exists inside Equity Uprise.
 - **Hidden danger:** Helen's good-faith governance helps the visible institution earn Aya's loyalty while PRIM2 remains hidden above it.
 - **Failure trigger:** Aya learns Helen's access never reached the layer she thought it did.
 

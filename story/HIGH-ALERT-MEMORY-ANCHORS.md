@@ -129,7 +129,7 @@ S1E1 IMAGE
 
 ## MEMORY 06 — S3E1 / DATA BREACH — Exposure
 
-**Flash:** leaked personnel material reveals that McCluster held pre-recruitment data about multiple people earlier than expected. One legacy/root authorization field cannot be explained by the visible org chart.
+**Flash:** leaked personnel material reveals that McCluster Corp held pre-recruitment data about multiple people earlier than expected. One legacy/root authorization field cannot be explained by the visible org chart.
 
 **First-watch:** classified-file visual.
 
@@ -278,7 +278,7 @@ S1E1 IMAGE
 **Current continuity:** DELETE the old locked idea that PRIM2 explicitly assigned Aya `MENTOR / OBSERVE / REPORT ANOMALIES` on McCluster from day one and therefore `introduced` the romance. That gives PRIM2 too much authorship over their relationship and conflicts with Aya's independent McCluster entry/Hana investigation.
 
 A stronger version is:
-- Aya already exists inside McCluster for her own reasons;
+- Aya already exists inside Equity Uprise for her own reasons;
 - she and McCluster meet through legitimate work;
 - their relationship is real and self-created;
 - institutional analytics later model the relationship;

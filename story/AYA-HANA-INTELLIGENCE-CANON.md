@@ -11,19 +11,19 @@ branch: main
 
 This file deepens the Hana Lee / Operation GLASSHOUSE material already recorded in `story/AYA-SHINODA-PSYCHOLOGICAL-BACKGROUND.md`.
 
-Where the earlier Aya dossier describes Hana only as a robotics mentor who later dies during a McCluster operation, **this file adds the hidden intelligence layer and wins where the two descriptions differ**.
+Where the earlier Aya dossier describes Hana only as a robotics mentor who later dies during an Equity Uprise operation, **this file adds the hidden intelligence layer and wins where the two descriptions differ**.
 
 The audience and Aya do **not** automatically know the contents of this file. It is writer-facing truth.
 
 Canonical disclosure rule:
 
-> **Hana's death has three simultaneous meanings: Aya loses a mentor, McCluster loses an engineer, and Prime eliminates a foreign intelligence threat that has nearly identified him.**
+> **Hana's death has three simultaneous meanings: Aya loses a mentor, Equity Uprise loses an engineer, and Prime eliminates a foreign intelligence threat that has nearly identified him.**
 
 ---
 
 # 1. Hana Lee's public identity
 
-To Aya, Yale colleagues, technical collaborators and most of McCluster, **Hana Lee is exactly what she appears to be**:
+To Aya, Yale colleagues, technical collaborators and most of Equity Uprise, **Hana Lee is exactly what she appears to be**:
 
 - South Korean;
 - from Ulsan;
@@ -32,7 +32,7 @@ To Aya, Yale colleagues, technical collaborators and most of McCluster, **Hana L
 - trained in robotics, biorobotics, physical human-robot interaction and safety-oriented controls;
 - a serious engineer who believes good systems must fail safely;
 - Aya's mentor, colleague and close friend;
-- later a McCluster technical operator/specialist.
+- later an Equity Uprise technical operator/specialist.
 
 Hana's friendship with Aya is genuine.
 
@@ -48,7 +48,7 @@ Hana is secretly a **Republic of Korea National Intelligence Service (NIS) techn
 
 Her assignment is not generic corporate theft.
 
-South Korean intelligence becomes interested in McCluster because the organization appears to possess an unusual combination of:
+South Korean intelligence becomes interested in McCluster Corp because the organization appears to possess an unusual combination of:
 
 - advanced cyber-physical control;
 - robotics and autonomous systems;
@@ -57,7 +57,7 @@ South Korean intelligence becomes interested in McCluster because the organizati
 - unusual access to public and private operational data;
 - and effects in the physical world that do not match the apparent authority of an ordinary corporation.
 
-Hana is tasked at a high level with determining whether McCluster is merely an unusually capable technology/infrastructure organization or whether it contains a **concealed transnational command architecture** with implications for national security.
+Hana is tasked at a high level with determining whether McCluster Corp is merely an unusually capable technology/infrastructure organization or whether it contains a **concealed transnational command architecture** with implications for national security.
 
 The exact real-world tradecraft of her intelligence work is intentionally abstracted. The story does not require procedural espionage instruction.
 
@@ -81,7 +81,7 @@ She observes a repeated anomaly across systems that should be institutionally se
 
 Hana forms a hypothesis:
 
-> **McCluster is not actually governed by the hierarchy it presents.**
+> **McCluster Corp is not actually governed by the hierarchy it presents.**
 
 She begins looking for the hidden root of authority.
 
@@ -149,9 +149,9 @@ HANA MUST DIG DEEPER
 PRIME LEARNS MORE ABOUT HOW A CAPABLE ADVERSARY THINKS
 ```
 
-Hana believes she is closing on McCluster.
+Hana believes she is closing on McCluster Corp.
 
-In parallel, **Prime is using her pursuit to improve McCluster and Site 0 against people exactly like her**.
+In parallel, **Prime is using her pursuit to improve McCluster Corp and Site 0 against people exactly like her**.
 
 ---
 
@@ -193,7 +193,7 @@ She realizes the hidden authority layer is not simply an executive service accou
 
 She is close to proving three things:
 
-1. multiple supposedly separate McCluster systems share an undisclosed highest-trust dependency;
+1. multiple supposedly separate McCluster Corp systems share an undisclosed highest-trust dependency;
 2. the dependency behaves like a continuously authenticated identity rather than an ordinary static credential;
 3. the identity appears to be **biologically/living-human anchored** and associated with Site 0.
 
@@ -211,7 +211,7 @@ This is the point where her value as an adversarial tester is overtaken by the r
 
 # 7. Operation GLASSHOUSE — the public truth
 
-The public / ordinary McCluster version of GLASSHOUSE remains substantially intact.
+The public / ordinary Equity Uprise version of GLASSHOUSE remains substantially intact.
 
 Hana participates in an operation at the fictional **North River Medical Logistics Hub** in northern New Jersey.
 
@@ -293,7 +293,7 @@ She dies **immediately before the final corroboration step**.
 
 The material she has accumulated is enough to show that she was investigating something real, but not enough—without her context and final linkage—to compel an outsider to accept the Living Root conclusion.
 
-Her NIS superiors know she was investigating McCluster, but they do not possess the complete internal context Hana carried in her head.
+Her NIS superiors know she was investigating McCluster Corp, but they do not possess the complete internal context Hana carried in her head.
 
 Prime ensures no clean posthumous package exists that simply exposes him after her death.
 
@@ -345,7 +345,7 @@ Aya expects that, once inside, she will eventually find:
 - hidden command relationships;
 - contradictory incident evidence;
 - unexplained safety overrides;
-- or some other proof that McCluster deliberately concealed the truth.
+- or some other proof that McCluster Corp deliberately concealed the truth.
 
 Helen Clarke recognizes Aya's technical value and gives her legitimate audit/reconstruction access before Aya becomes a full Field-T operator.
 
@@ -448,7 +448,7 @@ He has **starved it of confirming evidence while allowing the visible institutio
 
 This is the deepest part of the capture arc.
 
-Aya eventually becomes one of the people most likely to defend McCluster against simplistic criticism from outsiders.
+Aya eventually becomes one of the people most likely to defend Equity Uprise against simplistic criticism from outsiders.
 
 She can truthfully say:
 
@@ -528,7 +528,7 @@ That is what makes the eventual truth devastating.
 
 At PRIM3 opening Aya's working conclusion is approximately:
 
-> **McCluster is dangerous because powerful institutions make terrible decisions under pressure, not because there is a secret monster controlling everything.**
+> **McCluster Corp is dangerous because powerful institutions make terrible decisions under pressure, not because there is a secret monster controlling everything.**
 
 The audience is allowed to accept that interpretation with her for a long time.
 
@@ -558,7 +558,7 @@ That activates something Aya thought she had settled.
 
 Writer-level relationship function:
 
-> **McCluster does not simply teach Aya to distrust McCluster. He reopens a question Aya had emotionally survived by deciding it was closed.**
+> **McCluster does not simply teach Aya to distrust McCluster Corp. He reopens a question Aya had emotionally survived by deciding it was closed.**
 
 This creates another reason their bond becomes dangerous to Prime.
 
@@ -594,7 +594,7 @@ That produces several simultaneous wounds:
 - professional betrayal;
 - epistemic betrayal;
 - self-doubt;
-- guilt over defending McCluster;
+- guilt over defending Equity Uprise;
 - guilt over doubting her original instincts;
 - and fear that every positive relationship she formed inside the organization was somehow part of Prime's design.
 
@@ -665,7 +665,7 @@ Hana is an NIS technical intelligence officer. Prime knows. Prime uses her inves
 
 ## Hana's knowledge before death
 
-Hana knows she is working for the NIS and investigating McCluster. She knows McCluster has a hidden cross-system authority layer and strongly suspects a living human root connected to Site 0. She does not possess the complete later dual-board picture.
+Hana knows she is working for the NIS and investigating McCluster Corp. She knows McCluster Corp has a hidden cross-system authority layer and strongly suspects a living human root connected to Site 0. She does not possess the complete later dual-board picture.
 
 ## Prime's knowledge
 
@@ -675,7 +675,7 @@ Prime knows Hana's intelligence affiliation, her real objective, her investigati
 
 Aya knows Hana as mentor/friend/engineer. She believes GLASSHOUSE was a serious governance failure and once suspected something more sinister. After two years without proof and with extensive positive experience inside McCluster, she has partially abandoned the conspiracy-level interpretation.
 
-## Ordinary McCluster knowledge
+## Ordinary Equity Uprise knowledge
 
 Most personnel know only that Hana was a respected technical specialist who died during GLASSHOUSE after an argument over safety-state uncertainty and continuation.
 
@@ -705,7 +705,7 @@ Prime's role:
 
 The Republic of Korea's real intelligence service is the **National Intelligence Service (NIS)**. The real NIS publicly describes responsibilities including overseas intelligence, economic-security/industrial-security concerns, counterintelligence, cyber security, AI and other national-security fields.
 
-Hana Lee, her NIS assignment, McCluster, Prime, Operation GLASSHOUSE and every espionage event in this file are **fictional**.
+Hana Lee, her NIS assignment, McCluster Corp as written here, Prime, Operation GLASSHOUSE and every espionage event in this file are **fictional**.
 
 Do not attribute this fictional operation to any real NIS officer, real Korean institution, Yale, KAIST, Ulsan, or any real company.
 
