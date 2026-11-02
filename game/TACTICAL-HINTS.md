@@ -26,6 +26,11 @@ suggestion. This supersedes earlier ideas of requiring an equation for every bas
      marked `independent:false` when it took retries.
 4. The hint **never acts**: no move, no AP spent (`autoAction:false`).
 
+## Target-bound challenges
+A host may pass `target` (the tile the player is previewing). The challenge then asks about that tile, the
+public part carries `geometry` {origin, target, dx, dy} so the board can draw the two runs, and the target is
+part of the binding: swapping it after solving makes the session stale.
+
 ## What the evaluator sees (fog of war)
 Only `playerProjection(state)`: own squad, board geometry, cover, blockers, objectives and the hostiles
 the player knows. Default "known" rule uses supported mechanics only (a living squad member has line of
@@ -34,9 +39,10 @@ sight and the hostile is within that member's `detectionRadius`); a host fog lay
 suggestion and the binding are identical whether or not an unseen hostile exists (tested).
 
 ## How it scores (deterministic, explicit weights — `WEIGHTS`)
-Candidates: HOLD, plus every MOVE tile the resolver allows (square grid, Manhattan distance ≤
-`moveRange`, same floor, in bounds, unoccupied by a known unit). Blocker tiles are excluded even though
-the resolver's `moveUnit` does not path-check them (a suggestion should be sensible as well as legal).
+Candidates: HOLD, plus every MOVE tile reachable by an **orthogonal step path over known geometry**
+(`knownPaths`: walls and known units block a step; steps ≤ `moveRange`). That is stricter than the
+resolver's `moveUnit`, which only checks destination distance; the phone preview uses the same function,
+so the board never offers a tile the hint would refuse. Unknown hostiles can still block the real move.
 For each candidate, using the resolver's own `shotPreview` on the projected board:
 - objective progress (tiles closer to the nearest open objective; `battlefield.objectiveTiles`),
 - expected incoming damage from known hostiles (Σ hit% × damage, crits included),
@@ -47,8 +53,8 @@ Ties within `tieEpsilon` are reported. The wording always says "strong given wha
 ## Known limits (stated, not invented)
 - Objectives and LAB nodes have no positions in the resolver; positions come from
   `battlefield.objectiveTiles`. Without them the hint says no objective tile is known.
-- `moveUnit` has no pathfinding; a suggested tile may be unreachable around walls in a future renderer
-  with waypoint pathing — the evaluator follows the current resolver rule.
+- `moveUnit` itself has no pathfinding (destination distance only); hints and the preview path-check over
+  known walls. Making `moveUnit` enforce the same path is an engine rule change for the owner to approve.
 - A hostile the player cannot see may occupy a suggested tile; the resolver will then refuse the move.
 - Threat stats unknown to the player are the resolver's defaults; no damage/visibility rule is invented.
 - Square grid only. A hex adapter must be a separate, separately verified module.

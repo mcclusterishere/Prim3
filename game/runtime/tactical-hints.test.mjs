@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { createState, beginPlayerPhase, moveUnit, shotPreview } from './tactical-resolver.mjs';
 import {
   playerProjection, knownEnemyIds, legalCandidates, evaluate, parseAnswer, createChallenge,
-  openHint, answerHint, revealAnswer, bindingKey, WEIGHTS
+  openHint, answerHint, revealAnswer, bindingKey, WEIGHTS, knownPaths
 } from './tactical-hints.mjs';
 
 const BIND = { tenantId: 'tenant-a', playerId: 'player-1', missionId: 'TR02' };
@@ -196,4 +196,29 @@ test('hints only in the player phase; a unit with no AP gets HOLD only', () => {
   const s = board();
   const spent = moveUnit(moveUnit(s, 'E1', { x: 2, y: 1 }, 'MOVE'), 'E1', { x: 3, y: 1 }, 'MOVE');
   assert.deepEqual(legalCandidates(playerProjection(spent), 'E1').map((c) => c.action), ['HOLD']);
+});
+
+test('paths: a tile behind a known wall is not offered even when its Manhattan distance is in range', () => {
+  // E1 at (0,0) range 2; a wall column at x=1 for y=0..1 → (2,0) is 2 tiles by Manhattan but 4+ steps around the wall
+  const s = beginPlayerPhase(createState({ width: 5, height: 5,
+    units: [{ id: 'E1', faction: 'PLAYER', role: 'E', x: 0, y: 0, moveRange: 2 }],
+    blockers: [{ x: 1, y: 0 }, { x: 1, y: 1 }] }));
+  const p = playerProjection(s);
+  const tiles = legalCandidates(p, 'E1').filter((c) => c.action === 'MOVE').map((c) => `${c.x},${c.y}`);
+  assert.ok(!tiles.includes('2,0'), 'behind the wall: unreachable in 2 steps');
+  assert.ok(tiles.includes('0,2'));
+  const { pathTo } = knownPaths(p, 'E1');
+  assert.deepEqual(pathTo(0, 2), [{ x: 0, y: 1 }, { x: 0, y: 2 }], 'the path is orthogonal steps, deterministic');
+  for (const c of legalCandidates(p, 'E1')) if (c.action === 'MOVE') assert.ok(c.steps >= Math.abs(c.x) + Math.abs(c.y));
+});
+
+test('a challenge can be tied to the previewed destination; changing the target makes it stale', () => {
+  const s = board();
+  const { session, response } = openHint(BIND, s, 'E1', { target: { x: 3, y: 2 } });
+  assert.deepEqual(response.geometry, { origin: { x: 1, y: 1 }, target: { x: 3, y: 2 }, dx: 2, dy: 1 }, 'the board can highlight origin, target and the two runs');
+  assert.deepEqual(session.challenge.secret.answer.value, { n: 3, d: 1 });
+  const moved = { ...session, target: { x: 4, y: 4 } };
+  assert.equal(answerHint(moved, BIND, s, '3').response.code, 'STALE_BOARD', 'a client that swaps the target cannot reuse the solved proof');
+  assert.throws(() => openHint(BIND, s, 'E1', { target: { x: 40, y: 2 } }), /TARGET_OUT_OF_BOUNDS/);
+  assert.equal(createChallenge(BIND, playerProjection(s), 'T1').public.geometry, null, 'non-spatial challenges highlight nothing');
 });
