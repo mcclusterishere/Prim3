@@ -29,7 +29,7 @@ owner_supplied: 2026-11-02 (made with ChatGPT; original procedural Blender geome
 | R04 | Sensor beacon | none | **New ability.** Needs a canon rule first |
 | R05 | Light recon armor | R 03 Light soft vest | Matches |
 | R06 | Observation optic | R 10 Compact binoculars (+11 pouch) | Matches |
-| T01 | Technical carbine | none | **Conflicts with canon:** T carries "a sidearm only, no long gun" (LOADOUTS.md, T section) |
+| T01 | Technical carbine | none at level 1 | **Owner decided (2026-11-02):** T has no main gun at level 1; the main arm is control of technology. T01 becomes T's **level-two** main arm candidate. See `../../field-technical/T-LEVEL1-CONTROL-DRAFT.md` |
 | T02 | Specialist backup | T Holstered sidearm | Matches |
 | T03 | Control terminal | T Field cyberdeck (on its deck sling) | Matches the role. Canon is an open clamshell deck held at the waist |
 | T04 | Sync Pulse puck | none | **New ability.** It is the T-device area effect the owner proposed; it needs a canon rule (radius, what it affects, AP) before it is used |
@@ -43,7 +43,7 @@ owner_supplied: 2026-11-02 (made with ChatGPT; original procedural Blender geome
    - Day and Night looks: squad teal, threats red.
 
    Keep role colours as a new rule, or recolour the drafts black?
-2. **T01:** drop it (canon), or change canon to give T a long gun?
+2. ~~T01~~ decided: level-two main arm; level one is technology control (see `T-LEVEL1-CONTROL-DRAFT.md`).
 
 ## Before production
 
