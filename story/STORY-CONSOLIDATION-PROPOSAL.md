@@ -43,6 +43,7 @@ This document does three things. It merges three storylines that grew up apart i
 | 11 | Song #21 is not available yet. | **PENDING** | §5.3; E18 stays open |
 | 12 | High Alert memory owners: "pair that with the cast." | **RESOLVED** | `story/HIGH-ALERT-MEMORY-ANCHORS.md` |
 | 13 | "If somebody dies, they die … I think it's more cool." Season 1 deaths allowed; the owner picks. | **RESOLVED** (restriction removed; candidates listed) | §3.7; `seasons/SEASON-01.md` |
+| 14 | "We should have a whole cast of people." | **DRAFTED** (plan by role, no new canon names) | §9 |
 | 4 | "All storyline missions are planned" applies except to real emergencies; E05, E06 and E16 stay emergencies. | **RESOLVED** | §3.1, §3.6, §5 |
 
 **Promotion to canon.** Under `AGENTS.md` "Change control", the approved sections still enter canon through a pull request that states existing canon, replacement, reason, downstream files and owner approval. Each approved item below carries those five fields in a box marked **CHANGE CONTROL**. Everything not marked **OWNER-APPROVED** stays **PROPOSED**.
@@ -61,6 +62,7 @@ This document does three things. It merges three storylines that grew up apart i
 6. Globe game alignment
 7. Housekeeping fixes (problem → fix → files)
 8. Owner questions
+9. Expanded ensemble plan (DRAFT)
 
 ---
 
@@ -569,3 +571,34 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 12. **E03's facility.** **RESOLVED 2026-11-03:** approved; the facility opening is the North River hub's reopening (`episodes/S01E03-OSINT.md`).
 13. **Song #21.** **PENDING (owner, 2026-11-03):** not available yet. E18 stays a protected open slot; nothing is filled from existing songs.
 14. **JANUS.** **RESOLVED 2026-11-03:** adopted, adapted to "clone of McCluster" (`story/BENJI-CHASE-JANUS-ORIGIN-CANON.md`).
+
+---
+
+# 9. Expanded ensemble plan (DRAFT — owner direction 2026-11-03)
+
+The owner: "We should have a whole cast of people." This section is a **draft plan by role**. It writes no new names as canon. Every new person still passes the character creation gate (`AGENTS.md`: story function, relationship to PRIM2 and the cohort, discipline, desire/fear/contradiction/failure mode, season entry, visual description, owner approval).
+
+## 9.1 Where the cast is today
+
+`CANON.md` §3: 39 recurring slots (24 Equity Uprise / McCluster Corp mains, Maren Quill, Pylon, PRIM2, 12 Hitman figures), plus promoted outsiders (Hana, Ren, Tariq, Zayd, Bigga Lex) and a 48-person Legacy/Freelancer development pool (`story/CAST-NATIONS.md`, PROPOSED). The 2026-11-03 decisions open three gaps at once: regional presences need crews; the cover rule needs a named media crew; Season 1 deaths need people who can be lost and replaced.
+
+## 9.2 The gaps, and how many people fill them
+
+| Gap | Why it is a gap | Proposed size | How they enter |
+|---|---|---|---|
+| **E operators (PRIM side)** | Arjun is the only dedicated PRIM-side Field-E; Miguel covers E in E02 from Defense. Benji, the first E the player plays, is Hitman. | +3 to +4 | Two from the Legacy/Freelancer pool promoted through E05/E10 (Arjun's line already has a dead Field-E mentor and living contacts); one or two as regional-crew E leads. |
+| **F4 media crew** | Every planned mission now opens mid-shoot; the shoot needs a director, a camera operator, a sound/drone tech and an editor who recur and can notice things (Cover "noticed" and "burned" outcomes, §3.4). | +4 to +5 | Introduced in LVL-02's onboarding shoot and LVL-03's reopening shoot; one is the person who notices Aya leave the take. |
+| **Regional presences** | Agents are posted abroad with full crews (owner, 2026-11-03). Each region needs a lead agent and a small crew (field, technical, support, media). | Start with 4 regions × 3–4 recurring people = 12 to 16; more regions as globe content grows | Through the globe (one region at a time), Halo variants, and episodes where a main is posted abroad. Region choice follows the cast's heritage first (Halo "character jurisdiction/heritage" rule), e.g. Japan for Aya's line, South Korea for Hana's. |
+| **Hitman side** | 12 named Hitman figures against 24 PRIM mains; Benji's board needs depth, especially with Apex Tactical Corp now a Hitman company and the 50-state chapter proposal (branch `feature/hitman-50-state-chapters-20261019`). | +6 to +10 | Apex Tactical Corp staff (security lead, contracts/front-office face, equipment), two or three chapter captains, and the LVL-01 video crew (Hitman's creative voice). Brandon (Hitman-era, PROPOSED in the Benji origin file) is a historical addition. |
+| **Replacements and vacancies** | Season 1 deaths are allowed; the death law says replacements inherit the vacancy, not the personality, and arrive with uneven relationships (`CANON.md` §4). | as deaths occur | From the Legacy/Freelancer pool, regional crews (a posting ends early) or new hires, never auto-generated. |
+| **Support layer** | Facilities, cohort support, HR/finance and legal recur in canon traces (e.g. the remote HR/finance authority in `story/PRIME-LURK-LEDGER.md`) without faces. | +3 to +4 | Grace's Cohort Support line and Helen's governance line. |
+
+**Total:** roughly **+30 to +40** recurring people over seven seasons, taking the immediate cast from 39 to about 70–80. Density stays as canon sets it: 6–7 meaningful named presences per ordinary episode, 7–10 preferred (`CANON.md` §2); the larger cast spreads across regions, boards and seasons rather than crowding each episode.
+
+## 9.3 Rules for adding people
+
+1. **Use the roster first** (`CANON.md` §3). Promote from the 48-person pool before inventing.
+2. **One character at a time** through the creation gate; nobody becomes canon in a batch.
+3. **Every newcomer is tied to someone already loved.** A regional lead is a main's former colleague; a media-crew member is Maren's or Priya's hire; a Hitman captain owes Benji or resents him.
+4. **Regional crews are people, not pins.** Each needs an ordinary Tuesday, a reason to be there and a relationship to HQ.
+5. **Fiction stays fiction.** No real people, companies or agencies are written as characters; the real platform accounts are not cast lists.
