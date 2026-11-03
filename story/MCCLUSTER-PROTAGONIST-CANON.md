@@ -81,6 +81,8 @@ The reverse-reveal structure remains.
 
 **Ghost is McCluster during the Whip Equipped period.** "The Ghost Years" is the structural name of that life stage, not a second person.
 
+**Ghost is a state, not an alias (owner decision, 2026-11-03).** "Ghost" names McCluster's **ghost mode** in the Whip Equipped years: "he's been ghosted from the view of everyone … under the radar." It is an era and a way of living, not a name he goes by, and it has no link to Benji.
+
 ## The name mystery
 
 The shared name between the protagonist and McCluster Corp is intentional story pressure.

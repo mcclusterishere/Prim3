@@ -422,7 +422,7 @@ Most episodes take the rule naturally (see the "proposed cover" column in §5). 
 
 **Real-world note.** The platform account "Hitman Benji / Benji Chase" belongs to the owner's fiction (owner, 2026-11-03). Story files say nothing about any real person.
 
-**Ghost (reported, not decided).** Canon says **Ghost is McCluster during the Whip Equipped period**; "the Ghost Years" is the structural name for ages 26–33 (`story/MCCLUSTER-PROTAGONIST-CANON.md`; `story/MCCLUSTER-HITMAN-ORIGIN-CANON.md` §14). No canon ties Ghost to Benji. Separately, **PRIM2 is "Ghost in the Wires"** and becomes a "Ghost-class" advisor (`CANON.md` §17–§18). The rhyme between the man who vanished from the grid and the man who never left it looks deliberate. The open question is whether "Ghost" is only an era label or also a name McCluster went by (Owner Question 4).
+**Ghost (RESOLVED, owner 2026-11-03).** Ghost is McCluster's "ghost mode": "he's been ghosted from the view of everyone … under the radar." A state and an era (ages 26–33), not an alias, with no link to Benji. Canon text: `CANON.md` §9; `story/MCCLUSTER-PROTAGONIST-CANON.md`. The rhyme with PRIM2's "Ghost in the Wires" stays: one man went off the grid, the other never left the wires.
 
 ---
 
@@ -539,7 +539,7 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 1. **"ERT": types or order?** Is the trio's order Benji (E) → Aya (T) → Hana (R), or literally E → R → T (Benji → Hana → Aya)? *Recommendation:* Benji → Aya → Hana, so the player meets Aya before playing her memory of Hana.
 2. **"The order on paper."** Is it `story/EPISODE-PROGRESSION.md` (assumed and applied to the song lists)? *Recommendation:* yes; it is the canon order authority and matches the course map and the lyric crosswalk.
 3. **Benji Chase.** **RESOLVED 2026-11-03:** Benji is renamed Benjamin "Benji" Chase, McCluster's government-programme clone; dubbed Hitman Benji after the takeover; the account belongs to the owner's fiction (§4.4).
-4. **Ghost.** Is "Ghost" only the name of McCluster's age-26–33 life stage (canon today), or also a name he went by? *Recommendation:* era label only; keep the deliberate rhyme with PRIM2's "Ghost in the Wires".
+4. **Ghost.** **RESOLVED 2026-11-03:** McCluster's "ghost mode", a state/era, not an alias, no link to Benji.
 5. **Benji's nationality and type.** **RESOLVED 2026-11-03:** LVL-01 is Benjamin Chase (United States, E). The `CANON.md` §14 exception for authored solo introductions remains part of promoting §2.
 6. **Emergency exceptions.** Under "all storyline missions are planned", are E05 (exercise turns real) and E06 (storm) planned missions with unplanned complications, and is E16 Road Kit the one emergency? *Recommendation:* yes, as in §3.6.
 7. **Globe framing.** Agents "on location" from the one US HQ, or a canon change to regional desks? *Recommendation:* on location; no canon change.

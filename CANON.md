@@ -262,6 +262,8 @@ During approximately age 19–26 McCluster operates inside Hitman under his own 
 
 **Owner decisions (2026-11-02, 2026-11-03): Benjamin "Benji" Chase is not McCluster; he is McCluster's clone.** The character formerly called Royce is **Benjamin Chase**: a government-program clone of McCluster (an engineered derivative born seven years after him), "low-key McCluster's evil twin". He is Benjamin Chase until he takes over the Hitman organisation at about 19; after that he is dubbed **"Hitman Benji"**. He is a separate person with his own life and choices, the Hitman sovereign and the Hitman-side RAID attacker. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation, the refused chair) is McCluster's: "The retaliation he did was all him." Origin authority: `story/BENJI-CHASE-JANUS-ORIGIN-CANON.md` (reveal-gated to Evil Twin).
 
+**Ghost (owner decision, 2026-11-03):** McCluster's "ghost mode" — "he's been ghosted from the view of everyone … under the radar" — a state and an era (ages 26–33), not an alias, and unrelated to Benji.
+
 Alias note: game data and schemas keep their `royce_*` keys (for example `royce_incursion`); they refer to Benji.
 
 At approximately 26:
