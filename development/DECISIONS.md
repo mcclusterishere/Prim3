@@ -6,11 +6,11 @@ This ledger prevents AI collaborators from silently filling important blanks.
 
 ## Identity
 
-- [ ] Protagonist's civilian name
+- [x] Protagonist's civilian name — McCluster (`story/MCCLUSTER-PROTAGONIST-CANON.md`)
 - [ ] Presiding Prime's civilian name
-- [ ] Corporation name
+- [x] Corporation name — McCluster Corp; visible institution Equity Uprise (`CANON.md` §19)
 - [ ] College name
-- [ ] Primary city / region
+- [ ] Primary city / region — HQ is in the United States (`CANON.md` §19); exact city open
 - [ ] Story calendar year
 
 ## Season One
@@ -69,3 +69,4 @@ These are owner decisions, applied to canon on branch `claude/story-consolidatio
 - [x] **Season 1 deaths are allowed.** Owner: "If somebody dies, they die … I think it's more cool." The "first death deferred to S2E3" restriction is removed from `seasons/SEASON-01.md`; `episodes/README.md` notes that E06 is a death slot, not the earliest. Nobody is chosen; candidates with rationale are in the proposal §3.7.
 - [ ] **Expanded ensemble.** Owner: "We should have a whole cast of people." Drafted as a plan by role in the proposal §9 (more PRIM-side E operators, a recurring F4 media crew, regional crews, Hitman/Apex depth, replacements, support layer; roughly +30 to +40 people). No new names are canon; each character still goes through the creation gate.
 - [x] **Housekeeping: runtime standardised on canon's 20–35 minutes** (owner instruction 2026-11-03 to apply the listed housekeeping). Files: `ARCHITECT.md`, `story/EPISODE-PROGRESSION.md`, `story/SERIES-ARC.md`, `story/EPISODE-CAUSE-AND-ENTERTAINMENT-AUTHORITY.md`.
+- [x] **Housekeeping: `AGENTS.md`'s outdated naming ban reworded** (owner instruction 2026-11-03). It banned naming "the corporation, the college or the location" after canon had named the protagonist, the corporation and many places. It now forbids only naming what canon has not yet named without owner approval, and lists the fixed names. Identity items above ticked where canon decided them; the college, PRIM2's civilian name and the story year stay open.

@@ -38,14 +38,14 @@ Higher sources override lower sources.
 ## Never do silently
 
 - Do not change ages, time spans, succession rules or the seven-season structure.
-- Do not name unnamed characters, the corporation, the college or the location.
+- Do not name a character, college or location that canon has not yet named without owner approval. Names canon has fixed stay fixed: McCluster, McCluster Corp, Equity Uprise, Benjamin "Benji" Chase (Hitman Benji), Hitman, Apex Tactical Corp, Site 0, Bridgeport, Kariya, Ulsan, North River. Still unnamed: the college, PRIM2's civilian name, the story year.
 - Do not make Site 0 the protagonist's starting point.
 - Do not give characters unexplained magic, omniscience or instant hacking.
 - Do not turn educational dialogue into lectures detached from a dramatic problem.
 - Do not treat generated art as canon merely because it looks finished.
 - Do not replace the exact M helmet structure with a generic emblem or badge.
 - Do not make recruits routinely murder one another. The main attrition engine is dangerous mission work.
-- Do not flatten the presiding Prime into a simple villain.
+- Do not flatten PRIM2, the presiding holder, into a simple villain.
 
 ## Required labels
 
@@ -63,7 +63,7 @@ AI-generated contributions default to `DRAFT`.
 Design one character at a time. A character becomes canon only after these are approved:
 
 1. Story function
-2. Relationship to Prime and cohort
+2. Relationship to PRIM2 and cohort
 3. Technical or operational discipline
 4. Desire, fear, contradiction and failure mode
 5. Season entry and intended longevity
