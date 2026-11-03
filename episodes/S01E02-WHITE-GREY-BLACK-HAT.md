@@ -46,7 +46,7 @@ MCCLUSTER NARRATIVE STATE: C — supporting
 MCCLUSTER PLAY STATE: LOCKED OUT
 WILDCARD: unavailable — the player has not yet earned the emergency-call fantasy
 APEX: unavailable
-ROYCE: unavailable
+BENJI: unavailable
 ```
 
 Episode ownership determines depth, not exclusivity.

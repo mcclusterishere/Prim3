@@ -40,7 +40,7 @@ It is an **ensemble story** in which:
 - Chioma can own an episode about command;
 - Amira and Marc can own the consequences of GLASSHOUSE;
 - Jonas/Pylon can own a human-machine dependency story;
-- Royce can carry Hitman-side development without McCluster physically present;
+- Benji can carry Hitman-side development without McCluster physically present;
 - other multinational mains can own missions, relationships and ordinary-life conflicts.
 
 McCluster may be episode owner, co-owner, supporting, cameo, mentioned-only or absent.
@@ -91,15 +91,15 @@ S1E1 begins **inside the middle of the final RAID**.
 Three characters dominate this opening because this particular event belongs to the succession endgame:
 - **PRIM2** — presiding holder and performer;
 - **McCluster** — eventual PRIM3 challenger;
-- **Royce** — Hitman sovereign and McCluster's old rival.
+- **Benji** — Hitman sovereign and McCluster's old rival.
 
-McCluster's PRIM-side assault and Royce's separate Hitman-side assault are already attacking Site 0.
+McCluster's PRIM-side assault and Benji's separate Hitman-side assault are already attacking Site 0.
 
 PRIM2 performs **High Alert** as a diss record / psychological domination sequence aimed at the people trying to reach him.
 
 Seventeen bars trigger compressed memories corresponding to global Episodes 02–18.
 
-Crucially, a High Alert memory may show a **McCluster-adjacent fragment** even when the eventual full episode belongs emotionally to Aya, Chioma, Oksana, Marc, Amira, Jonas, Royce or somebody else.
+Crucially, a High Alert memory may show a **McCluster-adjacent fragment** even when the eventual full episode belongs emotionally to Aya, Chioma, Oksana, Marc, Amira, Jonas, Benji or somebody else.
 
 The opening therefore creates the illusion of a McCluster-centered mystery, while the rewind gradually reveals an ensemble world large enough to produce the succession.
 
@@ -133,15 +133,15 @@ The chronology catches the opening.
 
 McCluster enters Site 0 with a PRIM-side assault element.
 
-Royce enters with a separate Hitman-side assault element.
+Benji enters with a separate Hitman-side assault element.
 
-They have substantial pre-PRIM3 history: Royce is the rival who received the Hitman succession opportunity McCluster refused at 26.
+They have substantial pre-PRIM3 history: Benji is the rival who received the Hitman succession opportunity McCluster refused at 26.
 
 PRIM2 genuinely resists both.
 
 Every other member of both assault elements dies.
 
-McCluster and Royce become the sole survivors of their respective teams. Their first instinct is still to treat one another as threats. They nearly kill each other, then recognize PRIM2 as the common immediate target.
+McCluster and Benji become the sole survivors of their respective teams. Their first instinct is still to treat one another as threats. They nearly kill each other, then recognize PRIM2 as the common immediate target.
 
 They form a temporary alliance and **defeat PRIM2 together**.
 
@@ -153,10 +153,10 @@ Evil Twin begins **after PRIM2 has physically lost**.
 
 His remaining weapon is information.
 
-Under threat of execution, he reveals enough of the hidden board to force McCluster and Royce to reinterpret:
+Under threat of execution, he reveals enough of the hidden board to force McCluster and Benji to reinterpret:
 - PRIM and Hitman as sibling instruments;
 - McCluster's old Hitman life;
-- Royce's inherited chair;
+- Benji's inherited chair;
 - mirrored assets and unexplained operations;
 - the hidden Mantle;
 - and PRIM2's long history of controlling what different people were allowed to know.
@@ -194,8 +194,8 @@ A recurring character should have:
 
 ## Continuity shorthand
 
-- `Benji` / Benji Chase = a different person from McCluster (owner 2026-11-02); role open. McCluster's age-19-to-26 Hitman years are told under his own name.
+- `Benji` = Benjamin "Benji" Chase (Hitman Benji, formerly Royce), McCluster's clone and a different person (owner 2026-11-02/03). McCluster's age-19-to-26 Hitman years are told under his own name.
 - `Prime-00` / `P-00` = stale references to current **PRIM2** where used for McCluster's predecessor.
 - `Prime Negative One` = deprecated McCluster title; McCluster becomes **PRIM3**.
 - `Prime` = acceptable spoken shorthand for current PRIM holder.
-- High Alert endgame trio = **PRIM2 / McCluster / Royce**.
+- High Alert endgame trio = **PRIM2 / McCluster / Benji**.

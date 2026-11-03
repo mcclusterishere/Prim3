@@ -386,7 +386,7 @@ Protection should not be visible as arbitrary plot armor. The mission design sho
 
 McCluster and PRIM2 reduce cheap frustration. They do not erase permanent loss.
 
-Royce and other high-pressure threats should make loss feel possible without converting every encounter into roulette.
+Benji and other high-pressure threats should make loss feel possible without converting every encounter into roulette.
 
 ---
 

@@ -21,7 +21,7 @@ SECONDARY DEPTH: Oksana Bondarenko / Leila Hosseini / Chioma Okeke / Chris “Pe
 MCCLUSTER: mentioned/edge until emergency; off-board Wildcard if CRITICAL
 BASE PLAYABLE ROSTER: Grace / Rafael / Oksana
 APEX: unavailable
-ROYCE: eligible only if Hitman pressure warrants
+BENJI: eligible only if Hitman pressure warrants
 ```
 
 This supersedes the old McCluster-led secret-site investigation while retaining the authorized decommissioned-site/evidence-reconstruction mechanics.

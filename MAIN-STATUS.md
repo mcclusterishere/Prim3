@@ -154,7 +154,7 @@ Episode 2 has advanced beyond baseline into detailed production development:
 - tactical pressures combine physical Control, civilians, hostile recovery, evidence custody, service continuity and scope boundaries.
 
 Remaining migrated baselines:
-- E01 `High Alert / The Blip` — future PRIM2/McCluster/Royce; rewind Blip = McCluster age-33 reacquisition
+- E01 `High Alert / The Blip` — future PRIM2/McCluster/Benji; rewind Blip = McCluster age-33 reacquisition
 - E03 `Open Book` — Oksana/Rafael
 - E04 `The Human Layer` — Priya/Sora
 - E05 `Four Colors` — Chioma/Thandiwe
@@ -173,9 +173,9 @@ Remaining migrated baselines:
 - E18 open Song #21 container — Leila/Helen/McCluster story function locked
 
 Episodes 19–21 remain current endgame baselines:
-- E19 `RAID (HOT SITE)` — McCluster/Royce/PRIM2
-- E20 `Evil Twin` — PRIM2/McCluster/Royce
-- E21 `Ghost In The Wires` — McCluster/PRIM2; Royce secondary
+- E19 `RAID (HOT SITE)` — McCluster/Benji/PRIM2
+- E20 `Evil Twin` — PRIM2/McCluster/Benji
+- E21 `Ghost In The Wires` — McCluster/PRIM2; Benji secondary
 
 ---
 
@@ -226,9 +226,9 @@ No finale redshirts.
 
 Locked end state:
 - McCluster sole surviving PRIM-side attacker;
-- Royce sole surviving Hitman-side attacker;
+- Benji sole surviving Hitman-side attacker;
 - every other assault-team member dies;
-- McCluster + Royce defeat PRIM2 together.
+- McCluster + Benji defeat PRIM2 together.
 
 Exact team membership is chosen after Episodes 02–18 are developed enough to make each person's decision to enter RAID psychologically and operationally credible.
 
@@ -251,7 +251,7 @@ PRIM2 APEX REQUEST
 Standard scarcity:
 - McCluster Wildcard: **2 non-scripted calls / season**
 - PRIM2 Apex: **3 non-scripted calls / campaign**
-- Royce hostile incursion: **max 2 non-scripted / season**, max one per mission, two-mission cooldown
+- Benji hostile incursion: **max 2 non-scripted / season**, max one per mission, two-mission cooldown
 
 Mechanical identity:
 
@@ -259,7 +259,7 @@ Mechanical identity:
 ENSEMBLE -> solves the mission
 MCCLUSTER   -> restores optionality
 PRIM2    -> expands picture + authority
-ROYCE    -> destabilizes control + tempo
+BENJI    -> destabilizes control + tempo
 ```
 
 Interventions cannot resurrect dead characters or erase consequences.
@@ -282,7 +282,7 @@ Presiding holder during almost all of the show: **PRIM2**.
 
 McCluster becomes **PRIM3 only after validated succession**.
 
-Stale formal identities such as `Prime-00`, `Prime-0`, `Prime Negative One`, `PRIME-N1`, or Benji as a RAID attacker / McCluster alias must not control interpretation (Benji Chase is a different person, owner 2026-11-02).
+Stale formal identities such as `Prime-00`, `Prime-0`, `Prime Negative One`, `PRIME-N1`, or Benji as McCluster's alias must not control interpretation (Benji Chase is McCluster's clone and a different person, owner 2026-11-02/03).
 
 ---
 

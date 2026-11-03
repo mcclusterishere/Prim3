@@ -14,7 +14,7 @@ This file retains the LAB_NODE implementation concepts from an earlier tactical 
 Current governing files:
 - `game/TACTICAL-IT-MECHANICS-BIBLE.md` — primary technical/action grammar;
 - `game/LEARNING-MISSION-SOURCE-OF-TRUTH.md` — teaching loop;
-- `game/WILDCARD-INTERVENTION-AUTHORITY.md` — McCluster/PRIM2/Royce escalation;
+- `game/WILDCARD-INTERVENTION-AUTHORITY.md` — McCluster/PRIM2/Benji escalation;
 - `schemas/prm3-tactical-learning-mission.schema.json` — machine-readable mission contract;
 - `story/ENSEMBLE-POV-AUTHORITY.md` — named-character ownership.
 
@@ -205,8 +205,8 @@ McCluster may restore a route or temporarily cross-support a function. He cannot
 ### PRIM2
 PRIM2 may expose additional source information or change present authorization. He cannot skip physical prerequisites or validation merely because he holds the Mantle.
 
-### Royce
-Royce can attack the opportunity structure around technical work—Control, time, safety, Will, access—but he does not magically corrupt the answer key or become the technical objective himself unless the episode specifically makes his presence part of the system problem.
+### Benji
+Benji can attack the opportunity structure around technical work—Control, time, safety, Will, access—but he does not magically corrupt the answer key or become the technical objective himself unless the episode specifically makes his presence part of the system problem.
 
 ## 11. Learning Mastery
 
@@ -239,7 +239,7 @@ Every mission with technical learning must deliberately specify:
 - battlefield back-effects;
 - interruption conditions;
 - mission-state escalation thresholds;
-- Wildcard/Apex/Royce eligibility where applicable;
+- Wildcard/Apex/Benji eligibility where applicable;
 - learning mastery evidence;
 - relationship/debrief residue.
 

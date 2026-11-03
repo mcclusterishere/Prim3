@@ -13,12 +13,12 @@ The **High Alert music film is shown in S1E1 but occurs chronologically in the m
 
 **PRIM2** is the performer.
 
-McCluster's PRIM-side assault element and **Royce's Hitman-side assault element** are attacking Site 0 from different sides of PRIM2's hidden architecture. They are old rivals with pre-PRIM3 history, not strangers. Benji Chase is not one of the attackers.
+McCluster's PRIM-side assault element and **Benji's Hitman-side assault element** are attacking Site 0 from different sides of PRIM2's hidden architecture. They are old rivals with pre-PRIM3 history, not strangers. Benji is McCluster's clone; neither man knows it yet.
 
 High Alert belongs primarily to the endgame triangle:
 - **PRIM2** — defending the Mantle;
 - **McCluster** — eventual PRIM3 challenger;
-- **Royce** — surviving Hitman-side sovereign/challenger.
+- **Benji** — surviving Hitman-side sovereign/challenger.
 
 It is deliberately unlike most Episodes 02–18, whose emotional ownership may belong primarily to other ensemble characters.
 
@@ -241,7 +241,7 @@ S1E1 IMAGE
 
 ## MEMORY 14 — S5E3 / Trappin From The Cloud — Elastic
 
-**Flash:** two compatible hard cases/resources leave separated logistics lanes. One reaches a PRIM/McCluster mission; another reaches **Royce's Hitman people** elsewhere.
+**Flash:** two compatible hard cases/resources leave separated logistics lanes. One reaches a PRIM/McCluster mission; another reaches **Benji's Hitman people** elsewhere.
 
 **First-watch:** global logistics duplication.
 
@@ -307,7 +307,7 @@ The exact technical mechanism remains open until Song #21 is supplied.
 
 # Present-tense High Alert principles
 
-The remaining diss bars stay in RAID present tense and are aimed primarily at **McCluster, Royce and the surviving assault context**.
+The remaining diss bars stay in RAID present tense and are aimed primarily at **McCluster, Benji and the surviving assault context**.
 
 ## `I'm on High Alert.`
 
@@ -355,7 +355,7 @@ A powerful technique is to make High Alert show the **McCluster-adjacent fragmen
 
 Effective immediately:
 - performer = **PRIM2**;
-- Hitman surviving challenger = **Royce**, not Benji;
+- Hitman surviving challenger = **Benji** (Benjamin Chase, formerly Royce);
 - `P-00` as an easy readable root code is deprecated unless deliberately used as a historical cover artifact;
 - Aya/McCluster romance is not a relationship PRIM2 created;
 - PRIM2 does not need a physical cameo in each anchor;

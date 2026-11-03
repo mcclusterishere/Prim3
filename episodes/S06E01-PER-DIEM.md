@@ -21,7 +21,7 @@ SECONDARY DEPTH: Chioma Okeke / Arjun Mehta / Sari Wulandari / Mina “Halo” B
 MCCLUSTER: scripted from launch — rare ordinary-season McCluster PLAY episode
 WILDCARD COST: none; scripted mission
 APEX: eligible only if qualified CRITICAL state persists
-ROYCE: eligible as hostile escalation
+BENJI: eligible as hostile escalation
 ```
 
 This is intentionally one of the few ordinary-season missions where McCluster is playable from launch. By now the player has spent years learning other people's specialties, so McCluster's breadth finally feels exceptional instead of normal.
@@ -41,7 +41,7 @@ This is intentionally one of the few ordinary-season missions where McCluster is
 | Tone | Hitman control | Begins showing that his identity is not pure aggression; he cares about controlling tempo because chaos once cost him something not yet fully revealed. |
 | Rack | Hitman logistics | Deepens as the person everyone expects to have the right material at the right time; reliability becomes both affection and burden. |
 | Dez | Hitman adaptive operator | Sees McCluster's breadth from the opposite organizational lineage and becomes increasingly obsessed with whether versatility can become identity. |
-| Royce | conditional escalation | If he arrives, old history with McCluster changes everybody else's mission in seconds; he remains a story-level threat, not a random boss skin. |
+| Benji | conditional escalation | If he arrives, old history with McCluster changes everybody else's mission in seconds; he remains a story-level threat, not a random boss skin. |
 
 ---
 
@@ -85,7 +85,7 @@ Core line:
 7. McCluster initially volunteers to absorb the ugly shift; Valeria pushes back on the mythology that makes this admirable.
 8. Chioma forces a rotation plan rather than rewarding martyrdom.
 9. Parallel Hitman scenes with Mina/Tone/Rack/Dez deepen the opposing workforce before the final war.
-10. Optional Royce/Apex escalation may test the whole system.
+10. Optional Benji/Apex escalation may test the whole system.
 
 ---
 

@@ -24,13 +24,13 @@ No old procedural infiltration material in this file remains canon.
 
 # What the episode is
 
-`Evil Twin` begins **after McCluster and Royce have already defeated PRIM2 physically during RAID**.
+`Evil Twin` begins **after McCluster and Benji have already defeated PRIM2 physically during RAID**.
 
 McCluster is the sole surviving PRIM-side attacker.
-Royce is the sole surviving Hitman-side attacker.
+Benji is the sole surviving Hitman-side attacker.
 PRIM2 is critically injured, physically defeated and alive in Site 0's suspension/life-support architecture.
 
-McCluster and Royce initially believe they may be able to finish the conflict by killing him.
+McCluster and Benji initially believe they may be able to finish the conflict by killing him.
 
 PRIM2 reveals that his living identity remains entangled with the deepest trust root of the architecture and that immediate death could leave authority unresolved.
 
@@ -44,7 +44,7 @@ PRIM2's last weapon is not force.
 
 It is the fact that he knows more about the board than the two people who beat him.
 
-McCluster and Royce do not have to trust him.
+McCluster and Benji do not have to trust him.
 They have to determine which claims are true **before deciding whether killing him is safe**.
 
 The dramatic question is:
@@ -87,7 +87,7 @@ The player must follow provenance and authority relationships rather than trusti
 ```text
 PRIM2 MAKES A CLAIM
         ↓
-MCCLUSTER / ROYCE FIND THE SOURCE
+MCCLUSTER / BENJI FIND THE SOURCE
         ↓
 COMPARE INDEPENDENT EVIDENCE
         ↓
@@ -126,7 +126,7 @@ Best at:
 - cross-system inference;
 - verification discipline.
 
-### Royce
+### Benji
 Best at:
 - Hitman institutional context;
 - recognizing status/obligation relationships;
@@ -195,13 +195,13 @@ Strong PLAY outcome:
 - root dependency independently verified;
 - several PRIM2 historical claims corroborated;
 - false/self-serving claims identified;
-- McCluster↔Royce trust improves enough for succession work;
+- McCluster↔Benji trust improves enough for succession work;
 - critical evidence preserved.
 
 Weak but continuing outcome:
 - only the root-dependency claim is sufficiently established;
 - historical picture remains contradictory;
-- McCluster/Royce distrust deepens;
+- McCluster/Benji distrust deepens;
 - Episode 21 begins with higher uncertainty and fewer preserved records.
 
 Hard story state remains:
@@ -211,7 +211,7 @@ PRIM2 ALIVE
 PRIM2 PHYSICALLY DEFEATED
 MANTLE AUTHORITY UNRESOLVED
 MCCLUSTER NOT YET PRIM3
-ROYCE ALIVE
+BENJI ALIVE
 NEXT ACTION: SUCCESSION / PRIVILEGE TRANSFER
 ```
 

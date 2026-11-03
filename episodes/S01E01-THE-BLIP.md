@@ -15,13 +15,13 @@ branch: main
 
 ## Authority contract
 
-This file supersedes the old `Prime-00`, Benji-as-RAID-attacker, and first-discovery framing.
+This file supersedes the old `Prime-00`, Benji-as-McCluster, and first-discovery framing.
 
 Current truth:
 - the opening music film occurs during S7E1 `RAID (HOT SITE)`;
 - the performer/defender is **PRIM2**;
-- the two assault axes are **McCluster** and **Royce**;
-- Benji Chase is a different person from McCluster (owner decision, 2026-11-02) and is not a RAID attacker;
+- the two assault axes are **McCluster** and **Benji** (Hitman Benji);
+- Benjamin "Benji" Chase (formerly Royce) is McCluster's clone and a different person; he leads the Hitman-side assault (owner decisions 2026-11-02/03);
 - PRIM2 already knew of McCluster during the Ghost/Whip years;
 - McCluster's age-33 long-hair-to-waves reinvention disrupted simple identity continuity;
 - college makes McCluster institutionally visible again;
@@ -34,10 +34,10 @@ The pilot's chronological `blip` is therefore **reacquisition**, not first disco
 # Episode ownership / deployment
 
 ```text
-FUTURE OWNER TRIANGLE: PRIM2 / MCCLUSTER / ROYCE
+FUTURE OWNER TRIANGLE: PRIM2 / MCCLUSTER / BENJI
 CHRONOLOGICAL REWIND HUMAN ANCHOR: McCluster re-entering fixed life at 33
 MCCLUSTER PLAY STATE: scripted where used
-WILDCARD / APEX / ROYCE POOLS: not consumed by scripted pilot material
+WILDCARD / APEX / BENJI POOLS: not consumed by scripted pilot material
 ```
 
 The episode is allowed to foreground the succession triangle because it is the deliberate opening exception. It must still introduce the broader ensemble as an inhabited world.
@@ -50,7 +50,7 @@ The episode is allowed to foreground the succession triangle because it is the d
 |---|---|---|
 | PRIM2 | future principal | Shows confidence built on superior cross-board information, but also the first visible stress that two separate systems have produced challengers at once. |
 | McCluster | future attacker + chronological anchor | Future McCluster looks terrifyingly capable; rewind McCluster deliberately accepts fixed schedules, beginner status and being seen again. |
-| Royce | future attacker | Establishes that his hostility toward McCluster is personal and old without explaining why. |
+| Benji | future attacker | Establishes that his hostility toward McCluster is personal and old without explaining why. |
 | Aya | rewind workplace presence / future memory | First impression of McCluster is neither attraction nor suspicion alone: she notices the mismatch between beginner status and practiced systems awareness. |
 | Chioma | rewind institutional presence / future memory | Begins as somebody already taking responsibility for other people's coordination before formal authority fully catches up. |
 | Leila | rewind analytical presence / future memory | Notices classification/provenance irregularity around McCluster's intake without turning it into a conspiracy. |
@@ -65,7 +65,7 @@ Every appearance must produce at least a micro-write under `CAST-LIFECYCLE-ATTRI
 
 ## Future cold open — High Alert
 
-PRIM2 performs `High Alert` during the active final RAID while McCluster and Royce attack Site 0 from separate boards.
+PRIM2 performs `High Alert` during the active final RAID while McCluster and Benji attack Site 0 from separate boards.
 
 Seventeen compressed memory intrusions point toward Episodes 02–18. The memories may foreground people other than McCluster because the later episode belongs to whoever changed.
 

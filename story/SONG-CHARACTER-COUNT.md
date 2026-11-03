@@ -16,7 +16,7 @@ version: 1.1.0
 ## Order and continuity note (2026-11-02)
 
 - **Order:** sections now follow the written episode order in `EPISODE-PROGRESSION.md` (owner decision 2026-11-02: track order follows the order on paper; the assumption that the paper order is `EPISODE-PROGRESSION.md` is flagged for the owner). The old numbering (E06 Patch Work, E07 App Attacks, E15 RAID, E16 Evil Twin and so on) is kept in each heading as "was". The three songs the old census skipped (Got Wifi, Data Breach, Virus Types) and the open Song #21 slot have placeholders.
-- **Benji:** this census lists Benji as a separate person from McCluster. That matches the owner decision of 2026-11-02 (Benji Chase is a different person). It does **not** match canon on the RAID rows: canon's Hitman-side raider and survivor is **Royce** (`CANON.md` §16, §18). Read "Benji (raid feed)" and the E19 "Benji" row as Royce until the owner says otherwise.
+- **Benji:** this census lists Benji as the Hitman-side raider, separate from McCluster. That now matches canon: Benjamin "Benji" Chase (Hitman Benji, formerly Royce) is McCluster's clone and the Hitman-side raider and survivor (owner decisions 2026-11-02/03; `CANON.md` §9, §16, §18).
 - **Prime:** "Prime" here means **PRIM2** (`CANON.md` §7).
 - **Evil Twin (E20) flag:** the E20 census follows the old procedural SIM-swap / Hitgirl / Kiosk version. `story/missions/EVIL-TWIN.md` v2.0 makes Evil Twin PRIM2's confession and provenance verification after RAID and calls the procedural SIM-swap concept obsolete. The census is kept as lyric analysis only; it is not a cast list for the episode.
 - The remaining content is the original lyric census, unchanged.

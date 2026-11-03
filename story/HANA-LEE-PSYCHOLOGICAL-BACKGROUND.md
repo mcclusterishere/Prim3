@@ -241,7 +241,7 @@ UNEXPLAINED OVERRIDES
 → SITE 0 ASSOCIATION
 ```
 
-She does not fully discover the later McCluster/Royce architecture.
+She does not fully discover the later McCluster/Benji architecture.
 
 She does not yet possess the full answer.
 

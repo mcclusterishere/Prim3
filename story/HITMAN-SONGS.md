@@ -19,7 +19,7 @@ Recovered/development track names include:
 - `Parking Lot`
 
 Do not infer from this inventory that:
-- Benji Chase is the present-day Hitman sovereign or a RAID attacker (Benji Chase is a different person from McCluster, owner 2026-11-02; his role is open);
+- Benji is McCluster (Benji Chase is McCluster's clone, a different person; owner 2026-11-02/03);
 - the Hitman prequel must contain exactly six episodes;
 - McCluster joins at age 21;
 - McCluster takes over Hitman at the end;
@@ -28,11 +28,11 @@ Do not infer from this inventory that:
 Current character chronology:
 
 ```text
-MCCLUSTER — approximately age 19–26 (Benji Chase: separate person, role open)
+MCCLUSTER — approximately age 19–26 (Benjamin Chase, his clone, takes the chair at about 19 and becomes Hitman Benji)
 BIGGA LEX THE JET — McCluster's primary friendship/entry bridge
 LEX OFFERS SUCCESSION AT ~26
 MCCLUSTER REFUSES
-ROYCE RECEIVES THE SUCCESSION OPPORTUNITY
+BENJI RECEIVES THE SUCCESSION OPPORTUNITY
 ```
 
 Exact future prequel track-to-episode mapping should be rebuilt from the current event/psychology canon when that show enters production.

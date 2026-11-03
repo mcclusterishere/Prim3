@@ -22,7 +22,7 @@ MISSION LEAD: Oksana
 BASE PLAYABLE ROSTER: Oksana / Rafael / Valeria
 MCCLUSTER: edge/cameo; off-board Wildcard only if authored CRITICAL state is reached
 APEX: unavailable
-ROYCE: unavailable
+BENJI: unavailable
 ```
 
 ---

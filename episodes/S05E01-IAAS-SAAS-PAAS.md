@@ -21,7 +21,7 @@ SECONDARY DEPTH: Leila Hosseini / Grace Mbala / Jonas Weber / Amira Hassan / Mar
 MCCLUSTER: edge/mentioned; off-board Wildcard if CRITICAL
 BASE PLAYABLE ROSTER: Yonas plus named layer owners / analysts from recurring roster
 APEX: conditional on high-value CRITICAL state after McCluster arrival
-ROYCE: unavailable by default
+BENJI: unavailable by default
 ```
 
 This supersedes the old McCluster-as-cross-layer-coordinator story while preserving the service-model/dependency mechanics.

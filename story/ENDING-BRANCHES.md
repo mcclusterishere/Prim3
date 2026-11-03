@@ -20,7 +20,7 @@ Current WATCH canon is:
 
 ```text
 RAID
- -> McCluster + Royce physically defeat PRIM2
+ -> McCluster + Benji physically defeat PRIM2
  -> EVIL TWIN
  -> they verify that PRIM2's living root identity is still needed for clean succession
  -> GHOST IN THE WIRES

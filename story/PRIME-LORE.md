@@ -11,7 +11,7 @@ branch: main
 
 The presiding hidden leader during the main series is **PRIM2**, the third holder of the **Primary Root Identity Mantle**.
 
-`Prime` remains acceptable spoken shorthand. Older `Prime-00`, `P-00`, `Prime Negative One`, or Benji-as-RAID-attacker language is superseded by `PRIM-SUCCESSION-AUTHORITY.md`.
+`Prime` remains acceptable spoken shorthand. Older `Prime-00`, `P-00`, `Prime Negative One`, or Benji-as-McCluster language is superseded by `PRIM-SUCCESSION-AUTHORITY.md`.
 
 ---
 
@@ -123,7 +123,7 @@ He may evaluate McCluster over years, but PRIM3 is an ensemble series. PRIM2's e
 Relevant independent relationships include:
 - Hana — adversarial intelligence mind;
 - Aya — skeptic who becomes institutionally attached;
-- Royce — Hitman sovereign operating beneath a hidden higher board;
+- Benji — Hitman sovereign operating beneath a hidden higher board;
 - Helen — visible governance trying to build structures capable of surviving centralized authority;
 - Chioma / Thandiwe — competing future leadership models;
 - Jonas / Pylon — automation and interface dependence;
@@ -133,26 +133,26 @@ Do not reduce PRIM2 to `the man secretly watching McCluster`.
 
 ---
 
-# 7. McCluster / Royce / RAID
+# 7. McCluster / Benji / RAID
 
 During final RAID, two separate assault elements breach Site 0:
 
 - McCluster's PRIM-side element;
-- Royce's Hitman-side element.
+- Benji's Hitman-side element.
 
-McCluster and Royce are **not strangers**. They have significant pre-PRIM3 Hitman history. Royce received the succession opportunity McCluster refused when Bigga Lex retired.
+McCluster and Benji are **not strangers**. They have significant pre-PRIM3 Hitman history. Benji received the succession opportunity McCluster refused when Bigga Lex retired.
 
 PRIM2 genuinely resists both elements.
 
 The breach becomes catastrophic. Every other member of both assault elements dies.
 
-McCluster and Royce become the only survivors of their respective teams.
+McCluster and Benji become the only survivors of their respective teams.
 
 They encounter one another as old rivals whose histories have now been revealed to sit beneath the same hidden PRIM architecture.
 
 They nearly kill each other, then recognize PRIM2 as the common immediate target.
 
-**McCluster and Royce defeat PRIM2 together.**
+**McCluster and Benji defeat PRIM2 together.**
 
 PRIM2's body is critically damaged and returned to the suspension/life-support system.
 
@@ -162,7 +162,7 @@ PRIM2's body is critically damaged and returned to the suspension/life-support s
 
 `Evil Twin` begins after PRIM2 has been physically defeated.
 
-McCluster and Royce have every immediate reason to kill him.
+McCluster and Benji have every immediate reason to kill him.
 
 PRIM2's remaining weapon is information.
 
@@ -172,7 +172,7 @@ He reveals enough of the dual-board architecture to make one fact clear:
 
 The confession forces both survivors to reinterpret:
 - McCluster's Hitman history;
-- Royce's inherited Hitman sovereignty;
+- Benji's inherited Hitman sovereignty;
 - cross-board operations;
 - unexplained assistance/conflict;
 - the hidden PRIM office;

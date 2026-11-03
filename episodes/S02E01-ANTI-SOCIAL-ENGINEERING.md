@@ -22,7 +22,7 @@ MISSION LEAD: Nusrat for access response; Priya for event/public consequence
 BASE PLAYABLE ROSTER: Priya / Nusrat / Miguel / event-support specialist from existing roster
 MCCLUSTER: cameo/edge; off-board Wildcard if CRITICAL
 APEX: unavailable
-ROYCE: no random incursion
+BENJI: no random incursion
 ```
 
 ---

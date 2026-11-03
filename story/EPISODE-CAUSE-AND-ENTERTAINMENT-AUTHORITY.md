@@ -86,7 +86,7 @@ Across Episodes 02–18, the default authoring bias is that **most episodes prim
 
 A strong recurring character should be capable of carrying an episode in which McCluster never enters the room.
 
-Global Episode 01 / High Alert is a deliberate exception because it opens inside the future succession conflict and therefore foregrounds **PRIM2, McCluster and Royce**.
+Global Episode 01 / High Alert is a deliberate exception because it opens inside the future succession conflict and therefore foregrounds **PRIM2, McCluster and Benji**.
 
 ---
 

@@ -15,7 +15,7 @@ height: 6 ft 0 in
 
 McCluster is one of PRIM3's central main characters, not the mandatory owner of every episode.
 
-His seven academic years provide a major chronological/succession spine, but episodes may belong primarily to Aya, Chioma, Royce, Amira, Marc, Helen, Jonas, Pylon, Thandiwe or other characters. McCluster may be supporting, cameo, mentioned-only or absent.
+His seven academic years provide a major chronological/succession spine, but episodes may belong primarily to Aya, Chioma, Benji, Amira, Marc, Helen, Jonas, Pylon, Thandiwe or other characters. McCluster may be supporting, cameo, mentioned-only or absent.
 
 > **The succession belongs to McCluster. The world belongs to everybody.**
 
@@ -67,26 +67,26 @@ Key identity continuity:
 - enters Hitman through friendship/culture/music;
 - operates inside Hitman under his own name approximately age 19–26;
 - refuses Bigga Lex the Jet's succession at 26;
-- allows rival Royce to inherit that opportunity;
+- allows rival Benji to inherit that opportunity;
 - lives the mobile Ghost/Whip Equipped years age 26–33;
 - returns to college at 33;
 - ultimately becomes PRIM3 at approximately 40.
 
-Benji Chase is a separate person (owner decision, 2026-11-02; see `CANON.md` §9). Benji Chase's role is open.
+Benjamin "Benji" Chase is McCluster's clone and a separate person, not McCluster's alias (owner decisions 2026-11-02 and 2026-11-03; see `CANON.md` §9). Benji Chase's role is open.
 
 ## Relationship to PRIM2
 
 PRIM2 does not first discover McCluster in Season One.
 
-He traces McCluster during the Ghost years through the Royce/Bigga Lex succession history, loses simple visual continuity around McCluster's dramatic age-33 appearance change, and reacquires high confidence when Site 0's fictional identity-resolution system is updated.
+He traces McCluster during the Ghost years through the Benji/Bigga Lex succession history, loses simple visual continuity around McCluster's dramatic age-33 appearance change, and reacquires high confidence when Site 0's fictional identity-resolution system is updated.
 
 McCluster spends most of the series unaware of the full relationship.
 
-## Relationship to Royce
+## Relationship to Benji
 
-Royce is seven years younger than McCluster and is an old Hitman rival.
+Benji is seven years younger than McCluster and is an old Hitman rival.
 
-McCluster knows at 26 that Royce would probably fight or kill for the chair McCluster is refusing. McCluster walks away anyway and Royce inherits the opportunity.
+McCluster knows at 26 that Benji would probably fight or kill for the chair McCluster is refusing. McCluster walks away anyway and Benji inherits the opportunity.
 
 RAID therefore reunites two people with substantial history, not strangers.
 

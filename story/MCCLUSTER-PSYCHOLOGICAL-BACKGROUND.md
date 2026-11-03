@@ -47,7 +47,7 @@ THEN
 HITMAN — AGE 19–26
 The audience finally sees the earliest adult layer:
 first college attempt, campus dealing, Bigga Lex the Jet, violent hardening,
-Royce, and the first succession McCluster refuses.
+Benji, and the first succession McCluster refuses.
 ```
 
 The franchise therefore moves **backward in chronology as it moves forward in release order**.
@@ -248,9 +248,9 @@ That can produce innovation, overextension, or danger depending on the context.
 
 Inside Hitman, McCluster operates under his own name.
 
-**Owner decision (2026-11-02): Benji Chase is a different person from McCluster.** Earlier canon that made "Benji" McCluster's Hitman-era identity is withdrawn. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation years, the refused chair) stays McCluster's and is told under his own name. Benji Chase's role in that history is **open** (owner question in `story/STORY-CONSOLIDATION-PROPOSAL.md`). Benji Chase is not the Hitman-side RAID attacker: that is Royce.
+**Owner decisions (2026-11-02, 2026-11-03): Benjamin "Benji" Chase is not McCluster; he is McCluster's clone.** The character formerly called Royce is **Benjamin Chase**: a government-program clone of McCluster (an engineered derivative born seven years after him), "low-key McCluster's evil twin". He is Benjamin Chase until he takes over the Hitman organisation at about 19; after that he is dubbed **"Hitman Benji"**. He is a separate person with his own life and choices, the Hitman sovereign and the Hitman-side RAID attacker. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation, the refused chair) is McCluster's: "The retaliation he did was all him." Origin authority: `story/BENJI-CHASE-JANUS-ORIGIN-CANON.md` (reveal-gated to Evil Twin).
 
-Which Hitman-era music belongs to McCluster's age-19-to-26 life, and which to Benji Chase, is open.
+Songs credited to Hitman Benji belong to Benjamin Chase's reign; which Hitman-era music belongs to McCluster's own years is open song by song.
 
 The tonal gap between McCluster at 19–26 and thirty-three-year-old McCluster is intentional. McCluster has seven additional years of experience, attempted legitimacy, homelessness, infrastructure work, love, betrayal and reinvention before PRIM3 begins.
 
@@ -308,11 +308,11 @@ McCluster refuses for two separate reasons.
 
 First, McCluster knows Lex would come back if McCluster were ever in serious trouble. Once Lex is a father, McCluster no longer considers that loyalty his to spend. He does not want a future emergency involving him to pull Lex back into danger and potentially cost Lex's children their father.
 
-Second, **Royce**, one of McCluster's biggest Hitman rivals, is approximately seven years younger than McCluster. When McCluster is twenty-six, Royce is about nineteen. Royce is nastier, more openly power-hungry and dangerous enough that McCluster believes accepting Lex's seat would likely create a violent succession conflict.
+Second, **Benji**, one of McCluster's biggest Hitman rivals, is approximately seven years younger than McCluster. When McCluster is twenty-six, Benji is about nineteen. Benji is nastier, more openly power-hungry and dangerous enough that McCluster believes accepting Lex's seat would likely create a violent succession conflict.
 
-McCluster therefore concludes that the chair is not worth Lex's children's risk, his own continued attachment to Hitman, or a future war with Royce.
+McCluster therefore concludes that the chair is not worth Lex's children's risk, his own continued attachment to Hitman, or a future war with Benji.
 
-He **gracefully bows out** and gives Royce the succession opportunity.
+He **gracefully bows out** and gives Benji the succession opportunity.
 
 This is the first major power-refusal of McCluster's adult life.
 
@@ -322,7 +322,7 @@ A permanent question follows McCluster:
 
 > **Is refusing corrupt power enough if you knowingly allow a worse person to inherit it?**
 
-Royce becomes a living counterfactual: the path McCluster might have continued down if he had wanted the chair badly enough.
+Benji becomes a living counterfactual: the path McCluster might have continued down if he had wanted the chair badly enough.
 
 ---
 
@@ -346,7 +346,7 @@ The mobility has several meanings at once:
 2. **Inventory:** the same vehicle may later be sold or traded.
 3. **Transportation:** his home moves with him.
 4. **Capital:** a vehicle can be converted back into cash through a sale/flip.
-5. **Low profile:** Royce and old enemies cannot rely on a stable neighborhood, residence or daily geographic routine to locate him easily.
+5. **Low profile:** Benji and old enemies cannot rely on a stable neighborhood, residence or daily geographic routine to locate him easily.
 
 The story should not claim McCluster is literally invisible to governments, databases or every surveillance system. The more precise truth is that he is **difficult for old enemies to pin down through ordinary street knowledge and predictable routine because there is often no durable answer to "where does McCluster live?"**
 
@@ -504,16 +504,16 @@ Unknown to McCluster, **Presiding Prime has already begun studying him during th
 
 Prime has recently assumed the Prime position and is trying to understand Hitman's operational lineage and how to use the organization effectively.
 
-Royce presents an anomaly:
+Benji presents an anomaly:
 
 - he is young;
 - violent;
 - ambitious;
-- and yet appears to have received a major Hitman position without taking it through the violence Prime would expect from someone like Royce.
+- and yet appears to have received a major Hitman position without taking it through the violence Prime would expect from someone like Benji.
 
 Prime asks, in effect:
 
-> **Who gave Royce the chair?**
+> **Who gave Benji the chair?**
 
 That inquiry leads backward through Bigga Lex to **the successor candidate who refused the chair**: McCluster.
 
@@ -767,7 +767,7 @@ PRIM3 must never treat S1E1 as the first moment Prime becomes aware that McClust
 The deeper writer truth is:
 
 1. Prime assumes his position and inherits/observes Hitman.
-2. Prime questions how young Royce received his position without the expected violent seizure.
+2. Prime questions how young Benji received his position without the expected violent seizure.
 3. The investigation leads to Bigga Lex and the former successor candidate who refused the chair.
 4. Prime identifies that candidate as McCluster.
 5. Prime locates/traces McCluster during the Ghost/Whip Equipped years.
@@ -980,7 +980,7 @@ The following information may exist in writer canon without automatically becomi
 - the New Mexico retaliation;
 - Bigga Lex's succession offer;
 - Lex's children as a reason McCluster refuses;
-- McCluster giving Royce the position;
+- McCluster giving Benji the position;
 - the complete Ghost Years chronology;
 - vehicle homelessness as a continuous seven-year lifestyle;
 - the cocaine period;
@@ -1005,7 +1005,7 @@ They may influence:
 - why he takes betrayal so seriously;
 - why he sometimes appears overqualified for a beginner;
 - why Prime's attention toward him feels unusually specific;
-- why Royce matters emotionally;
+- why Benji matters emotionally;
 - why Aya encounters unusual resistance around trust;
 - why McCluster's relationship to succession differs from a conventional ambition story;
 - why older contacts might fail to recognize him immediately;
@@ -1027,7 +1027,7 @@ There are at least three distinct music/story bodies in the wider McCluster univ
 
 1. **PRIM3 music** — belongs to the PRIM3 age-33-to-40 story and its mission/curriculum architecture.
 2. **Whip Equipped music** — belongs to the age-26-to-33 Whip Equipped story.
-3. **Hitman-era music** — belongs to the age-19-to-26 Hitman story where compatible with detailed canon; which songs are McCluster's and which are Benji Chase's is open.
+3. **Hitman-era music** — belongs to the age-19-to-26 Hitman story where compatible with detailed canon; songs credited to Hitman Benji are Benjamin Chase's.
 
 Do not freely move songs among these bodies because a lyric happens to fit another era.
 

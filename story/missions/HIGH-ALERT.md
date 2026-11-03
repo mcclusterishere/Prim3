@@ -17,7 +17,7 @@ It is **not** an ordinary Season One tutorial operation.
 
 The performer is **PRIM2**, the presiding Mantle holder.
 
-McCluster and Royce are already attacking Site 0 from separate PRIM-side and Hitman-side assault paths.
+McCluster and Benji are already attacking Site 0 from separate PRIM-side and Hitman-side assault paths.
 
 PRIM2 genuinely resists them.
 
@@ -37,7 +37,7 @@ The audience initially receives an impossible amount of information without the 
 They see:
 - PRIM2 under High Alert state;
 - McCluster much later in his life than the college story that follows;
-- Royce as a dangerous parallel challenger whose full relationship to McCluster is withheld;
+- Benji as a dangerous parallel challenger whose full relationship to McCluster is withheld;
 - Site 0;
 - flashes from seventeen events that have not yet been experienced.
 
@@ -84,7 +84,7 @@ It must **not** teach the player that McCluster is the default campaign pawn.
 If PLAY is used in the future fragment:
 - it is a scripted endgame glimpse;
 - McCluster's presence consumes no Wildcard Authorization;
-- Royce is a scripted hostile/parallel principal rather than a random incursion;
+- Benji is a scripted hostile/parallel principal rather than a random incursion;
 - PRIM2 is the active defender;
 - the interface may intentionally withhold mechanics/context that will only become understandable later.
 
@@ -98,7 +98,7 @@ PRIM2 is not performing because he likes spectacle more than survival.
 
 The music film externalizes his psychological and information advantage during an active crisis.
 
-He knows enough about McCluster, Royce and the prior seven years to weaponize memories whose meanings are intimate, institutional or operational.
+He knows enough about McCluster, Benji and the prior seven years to weaponize memories whose meanings are intimate, institutional or operational.
 
 He does **not** have to have caused each event.
 
@@ -125,8 +125,8 @@ Keep all facility defense systems fictional/non-actionable.
 The sequence ends without answering:
 - who PRIM2 is;
 - why McCluster is attacking him;
-- who Royce is;
-- why McCluster and Royce are on different sides;
+- who Benji is;
+- why McCluster and Benji are on different sides;
 - what PRIM means;
 - why the memories matter;
 - whether anybody survives.

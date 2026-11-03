@@ -15,7 +15,7 @@ Current authority:
 
 ## Current rule
 
-S1E1 shows PRIM2 performing `High Alert` during the future RAID while McCluster and Royce attack Site 0 from separate boards.
+S1E1 shows PRIM2 performing `High Alert` during the future RAID while McCluster and Benji attack Site 0 from separate boards.
 
 Seventeen short memory intrusions point toward Episodes 02–18.
 
@@ -42,7 +42,7 @@ Evil Twin      -> some fragments gain cross-board provenance meaning
 Ghost          -> PRIM2's institutional-gravity footprint becomes legible
 ```
 
-Do not use old entries that make Benji a present-day attacker or McCluster's alias (Benji Chase is a different person, owner 2026-11-02), an upload ending, procedural Evil Twin infiltration, or PRIM2 as the literal cause of every event.
+Do not use old entries that make Benji McCluster's alias (Benji Chase is McCluster's clone, a different person; owner 2026-11-02/03), an upload ending, procedural Evil Twin infiltration, or PRIM2 as the literal cause of every event.
 
 The previous table remains recoverable through Git history for possible visual/lyric association salvage.
 

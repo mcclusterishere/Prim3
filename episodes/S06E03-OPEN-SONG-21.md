@@ -27,7 +27,7 @@ The episode's **story function, ensemble ownership and continuity job are locked
 PRIMARY OWNERS: Leila Hosseini / Helen Clarke / McCluster
 SECONDARY DEPTH: Li Wei / Chioma Okeke / Thandiwe Nkosi / Amira Hassan / Aya Shinoda / Marc Dubois / Jonas Weber / Pylon / Grace Mbala
 MCCLUSTER: shared scripted story principal; exact PLAY role depends on supplied song/mission
-ROYCE: not required physically; Hitman/succession evidence may matter
+BENJI: not required physically; Hitman/succession evidence may matter
 PRIM2: hidden authority becomes materially provable enough to justify challenge
 ```
 
@@ -94,7 +94,7 @@ After Song #21 exists, lock:
 - primary mission objective;
 - hidden complication;
 - exact CRITICAL/TERMINAL states;
-- exact McCluster/PRIM2/Royce gameplay involvement;
+- exact McCluster/PRIM2/Benji gameplay involvement;
 - five graded outcome channels as adapted to the supplied song.
 
 Do not force a prewritten technical lesson onto the song.

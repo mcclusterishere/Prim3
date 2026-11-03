@@ -19,7 +19,7 @@ McCluster:
 - re-enters college at 33;
 - is one of the ensemble's central characters, not the mandatory owner of every episode;
 - operates as the canonical Wildcard/Flex when present;
-- has his own age-19-to-26 Hitman history in the prequel (Benji Chase is a separate person, owner 2026-11-02);
+- has his own age-19-to-26 Hitman history in the prequel (Benji Chase is his clone, a separate person; owner 2026-11-02/03);
 - and becomes **PRIM3** after final succession at approximately 40.
 
 The old visual asset associated with `PRIME-N1` may continue to function as the approved **McCluster post-succession suit design** until its asset path is renamed. The old filename does not preserve the old title.

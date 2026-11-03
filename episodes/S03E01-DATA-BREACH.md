@@ -21,7 +21,7 @@ SECONDARY DEPTH: Grace Mbala / Helen Clarke / Amira Hassan / Chioma Okeke / Sabl
 BASE PLAYABLE ROSTER: Leila / Li / Grace / authorized technical support
 MCCLUSTER: mentioned or absent by default; off-board Wildcard if CRITICAL
 APEX: unavailable
-ROYCE: eligible only under authored/campaign pressure
+BENJI: eligible only under authored/campaign pressure
 ```
 
 This supersedes the older Grace-owned/McCluster-file-centered version. McCluster's record anomaly may remain a secondary mystery beat, but the episode is fundamentally about governance, identity and human consequence.

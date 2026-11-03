@@ -21,22 +21,22 @@ This document does three things. It merges three storylines that grew up apart i
 
 | Date | Owner wording (as relayed) | What it approves | Status |
 |---|---|---|---|
-| 2026-11-02 | "Sign off on the proposal. I agree with the one storyline. I agree with the first three missions. ERT. Yes. And they should be solo missions." | §1 (the one-storyline spine) and §2 (the first three missions: Royce, Aya, Hana; E, R, T; solo) | **OWNER-APPROVED 2026-11-02** |
+| 2026-11-02 | "Sign off on the proposal. I agree with the one storyline. I agree with the first three missions. ERT. Yes. And they should be solo missions." | §1 (the one-storyline spine) and §2 (the first three missions: Benji, Aya, Hana; E, R, T; solo) | **OWNER-APPROVED 2026-11-02** |
 | 2026-11-02 | "When I say characters, I do mean like the types, but also the names … this is the name of the character, this is where they're from, this is the type of character they are … different backstories." | The character cards in §2.3 | **OWNER-APPROVED 2026-11-02** (as part of §2) |
 | 2026-11-02 | "The mission should start mid professional shoot and under concealment, low key … Unless it's an emergency mission. All storyline missions are planned." | The opening rule in §3.1 | **OWNER DIRECTION 2026-11-02** (the rule); its application to E05, E06 and E16 is PROPOSED (§3.6) |
-| 2026-11-02 | "the first three character types that get developed are the first three missions"; "the first three characters who have the most lore about them, like possibly Royce for America, fucking Hannah, and somebody else … who has the most lore behind them." | The reading of "first three" as Royce, Hana, Aya (§2.1) | **OWNER-APPROVED 2026-11-02** |
+| 2026-11-02 | "the first three character types that get developed are the first three missions"; "the first three characters who have the most lore about them, like possibly Royce for America, fucking Hannah, and somebody else … who has the most lore behind them." | The reading of "first three" as Benji, Hana, Aya (§2.1) | **OWNER-APPROVED 2026-11-02** |
 | 2026-11-02 | "we need to clean that internship that's secretly an exam type shit." | Removal of the internship/Apex-exam version (already applied on this branch; §1.4) | **APPLIED** |
 
 **Promotion to canon.** Under `AGENTS.md` "Change control", the approved sections still enter canon through a pull request that states existing canon, replacement, reason, downstream files and owner approval. Each approved item below carries those five fields in a box marked **CHANGE CONTROL**. Everything not marked **OWNER-APPROVED** stays **PROPOSED**.
 
-**What the owner's "ERT" means.** The sign-off says "ERT". This proposal reads it as the three field types the trio covers (E, R, T), with the order Royce (E) → Aya (T) → Hana (R) argued in §2.2. If "ERT" was meant as the *order*, LVL-02 and LVL-03 swap (Royce E → Hana R → Aya T). That is Owner Question 1.
+**What the owner's "ERT" means.** The sign-off says "ERT". This proposal reads it as the three field types the trio covers (E, R, T), with the order Benji (E) → Aya (T) → Hana (R) argued in §2.2. If "ERT" was meant as the *order*, LVL-02 and LVL-03 swap (Benji E → Hana R → Aya T). That is Owner Question 1.
 
 ---
 
 ## Contents
 
 1. One spine **(OWNER-APPROVED)**
-2. The first three missions: Royce, Aya, Hana **(OWNER-APPROVED)**
+2. The first three missions: Benji, Aya, Hana **(OWNER-APPROVED)**
 3. The creative-layer cover: rule, structure, mechanic, beat sheets
 4. Characters: how they build on each other
 5. Songs ↔ episodes, in the written order
@@ -75,7 +75,7 @@ The spine has one engine: **watching and being watched**. The office is where pe
 
 **The three watchers form a ladder the audience climbs one rung per act:**
 
-- Seasons 1–2: the audience watches the ensemble, and the first three missions (§2) show three people who each live under a cover: Royce (the sovereign whose crew shoots music videos), Aya (the engineer whose job is also her investigation) and Hana (the engineer who was also something else).
+- Seasons 1–2: the audience watches the ensemble, and the first three missions (§2) show three people who each live under a cover: Benji (the sovereign whose crew shoots music videos), Aya (the engineer whose job is also her investigation) and Hana (the engineer who was also something else).
 - Seasons 3–5: the audience learns the building watches back (E07 Exposure, E12 House of Eyes, E13 Shared Responsibility). Aya's settled explanation of Hana's death starts to crack.
 - Seasons 6–7: the watcher is found. E17 reopens Hana's trail; E18 makes the root verifiable; RAID, Evil Twin and Ghost take the root, hear the confession and reduce the watcher to a read-only Ghost.
 
@@ -122,35 +122,36 @@ So "first three" means **three named characters, each with a field type**. McClu
 |---|---|---|
 | after McCluster, 1 | **Aya Shinoda** | 59 KB psychology file, intelligence canon, Kkeutori canon, relationship web; owns E08 and E17 |
 | 2 | **Hana Lee** | 13 KB psychology file plus large shares of the intelligence and Kkeutori canon; the featured South Korea globe pin |
-| 3 | **Royce** | Hitman cast and dossier entries, three finale episodes, E01 co-owner; deepest on the unmerged JANUS branch |
+| 3 | **Benji** | Hitman cast and dossier entries, three finale episodes, E01 co-owner; deepest on the unmerged JANUS branch |
 
-PRIM2 has more files than Royce, but he cannot be an opening solo operator without breaking the anti-spoiler law (§2.6).
+PRIM2 has more files than Benji, but he cannot be an opening solo operator without breaking the anti-spoiler law (§2.6).
 
 ## 2.2 The trio, the order, and why
 
 | LVL | Episode / song (unchanged) | Solo character | Type | Why here |
 |---|---|---|---|---|
-| **01** | S1E1 · **High Alert** / The Blip | **Royce** | **E** — Entry | E01 already belongs to the succession triangle (PRIM2 / McCluster / Royce). Royce is the one member of it who can be *played* in Episode 1 without spoiling anything: PRIM2 must stay unseen, McCluster stays withheld from PLAY (`CANON.md` §5). E is the loudest type to teach first: entry, control, protection, tempo. |
+| **01** | S1E1 · **High Alert** / The Blip | **Benji** | **E** — Entry | E01 already belongs to the succession triangle (PRIM2 / McCluster / Benji). Benji is the one member of it who can be *played* in Episode 1 without spoiling anything: PRIM2 must stay unseen, McCluster stays withheld from PLAY (`CANON.md` §5). E is the loudest type to teach first: entry, control, protection, tempo. |
 | **02** | S1E2 · **White Grey Black Hat** / Permission Slip | **Aya Shinoda** | **T** — Technical | Aya is already the T on E02's canon roster (Nusrat / Miguel / Aya). The song is about permission and masks; Aya's whole life is an investigation done with legitimate access. T is the type that most needs a permission lesson, because "a door being physically open does not make what is behind it authorized" (`game/SCOPE-ENVELOPE-AUTHORITY.md` §1). |
 | **03** | S1E3 · **OSINT** / Open Book | **Hana Lee**, played as **Aya's reconstruction of GLASSHOUSE** | **R** — Recon | OSINT is the R song: build a corroborated picture from sources that repeat each other. Aya joined Equity Uprise to investigate Hana's death (`CANON.md` §11). Placing Hana third means the player meets Aya first, so Hana arrives as someone Aya loved and is trying to understand. Hana is the trio's finale because she is the deepest secret. |
 
-**Why Royce → Aya → Hana and not "ERT" as an order.** Aya must be met before Hana, because Hana's mission is Aya's reconstruction. With Royce → Hana → Aya the player would play a dead woman's memory before meeting the living woman who is remembering her. The emotional order "the threat, the investigator, the investigated" also builds outward: a man who owns a crew, a woman who owns a question, and a ghost who owned a secret. (Owner Question 1.)
+**Why Benji → Aya → Hana and not "ERT" as an order.** Aya must be met before Hana, because Hana's mission is Aya's reconstruction. With Benji → Hana → Aya the player would play a dead woman's memory before meeting the living woman who is remembering her. The emotional order "the threat, the investigator, the investigated" also builds outward: a man who owns a crew, a woman who owns a question, and a ghost who owned a secret. (Owner Question 1.)
 
 **Solo rule (owner, approved).** Each of LVL-01 to LVL-03 is a solo mission for one named character, who covers their own type's role alone. Other characters may be present in WATCH and on comms, but no second operator is on the PLAY board.
 
 ## 2.3 Character cards (OWNER-APPROVED as a format; content from canon unless marked)
 
-### Royce — LVL-01
+### Benjamin "Benji" Chase (Hitman Benji; formerly Royce) — LVL-01
 
 | Field | Card |
 |---|---|
-| Name | **Royce** (no surname in canon) |
-| From | **United States** (implied, not stated). Canon never gives Royce a nationality. He comes up through Hitman's US circle (Bigga Lex, Bridgeport, upstate New York), and the unmerged `feature/royce-janus-origin-20261019` branch makes him a product of a US government-linked program. "Royce for America" agrees with all of that; **recording it as canon is part of this approval.** |
-| Type | **E — Entry** (functional). Royce is not a PRIM operator; his canon seat is Hitman `H-Authority-01 — Sovereign` (`story/PHENOTYPE-IDENTITIES.md`). In PLAY his kit and verbs are E's: entry, physical control, protection, tempo. His canon specialty ("command pressure, battlefield authority, loyalty networks, reading fear and ambition") reads as E's temperament. |
+| Name | **Benjamin "Benji" Chase**. Benjamin Chase until he takes over the Hitman organisation at about 19; dubbed **"Hitman Benji"** after (owner, 2026-11-03: "Rename Royce Benjamin Chase … He gets dubbed Hitman Benji after he takes over the organization"). Canon called him Benji from September to November 2026. |
+| From | **United States** (owner, 2026-11-02/03). Hitman's US circle (Bigga Lex, Bridgeport, upstate New York); born of a US government-linked programme (`story/BENJI-CHASE-JANUS-ORIGIN-CANON.md`). |
+| Origin (hidden) | McCluster's clone, an engineered derivative made by a government programme: "low-key McCluster's evil twin" (owner, 2026-11-03). Reveal-gated to Evil Twin (S7E2). |
+| Type | **E — Entry** (functional). Benji is not a PRIM operator; his canon seat is Hitman `H-Authority-01 — Sovereign` (`story/PHENOTYPE-IDENTITIES.md`). In PLAY his kit and verbs are E's: entry, physical control, protection, tempo. His canon specialty ("command pressure, battlefield authority, loyalty networks, reading fear and ambition") reads as E's temperament. |
 | Age at LVL-01 | about 26 (seven years younger than McCluster, who is 33) |
 | Core backstory | Took the Hitman chair at about 19, when the older successor candidate refused it. Has ruled for seven years. Hates any suggestion the chair was a hand-me-down. "Authority becomes identity, so challenges to authority feel like challenges to existence." (`story/HITMAN-CHARACTER-DOSSIERS.md`) |
-| What LVL-01 reveals | That Royce protects his own personally, and that something larger than Hitman is watching him. It plants his canon fear, "discovering his entire reign existed inside a larger PRIM2 architecture", without naming PRIM2. |
-| What LVL-01 must not reveal | Who refused the chair (McCluster); the Hitman prequel; JANUS; that Royce is the RAID attacker in the cold open. |
+| What LVL-01 reveals | That Benji protects his own personally, and that something larger than Hitman is watching him. It plants his canon fear, "discovering his entire reign existed inside a larger PRIM2 architecture", without naming PRIM2. |
+| What LVL-01 must not reveal | Who refused the chair (McCluster); the Hitman prequel; the clone origin (JANUS); that he is the RAID attacker in the cold open. The shared `SUBJECT REACQUIRED` overlay is the one permitted provenance clue. |
 
 ### Aya Shinoda — LVL-02
 
@@ -180,7 +181,7 @@ PRIM2 has more files than Royce, but he cannot be an opening solo operator witho
 
 | Episode | Canon today | After this change | Cost to canon | Mitigation |
 |---|---|---|---|---|
-| E01 / LVL-01 | Owners PRIM2 / McCluster / Royce. WATCH-first; any PLAY is an authored tutorial fragment (`episodes/S01E01-THE-BLIP.md` "PLAY contract") | WATCH unchanged (future cold open, 17 flashes, rewind, the Blip). **PLAY becomes Royce's solo**, set in the present day on the morning of the Blip. | (a) The player's first PLAY is a Hitman-side character, while canon says PLAY enters "the current PRIM mission/team perspective" (`CANON.md` §14). (b) Royce's present-day life appears in Episode 1 rather than later. | (a) Add an exception to §14: authored solo introductions may enter a non-PRIM perspective. (b) Royce is already an E01 owner; the solo reveals only what the cold open already implies, that Royce exists and is dangerous. |
+| E01 / LVL-01 | Owners PRIM2 / McCluster / Benji. WATCH-first; any PLAY is an authored tutorial fragment (`episodes/S01E01-THE-BLIP.md` "PLAY contract") | WATCH unchanged (future cold open, 17 flashes, rewind, the Blip). **PLAY becomes Benji's solo**, set in the present day on the morning of the Blip. | (a) The player's first PLAY is a Hitman-side character, while canon says PLAY enters "the current PRIM mission/team perspective" (`CANON.md` §14). (b) Benji's present-day life appears in Episode 1 rather than later. | (a) Add an exception to §14: authored solo introductions may enter a non-PRIM perspective. (b) Benji is already an E01 owner; the solo reveals only what the cold open already implies, that Benji exists and is dangerous. |
 | E02 / LVL-02 | Owners Nusrat / Miguel; roster Nusrat / Miguel / Aya; McCluster locked out; `game/LVL-02-PERMISSION-SLIP.md` is the only full level doc | Nusrat and Miguel **keep WATCH ownership** (the human story, the access dispute, "He stopped when she told him to"). **PLAY becomes Aya's solo**: her protected technical window inside Harborline, with Nusrat as off-board scope authority on comms and Miguel holding the exterior. | "Episode 2 must teach the player that PRIM3 is an ensemble before the game teaches the McCluster rescue fantasy" (`game/LVL-02-PERMISSION-SLIP.md`). A solo teaches an individual first. | The ensemble is still taught, through WATCH and comms; the McCluster rescue fantasy is still withheld. Ensemble PLAY begins at LVL-04, where the three types the player has now learned meet on one board. `game/LVL-02-PERMISSION-SLIP.md` needs a solo revision (O1–O7 kept). |
 | E03 / LVL-03 | Owners Oksana / Rafael; roster Oksana / Rafael / Valeria; a missing equipment shipment before a facility opening; a scapegoated junior coordinator | Oksana and Rafael **keep WATCH ownership**: their Open Book case stays the A-plot. **Proposed link:** the facility that is opening is the **North River Medical Logistics Hub, reopening after GLASSHOUSE**. F4 is shooting the reopening film, and Aya is on that shoot. **PLAY is Hana's solo, as Aya's reconstruction.** | (a) Aya's investigation becomes active in Season 1, where canon has it dormant until McCluster (§16) and E17. (b) GLASSHOUSE has never been playable. | (a) The reconstruction ends **inconclusive by design**. Aya concludes "governance failure", which is exactly the settled belief canon gives her, and the inconclusive result *deepens* her capture. The hole she could not explain is what E12 echoes and E17 reopens. (b) The player plays Aya's evidence model, not the event (§2.5). |
 | E04 onward | Ensemble missions | Unchanged. LVL-04 is the first ensemble board, now explicitly the moment E, R and T meet. | — | — |
@@ -208,17 +209,17 @@ PRIM2 has more files than Royce, but he cannot be an opening solo operator witho
 | E20 (Evil Twin) | PRIM2's confession: he removed the information that would have stopped the machine | — |
 
 > **CHANGE CONTROL — §2 (OWNER-APPROVED 2026-11-02)**
-> - **Existing canon:** LVL-01 WATCH-first with an authored PLAY fragment; LVL-02 ensemble (Nusrat / Miguel / Aya); LVL-03 ensemble (Oksana / Rafael / Valeria); no solo missions; GLASSHOUSE never playable; Royce has no stated nationality.
-> - **Proposed replacement:** LVL-01 Royce (US, E) solo; LVL-02 Aya (Japan, T) solo; LVL-03 Hana (South Korea, R) solo as Aya's reconstruction; WATCH ownership of E02/E03 unchanged; the E03 facility becomes the reopening North River hub; `CANON.md` §14 gains an authored-solo exception; Royce's nationality recorded as US.
+> - **Existing canon:** LVL-01 WATCH-first with an authored PLAY fragment; LVL-02 ensemble (Nusrat / Miguel / Aya); LVL-03 ensemble (Oksana / Rafael / Valeria); no solo missions; GLASSHOUSE never playable; Benji has no stated nationality.
+> - **Proposed replacement:** LVL-01 Benji (US, E) solo; LVL-02 Aya (Japan, T) solo; LVL-03 Hana (South Korea, R) solo as Aya's reconstruction; WATCH ownership of E02/E03 unchanged; the E03 facility becomes the reopening North River hub; `CANON.md` §14 gains an authored-solo exception; Benji's nationality recorded as US.
 > - **Reason:** owner direction (the first three characters with the most lore are the first three missions; solo; E/R/T).
-> - **Downstream files:** `CANON.md` §14 and §21; `episodes/S01E01-THE-BLIP.md`, `S01E02-WHITE-GREY-BLACK-HAT.md`, `S01E03-OSINT.md`; `game/LVL-02-PERMISSION-SLIP.md`; new level docs for LVL-01 and LVL-03; `story/EPISODE-MISSION-BIBLE.md` §7; `story/ENSEMBLE-POV-AUTHORITY.md`; `story/PRIME-LURK-LEDGER.md` rows 01–03; `story/HITMAN-CAST.md` (Royce nationality); `learning/course/course-feed.json` M01–M03 sources; `story/missions/HIGH-ALERT.md`.
+> - **Downstream files:** `CANON.md` §14 and §21; `episodes/S01E01-THE-BLIP.md`, `S01E02-WHITE-GREY-BLACK-HAT.md`, `S01E03-OSINT.md`; `game/LVL-02-PERMISSION-SLIP.md`; new level docs for LVL-01 and LVL-03; `story/EPISODE-MISSION-BIBLE.md` §7; `story/ENSEMBLE-POV-AUTHORITY.md`; `story/PRIME-LURK-LEDGER.md` rows 01–03; `story/HITMAN-CAST.md` (Benji nationality); `learning/course/course-feed.json` M01–M03 sources; `story/missions/HIGH-ALERT.md`.
 > - **Owner approval:** 2026-11-02, "I agree with the first three missions. ERT. Yes. And they should be solo missions." Order within the trio: Owner Question 1.
 
 ## 2.6 Anti-spoiler checks for the trio
 
 - PRIM2 is never seen, named or voiced in LVL-01–03. His only trace is institutional: an identity overlay, a missing four minutes.
 - McCluster is not playable. He appears in WATCH (E01 intake; E02 onboarding; E03 edge).
-- No Hitman prequel: LVL-01 never says who refused the chair or that Royce and McCluster know each other.
+- No Hitman prequel: LVL-01 never says who refused the chair or that Benji and McCluster know each other.
 - No JANUS (unmerged; and its genetics thread is the owner's call).
 - Hana's NIS role, GLASSHOUSE causality and the Living Root stay hidden until the ladder in §2.5 allows them.
 - "Background truth is not disclosure permission" (`CANON.md` §8) governs every line of dialogue in the three solos.
@@ -291,26 +292,26 @@ Phase mapping onto the existing model `BRIEF → APPROACH → ON_OBJECTIVE → E
 
 ## 3.5 Beat sheets for the first three missions
 
-### LVL-01 — Royce (E) — "The Blip" — solo
+### LVL-01 — Benji (E) — "The Blip" — solo
 
-**The shoot.** A Hitman-affiliated artist's music video at a fictional harbour-side cold-storage yard outside Bridgeport, Connecticut, rented as a location. Hitman began "through friendship, music and shared danger"; its people already live behind studio and street-media identities (`story/HITMAN-CHARACTER-DOSSIERS.md` "Civilian Tuesday" lines). Royce is on set as what everyone thinks he is: the man who paid for the video. He is in the frame for one shot, standing still, which is why he can stand anywhere.
+**The shoot.** A Hitman-affiliated artist's music video at a fictional harbour-side cold-storage yard outside Bridgeport, Connecticut, rented as a location. Hitman began "through friendship, music and shared danger"; its people already live behind studio and street-media identities (`story/HITMAN-CHARACTER-DOSSIERS.md` "Civilian Tuesday" lines). Benji is on set as what everyone thinks he is: the man who paid for the video. He is in the frame for one shot, standing still, which is why he can stand anywhere.
 
-**Planned objective.** One of his people, **Rae "Twin" Colton**, has been held inside the yard's office by the yard's private security since the night before, over a debt that is not hers. Royce booked the shoot to be inside the fence in daylight with a reason to have trucks, lights and twenty people. He came himself because he does not send people to fix things that touch his name.
+**Planned objective.** One of his people, **Rae "Twin" Colton**, has been held inside the yard's office by the yard's private security since the night before, over a debt that is not hers. Benji booked the shoot to be inside the fence in daylight with a reason to have trucks, lights and twenty people. He came himself because he does not send people to fix things that touch his name.
 
 | Beat | What happens | Type lesson |
 |---|---|---|
-| COVER | Cold open after the High Alert cold open and the rewind title. Mid-take: playback, smoke, a dancer, a drone on a tether. Royce concealed among the crew. | E reads a space as routes, doors and people. |
+| COVER | Cold open after the High Alert cold open and the rewind title. Mid-take: playback, smoke, a dancer, a drone on a tether. Benji concealed among the crew. | E reads a space as routes, doors and people. |
 | TELL 1 (seen) | The yard's cameras, dead all week according to the location scout, are live. Their status lights change in sequence, one after another, as if something is walking down the line. | — |
 | TELL 2 (heard) | A guard on the radio: "the update went through overnight." | — |
 | TELL 3 (logged) | The crew's drone loses its link for a second each time it passes the office. | — |
-| BREAK | The camera nearest the set turns and holds on Royce. A face box appears on the guard's tablet. The player can break now, or play one more take and lose Cover. | Breaking early is safer for the objective, worse for the cover. |
-| MISSION | Entry through the loading dock under the playback noise; physical control of two doors; protect Rae on the way out; pull the yard's local video recorder from the office rack. Hostile guards may be fought; the objective is extraction, not killing. Royce does not touch machines the way T does: he breaks them or carries them. | **E: entry, control, protection, tempo.** |
-| RE-COVER | Rae walks back into the last take as an extra in a borrowed jacket; Royce returns to his mark. "That's a wrap." | Re-cover is a choice with a reward. |
-| AFTERMATH | In the car, Royce scrubs the recorder. Over his own face the overlay reads `SUBJECT REACQUIRED · CONFIDENCE RESTORED`. He has never seen this system. **Hard cut** to WATCH: a college intake desk, a man of 33 with new waves in his hair, the same overlay on his photo. The player does not know why these two men share a screen. | The succession triangle, seeded by cause, not exposition. |
+| BREAK | The camera nearest the set turns and holds on Benji. A face box appears on the guard's tablet. The player can break now, or play one more take and lose Cover. | Breaking early is safer for the objective, worse for the cover. |
+| MISSION | Entry through the loading dock under the playback noise; physical control of two doors; protect Rae on the way out; pull the yard's local video recorder from the office rack. Hostile guards may be fought; the objective is extraction, not killing. Benji does not touch machines the way T does: he breaks them or carries them. | **E: entry, control, protection, tempo.** |
+| RE-COVER | Rae walks back into the last take as an extra in a borrowed jacket; Benji returns to his mark. "That's a wrap." | Re-cover is a choice with a reward. |
+| AFTERMATH | In the car, Benji scrubs the recorder. Over his own face the overlay reads `SUBJECT REACQUIRED · CONFIDENCE RESTORED`. He has never seen this system. **Hard cut** to WATCH: a college intake desk, a man of 33 with new waves in his hair, the same overlay on his photo. The player does not know why these two men share a screen. | The succession triangle, seeded by cause, not exposition. |
 
-**Lyric idea.** High Alert's "FBI Lurkin' … wire nervous" and "Catch a demon slacking, that's a suit and tie service": the watched man who watches. The song stays PRIM2's performance in the cold open; Royce's level plays under its stems.
+**Lyric idea.** High Alert's "FBI Lurkin' … wire nervous" and "Catch a demon slacking, that's a suit and tie service": the watched man who watches. The song stays PRIM2's performance in the cold open; Benji's level plays under its stems.
 
-**Development write.** Royce: his first fear made visible (something larger watches him). Rae: owes Royce, and resents owing him (she becomes E04's anchor with this residue). PRIM2: one more subject reacquired (`story/PRIME-LURK-LEDGER.md` row 01).
+**Development write.** Benji: his first fear made visible (something larger watches him). Rae: owes Benji, and resents owing him (she becomes E04's anchor with this residue). PRIM2: one more subject reacquired (`story/PRIME-LURK-LEDGER.md` row 01).
 
 ### LVL-02 — Aya Shinoda (T) — "Permission Slip" — solo
 
@@ -372,7 +373,7 @@ Most episodes take the rule naturally (see the "proposed cover" column in §5). 
 
 | When | Who arrives | Through whom | What they give the next person |
 |---|---|---|---|
-| E01 | **Royce** (PLAY); McCluster, Aya, Chioma, Leila, Helen, Pylon (WATCH); PRIM2 as a future voice | the identity update | Royce gives the audience the threat; McCluster gives it the question |
+| E01 | **Benji** (PLAY); McCluster, Aya, Chioma, Leila, Helen, Pylon (WATCH); PRIM2 as a future voice | the identity update | Benji gives the audience the threat; McCluster gives it the question |
 | E02 | **Aya** (PLAY); Nusrat, Miguel, Priya, Maren | the onboarding shoot | Aya gives McCluster a first critic; Nusrat gives Aya a scope she respects |
 | E03 | **Hana** (PLAY, in memory); Oksana, Rafael, Valeria | the reopening shoot | Hana gives Aya a reason; Oksana gives Aya a method |
 | E04–E06 | Sora, Keys; Thandiwe, Grace, Arjun, Sari; Yonas, Hassan, Emre, Jonas | the first ensemble boards | E, R and T meet; the first death (E06) |
@@ -380,23 +381,23 @@ Most episodes take the rule naturally (see the "proposed cover" column in §5). 
 
 ## 4.2 The top tier: the relationship web and how each grows
 
-**McCluster (protagonist; Wildcard).** He is defined by who he *learns from*. Every episode he appears in should leave a specialist's habit on him (`CANON.md` §5). Arc: capability → consent. Built by: Aya (permission), Valeria (what earlier support would have made him), Chioma (leadership is not experience), Royce (the path he refused), PRIM2 (what he could become). *Proposed addition:* the onboarding-kit device (LVL-02) makes him a suspect before he is a colleague; he spends Season 1 earning back the trust a planted object cost him, which makes his later Wildcard authority mean something.
+**McCluster (protagonist; Wildcard).** He is defined by who he *learns from*. Every episode he appears in should leave a specialist's habit on him (`CANON.md` §5). Arc: capability → consent. Built by: Aya (permission), Valeria (what earlier support would have made him), Chioma (leadership is not experience), Benji (the path he refused), PRIM2 (what he could become). *Proposed addition:* the onboarding-kit device (LVL-02) makes him a suspect before he is a colleague; he spends Season 1 earning back the trust a planted object cost him, which makes his later Wildcard authority mean something.
 
 **Aya Shinoda (T).** Built by Hana (her reason), Ren (her proof that she can build a way back from loss), Helen (the institution that gave her real agency), McCluster (the man who reopens what she closed), Minh (the peer who is not her copy), Oksana (the method; new link from LVL-03). Arc: indictment → capture → contestable trust. *The trio makes her the player's guide:* she is played in LVL-02, and she is the mind the player inhabits in LVL-03.
 
 **Hana Lee (R, in memory).** Built only through others: Aya's memory, Kkeutori, Amira's "stop", Marc's "continue", the four minutes. Arc after death: from "mentor who died in an accident" to "the person who got further than anyone". Her growth is the audience's understanding of her.
 
-**PRIM2.** Built by what he chooses not to do. He watches Royce (LVL-01), grades Aya and Nusrat (LVL-02), owns the four minutes (LVL-03), and never takes over. Arc: the watcher who believed competence justified unilateral judgment learns, too late, what the people he graded would have chosen. His one rule (`OBSERVING != TAKING OVER`) is the rule McCluster inherits.
+**PRIM2.** Built by what he chooses not to do. He watches Benji (LVL-01), grades Aya and Nusrat (LVL-02), owns the four minutes (LVL-03), and never takes over. Arc: the watcher who believed competence justified unilateral judgment learns, too late, what the people he graded would have chosen. His one rule (`OBSERVING != TAKING OVER`) is the rule McCluster inherits.
 
-**Royce.** Built by the chair, by Sable's realism, by the loyalty of people like Rae, and by the slow discovery that his reign was inside someone else's architecture. Arc: authority as identity → the RAID alliance → a living, independent counterweight after Ghost. *The trio gives him the series' first sympathy:* he went in himself for one of his people.
+**Benji.** Built by the chair, by Sable's realism, by the loyalty of people like Rae, and by the slow discovery that his reign was inside someone else's architecture. Arc: authority as identity → the RAID alliance → a living, independent counterweight after Ghost. *The trio gives him the series' first sympathy:* he went in himself for one of his people.
 
 **Ren Shinoda.** Aya's brother; the person whose leg she rebuilt. He is how the audience learns that Aya fixes people the way she fixes machines, and why that frightens her about McCluster ("worries McCluster became another project Aya must save", `story/AYA-CIRCLE-RELATIONSHIP-WEB.md`). Appears in E17 if needed; *proposed:* a phone call in E03's aftermath, where Ren is the only person Aya tells about the four minutes, and he tells her to stop.
 
 ## 4.3 Fleshing out the thin characters (PROPOSED)
 
-**Arjun Mehta (India, 35) — the only PRIM-side E.** Now that Royce is the first E the player meets, Arjun's job is clear: **he is the E who stops.** Royce enters to own the outcome; Arjun enters so nobody else has to. Canon gives him industrial safety, a colleague who died because management delayed, and the fear of freezing (`story/PRIM3-CHARACTER-DOSSIERS.md` 03).
+**Arjun Mehta (India, 35) — the only PRIM-side E.** Now that Benji is the first E the player meets, Arjun's job is clear: **he is the E who stops.** Benji enters to own the outcome; Arjun enters so nobody else has to. Canon gives him industrial safety, a colleague who died because management delayed, and the fear of freezing (`story/PRIM3-CHARACTER-DOSSIERS.md` 03).
 - *Entry:* E05, as the person who reaches a door before the exercise has decided whether it is real.
-- *Mirror:* Royce. Both are physically brave; Royce makes loyalty a debt, Arjun refuses to let anyone owe him.
+- *Mirror:* Benji. Both are physically brave; Benji makes loyalty a debt, Arjun refuses to let anyone owe him.
 - *Owned beat:* E10, the rescue that interrupts Valeria's perfect plan; he freezes for one breath and says so out loud.
 - *Relationship to add:* Arjun ↔ Hassan (doors vs access doctrine, already a canon friction), and Arjun ↔ Ren (two people who think about bodies, load and failure; a friendship that survives Aya).
 - *Proposed endgame weight:* a strong RAID-roster candidate, because his death would remove the one person whose job was making entry survivable.
@@ -407,23 +408,19 @@ Most episodes take the rule naturally (see the "proposed cover" column in §5). 
 
 **Thandiwe Nkosi (South Africa, 35) — Cohort-03 Lead peer.** Canon: mining automation and worker safety; fears legitimizing what she cannot change; keeps a draft plan for "after Prime".
 - *Proposed spine role:* **the person who asks what happens after the watcher.** Her draft is the ensemble's version of Ghost's question. In E05 she challenges Chioma; in E13 she argues that shared responsibility means nobody is responsible; in E18 her draft becomes evidence that someone inside already imagined a world without PRIM2, which splits the allies (canon "allies split").
-- *Relationship to add:* Thandiwe ↔ Li Wei (two governance minds: Li designs accountability; Thandiwe asks whom it is accountable to), and Thandiwe ↔ Royce in Evil Twin's remote ensemble (the reformer and the sovereign, both told their institutions were instruments).
+- *Relationship to add:* Thandiwe ↔ Li Wei (two governance minds: Li designs accountability; Thandiwe asks whom it is accountable to), and Thandiwe ↔ Benji in Evil Twin's remote ensemble (the reformer and the sovereign, both told their institutions were instruments).
 
-## 4.4 Benji Chase — a separate person (owner decision applied 2026-11-02)
+## 4.4 Benjamin "Benji" Chase — McCluster's clone (RESOLVED, owner 2026-11-02 and 2026-11-03)
 
-**What canon now says.** Benji Chase is a different person from McCluster. McCluster's age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation years, the refused chair) is his own and is told under his own name. Benji Chase's role is open. He is not the RAID attacker (Royce is).
+**Canon now.** The character canon called Royce is **Benjamin "Benji" Chase**: a government-programme clone of McCluster, "low-key McCluster's evil twin". Benjamin Chase until he takes the Hitman chair McCluster refused; **Hitman Benji** after. A separate person with his own choices. Origin authority: `story/BENJI-CHASE-JANUS-ORIGIN-CANON.md`, adapted from the October branch (taken: the archived infant sample, the edited white-presenting derivative born seven years after McCluster, the upbringing through proxies, the "alternate root candidate" purpose as PROPOSED, Brandon's "federal" warning as PROPOSED, the reveal ladder, the person-not-caricature rules; not taken: the branch's "Benji = McCluster" lock, the parents' schooling timeline, the digital-performer record).
 
-**What the record shows about the name.**
-- Before 9 Sept 2026, canon had a separate Benji: from Connecticut, recruited at 21, taking Hitman over in a six-episode "Takeover" season (commit `7d7dc25`, `story/HITMAN-BENJI.md` v1.0). From Sept to Nov 2026 canon merged him into McCluster. The owner has now separated them again.
-- The owner's song **Upset** (credited "Hitman Halo × Raheem × Rahndrx") has the line "Benji here chasing a check".
-- The real platform has a member account with display name "Benji Chase" and artist profile "Hitman Benji" (control repo e2e fixtures and owner notes of 2026-10-15 and 2026-10-21).
+**What it does for the spine.** The man watching McCluster from the other board was made from him. Evil Twin's title now works at two scales: the rogue access point that looks like the real one, and the man who looks nothing like McCluster but came from him. RAID's near-kill and alliance become two versions of one origin choosing differently.
 
-**Real-world caution.** If Benji Chase is a real person, story material about him needs his consent, and he must not be written as a criminal by default. If "Benji Chase" is a persona or account name the owner uses, that is the owner's to say. Nothing in this proposal writes a biography for him.
+**McCluster's Hitman-era deeds stay his,** including the New Mexico retaliation (owner, 2026-11-03: "The retaliation he did was all him").
 
-**Proposed shape (for owner choice, Owner Question 3):**
-- **(A, recommended) Benji Chase is Hitman's voice.** McCluster's friend in Lex's circle, the artist whose music carried Hitman's culture (the Hitman-era songs are his, which answers the open question of whose songs they are). The Hitman prequel keeps its name, "Hitman Benji", because it is partly his story, told beside McCluster's. He is not a contender for the chair. Present-day status open.
-- **(B) Restore the old separate Benji** as Hitman's younger rising operator, with the Takeover beats moved to before Royce (Royce still ends up sovereign).
-- **(C) Benji Chase stays outside the story** and the name is retired from fiction.
+**Machine keys** `royce_*` in game data are kept and refer to Benji (alias note in `CANON.md` §9).
+
+**Real-world note.** The platform account "Hitman Benji / Benji Chase" belongs to the owner's fiction (owner, 2026-11-03). Story files say nothing about any real person.
 
 **Ghost (reported, not decided).** Canon says **Ghost is McCluster during the Whip Equipped period**; "the Ghost Years" is the structural name for ages 26–33 (`story/MCCLUSTER-PROTAGONIST-CANON.md`; `story/MCCLUSTER-HITMAN-ORIGIN-CANON.md` §14). No canon ties Ghost to Benji. Separately, **PRIM2 is "Ghost in the Wires"** and becomes a "Ghost-class" advisor (`CANON.md` §17–§18). The rhyme between the man who vanished from the grid and the man who never left it looks deliberate. The open question is whether "Ghost" is only an era label or also a name McCluster went by (Owner Question 4).
 
@@ -435,7 +432,7 @@ Order: `story/EPISODE-PROGRESSION.md` (owner decision 2026-11-02: "the order on 
 
 | # | Song | Mission | Characters (owners; **solo** for 01–03) | Key lyric idea | Proposed cover (the shoot) |
 |---:|---|---|---|---|---|
-| 01 | High Alert | The Blip | **Royce solo (E)**; WATCH: PRIM2 / McCluster / Royce | the vigilant man who is himself watched ("FBI Lurkin'"); the fight on paper ("waivers and the mitts") | Hitman music video at a Bridgeport yard |
+| 01 | High Alert | The Blip | **Benji solo (E)**; WATCH: PRIM2 / McCluster / Benji | the vigilant man who is himself watched ("FBI Lurkin'"); the fight on paper ("waivers and the mitts") | Hitman music video at a Bridgeport yard |
 | 02 | White Grey Black Hat | Permission Slip | **Aya solo (T)**; WATCH: Nusrat / Miguel | masks off, half off, on; "got permission"; corporate vs trenches | F4 onboarding / partner film at Harborline |
 | 03 | OSINT | Open Book | **Hana solo (R), as Aya's reconstruction**; WATCH: Oksana / Rafael | indicators nobody admits; information as leverage, refused | F4 reopening film at North River |
 | 04 | Anti Social Engineering | The Human Layer | Priya / Sora | looking broke as camouflage; the DEF CON find | F4 event livestream (Priya's event) |
@@ -453,9 +450,9 @@ Order: `story/EPISODE-PROGRESSION.md` (owner decision 2026-11-02: "the order on 
 | 16 | Per Diem | Road Kit | McCluster / Valeria | "We really on the job … Y'all per diem" | **emergency: no cover** (§3.6) |
 | 17 | Patch Work | Trust Boundary | Aya | "since the sandbox"; found the trojans; "one night I can patch it up" | F4 retrospective shoot: Aya re-interviewed about North River |
 | 18 | **Song #21 — OPEN** | Mission #18 — OPEN | Leila / Helen / McCluster (function locked) | — (no lyrics exist) | open |
-| 19 | RAID (Hot Site) | Hot Site | McCluster / Royce / PRIM2 | the shop that sells nothing, "a front for a warm environment" | the assault approaches under a commercial shoot permit at the perimeter |
-| 20 | Evil Twin (Middle Man) | Mirror Room | PRIM2 / McCluster / Royce | "so many identities"; "I see the news … it's a distraction" | none (post-RAID, inside Site 0) |
-| 21 | Ghost In The Wires | Last Process | McCluster / PRIM2; Royce secondary | "I move in silence"; "missing daylight" | epilogue: the next onboarding film, with a new face at the Fellowship Desk |
+| 19 | RAID (Hot Site) | Hot Site | McCluster / Benji / PRIM2 | the shop that sells nothing, "a front for a warm environment" | the assault approaches under a commercial shoot permit at the perimeter |
+| 20 | Evil Twin (Middle Man) | Mirror Room | PRIM2 / McCluster / Benji | "so many identities"; "I see the news … it's a distraction" | none (post-RAID, inside Site 0) |
+| 21 | Ghost In The Wires | Last Process | McCluster / PRIM2; Benji secondary | "I move in silence"; "missing daylight" | epilogue: the next onboarding film, with a new face at the Fellowship Desk |
 
 **What the table changes in canon:** nothing except LVL-01–03's PLAY owners (approved). Songs, missions and WATCH owners are canon (`CANON.md` §21).
 
@@ -467,7 +464,7 @@ These are flashbacks, source cues or in-world artefacts; none replaces an episod
 |---|---|---|
 | Who Did The Shoot (I AM HERE) | imagery for the cover device; E09 | "Different type of shoot" answers "who did the shoot?" |
 | Antisocial (I AM HERE) | E04's social engineer's public persona | the coach who is always on social |
-| Upset (Hitman Halo credit) | Royce/Hitman texture before RAID; Benji Chase question | "the scope of the place and the codes to your safe" |
+| Upset (Hitman Halo credit) | Benji/Hitman texture before RAID; Benji Chase question | "the scope of the place and the codes to your safe" |
 | Money or the Power (Docket 516R) | E13 / Season 5 theme | "build a tower and take all that is ours" |
 | Deep End (Heal the 3) | E06 human cost (avoid its real-world political lines) | "Turning on the news, I see the reaper" |
 | Please Set Me Free, Environmental Injustice (Docket 516R) | McCluster's summer policy fellowships (off-count) | Bridgeport, housing, "Operation Land Grab" |
@@ -509,9 +506,9 @@ Canon says everyone operates from one US building, Equity Uprise HQ ("Same build
 | Layer | What it is | Canon effect |
 |---|---|---|
 | The 21 episodes | the story | canon |
-| Halo campaign "3 introductions + 21 cores × 3 variants" (control repo) | **the 3 introductions are the three solos (Royce, Aya, Hana).** Their canon sites are all in the US (Bridgeport, Harborline, North River), which satisfies "three distinct locations". The 63 variants (A recognize, B apply, C adapt) of each core are its location shoots elsewhere | variants are side operations: no canon writeback, no Wildcard / Apex / Royce pool use, no relationship or casualty state (`game/LEARNING-MISSION-SOURCE-OF-TRUTH.md` §4) |
+| Halo campaign "3 introductions + 21 cores × 3 variants" (control repo) | **the 3 introductions are the three solos (Benji, Aya, Hana).** Their canon sites are all in the US (Bridgeport, Harborline, North River), which satisfies "three distinct locations". The 63 variants (A recognize, B apply, C adapt) of each core are its location shoots elsewhere | variants are side operations: no canon writeback, no Wildcard / Apex / Benji pool use, no relationship or casualty state (`game/LEARNING-MISSION-SOURCE-OF-TRUTH.md` §4) |
 | Globe pins | side operations "on location", one per region, each tied to a core episode's concept and to a cast member whose heritage fits the place (Halo "character jurisdiction/heritage" rule) | noncanonical, like the Training Range |
-| Featured pins | **Royce (US), Aya (Japan), Hana (South Korea)** to match the trio | Aya's Japan pin is a Kariya location shoot (a variant of LVL-02's concept); Hana's Ulsan pin is an **origin card**, not a playable mission, until LVL-03 has been played |
+| Featured pins | **Benji (US), Aya (Japan), Hana (South Korea)** to match the trio | Aya's Japan pin is a Kariya location shoot (a variant of LVL-02's concept); Hana's Ulsan pin is an **origin card**, not a playable mission, until LVL-03 has been played |
 
 ## 6.5 No spoilers on the globe
 
@@ -539,11 +536,11 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 
 # 8. Owner questions (each with a recommendation)
 
-1. **"ERT": types or order?** Is the trio's order Royce (E) → Aya (T) → Hana (R), or literally E → R → T (Royce → Hana → Aya)? *Recommendation:* Royce → Aya → Hana, so the player meets Aya before playing her memory of Hana.
+1. **"ERT": types or order?** Is the trio's order Benji (E) → Aya (T) → Hana (R), or literally E → R → T (Benji → Hana → Aya)? *Recommendation:* Benji → Aya → Hana, so the player meets Aya before playing her memory of Hana.
 2. **"The order on paper."** Is it `story/EPISODE-PROGRESSION.md` (assumed and applied to the song lists)? *Recommendation:* yes; it is the canon order authority and matches the course map and the lyric crosswalk.
-3. **Benji Chase.** Who is he: (A) Hitman's voice and McCluster's friend, title figure of the "Hitman Benji" prequel; (B) the old separate rising Benji, moved before Royce; (C) outside the story? Is Benji Chase a real person whose consent is needed? *Recommendation:* (A), and confirm consent if he is real.
+3. **Benji Chase.** **RESOLVED 2026-11-03:** Benji is renamed Benjamin "Benji" Chase, McCluster's government-programme clone; dubbed Hitman Benji after the takeover; the account belongs to the owner's fiction (§4.4).
 4. **Ghost.** Is "Ghost" only the name of McCluster's age-26–33 life stage (canon today), or also a name he went by? *Recommendation:* era label only; keep the deliberate rhyme with PRIM2's "Ghost in the Wires".
-5. **Royce's nationality and type.** Record Royce as American (canon implies, never states) and play him as E though he is a Hitman sovereign, not a PRIM operator? *Recommendation:* yes to both, with a `CANON.md` §14 exception for authored solo introductions.
+5. **Benji's nationality and type.** **RESOLVED 2026-11-03:** LVL-01 is Benjamin Chase (United States, E). The `CANON.md` §14 exception for authored solo introductions remains part of promoting §2.
 6. **Emergency exceptions.** Under "all storyline missions are planned", are E05 (exercise turns real) and E06 (storm) planned missions with unplanned complications, and is E16 Road Kit the one emergency? *Recommendation:* yes, as in §3.6.
 7. **Globe framing.** Agents "on location" from the one US HQ, or a canon change to regional desks? *Recommendation:* on location; no canon change.
 8. **PRIM Method.** Keep the real "PRIM Method" out of story canon, or make it the in-world Tier 0 meaning? *Recommendation:* keep it out; the fiction/real boundary is worth more than the wordplay.
@@ -552,4 +549,4 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 11. **Apex Tactical Corp.** After the internship clean-out, keep Apex as a named black-site layer beneath PRIM, or retire the organization and keep "Apex" only as the name of PRIM2's intervention mechanic? *Recommendation:* retire the organization; keep the mechanic name.
 12. **E03's facility.** Make the "facility opening" in Open Book the North River hub's reopening, which binds Oksana and Rafael's case to Aya's reconstruction? *Recommendation:* yes; it is the strongest single join in the merged spine.
 13. **Song #21.** Title and lyrics for E18 when you are ready; nothing will be filled from existing songs.
-14. **JANUS (Royce origin, unmerged branch).** Its genetics and government-program thread is a large tonal shift. Merge, hold or drop? *Recommendation:* hold until the trio ships; LVL-01 is written so it works either way.
+14. **JANUS.** **RESOLVED 2026-11-03:** adopted, adapted to "clone of McCluster" (`story/BENJI-CHASE-JANUS-ORIGIN-CANON.md`).

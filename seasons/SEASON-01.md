@@ -18,7 +18,7 @@ The season must work before the audience understands the PRIM2 mythology. It is 
 
 ## Cold open
 
-In the future, McCluster's PRIM-side assault element and Royce's Hitman-side
+In the future, McCluster's PRIM-side assault element and Benji's Hitman-side
 assault element have penetrated Site 0. PRIM2 performs **High Alert** as a diss
 record and psychological weapon against the people who have come to replace him
 (`CANON.md` §16).

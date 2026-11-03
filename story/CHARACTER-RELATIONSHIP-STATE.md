@@ -100,21 +100,21 @@ Specialist relationship files override this summary where more specific.
 - **Hidden danger:** Helen's good-faith governance helps the visible institution earn Aya's loyalty while PRIM2 remains hidden above it.
 - **Failure trigger:** Aya learns Helen's access never reached the layer she thought it did.
 
-## McCluster ↔ Royce
+## McCluster ↔ Benji
 
 - **Trust:** none entering the final confrontation; old familiarity exists.
-- **Personal history:** real and pre-PRIM3. Royce is seven years younger than McCluster and receives the Hitman succession opportunity McCluster refuses at approximately age 26.
+- **Personal history:** real and pre-PRIM3. Benji is seven years younger than McCluster and receives the Hitman succession opportunity McCluster refuses at approximately age 26.
 - **Resentment:** deep, historical and asymmetric.
-- **McCluster's view:** Royce represents what happens when appetite for authority receives the chair McCluster rejected.
-- **Royce's view:** McCluster is the older rival who could have taken power and instead left Royce with both the opportunity and the burden.
-- **Power relationship:** Royce carries formal Hitman-side sovereignty; McCluster carries old capability/history but left the structure.
+- **McCluster's view:** Benji represents what happens when appetite for authority receives the chair McCluster rejected.
+- **Benji's view:** McCluster is the older rival who could have taken power and instead left Benji with both the opportunity and the burden.
+- **Power relationship:** Benji carries formal Hitman-side sovereignty; McCluster carries old capability/history but left the structure.
 - **RAID state:** they enter Site 0 on separate sides, become the sole survivors of their elements, nearly kill each other, then temporarily ally against PRIM2.
 - **Evil Twin function:** not their first meeting; it is a forced reinterpretation of a long history under PRIM2's hidden dual architecture.
 
 ## PRIM2 ↔ McCluster
 
 - **Trust:** PRIM2's trust is evaluative; McCluster initially does not know the relationship exists.
-- **First awareness:** PRIM2 traces McCluster backward through Royce / Bigga Lex during McCluster's Ghost/Whip years.
+- **First awareness:** PRIM2 traces McCluster backward through Benji / Bigga Lex during McCluster's Ghost/Whip years.
 - **Reacquisition:** McCluster's age-33 haircut/waves and return to college disrupt simple visual continuity; Site 0's updated identity-resolution system restores high-confidence continuity.
 - **Affection:** PRIM2 develops respect/hope he cannot openly express without corrupting the test.
 - **Power imbalance:** maximal early; narrows across seven years.
@@ -266,12 +266,11 @@ Their relationship web should feel uneven on arrival.
 
 The following older relationship models are **deleted from continuity**:
 
-- separate contemporary `Benji ↔ Royce` strangers/first-meeting-in-Evil-Twin;
-- separate contemporary `Benji ↔ Sable` rise;
-- separate contemporary `Benji ↔ Dez` rise;
-- `Prime ↔ Benji` as if Benji were a second present-day man parallel to McCluster.
+- `McCluster ↔ Benji` as strangers whose first meeting is in Evil Twin (they are old Hitman rivals);
+- Benji rising toward the Hitman chair during PRIM3, including the old `Benji ↔ Sable` and `Benji ↔ Dez` rise lines (he has held the chair since about 19);
+- `Benji` as McCluster's alias (withdrawn 2026-11-02).
 
-Benji Chase is a separate person (owner decision, 2026-11-02; see `CANON.md` §9). Older text that used `Benji` for McCluster during age 19–26 now names McCluster. Any Benji Chase relationship state waits for the owner's decision on his role.
+Benjamin "Benji" Chase is McCluster's clone and a separate person, not McCluster's alias (owner decisions 2026-11-02 and 2026-11-03; see `CANON.md` §9). Older text that used `Benji` for McCluster during age 19–26 now names McCluster. Any Benji Chase relationship state waits for the owner's decision on his role.
 
 # Change-event protocol
 

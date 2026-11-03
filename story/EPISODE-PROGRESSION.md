@@ -77,13 +77,13 @@ These are **ensemble themes**, not instructions that McCluster must own each sea
 
 Detailed ownership will be locked episode-by-episode, but current authoring bias is:
 
-- **Global 01 / High Alert:** PRIM2 + McCluster + Royce.
+- **Global 01 / High Alert:** PRIM2 + McCluster + Benji.
 - **Global 02–18:** majority ensemble-owned; McCluster owns a minority outright.
 - Several episodes should use McCluster only as supporting/cameo/mention.
 - At least one ordinary-season episode should work with McCluster completely absent.
 - Aya/Hana/Kkeutori material should be distributed through Aya-owned or Aya-adjacent episodes rather than turned into McCluster exposition.
-- Royce/Hitman-side character development should occur before RAID without requiring McCluster's physical presence.
-- **Global 19–21:** succession naturally returns PRIM2/McCluster/Royce toward the center while still honoring accumulated ensemble consequences.
+- Benji/Hitman-side character development should occur before RAID without requiring McCluster's physical presence.
+- **Global 19–21:** succession naturally returns PRIM2/McCluster/Benji toward the center while still honoring accumulated ensemble consequences.
 
 ## Open Episode 18
 

@@ -94,7 +94,7 @@ PLAY expands the same event and may run longer.
 
 | # | Episode | Current primary owner(s) | Local blueprint state |
 |---:|---|---|---|
-| 01 | High Alert / The Blip | PRIM2 / McCluster / Royce | **MIGRATED** — Blip = age-33 reacquisition |
+| 01 | High Alert / The Blip | PRIM2 / McCluster / Benji | **MIGRATED** — Blip = age-33 reacquisition |
 | 02 | White Grey Black Hat / Permission Slip | Nusrat / Miguel | **MIGRATED** |
 | 03 | OSINT / Open Book | Oksana / Rafael | **MIGRATED** |
 | 04 | Anti Social Engineering / The Human Layer | Priya / Sora | **MIGRATED** |
@@ -112,8 +112,8 @@ PLAY expands the same event and may run longer.
 | 16 | Per Diem / Road Kit | McCluster / Valeria | **MIGRATED** |
 | 17 | Patch Work / Trust Boundary | Aya | **MIGRATED** |
 | 18 | Song #21 OPEN / Mission #18 OPEN | Leila / Helen / McCluster | **MIGRATED OPEN CONTAINER** |
-| 19 | RAID / Hot Site | McCluster / Royce / PRIM2 | **CURRENT ENDGAME** |
-| 20 | Evil Twin / Mirror Room | PRIM2 / McCluster / Royce | **CURRENT ENDGAME** |
+| 19 | RAID / Hot Site | McCluster / Benji / PRIM2 | **CURRENT ENDGAME** |
+| 20 | Evil Twin / Mirror Room | PRIM2 / McCluster / Benji | **CURRENT ENDGAME** |
 | 21 | Ghost In The Wires / Last Process | McCluster / PRIM2 | **CURRENT ENDGAME** |
 
 ---
@@ -138,9 +138,9 @@ Do not populate the finale with disposable redshirts.
 
 Locked end state remains:
 - McCluster sole surviving PRIM-side attacker;
-- Royce sole surviving Hitman-side attacker;
+- Benji sole surviving Hitman-side attacker;
 - every other member of both assault elements dies;
-- McCluster + Royce defeat PRIM2 together.
+- McCluster + Benji defeat PRIM2 together.
 
 Exact assault-team membership is chosen only after Episodes 02–18 receive enough scene-level development to make those decisions earned.
 

@@ -22,7 +22,7 @@ MCCLUSTER: absent / locked out of solving the core problem
 BASE PLAYABLE POV: planning/governance/resource allocation team
 WILDCARD: unavailable — this episode must prove some problems cannot be solved by calling McCluster
 APEX: unavailable in canonical WATCH
-ROYCE: unavailable
+BENJI: unavailable
 ```
 
 This supersedes the old McCluster/Aya ownership and keeps the cost/control/flexibility mechanics.

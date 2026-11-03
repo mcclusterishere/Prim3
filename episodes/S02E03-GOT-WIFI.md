@@ -22,7 +22,7 @@ MISSION LEAD: Chioma
 BASE PLAYABLE ROSTER: Sari / Yonas / Hassan / Emre
 MCCLUSTER: absent by default; off-board Wildcard at CRITICAL
 APEX: unavailable in canonical WATCH
-ROYCE: unavailable
+BENJI: unavailable
 ```
 
 ---

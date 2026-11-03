@@ -22,7 +22,7 @@ ESTABLISHED OUTSIDE/HISTORY: Hana Lee memory and/or Tariq Al-Farsi only when dir
 MCCLUSTER: supporting/edge; not scripted from launch by default
 WILDCARD: normally unavailable — Aya/Minh must own the technical climax
 APEX: unavailable
-ROYCE: unavailable
+BENJI: unavailable
 ```
 
 This supersedes the old Chioma-owned/McCluster-scripted blueprint.

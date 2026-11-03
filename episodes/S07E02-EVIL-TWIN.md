@@ -21,15 +21,15 @@ Inside Site 0:
 
 ```text
 MCCLUSTER — sole surviving PRIM-side attacker
-ROYCE — sole surviving Hitman-side attacker
+BENJI — sole surviving Hitman-side attacker
 PRIM2 — physically defeated, critically injured, biologically active
 ```
 
-Benji Chase is not part of this episode. Benji Chase is a separate person (owner decision, 2026-11-02; see `CANON.md` §9).
+Benji Chase is not part of this episode. Benjamin "Benji" Chase is McCluster's clone and a separate person, not McCluster's alias (owner decisions 2026-11-02 and 2026-11-03; see `CANON.md` §9).
 
 PRIM2's body is back inside the damaged suspension/life-support architecture. He no longer controls the physical battle, but his living identity remains entangled with the deepest trust root of Site 0.
 
-McCluster and Royce initially believe killing him can finish the job.
+McCluster and Benji initially believe killing him can finish the job.
 PRIM2 knows it may instead leave root authority unresolved.
 
 His remaining weapon is information.
@@ -39,11 +39,11 @@ His remaining weapon is information.
 # Episode ownership
 
 ```text
-PRIMARY OWNERS: PRIM2 / McCluster / Royce
+PRIMARY OWNERS: PRIM2 / McCluster / Benji
 SECONDARY DEVELOPMENT: surviving remote ensemble, especially Aya / Helen / Leila / Li / Amira / Marc / Jonas / Pylon / Chioma as continuity permits
-BASE PLAYABLE ROSTER: McCluster + Royce
+BASE PLAYABLE ROSTER: McCluster + Benji
 MCCLUSTER: scripted
-WILDCARD/APEX/ROYCE RANDOM SYSTEMS: not applicable
+WILDCARD/APEX/BENJI RANDOM SYSTEMS: not applicable
 ```
 
 This is an **epistemic boss fight**, but it must not feel like the rest of the show disappeared because three men reached the core.
@@ -56,7 +56,7 @@ Evil Twin begins while the named RAID dead are still newly dead.
 
 The episode must therefore carry two simultaneous realities:
 
-1. McCluster/Royce/PRIM2 are trying to resolve the hidden authority problem;
+1. McCluster/Benji/PRIM2 are trying to resolve the hidden authority problem;
 2. surviving remote coworkers/friends are learning exactly who did not come back.
 
 Longform structure may cut between Site 0 verification and remote aftermath.
@@ -65,7 +65,7 @@ Required ensemble functions:
 - somebody is still waiting for a check-in that will never arrive;
 - somebody has to identify/confirm a death professionally before they can react personally;
 - somebody inherits work immediately because systems do not stop for grief;
-- somebody is furious that McCluster/Royce are still protecting PRIM2's life for strategic reasons;
+- somebody is furious that McCluster/Benji are still protecting PRIM2's life for strategic reasons;
 - somebody else understands why they have no clean alternative;
 - the absence of RAID members begins changing staffing before the funeral/memorial language even exists.
 
@@ -80,9 +80,9 @@ Exact reactions depend on the final RAID roster and are locked only after that r
 `Evil Twin` must:
 
 1. reveal that visible PRIM and Hitman were separate systems under PRIM2's hidden cross-board view;
-2. explain why McCluster's old Hitman history and Royce's succession mattered to PRIM2;
+2. explain why McCluster's old Hitman history and Benji's succession mattered to PRIM2;
 3. reinterpret earlier episodes without claiming PRIM2 caused every event;
-4. force McCluster and Royce to distinguish evidence from a defeated man's self-serving confession;
+4. force McCluster and Benji to distinguish evidence from a defeated man's self-serving confession;
 5. establish why PRIM2 must remain alive long enough for Mantle transfer/revocation;
 6. allow the wider surviving ensemble to independently verify or challenge parts of the confession;
 7. begin the staffing/grief consequences of RAID immediately.
@@ -118,7 +118,7 @@ Do not turn this into a credential-theft, SIM-swap, social-engineering or real i
 
 ## Immediate aftermath
 
-McCluster and Royce are injured, exhausted and surrounded by the practical evidence of the people they lost.
+McCluster and Benji are injured, exhausted and surrounded by the practical evidence of the people they lost.
 
 Root display:
 
@@ -126,10 +126,10 @@ Root display:
 FACILITY BREACH: CONFIRMED
 PRIM2 PHYSICAL DEFENSE: DEFEATED
 MANTLE AUTHORITY: ACTIVE / UNRESOLVED
-ACTIVE RAID PRINCIPALS: MCCLUSTER / ROYCE
+ACTIVE RAID PRINCIPALS: MCCLUSTER / BENJI
 ```
 
-Royce wants finality.
+Benji wants finality.
 McCluster wants to know what killing PRIM2 does to the architecture.
 PRIM2 talks because both possible decisions threaten him.
 
@@ -151,13 +151,13 @@ The reveal is cross-compartment visibility and authority unavailable to people i
 ## Verification
 
 McCluster refuses confession as proof.
-Royce refuses endless verification as another form of control.
+Benji refuses endless verification as another form of control.
 
 Their distrust becomes useful because they ask different questions:
 
 ```text
 MCCLUSTER -> systems / provenance / dependency
-ROYCE  -> power / obligation / motive / hierarchy
+BENJI  -> power / obligation / motive / hierarchy
 ```
 
 Remote surviving characters can provide independent evidence where communications and subsystem state permit.
@@ -185,7 +185,7 @@ CONTRADICTED
 SELF-SERVING BUT POSSIBLY TRUE
 ```
 
-Compare surviving Site 0 logs, prior episode artifacts, McCluster's evidence, Royce's Hitman knowledge, and remote independent records.
+Compare surviving Site 0 logs, prior episode artifacts, McCluster's evidence, Benji's Hitman knowledge, and remote independent records.
 
 The decisive result is narrower than “PRIM2 told the truth about everything”:
 
@@ -193,13 +193,13 @@ The decisive result is narrower than “PRIM2 told the truth about everything”
 
 Killing him now creates unacceptable uncertainty.
 
-McCluster and Royce keep him alive for utility, not forgiveness.
+McCluster and Benji keep him alive for utility, not forgiveness.
 
 ---
 
 # PLAY contract
 
-McCluster and Royce are an uncomfortable two-person core verification team with remote evidence channels.
+McCluster and Benji are an uncomfortable two-person core verification team with remote evidence channels.
 
 ```text
 MCCLUSTER
@@ -208,7 +208,7 @@ MCCLUSTER
 - alternate explanation generation
 - technical validation
 
-ROYCE
+BENJI
 - Hitman institutional knowledge
 - hierarchy / obligation knowledge
 - contradictory human context
@@ -226,7 +226,7 @@ CLAIM
  -> DECISION
 ```
 
-Bad play can destroy evidence, deepen McCluster/Royce distrust or reduce verified facts entering Episode 21. Hard canon preserves the decision to keep PRIM2 alive long enough to attempt succession.
+Bad play can destroy evidence, deepen McCluster/Benji distrust or reduce verified facts entering Episode 21. Hard canon preserves the decision to keep PRIM2 alive long enough to attempt succession.
 
 ---
 
@@ -235,7 +235,7 @@ Bad play can destroy evidence, deepen McCluster/Royce distrust or reduce verifie
 PRIM2 may reveal/confirm enough to establish:
 - visible PRIM vs hidden Mantle;
 - cross-board visibility over PRIM/Hitman;
-- Royce's succession drawing attention backward toward Lex and McCluster;
+- Benji's succession drawing attention backward toward Lex and McCluster;
 - active PRIM2 interest in McCluster during Ghost/Whip years;
 - age-33 reacquisition after college re-entry and Site 0 identity resolution;
 - selected information-routing/withholding choices;
@@ -248,16 +248,16 @@ Do **not** dump the entire Whip Equipped or Hitman prequels. Reverse-reveal law 
 
 # Relationship engine
 
-### McCluster ↔ Royce
-Alliance becomes more complicated, not warmer. McCluster learns Royce holds context he lacks; Royce learns McCluster's verification instinct is not simple cowardice.
+### McCluster ↔ Benji
+Alliance becomes more complicated, not warmer. McCluster learns Benji holds context he lacks; Benji learns McCluster's verification instinct is not simple cowardice.
 
 ### McCluster ↔ PRIM2
 Conflict shifts from defeating the man to determining whether McCluster can inherit capability without reproducing the philosophy.
 
-### Royce ↔ PRIM2
-Royce confronts the insult that even his sovereignty existed beneath somebody else's larger information advantage.
+### Benji ↔ PRIM2
+Benji confronts the insult that even his sovereignty existed beneath somebody else's larger information advantage.
 
-### surviving ensemble ↔ McCluster/Royce
+### surviving ensemble ↔ McCluster/Benji
 Some survivors may see “keep PRIM2 alive” as necessary. Others may see it as another elite decision made over the bodies of people who followed them. That disagreement carries into Ghost.
 
 ---
@@ -281,7 +281,7 @@ Final:
 ```text
 PRIM2: ALIVE / DEFEATED / ROOT AUTHORITY STILL ACTIVE
 MCCLUSTER: NOT YET PRIM3
-ROYCE: ALLIED BY NECESSITY / NOT SUBORDINATE
+BENJI: ALLIED BY NECESSITY / NOT SUBORDINATE
 MANTLE TRANSFER: REQUIRED
 RAID GRIEF: ACTIVE
 VACANCIES: ACTIVE

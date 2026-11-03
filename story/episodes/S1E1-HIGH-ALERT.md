@@ -17,9 +17,9 @@ It occurs during S7E1 `RAID (HOT SITE)` even though the audience sees it first.
 
 - **PRIM2** is the performer and defender.
 - **McCluster** is attacking Site 0 from the PRIM side.
-- **Royce** is attacking from the Hitman side.
+- **Benji** is attacking from the Hitman side.
 - PRIM2 genuinely resists both.
-- the audience does not yet know the full McCluster/Royce history or the meaning of the Mantle.
+- the audience does not yet know the full McCluster/Benji history or the meaning of the Mantle.
 - 17 compressed memories correspond to Episodes 02–18.
 - the sequence ends before the RAID outcome is revealed.
 
@@ -36,7 +36,7 @@ McCluster is 33, newly re-entering college, and the ensemble chronology begins.
 High Alert is the deliberate opening exception to the majority-ensemble rule because the future event belongs to the succession triangle:
 
 ```text
-PRIM2 / MCCLUSTER / ROYCE
+PRIM2 / MCCLUSTER / BENJI
 ```
 
 This does not make McCluster the mandatory owner of later episodes.
@@ -66,7 +66,7 @@ Any playable portion of S1E1's future fragment is **scripted**.
 It does not consume:
 - McCluster Wildcard authorizations;
 - PRIM2 Apex authorizations;
-- random Royce Incursion allowance.
+- random Benji Incursion allowance.
 
 It also must not teach the player that McCluster is the normal selectable protagonist pawn.
 
@@ -76,7 +76,7 @@ Ordinary campaign PLAY after the rewind follows `game/WILDCARD-INTERVENTION-AUTH
 
 # Do not write
 
-- Benji attacking beside McCluster (Benji Chase is a different person from McCluster and is not a RAID attacker);
+- Benji attacking *beside* McCluster (Benji attacks from the Hitman side, against both McCluster and PRIM2);
 - `Prime-00` as formal current identity;
 - McCluster already being PRIM3 before succession;
 - PRIM2 as surprised/unaware until attackers reach the heart of Site 0;

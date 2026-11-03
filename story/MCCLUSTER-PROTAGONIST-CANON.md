@@ -77,7 +77,7 @@ The reverse-reveal structure remains.
 - Whip Equipped / Ghost — approximately age 26–33.
 - PRIM3 / Equity Uprise — approximately age 33–40.
 
-**Owner decision (2026-11-02): Benji Chase is a different person from McCluster.** Earlier canon that made "Benji" McCluster's Hitman-era identity is withdrawn. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation years, the refused chair) stays McCluster's and is told under his own name. Benji Chase's role in that history is **open** (owner question in `story/STORY-CONSOLIDATION-PROPOSAL.md`). Benji Chase is not the Hitman-side RAID attacker: that is Royce.
+**Owner decisions (2026-11-02, 2026-11-03): Benjamin "Benji" Chase is not McCluster; he is McCluster's clone.** The character formerly called Royce is **Benjamin Chase**: a government-program clone of McCluster (an engineered derivative born seven years after him), "low-key McCluster's evil twin". He is Benjamin Chase until he takes over the Hitman organisation at about 19; after that he is dubbed **"Hitman Benji"**. He is a separate person with his own life and choices, the Hitman sovereign and the Hitman-side RAID attacker. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation, the refused chair) is McCluster's: "The retaliation he did was all him." Origin authority: `story/BENJI-CHASE-JANUS-ORIGIN-CANON.md` (reveal-gated to Evil Twin).
 
 **Ghost is McCluster during the Whip Equipped period.** "The Ghost Years" is the structural name of that life stage, not a second person.
 

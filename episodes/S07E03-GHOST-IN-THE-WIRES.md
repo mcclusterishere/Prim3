@@ -17,7 +17,7 @@ branch: main
 
 This is the final PRIM3 episode.
 
-`RAID` proves McCluster and Royce can physically defeat PRIM2 together.
+`RAID` proves McCluster and Benji can physically defeat PRIM2 together.
 
 `Evil Twin` proves defeating PRIM2's body does not automatically explain, transfer or revoke the authority rooted through that living identity.
 
@@ -39,10 +39,10 @@ Former PRIM2 persists as constrained Ghost-class intelligence with read/observe/
 
 ```text
 PRIMARY OWNERS: McCluster / PRIM2
-SECONDARY OWNER: Royce
+SECONDARY OWNER: Benji
 RECURRING GOVERNANCE / VERIFICATION ENSEMBLE: Aya / Helen / Leila / Li / Chioma / Amira / Marc / Jonas / Pylon / other living characters as RAID roster permits
 MCCLUSTER: scripted succession principal
-WILDCARD/APEX/ROYCE RANDOM SYSTEMS: not applicable
+WILDCARD/APEX/BENJI RANDOM SYSTEMS: not applicable
 ```
 
 This is not “McCluster wins the game.”
@@ -170,8 +170,8 @@ This preserves genuine ownership of earlier ensemble episodes.
 
 # Human argument — capability vs permission
 
-### Royce
-If a defeated sovereign can still act, Royce does not consider him defeated.
+### Benji
+If a defeated sovereign can still act, Benji does not consider him defeated.
 
 ### McCluster
 Independent command must end, but McCluster refuses to destroy useful intelligence solely because he hates the holder.
@@ -260,9 +260,9 @@ Do not call McCluster PRIM3 before this moment.
 
 ---
 
-# Royce's final function
+# Benji's final function
 
-Royce is not reduced to watching McCluster receive a crown.
+Benji is not reduced to watching McCluster receive a crown.
 
 He is one of only two attackers who survived RAID and one of the people who defeated PRIM2.
 
@@ -318,7 +318,7 @@ FORMER PRIM2 / GHOST
 - read/observe/analyze/advice only by default
 - no independent sovereign command
 
-ROYCE
+BENJI
 - alive
 - Hitman-side sovereign/rival
 - temporary alliance completed

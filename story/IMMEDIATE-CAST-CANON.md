@@ -96,7 +96,7 @@ These belong to the immediate recurring environment even when remote, institutio
 
 # 4. Contemporary Hitman recurring cast — 12
 
-28. **Royce** — contemporary Hitman successor/sovereign; McCluster's old rival; seven years younger; receives the succession opportunity McCluster refused.
+28. **Benji** — contemporary Hitman successor/sovereign; McCluster's old rival; seven years younger; receives the succession opportunity McCluster refused.
 29. **Sable Quinn** — operations / money.
 30. **Grant Voss** — sponsor / respectable-money surface.
 31. **Tone Rivera** — block/control operator.
@@ -109,9 +109,9 @@ These belong to the immediate recurring environment even when remote, institutio
 38. **Mina “Halo” Brooks** — cell lead.
 39. **Sora “Gymnast” Okada** — elite/social-entry specialist.
 
-**Benji Chase is a separate person (owner decision, 2026-11-02; see `CANON.md` §9). He is not in the immediate-story roster until the owner decides his role.**
+**Benjamin "Benji" Chase is McCluster's clone and a separate person, not McCluster's alias (owner decisions 2026-11-02 and 2026-11-03; see `CANON.md` §9). He is not in the immediate-story roster until the owner decides his role.**
 
-Royce is the primary Hitman-side elite incursion threat in PRIM3 gameplay. He is not a PRIM Mantle holder and does not possess PRIM2's information architecture.
+Benji is the primary Hitman-side elite incursion threat in PRIM3 gameplay. He is not a PRIM Mantle holder and does not possess PRIM2's information architecture.
 
 ---
 
@@ -174,7 +174,7 @@ Examples:
 - Nusrat's access decision becomes somebody else's later process;
 - Sari carries a backup habit after `Got Wifi`;
 - Pylon's behavior changes because Jonas changed policy earlier;
-- a Royce incursion leaves fear/injury/procedure changes;
+- a Benji incursion leaves fear/injury/procedure changes;
 - after a death, somebody covers the shift and starts becoming more important.
 
 ---
@@ -216,9 +216,9 @@ Full population authority: `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY
 
 Hitman is also a recurring organization, not a new enemy roster every week.
 
-Sable, Keys, Kiosk, Perch, Mina, Dez, Rack, Tone, Rae, Sora, Grant and Royce recur in combinations appropriate to their jobs and relationships.
+Sable, Keys, Kiosk, Perch, Mina, Dez, Rack, Tone, Rae, Sora, Grant and Benji recur in combinations appropriate to their jobs and relationships.
 
-Royce stays comparatively scarce so his arrival changes the mission, while the organization around him becomes familiar enough to care about.
+Benji stays comparatively scarce so his arrival changes the mission, while the organization around him becomes familiar enough to care about.
 
 ---
 
@@ -274,7 +274,7 @@ Normal missions launch with named recurring people assigned to the operation, no
 
 Recurring gameplay creates attachment. Losing someone hurts because the player has worked with them, watched them eat, argue, improve and become useful—not because a dossier says they matter.
 
-PRIM2 is the rarer second-stage intervention. Royce is the opposing elite escalation.
+PRIM2 is the rarer second-stage intervention. Benji is the opposing elite escalation.
 
 ---
 

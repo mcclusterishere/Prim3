@@ -39,7 +39,7 @@ Examples:
 - a Chioma episode can be about command responsibility while McCluster is one difficult subordinate among several;
 - an Amira/Marc episode can center GLASSHOUSE guilt and risk authority without McCluster participating in the mission at all;
 - a Jonas/Pylon episode can function primarily as a human-machine relationship story;
-- a Hitman-side episode can develop Royce or another Hitman figure while McCluster exists only as an old name, rumor or unexplained reference.
+- a Hitman-side episode can develop Benji or another Hitman figure while McCluster exists only as an old name, rumor or unexplained reference.
 
 ---
 
@@ -82,7 +82,7 @@ Global Episode 01 / S1E1 `High Alert` is structurally unusual.
 Its chronological event belongs to the endgame and is centered on:
 - **PRIM2** — presiding Mantle holder;
 - **McCluster** — eventual challenger / PRIM3;
-- **Royce** — Hitman-side surviving challenger/counterpart.
+- **Benji** — Hitman-side surviving challenger/counterpart.
 
 The opening therefore foregrounds the succession triangle because it is showing the future conflict before the story rewinds.
 
@@ -110,7 +110,7 @@ McCluster's college progression remains a chronological connective tissue:
 
 But that timeline is the **clock**, not the ownership rule.
 
-The audience should be able to describe substantial arcs for Aya, Chioma, Royce, Amira, Marc, Helen, Thandiwe, Li, Leila, Jonas, Pylon and others without reducing those arcs to "how they affected McCluster."
+The audience should be able to describe substantial arcs for Aya, Chioma, Benji, Amira, Marc, Helen, Thandiwe, Li, Leila, Jonas, Pylon and others without reducing those arcs to "how they affected McCluster."
 
 ---
 
@@ -124,7 +124,7 @@ Because McCluster is not always the episode owner, past hints should often enter
 - McCluster recognizes a person/place/object and refuses to explain why;
 - somebody finds an old photograph that visually conflicts with present McCluster;
 - an institutional record has an unexplained age/date/alias inconsistency;
-- Royce reacts to McCluster in a way the present cast cannot interpret;
+- Benji reacts to McCluster in a way the present cast cannot interpret;
 - Aya notices a compartment in McCluster's life she cannot access;
 - somebody mentions an old name without the audience receiving the full answer;
 - McCluster is absent from an episode but an old consequence of his life intersects another character.
@@ -221,7 +221,7 @@ MCCLUSTER / WILDCARD
 PRIM2 / APEX INTERVENTION
 ```
 
-The hostile board can answer with a **Royce Incursion**.
+The hostile board can answer with a **Benji Incursion**.
 
 The purpose is not to create a hero button. It is to turn attachment to the ensemble into a strategic resource decision.
 
@@ -266,7 +266,7 @@ PRIMARY PLAYABLE POV(S):
 MCCLUSTER PLAY STATE: scripted / wildcard / locked out
 WILDCARD ELIGIBLE: yes/no + reason
 APEX ELIGIBLE: yes/no + reason
-ROYCE INCURSION ELIGIBLE: yes/no + reason
+BENJI INCURSION ELIGIBLE: yes/no + reason
 WHO CHANGES MOST:
 RELATIONSHIP WRITE:
 SECRET LEARNED / MISLEARNED:
@@ -288,7 +288,7 @@ Do not lock an exact episode quota until detailed episode ownership is reassigne
 - several episodes should place him in supporting/cameo/mentioned-only status;
 - at least one ordinary-season episode should prove the series can work with McCluster entirely absent and unavailable as Wildcard;
 - no major recurring character should require McCluster's presence to justify their development;
-- final succession episodes naturally increase McCluster/PRIM2/Royce ownership again.
+- final succession episodes naturally increase McCluster/PRIM2/Benji ownership again.
 
 This is a bias, not a mechanical quota.
 

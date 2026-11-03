@@ -64,7 +64,7 @@ That creates a stronger post-series relationship than a simple death/upload fork
 - McCluster can use knowledge without granting autonomy;
 - the former holder can advise without being able to silently execute;
 - every request to expand his permissions becomes a future governance decision;
-- Royce remains a living external counterweight rather than being absorbed automatically.
+- Benji remains a living external counterweight rather than being absorbed automatically.
 
 ---
 
@@ -77,12 +77,12 @@ Potential strategic systems include:
 | System | Function |
 |---|---|
 | **PRIM / McCluster Corp** | infrastructure, institutional, technical and resilience operations |
-| **Hitman / Royce** | separate kinetic/street-corporate power center with unresolved relationship to PRIM3 |
+| **Hitman / Benji** | separate kinetic/street-corporate power center with unresolved relationship to PRIM3 |
 | **Ghost-class PRIM2** | read/analyze/advice intelligence under bounded permissions |
 | **Global intelligence picture** | evidence/provenance-driven strategic awareness |
 | **Policy / special operations** | human-authorized higher-level interventions with consequence tracking |
 
-Do **not** assume McCluster automatically owns Hitman merely because he becomes PRIM3. Royce remains alive and politically/operationally consequential after the finale unless future canon deliberately changes that.
+Do **not** assume McCluster automatically owns Hitman merely because he becomes PRIM3. Benji remains alive and politically/operationally consequential after the finale unless future canon deliberately changes that.
 
 ---
 

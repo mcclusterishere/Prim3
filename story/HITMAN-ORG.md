@@ -13,7 +13,7 @@ Its exact internal titles may vary by era/region, but the recurring organization
 
 | Function | Story job |
 |---|---|
-| Sovereign / succession seat | highest internal authority; held by Royce in the contemporary PRIM3-era frame |
+| Sovereign / succession seat | highest internal authority; held by Benji in the contemporary PRIM3-era frame |
 | Operations / money | keeps obligations, resources and work moving |
 | Sponsor / client gate | translates outside demand, money and political/social pressure into work |
 | Crew / cell leadership | commands small operational groups |
@@ -38,10 +38,10 @@ Current succession line relevant to the show:
 BIGGA LEX THE JET
     -> offers succession to MCCLUSTER
 MCCLUSTER REFUSES
-    -> ROYCE receives the succession opportunity
+    -> BENJI receives the succession opportunity
 ```
 
-Royce is therefore the current Hitman-side sovereign/rival figure.
+Benji is therefore the current Hitman-side sovereign/rival figure.
 
 ## PRIM2 relationship
 
@@ -51,6 +51,6 @@ PRIM2's dual-board advantage comes from higher cross-compartment visibility and 
 
 ## Gameplay
 
-Royce may enter eligible PRIM missions as a hostile elite incursion under `game/WILDCARD-INTERVENTION-AUTHORITY.md`.
+Benji may enter eligible PRIM missions as a hostile elite incursion under `game/WILDCARD-INTERVENTION-AUTHORITY.md`.
 
 Do not treat every Hitman character as a generic enemy pawn. Named Hitman characters must carry the same psychology/relationship depth standard as the PRIM ensemble.

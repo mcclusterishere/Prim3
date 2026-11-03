@@ -21,7 +21,7 @@ SECONDARY DEPTH: Arjun Mehta / Emre Yıldız / Aya Shinoda / Hassan Raza / Chiom
 MCCLUSTER: supporting mentor; off-board Wildcard at CRITICAL
 BASE PLAYABLE ROSTER: Valeria / Arjun / Emre / assigned technical support
 APEX: unavailable
-ROYCE: unavailable
+BENJI: unavailable
 ```
 
 This supersedes the old McCluster/Aya relationship-owned migration story. Technical installation/migration mechanics are retained; the human story now belongs to Valeria's transition from ambitious trainee to trusted operator.

@@ -9,13 +9,13 @@ branch: main
 
 ## Authority
 
-This file locks McCluster's first two adult seven-year arcs and the relationship among **McCluster**, **Bigga Lex the Jet** and **Royce**.
+This file locks McCluster's first two adult seven-year arcs and the relationship among **McCluster**, **Bigga Lex the Jet** and **Benji**.
 
-**Owner decision (2026-11-02): Benji Chase is a different person from McCluster.** Earlier canon that made "Benji" McCluster's Hitman-era identity is withdrawn. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation years, the refused chair) stays McCluster's and is told under his own name. Benji Chase's role in that history is **open** (owner question in `story/STORY-CONSOLIDATION-PROPOSAL.md`). Benji Chase is not the Hitman-side RAID attacker: that is Royce.
+**Owner decisions (2026-11-02, 2026-11-03): Benjamin "Benji" Chase is not McCluster; he is McCluster's clone.** The character formerly called Royce is **Benjamin Chase**: a government-program clone of McCluster (an engineered derivative born seven years after him), "low-key McCluster's evil twin". He is Benjamin Chase until he takes over the Hitman organisation at about 19; after that he is dubbed **"Hitman Benji"**. He is a separate person with his own life and choices, the Hitman sovereign and the Hitman-side RAID attacker. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation, the refused chair) is McCluster's: "The retaliation he did was all him." Origin authority: `story/BENJI-CHASE-JANUS-ORIGIN-CANON.md` (reveal-gated to Evil Twin).
 
 Version 1.2.0 of this file said "Benji is McCluster's Hitman identity from age 19 through age 26". That sentence is withdrawn. Every scene below that was written under the name "Benji" is a scene of McCluster's life and is kept, attributed to McCluster.
 
-Where an older draft needs a separate present-day Hitman-side operator after McCluster has left Hitman, that structural role belongs to **Royce** unless later owner canon deliberately changes it.
+Where an older draft needs a separate present-day Hitman-side operator after McCluster has left Hitman, that structural role belongs to **Benji** unless later owner canon deliberately changes it.
 
 The purpose of this history is character and continuity. Criminal events may be dramatized at a story level, but PRIM3 does not need to teach operational methods for committing crimes, evading law enforcement, or defeating real-world tracking systems.
 
@@ -196,9 +196,9 @@ The legitimacy of the system McCluster applies it to does.
 
 Inside Hitman, McCluster operates under his own name.
 
-**Owner decision (2026-11-02): Benji Chase is a different person from McCluster.** Earlier canon that made "Benji" McCluster's Hitman-era identity is withdrawn. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation years, the refused chair) stays McCluster's and is told under his own name. Benji Chase's role in that history is **open** (owner question in `story/STORY-CONSOLIDATION-PROPOSAL.md`). Benji Chase is not the Hitman-side RAID attacker: that is Royce.
+**Owner decisions (2026-11-02, 2026-11-03): Benjamin "Benji" Chase is not McCluster; he is McCluster's clone.** The character formerly called Royce is **Benjamin Chase**: a government-program clone of McCluster (an engineered derivative born seven years after him), "low-key McCluster's evil twin". He is Benjamin Chase until he takes over the Hitman organisation at about 19; after that he is dubbed **"Hitman Benji"**. He is a separate person with his own life and choices, the Hitman sovereign and the Hitman-side RAID attacker. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation, the refused chair) is McCluster's: "The retaliation he did was all him." Origin authority: `story/BENJI-CHASE-JANUS-ORIGIN-CANON.md` (reveal-gated to Evil Twin).
 
-Which Hitman-era songs belong to McCluster's life and which to Benji Chase is **open**: the songs credited to "Hitman Benji" are not automatically McCluster's material any more.
+Songs credited to "Hitman Benji" belong to Benjamin Chase's reign, after the takeover. Which Hitman-era songs belong to McCluster's own years is open song by song.
 
 The tonal difference between McCluster at 19–26 and McCluster at 33 is intentional. McCluster has lived another seven years after leaving Hitman before PRIM3 begins.
 
@@ -298,41 +298,41 @@ This becomes an early version of a recurring McCluster problem: **when does prot
 
 At 26 the choice reads as mature restraint. Later relationships, especially Aya, will force McCluster to confront the limits of that instinct.
 
-### 11.2 Royce would make the succession bloody anyway
+### 11.2 Benji would make the succession bloody anyway
 
-Royce is one of McCluster's biggest Hitman rivals.
+Benji is one of McCluster's biggest Hitman rivals.
 
-Royce is **seven years younger than McCluster**.
+Benji is **seven years younger than McCluster**.
 
-When McCluster is 26, Royce is approximately **19**—the same age McCluster was when his own first adult arc began.
+When McCluster is 26, Benji is approximately **19**—the same age McCluster was when his own first adult arc began.
 
-Royce is nastier, more openly power-hungry and more willing to make the succession violent.
+Benji is nastier, more openly power-hungry and more willing to make the succession violent.
 
-McCluster understands that if he accepts Lex's position, Royce is likely to challenge him and may attempt to kill him for it.
+McCluster understands that if he accepts Lex's position, Benji is likely to challenge him and may attempt to kill him for it.
 
 McCluster does not want the organization badly enough to risk restarting a war over a chair he never truly wanted.
 
-Between Lex's children and Royce's ambition, accepting the title is doubly not worth it.
+Between Lex's children and Benji's ambition, accepting the title is doubly not worth it.
 
 McCluster **gracefully bows out of Hitman**.
 
 ---
 
-# 12. Royce succession
+# 12. Benji succession
 
 McCluster does not leave Bigga Lex's position empty.
 
-Instead, McCluster gives the opportunity to **Royce**.
+Instead, McCluster gives the opportunity to **Benji**.
 
 This is simultaneously:
 
 - pragmatic;
 - self-preserving;
 - protective of Lex's exit;
-- a recognition that Royce wants the position more than McCluster does;
+- a recognition that Benji wants the position more than McCluster does;
 - and potentially one of the most consequential mistakes McCluster ever makes.
 
-Royce therefore enters the long-form saga as much more than a late-game enemy.
+Benji therefore enters the long-form saga as much more than a late-game enemy.
 
 He is:
 
@@ -346,7 +346,7 @@ The succession creates a durable moral question for McCluster:
 
 > Is refusing corrupt power enough if you knowingly hand that power to someone worse?
 
-The exact early McCluster/Royce rivalry, Royce's family/background, whether Royce interprets McCluster's transfer as respect or insult, and how their relationship evolves after age 26 remain open for character-by-character development.
+The exact early McCluster/Benji rivalry, Benji's family/background, whether Benji interprets McCluster's transfer as respect or insult, and how their relationship evolves after age 26 remain open for character-by-character development.
 
 ---
 
@@ -390,7 +390,7 @@ The second seven-year arc is defined by a paradox:
 
 He knows two categories of people may still have reasons to look for him:
 
-- **Royce**, who inherited the position McCluster refused and may still view McCluster as a rival, threat or unfinished succession problem;
+- **Benji**, who inherited the position McCluster refused and may still view McCluster as a rival, threat or unfinished succession problem;
 - people and networks McCluster made enemies of during the Hitman years.
 
 McCluster therefore has no desire to plant himself permanently in one obvious place.
@@ -588,9 +588,9 @@ FIRST COLLEGE ATTEMPT — UPSTATE NEW YORK
 -> Lex decides to retire
 -> Lex offers McCluster his title
 -> McCluster refuses: he will not keep Lex tied to danger as a father
--> McCluster also knows Royce will likely fight/kill for the position
--> Royce is 19 while McCluster is 26
--> McCluster gives the position to rival ROYCE
+-> McCluster also knows Benji will likely fight/kill for the position
+-> Benji is 19 while McCluster is 26
+-> McCluster gives the position to rival BENJI
 -> McCluster leaves Hitman
 AGE 26
 -> decides the next hustle must be legitimate
@@ -621,13 +621,13 @@ This history should not be presented as one exposition dump inside PRIM3. It sho
 
 Effective with this canon:
 
-1. **Benji Chase is a different person from McCluster (owner decision, 2026-11-02).** McCluster's age-19-to-26 Hitman period is told under McCluster's own name.
-2. Benji Chase's role in the Hitman years, and whether he exists in the PRIM3 present, is open until the owner decides it.
-3. **Royce inherits the structural role of the post-McCluster Hitman-side rival/successor** in later dual-board material unless deliberately revised.
-4. Older references to `McCluster + Benji` as the two RAID/Evil Twin survivors remain superseded: the two survivors are McCluster and Royce.
-5. Older references to `Benji` that describe McCluster's age-19-to-26 Hitman period are rewritten to name McCluster; they are not renamed to Royce.
+1. **Benjamin "Benji" Chase is McCluster's clone and a different person (owner decisions 2026-11-02/03).** McCluster's age-19-to-26 Hitman period is told under McCluster's own name.
+2. Benji (formerly called Royce) takes the chair McCluster refuses and is dubbed Hitman Benji; his origin is `BENJI-CHASE-JANUS-ORIGIN-CANON.md`.
+3. **Benji inherits the structural role of the post-McCluster Hitman-side rival/successor** in later dual-board material unless deliberately revised.
+4. The two RAID/Evil Twin survivors are McCluster and Benji (formerly Royce): two men, one a clone of the other.
+5. Older references to `Benji` that described McCluster's age-19-to-26 Hitman period now name McCluster.
 6. Bigga Lex's retirement is tied to the birth of his children and McCluster's refusal to endanger their father through inherited loyalty.
-7. Royce is seven years younger than McCluster and receives Lex's former position at approximately age 19.
+7. Benji is seven years younger than McCluster and receives Lex's former position at approximately age 19.
 8. McCluster's age-26 exit flows directly into Whip Equipped as a legitimacy/ownership strategy.
 9. The age-26-to-33 Whip Equipped period is also **the Ghost Years**: McCluster stays geographically mobile, lives in vehicles, flips vehicle inventory, works around infrastructure and avoids rebuilding the predictable routines of his Hitman life.
 10. McCluster's return to college at 33 is a deliberate **re-entry into conventional visibility, housing, education and employment**, not merely a degree decision.
@@ -645,8 +645,8 @@ The following remain brainstorm/open rather than canonized by this document:
 - exact identity/motivation of the student informant and whether money or another incentive was used;
 - detailed Hitman mission chronology beyond the locked origin/hardening events above;
 - complete Bigga Lex biography beyond friendship, Hitman authority, fatherhood and retirement;
-- complete Royce biography beyond age relationship, rivalry, temperament and succession;
-- precise relationship among McCluster, Royce and the rest of Hitman across the seven-year period;
+- complete Benji biography beyond age relationship, rivalry, temperament and succession;
+- precise relationship among McCluster, Benji and the rest of Hitman across the seven-year period;
 - exact state-by-state Ghost Years chronology;
 - specific vehicles, flips, companies, employers and data-center jobs during ages 26–33;
 - when the informal vehicle hustle becomes the formal Whip Equipped brand/company;

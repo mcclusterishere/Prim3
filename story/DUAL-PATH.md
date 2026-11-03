@@ -25,9 +25,9 @@ Current apex relationships:
 ```text
 PRIM2 — presiding Mantle holder with cross-board visibility
 MCCLUSTER — former Hitman successor candidate; PRIM-side Wildcard; eventual PRIM3
-ROYCE — post-McCluster Hitman successor / hostile elite field threat
+BENJI — post-McCluster Hitman successor / hostile elite field threat
 ```
 
-During ordinary PLAY, McCluster is withheld from the base roster and may be requested as Wildcard. Royce may intrude from the opposing board as an elite incursion. On the rarest eligible missions, PRIM2 can be requested as Apex support after McCluster is already present and the mission still collapses.
+During ordinary PLAY, McCluster is withheld from the base roster and may be requested as Wildcard. Benji may intrude from the opposing board as an elite incursion. On the rarest eligible missions, PRIM2 can be requested as Apex support after McCluster is already present and the mission still collapses.
 
-The final RAID brings McCluster and Royce to Site 0 from opposite boards, destroys both assault elements around them, and forces the two old rivals into a temporary alliance against PRIM2.
+The final RAID brings McCluster and Benji to Site 0 from opposite boards, destroys both assault elements around them, and forces the two old rivals into a temporary alliance against PRIM2.

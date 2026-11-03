@@ -15,7 +15,7 @@ Full game/app bible = later. Continuity + brand + first song locked here / in `w
 ## Where it sits
 
 ```text
-AGE 19–26   HITMAN          McCluster refuses Bigga Lex's chair; Royce takes it
+AGE 19–26   HITMAN          McCluster refuses Bigga Lex's chair; Benji takes it
 AGE 26–33   WHIP EQUIPPED   the Ghost Years: vehicles, mobility, infrastructure work, the woman, the plane
 AGE 33–40   PRIM3           haircut to waves, college, Equity Uprise, succession
 ```

@@ -21,7 +21,7 @@ SECONDARY DEPTH: Hassan Raza / Leila Hosseini / Emre Yıldız / Dez “Switch”
 BASE PLAYABLE ROSTER: Dmitri / Oksana / Hassan / Leila
 MCCLUSTER: absent by default; off-board Wildcard at CRITICAL
 APEX: unavailable
-ROYCE: eligible as a rare pressure incursion if campaign conditions warrant
+BENJI: eligible as a rare pressure incursion if campaign conditions warrant
 ```
 
 This supersedes the old McCluster-led containment blueprint.
@@ -38,7 +38,7 @@ This supersedes the old McCluster-led containment blueprint.
 | Leila | identity/governance | Articulates the difference between a risk category and a guilty person, extending Episode 7's identity argument into crisis response. |
 | Emre | physical systems | Pushes back against indiscriminate isolation when a broad technical shutdown creates physical hazards. |
 | Dez | Hitman adaptive mirror | Shows how survival rewards can teach a younger operator to become more flexible and more dangerous at the same time. |
-| Royce | conditional hostile escalation | If present, increases pressure and tempo but does not magically know the technical answer. His existence independent of McCluster becomes undeniable. |
+| Benji | conditional hostile escalation | If present, increases pressure and tempo but does not magically know the technical answer. His existence independent of McCluster becomes undeniable. |
 
 ---
 
@@ -86,7 +86,7 @@ Core line:
 6. Emre identifies a physical consequence caused by an over-broad shutdown.
 7. The team separates multiple technical causes/states and restores trust deliberately.
 8. Dmitri is cleared by evidence, not sympathy.
-9. Optional Royce pressure can complicate extraction/tempo without taking over the technical story.
+9. Optional Benji pressure can complicate extraction/tempo without taking over the technical story.
 
 ---
 
@@ -106,7 +106,7 @@ McCluster may be called only if the mission becomes CRITICAL; if called, he pres
 - Leila's identity-governance philosophy gains another concrete example.
 - Emre earns more authority in mixed cyber-physical incidents.
 - Dez gains visible trajectory on the Hitman side.
-- If Royce appears, the team learns he is not merely “McCluster's old problem.”
+- If Benji appears, the team learns he is not merely “McCluster's old problem.”
 
 ---
 

@@ -419,7 +419,7 @@ A major character remaining `D` for multiple episodes requires a reason: assignm
 
 Aya is now another reference-quality implementation through `story/AYA-SHINODA-PSYCHOLOGICAL-BACKGROUND.md` and related files.
 
-When building Chioma, Royce, PRIM2 and the rest of the recurring cast, aim for comparable causal depth rather than copying McCluster or Aya's personalities.
+When building Chioma, Benji, PRIM2 and the rest of the recurring cast, aim for comparable causal depth rather than copying McCluster or Aya's personalities.
 
 The governing principle is:
 

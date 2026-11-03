@@ -16,9 +16,9 @@ inherits:
 
 Purpose: prove the PRIM3 system can scale from a contained IT incident into a cinematic multi-floor assault without losing the educational mechanics.
 
-Continuity note (2026-11-02): this file was written when canon had McCluster and a separate Benji attacking a defender called Prime. Current canon (`CANON.md` §16, §18; `episodes/S07E01-RAID-HOT-SITE.md`) makes the Hitman-side attacker **Royce** and the defender **PRIM2**, so the names below are updated. Benji Chase is a different person from McCluster and is not in this mission.
+Continuity note (2026-11-03): the Hitman-side attacker is **Benjamin "Benji" Chase** (Hitman Benji; called Royce in canon from Sept to Nov 2026), McCluster's clone, and the defender is **PRIM2** (`CANON.md` §9, §16, §18). Machine keys named `royce_*` elsewhere refer to him.
 
-The existing locked story outcome remains: McCluster (PRIM side) and Royce (Hitman side) enter Site 0 with separate teams, the teams are destroyed, McCluster and Royce survive, nearly fight one another, ally against PRIM2, defeat him together, and preserve the life-support/succession state required for Evil Twin/Ghost.
+The existing locked story outcome remains: McCluster (PRIM side) and Benji (Hitman side) enter Site 0 with separate teams, the teams are destroyed, McCluster and Benji survive, nearly fight one another, ally against PRIM2, defeat him together, and preserve the life-support/succession state required for Evil Twin/Ghost.
 
 All Site 0 systems and attack paths are fictional abstractions.
 
@@ -70,10 +70,10 @@ Player-control structure:
 
 ```text
 PHASE A — McCluster team / Exterior-L1
-PHASE B — Royce team / alternate route
+PHASE B — Benji team / alternate route
 PHASE C — alternating viewpoints through Site 0
 PHASE D — both teams collapsing / redundancy reveals
-PHASE E — McCluster + Royce convergence
+PHASE E — McCluster + Benji convergence
 PHASE F — PRIM2 control-core fight
 PHASE G — succession/life-support validation
 ```
@@ -93,7 +93,7 @@ Mission-wide state variables:
 - External Exposure: 0
 - Evidence Integrity: 3
 - McCluster Team Strength: story-decaying
-- Royce Team Strength: story-decaying
+- Benji Team Strength: story-decaying
 - Failover Map Confidence: 0/100
 - Hostile Redundancy Remaining: 5 abstract domains
 - Safe Redundancy Remaining: 5 abstract domains
@@ -349,7 +349,7 @@ Player must isolate authority from life-safety continuity before committing.
 
 ## Set piece D — Final Authority Room
 Combat and technical work happen simultaneously.
-McCluster/Royce must survive PRIM2 while T/R/E-equivalent actions across surviving characters disable hostile command paths but preserve life support.
+McCluster/Benji must survive PRIM2 while T/R/E-equivalent actions across surviving characters disable hostile command paths but preserve life support.
 Technical completion weakens PRIM2's tactical board; combat buys the turns required to complete technical state transition.
 
 ---
@@ -375,7 +375,7 @@ The game must never present locked deaths as caused by the player answering a te
 
 ---
 
-# 14. McCluster / Royce convergence
+# 14. McCluster / Benji convergence
 
 When both survivor paths meet:
 - both initially appear as HOSTILE/UNKNOWN units on each other's tactical picture;
@@ -452,7 +452,7 @@ Operational Objective:
 - succession state viable.
 
 Team:
-- locked survivor state remains McCluster + Royce;
+- locked survivor state remains McCluster + Benji;
 - score reflects injury severity, resources, what doomed teammates preserved, and avoidable noncombatant harm.
 
 Exposure:
