@@ -512,7 +512,17 @@ function hasLineOfSight(state, a, b) {
   const dx = b.x - a.x, dy = b.y - a.y;
   const len2 = dx * dx + dy * dy;
   const half = len2 ? 0.5 / Math.sqrt(len2) : 0; // half a tile, as a fraction of the line
-  for (const cell of lineCells(a, b)) {
+  const between = lineCells(a, b);
+  if (!between.length && az !== bz) {
+    // adjacent (or stacked) cells on different floors: no intermediate column is crossed, so the slab between
+    // them is checked here. A slab over the lower unit's head, at or below the upper unit's floor, blocks
+    // (a unit on Floor 1 does not see the basement through its own floor); open air over the lower cell
+    // (a roof edge over the street) does not.
+    const sa = geo.standHeight(a.x, a.y, az), sb = geo.standHeight(b.x, b.y, bz);
+    const low = sa <= sb ? a : b, loStand = Math.min(sa, sb), hiStand = Math.max(sa, sb);
+    for (const s of geo.columnSurfaces.get(low.y * geo.W + low.x) || []) if (s.height > loStand + 1e-9 && s.height <= hiStand + 1e-9) return false;
+  }
+  for (const cell of between) {
     const t = len2 ? ((cell.x - a.x) * dx + (cell.y - a.y) * dy) / len2 : 0;
     const h1 = ha + (hb - ha) * clamp(t - half, 0, 1);
     const h2 = ha + (hb - ha) * clamp(t + half, 0, 1);

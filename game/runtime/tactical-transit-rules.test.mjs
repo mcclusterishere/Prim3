@@ -349,3 +349,17 @@ test('hints: the display frame changes what the player reads, not the engine cel
   assert.deepEqual(sug.display, { x: sug.x - 1, y: sug.y - 9 });
   assert.ok(r.response.why[0].includes(`(${sug.x - 1}, ${sug.y - 9})`));
 });
+
+test('adjacent cells on different floors: a floor slab between them blocks sight; open air over the lower cell does not', () => {
+  const surfaces = [
+    { id: 'upper', z: 1, x: 0, y: 0, w: 4, d: 4, height: 0 },
+    { id: 'basement', z: 2, x: 0, y: 0, w: 4, d: 4, height: -4.1 },
+    { id: 'roof', z: 3, x: 0, y: 0, w: 2, d: 4, height: 8 }
+  ];
+  const s = createState({ width: 6, height: 4, floors: 4, surfaces, units: [] });
+  assert.equal(hasLineOfSight(s, { x: 1, y: 1, z: 1 }, { x: 2, y: 1, z: 2 }), false, 'Floor 1 does not see the basement next door through the slab');
+  assert.equal(hasLineOfSight(s, { x: 1, y: 1, z: 1 }, { x: 1, y: 1, z: 2 }), false, 'nor straight down');
+  assert.equal(hasLineOfSight(s, { x: 2, y: 1, z: 2 }, { x: 1, y: 1, z: 1 }), false, 'symmetric');
+  assert.equal(hasLineOfSight(s, { x: 1, y: 1, z: 3 }, { x: 2, y: 1, z: 1 }), true, 'a roof edge sees the open floor beside it');
+  assert.equal(hasLineOfSight(s, { x: 1, y: 1, z: 1 }, { x: 3, y: 1, z: 2 }), false, 'two cells away the intermediate slab check already blocks');
+});

@@ -37,6 +37,10 @@ the learner model. It gives no numbers for the following; these are conservative
   (slab = the top **0.3 m** of a surface on floor ≥ 1). A ground blocker without `h` reaches the roof above
   it (or, in the open, the lowest roof height on floor 1); an upper-floor blocker sits on its surface.
   Same-floor results without heights equal the original rule.
+  Adjacent (or stacked) cells on different floors cross no intermediate column, so their slab is checked
+  directly: a surface over the lower unit's cell, above its floor and at or below the upper unit's floor,
+  blocks (Floor 1 does not see a basement unit next door through the slab); open air over the lower cell
+  (a roof edge over the street) does not. (2026-11-03, found by the Equity Uprise B1 level.)
 - **Distance across floors**: Manhattan x/y, only with `surfaces`; otherwise Infinity (original).
 - **Elevation bonus**: unchanged, attacker on a higher floor +10.
 - **Overwatch reaction aim penalty: −15.** Canon names overwatch (1 AP, reaction fire on hostile
