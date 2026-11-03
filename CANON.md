@@ -557,6 +557,10 @@ Equity Uprise is real, not a disposable front. Its educational/community mission
 ### McCluster Corp
 The larger holding/operating ecosystem behind Equity Uprise: property, brands, companies, institutional relationships and cross-domain resources. McCluster does **not** begin the series by joining McCluster Corp directly.
 
+### Regional presence (owner decision, 2026-11-03)
+
+McCluster Corp is a major multi-million-dollar organisation (owner: "This is a major multi-million dollar corporation"). **Equity Uprise HQ stays in the United States** and remains the ensemble's home and the series' recurring set. **McCluster Corp also posts agents abroad with full crews**: standing regional presences that carry field, technical, support and media staff. Mains may be posted to a region for an assignment and come home; regional crews are recurring people in their own right. This replaces the earlier statement that everyone operates from one US building.
+
 ### PRIM — visible layer
 `Program for Resilient Infrastructure Management`: training, missions, technical/operational education, resilience, phenotypes, curriculum and field activity as encountered through Equity Uprise and connected operations.
 

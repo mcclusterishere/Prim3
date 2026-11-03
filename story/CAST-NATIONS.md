@@ -16,7 +16,7 @@ Root `CANON.md` still outranks this file. Names and backstories here are **propo
 - **McCluster** — African American, United States, protagonist path.
 - **Aya Shinoda** — Japan, Field-T, central emotional relationship with McCluster.
 - Prime remains above the nationality matrix and keeps his civilian name unresolved.
-- Everyone is presently operating in the United States / Equity Uprise system even when their origin remains central to identity.
+- The 24 mains are based at Equity Uprise HQ in the United States, and McCluster Corp also posts agents abroad with full crews (regional presence; owner decision 2026-11-03, `CANON.md` §19). A main may be posted to a region for an assignment; origin remains central to identity.
 - The point of the roster is not tokenism. People from governments that may distrust one another are forced to share one operational architecture and decide whether personal loyalty can outgrow national narratives.
 
 # 24 main characters

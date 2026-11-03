@@ -34,6 +34,7 @@ This document does three things. It merges three storylines that grew up apart i
 | 1 | Ghost is McCluster's "ghost mode": "he's been ghosted from the view of everyone … under the radar." | **RESOLVED** | `CANON.md` §9; §4.4 |
 | 2 | "Rename Royce Benjamin Chase … Benji is low-key McCluster's evil twin … a clone of McCluster … dubbed Hitman Benji after he takes over the organization." | **RESOLVED** | 84 files; `story/BENJI-CHASE-JANUS-ORIGIN-CANON.md`; §2.3, §4.4 |
 | 3 | "The retaliation he did was all him." McCluster's Hitman-era deeds stay his. | **RESOLVED** (no change needed) | `CANON.md` §9 |
+| 5 | "This is a major multi-million dollar corporation": agents posted abroad with full crews (regional presence); HQ stays in the US. | **RESOLVED** (canon change) | `CANON.md` §19; §6.2 |
 | 4 | "All storyline missions are planned" applies except to real emergencies; E05, E06 and E16 stay emergencies. | **RESOLVED** | §3.1, §3.6, §5 |
 
 **Promotion to canon.** Under `AGENTS.md` "Change control", the approved sections still enter canon through a pull request that states existing canon, replacement, reason, downstream files and owner approval. Each approved item below carries those five fields in a box marked **CHANGE CONTROL**. Everything not marked **OWNER-APPROVED** stays **PROPOSED**.
@@ -496,13 +497,13 @@ Whip Equipped songs (Salvage Title, Test Drive, Dealer Plates, Repo Guy, Towyard
 
 PRIM3 agents watch the news worldwide and turn reports into missions; tapping a region shows the agent there; geographic data (markets and so on) shapes missions; "realistic and fun".
 
-## 6.2 The framing: "on location", from one HQ
+## 6.2 The framing: regional presence with full crews — RESOLVED 2026-11-03
 
-Canon says everyone operates from one US building, Equity Uprise HQ ("Same building. Same people.", `CANON.md` §2). The creative-layer cover solves the globe without changing that: **agents abroad are on location.** F4's location production unit travels; a crew abroad is shooting something real (a partner documentary, a market feature, a music film), and the operator is on that crew. Tapping a region shows **who is on location there, what they are shooting, and what they are really watching.**
+**Owner decision (2026-11-03):** "This is a major multi-million dollar corporation." Agents are **posted abroad with full crews** (a standing regional presence), while **HQ stays in the United States**. This replaces the earlier "everyone operates from one US HQ" statement and this proposal's "on location" framing. Canon text: `CANON.md` §19 "Regional presence".
 
-- No canon change: nobody lives abroad; they are on assignment from HQ.
-- It explains why the agent is there (the shoot), how they are concealed (the cover), and what the mission is (the break).
-- An owner canon change ("PRIM has regional desks") remains possible but is not needed (Owner Question 7).
+- **Tap a region** to see the agent posted there, their crew (field, technical, support and media staff), what they are watching in the local news, and the mission it became.
+- **The creative-layer cover still applies abroad.** Every regional crew includes media staff, so a planned regional mission still opens mid professional shoot.
+- **Mains rotate.** A main may be posted to a region for an assignment and come home to HQ; the regional agents and crews are recurring people (see the expanded-ensemble plan, §9).
 
 ## 6.3 News → missions, safely
 
@@ -515,13 +516,13 @@ Canon says everyone operates from one US building, Equity Uprise HQ ("Same build
 | Layer | What it is | Canon effect |
 |---|---|---|
 | The 21 episodes | the story | canon |
-| Halo campaign "3 introductions + 21 cores × 3 variants" (control repo) | **the 3 introductions are the three solos (Benji, Aya, Hana).** Their canon sites are all in the US (Bridgeport, Harborline, North River), which satisfies "three distinct locations". The 63 variants (A recognize, B apply, C adapt) of each core are its location shoots elsewhere | variants are side operations: no canon writeback, no Wildcard / Apex / Benji pool use, no relationship or casualty state (`game/LEARNING-MISSION-SOURCE-OF-TRUTH.md` §4) |
-| Globe pins | side operations "on location", one per region, each tied to a core episode's concept and to a cast member whose heritage fits the place (Halo "character jurisdiction/heritage" rule) | noncanonical, like the Training Range |
-| Featured pins | **Benji (US), Aya (Japan), Hana (South Korea)** to match the trio | Aya's Japan pin is a Kariya location shoot (a variant of LVL-02's concept); Hana's Ulsan pin is an **origin card**, not a playable mission, until LVL-03 has been played |
+| Halo campaign "3 introductions + 21 cores × 3 variants" (control repo) | **the 3 introductions are the three solos (Benji, Aya, Hana).** Their canon sites are all in the US (Bridgeport, Harborline, North River), which satisfies "three distinct locations". The 63 variants (A recognize, B apply, C adapt) of each core are operations run by regional presences elsewhere | variants are side operations: no canon writeback, no Wildcard / Apex / Benji pool use, no relationship or casualty state (`game/LEARNING-MISSION-SOURCE-OF-TRUTH.md` §4) |
+| Globe pins | side operations run by the regional presence, one per region, each tied to a core episode's concept and to a cast member whose heritage fits the place (Halo "character jurisdiction/heritage" rule) | noncanonical, like the Training Range |
+| Featured pins | **Benji (US), Aya (Japan), Hana (South Korea)** to match the trio | Aya's Japan pin is an assignment with the Japan regional crew (a variant of LVL-02's concept); Benji's US pin sits on the Hitman side of the board; Hana's Ulsan pin is an **origin card**, not a playable mission, until LVL-03 has been played |
 
 ## 6.5 No spoilers on the globe
 
-The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 (UI says "Executive oversight" at most), the Mantle meaning of PRIM, the Hitman prequel, Benji Chase, or JANUS. Hana appears only as "in memory". McCluster is not a normal globe agent (`CANON.md` §5); his pin, if any, is Road Kit, labelled as authored.
+The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 (UI says "Executive oversight" at most), the Mantle meaning of PRIM, the Hitman prequel, or Benji's clone origin (JANUS). Hana appears only as "in memory". McCluster is not a normal globe agent (`CANON.md` §5); his pin, if any, is Road Kit, labelled as authored.
 
 ---
 
@@ -551,7 +552,7 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 4. **Ghost.** **RESOLVED 2026-11-03:** McCluster's "ghost mode", a state/era, not an alias, no link to Benji.
 5. **Benji's nationality and type.** **RESOLVED 2026-11-03:** LVL-01 is Benjamin Chase (United States, E). The `CANON.md` §14 exception for authored solo introductions remains part of promoting §2.
 6. **Emergency exceptions.** **RESOLVED 2026-11-03:** the planned rule applies except to real emergencies; E05, E06 and E16 stay emergencies (§3.6).
-7. **Globe framing.** Agents "on location" from the one US HQ, or a canon change to regional desks? *Recommendation:* on location; no canon change.
+7. **Globe framing.** **RESOLVED 2026-11-03:** regional presence abroad with full crews; HQ stays in the US (`CANON.md` §19; §6.2).
 8. **PRIM Method.** Keep the real "PRIM Method" out of story canon, or make it the in-world Tier 0 meaning? *Recommendation:* keep it out; the fiction/real boundary is worth more than the wordplay.
 9. **Whip Equipped and I AM HERE songs in PRIM3.** May any be used as PRIM3 source cues (e.g. Who Did The Shoot as the cover's imagery), given the canon rule that Whip Equipped music stays in its era? *Recommendation:* imagery and in-world artefacts only; no soundtrack placement without your say.
 10. **Meridian.** Do you want the name, and if so for what? *Recommendation:* the late-revealed codename of the outside effort that sent Hana in, or nothing.
