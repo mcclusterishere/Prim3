@@ -231,12 +231,12 @@ A firefight is strongest when the player understands **what technical/human oppo
 
 ## 10. PLAY runtime vs episode runtime
 
-The authored episode can retain a short mission/action segment for WATCH mode.
+The authored episode (WATCH, approximately 20–35 minutes per `CANON.md` §1) can retain a short mission/action segment inside that runtime.
 
-PLAY mode should not be forced into the same three-minute duration.
+PLAY mode should not be forced into that segment's duration.
 
 Recommended:
-- WATCH mission montage: ~3 minutes inside the authored episode.
+- WATCH mission montage: roughly one track-length (about 3 minutes) inside the 20–35-minute authored episode; the old nine-minute episode cap is retired.
 - PLAY mission: ~15-30 minutes for normal missions.
 - capstones: longer/checkpointed.
 
