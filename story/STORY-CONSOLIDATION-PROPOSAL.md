@@ -35,6 +35,7 @@ This document does three things. It merges three storylines that grew up apart i
 | 2 | "Rename Royce Benjamin Chase … Benji is low-key McCluster's evil twin … a clone of McCluster … dubbed Hitman Benji after he takes over the organization." | **RESOLVED** | 84 files; `story/BENJI-CHASE-JANUS-ORIGIN-CANON.md`; §2.3, §4.4 |
 | 3 | "The retaliation he did was all him." McCluster's Hitman-era deeds stay his. | **RESOLVED** (no change needed) | `CANON.md` §9 |
 | 5 | "This is a major multi-million dollar corporation": agents posted abroad with full crews (regional presence); HQ stays in the US. | **RESOLVED** (canon change) | `CANON.md` §19; §6.2 |
+| 6 | The PRIM Method stays private. | **RESOLVED** (no story change) | §7 row 1 |
 | 4 | "All storyline missions are planned" applies except to real emergencies; E05, E06 and E16 stay emergencies. | **RESOLVED** | §3.1, §3.6, §5 |
 
 **Promotion to canon.** Under `AGENTS.md` "Change control", the approved sections still enter canon through a pull request that states existing canon, replacement, reason, downstream files and owner approval. Each approved item below carries those five fields in a box marked **CHANGE CONTROL**. Everything not marked **OWNER-APPROVED** stays **PROPOSED**.
@@ -530,7 +531,7 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 
 | # | Problem | Proposed fix | Files |
 |---:|---|---|---|
-| 1 | **Third meaning of PRIM.** Story canon has two (Program for Resilient Infrastructure Management; Primary Root Identity Mantle). The real product has a third: "the PRIM Method: Principles, Rhythm, Immersion and Missions". No story file acknowledges it. | Keep the PRIM Method out of story canon text. Add one production note to `PRIM-DUAL-MEANING-AUTHORITY.md`: the real learning product uses the same letters for its method; story surfaces never present the method as an in-world tier. (Alternative: make it Tier 0, the public meaning; Owner Question 8.) | `story/PRIM-DUAL-MEANING-AUTHORITY.md` |
+| 1 | **Third meaning of PRIM.** The real learning product uses "the PRIM Method: Principles, Rhythm, Immersion and Missions". | **RESOLVED 2026-11-03: the PRIM Method stays private.** It is kept out of story canon; no story file mentions it, and none should. | — |
 | 2 | **Runtime.** `CANON.md` §1 says 20–35 minutes; `story/EPISODE-PROGRESSION.md`, `story/SERIES-ARC.md` and `ARCHITECT.md` §3 still say about 9. | Root wins: 20–35 minutes, music film about one track-length. Update the three files. | `story/EPISODE-PROGRESSION.md`, `story/SERIES-ARC.md`, `ARCHITECT.md` |
 | 3 | **McCluster's pre-history.** `story/RELATIONSHIP-ECOSYSTEM.md` (CANON) puts McCluster in the "founding years" mesh, trained beside Aya, kept from washing out by Chioma's early evaluation. Canon has him arrive at 33 as a newcomer. | Remove McCluster from the pre-story clusters. Move Chioma's evaluation into Season 1: she signs his first field evaluation after LVL-02, the line "He stopped when she told him to" being what she writes. | `story/RELATIONSHIP-ECOSYSTEM.md`, `episodes/S01E02-WHITE-GREY-BLACK-HAT.md` |
 | 4 | **First death timing.** `story/SEASON-ONE-HUMAN-SPINE.md` Movements 5–6 put a developed character's death in Season 1; canon defers it to E06. (`seasons/SEASON-01.md` already fixed on this branch.) | Align the human spine to E06; Season 1's loss is Hana's absence, felt through LVL-03. | `story/SEASON-ONE-HUMAN-SPINE.md` |
@@ -553,7 +554,7 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 5. **Benji's nationality and type.** **RESOLVED 2026-11-03:** LVL-01 is Benjamin Chase (United States, E). The `CANON.md` §14 exception for authored solo introductions remains part of promoting §2.
 6. **Emergency exceptions.** **RESOLVED 2026-11-03:** the planned rule applies except to real emergencies; E05, E06 and E16 stay emergencies (§3.6).
 7. **Globe framing.** **RESOLVED 2026-11-03:** regional presence abroad with full crews; HQ stays in the US (`CANON.md` §19; §6.2).
-8. **PRIM Method.** Keep the real "PRIM Method" out of story canon, or make it the in-world Tier 0 meaning? *Recommendation:* keep it out; the fiction/real boundary is worth more than the wordplay.
+8. **PRIM Method.** **RESOLVED 2026-11-03:** stays private; kept out of story canon.
 9. **Whip Equipped and I AM HERE songs in PRIM3.** May any be used as PRIM3 source cues (e.g. Who Did The Shoot as the cover's imagery), given the canon rule that Whip Equipped music stays in its era? *Recommendation:* imagery and in-world artefacts only; no soundtrack placement without your say.
 10. **Meridian.** Do you want the name, and if so for what? *Recommendation:* the late-revealed codename of the outside effort that sent Hana in, or nothing.
 11. **Apex Tactical Corp.** After the internship clean-out, keep Apex as a named black-site layer beneath PRIM, or retire the organization and keep "Apex" only as the name of PRIM2's intervention mechanic? *Recommendation:* retire the organization; keep the mechanic name.
