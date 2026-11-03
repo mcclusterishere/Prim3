@@ -36,6 +36,7 @@ This document does three things. It merges three storylines that grew up apart i
 | 3 | "The retaliation he did was all him." McCluster's Hitman-era deeds stay his. | **RESOLVED** (no change needed) | `CANON.md` §9 |
 | 5 | "This is a major multi-million dollar corporation": agents posted abroad with full crews (regional presence); HQ stays in the US. | **RESOLVED** (canon change) | `CANON.md` §19; §6.2 |
 | 6 | The PRIM Method stays private. | **RESOLVED** (no story change) | §7 row 1 |
+| 7 | Whip Equipped and I AM HERE songs are not PRIM3 cues: "PRIM3 is its own universe." | **RESOLVED** | §3.2, §5.2 |
 | 4 | "All storyline missions are planned" applies except to real emergencies; E05, E06 and E16 stay emergencies. | **RESOLVED** | §3.1, §3.6, §5 |
 
 **Promotion to canon.** Under `AGENTS.md` "Change control", the approved sections still enter canon through a pull request that states existing canon, replacement, reason, downstream files and owner approval. Each approved item below carries those five fields in a box marked **CHANGE CONTROL**. Everything not marked **OWNER-APPROVED** stays **PROPOSED**.
@@ -254,15 +255,13 @@ The rule is new, but every part of it is already in canon or in the owner's lyri
 - **Ordinary work breaks into the mission.** S1E2's ACT II "THE CALL" pulls the team out of onboarding, and the aftermath is "THE ONBOARDING THAT WASN'T" (`story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md` Scene 14). S2E2's prestigious exercise becomes real, and Chioma calls REAL-WORLD (`episodes/S02E02-RED-BLUE-PURPLE-WHITE-TEAM.md`).
 - **Real work as cover.** Hana's cover was real engineering that genuinely improved the institution (`story/AYA-HANA-INTELLIGENCE-CANON.md` §5). Kkeutori hid clues inside real jokes: "Hana's jokes are the camouflage" (`story/AYA-HANA-KKEUTORI-BREADCRUMB-CANON.md` §9).
 - **The cover-story principle.** "The strongest cover story is one that remains accurate at the level where the target is allowed to observe it" (`story/PRIM-DUAL-MEANING-AUTHORITY.md` §2). The shoot is a real shoot. The footage is really used.
-- **The owner's lyrics already say it.**
-  - Dealer Plates (Whip Equipped): "If you with the cops, this for entertainment" — art as alibi.
+- **The PRIM3 lyrics already say it.**
   - RAID (Hot Site): "It's a front for a warm environment" — the shop that sells nothing.
   - Evil Twin: the kiosk, "I fix your phone for the cheap" — a service counter as a cover.
   - Anti Social Engineering: "Don't think I'm broke cause my appearance" — looking like nothing.
   - Virus Types: "Photogrammetric mission… Different type of shoot that day" — the camera is the mission.
-  - I AM HERE, **Who Did The Shoot**: a photographer selling shoots, "lights, camera, action… set, be quiet", "hit you with the 45 / Millimeter". This is the cover's theme song in spirit: the question every mission's aftermath leaves behind is *who did the shoot?* (The song stays on I AM HERE; it is cited as a source of imagery, not reassigned. See §5.3.)
 
-Whip Equipped and I AM HERE songs are not reassigned to PRIM3 episodes; their imagery informs the device (`story/MCCLUSTER-PSYCHOLOGICAL-BACKGROUND.md` §20 forbids moving songs between eras).
+**PRIM3 is its own universe (owner decision, 2026-11-03).** Only PRIM3 songs ground the device. Whip Equipped songs belong to McCluster's prequel backstory, and I AM HERE and the owner's other albums are not PRIM3 cues.
 
 ## 3.3 The structure (reusable for every planned mission)
 
@@ -349,7 +348,7 @@ Phase mapping onto the existing model `BRIEF → APPROACH → ON_OBJECTIVE → E
 
 **The shoot (present day).** F4 is shooting the **reopening film** for the North River Medical Logistics Hub, two years after GLASSHOUSE. Oksana and Rafael's Open Book case (the missing equipment shipment before the opening; the scapegoated junior coordinator) is the WATCH A-plot. Aya is on the shoot as the engineer who signed off the new safety system.
 
-**The shoot (two years earlier, inside the reconstruction).** On the day of GLASSHOUSE, F4 was also on site, filming a "robotics in medical logistics" piece with Hana as its on-camera lead. That shoot was Hana's cover that day. Its rushes still exist on an F4 archive drive. **Who did the shoot** is the question Aya cannot stop asking.
+**The shoot (two years earlier, inside the reconstruction).** On the day of GLASSHOUSE, F4 was also on site, filming a "robotics in medical logistics" piece with Hana as its on-camera lead. That shoot was Hana's cover that day. Its rushes still exist on an F4 archive drive. Who shot that footage, and who stopped it, is the question Aya cannot stop asking.
 
 **Planned objective (Aya's).** Aya brought the old rushes to the reopening shoot to stand where Hana stood and rebuild the day. She tells nobody. It is the last time she will let herself try.
 
@@ -467,20 +466,9 @@ Order: `story/EPISODE-PROGRESSION.md` (owner decision 2026-11-02: "the order on 
 
 **What the table changes in canon:** nothing except LVL-01–03's PLAY owners (approved). Songs, missions and WATCH owners are canon (`CANON.md` §21).
 
-## 5.2 Researcher's secondary fits (PROPOSALS ONLY)
+## 5.2 Songs from other albums — REMOVED 2026-11-03
 
-These are flashbacks, source cues or in-world artefacts; none replaces an episode's own song, and Whip Equipped music stays in its era (`story/MCCLUSTER-PSYCHOLOGICAL-BACKGROUND.md` §20):
-
-| Song (album) | Proposed secondary use | Lyric reason |
-|---|---|---|
-| Who Did The Shoot (I AM HERE) | imagery for the cover device; E09 | "Different type of shoot" answers "who did the shoot?" |
-| Antisocial (I AM HERE) | E04's social engineer's public persona | the coach who is always on social |
-| Upset (Hitman Halo credit) | Benji/Hitman texture before RAID; Benji Chase question | "the scope of the place and the codes to your safe" |
-| Money or the Power (Docket 516R) | E13 / Season 5 theme | "build a tower and take all that is ours" |
-| Deep End (Heal the 3) | E06 human cost (avoid its real-world political lines) | "Turning on the news, I see the reaper" |
-| Please Set Me Free, Environmental Injustice (Docket 516R) | McCluster's summer policy fellowships (off-count) | Bridgeport, housing, "Operation Land Grab" |
-
-Whip Equipped songs (Salvage Title, Test Drive, Dealer Plates, Repo Guy, Towyard Killer and the rest) are cited only as imagery. Placing any of them in PRIM3 needs the owner (Owner Question 9).
+The owner: "PRIM3 is its own universe." The earlier table of secondary fits (I AM HERE, Whip Equipped, Docket 516R, Heal the 3 and the Upset single mapped onto PRIM3 episodes) is withdrawn. Whip Equipped stays McCluster's prequel backstory only.
 
 ## 5.3 Missing lyrics and Song #21
 
@@ -555,7 +543,7 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 6. **Emergency exceptions.** **RESOLVED 2026-11-03:** the planned rule applies except to real emergencies; E05, E06 and E16 stay emergencies (§3.6).
 7. **Globe framing.** **RESOLVED 2026-11-03:** regional presence abroad with full crews; HQ stays in the US (`CANON.md` §19; §6.2).
 8. **PRIM Method.** **RESOLVED 2026-11-03:** stays private; kept out of story canon.
-9. **Whip Equipped and I AM HERE songs in PRIM3.** May any be used as PRIM3 source cues (e.g. Who Did The Shoot as the cover's imagery), given the canon rule that Whip Equipped music stays in its era? *Recommendation:* imagery and in-world artefacts only; no soundtrack placement without your say.
+9. **Whip Equipped and I AM HERE songs in PRIM3.** **RESOLVED 2026-11-03:** not PRIM3 cues; "PRIM3 is its own universe." Mappings removed (§3.2, §5.2).
 10. **Meridian.** Do you want the name, and if so for what? *Recommendation:* the late-revealed codename of the outside effort that sent Hana in, or nothing.
 11. **Apex Tactical Corp.** After the internship clean-out, keep Apex as a named black-site layer beneath PRIM, or retire the organization and keep "Apex" only as the name of PRIM2's intervention mechanic? *Recommendation:* retire the organization; keep the mechanic name.
 12. **E03's facility.** Make the "facility opening" in Open Book the North River hub's reopening, which binds Oksana and Rafael's case to Aya's reconstruction? *Recommendation:* yes; it is the strongest single join in the merged spine.
