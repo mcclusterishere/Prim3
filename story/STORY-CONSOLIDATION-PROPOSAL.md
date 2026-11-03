@@ -548,7 +548,7 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 | 5 | **High Alert memory owners.** | **RESOLVED 2026-11-03** ("pair that with the cast"): every memory anchor now names its episode's locked owner from `CANON.md` §21; Memory 01/02 also note the solo PLAY owners. | `story/HIGH-ALERT-MEMORY-ANCHORS.md` |
 | 6 | **`AGENTS.md`'s naming ban.** | **APPLIED 2026-11-03:** reworded to forbid only naming what canon has not named without owner approval, with the fixed names listed; DECISIONS identity items ticked. | `AGENTS.md`, `development/DECISIONS.md` |
 | 7 | **Bare "McCluster" for the institution** (§1.5). | `CANON.md` §22 writing rule; finish the sweep. | `CANON.md`, story files with remaining hits |
-| 8 | **Course feed points at a missing file.** M01 sources cite `episodes/S01E01-HIGH-ALERT.md`; the file is `S01E01-THE-BLIP.md`. | Fix the path. | `learning/course/course-feed.json` |
+| 8 | **Course feed points at a missing file.** | **APPLIED 2026-11-03:** M01 sources now cite `episodes/S01E01-THE-BLIP.md`. | `learning/course/course-feed.json` |
 | 9 | **Training Range certification IDs disagree** between Prim3 YAMLs and the control repo map. | Reconcile to the control repo map (it owns full coverage). | `learning/missions/TRAINING-RANGE-0*.yaml` |
 | 10 | **`PRIME-N1` asset IDs** in `phenotypes/` (and "Prime-N1 Prime" in `phenotypes/NAMING.md`). | Rename to `PRIM3-SUIT` when the asset pipeline can take a rename; until then add a note that PRIME-N1 = McCluster after succession. | `phenotypes/**` |
 | 11 | **Meridian.** | **RESOLVED 2026-11-03: dropped.** The owner: get rid of it. No story file in this repo names it (checked 2026-11-03). | — |
