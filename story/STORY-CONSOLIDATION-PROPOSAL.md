@@ -1,8 +1,8 @@
 ---
-status: PROPOSED (sections 1 and 2 OWNER-APPROVED 2026-11-02; see the approval record)
+status: PROPOSED (sections 1 and 2 OWNER-APPROVED 2026-11-02; owner answers of 2026-11-03 applied; see the approval record)
 system: PRIM3 story consolidation — one spine, the first three missions, the creative-layer cover
-version: 1.0.0
-date: 2026-11-02
+version: 1.1.0
+date: 2026-11-03
 authority_parent: CANON.md
 change_control: AGENTS.md "Change control"
 ---
@@ -34,6 +34,7 @@ This document does three things. It merges three storylines that grew up apart i
 | 1 | Ghost is McCluster's "ghost mode": "he's been ghosted from the view of everyone … under the radar." | **RESOLVED** | `CANON.md` §9; §4.4 |
 | 2 | "Rename Royce Benjamin Chase … Benji is low-key McCluster's evil twin … a clone of McCluster … dubbed Hitman Benji after he takes over the organization." | **RESOLVED** | 84 files; `story/BENJI-CHASE-JANUS-ORIGIN-CANON.md`; §2.3, §4.4 |
 | 3 | "The retaliation he did was all him." McCluster's Hitman-era deeds stay his. | **RESOLVED** (no change needed) | `CANON.md` §9 |
+| 4 | "All storyline missions are planned" applies except to real emergencies; E05, E06 and E16 stay emergencies. | **RESOLVED** | §3.1, §3.6, §5 |
 | 5 | "This is a major multi-million dollar corporation": agents posted abroad with full crews (regional presence); HQ stays in the US. | **RESOLVED** (canon change) | `CANON.md` §19; §6.2 |
 | 6 | The PRIM Method stays private. | **RESOLVED** (no story change) | §7 row 1 |
 | 7 | Whip Equipped and I AM HERE songs are not PRIM3 cues: "PRIM3 is its own universe." | **RESOLVED** | §3.2, §5.2 |
@@ -44,7 +45,7 @@ This document does three things. It merges three storylines that grew up apart i
 | 12 | High Alert memory owners: "pair that with the cast." | **RESOLVED** | `story/HIGH-ALERT-MEMORY-ANCHORS.md` |
 | 13 | "If somebody dies, they die … I think it's more cool." Season 1 deaths allowed; the owner picks. | **RESOLVED** (restriction removed; candidates listed) | §3.7; `seasons/SEASON-01.md` |
 | 14 | "We should have a whole cast of people." | **DRAFTED** (plan by role, no new canon names) | §9 |
-| 4 | "All storyline missions are planned" applies except to real emergencies; E05, E06 and E16 stay emergencies. | **RESOLVED** | §3.1, §3.6, §5 |
+| H | Housekeeping: runtime 20–35 min; `AGENTS.md` naming ban; course-feed path; McCluster a newcomer at 33. | **APPLIED** | §7 rows 2, 3, 6, 8 |
 
 **Promotion to canon.** Under `AGENTS.md` "Change control", the approved sections still enter canon through a pull request that states existing canon, replacement, reason, downstream files and owner approval. Each approved item below carries those five fields in a box marked **CHANGE CONTROL**. Everything not marked **OWNER-APPROVED** stays **PROPOSED**.
 
@@ -142,7 +143,7 @@ So "first three" means **three named characters, each with a field type**. McClu
 |---|---|---|
 | after McCluster, 1 | **Aya Shinoda** | 59 KB psychology file, intelligence canon, Kkeutori canon, relationship web; owns E08 and E17 |
 | 2 | **Hana Lee** | 13 KB psychology file plus large shares of the intelligence and Kkeutori canon; the featured South Korea globe pin |
-| 3 | **Benji** | Hitman cast and dossier entries, three finale episodes, E01 co-owner; deepest on the unmerged JANUS branch |
+| 3 | **Benji** | Hitman cast and dossier entries, three finale episodes, E01 co-owner; origin now canon in `story/BENJI-CHASE-JANUS-ORIGIN-CANON.md` |
 
 PRIM2 has more files than Benji, but he cannot be an opening solo operator without breaking the anti-spoiler law (§2.6).
 
@@ -240,7 +241,7 @@ PRIM2 has more files than Benji, but he cannot be an opening solo operator witho
 - PRIM2 is never seen, named or voiced in LVL-01–03. His only trace is institutional: an identity overlay, a missing four minutes.
 - McCluster is not playable. He appears in WATCH (E01 intake; E02 onboarding; E03 edge).
 - No Hitman prequel: LVL-01 never says who refused the chair or that Benji and McCluster know each other.
-- No JANUS (unmerged; and its genetics thread is the owner's call).
+- No clone origin: JANUS is canon since 2026-11-03 but reveal-gated to Evil Twin (`story/BENJI-CHASE-JANUS-ORIGIN-CANON.md`).
 - Hana's NIS role, GLASSHOUSE causality and the Living Root stay hidden until the ladder in §2.5 allows them.
 - "Background truth is not disclosure permission" (`CANON.md` §8) governs every line of dialogue in the three solos.
 
@@ -555,7 +556,7 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 
 ---
 
-# 8. Owner questions (each with a recommendation)
+# 8. Owner questions — answered 2026-11-03 (Song #21 pending)
 
 1. **"ERT": types or order?** Is the trio's order Benji (E) → Aya (T) → Hana (R), or literally E → R → T (Benji → Hana → Aya)? *Recommendation:* Benji → Aya → Hana, so the player meets Aya before playing her memory of Hana.
 2. **"The order on paper."** Is it `story/EPISODE-PROGRESSION.md` (assumed and applied to the song lists)? *Recommendation:* yes; it is the canon order authority and matches the course map and the lyric crosswalk.
