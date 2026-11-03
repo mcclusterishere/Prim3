@@ -5348,7 +5348,7 @@
     "label": "Mass",
     "type": "number",
     "unit": "kg",
-    "description": "Real-world mass in kilograms (PROPOSED values, DECISIONS-2026-11-03.md §4).",
+    "description": "Real-world mass in kilograms (owner-approved values, DECISIONS-2026-11-03.md §4).",
     "appliesTo": [
       "equipment",
       "weapon"
@@ -13837,7 +13837,7 @@
     "label": "Real-world size",
     "type": "object",
     "unit": "m",
-    "description": "Proposed real-world bounding extents {L, W, H} in metres, longest first (DECISIONS-2026-11-03.md §4).",
+    "description": "Real-world bounding extents {L, W, H} in metres, longest first (owner-approved, DECISIONS-2026-11-03.md §4).",
     "appliesTo": [
       "equipment",
       "weapon"
@@ -14061,6 +14061,28 @@
     "description": "How a conditional module fits the cap.",
     "appliesTo": [
       "loadout"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "presentation.tileMetres",
+    "label": "Metres per grid tile",
+    "type": "number",
+    "unit": "m",
+    "description": "Real-world length of one tactical grid tile; levels set TILE_M to it (owner 2026-11-03, DECISIONS-2026-11-03.md §4 rule 5).",
+    "appliesTo": [
+      "presentation_rule"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "identity.display_name_note",
+    "label": "Display name note",
+    "type": "string",
+    "unit": null,
+    "description": "Why the display name differs from the stable ID (stable IDs are never renamed).",
+    "appliesTo": [
+      "character"
     ],
     "requiredFor": "owner decision 2026-11-03"
   }

@@ -16656,7 +16656,8 @@
     "sourceIds": [
       "src.d97b916f70364d",
       "src.c9628ed7978f49",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "No playable stats or dedicated 3D model specified.",
@@ -17536,25 +17537,28 @@
   },
   {
     "id": "person.royce",
-    "name": "Royce",
+    "name": "Benjamin \"Benji\" Chase",
     "kind": "character",
     "category": "People",
     "status": "canon",
     "implementation": "design_only",
     "description": "",
-    "tags": [],
+    "tags": [
+      "benji-chase"
+    ],
     "sourceIds": [
       "src.2d99d24244c11e",
       "src.bc06954afec431",
       "src.c56b1b6fb5ca1c",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "No named-character playable unit or dedicated model is established by these story files.",
       "No per-character gameplay balance stats found in this character audit.",
       "Nation is not specified in the current immediate roster; do not infer it from the name."
     ],
-    "attributeCount": 36,
+    "attributeCount": 37,
     "provenance": null
   },
   {
@@ -23909,6 +23913,25 @@
     ],
     "gaps": [],
     "attributeCount": 12,
+    "provenance": null
+  },
+  {
+    "id": "presentation.grid-scale",
+    "name": "Tactical grid scale",
+    "kind": "presentation_rule",
+    "category": "Systems",
+    "status": "canon",
+    "implementation": "design_only",
+    "description": "One tactical grid tile is 3.54 m in the real world (owner 2026-11-03). Levels set TILE_M to it; kit keeps its real sizes.",
+    "tags": [
+      "grid",
+      "owner-2026-11-03"
+    ],
+    "sourceIds": [
+      "src.d3c1520261103a"
+    ],
+    "gaps": [],
+    "attributeCount": 1,
     "provenance": null
   }
 ]

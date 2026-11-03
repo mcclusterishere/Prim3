@@ -26,12 +26,15 @@ reference only; our level is `transit-relay` on the canonical engine.
 
 The JSON files carry the owner decisions of 2026-11-03 (`DECISIONS-2026-11-03.md`): Black Signal records
 relabelled `reference`, the level-2 **Overclock** upgrade (`upgrade.t.overclock`), country badges on screen
-only, proposed real-world sizes in metres and kilograms, the T module cap, and the T screen accent in lime.
+only, real-world sizes in metres and kilograms and the T module cap (both accepted by the owner on 2026-11-03:
+"I accept your proposals"), the grid scale (1 tile = 3.54 m; owner: "instead of 1.6, make it like 3.54"),
+the Royce → Benjamin "Benji" Chase display name and Layla Mansour's restored country (story-branch owner
+decisions, §7), and the T screen accent in lime.
 So `catalog.json` no longer has the release hash; the release is still reproducible exactly with
 `build_from_release.py`, and `tools/apply_decisions.py` then re-applies the decisions. The workbook in
 `source/` stays as supplied. Counts and hashes in the tables below describe the release as supplied;
-`manifest.json` → `decisions` has them after the decisions (1,320 entities, 12,243 attributes; entity
-status 865 canon, 265 proposed, 190 reference; no `runtime` status remains).
+`manifest.json` → `decisions` has them after the decisions (1,321 entities, 12,245 attributes; entity
+status 866 canon, 265 proposed, 190 reference; no `runtime` status remains).
 
 ## Provenance
 
@@ -48,7 +51,9 @@ status 865 canon, 265 proposed, 190 reference; no `runtime` status remains).
 The HTML embeds only `catalog.json`, the workbook and the 81 cited source files. The release README also
 lists `catalog.schema.json`, `coverage.json`, `validation.json`, `instances.json`, `runtime-cell-runs.json`,
 `runtime-render-parts.json`, `runtime-operator-parts.json` and `cells.csv`: **none of these were in either
-delivery.** The 52 instances are present as catalog entities (category "Mission instances"); the grid run
+delivery.** The owner's 2026-11-03 handoff kit later supplied the release's `catalog.schema.json` and
+`validation.json` (45/45 against the release hash); they are kept as-supplied in `source/release/`
+(DECISIONS §8). The 52 instances are present as catalog entities (category "Mission instances"); the grid run
 encoding and render-part files are not. Our own registry contract replaces the missing schema and validator
 (below).
 

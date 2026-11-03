@@ -14,8 +14,8 @@
     "conflict": "Multiple source claims are retained pending resolution."
   },
   "summary": {
-    "entities": 1320,
-    "attributes": 12243,
+    "entities": 1321,
+    "attributes": 12245,
     "relationships": 1515,
     "instances": 52,
     "cellCount": 16384,
@@ -23,7 +23,7 @@
     "renderParts": 1402,
     "issues": 30,
     "sources": 82,
-    "fields": 1267
+    "fields": 1269
   },
   "categories": [
     {
@@ -114,7 +114,7 @@
     {
       "id": "systems",
       "label": "Systems",
-      "count": 109
+      "count": 110
     },
     {
       "id": "weapons",
@@ -498,11 +498,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -880,11 +880,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -1262,11 +1262,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -1676,11 +1676,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -2122,11 +2122,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -3916,11 +3916,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -4362,11 +4362,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -4776,11 +4776,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -6584,11 +6584,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -6966,11 +6966,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -7380,11 +7380,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -7762,11 +7762,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -8208,11 +8208,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -9984,11 +9984,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -11792,11 +11792,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -12174,11 +12174,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -13916,11 +13916,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -14362,11 +14362,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -31341,11 +31341,11 @@
           "value": 2.3,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -31501,11 +31501,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -32768,11 +32768,11 @@
           "value": 4.1,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -32928,11 +32928,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -33295,11 +33295,11 @@
           "value": 0.35,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -33455,11 +33455,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -35861,11 +35861,11 @@
           "value": 0.18,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -36021,11 +36021,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -36108,11 +36108,11 @@
           "value": 0.45,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -36268,11 +36268,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -36615,11 +36615,11 @@
           "value": 0.12,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -36775,11 +36775,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -36883,11 +36883,11 @@
           "value": 0.35,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -37043,11 +37043,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -38585,11 +38585,11 @@
           "value": 2.2,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -38745,11 +38745,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -39157,11 +39157,11 @@
           "value": 0.14,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -39317,11 +39317,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -39624,11 +39624,11 @@
           "value": 2.9,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -39784,11 +39784,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -40078,11 +40078,11 @@
           "value": 0.35,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -40238,11 +40238,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -40570,11 +40570,11 @@
           "value": 2.6,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -40730,11 +40730,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -41348,11 +41348,11 @@
           "value": 0.012,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -41508,11 +41508,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -41637,11 +41637,11 @@
           "value": 0.9,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -41797,11 +41797,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -41997,11 +41997,11 @@
           "value": 0.6,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -42157,11 +42157,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -42292,11 +42292,11 @@
           "value": 0.2,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -42452,11 +42452,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -42626,11 +42626,11 @@
           "value": 0.15,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -42786,11 +42786,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -42962,11 +42962,11 @@
           "value": 0.01,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -43122,11 +43122,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -43310,11 +43310,11 @@
           "value": 0.06,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -43470,11 +43470,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -43664,11 +43664,11 @@
           "value": 0.4,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -43824,11 +43824,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -44112,11 +44112,11 @@
           "value": 0.12,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -44272,11 +44272,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -44415,11 +44415,11 @@
           "value": 0.45,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -44575,11 +44575,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -44720,11 +44720,11 @@
           "value": 0.249,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -44880,11 +44880,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -45609,11 +45609,11 @@
           "value": 0.15,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -45769,11 +45769,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -45877,11 +45877,11 @@
           "value": 0.25,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -46037,11 +46037,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -48530,11 +48530,11 @@
           "value": 0.01,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -48690,11 +48690,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -49502,11 +49502,11 @@
           "value": 0.04,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -49662,11 +49662,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -51108,11 +51108,11 @@
           "value": 0.15,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -51268,11 +51268,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -51406,11 +51406,11 @@
           "value": 3.6,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -51566,11 +51566,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -51623,11 +51623,11 @@
           "value": 0.45,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -51783,11 +51783,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -52151,11 +52151,11 @@
           "value": 4,
           "state": "defined",
           "unit": "modules",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED (DECISIONS-2026-11-03.md §5); cap from LOADOUTS-ITEMIZED.md create-a-class rule 3."
+          "note": "Owner-approved 2026-11-03 (Owner 2026-11-03: \"I accept your proposals.\" DECISIONS-2026-11-03.md §5); cap from LOADOUTS-ITEMIZED.md create-a-class rule 3."
         },
         {
           "key": "loadout.module_rule",
@@ -52163,11 +52163,11 @@
           "value": "Isolation Sleeve (authorized only) takes Module D and displaces the Integrity Dongle; the hardened deck checks integrity in software. Never a fifth module.",
           "state": "defined",
           "unit": null,
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED (DECISIONS-2026-11-03.md §5); cap from LOADOUTS-ITEMIZED.md create-a-class rule 3."
+          "note": "Owner-approved 2026-11-03 (Owner 2026-11-03: \"I accept your proposals.\" DECISIONS-2026-11-03.md §5); cap from LOADOUTS-ITEMIZED.md create-a-class rule 3."
         }
       ],
       "relations": [],
@@ -52278,11 +52278,11 @@
           "value": 4,
           "state": "defined",
           "unit": "modules",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED (DECISIONS-2026-11-03.md §5); cap from LOADOUTS-ITEMIZED.md create-a-class rule 3."
+          "note": "Owner-approved 2026-11-03 (Owner 2026-11-03: \"I accept your proposals.\" DECISIONS-2026-11-03.md §5); cap from LOADOUTS-ITEMIZED.md create-a-class rule 3."
         }
       ],
       "relations": [],
@@ -52389,11 +52389,11 @@
           "value": 4,
           "state": "defined",
           "unit": "modules",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED (DECISIONS-2026-11-03.md §5); cap from LOADOUTS-ITEMIZED.md create-a-class rule 3."
+          "note": "Owner-approved 2026-11-03 (Owner 2026-11-03: \"I accept your proposals.\" DECISIONS-2026-11-03.md §5); cap from LOADOUTS-ITEMIZED.md create-a-class rule 3."
         }
       ],
       "relations": [],
@@ -52496,11 +52496,11 @@
           "value": 4,
           "state": "defined",
           "unit": "modules",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED (DECISIONS-2026-11-03.md §5); cap from LOADOUTS-ITEMIZED.md create-a-class rule 3."
+          "note": "Owner-approved 2026-11-03 (Owner 2026-11-03: \"I accept your proposals.\" DECISIONS-2026-11-03.md §5); cap from LOADOUTS-ITEMIZED.md create-a-class rule 3."
         }
       ],
       "relations": [],
@@ -52920,11 +52920,11 @@
           "value": 2.8,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -53080,11 +53080,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -53161,11 +53161,11 @@
           "value": 0.2,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -53321,11 +53321,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [],
@@ -130199,7 +130199,8 @@
       "sourceIds": [
         "src.d97b916f70364d",
         "src.c9628ed7978f49",
-        "src.2dafcebfcb927b"
+        "src.2dafcebfcb927b",
+        "src.d3c1520261103a"
       ],
       "attributes": [
         {
@@ -130218,14 +130219,14 @@
         {
           "key": "identity.nation",
           "label": "Nation",
-          "value": null,
-          "state": "unknown",
+          "value": "Jordan",
+          "state": "defined",
           "unit": null,
           "origin": "proposed",
           "sourceIds": [
-            "src.d97b916f70364d"
+            "src.d3c1520261103a"
           ],
-          "note": "Layla Mansour — McCluster — living freelancer"
+          "note": "Restored on the story branch (owner 2026-11-02 repair of the Sept 24 find-and-replace); the record itself stays proposed (development pool). DECISIONS-2026-11-03.md §7."
         },
         {
           "key": "identity.source_nation_raw",
@@ -143845,18 +143846,21 @@
     },
     {
       "id": "person.royce",
-      "name": "Royce",
+      "name": "Benjamin \"Benji\" Chase",
       "kind": "character",
       "category": "People",
       "status": "canon",
       "implementation": "design_only",
       "description": "",
-      "tags": [],
+      "tags": [
+        "benji-chase"
+      ],
       "sourceIds": [
         "src.2d99d24244c11e",
         "src.bc06954afec431",
         "src.c56b1b6fb5ca1c",
-        "src.2dafcebfcb927b"
+        "src.2dafcebfcb927b",
+        "src.d3c1520261103a"
       ],
       "attributes": [
         {
@@ -143876,14 +143880,14 @@
         {
           "key": "identity.nation",
           "label": "Nation",
-          "value": null,
-          "state": "unknown",
+          "value": "United States",
+          "state": "defined",
           "unit": null,
           "origin": "canon",
           "sourceIds": [
-            "src.2d99d24244c11e"
+            "src.d3c1520261103a"
           ],
-          "note": ""
+          "note": "Owner 2026-11-03: \"Rename Royce Benjamin Chase ... He gets dubbed Hitman Benji after he takes over the organization.\" LVL-01 is Benjamin Chase (United States, E). Stable ID person.royce is kept (machine keys royce_* are aliased in CANON.md §9 on the story branch). DECISIONS-2026-11-03.md §7."
         },
         {
           "key": "identity.primary_role",
@@ -144176,14 +144180,14 @@
         {
           "key": "identity.country_id",
           "label": "Country id",
-          "value": null,
-          "state": "unknown",
+          "value": "country.united-states",
+          "state": "defined",
           "unit": null,
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
-            "src.2dafcebfcb927b"
+            "src.d3c1520261103a"
           ],
-          "note": "Production attribute slot; no value has been approved or bound for this entity."
+          "note": "Owner 2026-11-03: \"Rename Royce Benjamin Chase ... He gets dubbed Hitman Benji after he takes over the organization.\" LVL-01 is Benjamin Chase (United States, E). Stable ID person.royce is kept (machine keys royce_* are aliased in CANON.md §9 on the story branch). DECISIONS-2026-11-03.md §7."
         },
         {
           "key": "identity.phenotype_id",
@@ -144292,6 +144296,18 @@
             "src.2dafcebfcb927b"
           ],
           "note": "Production attribute slot; no value has been approved or bound for this entity."
+        },
+        {
+          "key": "identity.display_name_note",
+          "label": "Display name note",
+          "value": "Royce was renamed Benjamin \"Benji\" Chase on 2026-11-03; the ID stays person.royce.",
+          "state": "defined",
+          "unit": null,
+          "origin": "canon",
+          "sourceIds": [
+            "src.d3c1520261103a"
+          ],
+          "note": "Owner 2026-11-03: \"Rename Royce Benjamin Chase ... He gets dubbed Hitman Benji after he takes over the organization.\" LVL-01 is Benjamin Chase (United States, E). Stable ID person.royce is kept (machine keys royce_* are aliased in CANON.md §9 on the story branch). DECISIONS-2026-11-03.md §7."
         }
       ],
       "relations": [
@@ -167652,11 +167668,11 @@
           "value": 4.8,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -168004,11 +168020,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -168215,11 +168231,11 @@
           "value": 0.85,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -168567,11 +168583,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -168679,11 +168695,11 @@
           "value": 3.0,
           "state": "defined",
           "unit": "kg",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         },
         {
           "key": "item.inventory_size",
@@ -169031,11 +169047,11 @@
           },
           "state": "defined",
           "unit": "m",
-          "origin": "proposed",
+          "origin": "canon",
           "sourceIds": [
             "src.d3c1520261103a"
           ],
-          "note": "PROPOSED real-world size. Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
+          "note": "Owner-approved real-world size. Owner 2026-11-03: \"I accept your proposals.\" Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country badges. On screen only, I guess, whatever your recommendation is, and for equipment, real world sizes, you should propose something.\" DECISIONS-2026-11-03.md §4."
         }
       ],
       "relations": [
@@ -197166,6 +197182,38 @@
         }
       ],
       "gaps": []
+    },
+    {
+      "id": "presentation.grid-scale",
+      "name": "Tactical grid scale",
+      "kind": "presentation_rule",
+      "category": "Systems",
+      "status": "canon",
+      "implementation": "design_only",
+      "description": "One tactical grid tile is 3.54 m in the real world (owner 2026-11-03). Levels set TILE_M to it; kit keeps its real sizes.",
+      "tags": [
+        "grid",
+        "owner-2026-11-03"
+      ],
+      "sourceIds": [
+        "src.d3c1520261103a"
+      ],
+      "attributes": [
+        {
+          "key": "presentation.tileMetres",
+          "label": "Metres per grid tile",
+          "value": 3.54,
+          "state": "defined",
+          "unit": "m",
+          "origin": "canon",
+          "sourceIds": [
+            "src.d3c1520261103a"
+          ],
+          "note": "Owner 2026-11-03: \"instead of 1.6, make it like 3.54\" One tactical grid tile is 3.54 m; kit sizes (§4 table) are unchanged. DECISIONS-2026-11-03.md §4 rule 5."
+        }
+      ],
+      "relations": [],
+      "gaps": []
     }
   ],
   "sources": [
@@ -197984,10 +198032,10 @@
       "path": "data/attributes/v1/DECISIONS-2026-11-03.md",
       "repository": "mcclusterishere/Prim3",
       "commit": null,
-      "declaredStatus": "OWNER DECISIONS 2026-11-03 (sizes PROPOSED)",
+      "declaredStatus": "OWNER DECISIONS 2026-11-03",
       "url": "https://github.com/mcclusterishere/Prim3/blob/claude/attributes-matrix-20261102/data/attributes/v1/DECISIONS-2026-11-03.md",
       "localPath": "DECISIONS-2026-11-03.md",
-      "sha256": "5440d8859655a5fdaad3929faa4e22f5a905313e695ca7bbd05e9406ef8482d2"
+      "sha256": "a72a0d5ce514e6a9bdf925ea2c84ff3fe58eb3326b6ecd9556ec2cebedf9b159"
     }
   ],
   "fields": [
@@ -203340,7 +203388,7 @@
       "label": "Mass",
       "type": "number",
       "unit": "kg",
-      "description": "Real-world mass in kilograms (PROPOSED values, DECISIONS-2026-11-03.md §4).",
+      "description": "Real-world mass in kilograms (owner-approved values, DECISIONS-2026-11-03.md §4).",
       "appliesTo": [
         "equipment",
         "weapon"
@@ -211829,7 +211877,7 @@
       "label": "Real-world size",
       "type": "object",
       "unit": "m",
-      "description": "Proposed real-world bounding extents {L, W, H} in metres, longest first (DECISIONS-2026-11-03.md §4).",
+      "description": "Real-world bounding extents {L, W, H} in metres, longest first (owner-approved, DECISIONS-2026-11-03.md §4).",
       "appliesTo": [
         "equipment",
         "weapon"
@@ -212055,6 +212103,28 @@
         "loadout"
       ],
       "requiredFor": "owner decision 2026-11-03"
+    },
+    {
+      "key": "presentation.tileMetres",
+      "label": "Metres per grid tile",
+      "type": "number",
+      "unit": "m",
+      "description": "Real-world length of one tactical grid tile; levels set TILE_M to it (owner 2026-11-03, DECISIONS-2026-11-03.md §4 rule 5).",
+      "appliesTo": [
+        "presentation_rule"
+      ],
+      "requiredFor": "owner decision 2026-11-03"
+    },
+    {
+      "key": "identity.display_name_note",
+      "label": "Display name note",
+      "type": "string",
+      "unit": null,
+      "description": "Why the display name differs from the stable ID (stable IDs are never renamed).",
+      "appliesTo": [
+        "character"
+      ],
+      "requiredFor": "owner decision 2026-11-03"
     }
   ],
   "issues": [
@@ -212101,9 +212171,10 @@
       "description": "Layla Mansour country cell says McCluster.",
       "sourceIds": [
         "src.c9628ed7978f49",
-        "src.d97b916f70364d"
+        "src.d97b916f70364d",
+        "src.d3c1520261103a"
       ],
-      "resolution": "Normalized nation null; source text preserved. Owner needs to establish country."
+      "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §7): Jordan: the story branch restored Layla Mansour's country after the Sept 24 find-and-replace turned 'Jordan' into 'McCluster' (owner 2026-11-02: \"we don't want the country to be called McCluster\"; Prim3 branch claude/story-consolidation-20261102, development/DECISIONS.md). The matrix has no Jordan country record, so identity.country_id stays unknown."
     },
     {
       "id": "identity.canon.country-patches",
@@ -212152,7 +212223,7 @@
         "src.ae1bf28ba97754",
         "src.d3c1520261103a"
       ],
-      "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED 0.32 x 0.22 x 0.045 m closed, 2.6 kg; thickness 45 mm (rugged class)."
+      "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): Owner-approved 2026-11-03: 0.32 x 0.22 x 0.045 m closed, 2.6 kg; thickness 45 mm (rugged class)."
     },
     {
       "id": "equipment.deck-lite-dimension",
@@ -212166,7 +212237,7 @@
         "src.ae1bf28ba97754",
         "src.d3c1520261103a"
       ],
-      "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED 0.14 x 0.08 x 0.022 m, 0.35 kg."
+      "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): Owner-approved 2026-11-03: 0.14 x 0.08 x 0.022 m, 0.35 kg."
     },
     {
       "id": "equipment.writeblock-dimension",
@@ -212180,7 +212251,7 @@
         "src.ae1bf28ba97754",
         "src.d3c1520261103a"
       ],
-      "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED 0.075 x 0.04 x 0.018 m, 0.12 kg."
+      "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): Owner-approved 2026-11-03: 0.075 x 0.04 x 0.018 m, 0.12 kg."
     },
     {
       "id": "equipment.store-dimension",
@@ -212194,7 +212265,7 @@
         "src.ae1bf28ba97754",
         "src.d3c1520261103a"
       ],
-      "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED dual 0.128 x 0.079 x 0.015 m (0.15 kg); standard cartridge 0.08 x 0.055 x 0.012 m."
+      "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): Owner-approved 2026-11-03: dual 0.128 x 0.079 x 0.015 m (0.15 kg); standard cartridge 0.08 x 0.055 x 0.012 m."
     },
     {
       "id": "equipment.integrity-dongle-dimension",
@@ -212208,7 +212279,7 @@
         "src.ae1bf28ba97754",
         "src.d3c1520261103a"
       ],
-      "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED 0.052 x 0.018 x 0.008 m, 0.012 kg."
+      "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): Owner-approved 2026-11-03: 0.052 x 0.018 x 0.008 m, 0.012 kg."
     },
     {
       "id": "equipment.writeblock-led-semantics",
@@ -212248,7 +212319,7 @@
         "src.0896e738b4e3c7",
         "src.d3c1520261103a"
       ],
-      "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §5): PROPOSED: the cap stays 4. The Isolation Sleeve is not a fifth module: when authorized it takes Module D, displacing the Integrity Dongle; the hardened deck does the integrity check in software."
+      "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §5): Owner-approved 2026-11-03: the cap stays 4. The Isolation Sleeve is not a fifth module: when authorized it takes Module D, displacing the Integrity Dongle; the hardened deck does the integrity check in software."
     },
     {
       "id": "equipment.mesh-scale",
@@ -212260,7 +212331,7 @@
         "src.ae1bf28ba97754",
         "src.d3c1520261103a"
       ],
-      "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED: kit is sized in real metres and every GLB is normalized to its table size (uniform scale)."
+      "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): Owner-approved 2026-11-03: kit is sized in real metres and every GLB is normalized to its table size (uniform scale)."
     },
     {
       "id": "equipment.field-country-badges",

@@ -19,9 +19,12 @@ RELEASE_CATALOG_SHA256 = "7331ba19d6685e3d9ac02b1efb5a47c4b791f0ff5de35b0616ca6b
 OWNER_QUOTE = ("Owner 2026-11-03: \"I want you to make up an answer for the matrix in number two, country "
                "badges. On screen only, I guess, whatever your recommendation is, and for equipment, real "
                "world sizes, you should propose something.\"")
+ACCEPT_QUOTE = "Owner 2026-11-03: \"I accept your proposals.\""
+GRID_QUOTE = "Owner 2026-11-03: \"instead of 1.6, make it like 3.54\""
+TILE_M = 3.54
 LIME = "#8BD346"
 
-# ---- §4 real-world sizes (PROPOSED). L >= W >= H: the three bounding extents, longest first. ----
+# ---- §4 real-world sizes (OWNER-APPROVED 2026-11-03: "I accept your proposals"). L >= W >= H: the three bounding extents, longest first. ----
 # (row id, name, size class, [matrix record ids], [level-1 draft ids], L, W, H metres, mass kg)
 SIZES = [
     ("compact-carbine", "Compact carbine (entry)", "short-barrel carbine, stock extended (0.62 m collapsed)",
@@ -128,7 +131,7 @@ SIZES = [
 
 NEW_FIELDS = [
     ("item.size_m", "Real-world size", "object", "m", ["equipment", "weapon"],
-     "Proposed real-world bounding extents {L, W, H} in metres, longest first (DECISIONS-2026-11-03.md §4)."),
+     "Real-world bounding extents {L, W, H} in metres, longest first (owner-approved, DECISIONS-2026-11-03.md §4)."),
     ("asset.target_size_m", "Target real-world size", "object", "m", ["visual_asset"],
      "Size the GLB is normalized to: uniform scale so its longest bounding extent equals L (DECISIONS-2026-11-03.md §4)."),
     ("upgrade.role", "Role", "string", None, ["upgrade"], "Field role that may take the upgrade."),
@@ -148,6 +151,10 @@ NEW_FIELDS = [
     ("presentation.countryBadgeForm", "Country badge form", "string", None, ["presentation_rule"], "What the badge looks like."),
     ("country.badge_surfaces", "Badge surfaces", "array", None, ["country"], "On-screen surfaces that show this country's chip."),
     ("country.badge_on_model", "Badge on 3D model", "boolean", None, ["country"], "False: never on 3D models or textures."),
+    ("presentation.tileMetres", "Metres per grid tile", "number", "m", ["presentation_rule"],
+     "Real-world length of one tactical grid tile; levels set TILE_M to it (owner 2026-11-03, DECISIONS-2026-11-03.md §4 rule 5)."),
+    ("identity.display_name_note", "Display name note", "string", None, ["character"],
+     "Why the display name differs from the stable ID (stable IDs are never renamed)."),
     ("loadout.max_modules", "Max tech modules", "integer", "modules", ["loadout"], "Hard cap on tech modules in one T loadout."),
     ("loadout.module_rule", "Module rule", "string", None, ["loadout"], "How a conditional module fits the cap."),
 ]
@@ -156,13 +163,14 @@ DECIDED = "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md %s): "
 ISSUE_RESOLUTIONS = {
     "identity.canon.country-patches": ("§3", "Owner-approved (delegated): country badges are on-screen UI only (HUD chip, roster card, World globe card); never on 3D models or textures; ISO alpha-2 chip, no emblems. FO-01 and the no-marks rule stand for models."),
     "equipment.field-country-badges": ("§3", "Same as identity.canon.country-patches: UI only, never on models; no stat from nationality."),
-    "equipment.deck-standard-dimension": ("§4", "PROPOSED 0.32 x 0.22 x 0.045 m closed, 2.6 kg; thickness 45 mm (rugged class)."),
-    "equipment.deck-lite-dimension": ("§4", "PROPOSED 0.14 x 0.08 x 0.022 m, 0.35 kg."),
-    "equipment.writeblock-dimension": ("§4", "PROPOSED 0.075 x 0.04 x 0.018 m, 0.12 kg."),
-    "equipment.store-dimension": ("§4", "PROPOSED dual 0.128 x 0.079 x 0.015 m (0.15 kg); standard cartridge 0.08 x 0.055 x 0.012 m."),
-    "equipment.integrity-dongle-dimension": ("§4", "PROPOSED 0.052 x 0.018 x 0.008 m, 0.012 kg."),
-    "equipment.mesh-scale": ("§4", "PROPOSED: kit is sized in real metres and every GLB is normalized to its table size (uniform scale)."),
-    "equipment.denied-module-cap": ("§5", "PROPOSED: the cap stays 4. The Isolation Sleeve is not a fifth module: when authorized it takes Module D, displacing the Integrity Dongle; the hardened deck does the integrity check in software."),
+    "equipment.deck-standard-dimension": ("§4", "Owner-approved 2026-11-03: 0.32 x 0.22 x 0.045 m closed, 2.6 kg; thickness 45 mm (rugged class)."),
+    "equipment.deck-lite-dimension": ("§4", "Owner-approved 2026-11-03: 0.14 x 0.08 x 0.022 m, 0.35 kg."),
+    "equipment.writeblock-dimension": ("§4", "Owner-approved 2026-11-03: 0.075 x 0.04 x 0.018 m, 0.12 kg."),
+    "equipment.store-dimension": ("§4", "Owner-approved 2026-11-03: dual 0.128 x 0.079 x 0.015 m (0.15 kg); standard cartridge 0.08 x 0.055 x 0.012 m."),
+    "equipment.integrity-dongle-dimension": ("§4", "Owner-approved 2026-11-03: 0.052 x 0.018 x 0.008 m, 0.012 kg."),
+    "equipment.mesh-scale": ("§4", "Owner-approved 2026-11-03: kit is sized in real metres and every GLB is normalized to its table size (uniform scale)."),
+    "identity.canon.layla-country": ("§7", "Jordan: the story branch restored Layla Mansour's country after the Sept 24 find-and-replace turned 'Jordan' into 'McCluster' (owner 2026-11-02: \"we don't want the country to be called McCluster\"; Prim3 branch claude/story-consolidation-20261102, development/DECISIONS.md). The matrix has no Jordan country record, so identity.country_id stays unknown."),
+    "equipment.denied-module-cap": ("§5", "Owner-approved 2026-11-03: the cap stays 4. The Isolation Sleeve is not a fifth module: when authorized it takes Module D, displacing the Integrity Dongle; the hardened deck does the integrity check in software."),
 }
 
 UPGRADE = {
@@ -181,6 +189,20 @@ UPGRADE_ATTRS = [
     ("upgrade.pulse_range", 5), ("upgrade.pulse_radius", 3), ("upgrade.jams_own_machines", True),
     ("upgrade.compatible_with_main_arm", True), ("upgrade.engine_field", {"syncPulsePerMission": 2}),
 ]
+
+GRID = {
+    "id": "presentation.grid-scale",
+    "name": "Tactical grid scale",
+    "kind": "presentation_rule",
+    "category": "Systems",
+    "status": "canon",
+    "implementation": "design_only",
+    "description": "One tactical grid tile is 3.54 m in the real world (owner 2026-11-03). Levels set TILE_M to it; kit keeps its real sizes.",
+    "tags": ["grid", "owner-2026-11-03"],
+}
+BENJI_NAME = 'Benjamin "Benji" Chase'
+BENJI_QUOTE = ("Owner 2026-11-03: \"Rename Royce Benjamin Chase ... He gets dubbed Hitman Benji after he takes over "
+               "the organization.\" LVL-01 is Benjamin Chase (United States, E).")
 
 BADGE_SURFACES = ["hud_chip", "roster_card", "world_globe_card"]
 BADGE_FORM = "Small on-screen chip: flag swatch or ISO 3166-1 alpha-2 code. No national emblem, coat of arms, seal or logo drawn."
@@ -244,7 +266,7 @@ def apply(d):
 
     # source for the decisions document (uncommitted at the time of writing: commit null)
     src = {"id": SRC_ID, "path": "data/attributes/v1/" + DOC, "repository": "mcclusterishere/Prim3", "commit": None,
-           "declaredStatus": "OWNER DECISIONS 2026-11-03 (sizes PROPOSED)",
+           "declaredStatus": "OWNER DECISIONS 2026-11-03",
            "url": "https://github.com/mcclusterishere/Prim3/blob/claude/attributes-matrix-20261102/data/attributes/v1/" + DOC,
            "localPath": DOC, "sha256": sha(doc_bytes)}
     cat["sources"] = [s for s in cat["sources"] if s["id"] != SRC_ID] + [src]
@@ -255,8 +277,10 @@ def apply(d):
             f = {"key": key, "label": label, "type": typ, "unit": unit, "description": desc,
                  "appliesTo": applies, "requiredFor": "owner decision 2026-11-03"}
             cat["fields"].append(f); fields[key] = f
+        else:
+            fields[key]["description"] = desc
     fields["item.mass"]["unit"] = "kg"
-    fields["item.mass"]["description"] = "Real-world mass in kilograms (PROPOSED values, DECISIONS-2026-11-03.md §4)."
+    fields["item.mass"]["description"] = "Real-world mass in kilograms (owner-approved values, DECISIONS-2026-11-03.md §4)."
 
     # §1 Black Signal prototype: reference only, never canon or targets
     bs_note = "Black Signal prototype value; reference only, not adopted (owner 2026-11-03, DECISIONS-2026-11-03.md §1)."
@@ -313,28 +337,53 @@ def apply(d):
                     a["note"] = "No asset: the badge is a UI chip built from the ISO code (DECISIONS-2026-11-03.md §3)."
             changes["countries given UI-only badge rule"] += 1
 
-    # §4 real-world sizes (PROPOSED)
-    note4 = "PROPOSED real-world size. " + OWNER_QUOTE + " DECISIONS-2026-11-03.md §4."
+    # §4 real-world sizes (owner-approved 2026-11-03)
+    note4 = "Owner-approved real-world size. " + ACCEPT_QUOTE + " " + OWNER_QUOTE + " DECISIONS-2026-11-03.md §4."
     for r in SIZES:
         for eid in r[3]:
             e = ents[eid]
             add_source(e)
             if e["kind"] == "visual_asset":
-                put(e, attr("asset.target_size_m", "Target real-world size", size_obj(r), "proposed", note4, unit="m"))
+                put(e, attr("asset.target_size_m", "Target real-world size", size_obj(r), "canon", note4, unit="m"))
             else:
-                put(e, attr("item.size_m", "Real-world size", size_obj(r), "proposed", note4, unit="m"))
-                put(e, attr("item.mass", fields["item.mass"]["label"], r[8], "proposed", note4, unit="kg"))
+                put(e, attr("item.size_m", "Real-world size", size_obj(r), "canon", note4, unit="m"))
+                put(e, attr("item.mass", fields["item.mass"]["label"], r[8], "canon", note4, unit="kg"))
             changes["records sized"] += 1
 
     # §5 T fifth module
-    note5 = "PROPOSED (DECISIONS-2026-11-03.md §5); cap from LOADOUTS-ITEMIZED.md create-a-class rule 3."
+    note5 = "Owner-approved 2026-11-03 (" + ACCEPT_QUOTE + " DECISIONS-2026-11-03.md §5); cap from LOADOUTS-ITEMIZED.md create-a-class rule 3."
     for lid in ("loadout.fo-t-live", "loadout.fo-t-rapid", "loadout.fo-t-forensic", "loadout.fo-t-denied"):
         e = ents[lid]
         add_source(e)
-        put(e, attr("loadout.max_modules", "Max tech modules", 4, "proposed", note5, unit="modules"))
+        put(e, attr("loadout.max_modules", "Max tech modules", 4, "canon", note5, unit="modules"))
     put(ents["loadout.fo-t-denied"], attr("loadout.module_rule", "Module rule",
         "Isolation Sleeve (authorized only) takes Module D and displaces the Integrity Dongle; the hardened deck checks integrity in software. Never a fifth module.",
-        "proposed", note5))
+        "canon", note5))
+
+    # §4 rule 5 grid scale (owner 2026-11-03): 1 tile = 3.54 m; sizes unchanged
+    grid = ents.get(GRID["id"])
+    if grid is None:
+        grid = dict(GRID, sourceIds=[SRC_ID], attributes=[], relations=[], gaps=[])
+        cat["entities"].append(grid); ents[grid["id"]] = grid
+        changes["entities added"] += 1
+    put(grid, attr("presentation.tileMetres", fields["presentation.tileMetres"]["label"], TILE_M, "canon",
+                   GRID_QUOTE + " One tactical grid tile is 3.54 m; kit sizes (§4 table) are unchanged. DECISIONS-2026-11-03.md §4 rule 5.", unit="m"))
+
+    # §7 story-consolidation alignment (owner decisions on Prim3 branch claude/story-consolidation-20261102)
+    rc = ents["person.royce"]
+    add_source(rc)
+    rc["name"] = BENJI_NAME
+    if "benji-chase" not in rc["tags"]:
+        rc["tags"].append("benji-chase")
+    note7 = BENJI_QUOTE + " Stable ID person.royce is kept (machine keys royce_* are aliased in CANON.md §9 on the story branch). DECISIONS-2026-11-03.md §7."
+    put(rc, attr("identity.display_name_note", fields["identity.display_name_note"]["label"],
+                 "Royce was renamed Benjamin \"Benji\" Chase on 2026-11-03; the ID stays person.royce.", "canon", note7))
+    put(rc, attr("identity.nation", fields["identity.nation"]["label"], "United States", "canon", note7))
+    put(rc, attr("identity.country_id", fields["identity.country_id"]["label"], "country.united-states", "canon", note7))
+    lm = ents["person.layla-mansour"]
+    add_source(lm)
+    put(lm, attr("identity.nation", fields["identity.nation"]["label"], "Jordan", "proposed",
+                 "Restored on the story branch (owner 2026-11-02 repair of the Sept 24 find-and-replace); the record itself stays proposed (development pool). DECISIONS-2026-11-03.md §7."))
 
     # T kit screen accent: teal -> lime (R owns teal)
     note6 = "T accent is lime %s, never teal (R) or purple (owner 2026-11-02)." % LIME
@@ -393,6 +442,11 @@ def apply(d):
                 row["status"] = e["status"]
             if e and row["entityId"] == "asset.equipment.field-cyberdeck" and "definition" in row:
                 row["definition"] = e["description"]
+            if e and name == "people.json":
+                row["name"] = e["name"]
+                nation = next((a["value"] for a in e["attributes"] if a["key"] == "identity.nation" and a["state"] == "defined"), None)
+                if nation and row.get("nation") == "Unknown":
+                    row["nation"] = nation
         dump(d, name, view)
 
     man = load(d, "manifest.json")

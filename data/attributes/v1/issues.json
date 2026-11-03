@@ -42,9 +42,10 @@
     "description": "Layla Mansour country cell says McCluster.",
     "sourceIds": [
       "src.c9628ed7978f49",
-      "src.d97b916f70364d"
+      "src.d97b916f70364d",
+      "src.d3c1520261103a"
     ],
-    "resolution": "Normalized nation null; source text preserved. Owner needs to establish country."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §7): Jordan: the story branch restored Layla Mansour's country after the Sept 24 find-and-replace turned 'Jordan' into 'McCluster' (owner 2026-11-02: \"we don't want the country to be called McCluster\"; Prim3 branch claude/story-consolidation-20261102, development/DECISIONS.md). The matrix has no Jordan country record, so identity.country_id stays unknown."
   },
   {
     "id": "identity.canon.country-patches",
@@ -93,7 +94,7 @@
       "src.ae1bf28ba97754",
       "src.d3c1520261103a"
     ],
-    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED 0.32 x 0.22 x 0.045 m closed, 2.6 kg; thickness 45 mm (rugged class)."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): Owner-approved 2026-11-03: 0.32 x 0.22 x 0.045 m closed, 2.6 kg; thickness 45 mm (rugged class)."
   },
   {
     "id": "equipment.deck-lite-dimension",
@@ -107,7 +108,7 @@
       "src.ae1bf28ba97754",
       "src.d3c1520261103a"
     ],
-    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED 0.14 x 0.08 x 0.022 m, 0.35 kg."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): Owner-approved 2026-11-03: 0.14 x 0.08 x 0.022 m, 0.35 kg."
   },
   {
     "id": "equipment.writeblock-dimension",
@@ -121,7 +122,7 @@
       "src.ae1bf28ba97754",
       "src.d3c1520261103a"
     ],
-    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED 0.075 x 0.04 x 0.018 m, 0.12 kg."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): Owner-approved 2026-11-03: 0.075 x 0.04 x 0.018 m, 0.12 kg."
   },
   {
     "id": "equipment.store-dimension",
@@ -135,7 +136,7 @@
       "src.ae1bf28ba97754",
       "src.d3c1520261103a"
     ],
-    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED dual 0.128 x 0.079 x 0.015 m (0.15 kg); standard cartridge 0.08 x 0.055 x 0.012 m."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): Owner-approved 2026-11-03: dual 0.128 x 0.079 x 0.015 m (0.15 kg); standard cartridge 0.08 x 0.055 x 0.012 m."
   },
   {
     "id": "equipment.integrity-dongle-dimension",
@@ -149,7 +150,7 @@
       "src.ae1bf28ba97754",
       "src.d3c1520261103a"
     ],
-    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED 0.052 x 0.018 x 0.008 m, 0.012 kg."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): Owner-approved 2026-11-03: 0.052 x 0.018 x 0.008 m, 0.012 kg."
   },
   {
     "id": "equipment.writeblock-led-semantics",
@@ -189,7 +190,7 @@
       "src.0896e738b4e3c7",
       "src.d3c1520261103a"
     ],
-    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §5): PROPOSED: the cap stays 4. The Isolation Sleeve is not a fifth module: when authorized it takes Module D, displacing the Integrity Dongle; the hardened deck does the integrity check in software."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §5): Owner-approved 2026-11-03: the cap stays 4. The Isolation Sleeve is not a fifth module: when authorized it takes Module D, displacing the Integrity Dongle; the hardened deck does the integrity check in software."
   },
   {
     "id": "equipment.mesh-scale",
@@ -201,7 +202,7 @@
       "src.ae1bf28ba97754",
       "src.d3c1520261103a"
     ],
-    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED: kit is sized in real metres and every GLB is normalized to its table size (uniform scale)."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): Owner-approved 2026-11-03: kit is sized in real metres and every GLB is normalized to its table size (uniform scale)."
   },
   {
     "id": "equipment.field-country-badges",

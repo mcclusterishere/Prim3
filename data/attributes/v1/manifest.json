@@ -714,30 +714,30 @@
     "applied": "DECISIONS-2026-11-03.md",
     "tool": "tools/apply_decisions.py",
     "releaseCatalogSha256": "7331ba19d6685e3d9ac02b1efb5a47c4b791f0ff5de35b0616ca6b18d88008a3",
-    "catalogSha256": "def6da1e4e36e045f0939a6672fdb00e2ce313f000bd34f418b2e5212542652b",
+    "catalogSha256": "4e44343086153ec172daa700386136b1905ac9daa59a1d1622700c43a303fc06",
     "note": "release.*, sha256 and counts above describe the release as supplied; this block describes the files after the decisions.",
     "counts": {
-      "entities": 1320,
-      "attributes": 12243,
+      "entities": 1321,
+      "attributes": 12245,
       "relationships": 1515,
-      "fields": 1267,
+      "fields": 1269,
       "issues": 30,
       "sources": 82
     },
     "entityStatus": {
-      "canon": 865,
+      "canon": 866,
       "proposed": 265,
       "reference": 190
     },
     "attributeStates": {
       "conflict": 4,
-      "defined": 7840,
+      "defined": 7845,
       "not_applicable": 8,
-      "unknown": 4391
+      "unknown": 4388
     },
     "attributeOrigins": {
-      "canon": 3854,
-      "proposed": 6210,
+      "canon": 3950,
+      "proposed": 6116,
       "reference": 2179
     },
     "issuesDecided": [
@@ -749,7 +749,8 @@
       "equipment.mesh-scale",
       "equipment.store-dimension",
       "equipment.writeblock-dimension",
-      "identity.canon.country-patches"
+      "identity.canon.country-patches",
+      "identity.canon.layla-country"
     ]
   }
 }

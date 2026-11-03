@@ -1,8 +1,8 @@
 ---
-status: §1-§3 OWNER-APPROVED (2026-11-03; §2-§3 delegated by the owner); §4-§5 PROPOSED
+status: §1-§5 and §7 OWNER-APPROVED (2026-11-03; §2-§3 delegated by the owner; §4-§5 accepted by the owner the same day); §8 REFERENCE
 system: PRIM3 attributes matrix v1 — owner decisions of 2026-11-03 and the values they put in the matrix
 date: 2026-11-03
-answers: AUDIT.md §7 owner questions 1, 2, 3 and 5 (issues 5, 8-12, 15, 16, 17)
+answers: AUDIT.md §7 owner questions 1-5 (issues 4, 5, 8-12, 15, 16, 17)
 applied_by: tools/apply_decisions.py (catalog.json and every derived file; idempotent)
 engine: game/runtime/tactical-resolver.mjs, per-unit `syncPulsePerMission` (tests in game/runtime/tactical-t-control-rules.test.mjs)
 ---
@@ -23,11 +23,18 @@ How each answer is labelled here:
 | 1 | Black Signal numbers | **OWNER-APPROVED** | The owner decided it directly. |
 | 2 | Extra Sync Pulses (level-2 upgrade) | **OWNER-APPROVED (delegated)** | "make up an answer for the matrix in number two": the owner delegated the numbers; this file sets them. |
 | 3 | Country badges | **OWNER-APPROVED (delegated)** | "On screen only, I guess, whatever your recommendation is." |
-| 4 | Equipment real-world sizes | **PROPOSED** | "you should propose something": a proposal until the owner accepts the numbers. |
-| 5 | T's fifth module | **PROPOSED** | Not asked directly; part of AUDIT question 5. |
+| 4 | Equipment real-world sizes | **OWNER-APPROVED 2026-11-03** | Proposed the same day ("you should propose something"), then accepted: "I accept your proposals." |
+| 4 rule 5 | Grid scale: 1 tile = 3.54 m | **OWNER-APPROVED 2026-11-03** | "instead of 1.6, make it like 3.54" |
+| 5 | T's fifth module | **OWNER-APPROVED 2026-11-03** | Part of AUDIT question 5; accepted with §4: "I accept your proposals." |
+| 7 | Story-consolidation alignment (Benji Chase, Layla's country) | **OWNER-APPROVED** (decisions recorded on the story branch) | Applies owner decisions already made, so the matrix stops contradicting them. |
+| 8 | 2026-11-03 handoff kit: release schema and validation report, engine observations | **REFERENCE** | As-supplied files and observations; no value comes from them. |
 
-In the matrix, §1-§3 values carry `origin: canon` with this file as their source; §4-§5 values carry
-`origin: proposed`. Every changed value cites source `src.d3c1520261103a` (this file).
+In the matrix, §1-§5 values carry `origin: canon` with this file as their source (§4-§5 changed from
+`proposed` to `canon` when the owner accepted them, 2026-11-03). Every changed value cites source
+`src.d3c1520261103a` (this file).
+
+The owner, later on 2026-11-03: **"I accept your proposals."** And on the grid: **"instead of 1.6, make
+it like 3.54."**
 
 ## 1. Black Signal prototype numbers: not adopted
 
@@ -83,7 +90,7 @@ In the matrix: `presentation.black-mannequin` gains `presentation.countryBadgeSu
 component built from the code, not an asset. Issues `identity.canon.country-patches` and
 `equipment.field-country-badges` are marked decided.
 
-## 4. Equipment real-world sizes (PROPOSED)
+## 4. Equipment real-world sizes (OWNER-APPROVED 2026-11-03)
 
 ### Rules
 
@@ -99,21 +106,24 @@ component built from the code, not an asset. Issues `identity.canon.country-patc
    rig** and checked against the table, not scaled to it.
 4. **Kit attached to an operator inherits the operator's scale.** The operator is normalized to a real
    height (proposed adult reference 1.75 m), so kit never needs its own correction.
-5. **Grid and rendering scale.** The task brief proposed "1 game grid tile = 1 m". The McCluster renderer
-   already documents a different assumption, so this file **records the documented one and does not
-   override it**: `js/prim3-tactics/level3d.mjs` maps tiles to world units with `M = metres / TILE_M`,
-   and `js/prim3-tactics/levels/transit-relay.mjs` sets `TILE_M = 1.6` ("one tile ≈ 1.6 m"), with
-   heights in metres as the resolver expects. A level owns its `TILE_M`; real-size kit is converted with
-   the same `M()`. Two inconsistencies to settle at the asset pass: the level renderer builds mannequins
-   "in metres x1.18" then scales by 0.55, and the older courtyard view (`board3d.mjs`) stands any
-   authored model at 2.15 world units with 1 tile = 1 unit. **Owner question:** keep 1.6 m per tile, or
-   move levels to 1 m per tile? Nothing in this file depends on the answer; only `TILE_M` changes.
+5. **Grid and rendering scale: 1 tile = 3.54 m (owner, 2026-11-03: "instead of 1.6, make it like
+   3.54").** The McCluster renderer maps tiles to world units with `M = metres / TILE_M`
+   (`js/prim3-tactics/level3d.mjs`); `js/prim3-tactics/levels/transit-relay.mjs` documented
+   `TILE_M = 1.6` ("one tile ≈ 1.6 m"). Levels now set **`TILE_M = 3.54`**. The kit sizes in the table
+   are **unchanged**: they are real metres, and real-size kit is converted with the same `M()`, so a
+   bigger tile only means more of the world fits in one tile. Heights stay in metres as the resolver
+   expects. The renderer change itself belongs to the McCluster repo (`js/prim3-tactics/`), not to this
+   matrix. In the matrix: `presentation.grid-scale` with `presentation.tileMetres: 3.54`. Two
+   inconsistencies are still to settle at the asset pass: the level renderer builds mannequins "in metres
+   x1.18" then scales by 0.55, and the older courtyard view (`board3d.mjs`) stands any authored model at
+   2.15 world units with 1 tile = 1 unit.
 6. Sizes are presentation and production data. **No rule reads them** (inventory cells and encumbrance
    are not decided).
 
 ### Table
 
-Matrix records gain `item.size_m` `{L, W, H}` and `item.mass` (kg) on equipment and weapon records, or
+Matrix records gain `item.size_m` `{L, W, H}` and `item.mass` (kg), `origin: canon` since the owner accepted
+the table, on equipment and weapon records, or
 `asset.target_size_m` on the 3D-asset records (`field-equipment-v01`). `item.mass` changes its unit from
 "game mass unit" to **kg** (it had no defined value before). Level-1 draft IDs (E01-T06,
 `phenotypes/operators/equipment/level1-drafts` on `claude/level1-equipment-drafts-20261102`) are listed
@@ -180,12 +190,13 @@ Notes:
   masters, never from a table.
 - A generic **field helmet** row is given for when one is modelled; the matrix has no such record.
 
-## 5. T's fifth module (PROPOSED)
+## 5. T's fifth module (OWNER-APPROVED 2026-11-03)
 
 Issue `equipment.denied-module-cap`: the DENIED loadout lists Module A-E, but create-a-class rule 3
 caps T at **4 tech modules**.
 
-**Proposal: the cap stays 4, and there is no fifth slot.** The Isolation Sleeve (authorized only) is a
+**Rule (proposed, then accepted by the owner on 2026-11-03: "I accept your proposals"): the cap stays 4,
+and there is no fifth slot.** The Isolation Sleeve (authorized only) is a
 conditional swap: when authorized it **takes Module D and displaces the Integrity Dongle**; the hardened
 deck does the integrity check in software for that mission. Without authorization, DENIED carries the
 Dongle as Module D. Reasons: one rule for every loadout, a real trade (shielding vs a hardware check),
@@ -201,8 +212,45 @@ two places, both corrected: `asset.equipment.field-cyberdeck` ("restrained teal 
 lime (#8BD346) display accent") and the prototype's `geometry.operator.t` (two emissive screen parts
 `#57968f` now `#8BD346`, noted on the attribute).
 
+## 7. Story-consolidation alignment (owner decisions recorded on the story branch)
+
+Two owner decisions made on Prim3 branch `claude/story-consolidation-20261102` (`development/DECISIONS.md`
+there) contradicted matrix values. The matrix now follows them:
+
+- **Royce is Benjamin "Benji" Chase** (owner, 2026-11-03: "Rename Royce Benjamin Chase … He gets dubbed
+  Hitman Benji after he takes over the organization"; LVL-01 is Benjamin Chase, United States, E). The
+  stable ID **`person.royce` is kept** (IDs are never renamed; the story branch keeps `royce_*` machine
+  keys and aliases them in `CANON.md` §9). Its `name` becomes `Benjamin "Benji" Chase`, it gains
+  `identity.display_name_note`, `identity.nation: United States` and `identity.country_id:
+  country.united-states`. Its other text (e.g. "McCluster/Benji" in key ties) still carries the old alias
+  and is listed for the regeneration pass (AUDIT §9), not rewritten here.
+- **Layla Mansour's country is Jordan** (AUDIT question 4, issue `identity.canon.layla-country`). Her
+  source said "McCluster" because the Sept 24 find-and-replace turned "Jordan" into "McCluster"; the story
+  branch restored Jordan (owner, 2026-11-02: "we don't want the country to be called McCluster").
+  `identity.nation: Jordan`; the record stays `proposed` (development pool). The matrix has no Jordan
+  country record, so `identity.country_id` stays unknown.
+
+## 8. The 2026-11-03 handoff kit (reference only)
+
+The owner supplied a handoff kit on 2026-11-03 ("eat the fish, spit out the bones"). Its full triage is
+on Prim3 branch `claude/story-consolidation-20261102`, `development/HANDOFF-2026-11-03-TRIAGE.md`. For
+the matrix:
+
+- **Kept, as reference:** the release's own `catalog.schema.json` and historical `validation.json`
+  (45/45 against the release hash `7331ba19…`), which were missing from both original deliveries, are
+  now in `source/release/`. Our own contract (`schemas/prm3-content-registry.schema.json` and
+  `validate_registry.py`) stays the one that runs.
+- **Kept, as reference:** `reference/engine-profiles.handoff-2026-11-03.json`, pinned observations of the
+  Black Signal prototype, the Prim3 headless resolver at `160020b` and the McCluster Transit / Relay
+  review level at `4934c3e` (T: 6 HP, sidearm and cyberdeck, no `weaponRange`). They are observations at
+  those revisions, never defaults; the resolver and the level stay the authority.
+- **Not taken:** the kit's 1.3 MB authority overlay. It is pinned to the release hash, which this
+  matrix no longer has, and §1 already relabels the same 169 Black Signal records `reference`. Its rule
+  that a missing engine binding never falls back to a prototype value is the adapter rule in AUDIT §8.
+- **Not taken:** the kit's 81 proposed extension fields as dictionary entries. Their useful distinction
+  (origin vs deployment vs news-mentioned place vs selected country) is noted for the World globe; no
+  field is added until a record uses it.
+
 ## Still open
 
-- Layla Mansour's country (AUDIT question 4).
-- Grid scale (§4 rule 5): 1.6 m per tile as documented, or 1 m.
-- Whether the §4 sizes and the §5 module rule are accepted as they stand.
+- Nothing from AUDIT §7's owner questions. Remaining matrix work is the regeneration pass in AUDIT §9.

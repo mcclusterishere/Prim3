@@ -814,9 +814,9 @@
     "path": "data/attributes/v1/DECISIONS-2026-11-03.md",
     "repository": "mcclusterishere/Prim3",
     "commit": null,
-    "declaredStatus": "OWNER DECISIONS 2026-11-03 (sizes PROPOSED)",
+    "declaredStatus": "OWNER DECISIONS 2026-11-03",
     "url": "https://github.com/mcclusterishere/Prim3/blob/claude/attributes-matrix-20261102/data/attributes/v1/DECISIONS-2026-11-03.md",
     "localPath": "DECISIONS-2026-11-03.md",
-    "sha256": "5440d8859655a5fdaad3929faa4e22f5a905313e695ca7bbd05e9406ef8482d2"
+    "sha256": "a72a0d5ce514e6a9bdf925ea2c84ff3fe58eb3326b6ecd9556ec2cebedf9b159"
   }
 ]
