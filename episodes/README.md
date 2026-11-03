@@ -120,6 +120,9 @@ PLAY expands the same event and may run longer.
 
 # Episode 06 casualty rule
 
+Season One deaths are allowed (owner decision, 2026-11-03: "If somebody dies, they die"). E06 is a death slot, not the earliest one. The same rule applies to any earlier death: an established recurring person, chosen by the owner, with structural consequences.
+
+
 `Got Wifi` may retain a major death, but no unnamed `older veteran` may be invented for it.
 
 If the death remains, the victim must be an **existing established recurring person** whose Episodes 01–05 scene work has created enough ordinary life and relationship texture to make the loss structural.

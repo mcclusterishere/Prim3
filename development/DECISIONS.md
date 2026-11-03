@@ -20,7 +20,7 @@ This ledger prevents AI collaborators from silently filling important blanks.
 - [ ] First supporting character to design
 - [x] ~~Internship cover department~~ — removed 2026-11-02 (owner: clean out the internship-that-is-secretly-an-exam version). McCluster joins Equity Uprise (`CANON.md` §19). The cover idea is kept as a proposal note only.
 - [ ] First field incident
-- [ ] First major casualty
+- [ ] First major casualty — Season One deaths allowed (owner 2026-11-03); candidates in `story/STORY-CONSOLIDATION-PROPOSAL.md` §3.7; owner chooses
 - [ ] Season finale evidence/revelation
 
 ## Succession
@@ -66,3 +66,4 @@ These are owner decisions, applied to canon on branch `claude/story-consolidatio
 - [x] **E03's facility opening is the North River Medical Logistics Hub's reopening** (approved by the owner). Applied: `episodes/S01E03-OSINT.md` "Human problem"; proposal §2.4.
 - [ ] **Song #21 (E18): pending.** Owner, 2026-11-03: not available yet. E18 remains a protected open slot (`story/EPISODE-PROGRESSION.md`); nothing is filled from existing songs.
 - [x] **High Alert memory owners follow the cast.** Owner: "pair that with the cast." Each of the 17 memory anchors now names the locked owner of its episode from `CANON.md` §21 (Memory 01 Nusrat/Miguel, 02 Oksana/Rafael, 03 Priya/Sora, 04 Chioma/Thandiwe, 05 Sari/Yonas, 06 Leila/Li, 07 Aya/Minh, 08 Dmitri/Oksana, 09 Valeria, 10 Grace/Rafael, 11 Jonas/Pylon, 12 Helen/Li/Yonas, 13 Amira/Marc, 14 Sari/Sable, 15 McCluster/Valeria, 16 Aya, 17 Leila/Helen/McCluster). The flash images are kept.
+- [x] **Season 1 deaths are allowed.** Owner: "If somebody dies, they die … I think it's more cool." The "first death deferred to S2E3" restriction is removed from `seasons/SEASON-01.md`; `episodes/README.md` notes that E06 is a death slot, not the earliest. Nobody is chosen; candidates with rationale are in the proposal §3.7.

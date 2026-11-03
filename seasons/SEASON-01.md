@@ -63,7 +63,7 @@ The truth is that his unusual combination of experience, deprivation and persist
 
 ## First death
 
-There is **no** death of a developed recurring character in Season One. Canon places the first recurring-character death slot in E06 (S2E3, *Got Wifi / Dead Air*), victim not yet chosen (`episodes/README.md` "Episode 06 casualty rule").
+Season One deaths are **allowed** (owner decision, 2026-11-03: "If somebody dies, they die … I think it's more cool"). Who dies, if anyone, is the owner's choice; candidates are listed in `story/STORY-CONSOLIDATION-PROPOSAL.md` §3.7. The E06 death slot (`episodes/README.md`) still exists; it is no longer the earliest possible death.
 
 ## Season One wardrobe and brand presence
 
@@ -107,7 +107,7 @@ Owner: "we need to clean that internship that's secretly an exam type shit." Roo
 
 - the season promise that "the protagonist's McCluster Corp technology internship is an entrance examination for Apex Tactical Corp, the hidden global organization controlling it";
 - the movements "A McCluster Corp internship appears to offer legitimacy", "The internship", "A technical incident pulls interns into a real operational problem";
-- "The first absence": a developed character's death in Season One that "management anticipated" (canon defers the first death to E06);
+- "The first absence": a developed character's death in Season One that "management anticipated" (the anticipation was internship-era; Season One deaths themselves are allowed again, owner 2026-11-03);
 - the season-ending revelation that "his recruitment was not initiated by the visible internship team. Someone at the highest level selected him before he applied" (canon: PRIM2 *reacquires* him; he was known before, not selected for an exam);
 - the old cold open with "McCluster and Benji's separate assault elements" and "Presiding Prime / Prime-00" (fixed in the previous commit).
 

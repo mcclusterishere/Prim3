@@ -42,6 +42,7 @@ This document does three things. It merges three storylines that grew up apart i
 | 10 | E03's facility is the North River reopening. | **RESOLVED** (approved) | `episodes/S01E03-OSINT.md`; §2.4 |
 | 11 | Song #21 is not available yet. | **PENDING** | §5.3; E18 stays open |
 | 12 | High Alert memory owners: "pair that with the cast." | **RESOLVED** | `story/HIGH-ALERT-MEMORY-ANCHORS.md` |
+| 13 | "If somebody dies, they die … I think it's more cool." Season 1 deaths allowed; the owner picks. | **RESOLVED** (restriction removed; candidates listed) | §3.7; `seasons/SEASON-01.md` |
 | 4 | "All storyline missions are planned" applies except to real emergencies; E05, E06 and E16 stay emergencies. | **RESOLVED** | §3.1, §3.6, §5 |
 
 **Promotion to canon.** Under `AGENTS.md` "Change control", the approved sections still enter canon through a pull request that states existing canon, replacement, reason, downstream files and owner approval. Each approved item below carries those five fields in a box marked **CHANGE CONTROL**. Everything not marked **OWNER-APPROVED** stays **PROPOSED**.
@@ -380,6 +381,20 @@ Most episodes take the rule naturally (see the "proposed cover" column in §5; P
 - **E06 Dead Air:** severe weather; communications fail in a crowded facility.
 - **E16 Road Kit:** a remote emergency site; McCluster's scripted PLAY mission. The man who lived in cars works best when nothing was planned.
 
+## 3.7 Candidate Season 1 deaths (for the owner to choose; none is chosen here)
+
+Owner, 2026-11-03: "If somebody dies, they die … I think it's more cool." Season 1 deaths are allowed. Canon's death law still applies: the dead must be people the audience knows, the building must change, and nobody is auto-replaced (`CANON.md` §4). Listed from least to most costly to later canon.
+
+| Candidate | Where | Dramatic rationale | What it costs canon |
+|---|---|---|---|
+| **Rae "Twin" Colton** (Hitman) | LVL-01, Benji's extraction | Benji goes in himself and still loses her, or loses her after the re-cover. The first thing the audience learns about the sovereign is what it costs him to protect someone. Hardens Benji and makes Hitman a place of grief, not pawns. | Rae anchors E04 (social entry) and appears in E07; Sora "Gymnast" Okada and Kira "Keys" Moon would carry E04's Hitman social-entry thread. |
+| **Miguel Santos** | E02 / LVL-02 (Harborline exterior) | The humane enforcer holds the door so Aya can keep her technical window and does not come home. Nusrat's "equal rules" now has a body count; Aya's first solo is paid for by someone else. The onboarding that wasn't becomes the funeral the recruits attend in week one. | Miguel co-owns E02 and appears in E04; E04's access pairing becomes Nusrat alone (or Nusrat and a vacancy). |
+| **Chris "Perch" Alvarez** (Hitman) | E03 (Hitman parallel) | Rafael's mirror dies in a picture Rafael could see and could not change. Rafael's arc ("seeing more is not licence to take more") starts with a loss on the other board. | Perch is E11's Hitman co-presence; Rafael's E11 would play against Perch's absence. |
+| **Rafael Costa** | E03 (Open Book field work) | The joker who becomes obsessively patient dies while Oksana is still refusing to overclaim. Oksana's discipline is tested by grief in her first episode; Valeria watches a senior die on her first case. | Rafael co-owns E11 with Grace; E11 needs another R (Oksana, or a regional R). |
+| **Nusrat Rahman** | E02 | The conscience of access fairness dies upholding scope. The hardest-hitting choice: the person who taught the player "permission" is gone by Episode 3. | Nusrat owns E02 and appears in E04; access law would pass to Miguel, Hassan or a vacancy. |
+
+Not listed: anyone whose locked ownership or the succession spine depends on them later (Aya, Chioma, Leila, Helen, Oksana, Valeria, PRIM2, Benji, McCluster). Hana is already dead.
+
 ---
 
 # 4. Characters: how they build on each other (PROPOSED)
@@ -527,7 +542,7 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 | 1 | **Third meaning of PRIM.** The real learning product uses "the PRIM Method: Principles, Rhythm, Immersion and Missions". | **RESOLVED 2026-11-03: the PRIM Method stays private.** It is kept out of story canon; no story file mentions it, and none should. | — |
 | 2 | **Runtime.** `CANON.md` §1 says 20–35 minutes; `story/EPISODE-PROGRESSION.md`, `story/SERIES-ARC.md` and `ARCHITECT.md` §3 still say about 9. | Root wins: 20–35 minutes, music film about one track-length. Update the three files. | `story/EPISODE-PROGRESSION.md`, `story/SERIES-ARC.md`, `ARCHITECT.md` |
 | 3 | **McCluster's pre-history.** `story/RELATIONSHIP-ECOSYSTEM.md` (CANON) puts McCluster in the "founding years" mesh, trained beside Aya, kept from washing out by Chioma's early evaluation. Canon has him arrive at 33 as a newcomer. | Remove McCluster from the pre-story clusters. Move Chioma's evaluation into Season 1: she signs his first field evaluation after LVL-02, the line "He stopped when she told him to" being what she writes. | `story/RELATIONSHIP-ECOSYSTEM.md`, `episodes/S01E02-WHITE-GREY-BLACK-HAT.md` |
-| 4 | **First death timing.** `story/SEASON-ONE-HUMAN-SPINE.md` Movements 5–6 put a developed character's death in Season 1; canon defers it to E06. (`seasons/SEASON-01.md` already fixed on this branch.) | Align the human spine to E06; Season 1's loss is Hana's absence, felt through LVL-03. | `story/SEASON-ONE-HUMAN-SPINE.md` |
+| 4 | **First death timing.** | **RESOLVED 2026-11-03:** Season 1 deaths are allowed ("If somebody dies, they die … I think it's more cool"). The E06-first restriction is removed from `seasons/SEASON-01.md`; `episodes/README.md` notes it. Candidates in §3.7; the owner chooses. | `seasons/SEASON-01.md`, `episodes/README.md` |
 | 5 | **High Alert memory owners.** | **RESOLVED 2026-11-03** ("pair that with the cast"): every memory anchor now names its episode's locked owner from `CANON.md` §21; Memory 01/02 also note the solo PLAY owners. | `story/HIGH-ALERT-MEMORY-ANCHORS.md` |
 | 6 | **`AGENTS.md`'s naming ban.** "Do not name unnamed characters, the corporation, the college or the location." Canon has since named the protagonist (McCluster), the corporation (McCluster Corp), the institution (Equity Uprise) and many places. `development/DECISIONS.md` still lists these as open. | Reword: "Do not name a character, college or location that canon has not yet named without owner approval. Named canon (McCluster, McCluster Corp, Equity Uprise, Bridgeport, Kariya, Ulsan, North River) is fixed." Tick the resolved items in DECISIONS. College name, PRIM2's civilian name and the story year stay open. | `AGENTS.md`, `development/DECISIONS.md` |
 | 7 | **Bare "McCluster" for the institution** (§1.5). | `CANON.md` §22 writing rule; finish the sweep. | `CANON.md`, story files with remaining hits |
