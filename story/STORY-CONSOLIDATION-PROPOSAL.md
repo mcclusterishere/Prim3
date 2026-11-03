@@ -27,6 +27,14 @@ This document does three things. It merges three storylines that grew up apart i
 | 2026-11-02 | "the first three character types that get developed are the first three missions"; "the first three characters who have the most lore about them, like possibly Royce for America, fucking Hannah, and somebody else … who has the most lore behind them." | The reading of "first three" as Benji, Hana, Aya (§2.1) | **OWNER-APPROVED 2026-11-02** |
 | 2026-11-02 | "we need to clean that internship that's secretly an exam type shit." | Removal of the internship/Apex-exam version (already applied on this branch; §1.4) | **APPLIED** |
 
+### Owner answers, 2026-11-03
+
+| # | Owner wording (as relayed) | Status | Applied in |
+|---:|---|---|---|
+| 1 | Ghost is McCluster's "ghost mode": "he's been ghosted from the view of everyone … under the radar." | **RESOLVED** | `CANON.md` §9; §4.4 |
+| 2 | "Rename Royce Benjamin Chase … Benji is low-key McCluster's evil twin … a clone of McCluster … dubbed Hitman Benji after he takes over the organization." | **RESOLVED** | 84 files; `story/BENJI-CHASE-JANUS-ORIGIN-CANON.md`; §2.3, §4.4 |
+| 3 | "The retaliation he did was all him." McCluster's Hitman-era deeds stay his. | **RESOLVED** (no change needed) | `CANON.md` §9 |
+
 **Promotion to canon.** Under `AGENTS.md` "Change control", the approved sections still enter canon through a pull request that states existing canon, replacement, reason, downstream files and owner approval. Each approved item below carries those five fields in a box marked **CHANGE CONTROL**. Everything not marked **OWNER-APPROVED** stays **PROPOSED**.
 
 **What the owner's "ERT" means.** The sign-off says "ERT". This proposal reads it as the three field types the trio covers (E, R, T), with the order Benji (E) → Aya (T) → Hana (R) argued in §2.2. If "ERT" was meant as the *order*, LVL-02 and LVL-03 swap (Benji E → Hana R → Aya T). That is Owner Question 1.
