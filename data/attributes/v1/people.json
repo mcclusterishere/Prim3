@@ -1995,7 +1995,7 @@
     {
       "entityId": "runtime-role-e",
       "name": "Entry",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "kind": "unit_role",
       "nation": "Unknown",
@@ -2013,7 +2013,7 @@
     {
       "entityId": "runtime-role-guard",
       "name": "Guard",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "kind": "unit_role",
       "nation": "Unknown",
@@ -2031,7 +2031,7 @@
     {
       "entityId": "runtime-role-r",
       "name": "Recon",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "kind": "unit_role",
       "nation": "Unknown",
@@ -2049,7 +2049,7 @@
     {
       "entityId": "runtime-role-sentry",
       "name": "Sentry",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "kind": "unit_role",
       "nation": "Unknown",
@@ -2067,7 +2067,7 @@
     {
       "entityId": "runtime-role-t",
       "name": "Technical",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "kind": "unit_role",
       "nation": "Unknown",
@@ -2187,7 +2187,7 @@
     {
       "entityId": "instance.black-signal.unit-E",
       "name": "Arjun",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "kind": "unit_instance",
       "nation": "Unspecified",
@@ -2204,7 +2204,7 @@
     {
       "entityId": "instance.black-signal.unit-T",
       "name": "Aya",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "kind": "unit_instance",
       "nation": "Unspecified",
@@ -2221,7 +2221,7 @@
     {
       "entityId": "instance.black-signal.unit-H1",
       "name": "Patrol 1",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "kind": "unit_instance",
       "nation": "Unspecified",
@@ -2238,7 +2238,7 @@
     {
       "entityId": "instance.black-signal.unit-H2",
       "name": "Patrol 2",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "kind": "unit_instance",
       "nation": "Unspecified",
@@ -2255,7 +2255,7 @@
     {
       "entityId": "instance.black-signal.unit-H3",
       "name": "Patrol 3",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "kind": "unit_instance",
       "nation": "Unspecified",
@@ -2272,7 +2272,7 @@
     {
       "entityId": "instance.black-signal.unit-R",
       "name": "Rafael",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "kind": "unit_instance",
       "nation": "Unspecified",
@@ -2289,7 +2289,7 @@
     {
       "entityId": "instance.black-signal.unit-H6",
       "name": "Relay guard",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "kind": "unit_instance",
       "nation": "Unspecified",
@@ -2306,7 +2306,7 @@
     {
       "entityId": "instance.black-signal.unit-H4",
       "name": "Roof sentry",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "kind": "unit_instance",
       "nation": "Unspecified",
@@ -2323,7 +2323,7 @@
     {
       "entityId": "instance.black-signal.unit-H5",
       "name": "Roof sentry",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "kind": "unit_instance",
       "nation": "Unspecified",
@@ -3653,7 +3653,7 @@
     {
       "entityId": "runtime-team-enemy",
       "name": "Defenders",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "kind": "team",
       "nation": "n.a.",
@@ -3721,7 +3721,7 @@
     {
       "entityId": "runtime-team-player",
       "name": "Player squad",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "kind": "team",
       "nation": "n.a.",

@@ -5347,8 +5347,8 @@
     "key": "item.mass",
     "label": "Mass",
     "type": "number",
-    "unit": "game mass unit",
-    "description": "Authored encumbrance mass; no physical mass assumed.",
+    "unit": "kg",
+    "description": "Real-world mass in kilograms (PROPOSED values, DECISIONS-2026-11-03.md §4).",
     "appliesTo": [
       "equipment",
       "weapon"
@@ -13831,5 +13831,237 @@
       "weapon"
     ],
     "requiredFor": "production"
+  },
+  {
+    "key": "item.size_m",
+    "label": "Real-world size",
+    "type": "object",
+    "unit": "m",
+    "description": "Proposed real-world bounding extents {L, W, H} in metres, longest first (DECISIONS-2026-11-03.md §4).",
+    "appliesTo": [
+      "equipment",
+      "weapon"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "asset.target_size_m",
+    "label": "Target real-world size",
+    "type": "object",
+    "unit": "m",
+    "description": "Size the GLB is normalized to: uniform scale so its longest bounding extent equals L (DECISIONS-2026-11-03.md §4).",
+    "appliesTo": [
+      "visual_asset"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "upgrade.role",
+    "label": "Role",
+    "type": "string",
+    "unit": null,
+    "description": "Field role that may take the upgrade.",
+    "appliesTo": [
+      "upgrade"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "upgrade.unlock_level",
+    "label": "Unlock level",
+    "type": "integer",
+    "unit": "level",
+    "description": "Promotion level at which the upgrade can be bought.",
+    "appliesTo": [
+      "upgrade"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "upgrade.cost_points",
+    "label": "Cost",
+    "type": "integer",
+    "unit": "upgrade points",
+    "description": "Upgrade points spent.",
+    "appliesTo": [
+      "upgrade"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "upgrade.optional",
+    "label": "Optional",
+    "type": "boolean",
+    "unit": null,
+    "description": "True when the player may decline it.",
+    "appliesTo": [
+      "upgrade"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "upgrade.pulse_bonus",
+    "label": "Extra pulses",
+    "type": "integer",
+    "unit": "pulses per mission",
+    "description": "Pulses added to the unit's allowance.",
+    "appliesTo": [
+      "upgrade"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "upgrade.pulses_per_mission_total",
+    "label": "Pulses per mission (with upgrade)",
+    "type": "integer",
+    "unit": "pulses per mission",
+    "description": "The unit's allowance with the upgrade.",
+    "appliesTo": [
+      "upgrade"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "upgrade.pulse_ap",
+    "label": "Pulse AP",
+    "type": "integer",
+    "unit": "AP",
+    "description": "AP per pulse (unchanged by the upgrade).",
+    "appliesTo": [
+      "upgrade"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "upgrade.pulse_range",
+    "label": "Pulse throw range",
+    "type": "integer",
+    "unit": "tiles",
+    "description": "Throw range per pulse (unchanged).",
+    "appliesTo": [
+      "upgrade"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "upgrade.pulse_radius",
+    "label": "Pulse radius",
+    "type": "integer",
+    "unit": "tiles",
+    "description": "Area radius per pulse (unchanged).",
+    "appliesTo": [
+      "upgrade"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "upgrade.jams_own_machines",
+    "label": "Jams own machines",
+    "type": "boolean",
+    "unit": null,
+    "description": "Each pulse still jams the squad's own machines in its area.",
+    "appliesTo": [
+      "upgrade"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "upgrade.compatible_with_main_arm",
+    "label": "Compatible with the main arm",
+    "type": "boolean",
+    "unit": null,
+    "description": "Can be held together with the level-2 main arm.",
+    "appliesTo": [
+      "upgrade"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "upgrade.engine_field",
+    "label": "Engine field",
+    "type": "object",
+    "unit": null,
+    "description": "What the adapter writes on the unit for the resolver.",
+    "appliesTo": [
+      "upgrade"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "presentation.countryBadgeSurfaces",
+    "label": "Country badge surfaces",
+    "type": "array",
+    "unit": null,
+    "description": "Where a country badge may appear.",
+    "appliesTo": [
+      "presentation_rule"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "presentation.countryBadgeOnModel",
+    "label": "Country badge on 3D model",
+    "type": "boolean",
+    "unit": null,
+    "description": "False: never on 3D models or textures.",
+    "appliesTo": [
+      "presentation_rule"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "presentation.countryBadgeForm",
+    "label": "Country badge form",
+    "type": "string",
+    "unit": null,
+    "description": "What the badge looks like.",
+    "appliesTo": [
+      "presentation_rule"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "country.badge_surfaces",
+    "label": "Badge surfaces",
+    "type": "array",
+    "unit": null,
+    "description": "On-screen surfaces that show this country's chip.",
+    "appliesTo": [
+      "country"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "country.badge_on_model",
+    "label": "Badge on 3D model",
+    "type": "boolean",
+    "unit": null,
+    "description": "False: never on 3D models or textures.",
+    "appliesTo": [
+      "country"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "loadout.max_modules",
+    "label": "Max tech modules",
+    "type": "integer",
+    "unit": "modules",
+    "description": "Hard cap on tech modules in one T loadout.",
+    "appliesTo": [
+      "loadout"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
+  },
+  {
+    "key": "loadout.module_rule",
+    "label": "Module rule",
+    "type": "string",
+    "unit": null,
+    "description": "How a conditional module fits the cap.",
+    "appliesTo": [
+      "loadout"
+    ],
+    "requiredFor": "owner decision 2026-11-03"
   }
 ]

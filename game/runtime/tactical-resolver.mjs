@@ -89,7 +89,9 @@ function normalizeUnit(unit) {
     ...(unit.weaponRange != null ? { weaponRange: Number(unit.weaponRange) } : {}),
     ...(Array.isArray(unit.patrol) ? { patrol: unit.patrol.map((c) => ({ x: Number(c.x), y: Number(c.y), z: Number(c.z || 0) })) } : {}),
     ...(unit.level != null ? { level: Number(unit.level) } : {}),
-    ...(unit.syncPulsesUsed != null ? { syncPulsesUsed: Number(unit.syncPulsesUsed) } : {})
+    ...(unit.syncPulsesUsed != null ? { syncPulsesUsed: Number(unit.syncPulsesUsed) } : {}),
+    // Optional per-unit pulse allowance (the level-2 Overclock upgrade); overrides rules.syncPulsePerMission.
+    ...(unit.syncPulsePerMission != null ? { syncPulsePerMission: Number(unit.syncPulsePerMission) } : {})
   };
   if (unit.weapons && typeof unit.weapons === 'object') applyWeapons(out, unit);
   return out;
@@ -1100,6 +1102,11 @@ function setDoor(state, door, open) {
 // action: 'JAM' | 'TAKE_CONTROL' | 'OPERATE_DOOR' | 'SYNC_PULSE' | 'RETAKE' | 'MARK'.
 // subject: a machine id, or for SYNC_PULSE a target tile {x, y, z}. extra.open: OPERATE_DOOR's wish.
 // Deterministic (no rolls). Returns { legal: true, apCost, distance, range, ... } or { legal: false, reason }.
+// Pulses this unit may use per mission: its own syncPulsePerMission when set, else the mission rule.
+function pulseAllowance(state, unit) {
+  return unit.syncPulsePerMission != null ? Number(unit.syncPulsePerMission) : rulesOf(state).syncPulsePerMission;
+}
+
 function techActionPreview(state, action, actorId, subject, extra = {}) {
   const fail = (reason) => ({ legal: false, reason });
   const actor = state.units.find((u) => u.id === String(actorId));
@@ -1117,7 +1124,7 @@ function techActionPreview(state, action, actorId, subject, extra = {}) {
   if (action === 'SYNC_PULSE') {
     point = { x: Number(subject && subject.x), y: Number(subject && subject.y), z: Number((subject && subject.z) || 0) };
     if (![point.x, point.y, point.z].every(Number.isInteger) || !inBounds(state, point.x, point.y, point.z)) return fail('INVALID_TARGET');
-    if (Number(actor.syncPulsesUsed ?? 0) >= rulesOf(state).syncPulsePerMission) return fail('PULSE_SPENT');
+    if (Number(actor.syncPulsesUsed ?? 0) >= pulseAllowance(state, actor)) return fail('PULSE_SPENT');
     apCost = TECH_RULES.PULSE_AP; range = TECH_RULES.PULSE_RANGE;
   } else {
     machine = (state.machines || []).find((m) => m.id === String(subject));
@@ -1155,7 +1162,8 @@ function techActionPreview(state, action, actorId, subject, extra = {}) {
   if (!hasLineOfSight(state, actor, point)) return fail('NO_LINE_OF_SIGHT');
   if (actor.ap < apCost) return fail('NOT_ENOUGH_AP');
   return { legal: true, action, apCost, distance, range,
-    ...(machine ? { machineId: machine.id, kind: machine.kind } : { at: { ...point }, radius: TECH_RULES.PULSE_RADIUS }) };
+    ...(machine ? { machineId: machine.id, kind: machine.kind }
+      : { at: { ...point }, radius: TECH_RULES.PULSE_RADIUS, pulsesLeft: pulseAllowance(state, actor) - Number(actor.syncPulsesUsed ?? 0) }) };
 }
 
 function techStart(state, action, actorId, subject, extra) {

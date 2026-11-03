@@ -374,6 +374,28 @@ test('SYNC PULSE: ≤ 5 tiles in sight, radius 3 on that floor, machines jammed,
   assert.equal('networkSilencedUntilRound' in unit(t, 'IN'), false);
 });
 
+test('SYNC PULSE: per-unit syncPulsePerMission (level-2 Overclock) overrides the mission rule for that unit only', () => {
+  const s = pulseBoard();
+  const over = place(s, 'T', { syncPulsePerMission: 2 });
+  assert.deepEqual(techActionPreview(over, 'SYNC_PULSE', 'T', { x: 5, y: 5 }).pulsesLeft, 2);
+  const once = syncPulse(over, 'T', { x: 5, y: 5 });
+  assert.equal(techActionPreview(once, 'SYNC_PULSE', 'T', { x: 5, y: 5 }).pulsesLeft, 1);
+  const twice = syncPulse(nextRound(once), 'T', { x: 5, y: 5 });
+  assert.equal(unit(twice, 'T').syncPulsesUsed, 2);
+  assert.deepEqual(techActionPreview(nextRound(twice), 'SYNC_PULSE', 'T', { x: 5, y: 5 }), { legal: false, reason: 'PULSE_SPENT' });
+  assert.throws(() => syncPulse(nextRound(twice), 'T', { x: 5, y: 5 }), /PULSE_SPENT/);
+  // without the override the mission rule (default 1) still applies
+  assert.equal('syncPulsePerMission' in unit(s, 'T'), false);
+  assert.equal(techActionPreview(s, 'SYNC_PULSE', 'T', { x: 5, y: 5 }).pulsesLeft, 1);
+  assert.throws(() => syncPulse(nextRound(syncPulse(s, 'T', { x: 5, y: 5 })), 'T', { x: 5, y: 5 }), /PULSE_SPENT/);
+  // the per-unit value wins over the mission rule in both directions
+  const ruleTwo = pulseBoard({ syncPulsePerMission: 2 });
+  assert.throws(() => syncPulse(nextRound(syncPulse(place(ruleTwo, 'T', { syncPulsePerMission: 1 }), 'T', { x: 5, y: 5 })), 'T', { x: 5, y: 5 }), /PULSE_SPENT/);
+  // createState normalizes the field from config
+  const cfg = board({ units: [{ id: 'T', faction: 'PLAYER', role: 'T', x: 0, y: 0, syncPulsePerMission: '2' }] });
+  assert.equal(unit(cfg, 'T').syncPulsePerMission, 2);
+});
+
 test('SYNC PULSE: a silenced hostile neither shares nor receives alert knowledge in the threat AI', () => {
   const units = [
     { id: 'P', faction: 'PLAYER', x: 2, y: 2, hp: 6 },

@@ -4,6 +4,7 @@ system: PRIM3 attributes matrix v1, imported 2026-11-02
 owner_supplied: 2026-11-02 (made with ChatGPT; "everything from the items to the players")
 contract: schemas/prm3-content-registry.schema.json, data/attributes/tools/validate_registry.py
 audit: AUDIT.md
+decisions: DECISIONS-2026-11-03.md (applied by tools/apply_decisions.py)
 ---
 
 # PRIM3 attributes matrix v1
@@ -20,6 +21,17 @@ has 10 HP, 10 move, range 14, aim 74, damage 3; our T has 6 HP, no main arm at l
 control. Every such record carries `"provenance": "Black Signal prototype runtime"` in the derived files
 below (24 more are `"Black Signal prototype asset (proposed)"`). The prototype grid and instances are
 reference only; our level is `transit-relay` on the canonical engine.
+
+## Decisions applied (2026-11-03)
+
+The JSON files carry the owner decisions of 2026-11-03 (`DECISIONS-2026-11-03.md`): Black Signal records
+relabelled `reference`, the level-2 **Overclock** upgrade (`upgrade.t.overclock`), country badges on screen
+only, proposed real-world sizes in metres and kilograms, the T module cap, and the T screen accent in lime.
+So `catalog.json` no longer has the release hash; the release is still reproducible exactly with
+`build_from_release.py`, and `tools/apply_decisions.py` then re-applies the decisions. The workbook in
+`source/` stays as supplied. Counts and hashes in the tables below describe the release as supplied;
+`manifest.json` → `decisions` has them after the decisions (1,320 entities, 12,243 attributes; entity
+status 865 canon, 265 proposed, 190 reference; no `runtime` status remains).
 
 ## Provenance
 
@@ -93,6 +105,7 @@ Python 3 standard library plus `openpyxl`:
 python3 -I data/attributes/v1/tools/build_from_release.py \
   --html /path/to/attrs.html --xlsx /path/to/matrix.xlsx \
   --out data/attributes/v1 --prim3 .
+python3 -I data/attributes/v1/tools/apply_decisions.py data/attributes/v1
 python3 -I data/attributes/tools/validate_registry.py data/attributes/v1/catalog.json --self-test
 ```
 

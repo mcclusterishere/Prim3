@@ -709,5 +709,47 @@
     "runtime-operator-parts.json",
     "cells.csv"
   ],
-  "problems": []
+  "problems": [],
+  "decisions": {
+    "applied": "DECISIONS-2026-11-03.md",
+    "tool": "tools/apply_decisions.py",
+    "releaseCatalogSha256": "7331ba19d6685e3d9ac02b1efb5a47c4b791f0ff5de35b0616ca6b18d88008a3",
+    "catalogSha256": "def6da1e4e36e045f0939a6672fdb00e2ce313f000bd34f418b2e5212542652b",
+    "note": "release.*, sha256 and counts above describe the release as supplied; this block describes the files after the decisions.",
+    "counts": {
+      "entities": 1320,
+      "attributes": 12243,
+      "relationships": 1515,
+      "fields": 1267,
+      "issues": 30,
+      "sources": 82
+    },
+    "entityStatus": {
+      "canon": 865,
+      "proposed": 265,
+      "reference": 190
+    },
+    "attributeStates": {
+      "conflict": 4,
+      "defined": 7840,
+      "not_applicable": 8,
+      "unknown": 4391
+    },
+    "attributeOrigins": {
+      "canon": 3854,
+      "proposed": 6210,
+      "reference": 2179
+    },
+    "issuesDecided": [
+      "equipment.deck-lite-dimension",
+      "equipment.deck-standard-dimension",
+      "equipment.denied-module-cap",
+      "equipment.field-country-badges",
+      "equipment.integrity-dongle-dimension",
+      "equipment.mesh-scale",
+      "equipment.store-dimension",
+      "equipment.writeblock-dimension",
+      "identity.canon.country-patches"
+    ]
+  }
 }

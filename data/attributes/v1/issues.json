@@ -53,9 +53,10 @@
     "description": "FO-01 forbids external flags/unit patches; current user requests country badges on black mannequin characters.",
     "sourceIds": [
       "src.55be1602b18ec4",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
-    "resolution": "Apply latest user visual direction in game-design layer; do not silently edit source story canon."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §3): Owner-approved (delegated): country badges are on-screen UI only (HUD chip, roster card, World globe card); never on 3D models or textures; ISO alpha-2 chip, no emblems. FO-01 and the no-marks rule stand for models."
   },
   {
     "id": "identity.canon.black-mannequin-coverage",
@@ -89,9 +90,10 @@
     "description": "closed_dimensions: Keep both claims. Thickness differs 4.5cm vs3.5cm. Owner/design decision required before production scale.",
     "sourceIds": [
       "src.4c16f6a2a30e9e",
-      "src.ae1bf28ba97754"
+      "src.ae1bf28ba97754",
+      "src.d3c1520261103a"
     ],
-    "resolution": "Keep both claims. Thickness differs 4.5cm vs3.5cm. Owner/design decision required before production scale."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED 0.32 x 0.22 x 0.045 m closed, 2.6 kg; thickness 45 mm (rugged class)."
   },
   {
     "id": "equipment.deck-lite-dimension",
@@ -102,9 +104,10 @@
     "description": "closed_dimensions: Conflicting footprints; no automatic conversion makes them equivalent.",
     "sourceIds": [
       "src.4c16f6a2a30e9e",
-      "src.ae1bf28ba97754"
+      "src.ae1bf28ba97754",
+      "src.d3c1520261103a"
     ],
-    "resolution": "Conflicting footprints; no automatic conversion makes them equivalent."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED 0.14 x 0.08 x 0.022 m, 0.35 kg."
   },
   {
     "id": "equipment.writeblock-dimension",
@@ -115,9 +118,10 @@
     "description": "dimensions: Keep alternatives; no chosen production scale.",
     "sourceIds": [
       "src.4c16f6a2a30e9e",
-      "src.ae1bf28ba97754"
+      "src.ae1bf28ba97754",
+      "src.d3c1520261103a"
     ],
-    "resolution": "Keep alternatives; no chosen production scale."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED 0.075 x 0.04 x 0.018 m, 0.12 kg."
   },
   {
     "id": "equipment.store-dimension",
@@ -128,9 +132,10 @@
     "description": "single_cartridge_dimensions: Distinct sources disagree on cartridge footprint.",
     "sourceIds": [
       "src.4c16f6a2a30e9e",
-      "src.ae1bf28ba97754"
+      "src.ae1bf28ba97754",
+      "src.d3c1520261103a"
     ],
-    "resolution": "Distinct sources disagree on cartridge footprint."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED dual 0.128 x 0.079 x 0.015 m (0.15 kg); standard cartridge 0.08 x 0.055 x 0.012 m."
   },
   {
     "id": "equipment.integrity-dongle-dimension",
@@ -141,9 +146,10 @@
     "description": "dimensions: Preserve both approximate design envelopes.",
     "sourceIds": [
       "src.4c16f6a2a30e9e",
-      "src.ae1bf28ba97754"
+      "src.ae1bf28ba97754",
+      "src.d3c1520261103a"
     ],
-    "resolution": "Preserve both approximate design envelopes."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED 0.052 x 0.018 x 0.008 m, 0.012 kg."
   },
   {
     "id": "equipment.writeblock-led-semantics",
@@ -180,9 +186,10 @@
     ],
     "description": "max_modules: If optional fifth module is equipped, slot rule needs explicit replacement/tradeoff.",
     "sourceIds": [
-      "src.0896e738b4e3c7"
+      "src.0896e738b4e3c7",
+      "src.d3c1520261103a"
     ],
-    "resolution": "If optional fifth module is equipped, slot rule needs explicit replacement/tradeoff."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §5): PROPOSED: the cap stays 4. The Isolation Sleeve is not a fifth module: when authorized it takes Module D, displacing the Integrity Dongle; the hardened deck does the integrity check in software."
   },
   {
     "id": "equipment.mesh-scale",
@@ -191,9 +198,10 @@
     "description": "units: Visual kit is proposed procedural art; no real-world size or canon approval inferred.",
     "sourceIds": [
       "src.cefae26004b782",
-      "src.ae1bf28ba97754"
+      "src.ae1bf28ba97754",
+      "src.d3c1520261103a"
     ],
-    "resolution": "Visual kit is proposed procedural art; no real-world size or canon approval inferred."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §4): PROPOSED: kit is sized in real metres and every GLB is normalized to its table size (uniform scale)."
   },
   {
     "id": "equipment.field-country-badges",
@@ -202,9 +210,10 @@
     "description": "mark_policy: New user direction permits country identity. Record as requested presentation change without silently rewriting old canon references or deriving ability from nationality.",
     "sourceIds": [
       "src.55be1602b18ec4",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
-    "resolution": "New user direction permits country identity. Record as requested presentation change without silently rewriting old canon references or deriving ability from nationality."
+    "resolution": "DECIDED 2026-11-03 (DECISIONS-2026-11-03.md §3): Same as identity.canon.country-patches: UI only, never on models; no stat from nationality."
   },
   {
     "id": "runtime.ammo-definitions",

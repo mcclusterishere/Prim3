@@ -273,7 +273,7 @@
     {
       "entityId": "runtime-action-dash",
       "name": "Dash",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Actions",
       "action_cost": 2,
@@ -337,7 +337,7 @@
     {
       "entityId": "runtime-action-end-turn",
       "name": "End turn",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Actions",
       "action_cost": "Unspecified",
@@ -401,7 +401,7 @@
     {
       "entityId": "runtime-action-extract",
       "name": "Extract squad",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Actions",
       "action_cost": 1,
@@ -449,7 +449,7 @@
     {
       "entityId": "runtime-action-fire",
       "name": "Fire",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Actions",
       "action_cost": 1,
@@ -593,7 +593,7 @@
     {
       "entityId": "runtime-action-hunker",
       "name": "Hunker",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Actions",
       "action_cost": 1,
@@ -641,7 +641,7 @@
     {
       "entityId": "runtime-action-hack",
       "name": "Link relay",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Actions",
       "action_cost": 1,
@@ -737,7 +737,7 @@
     {
       "entityId": "runtime-action-move",
       "name": "Move",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Actions",
       "action_cost": 1,
@@ -801,7 +801,7 @@
     {
       "entityId": "runtime-action-gate",
       "name": "Open service gate",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Actions",
       "action_cost": 1,
@@ -833,7 +833,7 @@
     {
       "entityId": "runtime-action-overwatch",
       "name": "Overwatch",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Actions",
       "action_cost": 1,
@@ -961,7 +961,7 @@
     {
       "entityId": "runtime-action-scan",
       "name": "Recon scan",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Actions",
       "action_cost": 1,
@@ -1009,7 +1009,7 @@
     {
       "entityId": "runtime-action-restart",
       "name": "Restart mission",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Actions",
       "action_cost": "Unspecified",
@@ -1105,7 +1105,7 @@
     {
       "entityId": "runtime-action-select",
       "name": "Select operative",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Actions",
       "action_cost": 0,
@@ -1361,7 +1361,7 @@
     {
       "entityId": "runtime-action-medkit",
       "name": "Use mission medkit",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Actions",
       "action_cost": 1,
@@ -2761,7 +2761,7 @@
     {
       "entityId": "runtime-learning-coordinate-distance",
       "name": "Coordinate distance practice",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Learning",
       "action_cost": 0,
@@ -6864,7 +6864,7 @@
     {
       "entityId": "runtime-learning-weighted-route",
       "name": "Route cost comparison",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Learning",
       "action_cost": "actual weighted route cost from engine",
@@ -8695,7 +8695,7 @@
     {
       "entityId": "runtime-mission-black-signal",
       "name": "Transit / Black Signal",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Missions",
       "action_cost": "Unspecified",
@@ -8712,7 +8712,7 @@
     {
       "entityId": "runtime-authoring-starter",
       "name": "Whitewater / Relay starter",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Missions",
       "action_cost": "Unspecified",
@@ -9128,7 +9128,7 @@
     {
       "entityId": "runtime-status-alerted",
       "name": "Alerted",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "States",
       "action_cost": "Unspecified",
@@ -9288,7 +9288,7 @@
     {
       "entityId": "runtime-status-dead",
       "name": "Downed",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "States",
       "action_cost": "Unspecified",
@@ -9320,7 +9320,7 @@
     {
       "entityId": "runtime-status-extracted",
       "name": "Extracted",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "States",
       "action_cost": "Unspecified",
@@ -9368,7 +9368,7 @@
     {
       "entityId": "runtime-status-hunkered",
       "name": "Hunkered",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "States",
       "action_cost": "Unspecified",
@@ -9496,7 +9496,7 @@
     {
       "entityId": "runtime-status-overwatch",
       "name": "Reaction reserved",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "States",
       "action_cost": "Unspecified",
@@ -9512,7 +9512,7 @@
     {
       "entityId": "runtime-status-markeduntil",
       "name": "Recon marked",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "States",
       "action_cost": "Unspecified",
@@ -10312,7 +10312,7 @@
     {
       "entityId": "runtime-rule-cover",
       "name": "Cover evaluation",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Systems",
       "action_cost": "Unspecified",
@@ -10426,7 +10426,7 @@
     {
       "entityId": "runtime-rule-enemy-ai",
       "name": "Defender behavior",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Systems",
       "action_cost": "Unspecified",
@@ -10634,7 +10634,7 @@
     {
       "entityId": "runtime-event-stream",
       "name": "Gameplay presentation events",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Systems",
       "action_cost": "Unspecified",
@@ -10667,7 +10667,7 @@
     {
       "entityId": "runtime-rule-navigation",
       "name": "Grid navigation",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Systems",
       "action_cost": true,
@@ -11100,7 +11100,7 @@
     {
       "entityId": "runtime-rule-combat",
       "name": "Prototype combat resolution",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Systems",
       "action_cost": 1,
@@ -11244,7 +11244,7 @@
     {
       "entityId": "runtime-rule-turns",
       "name": "Turn and AP rules",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Systems",
       "action_cost": "Unspecified",

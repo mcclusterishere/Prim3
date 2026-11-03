@@ -97,7 +97,7 @@
     {
       "entityId": "geometry.operator.e",
       "name": "E operator geometry",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "3D assets",
       "blocks_movement": "Unspecified",
@@ -136,7 +136,7 @@
       "cover": "Unspecified",
       "dimensions_bounds": "[-0.205,0,-0.163073]; [0.205,0.311129,0.163073]",
       "model_asset": "models/field-cyberdeck.glb",
-      "definition": "Open rugged field computer with an armored shell, mechanical-looking keyboard and restrained teal display.",
+      "definition": "Open rugged field computer with an armored shell, mechanical-looking keyboard and restrained lime (#8BD346) display accent.",
       "source_ids": [
         "src.cefae26004b782"
       ],
@@ -161,7 +161,7 @@
     {
       "entityId": "geometry.operator.guard",
       "name": "guard operator geometry",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "3D assets",
       "blocks_movement": "Unspecified",
@@ -257,7 +257,7 @@
     {
       "entityId": "geometry.operator.r",
       "name": "R operator geometry",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "3D assets",
       "blocks_movement": "Unspecified",
@@ -289,7 +289,7 @@
     {
       "entityId": "geometry.operator.sentry",
       "name": "sentry operator geometry",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "3D assets",
       "blocks_movement": "Unspecified",
@@ -337,7 +337,7 @@
     {
       "entityId": "geometry.operator.t",
       "name": "T operator geometry",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "3D assets",
       "blocks_movement": "Unspecified",
@@ -2160,7 +2160,7 @@
     {
       "entityId": "runtime-surface-asphalt",
       "name": "Asphalt",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2176,7 +2176,7 @@
     {
       "entityId": "material.environment.bark",
       "name": "bark",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2193,7 +2193,7 @@
     {
       "entityId": "runtime-surface-concrete",
       "name": "Concrete",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2209,7 +2209,7 @@
     {
       "entityId": "material.equipment.cyan",
       "name": "cyan",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2226,7 +2226,7 @@
     {
       "entityId": "material.environment.earth",
       "name": "earth",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2243,7 +2243,7 @@
     {
       "entityId": "material.equipment.edge",
       "name": "edge",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2260,7 +2260,7 @@
     {
       "entityId": "material.equipment.fabric",
       "name": "fabric",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2277,7 +2277,7 @@
     {
       "entityId": "runtime-surface-fabric",
       "name": "Fabric",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2293,7 +2293,7 @@
     {
       "entityId": "material.environment.glass",
       "name": "glass",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2310,7 +2310,7 @@
     {
       "entityId": "material.environment.grass",
       "name": "grass",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2327,7 +2327,7 @@
     {
       "entityId": "material.equipment.gunmetal",
       "name": "gunmetal",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2344,7 +2344,7 @@
     {
       "entityId": "material.environment.ivory",
       "name": "ivory",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2361,7 +2361,7 @@
     {
       "entityId": "material.equipment.ivory",
       "name": "ivory",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2378,7 +2378,7 @@
     {
       "entityId": "material.environment.leaf",
       "name": "leaf",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2395,7 +2395,7 @@
     {
       "entityId": "material.environment.leaflight",
       "name": "leaflight",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2412,7 +2412,7 @@
     {
       "entityId": "material.equipment.lens",
       "name": "lens",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2429,7 +2429,7 @@
     {
       "entityId": "runtime-surface-paver",
       "name": "Paver",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2445,7 +2445,7 @@
     {
       "entityId": "material.equipment.polymer",
       "name": "polymer",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2462,7 +2462,7 @@
     {
       "entityId": "material.environment.porcelain",
       "name": "porcelain",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2479,7 +2479,7 @@
     {
       "entityId": "material.equipment.red",
       "name": "red",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2496,7 +2496,7 @@
     {
       "entityId": "material.environment.ripple",
       "name": "ripple",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2513,7 +2513,7 @@
     {
       "entityId": "material.equipment.rubber",
       "name": "rubber",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2530,7 +2530,7 @@
     {
       "entityId": "material.equipment.screen",
       "name": "screen",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2547,7 +2547,7 @@
     {
       "entityId": "material.environment.seam",
       "name": "seam",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2564,7 +2564,7 @@
     {
       "entityId": "material.environment.signal",
       "name": "signal",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2581,7 +2581,7 @@
     {
       "entityId": "material.environment.soil",
       "name": "soil",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2598,7 +2598,7 @@
     {
       "entityId": "runtime-surface-steel",
       "name": "Steel",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2614,7 +2614,7 @@
     {
       "entityId": "material.environment.stone",
       "name": "stone",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2631,7 +2631,7 @@
     {
       "entityId": "material.environment.water",
       "name": "water",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2648,7 +2648,7 @@
     {
       "entityId": "runtime-surface-water",
       "name": "Water",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2664,7 +2664,7 @@
     {
       "entityId": "material.equipment.webbing",
       "name": "webbing",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2681,7 +2681,7 @@
     {
       "entityId": "material.environment.white",
       "name": "white",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "Materials",
       "blocks_movement": "Unspecified",
@@ -2698,7 +2698,7 @@
     {
       "entityId": "instance.black-signal.arrival-depot",
       "name": "arrival-depot",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2714,7 +2714,7 @@
     {
       "entityId": "instance.black-signal.barricade-a",
       "name": "barricade-a",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2730,7 +2730,7 @@
     {
       "entityId": "instance.black-signal.barricade-b",
       "name": "barricade-b",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2746,7 +2746,7 @@
     {
       "entityId": "instance.black-signal.barricade-c",
       "name": "barricade-c",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2762,7 +2762,7 @@
     {
       "entityId": "instance.black-signal.barricade-d",
       "name": "barricade-d",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2778,7 +2778,7 @@
     {
       "entityId": "instance.black-signal.barricade-e",
       "name": "barricade-e",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2794,7 +2794,7 @@
     {
       "entityId": "instance.black-signal.barricade-f",
       "name": "barricade-f",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2810,7 +2810,7 @@
     {
       "entityId": "instance.black-signal.canal",
       "name": "canal",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2826,7 +2826,7 @@
     {
       "entityId": "instance.black-signal.container-east",
       "name": "container-east",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2842,7 +2842,7 @@
     {
       "entityId": "instance.black-signal.container-north",
       "name": "container-north",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2858,7 +2858,7 @@
     {
       "entityId": "instance.black-signal.container-south",
       "name": "container-south",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2874,7 +2874,7 @@
     {
       "entityId": "instance.black-signal.container-west",
       "name": "container-west",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2890,7 +2890,7 @@
     {
       "entityId": "instance.black-signal.control-block",
       "name": "control-block",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2906,7 +2906,7 @@
     {
       "entityId": "instance.black-signal.control-stairs",
       "name": "control-stairs",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2922,7 +2922,7 @@
     {
       "entityId": "instance.black-signal.crate-1",
       "name": "crate-1",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2938,7 +2938,7 @@
     {
       "entityId": "instance.black-signal.crate-10",
       "name": "crate-10",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2954,7 +2954,7 @@
     {
       "entityId": "instance.black-signal.crate-2",
       "name": "crate-2",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2970,7 +2970,7 @@
     {
       "entityId": "instance.black-signal.crate-3",
       "name": "crate-3",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -2986,7 +2986,7 @@
     {
       "entityId": "instance.black-signal.crate-4",
       "name": "crate-4",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3002,7 +3002,7 @@
     {
       "entityId": "instance.black-signal.crate-5",
       "name": "crate-5",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3018,7 +3018,7 @@
     {
       "entityId": "instance.black-signal.crate-6",
       "name": "crate-6",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3034,7 +3034,7 @@
     {
       "entityId": "instance.black-signal.crate-7",
       "name": "crate-7",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3050,7 +3050,7 @@
     {
       "entityId": "instance.black-signal.crate-8",
       "name": "crate-8",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3066,7 +3066,7 @@
     {
       "entityId": "instance.black-signal.crate-9",
       "name": "crate-9",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3082,7 +3082,7 @@
     {
       "entityId": "instance.black-signal.east-service",
       "name": "east-service",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3098,7 +3098,7 @@
     {
       "entityId": "instance.black-signal.east-stairs",
       "name": "east-stairs",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3114,7 +3114,7 @@
     {
       "entityId": "instance.black-signal.east-terminal",
       "name": "east-terminal",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3130,7 +3130,7 @@
     {
       "entityId": "instance.black-signal.evac",
       "name": "evac",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3146,7 +3146,7 @@
     {
       "entityId": "instance.black-signal.fence-east",
       "name": "fence-east",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3162,7 +3162,7 @@
     {
       "entityId": "instance.black-signal.fence-west",
       "name": "fence-west",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3178,7 +3178,7 @@
     {
       "entityId": "instance.black-signal.ground-bridge-0",
       "name": "ground-bridge-0",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3194,7 +3194,7 @@
     {
       "entityId": "instance.black-signal.ground-bridge-1",
       "name": "ground-bridge-1",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3210,7 +3210,7 @@
     {
       "entityId": "instance.black-signal.ground-bridge-2",
       "name": "ground-bridge-2",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3226,7 +3226,7 @@
     {
       "entityId": "instance.black-signal.medkit",
       "name": "medkit",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3242,7 +3242,7 @@
     {
       "entityId": "instance.black-signal.north-stairs",
       "name": "north-stairs",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3258,7 +3258,7 @@
     {
       "entityId": "instance.black-signal.north-tower",
       "name": "north-tower",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3274,7 +3274,7 @@
     {
       "entityId": "instance.black-signal.relay",
       "name": "relay",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3290,7 +3290,7 @@
     {
       "entityId": "instance.black-signal.service-gate",
       "name": "service-gate",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3306,7 +3306,7 @@
     {
       "entityId": "instance.black-signal.skybridge",
       "name": "skybridge",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3322,7 +3322,7 @@
     {
       "entityId": "instance.black-signal.south-stairs",
       "name": "south-stairs",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3338,7 +3338,7 @@
     {
       "entityId": "instance.black-signal.south-warehouse",
       "name": "south-warehouse",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3354,7 +3354,7 @@
     {
       "entityId": "instance.black-signal.west-depot",
       "name": "west-depot",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3370,7 +3370,7 @@
     {
       "entityId": "instance.black-signal.west-stairs",
       "name": "west-stairs",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Mission instances",
       "blocks_movement": "Unspecified",
@@ -3386,7 +3386,7 @@
     {
       "entityId": "runtime-visual-operators",
       "name": "Articulated mannequin appearance",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Systems",
       "blocks_movement": "Unspecified",
@@ -3434,7 +3434,7 @@
     {
       "entityId": "runtime-authoring-level",
       "name": "Level Forge document",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Systems",
       "blocks_movement": "Unspecified",
@@ -3450,7 +3450,7 @@
     {
       "entityId": "runtime-authoring-object",
       "name": "Placed asset document",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Systems",
       "blocks_movement": "Unspecified",
@@ -3482,7 +3482,7 @@
     {
       "entityId": "runtime-authoring-connection",
       "name": "Traversal connection document",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Systems",
       "blocks_movement": "Unspecified",
@@ -3498,7 +3498,7 @@
     {
       "entityId": "runtime-authoring-spawn",
       "name": "Unit spawn document",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "Systems",
       "blocks_movement": "Unspecified",
@@ -3531,7 +3531,7 @@
     {
       "entityId": "asset.environment.ladder-8",
       "name": "Access ladder",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": false,
@@ -3548,7 +3548,7 @@
     {
       "entityId": "asset.environment.tree-8",
       "name": "Broadleaf tree",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": true,
@@ -3565,7 +3565,7 @@
     {
       "entityId": "asset.environment.bridge-16",
       "name": "Canal bridge",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": false,
@@ -3582,7 +3582,7 @@
     {
       "entityId": "asset.environment.water-tile-16",
       "name": "Canal water",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": true,
@@ -3599,7 +3599,7 @@
     {
       "entityId": "asset.environment.container-12",
       "name": "Cargo container",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": true,
@@ -3616,7 +3616,7 @@
     {
       "entityId": "asset.environment.concrete-tile-8",
       "name": "Concrete paving",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": false,
@@ -3633,7 +3633,7 @@
     {
       "entityId": "asset.environment.soil-tile-8",
       "name": "Exposed soil",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": false,
@@ -3650,7 +3650,7 @@
     {
       "entityId": "asset.environment.extraction-marker",
       "name": "Extraction zone",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": false,
@@ -3667,7 +3667,7 @@
     {
       "entityId": "asset.environment.high-cover-4",
       "name": "Full-height cover",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": true,
@@ -3684,7 +3684,7 @@
     {
       "entityId": "asset.environment.grass-tile-8",
       "name": "Grass patch",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": false,
@@ -3701,7 +3701,7 @@
     {
       "entityId": "asset.environment.low-barrier-4",
       "name": "Low barrier",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": true,
@@ -3718,7 +3718,7 @@
     {
       "entityId": "asset.environment.fence-8",
       "name": "Mesh fence",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": true,
@@ -3735,7 +3735,7 @@
     {
       "entityId": "asset.environment.rock-cluster",
       "name": "Natural rocks",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": true,
@@ -3752,7 +3752,7 @@
     {
       "entityId": "asset.environment.catwalk-8",
       "name": "Raised catwalk",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": false,
@@ -3769,7 +3769,7 @@
     {
       "entityId": "asset.environment.relay-terminal",
       "name": "Relay terminal",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": true,
@@ -3786,7 +3786,7 @@
     {
       "entityId": "asset.environment.hvac-3",
       "name": "Rooftop HVAC",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": true,
@@ -3803,7 +3803,7 @@
     {
       "entityId": "asset.environment.stairs-8",
       "name": "Rooftop stairs",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": false,
@@ -3820,7 +3820,7 @@
     {
       "entityId": "asset.environment.gate-8",
       "name": "Security gate",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": true,
@@ -3837,7 +3837,7 @@
     {
       "entityId": "asset.environment.wall-8",
       "name": "Security wall",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": true,
@@ -3854,7 +3854,7 @@
     {
       "entityId": "asset.environment.tower-8",
       "name": "Service tower",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": true,
@@ -3871,7 +3871,7 @@
     {
       "entityId": "asset.environment.spawn-marker",
       "name": "Squad spawn",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": false,
@@ -3888,7 +3888,7 @@
     {
       "entityId": "asset.environment.pipe-stack-6",
       "name": "Stacked pipes",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": true,
@@ -3905,7 +3905,7 @@
     {
       "entityId": "asset.environment.crate-2",
       "name": "Supply crate",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": true,
@@ -3922,7 +3922,7 @@
     {
       "entityId": "asset.environment.warehouse-16",
       "name": "Warehouse",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "asset_only",
       "category": "World assets",
       "blocks_movement": true,
@@ -3990,7 +3990,7 @@
     {
       "entityId": "grid.black-signal-cells",
       "name": "All grid cells and layers",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "World objects",
       "blocks_movement": "Unspecified",
@@ -4295,7 +4295,7 @@
     {
       "entityId": "runtime-world-type-building",
       "name": "Building",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "World objects",
       "blocks_movement": "Unspecified",
@@ -4381,7 +4381,7 @@
     {
       "entityId": "runtime-world-type-canal",
       "name": "Canal",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "World objects",
       "blocks_movement": "Unspecified",
@@ -4399,7 +4399,7 @@
     {
       "entityId": "runtime-world-type-ground-bridge",
       "name": "Canal bridge",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "World objects",
       "blocks_movement": "Unspecified",
@@ -4502,7 +4502,7 @@
     {
       "entityId": "runtime-world-type-container",
       "name": "Container",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "World objects",
       "blocks_movement": true,
@@ -4571,7 +4571,7 @@
     {
       "entityId": "runtime-world-type-crate",
       "name": "Crate",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "World objects",
       "blocks_movement": true,
@@ -4980,7 +4980,7 @@
     {
       "entityId": "runtime-world-type-evac",
       "name": "Extraction zone",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "World objects",
       "blocks_movement": false,
@@ -4998,7 +4998,7 @@
     {
       "entityId": "runtime-world-type-fence",
       "name": "Fence",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "World objects",
       "blocks_movement": true,
@@ -5237,7 +5237,7 @@
     {
       "entityId": "runtime-world-type-cover",
       "name": "Low barricade",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "World objects",
       "blocks_movement": true,
@@ -5272,7 +5272,7 @@
     {
       "entityId": "runtime-world-type-medkit",
       "name": "Medical case",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "World objects",
       "blocks_movement": false,
@@ -5545,7 +5545,7 @@
     {
       "entityId": "runtime-world-type-relay",
       "name": "Relay terminal",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "World objects",
       "blocks_movement": "Unspecified",
@@ -5750,7 +5750,7 @@
     {
       "entityId": "runtime-world-type-gate",
       "name": "Service gate",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "World objects",
       "blocks_movement": "Unspecified",
@@ -5802,7 +5802,7 @@
     {
       "entityId": "runtime-world-type-elevated-bridge",
       "name": "Skybridge",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "World objects",
       "blocks_movement": "Unspecified",
@@ -5888,7 +5888,7 @@
     {
       "entityId": "runtime-world-type-stairs",
       "name": "Stairs",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "World objects",
       "blocks_movement": "Unspecified",
@@ -6229,7 +6229,7 @@
     {
       "entityId": "geometry.world-components",
       "name": "World render components",
-      "status": "runtime",
+      "status": "reference",
       "implementation": "runtime",
       "category": "World objects",
       "blocks_movement": "Unspecified",

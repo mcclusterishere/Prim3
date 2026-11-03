@@ -31,6 +31,7 @@ engine default picked here where the owner did not set a value; tunable without 
 | unit `readyWeapon` | `main` or `sidearm`. Default: `main` if carried, else `sidearm`. Naming a weapon the unit does not carry is a config error. | chosen (default) |
 | `switchWeaponAp` | AP to switch weapons. Default **1**. | owner ("engine default 1 AP, held as data") |
 | `syncPulsePerMission` | Pulses per T per mission. Default **1**. | owner (once per mission at level 1) |
+| unit `syncPulsePerMission` | Per-unit pulse allowance; overrides the config value for that unit only. Absent = the config value. Set to **2** by the optional level-2 **Overclock** upgrade. `techActionPreview` for `SYNC_PULSE` reports `pulsesLeft`. | owner 2026-11-03 (`data/attributes/v1/DECISIONS-2026-11-03.md` §2) |
 
 State: `state.machines[i]` carries `state` (`ACTIVE` / `JAMMED` / `CONTROLLED`), `jammedUntilRound`,
 `jammedPhase`, `resumeState`, `controlledSinceRound`, `controlledBy`, `homeFaction`, `markedBy`
@@ -162,5 +163,5 @@ Status: `NETWORK_SILENCED`.
 
 ## Owner decisions after implementation (2026-11-02)
 
-- **Sync Pulse at level 2:** still once per mission by default. Extra pulses are an **optional level-2 upgrade**. The amount and cost will come from the owner's attribute matrix, which is being built separately; until then `syncPulsePerMission` (global) is the only knob. A per-unit override for the upgrade is the expected follow-up.
+- **Sync Pulse at level 2:** still once per mission by default. Extra pulses are an **optional level-2 upgrade**. Decided 2026-11-03 (`data/attributes/v1/DECISIONS-2026-11-03.md` §2): the upgrade is **Overclock**, +1 pulse (2 per mission), 1 upgrade point at the level-2 promotion, each pulse unchanged (1 AP, range 5, radius 3, own machines jammed). The engine carries it as the per-unit `syncPulsePerMission` override.
 - **Sync Pulse jams the squad's own machines** inside its area. Confirmed by the owner, now canon for this draft.

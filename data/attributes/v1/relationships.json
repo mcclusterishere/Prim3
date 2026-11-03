@@ -9064,5 +9064,29 @@
     "type": "visualized_by",
     "toId": "asset.equipment.e-compact-carbine",
     "note": "Existing proposed static prop; no runtime loadout binding."
+  },
+  {
+    "fromId": "upgrade.t.overclock",
+    "type": "applies_to_loadout",
+    "toId": "loadout.fo-t-live",
+    "note": "T loadouts that may carry it at level 2"
+  },
+  {
+    "fromId": "upgrade.t.overclock",
+    "type": "applies_to_loadout",
+    "toId": "loadout.fo-t-rapid",
+    "note": "T loadouts that may carry it at level 2"
+  },
+  {
+    "fromId": "upgrade.t.overclock",
+    "type": "applies_to_loadout",
+    "toId": "loadout.fo-t-forensic",
+    "note": "T loadouts that may carry it at level 2"
+  },
+  {
+    "fromId": "upgrade.t.overclock",
+    "type": "applies_to_loadout",
+    "toId": "loadout.fo-t-denied",
+    "note": "T loadouts that may carry it at level 2"
   }
 ]

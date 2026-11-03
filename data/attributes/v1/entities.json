@@ -11,10 +11,11 @@
       "E"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 26,
+    "attributeCount": 27,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -29,10 +30,11 @@
       "Shared"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 26,
+    "attributeCount": 27,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -47,10 +49,11 @@
       "E / R"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 26,
+    "attributeCount": 27,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -65,10 +68,11 @@
       "R"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 28,
+    "attributeCount": 29,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -83,10 +87,11 @@
       "E"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 30,
+    "attributeCount": 31,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -94,10 +99,12 @@
     "name": "E operator geometry",
     "kind": "component_collection",
     "category": "3D assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Procedural idle-pose parts, not selectable inventory items.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.052d4fbccf215d"
     ],
@@ -117,10 +124,11 @@
       "E"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 26,
+    "attributeCount": 27,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -130,15 +138,16 @@
     "category": "3D assets",
     "status": "proposed",
     "implementation": "asset_only",
-    "description": "Open rugged field computer with an armored shell, mechanical-looking keyboard and restrained teal display.",
+    "description": "Open rugged field computer with an armored shell, mechanical-looking keyboard and restrained lime (#8BD346) display accent.",
     "tags": [
       "T"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 30,
+    "attributeCount": 31,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -153,10 +162,11 @@
       "E / R"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 28,
+    "attributeCount": 29,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -164,10 +174,12 @@
     "name": "guard operator geometry",
     "kind": "component_collection",
     "category": "3D assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Procedural idle-pose parts, not selectable inventory items.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.052d4fbccf215d"
     ],
@@ -187,10 +199,11 @@
       "T"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 28,
+    "attributeCount": 29,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -205,10 +218,11 @@
       "E"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 26,
+    "attributeCount": 27,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -223,10 +237,11 @@
       "T"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 28,
+    "attributeCount": 29,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -241,10 +256,11 @@
       "R"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 26,
+    "attributeCount": 27,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -259,10 +275,11 @@
       "R"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 30,
+    "attributeCount": 31,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -270,10 +287,12 @@
     "name": "R operator geometry",
     "kind": "component_collection",
     "category": "3D assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Procedural idle-pose parts, not selectable inventory items.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.052d4fbccf215d"
     ],
@@ -293,10 +312,11 @@
       "Shared"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 26,
+    "attributeCount": 27,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -304,10 +324,12 @@
     "name": "sentry operator geometry",
     "kind": "component_collection",
     "category": "3D assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Procedural idle-pose parts, not selectable inventory items.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.052d4fbccf215d"
     ],
@@ -327,10 +349,11 @@
       "E/R/T"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 28,
+    "attributeCount": 29,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -345,10 +368,11 @@
       "T"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 26,
+    "attributeCount": 27,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -356,10 +380,12 @@
     "name": "T operator geometry",
     "kind": "component_collection",
     "category": "3D assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Procedural idle-pose parts, not selectable inventory items.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.052d4fbccf215d"
     ],
@@ -379,10 +405,11 @@
       "Shared"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 26,
+    "attributeCount": 27,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -397,10 +424,11 @@
       "T"
     ],
     "sourceIds": [
-      "src.cefae26004b782"
+      "src.cefae26004b782",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 30,
+    "attributeCount": 31,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -696,10 +724,12 @@
     "name": "Dash",
     "kind": "action",
     "category": "Actions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -766,10 +796,12 @@
     "name": "End turn",
     "kind": "action",
     "category": "Actions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -836,10 +868,12 @@
     "name": "Extract squad",
     "kind": "action",
     "category": "Actions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -888,10 +922,12 @@
     "name": "Fire",
     "kind": "action",
     "category": "Actions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -1048,10 +1084,12 @@
     "name": "Hunker",
     "kind": "action",
     "category": "Actions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -1100,10 +1138,12 @@
     "name": "Link relay",
     "kind": "action",
     "category": "Actions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -1206,10 +1246,12 @@
     "name": "Move",
     "kind": "action",
     "category": "Actions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -1276,10 +1318,12 @@
     "name": "Open service gate",
     "kind": "action",
     "category": "Actions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -1310,10 +1354,12 @@
     "name": "Overwatch",
     "kind": "action",
     "category": "Actions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -1452,10 +1498,12 @@
     "name": "Recon scan",
     "kind": "action",
     "category": "Actions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -1504,10 +1552,12 @@
     "name": "Restart mission",
     "kind": "action",
     "category": "Actions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -1610,10 +1660,12 @@
     "name": "Select operative",
     "kind": "action",
     "category": "Actions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -1896,10 +1948,12 @@
     "name": "Use mission medkit",
     "kind": "action",
     "category": "Actions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -2318,10 +2372,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2335,10 +2390,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2352,10 +2408,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2369,10 +2426,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2386,10 +2444,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2403,10 +2462,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2420,10 +2480,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2437,10 +2498,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2454,10 +2516,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2471,10 +2534,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2488,10 +2552,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2505,10 +2570,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2522,10 +2588,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2539,10 +2606,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2556,10 +2624,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2573,10 +2642,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2590,10 +2660,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2607,10 +2678,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2624,10 +2696,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2641,10 +2714,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2658,10 +2732,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2675,10 +2750,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2692,10 +2768,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2709,10 +2786,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2726,10 +2804,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2743,10 +2822,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2760,10 +2840,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2777,10 +2858,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2794,10 +2876,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2811,10 +2894,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2828,10 +2912,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2845,10 +2930,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2862,10 +2948,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2879,10 +2966,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2896,10 +2984,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2913,10 +3002,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2930,10 +3020,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2947,10 +3038,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2964,10 +3056,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2981,10 +3074,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -2998,10 +3092,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3015,10 +3110,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3032,10 +3128,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3049,10 +3146,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3066,10 +3164,11 @@
     "tags": [],
     "sourceIds": [
       "src.d7ff65c8186213",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3083,10 +3182,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3100,10 +3200,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3117,10 +3218,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3134,10 +3236,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3151,10 +3254,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3168,10 +3272,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3185,10 +3290,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3202,10 +3308,11 @@
     "tags": [],
     "sourceIds": [
       "src.fb84ca9f47470c",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3219,10 +3326,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3236,10 +3344,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3253,10 +3362,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3270,10 +3380,11 @@
     "tags": [],
     "sourceIds": [
       "src.fb84ca9f47470c",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3287,10 +3398,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3304,10 +3416,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3321,10 +3434,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3338,10 +3452,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3355,10 +3470,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3372,10 +3488,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3389,10 +3506,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3406,10 +3524,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3423,10 +3542,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3440,10 +3560,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3457,10 +3578,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3474,10 +3596,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3491,10 +3614,11 @@
     "tags": [],
     "sourceIds": [
       "src.2d99d24244c11e",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3508,10 +3632,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3525,10 +3650,11 @@
     "tags": [],
     "sourceIds": [
       "src.d97b916f70364d",
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 3,
+    "attributeCount": 5,
     "provenance": null
   },
   {
@@ -3582,12 +3708,13 @@
     ],
     "sourceIds": [
       "src.ae1bf28ba97754",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 18,
+    "attributeCount": 19,
     "provenance": null
   },
   {
@@ -3700,12 +3827,13 @@
     "tags": [],
     "sourceIds": [
       "src.9444e63b395b6e",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 19,
+    "attributeCount": 20,
     "provenance": null
   },
   {
@@ -3741,12 +3869,13 @@
     "sourceIds": [
       "src.4c16f6a2a30e9e",
       "src.9444e63b395b6e",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 21,
+    "attributeCount": 22,
     "provenance": null
   },
   {
@@ -3966,12 +4095,13 @@
     "tags": [],
     "sourceIds": [
       "src.cefae26004b782",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 15,
+    "attributeCount": 16,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -3985,12 +4115,13 @@
     "tags": [],
     "sourceIds": [
       "src.55be1602b18ec4",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 17,
+    "attributeCount": 18,
     "provenance": null
   },
   {
@@ -4027,12 +4158,13 @@
     ],
     "sourceIds": [
       "src.ae1bf28ba97754",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 18,
+    "attributeCount": 19,
     "provenance": null
   },
   {
@@ -4048,12 +4180,13 @@
     ],
     "sourceIds": [
       "src.ae1bf28ba97754",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 18,
+    "attributeCount": 19,
     "provenance": null
   },
   {
@@ -4187,12 +4320,13 @@
     "tags": [],
     "sourceIds": [
       "src.9444e63b395b6e",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 19,
+    "attributeCount": 20,
     "provenance": null
   },
   {
@@ -4228,12 +4362,13 @@
     "sourceIds": [
       "src.f0ca6bdc00322f",
       "src.ae1bf28ba97754",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 25,
+    "attributeCount": 26,
     "provenance": null
   },
   {
@@ -4253,12 +4388,13 @@
       "src.ae1bf28ba97754",
       "src.4c16f6a2a30e9e",
       "src.9444e63b395b6e",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 34,
+    "attributeCount": 35,
     "provenance": null
   },
   {
@@ -4278,12 +4414,13 @@
       "src.ae1bf28ba97754",
       "src.4c16f6a2a30e9e",
       "src.9444e63b395b6e",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 33,
+    "attributeCount": 34,
     "provenance": null
   },
   {
@@ -4303,12 +4440,13 @@
       "src.ae1bf28ba97754",
       "src.4c16f6a2a30e9e",
       "src.9444e63b395b6e",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 36,
+    "attributeCount": 37,
     "provenance": null
   },
   {
@@ -4350,12 +4488,13 @@
       "src.ae1bf28ba97754",
       "src.4c16f6a2a30e9e",
       "src.9444e63b395b6e",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 31,
+    "attributeCount": 32,
     "provenance": null
   },
   {
@@ -4369,12 +4508,13 @@
     "tags": [],
     "sourceIds": [
       "src.f0ca6bdc00322f",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 21,
+    "attributeCount": 22,
     "provenance": null
   },
   {
@@ -4391,12 +4531,13 @@
     "sourceIds": [
       "src.f0ca6bdc00322f",
       "src.ae1bf28ba97754",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 26,
+    "attributeCount": 27,
     "provenance": null
   },
   {
@@ -4410,12 +4551,13 @@
     "tags": [],
     "sourceIds": [
       "src.f0ca6bdc00322f",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 21,
+    "attributeCount": 22,
     "provenance": null
   },
   {
@@ -4432,12 +4574,13 @@
     "sourceIds": [
       "src.f0ca6bdc00322f",
       "src.4c16f6a2a30e9e",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 24,
+    "attributeCount": 25,
     "provenance": null
   },
   {
@@ -4454,12 +4597,13 @@
     "sourceIds": [
       "src.f0ca6bdc00322f",
       "src.ae1bf28ba97754",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 24,
+    "attributeCount": 25,
     "provenance": null
   },
   {
@@ -4476,12 +4620,13 @@
     "sourceIds": [
       "src.f0ca6bdc00322f",
       "src.ae1bf28ba97754",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 25,
+    "attributeCount": 26,
     "provenance": null
   },
   {
@@ -4498,12 +4643,13 @@
     "sourceIds": [
       "src.f0ca6bdc00322f",
       "src.ae1bf28ba97754",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 25,
+    "attributeCount": 26,
     "provenance": null
   },
   {
@@ -4523,12 +4669,13 @@
       "src.ae1bf28ba97754",
       "src.4c16f6a2a30e9e",
       "src.9444e63b395b6e",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 32,
+    "attributeCount": 33,
     "provenance": null
   },
   {
@@ -4545,12 +4692,13 @@
     "sourceIds": [
       "src.4c16f6a2a30e9e",
       "src.9444e63b395b6e",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 21,
+    "attributeCount": 22,
     "provenance": null
   },
   {
@@ -4567,12 +4715,13 @@
     "sourceIds": [
       "src.4c16f6a2a30e9e",
       "src.9444e63b395b6e",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 21,
+    "attributeCount": 22,
     "provenance": null
   },
   {
@@ -4643,12 +4792,13 @@
     "tags": [],
     "sourceIds": [
       "src.cefae26004b782",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 15,
+    "attributeCount": 16,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -4664,12 +4814,13 @@
     ],
     "sourceIds": [
       "src.ae1bf28ba97754",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 18,
+    "attributeCount": 19,
     "provenance": null
   },
   {
@@ -4891,12 +5042,13 @@
     ],
     "sourceIds": [
       "src.ae1bf28ba97754",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 18,
+    "attributeCount": 19,
     "provenance": null
   },
   {
@@ -4970,12 +5122,13 @@
     "sourceIds": [
       "src.4c16f6a2a30e9e",
       "src.9444e63b395b6e",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 21,
+    "attributeCount": 22,
     "provenance": null
   },
   {
@@ -5105,12 +5258,13 @@
     ],
     "sourceIds": [
       "src.ae1bf28ba97754",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 18,
+    "attributeCount": 19,
     "provenance": null
   },
   {
@@ -5127,12 +5281,13 @@
     "sourceIds": [
       "src.4c16f6a2a30e9e",
       "src.9444e63b395b6e",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 21,
+    "attributeCount": 22,
     "provenance": null
   },
   {
@@ -5146,12 +5301,13 @@
     "tags": [],
     "sourceIds": [
       "src.cefae26004b782",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 15,
+    "attributeCount": 16,
     "provenance": "Black Signal prototype asset (proposed)"
   },
   {
@@ -5185,10 +5341,11 @@
     "description": "Itemized technical loadout from the design repository.",
     "tags": [],
     "sourceIds": [
-      "src.0896e738b4e3c7"
+      "src.0896e738b4e3c7",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 2,
+    "attributeCount": 4,
     "provenance": null
   },
   {
@@ -5201,10 +5358,11 @@
     "description": "Itemized technical loadout from the design repository.",
     "tags": [],
     "sourceIds": [
-      "src.0896e738b4e3c7"
+      "src.0896e738b4e3c7",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 2,
+    "attributeCount": 3,
     "provenance": null
   },
   {
@@ -5217,10 +5375,11 @@
     "description": "Itemized technical loadout from the design repository.",
     "tags": [],
     "sourceIds": [
-      "src.0896e738b4e3c7"
+      "src.0896e738b4e3c7",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 2,
+    "attributeCount": 3,
     "provenance": null
   },
   {
@@ -5233,10 +5392,11 @@
     "description": "Itemized technical loadout from the design repository.",
     "tags": [],
     "sourceIds": [
-      "src.0896e738b4e3c7"
+      "src.0896e738b4e3c7",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 2,
+    "attributeCount": 3,
     "provenance": null
   },
   {
@@ -5285,12 +5445,13 @@
     "tags": [],
     "sourceIds": [
       "src.47b86fcb80454f",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 17,
+    "attributeCount": 18,
     "provenance": null
   },
   {
@@ -5304,12 +5465,13 @@
     "tags": [],
     "sourceIds": [
       "src.55be1602b18ec4",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document."
     ],
-    "attributeCount": 17,
+    "attributeCount": 18,
     "provenance": null
   },
   {
@@ -5352,10 +5514,12 @@
     "name": "Defenders",
     "kind": "team",
     "category": "Factions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "THREAT is a runtime team label, not an approved fictional organization.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -5416,10 +5580,12 @@
     "name": "Player squad",
     "kind": "team",
     "category": "Factions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "PLAYER is a runtime team label, not an approved fictional organization.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -6878,10 +7044,12 @@
     "name": "Coordinate distance practice",
     "kind": "learning",
     "category": "Learning",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.18d5e7612498c6"
     ],
@@ -11361,10 +11529,12 @@
     "name": "Route cost comparison",
     "kind": "learning",
     "category": "Learning",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.18d5e7612498c6",
       "src.2f93245179f785"
@@ -13274,10 +13444,12 @@
     "name": "Asphalt",
     "kind": "surface_material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Material parameters affect appearance only.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.60c232c8b9b317"
     ],
@@ -13290,10 +13462,12 @@
     "name": "bark",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no physical hardness or destructibility implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.7e425985e48ebd",
       "src.2dafcebfcb927b"
@@ -13307,10 +13481,12 @@
     "name": "Concrete",
     "kind": "surface_material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Material parameters affect appearance only.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.60c232c8b9b317"
     ],
@@ -13323,10 +13499,12 @@
     "name": "cyan",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no hardness, armor or penetration implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.cefae26004b782",
       "src.2dafcebfcb927b"
@@ -13340,10 +13518,12 @@
     "name": "earth",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no physical hardness or destructibility implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.7e425985e48ebd",
       "src.2dafcebfcb927b"
@@ -13357,10 +13537,12 @@
     "name": "edge",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no hardness, armor or penetration implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.cefae26004b782",
       "src.2dafcebfcb927b"
@@ -13374,10 +13556,12 @@
     "name": "fabric",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no hardness, armor or penetration implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.cefae26004b782",
       "src.2dafcebfcb927b"
@@ -13391,10 +13575,12 @@
     "name": "Fabric",
     "kind": "surface_material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Material parameters affect appearance only.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.60c232c8b9b317"
     ],
@@ -13407,10 +13593,12 @@
     "name": "glass",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no physical hardness or destructibility implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.7e425985e48ebd",
       "src.2dafcebfcb927b"
@@ -13424,10 +13612,12 @@
     "name": "grass",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no physical hardness or destructibility implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.7e425985e48ebd",
       "src.2dafcebfcb927b"
@@ -13441,10 +13631,12 @@
     "name": "gunmetal",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no hardness, armor or penetration implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.cefae26004b782",
       "src.2dafcebfcb927b"
@@ -13458,10 +13650,12 @@
     "name": "ivory",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no physical hardness or destructibility implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.7e425985e48ebd",
       "src.2dafcebfcb927b"
@@ -13475,10 +13669,12 @@
     "name": "ivory",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no hardness, armor or penetration implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.cefae26004b782",
       "src.2dafcebfcb927b"
@@ -13492,10 +13688,12 @@
     "name": "leaf",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no physical hardness or destructibility implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.7e425985e48ebd",
       "src.2dafcebfcb927b"
@@ -13509,10 +13707,12 @@
     "name": "leaflight",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no physical hardness or destructibility implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.7e425985e48ebd",
       "src.2dafcebfcb927b"
@@ -13526,10 +13726,12 @@
     "name": "lens",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no hardness, armor or penetration implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.cefae26004b782",
       "src.2dafcebfcb927b"
@@ -13543,10 +13745,12 @@
     "name": "Paver",
     "kind": "surface_material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Material parameters affect appearance only.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.60c232c8b9b317"
     ],
@@ -13559,10 +13763,12 @@
     "name": "polymer",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no hardness, armor or penetration implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.cefae26004b782",
       "src.2dafcebfcb927b"
@@ -13576,10 +13782,12 @@
     "name": "porcelain",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no physical hardness or destructibility implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.7e425985e48ebd",
       "src.2dafcebfcb927b"
@@ -13593,10 +13801,12 @@
     "name": "red",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no hardness, armor or penetration implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.cefae26004b782",
       "src.2dafcebfcb927b"
@@ -13610,10 +13820,12 @@
     "name": "ripple",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no physical hardness or destructibility implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.7e425985e48ebd",
       "src.2dafcebfcb927b"
@@ -13627,10 +13839,12 @@
     "name": "rubber",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no hardness, armor or penetration implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.cefae26004b782",
       "src.2dafcebfcb927b"
@@ -13644,10 +13858,12 @@
     "name": "screen",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no hardness, armor or penetration implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.cefae26004b782",
       "src.2dafcebfcb927b"
@@ -13661,10 +13877,12 @@
     "name": "seam",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no physical hardness or destructibility implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.7e425985e48ebd",
       "src.2dafcebfcb927b"
@@ -13678,10 +13896,12 @@
     "name": "signal",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no physical hardness or destructibility implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.7e425985e48ebd",
       "src.2dafcebfcb927b"
@@ -13695,10 +13915,12 @@
     "name": "soil",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no physical hardness or destructibility implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.7e425985e48ebd",
       "src.2dafcebfcb927b"
@@ -13712,10 +13934,12 @@
     "name": "Steel",
     "kind": "surface_material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Material parameters affect appearance only.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.60c232c8b9b317"
     ],
@@ -13728,10 +13952,12 @@
     "name": "stone",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no physical hardness or destructibility implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.7e425985e48ebd",
       "src.2dafcebfcb927b"
@@ -13745,10 +13971,12 @@
     "name": "water",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no physical hardness or destructibility implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.7e425985e48ebd",
       "src.2dafcebfcb927b"
@@ -13762,10 +13990,12 @@
     "name": "Water",
     "kind": "surface_material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Material parameters affect appearance only.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.60c232c8b9b317"
     ],
@@ -13778,10 +14008,12 @@
     "name": "webbing",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no hardness, armor or penetration implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.cefae26004b782",
       "src.2dafcebfcb927b"
@@ -13795,10 +14027,12 @@
     "name": "white",
     "kind": "material",
     "category": "Materials",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "rendering only; no physical hardness or destructibility implied",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.7e425985e48ebd",
       "src.2dafcebfcb927b"
@@ -13812,10 +14046,12 @@
     "name": "Arjun",
     "kind": "unit_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -13830,10 +14066,12 @@
     "name": "arrival-depot",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -13846,10 +14084,12 @@
     "name": "Aya",
     "kind": "unit_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -13864,10 +14104,12 @@
     "name": "barricade-a",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -13880,10 +14122,12 @@
     "name": "barricade-b",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -13896,10 +14140,12 @@
     "name": "barricade-c",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -13912,10 +14158,12 @@
     "name": "barricade-d",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -13928,10 +14176,12 @@
     "name": "barricade-e",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -13944,10 +14194,12 @@
     "name": "barricade-f",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -13960,10 +14212,12 @@
     "name": "canal",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -13976,10 +14230,12 @@
     "name": "container-east",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -13992,10 +14248,12 @@
     "name": "container-north",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14008,10 +14266,12 @@
     "name": "container-south",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14024,10 +14284,12 @@
     "name": "container-west",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14040,10 +14302,12 @@
     "name": "control-block",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14056,10 +14320,12 @@
     "name": "control-stairs",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14072,10 +14338,12 @@
     "name": "crate-1",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14088,10 +14356,12 @@
     "name": "crate-10",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14104,10 +14374,12 @@
     "name": "crate-2",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14120,10 +14392,12 @@
     "name": "crate-3",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14136,10 +14410,12 @@
     "name": "crate-4",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14152,10 +14428,12 @@
     "name": "crate-5",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14168,10 +14446,12 @@
     "name": "crate-6",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14184,10 +14464,12 @@
     "name": "crate-7",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14200,10 +14482,12 @@
     "name": "crate-8",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14216,10 +14500,12 @@
     "name": "crate-9",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14232,10 +14518,12 @@
     "name": "east-service",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14248,10 +14536,12 @@
     "name": "east-stairs",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14264,10 +14554,12 @@
     "name": "east-terminal",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14280,10 +14572,12 @@
     "name": "evac",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14296,10 +14590,12 @@
     "name": "fence-east",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14312,10 +14608,12 @@
     "name": "fence-west",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14328,10 +14626,12 @@
     "name": "ground-bridge-0",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14344,10 +14644,12 @@
     "name": "ground-bridge-1",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14360,10 +14662,12 @@
     "name": "ground-bridge-2",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14376,10 +14680,12 @@
     "name": "medkit",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14392,10 +14698,12 @@
     "name": "north-stairs",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14408,10 +14716,12 @@
     "name": "north-tower",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14424,10 +14734,12 @@
     "name": "Patrol 1",
     "kind": "unit_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -14442,10 +14754,12 @@
     "name": "Patrol 2",
     "kind": "unit_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -14460,10 +14774,12 @@
     "name": "Patrol 3",
     "kind": "unit_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -14478,10 +14794,12 @@
     "name": "Rafael",
     "kind": "unit_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -14496,10 +14814,12 @@
     "name": "relay",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14512,10 +14832,12 @@
     "name": "Relay guard",
     "kind": "unit_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -14530,10 +14852,12 @@
     "name": "Roof sentry",
     "kind": "unit_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -14548,10 +14872,12 @@
     "name": "Roof sentry",
     "kind": "unit_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -14566,10 +14892,12 @@
     "name": "service-gate",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14582,10 +14910,12 @@
     "name": "skybridge",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14598,10 +14928,12 @@
     "name": "south-stairs",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14614,10 +14946,12 @@
     "name": "south-warehouse",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14630,10 +14964,12 @@
     "name": "west-depot",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14646,10 +14982,12 @@
     "name": "west-stairs",
     "kind": "world_instance",
     "category": "Mission instances",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Initial mission state; dynamic changes belong in saved game state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -14742,10 +15080,12 @@
     "name": "Transit / Black Signal",
     "kind": "mission",
     "category": "Missions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65",
       "src.2f93245179f785"
@@ -14759,10 +15099,12 @@
     "name": "Whitewater / Relay starter",
     "kind": "mission_template",
     "category": "Missions",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Starter instance IDs are generated UUIDs. Positions and content are deterministic; IDs are not stable across new starter documents.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.fa4eb27502863e"
     ],
@@ -15159,10 +15501,12 @@
     "name": "Entry",
     "kind": "unit_role",
     "category": "Operators",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Custom-level template values. Default mission H3 and H6 override guard values. Weapon attributes are currently on the unit; there is no equipped weapon instance or ammunition record.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785",
       "src.2dafcebfcb927b"
@@ -15182,10 +15526,12 @@
     "name": "Guard",
     "kind": "unit_role",
     "category": "Operators",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Custom-level template values. Default mission H3 and H6 override guard values. Weapon attributes are currently on the unit; there is no equipped weapon instance or ammunition record.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785",
       "src.2dafcebfcb927b"
@@ -15205,10 +15551,12 @@
     "name": "Recon",
     "kind": "unit_role",
     "category": "Operators",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Custom-level template values. Default mission H3 and H6 override guard values. Weapon attributes are currently on the unit; there is no equipped weapon instance or ammunition record.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785",
       "src.2dafcebfcb927b"
@@ -15228,10 +15576,12 @@
     "name": "Sentry",
     "kind": "unit_role",
     "category": "Operators",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Custom-level template values. Default mission H3 and H6 override guard values. Weapon attributes are currently on the unit; there is no equipped weapon instance or ammunition record.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785",
       "src.2dafcebfcb927b"
@@ -15251,10 +15601,12 @@
     "name": "Technical",
     "kind": "unit_role",
     "category": "Operators",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Custom-level template values. Default mission H3 and H6 override guard values. Weapon attributes are currently on the unit; there is no equipped weapon instance or ammunition record.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785",
       "src.2dafcebfcb927b"
@@ -18333,10 +18685,12 @@
     "name": "Alerted",
     "kind": "status",
     "category": "States",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -18493,10 +18847,12 @@
     "name": "Downed",
     "kind": "status",
     "category": "States",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -18525,10 +18881,12 @@
     "name": "Extracted",
     "kind": "status",
     "category": "States",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -18573,10 +18931,12 @@
     "name": "Hunkered",
     "kind": "status",
     "category": "States",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -18701,10 +19061,12 @@
     "name": "Reaction reserved",
     "kind": "status",
     "category": "States",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -18717,10 +19079,12 @@
     "name": "Recon marked",
     "kind": "status",
     "category": "States",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -19373,10 +19737,12 @@
     "name": "Articulated mannequin appearance",
     "kind": "visual_profile",
     "category": "Systems",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "The measurements are authored geometry dimensions in artistic game units. They are not biological traits or approved canon dimensions.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.052d4fbccf215d"
     ],
@@ -19455,13 +19821,14 @@
     "category": "Systems",
     "status": "proposed",
     "implementation": "design_only",
-    "description": "Shared featureless black mannequin appearance with role kit and optional nationality badge.",
+    "description": "Shared featureless black mannequin appearance with role kit; the country badge is an on-screen chip only, never on the model.",
     "tags": [],
     "sourceIds": [
-      "src.7f23e715da05d1"
+      "src.7f23e715da05d1",
+      "src.d3c1520261103a"
     ],
     "gaps": [],
-    "attributeCount": 6,
+    "attributeCount": 9,
     "provenance": null
   },
   {
@@ -19549,10 +19916,12 @@
     "name": "Cover evaluation",
     "kind": "rule",
     "category": "Systems",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "The default map returns cover 1 beside every boxes entry, including crates and containers. Custom Level Forge levels distinguish full cover.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65",
       "src.2f93245179f785",
@@ -19663,10 +20032,12 @@
     "name": "Defender behavior",
     "kind": "rule",
     "category": "Systems",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -19887,10 +20258,12 @@
     "name": "Gameplay presentation events",
     "kind": "event_schema",
     "category": "Systems",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "The renderer consumes completed engine events; animation timing does not alter the resolved state.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785",
       "src.ae2c5f030374d5"
@@ -19920,10 +20293,12 @@
     "name": "Grid navigation",
     "kind": "rule",
     "category": "Systems",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65",
       "src.2f93245179f785"
@@ -20257,10 +20632,12 @@
     "name": "Level Forge document",
     "kind": "authoring_schema",
     "category": "Systems",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.fa4eb27502863e"
     ],
@@ -20305,10 +20682,12 @@
     "name": "Placed asset document",
     "kind": "authoring_schema",
     "category": "Systems",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.fa4eb27502863e"
     ],
@@ -20385,10 +20764,12 @@
     "name": "Prototype combat resolution",
     "kind": "rule",
     "category": "Systems",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "These are authored game balance coefficients, not physical ammunition or targeting data.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -20545,10 +20926,12 @@
     "name": "Traversal connection document",
     "kind": "authoring_schema",
     "category": "Systems",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.fa4eb27502863e"
     ],
@@ -20561,10 +20944,12 @@
     "name": "Turn and AP rules",
     "kind": "rule",
     "category": "Systems",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.2f93245179f785"
     ],
@@ -20593,10 +20978,12 @@
     "name": "Unit spawn document",
     "kind": "authoring_schema",
     "category": "Systems",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.fa4eb27502863e",
       "src.2f93245179f785"
@@ -20632,13 +21019,14 @@
     "tags": [],
     "sourceIds": [
       "src.9444e63b395b6e",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document.",
       "Magazine, ammunition compatibility and item-owned combat values need an approved design plus engine integration."
     ],
-    "attributeCount": 35,
+    "attributeCount": 36,
     "provenance": null
   },
   {
@@ -20655,13 +21043,14 @@
     "sourceIds": [
       "src.ae1bf28ba97754",
       "src.9444e63b395b6e",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document.",
       "Magazine, ammunition compatibility and item-owned combat values need an approved design plus engine integration."
     ],
-    "attributeCount": 38,
+    "attributeCount": 39,
     "provenance": null
   },
   {
@@ -20675,13 +21064,14 @@
     "tags": [],
     "sourceIds": [
       "src.9444e63b395b6e",
-      "src.2dafcebfcb927b"
+      "src.2dafcebfcb927b",
+      "src.d3c1520261103a"
     ],
     "gaps": [
       "Runtime per-item combat/interaction binding is not established by a physical design document.",
       "Magazine, ammunition compatibility and item-owned combat values need an approved design plus engine integration."
     ],
-    "attributeCount": 35,
+    "attributeCount": 36,
     "provenance": null
   },
   {
@@ -20689,11 +21079,12 @@
     "name": "Access ladder",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Eight-unit wall ladder with twenty rungs and mounting brackets.",
     "tags": [
-      "Traversal"
+      "Traversal",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -20708,11 +21099,12 @@
     "name": "Broadleaf tree",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Natural brown trunk and branches with green faceted canopy.",
     "tags": [
-      "Nature"
+      "Nature",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -20727,11 +21119,12 @@
     "name": "Canal bridge",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Sixteen-unit bridge deck with posts and two guardrails.",
     "tags": [
-      "Traversal"
+      "Traversal",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -20746,11 +21139,12 @@
     "name": "Canal water",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Blue-green water segment with subtle ripple geometry.",
     "tags": [
-      "Terrain"
+      "Terrain",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -20765,11 +21159,12 @@
     "name": "Cargo container",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "White corrugated container with frame rails and end-door hardware.",
     "tags": [
-      "Structures"
+      "Structures",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -20784,11 +21179,12 @@
     "name": "Concrete paving",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Eight-unit white concrete module with expansion joints.",
     "tags": [
-      "Terrain"
+      "Terrain",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -20803,11 +21199,12 @@
     "name": "Exposed soil",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Natural brown earth with scattered low stones.",
     "tags": [
-      "Terrain"
+      "Terrain",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -20822,11 +21219,12 @@
     "name": "Extraction zone",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "White double-ring authoring marker; gameplay extraction is metadata.",
     "tags": [
-      "Markers"
+      "Markers",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -20841,11 +21239,12 @@
     "name": "Full-height cover",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Standing cover panel with broad stabilizing feet.",
     "tags": [
-      "Cover"
+      "Cover",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -20860,11 +21259,12 @@
     "name": "Grass patch",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Natural green ground cover and short grass tufts.",
     "tags": [
-      "Terrain"
+      "Terrain",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -20879,11 +21279,12 @@
     "name": "Low barrier",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "White concrete waist-high barrier with reinforced feet.",
     "tags": [
-      "Cover"
+      "Cover",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -20898,11 +21299,12 @@
     "name": "Mesh fence",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Eight-unit security fence with fine geometric mesh.",
     "tags": [
-      "Structures"
+      "Structures",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -20917,11 +21319,12 @@
     "name": "Natural rocks",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Three irregular low stone forms for natural terrain cover.",
     "tags": [
-      "Nature"
+      "Nature",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -20936,11 +21339,12 @@
     "name": "Raised catwalk",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Eight-unit raised deck at Y 4 with supports and white rails.",
     "tags": [
-      "Traversal"
+      "Traversal",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -20955,11 +21359,12 @@
     "name": "Relay terminal",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "White relay cabinet with display, antenna and signal light.",
     "tags": [
-      "Objectives"
+      "Objectives",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -20974,11 +21379,12 @@
     "name": "Rooftop HVAC",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Twin-fan equipment cabinet with vent slats.",
     "tags": [
-      "Props"
+      "Props",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -20993,11 +21399,12 @@
     "name": "Rooftop stairs",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Sixteen steps rise eight units with sloped handrails; access from -Z to +Z.",
     "tags": [
-      "Traversal"
+      "Traversal",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -21012,11 +21419,12 @@
     "name": "Security gate",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Eight-unit barred gate with structural frame and central latch.",
     "tags": [
-      "Structures"
+      "Structures",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -21031,11 +21439,12 @@
     "name": "Security wall",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Eight-unit solid wall with supports and capped top.",
     "tags": [
-      "Structures"
+      "Structures",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -21050,11 +21459,12 @@
     "name": "Service tower",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Twelve-unit white tower with three window rows and a roof parapet.",
     "tags": [
-      "Structures"
+      "Structures",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -21069,11 +21479,12 @@
     "name": "Squad spawn",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "White in-world authoring marker; gameplay spawn is metadata.",
     "tags": [
-      "Markers"
+      "Markers",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -21088,11 +21499,12 @@
     "name": "Stacked pipes",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Five white utility pipes resting on white support blocks.",
     "tags": [
-      "Cover"
+      "Cover",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -21107,11 +21519,12 @@
     "name": "Supply crate",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "Compact reinforced white supply crate.",
     "tags": [
-      "Cover"
+      "Cover",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -21126,11 +21539,12 @@
     "name": "Warehouse",
     "kind": "environment_asset",
     "category": "World assets",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "asset_only",
     "description": "White modular warehouse with panel seams, loading door, windows, parapet, vent and rooftop HVAC.",
     "tags": [
-      "Structures"
+      "Structures",
+      "black-signal-reference"
     ],
     "sourceIds": [
       "src.82e63b75ca88dd",
@@ -21196,10 +21610,12 @@
     "name": "All grid cells and layers",
     "kind": "cell_collection",
     "category": "World objects",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "All 16,384 coordinate cells and 32,768 ground/roof slots. Occupancy remains a separate unit overlay.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65"
     ],
@@ -21501,10 +21917,12 @@
     "name": "Building",
     "kind": "world_object_type",
     "category": "World objects",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Default mission definition. These records are separate from White Industrial GLB asset definitions.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65",
       "src.2f93245179f785",
@@ -21587,10 +22005,12 @@
     "name": "Canal",
     "kind": "world_object_type",
     "category": "World objects",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Default mission definition. These records are separate from White Industrial GLB asset definitions.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65",
       "src.2f93245179f785",
@@ -21605,10 +22025,12 @@
     "name": "Canal bridge",
     "kind": "world_object_type",
     "category": "World objects",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Default mission definition. These records are separate from White Industrial GLB asset definitions.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65",
       "src.2f93245179f785",
@@ -21708,10 +22130,12 @@
     "name": "Container",
     "kind": "world_object_type",
     "category": "World objects",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Default mission definition. These records are separate from White Industrial GLB asset definitions.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65",
       "src.2f93245179f785",
@@ -21777,10 +22201,12 @@
     "name": "Crate",
     "kind": "world_object_type",
     "category": "World objects",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Default mission definition. These records are separate from White Industrial GLB asset definitions.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65",
       "src.2f93245179f785",
@@ -22186,10 +22612,12 @@
     "name": "Extraction zone",
     "kind": "world_object_type",
     "category": "World objects",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Default mission definition. These records are separate from White Industrial GLB asset definitions.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65",
       "src.2f93245179f785",
@@ -22204,10 +22632,12 @@
     "name": "Fence",
     "kind": "world_object_type",
     "category": "World objects",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Default mission definition. These records are separate from White Industrial GLB asset definitions.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65",
       "src.2f93245179f785",
@@ -22443,10 +22873,12 @@
     "name": "Low barricade",
     "kind": "world_object_type",
     "category": "World objects",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Default mission definition. These records are separate from White Industrial GLB asset definitions.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65",
       "src.2f93245179f785",
@@ -22478,10 +22910,12 @@
     "name": "Medical case",
     "kind": "world_object_type",
     "category": "World objects",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Default mission definition. These records are separate from White Industrial GLB asset definitions.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65",
       "src.2f93245179f785",
@@ -22751,10 +23185,12 @@
     "name": "Relay terminal",
     "kind": "world_object_type",
     "category": "World objects",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Default mission definition. These records are separate from White Industrial GLB asset definitions.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65",
       "src.2f93245179f785",
@@ -22956,10 +23392,12 @@
     "name": "Service gate",
     "kind": "world_object_type",
     "category": "World objects",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Default mission definition. These records are separate from White Industrial GLB asset definitions.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65",
       "src.2f93245179f785",
@@ -23008,10 +23446,12 @@
     "name": "Skybridge",
     "kind": "world_object_type",
     "category": "World objects",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Default mission definition. These records are separate from White Industrial GLB asset definitions.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65",
       "src.2f93245179f785",
@@ -23094,10 +23534,12 @@
     "name": "Stairs",
     "kind": "world_object_type",
     "category": "World objects",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Default mission definition. These records are separate from White Industrial GLB asset definitions.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.5a247cfcc6dc65",
       "src.2f93245179f785",
@@ -23435,15 +23877,38 @@
     "name": "World render components",
     "kind": "component_collection",
     "category": "World objects",
-    "status": "runtime",
+    "status": "reference",
     "implementation": "runtime",
     "description": "Every procedural visual part, including windows, frames and lamps. These parts have no independent hit points or collision.",
-    "tags": [],
+    "tags": [
+      "black-signal-reference"
+    ],
     "sourceIds": [
       "src.ae2c5f030374d5"
     ],
     "gaps": [],
     "attributeCount": 3,
     "provenance": "Black Signal prototype runtime"
+  },
+  {
+    "id": "upgrade.t.overclock",
+    "name": "Overclock",
+    "kind": "upgrade",
+    "category": "Systems",
+    "status": "canon",
+    "implementation": "design_only",
+    "description": "Optional level-2 T upgrade: one extra Sync Pulse per mission (2 in all). Each pulse is unchanged and still jams the squad's own machines.",
+    "tags": [
+      "T",
+      "level-2",
+      "sync-pulse",
+      "owner-2026-11-03"
+    ],
+    "sourceIds": [
+      "src.d3c1520261103a"
+    ],
+    "gaps": [],
+    "attributeCount": 12,
+    "provenance": null
   }
 ]
