@@ -23,7 +23,7 @@ This document does three things. It merges three storylines that grew up apart i
 |---|---|---|---|
 | 2026-11-02 | "Sign off on the proposal. I agree with the one storyline. I agree with the first three missions. ERT. Yes. And they should be solo missions." | §1 (the one-storyline spine) and §2 (the first three missions: Benji, Aya, Hana; E, R, T; solo) | **OWNER-APPROVED 2026-11-02** |
 | 2026-11-02 | "When I say characters, I do mean like the types, but also the names … this is the name of the character, this is where they're from, this is the type of character they are … different backstories." | The character cards in §2.3 | **OWNER-APPROVED 2026-11-02** (as part of §2) |
-| 2026-11-02 | "The mission should start mid professional shoot and under concealment, low key … Unless it's an emergency mission. All storyline missions are planned." | The opening rule in §3.1 | **OWNER DIRECTION 2026-11-02** (the rule); its application to E05, E06 and E16 is PROPOSED (§3.6) |
+| 2026-11-02 | "The mission should start mid professional shoot and under concealment, low key … Unless it's an emergency mission. All storyline missions are planned." | The opening rule in §3.1 | **OWNER DIRECTION 2026-11-02**; E05, E06 and E16 stay emergencies (owner, 2026-11-03; §3.6) |
 | 2026-11-02 | "the first three character types that get developed are the first three missions"; "the first three characters who have the most lore about them, like possibly Royce for America, fucking Hannah, and somebody else … who has the most lore behind them." | The reading of "first three" as Benji, Hana, Aya (§2.1) | **OWNER-APPROVED 2026-11-02** |
 | 2026-11-02 | "we need to clean that internship that's secretly an exam type shit." | Removal of the internship/Apex-exam version (already applied on this branch; §1.4) | **APPLIED** |
 
@@ -34,6 +34,7 @@ This document does three things. It merges three storylines that grew up apart i
 | 1 | Ghost is McCluster's "ghost mode": "he's been ghosted from the view of everyone … under the radar." | **RESOLVED** | `CANON.md` §9; §4.4 |
 | 2 | "Rename Royce Benjamin Chase … Benji is low-key McCluster's evil twin … a clone of McCluster … dubbed Hitman Benji after he takes over the organization." | **RESOLVED** | 84 files; `story/BENJI-CHASE-JANUS-ORIGIN-CANON.md`; §2.3, §4.4 |
 | 3 | "The retaliation he did was all him." McCluster's Hitman-era deeds stay his. | **RESOLVED** (no change needed) | `CANON.md` §9 |
+| 4 | "All storyline missions are planned" applies except to real emergencies; E05, E06 and E16 stay emergencies. | **RESOLVED** | §3.1, §3.6, §5 |
 
 **Promotion to canon.** Under `AGENTS.md` "Change control", the approved sections still enter canon through a pull request that states existing canon, replacement, reason, downstream files and owner approval. Each approved item below carries those five fields in a box marked **CHANGE CONTROL**. Everything not marked **OWNER-APPROVED** stays **PROPOSED**.
 
@@ -365,13 +366,13 @@ Phase mapping onto the existing model `BRIEF → APPROACH → ON_OBJECTIVE → E
 
 **Development write.** Aya: grief disciplined into a method, and a wrong conclusion reached carefully. Oksana: becomes, without knowing it, the person whose method saved Aya from an overclaim (seeds their later respect). Rafael: notices Aya watching the old floor markings. Hana: becomes a person the audience misses. PRIM2: nothing; the four minutes were his, and he does not need to touch them again.
 
-## 3.6 Applying the rule to the other 18 episodes (PROPOSED)
+## 3.6 Applying the rule to the other 18 episodes — emergencies RESOLVED 2026-11-03
 
-Most episodes take the rule naturally (see the "proposed cover" column in §5). Three canon episodes are emergencies:
+Most episodes take the rule naturally (see the "proposed cover" column in §5; PROPOSED). **The owner decided (2026-11-03) that the planned-mission rule applies except to real emergencies, and that E05, E06 and E16 stay emergencies.** They are not converted into planned missions and they open without a cover shoot:
 
-- **E05 Four Colors:** a red-vs-blue exercise is interrupted by a real anomaly. *Proposed:* the exercise is filmed for a recruiting reel (the cover); the anomaly is the hidden complication inside a planned exercise. The mission (terminate the exercise cleanly) is planned; the incident is not.
-- **E06 Dead Air:** severe weather. *Proposed:* F4 is recording the "Got Wifi" blue-team anthem at a crowded partner facility as cover for a planned resilience audit; the storm hits mid-shoot. The audit was planned; the storm is the complication.
-- **E16 Road Kit:** a remote emergency site. *Proposed:* this stays an **emergency mission**, the series' one honest exception, and it is McCluster's: the man who lived in cars works best when nothing was planned. (Owner Question 6.)
+- **E05 Four Colors:** a red-vs-blue exercise is interrupted by a real anomaly, and Chioma calls REAL-WORLD. The exercise itself may still be filmed, but the mission is the emergency.
+- **E06 Dead Air:** severe weather; communications fail in a crowded facility.
+- **E16 Road Kit:** a remote emergency site; McCluster's scripted PLAY mission. The man who lived in cars works best when nothing was planned.
 
 ---
 
@@ -444,8 +445,8 @@ Order: `story/EPISODE-PROGRESSION.md` (owner decision 2026-11-02: "the order on 
 | 02 | White Grey Black Hat | Permission Slip | **Aya solo (T)**; WATCH: Nusrat / Miguel | masks off, half off, on; "got permission"; corporate vs trenches | F4 onboarding / partner film at Harborline |
 | 03 | OSINT | Open Book | **Hana solo (R), as Aya's reconstruction**; WATCH: Oksana / Rafael | indicators nobody admits; information as leverage, refused | F4 reopening film at North River |
 | 04 | Anti Social Engineering | The Human Layer | Priya / Sora | looking broke as camouflage; the DEF CON find | F4 event livestream (Priya's event) |
-| 05 | Red Blue Purple White Team | Four Colors | Chioma / Thandiwe | every colour has a seat; "corporate gets greedy" | recruiting reel of the exercise (§3.6) |
-| 06 | Got Wifi | Dead Air | Sari / Yonas | the blue-team anthem; "Prime HAK5", the only literal "Prime" | anthem recording at a partner facility (§3.6) |
+| 05 | Red Blue Purple White Team | Four Colors | Chioma / Thandiwe | every colour has a seat; "corporate gets greedy" | **emergency: no cover** (§3.6) |
+| 06 | Got Wifi | Dead Air | Sari / Yonas | the blue-team anthem; "Prime HAK5", the only literal "Prime" | **emergency: no cover** (§3.6) |
 | 07 | Data Breach | Exposure | Leila / Li | "this is how you know"; the precinct tracing an address | internal training-video shoot inside the building |
 | 08 | App Attacks | Bad Input | Aya / Minh | the helper in the debugger who did it himself | product demo shoot for the dispatch app |
 | 09 | Virus Types | Patient Zero | Dmitri / Oksana | "different type of shoot that day": the camera is the mission | photogrammetry survey shoot of B1 |
@@ -549,7 +550,7 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 3. **Benji Chase.** **RESOLVED 2026-11-03:** Benji is renamed Benjamin "Benji" Chase, McCluster's government-programme clone; dubbed Hitman Benji after the takeover; the account belongs to the owner's fiction (§4.4).
 4. **Ghost.** **RESOLVED 2026-11-03:** McCluster's "ghost mode", a state/era, not an alias, no link to Benji.
 5. **Benji's nationality and type.** **RESOLVED 2026-11-03:** LVL-01 is Benjamin Chase (United States, E). The `CANON.md` §14 exception for authored solo introductions remains part of promoting §2.
-6. **Emergency exceptions.** Under "all storyline missions are planned", are E05 (exercise turns real) and E06 (storm) planned missions with unplanned complications, and is E16 Road Kit the one emergency? *Recommendation:* yes, as in §3.6.
+6. **Emergency exceptions.** **RESOLVED 2026-11-03:** the planned rule applies except to real emergencies; E05, E06 and E16 stay emergencies (§3.6).
 7. **Globe framing.** Agents "on location" from the one US HQ, or a canon change to regional desks? *Recommendation:* on location; no canon change.
 8. **PRIM Method.** Keep the real "PRIM Method" out of story canon, or make it the in-world Tier 0 meaning? *Recommendation:* keep it out; the fiction/real boundary is worth more than the wordplay.
 9. **Whip Equipped and I AM HERE songs in PRIM3.** May any be used as PRIM3 source cues (e.g. Who Did The Shoot as the cover's imagery), given the canon rule that Whip Equipped music stays in its era? *Recommendation:* imagery and in-world artefacts only; no soundtrack placement without your say.
