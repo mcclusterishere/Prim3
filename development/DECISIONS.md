@@ -64,3 +64,4 @@ These are owner decisions, applied to canon on branch `claude/story-consolidatio
 - [x] **Meridian is dropped.** Owner: get rid of it. Checked 2026-11-03: no story, canon or draft file names a Meridian character, organisation or operation; the question is closed.
 - [x] **Apex Tactical Corp belongs to Hitman.** Owner: "That's Hitman, I guess." Applied: `CANON.md` §19, `world/corporations/APEX-TACTICAL-CORP.md` (re-homed as Hitman's corporate/tactical company under Benji), `story/HITMAN-ORG.md`, `brands/mccluster-corp/BRAND-CANON.md`. The PRIM2 "Apex" intervention mechanic keeps its name and is noted as unrelated.
 - [x] **E03's facility opening is the North River Medical Logistics Hub's reopening** (approved by the owner). Applied: `episodes/S01E03-OSINT.md` "Human problem"; proposal §2.4.
+- [ ] **Song #21 (E18): pending.** Owner, 2026-11-03: not available yet. E18 remains a protected open slot (`story/EPISODE-PROGRESSION.md`); nothing is filled from existing songs.

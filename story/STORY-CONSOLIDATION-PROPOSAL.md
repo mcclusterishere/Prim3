@@ -40,6 +40,7 @@ This document does three things. It merges three storylines that grew up apart i
 | 8 | Meridian: "get rid of it." | **RESOLVED** (no references exist) | §7 row 11 |
 | 9 | Apex Tactical Corp: "That's Hitman, I guess." | **RESOLVED** | `CANON.md` §19; Hitman org; Apex world file |
 | 10 | E03's facility is the North River reopening. | **RESOLVED** (approved) | `episodes/S01E03-OSINT.md`; §2.4 |
+| 11 | Song #21 is not available yet. | **PENDING** | §5.3; E18 stays open |
 | 4 | "All storyline missions are planned" applies except to real emergencies; E05, E06 and E16 stay emergencies. | **RESOLVED** | §3.1, §3.6, §5 |
 
 **Promotion to canon.** Under `AGENTS.md` "Change control", the approved sections still enter canon through a pull request that states existing canon, replacement, reason, downstream files and owner approval. Each approved item below carries those five fields in a box marked **CHANGE CONTROL**. Everything not marked **OWNER-APPROVED** stays **PROPOSED**.
@@ -550,5 +551,5 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 10. **Meridian.** **RESOLVED 2026-11-03:** dropped; no references remain.
 11. **Apex Tactical Corp.** **RESOLVED 2026-11-03:** it belongs to Hitman ("That's Hitman, I guess"); re-homed under the Hitman organisation (`CANON.md` §19; `world/corporations/APEX-TACTICAL-CORP.md`; `story/HITMAN-ORG.md`). The PRIM2 "Apex" mechanic keeps its name.
 12. **E03's facility.** **RESOLVED 2026-11-03:** approved; the facility opening is the North River hub's reopening (`episodes/S01E03-OSINT.md`).
-13. **Song #21.** Title and lyrics for E18 when you are ready; nothing will be filled from existing songs.
+13. **Song #21.** **PENDING (owner, 2026-11-03):** not available yet. E18 stays a protected open slot; nothing is filled from existing songs.
 14. **JANUS.** **RESOLVED 2026-11-03:** adopted, adapted to "clone of McCluster" (`story/BENJI-CHASE-JANUS-ORIGIN-CANON.md`).
