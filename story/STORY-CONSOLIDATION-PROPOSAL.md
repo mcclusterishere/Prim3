@@ -37,6 +37,7 @@ This document does three things. It merges three storylines that grew up apart i
 | 5 | "This is a major multi-million dollar corporation": agents posted abroad with full crews (regional presence); HQ stays in the US. | **RESOLVED** (canon change) | `CANON.md` §19; §6.2 |
 | 6 | The PRIM Method stays private. | **RESOLVED** (no story change) | §7 row 1 |
 | 7 | Whip Equipped and I AM HERE songs are not PRIM3 cues: "PRIM3 is its own universe." | **RESOLVED** | §3.2, §5.2 |
+| 8 | Meridian: "get rid of it." | **RESOLVED** (no references exist) | §7 row 11 |
 | 4 | "All storyline missions are planned" applies except to real emergencies; E05, E06 and E16 stay emergencies. | **RESOLVED** | §3.1, §3.6, §5 |
 
 **Promotion to canon.** Under `AGENTS.md` "Change control", the approved sections still enter canon through a pull request that states existing canon, replacement, reason, downstream files and owner approval. Each approved item below carries those five fields in a box marked **CHANGE CONTROL**. Everything not marked **OWNER-APPROVED** stays **PROPOSED**.
@@ -65,7 +66,7 @@ This document does three things. It merges three storylines that grew up apart i
 The owner asked for one storyline out of three:
 
 1. **The office story.** The Equity Uprise HQ workplace ensemble: 24 mains plus Maren, Pylon and PRIM2, floors B1 to F7, "the same people study, work, train, eat, travel, brief, debrief, argue, recover, cover shifts and enter missions together for years" (`CANON.md` §2; `story/EQUITY-UPRISE-WORKPLACE-CANON.md`).
-2. **The observer story** (the owner's "someone sent to watch them"). Canon has no "Meridian"; the name appears nowhere in either repository's story canon. What canon does have is a chain of watchers:
+2. **The observer story** (the owner's "someone sent to watch them"). What canon does have is a chain of watchers:
    - **Hana Lee**, sent in from outside under real professional cover to find out whether the institution hides a living command root (`story/AYA-HANA-INTELLIGENCE-CANON.md` §2–§6);
    - **Aya Shinoda**, who joined to investigate Hana's death and was slowly captured by the institution's real decency (same file §11–§16);
    - **PRIM2**, who watches everyone, and has watched McCluster since the Ghost Years, under the hard rule `PRIM2 OBSERVING != PRIM2 TAKING OVER` (`CANON.md` §15, §17).
@@ -529,7 +530,7 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 | 8 | **Course feed points at a missing file.** M01 sources cite `episodes/S01E01-HIGH-ALERT.md`; the file is `S01E01-THE-BLIP.md`. | Fix the path. | `learning/course/course-feed.json` |
 | 9 | **Training Range certification IDs disagree** between Prim3 YAMLs and the control repo map. | Reconcile to the control repo map (it owns full coverage). | `learning/missions/TRAINING-RANGE-0*.yaml` |
 | 10 | **`PRIME-N1` asset IDs** in `phenotypes/` (and "Prime-N1 Prime" in `phenotypes/NAMING.md`). | Rename to `PRIM3-SUIT` when the asset pipeline can take a rename; until then add a note that PRIME-N1 = McCluster after succession. | `phenotypes/**` |
-| 11 | **Meridian.** The owner's "the Meridian takeover with someone sent to watch them" matches nothing in canon. | Do not invent. If the owner wants the name, the most natural home is the in-world codename of the outside effort that sent Hana in (revealed late), or the name of the observer thread in production notes. (Owner Question 10.) | — |
+| 11 | **Meridian.** | **RESOLVED 2026-11-03: dropped.** The owner: get rid of it. No story file in this repo names it (checked 2026-11-03). | — |
 
 ---
 
@@ -544,7 +545,7 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 7. **Globe framing.** **RESOLVED 2026-11-03:** regional presence abroad with full crews; HQ stays in the US (`CANON.md` §19; §6.2).
 8. **PRIM Method.** **RESOLVED 2026-11-03:** stays private; kept out of story canon.
 9. **Whip Equipped and I AM HERE songs in PRIM3.** **RESOLVED 2026-11-03:** not PRIM3 cues; "PRIM3 is its own universe." Mappings removed (§3.2, §5.2).
-10. **Meridian.** Do you want the name, and if so for what? *Recommendation:* the late-revealed codename of the outside effort that sent Hana in, or nothing.
+10. **Meridian.** **RESOLVED 2026-11-03:** dropped; no references remain.
 11. **Apex Tactical Corp.** After the internship clean-out, keep Apex as a named black-site layer beneath PRIM, or retire the organization and keep "Apex" only as the name of PRIM2's intervention mechanic? *Recommendation:* retire the organization; keep the mechanic name.
 12. **E03's facility.** Make the "facility opening" in Open Book the North River hub's reopening, which binds Oksana and Rafael's case to Aya's reconstruction? *Recommendation:* yes; it is the strongest single join in the merged spine.
 13. **Song #21.** Title and lyrics for E18 when you are ready; nothing will be filled from existing songs.
