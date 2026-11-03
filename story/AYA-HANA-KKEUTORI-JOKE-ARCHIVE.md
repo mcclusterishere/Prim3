@@ -131,7 +131,7 @@ Hana writes beside the chain:
 
 At the time it is a UI joke.
 
-Much later, it becomes Aya's **MAP** breadcrumb: the map she was given of McCluster was real but incomplete.
+Much later, it becomes Aya's **MAP** breadcrumb: the map she was given of McCluster Corp was real but incomplete.
 
 ---
 
@@ -269,7 +269,7 @@ Hana writes `零`.
 
 At the time **Site 0 does not mean anything to Aya**; Hana presents it as a deliberately absurd engineer joke about starting everything at zero.
 
-Aya later remembers that Hana almost never made jokes about McCluster site numbering before this period.
+Aya later remembers that Hana almost never made jokes about McCluster Corp site numbering before this period.
 
 This becomes the **ZERO** marker.
 
@@ -431,7 +431,7 @@ Years later this memory is painful because Hana's laugh is one of the things Aya
 
 # 13. The hidden pattern — Hana starts losing too often
 
-After Hana realizes somebody above McCluster may be learning from her investigation, her behavior changes subtly.
+After Hana realizes somebody above McCluster Corp may be learning from her investigation, her behavior changes subtly.
 
 She begins intentionally ending more Japanese-side turns in `ん`.
 

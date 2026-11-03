@@ -100,7 +100,7 @@ Use the following information hierarchy.
 
 ## Tier 0 — Public / vendor / outsider
 
-May know PRIM only as a McCluster technical, infrastructure, education, resilience or operations program.
+May know PRIM only as a McCluster Corp / Equity Uprise technical, infrastructure, education, resilience or operations program.
 
 They may never see the acronym expanded at all.
 

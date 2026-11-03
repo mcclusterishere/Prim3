@@ -19,15 +19,15 @@ Its people have independent loyalties, businesses, family structures, ambitions 
 
 # Relationship to McCluster
 
-McCluster operated within Hitman under the identity **Benji** during approximately age 19–26.
+McCluster operated within Hitman, under his own name, during approximately age 19–26.
 
-Benji is not a separate contemporary protagonist.
+Benjamin "Benji" Chase is McCluster's clone and a separate person, not McCluster's alias (owner decisions 2026-11-02 and 2026-11-03; see `CANON.md` §9).
 
 McCluster enters through friendship/culture around Bigga Lex the Jet, becomes a capable operator, and is eventually offered succession when Lex retires.
 
 McCluster refuses.
 
-Royce receives the succession opportunity and becomes the major post-Benji Hitman-side rival/sovereign figure.
+Benji receives the succession opportunity and becomes the major post-McCluster Hitman-side rival/sovereign figure.
 
 The full age-19-to-26 authority is `story/MCCLUSTER-HITMAN-ORIGIN-CANON.md`.
 
@@ -54,7 +54,7 @@ Human agency remains real.
 
 # PRIM3-era Hitman apex
 
-Royce is the contemporary Hitman-side apex/successor figure relevant to PRIM3.
+Benji is the contemporary Hitman-side apex/successor figure relevant to PRIM3.
 
 He is not a PRIM Mantle holder.
 
@@ -65,7 +65,7 @@ His asymmetry matters:
 ```text
 MCCLUSTER -> restores optionality
 PRIM2  -> expands picture / authority
-ROYCE  -> destabilizes control / tempo through kinetic and organizational pressure
+BENJI  -> destabilizes control / tempo through kinetic and organizational pressure
 ```
 
 See `game/WILDCARD-INTERVENTION-AUTHORITY.md`.
@@ -101,7 +101,7 @@ Different characters can possess deep specialist knowledge without turning Hitma
 
 # Own show / prequel lane
 
-Hitman/Benji is a future prequel covering McCluster's age-19-to-26 life.
+Hitman is a future prequel covering McCluster's age-19-to-26 life.
 
 Exact episode count, final track order and full chronology are **not locked merely by old six-episode stubs**.
 
@@ -121,4 +121,4 @@ The organization creates a harder question:
 
 > **What happens when loyalty, ambition, money, violence and community all occupy the same institution—and the person who walked away from its chair eventually has to confront the person who accepted it?**
 
-That question culminates in McCluster and Royce entering Site 0 from opposite boards during RAID.
+That question culminates in McCluster and Benji entering Site 0 from opposite boards during RAID.

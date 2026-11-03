@@ -27,7 +27,7 @@
         "concepts":["alert state","monitoring","scope of work","evidence trail","search/access policy","professional judgment"],
         "objectives":["Triage alerts using confidence and corroborating evidence.","Establish a safe response boundary without overreacting.","Preserve useful telemetry before routine cleanup removes it."],
         "labs":{"field_r":"Signal or Noise","field_e":"Safe Perimeter Under Uncertainty","field_t":"Preserve the One Useful Detail"},
-        "sources":["source-material/high-alert/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md","episodes/S01E01-HIGH-ALERT.md"]
+        "sources":["source-material/high-alert/LYRICS.md","learning/MISSION-CONCEPT-LAB-MATRIX.md","episodes/S01E01-THE-BLIP.md"]
       },
       {
         "id":"M02","sequence":2,"season":1,"episode_id":"S01E02","song":"White Grey Black Hat","episode_title":"Permission Slip","status":"production-developed","source_slug":"white-grey-black-hat",

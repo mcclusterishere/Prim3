@@ -238,7 +238,7 @@ Release/reveal order is intentionally backward through McCluster's adult life:
 
 1. **PRIM3 — age 33–40**
 2. **Whip Equipped — age 26–33**
-3. **Hitman / Benji — age 19–26**
+3. **Hitman — age 19–26**
 
 McCluster lived history forward. The audience discovers it backward.
 
@@ -252,26 +252,30 @@ Earlier history may explain competence, habits, fear, trust, retaliation, mobili
 
 ---
 
-## 9. McCluster / Benji / Ghost continuity
+## 9. McCluster / Hitman / Ghost continuity
 
 At 19 McCluster attends college in upstate New York, begins dealing only after arriving, nearly gets caught, continues, is confronted by the dean and leaves under an offered path rather than escalating toward prosecution. He tells his parents he flunked out.
 
 He enters Hitman through friendship, music and shared danger around childhood best friend **Bigga Lex the Jet**.
 
-During approximately age 19–26 McCluster operates as **Benji**.
+During approximately age 19–26 McCluster operates inside Hitman under his own name.
 
-**Benji is McCluster. Benji is not a separate contemporary character.**
+**Owner decisions (2026-11-02, 2026-11-03): Benjamin "Benji" Chase is not McCluster; he is McCluster's clone.** The character formerly called Royce is **Benjamin Chase**: a government-program clone of McCluster (an engineered derivative born seven years after him), "low-key McCluster's evil twin". He is Benjamin Chase until he takes over the Hitman organisation at about 19; after that he is dubbed **"Hitman Benji"**. He is a separate person with his own life and choices, the Hitman sovereign and the Hitman-side RAID attacker. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation, the refused chair) is McCluster's: "The retaliation he did was all him." Origin authority: `story/BENJI-CHASE-JANUS-ORIGIN-CANON.md` (reveal-gated to Evil Twin).
+
+**Ghost (owner decision, 2026-11-03):** McCluster's "ghost mode" — "he's been ghosted from the view of everyone … under the radar" — a state and an era (ages 26–33), not an alias, and unrelated to Benji.
+
+Alias note: game data and schemas keep their `royce_*` keys (for example `royce_incursion`); they refer to Benji.
 
 At approximately 26:
 - Lex retires;
-- Lex offers succession to McCluster/Benji;
+- Lex offers succession to McCluster;
 - McCluster refuses;
-- Royce, seven years younger, receives the succession opportunity;
+- Benji, seven years younger, receives the succession opportunity;
 - McCluster enters the Ghost / Whip Equipped years.
 
 Age 26–33 includes prolonged vehicle living/mobile homelessness, legitimate vehicle dealing, data-center/infrastructure work, serious romance, criminal relapse/cocaine-network contamination, betrayal, the private-aircraft event, compartmentalization and eventual desire for a stable conventional life.
 
-PRIM2 first develops active interest in McCluster during the Ghost years after tracing Royce's succession backward through Lex to Benji/McCluster.
+PRIM2 first develops active interest in McCluster during the Ghost years after tracing Benji's succession backward through Lex to McCluster, the successor candidate who refused the chair.
 
 See:
 - `story/MCCLUSTER-HITMAN-ORIGIN-CANON.md`
@@ -281,13 +285,13 @@ See:
 
 ## 10. McCluster visual re-entry / reacquisition
 
-Through Hitman/Benji and Whip Equipped/Ghost, McCluster wears **extremely long hair**.
+Through the Hitman and Whip Equipped/Ghost years, McCluster wears **extremely long hair**.
 
 At 33 he cuts it off and adopts **waves** before college/Equity Uprise entry.
 
 The appearance change is dramatic enough to disrupt simple visual-recognition continuity.
 
-College makes McCluster institutionally visible again. A fictional Site 0 identity-resolution update restores high-confidence continuity between the newly visible student and the older long-haired McCluster/Benji subject PRIM2 already knew.
+College makes McCluster institutionally visible again. A fictional Site 0 identity-resolution update restores high-confidence continuity between the newly visible student and the older long-haired Hitman/Ghost-era McCluster subject PRIM2 already knew.
 
 > **College makes McCluster visible again; Site 0's update makes the system understand who the newly visible person is.**
 
@@ -316,7 +320,7 @@ Her history includes:
 - joining Equity Uprise partly to investigate Hana's death;
 - gradually becoming attached to the visible institution because real people, reforms and responsibility make it feel increasingly legitimate.
 
-Hana is secretly a Republic of Korea NIS technical intelligence officer. Her agency helps her correlate external history unavailable from inside McCluster. She approaches proof of the hidden living-root architecture.
+Hana is secretly a Republic of Korea NIS technical intelligence officer. Her agency helps her correlate external history unavailable from inside Equity Uprise and McCluster Corp. She approaches proof of the hidden living-root architecture.
 
 PRIM2 recognizes Hana as intelligence-linked and uses her pursuit as unwitting adversarial red-team testing until her portable proof risk becomes unacceptable.
 
@@ -449,12 +453,12 @@ Standard pool:
 
 Before open identity reveal, UI may call this `EXECUTIVE OVERRIDE` or `APEX SUPPORT`.
 
-### Royce — hostile elite incursion
+### Benji — hostile elite incursion
 
-Royce may enter eligible missions as Hitman's persistent elite escalation threat.
+Benji may enter eligible missions as Hitman's persistent elite escalation threat.
 
 Standard limits:
-- max 2 non-scripted Royce incursions per season;
+- max 2 non-scripted Benji incursions per season;
 - max 1 per mission;
 - 2-mission cooldown after a non-scripted appearance;
 - authored story missions may override.
@@ -465,7 +469,7 @@ Mechanical identity:
 ENSEMBLE -> solves the mission
 MCCLUSTER   -> restores optionality / finds another path
 PRIM2    -> expands picture and authority
-ROYCE    -> violently destabilizes control and tempo
+BENJI    -> violently destabilizes control and tempo
 ```
 
 Interventions act on current recoverable state. They cannot resurrect dead characters, rewind time, restore irrecoverable evidence, erase Heat/Detection or erase consequences.
@@ -480,7 +484,7 @@ Global Episode 01 / `High Alert` is shown first but occurs chronologically durin
 
 - performer/defender: **PRIM2**;
 - McCluster attacks from the PRIM side;
-- Royce attacks from the Hitman side;
+- Benji attacks from the Hitman side;
 - PRIM2 genuinely resists both;
 - 17 compressed memory anchors point toward Episodes 02–18;
 - memories may emotionally belong to other ensemble characters;
@@ -514,15 +518,15 @@ Authorities:
 This chronology is locked subject to scene-level refinement.
 
 - McCluster enters Site 0 with a PRIM-side assault element.
-- Royce enters with a separate Hitman-side assault element.
+- Benji enters with a separate Hitman-side assault element.
 - PRIM2 genuinely resists both.
 - every other member of both assault elements dies during the breach;
 - McCluster is the sole surviving PRIM-side attacker;
-- Royce is the sole surviving Hitman-side attacker;
-- McCluster and Royce nearly kill one another;
+- Benji is the sole surviving Hitman-side attacker;
+- McCluster and Benji nearly kill one another;
 - their pre-PRIM3 rivalry/history matters immediately;
 - they recognize PRIM2 as common target and form a temporary alliance;
-- McCluster and Royce defeat PRIM2 together;
+- McCluster and Benji defeat PRIM2 together;
 - PRIM2's body is critically damaged but remains valid long enough for succession;
 - `Evil Twin` begins after physical victory;
 - PRIM2's confession reveals the dual-board architecture and forces reinterpretation;
@@ -553,6 +557,10 @@ Equity Uprise is real, not a disposable front. Its educational/community mission
 ### McCluster Corp
 The larger holding/operating ecosystem behind Equity Uprise: property, brands, companies, institutional relationships and cross-domain resources. McCluster does **not** begin the series by joining McCluster Corp directly.
 
+### Regional presence (owner decision, 2026-11-03)
+
+McCluster Corp is a major multi-million-dollar organisation (owner: "This is a major multi-million dollar corporation"). **Equity Uprise HQ stays in the United States** and remains the ensemble's home and the series' recurring set. **McCluster Corp also posts agents abroad with full crews**: standing regional presences that carry field, technical, support and media staff. Mains may be posted to a region for an assignment and come home; regional crews are recurring people in their own right. This replaces the earlier statement that everyone operates from one US building.
+
 ### PRIM — visible layer
 `Program for Resilient Infrastructure Management`: training, missions, technical/operational education, resilience, phenotypes, curriculum and field activity as encountered through Equity Uprise and connected operations.
 
@@ -560,10 +568,10 @@ The larger holding/operating ecosystem behind Equity Uprise: property, brands, c
 `Primary Root Identity Mantle`: living highest-trust human succession architecture.
 
 ### Hitman
-Separate multinational street/corporate operational system beneath PRIM2's hidden cross-board view. McCluster formerly operated there as Benji; Royce is the contemporary successor/sovereign.
+Separate multinational street/corporate operational system beneath PRIM2's hidden cross-board view. McCluster formerly operated there (ages 19–26); Benji is the contemporary successor/sovereign.
 
-### Apex
-Where referenced, black-site/parent layer above fronts. Do not use Apex to contradict McCluster holding-company authority or PRIM root canon.
+### Apex Tactical Corp
+A **Hitman** company (owner decision, 2026-11-03: "That's Hitman, I guess"): the corporate and tactical face of the Hitman organisation under its sovereign, Benji. It does not own or control McCluster Corp or Equity Uprise. The game's "Apex" intervention (§15) is PRIM2's and unrelated to it. See `world/corporations/APEX-TACTICAL-CORP.md`.
 
 ---
 
@@ -586,7 +594,7 @@ Authorities:
 
 ## 21. Canonical episode order / current primary ownership
 
-1. **High Alert — The Blip** — PRIM2 / McCluster / Royce future triangle; age-33 reacquisition on rewind
+1. **High Alert — The Blip** — PRIM2 / McCluster / Benji future triangle; age-33 reacquisition on rewind
 2. **White Grey Black Hat — Permission Slip** — Nusrat / Miguel
 3. **OSINT — Open Book** — Oksana / Rafael
 4. **Anti Social Engineering — The Human Layer** — Priya / Sora
@@ -604,9 +612,9 @@ Authorities:
 16. **Per Diem — Road Kit** — McCluster / Valeria
 17. **Patch Work — Trust Boundary** — Aya
 18. **Song #21 — OPEN / Mission #18 OPEN** — Leila / Helen / McCluster story function locked
-19. **RAID (HOT SITE) — Hot Site** — McCluster / Royce / PRIM2
-20. **Evil Twin — Mirror Room** — PRIM2 / McCluster / Royce
-21. **Ghost In The Wires — Last Process** — McCluster / PRIM2; Royce secondary
+19. **RAID (HOT SITE) — Hot Site** — McCluster / Benji / PRIM2
+20. **Evil Twin — Mirror Room** — PRIM2 / McCluster / Benji
+21. **Ghost In The Wires — Last Process** — McCluster / PRIM2; Benji secondary
 
 `story/EPISODE-PROGRESSION.md` governs order. Local episode files now carry migrated ensemble blueprints for Episodes 01–18; Episodes 19–21 remain current endgame authorities and inherit the living-cast/lifecycle law.
 
@@ -633,7 +641,7 @@ When new character/history/gameplay canon is added:
 - update staffing/lifecycle state when injury, death, promotion, transfer or replacement changes the organization;
 - update gameplay deployment/intervention fields where needed;
 - do not let old summary files silently outrank current specialist authority;
-- migrate stale `Prime-00`, separate contemporary `Benji`, `Prime Negative One`, McCluster-only ownership, `player becomes PRIM3`, fixed-three-person-squad, anonymous-death-fodder, automatic-replacement and default-playable-McCluster language when encountered.
+- migrate stale `Prime-00`, `Benji`-as-McCluster alias language (Benji Chase is McCluster's clone, a different person; owner 2026-11-02/03), the old name `Royce` (now Benjamin "Benji" Chase), `Prime Negative One`, McCluster-only ownership, `player becomes PRIM3`, fixed-three-person-squad, anonymous-death-fodder, automatic-replacement and default-playable-McCluster language when encountered.
 
 Legacy filenames may remain for link compatibility, but their contents must point to current canon rather than preserve contradictory history.
 

@@ -85,7 +85,7 @@ Aya gradually treats the absence of evidence as reason to distrust her own darke
 
 ## Relationship to McCluster
 
-PRIM2 first develops active interest in McCluster during the Ghost/Whip years after tracing Hitman succession backward from Royce to Bigga Lex to Benji/McCluster.
+PRIM2 first develops active interest in McCluster during the Ghost/Whip years after tracing Hitman succession backward from Benji to Bigga Lex to McCluster.
 
 At 33 McCluster cuts his long hair, adopts waves and re-enters fixed institutional life through college. The visual break briefly lowers identity continuity; a Site 0 identity-resolution update restores high-confidence linkage.
 
@@ -98,11 +98,11 @@ PRIM2's error is assuming that seeing McCluster clearly grants him legitimate au
 
 ## RAID / succession
 
-In final RAID, McCluster enters Site 0 with a PRIM-side assault element while Royce enters with a separate Hitman-side element.
+In final RAID, McCluster enters Site 0 with a PRIM-side assault element while Benji enters with a separate Hitman-side element.
 
 PRIM2 genuinely resists both.
 
-All other members of both assault elements die. McCluster and Royce survive, nearly kill one another, then form a temporary alliance against PRIM2.
+All other members of both assault elements die. McCluster and Benji survive, nearly kill one another, then form a temporary alliance against PRIM2.
 
 They defeat him together.
 

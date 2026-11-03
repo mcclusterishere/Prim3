@@ -32,7 +32,7 @@ Episode ownership rotates across the multinational cast. McCluster may be primar
 |---|---|---|
 | **PRIM2** | Presiding Primary Root Identity Mantle holder; hidden apex over PRIM/McCluster and Hitman; McCluster's predecessor | Believes coherence may justify extraordinary centralized human authority; seeks a worthy successor but must genuinely resist succession. |
 | **McCluster** | U.S.; age-33 student / Wildcard -> eventual **PRIM3** | Seeks legitimacy and stability while repeatedly taking unowned jobs; must learn that capability does not grant authority over everybody else's choices. |
-| **Royce** | Hitman successor / sovereign; McCluster's old rival | Wants power and control more directly than McCluster; carries the succession McCluster refused and returns as the surviving Hitman-side challenger in RAID. |
+| **Benji** | Hitman successor / sovereign; McCluster's old rival | Wants power and control more directly than McCluster; carries the succession McCluster refused and returns as the surviving Hitman-side challenger in RAID. |
 
 `Prime`, spoken aloud, may refer colloquially to the current PRIM holder. `Prime-00`, `Prime Negative One` and similar older labels are deprecated where they conflict with current succession canon.
 
@@ -96,11 +96,11 @@ See:
 
 ## Contemporary Hitman core
 
-**Benji is not a separate contemporary person. Benji is McCluster's age-19-to-26 Hitman identity.**
+**Benjamin "Benji" Chase is McCluster's clone and a separate person, not McCluster's alias (owner decisions 2026-11-02 and 2026-11-03; see `CANON.md` §9). McCluster's age-19-to-26 Hitman years are his own; Benji Chase's role is open.**
 
 Current Hitman-side characters:
 
-- **Royce** — sovereign/successor; seven years younger than McCluster; inherited the opportunity McCluster refused.
+- **Benji** — sovereign/successor; seven years younger than McCluster; inherited the opportunity McCluster refused.
 - **Sable Quinn** — operations / money.
 - **Grant Voss** — respectable-money sponsor.
 - **Tone Rivera** — block/control operator.
@@ -133,7 +133,7 @@ They are not mandatory exposition. They exist to ensure every major person has g
 | PRIM2 ↔ Hana | Hidden intellectual adversaries; only PRIM2 knows he is using Hana as an adversarial red team. |
 | PRIM2 ↔ Aya | He lets a skeptic improve the visible institution until absence of proof feels like proof of innocence. |
 | PRIM2 ↔ McCluster | Longitudinal evaluator versus candidate who must ultimately challenge centralized control. |
-| McCluster ↔ Royce | Deep pre-PRIM3 rivalry/history; Royce receives the Hitman succession McCluster refused. |
+| McCluster ↔ Benji | Deep pre-PRIM3 rivalry/history; Benji receives the Hitman succession McCluster refused. |
 | Chioma ↔ Thandiwe | Two credible models of leadership competing over what deserves to survive after PRIM2. |
 | Dmitri ↔ Oksana | Operational trust that cannot erase historical/geopolitical context. |
 | Li ↔ Leila | Governance and security skepticism sharpening one another. |

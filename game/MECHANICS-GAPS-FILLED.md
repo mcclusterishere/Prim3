@@ -119,7 +119,7 @@ Normal opposition may include:
 - environment/system hazards;
 - Hitman elements in relevant missions.
 
-`Royce` is not a generic enemy tier. He is a persistent named incursion character governed separately.
+`Benji` is not a generic enemy tier. He is a persistent named incursion character governed separately.
 
 ## 9. Objective objects
 
@@ -169,7 +169,7 @@ Side-op parameters may vary:
 - mission risk;
 - Hitman Pressure;
 - Wildcard eligibility;
-- Royce eligibility.
+- Benji eligibility.
 
 A side op may affect campaign state but may not rewrite locked episode canon.
 
@@ -238,7 +238,7 @@ A mission that allows PRIM2 must additionally define:
 - what information/authority PRIM2 adds;
 - what cannot be saved anymore.
 
-A mission eligible for Royce must define:
+A mission eligible for Benji must define:
 - telegraph quality;
 - ingress/trigger;
 - objective behavior;
@@ -255,7 +255,7 @@ Strong/specifiable now:
 - ensemble roster principle;
 - persistent injury/death;
 - Wildcard/Apex rescue ladder;
-- Royce hostile incursion structure;
+- Benji hostile incursion structure;
 - side-op vs episode distinction.
 
 Still requiring playtest/content implementation:
@@ -263,7 +263,7 @@ Still requiring playtest/content implementation:
 - character-specific perk values;
 - per-episode intervention eligibility;
 - per-episode crisis thresholds;
-- Royce adaptation/encounter tuning;
+- Benji adaptation/encounter tuning;
 - full save schema;
 - UI implementation;
 - final map/content volume.

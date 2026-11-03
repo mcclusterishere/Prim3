@@ -30,7 +30,7 @@ The mission validator now requires the implementation to express:
 - Jordan state: `SCRIPTED_ASSIGNMENT`, `OFF_BOARD_WILDCARD`, or `LOCKED_OUT`;
 - Wildcard eligibility, arrival delay/ingress and consequence write;
 - PRIM2 Apex eligibility, mission classification, story-visibility state and authority/information contribution;
-- Royce Incursion eligibility, telegraph rule, ingress/resolution and Jordan `OLD_BUSINESS` state;
+- Benji Incursion eligibility, telegraph rule, ingress/resolution and Jordan `OLD_BUSINESS` state;
 - objective graph and LAB_NODE state;
 - deterministic technical reasoning and explicit validation;
 - threat schedule and kinetic/technical coupling;
@@ -57,7 +57,7 @@ The machine-readable action vocabulary is:
 Canonical Standard default balance remains:
 - 2 non-scripted Jordan Wildcard calls per season;
 - 3 non-scripted PRIM2 Apex calls across the campaign;
-- maximum 2 non-scripted Royce Incursions per season with a two-mission cooldown.
+- maximum 2 non-scripted Benji Incursions per season with a two-mission cooldown.
 
 Story-scripted appearances are separate from those pools.
 

@@ -108,15 +108,15 @@ mother / consent      │             brother / bodily autonomy
 
 **Relationship with Zayd:** maternal first cousins; close enough that Tariq hears both sides of Aya and Zayd's relationship.
 
-**What Tariq knows:** Aya's tendency to turn care into project management; Hana's importance to her; Aya's original suspicion of McCluster; that Aya's later defense of McCluster is a dramatic reversal.
+**What Tariq knows:** Aya's tendency to turn care into project management; Hana's importance to her; Aya's original suspicion of McCluster Corp; that Aya's later defense of Equity Uprise is a dramatic reversal.
 
 **What Tariq does not know:** Hana's NIS role, the Living Root, Prime's involvement in GLASSHOUSE.
 
-**Tariq's function in Aya's life:** he preserves a version of Aya that existed before McCluster became her identity.
+**Tariq's function in Aya's life:** he preserves a version of Aya that existed before Equity Uprise became her identity.
 
 **Canonical challenge line:**
 
-> **"Are McCluster's decisions bad, or are they decisions you didn't make?"**
+> **"Are McCluster Corp's decisions bad, or are they decisions you didn't make?"**
 
 ---
 
@@ -160,7 +160,7 @@ Full authorities:
 - `story/HANA-LEE-PSYCHOLOGICAL-BACKGROUND.md`
 - `story/AYA-HANA-INTELLIGENCE-CANON.md`
 
-**Aya knows:** mentor, friend, robotics engineer, safety thinker, McCluster specialist killed during GLASSHOUSE.
+**Aya knows:** mentor, friend, robotics engineer, safety thinker, Equity Uprise specialist killed during GLASSHOUSE.
 
 **Prime knows:** NIS technical intelligence officer nearing proof of the Living Root.
 
@@ -176,11 +176,11 @@ Full authorities:
 
 **Role in this web:** Helen is the senior governance figure who recognizes that Aya's reconstruction of Hana's death is technically serious rather than merely grief.
 
-Helen brings Aya into controlled audit/reconstruction work and becomes one of the first senior McCluster people to treat Aya's skepticism as useful.
+Helen brings Aya into controlled audit/reconstruction work and becomes one of the first senior Equity Uprise people to treat Aya's skepticism as useful.
 
 **Why Aya initially trusts Helen:** Helen does not tell her "Hana's death was an accident, move on." She gives Aya access to enough legitimate material to test her own theory.
 
-**Why Helen is dangerous without intending to be:** by giving Aya real agency, Helen makes McCluster feel more governable than its hidden architecture actually is.
+**Why Helen is dangerous without intending to be:** by giving Aya real agency, Helen makes McCluster Corp feel more governable than its hidden architecture actually is.
 
 **What Helen knows:** more than most about structural governance weaknesses, less than Prime about the actual Living Root / Hana intelligence story.
 
@@ -194,7 +194,7 @@ Helen brings Aya into controlled audit/reconstruction work and becomes one of th
 
 **Role in GLASSHOUSE:** Amira opposes continuation while the safety state remains unverifiable.
 
-**Aya's initial interpretation:** Amira becomes evidence that not everyone inside McCluster ignored Hana.
+**Aya's initial interpretation:** Amira becomes evidence that not everyone inside Equity Uprise ignored Hana.
 
 **Amira's guilt:** she was right and still failed to stop the operation.
 
@@ -230,9 +230,9 @@ Marc represents a worldview Aya finds frightening:
 
 ---
 
-# 10. Prime-00 — hidden architect of the web
+# 10. PRIM2 — hidden architect of the web
 
-Prime knows more about this cluster than anybody realizes.
+PRIM2 ("Prime" in speech) knows more about this cluster than anybody realizes.
 
 He knows:
 

@@ -165,7 +165,7 @@ When CRITICAL conditions are met and McCluster is off-board, surface `REQUEST WI
 
 When McCluster is already present on an eligible high-value mission and CRITICAL failure persists, surface `REQUEST EXECUTIVE OVERRIDE` or `REQUEST PRIM2` depending on story clearance.
 
-Royce warnings are information-dependent. Strong R/Intel play can improve warning quality without simply cancelling the incursion.
+Benji warnings are information-dependent. Strong R/Intel play can improve warning quality without simply cancelling the incursion.
 
 ## Hybrid map + graph + timeline rule
 
@@ -202,7 +202,7 @@ Fewer layers, explicit labels, strong prompts, smaller maps, visible confidence/
 Conflicting sources, evidence/timeline views, cyber-physical dependency edges, more player inference. Wildcard call-ups become an understood institutional mechanic even if McCluster's deeper history remains hidden.
 
 ### Seasons 5–6
-Multi-site/cloud/global context, larger dependency graphs, provider/ownership overlays, stale/contradicted data and fewer tutorial prompts. Royce incursion pressure and the meaning of executive attention become more legible.
+Multi-site/cloud/global context, larger dependency graphs, provider/ownership overlays, stale/contradicted data and fewer tutorial prompts. Benji incursion pressure and the meaning of executive attention become more legible.
 
 ### Season 7
 Full PRIM operating picture, Site 0 multi-floor infrastructure, simultaneous failure domains and PRIM2's superior information position made explicit. Earlier layers return as accumulated player literacy.
@@ -219,14 +219,14 @@ By `Evil Twin`, the player learns that PRIM2's apparent omniscience came partly 
 
 ## Rival escalation
 
-Royce is not represented as another omniscient interface user. His incursion fantasy is physical/organizational disruption: breaking Control, accelerating pressure, moving Hitman pieces and forcing the player's carefully constructed plan to become unstable.
+Benji is not represented as another omniscient interface user. His incursion fantasy is physical/organizational disruption: breaking Control, accelerating pressure, moving Hitman pieces and forcing the player's carefully constructed plan to become unstable.
 
 This asymmetry is intentional:
 
 ```text
 MCCLUSTER — finds another path
 PRIM2 — sees/authorizes more of the board
-ROYCE — violently changes the board
+BENJI — violently changes the board
 ```
 
 ## Real-world bridge principle

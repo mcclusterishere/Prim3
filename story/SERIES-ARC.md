@@ -11,11 +11,11 @@ PRIM3 is a **seven-season / 21-episode ensemble techno-thriller**.
 
 - 3 episodes per season.
 - 1 song = 1 episode = 1 mission.
-- WATCH target ~9 minutes; PLAY expands the same event.
+- WATCH approximately 20–35 minutes (`CANON.md` §1); PLAY expands the same event.
 - McCluster's seven academic years provide a major chronological/succession spine.
 - Episode ownership rotates across the multinational cast; McCluster may be supporting, cameo, mentioned-only or absent.
 - Most Episodes 02–18 should primarily deepen characters other than McCluster.
-- Global Episode 01 `High Alert` is a future/endgame exception centered on **PRIM2 + McCluster + Royce**.
+- Global Episode 01 `High Alert` is a future/endgame exception centered on **PRIM2 + McCluster + Benji**.
 - Final trilogy: **RAID -> Evil Twin -> Ghost In The Wires**.
 - McCluster becomes **PRIM3** only after succession.
 

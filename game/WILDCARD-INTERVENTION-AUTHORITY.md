@@ -4,7 +4,7 @@ system: tactical intervention / rescue escalation / rival incursion authority
 version: 1.1.0
 branch: main
 owner: Matthew McCluster
-authority: Subordinate only to CANON.md; governs all McCluster Wildcard, PRIM2 intervention, and Royce incursion mechanics
+authority: Subordinate only to CANON.md; governs all McCluster Wildcard, PRIM2 intervention, and Benji incursion mechanics
 ---
 
 # PRIM3 — Wildcard Intervention Authority
@@ -38,14 +38,14 @@ The opposing side has its own escalation pressure:
 ```text
 NORMAL HOSTILE / HITMAN PRESSURE
         ↓ eligibility + campaign pressure
-ROYCE INCURSION
+BENJI INCURSION
 ```
 
 This is not a reset button. It is controlled escalation inside the same tactical mission.
 
 Canonical shorthand:
 
-> **The roster solves the mission. The Wildcard saves the plan. PRIM2 saves the board. Royce breaks the board.**
+> **The roster solves the mission. The Wildcard saves the plan. PRIM2 saves the board. Benji breaks the board.**
 
 ---
 
@@ -398,15 +398,15 @@ The mechanic is mercy through escalation, not save-scumming disguised as canon.
 
 ---
 
-# 7. Royce Incursion — Hitman's Wildcard
+# 7. Benji Incursion — Hitman's Wildcard
 
 ## 7.1 Core role
 
-Royce is the opposing-side answer to the player's rescue hierarchy.
+Benji is the opposing-side answer to the player's rescue hierarchy.
 
 He is not a random elite guard and not a reskinned McCluster.
 
-Royce is the current Hitman-side apex operator/successor figure: aggressive, power-hungry, physically dangerous, experienced with the organization McCluster left behind and personally entangled with McCluster's old Benji history.
+Benji is the current Hitman-side apex operator/successor figure: aggressive, power-hungry, physically dangerous, experienced with the organization McCluster left behind and personally entangled with McCluster's old Hitman history.
 
 In practical Hitman terms, he occupies the position closest to **their Prime-level field threat** even though he is not a PRIM Mantle holder and does not share PRIM2's information architecture.
 
@@ -416,7 +416,7 @@ Gameplay purpose:
 
 ## 7.2 Incursion eligibility
 
-Royce may enter an eligible mission when one or more campaign conditions are high enough:
+Benji may enter an eligible mission when one or more campaign conditions are high enough:
 
 - Hitman pressure / hostility;
 - mission strategic value;
@@ -433,24 +433,24 @@ The game should sometimes create the exact emotional reversal:
 ```text
 PLAYER: We finally stabilized this.
 SYSTEM: HOSTILE ELITE SIGNATURE DETECTED.
-PLAYER: Oh, fuck. Royce.
+PLAYER: Oh, fuck. Benji.
 ```
 
 ## 7.3 Frequency cap
 
 Default Standard campaign cap:
 
-- maximum **2 non-scripted Royce Incursions per season**;
-- maximum **1 Royce Incursion per mission**;
-- after a non-scripted appearance, Royce has a **2-mission cooldown** before another random/pressure-driven incursion;
+- maximum **2 non-scripted Benji Incursions per season**;
+- maximum **1 Benji Incursion per mission**;
+- after a non-scripted appearance, Benji has a **2-mission cooldown** before another random/pressure-driven incursion;
 - story missions may deliberately override the cap;
 - final RAID chronology is story-authored and is not governed by the random-incursion limit.
 
 This keeps him frightening without making him exhausting.
 
-## 7.4 Royce mechanical identity
+## 7.4 Benji mechanical identity
 
-Royce's fantasy is **violent disruption and pressure**, not technical omniscience.
+Benji's fantasy is **violent disruption and pressure**, not technical omniscience.
 
 He should be able to:
 - break or contest Control Zones quickly;
@@ -466,27 +466,27 @@ He should **not** solve deep technical LAB_NODE tasks merely because he is a bos
 Representative abilities:
 
 ### TAKE THE ROOM
-Royce rapidly converts one vulnerable SECURE/CONTESTED zone toward hostile control if the player has insufficient protection there.
+Benji rapidly converts one vulnerable SECURE/CONTESTED zone toward hostile control if the player has insufficient protection there.
 
 ### PRESSURE CASCADE
-When Royce Downs or severely pressures an operator, nearby allies face increased Will pressure for that round.
+When Benji Downs or severely pressures an operator, nearby allies face increased Will pressure for that round.
 
 ### HITMAN COMMAND
-Once per round, one Hitman unit may reposition or take a bounded support action around Royce.
+Once per round, one Hitman unit may reposition or take a bounded support action around Benji.
 
 ### OLD BUSINESS
-If McCluster is present, both characters gain unique contextual dialogue and selected rivalry modifiers. This must create risk for **both** sides rather than simply buffing Royce.
+If McCluster is present, both characters gain unique contextual dialogue and selected rivalry modifiers. This must create risk for **both** sides rather than simply buffing Benji.
 
-## 7.5 Royce is persistent
+## 7.5 Benji is persistent
 
-A non-finale Royce encounter normally ends through:
+A non-finale Benji encounter normally ends through:
 - player extraction;
-- Royce withdrawal;
+- Benji withdrawal;
 - mission-objective resolution;
 - authored separation;
 - or a temporary tactical defeat that does not contradict his later canonical survival.
 
-Do not allow a random side mission to permanently kill Royce before the locked endgame.
+Do not allow a random side mission to permanently kill Benji before the locked endgame.
 
 ---
 
@@ -519,7 +519,7 @@ CRITICAL FAILURE PERSISTS
 APEX REQUEST AVAILABLE
 ```
 
-Royce Incursion warnings depend on Picture/Intel quality. Strong reconnaissance may change `UNKNOWN` into `POSSIBLE`, identify his approach, or buy preparation time. It should not always prevent the incursion.
+Benji Incursion warnings depend on Picture/Intel quality. Strong reconnaissance may change `UNKNOWN` into `POSSIBLE`, identify his approach, or buy preparation time. It should not always prevent the incursion.
 
 ---
 
@@ -533,8 +533,8 @@ ApexAuthorizationsCampaign
 ExecutiveAttention
 PrimDebt
 HitmanPressure
-RoyceCooldown
-RoyceIncursionsSeason
+BenjiCooldown
+BenjiIncursionsSeason
 ```
 
 These interact with existing Budget, Heat, Standing, Intel and roster availability.
@@ -543,7 +543,7 @@ Important distinction:
 
 - **Budget** cannot simply buy McCluster or PRIM2.
 - **Standing** may affect authorization opportunities but is not a direct currency conversion.
-- **Intel** may warn about Royce but does not delete his eligibility.
+- **Intel** may warn about Benji but does not delete his eligibility.
 - **Heat** can make both rescue and hostile escalation more consequential.
 
 ---
@@ -554,7 +554,7 @@ Difficulty may tune numbers without changing character identity.
 
 Suggested standard bands:
 
-| Difficulty | Wildcard / season | Apex / campaign | Royce cap / season |
+| Difficulty | Wildcard / season | Apex / campaign | Benji cap / season |
 |---|---:|---:|---:|
 | Story | 3 | 4 | 1 |
 | Standard | **2** | **3** | **2** |
@@ -587,8 +587,8 @@ APEX RECOVERY
 SURVIVOR EXTRACTION
 NO ONE LEFT
 OBJECTIVE SALVAGED
-ROYCE SURVIVED
-ROYCE REPULSED
+BENJI SURVIVED
+BENJI REPULSED
 ```
 
 This separates **mission outcome** from **how much institutional help the player needed**.
@@ -613,7 +613,7 @@ PRIM2 call-ups create:
 - dependency on a person the cast barely understands;
 - later evidence that PRIM2 was observing far more than anyone realized.
 
-Royce incursions create:
+Benji incursions create:
 - dread before he appears;
 - scars and relationship consequences after he leaves;
 - old-history reactions from McCluster that become reverse-reveal breadcrumbs;
@@ -636,8 +636,8 @@ WILDCARD ELIGIBLE: yes/no + reason
 WILDCARD ARRIVAL RULE:
 APEX ELIGIBLE: yes/no + mission classification
 PRIM2 STORY VISIBILITY: hidden executive / partially known / explicit
-ROYCE INCURSION ELIGIBLE: yes/no
-ROYCE TELEGRAPH RULE:
+BENJI INCURSION ELIGIBLE: yes/no
+BENJI TELEGRAPH RULE:
 CRITICAL TRIGGERS:
 TERMINAL TRIGGERS:
 INTERVENTION CONSEQUENCE WRITE:
@@ -660,7 +660,7 @@ Therefore:
 - critical objectives remain solvable without McCluster in competent play;
 - McCluster's best contribution is restoring options, not auto-solving LAB_NODEs;
 - PRIM2 is vastly scarcer than McCluster;
-- Royce ensures escalation can cut both ways;
+- Benji ensures escalation can cut both ways;
 - some missions lock McCluster out entirely;
 - some story missions require specific other characters to make the decisive choice even after McCluster/PRIM2 arrives.
 
@@ -678,7 +678,7 @@ That turns character attachment into strategy.
 2. **McCluster is a scarce rescue/escalation unit, not the default protagonist pawn.**
 3. **PRIM2 has privileged oversight of missions, but observation is not automatic intervention or perfect knowledge.**
 4. **PRIM2 is an even scarcer second-stage intervention available only on genuinely critical high-value missions after McCluster is already involved.**
-5. **Royce gives the opposing board its own elite escalation threat.**
+5. **Benji gives the opposing board its own elite escalation threat.**
 6. **Interventions operate on current state; they do not rewind consequences.**
 7. **Named characters remain mechanically valuable before, during and after a Wildcard intervention.**
 8. **The player should sometimes spend a scarce intervention to save a person rather than maximize the objective. That is a feature.**
@@ -686,4 +686,4 @@ That turns character attachment into strategy.
 
 Final shorthand:
 
-> **Everybody gets to be the hero. McCluster is who they call when heroism is not enough. PRIM2 is who McCluster calls when even that is not enough. Royce is why sometimes none of it feels like enough.**
+> **Everybody gets to be the hero. McCluster is who they call when heroism is not enough. PRIM2 is who McCluster calls when even that is not enough. Benji is why sometimes none of it feels like enough.**

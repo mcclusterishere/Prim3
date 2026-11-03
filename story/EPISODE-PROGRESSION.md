@@ -15,7 +15,7 @@ PRIM3 unfolds across **seven academic years**.
 - **3 episodes per season**
 - **21 episodes total**
 - **1 song = 1 episode = 1 mission**
-- WATCH target runtime remains approximately **9 minutes**, organized causally:
+- WATCH runs approximately **20–35 minutes** (`CANON.md` §1; the old nine-minute cap is retired), organized causally:
   - human trigger / cold open establishes why the operation matters;
   - music film becomes the stylized operational brief and teaches what the team believes should work;
   - human escalation reaches the mission threshold;
@@ -34,6 +34,8 @@ See:
 - `ENSEMBLE-POV-AUTHORITY.md`
 
 ## Seven-year order
+
+**Owner decision (2026-11-02):** track order follows the order on paper. This table is that order; every other numbered song or episode list (`SONG-STORY-FUNCTIONS.md`, `SONG-CHARACTER-COUNT.md` and the rest) is renumbered to match it. *Flag for the owner: "the order on paper" is assumed to mean this table.*
 
 | Global # | Season | Episode | Song | Mission | Expandable chapter |
 |---:|---:|---:|---|---|---|
@@ -75,13 +77,13 @@ These are **ensemble themes**, not instructions that McCluster must own each sea
 
 Detailed ownership will be locked episode-by-episode, but current authoring bias is:
 
-- **Global 01 / High Alert:** PRIM2 + McCluster + Royce.
+- **Global 01 / High Alert:** PRIM2 + McCluster + Benji.
 - **Global 02–18:** majority ensemble-owned; McCluster owns a minority outright.
 - Several episodes should use McCluster only as supporting/cameo/mention.
 - At least one ordinary-season episode should work with McCluster completely absent.
 - Aya/Hana/Kkeutori material should be distributed through Aya-owned or Aya-adjacent episodes rather than turned into McCluster exposition.
-- Royce/Hitman-side character development should occur before RAID without requiring McCluster's physical presence.
-- **Global 19–21:** succession naturally returns PRIM2/McCluster/Royce toward the center while still honoring accumulated ensemble consequences.
+- Benji/Hitman-side character development should occur before RAID without requiring McCluster's physical presence.
+- **Global 19–21:** succession naturally returns PRIM2/McCluster/Benji toward the center while still honoring accumulated ensemble consequences.
 
 ## Open Episode 18
 

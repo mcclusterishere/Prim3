@@ -11,7 +11,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 
 ## 01 — McCluster — United States — 33
 
-**Civilian baseline:** First-year college student, recently homeless, living as cheaply and close to campus/work as circumstances allow. A normal Tuesday before McCluster is class, library/computer-lab time, job hunting, fixing somebody else's tech for cash, checking account balance too often, and trying to look less financially unstable than he is.
+**Civilian baseline:** First-year college student, recently homeless, living as cheaply and close to campus/work as circumstances allow. A normal Tuesday before Equity Uprise is class, library/computer-lab time, job hunting, fixing somebody else's tech for cash, checking account balance too often, and trying to look less financially unstable than he is.
 
 **Money / family:** Money is immediate, not abstract. He thinks in bus fare, food, tuition, phone service, storage, and whether he can afford to say no to an opportunity. Family ties exist but he hates becoming another emergency somebody has to solve.
 
@@ -29,7 +29,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 
 **Moral boundary:** believes he would never knowingly sacrifice a teammate for institutional efficiency.  
 **Stress habit:** stops sleeping, over-researches, starts treating every problem like it can be solved if he just refuses to quit.  
-**Secret:** he sometimes needs McCluster to be good because admitting it may be dangerous would mean the best opportunity of his life is another trap.
+**Secret:** he sometimes needs Equity Uprise to be good because admitting it may be dangerous would mean the best opportunity of his life is another trap.
 
 **Relationships:** trusts Aya; protects Valeria; is professionally dependent on Chioma and Arjun earlier than he likes; underestimates Grace's ability to read him; Prime sees through him from the beginning.
 
@@ -95,7 +95,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 
 ## 04 — Li Wei — China — 42
 
-**Civilian baseline:** Lives quietly, reads policy and technical papers for pleasure, cooks when thinking, and keeps paper notebooks despite working in digital systems. A normal Tuesday before McCluster is meetings, risk review, careful messages to family, and one long walk without headphones.
+**Civilian baseline:** Lives quietly, reads policy and technical papers for pleasure, cooks when thinking, and keeps paper notebooks despite working in digital systems. A normal Tuesday before Equity Uprise is meetings, risk review, careful messages to family, and one long walk without headphones.
 
 **Money / family:** Stable but supports relatives and treats financial security as something that can disappear through policy rather than bad spending. Family does not fully understand what his work involves.
 
@@ -141,7 +141,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 
 **Moral boundary:** will not abandon a teammate because the assignment changed.  
 **Stress habit:** makes jokes until nobody can tell she is scared.  
-**Secret:** has already considered leaving McCluster and sending money home from a less prestigious job.
+**Secret:** has already considered leaving Equity Uprise and sending money home from a less prestigious job.
 
 **Relationships:** playful competition with Yonas; cross-trained under Arjun; protective of Valeria; Priya likes her because she breaks corporate polish.
 
@@ -209,7 +209,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 
 **Civilian baseline:** Lives with camera gear, drones, old maps and too many unfinished visual projects. A normal Tuesday is field imagery work, editing, soccer or a social night, and a late check of weather/satellite layers he claims is “just curiosity.”
 
-**Money / family:** Middle-income instability; creative freelance habits made income unpredictable before McCluster. Family views steady institutional work as a blessing.
+**Money / family:** Middle-income instability; creative freelance habits made income unpredictable before Equity Uprise. Family views steady institutional work as a blessing.
 
 **Education / specialty:** Remote sensing, mapping, visual surveillance, environmental change detection.
 
@@ -611,7 +611,7 @@ These dossiers implement `HUMAN-STORY-ENGINE.md` and `CHARACTER-PERSONALIZATION-
 
 **Private wound:** inherited the work of a director who tried and failed to make the institution succession-ready.
 
-**Desire:** McCluster that can survive Prime.  
+**Desire:** a McCluster Corp that can survive Prime.  
 **Fear:** every governance mechanism is ultimately theater because Prime can override it.  
 **Contradiction:** continuity-minded leader quietly preparing for rupture.
 

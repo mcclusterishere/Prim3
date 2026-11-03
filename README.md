@@ -2,7 +2,7 @@
 
 **PRIM3** is a seven-season adult ensemble techno-thriller / infotainment universe built around technology, relationships, missions and a hidden succession system.
 
-The chronology is framed by McCluster returning to college at 33, but **McCluster is not the owner of every episode**. PRIM3 is an ensemble story: Aya, Chioma, Royce, Amira, Marc, Helen, Thandiwe, Jonas, Pylon and the rest of the multinational cast can own complete episodes, and McCluster may appear as support, cameo, mention-only or not at all.
+The chronology is framed by McCluster returning to college at 33, but **McCluster is not the owner of every episode**. PRIM3 is an ensemble story: Aya, Chioma, Benji, Amira, Marc, Helen, Thandiwe, Jonas, Pylon and the rest of the multinational cast can own complete episodes, and McCluster may appear as support, cameo, mention-only or not at all.
 
 The title has two in-world meanings:
 
@@ -11,7 +11,7 @@ The title has two in-world meanings:
 
 The number is secretly a human succession index. The presiding hidden leader during the series is **PRIM2**. McCluster eventually becomes **PRIM3**. The series title therefore names both the visible program world and the succession destination the audience does not understand at first.
 
-The story opens in the middle of the final RAID: **PRIM2** performs **High Alert** from Site 0 while McCluster and Royce's separate assault elements close in. Before the outcome is revealed, the story rewinds seven academic years.
+The story opens in the middle of the final RAID: **PRIM2** performs **High Alert** from Site 0 while McCluster and Benji's separate assault elements close in. Before the outcome is revealed, the story rewinds seven academic years.
 
 ## Core promise
 

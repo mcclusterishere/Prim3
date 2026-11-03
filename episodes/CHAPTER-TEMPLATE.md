@@ -36,8 +36,8 @@ This template is subordinate to `CANON.md`, `story/EPISODE-MISSION-BIBLE.md`, `s
 - **Wildcard arrival rule:**
 - **Apex eligible:** `yes/no + reason`
 - **PRIM2 story visibility:** `hidden executive / partially known / explicit`
-- **Royce Incursion eligible:** `yes/no + reason`
-- **Royce telegraph rule:**
+- **Benji Incursion eligible:** `yes/no + reason`
+- **Benji telegraph rule:**
 
 Ordinary PLAY should default to **no McCluster in the selectable base roster**.
 
@@ -220,7 +220,7 @@ Expand the same event into tactical choice space. Normal first-play planning ban
 - **What McCluster can salvage without auto-solving:**
 - **What remains character-owner-specific after McCluster arrives:**
 - **PRIM2 Apex arrival rule if eligible:**
-- **Royce Incursion trigger band if eligible:**
+- **Benji Incursion trigger band if eligible:**
 - **Intervention consequence write:**
 
 The intervention ladder is:
@@ -233,7 +233,7 @@ MCCLUSTER / WILDCARD
 PRIM2 / APEX
 ```
 
-The hostile board may independently escalate through a Royce Incursion.
+The hostile board may independently escalate through a Benji Incursion.
 
 ## Player verbs
 
@@ -265,7 +265,7 @@ Record:
 - staffing/workload redistribution;
 - Wildcard/Apex usage;
 - PRIM Debt / Executive Attention where relevant;
-- Hitman Pressure / Royce cooldown where relevant;
+- Hitman Pressure / Benji cooldown where relevant;
 - psychological residue;
 - support-to-main promotion movement;
 - next-character inheritance.

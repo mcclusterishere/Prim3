@@ -9,11 +9,11 @@ branch: main
 
 These compact dossiers govern the contemporary Hitman ensemble unless a later individual dossier overrides them.
 
-**Benji is McCluster's age-19-to-26 identity, not a separate present-day operator. Royce is the contemporary Hitman successor/sovereign.**
+**Benjamin "Benji" Chase (Hitman Benji, formerly Royce) is the contemporary Hitman successor/sovereign: McCluster's clone, a different person (owner decisions 2026-11-02/03).**
 
-For McCluster/Benji history, use `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `MCCLUSTER-PSYCHOLOGICAL-BACKGROUND.md`.
+For McCluster's Hitman-era history, use `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `MCCLUSTER-PSYCHOLOGICAL-BACKGROUND.md`.
 
-## Royce — contemporary sovereign / McCluster's old rival
+## Benjamin "Benji" Chase — Hitman Benji, contemporary sovereign / McCluster's old rival and clone (formerly Royce)
 
 **Age relationship:** seven years younger than McCluster. Approximately 19 when McCluster is 26 and refuses Bigga Lex's succession.  
 **Civilian texture:** keeps a schedule in which business, people asking permission, property/relationship obligations and visible authority blur together.  
@@ -25,8 +25,8 @@ For McCluster/Benji history, use `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `MCCLUST
 **Fear:** discovering his entire reign existed inside a larger PRIM2 architecture.  
 **Moral boundary:** believes there are forms of weakness a leader cannot publicly show; this becomes a liability rather than a virtue.  
 **Stress habit:** tightens control and makes loyalty tests more personal.  
-**Secret:** McCluster's refusal still structures how Royce thinks about legitimacy.  
-**Key ties:** McCluster/Benji = old rival/predecessor-by-refusal; Sable = organizational reality; Tone/Mina = people whose voluntary loyalty matters; PRIM2 = hidden apex.  
+**Secret:** McCluster's refusal still structures how Benji thinks about legitimacy.  
+**Key ties:** McCluster = old rival/predecessor-by-refusal; Sable = organizational reality; Tone/Mina = people whose voluntary loyalty matters; PRIM2 = hidden apex.  
 **Failure mode:** authority becomes identity, so challenges to authority feel like challenges to existence.
 
 ## Sable Quinn — operations / money
@@ -41,7 +41,7 @@ For McCluster/Benji history, use `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `MCCLUST
 **Fear:** backing a sovereign whose mythology overwhelms reality.  
 **Moral boundary:** crew payroll/family-support obligations are not discretionary status money.  
 **Stress habit:** stops eating and starts reciting numbers from memory.  
-**Key ties:** Royce = necessary but dangerous authority; Rack = trusted logistics truth.  
+**Key ties:** Benji = necessary but dangerous authority; Rack = trusted logistics truth.  
 **Failure mode:** can reduce people to balance-sheet risk while claiming objectivity.
 
 ## Grant Voss — sponsor / respectable-money board
@@ -70,7 +70,7 @@ For McCluster/Benji history, use `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `MCCLUST
 **Fear:** discovering fear was all he had.  
 **Moral boundary:** will not start violence merely to perform status.  
 **Stress habit:** becomes physically still and emotionally closed.  
-**Key ties:** Royce = loyalty under strain; Dez = mentorship; Perch = trusted warning voice.  
+**Key ties:** Benji = loyalty under strain; Dez = mentorship; Perch = trusted warning voice.  
 **Failure mode:** loyalty can outlive judgment.
 
 ## Kira “Keys” Moon — access / social gate
@@ -84,7 +84,7 @@ For McCluster/Benji history, use `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `MCCLUST
 **Fear:** nobody values her without the network.  
 **Moral boundary:** will not knowingly feed a vulnerable friend into a situation they do not understand.  
 **Stress habit:** manages everybody's movements.  
-**Secret:** maintains an exit network Royce does not fully understand.  
+**Secret:** maintains an exit network Benji does not fully understand.  
 **Key ties:** Rae = protégée/friend; Jules = technical dependency; Sable = skeptical senior.  
 **Failure mode:** control of access becomes mistaken for control of outcomes.
 
@@ -157,7 +157,7 @@ For McCluster/Benji history, use `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `MCCLUST
 **Moral boundary:** will not betray personal trust for promotion.  
 **Stress habit:** says yes to everything.  
 **Secret:** does not know what he wants when nobody needs something.  
-**Key ties:** Tone = mentor; Mina = authority; Royce = sovereign whose need for loyalty can exploit Dez's need to be useful.  
+**Key ties:** Tone = mentor; Mina = authority; Benji = sovereign whose need for loyalty can exploit Dez's need to be useful.  
 **Failure mode:** no stable self underneath adaptation.
 
 ## Mina “Halo” Brooks — cell lead
@@ -171,7 +171,7 @@ For McCluster/Benji history, use `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `MCCLUST
 **Fear:** believing survival proves every choice was right.  
 **Moral boundary:** will not order someone to stay behind merely to protect property/reputation.  
 **Stress habit:** privately re-litigates decisions and sleeps poorly.  
-**Key ties:** Royce = sovereign; Dez = protected younger operator; Tone = experienced counterweight.  
+**Key ties:** Benji = sovereign; Dez = protected younger operator; Tone = experienced counterweight.  
 **Failure mode:** certainty becomes a performance she cannot stop.
 
 ## Sora “Gymnast” Okada — elite social-entry asset
@@ -191,18 +191,20 @@ For McCluster/Benji history, use `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `MCCLUST
 
 # McCluster / Benji historical note
 
-McCluster's old Benji identity may appear in Hitman stories, rumors, records and characters' memories.
+McCluster's Hitman years may appear in Hitman stories, rumors, records and characters' memories, under McCluster's own name.
 
-Do not use a present-day `Benji` dossier separate from McCluster.
+**Owner decisions (2026-11-02, 2026-11-03): Benjamin "Benji" Chase is not McCluster; he is McCluster's clone.** The character formerly called Royce is **Benjamin Chase**: a government-program clone of McCluster (an engineered derivative born seven years after him), "low-key McCluster's evil twin". He is Benjamin Chase until he takes over the Hitman organisation at about 19; after that he is dubbed **"Hitman Benji"**. He is a separate person with his own life and choices, the Hitman sovereign and the Hitman-side RAID attacker. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation, the refused chair) is McCluster's: "The retaliation he did was all him." Origin authority: `story/BENJI-CHASE-JANUS-ORIGIN-CANON.md` (reveal-gated to Evil Twin).
 
-Old dossier claims that Royce is 52, functions as Benji's father/mentor, that Benji is 28 during the immediate story, or that Benji is simultaneously climbing parallel to McCluster are deleted from continuity.
+Benji's dossier is the sovereign entry above (formerly headed "Royce").
+
+Old dossier claims that the sovereign is 52, functions as Benji's father/mentor, that Benji is 28 during the immediate story, or that Benji is climbing to the Hitman chair in parallel with McCluster are deleted from continuity.
 
 # Episode ownership
 
 Hitman characters are eligible to own full PRIM3 episodes or major episode movements. McCluster's presence is not required.
 
-Royce in particular must develop as an independent character before the final RAID so his endgame choices do not exist solely as reactions to McCluster.
+Benji in particular must develop as an independent character before the final RAID so his endgame choices do not exist solely as reactions to McCluster.
 
 # Maintenance rule
 
-If a Hitman character gains money, loses a person, changes rank, acquires legitimate work, begins/ends a relationship, learns the PRIM truth or changes their relationship to Royce, update this file and `CHARACTER-RELATIONSHIP-STATE.md`.
+If a Hitman character gains money, loses a person, changes rank, acquires legitimate work, begins/ends a relationship, learns the PRIM truth or changes their relationship to Benji, update this file and `CHARACTER-RELATIONSHIP-STATE.md`.

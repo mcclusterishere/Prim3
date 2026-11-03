@@ -20,11 +20,10 @@ PRIMARY OWNERS: Sari Wulandari / Sable Quinn
 SECONDARY DEPTH: Minh Tran / Yonas Bekele / Maren Quill / Li Wei / Jules “Kiosk” Mendez / Grace Mbala
 MCCLUSTER: mentioned/edge; off-board Wildcard only if CRITICAL
 APEX: eligible only after McCluster is present and high-value crisis remains CRITICAL
-ROYCE: eligible as hostile escalation under current rules
-BENJI: not a separate contemporary person; Benji = McCluster's historical identity
+BENJI: eligible as hostile escalation under current rules
 ```
 
-This completely supersedes the old “McCluster glimpses separate Benji” continuity while preserving elasticity, scaling and unknown-parallel-operations themes.
+This supersedes the old “McCluster glimpses Benji” continuity while preserving elasticity, scaling and unknown-parallel-operations themes.
 
 ---
 
@@ -41,7 +40,7 @@ This completely supersedes the old “McCluster glimpses separate Benji” conti
 | Kiosk | Hitman technical | Becomes Sable's technical reality-check rather than a generic hacker; their working relationship gains texture. |
 | Grace | human consequence | Tracks who is burning out, who is being deprioritized, and what populations disappear when dashboards summarize demand. |
 | McCluster | optional Wildcard | If called, restores an alternate route or coordination seam, but the episode still belongs to the people operating both systems at scale. |
-| Royce | conditional hostile escalation | Can violently change tempo and objective pressure without being the technical cause of the cloud event. |
+| Benji | conditional hostile escalation | Can violently change tempo and objective pressure without being the technical cause of the cloud event. |
 
 ---
 
@@ -88,7 +87,7 @@ Core line:
 7. Maren watches public messaging turn exhaustion into “seamless growth.”
 8. Cut to Sable/Kiosk managing a different pressure environment with recognizable parallel labor, money and continuity problems.
 9. The PRIM operation succeeds enough to keep critical service alive, but costs and staffing consequences remain.
-10. Optional Royce incursion or McCluster call-up can reshape tactical pressure without rewriting Sari/Sable ownership.
+10. Optional Benji incursion or McCluster call-up can reshape tactical pressure without rewriting Sari/Sable ownership.
 
 ---
 
@@ -110,7 +109,7 @@ PRIM2 may possess a wider cross-board picture than either Sari or Sable. The lat
 # Persistent residue
 
 - Sari becomes a more serious operator because she now understands scale as burden.
-- Sable gains full recurring-character legitimacy independent of Royce.
+- Sable gains full recurring-character legitimacy independent of Benji.
 - Minh's independence becomes visible to the wider organization.
 - Yonas proves his Episode 6 growth stuck.
 - Maren's skepticism of polished institutional language deepens.

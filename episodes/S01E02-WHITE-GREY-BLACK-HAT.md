@@ -46,7 +46,7 @@ MCCLUSTER NARRATIVE STATE: C — supporting
 MCCLUSTER PLAY STATE: LOCKED OUT
 WILDCARD: unavailable — the player has not yet earned the emergency-call fantasy
 APEX: unavailable
-ROYCE: unavailable
+BENJI: unavailable
 ```
 
 Episode ownership determines depth, not exclusivity.
@@ -545,7 +545,7 @@ PRIM2 already knows who McCluster is.
 
 What interests him is the new behavioral evidence.
 
-The old Benji/McCluster history taught PRIM2 that McCluster can improvise around boundaries.
+McCluster's old Hitman history taught PRIM2 that McCluster can improvise around boundaries.
 
 Episode 2 shows something different:
 

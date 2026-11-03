@@ -26,7 +26,7 @@ Hana must never collapse into "the dead mentor" or "the Korean spy." Both identi
 - **Age at death:** approximately 36, when Aya is approximately 29
 - **Public profession:** robotics / biorobotics / physical human-robot interaction engineer
 - **Hidden profession:** NIS technical intelligence officer under deep research/professional cover
-- **McCluster role:** advanced cyber-physical / robotics specialist
+- **Equity Uprise role:** advanced cyber-physical / robotics specialist
 - **Primary psychological strength:** patient inference under uncertainty
 - **Primary psychological flaw:** she can become so committed to proving a hidden system exists that she begins treating personal relationships as compartments to protect rather than relationships that deserve informed consent
 - **Core maxim:** **A good system does not merely work. It fails safely.**
@@ -174,13 +174,13 @@ After Hana's death, his loyalty is primarily to Aya rather than to discovering H
 
 ---
 
-# 9. Hana and McCluster
+# 9. Hana and McCluster Corp
 
 Hana's public reason for joining Equity Uprise is credible: the organization offers access to unusually difficult cyber-physical environments where robotics, infrastructure, identity, safety and human decision-making collide.
 
 Her hidden reason is intelligence collection and assessment.
 
-Hana does not enter assuming McCluster is evil.
+Hana does not enter assuming McCluster Corp is evil.
 
 She enters with a question:
 
@@ -196,7 +196,7 @@ As she works, she sees real good:
 
 This complicates her mission.
 
-Hana does not want McCluster to be sinister because she increasingly likes many of the people inside it.
+Hana does not want McCluster Corp to be sinister because she increasingly likes many of the people inside it.
 
 But the anomalies do not disappear.
 
@@ -226,7 +226,7 @@ This is not friendship, but it does contain genuine respect from Prime toward Ha
 
 # 11. The Living Root hypothesis
 
-Hana gradually concludes that McCluster's visible hierarchy does not explain its cross-system behavior.
+Hana gradually concludes that McCluster Corp's visible hierarchy does not explain its cross-system behavior.
 
 She begins calling the unknown highest-trust dependency **the Living Root**.
 
@@ -241,7 +241,7 @@ UNEXPLAINED OVERRIDES
 → SITE 0 ASSOCIATION
 ```
 
-She does not fully discover the later McCluster/Royce architecture.
+She does not fully discover the later McCluster/Benji architecture.
 
 She does not yet possess the full answer.
 

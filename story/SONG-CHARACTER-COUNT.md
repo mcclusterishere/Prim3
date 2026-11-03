@@ -1,7 +1,7 @@
 ---
 status: CANON
 system: Character census from lyric texts
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Song → character count (classified)
@@ -13,7 +13,17 @@ version: 1.0.0
 
 ---
 
-## E01 High Alert
+## Order and continuity note (2026-11-02)
+
+- **Order:** sections now follow the written episode order in `EPISODE-PROGRESSION.md` (owner decision 2026-11-02: track order follows the order on paper; the assumption that the paper order is `EPISODE-PROGRESSION.md` is flagged for the owner). The old numbering (E06 Patch Work, E07 App Attacks, E15 RAID, E16 Evil Twin and so on) is kept in each heading as "was". The three songs the old census skipped (Got Wifi, Data Breach, Virus Types) and the open Song #21 slot have placeholders.
+- **Benji:** this census lists Benji as the Hitman-side raider, separate from McCluster. That now matches canon: Benjamin "Benji" Chase (Hitman Benji, formerly Royce) is McCluster's clone and the Hitman-side raider and survivor (owner decisions 2026-11-02/03; `CANON.md` §9, §16, §18).
+- **Prime:** "Prime" here means **PRIM2** (`CANON.md` §7).
+- **Evil Twin (E20) flag:** the E20 census follows the old procedural SIM-swap / Hitgirl / Kiosk version. `story/missions/EVIL-TWIN.md` v2.0 makes Evil Twin PRIM2's confession and provenance verification after RAID and calls the procedural SIM-swap concept obsolete. The census is kept as lyric analysis only; it is not a cast list for the episode.
+- The remaining content is the original lyric census, unchanged.
+
+---
+
+## E01 High Alert (global episode 01)
 | Role | Tree | Tier |
 |------|------|------|
 | Prime (speaker) | P / above | **Core** |
@@ -27,7 +37,7 @@ version: 1.0.0
 
 ---
 
-## E02 White Grey Black Hat
+## E02 White Grey Black Hat (global episode 02)
 | Role | Tree | Tier |
 |------|------|------|
 | Speaker / operator learning hats | P | **Core** (McCluster) |
@@ -39,7 +49,7 @@ version: 1.0.0
 
 ---
 
-## E03 OSINT
+## E03 OSINT (global episode 03)
 | Role | Tree | Tier |
 |------|------|------|
 | Speaker (collector) | P | McCluster / Field-R |
@@ -51,7 +61,7 @@ version: 1.0.0
 
 ---
 
-## E04 Anti Social Engineering
+## E04 Anti Social Engineering (global episode 04)
 | Role | Tree | Tier |
 |------|------|------|
 | Speaker (“I know him / stuck in the mix”) | P | Higher operator |
@@ -69,7 +79,7 @@ version: 1.0.0
 
 ---
 
-## E05 Red Blue Purple White Team
+## E05 Red Blue Purple White Team (global episode 05)
 | Role | Tree | Tier |
 |------|------|------|
 | Red / Blue / Purple / White seats | P | **Higher** — fill cohort job slots |
@@ -79,7 +89,100 @@ version: 1.0.0
 
 ---
 
-## E06 Patch Work
+## E06 Got Wifi (global episode 06)
+_Census not yet written. The old census skipped this song. Lyric source: `source-material/got-wifi/LYRICS.md`._
+
+---
+
+## E07 Data Breach (global episode 07)
+_Census not yet written. The old census skipped this song. Lyric source: `source-material/data-breach/`._
+
+---
+
+## E08 App Attacks (global episode 08; was "E07")
+| Role | Tree | Tier |
+|------|------|------|
+| Attacker / team | P | McCluster + Field-T |
+| Soft-target users | X | Extra victims |
+| Admin / RBAC holders | X or P | Extra or internal |
+**Count:** medium · 2–3 higher + X users
+
+---
+
+## E09 Virus Types (global episode 09)
+_Census not yet written. The old census skipped this song. Lyric source: `source-material/virus-types/LYRICS.md`._
+
+---
+
+## E10 Installation Types (global episode 10; was "E08")
+| Role | Tree | Tier |
+|------|------|------|
+| Installer / path-chooser | P | McCluster |
+| “Brothers die searching” | P/H | Higher fallen or extra |
+**Count:** low · path doctrine
+
+---
+
+## E11 Dive In (global episode 11; was "E09")
+| Role | Tree | Tier |
+|------|------|------|
+| Field diver | P | Field-R slot |
+| Drone / physical support | P | Higher |
+| Dumpster / street witnesses | X | Extra |
+**Count:** 2–3 higher + X
+
+---
+
+## E12 IoT (global episode 12; was "E10")
+| Role | Tree | Tier |
+|------|------|------|
+| Operator | P | Higher |
+| Soft-device owners | X | Extra civilians |
+| Compound sensors (Prime’s) | P | systems |
+**Count:** 1–2 higher + X
+
+---
+
+## E13 IaaS SaaS PaaS (global episode 13; was "E11")
+| Role | Tree | Tier |
+|------|------|------|
+| Server / speaker | P | Higher institutional |
+| Client who “signed in / feels so right” | X or P | Extra or Maren-adjacent |
+**Count:** low–medium
+
+---
+
+## E14 Cap Ex vs Op Ex (global episode 14; was "E12")
+| Role | Tree | Tier |
+|------|------|------|
+| Speaker | P | McCluster |
+| **Wifey (CapEx)** | P | **Core Aya** |
+| **Sidepiece (OpEx)** | X or P | Extra or named rival interest |
+| Right-guy / crime-scene CapEx source | H or X | Extra or Hitman money |
+**Count:** 2–4 · love economics
+
+---
+
+## E15 Trappin From The Cloud (global episode 15; was "E13")
+| Role | Tree | Tier |
+|------|------|------|
+| Cloud trapper (speaker) | P | Higher |
+| Friend plotting when you get paid | X or P | Extra or rival |
+| Supply locations / weight | H/P | Extra logistics |
+**Count:** 2–3 higher + X
+
+---
+
+## E16 Per Diem (global episode 16; was "E14")
+| Role | Tree | Tier |
+|------|------|------|
+| Grinder (speaker) | P | McCluster / cohort |
+| Seasonal vs hybrid peers | P | Higher cohort fills |
+**Count:** 2–5 cohort faces → **roster fill**
+
+---
+
+## E17 Patch Work (global episode 17; was "E06")
 | Role | Tree | Tier |
 |------|------|------|
 | Speaker (patch / love) | P | **Core** McCluster or duet |
@@ -91,85 +194,12 @@ version: 1.0.0
 
 ---
 
-## E07 App Attacks
-| Role | Tree | Tier |
-|------|------|------|
-| Attacker / team | P | McCluster + Field-T |
-| Soft-target users | X | Extra victims |
-| Admin / RBAC holders | X or P | Extra or internal |
-**Count:** medium · 2–3 higher + X users
+## E18 Song #21 — OPEN (global episode 18)
+_Protected slot. No lyrics exist; no census until the owner supplies Song #21._
 
 ---
 
-## E08 Installation Types
-| Role | Tree | Tier |
-|------|------|------|
-| Installer / path-chooser | P | McCluster |
-| “Brothers die searching” | P/H | Higher fallen or extra |
-**Count:** low · path doctrine
-
----
-
-## E09 Dive In
-| Role | Tree | Tier |
-|------|------|------|
-| Field diver | P | Field-R slot |
-| Drone / physical support | P | Higher |
-| Dumpster / street witnesses | X | Extra |
-**Count:** 2–3 higher + X
-
----
-
-## E10 IoT
-| Role | Tree | Tier |
-|------|------|------|
-| Operator | P | Higher |
-| Soft-device owners | X | Extra civilians |
-| Compound sensors (Prime’s) | P | systems |
-**Count:** 1–2 higher + X
-
----
-
-## E11 IaaS SaaS PaaS
-| Role | Tree | Tier |
-|------|------|------|
-| Server / speaker | P | Higher institutional |
-| Client who “signed in / feels so right” | X or P | Extra or Maren-adjacent |
-**Count:** low–medium
-
----
-
-## E12 Cap Ex vs Op Ex
-| Role | Tree | Tier |
-|------|------|------|
-| Speaker | P | McCluster |
-| **Wifey (CapEx)** | P | **Core Aya** |
-| **Sidepiece (OpEx)** | X or P | Extra or named rival interest |
-| Right-guy / crime-scene CapEx source | H or X | Extra or Hitman money |
-**Count:** 2–4 · love economics
-
----
-
-## E13 Trappin From The Cloud
-| Role | Tree | Tier |
-|------|------|------|
-| Cloud trapper (speaker) | P | Higher |
-| Friend plotting when you get paid | X or P | Extra or rival |
-| Supply locations / weight | H/P | Extra logistics |
-**Count:** 2–3 higher + X
-
----
-
-## E14 Per Diem
-| Role | Tree | Tier |
-|------|------|------|
-| Grinder (speaker) | P | McCluster / cohort |
-| Seasonal vs hybrid peers | P | Higher cohort fills |
-**Count:** 2–5 cohort faces → **roster fill**
-
----
-
-## E15 RAID
+## E19 RAID (global episode 19; was "E15")
 | Role | Tree | Tier |
 |------|------|------|
 | Prime | P | Core |
@@ -182,7 +212,7 @@ version: 1.0.0
 
 ---
 
-## E16 Evil Twin
+## E20 Evil Twin (global episode 20; was "E16")
 | Role | Tree | Tier |
 |------|------|------|
 | Prime (speaker) | above | Core |
@@ -200,7 +230,7 @@ version: 1.0.0
 
 ---
 
-## Ghost In The Wires (ending mode)
+## E21 Ghost In The Wires (global episode 21; ending mode)
 | Role | Tree | Tier |
 |------|------|------|
 | Prime-as-ghost | above/P | Core |

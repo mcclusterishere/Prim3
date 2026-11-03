@@ -13,7 +13,7 @@ The canonical PRIM3 protagonist is **McCluster**.
 
 The prior protagonist identity is retired from current canon. Historical treatments, episode plans, game rules and character references must resolve to McCluster unless an explicitly archived source is being discussed as obsolete development history.
 
-McCluster does **not** enter the series by joining Equity Uprise.
+McCluster does **not** enter the series by joining McCluster Corp.
 
 He enters by joining **Equity Uprise**.
 
@@ -69,19 +69,19 @@ His defining flaw is the inverse of the same strength:
 
 The succession story therefore asks whether someone capable of holding enormous centralized authority can learn not to confuse capability with entitlement.
 
-## McCluster / Benji / Ghost continuity
+## McCluster / Hitman / Ghost continuity
 
 The reverse-reveal structure remains.
 
-- Hitman / Benji — approximately age 19–26.
+- Hitman — approximately age 19–26.
 - Whip Equipped / Ghost — approximately age 26–33.
 - PRIM3 / Equity Uprise — approximately age 33–40.
 
-**Benji is McCluster.**
+**Owner decisions (2026-11-02, 2026-11-03): Benjamin "Benji" Chase is not McCluster; he is McCluster's clone.** The character formerly called Royce is **Benjamin Chase**: a government-program clone of McCluster (an engineered derivative born seven years after him), "low-key McCluster's evil twin". He is Benjamin Chase until he takes over the Hitman organisation at about 19; after that he is dubbed **"Hitman Benji"**. He is a separate person with his own life and choices, the Hitman sovereign and the Hitman-side RAID attacker. McCluster's own age-19-to-26 Hitman life (college, Bigga Lex, the studio, the retaliation, the refused chair) is McCluster's: "The retaliation he did was all him." Origin authority: `story/BENJI-CHASE-JANUS-ORIGIN-CANON.md` (reveal-gated to Evil Twin).
 
-**Ghost is McCluster during the Whip Equipped period.**
+**Ghost is McCluster during the Whip Equipped period.** "The Ghost Years" is the structural name of that life stage, not a second person.
 
-They are life-stage identities, not separate contemporary characters.
+**Ghost is a state, not an alias (owner decision, 2026-11-03).** "Ghost" names McCluster's **ghost mode** in the Whip Equipped years: "he's been ghosted from the view of everyone … under the radar." It is an era and a way of living, not a name he goes by, and it has no link to Benji.
 
 ## The name mystery
 

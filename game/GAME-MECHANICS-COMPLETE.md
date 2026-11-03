@@ -15,7 +15,7 @@ Specialized authorities:
 1. `ADAPTIVE-CYBER-RANGE-AUTHORITY.md`, readiness, adaptation, live lab integration, and evidence traces.
 2. `LEARNING-MISSION-SOURCE-OF-TRUTH.md`, PRIM learning loop and mastery law.
 3. `TACTICAL-IT-MECHANICS-BIBLE.md`, technical and action grammar.
-4. `WILDCARD-INTERVENTION-AUTHORITY.md`, McCluster, PRIM2, and Royce escalation.
+4. `WILDCARD-INTERVENTION-AUTHORITY.md`, McCluster, PRIM2, and Benji escalation.
 5. `OMNISCIENT-COMMAND-INTERFACE.md`, fused mission control UI.
 6. `story/ENSEMBLE-POV-AUTHORITY.md`, character and episode ownership.
 7. `story/CAST-LIFECYCLE-ATTRITION-PROMOTION-AUTHORITY.md`, recurring cast development, death, vacancy, promotion, and replacement.
@@ -139,7 +139,7 @@ Neither can auto award technical mastery.
 | Onboarding | New arrivals integrating unevenly into the social and operational graph |
 | Wildcard | Scarce McCluster call up authorizations |
 | Apex | Scarce PRIM2 intervention authorizations |
-| Hitman pressure | Eligibility pressure for hostile escalation including Royce |
+| Hitman pressure | Eligibility pressure for hostile escalation including Benji |
 
 McCluster is not a normal selectable roster slot on most story missions.
 
@@ -175,8 +175,8 @@ ApexAuthorizationsCampaign
 ExecutiveAttention
 PrimDebt
 HitmanPressure
-RoyceCooldown
-RoyceIncursionsSeason
+BenjiCooldown
+BenjiIncursionsSeason
 ```
 
 Budget does not directly purchase McCluster or PRIM2.
@@ -185,7 +185,7 @@ Canonical Standard balance remains:
 
 1. McCluster Wildcard, 2 nonscripted calls per season.
 2. PRIM2 Apex, 3 nonscripted calls per seven season campaign.
-3. Royce, maximum 2 nonscripted incursions per season, one per mission, then a two mission cooldown.
+3. Benji, maximum 2 nonscripted incursions per season, one per mission, then a two mission cooldown.
 
 Story scripted appearances do not consume these pools.
 
@@ -289,9 +289,9 @@ PRIM2 can become a nonscripted second stage rescue only on eligible high value m
 
 His authority can expose information and alter permission. It cannot alter physical truth, bypass validation, or resurrect losses.
 
-## F5. Royce incursion
+## F5. Benji incursion
 
-Royce is the opposing board's elite escalation threat. He specializes in breaking Control, forcing route changes, increasing Will pressure, disrupting objective tempo, coordinating Hitman units, and punishing overextension.
+Benji is the opposing board's elite escalation threat. He specializes in breaking Control, forcing route changes, increasing Will pressure, disrupting objective tempo, coordinating Hitman units, and punishing overextension.
 
 He is not a substitute for the technical LAB_NODE problem.
 
@@ -466,7 +466,7 @@ It may tune enemy Aim or HP, detection gain, Window size, responder timing, Will
 
 Canonical intervention defaults remain:
 
-| Tactical Challenge | Wildcard per season | Apex per campaign | Royce cap per season |
+| Tactical Challenge | Wildcard per season | Apex per campaign | Benji cap per season |
 | --- | ---: | ---: | ---: |
 | Story | 3 | 4 | 1 |
 | Standard | 2 | 3 | 2 |
@@ -535,7 +535,7 @@ The preferred browser tactical renderer is PlayCanvas for the current implementa
 5. Vacancy and workload tracking.
 6. Promotion and cross training.
 7. Wildcard and Apex pools.
-8. Hitman pressure and Royce cooldown.
+8. Hitman pressure and Benji cooldown.
 9. Aftermath writeback.
 
 ### Tactical
@@ -549,7 +549,7 @@ The preferred browser tactical renderer is PlayCanvas for the current implementa
 7. Downed, stabilize, injury, and death.
 8. McCluster request and delayed arrival.
 9. PRIM2 Apex state.
-10. Royce incursion state.
+10. Benji incursion state.
 11. Graded operational outcome.
 
 ### Cyber range
@@ -585,7 +585,7 @@ The preferred browser tactical renderer is PlayCanvas for the current implementa
 5. Dead Air network and RF slice.
 6. One Wildcard rescue test.
 7. One Apex intervention test.
-8. One Royce incursion test.
+8. One Benji incursion test.
 9. One vacancy and reassignment test.
 
 # N. Governing gameplay feeling

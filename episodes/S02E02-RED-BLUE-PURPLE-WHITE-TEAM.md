@@ -22,7 +22,7 @@ MISSION LEAD: Chioma
 BASE PLAYABLE ROSTER: named ensemble assigned across Red / Blue / Purple / White functions
 MCCLUSTER: supporting; not selectable at launch; Wildcard only after exercise becomes real CRITICAL incident
 APEX: unavailable
-ROYCE: unavailable
+BENJI: unavailable
 ```
 
 ---

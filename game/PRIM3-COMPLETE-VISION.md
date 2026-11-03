@@ -21,7 +21,7 @@ XCOM supplies useful tactical bones. PRIM3 adds persistent human relationships, 
 | Browser-native target | Watch/play without a launcher barrier where practical |
 | Graded truth | Partial accomplishment counts; not every imperfection becomes MISSION FAILED |
 | Character preservation pressure | Named operators matter enough that rescue decisions hurt |
-| Intervention escalation | Squad -> McCluster Wildcard -> rare PRIM2 Apex; opposing side can answer with Royce |
+| Intervention escalation | Squad -> McCluster Wildcard -> rare PRIM2 Apex; opposing side can answer with Benji |
 | Institutional world | McCluster / PRIM / Hitman / Mantle continuity rather than alien-war cosplay |
 
 One-line fantasy:
@@ -190,28 +190,28 @@ Using PRIM2 should feel enormous because the player only gets a few chances to d
 
 The player is not the only side with a hero button.
 
-Royce can enter eligible missions as a persistent Hitman-side incursion threat, analogous in tension to an XCOM Chosen appearing and suddenly changing the entire tactical problem.
+Benji can enter eligible missions as a persistent Hitman-side incursion threat, analogous in tension to an XCOM Chosen appearing and suddenly changing the entire tactical problem.
 
 Canonical Standard cap:
-- maximum **2 non-scripted Royce Incursions per season**;
+- maximum **2 non-scripted Benji Incursions per season**;
 - maximum one per mission;
 - two-mission cooldown after a non-scripted appearance;
 - story missions can override this;
 - the final RAID is authored canon and ignores the random-incursion cap.
 
-Royce's gameplay identity is asymmetric:
+Benji's gameplay identity is asymmetric:
 
 ```text
 MCCLUSTER -> optionality / improvisation
 PRIM2  -> information / sovereign authority
-ROYCE  -> violent disruption / pressure / hostile command
+BENJI  -> violent disruption / pressure / hostile command
 ```
 
-Royce should be able to break Control Zones, force route changes, pressure isolated operators, damage tempo and turn a clean operation into survival mode.
+Benji should be able to break Control Zones, force route changes, pressure isolated operators, damage tempo and turn a clean operation into survival mode.
 
 He does not suddenly become a Field-T genius because he is a boss character.
 
-The more attached players become to the ensemble, the scarier a Royce incursion becomes.
+The more attached players become to the ensemble, the scarier a Benji incursion becomes.
 
 ---
 
@@ -246,7 +246,7 @@ And only a few times in the entire campaign:
 
 > **McCluster is already there. This is still collapsing. Call PRIM2.**
 
-Then sometimes Hitman answers with Royce and the mission becomes something entirely different.
+Then sometimes Hitman answers with Benji and the mission becomes something entirely different.
 
 ---
 
@@ -267,7 +267,7 @@ Campaign PLAY tracks:
 | Apex Authorizations | PRIM2 campaign-wide scarcity |
 | Executive Attention / PRIM Debt | Consequence of repeatedly needing apex help |
 | Hitman Pressure | Hostile escalation state |
-| Royce Cooldown / Incursions | Persistent rival pressure |
+| Benji Cooldown / Incursions | Persistent rival pressure |
 
 Budget cannot simply buy McCluster or PRIM2.
 
@@ -327,7 +327,7 @@ All PLAY clients preserve the same outcome channels and escalation identities ev
 2. One playable mission with named R/E/T characters and no binary-fail cliff.
 3. `STABLE / DEGRADED / CRITICAL / TERMINAL` mission state.
 4. McCluster Wildcard request, delay, arrival and aftermath write.
-5. Royce Incursion implementation.
+5. Benji Incursion implementation.
 6. PRIM2 Apex intervention and hidden/explicit executive UI states.
 7. Operations board with persistent roster/injuries.
 8. Browser WATCH/PLAY transition.

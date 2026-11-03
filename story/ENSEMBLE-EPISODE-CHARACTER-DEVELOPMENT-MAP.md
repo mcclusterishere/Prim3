@@ -32,13 +32,13 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 
 ## 01 — HIGH ALERT / The Blip
 
-**Owners:** PRIM2 + McCluster + Royce  
+**Owners:** PRIM2 + McCluster + Benji  
 **McCluster state:** scripted future principal  
 **Playable state:** tightly authored future fragment; not normal campaign deployment  
-**Character write:** the audience first sees McCluster as a man dangerous enough to reach Site 0, Royce as a parallel apex threat, and PRIM2 as the person who somehow knows both boards. None of the relationships are explained yet.  
+**Character write:** the audience first sees McCluster as a man dangerous enough to reach Site 0, Benji as a parallel apex threat, and PRIM2 as the person who somehow knows both boards. None of the relationships are explained yet.  
 **Ensemble function:** the 17 memory fragments promise that the story belongs to far more people than the three men in the room.  
 **PRIM2 write:** competence, contempt, pressure and the habit of turning other people's histories into strategic information.  
-**Royce write:** he is not a random end boss; his body language around McCluster carries personal history the audience cannot decode yet.  
+**Benji write:** he is not a random end boss; his body language around McCluster carries personal history the audience cannot decode yet.  
 **Residue:** question planted — *How the hell did these people get here?*
 
 ## 02 — WHITE GREY BLACK HAT / Permission Slip
@@ -50,7 +50,7 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** locked out; McCluster is part of the human problem, not the default pawn  
 **Wildcard:** unavailable  
 **Apex:** unavailable  
-**Royce:** unavailable
+**Benji:** unavailable
 
 **Nusrat development:** her belief that rules must apply equally meets the first real test: a promising new recruit whom powerful people clearly want admitted. She must decide whether McCluster receives normal scrutiny even when senior personnel are quietly interested in him. She does.  
 **Miguel development:** shows how he can enforce the same rule without humiliating the person being stopped; establishes his human-security philosophy.  
@@ -69,7 +69,7 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** off-board Wildcard  
 **Wildcard:** eligible; this is the first clean Wildcard tutorial opportunity  
 **Apex:** unavailable  
-**Royce:** not eligible
+**Benji:** not eligible
 
 **Oksana development:** proves that disciplined uncertainty is not indecision. She refuses a clean explanation until provenance supports it.  
 **Rafael development:** his joking surface is contrasted with obsessive patience; he catches a tiny environmental inconsistency only because he keeps looking after everyone else is bored.  
@@ -93,9 +93,9 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** off-board Wildcard  
 **Wildcard:** eligible  
 **Apex:** unavailable  
-**Royce:** not a direct incursion; Hitman-side presence is Sora/Keys
+**Benji:** not a direct incursion; Hitman-side presence is Sora/Keys
 
-**Priya development:** she is proud that McCluster's visual identity makes people feel welcome. The episode forces her to confront that the same cues can manufacture false belonging.  
+**Priya development:** she is proud that Equity Uprise's visual identity makes people feel welcome. The episode forces her to confront that the same cues can manufacture false belonging.  
 **Maren development:** treats communication as operational infrastructure; begins noticing that public trust can become an attack surface.  
 **Sora development:** gets real interiority instead of villain framing. She is brilliant at high-status social environments because she understands what powerful people want to assume about themselves.  
 **Keys development:** shows that practical access often begins with relationships, invitations and familiarity rather than technology.  
@@ -113,7 +113,7 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** off-board Wildcard  
 **Wildcard:** eligible only after the exercise becomes a real incident  
 **Apex:** unavailable  
-**Royce:** unavailable; Hitman mirror carried through Mina/Dez cutaways
+**Benji:** unavailable; Hitman mirror carried through Mina/Dez cutaways
 
 **Chioma development:** earns command because people already coordinate around her. First real wound: leadership means deciding whose work stops and whose risk continues.  
 **Thandiwe development:** challenges Chioma's instinct to equate coordination with legitimacy; becomes the peer who asks whether the system deserves to be optimized at all.  
@@ -133,7 +133,7 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** off-board Wildcard  
 **Wildcard:** eligible; likely the first high-emotion decision about spending one  
 **Apex:** unavailable  
-**Royce:** unavailable
+**Benji:** unavailable
 
 **Sari development:** family sacrifice becomes pressure when communications failure threatens people rather than dashboards. Her improvisation saves time but nearly creates an unverified dependency.  
 **Yonas development:** calm finally becomes visible leadership. He learns that being useful only during outages is not enough; he has to speak before things break.  
@@ -158,14 +158,14 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** off-board Wildcard  
 **Wildcard:** eligible  
 **Apex:** unavailable  
-**Royce:** eligible as a rare pressure-driven incursion if campaign conditions warrant
+**Benji:** eligible as a rare pressure-driven incursion if campaign conditions warrant
 
 **Leila development:** a technically valid security policy produces unequal human consequences. She has to defend evidence while refusing the institution's instinct to treat identity risk as identity guilt.  
 **Li development:** learns that governance can conceal power as effectively as it constrains it. He drafts language that is legally clean and emotionally dishonest, then recognizes what he did.  
 **Grace development:** documents who actually pays for a breach response.  
 **Sable development:** Hitman-side handling of compromised information shows her strength: turning chaos into obligations, staffing and numbers.  
 **Rae development:** the episode distinguishes manufactured trust from genuine trust.  
-**Royce development if incursion occurs:** he weaponizes timing and pressure, not technical omniscience.
+**Benji development if incursion occurs:** he weaponizes timing and pressure, not technical omniscience.
 
 **Residue:** Li and Leila become each other's most useful institutional critic.
 
@@ -178,7 +178,7 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** locked out or off-board depending story geography  
 **Wildcard:** normally unavailable; this episode must prove Aya/Minh can own the technical climax  
 **Apex:** unavailable  
-**Royce:** unavailable
+**Benji:** unavailable
 
 **Aya development:** sees a system whose declared state conflicts with physical behavior, activating Ren/Hana history. Her insistence on evidence looks obsessive until she is proven right.  
 **Minh development:** gets to beat Aya to one hardware-level truth. Aya's response determines whether he feels mentored or merely measured.  
@@ -197,14 +197,14 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** off-board Wildcard  
 **Wildcard:** eligible  
 **Apex:** unavailable  
-**Royce:** eligible; this is one of the strongest early hostile-incursion candidates
+**Benji:** eligible; this is one of the strongest early hostile-incursion candidates
 
 **Dmitri development:** being treated as suspicious because of origin forces him to choose whether to become defensive or let evidence work. He chooses evidence, but the humiliation stays.  
 **Oksana development:** has to defend Dmitri from a conclusion she emotionally understands why others want to reach. Their difficult trust becomes real.  
 **Hassan development:** containment requires suspicion without paranoia; this episode pushes directly on his fear of distrusting everyone.  
 **Leila development:** becomes the person who articulates the difference between risk category and human guilt.  
 **Dez development:** Hitman-side adaptability under pressure creates the first serious sense that a younger operator can become terrifying if rewarded only for survival.  
-**Royce development if present:** he enters as pressure, not revelation. McCluster's absence makes clear Royce has a life as threat independent of McCluster.
+**Benji development if present:** he enters as pressure, not revelation. McCluster's absence makes clear Benji has a life as threat independent of McCluster.
 
 **Residue:** Dmitri/Oksana trust is now earned, not symbolic.
 
@@ -221,7 +221,7 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** off-board Wildcard  
 **Wildcard:** eligible  
 **Apex:** unavailable  
-**Royce:** unavailable
+**Benji:** unavailable
 
 **Valeria development:** receives her first assignment where being ambitious is not enough; she must choose a slower clean path over a fast path that would impress leadership. She begins separating advancement from worth.  
 **Arjun development:** teaches that physical access/entry is part of engineering, not prelude to it. His private fear of freezing becomes visible when a human rescue interrupts the technical plan.  
@@ -240,7 +240,7 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** off-board Wildcard  
 **Wildcard:** eligible  
 **Apex:** unavailable  
-**Royce:** eligible if Hitman pressure is high
+**Benji:** eligible if Hitman pressure is high
 
 **Grace development:** discovers evidence that could help PRIM operationally but exposes vulnerable civilians if handled carelessly. She chooses a slower evidentiary path and accepts criticism for it.  
 **Rafael development:** his fear of missing a signal becomes dangerous when he over-collects. Grace makes him confront that seeing more is not automatically ethically better.  
@@ -259,7 +259,7 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** off-board Wildcard  
 **Wildcard:** eligible  
 **Apex:** eligible — first strong masked `EXECUTIVE OVERRIDE` tutorial candidate after McCluster is called and crisis persists  
-**Royce:** unavailable
+**Benji:** unavailable
 
 **Jonas development:** his insistence that Pylon is “just a system” breaks when he realizes how emotionally dependent he has become on its predictability.  
 **Pylon development:** receives character-level continuity through behavior. It does not become a cute AI person; its partial priorities, strange omissions and response differences become legible enough to generate attachment and fear.  
@@ -282,7 +282,7 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** off-board Wildcard  
 **Wildcard:** eligible  
 **Apex:** eligible on high-value branch  
-**Royce:** normally unavailable
+**Benji:** normally unavailable
 
 **Helen development:** her desire to build an institution that can survive PRIM2 becomes concrete governance work rather than private anxiety. She distributes ownership and then discovers people resent responsibility as much as they resent control.  
 **Li development:** has to assign accountability across shared systems without hiding behind vendor/service boundaries.  
@@ -302,7 +302,7 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** locked out  
 **Wildcard:** unavailable; this problem cannot be solved by calling the versatile guy  
 **Apex:** unavailable as rescue button  
-**Royce:** unavailable
+**Benji:** unavailable
 
 **Amira development:** must decide whether to approve a cheaper operational model that externalizes risk onto people with less authority. Her GLASSHOUSE guilt surfaces without yet revealing PRIM2's hidden culpability.  
 **Marc development:** the audience finally understands why he authorized GLASSHOUSE. He is not careless; he is dangerously skilled at quantifying risk until the people inside the number disappear.  
@@ -321,7 +321,7 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** off-board Wildcard  
 **Wildcard:** eligible  
 **Apex:** eligible  
-**Royce:** eligible; one of the strongest late-series incursion candidates
+**Benji:** eligible; one of the strongest late-series incursion candidates
 
 **Sari development:** scale threatens her fear of becoming successful on paper and alien to the people she came from. She has to decide whether “elastic” systems justify elastic expectations of human labor.  
 **Sable development:** gets a real parallel arc. She is the Hitman operator who makes a dangerous organization function because she understands obligations, staffing, money and continuity. The audience should be able to respect her competence without approving the institution.  
@@ -345,7 +345,7 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** SCRIPTED — one of the rare ordinary-season missions where the player gets McCluster from launch  
 **Wildcard:** not consumed  
 **Apex:** eligible if mission classification warrants and McCluster remains unable to stabilize it  
-**Royce:** eligible
+**Benji:** eligible
 
 **McCluster development:** his road competence is too deep for the résumé everyone knows. Vehicle packing, contingency thinking, sleeping-anywhere instincts and refusal to depend on one route create Whip Equipped residue without exposition. The audience sees that “resourceful” may actually be trauma.  
 **Valeria development:** notices the difference between McCluster teaching travel discipline and McCluster behaving like permanent displacement is normal. She becomes the younger person willing to tell her mentor his survival pattern is not automatically wisdom.  
@@ -365,14 +365,14 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** off-board Wildcard  
 **Wildcard:** eligible; calling McCluster has explicit relationship meaning but does not transfer episode ownership  
 **Apex:** eligible only on authored high-value branch  
-**Royce:** normally unavailable
+**Benji:** normally unavailable
 
 **Aya development:** an integrity/validation problem reactivates Hana's language. Aya rediscovers an old Kkeutori chain and notices one deliberate `ん` dead end that should not be there. She does not solve the whole breadcrumb system yet, but her “grief made me paranoid” conclusion begins cracking.  
 **McCluster development:** Aya confronts his tendency to treat “I can fix it” as “I am allowed to decide.” If called as Wildcard, he must save options without overruling Aya's technical ownership.  
 **Minh development:** now mature enough to challenge Aya's interpretation rather than merely seek her approval.  
 **Helen development:** becomes frightened by what Aya is asking because she knows governance is weaker than it looks even if she does not know the full Hana truth.
 
-**Residue:** Aya starts reconstructing Kkeutori; McCluster realizes her distrust of McCluster predates him.
+**Residue:** Aya starts reconstructing Kkeutori; McCluster realizes her distrust of McCluster Corp predates him.
 
 ## 18 — SONG #21 OPEN / Mission #18 OPEN
 
@@ -383,7 +383,7 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 **McCluster PLAY state:** SCRIPTED or mission-specific fixed participant; no Wildcard consumption  
 **Wildcard:** not applicable  
 **Apex:** unavailable as a rescue resource because PRIM2 is becoming the object of the challenge  
-**Royce:** no random incursion; Hitman-side evidence may become relevant
+**Benji:** no random incursion; Hitman-side evidence may become relevant
 
 **Leila development:** proves that apparently distributed trust collapses to an unpriced hidden root. Her whole career around who is allowed to trust whom finally points upward.  
 **Helen development:** the governance mechanism she hoped could constrain power is revealed to exist beneath a root it cannot independently revoke. She has to choose between continuity and rupture.  
@@ -402,36 +402,36 @@ McCluster remains the succession spine, but Episodes 02–18 are designed so the
 
 ## 19 — RAID (HOT SITE) / Hot Site
 
-**Owners:** McCluster + Royce + PRIM2  
+**Owners:** McCluster + Benji + PRIM2  
 **Secondary owners:** every member of the two assault elements through accumulated relationship debt  
 **McCluster state:** scripted principal  
-**Royce state:** scripted principal  
+**Benji state:** scripted principal  
 **PRIM2 state:** active defender
 
-**Development:** all three men's theories of power become physical. McCluster's “another path,” Royce's tempo/force and PRIM2's information/authority architecture collide. McCluster and Royce nearly kill one another, then cooperate because continuing the rivalry protects PRIM2. Both assault teams are lost; the two old rivals become sole survivors and jointly defeat PRIM2 physically.
+**Development:** all three men's theories of power become physical. McCluster's “another path,” Benji's tempo/force and PRIM2's information/authority architecture collide. McCluster and Benji nearly kill one another, then cooperate because continuing the rivalry protects PRIM2. Both assault teams are lost; the two old rivals become sole survivors and jointly defeat PRIM2 physically.
 
 **Residue:** victory does not resolve authority.
 
 ## 20 — EVIL TWIN / Mirror Room
 
-**Owners:** PRIM2 + McCluster + Royce  
+**Owners:** PRIM2 + McCluster + Benji  
 **Secondary owners:** Aya/Hana, Helen, Li, Leila, Amira, Marc through the truths being reinterpreted
 
 **PRIM2 development:** finally speaks from a position of physical defeat. Some admissions are true, some self-serving, some strategically timed.  
 **McCluster development:** has to use information from a man he hates without surrendering judgment to him.  
-**Royce development:** learns that even the Hitman sovereignty he inherited sat beneath another man's larger information advantage. The insult is existential.  
+**Benji development:** learns that even the Hitman sovereignty he inherited sat beneath another man's larger information advantage. The insult is existential.  
 **Ensemble payoff:** prior character episodes become evidence rather than exposition; Hana's hidden investigation, GLASSHOUSE, Pylon and cross-board anomalies acquire new meaning.
 
-**Residue:** McCluster/Royce keep PRIM2 alive because the living root is still needed for clean succession/revocation.
+**Residue:** McCluster/Benji keep PRIM2 alive because the living root is still needed for clean succession/revocation.
 
 ## 21 — GHOST IN THE WIRES / Last Process
 
 **Primary owners:** McCluster + PRIM2  
-**Secondary owner:** Royce; Aya/Helen/Leila/Jonas/Pylon may participate through remote/technical authority where canon permits
+**Secondary owner:** Benji; Aya/Helen/Leila/Jonas/Pylon may participate through remote/technical authority where canon permits
 
 **McCluster development:** must accept capability while refusing PRIM2's theory that seeing enough gives him the right to decide enough. McCluster becomes PRIM3 only after validated transfer.  
 **PRIM2 development:** experiences the first true loss of sovereign agency: he may still observe/analyze/advise but cannot make the institution obey.  
-**Royce development:** watches the man who once refused a smaller chair accept a far larger one and has every reason to distrust what comes next.  
+**Benji development:** watches the man who once refused a smaller chair accept a far larger one and has every reason to distrust what comes next.  
 **Aya development:** if present remotely, gets the first chance to design a system where even the new person she loves cannot simply become another hidden root without challenge.  
 **Helen/Leila development:** governance stops being theory; they help define how power can be contested after succession.  
 **Jonas/Pylon development:** validate that root-aware systems now resolve to PRIM3 rather than former PRIM2.
@@ -475,7 +475,7 @@ This ledger prevents characters from disappearing after “their episode.”
 | **Maren Quill** | 04 public trust as infrastructure | 14–15 narrative becomes operational | 04/15 major secondary | must decide whether communication exposes power or launders it |
 | **Pylon** | behavioral presence accumulates | 12 becomes emotionally/systemically central | 12 co-owner; 21 validation | remains nonhuman but becomes proof that architecture itself can have relationship consequences |
 | **PRIM2** | 01 apparent apex | institutional gravity throughout; optional Apex rescues complicate audience judgment | 19–21 principal | loses sovereignty but retains intelligence as Ghost |
-| **Royce** | 01 future threat | optional incursions + Hitman-side echoes; E16 old-business pressure | 19–21 principal | survives as unresolved sovereign/rival after McCluster becomes PRIM3 |
+| **Benji** | 01 future threat | optional incursions + Hitman-side echoes; E16 old-business pressure | 19–21 principal | survives as unresolved sovereign/rival after McCluster becomes PRIM3 |
 
 ---
 
@@ -496,7 +496,7 @@ Named Hitman characters are not boss adds. Their development is distributed thro
 | **Dez “Switch” Calhoun** | 05 role-flexibility mirror; 09 pressure survival; 16 identity cost of always adapting |
 | **Mina “Halo” Brooks** | 05 command mirror to Chioma; 16 crew-survival philosophy; 19 RAID payoff |
 | **Sora “Gymnast” Okada** | 04 co-owner social-engineering episode; 11 high-status access/evidence pressure; 19 potential payoff |
-| **Royce** | 01 future apex; optional 07/09/11/15/16 incursions; 19–21 full principal arc |
+| **Benji** | 01 future apex; optional 07/09/11/15/16 incursions; 19–21 full principal arc |
 
 No Hitman character needs to become sympathetic in order to become comprehensible.
 

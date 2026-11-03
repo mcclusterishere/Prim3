@@ -22,7 +22,7 @@ The following old material is superseded:
 - McCluster as the default tactical protagonist;
 - generic squad composition standing in for named ensemble episode ownership;
 - arbitrary watch-mode grade assumptions attached to obsolete episode drafts;
-- campaign/save schemas that omit Wildcard, Apex, PRIM debt, Hitman pressure and Royce-incursion state.
+- campaign/save schemas that omit Wildcard, Apex, PRIM debt, Hitman pressure and Benji-incursion state.
 
 Those ideas may survive only as historical prototyping evidence.
 
@@ -35,7 +35,7 @@ Use these instead:
 3. `game/TACTICAL-IT-MECHANICS-BIBLE.md` — deterministic technical/tactical grammar.
 4. `game/LEARNING-MISSION-SOURCE-OF-TRUTH.md` — song -> lesson -> mission learning loop.
 5. `game/OMNISCIENT-COMMAND-INTERFACE.md` — fused operational UI and earned-knowledge model.
-6. `game/WILDCARD-INTERVENTION-AUTHORITY.md` — McCluster Wildcard, PRIM2 Apex intervention and Royce Incursion.
+6. `game/WILDCARD-INTERVENTION-AUTHORITY.md` — McCluster Wildcard, PRIM2 Apex intervention and Benji Incursion.
 7. `game/GAME-MECHANICS-COMPLETE.md` — current high-level game spine.
 8. `story/EPISODE-MISSION-BIBLE.md` — episode-by-episode causal mission spine.
 
@@ -47,11 +47,11 @@ These are actual implementation gaps, not canon contradictions:
 - specify each mission's `STABLE / DEGRADED / CRITICAL / TERMINAL` triggers;
 - author the McCluster Wildcard arrival route/ETA for every eligible mission;
 - designate which high-value missions can escalate from McCluster to PRIM2;
-- designate Royce-incursion eligibility, telegraph quality and mission-specific retreat conditions;
+- designate Benji-incursion eligibility, telegraph quality and mission-specific retreat conditions;
 - finish character-specific perks without flattening people into interchangeable classes;
 - bind relationship-state writes to tactical injuries, rescues and intervention use;
 - finalize side-operation count/content without confusing side ops with the fixed 21 canonical episode missions;
-- playtest the canonical Standard pools: 2 Wildcards/season, 3 Apex/campaign, 2 Royce incursions/season cap;
+- playtest the canonical Standard pools: 2 Wildcards/season, 3 Apex/campaign, 2 Benji incursions/season cap;
 - implement intervention state in save data and debriefs;
 - build at least one vertical slice where the player saves a named non-McCluster character by spending a Wildcard Authorization.
 

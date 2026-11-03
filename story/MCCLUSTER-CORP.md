@@ -32,6 +32,8 @@ It may hold or coordinate:
 
 The exact subsidiary map remains reveal-gated.
 
+McCluster Corp is a major multi-million-dollar organisation with **regional presences abroad**: agents posted with full crews, while Equity Uprise HQ stays in the United States (owner decision 2026-11-03; `CANON.md` §19).
+
 ## PRIM relationship
 
 McCluster Corp is governed at its hidden highest-trust layer through the PRIM architecture.

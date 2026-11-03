@@ -125,7 +125,7 @@ McCluster enters as:
 
 PRIM2 enters only through a scripted appearance or eligible Apex intervention.
 
-Royce may enter through a scripted appearance or eligible hostile incursion.
+Benji may enter through a scripted appearance or eligible hostile incursion.
 
 ---
 
@@ -142,7 +142,7 @@ Standard scarcity:
 ```text
 MCCLUSTER WILDCARD: 2 non-scripted authorizations / season
 PRIM2 APEX:      3 non-scripted authorizations / full campaign
-ROYCE INCURSION: max 2 non-scripted / season, max 1 / mission, 2-mission cooldown
+BENJI INCURSION: max 2 non-scripted / season, max 1 / mission, 2-mission cooldown
 ```
 
 Mechanical identity:
@@ -151,7 +151,7 @@ Mechanical identity:
 ENSEMBLE -> solves the mission
 MCCLUSTER   -> restores optionality
 PRIM2    -> expands picture / authority
-ROYCE    -> destabilizes control / tempo
+BENJI    -> destabilizes control / tempo
 ```
 
 Intervention acts on current recoverable state. It does not resurrect, rewind or erase consequences.
@@ -178,8 +178,8 @@ WILDCARD ELIGIBLE:
 WILDCARD ARRIVAL RULE:
 APEX ELIGIBLE:
 PRIM2 STORY VISIBILITY:
-ROYCE INCURSION ELIGIBLE:
-ROYCE TELEGRAPH RULE:
+BENJI INCURSION ELIGIBLE:
+BENJI TELEGRAPH RULE:
 EXPECTED PLAN:
 HIDDEN COMPLICATION:
 MISSION THRESHOLD:
@@ -244,27 +244,27 @@ Possible writes include:
 
 | # | Song / mission | Primary owner(s) | McCluster state / gameplay |
 |---:|---|---|---|
-| 01 | High Alert / The Blip | PRIM2 + McCluster + Royce | scripted future fragment; rewind is McCluster age-33 reacquisition, not first discovery |
+| 01 | High Alert / The Blip | PRIM2 + McCluster + Benji | scripted future fragment; rewind is McCluster age-33 reacquisition, not first discovery |
 | 02 | White Grey Black Hat / Permission Slip | Nusrat + Miguel | McCluster supporting; locked out of PLAY |
 | 03 | OSINT / Open Book | Oksana + Rafael | McCluster edge; Wildcard candidate |
 | 04 | Anti Social Engineering / The Human Layer | Priya + Sora | McCluster cameo; Wildcard eligible |
 | 05 | Red Blue Purple White Team / Four Colors | Chioma + Thandiwe | McCluster supporting; Wildcard eligible after real incident |
 | 06 | Got Wifi / Dead Air | Sari + Yonas | McCluster absent by default; Wildcard eligible; recurring-character death slot if retained |
-| 07 | Data Breach / Exposure | Leila + Li | McCluster mentioned/absent; Wildcard + Royce eligible |
+| 07 | Data Breach / Exposure | Leila + Li | McCluster mentioned/absent; Wildcard + Benji eligible |
 | 08 | App Attacks / Bad Input | Aya + Minh | McCluster supporting/edge; normally no Wildcard |
-| 09 | Virus Types / Patient Zero | Dmitri + Oksana | McCluster absent; Wildcard + Royce eligible |
+| 09 | Virus Types / Patient Zero | Dmitri + Oksana | McCluster absent; Wildcard + Benji eligible |
 | 10 | Installation Types / Clean Install | Valeria | McCluster supporting mentor; Wildcard eligible |
-| 11 | Dive In / Dumpster Signal | Grace + Rafael | McCluster edge until emergency; Wildcard + Royce eligible |
+| 11 | Dive In / Dumpster Signal | Grace + Rafael | McCluster edge until emergency; Wildcard + Benji eligible |
 | 12 | IoT / House of Eyes | Jonas + Pylon | McCluster absent; Wildcard eligible; strong masked Apex candidate |
 | 13 | IaaS/SaaS/PaaS / Shared Responsibility | Helen + Li + Yonas | McCluster edge/mentioned; Wildcard + conditional Apex |
 | 14 | CapEx vs OpEx / Own the Exit | Amira + Marc | McCluster absent/locked out; no Wildcard rescue |
-| 15 | Trappin From The Cloud / Elastic | Sari + Sable | McCluster edge until crisis; Wildcard + Apex + Royce eligible |
-| 16 | Per Diem / Road Kit | McCluster + Valeria | rare scripted McCluster PLAY mission; Royce/Apex eligible |
+| 15 | Trappin From The Cloud / Elastic | Sari + Sable | McCluster edge until crisis; Wildcard + Apex + Benji eligible |
+| 16 | Per Diem / Road Kit | McCluster + Valeria | rare scripted McCluster PLAY mission; Benji/Apex eligible |
 | 17 | Patch Work / Trust Boundary | Aya | McCluster emotionally central but off-board Wildcard; conditional Apex |
 | 18 | Song #21 OPEN / Mission #18 OPEN | Leila + Helen + McCluster | shared institutional rupture; exact song still open |
-| 19 | RAID / Hot Site | McCluster + Royce + PRIM2 | scripted endgame; recurring assault teams die except McCluster/Royce |
-| 20 | Evil Twin / Mirror Room | PRIM2 + McCluster + Royce | scripted provenance/confession endgame |
-| 21 | Ghost In The Wires / Last Process | McCluster + PRIM2 | scripted succession; Royce secondary |
+| 19 | RAID / Hot Site | McCluster + Benji + PRIM2 | scripted endgame; recurring assault teams die except McCluster/Benji |
+| 20 | Evil Twin / Mirror Room | PRIM2 + McCluster + Benji | scripted provenance/confession endgame |
+| 21 | Ghost In The Wires / Last Process | McCluster + PRIM2 | scripted succession; Benji secondary |
 
 Detailed character writes live in `story/ENSEMBLE-EPISODE-CHARACTER-DEVELOPMENT-MAP.md`; recurring population lives in `story/EPISODE-CAST-DENSITY-SUPPORT-HISTORY-AUTHORITY.md`; local episode files are the current migrated incident/character blueprints.
 
@@ -385,7 +385,7 @@ Episodes 19–21 are expanded by:
 - `episodes/S07E02-EVIL-TWIN.md`
 - `episodes/S07E03-GHOST-IN-THE-WIRES.md`
 
-Do not reintroduce separate contemporary Benji, McCluster/Benji as two survivors, Prime-00 as current formal identity, old procedural SIM-swap Evil Twin, Ghost as first-time upload, or McCluster as PRIM3 before validated succession.
+Do not reintroduce Benji as McCluster's alias (Benji Chase is McCluster's clone, a different person; owner 2026-11-02/03), Prime-00 as current formal identity, old procedural SIM-swap Evil Twin, Ghost as first-time upload, or McCluster as PRIM3 before validated succession.
 
 Even in the finale, the succession triangle does not erase the rest of the cast. RAID deaths, remote verification, grief and governance reaction remain ensemble development.
 

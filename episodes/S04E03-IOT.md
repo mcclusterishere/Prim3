@@ -21,7 +21,7 @@ SECONDARY DEPTH: Emre Yıldız / Aya Shinoda / Minh Tran / Helen Clarke / Leila 
 MCCLUSTER: absent by default; off-board Wildcard at CRITICAL
 APEX: eligible after McCluster is present and a qualified high-value crisis remains CRITICAL
 PRIM2: hidden institutional/system gravity; no required face-to-face reveal
-ROYCE: unavailable
+BENJI: unavailable
 ```
 
 This supersedes the old McCluster-coordinated / first-direct-Prime-encounter framing.

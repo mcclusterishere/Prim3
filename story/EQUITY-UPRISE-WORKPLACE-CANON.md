@@ -17,6 +17,8 @@ It is one authoritative location across WATCH, PLAY, songs, character workspaces
 
 > **Same building. Same people. Seven years of accumulated history.**
 
+The building is HQ, not the whole organisation: McCluster Corp keeps regional presences abroad with full crews (owner decision 2026-11-03; `CANON.md` §19). Postings abroad start and end here.
+
 ## This is not Site 0
 
 Equity Uprise HQ is not the root McCluster Corp headquarters attacked in the final RAID.
@@ -24,7 +26,7 @@ Equity Uprise HQ is not the root McCluster Corp headquarters attacked in the fin
 | Location | Story function |
 |---|---|
 | Equity Uprise HQ | recurring workplace, training campus, visible institution, community, day-to-day headquarters |
-| Site 0 / Root HQ | hidden PRIM / McCluster Corp Corp Corp Corp root facility, succession site, final-arc assault target |
+| Site 0 / Root HQ | hidden PRIM / McCluster Corp root facility, succession site, final-arc assault target |
 
 The final RAID therefore does not erase the audience's familiar workplace.
 

@@ -73,7 +73,7 @@ Firaxis development commentary around XCOM 2 also supports two architectural les
 | Bonds | Relationship based Teamwork actions | Connects tactical benefits to existing character relationship canon |
 | Will and fatigue | Stress, Will, fatigue and recovery | Makes repeated deployment carry cost |
 | Negative traits | Stress can produce temporary or persistent behavioral penalties | Supports psychological continuity without random character rewriting |
-| Elite enemies | Royce and other authored threats can disrupt mission plans | Creates recurring adaptive pressure |
+| Elite enemies | Benji and other authored threats can disrupt mission plans | Creates recurring adaptive pressure |
 | SITREP modifiers | Mission condition modifiers | Creates variation without changing technical truth |
 | Procedural maps | Authored parcels assembled by seeded rules | Enables replayability while preserving designed tactical spaces |
 

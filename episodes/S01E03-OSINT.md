@@ -22,7 +22,7 @@ MISSION LEAD: Oksana
 BASE PLAYABLE ROSTER: Oksana / Rafael / Valeria
 MCCLUSTER: edge/cameo; off-board Wildcard only if authored CRITICAL state is reached
 APEX: unavailable
-ROYCE: unavailable
+BENJI: unavailable
 ```
 
 ---
@@ -45,6 +45,8 @@ ROYCE: unavailable
 # Human problem
 
 A critical equipment shipment is missing shortly before a facility opening. A junior coordinator is becoming the convenient human explanation because uncertainty is administratively expensive.
+
+**The facility (owner decision, 2026-11-03):** the opening is the **reopening of the fictional North River Medical Logistics Hub** in northern New Jersey, two years after Operation GLASSHOUSE. F4 Media + Culture is shooting the reopening film there. In-world, GLASSHOUSE is known as a serious governance failure; its causality stays reveal-gated (`CANON.md` §11). How Aya's solo reconstruction (LVL-03) sits inside this episode is owner-approved in `story/STORY-CONSOLIDATION-PROPOSAL.md` §2 and awaits the change-control PR.
 
 Oksana refuses to let a clean story outrun evidence.
 

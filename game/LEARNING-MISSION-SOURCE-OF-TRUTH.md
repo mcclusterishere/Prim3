@@ -19,7 +19,7 @@ Use this learning authority together with:
 1. `game/ADAPTIVE-CYBER-RANGE-AUTHORITY.md`, readiness, adaptation, live labs, evidence traces, and remediation.
 2. `game/TRAINING-RANGE-AUTHORITY.md`, the exact current M01 through M03 Training Range mapping.
 3. `game/TACTICAL-IT-MECHANICS-BIBLE.md`, battlefield technical grammar.
-4. `game/WILDCARD-INTERVENTION-AUTHORITY.md`, McCluster, PRIM2, and Royce escalation.
+4. `game/WILDCARD-INTERVENTION-AUTHORITY.md`, McCluster, PRIM2, and Benji escalation.
 5. `game/OMNISCIENT-COMMAND-INTERFACE.md`, fused mission control perspective.
 6. `story/ENSEMBLE-POV-AUTHORITY.md`, episode and playable character ownership.
 7. `learning/MISSION-CONCEPT-LAB-MATRIX.md`, source unit concept applications.
@@ -432,7 +432,7 @@ McCluster may reveal another credible route, cross support a function, stabilize
 
 PRIM2 may expose additional sourced information or change present authorization. That does not make unverified information true and does not grant automatic learning credit.
 
-Royce may create pressure and changed conditions. His presence must not convert a technical lesson into nothing but a boss fight.
+Benji may create pressure and changed conditions. His presence must not convert a technical lesson into nothing but a boss fight.
 
 ## 22. Mission briefing
 
@@ -497,7 +497,7 @@ Base playable roster
 McCluster state
 Wildcard eligibility and crisis trigger
 Apex eligibility and mission classification
-Royce incursion eligibility and telegraph rule
+Benji incursion eligibility and telegraph rule
 Song concept set
 Principles module IDs
 Certification objective IDs

@@ -80,11 +80,11 @@ Wildcard is not universal mastery and does not override authorization.
 
 ## Hitman mirrored tree — immediate PRIM3 era
 
-Hitman is a separate street/corporate organism under PRIM2's hidden dual architecture. It does not have a separate contemporary Benji.
+Hitman is a separate street/corporate organism under PRIM2's hidden dual architecture. Its sovereign is Benjamin "Benji" Chase (Hitman Benji, formerly Royce), McCluster's clone.
 
 | Hitman phenotype | Primary identity | Second seat / pressure | Function |
 |---|---|---|---|
-| **H-Authority-01 — Sovereign** | **Royce** | **Sable Quinn** | Royce carries the Hitman chair McCluster/Benji refused; Sable constrains mythology with organizational reality. |
+| **H-Authority-01 — Sovereign** | **Benji** | **Sable Quinn** | Benji carries the Hitman chair McCluster refused; Sable constrains mythology with organizational reality. |
 | **H-Authority-02 — Operations / Money** | **Sable Quinn** | **Omar “Rack” Dillon** | Money, people, staffing and logistics. |
 | **H-Authority-03 — Sponsor / Client Gate** | **Grant Voss** | **Maren Quill** *(surface contact only where appropriate)* | Respectable demand translated into work without visibility into the hidden root. |
 | **H-Defense-01 — Block Control** | **Tone Rivera** | **Dez “Switch” Calhoun** | Presence, de-escalation and crew discipline. |
@@ -97,7 +97,7 @@ Hitman is a separate street/corporate organism under PRIM2's hidden dual archite
 | **H-Cohort-03 — Cell Lead** | **Mina “Halo” Brooks** | **Tone Rivera** | Small-team authority and extraction responsibility. |
 | **H-Dual Social — Elite Face** | **Sora “Gymnast” Okada** | **Priya Srisawat** *(unwitting institutional proximity)* | Elite social access unaware of Rae's sibling-side lane. |
 
-Historical note: **Benji = McCluster at age 19–26.** He is relevant to Royce's succession history but is not an immediate-era phenotype occupant.
+Historical note: **McCluster (age 19–26) refused the chair Benji holds.** Benjamin "Benji" Chase is McCluster's clone and a separate person, not McCluster's alias (owner decisions 2026-11-02 and 2026-11-03; see `CANON.md` §9).
 
 ## Song-to-character availability map
 
@@ -105,7 +105,7 @@ This table indicates characters naturally suited to concepts; it does **not** as
 
 | Track | Characters naturally carrying the concept |
 |---|---|
-| High Alert | **PRIM2, McCluster, Royce, Pylon** plus surviving/failing assault context |
+| High Alert | **PRIM2, McCluster, Benji, Pylon** plus surviving/failing assault context |
 | White Grey Black Hat | Nusrat, Miguel, Amira, McCluster |
 | OSINT | Oksana, Rafael, Aya, McCluster |
 | Anti Social Engineering | Rae, Sora, Kira, Priya |
@@ -118,9 +118,9 @@ This table indicates characters naturally suited to concepts; it does **not** as
 | IaaS / SaaS / PaaS | Li, Yonas, Helen |
 | Cap Ex Vs. Op Ex | Marc, Amira, Aya, McCluster |
 | Trappin From The Cloud | Li, Sari, Yonas |
-| Per Diem | Arjun, Rafael, Dez, Royce-side personnel as appropriate |
-| RAID | PRIM2, McCluster, Royce, defense/field assault ensemble, Pylon |
-| Evil Twin | PRIM2, McCluster, Royce, dual-board characters |
+| Per Diem | Arjun, Rafael, Dez, Benji-side personnel as appropriate |
+| RAID | PRIM2, McCluster, Benji, defense/field assault ensemble, Pylon |
+| Evil Twin | PRIM2, McCluster, Benji, dual-board characters |
 | Ghost In The Wires | former PRIM2, McCluster/PRIM3, Jonas, Pylon |
 | Data Breach | Grace, Leila, Oksana, Hassan |
 | Got Wifi | Rafael, Hassan, Aya, Minh |

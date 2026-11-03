@@ -22,7 +22,7 @@ MCCLUSTER: absent / locked out of solving the core problem
 BASE PLAYABLE POV: planning/governance/resource allocation team
 WILDCARD: unavailable — this episode must prove some problems cannot be solved by calling McCluster
 APEX: unavailable in canonical WATCH
-ROYCE: unavailable
+BENJI: unavailable
 ```
 
 This supersedes the old McCluster/Aya ownership and keeps the cost/control/flexibility mechanics.
@@ -48,7 +48,7 @@ This supersedes the old McCluster/Aya ownership and keeps the cost/control/flexi
 
 A time-sensitive operation needs more compute, transport and recovery capacity than the institution already owns.
 
-The cheapest/fastest option is operationally viable but concentrates control and future dependency outside McCluster.
+The cheapest/fastest option is operationally viable but concentrates control and future dependency outside McCluster Corp.
 
 Amira sees the safety/governance risk.
 Marc sees the cost of delay and underutilized owned capacity.

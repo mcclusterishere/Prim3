@@ -16,9 +16,9 @@ The sequence is a glimpse of the future RAID.
 
 Two hostile approach vectors matter:
 - **McCluster / PRIM-side assault**;
-- **Royce / Hitman-side assault**.
+- **Benji / Hitman-side assault**.
 
-Do not depict a separate contemporary Benji. Benji is McCluster's earlier identity.
+Do not depict Benji as an attacker. Benjamin "Benji" Chase is McCluster's clone and a separate person, not McCluster's alias (owner decisions 2026-11-02 and 2026-11-03; see `CANON.md` §9).
 
 ---
 
@@ -47,7 +47,7 @@ A literal `HIGH ALERT` state propagates through Site 0 as the succession-level c
 The body transitions from distributed oversight toward direct physical response because ordinary command layers are no longer enough.
 
 ### 4. Two assault axes
-Show McCluster and Royce through separate visual grammars and information contexts.
+Show McCluster and Benji through separate visual grammars and information contexts.
 
 They are not allies yet.
 They are not strangers historically.
@@ -64,7 +64,7 @@ The 17 Episode 02–18 memories should be brief, emotionally charged and context
 They are not all McCluster-owned memories. Several should feature ensemble characters strongly enough that later episodes can reveal who actually owned the event.
 
 ### 7. Cut before resolution
-Do not show McCluster/Royce defeating PRIM2 in the pilot.
+Do not show McCluster/Benji defeating PRIM2 in the pilot.
 
 The future fragment breaks before the answer.
 
@@ -94,7 +94,7 @@ His later payoff comes through **institutional gravity**:
 ```text
 PRIM2 — presiding Mantle holder / High Alert performer
 MCCLUSTER — challenger, not yet PRIM3
-ROYCE — Hitman successor / parallel challenger
+BENJI — Hitman successor / parallel challenger
 ```
 
 McCluster becomes PRIM3 only after the validated succession in `Ghost In The Wires`.

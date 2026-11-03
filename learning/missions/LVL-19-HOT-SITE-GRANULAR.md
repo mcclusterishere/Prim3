@@ -6,7 +6,7 @@ song: RAID (HOT SITE)
 season: 7
 episode: 1
 system: Tactical learning capstone
-version: 1.0.0
+version: 1.1.0
 inherits:
   - game/TACTICAL-LAB-MECHANICS-AUTHORITY.md
   - episodes/S07E01-RAID-HOT-SITE.md
@@ -16,7 +16,9 @@ inherits:
 
 Purpose: prove the PRIM3 system can scale from a contained IT incident into a cinematic multi-floor assault without losing the educational mechanics.
 
-The existing locked story outcome remains: McCluster and Benji enter Site 0 with separate teams, the teams are destroyed, McCluster and Benji survive, nearly fight one another, ally against Prime, defeat him together, and preserve the life-support/succession state required for Evil Twin/Ghost.
+Continuity note (2026-11-03): the Hitman-side attacker is **Benjamin "Benji" Chase** (Hitman Benji; called Royce in canon from Sept to Nov 2026), McCluster's clone, and the defender is **PRIM2** (`CANON.md` §9, §16, §18). Machine keys named `royce_*` elsewhere refer to him.
+
+The existing locked story outcome remains: McCluster (PRIM side) and Benji (Hitman side) enter Site 0 with separate teams, the teams are destroyed, McCluster and Benji survive, nearly fight one another, ally against PRIM2, defeat him together, and preserve the life-support/succession state required for Evil Twin/Ghost.
 
 All Site 0 systems and attack paths are fictional abstractions.
 
@@ -72,7 +74,7 @@ PHASE B — Benji team / alternate route
 PHASE C — alternating viewpoints through Site 0
 PHASE D — both teams collapsing / redundancy reveals
 PHASE E — McCluster + Benji convergence
-PHASE F — Prime control-core fight
+PHASE F — PRIM2 control-core fight
 PHASE G — succession/life-support validation
 ```
 
@@ -83,7 +85,7 @@ Each phase contains both kinetic and systems objectives.
 # 3. Global Site 0 state
 
 Mission-wide state variables:
-- Prime Authority: 100
+- PRIM2 Authority: 100
 - Life Safety: 100
 - Facility Power: 100
 - Environmental Control: 100
@@ -105,7 +107,7 @@ The player is not rewarded for simply driving all system-health values to zero.
 Each major subsystem is tagged with a failure-domain profile.
 
 ## D1 — Command/Authority
-Purpose: lets Prime issue orders and control defenses.
+Purpose: lets PRIM2 issue orders and control defenses.
 Goal: remove hostile write/command capability while retaining enough authenticated continuity for succession handoff.
 
 ## D2 — Life Safety
@@ -150,7 +152,7 @@ R Evidence Tokens:
 - `FAILURE_DOMAIN_SHARED`
 
 R's core risk:
-spending AP on shooting protects the squad now; spending AP on failover mapping prevents Prime from coming back through another subsystem next turn.
+spending AP on shooting protects the squad now; spending AP on failover mapping prevents PRIM2 from coming back through another subsystem next turn.
 
 ---
 
@@ -200,7 +202,7 @@ New T capstone action: `FAILURE TEST` — 1 AP.
 
 New T capstone action: `SELECTIVE FAILOVER` — 2 AP ANCHORED.
 - routes service/authority through chosen surviving path;
-- can save life safety or accidentally preserve Prime's hostile control if dependency reasoning is wrong.
+- can save life safety or accidentally preserve PRIM2's hostile control if dependency reasoning is wrong.
 
 ---
 
@@ -259,7 +261,7 @@ HOT:
 - high readiness;
 - high ongoing cost;
 - fastest mission recovery;
-- may also preserve Prime's hostile control if blindly activated.
+- may also preserve PRIM2's hostile control if blindly activated.
 
 WARM:
 - partial readiness;
@@ -284,7 +286,7 @@ Task atoms:
 CLASSIFY -> PRIORITIZE -> ALLOCATE -> CONFIGURE -> VERIFY.
 
 Kinetic pressure:
-Prime's defenses exploit every extra round. Choosing slower restoration can be technically sound but tactically costly.
+PRIM2's defenses exploit every extra round. Choosing slower restoration can be technically sound but tactically costly.
 
 ---
 
@@ -306,9 +308,9 @@ This is a signature multi-role teaching moment.
 
 ---
 
-# 11. Prime's Tactical Failover AI
+# 11. PRIM2's Tactical Failover AI
 
-Prime's defense behavior should imitate a highly resilient system.
+PRIM2's defense behavior should imitate a highly resilient system.
 
 Instead of simply spawning more enemies:
 - disabled camera coverage may shift to another sensor layer;
@@ -337,18 +339,18 @@ A firefight can sever the shared dependency, collapsing both routes.
 ## Set piece B — Parity Under Fire
 A continuity subsystem is already degraded.
 T can complete a rebuild/recovery step over multiple turns.
-E/R must hold while Prime pushes a second failure event.
+E/R must hold while PRIM2 pushes a second failure event.
 If the player understands failure tolerance, they know why the second event matters.
 
 ## Set piece C — Hot Site Trap
-Prime deliberately offers an easy hot failover path.
+PRIM2 deliberately offers an easy hot failover path.
 Activating it restores facility capability fast — including hostile control.
 Player must isolate authority from life-safety continuity before committing.
 
 ## Set piece D — Final Authority Room
 Combat and technical work happen simultaneously.
-McCluster/Benji must survive Prime while T/R/E-equivalent actions across surviving characters disable hostile command paths but preserve life support.
-Technical completion weakens Prime's tactical board; combat buys the turns required to complete technical state transition.
+McCluster/Benji must survive PRIM2 while T/R/E-equivalent actions across surviving characters disable hostile command paths but preserve life support.
+Technical completion weakens PRIM2's tactical board; combat buys the turns required to complete technical state transition.
 
 ---
 
@@ -380,7 +382,7 @@ When both survivor paths meet:
 - each has incomplete evidence;
 - player receives a short high-pressure recognition/authorization decision;
 - aggressive action is possible and can injure the other, but hard canon prevents death here;
-- identifying Prime as common hostile authority converts state to TEMPORARY ALLY.
+- identifying PRIM2 as common hostile authority converts state to TEMPORARY ALLY.
 
 This is a transfer of earlier lessons:
 - indicators are not proof;
@@ -392,15 +394,15 @@ This is a transfer of earlier lessons:
 
 # 15. Final succession lab
 
-The mission does **not** finish when Prime's HP reaches the defeat threshold.
+The mission does **not** finish when PRIM2's HP reaches the defeat threshold.
 
 That only unlocks the final technical state.
 
 Node: Suspension / Authority Core.
 
 States:
-- PRIME_PHYSICAL_DEFEATED
-- PRIME_IDENTITY_STILL_VALID
+- PRIM2_PHYSICAL_DEFEATED
+- PRIM2_IDENTITY_STILL_VALID
 - LIFE_SUPPORT_REQUIRED
 - HOSTILE_COMMAND_PATHS_PARTIALLY_ACTIVE
 - SUCCESSION_PATH_AVAILABLE
@@ -435,7 +437,7 @@ T:
 - must choose between VERIFY/REBUILD with remaining 1 AP or start moving toward next floor.
 
 Threat phase:
-- Prime pushes a second failure event and an armed defender moves.
+- PRIM2 pushes a second failure event and an armed defender moves.
 
 The education and combat are the same decision economy.
 
@@ -444,7 +446,7 @@ The education and combat are the same decision economy.
 # 17. Scoring
 
 Operational Objective:
-- Prime defeated;
+- PRIM2 defeated;
 - hostile authority removed;
 - life safety preserved;
 - succession state viable.
@@ -465,7 +467,7 @@ Integrity:
 - no destructive shortcut that makes Evil Twin/Ghost impossible.
 
 Time:
-- how many failover cycles Prime forces before defeat.
+- how many failover cycles PRIM2 forces before defeat.
 
 Learning Mastery weighting:
 - 15% RAID 0/striping behavior
@@ -491,7 +493,7 @@ Learning Mastery weighting:
 - hot/warm/cold sites are understood through restoration tradeoffs under pressure;
 - at least one failure-domain puzzle requires all three roles;
 - story-locked deaths remain canon while player performance changes their operational residue;
-- Prime's physical defeat does not end the mission before authority/life-support validation;
+- PRIM2's physical defeat does not end the mission before authority/life-support validation;
 - Evil Twin starts from the exact state this mission writes;
 - no real facility attack procedure or live target is modeled.
 

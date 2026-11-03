@@ -7,7 +7,7 @@ version: 1.0.0
 # Relationship ecosystem (before the main story)
 
 The series does not start with strangers in a logo.  
-By High Alert / McCluster’s climb, the **24 mains** already carry an **ecosystem**: people who tried to get in, people who got in and died, people who got in and left, friendships that outlast badges, and the quiet math that **only about one in three** who reach the door ever stay company.
+By High Alert / McCluster’s climb, the **23 mains already in the building** carry an **ecosystem**: people who tried to get in, people who got in and died, people who got in and left, friendships that outlast badges, and the quiet math that **only about one in three** who reach the door ever stay company.
 
 ## Split of the 48 secondaries (locked)
 
@@ -29,7 +29,7 @@ Each main is not only a nation + job. They are:
 - Someone who still answers (or avoids) a **freelancer** who knew them before the M felt heavy  
 - Someone who still sees a **dead name** when a corridor or a tool is used  
 
-That pre-history is why Aya is precise, why McCluster hungers for paid-in-full, why Volkov and Bondarenko can share a floor without performing a news cycle, why Chioma leads like someone who buried a peer.
+That pre-history is why Aya is precise, why Volkov and Bondarenko can share a floor without performing a news cycle, why Chioma leads like someone who buried a peer.
 
 ---
 
@@ -51,14 +51,14 @@ Numbers are moral texture, not a spreadsheet episode. The point: **every main kn
 Not a single hierarchy. A **mesh** built in the founding years:
 
 ### Cluster A — Bay / Field spine
-**McCluster · Aya · Arjun · Minh · Rafael · Samir-type seats**  
+**Aya · Arjun · Minh · Rafael · Samir-type seats**  
 Trained in close quarters. Shared dirty cables, shared seals, shared first real fear.  
-- McCluster–Aya: trust as integrity (Patch Work future)  
+McCluster is **not** part of this founding mesh: he arrives at 33 as a newcomer (`CANON.md` §2, §10; `episodes/S01E03-OSINT.md` "The world did not begin when McCluster walked in"). He meets this cluster in Season 1, and McCluster–Aya trust is built on screen (Patch Work future).  
 - Arjun–Minh: quiet competition that became respect  
 - Rafael: the one who pulled two people out of a bad entry and never bragged  
 
 **Dead on this line:** early Field-E who taught Arjun the door order; trainee who imaged dirty and later died on an outer site.  
-**Freelance on this line:** ex-Field-T who still texts Aya hash tricks; ex-overwatch who will sit a roof for McCluster once if he asks as a friend.
+**Freelance on this line:** ex-Field-T who still texts Aya hash tricks; ex-overwatch who will sit a roof for Rafael once if he asks as a friend.
 
 ### Cluster B — Defense floor
 **Dmitri Volkov · Oksana Bondarenko · Emre · Nusrat · Miguel · Hassan**  
@@ -91,7 +91,7 @@ Per diem years. Hybrid identity. Who got promoted, who got seasonal.
 | Volkov ↔ Bondarenko | Same defense certification class; saved the same civilian contractor in a blackout |
 | Li Wei ↔ (DPRK secondary Sun Ho, if alive freelance or dead) | Language table / technical translation nights — personal, not state |
 | Arjun ↔ Hassan | Long argument about scope ethics that ended in mutual field backup |
-| McCluster ↔ Chioma | She signed an early evaluation that kept him from washing out |
+| McCluster ↔ Chioma | *(moved into the series)* She signs his first field evaluation in Season 1, after Permission Slip; what she writes is "He stopped when she told him to." It is what keeps him from washing out. |
 | Aya ↔ Helen | Director once shielded a bay budget so Aya’s kit stayed FORENSIC-clean |
 
 ---
@@ -141,7 +141,7 @@ They do **not** restart the company plot. They prove the ecosystem is larger tha
 | Main | Why they act that way (ecosystem) |
 |------|-----------------------------------|
 | **Aya** | Lost a bay partner to dirty procedure culture; never again |
-| **McCluster** | Watched freelancers leave “free” and stay hungry; wants paid-in-full |
+| **McCluster** | Not from this ecosystem: a newcomer at 33 whose hunger for paid-in-full comes from his own life (homelessness, the Ghost Years), not from the founding years |
 | **Volkov** | Dead former on his line was loud about politics; Volkov stayed quiet and competent |
 | **Bondarenko** | Freelance friend in Poland still sends weather; she doesn’t perform the war for the building |
 | **Chioma** | Two dead on her evaluation list; she promotes hard and sleeps little |

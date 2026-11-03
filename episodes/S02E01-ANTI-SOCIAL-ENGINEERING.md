@@ -22,7 +22,7 @@ MISSION LEAD: Nusrat for access response; Priya for event/public consequence
 BASE PLAYABLE ROSTER: Priya / Nusrat / Miguel / event-support specialist from existing roster
 MCCLUSTER: cameo/edge; off-board Wildcard if CRITICAL
 APEX: unavailable
-ROYCE: no random incursion
+BENJI: no random incursion
 ```
 
 ---
@@ -45,7 +45,7 @@ ROYCE: no random incursion
 
 # Human problem
 
-At a crowded McCluster public event, someone uses urgency, status cues and partially legitimate information to pressure staff across a boundary.
+At a crowded Equity Uprise public event, someone uses urgency, status cues and partially legitimate information to pressure staff across a boundary.
 
 Priya fears a harsh response will humiliate staff and destroy the atmosphere she built.
 Nusrat fears concern for optics will leave the boundary open.

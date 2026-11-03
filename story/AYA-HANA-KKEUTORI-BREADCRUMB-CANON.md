@@ -123,11 +123,11 @@ That later allows old jokes to carry a second semantic pattern without looking l
 
 # 5. Why Hana needs agency help to discover PRIM
 
-Hana does **not** independently penetrate the full PRIM architecture from inside McCluster.
+Hana does **not** independently penetrate the full PRIM architecture from inside Equity Uprise.
 
 The system is too compartmentalized and too carefully protected for one embedded technical investigator to reconstruct alone.
 
-Her breakthrough only becomes possible because her NIS support structure can correlate information unavailable to Hana inside McCluster.
+Her breakthrough only becomes possible because her NIS support structure can correlate information unavailable to Hana inside Equity Uprise.
 
 The exact intelligence collection methods remain intentionally abstract.
 
@@ -135,7 +135,7 @@ At writer level, the agency contributes categories of corroboration such as:
 
 - old cross-border incident timelines;
 - archival corporate and infrastructure records;
-- historical references whose numbering patterns predate Hana's McCluster access;
+- historical references whose numbering patterns predate Hana's Equity Uprise access;
 - external observations showing that supposedly unrelated systems behave as though one authority can affect all of them;
 - legacy traces suggesting that `PRIM0`, `PRIM1`, and `PRIM2` are not merely software revisions;
 - and historical continuity that lets Hana distinguish a **human succession pattern** from an ordinary platform-version pattern.
@@ -202,7 +202,7 @@ Instead she uses the one interpretive framework that belongs almost entirely to 
 Kkeutori is ideal because:
 
 - thousands of their old exchanges are genuinely harmless;
-- most of the game existed before Hana's McCluster investigation;
+- most of the game existed before Hana's McCluster Corp investigation;
 - the jokes are emotionally recognizable to Aya but meaningless to outsiders;
 - a strange word can always be explained as part of the game;
 - and Aya, unlike an intelligence service, remembers the personal context around individual rounds.
@@ -289,7 +289,7 @@ The unfinished chain remains banal enough that Aya does not initially interpret 
 
 After Hana dies, Aya remembers it only as one more incomplete joke.
 
-Much later, after Aya has spent significant time inside McCluster and begun convincing herself that her original suspicions were grief-driven, she encounters a system behavior / phrase / historical reference that echoes one of Hana's marked Kkeutori clusters.
+Much later, after Aya has spent significant time inside Equity Uprise and begun convincing herself that her original suspicions were grief-driven, she encounters a system behavior / phrase / historical reference that echoes one of Hana's marked Kkeutori clusters.
 
 Aya reopens the old exchanges.
 
@@ -326,7 +326,7 @@ The Kkeutori trail does **not** immediately reveal:
 It does give Aya enough to conclude:
 
 1. Hana's suspicion was real and deliberate.
-2. Hana believed the visible McCluster org chart concealed actual authority.
+2. Hana believed the visible McCluster Corp org chart concealed actual authority.
 3. Hana believed a hidden root connected multiple systems.
 4. Hana believed the root was tied to a living human identity.
 5. Hana had discovered a succession pattern involving zero / inheritance / the current second successor.
@@ -345,11 +345,11 @@ Only later does she learn that Hana had outside institutional help.
 
 That reveal solves a question Aya should naturally ask:
 
-> **If this architecture is hidden well enough that I could work inside McCluster for years and not prove it, how the hell did Hana get this far?**
+> **If this architecture is hidden well enough that I could work inside Equity Uprise for years and not prove it, how the hell did Hana get this far?**
 
 Answer:
 
-> **She did not get there alone. A national intelligence service was helping correlate the parts McCluster kept separated.**
+> **She did not get there alone. A national intelligence service was helping correlate the parts McCluster Corp kept separated.**
 
 That fact simultaneously:
 
@@ -376,7 +376,7 @@ That creates several conflicting emotions:
 - anger that Hana did not trust her enough to tell her directly;
 - guilt that Aya missed the clues;
 - relief that her original suspicion was not irrational;
-- humiliation that she later defended McCluster;
+- humiliation that she later defended Equity Uprise;
 - grief because ordinary memories now contain a second meaning;
 - and renewed obsession with determining what Hana actually found.
 

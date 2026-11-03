@@ -120,7 +120,7 @@ Freelance developer who likes paid invoices, ordinary clients and knowing what t
 ### Youssef Benali — Algeria — legacy
 Mission sponsor who once refused authorization and paid for it professionally. **Want:** make “no” a legitimate technical decision. **Flaw:** believed moral clarity protected him from institutional retaliation. **Residue:** Amira keeps his refusal letter because it proves courage can look bureaucratic.
 
-### Layla Mansour — McCluster — living freelancer
+### Layla Mansour — Jordan — living freelancer
 International contracting attorney who distinguishes legality, authorization and legitimacy with annoying precision. **Want:** clients who understand that a signature does not remove responsibility. **Flaw:** can mistake legal nuance for emotional distance. **Connection:** Amira's outside counsel and oldest reality check.
 
 ## Attached to Miguel Santos
@@ -177,7 +177,7 @@ Human-factors specialist who asks humiliatingly simple questions like “will a 
 Brand designer whose work made operational clothing feel aspirational before she understood the risk surrounding the people wearing it. **Want:** design that gives dignity. **Flaw:** underestimated how institutions weaponize aspiration. **Residue:** Priya's guilt about the brand is tied to Mei-Ling, not abstract theory.
 
 ### Rachel Wong — Australia — living freelancer
-Independent creative director who left McCluster before the prestige became dependency. **Want:** control over her own client list and voice. **Flaw:** sometimes mistakes exit for courage and staying for weakness. **Connection:** Priya's living evidence that leaving is possible.
+Independent creative director who left Equity Uprise before the prestige became dependency. **Want:** control over her own client list and voice. **Flaw:** sometimes mistakes exit for courage and staying for weakness. **Connection:** Priya's living evidence that leaving is possible.
 
 ## Attached to Helen Clarke
 

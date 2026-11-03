@@ -13,8 +13,8 @@ Current canon:
 - `High Alert` is shown in S1E1 but occurs chronologically during S7E1 `RAID (HOT SITE)`;
 - PRIM2 performs;
 - McCluster attacks from the PRIM side;
-- Royce attacks from the Hitman side;
-- Benji is McCluster's old identity, not a separate attacker;
+- Benji attacks from the Hitman side;
+- Benji (Benjamin Chase, formerly Royce) is McCluster's clone and leads the Hitman-side attack;
 - 17 memory anchors point toward Episodes 02–18;
 - the opening cuts away before RAID resolves;
 - the series then rewinds **seven years earlier** to McCluster entering college at 33 and the ensemble world beginning.

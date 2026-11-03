@@ -1,45 +1,32 @@
 ---
-status: CANON
+status: CANON (re-homed under Hitman 2026-11-03)
 entity_id: ORG-APEX
 public_name: Apex Tactical Corp
-type: de facto parent organization
-controls:
-  - McCluster Corp
+version: 3.0.0
+authority: CANON.md §19; story/HITMAN-ORG.md
 ---
 
 # Apex Tactical Corp
 
-## Core concept
+## Owner decision (2026-11-03): Apex belongs to Hitman
 
-Apex Tactical Corp is the de facto organization behind McCluster Corp and several other front corporations. It uses those entities to operate black sites, manage sensitive work and deal with governments throughout the world.
+Owner: "That's Hitman, I guess."
 
-## Structure
+- **Apex Tactical Corp is a Hitman company:** the corporate and tactical face of the Hitman organisation, under its sovereign, Benjamin "Benji" Chase (Hitman Benji). It is where Hitman's street-corporate side holds contracts, security work, vehicles, equipment and deniable black-site jobs.
+- It is **not** part of McCluster Corp or Equity Uprise, does **not** own or control either, and is **not** a recruitment pipeline. McCluster's college years are not an exam for it.
+- Like all of Hitman, it sits beneath PRIM2's hidden cross-board view (`CANON.md` §17, §19). PRIM2 sees it; he does not run it day to day.
+- Apex branding is never placed on McCluster Corp or Equity Uprise clothing or property.
+- **Name overlap, not the same thing:** the game's "Apex" intervention (`APEX SUPPORT`, PRIM2's scarce authorisations, `CANON.md` §15) is named for the apex of the hidden PRIM architecture. It is unrelated to Apex Tactical Corp.
+- Do not invent additional front corporations without owner approval.
 
-Apex does not need to resemble a conventional public holding company. Control may be distributed through contracts, ownership vehicles, classified authorities, technical access and personnel loyalty.
+porations without owner approval.
 
-Its fronts compartmentalize:
+## Removed on 2026-11-02 (owner decision)
 
-- Public business
-- Recruitment
-- Government relationships
-- Research and development
-- Logistics
-- Field operations
-- Black-site infrastructure
-- Liability and attribution
+Owner: "we need to clean that internship that's secretly an exam type shit." Version 1 of this file said, and canon no longer says:
 
-Only McCluster Corp is currently named and canonized. Do not invent additional front corporations without owner approval.
+- "Apex Tactical Corp is the de facto organization behind McCluster Corp and several other front corporations" (front matter `controls: McCluster Corp`);
+- "Prime is Apex's highest operational authority";
+- the narrative ladder "McCluster Corp lets the protagonist believe he has joined an exceptional company. Apex Tactical Corp is the first revelation that he has joined an architecture."
 
-## Prime relationship
-
-Prime is Apex's highest operational authority.
-
-The Prime office has access and responsibilities beyond any ordinary executive position. The exact legal relationship between Prime, Apex ownership and individual front corporations remains intentionally opaque until later story development.
-
-## Narrative purpose
-
-McCluster Corp lets the protagonist believe he has joined an exceptional company.
-
-Apex Tactical Corp is the first revelation that he has joined an architecture.
-
-Prime is the later revelation that the architecture belongs operationally to one person who cannot resign.
+The 2026-11-02 version (Apex as a black-site layer beneath the PRIM root) is superseded by the 2026-11-03 decision above.

@@ -8,7 +8,8 @@ Read this first.
 
 ## 0. Corporate face
 
-**McCluster Corp** = front (marketing face, holds land/building, equity).  
+**McCluster Corp** = the holding/operating ecosystem behind Equity Uprise (land, building, brands, equity), governed at its hidden root through PRIM (`CANON.md` §19). Not a front for Apex.  
+**Equity Uprise** = the real, visible workplace McCluster joins.  
 **Prim3** = how the work runs.  
 **Mark:** white geometric **M** + red Dual Sight bars.
 
@@ -34,11 +35,12 @@ See `story/PRIME-LORE.md`.
 **3 episodes per season = 21 episodes.**  
 **1 song = 1 episode = 1 mission.**
 
-Each episode is approximately **9 minutes**:
+Each WATCH episode runs approximately **20–35 minutes** (`CANON.md` §1; the old nine-minute cap is retired), organised causally:
 
-1. **Music film (~3 min)** — technical/emotional thesis
-2. **Human story (~3 min)** — character pressure and continuity
-3. **Mission (~3 min)** — WATCH authored action or PLAY gamified version
+1. **Music film (about one track-length)** — technical/emotional thesis and operational brief
+2. **Human story** — character pressure, workplace life and continuity
+3. **Mission** — WATCH authored action or PLAY gamified version
+4. **Aftermath** — residue, relationships, staffing
 
 McCluster leaves between academic years for recurring **summer policy fellowships**. Those summers change his worldview but are not added to PRIM3's 21-episode count. Equity Uprise may later become the separate show/game lane that tells those summers.
 

@@ -25,7 +25,7 @@ The first friendships should come from small exchanges rather than destiny: borr
 
 ## Movement 2 — Equity Uprise feels like rescue
 
-The internship is visually and materially impressive. The protagonist gets good clothes, competent equipment, access to serious systems, and adults who seem to recognize what he knows.
+Equity Uprise onboarding is visually and materially impressive. The protagonist gets good clothes, competent equipment, access to serious systems, and adults who seem to recognize what he knows.
 
 That matters because he has recently lived without stability. The corporation does not initially feel sinister. It feels generous.
 

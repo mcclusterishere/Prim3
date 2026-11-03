@@ -50,7 +50,7 @@ Every episode must explicitly define:
 4. **McCluster presence** — A/B/C/D/E/F per `ENSEMBLE-POV-AUTHORITY.md`.
 5. **Human stake** — whose life, trust, reputation, relationship or responsibility is affected?
 6. **Why now** — why can this not wait?
-7. **Why PRIM / McCluster Corp Corp Corp Corp** — why this organization/team is involved.
+7. **Why PRIM / McCluster Corp** — why this organization/team is involved.
 8. **Mission lead** — who has operational authority?
 9. **Primary playable POV(s)** — whose capabilities make the mission mechanically legible?
 10. **Why these roles** — why R/E/T/Defense/Wildcard or other lanes matter.
@@ -86,7 +86,7 @@ Across Episodes 02–18, the default authoring bias is that **most episodes prim
 
 A strong recurring character should be capable of carrying an episode in which McCluster never enters the room.
 
-Global Episode 01 / High Alert is a deliberate exception because it opens inside the future succession conflict and therefore foregrounds **PRIM2, McCluster and Royce**.
+Global Episode 01 / High Alert is a deliberate exception because it opens inside the future succession conflict and therefore foregrounds **PRIM2, McCluster and Benji**.
 
 ---
 
@@ -242,7 +242,7 @@ Combat cannot substitute for the technical objective.
 
 # 10. WATCH vs PLAY
 
-- WATCH mission/action remains roughly three authored minutes inside the ~9-minute episode.
+- WATCH mission/action is a focused authored stretch inside the approximately 20–35-minute episode (`CANON.md` §1).
 - PLAY expands the same canonical event into roughly 15–30 minutes for normal missions.
 - Capstones may be longer/checkpointed.
 - WATCH may move between emotional viewpoints.

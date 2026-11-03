@@ -52,12 +52,12 @@ Kkeutori establishes an important limit: PRIM2 can possess data without possessi
 
 | Global ep | Episode | PRIM2 / root trace | First-watch explanation | Status |
 |---:|---|---|---|---|
-| 20 | Evil Twin | PRIM2 openly explains portions of the dual-board architecture after physical defeat by McCluster and Royce. | Endgame confession. | LOCKED concept |
-| 19 | RAID (HOT SITE) | PRIM2 observes/resists McCluster's PRIM-side assault and Royce's Hitman-side assault through Site 0's distributed command environment. | Expected defensive awareness. | LOCKED concept |
+| 20 | Evil Twin | PRIM2 openly explains portions of the dual-board architecture after physical defeat by McCluster and Benji. | Endgame confession. | LOCKED concept |
+| 19 | RAID (HOT SITE) | PRIM2 observes/resists McCluster's PRIM-side assault and Benji's Hitman-side assault through Site 0's distributed command environment. | Expected defensive awareness. | LOCKED concept |
 | 18 | Song #21 | OPEN. | OPEN. | WAIT FOR SONG |
 | 17 | Patch Work | Prefer evidence that Aya/McCluster/Helen discover a trust or tasking inconsistency whose ultimate authority cannot be explained by visible governance. **Do not use the old `MENTOR / OBSERVE MCCLUSTER / P-00` tasking as locked canon.** | Legacy/central administrative inconsistency. | NEEDS EPISODE REWRITE |
 | 16 | Per Diem | A high-level compensation/continuity exception may reveal that somebody outside the visible approval tree protects certain families/operators while classifying others instrumentally. | Remote HR/finance authority. | PROPOSED |
-| 15 | Trappin From The Cloud | Two separated organizational lanes receive suspiciously compatible resources or priorities without seeing the shared source. If Hitman-side material appears, use **Royce's people**, never a separate contemporary Benji. | Global logistics coincidence. | PROPOSED |
+| 15 | Trappin From The Cloud | Two separated organizational lanes receive suspiciously compatible resources or priorities without seeing the shared source. If Hitman-side material appears, use **Benji's people**, never Benji. | Global logistics coincidence. | PROPOSED |
 | 14 | CapEx vs OpEx | Expensive resilience spending has an unexplained approval path above visible finance governance. | Executive contingency. | PROPOSED |
 | 13 | IaaS/SaaS/PaaS | A cross-layer escalation resolves from outside the documented service hierarchy. | Senior platform escalation. | PROPOSED |
 | 12 | IoT | Pylon behaves before local humans issue the expected command, implying a higher context source. | Automation/failover. | PROPOSED |
@@ -77,7 +77,7 @@ Kkeutori establishes an important limit: PRIM2 can possess data without possessi
 
 # Ensemble-specific rule
 
-When an episode belongs to Aya, Chioma, Royce, Amira, Marc, Jonas, Pylon, Thandiwe or another main:
+When an episode belongs to Aya, Chioma, Benji, Amira, Marc, Jonas, Pylon, Thandiwe or another main:
 
 - do not insert McCluster solely to carry the PRIM2 trace;
 - do not insert PRIM2 physically solely to preserve the ledger;

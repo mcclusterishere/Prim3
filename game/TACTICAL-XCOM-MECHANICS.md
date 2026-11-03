@@ -230,18 +230,18 @@ REQUEST PRIM2
 
 PRIM2's identity is broader information + sovereign authority, not an unlimited cheat code.
 
-## 12. Royce Incursion
+## 12. Benji Incursion
 
-Royce is a persistent Hitman-side elite incursion, not a generic hard target.
+Benji is a persistent Hitman-side elite incursion, not a generic hard target.
 
 Standard non-scripted limits:
-- maximum **2 Royce Incursions per season**;
+- maximum **2 Benji Incursions per season**;
 - maximum **1 per mission**;
 - **2-mission cooldown** after a non-scripted incursion;
 - story-authored missions may override;
 - final RAID is not constrained by the random-incursion cap.
 
-Royce specializes in:
+Benji specializes in:
 - breaking/contesting Control Zones;
 - pressuring isolated or wounded characters;
 - forcing route changes;
@@ -261,7 +261,7 @@ His intended emotional effect is similar to an XCOM Chosen arrival:
 ENSEMBLE -> solves the mission
 MCCLUSTER   -> restores optionality
 PRIM2    -> expands picture / authority
-ROYCE    -> destabilizes control / tempo
+BENJI    -> destabilizes control / tempo
 ```
 
 This asymmetry is mandatory. Do not build three reskinned super-soldiers.
@@ -277,7 +277,7 @@ Separate ribbons/flags can record:
 - `WILDCARD_RECOVERY`
 - `APEX_RECOVERY`
 - `OBJECTIVE_SALVAGED`
-- `ROYCE_REPULSED`
+- `BENJI_REPULSED`
 - `SURVIVOR_EXTRACTION`
 
 Learning Mastery is scored separately. McCluster/PRIM2 may save the people and mission state without auto-awarding concept mastery.
@@ -319,7 +319,7 @@ A useful vertical slice should prove this sequence:
 5. player may request McCluster;
 6. McCluster arrives after delay and restores options;
 7. a test scenario can remain critical enough to expose PRIM2 Apex;
-8. a separate/variant scenario supports a Royce Incursion;
+8. a separate/variant scenario supports a Benji Incursion;
 9. aftermath records who saved whom and what intervention was spent;
 10. Learning Mastery remains independent of rescue use.
 

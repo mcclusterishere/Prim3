@@ -21,7 +21,7 @@ SECONDARY DEPTH: Minh Tran / Helen Clarke / Leila Hosseini / Jonas Weber / Chiom
 ESTABLISHED HISTORY: Hana Lee through Kkeutori; Tariq Al-Farsi and/or Ren Shinoda only if the scene specifically requires Aya's outside life
 MCCLUSTER: emotionally central supporting character; off-board Wildcard if mission reaches CRITICAL
 APEX: conditional after McCluster is present and crisis remains qualified CRITICAL
-ROYCE: unavailable by default
+BENJI: unavailable by default
 ```
 
 This supersedes the old McCluster-led patch mission. The technical patch/change-control mechanics remain, but the episode's central rupture is Aya discovering that the institution she learned to trust still contains a layer she never actually audited.
