@@ -1,0 +1,193 @@
+{
+  "sheet": "Weapons & Ammo",
+  "columns": [
+    "Name",
+    "Entity ID",
+    "Status",
+    "Implementation",
+    "Category",
+    "Damage",
+    "Range",
+    "Ammo family",
+    "Capacity",
+    "Action cost",
+    "Definition",
+    "Source IDs"
+  ],
+  "rows": [
+    {
+      "entityId": "ammo.variant.cover-break",
+      "name": "Cover-break round",
+      "status": "proposed",
+      "implementation": "schema_only",
+      "category": "Ammunition",
+      "damage": "Unspecified",
+      "range": "Unspecified",
+      "ammo_family": "Unspecified",
+      "capacity": "Unspecified",
+      "action_cost": "Unspecified",
+      "definition": "Proposed game tradeoff: lower actor damage and more damage to explicitly destructible cover. Current scenery cannot be destroyed.",
+      "source_ids": [
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "ammo.family.carbine",
+      "name": "Entry carbine ammunition",
+      "status": "proposed",
+      "implementation": "schema_only",
+      "category": "Ammunition",
+      "damage": "Unspecified",
+      "range": "Unspecified",
+      "ammo_family": "Unspecified",
+      "capacity": "Unspecified",
+      "action_cost": "Unspecified",
+      "definition": "Proposed fictional compatibility family. No magazine, inventory or round consumption exists in the current mission.",
+      "source_ids": [
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "ammo.family.rifle",
+      "name": "Recon rifle ammunition",
+      "status": "proposed",
+      "implementation": "schema_only",
+      "category": "Ammunition",
+      "damage": "Unspecified",
+      "range": "Unspecified",
+      "ammo_family": "Unspecified",
+      "capacity": "Unspecified",
+      "action_cost": "Unspecified",
+      "definition": "Proposed fictional compatibility family. No magazine, inventory or round consumption exists in the current mission.",
+      "source_ids": [
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "ammo.family.sidearm",
+      "name": "Service sidearm ammunition",
+      "status": "proposed",
+      "implementation": "schema_only",
+      "category": "Ammunition",
+      "damage": "Unspecified",
+      "range": "Unspecified",
+      "ammo_family": "Unspecified",
+      "capacity": "Unspecified",
+      "action_cost": "Unspecified",
+      "definition": "Proposed fictional compatibility family. No magazine, inventory or round consumption exists in the current mission.",
+      "source_ids": [
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "ammo.variant.standard",
+      "name": "Standard round",
+      "status": "proposed",
+      "implementation": "schema_only",
+      "category": "Ammunition",
+      "damage": "Unspecified",
+      "range": "Unspecified",
+      "ammo_family": "Unspecified",
+      "capacity": "Unspecified",
+      "action_cost": "Unspecified",
+      "definition": "Proposed baseline game round. Multipliers are design seeds, not physical specifications.",
+      "source_ids": [
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "projectile.training-beacon",
+      "name": "Training beacon",
+      "status": "proposed",
+      "implementation": "schema_only",
+      "category": "Ammunition",
+      "damage": "Unspecified",
+      "range": "Unspecified",
+      "ammo_family": "Unspecified",
+      "capacity": "Unspecified",
+      "action_cost": "Unspecified",
+      "definition": "Reserved harmless game projectile for future graph and curve lessons. No real weapon trajectory values are supplied.",
+      "source_ids": [
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "ammo.variant.marker",
+      "name": "Training marker round",
+      "status": "proposed",
+      "implementation": "schema_only",
+      "category": "Ammunition",
+      "damage": "Unspecified",
+      "range": "Unspecified",
+      "ammo_family": "Unspecified",
+      "capacity": "Unspecified",
+      "action_cost": "Unspecified",
+      "definition": "Proposed training-only marking effect for a simulated range.",
+      "source_ids": [
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "equipment.primary_r_optic",
+      "name": "Optic / DMR or long glass",
+      "status": "canon",
+      "implementation": "design_only",
+      "category": "Weapons",
+      "damage": "Unknown",
+      "range": "Unknown",
+      "ammo_family": "Unspecified",
+      "capacity": "Unknown",
+      "action_cost": "Unspecified",
+      "definition": "Design identity; item mechanics are not bound to the playable mission.",
+      "source_ids": [
+        "src.9444e63b395b6e",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "equipment.pistol_service_compact",
+      "name": "Pistol Service Compact",
+      "status": "canon",
+      "implementation": "design_only",
+      "category": "Weapons",
+      "damage": "Unknown",
+      "range": "Unknown",
+      "ammo_family": "Unspecified",
+      "capacity": "Unknown",
+      "action_cost": "Unspecified",
+      "definition": "Design identity; item mechanics are not bound to the playable mission.",
+      "source_ids": [
+        "src.ae1bf28ba97754",
+        "src.9444e63b395b6e",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "equipment.primary_e",
+      "name": "Primary (SMG / compact carbine — profile dependent)",
+      "status": "canon",
+      "implementation": "design_only",
+      "category": "Weapons",
+      "damage": "Unknown",
+      "range": "Unknown",
+      "ammo_family": "Unspecified",
+      "capacity": "Unknown",
+      "action_cost": "Unspecified",
+      "definition": "Design identity; item mechanics are not bound to the playable mission.",
+      "source_ids": [
+        "src.9444e63b395b6e",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    }
+  ]
+}

@@ -1,0 +1,686 @@
+{
+  "sheet": "Phenotypes",
+  "columns": [
+    "Name",
+    "Entity ID",
+    "Status",
+    "Implementation",
+    "Role family",
+    "Primary identity",
+    "Function",
+    "Visual rule",
+    "Equipment floor",
+    "Exclusions",
+    "Source IDs"
+  ],
+  "rows": [
+    {
+      "entityId": "phenotype.ac-01",
+      "name": "Academic / Campus",
+      "status": "proposed",
+      "implementation": "design_only",
+      "role_family": "Civilian",
+      "primary_identity": "Unspecified",
+      "function": "Professors, administrators, and ordinary students who populate the college environment of Season 1. Provides contrast and grounding so the corporate and operator phenotypes feel alien and e…",
+      "visual_rule": "- Realistic contemporary academic and student clothing - No McCluster marks - Age and status readable through fit, quality, and wear",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.c34c94a1b3d99d",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.ei-01",
+      "name": "Authority-01 Executive",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Institutional Authority",
+      "primary_identity": "Helen Clarke — visible institutional executive face",
+      "function": "The highest institutional human identity on the Prime side. EI-01 holds strategic control and final institutional weight. This is not an operator, not a facility guard, and not a program ma…",
+      "visual_rule": "From executive identity canon: 1. Modern black single-breasted, two-button suit with notch lapels 2. Matching black tailored trousers with side adjusters and no belt 3. Warm ivory-white exe…",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.67c18cb2170770",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.ei-02",
+      "name": "Authority-02 Director",
+      "status": "proposed",
+      "implementation": "design_only",
+      "role_family": "Institutional Authority",
+      "primary_identity": "Helen Clarke",
+      "function": "The operational executive. Turns strategic intent from EI-01 into runnable programs, resource allocation, schedules, and constraints. This is the suit who makes missions possible or impossi…",
+      "visual_rule": "- Full corporate authority language (Authority Black or elevated Corporate Fits) - Cleaner and more operational than pure boardroom EI-01; still unmistakably suit, never field - Restrained …",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.5092db6ad53ed6",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.ei-03",
+      "name": "Authority-03 Mission Sponsor",
+      "status": "proposed",
+      "implementation": "design_only",
+      "role_family": "Institutional Authority",
+      "primary_identity": "Amira Hassan",
+      "function": "Owns a specific line of effort. This is the suit the cohort actually feels. When a field team goes out, an EI-03 has usually signed for the objective, the accepted risk, and the political c…",
+      "visual_rule": "- Institutional suit language (Authority Black or elevated Corporate Fits) - May run slightly less formal than EI-01 in high-tempo periods; never becomes operator kit - Restrained Dual Sigh…",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.6abae3a5c588f3",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.co-01",
+      "name": "Cohort-01 Operator",
+      "status": "proposed",
+      "implementation": "design_only",
+      "role_family": "Operators",
+      "primary_identity": "Sari Wulandari",
+      "function": "The working uniform of an active cohort member once they have passed basic evaluation and are cleared for real (or near-real) operational work. This is the phenotype the audience sees most …",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "- Full Prime M-helmet and Mission Core (reserved for PRIME-N1) - Heavy SWAT / plate-carrier overload - Civilian corporate clothing mixed in - Loud branding or fashion pieces",
+      "source_ids": [
+        "src.fbe8648935bbb2",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.co-02",
+      "name": "Cohort-02 Trainee",
+      "status": "proposed",
+      "implementation": "design_only",
+      "role_family": "Cohort",
+      "primary_identity": "Valeria Soto",
+      "function": "- Learning procedures under evaluation - More formal and careful than Cohort-01 Operator - Does not run Field-T / Field-E / Field-R jobs as their identity - Main product: development under …",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.776b2b8983091e",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.co-03",
+      "name": "Cohort-03 Lead",
+      "status": "proposed",
+      "implementation": "design_only",
+      "role_family": "Operators / Cohort",
+      "primary_identity": "Chioma Okeke",
+      "function": "The senior active cohort identity. This is the operator who runs a small element — typically a field triad (FO-T / FO-E / FO-R) or an internal institutional team — under direction from high…",
+      "visual_rule": "- Same institutional operator language as CO-01, with slight elevation - Cleaner, more deliberate kit presentation — less “lived-in scramble,” more controlled authority - Dual Sight / `//` …",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.9f02651c9eb0b5",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.soi-01",
+      "name": "Defense-01 Building Guard",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Building Defense",
+      "primary_identity": "Dmitri Volkov",
+      "function": "General corporate facility security. Protects McCluster personnel, facilities, information systems, and continuity of operations inside and around controlled buildings. This is the baseline…",
+      "visual_rule": "- Authority-black corporate foundation - Ultra-thin protective vest - High-chest body camera (lens may echo Dual Sight) - McCluster cyberdeck - Exactly one compact sidearm in low-profile ho…",
+      "equipment_floor": "1. Corporate clothing foundation 2. Ultra-thin protective vest 3. Body camera 4. McCluster cyberdeck 5. One sidearm + retention holster",
+      "exclusions": "Watches as identity gear, earpieces as default, cable wallets, visible drives, loose cables, gloves as standard, mystery modules, extra pouches, spare magazines, rifles, long guns, helmets,…",
+      "source_ids": [
+        "src.01ce7df4b92e7f",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.soi-02",
+      "name": "Defense-02 Access Officer",
+      "status": "proposed",
+      "implementation": "design_only",
+      "role_family": "Building Defense",
+      "primary_identity": "Nusrat Rahman",
+      "function": "Controls who enters and exits McCluster facilities. Owns lobbies, vehicle gates, badge points, visitor processing, and identity verification. This is the human face of the building’s perime…",
+      "visual_rule": "- Same Authority Black institutional foundation as SOI-01 - Even cleaner silhouette; less “patrol,” more “post” - Body camera standard - Cyberdeck or fixed terminal access for identity syst…",
+      "equipment_floor": "Unknown",
+      "exclusions": "Same as SOI-01, plus: no patrol-primary kit, no entry-team bulk, no field operator modules.",
+      "source_ids": [
+        "src.8d636282c81708",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.soi-03",
+      "name": "Defense-03 Tech-Zone Guard",
+      "status": "proposed",
+      "implementation": "design_only",
+      "role_family": "Building Defense",
+      "primary_identity": "Hassan Raza",
+      "function": "Protects high-value technical zones inside McCluster facilities — server rooms, labs, fabrication floors, network cores, and other spaces where physical access equals systems access. This i…",
+      "visual_rule": "- Authority Black institutional foundation - Ultra-thin vest + slightly more visible technical interface (cyberdeck prominence) - Body camera standard - Sidearm present, still secondary - D…",
+      "equipment_floor": "Unknown",
+      "exclusions": "Full FO-T exploitation stacks, FO-E entry loads, FO-R observation packages, heavy tactical gear, non-McCluster marks.",
+      "source_ids": [
+        "src.0df120ab38c3b4",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.fo-01",
+      "name": "Field Operator (general deployment)",
+      "status": "proposed",
+      "implementation": "design_only",
+      "role_family": "Operators",
+      "primary_identity": "Unspecified",
+      "function": "The external deployment phenotype. This is the loadout and behavioral posture used when cohort members (or more experienced operators) are sent outside corporate facilities into real-world …",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.55be1602b18ec4",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.fo-e",
+      "name": "Field-E Entry Operator",
+      "status": "proposed",
+      "implementation": "design_only",
+      "role_family": "Operators / Field",
+      "primary_identity": "Arjun Mehta",
+      "function": "The physical access and close-security specialist. Responsible for getting the team onto the objective, controlling immediate space, and protecting the Technical operator while the technica…",
+      "visual_rule": "- Highest soft-to-mid armor load of the three basic field phenotypes - Darker, more aggressive weathering than FO-T; still institutional, never generic special forces - Strong, readable Dua…",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.47b86fcb80454f",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.fo-r",
+      "name": "Field-R Overwatch Operator",
+      "status": "proposed",
+      "implementation": "design_only",
+      "role_family": "Operators / Field",
+      "primary_identity": "Rafael Costa",
+      "function": "The external awareness and early-warning specialist. Responsible for surveillance of the approach, perimeter, and surrounding environment while the rest of the team is on the objective. Thi…",
+      "visual_rule": "- Lightest armor of the three basic field phenotypes for maximum mobility and low visual/thermal signature - Darker, more subdued weathering; prioritizes blending over presence - Dual Sight…",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.06faaf1be55290",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.fo-t",
+      "name": "Field-T Technical Operator",
+      "status": "proposed",
+      "implementation": "design_only",
+      "role_family": "Operators / Field",
+      "primary_identity": "Aya Shinoda",
+      "function": "The data, network, and systems specialist on external deployments. This is the operator who touches the target systems — extraction, forensic imaging, live analysis, bypass, and controlled …",
+      "visual_rule": "- Darker, more weathered base than corporate phenotypes, but lighter overall bulk than FO-E - Soft armor prioritized for mobility and seated/device work rather than prolonged physical conta…",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.f07a984c656bda",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.h-authority-01",
+      "name": "H-Authority-01 — Sovereign",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Hitman",
+      "primary_identity": "Royce",
+      "function": "Royce carries the Hitman chair McCluster/Benji refused; Sable constrains mythology with organizational reality.",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.h-authority-02",
+      "name": "H-Authority-02 — Operations / Money",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Hitman",
+      "primary_identity": "Sable Quinn",
+      "function": "Money, people, staffing and logistics.",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.h-authority-03",
+      "name": "H-Authority-03 — Sponsor / Client Gate",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Hitman",
+      "primary_identity": "Grant Voss",
+      "function": "Respectable demand translated into work without visibility into the hidden root.",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.h-cohort-01",
+      "name": "H-Cohort-01 — Active Crew",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Hitman",
+      "primary_identity": "Dez “Switch” Calhoun",
+      "function": "Adaptable mission-capable operators without full-board knowledge.",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.h-cohort-03",
+      "name": "H-Cohort-03 — Cell Lead",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Hitman",
+      "primary_identity": "Mina “Halo” Brooks",
+      "function": "Small-team authority and extraction responsibility.",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.h-defense-01",
+      "name": "H-Defense-01 — Block Control",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Hitman",
+      "primary_identity": "Tone Rivera",
+      "function": "Presence, de-escalation and crew discipline.",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.h-defense-02",
+      "name": "H-Defense-02 — Access / Social Gate",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Hitman",
+      "primary_identity": "Kira “Keys” Moon",
+      "function": "Social topology and practical access.",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.h-defense-03",
+      "name": "H-Defense-03 — Gear / Logistics",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Hitman",
+      "primary_identity": "Omar “Rack” Dillon",
+      "function": "Physical resource reliability and technical favors.",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.h-dual social",
+      "name": "H-Dual Social — Elite Face",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Hitman",
+      "primary_identity": "Sora “Gymnast” Okada",
+      "function": "Elite social access unaware of Rae's sibling-side lane.",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.h-field-e",
+      "name": "H-Field-E — Social / Entry Asset",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Hitman",
+      "primary_identity": "Rae “Twin” Colton",
+      "function": "Street/social entry mirrored against elite institutional entry.",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.h-field-r",
+      "name": "H-Field-R — Overwatch",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Hitman",
+      "primary_identity": "Chris “Perch” Alvarez",
+      "function": "Context and environmental early warning.",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.h-field-t",
+      "name": "H-Field-T — Deniable Tech",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Hitman",
+      "primary_identity": "Jules “Kiosk” Mendez",
+      "function": "Street-facing technical support.",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.rs-01",
+      "name": "Recruit Student",
+      "status": "proposed",
+      "implementation": "design_only",
+      "role_family": "Civilian / Entry",
+      "primary_identity": "Unspecified",
+      "function": "The visual identity of the protagonist and new intake *before* full corporate issue. This is the “ordinary but slightly off” look that lets the audience feel the gap between civilian life a…",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "- Any full Corporate Fits pieces - Tactical or operator gear - Luxury branding",
+      "source_ids": [
+        "src.9bc70c176b6955",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.adv-01",
+      "name": "State Actor Operator",
+      "status": "proposed",
+      "implementation": "design_only",
+      "role_family": "Adversarial",
+      "primary_identity": "Unspecified",
+      "function": "Hostile government or intelligence service operators encountered during missions (especially later-season government-directed operations). Must feel like a real opposing force with its own …",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.39957fd7d9a6af",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "phenotype.bs-01",
+      "name": "System-01 Building Platform",
+      "status": "proposed",
+      "implementation": "design_only",
+      "role_family": "Building Systems",
+      "primary_identity": "Pylon",
+      "function": "The non-human that runs the building. Facilities, environmental control, power distribution, core access backends, camera and sensor fabric, maintenance routing, and continuity of the physi…",
+      "visual_rule": "Unknown",
+      "equipment_floor": "Unknown",
+      "exclusions": "Unknown",
+      "source_ids": [
+        "src.73e42ac328002d",
+        "src.ea32b2bef07e9e",
+        "src.0be342ea1216c9",
+        "src.fcabfd653fd0c4",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "role.authority-analysis",
+      "name": "Authority analysis",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Unspecified",
+      "primary_identity": "Leila Hosseini",
+      "function": "Security and governance skepticism from different institutional histories.",
+      "visual_rule": "Unspecified",
+      "equipment_floor": "Unspecified",
+      "exclusions": "Unspecified",
+      "source_ids": [
+        "src.fcabfd653fd0c4"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "role.cohort-support-human-consequences",
+      "name": "Cohort support / human consequences",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Unspecified",
+      "primary_identity": "Grace Mbala",
+      "function": "Keeps names and civilian effects attached to decisions.",
+      "visual_rule": "Unspecified",
+      "equipment_floor": "Unspecified",
+      "exclusions": "Unspecified",
+      "source_ids": [
+        "src.fcabfd653fd0c4"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "role.public-brand-marketing-surface",
+      "name": "Public brand / marketing surface",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Unspecified",
+      "primary_identity": "Priya Srisawat",
+      "function": "Belonging, recruitment and public narrative versus transparency.",
+      "visual_rule": "Unspecified",
+      "equipment_floor": "Unspecified",
+      "exclusions": "Unspecified",
+      "source_ids": [
+        "src.fcabfd653fd0c4"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "role.system-liaison",
+      "name": "System liaison",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Unspecified",
+      "primary_identity": "Jonas Weber",
+      "function": "Automation relationship versus physical verification.",
+      "visual_rule": "Unspecified",
+      "equipment_floor": "Unspecified",
+      "exclusions": "Unspecified",
+      "source_ids": [
+        "src.fcabfd653fd0c4"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "role.wildcard-flex",
+      "name": "Wildcard / Flex",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Unspecified",
+      "primary_identity": "McCluster",
+      "function": "Crosses R/E/T/Defense/logistics/support boundaries when trained/authorized; specializes in seams, unowned tasks and adapting when division of labor breaks.",
+      "visual_rule": "Unspecified",
+      "equipment_floor": "Unspecified",
+      "exclusions": "Unspecified",
+      "source_ids": [
+        "src.fcabfd653fd0c4"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "wear.prim3-official-suit",
+      "name": "PRIM3 post-succession suit",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Unspecified",
+      "primary_identity": "person.mccluster",
+      "function": "Unspecified",
+      "visual_rule": "- **Helmet:** matte black shell with exact M-shaped face architecture rather than a pasted badge; warm ivory/chrome M edging; dark smoked/black visor; prominent red `//` Dual Sight bars int…",
+      "equipment_floor": "Unspecified",
+      "exclusions": "Unspecified",
+      "source_ids": [
+        "src.0fae0ab5336e03"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "wear.cfi-01",
+      "name": "Wear-01 Company Black",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Unspecified",
+      "primary_identity": "Unspecified",
+      "function": "Unspecified",
+      "visual_rule": "Black company wardrobe",
+      "equipment_floor": "Unspecified",
+      "exclusions": "Unspecified",
+      "source_ids": [
+        "src.ea32b2bef07e9e"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "wear.cfi-02",
+      "name": "Wear-02 Company Bone",
+      "status": "canon",
+      "implementation": "design_only",
+      "role_family": "Unspecified",
+      "primary_identity": "Unspecified",
+      "function": "Unspecified",
+      "visual_rule": "Bone herringbone company wardrobe",
+      "equipment_floor": "Unspecified",
+      "exclusions": "Unspecified",
+      "source_ids": [
+        "src.ea32b2bef07e9e"
+      ],
+      "provenance": null
+    }
+  ]
+}

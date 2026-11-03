@@ -1,0 +1,354 @@
+[
+  {
+    "id": "identity.canon.secondary-promotion",
+    "severity": "review",
+    "entityIds": [],
+    "description": "Master character index calls the 48 attached relationships canon, while higher/current authorities explicitly retain development/history status except individual promotions.",
+    "sourceIds": [
+      "src.7c1af7c19c5a07",
+      "src.2d99d24244c11e",
+      "src.fb84ca9f47470c"
+    ],
+    "resolution": "Use CANON.md and IMMEDIATE-CAST-CANON. Hana and Tariq are individually promoted; other proposed records retain proposal status unless another specialist promotion is verified."
+  },
+  {
+    "id": "identity.canon.succession-aliases",
+    "severity": "review",
+    "entityIds": [],
+    "description": "Phenotype progression and naming indexes still use Prime-N1 Prime.",
+    "sourceIds": [
+      "src.7c1af7c19c5a07",
+      "src.ea32b2bef07e9e",
+      "src.83dd742e46a9d7"
+    ],
+    "resolution": "Formal current identities are PRIM2 and McCluster/eventual PRIM3. Preserve old IDs only as source aliases."
+  },
+  {
+    "id": "identity.canon.asset-jordan-vale",
+    "severity": "review",
+    "entityIds": [],
+    "description": "Approved-image README names Jordan Vale and links to missing characters/JORDAN-VALE-PRIM3.md, while current character and suit authorities say McCluster.",
+    "sourceIds": [
+      "src.dd430e58eb99d7",
+      "src.b1f1846fce0c2f",
+      "src.0fae0ab5336e03"
+    ],
+    "resolution": "Treat binary as retained post-succession suit reference; do not create a separate Jordan Vale character from this stale README."
+  },
+  {
+    "id": "identity.canon.layla-country",
+    "severity": "review",
+    "entityIds": [],
+    "description": "Layla Mansour country cell says McCluster.",
+    "sourceIds": [
+      "src.c9628ed7978f49",
+      "src.d97b916f70364d"
+    ],
+    "resolution": "Normalized nation null; source text preserved. Owner needs to establish country."
+  },
+  {
+    "id": "identity.canon.country-patches",
+    "severity": "review",
+    "entityIds": [],
+    "description": "FO-01 forbids external flags/unit patches; current user requests country badges on black mannequin characters.",
+    "sourceIds": [
+      "src.55be1602b18ec4",
+      "src.7f23e715da05d1"
+    ],
+    "resolution": "Apply latest user visual direction in game-design layer; do not silently edit source story canon."
+  },
+  {
+    "id": "identity.canon.black-mannequin-coverage",
+    "severity": "review",
+    "entityIds": [],
+    "description": "Current user wants featureless black mannequin characters. Repository documents also contain formal suits, civilian wear, non-human Pylon, and the exceptional PRIM3 helmet.",
+    "sourceIds": [
+      "src.0fae0ab5336e03",
+      "src.39957fd7d9a6af",
+      "src.7f23e715da05d1"
+    ],
+    "resolution": "Model mannequin body style separately from role, clothing, gear and identity. Do not claim every old reference already used that style."
+  },
+  {
+    "id": "identity.canon.trainee-field-transition",
+    "severity": "review",
+    "entityIds": [],
+    "description": "FO-01 permits transitioning directly from CO-02 to external field operations; CO-02 v1.0 requires promotion to Cohort-01 for real external missions.",
+    "sourceIds": [
+      "src.55be1602b18ec4",
+      "src.776b2b8983091e"
+    ],
+    "resolution": "Retain current trainee gate and flag legacy FO-01 transition wording."
+  },
+  {
+    "id": "equipment.deck-standard-dimension",
+    "severity": "review",
+    "entityIds": [
+      "equipment.deck_standard"
+    ],
+    "description": "closed_dimensions: Keep both claims. Thickness differs 4.5cm vs3.5cm. Owner/design decision required before production scale.",
+    "sourceIds": [
+      "src.4c16f6a2a30e9e",
+      "src.ae1bf28ba97754"
+    ],
+    "resolution": "Keep both claims. Thickness differs 4.5cm vs3.5cm. Owner/design decision required before production scale."
+  },
+  {
+    "id": "equipment.deck-lite-dimension",
+    "severity": "review",
+    "entityIds": [
+      "equipment.deck_lite"
+    ],
+    "description": "closed_dimensions: Conflicting footprints; no automatic conversion makes them equivalent.",
+    "sourceIds": [
+      "src.4c16f6a2a30e9e",
+      "src.ae1bf28ba97754"
+    ],
+    "resolution": "Conflicting footprints; no automatic conversion makes them equivalent."
+  },
+  {
+    "id": "equipment.writeblock-dimension",
+    "severity": "review",
+    "entityIds": [
+      "equipment.writeblock"
+    ],
+    "description": "dimensions: Keep alternatives; no chosen production scale.",
+    "sourceIds": [
+      "src.4c16f6a2a30e9e",
+      "src.ae1bf28ba97754"
+    ],
+    "resolution": "Keep alternatives; no chosen production scale."
+  },
+  {
+    "id": "equipment.store-dimension",
+    "severity": "review",
+    "entityIds": [
+      "equipment.store_dual"
+    ],
+    "description": "single_cartridge_dimensions: Distinct sources disagree on cartridge footprint.",
+    "sourceIds": [
+      "src.4c16f6a2a30e9e",
+      "src.ae1bf28ba97754"
+    ],
+    "resolution": "Distinct sources disagree on cartridge footprint."
+  },
+  {
+    "id": "equipment.integrity-dongle-dimension",
+    "severity": "review",
+    "entityIds": [
+      "equipment.integrity_dongle"
+    ],
+    "description": "dimensions: Preserve both approximate design envelopes.",
+    "sourceIds": [
+      "src.4c16f6a2a30e9e",
+      "src.ae1bf28ba97754"
+    ],
+    "resolution": "Preserve both approximate design envelopes."
+  },
+  {
+    "id": "equipment.writeblock-led-semantics",
+    "severity": "review",
+    "entityIds": [
+      "equipment.writeblock"
+    ],
+    "description": "indicator_semantics: Operational meaning conflicts; do not teach either as verified truth without harmonization.",
+    "sourceIds": [
+      "src.4c16f6a2a30e9e",
+      "src.f0ca6bdc00322f"
+    ],
+    "resolution": "Operational meaning conflicts; do not teach either as verified truth without harmonization."
+  },
+  {
+    "id": "equipment.deck-count",
+    "severity": "review",
+    "entityIds": [
+      "equipment.deck_standard"
+    ],
+    "description": "max_primary_compute: CANON FIELD-KITS supports one deck. Earlier proposed ceiling differs; retain conflict note.",
+    "sourceIds": [
+      "src.f07a984c656bda",
+      "src.0896e738b4e3c7",
+      "src.9444e63b395b6e"
+    ],
+    "resolution": "CANON FIELD-KITS supports one deck. Earlier proposed ceiling differs; retain conflict note."
+  },
+  {
+    "id": "equipment.denied-module-cap",
+    "severity": "review",
+    "entityIds": [
+      "loadout.fo-t-denied"
+    ],
+    "description": "max_modules: If optional fifth module is equipped, slot rule needs explicit replacement/tradeoff.",
+    "sourceIds": [
+      "src.0896e738b4e3c7"
+    ],
+    "resolution": "If optional fifth module is equipped, slot rule needs explicit replacement/tradeoff."
+  },
+  {
+    "id": "equipment.mesh-scale",
+    "severity": "review",
+    "entityIds": [],
+    "description": "units: Visual kit is proposed procedural art; no real-world size or canon approval inferred.",
+    "sourceIds": [
+      "src.cefae26004b782",
+      "src.ae1bf28ba97754"
+    ],
+    "resolution": "Visual kit is proposed procedural art; no real-world size or canon approval inferred."
+  },
+  {
+    "id": "equipment.field-country-badges",
+    "severity": "review",
+    "entityIds": [],
+    "description": "mark_policy: New user direction permits country identity. Record as requested presentation change without silently rewriting old canon references or deriving ability from nationality.",
+    "sourceIds": [
+      "src.55be1602b18ec4",
+      "src.7f23e715da05d1"
+    ],
+    "resolution": "New user direction permits country identity. Record as requested presentation change without silently rewriting old canon references or deriving ability from nationality."
+  },
+  {
+    "id": "runtime.ammo-definitions",
+    "severity": "missing",
+    "entityIds": [],
+    "description": "No ammunition type registry, bullet entities, magazines, reserves, caliber, chambering, reload or consumption exists in current runtime.",
+    "sourceIds": [
+      "src.2f93245179f785",
+      "src.18d5e7612498c6"
+    ],
+    "resolution": "Define game-only ammo IDs and compatibility separately; do not infer ammo from model geometry."
+  },
+  {
+    "id": "runtime.weapon-inventory",
+    "severity": "missing",
+    "entityIds": [],
+    "description": "No equipped weapon instance drives gameplay. Unit aim, damage and attackRange directly resolve attacks. Separate 18-prop GLB kit is visual only.",
+    "sourceIds": [
+      "src.2f93245179f785",
+      "src.cefae26004b782"
+    ],
+    "resolution": "Introduce weapon/loadout references and an adapter when implementing equipment gameplay."
+  },
+  {
+    "id": "runtime.phenotype-runtime",
+    "severity": "missing",
+    "entityIds": [],
+    "description": "Runtime has no phenotype ID or phenotype attribute system. E/R/T silhouettes are procedural role branches.",
+    "sourceIds": [
+      "src.2f93245179f785",
+      "src.052d4fbccf215d"
+    ],
+    "resolution": "Join approved phenotype definitions explicitly; preserve prototype role stats."
+  },
+  {
+    "id": "runtime.country-runtime",
+    "severity": "missing",
+    "entityIds": [],
+    "description": "Units have no country or country-badge field. Runtime names do not establish nationality.",
+    "sourceIds": [
+      "src.2f93245179f785"
+    ],
+    "resolution": "Country and badge references require approved identities."
+  },
+  {
+    "id": "runtime.real-time-route",
+    "severity": "missing",
+    "entityIds": [],
+    "description": "Movement resolves synchronously in the rules engine and then renderer plays events. No player-controlled duck/dodge/run or mid-route equation contest.",
+    "sourceIds": [
+      "src.2f93245179f785",
+      "src.18d5e7612498c6"
+    ],
+    "resolution": "A real-time execution phase would need its own event/state model."
+  },
+  {
+    "id": "runtime.physics-lessons",
+    "severity": "missing",
+    "entityIds": [],
+    "description": "Only optional coordinate-distance exercise and route-cost feedback exist. No projectile-arc experiment, graph-line/slope progression or persistent learner record.",
+    "sourceIds": [
+      "src.18d5e7612498c6"
+    ],
+    "resolution": "Add learning concept IDs and authored mission exercises separately."
+  },
+  {
+    "id": "runtime.visibility-runtime",
+    "severity": "missing",
+    "entityIds": [],
+    "description": "There is no fog-of-war or per-unit visibility/detection state. The target list iterates all living enemies; line of sight only gates attacks.",
+    "sourceIds": [
+      "src.18d5e7612498c6",
+      "src.2f93245179f785"
+    ],
+    "resolution": "Add explicit visibility and detection records if reconnaissance is to hide/reveal units."
+  },
+  {
+    "id": "runtime.collision-vs-visual",
+    "severity": "missing",
+    "entityIds": [],
+    "description": "1,402 default-world rendering parts are grouped visuals, not individually colliding/destructible objects. Geometry is generated from 43 world logical objects plus decoration.",
+    "sourceIds": [
+      "src.5a247cfcc6dc65",
+      "src.ae2c5f030374d5"
+    ],
+    "resolution": "Use logical object IDs for gameplay and visual part IDs for appearance; do not count each window as a cover object."
+  },
+  {
+    "id": "runtime.default-vs-builder",
+    "severity": "missing",
+    "entityIds": [],
+    "description": "Default world roof cover differs from compiled Level Forge cover; default containers are blocked at ground and have no traversable roofs, while builder containers are roof surfaces. Custom levels currently omit service gate and medkit interactions.",
+    "sourceIds": [
+      "src.5a247cfcc6dc65",
+      "src.fa4eb27502863e"
+    ],
+    "resolution": "Keep level-source-specific rules visible until a unified ruleset is deliberately implemented."
+  },
+  {
+    "id": "claims.equipment-pistol-service-compact-design-field-role",
+    "severity": "review",
+    "entityIds": [
+      "equipment.pistol_service_compact"
+    ],
+    "description": "Conflicting values for design.field_role",
+    "sourceIds": [
+      "src.9444e63b395b6e"
+    ],
+    "resolution": "Choose the production authority explicitly. Keep both original source claims in history."
+  },
+  {
+    "id": "claims.equipment-pistol-service-compact-design-look",
+    "severity": "review",
+    "entityIds": [
+      "equipment.pistol_service_compact"
+    ],
+    "description": "Conflicting values for design.look",
+    "sourceIds": [
+      "src.9444e63b395b6e"
+    ],
+    "resolution": "Choose the production authority explicitly. Keep both original source claims in history."
+  },
+  {
+    "id": "claims.equipment-pistol-service-compact-design-effect",
+    "severity": "review",
+    "entityIds": [
+      "equipment.pistol_service_compact"
+    ],
+    "description": "Conflicting values for design.effect",
+    "sourceIds": [
+      "src.9444e63b395b6e"
+    ],
+    "resolution": "Choose the production authority explicitly. Keep both original source claims in history."
+  },
+  {
+    "id": "claims.equipment-pistol-service-compact-design-open-source",
+    "severity": "review",
+    "entityIds": [
+      "equipment.pistol_service_compact"
+    ],
+    "description": "Conflicting values for design.open-source",
+    "sourceIds": [
+      "src.9444e63b395b6e"
+    ],
+    "resolution": "Choose the production authority explicitly. Keep both original source claims in history."
+  }
+]

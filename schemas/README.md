@@ -6,6 +6,7 @@ These schemas turn the canonical tactical-learning design into machine-checkable
 
 - `prm3-concept-mechanic.schema.json` — every reusable concept-to-gameplay binding.
 - `prm3-tactical-learning-mission.schema.json` — every machine-readable mission definition.
+- `prm3-content-registry.schema.json` (DRAFT, 2026-11-02) — reference content registries: stable definition IDs separate from instance IDs, typed attributes with states `defined` / `unknown` / `not_applicable` / `conflict` (unknown is never zero), source status separate from implementation status, explicit relations, a field dictionary, cited sources with SHA-256. Cross-record rules: `data/attributes/tools/validate_registry.py --self-test`. First registry: `data/attributes/v1/` (review snapshot; does not change gameplay).
 
 ## Authority
 

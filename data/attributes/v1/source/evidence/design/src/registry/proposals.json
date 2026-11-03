@@ -1,0 +1,1875 @@
+{
+  "status": "PROPOSED",
+  "version": "1.0.0",
+  "note": "Authored extension slots and fictional game-only seed values. Not canon approval or runtime integration.",
+  "fields": [
+    {
+      "key": "identity.country_id",
+      "label": "Country id",
+      "type": "reference",
+      "unit": null,
+      "description": "Canonical nationality record or explicit unknown; no automatic combat bonuses.",
+      "appliesTo": [
+        "character",
+        "system_character"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "identity.phenotype_id",
+      "label": "Phenotype id",
+      "type": "reference",
+      "unit": null,
+      "description": "Reusable institutional phenotype, separate from named identity.",
+      "appliesTo": [
+        "character",
+        "system_character"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "identity.faction_id",
+      "label": "Faction id",
+      "type": "reference",
+      "unit": null,
+      "description": "Approved organization membership, separate from runtime team.",
+      "appliesTo": [
+        "character",
+        "system_character"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "identity.playable_role_id",
+      "label": "Playable role id",
+      "type": "reference",
+      "unit": null,
+      "description": "Approved mapping into a playable unit role.",
+      "appliesTo": [
+        "character",
+        "system_character"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "identity.voice_profile_id",
+      "label": "Voice profile id",
+      "type": "reference",
+      "unit": null,
+      "description": "Approved voice and language presentation profile.",
+      "appliesTo": [
+        "character",
+        "system_character"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "identity.portrait_asset_id",
+      "label": "Portrait asset id",
+      "type": "reference",
+      "unit": null,
+      "description": "Approved portrait/reference asset ID.",
+      "appliesTo": [
+        "character",
+        "system_character"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "identity.badge_asset_id",
+      "label": "Badge asset id",
+      "type": "reference",
+      "unit": null,
+      "description": "Country/organization badge visual asset ID.",
+      "appliesTo": [
+        "character",
+        "system_character"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "identity.body_variant_id",
+      "label": "Body variant id",
+      "type": "reference",
+      "unit": null,
+      "description": "Visual body proportions; separate from gameplay attributes.",
+      "appliesTo": [
+        "character",
+        "system_character"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "identity.localization_key",
+      "label": "Localization key",
+      "type": "string",
+      "unit": null,
+      "description": "Stable localized display-name key.",
+      "appliesTo": [
+        "character",
+        "system_character"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "identity.canon_approval",
+      "label": "Canon approval",
+      "type": "string",
+      "unit": null,
+      "description": "Approval evidence for this character revision.",
+      "appliesTo": [
+        "character",
+        "system_character"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "actor.hp_max",
+      "label": "Hp max",
+      "type": "integer",
+      "unit": "HP",
+      "description": "Maximum authored game health.",
+      "appliesTo": [
+        "unit_role"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "actor.ap_max",
+      "label": "Ap max",
+      "type": "integer",
+      "unit": "AP",
+      "description": "Maximum action points for the role.",
+      "appliesTo": [
+        "unit_role"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "actor.move_budget",
+      "label": "Move budget",
+      "type": "number",
+      "unit": "movement points",
+      "description": "Base weighted-path movement budget.",
+      "appliesTo": [
+        "unit_role"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "actor.attack_range",
+      "label": "Attack range",
+      "type": "number",
+      "unit": "game-grid unit",
+      "description": "Maximum authored game attack range.",
+      "appliesTo": [
+        "unit_role"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "actor.aim",
+      "label": "Aim",
+      "type": "number",
+      "unit": "percentage points",
+      "description": "Base fictional game aim coefficient.",
+      "appliesTo": [
+        "unit_role"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "actor.base_damage",
+      "label": "Base damage",
+      "type": "number",
+      "unit": "HP",
+      "description": "Current unit-owned damage, pending equipment system.",
+      "appliesTo": [
+        "unit_role"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "actor.inventory_slots",
+      "label": "Inventory slots",
+      "type": "array",
+      "unit": null,
+      "description": "Allowed slot IDs and capacities.",
+      "appliesTo": [
+        "unit_role"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "actor.loadout_id",
+      "label": "Loadout id",
+      "type": "reference",
+      "unit": null,
+      "description": "Approved runtime equipment loadout.",
+      "appliesTo": [
+        "unit_role"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "actor.animation_profile_id",
+      "label": "Animation profile id",
+      "type": "reference",
+      "unit": null,
+      "description": "Animation clip/state mapping.",
+      "appliesTo": [
+        "unit_role"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "actor.movement_profile_id",
+      "label": "Movement profile id",
+      "type": "reference",
+      "unit": null,
+      "description": "Traversal abilities, sizes and restrictions.",
+      "appliesTo": [
+        "unit_role"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "actor.vision_radius",
+      "label": "Vision radius",
+      "type": "number",
+      "unit": "game-grid unit",
+      "description": "Authored visibility radius for a future fog-of-war system.",
+      "appliesTo": [
+        "unit_role"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "actor.hearing_radius",
+      "label": "Hearing radius",
+      "type": "number",
+      "unit": "game-grid unit",
+      "description": "Authored hearing radius, not a physical sound model.",
+      "appliesTo": [
+        "unit_role"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "actor.reaction_budget",
+      "label": "Reaction budget",
+      "type": "integer",
+      "unit": "reactions per turn",
+      "description": "Maximum reactions available per turn.",
+      "appliesTo": [
+        "unit_role"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "actor.resistance_profile_id",
+      "label": "Resistance profile id",
+      "type": "reference",
+      "unit": null,
+      "description": "Explicit game damage-type resistance mapping.",
+      "appliesTo": [
+        "unit_role"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "actor.progression_id",
+      "label": "Progression id",
+      "type": "reference",
+      "unit": null,
+      "description": "Promotion, skills, experience and recovery definition.",
+      "appliesTo": [
+        "unit_role"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "phenotype.visual_ceiling",
+      "label": "Visual ceiling",
+      "type": "array",
+      "unit": null,
+      "description": "Allowed wardrobe, armor, marks and equipment.",
+      "appliesTo": [
+        "phenotype"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "phenotype.equipment_floor",
+      "label": "Equipment floor",
+      "type": "array",
+      "unit": null,
+      "description": "Minimum visible equipment for this identity.",
+      "appliesTo": [
+        "phenotype"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "phenotype.exclusions",
+      "label": "Exclusions",
+      "type": "array",
+      "unit": null,
+      "description": "Forbidden visual and equipment traits.",
+      "appliesTo": [
+        "phenotype"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "phenotype.transition_rules",
+      "label": "Transition rules",
+      "type": "array",
+      "unit": null,
+      "description": "Prerequisites for changing institutional role.",
+      "appliesTo": [
+        "phenotype"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "phenotype.access_permissions",
+      "label": "Access permissions",
+      "type": "array",
+      "unit": null,
+      "description": "Institutional zones and actions accessible.",
+      "appliesTo": [
+        "phenotype"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "phenotype.reference_asset_ids",
+      "label": "Reference asset ids",
+      "type": "array",
+      "unit": null,
+      "description": "Approved visual anchors.",
+      "appliesTo": [
+        "phenotype"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "phenotype.body_surface",
+      "label": "Body surface",
+      "type": "string",
+      "unit": null,
+      "description": "Featureless mannequin presentation, skin/cloth finish and exceptions.",
+      "appliesTo": [
+        "phenotype"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "phenotype.wear_profile_ids",
+      "label": "Wear profile ids",
+      "type": "array",
+      "unit": null,
+      "description": "Allowed wear states; wear is separate from role.",
+      "appliesTo": [
+        "phenotype"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "item.slot",
+      "label": "Slot",
+      "type": "string",
+      "unit": null,
+      "description": "Inventory attachment slot.",
+      "appliesTo": [
+        "equipment",
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "item.mass",
+      "label": "Mass",
+      "type": "number",
+      "unit": "game mass unit",
+      "description": "Authored encumbrance mass; no physical mass assumed.",
+      "appliesTo": [
+        "equipment",
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "item.inventory_size",
+      "label": "Inventory size",
+      "type": "array",
+      "unit": "inventory cells",
+      "description": "Width/depth occupied in inventory.",
+      "appliesTo": [
+        "equipment",
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "item.stack_max",
+      "label": "Stack max",
+      "type": "integer",
+      "unit": "items",
+      "description": "Maximum stack size; zero is not unknown.",
+      "appliesTo": [
+        "equipment",
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "item.durability_max",
+      "label": "Durability max",
+      "type": "number",
+      "unit": "durability points",
+      "description": "Authored game durability limit.",
+      "appliesTo": [
+        "equipment",
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "item.allowed_role_ids",
+      "label": "Allowed role ids",
+      "type": "array",
+      "unit": null,
+      "description": "Role IDs permitted to use the item.",
+      "appliesTo": [
+        "equipment",
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "item.equipped_asset_id",
+      "label": "Equipped asset id",
+      "type": "reference",
+      "unit": null,
+      "description": "Approved equipped mesh and rig/socket binding.",
+      "appliesTo": [
+        "equipment",
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "item.pickup_asset_id",
+      "label": "Pickup asset id",
+      "type": "reference",
+      "unit": null,
+      "description": "World pickup model.",
+      "appliesTo": [
+        "equipment",
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "item.equip_ap",
+      "label": "Equip ap",
+      "type": "number",
+      "unit": "AP",
+      "description": "AP cost to equip; explicitly authored.",
+      "appliesTo": [
+        "equipment",
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "item.use_action_id",
+      "label": "Use action id",
+      "type": "reference",
+      "unit": null,
+      "description": "Action invoked by use.",
+      "appliesTo": [
+        "equipment",
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "item.repair_action_id",
+      "label": "Repair action id",
+      "type": "reference",
+      "unit": null,
+      "description": "Action and resource costs to repair.",
+      "appliesTo": [
+        "equipment",
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "item.purchase_cost",
+      "label": "Purchase cost",
+      "type": "number",
+      "unit": "game credits",
+      "description": "Fictional in-game acquisition cost.",
+      "appliesTo": [
+        "equipment",
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "item.unlock_rule_id",
+      "label": "Unlock rule id",
+      "type": "reference",
+      "unit": null,
+      "description": "Progression or mission availability gate.",
+      "appliesTo": [
+        "equipment",
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "item.owner_instance_id",
+      "label": "Owner instance id",
+      "type": "reference",
+      "unit": null,
+      "description": "Runtime ownership belongs on the instance; definition default is unknown.",
+      "appliesTo": [
+        "equipment",
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "weapon.ammo_family_id",
+      "label": "Ammo family id",
+      "type": "reference",
+      "unit": null,
+      "description": "Compatible fictional ammunition family.",
+      "appliesTo": [
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "weapon.accepted_variant_ids",
+      "label": "Accepted variant ids",
+      "type": "array",
+      "unit": null,
+      "description": "Explicit compatible round variants; no implicit compatibility.",
+      "appliesTo": [
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "weapon.magazine_capacity",
+      "label": "Magazine capacity",
+      "type": "integer",
+      "unit": "rounds",
+      "description": "Authored game magazine size.",
+      "appliesTo": [
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "weapon.reserve_max",
+      "label": "Reserve max",
+      "type": "integer",
+      "unit": "rounds",
+      "description": "Maximum carried reserve.",
+      "appliesTo": [
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "weapon.rounds_per_action",
+      "label": "Rounds per action",
+      "type": "integer",
+      "unit": "rounds",
+      "description": "Rounds consumed by one authored fire action.",
+      "appliesTo": [
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "weapon.reload_ap",
+      "label": "Reload ap",
+      "type": "number",
+      "unit": "AP",
+      "description": "Reload action cost.",
+      "appliesTo": [
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "weapon.base_damage",
+      "label": "Base damage",
+      "type": "number",
+      "unit": "HP",
+      "description": "Equipment-owned fictional game damage; not inferred from mesh.",
+      "appliesTo": [
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "weapon.range",
+      "label": "Range",
+      "type": "number",
+      "unit": "game-grid unit",
+      "description": "Authored maximum attack range.",
+      "appliesTo": [
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "weapon.aim_modifier",
+      "label": "Aim modifier",
+      "type": "number",
+      "unit": "percentage points",
+      "description": "Modifier to the actor game aim statistic.",
+      "appliesTo": [
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "weapon.noise_level",
+      "label": "Noise level",
+      "type": "string",
+      "unit": null,
+      "description": "Discrete game detection category.",
+      "appliesTo": [
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "weapon.cover_interaction_id",
+      "label": "Cover interaction id",
+      "type": "reference",
+      "unit": null,
+      "description": "Game cover interaction rule.",
+      "appliesTo": [
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "weapon.animation_fire_id",
+      "label": "Animation fire id",
+      "type": "reference",
+      "unit": null,
+      "description": "Fire animation clip/state ID.",
+      "appliesTo": [
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "weapon.animation_reload_id",
+      "label": "Animation reload id",
+      "type": "reference",
+      "unit": null,
+      "description": "Reload animation clip/state ID.",
+      "appliesTo": [
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "weapon.sound_profile_id",
+      "label": "Sound profile id",
+      "type": "reference",
+      "unit": null,
+      "description": "Audio profile ID.",
+      "appliesTo": [
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "weapon.attachment_slots",
+      "label": "Attachment slots",
+      "type": "array",
+      "unit": null,
+      "description": "Allowed visual/gameplay attachment sockets.",
+      "appliesTo": [
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "weapon.friendly_fire_rule",
+      "label": "Friendly fire rule",
+      "type": "string",
+      "unit": null,
+      "description": "Action-authored ally hit policy.",
+      "appliesTo": [
+        "weapon"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "ammo.family_id",
+      "label": "Family id",
+      "type": "reference",
+      "unit": null,
+      "description": "Fictional compatibility family; not a real caliber.",
+      "appliesTo": [
+        "ammunition",
+        "ammo_variant"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "ammo.compatible_weapon_ids",
+      "label": "Compatible weapon ids",
+      "type": "array",
+      "unit": null,
+      "description": "Explicit weapon definition IDs.",
+      "appliesTo": [
+        "ammunition",
+        "ammo_variant"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "ammo.variant_ids",
+      "label": "Variant ids",
+      "type": "array",
+      "unit": null,
+      "description": "Round variants authored for this family.",
+      "appliesTo": [
+        "ammunition",
+        "ammo_variant"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "ammo.damage_type",
+      "label": "Damage type",
+      "type": "string",
+      "unit": null,
+      "description": "Game damage/effect category.",
+      "appliesTo": [
+        "ammunition",
+        "ammo_variant"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "ammo.damage_multiplier",
+      "label": "Damage multiplier",
+      "type": "number",
+      "unit": "multiplier",
+      "description": "Fictional damage multiplier; not real ballistic performance.",
+      "appliesTo": [
+        "ammunition",
+        "ammo_variant"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "ammo.cover_damage_multiplier",
+      "label": "Cover damage multiplier",
+      "type": "number",
+      "unit": "multiplier",
+      "description": "Fictional damage to destructible cover.",
+      "appliesTo": [
+        "ammunition",
+        "ammo_variant"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "ammo.armor_modifier",
+      "label": "Armor modifier",
+      "type": "number",
+      "unit": "game armor points",
+      "description": "Fictional armor interaction.",
+      "appliesTo": [
+        "ammunition",
+        "ammo_variant"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "ammo.noise_level",
+      "label": "Noise level",
+      "type": "string",
+      "unit": null,
+      "description": "Discrete gameplay detection/noise category.",
+      "appliesTo": [
+        "ammunition",
+        "ammo_variant"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "ammo.effect_id",
+      "label": "Effect id",
+      "type": "reference",
+      "unit": null,
+      "description": "Status or effect applied on an authored trigger.",
+      "appliesTo": [
+        "ammunition",
+        "ammo_variant"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "ammo.effect_duration",
+      "label": "Effect duration",
+      "type": "integer",
+      "unit": "turns",
+      "description": "Authored effect duration.",
+      "appliesTo": [
+        "ammunition",
+        "ammo_variant"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "ammo.stack_max",
+      "label": "Stack max",
+      "type": "integer",
+      "unit": "rounds",
+      "description": "Inventory stack capacity.",
+      "appliesTo": [
+        "ammunition",
+        "ammo_variant"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "ammo.pickup_quantity",
+      "label": "Pickup quantity",
+      "type": "integer",
+      "unit": "rounds",
+      "description": "Quantity in a world pickup.",
+      "appliesTo": [
+        "ammunition",
+        "ammo_variant"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "ammo.projectile_asset_id",
+      "label": "Projectile asset id",
+      "type": "reference",
+      "unit": null,
+      "description": "Optional visual projectile/tracer asset.",
+      "appliesTo": [
+        "ammunition",
+        "ammo_variant"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "ammo.impact_effect_id",
+      "label": "Impact effect id",
+      "type": "reference",
+      "unit": null,
+      "description": "Visual/audio impact effect.",
+      "appliesTo": [
+        "ammunition",
+        "ammo_variant"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "ammo.lethal",
+      "label": "Lethal",
+      "type": "boolean",
+      "unit": null,
+      "description": "Authored game lethality classification.",
+      "appliesTo": [
+        "ammunition",
+        "ammo_variant"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "object.material_id",
+      "label": "Material id",
+      "type": "reference",
+      "unit": null,
+      "description": "Gameplay material definition, independent of render appearance.",
+      "appliesTo": [
+        "environment_asset",
+        "lab_object",
+        "world_object_type"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "object.durability_max",
+      "label": "Durability max",
+      "type": "number",
+      "unit": "durability points",
+      "description": "Game durability; unknown does not mean indestructible.",
+      "appliesTo": [
+        "environment_asset",
+        "lab_object",
+        "world_object_type"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "object.destruction_rule_id",
+      "label": "Destruction rule id",
+      "type": "reference",
+      "unit": null,
+      "description": "State/mesh/collision transition on damage.",
+      "appliesTo": [
+        "environment_asset",
+        "lab_object",
+        "world_object_type"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "object.interaction_ids",
+      "label": "Interaction ids",
+      "type": "array",
+      "unit": null,
+      "description": "Available actions and access conditions.",
+      "appliesTo": [
+        "environment_asset",
+        "lab_object",
+        "world_object_type"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "object.power_dependency_id",
+      "label": "Power dependency id",
+      "type": "reference",
+      "unit": null,
+      "description": "Power source or network dependency if applicable.",
+      "appliesTo": [
+        "environment_asset",
+        "lab_object",
+        "world_object_type"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "object.loot_table_id",
+      "label": "Loot table id",
+      "type": "reference",
+      "unit": null,
+      "description": "Explicit recoverable items or empty table.",
+      "appliesTo": [
+        "environment_asset",
+        "lab_object",
+        "world_object_type"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "object.audio_profile_id",
+      "label": "Audio profile id",
+      "type": "reference",
+      "unit": null,
+      "description": "Interaction and ambient sound profile.",
+      "appliesTo": [
+        "environment_asset",
+        "lab_object",
+        "world_object_type"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "object.spawn_rule_id",
+      "label": "Spawn rule id",
+      "type": "reference",
+      "unit": null,
+      "description": "Mission/biome placement constraints.",
+      "appliesTo": [
+        "environment_asset",
+        "lab_object",
+        "world_object_type"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "material.collision_response",
+      "label": "Collision response",
+      "type": "string",
+      "unit": null,
+      "description": "Gameplay collision behavior; not inferred from metallic factor.",
+      "appliesTo": [
+        "material"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "material.friction",
+      "label": "Friction",
+      "type": "number",
+      "unit": "game coefficient",
+      "description": "Simulation coefficient authored for game use.",
+      "appliesTo": [
+        "material"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "material.density",
+      "label": "Density",
+      "type": "number",
+      "unit": "game mass per volume",
+      "description": "Game mass density, not real material data.",
+      "appliesTo": [
+        "material"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "material.cover_class",
+      "label": "Cover class",
+      "type": "string",
+      "unit": null,
+      "description": "Game cover behavior.",
+      "appliesTo": [
+        "material"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "material.resistance_profile_id",
+      "label": "Resistance profile id",
+      "type": "reference",
+      "unit": null,
+      "description": "Damage-type response table.",
+      "appliesTo": [
+        "material"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "material.impact_sound_id",
+      "label": "Impact sound id",
+      "type": "reference",
+      "unit": null,
+      "description": "Audio response profile.",
+      "appliesTo": [
+        "material"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "material.footstep_sound_id",
+      "label": "Footstep sound id",
+      "type": "reference",
+      "unit": null,
+      "description": "Footstep surface audio profile.",
+      "appliesTo": [
+        "material"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "action.cooldown",
+      "label": "Cooldown",
+      "type": "integer",
+      "unit": "turns",
+      "description": "Cooldown after completion.",
+      "appliesTo": [
+        "action"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "action.interrupt_rule_id",
+      "label": "Interrupt rule id",
+      "type": "reference",
+      "unit": null,
+      "description": "Who/what may interrupt the action and how it resolves.",
+      "appliesTo": [
+        "action"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "action.failure_result",
+      "label": "Failure result",
+      "type": "string",
+      "unit": null,
+      "description": "Authored failure effect and resource-spend rule.",
+      "appliesTo": [
+        "action"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "action.animation_id",
+      "label": "Animation id",
+      "type": "reference",
+      "unit": null,
+      "description": "Action animation state ID.",
+      "appliesTo": [
+        "action"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "action.learning_concept_ids",
+      "label": "Learning concept ids",
+      "type": "array",
+      "unit": null,
+      "description": "Concepts demonstrated by an observable action.",
+      "appliesTo": [
+        "action"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "state.stacking_policy",
+      "label": "Stacking policy",
+      "type": "string",
+      "unit": null,
+      "description": "Replace, refresh, stack or reject duplicate effects.",
+      "appliesTo": [
+        "status",
+        "effect"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "state.dispel_rules",
+      "label": "Dispel rules",
+      "type": "array",
+      "unit": null,
+      "description": "Actions/events that clear the state.",
+      "appliesTo": [
+        "status",
+        "effect"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "state.duration",
+      "label": "Duration",
+      "type": "integer",
+      "unit": "turns",
+      "description": "Authored lifetime; null is not permanent.",
+      "appliesTo": [
+        "status",
+        "effect"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "state.visible_to",
+      "label": "Visible to",
+      "type": "array",
+      "unit": null,
+      "description": "Teams or roles allowed to observe the state.",
+      "appliesTo": [
+        "status",
+        "effect"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "state.save_policy",
+      "label": "Save policy",
+      "type": "string",
+      "unit": null,
+      "description": "Transient, mission or campaign persistence.",
+      "appliesTo": [
+        "status",
+        "effect"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "learning.prerequisite_concept_ids",
+      "label": "Prerequisite concept ids",
+      "type": "array",
+      "unit": null,
+      "description": "Concept IDs needed before introduction.",
+      "appliesTo": [
+        "learning_concept"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "learning.worked_example_id",
+      "label": "Worked example id",
+      "type": "reference",
+      "unit": null,
+      "description": "Step-by-step authored teaching example.",
+      "appliesTo": [
+        "learning_concept"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "learning.feedback_rule_id",
+      "label": "Feedback rule id",
+      "type": "reference",
+      "unit": null,
+      "description": "Explanation matched to actual learner error.",
+      "appliesTo": [
+        "learning_concept"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "learning.mastery_evidence_id",
+      "label": "Mastery evidence id",
+      "type": "reference",
+      "unit": null,
+      "description": "Observable evidence used to evaluate mastery.",
+      "appliesTo": [
+        "learning_concept"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "learning.optional_in_combat",
+      "label": "Optional in combat",
+      "type": "boolean",
+      "unit": null,
+      "description": "Whether practicing this concept may be skipped during ordinary play.",
+      "appliesTo": [
+        "learning_concept"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "mission.seed_policy",
+      "label": "Seed policy",
+      "type": "string",
+      "unit": null,
+      "description": "Reproducible mission generation seed policy.",
+      "appliesTo": [
+        "mission"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "mission.difficulty_profile_id",
+      "label": "Difficulty profile id",
+      "type": "reference",
+      "unit": null,
+      "description": "Separate tactical, technical and scaffolding settings.",
+      "appliesTo": [
+        "mission"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "mission.save_version",
+      "label": "Save version",
+      "type": "integer",
+      "unit": null,
+      "description": "Save data version and migration contract.",
+      "appliesTo": [
+        "mission"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "mission.completion_rules",
+      "label": "Completion rules",
+      "type": "array",
+      "unit": null,
+      "description": "Objective success, failure and partial-completion rules.",
+      "appliesTo": [
+        "mission"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "mission.spawn_table_id",
+      "label": "Spawn table id",
+      "type": "reference",
+      "unit": null,
+      "description": "Enemy/civilian/reinforcement table.",
+      "appliesTo": [
+        "mission"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "mission.reward_table_id",
+      "label": "Reward table id",
+      "type": "reference",
+      "unit": null,
+      "description": "Separate operational rewards and learning evidence.",
+      "appliesTo": [
+        "mission"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "asset.lod_profile_id",
+      "label": "Lod profile id",
+      "type": "reference",
+      "unit": null,
+      "description": "Measured phone-oriented geometry quality levels.",
+      "appliesTo": [
+        "visual_asset",
+        "environment_asset"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "asset.collision_asset_id",
+      "label": "Collision asset id",
+      "type": "reference",
+      "unit": null,
+      "description": "Collision proxy mesh or primitive shape profile.",
+      "appliesTo": [
+        "visual_asset",
+        "environment_asset"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "asset.animation_profile_id",
+      "label": "Animation profile id",
+      "type": "reference",
+      "unit": null,
+      "description": "Rig and animation compatibility; static props may be not applicable.",
+      "appliesTo": [
+        "visual_asset",
+        "environment_asset"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "asset.texture_budget",
+      "label": "Texture budget",
+      "type": "integer",
+      "unit": "bytes",
+      "description": "Measured compressed texture budget.",
+      "appliesTo": [
+        "visual_asset",
+        "environment_asset"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "asset.source_license",
+      "label": "Source license",
+      "type": "string",
+      "unit": null,
+      "description": "Asset ownership/license and required attribution.",
+      "appliesTo": [
+        "visual_asset",
+        "environment_asset"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "asset.approval_record",
+      "label": "Approval record",
+      "type": "reference",
+      "unit": null,
+      "description": "Approved reference/final asset record.",
+      "appliesTo": [
+        "visual_asset",
+        "environment_asset"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "projectile.motion_model",
+      "label": "Motion model",
+      "type": "string",
+      "unit": null,
+      "description": "Game kinematic model used for animation or learning.",
+      "appliesTo": [
+        "projectile"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "projectile.speed",
+      "label": "Speed",
+      "type": "number",
+      "unit": "game unit per second",
+      "description": "Authored simulation speed, not real weapon data.",
+      "appliesTo": [
+        "projectile"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "projectile.gravity",
+      "label": "Gravity",
+      "type": "number",
+      "unit": "game unit per second squared",
+      "description": "Authored fictional world gravity.",
+      "appliesTo": [
+        "projectile"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "projectile.collision_radius",
+      "label": "Collision radius",
+      "type": "number",
+      "unit": "game unit",
+      "description": "Game collision volume.",
+      "appliesTo": [
+        "projectile"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "projectile.lifetime",
+      "label": "Lifetime",
+      "type": "number",
+      "unit": "seconds",
+      "description": "Maximum simulation lifetime.",
+      "appliesTo": [
+        "projectile"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "projectile.collision_mask",
+      "label": "Collision mask",
+      "type": "array",
+      "unit": null,
+      "description": "Game collider groups this projectile contacts.",
+      "appliesTo": [
+        "projectile"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "projectile.on_impact_effect_id",
+      "label": "On impact effect id",
+      "type": "reference",
+      "unit": null,
+      "description": "Effect triggered by game collision.",
+      "appliesTo": [
+        "projectile"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "projectile.lesson_concept_id",
+      "label": "Lesson concept id",
+      "type": "reference",
+      "unit": null,
+      "description": "Linked harmless coordinate/curve lesson if authored.",
+      "appliesTo": [
+        "projectile"
+      ],
+      "requiredFor": "production"
+    },
+    {
+      "key": "economy.unit",
+      "label": "Unit",
+      "type": "string",
+      "unit": null,
+      "description": "In-game accounting unit.",
+      "appliesTo": [
+        "resource"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "economy.maximum",
+      "label": "Maximum",
+      "type": "number",
+      "unit": null,
+      "description": "Resource cap.",
+      "appliesTo": [
+        "resource"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "economy.acquisition_rules",
+      "label": "Acquisition rules",
+      "type": "array",
+      "unit": null,
+      "description": "How this resource is gained.",
+      "appliesTo": [
+        "resource"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "economy.spending_rules",
+      "label": "Spending rules",
+      "type": "array",
+      "unit": null,
+      "description": "How this resource is spent.",
+      "appliesTo": [
+        "resource"
+      ],
+      "requiredFor": "future_extension"
+    },
+    {
+      "key": "economy.persistence",
+      "label": "Persistence",
+      "type": "string",
+      "unit": null,
+      "description": "Mission or campaign resource.",
+      "appliesTo": [
+        "resource"
+      ],
+      "requiredFor": "future_extension"
+    }
+  ],
+  "entities": [
+    {
+      "id": "ammo.family.carbine",
+      "name": "Entry carbine ammunition",
+      "kind": "ammunition",
+      "category": "Ammunition",
+      "description": "Proposed fictional compatibility family. No magazine, inventory or round consumption exists in the current mission.",
+      "attributes": {
+        "ammo.family_id": "ammo.family.carbine",
+        "ammo.compatible_weapon_ids": [
+          "equipment.primary_e"
+        ],
+        "ammo.variant_ids": [
+          "ammo.variant.standard",
+          "ammo.variant.marker",
+          "ammo.variant.cover-break"
+        ],
+        "ammo.stack_max": null,
+        "ammo.pickup_quantity": null
+      },
+      "relations": [
+        {
+          "type": "proposed_compatible_weapon",
+          "targetId": "equipment.primary_e"
+        },
+        {
+          "type": "supports_variant",
+          "targetId": "ammo.variant.standard"
+        },
+        {
+          "type": "supports_variant",
+          "targetId": "ammo.variant.marker"
+        },
+        {
+          "type": "supports_variant",
+          "targetId": "ammo.variant.cover-break"
+        }
+      ],
+      "gaps": [
+        "Compatibility, capacity, inventory and consumption require design approval and engine implementation."
+      ]
+    },
+    {
+      "id": "ammo.family.rifle",
+      "name": "Recon rifle ammunition",
+      "kind": "ammunition",
+      "category": "Ammunition",
+      "description": "Proposed fictional compatibility family. No magazine, inventory or round consumption exists in the current mission.",
+      "attributes": {
+        "ammo.family_id": "ammo.family.rifle",
+        "ammo.compatible_weapon_ids": [
+          "equipment.primary_r_optic"
+        ],
+        "ammo.variant_ids": [
+          "ammo.variant.standard",
+          "ammo.variant.marker",
+          "ammo.variant.cover-break"
+        ],
+        "ammo.stack_max": null,
+        "ammo.pickup_quantity": null
+      },
+      "relations": [
+        {
+          "type": "proposed_compatible_weapon",
+          "targetId": "equipment.primary_r_optic"
+        },
+        {
+          "type": "supports_variant",
+          "targetId": "ammo.variant.standard"
+        },
+        {
+          "type": "supports_variant",
+          "targetId": "ammo.variant.marker"
+        },
+        {
+          "type": "supports_variant",
+          "targetId": "ammo.variant.cover-break"
+        }
+      ],
+      "gaps": [
+        "Compatibility, capacity, inventory and consumption require design approval and engine implementation."
+      ]
+    },
+    {
+      "id": "ammo.family.sidearm",
+      "name": "Service sidearm ammunition",
+      "kind": "ammunition",
+      "category": "Ammunition",
+      "description": "Proposed fictional compatibility family. No magazine, inventory or round consumption exists in the current mission.",
+      "attributes": {
+        "ammo.family_id": "ammo.family.sidearm",
+        "ammo.compatible_weapon_ids": [
+          "equipment.pistol_service_compact"
+        ],
+        "ammo.variant_ids": [
+          "ammo.variant.standard",
+          "ammo.variant.marker",
+          "ammo.variant.cover-break"
+        ],
+        "ammo.stack_max": null,
+        "ammo.pickup_quantity": null
+      },
+      "relations": [
+        {
+          "type": "proposed_compatible_weapon",
+          "targetId": "equipment.pistol_service_compact"
+        },
+        {
+          "type": "supports_variant",
+          "targetId": "ammo.variant.standard"
+        },
+        {
+          "type": "supports_variant",
+          "targetId": "ammo.variant.marker"
+        },
+        {
+          "type": "supports_variant",
+          "targetId": "ammo.variant.cover-break"
+        }
+      ],
+      "gaps": [
+        "Compatibility, capacity, inventory and consumption require design approval and engine implementation."
+      ]
+    },
+    {
+      "id": "ammo.variant.standard",
+      "name": "Standard round",
+      "kind": "ammo_variant",
+      "category": "Ammunition",
+      "description": "Proposed baseline game round. Multipliers are design seeds, not physical specifications.",
+      "attributes": {
+        "ammo.damage_type": "kinetic-game",
+        "ammo.damage_multiplier": 1.0,
+        "ammo.cover_damage_multiplier": 1.0,
+        "ammo.armor_modifier": 0,
+        "ammo.noise_level": "weapon default",
+        "ammo.effect_id": null,
+        "ammo.lethal": true
+      },
+      "relations": [],
+      "gaps": []
+    },
+    {
+      "id": "ammo.variant.marker",
+      "name": "Training marker round",
+      "kind": "ammo_variant",
+      "category": "Ammunition",
+      "description": "Proposed training-only marking effect for a simulated range.",
+      "attributes": {
+        "ammo.damage_type": "training-marker",
+        "ammo.damage_multiplier": 0.0,
+        "ammo.cover_damage_multiplier": 0.0,
+        "ammo.armor_modifier": 0,
+        "ammo.noise_level": "training profile",
+        "ammo.effect_id": "effect.training-mark",
+        "ammo.effect_duration": 1,
+        "ammo.lethal": false
+      },
+      "relations": [
+        {
+          "type": "applies_effect",
+          "targetId": "effect.training-mark"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "ammo.variant.cover-break",
+      "name": "Cover-break round",
+      "kind": "ammo_variant",
+      "category": "Ammunition",
+      "description": "Proposed game tradeoff: lower actor damage and more damage to explicitly destructible cover. Current scenery cannot be destroyed.",
+      "attributes": {
+        "ammo.damage_type": "kinetic-game",
+        "ammo.damage_multiplier": 0.75,
+        "ammo.cover_damage_multiplier": 1.5,
+        "ammo.armor_modifier": 0,
+        "ammo.noise_level": "weapon default",
+        "ammo.effect_id": null,
+        "ammo.lethal": true
+      },
+      "relations": [],
+      "gaps": []
+    },
+    {
+      "id": "effect.training-mark",
+      "name": "Training marker",
+      "kind": "effect",
+      "category": "States",
+      "description": "Proposed simulated training status, separate from the existing Recon scan.",
+      "attributes": {
+        "state.stacking_policy": "refresh",
+        "state.duration": 1,
+        "state.visible_to": [
+          "player"
+        ],
+        "state.save_policy": "mission",
+        "state.dispel_rules": [
+          "expires after one turn"
+        ]
+      },
+      "relations": [],
+      "gaps": []
+    },
+    {
+      "id": "projectile.training-beacon",
+      "name": "Training beacon",
+      "kind": "projectile",
+      "category": "Ammunition",
+      "description": "Reserved harmless game projectile for future graph and curve lessons. No real weapon trajectory values are supplied.",
+      "attributes": {
+        "projectile.motion_model": null,
+        "projectile.speed": null,
+        "projectile.gravity": null,
+        "projectile.collision_radius": null,
+        "projectile.lifetime": null,
+        "projectile.collision_mask": null,
+        "projectile.on_impact_effect_id": "effect.training-mark",
+        "projectile.lesson_concept_id": null
+      },
+      "relations": [
+        {
+          "type": "applies_effect",
+          "targetId": "effect.training-mark"
+        }
+      ],
+      "gaps": [
+        "Lesson model, feedback, authored world parameters and implementation are not yet defined."
+      ]
+    },
+    {
+      "id": "schema.proposed.actor-instance",
+      "name": "Character instance",
+      "kind": "authoring_schema",
+      "category": "Systems",
+      "description": "Proposed instance/save contract; definition changes must not erase per-instance state.",
+      "attributes": {
+        "schema.fields": {
+          "entity_id": "string",
+          "definition_id": "reference",
+          "mission_id": "reference",
+          "position": [
+            "x",
+            "y",
+            "layer"
+          ],
+          "state": [
+            "hp",
+            "ap",
+            "statuses",
+            "inventory",
+            "cooldowns",
+            "extracted"
+          ],
+          "save_version": "integer"
+        }
+      },
+      "relations": [],
+      "gaps": []
+    },
+    {
+      "id": "schema.proposed.item-instance",
+      "name": "Equipment instance",
+      "kind": "authoring_schema",
+      "category": "Systems",
+      "description": "Proposed instance/save contract; definition changes must not erase per-instance state.",
+      "attributes": {
+        "schema.fields": {
+          "entity_id": "string",
+          "definition_id": "reference",
+          "owner_id": "reference",
+          "slot_id": "string",
+          "state": [
+            "durability",
+            "charges",
+            "magazine",
+            "ammo_type_id",
+            "attachments"
+          ],
+          "save_version": "integer"
+        }
+      },
+      "relations": [],
+      "gaps": []
+    },
+    {
+      "id": "schema.proposed.world-instance",
+      "name": "World object instance",
+      "kind": "authoring_schema",
+      "category": "Systems",
+      "description": "Proposed instance/save contract; definition changes must not erase per-instance state.",
+      "attributes": {
+        "schema.fields": {
+          "entity_id": "string",
+          "definition_id": "reference",
+          "mission_id": "reference",
+          "transform": [
+            "x",
+            "y",
+            "layer",
+            "rotation",
+            "scale"
+          ],
+          "state": [
+            "durability",
+            "open",
+            "powered",
+            "locked",
+            "looted",
+            "destroyed"
+          ]
+        }
+      },
+      "relations": [],
+      "gaps": []
+    },
+    {
+      "id": "schema.proposed.save-contract",
+      "name": "Save data contract",
+      "kind": "authoring_schema",
+      "category": "Systems",
+      "description": "Proposed instance/save contract; definition changes must not erase per-instance state.",
+      "attributes": {
+        "schema.fields": {
+          "schema_version": "integer",
+          "content_revision": "string",
+          "mission_seed": "integer",
+          "turn": "integer",
+          "phase": "enum",
+          "actor_instances": "array",
+          "object_instances": "array",
+          "rng_state": "integer",
+          "event_history": "array"
+        }
+      },
+      "relations": [],
+      "gaps": []
+    }
+  ]
+}

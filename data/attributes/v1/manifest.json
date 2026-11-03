@@ -1,0 +1,713 @@
+{
+  "release": {
+    "snapshot": "2026-11-02",
+    "schemaVersion": "1.0.0",
+    "sourceRevisions": {
+      "canon": "160020bdeac4afa0cd3f25638169e657af55bc29",
+      "prototype": "ef665bc2c37438ce11d3c727358d3349c4da4888"
+    },
+    "summary": {
+      "entities": 1319,
+      "attributes": 12026,
+      "relationships": 1511,
+      "instances": 52,
+      "cellCount": 16384,
+      "layerSlots": 32768,
+      "renderParts": 1402,
+      "issues": 30,
+      "sources": 81,
+      "fields": 1246
+    }
+  },
+  "sha256": {
+    "catalog.json": "7331ba19d6685e3d9ac02b1efb5a47c4b791f0ff5de35b0616ca6b18d88008a3",
+    "source/PRIM3-Attributes-Matrix.xlsx": "d8284b9bad7a5606186c714d604a5b9c79891eb4161aeeae30d2fbe668f141df",
+    "release attrs.html (not committed)": "7d73e6b492e33c4adb33ffb544c1d1b82566602246d768571cb2ca75a62a10b9"
+  },
+  "counts": {
+    "entities": 1319,
+    "attributes": 12026,
+    "attribute_rows": 12298,
+    "relationships": 1511,
+    "fields": 1246,
+    "issues": 30,
+    "sources": 81,
+    "domainViews": {
+      "people.json": 201,
+      "phenotypes.json": 37,
+      "weapons.json": 10,
+      "gear.json": 370,
+      "actions.json": 701
+    }
+  },
+  "attributeStates": {
+    "defined": 7588,
+    "not_applicable": 8,
+    "unknown": 4426,
+    "conflict": 4
+  },
+  "attributeOrigins": {
+    "proposed": 6152,
+    "runtime": 1713,
+    "canon": 3695,
+    "reference": 466
+  },
+  "provenance": {
+    "entities": {
+      "Black Signal prototype asset (proposed)": 24,
+      "Black Signal prototype runtime": 169
+    },
+    "attributes": {
+      "Black Signal prototype asset (proposed)": 509,
+      "Black Signal prototype runtime": 2236
+    }
+  },
+  "sourceSnapshots": [
+    {
+      "sourceId": "src.7c1af7c19c5a07",
+      "path": "sources/canon/CANON.md",
+      "sha256": "c11d95c97116a4425b695e15e1b39a5bc527377cde9ff4c0ffaf2fa10daee51f",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.dd430e58eb99d7",
+      "path": "sources/canon/assets/canon/characters/prime-negative-one/README.md",
+      "sha256": "176a888c528e17834d3395b1cf24d67a00d984de4ab4f7834faf38612a006d8d",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.97410d6327c73e",
+      "path": "sources/canon/characters/PRIM2-PRESIDING.md",
+      "sha256": "99e54492a24730c08c68d666b15547c1d138ab6c7c8c74073d038458c44bb23a",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.b1f1846fce0c2f",
+      "path": "sources/canon/characters/PRIM3-MCCLUSTER.md",
+      "sha256": "3ceee71675392bd4c198c947863b1babe552631724cc91002bc77d52c796c8ce",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.212d091273ef41",
+      "path": "sources/canon/characters/PRIME-00-PRESIDING.md",
+      "sha256": "009858889e403fd91d0b896bee077f102e85a79a9b7aa4ac2ffe46ec9dee795c",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.2a34bc6516f6d0",
+      "path": "sources/canon/characters/PRIME-N1-PROTAGONIST.md",
+      "sha256": "61318f67e781c547593cfd01df846dd23e58569dcb4742af2b5793044f329a1c",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.0fae0ab5336e03",
+      "path": "sources/canon/characters/PRIME-OFFICIAL-SUIT.md",
+      "sha256": "ee814d47825a5b4150ba28c792fd13fd6402b63438565e27da75ceb3260fd07c",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.d93c0b0824975b",
+      "path": "sources/canon/game/GAME-MECHANICS-COMPLETE.md",
+      "sha256": "6b81b82a75ad5a991e26cefe1d26ae74a2721579d8dc2f4f25cac9ffed991c70",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.7c9fefd6fab948",
+      "path": "sources/canon/game/INTERVENTION-ACTION-REGISTRY.yaml",
+      "sha256": "5bb421f02c59416c9922c45894ad010e20f141f1ef24939820b93fd01074f5a0",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.513f55e5caacbe",
+      "path": "sources/canon/game/KINETIC-TECHNICAL-COUPLING-AUTHORITY.md",
+      "sha256": "d21fe41ef338c88282cd5f1f0b4928e03165d4cbdcbce81833c0100669b9c766",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.d2ad8f13c8d708",
+      "path": "sources/canon/game/MECHANICS-GAPS-FILLED.md",
+      "sha256": "296d2cea563f643bcd7042e1d89ce6a5db7d2313550de2f51bd669c007401197",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.1977c6c4893238",
+      "path": "sources/canon/game/ROLE-ACTION-REGISTRY.yaml",
+      "sha256": "ef5dc61b1e9a3c8cbcc2ef07c7d8ef41eda09678a0948a6c07938608463804af",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.fe9346ea3d883f",
+      "path": "sources/canon/game/TACTICAL-CORE-MECHANICS.yaml",
+      "sha256": "7a0369548958493f0846f9a448b9124326a370ed5f6e37a3c9bb3006e49956ce",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.f2694f9dfa7b53",
+      "path": "sources/canon/game/WILDCARD-INTERVENTION-AUTHORITY.md",
+      "sha256": "81dffa15c6eb09fdec9f584e76af4fd9e37aa3401e3a450f7f21f38ede4ce145",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.87bb3b32965e15",
+      "path": "sources/canon/learning/CONCEPT-MECHANIC-BINDING-RULES.yaml",
+      "sha256": "a76483bfce37524e97cc8d56f6650c9b561b60b81ad9baa20cf4775ba5bc1611",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.79e9f2fd60fb05",
+      "path": "sources/canon/learning/SONG-CONCEPT-INDEX.md",
+      "sha256": "38cd474bfd63c63dd4664226630029fb59f67fd7d820bea9761e9e100999ab44",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.05e50bfd78213f",
+      "path": "sources/canon/learning/course/course-feed.json",
+      "sha256": "0b85d50af3a535e7851f5e81411b07dab46e9f3232a99e7541b94fcb9953514e",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.67c2d2645d4d74",
+      "path": "sources/canon/learning/missions/LVL-06-DEAD-AIR.yaml",
+      "sha256": "8fa0b7632c714e791295b6d9c6fce8e1135e1142157da8705c3889e7222d47ed",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.e8df91e351267c",
+      "path": "sources/canon/learning/missions/LVL-07-EXPOSURE.yaml",
+      "sha256": "a611a8e971c6823ec1dcad10a36400b670b9fc6804a11c60ac0faf8f65ea5c0d",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.1abced63f5888f",
+      "path": "sources/canon/learning/missions/TRAINING-RANGE-01-RISK-AND-CONTROLS.yaml",
+      "sha256": "7f851312d282f8b0d4b7bb494b6dfd35543af955897588349f19db09d31c1ab6",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.143a252ecd9f0f",
+      "path": "sources/canon/learning/missions/TRAINING-RANGE-02-NETWORK-PATH.yaml",
+      "sha256": "254b9bd34113778773628452f590c38f360c2db349fd558d95e7df27cc51524c",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.089715f0a1157b",
+      "path": "sources/canon/learning/missions/TRAINING-RANGE-03-TRUST-AND-IDENTITY.yaml",
+      "sha256": "c0dba0c2e5ca2fb79f7fd1ca295ef79fbb6887201cab785b4240908ed639a615",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.ea32b2bef07e9e",
+      "path": "sources/canon/phenotypes/NAMING.md",
+      "sha256": "e85654d5c951ab0f7ec0cd928d858b7f0bec6de7242cb76e54c194db16867d3e",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.0be342ea1216c9",
+      "path": "sources/canon/phenotypes/PHENOTYPE-SYSTEM.md",
+      "sha256": "fdce35adb150382053b1d7d685e787693b477ab83bc784cf4bea427413bb50fe",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.83dd742e46a9d7",
+      "path": "sources/canon/phenotypes/README.md",
+      "sha256": "415a6e372c68ab12762a109d184fc75f505bfc5ed4f7410cfaf8ebebb01160e1",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.39957fd7d9a6af",
+      "path": "sources/canon/phenotypes/adversarial/state-actor/ADV-01.md",
+      "sha256": "cfa8381e87ed184d9c33f2315c69a954764d56c741e1698df2cbb355969a7ade",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.01ce7df4b92e7f",
+      "path": "sources/canon/phenotypes/building-defense/SOI-01.md",
+      "sha256": "54bb07ca59af94f85894e6490055545dfde9df172aa97283146fcd89f29896dd",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.8d636282c81708",
+      "path": "sources/canon/phenotypes/building-defense/SOI-02.md",
+      "sha256": "527ba56f067139c4178a572b48e08d835314e447b64331ffd9f35f3eeef97a14",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.0df120ab38c3b4",
+      "path": "sources/canon/phenotypes/building-defense/SOI-03.md",
+      "sha256": "3753a245e00f6ddff18fe484c5aa10fc64a8c3e3c40ec28e98746e0970a455d9",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.73e42ac328002d",
+      "path": "sources/canon/phenotypes/building-systems/BS-01.md",
+      "sha256": "29a25e7abf1bcc426e29b2c9cb8dfa0725ffa585e9aa9f447a117cb94d730a9f",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.c34c94a1b3d99d",
+      "path": "sources/canon/phenotypes/civilian/academic/AC-01.md",
+      "sha256": "3153b5ec9843f374d03dd7989a063941a6f6544a8ddd711fa93abaf02db75eb1",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.9bc70c176b6955",
+      "path": "sources/canon/phenotypes/civilian/recruit-student/RS-01.md",
+      "sha256": "41c3a31858815f32b1b11e4aaf3f414e46f882efc691b3a8a90eddc2ce8bb3f2",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.67c18cb2170770",
+      "path": "sources/canon/phenotypes/institutional-authority/EI-01.md",
+      "sha256": "7cff4e201d381c9934676c1cc7a0708444d709b04c1cd0e8c94144c0f64625ab",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.5092db6ad53ed6",
+      "path": "sources/canon/phenotypes/institutional-authority/EI-02.md",
+      "sha256": "8711089fa2f9ca61c7179010c541fdc9de01fea33c2c8b8d1fdcf5204956bec5",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.6abae3a5c588f3",
+      "path": "sources/canon/phenotypes/institutional-authority/EI-03.md",
+      "sha256": "8ffce51a4e396ef7925c0d53248ff330b57541de5d76d7169a515ffecb157215",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.9444e63b395b6e",
+      "path": "sources/canon/phenotypes/operators/FIELD-KITS.md",
+      "sha256": "cf9bc6d474d6ffaf45d97f232a365e77b3e70a0f042d790342ce74168fc234e3",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.4c16f6a2a30e9e",
+      "path": "sources/canon/phenotypes/operators/asset-modeling/SPECS.md",
+      "sha256": "3f5e623671ccf8b2431778c11a58d7802ccab6e8c3815a2b40423188ad56459e",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.9f02651c9eb0b5",
+      "path": "sources/canon/phenotypes/operators/cohort-lead/CO-03.md",
+      "sha256": "0f07e0ebb6e050d87508de345fb04b19d316fe8afaa2d5f7da552eb32fc149b6",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.776b2b8983091e",
+      "path": "sources/canon/phenotypes/operators/cohort-light/CO-02.md",
+      "sha256": "015068dfb6150ab44c8baddb8d742e18a6fdb533b0debcb1e2abc0b62faf93f6",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.fbe8648935bbb2",
+      "path": "sources/canon/phenotypes/operators/cohort-standard/CO-01.md",
+      "sha256": "9938bbbf44c8de99a93c87136d93689190c8ee1bb7fb53fc06833b689257e410",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.47b86fcb80454f",
+      "path": "sources/canon/phenotypes/operators/field-entry/FO-E.md",
+      "sha256": "7977336c21b8861499c9917a7149423e049e2a61a2023ee8b59ddef7bdf8a0c6",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.55be1602b18ec4",
+      "path": "sources/canon/phenotypes/operators/field-operator/FO-01.md",
+      "sha256": "6a41fb032e8b7e0a1163d2af735704de1e7ca80a894900f4e81933b1e8d47900",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.06faaf1be55290",
+      "path": "sources/canon/phenotypes/operators/field-recon/FO-R.md",
+      "sha256": "8ba760faf83a1a4aa7fdc902f0aad4994e65dc77642693cf0fb0fed3df658d4a",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.ae1bf28ba97754",
+      "path": "sources/canon/phenotypes/operators/field-technical/3D-ASSET-BRIEF.md",
+      "sha256": "14cbe03662fc7bdf07948a194d7dc201689dfbc5105a0175cc68bcdd842182ab",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.f07a984c656bda",
+      "path": "sources/canon/phenotypes/operators/field-technical/FO-T.md",
+      "sha256": "6c474a7728b017485ab69713cf72fda9b62e9b27a0dd904c163db2da8ee996db",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.0896e738b4e3c7",
+      "path": "sources/canon/phenotypes/operators/field-technical/LOADOUTS-ITEMIZED.md",
+      "sha256": "f70c9b8dee30f8fe6076fc1b970d56ff3f81294c56413de0265084416103964e",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.f0ca6bdc00322f",
+      "path": "sources/canon/phenotypes/operators/field-technical/MODULE-HARDWARE.md",
+      "sha256": "d6b38a01f2add6aa28ad7e4295c0737685d140c8761089009653b9ea98e8e663",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.f4e312a09dbe4b",
+      "path": "sources/canon/story/AYA-SHINODA-PSYCHOLOGICAL-BACKGROUND.md",
+      "sha256": "39d4968465f0461e2fa81a0d797466f018d0b816cbb76d5b866a024fa8125262",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.c9628ed7978f49",
+      "path": "sources/canon/story/CAST-NATIONS.md",
+      "sha256": "73a857e9c66c29fa36828ce06df19b7a8015da0f726fe311b345002119fcbd82",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.fb84ca9f47470c",
+      "path": "sources/canon/story/CHARACTERS.md",
+      "sha256": "087b6f7ed4ff142f7799fe221e4839968151c7b037d9e3fb9d751dcc5c552508",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.6df2f8040a99a5",
+      "path": "sources/canon/story/EQUITY-UPRISE-WORKPLACE-CANON.md",
+      "sha256": "5b32c22dc1ccc24f916c23e06c0545a682f428ad518dbd1f2e044997ca2ff8a9",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.24e8630e0a4911",
+      "path": "sources/canon/story/HANA-LEE-PSYCHOLOGICAL-BACKGROUND.md",
+      "sha256": "eea00419174020c87ea6b24d07abed900c539c2eabec8b0ff4f3975221e52f72",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.c56b1b6fb5ca1c",
+      "path": "sources/canon/story/HITMAN-CAST.md",
+      "sha256": "bc2377d977f7b3065b8ef240adcd015b62712fb7fb08479f2b1d9617af9e3609",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.bc06954afec431",
+      "path": "sources/canon/story/HITMAN-CHARACTER-DOSSIERS.md",
+      "sha256": "336f6be897302c802ccdc6424778f008d40398fa9a701d770a02f77ce12fa0bc",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.9b07040cf7b004",
+      "path": "sources/canon/story/HITMAN-ORG.md",
+      "sha256": "6d5b4efb7226b3b3a71419d9ad0cafcff5e0d8129039c286e29923c4a061b11c",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.2d99d24244c11e",
+      "path": "sources/canon/story/IMMEDIATE-CAST-CANON.md",
+      "sha256": "d1c5b5a2e7c304d3179c34ea7475472a7845cc3b2286f6d837598ab37c72fc8c",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.d8d5d9a45d85e1",
+      "path": "sources/canon/story/MCCLUSTER-HITMAN-ORIGIN-CANON.md",
+      "sha256": "b537c6b68ab6a61af017792956923c0ad72ff921f0be4b06e650a1cf7aa452bc",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.a6e6e8902f8b38",
+      "path": "sources/canon/story/MCCLUSTER-PSYCHOLOGICAL-BACKGROUND.md",
+      "sha256": "3e23f3d629d004bbf102af4f39dd2097e3ac7732270a4ad49fdea3293b1c099b",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.fcabfd653fd0c4",
+      "path": "sources/canon/story/PHENOTYPE-IDENTITIES.md",
+      "sha256": "bd1598b7805a16cf0e0733678de5d9aa05edd09684d5f5bf85a783afed3a4268",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.9838c24ae25a5c",
+      "path": "sources/canon/story/PRIM3-CHARACTER-DOSSIERS.md",
+      "sha256": "c6605aef7f21e66b464ed73607219dfa89706e97fb49007604797c638f3856c0",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.69d8cc0f69115e",
+      "path": "sources/canon/story/REN-SHINODA-PSYCHOLOGICAL-BACKGROUND.md",
+      "sha256": "471c898043b7f11f9254780ebbb90c5f7e3bfedb63fc5e718709ddd53db4107e",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.d97b916f70364d",
+      "path": "sources/canon/story/SECONDARY-CHARACTER-DOSSIERS.md",
+      "sha256": "c58020cb05588d4cec2f7572866120dd1168972b783a70a7751041e24382b4f1",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.957d2d50dac663",
+      "path": "sources/canon/story/TARIQ-AL-FARSI-PSYCHOLOGICAL-BACKGROUND.md",
+      "sha256": "1ebd479640a49e29c8d4effeec1753e6e22c4ed6f0afe48645558c671f452a7c",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.d7ff65c8186213",
+      "path": "sources/canon/story/ZAYD-AL-HARTHI-PSYCHOLOGICAL-BACKGROUND.md",
+      "sha256": "81fdf3d806047aff191d51e78f2055d49ed258c66bdf7a5276dd7e57eb5db551",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.930ebc8dc0470e",
+      "path": "sources/canon/technology/CURRICULUM.md",
+      "sha256": "7482455d43218049ba1ca18a8f157c8735d35be22b36e1ab365b71c2fd6b76e0",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.c04fc98a3462be",
+      "path": "sources/canon/world/corporations/APEX-TACTICAL-CORP.md",
+      "sha256": "a2ffe246bb0f1e26c2a902923960f45461fd5eb14af86244b91a7a7dd6cbb1ed",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.63aa00c89861f8",
+      "path": "sources/canon/world/corporations/MCCLUSTER-CORP.md",
+      "sha256": "5f1e7b550c7bec0b3da67473a706ffb1abe8bf501cef2c1cfd9a489879cb70ef",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.492604a86cbf70",
+      "path": "sources/canon/world/equity-uprise-workplace-roster.v1.json",
+      "sha256": "d4d300f8dfaa43ac4d43e61cfd45cac7f559f97193e29006241a89fdc8d1376d",
+      "matchesCatalog": true,
+      "kept": false,
+      "matchesPrim3AtCommit": true
+    },
+    {
+      "sourceId": "src.7f23e715da05d1",
+      "path": "sources/design/src/registry/OWNER-DIRECTION.md",
+      "sha256": "38563d1ac405ae211931a745e26245454dcb8c4bab8dc29af36da2d4e55e8773",
+      "matchesCatalog": true,
+      "kept": true
+    },
+    {
+      "sourceId": "src.2dafcebfcb927b",
+      "path": "sources/design/src/registry/proposals.json",
+      "sha256": "0723af2a9986eaf8532cf4ae1e77acefa5b48c2052dbb2567fe56e6955240ee9",
+      "matchesCatalog": true,
+      "kept": true
+    },
+    {
+      "sourceId": "src.cefae26004b782",
+      "path": "sources/runtime/assets/field-equipment/catalog.json",
+      "sha256": "66c9d502c688aba77317862b57d1dd235802d8667ea881a698b559f822c2841c",
+      "matchesCatalog": true,
+      "kept": true
+    },
+    {
+      "sourceId": "src.2bc29a9d7e50b0",
+      "path": "sources/runtime/assets/field-equipment/loadouts.json",
+      "sha256": "50c7441a26aa6d67aefc160ffce5e5c61f49a0013f3e7bed2a2f4fc5b5f412ab",
+      "matchesCatalog": true,
+      "kept": true
+    },
+    {
+      "sourceId": "src.82e63b75ca88dd",
+      "path": "sources/runtime/assets/white-industrial/catalog.json",
+      "sha256": "1ab321c6bf8332d2d4c07ed415c49b932f6cf91106ca02035cfadb7fb72cf0a0",
+      "matchesCatalog": true,
+      "kept": true
+    },
+    {
+      "sourceId": "src.7e425985e48ebd",
+      "path": "sources/runtime/assets/white-industrial/generate_assets.py",
+      "sha256": "3f064c5f9a51d5d75ad987b53c98c3817130b40e62f6cdd3423610aa116881ea",
+      "matchesCatalog": true,
+      "kept": true
+    },
+    {
+      "sourceId": "src.2f93245179f785",
+      "path": "sources/runtime/src/engine.js",
+      "sha256": "692a466621aeb335a8f94919a23e63d729ca6c82bc0646cb975f2c55fff9cf4d",
+      "matchesCatalog": true,
+      "kept": true
+    },
+    {
+      "sourceId": "src.fa4eb27502863e",
+      "path": "sources/runtime/src/level-builder/model.js",
+      "sha256": "452dfc258176ad9ed41634124b006d5a082e4f07a985ecd1f9559a220a6a4921",
+      "matchesCatalog": true,
+      "kept": true
+    },
+    {
+      "sourceId": "src.18d5e7612498c6",
+      "path": "sources/runtime/src/main.js",
+      "sha256": "6f2f7c607303e2779c6fac0f9c77906a7942a4787e4fc1694ac39c8e1408ad8a",
+      "matchesCatalog": true,
+      "kept": true
+    },
+    {
+      "sourceId": "src.052d4fbccf215d",
+      "path": "sources/runtime/src/operators.js",
+      "sha256": "4c5c482e1956396b2092ccbfb55c1d2f6a5a5e84c8308b3ce450a5a6d16a5b00",
+      "matchesCatalog": true,
+      "kept": true
+    },
+    {
+      "sourceId": "src.ae2c5f030374d5",
+      "path": "sources/runtime/src/render.js",
+      "sha256": "d98883cf69ef5e92b5e87f644e492fff6f66d83010e72afbcdf4da0c11ff20a8",
+      "matchesCatalog": true,
+      "kept": true
+    },
+    {
+      "sourceId": "src.60c232c8b9b317",
+      "path": "sources/runtime/src/surfaces.js",
+      "sha256": "08480dc568c626c4aa3c37af1f9f28283a73b464563aeffd6faa2efb7fd268d1",
+      "matchesCatalog": true,
+      "kept": true
+    },
+    {
+      "sourceId": "src.5a247cfcc6dc65",
+      "path": "sources/runtime/src/world.js",
+      "sha256": "8846c82896e167be7494237bfdb175f2b9c3baf86f4815ee485a3b3f5cb1f51a",
+      "matchesCatalog": true,
+      "kept": true
+    }
+  ],
+  "notEmbeddedInRelease": [
+    "catalog.schema.json",
+    "coverage.json",
+    "validation.json",
+    "instances.json (instances are present as catalog entities)",
+    "runtime-cell-runs.json",
+    "runtime-render-parts.json",
+    "runtime-operator-parts.json",
+    "cells.csv"
+  ],
+  "problems": []
+}

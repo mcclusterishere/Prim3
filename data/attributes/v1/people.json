@@ -1,0 +1,3756 @@
+{
+  "sheet": "People",
+  "columns": [
+    "Name",
+    "Entity ID",
+    "Status",
+    "Implementation",
+    "Kind",
+    "Nation",
+    "Primary role",
+    "Roster scope",
+    "Health",
+    "Action points",
+    "Identity notes",
+    "Source IDs"
+  ],
+  "rows": [
+    {
+      "entityId": "person.amira-hassan",
+      "name": "Amira Hassan",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Egypt",
+      "primary_role": "Authority-03 Mission Sponsor",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.arjun-mehta",
+      "name": "Arjun Mehta",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "India",
+      "primary_role": "Field-E Entry Operator",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.aya-shinoda",
+      "name": "Aya Shinoda",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Japan",
+      "primary_role": "Field-T Technical Operator",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.f4e312a09dbe4b",
+        "src.fb84ca9f47470c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.chioma-okeke",
+      "name": "Chioma Okeke",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Nigeria",
+      "primary_role": "Cohort-03 Lead",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.chris-perch-alvarez",
+      "name": "Chris “Perch” Alvarez",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "overwatch/context",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.bc06954afec431",
+        "src.c56b1b6fb5ca1c",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.dez-switch-calhoun",
+      "name": "Dez “Switch” Calhoun",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "adaptive younger operator",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.bc06954afec431",
+        "src.c56b1b6fb5ca1c",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.dmitri-volkov",
+      "name": "Dmitri Volkov",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Russia",
+      "primary_role": "Defense-01 Building Guard",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.emre-yldz",
+      "name": "Emre Yıldız",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Turkey",
+      "primary_role": "Defense-01 Building Guard",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.grace-mbala",
+      "name": "Grace Mbala",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Democratic Republic of the Congo",
+      "primary_role": "Cohort Support",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.grant-voss",
+      "name": "Grant Voss",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "sponsor / respectable-money surface",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.bc06954afec431",
+        "src.c56b1b6fb5ca1c",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.hassan-raza",
+      "name": "Hassan Raza",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Pakistan",
+      "primary_role": "Defense-03 Tech-Zone Guard",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.helen-clarke",
+      "name": "Helen Clarke",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "United Kingdom",
+      "primary_role": "Authority-02 Director",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.jonas-weber",
+      "name": "Jonas Weber",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Germany",
+      "primary_role": "System Liaison / Pylon Interface",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.jules-kiosk-mendez",
+      "name": "Jules “Kiosk” Mendez",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "deniable technical support",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.bc06954afec431",
+        "src.c56b1b6fb5ca1c",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.kira-keys-moon",
+      "name": "Kira “Keys” Moon",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "access/social gate",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.bc06954afec431",
+        "src.c56b1b6fb5ca1c",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.leila-hosseini",
+      "name": "Leila Hosseini",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Iran",
+      "primary_role": "Authority / Analysis",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.li-wei",
+      "name": "Li Wei",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "China",
+      "primary_role": "Authority / Director track",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.marc-dubois",
+      "name": "Marc Dubois",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "France",
+      "primary_role": "Mission Sponsor",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.maren-quill",
+      "name": "Maren Quill",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "Equity Uprise communications/public-facing human surface",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.c56b1b6fb5ca1c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.mccluster",
+      "name": "McCluster",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "United States",
+      "primary_role": "Wildcard / Cohort path",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.b1f1846fce0c2f",
+        "src.492604a86cbf70",
+        "src.f2694f9dfa7b53",
+        "src.7c1af7c19c5a07",
+        "src.2a34bc6516f6d0",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.miguel-santos",
+      "name": "Miguel Santos",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Philippines",
+      "primary_role": "Defense-02 Access Officer",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.mina-halo-brooks",
+      "name": "Mina “Halo” Brooks",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "cell lead",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.bc06954afec431",
+        "src.c56b1b6fb5ca1c",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.minh-tran",
+      "name": "Minh Tran",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Vietnam",
+      "primary_role": "Field-T Technical Operator",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.nusrat-rahman",
+      "name": "Nusrat Rahman",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Bangladesh",
+      "primary_role": "Defense-02 Access Officer",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.oksana-bondarenko",
+      "name": "Oksana Bondarenko",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Ukraine",
+      "primary_role": "Field-R / Intelligence",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.omar-rack-dillon",
+      "name": "Omar “Rack” Dillon",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "logistics/equipment",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.bc06954afec431",
+        "src.c56b1b6fb5ca1c",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.prim2",
+      "name": "PRIM2",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "presiding hidden Mantle holder during almost all of the series",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.97410d6327c73e",
+        "src.492604a86cbf70",
+        "src.f2694f9dfa7b53",
+        "src.212d091273ef41",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.priya-srisawat",
+      "name": "Priya Srisawat",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Thailand",
+      "primary_role": "Marketing / Public Surface",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.rae-twin-colton",
+      "name": "Rae “Twin” Colton",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "social-entry specialist",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.bc06954afec431",
+        "src.c56b1b6fb5ca1c",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.rafael-costa",
+      "name": "Rafael Costa",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Brazil",
+      "primary_role": "Field-R Overwatch",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.royce",
+      "name": "Royce",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "contemporary Hitman successor/sovereign; McCluster's old rival; seven years younger; receives the succession opportunity McCluster refused",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.bc06954afec431",
+        "src.c56b1b6fb5ca1c",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.sable-quinn",
+      "name": "Sable Quinn",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "operations / money",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.bc06954afec431",
+        "src.c56b1b6fb5ca1c",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.sari-wulandari",
+      "name": "Sari Wulandari",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Indonesia",
+      "primary_role": "Cohort-01 Operator",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.sora-gymnast-okada",
+      "name": "Sora “Gymnast” Okada",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "elite/social-entry specialist",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.bc06954afec431",
+        "src.c56b1b6fb5ca1c",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.thandiwe-nkosi",
+      "name": "Thandiwe Nkosi",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "South Africa",
+      "primary_role": "Cohort-03 Lead peer",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.tone-rivera",
+      "name": "Tone Rivera",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "block/control operator",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.bc06954afec431",
+        "src.c56b1b6fb5ca1c",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.valeria-soto",
+      "name": "Valeria Soto",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Mexico",
+      "primary_role": "Cohort-02 Trainee",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.yonas-bekele",
+      "name": "Yonas Bekele",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Ethiopia",
+      "primary_role": "Cohort-01 Operator",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.9838c24ae25a5c",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.pylon",
+      "name": "Pylon",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "system_character",
+      "nation": "not_applicable",
+      "primary_role": "System-01 / building automation platform; recurring character-level system presence through Jonas and the physical environment",
+      "roster_scope": "immediate",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.492604a86cbf70",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.bigga-lex-the-jet",
+      "name": "Bigga Lex the Jet",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "Historical Hitman leader who retires and offers McCluster succession",
+      "roster_scope": "historical_or_outside",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d8d5d9a45d85e1",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.faisal-al-farsi",
+      "name": "Faisal Al-Farsi",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "Electrical protection / reliability engineer",
+      "roster_scope": "historical_or_outside",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.957d2d50dac663",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.hana-lee",
+      "name": "Hana Lee",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "South Korea",
+      "primary_role": "legacy",
+      "roster_scope": "historical_or_outside",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.24e8630e0a4911",
+        "src.2d99d24244c11e",
+        "src.fb84ca9f47470c",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.keiko-shinoda",
+      "name": "Keiko Shinoda",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Japan",
+      "primary_role": "Physical therapist in orthopedic rehabilitation",
+      "roster_scope": "historical_or_outside",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.f4e312a09dbe4b",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.lee-dong-hyun",
+      "name": "Lee Dong-hyun",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "Instrumentation and condition-monitoring technician",
+      "roster_scope": "historical_or_outside",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.24e8630e0a4911",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.lee-ji-won",
+      "name": "Lee Ji-won",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "Small-business accountant; older sister of Hana",
+      "roster_scope": "historical_or_outside",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.24e8630e0a4911",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.maha-al-harthi-al-farsi",
+      "name": "Maha Al-Harthi Al-Farsi",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "Omani-born mother of Tariq; sister of Nawal",
+      "roster_scope": "historical_or_outside",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.957d2d50dac663",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.masato-shinoda",
+      "name": "Masato Shinoda",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Japan",
+      "primary_role": "Tool-and-die / production-equipment maintenance technician",
+      "roster_scope": "historical_or_outside",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.f4e312a09dbe4b",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.nawal-al-harthi",
+      "name": "Nawal Al-Harthi",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "Education administrator; sister of Maha",
+      "roster_scope": "historical_or_outside",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d7ff65c8186213",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.park-mi-sook",
+      "name": "Park Mi-sook",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "Secondary-school mathematics teacher",
+      "roster_scope": "historical_or_outside",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.24e8630e0a4911",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.ren-shinoda",
+      "name": "Ren Shinoda",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Japan",
+      "primary_role": "Aya's younger brother; safety-validation / simulation specialist",
+      "roster_scope": "historical_or_outside",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.69d8cc0f69115e",
+        "src.fb84ca9f47470c",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.ricky",
+      "name": "Ricky",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "McCluster's roommate during his first college attempt",
+      "roster_scope": "historical_or_outside",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.a6e6e8902f8b38",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.salim-al-harthi",
+      "name": "Salim Al-Harthi",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "Municipal / infrastructure project manager",
+      "roster_scope": "historical_or_outside",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d7ff65c8186213",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.tariq-al-farsi",
+      "name": "Tariq Al-Farsi",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Saudi Arabia",
+      "primary_role": "living freelancer",
+      "roster_scope": "historical_or_outside",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.957d2d50dac663",
+        "src.2d99d24244c11e",
+        "src.fb84ca9f47470c",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.zayd-al-harthi",
+      "name": "Zayd Al-Harthi",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Oman",
+      "primary_role": "Aya's former partner; architecture / built environment",
+      "roster_scope": "historical_or_outside",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d7ff65c8186213",
+        "src.fb84ca9f47470c",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.aigerim-nazer",
+      "name": "Aigerim Nazer",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Kazakhstan",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.aisha-diallo",
+      "name": "Aisha Diallo",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Senegal",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.amina-jibril",
+      "name": "Amina Jibril",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Tanzania",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.anastasia-popescu",
+      "name": "Anastasia Popescu",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Romania",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.andrea-rossi",
+      "name": "Andrea Rossi",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Italy",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.aoife-byrne",
+      "name": "Aoife Byrne",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Ireland",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.ariel-cruz",
+      "name": "Ariel Cruz",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Singapore",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.aye-chan",
+      "name": "Aye Chan",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Myanmar",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.bat-erdene",
+      "name": "Bat Erdene",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Mongolia",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.bounmy-phom",
+      "name": "Bounmy Phom",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Laos",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.camila-rojas",
+      "name": "Camila Rojas",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Colombia",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.daniel-mwangi",
+      "name": "Daniel Mwangi",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Kenya",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.dilshad-karim",
+      "name": "Dilshad Karim",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Uzbekistan",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.elina-petrosyan",
+      "name": "Elina Petrosyan",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Armenia",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.eva-novak",
+      "name": "Eva Novák",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Czechia",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.fatima-zahra",
+      "name": "Fatima Zahra",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Morocco",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.fatou-camara",
+      "name": "Fatou Camara",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Mali",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.ibrahim-cisse",
+      "name": "Ibrahim Cissé",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Côte d’Ivoire",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.ines-costa",
+      "name": "Inês Costa",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Portugal",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.james-macleod",
+      "name": "James MacLeod",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Canada",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.jean-pierre-ndlovu",
+      "name": "Jean-Pierre Ndlovu",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Zimbabwe",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.jose-ramirez",
+      "name": "José Ramírez",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Spain",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.kwame-asante",
+      "name": "Kwame Asante",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Ghana",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.lars-hansen",
+      "name": "Lars Hansen",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Denmark",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.layla-mansour",
+      "name": "Layla Mansour",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.lea-hadad",
+      "name": "Lea Hadad",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Lebanon",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.lucia-fernandez",
+      "name": "Lucía Fernández",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Argentina",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.luis-herrera",
+      "name": "Luis Herrera",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Guatemala",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.mei-ling-tan",
+      "name": "Mei-Ling Tan",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Taiwan",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.naledi-dube",
+      "name": "Naledi Dube",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Botswana",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.nikos-papadopoulos",
+      "name": "Nikos Papadopoulos",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Greece",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.nino-kapanadze",
+      "name": "Nino Kapanadze",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Georgia",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.nur-aisyah-rahman",
+      "name": "Nur Aisyah Rahman",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Malaysia",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.omar-nazari",
+      "name": "Omar Nazari",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Afghanistan",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.piotr-kowalski",
+      "name": "Piotr Kowalski",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Poland",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.priyan-perera",
+      "name": "Priyan Perera",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Sri Lanka",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.rachel-wong",
+      "name": "Rachel Wong",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Australia",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.rajesh-thapa",
+      "name": "Rajesh Thapa",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Nepal",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.rami-abbas",
+      "name": "Rami Abbas",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Iraq",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.sofia-berg",
+      "name": "Sofia Berg",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Sweden",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.sofia-vargas",
+      "name": "Sofía Vargas",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Peru",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.sopheak-lim",
+      "name": "Sopheak Lim",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Cambodia",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.sun-ho",
+      "name": "Sun Ho",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "North Korea",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.tendai-moyo",
+      "name": "Tendai Moyo",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Zambia",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.yara-benkirane",
+      "name": "Yara Benkirane",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Tunisia",
+      "primary_role": "living freelancer",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.youssef-benali",
+      "name": "Youssef Benali",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Algeria",
+      "primary_role": "legacy",
+      "roster_scope": "development_history",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.c9628ed7978f49",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.prim0",
+      "name": "PRIM0",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "Founding Mantle holder",
+      "roster_scope": "historical_succession",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.7c1af7c19c5a07",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "person.prim1",
+      "name": "PRIM1",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "character",
+      "nation": "Unknown",
+      "primary_role": "First successor / second holder",
+      "roster_scope": "historical_succession",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": null,
+      "source_ids": [
+        "src.7c1af7c19c5a07",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "runtime-role-e",
+      "name": "Entry",
+      "status": "runtime",
+      "implementation": "runtime",
+      "kind": "unit_role",
+      "nation": "Unknown",
+      "primary_role": "E",
+      "roster_scope": "Role template",
+      "health": 12,
+      "action_points": 2,
+      "identity_notes": "Custom-level template values. Default mission H3 and H6 override guard values. Weapon attributes are currently on the unit; there is no equipped weapon instance or ammunition record.",
+      "source_ids": [
+        "src.2f93245179f785",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": "Black Signal prototype runtime"
+    },
+    {
+      "entityId": "runtime-role-guard",
+      "name": "Guard",
+      "status": "runtime",
+      "implementation": "runtime",
+      "kind": "unit_role",
+      "nation": "Unknown",
+      "primary_role": "guard",
+      "roster_scope": "Role template",
+      "health": 7,
+      "action_points": 2,
+      "identity_notes": "Custom-level template values. Default mission H3 and H6 override guard values. Weapon attributes are currently on the unit; there is no equipped weapon instance or ammunition record.",
+      "source_ids": [
+        "src.2f93245179f785",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": "Black Signal prototype runtime"
+    },
+    {
+      "entityId": "runtime-role-r",
+      "name": "Recon",
+      "status": "runtime",
+      "implementation": "runtime",
+      "kind": "unit_role",
+      "nation": "Unknown",
+      "primary_role": "R",
+      "roster_scope": "Role template",
+      "health": 10,
+      "action_points": 2,
+      "identity_notes": "Custom-level template values. Default mission H3 and H6 override guard values. Weapon attributes are currently on the unit; there is no equipped weapon instance or ammunition record.",
+      "source_ids": [
+        "src.2f93245179f785",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": "Black Signal prototype runtime"
+    },
+    {
+      "entityId": "runtime-role-sentry",
+      "name": "Sentry",
+      "status": "runtime",
+      "implementation": "runtime",
+      "kind": "unit_role",
+      "nation": "Unknown",
+      "primary_role": "sentry",
+      "roster_scope": "Role template",
+      "health": 7,
+      "action_points": 2,
+      "identity_notes": "Custom-level template values. Default mission H3 and H6 override guard values. Weapon attributes are currently on the unit; there is no equipped weapon instance or ammunition record.",
+      "source_ids": [
+        "src.2f93245179f785",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": "Black Signal prototype runtime"
+    },
+    {
+      "entityId": "runtime-role-t",
+      "name": "Technical",
+      "status": "runtime",
+      "implementation": "runtime",
+      "kind": "unit_role",
+      "nation": "Unknown",
+      "primary_role": "T",
+      "roster_scope": "Role template",
+      "health": 10,
+      "action_points": 2,
+      "identity_notes": "Custom-level template values. Default mission H3 and H6 override guard values. Weapon attributes are currently on the unit; there is no equipped weapon instance or ammunition record.",
+      "source_ids": [
+        "src.2f93245179f785",
+        "src.2dafcebfcb927b"
+      ],
+      "provenance": "Black Signal prototype runtime"
+    },
+    {
+      "entityId": "design.kinetic-technical-coupling-authority.2-1-interdictor",
+      "name": "2.1 Interdictor",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "enemy_archetype",
+      "nation": "Unspecified",
+      "primary_role": "Unspecified",
+      "roster_scope": "Design archetype",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": "Source specification. Numeric balance and runtime support must be established separately.",
+      "source_ids": [
+        "src.513f55e5caacbe"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "design.kinetic-technical-coupling-authority.2-2-retriever",
+      "name": "2.2 Retriever",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "enemy_archetype",
+      "nation": "Unspecified",
+      "primary_role": "Unspecified",
+      "roster_scope": "Design archetype",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": "Source specification. Numeric balance and runtime support must be established separately.",
+      "source_ids": [
+        "src.513f55e5caacbe"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "design.kinetic-technical-coupling-authority.2-3-saboteur",
+      "name": "2.3 Saboteur",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "enemy_archetype",
+      "nation": "Unspecified",
+      "primary_role": "Unspecified",
+      "roster_scope": "Design archetype",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": "Source specification. Numeric balance and runtime support must be established separately.",
+      "source_ids": [
+        "src.513f55e5caacbe"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "design.kinetic-technical-coupling-authority.2-4-spotter",
+      "name": "2.4 Spotter",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "enemy_archetype",
+      "nation": "Unspecified",
+      "primary_role": "Unspecified",
+      "roster_scope": "Design archetype",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": "Source specification. Numeric balance and runtime support must be established separately.",
+      "source_ids": [
+        "src.513f55e5caacbe"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "design.kinetic-technical-coupling-authority.2-5-controller",
+      "name": "2.5 Controller",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "enemy_archetype",
+      "nation": "Unspecified",
+      "primary_role": "Unspecified",
+      "roster_scope": "Design archetype",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": "Source specification. Numeric balance and runtime support must be established separately.",
+      "source_ids": [
+        "src.513f55e5caacbe"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "design.kinetic-technical-coupling-authority.2-6-confused-responder",
+      "name": "2.6 Confused Responder",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "enemy_archetype",
+      "nation": "Unspecified",
+      "primary_role": "Unspecified",
+      "roster_scope": "Design archetype",
+      "health": "Unspecified",
+      "action_points": "Unspecified",
+      "identity_notes": "Source specification. Numeric balance and runtime support must be established separately.",
+      "source_ids": [
+        "src.513f55e5caacbe"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "instance.black-signal.unit-E",
+      "name": "Arjun",
+      "status": "runtime",
+      "implementation": "runtime",
+      "kind": "unit_instance",
+      "nation": "Unspecified",
+      "primary_role": "E",
+      "roster_scope": "Initial mission",
+      "health": 12,
+      "action_points": 2,
+      "identity_notes": "Initial mission state; dynamic changes belong in saved game state.",
+      "source_ids": [
+        "src.2f93245179f785"
+      ],
+      "provenance": "Black Signal prototype runtime"
+    },
+    {
+      "entityId": "instance.black-signal.unit-T",
+      "name": "Aya",
+      "status": "runtime",
+      "implementation": "runtime",
+      "kind": "unit_instance",
+      "nation": "Unspecified",
+      "primary_role": "T",
+      "roster_scope": "Initial mission",
+      "health": 10,
+      "action_points": 2,
+      "identity_notes": "Initial mission state; dynamic changes belong in saved game state.",
+      "source_ids": [
+        "src.2f93245179f785"
+      ],
+      "provenance": "Black Signal prototype runtime"
+    },
+    {
+      "entityId": "instance.black-signal.unit-H1",
+      "name": "Patrol 1",
+      "status": "runtime",
+      "implementation": "runtime",
+      "kind": "unit_instance",
+      "nation": "Unspecified",
+      "primary_role": "guard",
+      "roster_scope": "Initial mission",
+      "health": 7,
+      "action_points": 2,
+      "identity_notes": "Initial mission state; dynamic changes belong in saved game state.",
+      "source_ids": [
+        "src.2f93245179f785"
+      ],
+      "provenance": "Black Signal prototype runtime"
+    },
+    {
+      "entityId": "instance.black-signal.unit-H2",
+      "name": "Patrol 2",
+      "status": "runtime",
+      "implementation": "runtime",
+      "kind": "unit_instance",
+      "nation": "Unspecified",
+      "primary_role": "guard",
+      "roster_scope": "Initial mission",
+      "health": 7,
+      "action_points": 2,
+      "identity_notes": "Initial mission state; dynamic changes belong in saved game state.",
+      "source_ids": [
+        "src.2f93245179f785"
+      ],
+      "provenance": "Black Signal prototype runtime"
+    },
+    {
+      "entityId": "instance.black-signal.unit-H3",
+      "name": "Patrol 3",
+      "status": "runtime",
+      "implementation": "runtime",
+      "kind": "unit_instance",
+      "nation": "Unspecified",
+      "primary_role": "guard",
+      "roster_scope": "Initial mission",
+      "health": 8,
+      "action_points": 2,
+      "identity_notes": "Initial mission state; dynamic changes belong in saved game state.",
+      "source_ids": [
+        "src.2f93245179f785"
+      ],
+      "provenance": "Black Signal prototype runtime"
+    },
+    {
+      "entityId": "instance.black-signal.unit-R",
+      "name": "Rafael",
+      "status": "runtime",
+      "implementation": "runtime",
+      "kind": "unit_instance",
+      "nation": "Unspecified",
+      "primary_role": "R",
+      "roster_scope": "Initial mission",
+      "health": 10,
+      "action_points": 2,
+      "identity_notes": "Initial mission state; dynamic changes belong in saved game state.",
+      "source_ids": [
+        "src.2f93245179f785"
+      ],
+      "provenance": "Black Signal prototype runtime"
+    },
+    {
+      "entityId": "instance.black-signal.unit-H6",
+      "name": "Relay guard",
+      "status": "runtime",
+      "implementation": "runtime",
+      "kind": "unit_instance",
+      "nation": "Unspecified",
+      "primary_role": "guard",
+      "roster_scope": "Initial mission",
+      "health": 9,
+      "action_points": 2,
+      "identity_notes": "Initial mission state; dynamic changes belong in saved game state.",
+      "source_ids": [
+        "src.2f93245179f785"
+      ],
+      "provenance": "Black Signal prototype runtime"
+    },
+    {
+      "entityId": "instance.black-signal.unit-H4",
+      "name": "Roof sentry",
+      "status": "runtime",
+      "implementation": "runtime",
+      "kind": "unit_instance",
+      "nation": "Unspecified",
+      "primary_role": "sentry",
+      "roster_scope": "Initial mission",
+      "health": 7,
+      "action_points": 2,
+      "identity_notes": "Initial mission state; dynamic changes belong in saved game state.",
+      "source_ids": [
+        "src.2f93245179f785"
+      ],
+      "provenance": "Black Signal prototype runtime"
+    },
+    {
+      "entityId": "instance.black-signal.unit-H5",
+      "name": "Roof sentry",
+      "status": "runtime",
+      "implementation": "runtime",
+      "kind": "unit_instance",
+      "nation": "Unspecified",
+      "primary_role": "sentry",
+      "roster_scope": "Initial mission",
+      "health": 7,
+      "action_points": 2,
+      "identity_notes": "Initial mission state; dynamic changes belong in saved game state.",
+      "source_ids": [
+        "src.2f93245179f785"
+      ],
+      "provenance": "Black Signal prototype runtime"
+    },
+    {
+      "entityId": "country.afghanistan",
+      "name": "Afghanistan",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Afghanistan",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.algeria",
+      "name": "Algeria",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Algeria",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.argentina",
+      "name": "Argentina",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Argentina",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.armenia",
+      "name": "Armenia",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Armenia",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.australia",
+      "name": "Australia",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Australia",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.bangladesh",
+      "name": "Bangladesh",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Bangladesh",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.botswana",
+      "name": "Botswana",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Botswana",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.brazil",
+      "name": "Brazil",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Brazil",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.cambodia",
+      "name": "Cambodia",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Cambodia",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.canada",
+      "name": "Canada",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Canada",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.china",
+      "name": "China",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "China",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.colombia",
+      "name": "Colombia",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Colombia",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.c-te-d-ivoire",
+      "name": "Côte d’Ivoire",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Côte d’Ivoire",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.czechia",
+      "name": "Czechia",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Czechia",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.democratic-republic-of-the-congo",
+      "name": "Democratic Republic of the Congo",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Democratic Republic of the Congo",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.denmark",
+      "name": "Denmark",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Denmark",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.egypt",
+      "name": "Egypt",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Egypt",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.ethiopia",
+      "name": "Ethiopia",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Ethiopia",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.france",
+      "name": "France",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "France",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.georgia",
+      "name": "Georgia",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Georgia",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.germany",
+      "name": "Germany",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Germany",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.ghana",
+      "name": "Ghana",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Ghana",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.greece",
+      "name": "Greece",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Greece",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.guatemala",
+      "name": "Guatemala",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Guatemala",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.india",
+      "name": "India",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "India",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.indonesia",
+      "name": "Indonesia",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Indonesia",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.iran",
+      "name": "Iran",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Iran",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.iraq",
+      "name": "Iraq",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Iraq",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.ireland",
+      "name": "Ireland",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Ireland",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.italy",
+      "name": "Italy",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Italy",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.japan",
+      "name": "Japan",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Japan",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.kazakhstan",
+      "name": "Kazakhstan",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Kazakhstan",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.kenya",
+      "name": "Kenya",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Kenya",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.laos",
+      "name": "Laos",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Laos",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.lebanon",
+      "name": "Lebanon",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Lebanon",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.malaysia",
+      "name": "Malaysia",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Malaysia",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.mali",
+      "name": "Mali",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Mali",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.mexico",
+      "name": "Mexico",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Mexico",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.mongolia",
+      "name": "Mongolia",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Mongolia",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.morocco",
+      "name": "Morocco",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Morocco",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.myanmar",
+      "name": "Myanmar",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Myanmar",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.nepal",
+      "name": "Nepal",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Nepal",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.nigeria",
+      "name": "Nigeria",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Nigeria",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.north-korea",
+      "name": "North Korea",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "North Korea",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.oman",
+      "name": "Oman",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Oman",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d7ff65c8186213",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.pakistan",
+      "name": "Pakistan",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Pakistan",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.peru",
+      "name": "Peru",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Peru",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.philippines",
+      "name": "Philippines",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Philippines",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.poland",
+      "name": "Poland",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Poland",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.portugal",
+      "name": "Portugal",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Portugal",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.romania",
+      "name": "Romania",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Romania",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.russia",
+      "name": "Russia",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Russia",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.saudi-arabia",
+      "name": "Saudi Arabia",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Saudi Arabia",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.fb84ca9f47470c",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.senegal",
+      "name": "Senegal",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Senegal",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.singapore",
+      "name": "Singapore",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Singapore",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.south-africa",
+      "name": "South Africa",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "South Africa",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.south-korea",
+      "name": "South Korea",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "South Korea",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.fb84ca9f47470c",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.spain",
+      "name": "Spain",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Spain",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.sri-lanka",
+      "name": "Sri Lanka",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Sri Lanka",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.sweden",
+      "name": "Sweden",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Sweden",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.taiwan",
+      "name": "Taiwan",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Taiwan",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.tanzania",
+      "name": "Tanzania",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Tanzania",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.thailand",
+      "name": "Thailand",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Thailand",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.tunisia",
+      "name": "Tunisia",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Tunisia",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.turkey",
+      "name": "Turkey",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Turkey",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.ukraine",
+      "name": "Ukraine",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Ukraine",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.united-kingdom",
+      "name": "United Kingdom",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "United Kingdom",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.united-states",
+      "name": "United States",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "United States",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.uzbekistan",
+      "name": "Uzbekistan",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Uzbekistan",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.vietnam",
+      "name": "Vietnam",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Vietnam",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.2d99d24244c11e",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.zambia",
+      "name": "Zambia",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Zambia",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "country.zimbabwe",
+      "name": "Zimbabwe",
+      "status": "proposed",
+      "implementation": "design_only",
+      "kind": "country",
+      "nation": "Zimbabwe",
+      "primary_role": "n.a.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "Nationality label used in the source roster. No badge asset or gameplay bonus is implied.",
+      "source_ids": [
+        "src.d97b916f70364d",
+        "src.7f23e715da05d1"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "faction.org-apex",
+      "name": "Apex Tactical Corp",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "faction",
+      "nation": "n.a.",
+      "primary_role": "Unspecified",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": null,
+      "source_ids": [
+        "src.c04fc98a3462be"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "runtime-team-enemy",
+      "name": "Defenders",
+      "status": "runtime",
+      "implementation": "runtime",
+      "kind": "team",
+      "nation": "n.a.",
+      "primary_role": "Unspecified",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "THREAT is a runtime team label, not an approved fictional organization.",
+      "source_ids": [
+        "src.2f93245179f785"
+      ],
+      "provenance": "Black Signal prototype runtime"
+    },
+    {
+      "entityId": "faction.equity-uprise",
+      "name": "Equity Uprise",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "faction",
+      "nation": "n.a.",
+      "primary_role": "Day-to-day workplace, training campus and recurring ensemble home.",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": null,
+      "source_ids": [
+        "src.6df2f8040a99a5"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "faction.hitman",
+      "name": "Hitman",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "faction",
+      "nation": "n.a.",
+      "primary_role": "Unspecified",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": null,
+      "source_ids": [
+        "src.9b07040cf7b004"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "faction.org-mcc",
+      "name": "McCluster Corp",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "faction",
+      "nation": "n.a.",
+      "primary_role": "Unspecified",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": null,
+      "source_ids": [
+        "src.63aa00c89861f8"
+      ],
+      "provenance": null
+    },
+    {
+      "entityId": "runtime-team-player",
+      "name": "Player squad",
+      "status": "runtime",
+      "implementation": "runtime",
+      "kind": "team",
+      "nation": "n.a.",
+      "primary_role": "Unspecified",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": "PLAYER is a runtime team label, not an approved fictional organization.",
+      "source_ids": [
+        "src.2f93245179f785"
+      ],
+      "provenance": "Black Signal prototype runtime"
+    },
+    {
+      "entityId": "faction.prim",
+      "name": "PRIM",
+      "status": "canon",
+      "implementation": "design_only",
+      "kind": "faction",
+      "nation": "n.a.",
+      "primary_role": "Unspecified",
+      "roster_scope": "n.a.",
+      "health": "n.a.",
+      "action_points": "n.a.",
+      "identity_notes": null,
+      "source_ids": [
+        "src.7c1af7c19c5a07"
+      ],
+      "provenance": null
+    }
+  ]
+}
