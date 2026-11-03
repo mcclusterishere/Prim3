@@ -1,0 +1,2641 @@
+{
+  "schemaVersion": "prim3.episode-decisions.draft.v1",
+  "status": "DRAFT",
+  "notCanon": "AI-generated DRAFT under AGENTS.md. Nothing here is canon until the owner approves it through change control.",
+  "fiction": "PRIM3 is fiction. Harborline Edge Exchange, the task force, the tenant and every unnamed person are fictional.",
+  "id": "S01E02",
+  "song": "White Grey Black Hat",
+  "mission": "Permission Slip",
+  "level": "LVL-02",
+  "authority": {
+    "parent": "CANON.md",
+    "consolidation": "story/STORY-CONSOLIDATION-PROPOSAL.md v1.1.0 §2 (owner-approved), §3 (cover rule; owner direction)",
+    "episode": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+    "treatment": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+    "level": "game/LVL-02-PERMISSION-SLIP.md (needs its solo revision; O1-O7 kept)",
+    "adaptedFrom": "owner handoff kit 2026-11-03, story/episode-02.json (audited Prim3 160020b)",
+    "prose": "story/episodes/S1E2-PERMISSION-SLIP-SOLO-PLAY-DRAFT.md"
+  },
+  "watchOwners": [
+    "person.nusrat-rahman",
+    "person.miguel-santos"
+  ],
+  "playable": [
+    "person.aya-shinoda"
+  ],
+  "solo": true,
+  "offBoard": [
+    {
+      "id": "person.nusrat-rahman",
+      "role": "scope authority on comms (BOUNDED REQUEST, HOLD THE LINE move off-board)"
+    },
+    {
+      "id": "person.miguel-santos",
+      "role": "holds the exterior and the staff route; reports on comms; never on the PLAY board"
+    }
+  ],
+  "unavailable": [
+    "person.mccluster",
+    "person.prim2",
+    "person.royce"
+  ],
+  "unavailableNote": "person.royce is Benjamin \"Benji\" Chase (renamed 2026-11-03; ID kept, CANON.md §9 alias). McCluster is WATCH only (F1 lobby, the livestream).",
+  "interventions": {
+    "wildcard": false,
+    "apex": false,
+    "benjiIncursion": false
+  },
+  "operationLocation": {
+    "name": "Harborline Edge Exchange",
+    "fictional": true,
+    "countryISO2": null,
+    "coordinates": null,
+    "mustNotInferFromOrigin": true,
+    "openQuestion": "Proposal §6.4 says the three solo sites are in the US; no canon file states Harborline's country. Kept null until the owner decides."
+  },
+  "runtime": {
+    "watchBandMinutes": [
+      20,
+      35
+    ],
+    "treatmentBandMinutes": [
+      28,
+      35
+    ],
+    "note": "CANON.md §1 band 20-35; the treatment's 28-35 sits inside it. Exact timing waits for the song audio."
+  },
+  "cover": {
+    "rule": "Planned mission: opens mid professional shoot under concealment (proposal §3.1).",
+    "shoot": "F4 onboarding and partner-showcase film at Harborline, produced by Maren Quill with Priya's brand direction; Aya is the featured engineer.",
+    "phases": [
+      "COVER",
+      "TELLS",
+      "BREAK",
+      "MISSION",
+      "RE-COVER",
+      "AFTERMATH"
+    ],
+    "phaseMapping": {
+      "COVER": "BRIEF/APPROACH",
+      "TELLS": "BRIEF/APPROACH",
+      "BREAK": "opens ON_OBJECTIVE",
+      "MISSION": "ON_OBJECTIVE",
+      "RE-COVER": "EXTRACT",
+      "AFTERMATH": "AFTERMATH"
+    },
+    "meter": "Cover meter as proposed in proposal §3.4; its numbers are proposal values and are not restated here.",
+    "tells": [
+      {
+        "id": "E02-T1",
+        "sense": "seen",
+        "text": "A rack's power draw on the facility display does not match the manifest."
+      },
+      {
+        "id": "E02-T2",
+        "sense": "heard",
+        "text": "Nusrat on comms: \"Scope is Zone C. Only C.\""
+      },
+      {
+        "id": "E02-T3",
+        "sense": "logged",
+        "text": "An unmanifested device on Harborline's network shares a device class with the appliance in a new recruit's onboarding kit.",
+        "openQuestion": "Proposal §3.5 says 'the same identifier'; the treatment (Scene 15) resolves the recruit's device as an ordinary internal issuance error. Same identifier and ordinary error cannot both stand. This draft uses 'same device class' (an echo, not identity) until the owner decides."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "E02-S01",
+      "title": "Not Your Floor",
+      "watchStartSeconds": 0,
+      "watchEndSeconds": 150,
+      "location": "Equity Uprise F1 (call time, before the crew leaves)",
+      "castDisplayNames": [
+        "Nusrat",
+        "Miguel",
+        "Priya",
+        "Pylon"
+      ],
+      "canonicalFunction": "A familiar colleague receives a respectful refusal; access standard remains equal.",
+      "choiceIds": [
+        "E02-D01"
+      ],
+      "disclosureLocks": [
+        "E02-K-ROOT",
+        "E02-K-DEVICE"
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+          "heading": "Scene 1 — “NOT YOUR FLOOR”"
+        }
+      ],
+      "expansionStatus": "DRAFT staging adapted to the solo cover; inherited scene function preserved"
+    },
+    {
+      "id": "E02-S02",
+      "title": "The New Guy",
+      "watchStartSeconds": 150,
+      "watchEndSeconds": 330,
+      "location": "Equity Uprise intake / equipment checkpoint (Aya passes through on her way to the shoot vans)",
+      "castDisplayNames": [
+        "Nusrat",
+        "Miguel",
+        "Aya",
+        "McCluster",
+        "Chioma"
+      ],
+      "canonicalFunction": "McCluster discloses an unrecorded issued device; Aya distinguishes device class from provenance.",
+      "choiceIds": [
+        "E02-D02"
+      ],
+      "disclosureLocks": [
+        "E02-K-ROOT",
+        "E02-K-DEVICE"
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+          "heading": "Scene 2 — “THE NEW GUY”"
+        }
+      ],
+      "expansionStatus": "DRAFT staging adapted to the solo cover; inherited scene function preserved",
+      "openQuestion": "Aya must be at F1 for Scene 2 and on location for the shoot; this draft puts Scenes 1-3 at call time."
+    },
+    {
+      "id": "E02-S03",
+      "title": "Can’t You Just",
+      "watchStartSeconds": 330,
+      "watchEndSeconds": 480,
+      "location": "Equity Uprise access desk (call time)",
+      "castDisplayNames": [
+        "Nusrat",
+        "Helen",
+        "Aya",
+        "McCluster",
+        "Maren"
+      ],
+      "canonicalFunction": "Helen backs the access officer; competence does not grant clearance.",
+      "choiceIds": [
+        "E02-D03"
+      ],
+      "disclosureLocks": [
+        "E02-K-ROOT",
+        "E02-K-DEVICE"
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+          "heading": "Scene 3 — “CAN'T YOU JUST…”"
+        }
+      ],
+      "expansionStatus": "DRAFT staging adapted to the solo cover; inherited scene function preserved"
+    },
+    {
+      "id": "E02-S04",
+      "title": "The Call",
+      "watchStartSeconds": 480,
+      "watchEndSeconds": 630,
+      "location": "Equity Uprise F3 / Harborline set",
+      "castDisplayNames": [
+        "Chioma",
+        "Nusrat",
+        "Miguel",
+        "Aya (on set, comms)",
+        "McCluster (F1)"
+      ],
+      "canonicalFunction": "Nusrat receives first field leadership; McCluster remains at HQ.",
+      "choiceIds": [],
+      "disclosureLocks": [
+        "E02-K-ROOT",
+        "E02-K-DEVICE"
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+          "heading": "Scene 4 — THE CALL"
+        }
+      ],
+      "expansionStatus": "DRAFT staging adapted to the solo cover; inherited scene function preserved",
+      "solo": "For McCluster the call looks like an emergency; it is the go signal of a planned operation."
+    },
+    {
+      "id": "E02-S05",
+      "title": "White Grey Black",
+      "watchStartSeconds": 630,
+      "watchEndSeconds": 840,
+      "location": "Music film / brief, intercut with the Harborline shoot",
+      "castDisplayNames": [
+        "Aya",
+        "Nusrat (comms)",
+        "Miguel (comms)"
+      ],
+      "canonicalFunction": "Hat denotes authorization/intent; box denotes prior knowledge; mission begins white-hat/black-box.",
+      "choiceIds": [],
+      "disclosureLocks": [
+        "E02-K-ROOT",
+        "E02-K-DEVICE"
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+          "heading": "Scene 5 — WHITE / GREY / BLACK"
+        }
+      ],
+      "expansionStatus": "DRAFT staging adapted to the solo cover; inherited scene function preserved"
+    },
+    {
+      "id": "E02-S06",
+      "title": "Harborline",
+      "watchStartSeconds": 840,
+      "watchEndSeconds": 960,
+      "location": "Harborline zone A (Aya solo; the shoot continues around the mission)",
+      "castDisplayNames": [
+        "Aya (PLAY)",
+        "Nusrat (comms)",
+        "Miguel (exterior, comms)",
+        "F4 crew"
+      ],
+      "canonicalFunction": "Written mandate is narrowed to actual rooms and assets; urgency does not expand it.",
+      "choiceIds": [
+        "E02-D04"
+      ],
+      "disclosureLocks": [
+        "E02-K-ROOT",
+        "E02-K-DEVICE"
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+          "heading": "Scene 6 — HARBORLINE"
+        }
+      ],
+      "expansionStatus": "DRAFT staging adapted to the solo cover; inherited scene function preserved",
+      "coverPhase": "COVER/TELLS"
+    },
+    {
+      "id": "E02-S07",
+      "title": "First Entry",
+      "watchStartSeconds": 960,
+      "watchEndSeconds": 1110,
+      "location": "Harborline A / B (Aya solo; the shoot continues around the mission)",
+      "castDisplayNames": [
+        "Aya (PLAY)",
+        "Nusrat (comms)",
+        "Miguel (exterior, comms)",
+        "F4 crew"
+      ],
+      "canonicalFunction": "Miguel makes the lawful civilian route understandable without promising unearned access.",
+      "choiceIds": [
+        "E02-D05"
+      ],
+      "disclosureLocks": [
+        "E02-K-ROOT",
+        "E02-K-DEVICE"
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+          "heading": "Scene 7 — FIRST ENTRY"
+        }
+      ],
+      "expansionStatus": "DRAFT staging adapted to the solo cover; inherited scene function preserved",
+      "coverPhase": "BREAK"
+    },
+    {
+      "id": "E02-S08",
+      "title": "Target Cage",
+      "watchStartSeconds": 1110,
+      "watchEndSeconds": 1230,
+      "location": "Harborline C (Aya solo; the shoot continues around the mission)",
+      "castDisplayNames": [
+        "Aya (PLAY)",
+        "Nusrat (comms)",
+        "Miguel (exterior, comms)"
+      ],
+      "canonicalFunction": "Changed rack layout requires identity verification before custody.",
+      "choiceIds": [
+        "E02-D06"
+      ],
+      "disclosureLocks": [
+        "E02-K-ROOT",
+        "E02-K-DEVICE"
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+          "heading": "Scene 8 — THE TARGET CAGE"
+        }
+      ],
+      "expansionStatus": "DRAFT staging adapted to the solo cover; inherited scene function preserved",
+      "coverPhase": "MISSION"
+    },
+    {
+      "id": "E02-S09",
+      "title": "Hostile Recovery",
+      "watchStartSeconds": 1230,
+      "watchEndSeconds": 1380,
+      "location": "Harborline B / C / G (Aya solo; the shoot continues around the mission)",
+      "castDisplayNames": [
+        "Aya (PLAY)",
+        "Nusrat (comms)",
+        "Miguel (exterior, comms)"
+      ],
+      "canonicalFunction": "Objective pressure competes with protection of civilians and technical work.",
+      "choiceIds": [
+        "E02-D07"
+      ],
+      "disclosureLocks": [
+        "E02-K-ROOT",
+        "E02-K-DEVICE"
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+          "heading": "Scene 9 — HOSTILE RECOVERY"
+        }
+      ],
+      "expansionStatus": "DRAFT staging adapted to the solo cover; inherited scene function preserved",
+      "coverPhase": "MISSION"
+    },
+    {
+      "id": "E02-S10",
+      "title": "Don’t Pull It",
+      "watchStartSeconds": 1380,
+      "watchEndSeconds": 1500,
+      "location": "Harborline C (Aya solo; the shoot continues around the mission)",
+      "castDisplayNames": [
+        "Aya (PLAY)",
+        "Nusrat (comms)",
+        "Miguel (exterior, comms)"
+      ],
+      "canonicalFunction": "Authorized target may carry an unknown shared dependency; uncertainty is spoken aloud.",
+      "choiceIds": [
+        "E02-D08"
+      ],
+      "disclosureLocks": [
+        "E02-K-ROOT",
+        "E02-K-DEVICE"
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+          "heading": "Scene 10 — “DON'T PULL IT”"
+        }
+      ],
+      "expansionStatus": "DRAFT staging adapted to the solo cover; inherited scene function preserved",
+      "coverPhase": "MISSION"
+    },
+    {
+      "id": "E02-S11",
+      "title": "Permission Slip",
+      "watchStartSeconds": 1500,
+      "watchEndSeconds": 1650,
+      "location": "Harborline C / D boundary (Aya solo; the shoot continues around the mission)",
+      "castDisplayNames": [
+        "Aya (PLAY)",
+        "Nusrat (comms)",
+        "Miguel (exterior, comms)"
+      ],
+      "canonicalFunction": "Player chooses bounded extension, lawful inference, genuinely necessary emergency or explicit violation.",
+      "choiceIds": [
+        "E02-D09",
+        "E02-D10",
+        "E02-D11",
+        "E02-D12"
+      ],
+      "disclosureLocks": [
+        "E02-K-ROOT",
+        "E02-K-DEVICE"
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+          "heading": "Scene 11 — THE PERMISSION SLIP"
+        }
+      ],
+      "expansionStatus": "DRAFT staging adapted to the solo cover; inherited scene function preserved",
+      "coverPhase": "MISSION"
+    },
+    {
+      "id": "E02-S12",
+      "title": "Prove Then Move",
+      "watchStartSeconds": 1650,
+      "watchEndSeconds": 1770,
+      "location": "Harborline C / G (Aya solo; the shoot continues around the mission)",
+      "castDisplayNames": [
+        "Aya (PLAY)",
+        "Nusrat (comms)",
+        "Miguel (exterior, comms)",
+        "F4 crew"
+      ],
+      "canonicalFunction": "Earned evidence permits bounded intervention; separate VERIFY precedes successful extraction.",
+      "choiceIds": [
+        "E02-D13",
+        "E02-D14",
+        "E02-D15",
+        "E02-D16"
+      ],
+      "disclosureLocks": [
+        "E02-K-ROOT",
+        "E02-K-DEVICE"
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+          "heading": "Scene 12 — PROVE, THEN MOVE"
+        }
+      ],
+      "expansionStatus": "DRAFT staging adapted to the solo cover; inherited scene function preserved",
+      "coverPhase": "MISSION/RE-COVER"
+    },
+    {
+      "id": "E02-S13",
+      "title": "Parking Lot Debrief",
+      "watchStartSeconds": 1770,
+      "watchEndSeconds": 1890,
+      "location": "Harborline exterior",
+      "castDisplayNames": [
+        "Nusrat",
+        "Miguel",
+        "Aya",
+        "Helen",
+        "Maren (camera down)"
+      ],
+      "canonicalFunction": "Costs and uncertainty remain visible; technical success does not erase human or process harm.",
+      "choiceIds": [
+        "E02-D17"
+      ],
+      "disclosureLocks": [
+        "E02-K-ROOT",
+        "E02-K-DEVICE"
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+          "heading": "Scene 13 — PARKING-LOT DEBRIEF"
+        }
+      ],
+      "expansionStatus": "DRAFT staging adapted to the solo cover; inherited scene function preserved",
+      "coverPhase": "AFTERMATH"
+    },
+    {
+      "id": "E02-S14",
+      "title": "Onboarding That Wasn’t",
+      "watchStartSeconds": 1890,
+      "watchEndSeconds": 1980,
+      "location": "Equity Uprise F1 / communications",
+      "castDisplayNames": [
+        "Priya",
+        "Maren",
+        "McCluster",
+        "Chioma"
+      ],
+      "canonicalFunction": "A ruined onboarding day reveals the existing workplace rather than making McCluster its center.",
+      "choiceIds": [],
+      "disclosureLocks": [
+        "E02-K-ROOT",
+        "E02-K-DEVICE"
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+          "heading": "Scene 14 — THE ONBOARDING THAT WASN'T"
+        }
+      ],
+      "expansionStatus": "DRAFT staging adapted to the solo cover; inherited scene function preserved",
+      "coverPhase": "AFTERMATH"
+    },
+    {
+      "id": "E02-S15",
+      "title": "Now You’re Authorized",
+      "watchStartSeconds": 1980,
+      "watchEndSeconds": 2070,
+      "location": "Equity Uprise access desk",
+      "castDisplayNames": [
+        "Nusrat",
+        "Miguel",
+        "Aya",
+        "McCluster",
+        "Pylon"
+      ],
+      "canonicalFunction": "Ordinary issuance error is corrected with bounded access, not retrospective blanket trust.",
+      "choiceIds": [
+        "E02-D18"
+      ],
+      "disclosureLocks": [
+        "E02-K-ROOT",
+        "E02-K-DEVICE"
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+          "heading": "Scene 15 — “NOW YOU'RE AUTHORIZED”"
+        }
+      ],
+      "expansionStatus": "DRAFT staging adapted to the solo cover; inherited scene function preserved"
+    },
+    {
+      "id": "E02-S16",
+      "title": "Root View",
+      "watchStartSeconds": 2070,
+      "watchEndSeconds": 2100,
+      "location": "Restricted writer-only observer frame",
+      "castDisplayNames": [
+        "PRIM2"
+      ],
+      "canonicalFunction": "Observer evaluates restraint; no root/Benji/Hana revelation and no intervention.",
+      "choiceIds": [],
+      "disclosureLocks": [
+        "E02-K-ROOT",
+        "E02-K-DEVICE"
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md",
+          "heading": "Scene 16 — ROOT VIEW"
+        }
+      ],
+      "expansionStatus": "DRAFT staging adapted to the solo cover; inherited scene function preserved"
+    }
+  ],
+  "scopeZones": [
+    {
+      "id": "E02-ZA",
+      "name": "Public/service lobby",
+      "scope": "AUTHORIZED"
+    },
+    {
+      "id": "E02-ZB",
+      "name": "Loading/service corridor",
+      "scope": "AUTHORIZED"
+    },
+    {
+      "id": "E02-ZC",
+      "name": "Target tenant cage",
+      "scope": "AUTHORIZED"
+    },
+    {
+      "id": "E02-ZD",
+      "name": "Shared cross-connect/service room",
+      "scope": "OBSERVE_ONLY"
+    },
+    {
+      "id": "E02-ZE",
+      "name": "Adjacent tenant cages",
+      "scope": "OUT_OF_SCOPE"
+    },
+    {
+      "id": "E02-ZF",
+      "name": "Power/environmental support corridor",
+      "scope": "EMERGENCY_ELIGIBLE_LIFE_SAFETY_ONLY"
+    },
+    {
+      "id": "E02-ZG",
+      "name": "Evidence/extraction lane",
+      "scope": "AUTHORIZED"
+    }
+  ],
+  "initialState": {
+    "phase": "cover",
+    "scopeRoute": null,
+    "facts": [],
+    "evidenceState": "intact",
+    "serviceState": "stable",
+    "civilianState": "stable",
+    "authorization": {
+      "extensionApproved": false,
+      "emergencyObserved": false,
+      "emergencyNecessary": false,
+      "emergencyProportional": false,
+      "exceptionLogged": false,
+      "violationAcknowledged": false
+    },
+    "interventionApplied": false,
+    "verifyAttempted": false,
+    "verifyPassed": false,
+    "targetCustody": false,
+    "teamExtracted": false,
+    "costFlags": [],
+    "reviewRequired": false,
+    "cover": "intact",
+    "onSet": true,
+    "concealed": true,
+    "breakTaken": false
+  },
+  "routes": [
+    {
+      "id": "E02-R-EXTENSION",
+      "key": "bounded_extension",
+      "label": "Request bounded extension",
+      "requires": [
+        "target_identity_verified",
+        "dependency_warning_observed",
+        "specific_question_formulated",
+        "extension_approved"
+      ],
+      "cost": "Time and mission pressure; no guaranteed approval.",
+      "grants": "One named D observation, not all D operations or E access.",
+      "solo": "Aya drafts the request; Nusrat (off-board) carries it to the task-force lead and owns it."
+    },
+    {
+      "id": "E02-R-INFERENCE",
+      "key": "authorized_inference",
+      "label": "Use authorized observations",
+      "requires": [
+        "target_identity_verified",
+        "two_discriminating_authorized_observations"
+      ],
+      "cost": "Longer exposure and protection of work; less direct visibility.",
+      "grants": "Sufficient verified dependency knowledge without crossing scope."
+    },
+    {
+      "id": "E02-R-EMERGENCY",
+      "key": "emergency",
+      "label": "Protect immediate life safety",
+      "requires": [
+        "authored_imminent_life_safety_event",
+        "independent_observation",
+        "necessity",
+        "proportionality",
+        "narrow_exception_recorded"
+      ],
+      "cost": "Mandatory review and possibly service/evidence losses.",
+      "grants": "Only minimum necessary F safety intervention; not a shortcut to investigate D/E.",
+      "solo": "Miguel's report on comms plus Aya's own second observation establish the danger; Nusrat logs the exception."
+    },
+    {
+      "id": "E02-R-VIOLATION",
+      "key": "violation",
+      "label": "Cross the stated boundary",
+      "requires": [
+        "explicit_scope_warning",
+        "deliberate_acknowledgement"
+      ],
+      "cost": "Compliance debt and mandatory Helen review, irrespective of tactical success. Nusrat carries the review because the scope was hers to hold.",
+      "grants": "Knowledge may be obtained physically; no new lawful authority."
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "E02-O-CLEAN",
+      "key": "clean",
+      "requires": [
+        "targetCustody",
+        "ayaExtracted",
+        "verifyPassed",
+        "lawful_scope",
+        "no_material_costs"
+      ],
+      "meaning": "Objective, people, evidence, service and integrity preserved."
+    },
+    {
+      "id": "E02-O-COSTLY",
+      "key": "lawful_costly",
+      "requires": [
+        "targetCustody",
+        "ayaExtracted",
+        "verifyPassed",
+        "lawful_scope",
+        "material_costs"
+      ],
+      "meaning": "Defensible success with time/service/evidence/team cost."
+    },
+    {
+      "id": "E02-O-EMERGENCY",
+      "key": "emergency_save",
+      "requires": [
+        "targetCustody",
+        "ayaExtracted",
+        "verifyPassed",
+        "justified_recorded_emergency"
+      ],
+      "meaning": "Necessary life-safety exception; mandatory review remains."
+    },
+    {
+      "id": "E02-O-COWBOY",
+      "key": "cowboy_win",
+      "requires": [
+        "targetCustody",
+        "ayaExtracted",
+        "verifyPassed",
+        "deliberate_unauthorized_scope"
+      ],
+      "meaning": "Tactical success, compliance failure; consequences persist."
+    },
+    {
+      "id": "E02-O-PARTIAL",
+      "key": "partial",
+      "requires": [
+        "recoverable_continuation",
+        "objective_or_validation_incomplete"
+      ],
+      "meaning": "People/service/partial evidence preserved; no false mission or mastery pass."
+    },
+    {
+      "id": "E02-O-COLLAPSE",
+      "key": "collapse",
+      "requires": [
+        "authored_irrecoverable_mission_failure"
+      ],
+      "meaning": "Operation ends. No failure route rolls a death. Season 1 deaths are allowed (owner 2026-11-03) and Miguel and Nusrat are listed candidates at E02 (proposal §3.7), but any death is an authored owner choice, never a collapse result. Aya is not a candidate."
+    }
+  ],
+  "outcomePriority": [
+    "collapse",
+    "partial",
+    "cowboy_win",
+    "emergency_save",
+    "lawful_costly",
+    "clean"
+  ],
+  "coverAftermath": {
+    "axis": "Separate from the six outcomes and from the five grades (proposal §3.4 'Grading').",
+    "variants": [
+      {
+        "key": "clean",
+        "meaning": "Back on her mark; the cooling-plant B-roll is real and goes in the film."
+      },
+      {
+        "key": "noticed",
+        "meaning": "One named F4 crew member saw her leave the take and will remember it (an expanded-ensemble slot, proposal §9; unnamed until the creation gate)."
+      },
+      {
+        "key": "burned",
+        "meaning": "The footage must be explained; Maren holds a room the film never needed. A relationship write, not a fail state."
+      }
+    ]
+  },
+  "knowledgeLocks": [
+    {
+      "id": "E02-K-HATBOX",
+      "rule": "Authorization and prior knowledge are independent axes."
+    },
+    {
+      "id": "E02-K-ROOT",
+      "rule": "PRIM2 identity/architecture, Hana's truth (NIS, GLASSHOUSE causality), Benji's history and JANUS origin, and the final succession stay unrevealed (proposal §2.6)."
+    },
+    {
+      "id": "E02-K-DEVICE",
+      "rule": "The recruit's device mismatch resolves as an ordinary internal issuance error (treatment Scene 15). OPEN: proposal §3.5 TELL 3 links it to Harborline by identifier; owner to reconcile.",
+      "status": "OPEN CONFLICT"
+    },
+    {
+      "id": "E02-K-VERIFY",
+      "rule": "Successful intervention is not proof; separate post-change VERIFY must pass before validated objective success."
+    },
+    {
+      "id": "E02-K-NEWS",
+      "rule": "Real news may create supplementary fictional dispatches, never rewrite this fixed mission or attach allegations to a country/agent."
+    },
+    {
+      "id": "E02-K-COUNTRY",
+      "rule": "Country of origin does not establish operation location, current location, political allegiance or mission eligibility."
+    },
+    {
+      "id": "E02-K-CASUALTY",
+      "rule": "No death from a failure route or roll. Season 1 deaths are allowed and the owner picks (proposal §3.7); Aya is protected by her later ownership."
+    },
+    {
+      "id": "E02-K-RELATIONSHIP",
+      "rule": "McCluster arrives at 33 as a newcomer (RELATIONSHIP-ECOSYSTEM, 2026-11-03); series-level Aya/McCluster trust cannot initialise E02."
+    },
+    {
+      "id": "E02-K-SOLO",
+      "rule": "One operator on the PLAY board: Aya. Nusrat and Miguel act only through comms and WATCH; no second operator is ever spawned to rescue the board."
+    },
+    {
+      "id": "E02-K-COVER",
+      "rule": "Concealment and cover are abstract game states. No real evasion, pretexting procedure or intrusion is taught (proposal §3.3 rule 6)."
+    }
+  ],
+  "learning": [
+    {
+      "id": "E02-L-GRID",
+      "optional": true,
+      "prompt": "From (2, 2) to (5, 4), what is the fewest number of row/column steps on an unobstructed grid?",
+      "answer": 5,
+      "model": "abs(5-2)+abs(4-2)",
+      "visibleRouteExample": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "blockedRouteExample": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "blockedRouteLength": 7,
+      "rule": "Grid axes/route markers must match. Obstacles change route length, not coordinate difference. Practice errors never block normal actions.",
+      "slopeExtension": {
+        "rise": 2,
+        "run": 3,
+        "slopeNumerator": 2,
+        "slopeDenominator": 3,
+        "optional": true,
+        "doesNotAuthorizeDiagonalGridMovement": true
+      }
+    }
+  ],
+  "evidenceFixtures": [
+    {
+      "id": "E02-F01",
+      "label": "Specified target mandate",
+      "proves": "Scope for identified target actions",
+      "doesNotProve": "Position or service independence"
+    },
+    {
+      "id": "E02-F02",
+      "label": "Identifier plus approved relocation evidence",
+      "proves": "Correct physical target",
+      "doesNotProve": "Safe removal"
+    },
+    {
+      "id": "E02-F03",
+      "label": "Shared dependency warning observed",
+      "proves": "A dependency risk requiring investigation",
+      "doesNotProve": "Complete topology or expanded access"
+    },
+    {
+      "id": "E02-F04",
+      "label": "Discriminating dependency evidence",
+      "proves": "Sufficient picture for a bounded action",
+      "doesNotProve": "Unrestricted D/E authority"
+    },
+    {
+      "id": "E02-F05",
+      "label": "Independent post-change checks",
+      "proves": "Expected result of the bounded action",
+      "doesNotProve": "Entire facility is healthy"
+    },
+    {
+      "id": "E02-F06",
+      "label": "Completed custody transfer",
+      "proves": "This target’s defensible handoff",
+      "doesNotProve": "Guilt or political sponsorship"
+    }
+  ],
+  "factCatalog": [
+    {
+      "id": "E02-F-CHANGE-APPLIED",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    },
+    {
+      "id": "E02-F-CUSTODY-READY",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    },
+    {
+      "id": "E02-F-DEVICE-RESOLVED",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    },
+    {
+      "id": "E02-F-DEVICE-UNCERTAIN",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    },
+    {
+      "id": "E02-F-EXTENSION",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    },
+    {
+      "id": "E02-F-HUMANE-BOUNDARY",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    },
+    {
+      "id": "E02-F-IMMINENT-SAFETY",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "World event must be independently observed; not generated by low time alone."
+    },
+    {
+      "id": "E02-F-INDEPENDENT-SAFETY-OBSERVATION",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "World event must be independently observed; not generated by low time alone."
+    },
+    {
+      "id": "E02-F-IRRECOVERABLE",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    },
+    {
+      "id": "E02-F-NECESSITY",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "World event must be independently observed; not generated by low time alone."
+    },
+    {
+      "id": "E02-F-PROPORTIONALITY",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "World event must be independently observed; not generated by low time alone."
+    },
+    {
+      "id": "E02-F-SAFETY-ACTION-APPLIED",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "World event must be independently observed; not generated by low time alone."
+    },
+    {
+      "id": "E02-F-SAFETY-VERIFIED",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "World event must be independently observed; not generated by low time alone."
+    },
+    {
+      "id": "E02-F-SCOPE-WARNING-ACK",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    },
+    {
+      "id": "E02-F-STAFF-ROUTE",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    },
+    {
+      "id": "E02-F-VERIFY-MISMATCH",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    },
+    {
+      "id": "E02-F-WORK-PROTECTED",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    },
+    {
+      "id": "E02-F01",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    },
+    {
+      "id": "E02-F02",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    },
+    {
+      "id": "E02-F03",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    },
+    {
+      "id": "E02-F04",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    },
+    {
+      "id": "E02-F05",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    },
+    {
+      "id": "E02-F06",
+      "truthOwner": "authoritative_scenario_or_authored_fixture",
+      "clientMayAssert": false,
+      "note": "Grant only at the explicit authored observation/choice boundary; no inferred truth from a selected outcome."
+    }
+  ],
+  "actions": [
+    {
+      "id": "E02-A-OBSERVE-D",
+      "actorId": "person.aya-shinoda",
+      "phase": "scope",
+      "requiresAll": [
+        "E02-F02",
+        "E02-F03",
+        "E02-F-EXTENSION"
+      ],
+      "stateRequirements": {
+        "authorization.extensionApproved": true
+      },
+      "result": "A bounded, authored observation resolves this fixture’s dependency.",
+      "grantsFacts": [
+        "E02-F04"
+      ],
+      "sourceScope": "Only the exact approved observation; no E collection."
+    },
+    {
+      "id": "E02-A-OBSERVE-UNAUTHORIZED",
+      "actorId": "person.aya-shinoda",
+      "phase": "scope",
+      "requiresAll": [
+        "E02-F02",
+        "E02-F03",
+        "E02-F-SCOPE-WARNING-ACK"
+      ],
+      "stateRequirements": {
+        "authorization.violationAcknowledged": true
+      },
+      "result": "The same physical observation can establish truth while preserving its unauthorized provenance.",
+      "grantsFacts": [
+        "E02-F04"
+      ],
+      "sourceScope": "Persistent violation; no retrospective approval."
+    },
+    {
+      "id": "E02-A-SAFETY",
+      "actorId": "person.aya-shinoda",
+      "phase": "scope",
+      "requiresAll": [
+        "E02-F-IMMINENT-SAFETY",
+        "E02-F-INDEPENDENT-SAFETY-OBSERVATION",
+        "E02-F-NECESSITY",
+        "E02-F-PROPORTIONALITY"
+      ],
+      "stateRequirements": {
+        "authorization.exceptionLogged": true
+      },
+      "result": "Necessary narrow safety action in F; the authoritative scenario evaluates its actual result.",
+      "grantsFacts": [],
+      "sourceScope": "Does not automatically reveal the target dependency or expand D/E scope.",
+      "note": "Aya performs the narrow action; Nusrat (off-board) logs the exception."
+    },
+    {
+      "id": "E02-A-OBSERVE-SAFETY-RESULT",
+      "actorId": "person.aya-shinoda",
+      "phase": "scope",
+      "requiresAll": [
+        "E02-F-SAFETY-ACTION-APPLIED"
+      ],
+      "stateRequirements": {},
+      "result": "Independently check the safety result. If the authored safety observation also discriminates the target dependency, grant F04; otherwise use authorized inference or a request.",
+      "grantsFacts": [
+        "E02-F-SAFETY-VERIFIED"
+      ],
+      "conditionalGrants": [
+        {
+          "factId": "E02-F04",
+          "onlyIf": "authored observation independently resolves the target dependency"
+        }
+      ],
+      "sourceScope": "Safety validation does not substitute for later target/service VERIFY."
+    },
+    {
+      "id": "E02-A-INTERVENE",
+      "actorId": "person.aya-shinoda",
+      "phase": "intervention",
+      "requiresAll": [
+        "E02-F02",
+        "E02-F04"
+      ],
+      "stateRequirements": {},
+      "result": "Perform the evidence-supported bounded target action using the existing runtime.",
+      "grantsFacts": [
+        "E02-F-CHANGE-APPLIED"
+      ],
+      "stateEffects": {
+        "interventionApplied": true,
+        "verifyPassed": false
+      },
+      "sourceScope": "Action must be inside current target authority or explicitly acknowledged as a new violation; no authority inferred from knowledge."
+    }
+  ],
+  "watchBeats": [
+    {
+      "id": "E02-D01",
+      "sceneId": "E02-S01",
+      "actorId": "person.nusrat-rahman",
+      "prompt": "How do you handle Priya’s legitimate assignment at the wrong access boundary?",
+      "requiresAll": [],
+      "options": [
+        {
+          "id": "E02-D01-O01",
+          "label": "Hold the boundary and offer an authorized next step",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "narrative_event",
+              "characterId": "person.priya-srisawat",
+              "dimension": "access_trust",
+              "direction": "strengthened",
+              "reason": "Her task is taken seriously without bypassing access.",
+              "idempotencyKey": "adapter:campaign+episode+choice+option",
+              "status": "DRAFT qualitative consequence; map to existing engine ledger"
+            },
+            {
+              "op": "add_fact",
+              "factId": "E02-F-HUMANE-BOUNDARY"
+            }
+          ],
+          "visibleCost": "Short conversation; route remains closed.",
+          "meaning": "Fairness includes an actionable alternative.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D01-O02",
+          "label": "Repeat the refusal and leave the task unresolved",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "narrative_event",
+              "characterId": "person.priya-srisawat",
+              "dimension": "process_frustration",
+              "direction": "increased",
+              "reason": "A lawful refusal gives no usable next step.",
+              "idempotencyKey": "adapter:campaign+episode+choice+option",
+              "status": "DRAFT qualitative consequence; map to existing engine ledger"
+            }
+          ],
+          "visibleCost": "No scope violation; unresolved work persists.",
+          "meaning": "Correct access state can still create avoidable human cost.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "WATCH (authored beat; the writer picks the line, no player input)",
+      "writerPreference": "E02-D01-O01"
+    },
+    {
+      "id": "E02-D02",
+      "sceneId": "E02-S02",
+      "actorId": "person.nusrat-rahman",
+      "prompt": "What does the intake record actually establish?",
+      "requiresAll": [],
+      "options": [
+        {
+          "id": "E02-D02-O01",
+          "label": "Record known device class and unknown provenance separately",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "add_fact",
+              "factId": "E02-F-DEVICE-UNCERTAIN"
+            },
+            {
+              "op": "narrative_event",
+              "characterId": "person.mccluster",
+              "dimension": "boundary_respect",
+              "direction": "strengthened",
+              "reason": "Disclosure is recorded without an accusation.",
+              "idempotencyKey": "adapter:campaign+episode+choice+option",
+              "status": "DRAFT qualitative consequence; map to existing engine ledger"
+            }
+          ],
+          "visibleCost": "Verification still required.",
+          "meaning": "Technical classification is not authorization.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D02-O02",
+          "label": "Describe the mismatch as suspected misconduct before verification",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "recordCorrectionRequired",
+              "value": true
+            },
+            {
+              "op": "narrative_event",
+              "characterId": "person.aya-shinoda",
+              "dimension": "process_trust",
+              "direction": "strained",
+              "reason": "Uncertainty has become accusation too quickly.",
+              "idempotencyKey": "adapter:campaign+episode+choice+option",
+              "status": "DRAFT qualitative consequence; map to existing engine ledger"
+            }
+          ],
+          "visibleCost": "A correction is required before the incident account can be treated as clean.",
+          "meaning": "No invented wrongdoing becomes canon; premature inference is explicitly corrected.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "WATCH (authored beat; the writer picks the line, no player input)",
+      "writerPreference": "E02-D02-O01"
+    },
+    {
+      "id": "E02-D03",
+      "sceneId": "E02-S03",
+      "actorId": "person.nusrat-rahman",
+      "prompt": "What do you ask Helen to decide?",
+      "requiresAll": [],
+      "options": [
+        {
+          "id": "E02-D03-O01",
+          "label": "State the unresolved record and retain the normal boundary",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "narrative_event",
+              "characterId": "person.nusrat-rahman",
+              "dimension": "command_confidence",
+              "direction": "strengthened",
+              "reason": "Helen backs a specific defensible decision.",
+              "idempotencyKey": "adapter:campaign+episode+choice+option",
+              "status": "DRAFT qualitative consequence; map to existing engine ledger"
+            }
+          ],
+          "visibleCost": "Schedule delay remains.",
+          "meaning": "Executive support does not mean personal exemption.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D03-O02",
+          "label": "Ask for a personal exception without resolving the record",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "personalExceptionRequested",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "personalExceptionGranted",
+              "value": false
+            },
+            {
+              "op": "narrative_event",
+              "characterId": "person.nusrat-rahman",
+              "dimension": "self_awareness",
+              "direction": "increased",
+              "reason": "Helen returns attention to the unresolved check.",
+              "idempotencyKey": "adapter:campaign+episode+choice+option",
+              "status": "DRAFT qualitative consequence; map to existing engine ledger"
+            }
+          ],
+          "visibleCost": "Request is redirected; no extra access is granted.",
+          "meaning": "Preserves canonical outcome while revealing a tempting strategy.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "WATCH (authored beat; the writer picks the line, no player input)",
+      "writerPreference": "E02-D03-O01"
+    },
+    {
+      "id": "E02-D18",
+      "sceneId": "E02-S15",
+      "actorId": "person.mccluster",
+      "prompt": "What did the corrected issuance record grant?",
+      "requiresAll": [],
+      "options": [
+        {
+          "id": "E02-D18-O01",
+          "label": "Accept the bounded access listed",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "narrative_event",
+              "characterId": "person.aya-shinoda",
+              "dimension": "early_professional_trust",
+              "direction": "strengthened",
+              "reason": "Competence does not become entitlement.",
+              "idempotencyKey": "adapter:campaign+episode+choice+option",
+              "status": "DRAFT qualitative consequence; map to existing engine ledger"
+            },
+            {
+              "op": "add_fact",
+              "factId": "E02-F-DEVICE-RESOLVED"
+            }
+          ],
+          "visibleCost": "Field deployment remains unavailable.",
+          "meaning": "The error is ordinary issuance; no wider plot is invented.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D18-O02",
+          "label": "Treat the correction as general clearance",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "generalClearanceClaimCorrected",
+              "value": true
+            },
+            {
+              "op": "add_fact",
+              "factId": "E02-F-DEVICE-RESOLVED"
+            }
+          ],
+          "visibleCost": "Nusrat restates the exact limit; no unauthorized deployment follows.",
+          "meaning": "Conversation can reveal a reflex while preserving the source ending.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "WATCH (authored beat; the writer picks the line, no player input)",
+      "writerPreference": "E02-D18-O01"
+    }
+  ],
+  "choices": [
+    {
+      "id": "E02-C01",
+      "sceneId": "E02-S06",
+      "actorId": "person.aya-shinoda",
+      "mode": "PLAY",
+      "prompt": "The take is rolling and you have seen a tell. Break now, or give the director one more take?",
+      "requiresAll": [],
+      "options": [
+        {
+          "id": "E02-C01-O01",
+          "label": "Break at this tell (\"a better angle on the cooling plant\")",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "breakTaken",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "phase",
+              "value": "mission"
+            }
+          ],
+          "visibleCost": "Mission clocks start now; the shot is short one take.",
+          "meaning": "Breaking early is safer for the objective and worse for the cover.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-C01-O02",
+          "label": "One more take",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "require_adapter_evaluation",
+              "what": "cover spend for staying on set (proposal §3.4)"
+            }
+          ],
+          "visibleCost": "Cover holds better; the window opens later.",
+          "meaning": "A break is a decision, not a cutscene.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/STORY-CONSOLIDATION-PROPOSAL.md",
+          "heading": "2.2-2.4 and 3.5 LVL-02 — Aya Shinoda (T)"
+        }
+      ],
+      "newMaterialStatus": "DRAFT (cover rule, proposal §3.1-§3.4)",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not."
+    },
+    {
+      "id": "E02-D04",
+      "sceneId": "E02-S06",
+      "actorId": "person.aya-shinoda",
+      "prompt": "Nusrat reads the mandate over comms while the camera is on you. How narrowly do you confirm it?",
+      "requiresAll": [],
+      "options": [
+        {
+          "id": "E02-D04-O01",
+          "label": "Repeat back target, rooms, actions and limits",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "add_fact",
+              "factId": "E02-F01"
+            },
+            {
+              "op": "set",
+              "path": "scopeClarified",
+              "value": true
+            }
+          ],
+          "visibleCost": "Consumes bounded briefing attention.",
+          "meaning": "Exact authority supports later request and review.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D04-O02",
+          "label": "Accept the partner's broad summary and keep the take going",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "scopeClarified",
+              "value": false
+            },
+            {
+              "op": "set",
+              "path": "scopeCorrectionRequired",
+              "value": true
+            }
+          ],
+          "visibleCost": "Scope questions recur before protected actions; no hidden accidental violation.",
+          "meaning": "Vague confidence creates rework, not magical authority.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "PLAY"
+    },
+    {
+      "id": "E02-D05",
+      "sceneId": "E02-S07",
+      "actorId": "person.aya-shinoda",
+      "prompt": "An interrupted employee needs to reach someone. Miguel is at the exterior. What can you actually promise?",
+      "requiresAll": [],
+      "options": [
+        {
+          "id": "E02-D05-O01",
+          "label": "Call Miguel to arrange an authorized alternative (escorted retrieval or a call from where they stand)",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "add_fact",
+              "factId": "E02-F-STAFF-ROUTE"
+            },
+            {
+              "op": "narrative_event",
+              "characterId": "person.miguel-santos",
+              "dimension": "humane_security_reputation",
+              "direction": "strengthened",
+              "reason": "The person’s real need is addressed without unsafe access.",
+              "idempotencyKey": "adapter:campaign+episode+choice+option",
+              "status": "DRAFT qualitative consequence; map to existing engine ledger"
+            }
+          ],
+          "visibleCost": "Attention is unavailable elsewhere during the action.",
+          "meaning": "Trust grows from a kept practical promise.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D05-O02",
+          "label": "Give a curt redirect and protect your window",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "civilianConfusion",
+              "value": true
+            }
+          ],
+          "visibleCost": "More immediate corridor attention; later direction may require extra explanation.",
+          "meaning": "No automatic injury penalty for a short conversation choice.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "PLAY"
+    },
+    {
+      "id": "E02-D06",
+      "sceneId": "E02-S08",
+      "actorId": "person.aya-shinoda",
+      "prompt": "The rack layout changed. What establishes the target?",
+      "requiresAll": [
+        "E02-F01"
+      ],
+      "options": [
+        {
+          "id": "E02-D06-O01",
+          "label": "Compare identifier with approved relocation evidence",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "add_fact",
+              "factId": "E02-F02"
+            },
+            {
+              "op": "set",
+              "path": "targetIdentityVerified",
+              "value": true
+            }
+          ],
+          "visibleCost": "Protected verification time.",
+          "meaning": "Two relevant sources explain the physical discrepancy.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D06-O02",
+          "label": "Label the first device in the old marked position",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "custodyCorrectionRequired",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "targetIdentityVerified",
+              "value": false
+            }
+          ],
+          "visibleCost": "Fast start; mismatch can be caught before transfer.",
+          "meaning": "A plausible place is not positive identification.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "PLAY"
+    },
+    {
+      "id": "E02-D07",
+      "sceneId": "E02-S09",
+      "actorId": "person.aya-shinoda",
+      "prompt": "Miguel can hold one thing from the exterior. What do you ask him to protect?",
+      "requiresAll": [],
+      "options": [
+        {
+          "id": "E02-D07-O01",
+          "label": "Your technical window (the corridor to Zone C)",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "protectedWork",
+              "value": "technical"
+            }
+          ],
+          "visibleCost": "Civilian route or extraction needs another solution.",
+          "meaning": "Makes technical work safer without pretending other needs vanish.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D07-O02",
+          "label": "The staff route",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "protectedWork",
+              "value": "civilian"
+            },
+            {
+              "op": "narrative_event",
+              "characterId": "person.miguel-santos",
+              "dimension": "humane_security_reputation",
+              "direction": "strengthened",
+              "reason": "The known people need protection now.",
+              "idempotencyKey": "adapter:campaign+episode+choice+option",
+              "status": "DRAFT qualitative consequence; map to existing engine ledger"
+            }
+          ],
+          "visibleCost": "Technical work may need a safe pause.",
+          "meaning": "Safety and objective tempo can diverge.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D07-O03",
+          "label": "The extraction and custody lane",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "protectedWork",
+              "value": "extraction"
+            }
+          ],
+          "visibleCost": "Other work must pause or be reassigned.",
+          "meaning": "A defensible handoff is part of mission success.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "PLAY"
+    },
+    {
+      "id": "E02-D08",
+      "sceneId": "E02-S10",
+      "actorId": "person.aya-shinoda",
+      "prompt": "The target may support an unrelated service. What stays reversible?",
+      "requiresAll": [
+        "E02-F02"
+      ],
+      "options": [
+        {
+          "id": "E02-D08-O01",
+          "label": "Hold target state and investigate the observed dependency",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "add_fact",
+              "factId": "E02-F03"
+            },
+            {
+              "op": "set",
+              "path": "targetHeldReversibly",
+              "value": true
+            }
+          ],
+          "visibleCost": "Window pressure continues.",
+          "meaning": "Observed risk is named without claiming full topology.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D08-O02",
+          "label": "Remove immediately and accept the consequence",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "add_fact",
+              "factId": "E02-F03"
+            },
+            {
+              "op": "set",
+              "path": "targetHeldReversibly",
+              "value": false
+            },
+            {
+              "op": "set",
+              "path": "serviceState",
+              "value": "degraded"
+            },
+            {
+              "op": "append_unique",
+              "path": "costFlags",
+              "value": "serviceImpact"
+            }
+          ],
+          "visibleCost": "Known service impact; verification and accountability still required.",
+          "meaning": "Legitimate target authority does not guarantee harmless removal.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "PLAY"
+    },
+    {
+      "id": "E02-D09",
+      "sceneId": "E02-S11",
+      "actorId": "person.aya-shinoda",
+      "prompt": "How will you earn enough knowledge for the bounded intervention?",
+      "requiresAll": [
+        "E02-F02",
+        "E02-F03"
+      ],
+      "options": [
+        {
+          "id": "E02-D09-O01",
+          "label": "Request a bounded extension",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "scopeRoute",
+              "value": "bounded_extension"
+            }
+          ],
+          "visibleCost": "Time, supporting evidence and a narrow question.",
+          "meaning": "Approval changes scope, not automatic knowledge.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D09-O02",
+          "label": "Use authorized observations to infer the dependency",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "scopeRoute",
+              "value": "authorized_inference"
+            }
+          ],
+          "visibleCost": "Additional protected observations and time.",
+          "meaning": "Knowledge may improve without wider scope.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D09-O03",
+          "label": "Use a necessary life-safety exception",
+          "requiresAll": [
+            "E02-F-IMMINENT-SAFETY",
+            "E02-F-INDEPENDENT-SAFETY-OBSERVATION",
+            "E02-F-NECESSITY",
+            "E02-F-PROPORTIONALITY"
+          ],
+          "effects": [
+            {
+              "op": "set",
+              "path": "scopeRoute",
+              "value": "emergency"
+            }
+          ],
+          "visibleCost": "Narrow minimum action and mandatory review.",
+          "meaning": "Clock pressure is insufficient; no self-manufactured emergency reward.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D09-O04",
+          "label": "Acknowledge and cross the protected boundary",
+          "requiresAll": [
+            "E02-F-SCOPE-WARNING-ACK"
+          ],
+          "effects": [
+            {
+              "op": "set",
+              "path": "scopeRoute",
+              "value": "violation"
+            },
+            {
+              "op": "set",
+              "path": "authorization.violationAcknowledged",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "reviewRequired",
+              "value": true
+            },
+            {
+              "op": "narrative_event",
+              "characterId": "person.nusrat-rahman",
+              "dimension": "compliance_debt",
+              "direction": "increased",
+              "reason": "Scope was Nusrat's to hold; Aya's deliberate crossing becomes Nusrat's review as well as Aya's.",
+              "idempotencyKey": "adapter:campaign+episode+choice+option",
+              "status": "DRAFT qualitative consequence; map to existing engine ledger"
+            }
+          ],
+          "visibleCost": "Compliance debt remains even if objective succeeds.",
+          "meaning": "No accidental tap causes a severe boundary breach.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "PLAY"
+    },
+    {
+      "id": "E02-D10",
+      "sceneId": "E02-S11",
+      "actorId": "person.aya-shinoda",
+      "prompt": "You draft the request Nusrat will carry. What exactly does it ask to do?",
+      "requiresAll": [
+        "E02-F03"
+      ],
+      "options": [
+        {
+          "id": "E02-D10-O01",
+          "label": "Name one observation and exclude unrelated tenant data",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "authorization.extensionApproved",
+              "value": true
+            },
+            {
+              "op": "add_fact",
+              "factId": "E02-F-EXTENSION"
+            }
+          ],
+          "visibleCost": "Authored review window; sufficient evidence assumed in this fixture.",
+          "meaning": "A request can be deterministically adequate; real adapter may require an authored response.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D10-O02",
+          "label": "Ask for unrestricted access to the shared room",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "authorization.extensionApproved",
+              "value": false
+            },
+            {
+              "op": "set",
+              "path": "requestClarificationRequired",
+              "value": true
+            }
+          ],
+          "visibleCost": "Clarification or authorized inference needed.",
+          "meaning": "Broad request does not grant blanket authority.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "PLAY"
+    },
+    {
+      "id": "E02-D11",
+      "sceneId": "E02-S11",
+      "actorId": "person.aya-shinoda",
+      "prompt": "Which observations distinguish the dependency explanations?",
+      "requiresAll": [],
+      "options": [
+        {
+          "id": "E02-D11-O01",
+          "label": "Compare two independent, relevant authorized observations",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "add_fact",
+              "factId": "E02-F04"
+            },
+            {
+              "op": "set",
+              "path": "dependencyResolved",
+              "value": true
+            }
+          ],
+          "visibleCost": "Longer protected work.",
+          "meaning": "The answer is earned from supplied evidence.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D11-O02",
+          "label": "Count two displays repeating the same source as corroboration",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "dependencyResolved",
+              "value": false
+            },
+            {
+              "op": "set",
+              "path": "inferenceFeedback",
+              "value": "Repeated source; choose a discriminating observation."
+            }
+          ],
+          "visibleCost": "Recoverable learning cost; no new truth granted.",
+          "meaning": "Repeated display is not independence.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "PLAY"
+    },
+    {
+      "id": "E02-D12",
+      "sceneId": "E02-S11",
+      "actorId": "person.aya-shinoda",
+      "prompt": "Miguel reports an occupied route in danger. What does the emergency justify?",
+      "requiresAll": [
+        "E02-F-IMMINENT-SAFETY",
+        "E02-F-INDEPENDENT-SAFETY-OBSERVATION",
+        "E02-F-NECESSITY",
+        "E02-F-PROPORTIONALITY"
+      ],
+      "options": [
+        {
+          "id": "E02-D12-O01",
+          "label": "Record and perform the narrow necessary safety action",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "authorization.emergencyObserved",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "authorization.emergencyNecessary",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "authorization.emergencyProportional",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "authorization.exceptionLogged",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "reviewRequired",
+              "value": true
+            }
+          ],
+          "visibleCost": "Safety review; evidence may wait.",
+          "meaning": "Only the qualifying F action is authorized by this exception.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D12-O02",
+          "label": "Treat the safety event as permission to inspect unrelated tenants",
+          "requiresAll": [
+            "E02-F-SCOPE-WARNING-ACK"
+          ],
+          "effects": [
+            {
+              "op": "set",
+              "path": "authorization.violationAcknowledged",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "reviewRequired",
+              "value": true
+            },
+            {
+              "op": "narrative_event",
+              "characterId": "person.nusrat-rahman",
+              "dimension": "compliance_debt",
+              "direction": "increased",
+              "reason": "Scope was Nusrat's to hold; Aya's deliberate crossing becomes Nusrat's review as well as Aya's.",
+              "idempotencyKey": "adapter:campaign+episode+choice+option",
+              "status": "DRAFT qualitative consequence; map to existing engine ledger"
+            }
+          ],
+          "visibleCost": "Violation persists despite a genuine safety need.",
+          "meaning": "Emergency does not launder unrelated activity.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "PLAY"
+    },
+    {
+      "id": "E02-D13",
+      "sceneId": "E02-S12",
+      "actorId": "person.aya-shinoda",
+      "prompt": "How do you preserve a technical operation during interruption?",
+      "requiresAll": [
+        "E02-F02"
+      ],
+      "options": [
+        {
+          "id": "E02-D13-O01",
+          "label": "Pause in a reversible state",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "interventionPausedSafely",
+              "value": true
+            }
+          ],
+          "visibleCost": "Delay; may need a new protected window.",
+          "meaning": "Pausing preserves options.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D13-O02",
+          "label": "Continue after Miguel confirms the window is held",
+          "requiresAll": [
+            "E02-F-WORK-PROTECTED"
+          ],
+          "effects": [
+            {
+              "op": "set",
+              "path": "interventionPausedSafely",
+              "value": false
+            }
+          ],
+          "visibleCost": "Protection is unavailable for another task.",
+          "meaning": "A safe window has an owner and a cost.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D13-O03",
+          "label": "Rush the change without the required picture",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "interventionApplied",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "verifyPassed",
+              "value": false
+            },
+            {
+              "op": "append_unique",
+              "path": "costFlags",
+              "value": "unboundedChange"
+            }
+          ],
+          "visibleCost": "Unresolved state cannot receive validated success.",
+          "meaning": "Fast completion is not technical correctness.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "PLAY"
+    },
+    {
+      "id": "E02-D14",
+      "sceneId": "E02-S12",
+      "actorId": "person.aya-shinoda",
+      "prompt": "The action completed and one indicator is green. Is the objective verified?",
+      "requiresAll": [],
+      "options": [
+        {
+          "id": "E02-D14-O01",
+          "label": "Perform the separate target-and-service verification",
+          "requiresAll": [
+            "E02-F-CHANGE-APPLIED"
+          ],
+          "effects": [
+            {
+              "op": "set",
+              "path": "verifyAttempted",
+              "value": true
+            },
+            {
+              "op": "require_adapter_evaluation",
+              "checkId": "E02-CHECK-POST-CHANGE",
+              "successFactId": "E02-F05",
+              "setsOnSuccess": {
+                "verifyPassed": true
+              },
+              "setsOnFailure": {
+                "verifyPassed": false
+              }
+            }
+          ],
+          "visibleCost": "A real protected verification window.",
+          "meaning": "Knowledge correctness is deterministic on the supplied state.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D14-O02",
+          "label": "Extract without validating the result",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "verifyPassed",
+              "value": false
+            },
+            {
+              "op": "set",
+              "path": "verificationDeferred",
+              "value": true
+            }
+          ],
+          "visibleCost": "Continuing partial outcome even if a case is carried out.",
+          "meaning": "Does not grant objective validation or learning mastery.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "PLAY"
+    },
+    {
+      "id": "E02-D15",
+      "sceneId": "E02-S12",
+      "actorId": "person.aya-shinoda",
+      "prompt": "Verification contradicted the predicted result. What follows?",
+      "requiresAll": [
+        "E02-F-VERIFY-MISMATCH"
+      ],
+      "options": [
+        {
+          "id": "E02-D15-O01",
+          "label": "Pause, restore a safe state and re-evaluate",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "verifyPassed",
+              "value": false
+            },
+            {
+              "op": "set",
+              "path": "recoveryRequired",
+              "value": true
+            },
+            {
+              "op": "narrative_event",
+              "characterId": "person.aya-shinoda",
+              "dimension": "technical_accountability",
+              "direction": "strengthened",
+              "reason": "Mismatch is reported rather than hidden.",
+              "idempotencyKey": "adapter:campaign+episode+choice+option",
+              "status": "DRAFT qualitative consequence; map to existing engine ledger"
+            }
+          ],
+          "visibleCost": "Time/service cost; new successful verification still required.",
+          "meaning": "A failed check creates a problem to solve, not an automatic restart.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D15-O02",
+          "label": "Dismiss or conceal the mismatch",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "verifyPassed",
+              "value": false
+            },
+            {
+              "op": "set",
+              "path": "reportHonesty",
+              "value": false
+            },
+            {
+              "op": "set",
+              "path": "reviewRequired",
+              "value": true
+            }
+          ],
+          "visibleCost": "Integrity damage and unresolved objective remain.",
+          "meaning": "Claiming success cannot modify the observed truth.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "PLAY"
+    },
+    {
+      "id": "E02-D16",
+      "sceneId": "E02-S12",
+      "actorId": "person.aya-shinoda",
+      "prompt": "What can you safely take out, and how?",
+      "requiresAll": [],
+      "options": [
+        {
+          "id": "E02-D16-O01",
+          "label": "Transfer the identified target with the defensible chain",
+          "requiresAll": [
+            "E02-F02",
+            "E02-F-CUSTODY-READY"
+          ],
+          "effects": [
+            {
+              "op": "set",
+              "path": "targetCustody",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "ayaExtracted",
+              "value": true
+            },
+            {
+              "op": "add_fact",
+              "factId": "E02-F06"
+            }
+          ],
+          "visibleCost": "Requires the extraction window to remain viable.",
+          "meaning": "Final transfer does not itself satisfy VERIFY.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D16-O02",
+          "label": "Preserve people and partial evidence",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "targetCustody",
+              "value": false
+            },
+            {
+              "op": "set",
+              "path": "ayaExtracted",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "evidenceState",
+              "value": "partial"
+            }
+          ],
+          "visibleCost": "Primary objective incomplete.",
+          "meaning": "Partial success has concrete preserved value.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D16-O03",
+          "label": "Withdraw after the operation becomes irrecoverable",
+          "requiresAll": [
+            "E02-F-IRRECOVERABLE"
+          ],
+          "effects": [
+            {
+              "op": "set",
+              "path": "missionIrrecoverable",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "targetCustody",
+              "value": false
+            }
+          ],
+          "visibleCost": "Collapse consequences; no invented permanent death.",
+          "meaning": "Campaign can continue with recovery, scrutiny and loss.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "PLAY"
+    },
+    {
+      "id": "E02-D17",
+      "sceneId": "E02-S13",
+      "actorId": "person.aya-shinoda",
+      "prompt": "Your section of the report: what goes in it?",
+      "requiresAll": [],
+      "options": [
+        {
+          "id": "E02-D17-O01",
+          "label": "Separate known facts, inference, uncertainty and decisions",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "reportHonesty",
+              "value": true
+            },
+            {
+              "op": "narrative_event",
+              "characterId": "person.helen-clarke",
+              "dimension": "review_confidence",
+              "direction": "strengthened",
+              "reason": "The decision can be evaluated using what was known at the time.",
+              "idempotencyKey": "adapter:campaign+episode+choice+option",
+              "status": "DRAFT qualitative consequence; map to existing engine ledger"
+            }
+          ],
+          "visibleCost": "May preserve an uncomfortable cost in the public/internal record.",
+          "meaning": "Accurate reporting does not erase the cost.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-D17-O02",
+          "label": "Present a cleaner result than the evidence supports",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "reportHonesty",
+              "value": false
+            },
+            {
+              "op": "set",
+              "path": "reviewRequired",
+              "value": true
+            },
+            {
+              "op": "narrative_event",
+              "characterId": "person.maren-quill",
+              "dimension": "institutional_trust",
+              "direction": "strained",
+              "reason": "Communications is asked to hide material uncertainty.",
+              "idempotencyKey": "adapter:campaign+episode+choice+option",
+              "status": "DRAFT qualitative consequence; map to existing engine ledger"
+            }
+          ],
+          "visibleCost": "Integrity grade can worsen even after tactical success.",
+          "meaning": "A new narrative claim cannot rewrite the event log.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "episodes/S01E02-WHITE-GREY-BLACK-HAT.md",
+          "heading": "Character-state writes forward"
+        },
+        {
+          "path": "game/LVL-02-PERMISSION-SLIP.md",
+          "heading": "Objective chain"
+        }
+      ],
+      "newMaterialStatus": "DRAFT choice execution; inherited mission boundaries remain canon",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not.",
+      "mode": "PLAY"
+    },
+    {
+      "id": "E02-C02",
+      "sceneId": "E02-S12",
+      "actorId": "person.aya-shinoda",
+      "mode": "PLAY",
+      "prompt": "The case is out. Do you walk back to your mark for the pickup shot?",
+      "requiresAll": [],
+      "options": [
+        {
+          "id": "E02-C02-O01",
+          "label": "Back to the mark; finish the pickup shot",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "require_adapter_evaluation",
+              "what": "RE-COVER: on-set tile, cover above zero, one full round unobserved by hostiles (proposal §3.4)"
+            }
+          ],
+          "visibleCost": "One more round on site.",
+          "meaning": "Re-cover is a choice with a reward.",
+          "status": "DRAFT"
+        },
+        {
+          "id": "E02-C02-O02",
+          "label": "Leave with the vans; let the film explain itself",
+          "requiresAll": [],
+          "effects": [
+            {
+              "op": "set",
+              "path": "cover",
+              "value": "burned"
+            }
+          ],
+          "visibleCost": "Someone must explain the footage.",
+          "meaning": "A burned cover is a story event, not a failure.",
+          "status": "DRAFT"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "story/STORY-CONSOLIDATION-PROPOSAL.md",
+          "heading": "2.2-2.4 and 3.5 LVL-02 — Aya Shinoda (T)"
+        }
+      ],
+      "newMaterialStatus": "DRAFT (cover rule, proposal §3.3-§3.4)",
+      "commitBoundary": "Only committed actions produce permanent events; reading, hints, camera and previews do not."
+    }
+  ],
+  "callbacks": [
+    {
+      "id": "E02-CB-03",
+      "episodeId": "S01E03",
+      "proposal": "Corrected custody/provenance language prepares Oksana/Rafael without changing their missing-shipment incident."
+    },
+    {
+      "id": "E02-CB-04",
+      "episodeId": "S02E01",
+      "proposal": "Miguel/Nusrat carry humane verification into the event-access problem."
+    },
+    {
+      "id": "E02-CB-08",
+      "episodeId": "S03E02",
+      "proposal": "Aya’s willingness to say unknown before proving physical state deepens, not resets."
+    },
+    {
+      "id": "E02-CB-21",
+      "episodeId": "S07E03",
+      "proposal": "Capability/permission distinction echoes privilege decomposition without early root disclosure."
+    },
+    {
+      "id": "E02-CB-03B",
+      "episodeId": "S01E03",
+      "proposal": "Aya's notebook line about a recruit's kit sits beside her LVL-03 reconstruction; do not let it explain the four-minute gap."
+    }
+  ],
+  "adapterPolicy": {
+    "balance": "No HP, damage, range, movement or AP numbers here. Values come from the canonical resolver and the level; prototype values are reference only (attributes matrix DECISIONS-2026-11-03 §1).",
+    "clocks": "Approach / Window / Extract come from game/LVL-02-PERMISSION-SLIP.md 'Mission clocks'; the solo revision sets them. Not restated here.",
+    "tControl": "T kit at level 1: sidearm holstered; JAM, TAKE CONTROL, SYNC PULSE once; machines only, people are never targets (game/TACTICAL-T-CONTROL-RULES.md on branch claude/t-control-rules-20261102).",
+    "storage": "No second engine, backend or database. Events bind through the existing resolver and campaign ledger.",
+    "presentation": "No purple; no drawn or substitute logo; country badges are on-screen chips only."
+  },
+  "dataContract": {
+    "purpose": "Declarative content proposal for an existing Prim3 adapter; not a second simulation engine.",
+    "conditionSemantics": "requiresAll names facts which must exist in authoritative scenario state. Route/phase gating also applies. Never evaluate them as arbitrary code.",
+    "effectsSemantics": "set, append_unique, add_fact, narrative_event and require_adapter_evaluation are declarative adapter contracts; no direct writes from reading JSON.",
+    "draftNumbers": "No weapon, HP, range or movement balance supplied. Qualitative event directions need explicit mapping to the current campaign ledger.",
+    "danger": "Never allow a caller to set knowledge facts, scope approvals or verification results merely by submitting a preferred outcome.",
+    "phaseGating": "Choices and actions may appear only in their scene/phase; D10 additionally requires bounded_extension, D11 authorized_inference, D12 qualifying emergency; later recovery may deliberately change route with logged provenance. Repeated actions cannot duplicate permanent effects.",
+    "sourceEvaluation": "Approval/identity/observed truth/verification/safety predicates require an authoritative scenario event or authored fixture evaluation. A client cannot submit them as arbitrary successful values."
+  }
+}

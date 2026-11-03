@@ -1,7 +1,7 @@
 ---
 status: PROPOSED (sections 1 and 2 OWNER-APPROVED 2026-11-02; owner answers of 2026-11-03 applied; see the approval record)
 system: PRIM3 story consolidation — one spine, the first three missions, the creative-layer cover
-version: 1.1.0
+version: 1.1.1
 date: 2026-11-03
 authority_parent: CANON.md
 change_control: AGENTS.md "Change control"
@@ -572,6 +572,25 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 12. **E03's facility.** **RESOLVED 2026-11-03:** approved; the facility opening is the North River hub's reopening (`episodes/S01E03-OSINT.md`).
 13. **Song #21.** **PENDING (owner, 2026-11-03):** not available yet. E18 stays a protected open slot; nothing is filled from existing songs.
 14. **JANUS.** **RESOLVED 2026-11-03:** adopted, adapted to "clone of McCluster" (`story/BENJI-CHASE-JANUS-ORIGIN-CANON.md`).
+
+## 8.1 Open continuity conflicts from the 2026-11-03 handoff audit
+
+The owner's handoff kit of 2026-11-03 (triage: `development/HANDOFF-2026-11-03-TRIAGE.md`) audited Prim3 at `160020b` and listed twelve continuity conflicts. Checked against this branch on 2026-11-03:
+
+**Still open (owner or writer decision needed):**
+
+| # | Conflict | Where | What is needed |
+|---:|---|---|---|
+| A1 | **The recruit's device.** §3.5 TELL 3 has an unmanifested Harborline device answer to "the same identifier" as the appliance in McCluster's onboarding kit, and §4.2 makes him "a suspect before he is a colleague". The canon treatment (Scene 15) resolves the appliance as "an ordinary internal issuance error, not a conspiracy", and `story/HIGH-ALERT-MEMORY-ANCHORS.md` Memory 01 adds a distant approval above the local office. Same identifier and ordinary error cannot both stand. | `story/episodes/S1E2-PERMISSION-SLIP-LONGFORM-TREATMENT.md` Scene 15; §3.5; Memory 01 | Owner: keep the ordinary error (TELL 3 becomes "same device class", an echo, as the E02 draft assumes), or keep the identifier link and rewrite Scene 15. Either way the higher approval stays an observation layer, not the cause of the error. |
+| A2 | **Harborline's country.** §6.4 says the three solo sites are all in the US; no canon file gives Harborline a country or coordinates. | §6.4; `episodes/S01E02-WHITE-GREY-BLACK-HAT.md` | Owner: confirm US (and whether a city is named), or leave it unplaced. The globe must not place it from an operator's origin. |
+| A3 | **Who receives the call.** The E02 blueprint says "McCluster receives an urgent field-support request"; the treatment makes the call institutional and Chioma assigns it; §3.5 makes it the planned go signal that McCluster mistakes for an emergency. | `episodes/S01E02-WHITE-GREY-BLACK-HAT.md` line "While onboarding is still being repaired…" | Writer: reword the blueprint line to the institutional/go-signal version; McCluster is never the dispatcher. |
+| A4 | **Aya's location in Scenes 1–3.** Scene 2 needs Aya at F1 to identify the device class; §3.5 has her on location for the shoot. | Treatment Scenes 1–3; §3.5 | Writer: the E02 draft puts Scenes 1–3 at call time, before the crew leaves. Confirm or restage. |
+| A5 | **The level doc is still the trio.** `game/LVL-02-PERMISSION-SLIP.md` gives Nusrat and Miguel on-board mechanics. | §2.4 "needs a solo revision" | Writer: solo revision (off-board comms actions, cover phases, one-operator clocks). Draft notes: `story/episodes/S1E2-PERMISSION-SLIP-SOLO-PLAY-DRAFT.md` §8. |
+| A6 | **The 48-person pool reads as locked.** `story/RELATIONSHIP-ECOSYSTEM.md` "Split of the 48 secondaries (locked)" with "~1/3 locked as lasting company" arithmetic, while `CANON.md` §3 and §9.1 here treat the pool as a development pool and canon rejects casualty quotas. | `story/RELATIONSHIP-ECOSYSTEM.md` | Writer: relabel the split as a development plan, not a lock; drop the fraction arithmetic. |
+| A7 | **Proposed biographies under canon names.** `story/PRIM3-CHARACTER-DOSSIERS.md` is `PROPOSED`; a canon name and origin do not approve every age, habit or secret in the same record. Nusrat and Miguel in particular need owner-reviewed psychology before WATCH leans on it. | `story/PRIM3-CHARACTER-DOSSIERS.md` | Owner, one character at a time through the creation gate. |
+| A8 | **Remaining casualty slots.** E06's victim (if the slot is kept) and the RAID assault membership are unselected; §3.7 candidates are unpicked. | `CANON.md` §18; §3.7 | Owner. |
+
+**Already fixed on this branch (no action):** the nine-minute runtime (now 20–35 minutes); Layla Mansour's "McCluster" country (restored to Jordan); Memory 01's Amira and older roster (owners paired with the cast); McCluster's early relationship baseline (a newcomer at 33); the E02 role mismatch (superseded by Aya's solo); "Benji is McCluster's earlier identity" (Benji is Benjamin Chase, the clone). Song #21 / E18 stays pending as in question 13.
 
 ---
 
