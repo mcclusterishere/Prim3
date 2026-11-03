@@ -1,5 +1,5 @@
 ---
-status: CANON STORY RULE / MEMORY DETAILS PROPOSED UNTIL EPISODE DRAFTS LOCK
+status: CANON STORY RULE / MEMORY OWNERS LOCKED 2026-11-03 / MEMORY DETAILS PROPOSED UNTIL EPISODE DRAFTS LOCK
 system: High Alert reverse-memory architecture
 version: 2.0.0
 branch: main
@@ -63,7 +63,7 @@ S1E1 IMAGE
 
 **First-watch:** corporate-security imagery.
 
-**Full-episode freedom:** the episode can belong primarily to **Nusrat/Miguel/Amira** as a story about consistent rules and institutional pressure, with McCluster as the case that forces the question.
+**Episode owner:** **Nusrat / Miguel** (WATCH) (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast"); PLAY is Aya's solo (owner-approved 2026-11-02, `story/STORY-CONSOLIDATION-PROPOSAL.md` §2). McCluster is the case that forces the question; Amira, formerly listed here, is not an owner.
 
 **Hidden layer:** McCluster's access ultimately survives an escalation above the visible local tree. Do not label that authority `P-00`; use a cryptic root-class approval or no readable identifier until later.
 
@@ -77,7 +77,7 @@ S1E1 IMAGE
 
 **First-watch:** research montage.
 
-**Full-episode freedom:** the episode may be owned by **Oksana, Rafael, Aya, or another investigator**, with McCluster supporting or merely contributing one inference.
+**Episode owner:** **Oksana / Rafael** (WATCH) (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast"); PLAY is Hana's solo as Aya's reconstruction (owner-approved 2026-11-02). McCluster supports or contributes one inference at most.
 
 **Hidden layer:** PRIM2 can receive downstream work without physically walking behind McCluster in a library. The old mandatory physical-campus cameo is superseded.
 
@@ -91,7 +91,7 @@ S1E1 IMAGE
 
 **First-watch:** two unrelated social characters.
 
-**Episode owner candidate:** **Rae / Sora / Kira / Priya**. McCluster may be absent.
+**Episode owner:** **Priya / Sora** (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast"). Other people named in the flash are supporting presences; the memory's image stays.
 
 **Late payoff:** PRIM2 does not need a literal reflection between them. Their unknowingly coordinated existence is enough.
 
@@ -105,7 +105,7 @@ S1E1 IMAGE
 
 **First-watch:** team/family visual.
 
-**Episode owner candidate:** **Chioma / Thandiwe / ensemble**, not necessarily McCluster.
+**Episode owner:** **Chioma / Thandiwe** (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast"). Other people named in the flash are supporting presences; the memory's image stays.
 
 **Hidden layer:** a staffing recommendation to separate high-value people is rejected from above. PRIM2 understands that real loyalties make later authority tests meaningful.
 
@@ -119,7 +119,7 @@ S1E1 IMAGE
 
 **First-watch:** wireless crisis.
 
-**Episode owner candidate:** **Rafael / Hassan / Aya / Minh / affected veteran or family relationship**.
+**Episode owner:** **Sari / Yonas** (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast"). Other people named in the flash are supporting presences; the memory's image stays.
 
 **Hidden layer:** a senior authority accepts a decision prioritizing larger civilian response over one operator channel. PRIM2 did not cause the weather or the failure; he accepted a human cost.
 
@@ -133,7 +133,7 @@ S1E1 IMAGE
 
 **First-watch:** classified-file visual.
 
-**Episode owner candidate:** **Grace / Leila / Oksana / Hassan**, with McCluster's dossier one of several emotionally loaded exposures.
+**Episode owner:** **Leila / Li** (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast"). Other people named in the flash are supporting presences; the memory's image stays.
 
 **Hidden layer:** the old literal `P-00` code is deprecated. The important fact is that a hidden root authority exists, not that a convenient label spoils it.
 
@@ -147,7 +147,7 @@ S1E1 IMAGE
 
 **First-watch:** application/action graphics.
 
-**Episode owner candidate:** **Chioma / Aya / Minh / Leila**. McCluster may be the operator who challenges the order, but the emotional episode can belong to Chioma's command problem.
+**Episode owner:** **Aya / Minh** (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast"). Other people named in the flash are supporting presences; the memory's image stays.
 
 **Hidden layer:** if McCluster improvises successfully, do not make the success entirely PRIM2's gift. PRIM2 may shape an authorization boundary, but McCluster still has to perceive/execute the path and Chioma still owns the command consequence.
 
@@ -161,7 +161,7 @@ S1E1 IMAGE
 
 **First-watch:** infection metaphor.
 
-**Episode owner candidate:** **Aya / Minh / Leila / Sora or another compromised character**.
+**Episode owner:** **Dmitri / Oksana** (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast"). Other people named in the flash are supporting presences; the memory's image stays.
 
 **Hidden layer:** a senior observer may suspect the origin before the team and wait briefly for self-correction. This is an evaluation of truth under shame, not proof PRIM2 created the incident.
 
@@ -175,7 +175,7 @@ S1E1 IMAGE
 
 **First-watch:** relationship/career montage.
 
-**Episode owner candidate:** **Aya** as easily as McCluster.
+**Episode owner:** **Valeria** (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast"). Other people named in the flash are supporting presences; the memory's image stays.
 
 **Hidden layer:** PRIM2 does not manufacture their relationship. Once it exists, the institution models it and can make decisions around it.
 
@@ -189,7 +189,7 @@ S1E1 IMAGE
 
 **First-watch:** dead-operator relic.
 
-**Episode owner candidate:** **Rafael / Oksana / Aya / McCluster**, depending final episode design.
+**Episode owner:** **Grace / Rafael** (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast"). Other people named in the flash are supporting presences; the memory's image stays.
 
 **Later layer:** an earlier candidate/operator also approached hidden succession architecture and failed.
 
@@ -203,7 +203,7 @@ S1E1 IMAGE
 
 **First-watch:** smart-building autonomy/failover.
 
-**Episode owner candidate:** **Jonas / Pylon / Hassan / Minh**. McCluster can be supporting or absent.
+**Episode owner:** **Jonas / Pylon** (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast"). Other people named in the flash are supporting presences; the memory's image stays.
 
 **Hidden layer:** the building has access to higher-context authority originating through PRIM2's root layer. If this is the first physical meeting with PRIM2, the irony is that the characters have already interacted with his authority indirectly.
 
@@ -217,7 +217,7 @@ S1E1 IMAGE
 
 **First-watch:** stylized cloud/shared-responsibility imagery.
 
-**Episode owner candidate:** **Li / Yonas / Helen**.
+**Episode owner:** **Helen / Li / Yonas** (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast"). Other people named in the flash are supporting presences; the memory's image stays.
 
 **Hidden layer:** the visible program teaches distributed responsibility while the secret Mantle concentrates final authority.
 
@@ -231,7 +231,7 @@ S1E1 IMAGE
 
 **First-watch:** finance/ownership flex.
 
-**Episode owner candidate:** **Marc / Amira / Aya**. McCluster may contribute Wildcard operational perspective without owning the episode.
+**Episode owner:** **Amira / Marc** (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast"). Other people named in the flash are supporting presences; the memory's image stays.
 
 **Hidden layer:** PRIM2 often pays for independence because external dependency limits root authority.
 
@@ -245,7 +245,7 @@ S1E1 IMAGE
 
 **First-watch:** global logistics duplication.
 
-**Episode owner candidate:** **Li / Sari / Yonas / Sable / Rack**. McCluster does not need to receive either case personally.
+**Episode owner:** **Sari / Sable** (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast"). Other people named in the flash are supporting presences; the memory's image stays.
 
 **Evil Twin payoff:** the lanes belong to sibling structures under PRIM2's hidden board.
 
@@ -259,7 +259,7 @@ S1E1 IMAGE
 
 **First-watch:** team compensation/travel imagery.
 
-**Episode owner candidate:** **Arjun / Rafael / Sable / Dez / family/outside relationship**.
+**Episode owner:** **McCluster / Valeria** (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast"). Other people named in the flash are supporting presences; the memory's image stays.
 
 **Hidden layer:** institutional care and institutional instrumentality coexist. PRIM2 can sincerely protect compensation while also evaluating people as candidates/resources.
 
@@ -273,7 +273,7 @@ S1E1 IMAGE
 
 **First-watch:** relationship/institution trust crisis.
 
-**Episode owner candidate:** **Aya**.
+**Episode owner:** **Aya** (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast"). Other people named in the flash are supporting presences; the memory's image stays.
 
 **Current continuity:** DELETE the old locked idea that PRIM2 explicitly assigned Aya `MENTOR / OBSERVE / REPORT ANOMALIES` on McCluster from day one and therefore `introduced` the romance. That gives PRIM2 too much authorship over their relationship and conflicts with Aya's independent McCluster entry/Hana investigation.
 
@@ -294,6 +294,8 @@ A stronger version is:
 ## MEMORY 17 — S6E3 / Song #21 — Mission #18 OPEN
 
 **Flash:** McCluster knowingly invokes a formal challenge/succession condition; a hidden adjudication state changes from candidate/evaluation toward recognized challenge. PRIM2's current living-root identity is visible only through abstract system consequence, not a tutorial-like mechanic.
+
+**Episode owner:** **Leila / Helen / McCluster** (locked, `CANON.md` §21; owner decision 2026-11-03: "pair that with the cast").
 
 **First-watch:** fight paperwork / legalistic challenge imagery.
 
