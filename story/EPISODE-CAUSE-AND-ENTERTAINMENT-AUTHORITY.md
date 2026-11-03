@@ -242,7 +242,7 @@ Combat cannot substitute for the technical objective.
 
 # 10. WATCH vs PLAY
 
-- WATCH mission/action remains roughly three authored minutes inside the ~9-minute episode.
+- WATCH mission/action is a focused authored stretch inside the approximately 20–35-minute episode (`CANON.md` §1).
 - PLAY expands the same canonical event into roughly 15–30 minutes for normal missions.
 - Capstones may be longer/checkpointed.
 - WATCH may move between emotional viewpoints.

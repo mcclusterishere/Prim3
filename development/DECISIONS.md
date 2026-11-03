@@ -15,7 +15,7 @@ This ledger prevents AI collaborators from silently filling important blanks.
 
 ## Season One
 
-- [ ] Episode count and runtime
+- [x] Episode count and runtime — 21 episodes; WATCH about 20–35 minutes (`CANON.md` §1); stale nine-minute text standardised 2026-11-03
 - [ ] First cohort size
 - [ ] First supporting character to design
 - [x] ~~Internship cover department~~ — removed 2026-11-02 (owner: clean out the internship-that-is-secretly-an-exam version). McCluster joins Equity Uprise (`CANON.md` §19). The cover idea is kept as a proposal note only.
@@ -68,3 +68,4 @@ These are owner decisions, applied to canon on branch `claude/story-consolidatio
 - [x] **High Alert memory owners follow the cast.** Owner: "pair that with the cast." Each of the 17 memory anchors now names the locked owner of its episode from `CANON.md` §21 (Memory 01 Nusrat/Miguel, 02 Oksana/Rafael, 03 Priya/Sora, 04 Chioma/Thandiwe, 05 Sari/Yonas, 06 Leila/Li, 07 Aya/Minh, 08 Dmitri/Oksana, 09 Valeria, 10 Grace/Rafael, 11 Jonas/Pylon, 12 Helen/Li/Yonas, 13 Amira/Marc, 14 Sari/Sable, 15 McCluster/Valeria, 16 Aya, 17 Leila/Helen/McCluster). The flash images are kept.
 - [x] **Season 1 deaths are allowed.** Owner: "If somebody dies, they die … I think it's more cool." The "first death deferred to S2E3" restriction is removed from `seasons/SEASON-01.md`; `episodes/README.md` notes that E06 is a death slot, not the earliest. Nobody is chosen; candidates with rationale are in the proposal §3.7.
 - [ ] **Expanded ensemble.** Owner: "We should have a whole cast of people." Drafted as a plan by role in the proposal §9 (more PRIM-side E operators, a recurring F4 media crew, regional crews, Hitman/Apex depth, replacements, support layer; roughly +30 to +40 people). No new names are canon; each character still goes through the creation gate.
+- [x] **Housekeeping: runtime standardised on canon's 20–35 minutes** (owner instruction 2026-11-03 to apply the listed housekeeping). Files: `ARCHITECT.md`, `story/EPISODE-PROGRESSION.md`, `story/SERIES-ARC.md`, `story/EPISODE-CAUSE-AND-ENTERTAINMENT-AUTHORITY.md`.

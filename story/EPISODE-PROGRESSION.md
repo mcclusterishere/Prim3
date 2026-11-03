@@ -15,7 +15,7 @@ PRIM3 unfolds across **seven academic years**.
 - **3 episodes per season**
 - **21 episodes total**
 - **1 song = 1 episode = 1 mission**
-- WATCH target runtime remains approximately **9 minutes**, organized causally:
+- WATCH runs approximately **20–35 minutes** (`CANON.md` §1; the old nine-minute cap is retired), organized causally:
   - human trigger / cold open establishes why the operation matters;
   - music film becomes the stylized operational brief and teaches what the team believes should work;
   - human escalation reaches the mission threshold;
