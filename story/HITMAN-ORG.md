@@ -43,6 +43,10 @@ MCCLUSTER REFUSES
 
 Benji is therefore the current Hitman-side sovereign/rival figure.
 
+## Apex Tactical Corp
+
+Apex Tactical Corp is Hitman's corporate and tactical company (owner decision 2026-11-03): contracts, security work, vehicles, equipment and deniable black-site jobs, under the sovereign. It has nothing to do with McCluster Corp or Equity Uprise, and nothing to do with PRIM2's "Apex" intervention mechanic. See `world/corporations/APEX-TACTICAL-CORP.md`.
+
 ## PRIM2 relationship
 
 PRIM2's dual-board advantage comes from higher cross-compartment visibility and authority, not from an obsolete two-stage Evil Twin infiltration mission.

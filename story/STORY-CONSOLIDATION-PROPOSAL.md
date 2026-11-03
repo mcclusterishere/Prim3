@@ -38,6 +38,7 @@ This document does three things. It merges three storylines that grew up apart i
 | 6 | The PRIM Method stays private. | **RESOLVED** (no story change) | §7 row 1 |
 | 7 | Whip Equipped and I AM HERE songs are not PRIM3 cues: "PRIM3 is its own universe." | **RESOLVED** | §3.2, §5.2 |
 | 8 | Meridian: "get rid of it." | **RESOLVED** (no references exist) | §7 row 11 |
+| 9 | Apex Tactical Corp: "That's Hitman, I guess." | **RESOLVED** | `CANON.md` §19; Hitman org; Apex world file |
 | 4 | "All storyline missions are planned" applies except to real emergencies; E05, E06 and E16 stay emergencies. | **RESOLVED** | §3.1, §3.6, §5 |
 
 **Promotion to canon.** Under `AGENTS.md` "Change control", the approved sections still enter canon through a pull request that states existing canon, replacement, reason, downstream files and owner approval. Each approved item below carries those five fields in a box marked **CHANGE CONTROL**. Everything not marked **OWNER-APPROVED** stays **PROPOSED**.
@@ -546,7 +547,7 @@ The globe never shows: Hana's NIS role, the GLASSHOUSE name or causality, PRIM2 
 8. **PRIM Method.** **RESOLVED 2026-11-03:** stays private; kept out of story canon.
 9. **Whip Equipped and I AM HERE songs in PRIM3.** **RESOLVED 2026-11-03:** not PRIM3 cues; "PRIM3 is its own universe." Mappings removed (§3.2, §5.2).
 10. **Meridian.** **RESOLVED 2026-11-03:** dropped; no references remain.
-11. **Apex Tactical Corp.** After the internship clean-out, keep Apex as a named black-site layer beneath PRIM, or retire the organization and keep "Apex" only as the name of PRIM2's intervention mechanic? *Recommendation:* retire the organization; keep the mechanic name.
+11. **Apex Tactical Corp.** **RESOLVED 2026-11-03:** it belongs to Hitman ("That's Hitman, I guess"); re-homed under the Hitman organisation (`CANON.md` §19; `world/corporations/APEX-TACTICAL-CORP.md`; `story/HITMAN-ORG.md`). The PRIM2 "Apex" mechanic keeps its name.
 12. **E03's facility.** Make the "facility opening" in Open Book the North River hub's reopening, which binds Oksana and Rafael's case to Aya's reconstruction? *Recommendation:* yes; it is the strongest single join in the merged spine.
 13. **Song #21.** Title and lyrics for E18 when you are ready; nothing will be filled from existing songs.
 14. **JANUS.** **RESOLVED 2026-11-03:** adopted, adapted to "clone of McCluster" (`story/BENJI-CHASE-JANUS-ORIGIN-CANON.md`).

@@ -59,7 +59,7 @@ Physical swatches control production. Screen values are starting points.
 - Full monogram repeat belongs on controlled statement outerwear, linings, accessories, and special pieces—not across an entire matching shirt-and-trouser uniform.
 - A complete employee outfit must never read as pajamas, a tracksuit, a costume, a clown suit, or public promotional merch.
 - The exact first-season onboarding package remains to be designed one item at a time.
-- Apex Tactical Corp branding is not interchangeable with McCluster Corp branding.
+- Apex Tactical Corp is a Hitman company (owner decision 2026-11-03); its branding never appears on McCluster Corp or Equity Uprise pieces.
 
 ## Narrative function
 

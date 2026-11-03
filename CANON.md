@@ -570,8 +570,8 @@ McCluster Corp is a major multi-million-dollar organisation (owner: "This is a m
 ### Hitman
 Separate multinational street/corporate operational system beneath PRIM2's hidden cross-board view. McCluster formerly operated there (ages 19–26); Benji is the contemporary successor/sovereign.
 
-### Apex
-Where referenced, black-site/parent layer above fronts. Do not use Apex to contradict McCluster holding-company authority or PRIM root canon.
+### Apex Tactical Corp
+A **Hitman** company (owner decision, 2026-11-03: "That's Hitman, I guess"): the corporate and tactical face of the Hitman organisation under its sovereign, Benji. It does not own or control McCluster Corp or Equity Uprise. The game's "Apex" intervention (§15) is PRIM2's and unrelated to it. See `world/corporations/APEX-TACTICAL-CORP.md`.
 
 ---
 
