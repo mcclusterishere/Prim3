@@ -208,11 +208,11 @@ test('mission requires technical node and objective state before completion', ()
 });
 
 test('extraction can remain a separate completion requirement', () => {
-  let state = baseState({
+  let state = beginPlayerPhase(baseState({
     extractionRequired: true,
     nodes: [{ id: 'NODE1', state: 'VERIFIED', required: true }],
     objectives: [{ id: 'PRIMARY', required: true, state: 'COMPLETE' }]
-  });
+  }));
   assert.equal(missionComplete(state), false);
   state = extractUnit(state, 'R1');
   state = extractUnit(state, 'T1');
