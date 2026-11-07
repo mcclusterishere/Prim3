@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:prim3:attributes:catalog:1.0.0",
+  "title": "PRIM3 attributed content registry",
+  "description": "Definition catalog. Live mission state is a separate instance overlay. Cross-record integrity is checked by validate_catalog.py.",
+  "type": "object",
+  "required": ["schemaVersion", "title", "generatedAt", "scope", "sourceRevisions", "summary", "entities", "sources", "fields", "issues"],
+  "properties": {
+    "schemaVersion": {"const": "1.0.0"},
+    "title": {"type": "string"},
+    "generatedAt": {"type": "string"},
+    "scope": {"type": "string"},
+    "sourceRevisions": {"type": "object", "required": ["canon", "prototype"], "additionalProperties": {"type": "string"}},
+    "statePolicy": {"type": "object"},
+    "summary": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+    "categories": {"type": "array", "items": {"type": "object", "required": ["id", "label", "count"], "properties": {"id": {"type": "string"}, "label": {"type": "string"}, "count": {"type": "integer", "minimum": 0}}}},
+    "entities": {"type": "array", "items": {"$ref": "#/$defs/entity"}},
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+    "fields": {"type": "array", "items": {"$ref": "#/$defs/field"}},
+    "issues": {"type": "array", "items": {"$ref": "#/$defs/issue"}},
+    "supplementary": {"type": "object", "additionalProperties": {"type": "string"}}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "status": {"enum": ["runtime", "canon", "proposed", "draft", "legacy", "reference"]},
+    "attribute": {
+      "type": "object",
+      "required": ["key", "value", "state", "unit", "origin", "sourceIds", "note"],
+      "properties": {
+        "key": {"type": "string", "minLength": 1},
+        "label": {"type": "string"},
+        "value": {},
+        "state": {"enum": ["defined", "unknown", "not_applicable", "conflict"]},
+        "unit": {"type": ["string", "null"]},
+        "origin": {"enum": ["runtime", "canon", "proposed", "draft", "legacy", "reference", "derived"]},
+        "sourceIds": {"$ref": "#/$defs/ids"},
+        "note": {"type": "string"}
+      },
+      "allOf": [
+        {"if": {"properties": {"state": {"enum": ["unknown", "not_applicable"]}}}, "then": {"properties": {"value": {"type": "null"}}}},
+        {"if": {"properties": {"state": {"const": "defined"}}}, "then": {"properties": {"value": {"not": {"type": "null"}}}}}
+      ],
+      "additionalProperties": false
+    },
+    "relation": {
+      "type": "object", "required": ["type", "targetId", "note"],
+      "properties": {"type": {"type": "string"}, "targetId": {"type": "string"}, "note": {"type": "string"}},
+      "additionalProperties": false
+    },
+    "entity": {
+      "type": "object",
+      "required": ["id", "name", "kind", "category", "status", "implementation", "description", "tags", "sourceIds", "attributes", "relations", "gaps"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1}, "name": {"type": "string", "minLength": 1},
+        "kind": {"type": "string"}, "category": {"type": "string"}, "status": {"$ref": "#/$defs/status"},
+        "implementation": {"enum": ["runtime", "asset_only", "design_only", "schema_only", "legacy"]},
+        "description": {"type": "string"}, "tags": {"type": "array", "items": {"type": "string"}},
+        "sourceIds": {"$ref": "#/$defs/ids"}, "attributes": {"type": "array", "items": {"$ref": "#/$defs/attribute"}},
+        "relations": {"type": "array", "items": {"$ref": "#/$defs/relation"}},
+        "gaps": {"type": "array", "items": {"type": "string"}}, "preview": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object", "required": ["id", "path", "repository", "commit", "declaredStatus", "url", "localPath", "sha256"],
+      "properties": {
+        "id": {"type": "string"}, "path": {"type": "string"}, "repository": {"type": "string"},
+        "commit": {"type": ["string", "null"]}, "declaredStatus": {"type": "string"}, "url": {"type": "string"},
+        "localPath": {"type": "string"}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      },
+      "additionalProperties": false
+    },
+    "field": {
+      "type": "object", "required": ["key", "label", "type", "unit", "description", "appliesTo", "requiredFor"],
+      "properties": {
+        "key": {"type": "string"}, "label": {"type": "string"},
+        "type": {"enum": ["string", "integer", "number", "boolean", "array", "object", "reference", "mixed"]},
+        "unit": {"type": ["string", "null"]}, "description": {"type": "string"},
+        "appliesTo": {"type": "array", "items": {"type": "string"}}, "requiredFor": {"type": "string"}, "enum": {"type": "array"}
+      },
+      "additionalProperties": false
+    },
+    "issue": {
+      "type": "object", "required": ["id", "severity", "entityIds", "description", "sourceIds", "resolution"],
+      "properties": {
+        "id": {"type": "string"}, "severity": {"type": "string"}, "entityIds": {"$ref": "#/$defs/ids"},
+        "description": {"type": "string"}, "sourceIds": {"$ref": "#/$defs/ids"}, "resolution": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
+  }
+}

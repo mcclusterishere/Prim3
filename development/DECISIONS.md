@@ -40,3 +40,13 @@ This ledger prevents AI collaborators from silently filling important blanks.
 - [ ] Voice policy and performer consent
 - [ ] Music/album synchronization
 - [ ] Git LFS or external media storage policy
+
+## Game data (decided 2026-11-03; see `data/attributes/v1/DECISIONS-2026-11-03.md`)
+
+- [x] Black Signal prototype numbers: not adopted; kept as reference only (owner)
+- [x] Extra Sync Pulses: level-2 **Overclock** upgrade, +1 pulse (2 per mission), 1 upgrade point, optional (owner, delegated)
+- [x] Country badges: on-screen UI only (HUD chip, roster card, World globe card), never on 3D models (owner, delegated)
+- [x] Equipment real-world sizes (metres, kg; GLBs normalized to them): owner-approved 2026-11-03 ("I accept your proposals")
+- [x] T fifth module: cap stays 4, Isolation Sleeve displaces the Integrity Dongle: owner-approved 2026-11-03 ("I accept your proposals")
+- [x] Grid scale: 1 tile = 3.54 m (owner 2026-11-03: "instead of 1.6, make it like 3.54"); kit sizes unchanged; levels set `TILE_M = 3.54`
+- [x] Layla Mansour's country: Jordan (restored on the story branch after the Sept 24 find-and-replace; owner 2026-11-02)

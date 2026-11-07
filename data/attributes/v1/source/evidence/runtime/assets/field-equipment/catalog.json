@@ -1,0 +1,1419 @@
+{
+  "schemaVersion": 1,
+  "id": "prim3-field-equipment-v1",
+  "name": "PRIM3 Field Equipment",
+  "version": "1.0.0",
+  "status": "proposed",
+  "units": "artistic-game-unit",
+  "upAxis": "Y",
+  "pivot": "bottom-center",
+  "materials": {
+    "polymer": {
+      "color": [
+        0.033104766570885055,
+        0.04091519690685319,
+        0.05126945837404324,
+        1
+      ],
+      "metallic": 0.06,
+      "roughness": 0.7
+    },
+    "gunmetal": {
+      "color": [
+        0.052860647023180246,
+        0.06847816984440017,
+        0.08650046203654976,
+        1
+      ],
+      "metallic": 0.78,
+      "roughness": 0.36
+    },
+    "edge": {
+      "color": [
+        0.1589608350608804,
+        0.18782077230067787,
+        0.21586050011389926,
+        1
+      ],
+      "metallic": 0.82,
+      "roughness": 0.28
+    },
+    "rubber": {
+      "color": [
+        0.014443843596092545,
+        0.018500220128379697,
+        0.02315336617811041,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9
+    },
+    "fabric": {
+      "color": [
+        0.03433980680868217,
+        0.0382043715953465,
+        0.042311410620809675,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.98
+    },
+    "webbing": {
+      "color": [
+        0.017641954488384078,
+        0.02315336617811041,
+        0.027320891639074894,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.93
+    },
+    "ivory": {
+      "color": [
+        0.5209955732043543,
+        0.5457244613701866,
+        0.4793201831008268,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.65
+    },
+    "red": {
+      "color": [
+        0.15292615199615017,
+        0.04817182422688942,
+        0.0595112381629812,
+        1
+      ],
+      "metallic": 0.12,
+      "roughness": 0.65
+    },
+    "lens": {
+      "color": [
+        0.016807375752887384,
+        0.09758734714186246,
+        0.09305896284668745,
+        1
+      ],
+      "metallic": 0.32,
+      "roughness": 0.12
+    },
+    "screen": {
+      "color": [
+        0.006995410187265387,
+        0.026241221894849898,
+        0.030713443732993635,
+        1
+      ],
+      "metallic": 0.1,
+      "roughness": 0.18
+    },
+    "cyan": {
+      "color": [
+        0.08650046203654976,
+        0.4851499400560704,
+        0.44520119451622786,
+        1
+      ],
+      "metallic": 0.06,
+      "roughness": 0.4,
+      "emissive": [
+        0.015,
+        0.08,
+        0.07
+      ]
+    }
+  },
+  "assets": [
+    {
+      "id": "e-compact-carbine",
+      "name": "E / Compact carbine",
+      "role": "E",
+      "category": "Weapons",
+      "description": "Compact black entry prop with an open skeletal stock, short ribbed fore-end, enclosed sight hood, and attachment sockets for the operator's hands and sling.",
+      "reference": "Field E \u2014 Approach & Entry, Loadout Concept 01, item 13. Original procedural exterior interpretation; not a reference-exact production mesh.",
+      "number": 1,
+      "model": "models/e-compact-carbine.glb",
+      "preview": "previews/e-compact-carbine.png",
+      "card": "cards/e-compact-carbine.md",
+      "views": {
+        "front": "previews/e-compact-carbine-front.png",
+        "back": "previews/e-compact-carbine-back.png",
+        "left": "previews/e-compact-carbine-left.png",
+        "right": "previews/e-compact-carbine-right.png"
+      },
+      "bounds": [
+        [
+          -0.54725,
+          0.0,
+          -0.05575
+        ],
+        [
+          0.54725,
+          0.424,
+          0.05575
+        ]
+      ],
+      "statistics": {
+        "vertices": 6998,
+        "triangles": 3552,
+        "drawCalls": 5,
+        "bytes": 215760
+      },
+      "sockets": {
+        "grip_r": {
+          "position": [
+            -0.16175,
+            0.092,
+            -0.0027500000000000024
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "grip_l": {
+          "position": [
+            0.22325,
+            0.18999999999999997,
+            -0.0027500000000000024
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "sling_front": {
+          "position": [
+            0.35325,
+            0.19499999999999998,
+            0.05225
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "sling_rear": {
+          "position": [
+            -0.47275,
+            0.17200000000000001,
+            0.05225
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "29cec7a945019bd8aae593d0479c3edd698324c383098c6873b740795931b782"
+    },
+    {
+      "id": "r-overwatch-rifle",
+      "name": "R / Overwatch rifle",
+      "role": "R",
+      "category": "Weapons",
+      "description": "Long black recon prop with a conventional sculpted stock, raised cheek rest, slender fore-end, and stepped scope silhouette with coated lenses.",
+      "reference": "Field-R / Static Overwatch, item 17. Original procedural exterior interpretation; not a reference-exact production mesh.",
+      "number": 2,
+      "model": "models/r-overwatch-rifle.glb",
+      "preview": "previews/r-overwatch-rifle.png",
+      "card": "cards/r-overwatch-rifle.md",
+      "views": {
+        "front": "previews/r-overwatch-rifle-front.png",
+        "back": "previews/r-overwatch-rifle-back.png",
+        "left": "previews/r-overwatch-rifle-left.png",
+        "right": "previews/r-overwatch-rifle-right.png"
+      },
+      "bounds": [
+        [
+          -0.694449,
+          0.0,
+          -0.077
+        ],
+        [
+          0.694449,
+          0.366,
+          0.077
+        ]
+      ],
+      "statistics": {
+        "vertices": 6498,
+        "triangles": 3676,
+        "drawCalls": 5,
+        "bytes": 205348
+      },
+      "sockets": {
+        "grip_r": {
+          "position": [
+            -0.3275507926323279,
+            0.08100000000000002,
+            -0.018000000000000002
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "grip_l": {
+          "position": [
+            0.11444920736767214,
+            0.07400000000000001,
+            -0.018000000000000002
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "sling_front": {
+          "position": [
+            0.2364492073676721,
+            0.049000000000000016,
+            -0.018000000000000002
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "sling_rear": {
+          "position": [
+            -0.5385507926323279,
+            0.049000000000000016,
+            -0.018000000000000002
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "a7d7c05000736e48d20e3334717aa8018d06084158b6cb70be48e925129aff81"
+    },
+    {
+      "id": "service-sidearm",
+      "name": "Service sidearm",
+      "role": "E/R/T",
+      "category": "Weapons",
+      "description": "Compact shared black sidearm prop with a chamfered upper shell, textured grip panels, shallow external grooves and a separate holster attachment socket.",
+      "reference": "Field E item 11; Field R item 15; Field T holstered sidearm. Original procedural exterior interpretation; not a reference-exact production mesh.",
+      "number": 3,
+      "model": "models/service-sidearm.glb",
+      "preview": "previews/service-sidearm.png",
+      "card": "cards/service-sidearm.md",
+      "views": {
+        "front": "previews/service-sidearm-front.png",
+        "back": "previews/service-sidearm-back.png",
+        "left": "previews/service-sidearm-left.png",
+        "right": "previews/service-sidearm-right.png"
+      },
+      "bounds": [
+        [
+          -0.141581,
+          0.0,
+          -0.03075
+        ],
+        [
+          0.141581,
+          0.233324,
+          0.03075
+        ]
+      ],
+      "statistics": {
+        "vertices": 3294,
+        "triangles": 1672,
+        "drawCalls": 5,
+        "bytes": 104164
+      },
+      "sockets": {
+        "grip_r": {
+          "position": [
+            -0.08941876037843421,
+            0.08932420057217996,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "grip_l": {
+          "position": [
+            -0.06441876037843422,
+            0.10132420057217997,
+            0.031
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "holster": {
+          "position": [
+            -0.006418760378434219,
+            0.15332420057217996,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "8771ed00b1622f8a5a6282a028036e360fdb6b8bd5a8b3a56150b6f0189a7237"
+    },
+    {
+      "id": "retention-holster",
+      "name": "Retention holster",
+      "role": "Shared",
+      "category": "Carry",
+      "description": "Molded charcoal sidearm shell with a broad belt bracket and subdued retention tab.",
+      "reference": "Owner Field E / Approach & Entry loadout board; Owner Field R / Static Overwatch loadout board",
+      "number": 4,
+      "model": "models/retention-holster.glb",
+      "preview": "previews/retention-holster.png",
+      "card": "cards/retention-holster.md",
+      "views": {
+        "front": "previews/retention-holster-front.png",
+        "back": "previews/retention-holster-back.png",
+        "left": "previews/retention-holster-left.png",
+        "right": "previews/retention-holster-right.png"
+      },
+      "bounds": [
+        [
+          -0.06075,
+          0.0,
+          -0.0567
+        ],
+        [
+          0.06075,
+          0.202,
+          0.0567
+        ]
+      ],
+      "statistics": {
+        "vertices": 940,
+        "triangles": 456,
+        "drawCalls": 5,
+        "bytes": 32892
+      },
+      "sockets": {
+        "sock_hip_holster_r": {
+          "position": [
+            -0.0017500000000000016,
+            0.11800000000000001,
+            -0.05869999999999999
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "socket_sidearm": {
+          "position": [
+            -0.0017500000000000016,
+            0.178,
+            0.015300000000000005
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "1c21d9c9a8b043a2f501c8ca9bb4b6af42a563a546c5d6a25b8b3618f1523c03"
+    },
+    {
+      "id": "field-cyberdeck",
+      "name": "Field cyberdeck",
+      "role": "T",
+      "category": "Technical",
+      "description": "Open rugged field computer with an armored shell, mechanical-looking keyboard and restrained teal display.",
+      "reference": "Owner Field T / Technical standard loadout board",
+      "number": 5,
+      "model": "models/field-cyberdeck.glb",
+      "preview": "previews/field-cyberdeck.png",
+      "card": "cards/field-cyberdeck.md",
+      "views": {
+        "front": "previews/field-cyberdeck-front.png",
+        "back": "previews/field-cyberdeck-back.png",
+        "left": "previews/field-cyberdeck-left.png",
+        "right": "previews/field-cyberdeck-right.png"
+      },
+      "bounds": [
+        [
+          -0.205,
+          0.0,
+          -0.163073
+        ],
+        [
+          0.205,
+          0.311129,
+          0.163073
+        ]
+      ],
+      "statistics": {
+        "vertices": 8544,
+        "triangles": 3980,
+        "drawCalls": 6,
+        "bytes": 258972
+      },
+      "sockets": {
+        "sock_deck_hand": {
+          "position": [
+            0.0,
+            0.004499999999999998,
+            0.04257317061856982
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "sock_deck_sling": {
+          "position": [
+            -0.2,
+            0.0315,
+            -0.06242682938143018
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "pivot_lid": {
+          "position": [
+            0.0,
+            0.0605,
+            -0.10442682938143018
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "mark_zone": {
+          "position": [
+            0.144,
+            0.2775,
+            -0.11242682938143019
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "79f894a3851626a44ee1aefd40c7aa501e4ba1ab850cd089de3f62be6b898a3e"
+    },
+    {
+      "id": "compact-binoculars",
+      "name": "Compact binoculars",
+      "role": "R",
+      "category": "Recon",
+      "description": "Paired rubber-armored optical barrels, recessed lenses, central hinge and textured focus wheel.",
+      "reference": "Owner Field R / Static Overwatch loadout board",
+      "number": 6,
+      "model": "models/compact-binoculars.glb",
+      "preview": "previews/compact-binoculars.png",
+      "card": "cards/compact-binoculars.md",
+      "views": {
+        "front": "previews/compact-binoculars-front.png",
+        "back": "previews/compact-binoculars-back.png",
+        "left": "previews/compact-binoculars-left.png",
+        "right": "previews/compact-binoculars-right.png"
+      },
+      "bounds": [
+        [
+          -0.074,
+          0.0,
+          -0.0825
+        ],
+        [
+          0.074,
+          0.075039,
+          0.0825
+        ]
+      ],
+      "statistics": {
+        "vertices": 2808,
+        "triangles": 1708,
+        "drawCalls": 5,
+        "bytes": 92900
+      },
+      "sockets": {
+        "sock_optics_hand": {
+          "position": [
+            0.0,
+            0.017000000000000005,
+            -0.0005000000000000004
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "sock_optics_chest": {
+          "position": [
+            0.0,
+            0.036000000000000004,
+            -0.0815
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "mark_zone": {
+          "position": [
+            0.0,
+            0.051000000000000004,
+            0.0115
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "c5fc0a5ab7b65cea1117c648bae7a334041affc4260e608542897535440d6a50"
+    },
+    {
+      "id": "team-radio",
+      "name": "Team radio",
+      "role": "Shared",
+      "category": "Comms",
+      "description": "Ribbed team radio with short antenna, two top controls, speaker grille and rear belt clip.",
+      "reference": "Owner Field E / Approach & Entry loadout board; Owner Field T / Technical standard loadout board",
+      "number": 7,
+      "model": "models/team-radio.glb",
+      "preview": "previews/team-radio.png",
+      "card": "cards/team-radio.md",
+      "views": {
+        "front": "previews/team-radio-front.png",
+        "back": "previews/team-radio-back.png",
+        "left": "previews/team-radio-left.png",
+        "right": "previews/team-radio-right.png"
+      },
+      "bounds": [
+        [
+          -0.03875,
+          0.0,
+          -0.0305
+        ],
+        [
+          0.03875,
+          0.2155,
+          0.0305
+        ]
+      ],
+      "statistics": {
+        "vertices": 1920,
+        "triangles": 924,
+        "drawCalls": 5,
+        "bytes": 62004
+      },
+      "sockets": {
+        "sock_radio_support": {
+          "position": [
+            -0.0027500000000000024,
+            0.0775,
+            -0.0315
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "socket_earpiece": {
+          "position": [
+            0.03025,
+            0.1055,
+            0.0025000000000000022
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "55c279c895f91c987fa175dca530deb6eaa5b1e638d6ead44cd1cccb85a342e0"
+    },
+    {
+      "id": "comms-headset",
+      "name": "Comms headset",
+      "role": "E / R",
+      "category": "Comms",
+      "description": "Thin padded headband, compact ear cups and a low-profile microphone boom.",
+      "reference": "Owner Field E / Approach & Entry loadout board; Owner Field R / Static Overwatch loadout board",
+      "number": 8,
+      "model": "models/comms-headset.glb",
+      "preview": "previews/comms-headset.png",
+      "card": "cards/comms-headset.md",
+      "views": {
+        "front": "previews/comms-headset-front.png",
+        "back": "previews/comms-headset-back.png",
+        "left": "previews/comms-headset-left.png",
+        "right": "previews/comms-headset-right.png"
+      },
+      "bounds": [
+        [
+          -0.122,
+          0.0,
+          -0.0685
+        ],
+        [
+          0.122,
+          0.185984,
+          0.0685
+        ]
+      ],
+      "statistics": {
+        "vertices": 4008,
+        "triangles": 2104,
+        "drawCalls": 3,
+        "bytes": 124660
+      },
+      "sockets": {
+        "sock_headset": {
+          "position": [
+            0.0,
+            0.168,
+            -0.0395
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "pivot_mic": {
+          "position": [
+            0.114,
+            0.042,
+            -0.0295
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "b595a75d50c8a7130e325909ec84f2f8f5522550cd2fa88ff823ee2abd18ffba"
+    },
+    {
+      "id": "body-camera",
+      "name": "Body recorder",
+      "role": "Shared",
+      "category": "Comms",
+      "description": "Armored chest recorder with circular lens, recessed face and tiny restrained status lamp.",
+      "reference": "Owner Field E / Approach & Entry loadout board; Owner Field T / Technical standard loadout board",
+      "number": 9,
+      "model": "models/body-camera.glb",
+      "preview": "previews/body-camera.png",
+      "card": "cards/body-camera.md",
+      "views": {
+        "front": "previews/body-camera-front.png",
+        "back": "previews/body-camera-back.png",
+        "left": "previews/body-camera-left.png",
+        "right": "previews/body-camera-right.png"
+      },
+      "bounds": [
+        [
+          -0.027,
+          0.0,
+          -0.028
+        ],
+        [
+          0.027,
+          0.076,
+          0.028
+        ]
+      ],
+      "statistics": {
+        "vertices": 1092,
+        "triangles": 592,
+        "drawCalls": 6,
+        "bytes": 38852
+      },
+      "sockets": {
+        "sock_chest_recorder": {
+          "position": [
+            0.0,
+            0.039,
+            -0.028999999999999998
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "mark_zone": {
+          "position": [
+            0.0,
+            0.031,
+            0.017
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "5d7c37c062b9450f99eb74f3da559dceda3a44a325954e5866df6b0c880a4ff0"
+    },
+    {
+      "id": "entry-tool",
+      "name": "Entry tool + sheath",
+      "role": "E",
+      "category": "Utility",
+      "description": "Short flat entry-tool silhouette with worn edge accents and a separate textile sheath alongside it.",
+      "reference": "Owner Field E / Approach & Entry loadout board",
+      "number": 10,
+      "model": "models/entry-tool.glb",
+      "preview": "previews/entry-tool.png",
+      "card": "cards/entry-tool.md",
+      "views": {
+        "front": "previews/entry-tool-front.png",
+        "back": "previews/entry-tool-back.png",
+        "left": "previews/entry-tool-left.png",
+        "right": "previews/entry-tool-right.png"
+      },
+      "bounds": [
+        [
+          -0.182,
+          0.0,
+          -0.0145
+        ],
+        [
+          0.182,
+          0.119,
+          0.0145
+        ]
+      ],
+      "statistics": {
+        "vertices": 1986,
+        "triangles": 960,
+        "drawCalls": 6,
+        "bytes": 64844
+      },
+      "sockets": {
+        "sock_tool_hip": {
+          "position": [
+            0.09800000000000002,
+            0.020999999999999998,
+            -0.0175
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "socket_tool_grip": {
+          "position": [
+            -0.001999999999999988,
+            0.094,
+            -0.0004999999999999996
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "8984e12892c8bc5e3b4ffa6a39009bb4521564b6a258fbeac6f5af2ee3036cb0"
+    },
+    {
+      "id": "interface-kit",
+      "name": "Interface kit",
+      "role": "T",
+      "category": "Technical",
+      "description": "Open protective case with foam insert, coiled cable and three generic interface tips.",
+      "reference": "Owner Field T / Technical standard loadout board",
+      "number": 11,
+      "model": "models/interface-kit.glb",
+      "preview": "previews/interface-kit.png",
+      "card": "cards/interface-kit.md",
+      "views": {
+        "front": "previews/interface-kit-front.png",
+        "back": "previews/interface-kit-back.png",
+        "left": "previews/interface-kit-left.png",
+        "right": "previews/interface-kit-right.png"
+      },
+      "bounds": [
+        [
+          -0.1175,
+          0.0,
+          -0.09
+        ],
+        [
+          0.1175,
+          0.22,
+          0.09
+        ]
+      ],
+      "statistics": {
+        "vertices": 3810,
+        "triangles": 1976,
+        "drawCalls": 6,
+        "bytes": 120844
+      },
+      "sockets": {
+        "sock_module_belt_f": {
+          "position": [
+            0.0,
+            0.011000000000000001,
+            -0.07900000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "pivot_case_lid": {
+          "position": [
+            0.0,
+            0.052,
+            -0.07200000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "mark_zone": {
+          "position": [
+            0.074,
+            0.196,
+            -0.067
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "048941a1947f56ff0fd6d4674ae61018a071cb2e5458c13d6db3fe557904adfe"
+    },
+    {
+      "id": "write-block-bridge",
+      "name": "Write-block bridge",
+      "role": "T",
+      "category": "Technical",
+      "description": "Small armored inline bridge with opposite-end connector shells and one subdued indicator.",
+      "reference": "Owner Field T / Technical standard loadout board",
+      "number": 12,
+      "model": "models/write-block-bridge.glb",
+      "preview": "previews/write-block-bridge.png",
+      "card": "cards/write-block-bridge.md",
+      "views": {
+        "front": "previews/write-block-bridge-front.png",
+        "back": "previews/write-block-bridge-back.png",
+        "left": "previews/write-block-bridge-left.png",
+        "right": "previews/write-block-bridge-right.png"
+      },
+      "bounds": [
+        [
+          -0.077,
+          0.0,
+          -0.0356
+        ],
+        [
+          0.077,
+          0.052,
+          0.0356
+        ]
+      ],
+      "statistics": {
+        "vertices": 912,
+        "triangles": 476,
+        "drawCalls": 5,
+        "bytes": 32636
+      },
+      "sockets": {
+        "sock_module_belt_f": {
+          "position": [
+            0.0,
+            0.026,
+            -0.0366
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "socket_cable_in": {
+          "position": [
+            -0.078,
+            0.026,
+            -0.002599999999999998
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "socket_cable_out": {
+          "position": [
+            0.078,
+            0.026,
+            -0.002599999999999998
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "mark_zone": {
+          "position": [
+            -0.015,
+            0.026,
+            0.0334
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "5fbfef4d94ecca7cd0748b46816c41491b572f1c85938067be28ae12cd36b789"
+    },
+    {
+      "id": "offline-storage",
+      "name": "Offline storage",
+      "role": "T",
+      "category": "Technical",
+      "description": "Flat rugged data store with reinforced corners and a recessed connector edge.",
+      "reference": "Owner Field T / Technical standard loadout board",
+      "number": 13,
+      "model": "models/offline-storage.glb",
+      "preview": "previews/offline-storage.png",
+      "card": "cards/offline-storage.md",
+      "views": {
+        "front": "previews/offline-storage-front.png",
+        "back": "previews/offline-storage-back.png",
+        "left": "previews/offline-storage-left.png",
+        "right": "previews/offline-storage-right.png"
+      },
+      "bounds": [
+        [
+          -0.0565,
+          0.0,
+          -0.042
+        ],
+        [
+          0.0565,
+          0.031,
+          0.042
+        ]
+      ],
+      "statistics": {
+        "vertices": 1440,
+        "triangles": 684,
+        "drawCalls": 5,
+        "bytes": 47632
+      },
+      "sockets": {
+        "sock_module_chest_a": {
+          "position": [
+            0.0,
+            0.0015000000000000013,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "socket_data": {
+          "position": [
+            0.057,
+            0.015500000000000002,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "mark_zone": {
+          "position": [
+            0.0,
+            0.030500000000000003,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "0b722a0a4291d159783cadee7f87fc562f27228272667bf5d988c193f91aabb1"
+    },
+    {
+      "id": "spare-power",
+      "name": "Spare power",
+      "role": "T",
+      "category": "Technical",
+      "description": "Pocket battery module with a segmented protective shell and four tiny charge indicators.",
+      "reference": "Owner Field T / Technical standard loadout board",
+      "number": 14,
+      "model": "models/spare-power.glb",
+      "preview": "previews/spare-power.png",
+      "card": "cards/spare-power.md",
+      "views": {
+        "front": "previews/spare-power-front.png",
+        "back": "previews/spare-power-back.png",
+        "left": "previews/spare-power-left.png",
+        "right": "previews/spare-power-right.png"
+      },
+      "bounds": [
+        [
+          -0.04325,
+          0.0,
+          -0.02025
+        ],
+        [
+          0.04325,
+          0.135,
+          0.02025
+        ]
+      ],
+      "statistics": {
+        "vertices": 1056,
+        "triangles": 508,
+        "drawCalls": 4,
+        "bytes": 35416
+      },
+      "sockets": {
+        "sock_module_belt_r": {
+          "position": [
+            -0.0002500000000000002,
+            0.064,
+            -0.021750000000000002
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "socket_power": {
+          "position": [
+            -0.0002500000000000002,
+            0.136,
+            -0.0007500000000000007
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "61373400ab338b54c6b0ada083bec3f72897630a89d83dca785959819cc4e33c"
+    },
+    {
+      "id": "access-pouch",
+      "name": "Access-tool pouch",
+      "role": "E",
+      "category": "Carry",
+      "description": "Low-profile zippered textile pouch with stitched front panel, belt loops and dark red pulls.",
+      "reference": "Owner Field E / Approach & Entry loadout board",
+      "number": 15,
+      "model": "models/access-pouch.glb",
+      "preview": "previews/access-pouch.png",
+      "card": "cards/access-pouch.md",
+      "views": {
+        "front": "previews/access-pouch-front.png",
+        "back": "previews/access-pouch-back.png",
+        "left": "previews/access-pouch-left.png",
+        "right": "previews/access-pouch-right.png"
+      },
+      "bounds": [
+        [
+          -0.0775,
+          0.0,
+          -0.041608
+        ],
+        [
+          0.0775,
+          0.094,
+          0.041608
+        ]
+      ],
+      "statistics": {
+        "vertices": 2040,
+        "triangles": 1060,
+        "drawCalls": 6,
+        "bytes": 67480
+      },
+      "sockets": {
+        "sock_hip_pouch": {
+          "position": [
+            0.0,
+            0.052640000000000006,
+            -0.0405177800880685
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "mark_zone": {
+          "position": [
+            0.0,
+            0.04888,
+            0.033802219911931504
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "e13357320951e786d4286187ef59516d417af298808010fcd4c69354687ae632"
+    },
+    {
+      "id": "medical-pouch",
+      "name": "Medical pouch",
+      "role": "E",
+      "category": "Carry",
+      "description": "Horizontal fabric pouch with a small ivory MED patch, front seam and restrained red zipper pulls.",
+      "reference": "Owner Field E / Approach & Entry loadout board",
+      "number": 16,
+      "model": "models/medical-pouch.glb",
+      "preview": "previews/medical-pouch.png",
+      "card": "cards/medical-pouch.md",
+      "views": {
+        "front": "previews/medical-pouch-front.png",
+        "back": "previews/medical-pouch-back.png",
+        "left": "previews/medical-pouch-left.png",
+        "right": "previews/medical-pouch-right.png"
+      },
+      "bounds": [
+        [
+          -0.085,
+          0.0,
+          -0.043457
+        ],
+        [
+          0.085,
+          0.105,
+          0.043457
+        ]
+      ],
+      "statistics": {
+        "vertices": 2808,
+        "triangles": 1444,
+        "drawCalls": 7,
+        "bytes": 91348
+      },
+      "sockets": {
+        "sock_hip_pouch": {
+          "position": [
+            0.0,
+            0.058800000000000005,
+            -0.04290733856642248
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "mark_zone": {
+          "position": [
+            0.0,
+            0.0546,
+            0.03549266143357753
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "f5aaeef0d2974e91cc6facda0853baed037d9644301833f98f27d4a2506eff47"
+    },
+    {
+      "id": "optics-pouch",
+      "name": "Optics pouch",
+      "role": "R",
+      "category": "Carry",
+      "description": "Deep binocular pouch with a padded flap, central webbing strap and compact buckle.",
+      "reference": "Owner Field R / Static Overwatch loadout board",
+      "number": 17,
+      "model": "models/optics-pouch.glb",
+      "preview": "previews/optics-pouch.png",
+      "card": "cards/optics-pouch.md",
+      "views": {
+        "front": "previews/optics-pouch-front.png",
+        "back": "previews/optics-pouch-back.png",
+        "left": "previews/optics-pouch-left.png",
+        "right": "previews/optics-pouch-right.png"
+      },
+      "bounds": [
+        [
+          -0.0765,
+          0.0,
+          -0.05825
+        ],
+        [
+          0.0765,
+          0.1655,
+          0.05825
+        ]
+      ],
+      "statistics": {
+        "vertices": 1248,
+        "triangles": 600,
+        "drawCalls": 4,
+        "bytes": 41196
+      },
+      "sockets": {
+        "sock_optics_chest": {
+          "position": [
+            0.0,
+            0.1,
+            -0.06025
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "socket_binoculars": {
+          "position": [
+            0.0,
+            0.143,
+            -0.007250000000000003
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "f5b2f8e1506f9908c15bbdb0b8155f71f9b45b7f3d683479f68d6042c33b4c59"
+    },
+    {
+      "id": "rifle-sling",
+      "name": "Field sling",
+      "role": "E / R",
+      "category": "Carry",
+      "description": "Wide dark webbing sling with a relaxed loop, adjustment hardware and a muted red tab.",
+      "reference": "Owner Field R / Static Overwatch loadout board; Owner Field E / Approach & Entry loadout board",
+      "number": 18,
+      "model": "models/rifle-sling.glb",
+      "preview": "previews/rifle-sling.png",
+      "card": "cards/rifle-sling.md",
+      "views": {
+        "front": "previews/rifle-sling-front.png",
+        "back": "previews/rifle-sling-back.png",
+        "left": "previews/rifle-sling-left.png",
+        "right": "previews/rifle-sling-right.png"
+      },
+      "bounds": [
+        [
+          -0.194591,
+          0.0,
+          -0.006
+        ],
+        [
+          0.194591,
+          0.210494,
+          0.006
+        ]
+      ],
+      "statistics": {
+        "vertices": 2080,
+        "triangles": 1044,
+        "drawCalls": 5,
+        "bytes": 67728
+      },
+      "sockets": {
+        "socket_sling_front": {
+          "position": [
+            0.17717102105357516,
+            0.07724712016431792,
+            -0.004
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "socket_sling_rear": {
+          "position": [
+            -0.17782897894642483,
+            0.1402471201643179,
+            -0.004
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "sock_shoulder_sling": {
+          "position": [
+            -0.004828978946424839,
+            0.19624712016431795,
+            -0.004
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "sha256": "6285fa5fbc49cfce0276fca19db41a09916c0d62e42c3e20fe018b2d98412fe5"
+    }
+  ]
+}

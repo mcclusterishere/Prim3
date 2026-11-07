@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "catalogSha256": "7331ba19d6685e3d9ac02b1efb5a47c4b791f0ff5de35b0616ca6b18d88008a3",
+  "checksRun": 45,
+  "checksPassed": 45,
+  "sourcesHashed": 81,
+  "counts": {
+    "entities": 1319,
+    "sources": 81,
+    "fields": 1246,
+    "issues": 30
+  },
+  "checks": [
+    {
+      "name": "Top-level catalog arrays",
+      "ok": true
+    },
+    {
+      "name": "Entity IDs are nonempty strings",
+      "ok": true
+    },
+    {
+      "name": "Entity IDs are unique",
+      "ok": true
+    },
+    {
+      "name": "Source IDs are nonempty strings",
+      "ok": true
+    },
+    {
+      "name": "Source IDs are unique",
+      "ok": true
+    },
+    {
+      "name": "Issue IDs are nonempty strings",
+      "ok": true
+    },
+    {
+      "name": "Issue IDs are unique",
+      "ok": true
+    },
+    {
+      "name": "Field keys are nonempty and unique",
+      "ok": true
+    },
+    {
+      "name": "Entity, attribute, relation and issue structure",
+      "ok": true
+    },
+    {
+      "name": "All source references resolve",
+      "ok": true
+    },
+    {
+      "name": "All entity relationships resolve",
+      "ok": true
+    },
+    {
+      "name": "Attribute keys are unique within each entity",
+      "ok": true
+    },
+    {
+      "name": "All attributes have dictionary entries",
+      "ok": true
+    },
+    {
+      "name": "Unknown and inapplicable values stay distinct from zero",
+      "ok": true
+    },
+    {
+      "name": "Conflicting claims retain separate values and valid sources",
+      "ok": true
+    },
+    {
+      "name": "Declared production field types remain intact",
+      "ok": true
+    },
+    {
+      "name": "Attribute states use the published state policy",
+      "ok": true
+    },
+    {
+      "name": "Defined attribute values match dictionary types",
+      "ok": true
+    },
+    {
+      "name": "Defined reference fields resolve to catalog entities",
+      "ok": true
+    },
+    {
+      "name": "Equipment socket rotations preserve their source units",
+      "ok": true
+    },
+    {
+      "name": "Catalog summary reconciles to detailed records",
+      "ok": true,
+      "detail": "{\"attributes\": 12026, \"entities\": 1319, \"fields\": 1246, \"instances\": 52, \"issues\": 30, \"relationships\": 1511, \"sources\": 81}"
+    },
+    {
+      "name": "Category totals reconcile to entity records",
+      "ok": true
+    },
+    {
+      "name": "Source files with hashes are available",
+      "ok": true
+    },
+    {
+      "name": "Source-file SHA-256 parity",
+      "ok": true,
+      "detail": "81 files checked. "
+    },
+    {
+      "name": "Captured prototype/design sources match current project",
+      "ok": true
+    },
+    {
+      "name": "Equipment source count",
+      "ok": true,
+      "detail": "Expected 18, got 18"
+    },
+    {
+      "name": "Equipment asset IDs each have exactly one registry record",
+      "ok": true
+    },
+    {
+      "name": "Equipment attributes match source catalog",
+      "ok": true
+    },
+    {
+      "name": "Equipment GLB files and recorded hashes",
+      "ok": true
+    },
+    {
+      "name": "Environment source count",
+      "ok": true,
+      "detail": "Expected 24, got 24"
+    },
+    {
+      "name": "Environment asset IDs each have exactly one registry record",
+      "ok": true
+    },
+    {
+      "name": "Environment attributes match source catalog",
+      "ok": true
+    },
+    {
+      "name": "Environment GLB files and recorded hashes",
+      "ok": true
+    },
+    {
+      "name": "Runtime role templates extracted from actual engine",
+      "ok": true
+    },
+    {
+      "name": "All five runtime role values match engine source",
+      "ok": true
+    },
+    {
+      "name": "Runtime source inventory controls",
+      "ok": true
+    },
+    {
+      "name": "Runtime extraction matches actual source files",
+      "ok": true
+    },
+    {
+      "name": "All runtime definitions preserve extracted values",
+      "ok": true
+    },
+    {
+      "name": "All 52 placed instances preserve exact initial state and type",
+      "ok": true
+    },
+    {
+      "name": "Supplementary instance IDs resolve to the registry",
+      "ok": true
+    },
+    {
+      "name": "Every ground and roof slot is represented exactly once",
+      "ok": true
+    },
+    {
+      "name": "Cell coverage totals reconcile to runtime extraction",
+      "ok": true,
+      "detail": "{\"groundCoveredRegardlessOfWalkability\": 1044, \"groundWalkableGateClosed\": 13158, \"groundWalkableGateOpen\": 13161, \"groundWalkableWithCover\": 754, \"roofWalkable\": 2480, \"roofWalkableWithCover\": 550}"
+    },
+    {
+      "name": "Every default-world visual part has a unique ID",
+      "ok": true
+    },
+    {
+      "name": "Decorative lamp inventory reconciles",
+      "ok": true
+    },
+    {
+      "name": "Ammunition and equipment implementation claims match current engine",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "selfTest": {
+    "ok": true,
+    "cases": [
+      {
+        "case": "duplicate entity ID",
+        "rejectedByExpectedCheck": true,
+        "check": "Entity IDs are unique"
+      },
+      {
+        "case": "dangling relationship",
+        "rejectedByExpectedCheck": true,
+        "check": "All entity relationships resolve"
+      },
+      {
+        "case": "unknown replaced by zero",
+        "rejectedByExpectedCheck": true,
+        "check": "Unknown and inapplicable values stay distinct from zero"
+      },
+      {
+        "case": "changed role HP",
+        "rejectedByExpectedCheck": true,
+        "check": "All five runtime role values match engine source"
+      },
+      {
+        "case": "changed geometry statistic",
+        "rejectedByExpectedCheck": true,
+        "check": "Equipment attributes match source catalog"
+      },
+      {
+        "case": "false ammunition implementation",
+        "rejectedByExpectedCheck": true,
+        "check": "Ammunition and equipment implementation claims match current engine"
+      },
+      {
+        "case": "corrupt source hash",
+        "rejectedByExpectedCheck": true,
+        "check": "Source-file SHA-256 parity"
+      }
+    ]
+  }
+}

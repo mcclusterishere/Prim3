@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "status": "proposed",
+  "coordinateConvention": "+Y up; bottom-center prop pivot; artistic game units",
+  "integration": "Asset lists only; not applied to gameplay or operator rigs.",
+  "loadouts": {
+    "E": [
+      "e-compact-carbine",
+      "service-sidearm",
+      "retention-holster",
+      "rifle-sling",
+      "team-radio",
+      "comms-headset",
+      "body-camera",
+      "entry-tool",
+      "access-pouch",
+      "medical-pouch"
+    ],
+    "R": [
+      "r-overwatch-rifle",
+      "service-sidearm",
+      "retention-holster",
+      "rifle-sling",
+      "compact-binoculars",
+      "team-radio",
+      "comms-headset",
+      "body-camera",
+      "optics-pouch"
+    ],
+    "T": [
+      "field-cyberdeck",
+      "service-sidearm",
+      "retention-holster",
+      "team-radio",
+      "body-camera",
+      "interface-kit",
+      "write-block-bridge",
+      "offline-storage",
+      "spare-power"
+    ]
+  }
+}
