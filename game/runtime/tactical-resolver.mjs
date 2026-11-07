@@ -987,7 +987,7 @@ function stabilize(state, actorId, targetId) {
   assertCanAct(next, actor);
   const target = unitById(next, targetId);
   if (!target.downed || target.dead || isExtracted(target) || target.faction !== actor.faction) throw new Error('Target is not stabilizable');
-  if (gridDistance(actor, target) > 1) throw new Error('Target is not adjacent');
+  if (gridDistance(actor, target, next.metricNavigation ? next : null) > 1) throw new Error('Target is not adjacent');
   spendAp(actor, 1);
   target.statuses = [...new Set([...target.statuses, 'STABILIZED'])];
   next.events.push({ type: 'STABILIZE', actorId, targetId });
