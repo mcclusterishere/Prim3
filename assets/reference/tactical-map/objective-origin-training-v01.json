@@ -1,0 +1,51 @@
+{
+  "status": "PROPOSED",
+  "reference_id": "PRIM3-objective-origin-training-v01",
+  "exercise_id": "EX-ORIGIN-ERT",
+  "purpose": "Exact coordinate reference and training-layout concept; not a playable map or balance certification",
+  "canvas": { "width": 1600, "height": 1600, "pixels_per_unit": 52 },
+  "coordinates": {
+    "origin": [0, 0],
+    "positive_x": "right",
+    "positive_y": "up",
+    "min_x": -10,
+    "max_x": 10,
+    "min_y": -10,
+    "max_y": 10,
+    "unit": "abstract training unit",
+    "placement": "Integer coordinates are tile centers; grid boundaries are half-integers",
+    "camera": "orthographic top-down; objective locked to whole-screen center"
+  },
+  "objective": {
+    "id": "training_relay",
+    "label": "OBJECTIVE",
+    "position": [0, 0],
+    "footprint": [[0, 0]],
+    "walkable": false,
+    "disclosed": true,
+    "stationary": true,
+    "interaction_cells": [[-1, 0], [1, 0], [0, -1], [0, 1]]
+  },
+  "operators": [
+    { "role": "E", "name": "ENTRY", "position": [-6, -3], "shape": "square", "overlay_color": "#c87537" },
+    { "role": "R", "name": "RECON", "position": [6, -3], "shape": "diamond", "overlay_color": "#198a93" },
+    { "role": "T", "name": "TECHNICAL", "position": [0, 9], "shape": "circle", "overlay_color": "#8265b5" }
+  ],
+  "cover_cells": [
+    [-6, 5], [-5, 5], [-4, 5], [-3, 3], [-3, 2],
+    [4, 5], [5, 5], [6, 5], [3, 3], [3, 2],
+    [-3, 7], [-2, 7], [2, 7], [3, 7],
+    [-8, 1], [-8, 2], [8, 1], [8, 2],
+    [-2, -5], [-1, -5], [1, -5], [2, -5],
+    [-7, -7], [-6, -7], [-5, -7], [5, -7], [6, -7], [7, -7]
+  ],
+  "visual_contract": {
+    "origin_screen": [800, 800],
+    "axis_x_y": 800,
+    "axis_y_x": 800,
+    "show_all_operators": "Coach reference only; live visibility must follow earned information",
+    "team_colors": "Presentation-only draft overlays, not canonical uniform colors",
+    "terrain": "Illustrative training cover only; not Site 0 or Equity Uprise architecture",
+    "routes": "No movement paths are asserted by this reference"
+  }
+}

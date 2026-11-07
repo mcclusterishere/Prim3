@@ -73,6 +73,18 @@ See:
 - The episode spine remains 21 total episodes.
 - The story may shift emotional POV independently from mission lead or playable POV.
 
+## Tactical-map and training proposal
+
+The owner-requested tactical view keeps the primary objective at **(0,0)** and at the exact screen center. Every training arena must extend at least **-50 to +50 on both X and Y**. The replacement **128 × 128** reference uses a 3D industrial battlefield with dense cover, climbable structures, elevated positions and multiple approaches.
+
+The optional E/R/T exercise combines objective control with simulated combat, including elimination and return. All three roles retain Math, Science and Information Technology at different levels and specialties.
+
+- [Design specification and proposed exercise rules](game/OBJECTIVE-CENTERED-TRAINING.md)
+- [3D battlefield visual, offline scene and source](assets/reference/tactical-map/README.md)
+- [Recon mannequin, labeled loadout and detailed visual brief](assets/reference/field-recon/FO-R-SO-visual-brief-v01.md)
+
+Status: **PROPOSED design reference**. The owner's correction supersedes the small flat v01 map. The scene supports visual inspection; gameplay integration and balance validation remain pending.
+
 ## Repository map
 
 - `episodes/` — expandable episode/playable-level chapters
@@ -86,3 +98,4 @@ The repository is the source of truth. Conversation ideas become canon when reco
 ## Ownership
 
 Created by Matthew McCluster / McCluster. All story and brand rights reserved unless a file states otherwise.
+
