@@ -15,7 +15,7 @@ This building is where the ensemble studies, works, trains, argues, eats, briefs
 
 It is one authoritative location across WATCH, PLAY, songs, character workspaces, archetype/skin populations, future animation, Equity Uprise training and later assault/defense gameplay.
 
-> **Same building. Same people. Seven years of accumulated history.**
+> **Same building. Same people. Seven semesters of accumulated history, building on pre-college relationships.**
 
 ## This is not Site 0
 

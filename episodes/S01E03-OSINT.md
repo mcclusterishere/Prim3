@@ -3,6 +3,11 @@ status: CANON MIGRATED BLUEPRINT
 season: 1
 episode: 3
 global_episode: 3
+chronology_version: prim3.semesters/v2
+semester: 1
+term: Fall
+calendar_year: 2026
+episode_frame: finals
 level_id: LVL-03
 song: OSINT
 mission: Open Book

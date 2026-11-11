@@ -28,7 +28,7 @@ Global Episode 18 remains the protected open slot for **Song #21**. Do not inven
 
 ## Highest-priority story authorities
 
-1. `CANON.md` — root authority, continuity v0.8.0
+1. `CANON.md` — root authority, continuity v2.0.0
 2. `story/PRIM-SUCCESSION-AUTHORITY.md`
 3. `story/PRIM-DUAL-MEANING-AUTHORITY.md`
 4. `story/ENSEMBLE-POV-AUTHORITY.md`
@@ -301,3 +301,6 @@ Continue episode by episode using Episode 2 as the first fully developed model:
 9. next-episode inheritance.
 
 **main is authoritative going forward.**
+## November 9 semester migration branch
+
+The owner-approved seven-semester chronology is implemented in the independent `codex/prim3-hex-tactics-20261109` review branch. It is not merged or deployed by this document. See `story/SEMESTER-CHRONOLOGY-AUTHORITY.md`; all 21 core identities remain stable.

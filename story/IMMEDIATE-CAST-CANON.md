@@ -9,7 +9,7 @@ branch: main
 
 ## Authority and scope
 
-This file governs the people who recur in the immediate age-33-to-40 PRIM3 story.
+This file governs the people who recur in the immediate college-entry-at-33 through the Fall 2029 finale PRIM3 story.
 
 Root `CANON.md` remains highest authority. Character-specific psychological dossiers override short summaries here where they are more specific and non-conflicting.
 

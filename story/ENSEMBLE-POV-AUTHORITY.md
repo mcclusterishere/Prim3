@@ -17,7 +17,7 @@ Canonical law:
 
 > **McCluster is the succession spine. He is not the owner of every story.**
 
-The show may follow McCluster's seven academic years as its chronological frame while allowing episode POV, emotional ownership and mission leadership to rotate among the multinational cast.
+The show may follow McCluster's seven academic semesters (3.5 academic years) as its chronological frame while allowing episode POV, emotional ownership and mission leadership to rotate among the multinational cast.
 
 ---
 
@@ -100,7 +100,7 @@ Across Episodes 02–18, the default writing assumption should be:
 
 McCluster's college progression remains a chronological connective tissue:
 - classes;
-- academic years;
+- academic semesters;
 - changing competence;
 - friendships;
 - relationships;

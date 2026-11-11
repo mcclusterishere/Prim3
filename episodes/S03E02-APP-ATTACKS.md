@@ -3,6 +3,11 @@ status: CANON MIGRATED BLUEPRINT
 season: 3
 episode: 2
 global_episode: 8
+chronology_version: prim3.semesters/v2
+semester: 3
+term: Fall
+calendar_year: 2027
+episode_frame: midterms
 level_id: LVL-08
 song: App Attacks
 mission: Bad Input

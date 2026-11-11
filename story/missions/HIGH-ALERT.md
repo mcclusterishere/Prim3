@@ -45,7 +45,7 @@ Then the sequence cuts away before the RAID resolves.
 
 The story rewinds:
 
-> **SEVEN YEARS EARLIER.**
+> **FALL 2026.**
 
 McCluster is 33 and entering college.
 
@@ -98,7 +98,7 @@ PRIM2 is not performing because he likes spectacle more than survival.
 
 The music film externalizes his psychological and information advantage during an active crisis.
 
-He knows enough about McCluster, Royce and the prior seven years to weaponize memories whose meanings are intimate, institutional or operational.
+He knows enough about McCluster, Royce, their pre-college history and the seven college semesters to weaponize memories whose meanings are intimate, institutional or operational.
 
 He does **not** have to have caused each event.
 

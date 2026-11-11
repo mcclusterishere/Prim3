@@ -3,6 +3,11 @@ status: CANON MIGRATED BLUEPRINT
 season: 5
 episode: 3
 global_episode: 15
+chronology_version: prim3.semesters/v2
+semester: 5
+term: Fall
+calendar_year: 2028
+episode_frame: finals
 level_id: LVL-15
 song: Trappin From The Cloud
 mission: Elastic

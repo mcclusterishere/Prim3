@@ -31,7 +31,7 @@ The series is titled **PRIM3** because the visible program world and McCluster's
 
 ## Ensemble structure
 
-McCluster enters the present chronology at 33 and his seven academic years provide a major clock for the series.
+McCluster enters the present chronology at 33 and his seven academic semesters (3.5 academic years) provide a major clock for the series.
 
 But PRIM3 is not `McCluster plus side characters`.
 
@@ -47,17 +47,17 @@ McCluster may be episode owner, co-owner, supporting, cameo, mentioned-only or a
 
 > **The succession belongs to McCluster. The world belongs to everybody.**
 
-## Seven-year structure
+## Seven-semester structure
 
-Each academic year is one season:
+Each academic semester is one season:
 - 3 episodes per season;
 - 21 episodes total;
 - 1 song per episode;
 - 1 mission per episode.
 
-Between school years McCluster repeatedly leaves for a summer policy fellowship. Those summers alter him but are not extra PRIM3 episodes and may later support an Equity Uprise series.
+After spring semesters S2, S4 and S6 McCluster repeatedly leaves for a summer policy fellowship. Those summers alter him but are not extra PRIM3 episodes and may later support an Equity Uprise series.
 
-The clock follows McCluster's seven-year re-entry into fixed life. The **story ownership rotates**.
+The clock follows McCluster's seven-semester re-entry into fixed life. The **story ownership rotates**.
 
 ## Episode grammar
 
@@ -107,7 +107,7 @@ The film cuts before the RAID resolves.
 
 Then:
 
-**SEVEN YEARS EARLIER.**
+**FALL 2026.**
 
 McCluster is 33, returning to college. Most of the people whose decisions will eventually determine Site 0's fate have their own lives already in motion.
 

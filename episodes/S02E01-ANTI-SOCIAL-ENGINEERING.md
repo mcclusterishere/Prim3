@@ -3,6 +3,11 @@ status: CANON MIGRATED BLUEPRINT
 season: 2
 episode: 1
 global_episode: 4
+chronology_version: prim3.semesters/v2
+semester: 2
+term: Spring
+calendar_year: 2027
+episode_frame: opening
 level_id: LVL-04
 song: Anti Social Engineering
 mission: The Human Layer

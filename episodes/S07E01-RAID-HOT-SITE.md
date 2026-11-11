@@ -3,6 +3,11 @@ status: CANON CHAPTER BLUEPRINT
 season: 7
 episode: 1
 global_episode: 19
+chronology_version: prim3.semesters/v2
+semester: 7
+term: Fall
+calendar_year: 2029
+episode_frame: opening
 level_id: LVL-19
 song: RAID (HOT SITE)
 mission: Hot Site
@@ -283,3 +288,7 @@ Then `Evil Twin` begins.
 
 This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
 
+
+## Semester frame and mission time
+
+The episode frame is opening of Fall 2029. The RAID → Evil Twin → Ghost operation converges continuously during finals; opening/midterms framing uses preparation and clearly identified flash-forwards, not months of suspended injury or transfer. See `../story/SEMESTER-CHRONOLOGY-AUTHORITY.md`.

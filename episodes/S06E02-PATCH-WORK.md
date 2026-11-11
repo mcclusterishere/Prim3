@@ -3,6 +3,11 @@ status: CANON MIGRATED BLUEPRINT
 season: 6
 episode: 2
 global_episode: 17
+chronology_version: prim3.semesters/v2
+semester: 6
+term: Spring
+calendar_year: 2029
+episode_frame: midterms
 level_id: LVL-17
 song: Patch Work
 mission: Trust Boundary

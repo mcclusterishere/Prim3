@@ -32,7 +32,7 @@ The sequence is:
 
 Therefore the man previously called **Presiding Prime / Prime-00** in older drafts is canonically **PRIM2**.
 
-Legacy references to `Prime-00`, `Prime-0`, `Prime`, `Presiding Prime` or similar language should be interpreted as references to **PRIM2** when they describe McCluster's predecessor during the age-33-to-40 PRIM3 story.
+Legacy references to `Prime-00`, `Prime-0`, `Prime`, `Presiding Prime` or similar language should be interpreted as references to **PRIM2** when they describe McCluster's predecessor during the college-entry-at-33 through the Fall 2029 finale PRIM3 story.
 
 `Prime-00` is deprecated continuity language and does **not** mean the first PRIM holder.
 

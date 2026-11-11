@@ -3,6 +3,11 @@ status: CANON MIGRATED BLUEPRINT
 season: 3
 episode: 1
 global_episode: 7
+chronology_version: prim3.semesters/v2
+semester: 3
+term: Fall
+calendar_year: 2027
+episode_frame: opening
 level_id: LVL-07
 song: Data Breach
 mission: Exposure

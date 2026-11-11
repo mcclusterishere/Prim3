@@ -75,7 +75,7 @@ The reverse-reveal structure remains.
 
 - Hitman / Benji — approximately age 19–26.
 - Whip Equipped / Ghost — approximately age 26–33.
-- PRIM3 / Equity Uprise — approximately age 33–40.
+- PRIM3 / Equity Uprise — approximately age 33 at entry to approximately 36–37 at the finale (birthday unspecified).
 
 **Benji is McCluster.**
 

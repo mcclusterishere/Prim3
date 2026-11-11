@@ -5,17 +5,17 @@ version: 3.0.0
 branch: main
 ---
 
-# Episode progression — 7 years / 21 episodes
+# Episode progression — 7 semesters / 21 core episodes
 
 ## Locked format
 
-PRIM3 unfolds across **seven academic years**.
+PRIM3 unfolds across **seven academic semesters (3.5 academic years)**.
 
 - **7 seasons**
 - **3 episodes per season**
 - **21 episodes total**
 - **1 song = 1 episode = 1 mission**
-- WATCH target runtime remains approximately **9 minutes**, organized causally:
+- WATCH is flexible longform, normally **20–35 minutes**, not capped at nine, organized causally:
   - human trigger / cold open establishes why the operation matters;
   - music film becomes the stylized operational brief and teaches what the team believes should work;
   - human escalation reaches the mission threshold;
@@ -26,14 +26,14 @@ PRIM3 unfolds across **seven academic years**.
 
 McCluster's college progression provides important chronological continuity, but **episode ownership rotates across the ensemble**. Most global Episodes 02–18 should primarily deepen characters other than McCluster, even where he appears.
 
-McCluster's recurring summer policy fellowships happen **between seasons** and are not added to the 21-episode count. They may later support a separate Equity Uprise series/experience.
+McCluster's recurring summer policy fellowships happen **after spring semesters** and are not added to the 21-episode count. They may later support a separate Equity Uprise series/experience.
 
 See:
 - `EPISODE-MISSION-BIBLE.md`
 - `EPISODE-CAUSE-AND-ENTERTAINMENT-AUTHORITY.md`
 - `ENSEMBLE-POV-AUTHORITY.md`
 
-## Seven-year order
+## Seven-semester order
 
 | Global # | Season | Episode | Song | Mission | Expandable chapter |
 |---:|---:|---:|---|---|---|
@@ -92,3 +92,7 @@ Its **story function is canon**: it bridges `Patch Work` and `RAID` by taking Mc
 Its **curriculum function is canon**: Security+ completion + Network+ infrastructure integration, based on the remaining objective-gap audit.
 
 `CHAIN OF TRUST` / `TRUST ANCHOR` remains a working concept, not a locked final title.
+
+## Current semester chronology
+
+[Semester chronology authority](SEMESTER-CHRONOLOGY-AUTHORITY.md) governs the seven-semester degree path, required opening/midterms/finals frames, separate winter/summer adventures, and continuous Fall 2029 finale. It supersedes older year-per-season assumptions; episode IDs and ownership remain unchanged.

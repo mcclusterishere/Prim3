@@ -3,6 +3,11 @@ status: CANON MIGRATED BLUEPRINT
 season: 4
 episode: 2
 global_episode: 11
+chronology_version: prim3.semesters/v2
+semester: 4
+term: Spring
+calendar_year: 2028
+episode_frame: midterms
 level_id: LVL-11
 song: Dive In
 mission: Dumpster Signal

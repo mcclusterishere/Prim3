@@ -70,7 +70,7 @@ The future fragment breaks before the answer.
 
 Then:
 
-> **SEVEN YEARS EARLIER.**
+> **FALL 2026.**
 
 ---
 

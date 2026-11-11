@@ -24,7 +24,7 @@ Seventeen compressed memory flashes point toward global Episodes 02-18. The
 opening cuts away before the RAID outcome, the survivor state or the identity
 of the second assault element is explained.
 
-Cut to seven years earlier: a 33-year-old first-year college student arrives on campus with no money, no stable life and years of knowledge nobody has formally recognized.
+Cut to Fall 2026: a 33-year-old first-year college student arrives on campus with no money, no stable life and years of knowledge nobody has formally recognized.
 
 ## Emotional spine
 
@@ -114,3 +114,7 @@ Teach through immediate character problems:
 - Exposition must emerge from conflict, training, failure or investigation.
 - The first death must matter beyond shock value.
 - Prime should be felt as an intelligence in the architecture before he is seen as a man.
+
+## Current semester chronology
+
+[Semester chronology authority](../story/SEMESTER-CHRONOLOGY-AUTHORITY.md) governs the seven-semester degree path, required opening/midterms/finals frames, separate winter/summer adventures, and continuous Fall 2029 finale. It supersedes older year-per-season assumptions; episode IDs and ownership remain unchanged.

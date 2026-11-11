@@ -30,17 +30,17 @@ See `story/PRIME-LORE.md`.
 
 ## 3. PRIM3 narrative architecture
 
-**7 academic years = 7 seasons.**  
+**7 academic semesters = 7 seasons = 3.5 academic years.**
 **3 episodes per season = 21 episodes.**  
 **1 song = 1 episode = 1 mission.**
 
-Each episode is approximately **9 minutes**:
+WATCH is flexible longform, normally **20–35 minutes**, with no nine-minute cap. The causal grammar is:
 
-1. **Music film (~3 min)** — technical/emotional thesis
-2. **Human story (~3 min)** — character pressure and continuity
-3. **Mission (~3 min)** — WATCH authored action or PLAY gamified version
+1. **Music film** — technical/emotional thesis
+2. **Human story** — character pressure and continuity
+3. **Mission** — WATCH authored action or PLAY gamified version
 
-McCluster leaves between academic years for recurring **summer policy fellowships**. Those summers change his worldview but are not added to PRIM3's 21-episode count. Equity Uprise may later become the separate show/game lane that tells those summers.
+McCluster leaves after spring semesters S2, S4 and S6 for recurring **summer policy fellowships**. Those summers change his worldview but are not added to PRIM3's 21-episode count. Equity Uprise may later become the separate show/game lane that tells those summers.
 
 Current final trilogy:
 

@@ -42,7 +42,7 @@ This supersedes the obsolete 8–13-episode season concept.
 
 Optional side operations may exist in PLAY for roster development, Heat, Standing, Intel, recovery and replayability. They are not additional canonical television episodes and do not overwrite the fixed 21-episode spine.
 
-McCluster's seven academic years remain the chronological frame, but episode ownership rotates. Most Episodes 02–18 should primarily deepen somebody other than McCluster even when he appears.
+McCluster's seven academic semesters (3.5 academic years) remain the chronological frame, but episode ownership rotates. Most Episodes 02–18 should primarily deepen somebody other than McCluster even when he appears.
 
 See `story/ENSEMBLE-POV-AUTHORITY.md`.
 
