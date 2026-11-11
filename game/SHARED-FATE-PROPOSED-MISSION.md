@@ -41,3 +41,11 @@ Subnet correctness uses the existing allocated /27 and 27-host requirement. Conf
 ## Execution and safety boundary
 
 The existing bounded in-process workbench supplies address arithmetic and valid IPv4/TCP byte encoding/checksum/decoding. Client priorities, dependency outages, scheduling and service response are stateful simulations. No socket, real network/device, external target, shell, credentials, hosted compute, signed assessment or competency write exists. Completion and assistance/attempts/compliance/tactical outcome remain separate. Source tests and application journey tests cover all three choices.
+
+## Client interiors layout v2
+
+The expanded application level replaces the two solid client-site masses with walkable, single-floor interiors. The client office has telemetry (O) and service access (A) rooms, a connecting doorway and north/south entrances. The equipment bay has an aisle, a backhaul room (R), an internal opening and north/west entrances. Outdoor X remains extraction. These are fictional client spaces, not additional headquarters rooms. The stable proposed mission identity above is unchanged; application layout/schema v2 is a separate compatibility revision.
+
+Rafael must enter telemetry to inspect; Sari must enter service to prioritize and hold access each working turn; Minh must enter backhaul to configure, failure-test and verify. Room membership, range and line of sight all gate interactions. Full-height walls and furniture govern collision, cover and sight. The renderer shows a clearly labeled roofless tactical cutaway, with reduced wall display height for visibility; it does not reduce gameplay wall height. The operation uses a 38-turn initial window to accommodate indoor travel.
+
+The app retains v1 saves under their original key and starts v2 separately. Old layout commands are not migrated or replayed onto the revised graph; mismatched schema/source hashes are rejected before command execution. Existing source lab protocol, fictional resource outcomes and seven-semester identities remain unchanged.
