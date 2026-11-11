@@ -3,6 +3,11 @@ status: CANON EPISODE BLUEPRINT
 season: 7
 episode: 2
 global_episode: 20
+chronology_version: prim3.semesters/v2
+semester: 7
+term: Fall
+calendar_year: 2029
+episode_frame: midterms
 level_id: LVL-20
 song: Evil Twin
 mission: Mirror Room
@@ -302,3 +307,7 @@ NEXT: GHOST IN THE WIRES
 
 This episode obeys story/EQUITY-UPRISE-WORKPLACE-CANON.md and story/EPISODE-WORKPLACE-LOCATION-MAP.md. Named cast should use their persistent desks/benches/offices when naturally present, and the episode must write visible workplace consequences forward.
 
+
+## Semester frame and mission time
+
+The episode frame is midterms of Fall 2029. The RAID → Evil Twin → Ghost operation converges continuously during finals; opening/midterms framing uses preparation and clearly identified flash-forwards, not months of suspended injury or transfer. See `../story/SEMESTER-CHRONOLOGY-AUTHORITY.md`.

@@ -1,10 +1,12 @@
 ---
-status: CANON
+status: DEPRECATED — historical proposal
 system: Whip Equipped entry bridge
 version: 1.1.0
 ---
 
-# Whip Equipped — bridge from kill-Prime path
+# Whip Equipped — superseded bridge proposal
+
+Historical evidence only. The kill-Prime/dimension/alternate-self premise below is superseded by `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `SEMESTER-CHRONOLOGY-AUTHORITY.md`. The current bridge reveals the same person’s age-26–33 history; this document cannot establish a college-era chronology or active alternate-self requirement.
 
 Full game/app bible = later. Continuity + brand + first song locked here / in `whip-equipped/`.
 

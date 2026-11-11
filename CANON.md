@@ -1,7 +1,7 @@
 # PRIM3 Canon Register
 
 **Status:** Foundation canon (main)  
-**Continuity version:** 1.0.0  
+**Continuity version:** 2.0.0
 **Authority:** Matthew McCluster  
 **Rule:** If subordinate material conflicts with this register or a current specialist authority delegated below, the higher/current authority wins until deliberately revised.
 
@@ -9,7 +9,7 @@
 
 ## 1. Series format
 
-PRIM3 is a **seven-season adult ensemble techno-thriller / infotainment series** framed across seven academic years.
+PRIM3 is a **seven-season adult ensemble techno-thriller / infotainment series** framed across seven academic semesters (3.5 academic years).
 
 - **7 seasons**
 - **3 episodes per season**
@@ -98,7 +98,7 @@ The cast is a living organization, not a fixed character-select screen.
 
 ## 3. Immediate-story cast
 
-`story/IMMEDIATE-CAST-CANON.md` governs the current age-33-to-40 roster.
+`story/IMMEDIATE-CAST-CANON.md` governs the current college-entry-at-33 through the Fall 2029 finale roster.
 
 Default immediate recurring world: **39 character slots**.
 
@@ -236,7 +236,7 @@ McCluster becomes **PRIM3 only after validated succession**.
 
 Release/reveal order is intentionally backward through McCluster's adult life:
 
-1. **PRIM3 — age 33–40**
+1. **PRIM3 — age 33 at entry to approximately 36–37 at the finale (birthday unspecified)**
 2. **Whip Equipped — age 26–33**
 3. **Hitman / Benji — age 19–26**
 
@@ -638,3 +638,6 @@ When new character/history/gameplay canon is added:
 Legacy filenames may remain for link compatibility, but their contents must point to current canon rather than preserve contradictory history.
 
 **main is authoritative.**
+## Current semester chronology
+
+[Semester chronology authority](story/SEMESTER-CHRONOLOGY-AUTHORITY.md) governs the seven-semester degree path, required opening/midterms/finals frames, separate winter/summer adventures, and continuous Fall 2029 finale. It supersedes older year-per-season assumptions; episode IDs and ownership remain unchanged.

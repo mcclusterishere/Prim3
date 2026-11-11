@@ -249,7 +249,7 @@ The episode must still contain a human conflict that would matter if the lesson 
 
 ## Season One rule
 
-Season One begins with future/endgame `High Alert`, then rewinds seven years.
+Season One begins with future/endgame `High Alert`, then rewinds to Fall 2026.
 
 McCluster's return to college provides the audience a powerful entry path, but Season One should immediately establish that other people already have histories, loyalties, relationships and unresolved problems before McCluster arrives.
 

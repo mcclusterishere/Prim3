@@ -3,6 +3,11 @@ status: CANON EPISODE BLUEPRINT
 season: 1
 episode: 2
 global_episode: 2
+chronology_version: prim3.semesters/v2
+semester: 1
+term: Fall
+calendar_year: 2026
+episode_frame: midterms
 level_id: LVL-02
 song: White Grey Black Hat
 mission: Permission Slip

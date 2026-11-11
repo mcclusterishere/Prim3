@@ -3,6 +3,11 @@ status: CANON MIGRATED BLUEPRINT
 season: 5
 episode: 1
 global_episode: 13
+chronology_version: prim3.semesters/v2
+semester: 5
+term: Fall
+calendar_year: 2028
+episode_frame: opening
 level_id: LVL-13
 song: IaaS, SaaS, PaaS
 mission: Shared Responsibility

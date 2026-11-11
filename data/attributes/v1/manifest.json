@@ -20,7 +20,7 @@
     }
   },
   "sha256": {
-    "catalog.json": "7331ba19d6685e3d9ac02b1efb5a47c4b791f0ff5de35b0616ca6b18d88008a3",
+    "catalog.json": "6d89fef71d8fd6937c33e5d254cee9816ed21bfc444fc74008c44aa09188138c",
     "source/PRIM3-Attributes-Matrix.xlsx": "d8284b9bad7a5606186c714d604a5b9c79891eb4161aeeae30d2fbe668f141df",
     "release attrs.html (not committed)": "7d73e6b492e33c4adb33ffb544c1d1b82566602246d768571cb2ca75a62a10b9"
   },
@@ -752,5 +752,11 @@
       "identity.canon.country-patches",
       "identity.canon.layla-country"
     ]
+  },
+  "chronologyAmendment": {
+    "date": "2026-11-09",
+    "authority": "story/SEMESTER-CHRONOLOGY-AUTHORITY.md",
+    "priorCatalogSha256": "7331ba19d6685e3d9ac02b1efb5a47c4b791f0ff5de35b0616ca6b18d88008a3",
+    "scope": "McCluster succession-age assertions only; entity IDs, keys, source snapshot IDs and all pre-college ages retained. The November 2 release and sourceSnapshots above remain historical provenance, not the amended chronology authority."
   }
 }

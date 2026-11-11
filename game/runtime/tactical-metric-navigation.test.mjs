@@ -44,3 +44,9 @@ test('malformed metric graph and unsupported mixed board fail closed',()=>{
   const s=start();assert.throws(()=>start({metricNavigation:{...s.metricNavigation,nodes:s.metricNavigation.nodes.map((n,i)=>i? n:{...n,edges:[{to:1,cost:1}]})}}),/metric edge/);
   assert.throws(()=>start({cover:[{x:0,y:0,sides:['N']}]}),/one street/);
 });
+test('metric directional cover and technical range use positions rather than node index',()=>{
+ let s=start({nodes:[{id:'N',at:{x:3,y:0,z:0,range:3,roles:['T']},required:true}]});
+ s={...s,metricNavigation:{...s.metricNavigation,coverEdges:[{node:0,type:'LOW',bearing:0,halfAngle:Math.PI/3}]}};
+ assert.equal(R.coverForAttack(s,{x:0,y:0,z:0},{x:3,y:0,z:0}).type,'LOW');
+ assert.throws(()=>R.technicalAction(s,'P','N','CONNECT'),/position/);
+});

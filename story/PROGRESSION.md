@@ -13,7 +13,7 @@ PRIM3 progression is not one protagonist passing through every phenotype.
 
 The roster is an ensemble of named people with different disciplines, careers, loyalties and rates of advancement.
 
-McCluster's seven academic years remain an important chronological spine, but gameplay progression must deepen the whole cast.
+McCluster's seven academic semesters (3.5 academic years) remain an important chronological spine, but gameplay progression must deepen the whole cast.
 
 ---
 

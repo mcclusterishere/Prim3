@@ -4,7 +4,7 @@ character_id: MCCLUSTER
 role: Wildcard / ensemble spine / eventual PRIM3
 civilian_name: McCluster
 season_one_age: 33
-succession_age: approximately 40
+succession_age: approximately 36–37; birthday unspecified; Fall 2029
 succession_index: 3
 height: 6 ft 0 in
 ---
@@ -15,7 +15,7 @@ height: 6 ft 0 in
 
 McCluster is one of PRIM3's central main characters, not the mandatory owner of every episode.
 
-His seven academic years provide a major chronological/succession spine, but episodes may belong primarily to Aya, Chioma, Royce, Amira, Marc, Helen, Jonas, Pylon, Thandiwe or other characters. McCluster may be supporting, cameo, mentioned-only or absent.
+His seven academic semesters (3.5 academic years) provide a major chronological/succession spine, but episodes may belong primarily to Aya, Chioma, Royce, Amira, Marc, Helen, Jonas, Pylon, Thandiwe or other characters. McCluster may be supporting, cameo, mentioned-only or absent.
 
 > **The succession belongs to McCluster. The world belongs to everybody.**
 
@@ -70,7 +70,7 @@ Key identity continuity:
 - allows rival Royce to inherit that opportunity;
 - lives the mobile Ghost/Whip Equipped years age 26–33;
 - returns to college at 33;
-- ultimately becomes PRIM3 at approximately 40.
+- ultimately becomes PRIM3 at the Fall 2029 succession, approximately age 36–37 (birthday unspecified).
 
 Benji is not a separate contemporary person.
 

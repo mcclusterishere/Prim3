@@ -25,7 +25,7 @@ It occurs during S7E1 `RAID (HOT SITE)` even though the audience sees it first.
 
 Then:
 
-> **SEVEN YEARS EARLIER.**
+> **FALL 2026.**
 
 McCluster is 33, newly re-entering college, and the ensemble chronology begins.
 

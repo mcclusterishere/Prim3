@@ -3,6 +3,11 @@ status: CANON MIGRATED BLUEPRINT
 season: 4
 episode: 3
 global_episode: 12
+chronology_version: prim3.semesters/v2
+semester: 4
+term: Spring
+calendar_year: 2028
+episode_frame: finals
 level_id: LVL-12
 song: IoT
 mission: House of Eyes

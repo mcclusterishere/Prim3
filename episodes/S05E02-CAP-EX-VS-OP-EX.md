@@ -3,6 +3,11 @@ status: CANON MIGRATED BLUEPRINT
 season: 5
 episode: 2
 global_episode: 14
+chronology_version: prim3.semesters/v2
+semester: 5
+term: Fall
+calendar_year: 2028
+episode_frame: midterms
 level_id: LVL-14
 song: Cap Ex Vs. Op Ex
 mission: Own the Exit

@@ -20,7 +20,7 @@ McCluster:
 - is one of the ensemble's central characters, not the mandatory owner of every episode;
 - operates as the canonical Wildcard/Flex when present;
 - has the old Benji identity in the age-19-to-26 prequel history;
-- and becomes **PRIM3** after final succession at approximately 40.
+- and becomes **PRIM3** after final succession at the Fall 2029 succession, approximately age 36–37 (birthday unspecified).
 
 The old visual asset associated with `PRIME-N1` may continue to function as the approved **McCluster post-succession suit design** until its asset path is renamed. The old filename does not preserve the old title.
 

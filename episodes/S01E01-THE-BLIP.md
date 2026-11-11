@@ -3,6 +3,11 @@ status: CANON MIGRATED BLUEPRINT
 season: 1
 episode: 1
 global_episode: 1
+chronology_version: prim3.semesters/v2
+semester: 1
+term: Fall
+calendar_year: 2026
+episode_frame: opening
 level_id: LVL-01
 song: High Alert
 mission: The Blip
@@ -73,7 +78,7 @@ Cut before the outcome.
 
 **TITLE: PRIM3**
 
-**SUPER: SEVEN YEARS EARLIER**
+**SUPER: FALL 2026**
 
 ## Chronological human story — re-entering the grid
 

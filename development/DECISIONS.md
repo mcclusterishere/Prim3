@@ -26,7 +26,7 @@ This ledger prevents AI collaborators from silently filling important blanks.
 ## Succession
 
 - [ ] Exact technical mechanism of Prime authority
-- [ ] How the age-40 restriction was implemented
+- [x] SUPERSEDED 2026-11-09: the old age-40 restriction is retired by `story/SEMESTER-CHRONOLOGY-AUTHORITY.md`; succession follows validated transfer in Fall 2029, not an age-40 gate.
 - [ ] How the presiding Prime overrode it at 33
 - [ ] How a death is verified
 - [ ] What prevents a false or coerced transfer

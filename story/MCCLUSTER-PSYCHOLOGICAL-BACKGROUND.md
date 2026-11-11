@@ -33,8 +33,8 @@ The intended reveal order is:
 
 ```text
 FIRST RELEASED / EXPERIENCED
-PRIM3 — AGE 33–40
-McCluster appears as a 33-year-old student entering a new seven-year path.
+PRIM3 — AGE 33 AT ENTRY; APPROXIMATELY 36–37 AT THE FALL 2029 FINALE
+McCluster appears as a 33-year-old student entering a new seven-semester path.
 His earlier life exists as psychological substrate, not required exposition.
 
 THEN
@@ -62,9 +62,9 @@ The transition from one show to the next is itself part of the reveal. Do not ma
 
 ---
 
-# 2. Three seven-year lives before Prime
+# 2. Two seven-year histories and seven semesters before Prime
 
-McCluster's adult life is structured around successive seven-year identities:
+McCluster's adult life includes two seven-year pre-college eras, followed by seven college semesters:
 
 ```text
 AGE 19–26 — HITMAN / BENJI
@@ -74,11 +74,11 @@ AGE 26–33 — WHIP EQUIPPED / THE GHOST YEARS
 Mobility, legal hustle, vehicle dealing, instability, hidden criminal relapse,
 infrastructure exposure, love, betrayal, reinvention.
 
-AGE 33–40 — PRIM3 / MCCLUSTER
+AGE 33 AT ENTRY; APPROXIMATELY 36–37 AT THE FALL 2029 FINALE — PRIM3 / MCCLUSTER
 Education, fixed housing, formal credentials, infrastructure mastery,
 relationships, governance, command and succession.
 
-AGE 40+ — PRIME
+AFTER THE FALL 2029 SUCCESSION — PRIME
 McCluster inherits force + capital + information and must decide what kind of authority to become.
 ```
 
@@ -1025,7 +1025,7 @@ When disclosure is uncertain, preserve the mystery.
 
 There are at least three distinct music/story bodies in the wider McCluster universe:
 
-1. **PRIM3 music** — belongs to the PRIM3 age-33-to-40 story and its mission/curriculum architecture.
+1. **PRIM3 music** — belongs to the PRIM3 college-entry-at-33 through the Fall 2029 finale story and its mission/curriculum architecture.
 2. **Whip Equipped music** — belongs to the age-26-to-33 Whip Equipped story.
 3. **Hitman/Benji music** — belongs to the age-19-to-26 Hitman story where compatible with detailed canon.
 
@@ -1084,10 +1084,10 @@ How far will I go when the world gives me enemies?
 WHIP EQUIPPED / GHOST YEARS — 26–33
 Can I turn survival and hustle into something legitimate without carrying the old world into it?
 
-PRIM3 / MCCLUSTER — 33–40
+PRIM3 / MCCLUSTER — 33 at entry; approximately 36–37 at the Fall 2029 finale
 Can I become stable, educated and trustworthy without losing the initiative that kept me alive?
 
-PRIME — 40+
+PRIME — after validated succession at the Fall 2029 finale; exact age depends on the unestablished birthday
 Can I possess enough power to solve almost anything and still accept that I do not have the right to decide everything?
 ```
 

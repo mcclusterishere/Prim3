@@ -11,11 +11,11 @@ The title has two in-world meanings:
 
 The number is secretly a human succession index. The presiding hidden leader during the series is **PRIM2**. McCluster eventually becomes **PRIM3**. The series title therefore names both the visible program world and the succession destination the audience does not understand at first.
 
-The story opens in the middle of the final RAID: **PRIM2** performs **High Alert** from Site 0 while McCluster and Royce's separate assault elements close in. Before the outcome is revealed, the story rewinds seven academic years.
+The story opens in the middle of the final RAID: **PRIM2** performs **High Alert** from Site 0 while McCluster and Royce's separate assault elements close in. Before the outcome is revealed, the story rewinds to Fall 2026.
 
 ## Core promise
 
-- Seven seasons; one academic year per season.
+- Seven seasons; one academic semester per season; two per academic year.
 - Three episodes per season; 21 total.
 - One song = one episode = one mission.
 - Rotating episode ownership across a multinational ensemble.

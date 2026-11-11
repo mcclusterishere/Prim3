@@ -524,7 +524,7 @@ PRIM3 begins when the ghost voluntarily steps back onto the grid.
 
 ---
 
-# 18. Three seven-year identities
+# 18. Two seven-year histories and a seven-semester college era
 
 The long-form McCluster chronology is now structurally:
 
@@ -537,11 +537,11 @@ AGE 26–33 — WHIP EQUIPPED / THE GHOST YEARS
 Question: Can McCluster turn hustle into legitimate ownership while staying alive long enough to disappear from his old life?
 Power language: capital / mobility / vehicles / business / infrastructure
 
-AGE 33–40 — PRIM3 / MCCLUSTER
+AGE 33 AT ENTRY; APPROXIMATELY 36–37 AT THE FALL 2029 FINALE — PRIM3 / MCCLUSTER
 Question: What will McCluster do when knowledge becomes authority?
 Power language: infrastructure / information / command
 
-AGE 40+ — PRIME
+AFTER THE FALL 2029 SUCCESSION — PRIME
 Question: Can McCluster hold force, capital and information without becoming the man he defeated?
 ```
 
@@ -611,7 +611,7 @@ AGE 33
 -> attempts to cool the hustle-for-a-living mentality
 -> becomes visible and rooted again
 -> PRIM3 begins
-AGE 40
+FALL 2029, APPROXIMATELY AGE 36–37
 -> succession / PRIME
 ```
 

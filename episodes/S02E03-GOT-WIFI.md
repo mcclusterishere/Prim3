@@ -3,6 +3,11 @@ status: CANON MIGRATED BLUEPRINT
 season: 2
 episode: 3
 global_episode: 6
+chronology_version: prim3.semesters/v2
+semester: 2
+term: Spring
+calendar_year: 2027
+episode_frame: finals
 level_id: LVL-06
 song: Got Wifi
 mission: Dead Air

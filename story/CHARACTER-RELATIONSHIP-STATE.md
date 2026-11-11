@@ -117,7 +117,7 @@ Specialist relationship files override this summary where more specific.
 - **First awareness:** PRIM2 traces McCluster backward through Royce / Bigga Lex / Benji during McCluster's Ghost/Whip years.
 - **Reacquisition:** McCluster's age-33 haircut/waves and return to college disrupt simple visual continuity; Site 0's updated identity-resolution system restores high-confidence continuity.
 - **Affection:** PRIM2 develops respect/hope he cannot openly express without corrupting the test.
-- **Power imbalance:** maximal early; narrows across seven years.
+- **Power imbalance:** maximal early; narrows across seven semesters.
 - **Failure trigger:** McCluster learns how much of his path was observed or shaped without consent.
 - **End state:** McCluster defeats/inherits PRIM2's Mantle and becomes PRIM3 while trying not to reproduce PRIM2's centralized-control philosophy.
 

@@ -3,6 +3,11 @@ status: CANON MIGRATED BLUEPRINT
 season: 6
 episode: 1
 global_episode: 16
+chronology_version: prim3.semesters/v2
+semester: 6
+term: Spring
+calendar_year: 2029
+episode_frame: opening
 level_id: LVL-16
 song: Per Diem
 mission: Road Kit

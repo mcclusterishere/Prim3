@@ -3,6 +3,11 @@ status: CANON MIGRATED BLUEPRINT
 season: 3
 episode: 3
 global_episode: 9
+chronology_version: prim3.semesters/v2
+semester: 3
+term: Fall
+calendar_year: 2027
+episode_frame: finals
 level_id: LVL-09
 song: Virus Types
 mission: Patient Zero

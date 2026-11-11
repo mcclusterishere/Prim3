@@ -17,9 +17,9 @@ Current canon:
 - Benji is McCluster's old identity, not a separate attacker;
 - 17 memory anchors point toward Episodes 02–18;
 - the opening cuts away before RAID resolves;
-- the series then rewinds **seven years earlier** to McCluster entering college at 33 and the ensemble world beginning.
+- the series then rewinds to **Fall 2026** to McCluster entering college at 33 and the ensemble world beginning.
 
-The pilot should not spend its post-song runtime explaining the immediate path to Site 0. Doing so collapses the seven-year mystery too early.
+The pilot should not spend its post-song runtime explaining the immediate path to Site 0. Doing so collapses the seven-semester mystery too early.
 
 Current authorities:
 - `story/missions/HIGH-ALERT.md`

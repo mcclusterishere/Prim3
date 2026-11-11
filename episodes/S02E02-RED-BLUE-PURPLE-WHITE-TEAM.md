@@ -3,6 +3,11 @@ status: CANON MIGRATED BLUEPRINT
 season: 2
 episode: 2
 global_episode: 5
+chronology_version: prim3.semesters/v2
+semester: 2
+term: Spring
+calendar_year: 2027
+episode_frame: midterms
 level_id: LVL-05
 song: Red Blue Purple White Team
 mission: Four Colors

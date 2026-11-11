@@ -3,6 +3,11 @@ status: CANON MIGRATED PROTECTED OPEN SLOT
 season: 6
 episode: 3
 global_episode: 18
+chronology_version: prim3.semesters/v2
+semester: 6
+term: Spring
+calendar_year: 2029
+episode_frame: finals
 level_id: LVL-18
 song: SONG #21 — OPEN
 mission: MISSION #18 — OPEN
