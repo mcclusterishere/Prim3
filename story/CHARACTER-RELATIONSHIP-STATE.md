@@ -9,6 +9,8 @@ branch: main
 
 This is the persistent relationship ledger for the immediate PRIM3 cast. Update it after consequential scenes; do not reset characters because a new episode starts.
 
+The map of blocs, leverage, and loaded struggles is `RELATIONSHIP-GRAPH.md`. This ledger still wins on any single pair.
+
 Scale language remains qualitative: **very low / low / guarded / medium / high / very high**.
 
 Specialist relationship files override this summary where more specific.

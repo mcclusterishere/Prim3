@@ -19,6 +19,7 @@
 | `HITMAN-CAST.md` | Hitman core cast backstories and relationship pressure |
 | `HITMAN-CHARACTER-DOSSIERS.md` | Full dossiers for the core Hitman cast |
 | `CHARACTER-RELATIONSHIP-STATE.md` | Living trust/debt/resentment/secret continuity ledger |
+| `RELATIONSHIP-GRAPH.md` | Alliance and power graph. Index only. New beats go in its development log before promotion |
 | `ENDING-GHOST-CIV.md` | Constrained Ghost-class state after the PRIM2 to PRIM3 transfer |
 | `source-material/` | Owner lyric sources on `main` |
 
