@@ -32,7 +32,7 @@ Therefore any older Hitman material describing `Benji` as a separate present-day
 
 ## Royce — Hitman successor / sovereign
 
-**Background:** Royce is seven years younger than McCluster. When McCluster/Benji is approximately 26 and walking away from Hitman, Royce is approximately 19: young, dangerous, ambitious and willing to take a chair McCluster does not want.
+**Background:** Royce is seven years younger than McCluster. When McCluster/Benji is approximately 26 and walking away from Hitman, Royce is approximately 19: young, dangerous, ambitious and willing to take a chair McCluster does not want. He is Foundational Black American, from Atlanta, and the only albino in Hitman.
 
 McCluster already knows Royce well enough to believe Royce might kill him for power. McCluster nevertheless refuses the succession and allows the opportunity to move toward Royce partly because McCluster's deeper loyalty is to Bigga Lex rather than the organization itself.
 

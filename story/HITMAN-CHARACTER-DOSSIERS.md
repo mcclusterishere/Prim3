@@ -17,7 +17,8 @@ For McCluster/Benji history, use `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `MCCLUST
 
 ## Royce — contemporary sovereign / McCluster's old rival
 
-**Age relationship:** seven years younger than McCluster. Approximately 19 when McCluster is 26 and refuses Bigga Lex's succession.  
+**Age relationship:** seven years younger than McCluster. Approximately 19 when McCluster is 26 and refuses Bigga Lex's succession.
+**Lineage:** Foundational Black American, Atlanta. The only albino in Hitman. Sun and night driving are real limits, not a costume.  
 **Civilian texture:** keeps a schedule in which business, people asking permission, property/relationship obligations and visible authority blur together.  
 **Money:** increasingly asset- and network-based; equates durable control with survival.  
 **Specialty:** command pressure, battlefield authority, loyalty networks, reading fear and ambition.  

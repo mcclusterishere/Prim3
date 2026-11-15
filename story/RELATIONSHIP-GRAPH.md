@@ -44,7 +44,7 @@ Immediate recurring cast, 39. Benji is not a node. Benji is McCluster, ages 19â€
 
 **Hitman (12).** Homes are one each, only the twelve largest Black-alone states. Full lives: `HITMAN-HOME-STATES.md`.
 
-Royce (Georgia), Sable Quinn (Texas), Grant Voss (California), Tone Rivera (New York), Kira "Keys" Moon (Illinois), Omar "Rack" Dillon (Virginia), Jules "Kiosk" Mendez (Florida), Rae "Twin" Colton (North Carolina), Chris "Perch" Alvarez (Pennsylvania), Dez "Switch" Calhoun (Ohio), Mina "Halo" Brooks (Louisiana), Sora "Gymnast" Okada (Maryland).
+Royce (Georgia, FBA, the only albino), Sable Quinn (Texas, FBA), Mina Brooks (Louisiana, FBA), Dez Calhoun (Ohio, FBA). The other eight are second-generation and claim the city anyway: Tone (Puerto Rico / Bronx), Keys (Haiti / Chicago), Rack (Trinidad / Portsmouth), Kiosk (Cuba / Orlando), Rae (Jamaica / Charlotte), Perch (Dominican Republic / Philadelphia), Grant (Nigeria / Baldwin Hills), Sora (Ghana / Bowie). The four call the eight tethers. Full lives: `HITMAN-HOME-STATES.md`.
 
 **Promoted outside the 39.** They are real. They are not a second workplace cast.
 
