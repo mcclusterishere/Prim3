@@ -9,6 +9,8 @@ branch: main
 
 Hitman is the street/corporate sibling system operating beneath the hidden authority of **PRIM2** during the immediate PRIM3 chronology.
 
+Home states, cities, families, and ages for the twelve contemporary members are locked in `HITMAN-HOME-STATES.md`. Each one is from a different state, and those states are only the twelve with the largest Black alone populations.
+
 These characters should never read like PRIM/McCluster employees wearing different clothes. Their expertise is social reach, deniable logistics, money, access, reputation, mobility, coercive pressure and street/corporate relationship systems rather than formal institutional IT doctrine.
 
 ## Continuity correction — Benji

@@ -9,6 +9,8 @@ branch: main
 
 These compact dossiers govern the contemporary Hitman ensemble unless a later individual dossier overrides them.
 
+Lives, families, ages, and home states are in `HITMAN-HOME-STATES.md`. That file wins on origin. This file still wins on voice, wounds, and job.
+
 **Benji is McCluster's age-19-to-26 identity, not a separate present-day operator. Royce is the contemporary Hitman successor/sovereign.**
 
 For McCluster/Benji history, use `MCCLUSTER-HITMAN-ORIGIN-CANON.md` and `MCCLUSTER-PSYCHOLOGICAL-BACKGROUND.md`.

@@ -42,7 +42,9 @@ Immediate recurring cast, 39. Benji is not a node. Benji is McCluster, ages 19â€
 
 **Public / system (3):** Maren Quill, Pylon, PRIM2.
 
-**Hitman (12):** Royce, Sable Quinn, Grant Voss, Tone Rivera, Kira "Keys" Moon, Omar "Rack" Dillon, Jules "Kiosk" Mendez, Rae "Twin" Colton, Chris "Perch" Alvarez, Dez "Switch" Calhoun, Mina "Halo" Brooks, Sora "Gymnast" Okada.
+**Hitman (12).** Homes are one each, only the twelve largest Black-alone states. Full lives: `HITMAN-HOME-STATES.md`.
+
+Royce (Georgia), Sable Quinn (Texas), Grant Voss (California), Tone Rivera (New York), Kira "Keys" Moon (Illinois), Omar "Rack" Dillon (Virginia), Jules "Kiosk" Mendez (Florida), Rae "Twin" Colton (North Carolina), Chris "Perch" Alvarez (Pennsylvania), Dez "Switch" Calhoun (Ohio), Mina "Halo" Brooks (Louisiana), Sora "Gymnast" Okada (Maryland).
 
 **Promoted outside the 39.** They are real. They are not a second workplace cast.
 
@@ -221,7 +223,7 @@ Write into these. Do not start a new faction when one of these is idle.
 3. **What survives PRIM2.** Chioma will use authority. Thandiwe is afraid of what it does to the holder. Helen wants a structure that outlives the man. Li and Leila are already modeling the institution as the threat.
 4. **The local no.** Nusrat, Hassan, Miguel, Dmitri. A correct door decision can be overturned by a layer that does not sign its name.
 5. **The unverifiable machine.** Emre wants a human check. Jonas will not admit what Pylon is to him. Pylon's relationship to PRIM2 stays unproven until a scene proves it.
-6. **Books versus appetite.** Sable and Rack can show Royce a truth. Mina can show him a body that does not have to be spent. Dez is the test of whether loyalty is still voluntary.
+6. **Books versus appetite.** Sable and Rack can show Royce a truth. Mina can insist the people she took out come back alive, which is what "Halo" means, not a commute. Dez is the test of whether loyalty is still voluntary.
 7. **The paired doors.** Rae and Sora, with Keys on one side and Priya on the other, Grant funding the respectable version, PRIM2 the only one who sees both.
 8. **Care as control.** The same flaw in Aya toward Ren and Zayd, and in McCluster toward Valeria and Aya. Tariq and Keiko are the people who can name it without leaving.
 9. **The public sentence.** Priya and Maren against the order to make something false sound finished. Grant is the kind of man the sentence would protect.

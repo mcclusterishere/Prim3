@@ -17,6 +17,7 @@
 | `SECONDARY-CHARACTER-DOSSIERS.md` | Compact dossiers for the development-pool secondaries |
 | `PHENOTYPE-IDENTITIES.md` | Named people occupying every Prim3/Hitman job class |
 | `HITMAN-CAST.md` | Hitman core cast backstories and relationship pressure |
+| `HITMAN-HOME-STATES.md` | The twelve Hitman homes. One each. Only the twelve largest Black-alone states |
 | `HITMAN-CHARACTER-DOSSIERS.md` | Full dossiers for the core Hitman cast |
 | `CHARACTER-RELATIONSHIP-STATE.md` | Living trust/debt/resentment/secret continuity ledger |
 | `RELATIONSHIP-GRAPH.md` | Alliance and power graph. Index only. New beats go in its development log before promotion |
