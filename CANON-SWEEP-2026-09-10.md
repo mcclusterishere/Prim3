@@ -1,5 +1,9 @@
 # PRIM3 Canon Sweep — 2026-09-10
 
+> **Historical snapshot. Not current naming law.**
+> Written while the protagonist's working name was **Jordan Vale**. The current name is **McCluster**. Where this file says Jordan, read McCluster. Do not revive Jordan as a separate person.
+> `CANON.md` (continuity 1.1.0) wins on any conflict, including WATCH runtime, the retired kill-then-dimension ending, and Ghost-year discovery. This sweep recorded the repo on 2026-09-10. It does not govern new pages.
+
 ## Purpose
 
 This sweep records the owner-directed gameplay escalation update and the continuity cleanup performed around it.

@@ -13,7 +13,7 @@ The canonical PRIM3 protagonist is **McCluster**.
 
 The prior protagonist identity is retired from current canon. Historical treatments, episode plans, game rules and character references must resolve to McCluster unless an explicitly archived source is being discussed as obsolete development history.
 
-McCluster does **not** enter the series by joining Equity Uprise.
+McCluster does **not** enter the series by joining McCluster Corp.
 
 He enters by joining **Equity Uprise**.
 

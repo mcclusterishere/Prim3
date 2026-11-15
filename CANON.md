@@ -1,8 +1,9 @@
 # PRIM3 Canon Register
 
 **Status:** Foundation canon (main)  
-**Continuity version:** 1.0.0  
+**Continuity version:** 1.1.0  
 **Authority:** Matthew McCluster  
+**Revision:** 2026-11-15. Propagated WATCH runtime. Demoted Jordan Vale to historical snapshot language. Locked Ghost-year discovery, the succession clock, and PRIM2's bounded hand in that period. Added the public cover-surface rule.  
 **Rule:** If subordinate material conflicts with this register or a current specialist authority delegated below, the higher/current authority wins until deliberately revised.
 
 ---
@@ -205,6 +206,8 @@ The same letters describe different levels of the same system.
 
 > **Same letters. Same system. Different truth depending on how close you are to the root.**
 
+Public surfaces use the cover expansion only. The PRIM3 learning product and the PRIM3 music act may teach infrastructure and security. They must not disclose the Mantle, the succession index, Benji, Site 0, or Hitman history. Those surfaces are not a second canon.
+
 See:
 - `story/PRIM-DUAL-MEANING-AUTHORITY.md`
 - `story/PRIM-SUCCESSION-AUTHORITY.md`
@@ -262,16 +265,19 @@ During approximately age 19–26 McCluster operates as **Benji**.
 
 **Benji is McCluster. Benji is not a separate contemporary character.**
 
-At approximately 26:
+At approximately 26, two successions fall in the same window:
 - Lex retires;
 - Lex offers succession to McCluster/Benji;
 - McCluster refuses;
-- Royce, seven years younger, receives the succession opportunity;
+- Royce, seven years younger and about 19, receives the succession opportunity;
+- PRIM2, about 33, completes his own succession from PRIM1 before his 34th birthday;
 - McCluster enters the Ghost / Whip Equipped years.
+
+The Royce-chair trace belongs to the early Ghost Years, after PRIM2 has the Mantle. It does not happen during the Hitman years before the refusal, and it is not Season 1.
 
 Age 26–33 includes prolonged vehicle living/mobile homelessness, legitimate vehicle dealing, data-center/infrastructure work, serious romance, criminal relapse/cocaine-network contamination, betrayal, the private-aircraft event, compartmentalization and eventual desire for a stable conventional life.
 
-PRIM2 first develops active interest in McCluster during the Ghost years after tracing Royce's succession backward through Lex to Benji/McCluster.
+PRIM2 first develops active interest in McCluster during those early Ghost Years, by tracing Royce's succession backward through Lex to Benji/McCluster. After that trace, he covertly creates the intersection between McCluster, the woman, and the cocaine connection. He later tips McCluster that she is cooperating with police, then stops. He does not plan, equip, or assist the private-aircraft event. That decision is McCluster's. The event is writer-facing history, not a procedure, and not permission to depict a method.
 
 See:
 - `story/MCCLUSTER-HITMAN-ORIGIN-CANON.md`

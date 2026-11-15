@@ -7,6 +7,9 @@ branch: main
 
 # PRIM3 — Migration Complete Checkpoint
 
+> **Historical checkpoint, 2026-09-10. Not the current continuity version.**
+> `CANON.md` is continuity 1.1.0. The "v0.8.0" line below, and every Jordan Vale reference in this file, describe the repo that day. The person is now **McCluster**. Do not use this checkpoint to override later specialist files.
+
 This file marks completion of the September 10 structural canon migration.
 
 The repo is now ready for **episode-by-episode scene writing and detailed character work** rather than another macro continuity rewrite.

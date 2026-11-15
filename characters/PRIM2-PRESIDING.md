@@ -5,7 +5,7 @@ role: Presiding Primary Root Identity Mantle holder
 civilian_name: UNSET
 succession_index: 2
 age_at_recruitment: 33
-age_at_jordan_recruitment: 40
+age_at_mccluster_entry: 40
 projected_age_at_succession: 47
 ---
 
@@ -27,7 +27,7 @@ The greatest known systems operator in the organization—and the exhausted thir
 
 PRIM2 was recruited at 33 and completed the succession path in less than nine months, defeating PRIM1 before his 34th birthday. He forced an architecture that expected an older holder to recognize him early.
 
-Seven years later, McCluster returns to college at 33 and becomes interesting to a man who has already been studying him since the Ghost/Whip years.
+That succession falls at the opening of McCluster's Ghost Years. McCluster is about 26 and has just refused the Hitman chair. PRIM2 is about 33. Seven years later McCluster returns to college at 33, and PRIM2 is about 40. PRIM2 has already been studying him since the early Ghost Years. College is reacquisition, not first interest.
 
 ## Dual public meaning
 

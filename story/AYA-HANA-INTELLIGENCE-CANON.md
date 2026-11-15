@@ -1,7 +1,7 @@
 ---
 status: CANON
 system: Aya Shinoda / Hana Lee intelligence authority
-version: 1.0.0
+version: 1.1.0
 branch: main
 ---
 
@@ -11,13 +11,17 @@ branch: main
 
 This file deepens the Hana Lee / Operation GLASSHOUSE material already recorded in `story/AYA-SHINODA-PSYCHOLOGICAL-BACKGROUND.md`.
 
-Where the earlier Aya dossier describes Hana only as a robotics mentor who later dies during a McCluster operation, **this file adds the hidden intelligence layer and wins where the two descriptions differ**.
+Where an earlier description treats Hana only as a robotics mentor who later dies during a **McCluster Corp** operation, **this file adds the hidden intelligence layer and wins where the two descriptions differ**.
+
+Hana is already dead before McCluster the person enters Equity Uprise. In this file, "McCluster" means the man. "McCluster Corp" means the institution. Do not collapse them.
 
 The audience and Aya do **not** automatically know the contents of this file. It is writer-facing truth.
 
 Canonical disclosure rule:
 
-> **Hana's death has three simultaneous meanings: Aya loses a mentor, McCluster loses an engineer, and Prime eliminates a foreign intelligence threat that has nearly identified him.**
+> **Hana's death has three simultaneous meanings: Aya loses a mentor, McCluster Corp loses an engineer, and PRIM2 withholds the safety-state information that would have stopped the machine, because Hana has nearly identified the living root.**
+
+PRIM2 does not push her into the machine. McCluster the person is not on that team and does not lose a coworker in that scene. He arrives later, inside an investigation Aya has already been living.
 
 ---
 
@@ -211,7 +215,7 @@ This is the point where her value as an adversarial tester is overtaken by the r
 
 # 7. Operation GLASSHOUSE — the public truth
 
-The public / ordinary McCluster version of GLASSHOUSE remains substantially intact.
+The public / ordinary McCluster Corp account of GLASSHOUSE remains substantially intact.
 
 Hana participates in an operation at the fictional **North River Medical Logistics Hub** in northern New Jersey.
 
@@ -293,7 +297,7 @@ She dies **immediately before the final corroboration step**.
 
 The material she has accumulated is enough to show that she was investigating something real, but not enough—without her context and final linkage—to compel an outsider to accept the Living Root conclusion.
 
-Her NIS superiors know she was investigating McCluster, but they do not possess the complete internal context Hana carried in her head.
+Her NIS superiors know she was investigating McCluster Corp, but they do not possess the complete internal context Hana carried in her head.
 
 Prime ensures no clean posthumous package exists that simply exposes him after her death.
 
@@ -665,7 +669,7 @@ Hana is an NIS technical intelligence officer. Prime knows. Prime uses her inves
 
 ## Hana's knowledge before death
 
-Hana knows she is working for the NIS and investigating McCluster. She knows McCluster has a hidden cross-system authority layer and strongly suspects a living human root connected to Site 0. She does not possess the complete later dual-board picture.
+Hana knows she is working for the NIS and investigating McCluster Corp. She knows the corporation has a hidden cross-system authority layer and strongly suspects a living human root connected to Site 0. She does not possess the complete later dual-board picture.
 
 ## Prime's knowledge
 
@@ -673,11 +677,11 @@ Prime knows Hana's intelligence affiliation, her real objective, her investigati
 
 ## Aya's knowledge at PRIM3 opening
 
-Aya knows Hana as mentor/friend/engineer. She believes GLASSHOUSE was a serious governance failure and once suspected something more sinister. After two years without proof and with extensive positive experience inside McCluster, she has partially abandoned the conspiracy-level interpretation.
+Aya knows Hana as mentor/friend/engineer. She believes GLASSHOUSE was a serious governance failure and once suspected something more sinister. After two years without proof and with extensive positive experience inside McCluster Corp, she has partially abandoned the conspiracy-level interpretation.
 
-## Ordinary McCluster knowledge
+## Ordinary institutional knowledge
 
-Most personnel know only that Hana was a respected technical specialist who died during GLASSHOUSE after an argument over safety-state uncertainty and continuation.
+Most personnel know only that Hana was a respected technical specialist who died during GLASSHOUSE after an argument over safety-state uncertainty and continuation. They do not know she was NIS. McCluster the person does not share this memory as a teammate. He was not there.
 
 ## Audience knowledge
 

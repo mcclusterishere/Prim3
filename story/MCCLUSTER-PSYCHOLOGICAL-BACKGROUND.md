@@ -1,7 +1,7 @@
 ---
 status: CANON
 system: McCluster psychological/background authority
-version: 1.1.0
+version: 1.2.0
 branch: main
 ---
 
@@ -500,9 +500,9 @@ Through the relationship, McCluster is introduced into a cocaine supply/transpor
 
 Whip Equipped, as a cash-heavy legitimate vehicle business, becomes intertwined with illicit money. The detailed mechanics of money laundering are not required here; the important character truth is that McCluster permits the business he built partly as an exit from crime to become contaminated by the old world.
 
-Unknown to McCluster, **Presiding Prime has already begun studying him during the Ghost Years.**
+Unknown to McCluster, **Presiding Prime has already begun studying him during the early Ghost Years.**
 
-Prime has recently assumed the Prime position and is trying to understand Hitman's operational lineage and how to use the organization effectively.
+Prime has just completed his own succession. He is about 33. McCluster is about 26 and has just refused the Hitman chair. Prime is trying to understand Hitman's operational lineage and how to use the organization effectively. "Recently" means that window, not Season 1.
 
 Royce presents an anomaly:
 

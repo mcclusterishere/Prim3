@@ -1,7 +1,7 @@
 ---
 status: CANON
 system: McCluster pre-PRIM3 origin / Hitman identity
-version: 1.2.0
+version: 1.3.0
 branch: main
 ---
 
@@ -448,7 +448,7 @@ This contradiction becomes one of the defining images of the Whip Equipped era:
 
 ---
 
-# 16. Infrastructure enters Equity Uprise's life
+# 16. Infrastructure during the Ghost Years
 
 The Ghost Years are not seven years spent only flipping vehicles.
 
@@ -633,7 +633,7 @@ Effective with this canon:
 8. McCluster's age-26 exit flows directly into Whip Equipped as a legitimacy/ownership strategy.
 9. The age-26-to-33 Whip Equipped period is also **the Ghost Years**: McCluster stays geographically mobile, lives in vehicles, flips vehicle inventory, works around infrastructure and avoids rebuilding the predictable routines of his Hitman life.
 10. McCluster's return to college at 33 is a deliberate **re-entry into conventional visibility, housing, education and employment**, not merely a degree decision.
-11. Prime's relationship to McCluster must eventually account for McCluster's hidden Hitman and Ghost Years history, but **whether Prime knew about Benji before McCluster's college reemergence remains open until explicitly locked**.
+11. PRIM2 does **not** first discover McCluster at college. PRIM2 completes his own succession at the opening of the Ghost Years, when he is about 33 and McCluster is about 26. During the early Ghost Years he traces Royce's chair backward through Bigga Lex to Benji/McCluster. College at 33 is a reacquisition after the haircut, not a first discovery. Whether PRIM2 watched the Hitman years in real time, before the age-26 refusal, stays open. The trace, the active interest, and the bounded Ghost-year hand are locked in `../CANON.md` §9 and `MCCLUSTER-PSYCHOLOGICAL-BACKGROUND.md`.
 
 ---
 
@@ -653,4 +653,4 @@ The following remain brainstorm/open rather than canonized by this document:
 - specific vehicles, flips, companies, employers and data-center jobs during ages 26–33;
 - when the informal vehicle hustle becomes the formal Whip Equipped brand/company;
 - the exact event that turns McCluster's college plan from idea into enrollment at age 33;
-- whether Prime observed or influenced any part of McCluster's Hitman or Whip Equipped periods before the PRIM3 reemergence.
+- whether PRIM2 watched the Hitman years in real time before the age-26 refusal. The early-Ghost-year Royce trace, the engineered intersection, the police tip, and the rule that PRIM2 does not assist the aircraft event are locked. They are not open.
