@@ -31,7 +31,7 @@ Hitman is a national crew, not a hometown gang. They did not grow up on the same
 
 ## Lineage split
 
-Four of the twelve are Foundational Black Americans. Eight are second-generation diaspora. That is the third / two-thirds split. Nobody in this crew is fresh off a plane. The eight were born in the cities they name. Their parents are the ones who migrated. The eight claim the city and the state. They do not lead with the country. The four do not care. They call the eight **tethers** anyway.
+Four of the twelve are Foundational Black Americans. Eight are second-generation diaspora. That is the third / two-thirds split. Nobody in this crew is fresh off a plane. The eight were born in the cities they name. Their parents came from the major diaspora countries, not from one homeland and not from a trivia list: Jamaica, Nigeria, Haiti, the Dominican Republic, Puerto Rico, Ghana, Trinidad, and Cuba. The eight claim the city and the state. They do not lead with the country. The four do not care. They call the eight **tethers** anyway. The jobs where that becomes a cost are in `HITMAN-JOBS.md`.
 
 In the real argument this crew is copying, a tether is the insult FBA people use for African and Caribbean immigrants, and for their American-born kids, when they think those people attached themselves to Black American culture, neighborhoods, and struggle while keeping another country in the house. Some voices use it only for somebody who cashes the culture and then talks down on Black Americans. Inside Hitman, Dez uses the wide version. Anybody whose parents had a different flag can catch it. Sable uses the narrow version, and she does not say it often. Mina will shut Dez up if he says it in her van. Royce lets it ride.
 

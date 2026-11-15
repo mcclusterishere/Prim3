@@ -246,3 +246,5 @@ PROMOTION TARGET:
 ```
 
 No new edges yet.
+
+The four Hitman jobs in `HITMAN-JOBS.md` are already promoted. Do not re-log them here.

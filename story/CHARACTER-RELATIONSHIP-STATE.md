@@ -200,6 +200,19 @@ Specialist relationship files override this summary where more specific.
 - **Hidden dependence:** PRIM2's dual architecture makes their separate social-entry lanes intersect.
 - **Failure trigger:** later discovery forces each to decide whether the other is rival, victim, sister-in-system or threat.
 
+# After the four Hitman jobs
+
+These moves are locked by `HITMAN-JOBS.md`. They happen before RAID. McCluster does not know them yet.
+
+- **Keys → Dez:** doors closed. He talked tether in her mother's hall. He washes a tray in the story. He does not get another one of her rooms until she says so.
+- **Dez → Iris Rivera:** he owes an apology he did badly. Tone will not take a sorry that skipped her.
+- **Tone ↔ Perch:** work trust is real. Perch said he was not sure. Tone moved anyway.
+- **Mina → Royce:** she no longer believes he will pick the living people when the insult is about his body. Unsaid.
+- **Sable → Royce:** she schedules him out of noon sun. He calls it babysitting. The schedule stands.
+- **Rack → Sable:** locked. She made him whole after Grant's clock ran ahead of her yes.
+- **Sable → Grant:** he cannot say Houston, or "we," about Third Ward. He keeps the paper anyway.
+- **Sora:** her notes have a nameless Houston lie from Grant's mouth. Rae still has not heard Sora's name.
+
 # Recurring micro-development protocol
 
 Every time two recurring characters share meaningful screen time, ask whether the relationship state moved even slightly.
